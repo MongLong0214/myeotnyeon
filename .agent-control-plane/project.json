@@ -1,0 +1,65 @@
+{
+  "branchProfile": {
+    "defaultBranch": "dev",
+    "longLived": [
+      "main",
+      "dev"
+    ],
+    "mergeStrategy": "merge_commit",
+    "releaseBranchCleanup": "keep",
+    "releaseTagPolicy": "semver",
+    "updateStrategy": "rebase_before_review"
+  },
+  "ciWorkflows": [
+    {
+      "approvedDigest": "sha256:b25d3fa557bab83648ddc4dde3ed04ad0bf4988ceb413f773828db7780720408",
+      "checkName": "project-ci",
+      "path": ".github/workflows/project-ci.yml",
+      "repositoryRole": "primary",
+      "unapprovedFirstActivation": false
+    }
+  ],
+  "commitlore": {
+    "mode": "preferred"
+  },
+  "postMergeCommands": [],
+  "projectId": "myeotnyeon",
+  "repositories": [
+    {
+      "manifestRoot": ".",
+      "remote": "github:MongLong0214/myeotnyeon",
+      "role": "primary"
+    }
+  ],
+  "schema": "agent-control-plane.project.v2",
+  "verificationCommands": [
+    {
+      "argv": [
+        "npm",
+        "test"
+      ],
+      "cwd": ".",
+      "envAllowlist": [],
+      "evidenceMode": "LOCAL_COMMAND",
+      "id": "test",
+      "maxMemoryMb": 4096,
+      "maxOutputBytes": 1048576,
+      "network": "deny",
+      "networkAllowlist": [],
+      "repositoryRole": "primary",
+      "required": true,
+      "timeoutSeconds": 1200
+    }
+  ],
+  "verificationProfiles": {
+    "guarded": [
+      "test"
+    ],
+    "simple": [
+      "test"
+    ],
+    "standard": [
+      "test"
+    ]
+  }
+}
