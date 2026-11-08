@@ -2,9 +2,9 @@
 Reports raw signals, including legal terminology and formal source narration;
 no terminology exceptions are silently subtracted from counts.
 """
-import json,pathlib,re,sys
+import json,os,pathlib,re,sys
 E=pathlib.Path(__file__).resolve().parent;W=E.parents[2]
-IMNA=pathlib.Path.home()/'.claude/jobs/myeotnyeon-cto/tools/im-not-ai/skills/humanize-korean/references'
+IMNA=pathlib.Path(os.environ.get('IM_NOT_AI_DIR',W/'.deps/im-not-ai'))/'skills/humanize-korean/references'  # im-not-ai checkout; default studio/.deps/im-not-ai
 sys.path.insert(0,str(IMNA));import metrics_v2 as M
 source=(W/'episodes/quiz/out/v3/textgate.py').read_text()
 a=source.index('# C-11:');b=source.index('\ndef gate(eid):');exec(source[a:b])

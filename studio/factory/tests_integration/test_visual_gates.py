@@ -22,7 +22,7 @@ import review_gates as r
 import visual_gates as v
 from gates import apply_cto_signoffs, finalize_review
 
-FIXTURE = Path(__file__).parent/'fixtures/n18_ceo_fix2.json'
+FIXTURE = Path(__file__).resolve().parents[1]/'tests/fixtures/n18_ceo_fix2.json'  # production N18 frames; not in git
 
 
 class VisualGateTests(unittest.TestCase):

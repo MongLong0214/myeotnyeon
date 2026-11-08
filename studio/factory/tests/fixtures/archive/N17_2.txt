@@ -1,0 +1,5 @@
+SYNTHETIC TEST FIXTURE — header-only stand-in for an archived source; carries no article text.
+Source-ID: N17_2
+Publisher: SBS
+Publication-date: 2025-10-24
+Original-URL: https://news.sbs.co.kr/news/endPage.do?news_id=N1008304477

@@ -19,7 +19,7 @@ def cmd(args):
 
 def decode(v,start=0,end=None,width=270):
     filt=f'select=gte(n\\,{start})'+(f'*lt(n\\,{end})' if end is not None else '')+f',scale={width}:{width*16//9}'
-    out,_=cmd(['ffmpeg','-v','error','-i',v,'-vf',filt,'-vsync','0','-pix_fmt','rgb24','-f','rawvideo','-'])
+    out,_=cmd(['ffmpeg','-v','error','-i',v,'-vf',filt,'-fps_mode','passthrough','-pix_fmt','rgb24','-f','rawvideo','-'])
     return np.frombuffer(out,np.uint8).reshape(-1,width*16//9,width,3)
 
 UNNUMBERED_LINE=re.compile(r'(?m)^번호 미배정(?:\.|\s*$)')

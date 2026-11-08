@@ -1,0 +1,5 @@
+SYNTHETIC TEST FIXTURE — header-only stand-in for an archived source; carries no article text.
+Source-ID: N17_1
+Publisher: 뉴시스
+Publication-date: 2025-06-13
+Original-URL: https://www.newsis.com/view/NISX20250613_0003212430

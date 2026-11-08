@@ -1,6 +1,6 @@
 # Hook and caption distillation from 2 MIT repos (owner 11-07: "참고할만한게있나")
 
-Read only these files. Use the GitHub raw URL or a shallow clone into /private/tmp/claude-501/hooklib, deleted afterwards:
+Read only these files. Use the GitHub raw URL or a shallow clone into a temporary directory (e.g. `$(mktemp -d)/hooklib`), deleted afterwards:
 - coreyhaines31/marketingskills: skills/social/references/short-form-video.md, plus the hook and anti-slop parts of skills/copywriting and skills/ad-creative
 - AgriciDaniel/claude-youtube: skills/claude-youtube/references/retention-scripting-guide.md, sub-skills/hook.md, sub-skills/shorts.md (if it exists)
 

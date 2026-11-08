@@ -2810,3 +2810,6 @@ review_runs/**/images/
 # END repo_check generated exclusions
 factory/unslop/DIAGNOSIS.md
 factory/unslop/SKILLS_DIGEST.md
+
+# Third-party checkouts used by tests/tools (e.g. im-not-ai); never committed.
+/.deps/

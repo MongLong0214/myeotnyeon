@@ -70,7 +70,7 @@
 
 ## 한국어 문장
 
-[humanize-korean 진단 규칙]($HOME/.claude/skills/humanize-korean/references/diagnosis-rules.md)의 A/C/D/E/H/I/J를 영상에 맞게 취한다. 내레이션은 짧은 구어에 가까운 설명체로 쓴다. 롱폼의 `-습니다`를 유지해도 자연스러울 수 있다. 사람답게 보이려고 반말·`-죠`·감탄사를 무작위로 섞지 않는다.
+[humanize-korean 진단 규칙](https://github.com/epoko77-ai/im-not-ai/blob/bad4ef0a2b514318b2278b65cb4545414ad84d82/skills/humanize-korean/references/diagnosis-rules.md)의 A/C/D/E/H/I/J를 영상에 맞게 취한다. 내레이션은 짧은 구어에 가까운 설명체로 쓴다. 롱폼의 `-습니다`를 유지해도 자연스러울 수 있다. 사람답게 보이려고 반말·`-죠`·감탄사를 무작위로 섞지 않는다.
 
 | 덜어낼 표현 | 편집 방향 |
 |---|---|
