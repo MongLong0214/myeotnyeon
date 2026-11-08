@@ -1,0 +1,4 @@
+start_s,end_s,shown_summary,spoken_summary,cuts_in_second,cut_times_s,static_headline_present,note
+0,1,파랑·노랑 군대의 전장 전체,전쟁 배경 제시,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+1,2,같은 전장으로 접근,치열한 접전이라는 설명,1,[1.8666666666666667],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+2,3,파란 전차와 장비에 더 접근,전쟁 배경 계속,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.

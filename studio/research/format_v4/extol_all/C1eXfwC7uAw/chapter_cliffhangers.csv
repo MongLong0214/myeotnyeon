@@ -1,0 +1,3 @@
+boundary_s,cliffhanger_type_manual,lead_or_question,strict_action_interruption,status
+43,인과 질문 유예,표적과 피해자가 달라진 이유를 남기고 준비 단계로 회귀,False,manual semantic classification; not retention evidence
+368.9,해석 질문 재제기,총알의 정체를 다시 의문으로 두고 이견의 자료를 제시,False,manual semantic classification; not retention evidence

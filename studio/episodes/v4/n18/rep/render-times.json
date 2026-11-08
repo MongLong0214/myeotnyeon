@@ -1,0 +1,179 @@
+[
+  {
+    "run": "V4N18-REP1-still",
+    "start": "2026-10-26T20:02:52+09:00",
+    "end": "2026-10-26T20:02:56+09:00",
+    "wall_seconds": 4.077,
+    "command": [
+      "npx",
+      "--no-install",
+      "remotion",
+      "still",
+      "src/index.ts",
+      "V4N18-REP1",
+      "episodes/v4/n18/rep/V4N18-REP1.png",
+      "--frame=90",
+      "--browser-executable=src/v4spike/chromium.sh",
+      "--port=3145"
+    ]
+  },
+  {
+    "run": "V4N18-REP2-still",
+    "start": "2026-10-26T20:02:56+09:00",
+    "end": "2026-10-26T20:02:58+09:00",
+    "wall_seconds": 2.449,
+    "command": [
+      "npx",
+      "--no-install",
+      "remotion",
+      "still",
+      "src/index.ts",
+      "V4N18-REP2",
+      "episodes/v4/n18/rep/V4N18-REP2.png",
+      "--frame=90",
+      "--browser-executable=src/v4spike/chromium.sh",
+      "--port=3145"
+    ]
+  },
+  {
+    "run": "V4N18-REP3-still",
+    "start": "2026-10-26T20:02:58+09:00",
+    "end": "2026-10-26T20:03:01+09:00",
+    "wall_seconds": 2.454,
+    "command": [
+      "npx",
+      "--no-install",
+      "remotion",
+      "still",
+      "src/index.ts",
+      "V4N18-REP3",
+      "episodes/v4/n18/rep/V4N18-REP3.png",
+      "--frame=90",
+      "--browser-executable=src/v4spike/chromium.sh",
+      "--port=3145"
+    ]
+  },
+  {
+    "run": "V4N18-REP1-clip",
+    "start": "2026-10-26T20:03:01+09:00",
+    "end": "2026-10-26T20:03:13+09:00",
+    "wall_seconds": 12.185,
+    "command": [
+      "npx",
+      "--no-install",
+      "remotion",
+      "render",
+      "src/index.ts",
+      "V4N18-REP1",
+      "episodes/v4/n18/rep/V4N18-REP1.mp4",
+      "--codec=h264",
+      "--crf=18",
+      "--pixel-format=yuv420p",
+      "--color-space=bt709",
+      "--concurrency=3",
+      "--browser-executable=src/v4spike/chromium.sh",
+      "--port=3145"
+    ]
+  },
+  {
+    "run": "V4N18-REP2-clip",
+    "start": "2026-10-26T20:03:13+09:00",
+    "end": "2026-10-26T20:03:23+09:00",
+    "wall_seconds": 9.891,
+    "command": [
+      "npx",
+      "--no-install",
+      "remotion",
+      "render",
+      "src/index.ts",
+      "V4N18-REP2",
+      "episodes/v4/n18/rep/V4N18-REP2.mp4",
+      "--codec=h264",
+      "--crf=18",
+      "--pixel-format=yuv420p",
+      "--color-space=bt709",
+      "--concurrency=3",
+      "--browser-executable=src/v4spike/chromium.sh",
+      "--port=3145"
+    ]
+  },
+  {
+    "run": "V4N18-REP3-clip",
+    "start": "2026-10-26T20:03:23+09:00",
+    "end": "2026-10-26T20:03:33+09:00",
+    "wall_seconds": 9.801,
+    "command": [
+      "npx",
+      "--no-install",
+      "remotion",
+      "render",
+      "src/index.ts",
+      "V4N18-REP3",
+      "episodes/v4/n18/rep/V4N18-REP3.mp4",
+      "--codec=h264",
+      "--crf=18",
+      "--pixel-format=yuv420p",
+      "--color-space=bt709",
+      "--concurrency=3",
+      "--browser-executable=src/v4spike/chromium.sh",
+      "--port=3145"
+    ]
+  },
+  {
+    "run": "COVER-Q012-after",
+    "start": "2026-10-26T20:03:33+09:00",
+    "end": "2026-10-26T20:03:35+09:00",
+    "wall_seconds": 2.197,
+    "command": [
+      "npx",
+      "--no-install",
+      "remotion",
+      "still",
+      "src/index.ts",
+      "COVER-Q012",
+      "episodes/v4/n18/rep/COVER-Q012-after.png",
+      "--browser-executable=src/v4spike/chromium.sh",
+      "--port=3145"
+    ]
+  },
+  {
+    "run": "V4N18-REP1-still-final",
+    "start": "2026-10-26T20:06:58+09:00",
+    "end": "2026-10-26T20:07:05+09:00",
+    "wall_seconds": 7.171,
+    "command": [
+      "npx",
+      "--no-install",
+      "remotion",
+      "still",
+      "src/index.ts",
+      "V4N18-REP1",
+      "episodes/v4/n18/rep/V4N18-REP1.png",
+      "--frame=90",
+      "--browser-executable=src/v4spike/chromium.sh",
+      "--port=3145"
+    ]
+  },
+  {
+    "run": "V4N18-REP1-clip-final",
+    "start": "2026-10-26T20:07:05+09:00",
+    "end": "2026-10-26T20:07:23+09:00",
+    "wall_seconds": 17.634,
+    "command": [
+      "npx",
+      "--no-install",
+      "remotion",
+      "render",
+      "src/index.ts",
+      "V4N18-REP1",
+      "episodes/v4/n18/rep/V4N18-REP1.mp4",
+      "--codec=h264",
+      "--crf=18",
+      "--pixel-format=yuv420p",
+      "--color-space=bt709",
+      "--concurrency=3",
+      "--browser-executable=src/v4spike/chromium.sh",
+      "--port=3145"
+    ]
+  }
+]

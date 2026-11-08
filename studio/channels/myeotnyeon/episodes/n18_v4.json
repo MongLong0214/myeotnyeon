@@ -1,0 +1,84 @@
+{
+  "channel": "myeotnyeon",
+  "id": "n18_v4_factory",
+  "format": "long",
+  "build": "production/lf_toon/v4/n18",
+  "delivered": "production/lf_toon/v4/n18/picture_360p.mp4",
+  "never_touch": [
+    "production/lf_toon/lf3_heist",
+    "production/lf_toon/n18_film"
+  ],
+  "copy": [
+    "Actors.tsx",
+    "ApprovedStage.tsx",
+    "Assets.tsx",
+    "Field.tsx",
+    "Fix2Stage.tsx",
+    "Full.tsx",
+    "Rebuilt.tsx",
+    "sequence_data.json",
+    "review_spans.json",
+    "prepare_captions.py",
+    "render.cjs",
+    "deliver.py"
+  ],
+  "rewritten": {
+    "captions": [
+      "full_data.json"
+    ]
+  },
+  "engine": [
+    "production/compositor/package.json",
+    "production/compositor/node_modules",
+    "production/compositor/src/v4",
+    "production/compositor/src/v4spike",
+    "production/lf_toon/src",
+    "factory/lib",
+    "production/lf_toon/public/fonts/Pretendard-ExtraBold.woff2",
+    "production/lf_toon/v3/n18/full/full_data.json",
+    "production/lf_toon/v2/n18/audio/words.json",
+    "episodes/review_full/n18_v3/full/full_360p.mp4"
+  ],
+  "path_rewrites": {
+    "production/compositor/src/v4/offline.cjs": [
+      "production/compositor",
+      "{root}/production/compositor"
+    ]
+  },
+  "facts": "production/lf_toon/v2/n18/fact_trace.md",
+  "narration": {
+    "voice": "M1",
+    "source": "production/lf_toon/v2/n18/n18_v2_1080p.mp4",
+    "output": "build_audio.wav",
+    "note": "N18 v4 has no synthesis step: it reuses the delivered v2 M1 narration"
+  },
+  "commands": {
+    "captions": [
+      "{python}",
+      "prepare_captions.py"
+    ],
+    "render": [
+      "node",
+      "render.cjs",
+      "full"
+    ],
+    "deliver": [
+      "{python}",
+      "deliver.py"
+    ]
+  },
+  "outputs": {
+    "captions": [
+      "production/lf_toon/v4/n18/full_data.json",
+      "production/lf_toon/v4/n18/subtitles.srt"
+    ],
+    "render": [
+      "production/lf_toon/v4/n18/picture_360p.mp4"
+    ],
+    "deliver": [
+      "episodes/review_full/n18_v4/full/full_360p.mp4",
+      "episodes/review_full/n18_v4/full/av_check.json"
+    ]
+  },
+  "notes": "Finished N18 v4 (360p) re-run from an isolated APFS-clone copy of the build, engine and data under out/factory/myeotnyeon/n18_v4_factory/root; nothing is linked, the originals are only read."
+}

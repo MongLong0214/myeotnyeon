@@ -1,0 +1,18 @@
+{
+  "ranges": [
+    {
+      "id": "N019",
+      "start_frame": 1787,
+      "end_frame_inclusive": 1903
+    },
+    {
+      "id": "N072",
+      "start_frame": 8232,
+      "end_frame_inclusive": 8348
+    }
+  ],
+  "preserved_runtime_s": 304.58375,
+  "reason": "F16 transfer sentence restored after isolating obsolete duplicate; memorial entrance given serious camera/audio tone.",
+  "video": "Targeted Remotion replacement frames over base render, whole-file CRF16 encoding; new complete AAC from corrected mix",
+  "seconds": 67.92235779762268
+}

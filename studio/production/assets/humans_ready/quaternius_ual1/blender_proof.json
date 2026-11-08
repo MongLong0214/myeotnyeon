@@ -1,0 +1,383 @@
+{
+ "blender": "5.2.3 LTS",
+ "files": {
+  "AnimationLibrary_Godot_Standard.glb": {
+   "scene_fps": 24.0,
+   "armatures": [
+    "Rig"
+   ],
+   "bone_count": 53,
+   "bones_sample": [
+    "root",
+    "DEF-hips",
+    "DEF-spine.001",
+    "DEF-spine.002",
+    "DEF-spine.003",
+    "DEF-neck",
+    "DEF-head",
+    "DEF-shoulder.L",
+    "DEF-upper_arm.L",
+    "DEF-forearm.L",
+    "DEF-hand.L",
+    "DEF-f_index.01.L",
+    "DEF-f_index.02.L",
+    "DEF-f_index.03.L",
+    "DEF-f_middle.01.L",
+    "DEF-f_middle.02.L",
+    "DEF-f_middle.03.L",
+    "DEF-f_pinky.01.L",
+    "DEF-f_pinky.02.L",
+    "DEF-f_pinky.03.L",
+    "DEF-f_ring.01.L",
+    "DEF-f_ring.02.L",
+    "DEF-f_ring.03.L",
+    "DEF-thumb.01.L"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [
+    {
+     "name": "Icosphere",
+     "verts": 42,
+     "dims_m": [
+      1.902,
+      2.0,
+      2.0
+     ]
+    },
+    {
+     "name": "Mannequin",
+     "verts": 8546,
+     "dims_m": [
+      1.944,
+      0.37,
+      1.829
+     ]
+    }
+   ],
+   "actions": [
+    {
+     "name": "A_TPose",
+     "frame_start": 0,
+     "frame_end": 4,
+     "frames": 5,
+     "seconds": 0.17
+    },
+    {
+     "name": "Crouch_Fwd_Loop",
+     "frame_start": 0,
+     "frame_end": 48,
+     "frames": 49,
+     "seconds": 2.0
+    },
+    {
+     "name": "Crouch_Idle_Loop",
+     "frame_start": 0,
+     "frame_end": 70,
+     "frames": 71,
+     "seconds": 2.93
+    },
+    {
+     "name": "Dance_Loop",
+     "frame_start": 0,
+     "frame_end": 24,
+     "frames": 25,
+     "seconds": 1.0
+    },
+    {
+     "name": "Death01",
+     "frame_start": 0,
+     "frame_end": 57,
+     "frames": 59,
+     "seconds": 2.4
+    },
+    {
+     "name": "Driving_Loop",
+     "frame_start": 0,
+     "frame_end": 40,
+     "frames": 41,
+     "seconds": 1.67
+    },
+    {
+     "name": "Fixing_Kneeling",
+     "frame_start": 0,
+     "frame_end": 124,
+     "frames": 126,
+     "seconds": 5.2
+    },
+    {
+     "name": "Hit_Chest",
+     "frame_start": 0,
+     "frame_end": 8,
+     "frames": 9,
+     "seconds": 0.33
+    },
+    {
+     "name": "Hit_Head",
+     "frame_start": 0,
+     "frame_end": 10,
+     "frames": 11,
+     "seconds": 0.43
+    },
+    {
+     "name": "Idle_Loop",
+     "frame_start": 0,
+     "frame_end": 60,
+     "frames": 61,
+     "seconds": 2.5
+    },
+    {
+     "name": "Idle_Talking_Loop",
+     "frame_start": 0,
+     "frame_end": 70,
+     "frames": 71,
+     "seconds": 2.93
+    },
+    {
+     "name": "Idle_Torch_Loop",
+     "frame_start": 0,
+     "frame_end": 30,
+     "frames": 31,
+     "seconds": 1.27
+    },
+    {
+     "name": "Interact",
+     "frame_start": 0,
+     "frame_end": 48,
+     "frames": 49,
+     "seconds": 2.0
+    },
+    {
+     "name": "Jog_Fwd_Loop",
+     "frame_start": 0,
+     "frame_end": 22,
+     "frames": 23,
+     "seconds": 0.93
+    },
+    {
+     "name": "Jump_Land",
+     "frame_start": 0,
+     "frame_end": 30,
+     "frames": 31,
+     "seconds": 1.27
+    },
+    {
+     "name": "Jump_Loop",
+     "frame_start": 0,
+     "frame_end": 60,
+     "frames": 61,
+     "seconds": 2.5
+    },
+    {
+     "name": "Jump_Start",
+     "frame_start": 0,
+     "frame_end": 32,
+     "frames": 33,
+     "seconds": 1.33
+    },
+    {
+     "name": "PickUp_Table",
+     "frame_start": 0,
+     "frame_end": 20,
+     "frames": 21,
+     "seconds": 0.83
+    },
+    {
+     "name": "Pistol_Aim_Down",
+     "frame_start": 0,
+     "frame_end": 4,
+     "frames": 5,
+     "seconds": 0.17
+    },
+    {
+     "name": "Pistol_Aim_Neutral",
+     "frame_start": 0,
+     "frame_end": 4,
+     "frames": 5,
+     "seconds": 0.17
+    },
+    {
+     "name": "Pistol_Aim_Up",
+     "frame_start": 0,
+     "frame_end": 4,
+     "frames": 5,
+     "seconds": 0.17
+    },
+    {
+     "name": "Pistol_Idle_Loop",
+     "frame_start": 0,
+     "frame_end": 40,
+     "frames": 41,
+     "seconds": 1.67
+    },
+    {
+     "name": "Pistol_Reload",
+     "frame_start": 0,
+     "frame_end": 40,
+     "frames": 41,
+     "seconds": 1.67
+    },
+    {
+     "name": "Pistol_Shoot",
+     "frame_start": 0,
+     "frame_end": 15,
+     "frames": 16,
+     "seconds": 0.63
+    },
+    {
+     "name": "Punch_Cross",
+     "frame_start": 0,
+     "frame_end": 24,
+     "frames": 25,
+     "seconds": 1.0
+    },
+    {
+     "name": "Punch_Enter",
+     "frame_start": 0,
+     "frame_end": 20,
+     "frames": 22,
+     "seconds": 0.87
+    },
+    {
+     "name": "Punch_Jab",
+     "frame_start": 0,
+     "frame_end": 20,
+     "frames": 22,
+     "seconds": 0.87
+    },
+    {
+     "name": "Push_Loop",
+     "frame_start": 0,
+     "frame_end": 64,
+     "frames": 65,
+     "seconds": 2.67
+    },
+    {
+     "name": "Roll",
+     "frame_start": 0,
+     "frame_end": 35,
+     "frames": 36,
+     "seconds": 1.47
+    },
+    {
+     "name": "Roll_RM",
+     "frame_start": 0,
+     "frame_end": 35,
+     "frames": 36,
+     "seconds": 1.47
+    },
+    {
+     "name": "Sitting_Enter",
+     "frame_start": 0,
+     "frame_end": 31,
+     "frames": 32,
+     "seconds": 1.3
+    },
+    {
+     "name": "Sitting_Exit",
+     "frame_start": 0,
+     "frame_end": 24,
+     "frames": 26,
+     "seconds": 1.03
+    },
+    {
+     "name": "Sitting_Idle_Loop",
+     "frame_start": 0,
+     "frame_end": 40,
+     "frames": 41,
+     "seconds": 1.67
+    },
+    {
+     "name": "Sitting_Talking_Loop",
+     "frame_start": 0,
+     "frame_end": 70,
+     "frames": 71,
+     "seconds": 2.93
+    },
+    {
+     "name": "Spell_Simple_Enter",
+     "frame_start": 0,
+     "frame_end": 12,
+     "frames": 14,
+     "seconds": 0.53
+    },
+    {
+     "name": "Spell_Simple_Exit",
+     "frame_start": 0,
+     "frame_end": 10,
+     "frames": 11,
+     "seconds": 0.43
+    },
+    {
+     "name": "Spell_Simple_Idle_Loop",
+     "frame_start": 0,
+     "frame_end": 50,
+     "frames": 51,
+     "seconds": 2.1
+    },
+    {
+     "name": "Spell_Simple_Shoot",
+     "frame_start": 0,
+     "frame_end": 12,
+     "frames": 13,
+     "seconds": 0.5
+    },
+    {
+     "name": "Sprint_Loop",
+     "frame_start": 0,
+     "frame_end": 16,
+     "frames": 17,
+     "seconds": 0.67
+    },
+    {
+     "name": "Swim_Fwd_Loop",
+     "frame_start": 0,
+     "frame_end": 32,
+     "frames": 33,
+     "seconds": 1.33
+    },
+    {
+     "name": "Swim_Idle_Loop",
+     "frame_start": 0,
+     "frame_end": 80,
+     "frames": 81,
+     "seconds": 3.33
+    },
+    {
+     "name": "Sword_Attack",
+     "frame_start": 0,
+     "frame_end": 36,
+     "frames": 38,
+     "seconds": 1.53
+    },
+    {
+     "name": "Sword_Attack_RM",
+     "frame_start": 0,
+     "frame_end": 36,
+     "frames": 38,
+     "seconds": 1.53
+    },
+    {
+     "name": "Sword_Idle",
+     "frame_start": 0,
+     "frame_end": 40,
+     "frames": 41,
+     "seconds": 1.67
+    },
+    {
+     "name": "Walk_Formal_Loop",
+     "frame_start": 0,
+     "frame_end": 32,
+     "frames": 33,
+     "seconds": 1.33
+    },
+    {
+     "name": "Walk_Loop",
+     "frame_start": 0,
+     "frame_end": 32,
+     "frames": 33,
+     "seconds": 1.33
+    }
+   ]
+  }
+ }
+}

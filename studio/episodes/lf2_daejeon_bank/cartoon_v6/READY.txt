@@ -1,0 +1,8 @@
+LF2 CARTOON V6 READY
+1920x1080 / 30fps and 640x360 / 30fps · 354.600s
+Fresh local Supertonic 3 M1 · 7.1545 syllables/s including pauses.
+Sentence pauses 0.250–0.250s; internal max 0.100s.
+133 matched shots; 132 decoded cuts reviewed; jump cuts 0; mismatches 0.
+Cut-to-word/clause max 0.016667s / mean 0.008826s.
+See qa_v6.json, alignment.md, cut_sheet.jpg, qa/cut_review_*.jpg.
+No external network, paid image/video services, Blender or uploads.

@@ -1,0 +1,18 @@
+export const C={ink:'#161323',line:'#161323',paper:'#fff4da',yellow:'#edff56',teal:'#56e4c1',red:'#ff654b',skin:'#efb888',shade:'#bd7157',wood:'#a94f4e',slate:'#34304e',purple:'#a08bfa',blue:'#4f9bf7'};
+export type Role='host'|'employee'|'robberA'|'robberB'|'defendantA'|'defendantB'|'detective'|'analyst'|'judge'|'police'|'clerk'|'lawyer'|'victim'|'recruit'|'medic'|'instructor';
+export type View='front'|'three-quarter'|'profile'|'back';
+export type Expression='neutral'|'skeptic'|'alarm'|'resolve'|'sad'|'surprise'|'thinking'|'wild';
+export type Gesture='rest'|'point'|'shrug'|'hold'|'read'|'reach'|'stop'|'think'|'run'|'fall';
+export type Viseme='rest'|'A'|'E'|'O'|'M'|'F';
+export type ShotType='wide'|'medium'|'close-up'|'over-the-shoulder'|'low-angle'|'high-angle'|'insert';
+export type Mood='day'|'night'|'tense'|'courtroom'|'reflective';
+export type SetName=string;
+export type SpeechFrame={amplitude:number;viseme:Viseme};
+export type SceneShot={id:string;start:number;end:number;set:string;type:ShotType;action:string;mood?:Mood;index:number;variant?:number;facts?:string[];narrationId?:string;purpose?:string;camera?:'snap'|'whip'|'crash'|'push'|'dutch'|'pull';illustrative?:boolean;accent?:string;label?:string;energy?:number;serious?:boolean;cameraFocus?:{x?:number;y?:number;zoom?:number;roll?:number}};
+export const ease=(x:number)=>{const t=Math.max(0,Math.min(1,x));return t*t*(3-2*t)};
+export const pop=(t:number)=>t<0?0:1-Math.exp(-t/4)*Math.cos(t*.57);
+export type Motion={start:number;end:number;xTo?:number;yTo?:number;fallTo?:number};
+export type StagedActor={id:string;role:Role;x:number;y:number;scale?:number;flip?:boolean;view?:View;gesture?:Gesture;expr?:Expression;anonymous?:boolean;still?:boolean;walk?:boolean;fall?:number;bag?:boolean;hideRightArm?:boolean;motion?:Motion;label?:string};
+export type StagedProp={id:string;kind:string;x:number;y:number;scale?:number;label?:string;text?:string;subtext?:string;tone?:string;crossed?:boolean;truck?:boolean;flip?:boolean;occupants?:Role[];portraits?:Role[];motion?:Motion;fireAt?:number};
+export type Staging={sceneId:string;clockStart:number;actors?:StagedActor[];props?:StagedProp[];links?:{from:[number,number];to:[number,number];label?:string;crossed?:boolean}[];focus?:{x:number;y:number;zoom:number};angleDeg?:number;heading?:string;date?:string;location?:string;note?:string;axis?:string};
+export type CinematicShot=SceneShot&{staging?:Staging};

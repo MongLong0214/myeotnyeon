@@ -1,0 +1,3733 @@
+{
+  "episode": "N18",
+  "stage": 1,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration_seconds": 373.8,
+  "duration_frames": 11214,
+  "narration_syllables": 1660,
+  "estimated_voice_seconds": 335.4,
+  "estimated_spoken_syllables_per_second": 4.949314251639834,
+  "timing_note": "자연스러운 해라체 내레이션. M1·speed 1.0·16 steps 유지; 변경 발화만 재합성. 약 4.95음절/초에 맞춘 발화 길이, 기존 쉼과 숏 순서 유지. 영상 재렌더 전 자막 소스.",
+  "visual_rules": {
+    "path": "B: 2D SVG/React",
+    "no_external_assets": true,
+    "reconstruction_label_required": true,
+    "victim": "six static faceless uniform silhouettes with human proportions; no injury, suffering, collapse, medical scene, gear or training action",
+    "red_light": "Stage 2a owner override: saturated blue and hot red/magenta competing spatial lights in all three representatives; colour never denotes guilt or role",
+    "fonts": [
+      "Pretendard",
+      "Noto Serif KR"
+    ],
+    "font_substitution": "Existing OFL Pretendard only in Stage 2a representatives. No new font files.",
+    "captions": "one 44px Pretendard SemiBold subtitle line; maximum one focal overlay; top-centre verified date only (time not adopted in facts.md)",
+    "stage_2a": "original SVG only; frame-driven layered push/parallax, haze, rim glow, inverted-edge uniform texture, vignette and monochrome grain; no external images, models or new packages",
+    "representative_source_lines": "court sentence only: outlet names and publication date; fact_ids remain in data only"
+  },
+  "audio": {
+    "music_bed": false,
+    "drone": false,
+    "heartbeat": false,
+    "gag_sfx": false,
+    "card_ticks": false,
+    "whoosh": false,
+    "representative_clips": "no audio stream",
+    "full_film": "voice; outdoor air -34 dBFS; room tone -38~-40 dBFS; pre-verdict complete silence 0.8s; planned 50Hz sine cue -28 dBFS for 0.8s on verdict, no boom/click; no audio generated in Stage 1"
+  },
+  "chapters": [
+    {
+      "id": "01",
+      "title": "연병장",
+      "t_start": 0.0,
+      "t_end": 44.9
+    },
+    {
+      "id": "02",
+      "title": "기소와 구형",
+      "t_start": 44.9,
+      "t_end": 119.667
+    },
+    {
+      "id": "03",
+      "title": "1심의 판단",
+      "t_start": 119.667,
+      "t_end": 214.333
+    },
+    {
+      "id": "04",
+      "title": "항소심의 쟁점",
+      "t_start": 214.333,
+      "t_end": 303.367
+    },
+    {
+      "id": "05",
+      "title": "선고와 확정",
+      "t_start": 303.367,
+      "t_end": 363.8
+    }
+  ],
+  "narration": [
+    {
+      "id": "N001",
+      "chapter": "01",
+      "t_start": 0.0,
+      "t_end": 4.833,
+      "text": "이천이십사년 오월 이십삼일, 강원도 인제의 신병교육대다.",
+      "fact_ids": [
+        "E01"
+      ],
+      "syllables": 24,
+      "voice_frames": 145
+    },
+    {
+      "id": "N002",
+      "chapter": "01",
+      "t_start": 5.167,
+      "t_end": 10.833,
+      "text": "육군 십이사단에서 훈련병 여섯 명을 대상으로 군기훈련이 실시된다.",
+      "fact_ids": [
+        "E01",
+        "E02"
+      ],
+      "syllables": 28,
+      "voice_frames": 170
+    },
+    {
+      "id": "N003",
+      "chapter": "01",
+      "t_start": 11.167,
+      "t_end": 17.233,
+      "text": "중대장이 지시한 것은 절차와 방법을 위반한 군기훈련, 이른바 얼차려였다.",
+      "fact_ids": [
+        "C02",
+        "E03"
+      ],
+      "syllables": 30,
+      "voice_frames": 182
+    },
+    {
+      "id": "N004",
+      "chapter": "01",
+      "t_start": 17.567,
+      "t_end": 22.4,
+      "text": "부중대장도 이 군기훈련을 실시한 혐의로 재판에 넘겨진다.",
+      "fact_ids": [
+        "D02"
+      ],
+      "syllables": 24,
+      "voice_frames": 145
+    },
+    {
+      "id": "N005",
+      "chapter": "01",
+      "t_start": 22.733,
+      "t_end": 29.4,
+      "text": "훈련 도중 의식을 잃은 훈련병에게 적절한 조치를 하지 않았다는 혐의도 포함된다.",
+      "fact_ids": [
+        "E04"
+      ],
+      "syllables": 33,
+      "voice_frames": 200
+    },
+    {
+      "id": "N006",
+      "chapter": "01",
+      "t_start": 30.333,
+      "t_end": 32.367,
+      "text": "훈련병은 이틀 뒤 숨졌다.",
+      "fact_ids": [
+        "E05"
+      ],
+      "syllables": 10,
+      "voice_frames": 61
+    },
+    {
+      "id": "N007",
+      "chapter": "01",
+      "t_start": 32.7,
+      "t_end": 37.967,
+      "text": "재판에서는 이 군기훈련과 사망 사이의 인과관계가 쟁점이 된다.",
+      "fact_ids": [
+        "J06"
+      ],
+      "syllables": 26,
+      "voice_frames": 158
+    },
+    {
+      "id": "N008",
+      "chapter": "01",
+      "t_start": 38.3,
+      "t_end": 44.567,
+      "text": "항소심에서는 피해자마다 행위를 어떻게 나누어 볼 것인가도 판단을 가른다.",
+      "fact_ids": [
+        "J07",
+        "J08"
+      ],
+      "syllables": 31,
+      "voice_frames": 188
+    },
+    {
+      "id": "N009",
+      "chapter": "02",
+      "t_start": 46.4,
+      "t_end": 52.867,
+      "text": "중대장에게 적용된 혐의는 형법상 학대치사와 군형법상 직권남용 가혹행위다.",
+      "fact_ids": [
+        "C01"
+      ],
+      "syllables": 32,
+      "voice_frames": 194
+    },
+    {
+      "id": "N010",
+      "chapter": "02",
+      "t_start": 53.2,
+      "t_end": 60.267,
+      "text": "검찰은 중대장의 위법한 군기훈련을 단순한 과실로 보지 않고 학대치사죄로 기소한다.",
+      "fact_ids": [
+        "C10"
+      ],
+      "syllables": 35,
+      "voice_frames": 212
+    },
+    {
+      "id": "N011",
+      "chapter": "02",
+      "t_start": 60.6,
+      "t_end": 67.867,
+      "text": "검찰은 사건 경위와 훈련 방식, 진행 경과와 피해자의 신체조건 등을 종합했다고 설명한다.",
+      "fact_ids": [
+        "E06"
+      ],
+      "syllables": 36,
+      "voice_frames": 218
+    },
+    {
+      "id": "N012",
+      "chapter": "02",
+      "t_start": 68.2,
+      "t_end": 73.467,
+      "text": "부중대장에게 적용된 혐의도 학대치사와 직권남용 가혹행위다.",
+      "fact_ids": [
+        "D01"
+      ],
+      "syllables": 26,
+      "voice_frames": 158
+    },
+    {
+      "id": "N013",
+      "chapter": "02",
+      "t_start": 73.8,
+      "t_end": 81.267,
+      "text": "부중대장의 공소사실에도 위법한 군기훈련 실시와 적절한 조치를 하지 않은 점이 들어간다.",
+      "fact_ids": [
+        "D02"
+      ],
+      "syllables": 37,
+      "voice_frames": 224
+    },
+    {
+      "id": "N014",
+      "chapter": "02",
+      "t_start": 81.6,
+      "t_end": 87.267,
+      "text": "중대장 측은 잘못된 행동은 인정하면서도 학대치사 혐의는 부인했다.",
+      "fact_ids": [
+        "C04"
+      ],
+      "syllables": 28,
+      "voice_frames": 170
+    },
+    {
+      "id": "N015",
+      "chapter": "02",
+      "t_start": 87.6,
+      "t_end": 94.267,
+      "text": "검찰은 군의 지도력과 관리 체제에 대한 국민 신뢰를 훼손한 점도 구형 이유로 든다.",
+      "fact_ids": [
+        "E07"
+      ],
+      "syllables": 33,
+      "voice_frames": 200
+    },
+    {
+      "id": "N016",
+      "chapter": "02",
+      "t_start": 94.6,
+      "t_end": 100.267,
+      "text": "이천이십사년 십일월 십이일, 춘천지법에서 일심 결심공판이 열린다.",
+      "fact_ids": [
+        "C03"
+      ],
+      "syllables": 28,
+      "voice_frames": 170
+    },
+    {
+      "id": "N017",
+      "chapter": "02",
+      "t_start": 100.6,
+      "t_end": 105.433,
+      "text": "이 공판에서 검찰이 중대장에게 요청한 형은 징역 십 년이다.",
+      "fact_ids": [
+        "C03"
+      ],
+      "syllables": 24,
+      "voice_frames": 145
+    },
+    {
+      "id": "N018",
+      "chapter": "02",
+      "t_start": 105.767,
+      "t_end": 109.4,
+      "text": "부중대장에게 요청한 형은 징역 칠 년이었다.",
+      "fact_ids": [
+        "D03"
+      ],
+      "syllables": 18,
+      "voice_frames": 109
+    },
+    {
+      "id": "N019",
+      "chapter": "02",
+      "t_start": 109.733,
+      "t_end": 114.167,
+      "text": "중대장의 징역 십 년은 검찰이 일심에서 구형한 수치다.",
+      "fact_ids": [
+        "C03"
+      ],
+      "syllables": 22,
+      "voice_frames": 133
+    },
+    {
+      "id": "N020",
+      "chapter": "02",
+      "t_start": 114.5,
+      "t_end": 119.333,
+      "text": "부중대장의 징역 칠 년 역시 같은 일심 결심공판의 구형이다.",
+      "fact_ids": [
+        "D03"
+      ],
+      "syllables": 24,
+      "voice_frames": 145
+    },
+    {
+      "id": "N021",
+      "chapter": "03",
+      "t_start": 121.167,
+      "t_end": 126.833,
+      "text": "이천이십오년 일월 칠일, 춘천지법 형사이부가 일심 판결을 선고한다.",
+      "fact_ids": [
+        "C05",
+        "D04"
+      ],
+      "syllables": 28,
+      "voice_frames": 170
+    },
+    {
+      "id": "N022",
+      "chapter": "03",
+      "t_start": 127.167,
+      "t_end": 133.433,
+      "text": "재판부는 중대장의 학대치사와 직권남용 가혹행위 혐의를 유죄로 판단한다.",
+      "fact_ids": [
+        "C06"
+      ],
+      "syllables": 31,
+      "voice_frames": 188
+    },
+    {
+      "id": "N023",
+      "chapter": "03",
+      "t_start": 133.767,
+      "t_end": 137.6,
+      "text": "부중대장에게 적용된 혐의도 유죄로 판단했다.",
+      "fact_ids": [
+        "D05"
+      ],
+      "syllables": 19,
+      "voice_frames": 115
+    },
+    {
+      "id": "N024",
+      "chapter": "03",
+      "t_start": 137.933,
+      "t_end": 142.567,
+      "text": "재판부는 군기훈련과 사망 사이의 인과관계를 인정했다.",
+      "fact_ids": [
+        "J06"
+      ],
+      "syllables": 23,
+      "voice_frames": 139
+    },
+    {
+      "id": "N025",
+      "chapter": "03",
+      "t_start": 142.9,
+      "t_end": 148.967,
+      "text": "일심은 훈련병의 신체조건에 맞지 않는 군기훈련이 이뤄졌다고 지적한다.",
+      "fact_ids": [
+        "J03"
+      ],
+      "syllables": 30,
+      "voice_frames": 182
+    },
+    {
+      "id": "N026",
+      "chapter": "03",
+      "t_start": 149.3,
+      "t_end": 154.367,
+      "text": "이러한 훈련이 군의 사기와 전투력을 떨어뜨린다는 설명이다.",
+      "fact_ids": [
+        "J03"
+      ],
+      "syllables": 25,
+      "voice_frames": 152
+    },
+    {
+      "id": "N027",
+      "chapter": "03",
+      "t_start": 154.7,
+      "t_end": 160.167,
+      "text": "군에 대한 국민의 신뢰까지 해친다는 점에서 죄책이 무겁다고 봤다.",
+      "fact_ids": [
+        "J03"
+      ],
+      "syllables": 27,
+      "voice_frames": 164
+    },
+    {
+      "id": "N028",
+      "chapter": "03",
+      "t_start": 160.5,
+      "t_end": 165.133,
+      "text": "피해자 측으로부터 용서받지 못했다는 사정도 지적했다.",
+      "fact_ids": [
+        "J05"
+      ],
+      "syllables": 23,
+      "voice_frames": 139
+    },
+    {
+      "id": "N029",
+      "chapter": "03",
+      "t_start": 165.467,
+      "t_end": 172.533,
+      "text": "한편 재판부는 피고인들이 사실관계를 인정하고 반성하는 태도를 보인 점을 참작한다.",
+      "fact_ids": [
+        "J04"
+      ],
+      "syllables": 35,
+      "voice_frames": 212
+    },
+    {
+      "id": "N030",
+      "chapter": "03",
+      "t_start": 172.867,
+      "t_end": 180.733,
+      "text": "군 기강 확립을 위한 교육 목적으로 훈련을 하다가 범행에 이르렀다는 점도 유리한 정상으로 봤다.",
+      "fact_ids": [
+        "J04"
+      ],
+      "syllables": 39,
+      "voice_frames": 236
+    },
+    {
+      "id": "N031",
+      "chapter": "03",
+      "t_start": 181.067,
+      "t_end": 186.133,
+      "text": "일심은 하나의 행위가 여러 범죄를 구성하는 관계로 판단했다.",
+      "fact_ids": [
+        "J01"
+      ],
+      "syllables": 25,
+      "voice_frames": 152
+    },
+    {
+      "id": "N032",
+      "chapter": "03",
+      "t_start": 186.467,
+      "t_end": 190.5,
+      "text": "하나의 행위에 여러 범죄가 성립한다고 본 것이다.",
+      "fact_ids": [
+        "J01",
+        "J09"
+      ],
+      "syllables": 20,
+      "voice_frames": 121
+    },
+    {
+      "id": "N033",
+      "chapter": "03",
+      "t_start": 190.833,
+      "t_end": 195.267,
+      "text": "일심은 학대치사죄의 양형기준을 참고해 형을 정했다.",
+      "fact_ids": [
+        "J02"
+      ],
+      "syllables": 22,
+      "voice_frames": 133
+    },
+    {
+      "id": "N034",
+      "chapter": "03",
+      "t_start": 195.6,
+      "t_end": 198.833,
+      "text": "중대장에게 선고한 형은 징역 오 년이다.",
+      "fact_ids": [
+        "C05"
+      ],
+      "syllables": 16,
+      "voice_frames": 97
+    },
+    {
+      "id": "N035",
+      "chapter": "03",
+      "t_start": 199.167,
+      "t_end": 204.433,
+      "text": "중대장에 대한 일심 구형은 십 년이었고 일심 선고는 오 년이었다.",
+      "fact_ids": [
+        "C03",
+        "C05"
+      ],
+      "syllables": 26,
+      "voice_frames": 158
+    },
+    {
+      "id": "N036",
+      "chapter": "03",
+      "t_start": 204.767,
+      "t_end": 208.2,
+      "text": "부중대장에게 선고한 형은 징역 삼 년이다.",
+      "fact_ids": [
+        "D04"
+      ],
+      "syllables": 17,
+      "voice_frames": 103
+    },
+    {
+      "id": "N037",
+      "chapter": "03",
+      "t_start": 208.533,
+      "t_end": 214.0,
+      "text": "부중대장에 대한 일심 구형은 칠 년이었고 일심 선고는 삼 년이었다.",
+      "fact_ids": [
+        "D03",
+        "D04"
+      ],
+      "syllables": 27,
+      "voice_frames": 164
+    },
+    {
+      "id": "N038",
+      "chapter": "04",
+      "t_start": 215.833,
+      "t_end": 222.5,
+      "text": "이천이십오년 유월 십팔일, 서울고법 춘천재판부 형사일부가 항소심을 선고한다.",
+      "fact_ids": [
+        "C07",
+        "D06"
+      ],
+      "syllables": 33,
+      "voice_frames": 200
+    },
+    {
+      "id": "N039",
+      "chapter": "04",
+      "t_start": 222.833,
+      "t_end": 227.9,
+      "text": "항소심은 쟁점이 된 죄의 수에 관해 일심과 다른 판단을 내린다.",
+      "fact_ids": [
+        "J07"
+      ],
+      "syllables": 25,
+      "voice_frames": 152
+    },
+    {
+      "id": "N040",
+      "chapter": "04",
+      "t_start": 228.233,
+      "t_end": 233.3,
+      "text": "일심은 같은 장소에서 같은 기회에 이뤄진 행위라는 점을 봤다.",
+      "fact_ids": [
+        "J08"
+      ],
+      "syllables": 25,
+      "voice_frames": 152
+    },
+    {
+      "id": "N041",
+      "chapter": "04",
+      "t_start": 233.633,
+      "t_end": 240.3,
+      "text": "하지만 항소심은 피해자별로 가혹행위와 학대 양상이 어떻게 달랐는지 설명한다.",
+      "fact_ids": [
+        "J08"
+      ],
+      "syllables": 33,
+      "voice_frames": 200
+    },
+    {
+      "id": "N042",
+      "chapter": "04",
+      "t_start": 240.633,
+      "t_end": 244.867,
+      "text": "따라서 여러 개의 행위로 인정할 수 있다고 판단했다.",
+      "fact_ids": [
+        "J08"
+      ],
+      "syllables": 21,
+      "voice_frames": 127
+    },
+    {
+      "id": "N043",
+      "chapter": "04",
+      "t_start": 245.2,
+      "t_end": 248.833,
+      "text": "여러 행위로 여러 죄를 범한 관계로 본 것이다.",
+      "fact_ids": [
+        "J09"
+      ],
+      "syllables": 18,
+      "voice_frames": 109
+    },
+    {
+      "id": "N044",
+      "chapter": "04",
+      "t_start": 249.167,
+      "t_end": 255.633,
+      "text": "항소심은 중대장의 범죄 행위들도 여러 행위로 여러 죄를 범한 관계로 판단했다.",
+      "fact_ids": [
+        "J07"
+      ],
+      "syllables": 32,
+      "voice_frames": 194
+    },
+    {
+      "id": "N045",
+      "chapter": "04",
+      "t_start": 255.967,
+      "t_end": 261.433,
+      "text": "하나의 행위로 여러 범죄가 성립한다고 본 일심과 달라진 지점이다.",
+      "fact_ids": [
+        "J01",
+        "J07"
+      ],
+      "syllables": 27,
+      "voice_frames": 164
+    },
+    {
+      "id": "N046",
+      "chapter": "04",
+      "t_start": 261.767,
+      "t_end": 269.433,
+      "text": "보도는 하나의 행위가 여러 죄에 해당하면 가장 무거운 죄에 정한 형으로 처벌한다고 설명한다.",
+      "fact_ids": [
+        "J10"
+      ],
+      "syllables": 38,
+      "voice_frames": 230
+    },
+    {
+      "id": "N047",
+      "chapter": "04",
+      "t_start": 269.767,
+      "t_end": 276.233,
+      "text": "여러 행위로 여러 죄를 범하면 가장 무거운 죄의 형을 가중할 수 있다는 설명이다.",
+      "fact_ids": [
+        "J10"
+      ],
+      "syllables": 32,
+      "voice_frames": 194
+    },
+    {
+      "id": "N048",
+      "chapter": "04",
+      "t_start": 276.567,
+      "t_end": 282.633,
+      "text": "항소심이 중대장의 형을 늘리면서 제시한 이유가 이 죄수 관계의 차이였다.",
+      "fact_ids": [
+        "J07",
+        "C07"
+      ],
+      "syllables": 30,
+      "voice_frames": 182
+    },
+    {
+      "id": "N049",
+      "chapter": "04",
+      "t_start": 282.967,
+      "t_end": 288.633,
+      "text": "재판부는 지휘관들이 답습한 병영문화가 후진적이었다고 지적한다.",
+      "fact_ids": [
+        "J11"
+      ],
+      "syllables": 28,
+      "voice_frames": 170
+    },
+    {
+      "id": "N050",
+      "chapter": "04",
+      "t_start": 288.967,
+      "t_end": 294.433,
+      "text": "그 결과 충분히 예방할 수 있었던 사망사고를 초래했다고 판단했다.",
+      "fact_ids": [
+        "J11"
+      ],
+      "syllables": 27,
+      "voice_frames": 164
+    },
+    {
+      "id": "N051",
+      "chapter": "04",
+      "t_start": 294.767,
+      "t_end": 303.033,
+      "text": "국가가 병사들의 생명과 신체를 보호하리라는 기대는 사회의 기본인데 이를 배반한 범행이라고 봤다.",
+      "fact_ids": [
+        "J12"
+      ],
+      "syllables": 41,
+      "voice_frames": 248
+    },
+    {
+      "id": "N052",
+      "chapter": "05",
+      "t_start": 305.667,
+      "t_end": 310.3,
+      "text": "항소심이 중대장에게 선고한 형은 징역 오 년 육 개월이다.",
+      "fact_ids": [
+        "C07"
+      ],
+      "syllables": 23,
+      "voice_frames": 139
+    },
+    {
+      "id": "N053",
+      "chapter": "05",
+      "t_start": 310.633,
+      "t_end": 315.067,
+      "text": "중대장의 일심 선고였던 징역 오 년보다 육 개월 늘었다.",
+      "fact_ids": [
+        "C05",
+        "C07"
+      ],
+      "syllables": 22,
+      "voice_frames": 133
+    },
+    {
+      "id": "N054",
+      "chapter": "05",
+      "t_start": 315.4,
+      "t_end": 319.833,
+      "text": "부중대장에게는 항소심에서도 징역 삼 년이 선고됐다.",
+      "fact_ids": [
+        "D06"
+      ],
+      "syllables": 22,
+      "voice_frames": 133
+    },
+    {
+      "id": "N055",
+      "chapter": "05",
+      "t_start": 320.167,
+      "t_end": 322.8,
+      "text": "부중대장의 형량은 일심과 같다.",
+      "fact_ids": [
+        "D04",
+        "D06"
+      ],
+      "syllables": 13,
+      "voice_frames": 79
+    },
+    {
+      "id": "N056",
+      "chapter": "05",
+      "t_start": 323.133,
+      "t_end": 326.567,
+      "text": "중대장 사건은 이후 대법원 판단을 받는다.",
+      "fact_ids": [
+        "C09",
+        "J13"
+      ],
+      "syllables": 17,
+      "voice_frames": 103
+    },
+    {
+      "id": "N057",
+      "chapter": "05",
+      "t_start": 326.9,
+      "t_end": 332.367,
+      "text": "이천이십오년 구월 이십오일, 대법원은 중대장의 상고를 기각했다.",
+      "fact_ids": [
+        "C09",
+        "J13"
+      ],
+      "syllables": 27,
+      "voice_frames": 164
+    },
+    {
+      "id": "N058",
+      "chapter": "05",
+      "t_start": 332.7,
+      "t_end": 335.733,
+      "text": "원심 판단에 잘못이 없다고 본 것이다.",
+      "fact_ids": [
+        "J13"
+      ],
+      "syllables": 15,
+      "voice_frames": 91
+    },
+    {
+      "id": "N059",
+      "chapter": "05",
+      "t_start": 336.067,
+      "t_end": 339.9,
+      "text": "이로써 중대장의 징역 오 년 육 개월이 확정된다.",
+      "fact_ids": [
+        "C09"
+      ],
+      "syllables": 19,
+      "voice_frames": 115
+    },
+    {
+      "id": "N060",
+      "chapter": "05",
+      "t_start": 340.233,
+      "t_end": 344.267,
+      "text": "부중대장의 징역 삼 년도 확정된 것으로 확인된다.",
+      "fact_ids": [
+        "D08"
+      ],
+      "syllables": 20,
+      "voice_frames": 121
+    },
+    {
+      "id": "N061",
+      "chapter": "05",
+      "t_start": 344.6,
+      "t_end": 350.667,
+      "text": "이천이십오년 구월 이십오일 보도에서 확인되는 부중대장의 확정 상태다.",
+      "fact_ids": [
+        "D08"
+      ],
+      "syllables": 30,
+      "voice_frames": 182
+    },
+    {
+      "id": "N062",
+      "chapter": "05",
+      "t_start": 351.0,
+      "t_end": 357.267,
+      "text": "이 사건의 항소심은 피해자별 행위의 차이를 살펴 죄수 관계를 다시 판단했다.",
+      "fact_ids": [
+        "J08"
+      ],
+      "syllables": 31,
+      "voice_frames": 188
+    },
+    {
+      "id": "N063",
+      "chapter": "05",
+      "t_start": 357.6,
+      "t_end": 363.467,
+      "text": "재판부가 남긴 판단은, 충분히 예방할 수 있었던 사망사고였다는 것이다.",
+      "fact_ids": [
+        "J11"
+      ],
+      "syllables": 29,
+      "voice_frames": 176
+    }
+  ],
+  "shots": [
+    {
+      "id": "S001",
+      "chapter": "01",
+      "t_start": 0.0,
+      "t_end": 4.667,
+      "frame_start": 0,
+      "frame_end_exclusive": 140,
+      "visual": "로우 앵글 연병장 와이드. 앞쪽 중대장과 멀리 정지한 훈련병 6명은 얼굴 없는 제복·모자 실루엣. 파랑 공간광·자홍 림, 전경 패럴랙스·안개·인버티드 에지 직물. 시각·날씨·실제 배치를 특정하지 않음.",
+      "on_screen_text": [
+        "01 / 연병장",
+        "2024년 5월 23일.",
+        "중대장",
+        "재구성 · 개념도 · 실제 배치 아님",
+        "강원 인제의 신병교육대."
+      ],
+      "fact_ids": [
+        "E01",
+        "E02",
+        "C02",
+        "E04"
+      ],
+      "narration_ids": [
+        "N001"
+      ],
+      "reconstruction_label": "재구성 · 개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "Stage 2a: frame-driven slow push; independent foreground/midground/background parallax; static people",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene",
+      "representative_revision": "stage_2a"
+    },
+    {
+      "id": "S002",
+      "chapter": "01",
+      "t_start": 4.667,
+      "t_end": 8.167,
+      "frame_start": 140,
+      "frame_end_exclusive": 245,
+      "visual": "탑다운 연병장 개념도. 어깨·소매·모자·군화가 구분되는 정지 인물 6명과 건물 지붕. 빈 지면의 빨강 위치점, 자홍 키·파랑 림, 느린 푸시. 실제 배치·거리·축척 아님.",
+      "on_screen_text": [
+        "01 / 연병장",
+        "2024년 5월 23일.",
+        "훈련병 6명",
+        "재구성 · 개념도 · 실제 배치·거리·축척 아님",
+        "대상은 훈련병 여섯 명입니다."
+      ],
+      "fact_ids": [
+        "E01",
+        "E02"
+      ],
+      "narration_ids": [
+        "N001",
+        "N002"
+      ],
+      "reconstruction_label": "재구성 · 개념도 · 실제 배치·거리·축척 아님",
+      "transition_in": "hard_cut",
+      "motion": "Stage 2a: frame-driven slow push; independent foreground/midground/background parallax; static people",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene",
+      "representative_revision": "stage_2a"
+    },
+    {
+      "id": "S003",
+      "chapter": "01",
+      "t_start": 8.167,
+      "t_end": 11.167,
+      "frame_start": 245,
+      "frame_end_exclusive": 335,
+      "visual": "탑다운 개념도에 중립 표식 6개를 고정해 수량을 표시. / 별도 컷 2: 같은 확인 사실의 오버헤드·측정선 세부 화각.",
+      "on_screen_text": [
+        "육군 12사단 · 훈련병 6명",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "E01",
+        "E02"
+      ],
+      "narration_ids": [
+        "N002"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene"
+    },
+    {
+      "id": "S004",
+      "chapter": "01",
+      "t_start": 11.167,
+      "t_end": 14.333,
+      "frame_start": 335,
+      "frame_end_exclusive": 430,
+      "visual": "지휘 역할 실루엣 뒷모습. 지시 구간의 경계에만 빨강 0.4→0.6. 몸짓 없음.",
+      "on_screen_text": [
+        "중대장 · 규정을 위반한 군기훈련",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "C02",
+        "E03"
+      ],
+      "narration_ids": [
+        "N003"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene"
+    },
+    {
+      "id": "S005",
+      "chapter": "01",
+      "t_start": 14.333,
+      "t_end": 17.567,
+      "frame_start": 430,
+      "frame_end_exclusive": 527,
+      "visual": "지휘 역할 실루엣 뒷모습. 지시 구간의 경계에만 빨강 0.4→0.6. 몸짓 없음. / 별도 컷 2: 같은 확인 사실의 오버헤드·측정선 세부 화각.",
+      "on_screen_text": [
+        "중대장 · 규정을 위반한 군기훈련",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "C02",
+        "E03"
+      ],
+      "narration_ids": [
+        "N003"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene"
+    },
+    {
+      "id": "S006",
+      "chapter": "01",
+      "t_start": 17.567,
+      "t_end": 20.167,
+      "frame_start": 527,
+      "frame_end_exclusive": 605,
+      "visual": "별도 부중대장 기록 카드. 인물의 현장 위치·행동을 새로 만들지 않음.",
+      "on_screen_text": [
+        "부중대장 · 군기훈련 실시 혐의"
+      ],
+      "fact_ids": [
+        "D02"
+      ],
+      "narration_ids": [
+        "N004"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene"
+    },
+    {
+      "id": "S007",
+      "chapter": "01",
+      "t_start": 20.167,
+      "t_end": 22.733,
+      "frame_start": 605,
+      "frame_end_exclusive": 682,
+      "visual": "별도 부중대장 기록 카드. 인물의 현장 위치·행동을 새로 만들지 않음. / 별도 컷 2: 같은 확인 사실의 오버헤드·측정선 세부 화각.",
+      "on_screen_text": [
+        "부중대장 · 군기훈련 실시 혐의"
+      ],
+      "fact_ids": [
+        "D02"
+      ],
+      "narration_ids": [
+        "N004"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene"
+    },
+    {
+      "id": "S008",
+      "chapter": "01",
+      "t_start": 22.733,
+      "t_end": 26.233,
+      "frame_start": 682,
+      "frame_end_exclusive": 787,
+      "visual": "빈 연병장으로 컷. 표식·인물 전부 없음.",
+      "on_screen_text": [
+        "적절한 조치를 하지 않은 혐의",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "E04"
+      ],
+      "narration_ids": [
+        "N005"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene"
+    },
+    {
+      "id": "S009",
+      "chapter": "01",
+      "t_start": 26.233,
+      "t_end": 29.733,
+      "frame_start": 787,
+      "frame_end_exclusive": 892,
+      "visual": "빈 연병장으로 컷. 표식·인물 전부 없음. / 별도 컷 2: 같은 확인 사실의 오버헤드·측정선 세부 화각.",
+      "on_screen_text": [
+        "적절한 조치를 하지 않은 혐의",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "E04"
+      ],
+      "narration_ids": [
+        "N005"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene"
+    },
+    {
+      "id": "S010",
+      "chapter": "01",
+      "t_start": 29.733,
+      "t_end": 30.333,
+      "frame_start": 892,
+      "frame_end_exclusive": 910,
+      "visual": "빈 화면 정지. 사망 사실 전 0.6초 쉼.",
+      "on_screen_text": [
+        " "
+      ],
+      "fact_ids": [],
+      "narration_ids": [],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "hold",
+      "sound": "silent",
+      "kind": "silence"
+    },
+    {
+      "id": "S011",
+      "chapter": "01",
+      "t_start": 30.333,
+      "t_end": 32.7,
+      "frame_start": 910,
+      "frame_end_exclusive": 981,
+      "visual": "빈 공간 고정. 사망 사실 전 0.6초 침묵. 의료·고통·신체 이미지 없음.",
+      "on_screen_text": [
+        "훈련병 사망 · 이틀 뒤",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "E05"
+      ],
+      "narration_ids": [
+        "N006"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene"
+    },
+    {
+      "id": "S012",
+      "chapter": "01",
+      "t_start": 32.7,
+      "t_end": 35.5,
+      "frame_start": 981,
+      "frame_end_exclusive": 1065,
+      "visual": "비공간 기록: 군기훈련 / 사망 두 단어 사이 선. 인과관계가 쟁점임을 라벨로 명시.",
+      "on_screen_text": [
+        "법정의 쟁점 · 인과관계",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "J06"
+      ],
+      "narration_ids": [
+        "N007"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene"
+    },
+    {
+      "id": "S013",
+      "chapter": "01",
+      "t_start": 35.5,
+      "t_end": 38.3,
+      "frame_start": 1065,
+      "frame_end_exclusive": 1149,
+      "visual": "비공간 기록: 군기훈련 / 사망 두 단어 사이 선. 인과관계가 쟁점임을 라벨로 명시. / 별도 컷 2: 같은 확인 사실의 오버헤드·측정선 세부 화각.",
+      "on_screen_text": [
+        "법정의 쟁점 · 인과관계",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "J06"
+      ],
+      "narration_ids": [
+        "N007"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene"
+    },
+    {
+      "id": "S014",
+      "chapter": "01",
+      "t_start": 38.3,
+      "t_end": 41.567,
+      "frame_start": 1149,
+      "frame_end_exclusive": 1247,
+      "visual": "6개 표식을 보도의 죄수 관계 도식으로 매치컷. 실제 죄 개수를 뜻하지 않음.",
+      "on_screen_text": [
+        "피해자별 행위 · 하나인가, 여러 개인가",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J07",
+        "J08"
+      ],
+      "narration_ids": [
+        "N008"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene"
+    },
+    {
+      "id": "S015",
+      "chapter": "01",
+      "t_start": 41.567,
+      "t_end": 44.9,
+      "frame_start": 1247,
+      "frame_end_exclusive": 1347,
+      "visual": "6개 표식을 보도의 죄수 관계 도식으로 매치컷. 실제 죄 개수를 뜻하지 않음. / 별도 컷 2: 같은 확인 사실의 오버헤드·측정선 세부 화각.",
+      "on_screen_text": [
+        "피해자별 행위 · 하나인가, 여러 개인가",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J07",
+        "J08"
+      ],
+      "narration_ids": [
+        "N008"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "outdoor air -34 dBFS, no weather detail",
+      "kind": "scene"
+    },
+    {
+      "id": "S016",
+      "chapter": "02",
+      "t_start": 44.9,
+      "t_end": 46.4,
+      "frame_start": 1347,
+      "frame_end_exclusive": 1392,
+      "visual": "전체 화면 장 카드. 기소와 구형. Noto Serif KR / Pretendard. 장 카드에는 새 사건 사실 없음.",
+      "on_screen_text": [
+        "02 기소와 구형"
+      ],
+      "fact_ids": [],
+      "narration_ids": [],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "hold",
+      "sound": "silent",
+      "kind": "chapter"
+    },
+    {
+      "id": "S017",
+      "chapter": "02",
+      "t_start": 46.4,
+      "t_end": 49.8,
+      "frame_start": 1392,
+      "frame_end_exclusive": 1494,
+      "visual": "중대장 단독 기록 카드: 혐의 두 줄을 순서대로 표시.",
+      "on_screen_text": [
+        "중대장 · 학대치사 / 직권남용 가혹행위"
+      ],
+      "fact_ids": [
+        "C01"
+      ],
+      "narration_ids": [
+        "N009"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S018",
+      "chapter": "02",
+      "t_start": 49.8,
+      "t_end": 53.2,
+      "frame_start": 1494,
+      "frame_end_exclusive": 1596,
+      "visual": "중대장 단독 기록 카드: 혐의 두 줄을 순서대로 표시. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "중대장 · 학대치사 / 직권남용 가혹행위",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "C01"
+      ],
+      "narration_ids": [
+        "N009"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S019",
+      "chapter": "02",
+      "t_start": 53.2,
+      "t_end": 56.9,
+      "frame_start": 1596,
+      "frame_end_exclusive": 1707,
+      "visual": "같은 피고인 카드의 기소 판단 줄을 확대.",
+      "on_screen_text": [
+        "중대장 · 검찰의 기소 판단"
+      ],
+      "fact_ids": [
+        "C10"
+      ],
+      "narration_ids": [
+        "N010"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S020",
+      "chapter": "02",
+      "t_start": 56.9,
+      "t_end": 60.6,
+      "frame_start": 1707,
+      "frame_end_exclusive": 1818,
+      "visual": "같은 피고인 카드의 기소 판단 줄을 확대. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "중대장 · 검찰의 기소 판단",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "C10"
+      ],
+      "narration_ids": [
+        "N010"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S021",
+      "chapter": "02",
+      "t_start": 60.6,
+      "t_end": 64.4,
+      "frame_start": 1818,
+      "frame_end_exclusive": 1932,
+      "visual": "수사 판단 기록에 경위·방식·경과·신체조건 네 항목. 추정 증거물은 만들지 않음.",
+      "on_screen_text": [
+        "검찰 판단의 근거 · 보도 요지"
+      ],
+      "fact_ids": [
+        "E06"
+      ],
+      "narration_ids": [
+        "N011"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S022",
+      "chapter": "02",
+      "t_start": 64.4,
+      "t_end": 68.2,
+      "frame_start": 1932,
+      "frame_end_exclusive": 2046,
+      "visual": "수사 판단 기록에 경위·방식·경과·신체조건 네 항목. 추정 증거물은 만들지 않음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "검찰 판단의 근거 · 보도 요지",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "E06"
+      ],
+      "narration_ids": [
+        "N011"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S023",
+      "chapter": "02",
+      "t_start": 68.2,
+      "t_end": 70.967,
+      "frame_start": 2046,
+      "frame_end_exclusive": 2129,
+      "visual": "중대장 카드를 완전히 닫은 뒤 부중대장 단독 카드.",
+      "on_screen_text": [
+        "부중대장 · 학대치사 / 직권남용 가혹행위"
+      ],
+      "fact_ids": [
+        "D01"
+      ],
+      "narration_ids": [
+        "N012"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S024",
+      "chapter": "02",
+      "t_start": 70.967,
+      "t_end": 73.8,
+      "frame_start": 2129,
+      "frame_end_exclusive": 2214,
+      "visual": "중대장 카드를 완전히 닫은 뒤 부중대장 단독 카드. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "부중대장 · 학대치사 / 직권남용 가혹행위",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "D01"
+      ],
+      "narration_ids": [
+        "N012"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S025",
+      "chapter": "02",
+      "t_start": 73.8,
+      "t_end": 77.7,
+      "frame_start": 2214,
+      "frame_end_exclusive": 2331,
+      "visual": "부중대장 카드: 군기훈련 실시 / 조치 미실시의 공소사실.",
+      "on_screen_text": [
+        "부중대장 · 공소사실의 범위"
+      ],
+      "fact_ids": [
+        "D02"
+      ],
+      "narration_ids": [
+        "N013"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S026",
+      "chapter": "02",
+      "t_start": 77.7,
+      "t_end": 81.6,
+      "frame_start": 2331,
+      "frame_end_exclusive": 2448,
+      "visual": "부중대장 카드: 군기훈련 실시 / 조치 미실시의 공소사실. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "부중대장 · 공소사실의 범위",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "D02"
+      ],
+      "narration_ids": [
+        "N013"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S027",
+      "chapter": "02",
+      "t_start": 81.6,
+      "t_end": 84.567,
+      "frame_start": 2448,
+      "frame_end_exclusive": 2537,
+      "visual": "중대장 측 주장 카드. 유죄 판단 카드와 형태를 구분해 주장 라벨 고정.",
+      "on_screen_text": [
+        "중대장 측 주장 · 학대치사 혐의 부인"
+      ],
+      "fact_ids": [
+        "C04"
+      ],
+      "narration_ids": [
+        "N014"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S028",
+      "chapter": "02",
+      "t_start": 84.567,
+      "t_end": 87.6,
+      "frame_start": 2537,
+      "frame_end_exclusive": 2628,
+      "visual": "중대장 측 주장 카드. 유죄 판단 카드와 형태를 구분해 주장 라벨 고정. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "중대장 측 주장 · 학대치사 혐의 부인",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "C04"
+      ],
+      "narration_ids": [
+        "N014"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S029",
+      "chapter": "02",
+      "t_start": 87.6,
+      "t_end": 91.1,
+      "frame_start": 2628,
+      "frame_end_exclusive": 2733,
+      "visual": "검찰 구형 이유를 요약한 흰 기록 카드.",
+      "on_screen_text": [
+        "검찰의 구형 이유 · 국민 신뢰 훼손"
+      ],
+      "fact_ids": [
+        "E07"
+      ],
+      "narration_ids": [
+        "N015"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S030",
+      "chapter": "02",
+      "t_start": 91.1,
+      "t_end": 94.6,
+      "frame_start": 2733,
+      "frame_end_exclusive": 2838,
+      "visual": "검찰 구형 이유를 요약한 흰 기록 카드. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "검찰의 구형 이유 · 국민 신뢰 훼손",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "E07"
+      ],
+      "narration_ids": [
+        "N015"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S031",
+      "chapter": "02",
+      "t_start": 94.6,
+      "t_end": 97.6,
+      "frame_start": 2838,
+      "frame_end_exclusive": 2928,
+      "visual": "날짜 카드와 빈 법정의 1점 투시. 실제 법정 배치 재현 아님.",
+      "on_screen_text": [
+        "1심 결심공판 · 2024년 11월 12일",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "C03"
+      ],
+      "narration_ids": [
+        "N016"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S032",
+      "chapter": "02",
+      "t_start": 97.6,
+      "t_end": 100.6,
+      "frame_start": 2928,
+      "frame_end_exclusive": 3018,
+      "visual": "날짜 카드와 빈 법정의 1점 투시. 실제 법정 배치 재현 아님. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "1심 결심공판 · 2024년 11월 12일",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "C03"
+      ],
+      "narration_ids": [
+        "N016"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S033",
+      "chapter": "02",
+      "t_start": 100.6,
+      "t_end": 103.2,
+      "frame_start": 3018,
+      "frame_end_exclusive": 3096,
+      "visual": "중대장 단독 카드: 검찰 구형 10년. 선고 칸은 아직 노출하지 않음.",
+      "on_screen_text": [
+        "중대장 · 1심 검찰 구형 징역 10년"
+      ],
+      "fact_ids": [
+        "C03"
+      ],
+      "narration_ids": [
+        "N017"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S034",
+      "chapter": "02",
+      "t_start": 103.2,
+      "t_end": 105.767,
+      "frame_start": 3096,
+      "frame_end_exclusive": 3173,
+      "visual": "중대장 단독 카드: 검찰 구형 10년. 선고 칸은 아직 노출하지 않음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "중대장 · 1심 검찰 구형 징역 10년",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "C03"
+      ],
+      "narration_ids": [
+        "N017"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S035",
+      "chapter": "02",
+      "t_start": 105.767,
+      "t_end": 109.733,
+      "frame_start": 3173,
+      "frame_end_exclusive": 3292,
+      "visual": "부중대장 단독 카드: 검찰 구형 7년. 다른 피고인 숫자 노출 없음.",
+      "on_screen_text": [
+        "부중대장 · 1심 검찰 구형 징역 7년"
+      ],
+      "fact_ids": [
+        "D03"
+      ],
+      "narration_ids": [
+        "N018"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S036",
+      "chapter": "02",
+      "t_start": 109.733,
+      "t_end": 112.1,
+      "frame_start": 3292,
+      "frame_end_exclusive": 3363,
+      "visual": "중대장 구형 카드의 심급·주체 메타를 가까이 보여줌.",
+      "on_screen_text": [
+        "중대장 · 검찰 구형 · 1심"
+      ],
+      "fact_ids": [
+        "C03"
+      ],
+      "narration_ids": [
+        "N019"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S037",
+      "chapter": "02",
+      "t_start": 112.1,
+      "t_end": 114.5,
+      "frame_start": 3363,
+      "frame_end_exclusive": 3435,
+      "visual": "중대장 구형 카드의 심급·주체 메타를 가까이 보여줌. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "중대장 · 검찰 구형 · 1심",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "C03"
+      ],
+      "narration_ids": [
+        "N019"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S038",
+      "chapter": "02",
+      "t_start": 114.5,
+      "t_end": 117.1,
+      "frame_start": 3435,
+      "frame_end_exclusive": 3513,
+      "visual": "부중대장 구형 카드의 심급·주체 메타로 별도 컷.",
+      "on_screen_text": [
+        "부중대장 · 검찰 구형 · 1심"
+      ],
+      "fact_ids": [
+        "D03"
+      ],
+      "narration_ids": [
+        "N020"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S039",
+      "chapter": "02",
+      "t_start": 117.1,
+      "t_end": 119.667,
+      "frame_start": 3513,
+      "frame_end_exclusive": 3590,
+      "visual": "부중대장 구형 카드의 심급·주체 메타로 별도 컷. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "부중대장 · 검찰 구형 · 1심",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "D03"
+      ],
+      "narration_ids": [
+        "N020"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S040",
+      "chapter": "03",
+      "t_start": 119.667,
+      "t_end": 121.167,
+      "frame_start": 3590,
+      "frame_end_exclusive": 3635,
+      "visual": "전체 화면 장 카드. 1심의 판단. Noto Serif KR / Pretendard. 장 카드에는 새 사건 사실 없음.",
+      "on_screen_text": [
+        "03 1심의 판단"
+      ],
+      "fact_ids": [],
+      "narration_ids": [],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "hold",
+      "sound": "silent",
+      "kind": "chapter"
+    },
+    {
+      "id": "S041",
+      "chapter": "03",
+      "t_start": 121.167,
+      "t_end": 124.167,
+      "frame_start": 3635,
+      "frame_end_exclusive": 3725,
+      "visual": "빈 법정 대칭 푸시. 사건의 빨강을 모두 끄고 흰 천장광.",
+      "on_screen_text": [
+        "1심 · 춘천지법 형사2부 · 2025년 1월 7일",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "C05",
+        "D04"
+      ],
+      "narration_ids": [
+        "N021"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S042",
+      "chapter": "03",
+      "t_start": 124.167,
+      "t_end": 127.167,
+      "frame_start": 3725,
+      "frame_end_exclusive": 3815,
+      "visual": "빈 법정 대칭 푸시. 사건의 빨강을 모두 끄고 흰 천장광. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "1심 · 춘천지법 형사2부 · 2025년 1월 7일",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "C05",
+        "D04"
+      ],
+      "narration_ids": [
+        "N021"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S043",
+      "chapter": "03",
+      "t_start": 127.167,
+      "t_end": 130.433,
+      "frame_start": 3815,
+      "frame_end_exclusive": 3913,
+      "visual": "중대장 기록 카드에서 죄명별 유죄 판단 표시.",
+      "on_screen_text": [
+        "중대장 · 1심 유죄 판단"
+      ],
+      "fact_ids": [
+        "C06"
+      ],
+      "narration_ids": [
+        "N022"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S044",
+      "chapter": "03",
+      "t_start": 130.433,
+      "t_end": 133.767,
+      "frame_start": 3913,
+      "frame_end_exclusive": 4013,
+      "visual": "중대장 기록 카드에서 죄명별 유죄 판단 표시. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "중대장 · 1심 유죄 판단",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "C06"
+      ],
+      "narration_ids": [
+        "N022"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S045",
+      "chapter": "03",
+      "t_start": 133.767,
+      "t_end": 137.933,
+      "frame_start": 4013,
+      "frame_end_exclusive": 4138,
+      "visual": "부중대장 단독 기록 카드로 컷.",
+      "on_screen_text": [
+        "부중대장 · 1심 유죄 판단"
+      ],
+      "fact_ids": [
+        "D05"
+      ],
+      "narration_ids": [
+        "N023"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S046",
+      "chapter": "03",
+      "t_start": 137.933,
+      "t_end": 140.433,
+      "frame_start": 4138,
+      "frame_end_exclusive": 4213,
+      "visual": "군기훈련 → 사망 관계를 빈 법정 위 개념선으로 설명.",
+      "on_screen_text": [
+        "1심 판단 · 인과관계 인정",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "J06"
+      ],
+      "narration_ids": [
+        "N024"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S047",
+      "chapter": "03",
+      "t_start": 140.433,
+      "t_end": 142.9,
+      "frame_start": 4213,
+      "frame_end_exclusive": 4287,
+      "visual": "군기훈련 → 사망 관계를 빈 법정 위 개념선으로 설명. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "1심 판단 · 인과관계 인정",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J06"
+      ],
+      "narration_ids": [
+        "N024"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S048",
+      "chapter": "03",
+      "t_start": 142.9,
+      "t_end": 146.1,
+      "frame_start": 4287,
+      "frame_end_exclusive": 4383,
+      "visual": "재판부 판단 요약 카드. 고통 이미지 없이 텍스트만.",
+      "on_screen_text": [
+        "1심 재판부 · 보도 요지"
+      ],
+      "fact_ids": [
+        "J03"
+      ],
+      "narration_ids": [
+        "N025"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S049",
+      "chapter": "03",
+      "t_start": 146.1,
+      "t_end": 149.3,
+      "frame_start": 4383,
+      "frame_end_exclusive": 4479,
+      "visual": "재판부 판단 요약 카드. 고통 이미지 없이 텍스트만. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "1심 재판부 · 보도 요지",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J03"
+      ],
+      "narration_ids": [
+        "N025"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S050",
+      "chapter": "03",
+      "t_start": 149.3,
+      "t_end": 151.967,
+      "frame_start": 4479,
+      "frame_end_exclusive": 4559,
+      "visual": "동일 판단의 군 사기·전투력 항목으로 하드컷.",
+      "on_screen_text": [
+        "재판부 판단 · 군 사기와 전투력"
+      ],
+      "fact_ids": [
+        "J03"
+      ],
+      "narration_ids": [
+        "N026"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S051",
+      "chapter": "03",
+      "t_start": 151.967,
+      "t_end": 154.7,
+      "frame_start": 4559,
+      "frame_end_exclusive": 4641,
+      "visual": "동일 판단의 군 사기·전투력 항목으로 하드컷. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "재판부 판단 · 군 사기와 전투력",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J03"
+      ],
+      "narration_ids": [
+        "N026"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S052",
+      "chapter": "03",
+      "t_start": 154.7,
+      "t_end": 157.6,
+      "frame_start": 4641,
+      "frame_end_exclusive": 4728,
+      "visual": "국민 신뢰 항목을 흰색으로 강조. 빨강 없음.",
+      "on_screen_text": [
+        "재판부 판단 · 국민 신뢰 훼손"
+      ],
+      "fact_ids": [
+        "J03"
+      ],
+      "narration_ids": [
+        "N027"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S053",
+      "chapter": "03",
+      "t_start": 157.6,
+      "t_end": 160.5,
+      "frame_start": 4728,
+      "frame_end_exclusive": 4815,
+      "visual": "국민 신뢰 항목을 흰색으로 강조. 빨강 없음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "재판부 판단 · 국민 신뢰 훼손",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J03"
+      ],
+      "narration_ids": [
+        "N027"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S054",
+      "chapter": "03",
+      "t_start": 160.5,
+      "t_end": 163.0,
+      "frame_start": 4815,
+      "frame_end_exclusive": 4890,
+      "visual": "피해자 측 용서 여부는 기록 문장만 표시. 유족 등장 없음.",
+      "on_screen_text": [
+        "재판부가 지적한 사정 · 용서받지 못함"
+      ],
+      "fact_ids": [
+        "J05"
+      ],
+      "narration_ids": [
+        "N028"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S055",
+      "chapter": "03",
+      "t_start": 163.0,
+      "t_end": 165.467,
+      "frame_start": 4890,
+      "frame_end_exclusive": 4964,
+      "visual": "피해자 측 용서 여부는 기록 문장만 표시. 유족 등장 없음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "재판부가 지적한 사정 · 용서받지 못함",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J05"
+      ],
+      "narration_ids": [
+        "N028"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S056",
+      "chapter": "03",
+      "t_start": 165.467,
+      "t_end": 169.167,
+      "frame_start": 4964,
+      "frame_end_exclusive": 5075,
+      "visual": "양형 사정 카드에서 유리한 정상 라벨. 법원의 평가임을 고정.",
+      "on_screen_text": [
+        "1심 양형 사정 · 사실관계 인정과 반성 태도"
+      ],
+      "fact_ids": [
+        "J04"
+      ],
+      "narration_ids": [
+        "N029"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S057",
+      "chapter": "03",
+      "t_start": 169.167,
+      "t_end": 172.867,
+      "frame_start": 5075,
+      "frame_end_exclusive": 5186,
+      "visual": "양형 사정 카드에서 유리한 정상 라벨. 법원의 평가임을 고정. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "1심 양형 사정 · 사실관계 인정과 반성 태도",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J04"
+      ],
+      "narration_ids": [
+        "N029"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S058",
+      "chapter": "03",
+      "t_start": 172.867,
+      "t_end": 176.967,
+      "frame_start": 5186,
+      "frame_end_exclusive": 5309,
+      "visual": "교육 목적 관련 법원 평가를 표시. 적법한 훈련이었다고 바꾸지 않음.",
+      "on_screen_text": [
+        "1심 양형 사정 · 교육 목적에서 시작한 점"
+      ],
+      "fact_ids": [
+        "J04"
+      ],
+      "narration_ids": [
+        "N030"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S059",
+      "chapter": "03",
+      "t_start": 176.967,
+      "t_end": 181.067,
+      "frame_start": 5309,
+      "frame_end_exclusive": 5432,
+      "visual": "교육 목적 관련 법원 평가를 표시. 적법한 훈련이었다고 바꾸지 않음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "1심 양형 사정 · 교육 목적에서 시작한 점",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J04"
+      ],
+      "narration_ids": [
+        "N030"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S060",
+      "chapter": "03",
+      "t_start": 181.067,
+      "t_end": 186.467,
+      "frame_start": 5432,
+      "frame_end_exclusive": 5594,
+      "visual": "중립 표식 6개와 하나의 큰 관계 괄호. 죄 개수 도식 아님 라벨.",
+      "on_screen_text": [
+        "1심 · 한 행위로 여러 죄",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J01"
+      ],
+      "narration_ids": [
+        "N031"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S061",
+      "chapter": "03",
+      "t_start": 186.467,
+      "t_end": 190.833,
+      "frame_start": 5594,
+      "frame_end_exclusive": 5725,
+      "visual": "괄호 하나와 여러 죄명 텍스트의 관계만 설명.",
+      "on_screen_text": [
+        "하나의 행위가 여러 범죄를 구성"
+      ],
+      "fact_ids": [
+        "J01",
+        "J09"
+      ],
+      "narration_ids": [
+        "N032"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S062",
+      "chapter": "03",
+      "t_start": 190.833,
+      "t_end": 193.2,
+      "frame_start": 5725,
+      "frame_end_exclusive": 5796,
+      "visual": "기록 카드에 양형기준 참고 줄. 법정형 상한 숫자 없음.",
+      "on_screen_text": [
+        "1심 · 학대치사죄 양형기준 참고",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "J02"
+      ],
+      "narration_ids": [
+        "N033"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S063",
+      "chapter": "03",
+      "t_start": 193.2,
+      "t_end": 195.6,
+      "frame_start": 5796,
+      "frame_end_exclusive": 5868,
+      "visual": "기록 카드에 양형기준 참고 줄. 법정형 상한 숫자 없음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "1심 · 학대치사죄 양형기준 참고",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J02"
+      ],
+      "narration_ids": [
+        "N033"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S064",
+      "chapter": "03",
+      "t_start": 195.6,
+      "t_end": 199.167,
+      "frame_start": 5868,
+      "frame_end_exclusive": 5975,
+      "visual": "중대장 단독 1심 선고 카드. 5만 옐로.",
+      "on_screen_text": [
+        "중대장 · 1심 선고 징역 5년"
+      ],
+      "fact_ids": [
+        "C05"
+      ],
+      "narration_ids": [
+        "N034"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S065",
+      "chapter": "03",
+      "t_start": 199.167,
+      "t_end": 201.933,
+      "frame_start": 5975,
+      "frame_end_exclusive": 6058,
+      "visual": "중대장만 1심 구형 10년 / 1심 선고 5년 두 줄.",
+      "on_screen_text": [
+        "중대장 · 1심 구형 10년 / 선고 5년"
+      ],
+      "fact_ids": [
+        "C03",
+        "C05"
+      ],
+      "narration_ids": [
+        "N035"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S066",
+      "chapter": "03",
+      "t_start": 201.933,
+      "t_end": 204.767,
+      "frame_start": 6058,
+      "frame_end_exclusive": 6143,
+      "visual": "중대장만 1심 구형 10년 / 1심 선고 5년 두 줄. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "중대장 · 1심 구형 10년 / 선고 5년",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "C03",
+        "C05"
+      ],
+      "narration_ids": [
+        "N035"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S067",
+      "chapter": "03",
+      "t_start": 204.767,
+      "t_end": 208.533,
+      "frame_start": 6143,
+      "frame_end_exclusive": 6256,
+      "visual": "부중대장 단독 1심 선고 카드. 3만 옐로.",
+      "on_screen_text": [
+        "부중대장 · 1심 선고 징역 3년"
+      ],
+      "fact_ids": [
+        "D04"
+      ],
+      "narration_ids": [
+        "N036"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S068",
+      "chapter": "03",
+      "t_start": 208.533,
+      "t_end": 211.433,
+      "frame_start": 6256,
+      "frame_end_exclusive": 6343,
+      "visual": "부중대장만 1심 구형 7년 / 1심 선고 3년 두 줄.",
+      "on_screen_text": [
+        "부중대장 · 1심 구형 7년 / 선고 3년"
+      ],
+      "fact_ids": [
+        "D03",
+        "D04"
+      ],
+      "narration_ids": [
+        "N037"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S069",
+      "chapter": "03",
+      "t_start": 211.433,
+      "t_end": 214.333,
+      "frame_start": 6343,
+      "frame_end_exclusive": 6430,
+      "visual": "부중대장만 1심 구형 7년 / 1심 선고 3년 두 줄. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "부중대장 · 1심 구형 7년 / 선고 3년",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "D03",
+        "D04"
+      ],
+      "narration_ids": [
+        "N037"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S070",
+      "chapter": "04",
+      "t_start": 214.333,
+      "t_end": 215.833,
+      "frame_start": 6430,
+      "frame_end_exclusive": 6475,
+      "visual": "전체 화면 장 카드. 항소심의 쟁점. Noto Serif KR / Pretendard. 장 카드에는 새 사건 사실 없음.",
+      "on_screen_text": [
+        "04 항소심의 쟁점"
+      ],
+      "fact_ids": [],
+      "narration_ids": [],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "hold",
+      "sound": "silent",
+      "kind": "chapter"
+    },
+    {
+      "id": "S071",
+      "chapter": "04",
+      "t_start": 215.833,
+      "t_end": 219.333,
+      "frame_start": 6475,
+      "frame_end_exclusive": 6580,
+      "visual": "새 화각의 빈 법정. 차가운 흰 천장광과 대칭 푸시.",
+      "on_screen_text": [
+        "2심 · 서울고법 춘천재판부 · 2025년 6월 18일",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "C07",
+        "D06"
+      ],
+      "narration_ids": [
+        "N038"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S072",
+      "chapter": "04",
+      "t_start": 219.333,
+      "t_end": 222.833,
+      "frame_start": 6580,
+      "frame_end_exclusive": 6685,
+      "visual": "새 화각의 빈 법정. 차가운 흰 천장광과 대칭 푸시. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "2심 · 서울고법 춘천재판부 · 2025년 6월 18일",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "C07",
+        "D06"
+      ],
+      "narration_ids": [
+        "N038"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S073",
+      "chapter": "04",
+      "t_start": 222.833,
+      "t_end": 225.5,
+      "frame_start": 6685,
+      "frame_end_exclusive": 6765,
+      "visual": "1심 / 2심 판단 카드의 제목만 비교. 피고인 형량 비교는 아직 없음.",
+      "on_screen_text": [
+        "항소심의 쟁점 · 죄의 수"
+      ],
+      "fact_ids": [
+        "J07"
+      ],
+      "narration_ids": [
+        "N039"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S074",
+      "chapter": "04",
+      "t_start": 225.5,
+      "t_end": 228.233,
+      "frame_start": 6765,
+      "frame_end_exclusive": 6847,
+      "visual": "1심 / 2심 판단 카드의 제목만 비교. 피고인 형량 비교는 아직 없음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "항소심의 쟁점 · 죄의 수",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J07"
+      ],
+      "narration_ids": [
+        "N039"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S075",
+      "chapter": "04",
+      "t_start": 228.233,
+      "t_end": 230.933,
+      "frame_start": 6847,
+      "frame_end_exclusive": 6928,
+      "visual": "하나의 개념 공간 안에 표식 6개. 실제 배치 아님.",
+      "on_screen_text": [
+        "1심 판단을 설명한 항소심 · 같은 장소와 기회",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "J08"
+      ],
+      "narration_ids": [
+        "N040"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S076",
+      "chapter": "04",
+      "t_start": 230.933,
+      "t_end": 233.633,
+      "frame_start": 6928,
+      "frame_end_exclusive": 7009,
+      "visual": "하나의 개념 공간 안에 표식 6개. 실제 배치 아님. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "1심 판단을 설명한 항소심 · 같은 장소와 기회",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J08"
+      ],
+      "narration_ids": [
+        "N040"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S077",
+      "chapter": "04",
+      "t_start": 233.633,
+      "t_end": 237.133,
+      "frame_start": 7009,
+      "frame_end_exclusive": 7114,
+      "visual": "피해자 표식마다 독립된 관계 괄호. 범행 재연 없음.",
+      "on_screen_text": [
+        "2심 재판부 · 피해자별 양상이 다름",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "J08"
+      ],
+      "narration_ids": [
+        "N041"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S078",
+      "chapter": "04",
+      "t_start": 237.133,
+      "t_end": 240.633,
+      "frame_start": 7114,
+      "frame_end_exclusive": 7219,
+      "visual": "피해자 표식마다 독립된 관계 괄호. 범행 재연 없음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "2심 재판부 · 피해자별 양상이 다름",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J08"
+      ],
+      "narration_ids": [
+        "N041"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S079",
+      "chapter": "04",
+      "t_start": 240.633,
+      "t_end": 242.833,
+      "frame_start": 7219,
+      "frame_end_exclusive": 7285,
+      "visual": "하나의 관계선에서 복수 관계선으로 매치컷. 표식은 움직이지 않음.",
+      "on_screen_text": [
+        "여러 개의 행위로 판단",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J08"
+      ],
+      "narration_ids": [
+        "N042"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S080",
+      "chapter": "04",
+      "t_start": 242.833,
+      "t_end": 245.2,
+      "frame_start": 7285,
+      "frame_end_exclusive": 7356,
+      "visual": "하나의 관계선에서 복수 관계선으로 매치컷. 표식은 움직이지 않음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "여러 개의 행위로 판단",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J08"
+      ],
+      "narration_ids": [
+        "N042"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S081",
+      "chapter": "04",
+      "t_start": 245.2,
+      "t_end": 247.133,
+      "frame_start": 7356,
+      "frame_end_exclusive": 7414,
+      "visual": "실체적 경합 용어 라벨과 표식 도식. 죄 개수는 수치화하지 않음.",
+      "on_screen_text": [
+        "여러 행위로 여러 죄",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J09"
+      ],
+      "narration_ids": [
+        "N043"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S082",
+      "chapter": "04",
+      "t_start": 247.133,
+      "t_end": 249.167,
+      "frame_start": 7414,
+      "frame_end_exclusive": 7475,
+      "visual": "실체적 경합 용어 라벨과 표식 도식. 죄 개수는 수치화하지 않음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "여러 행위로 여러 죄",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J09"
+      ],
+      "narration_ids": [
+        "N043"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S083",
+      "chapter": "04",
+      "t_start": 249.167,
+      "t_end": 252.6,
+      "frame_start": 7475,
+      "frame_end_exclusive": 7578,
+      "visual": "중대장 단독 법원 판단 카드로 전환.",
+      "on_screen_text": [
+        "중대장 · 2심 · 여러 행위로 여러 죄",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J07"
+      ],
+      "narration_ids": [
+        "N044"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S084",
+      "chapter": "04",
+      "t_start": 252.6,
+      "t_end": 255.967,
+      "frame_start": 7578,
+      "frame_end_exclusive": 7679,
+      "visual": "중대장 단독 법원 판단 카드로 전환. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "중대장 · 2심 · 여러 행위로 여러 죄",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J07"
+      ],
+      "narration_ids": [
+        "N044"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S085",
+      "chapter": "04",
+      "t_start": 255.967,
+      "t_end": 261.767,
+      "frame_start": 7679,
+      "frame_end_exclusive": 7853,
+      "visual": "중대장 카드의 1심 상상적 경합 / 2심 실체적 경합 항목.",
+      "on_screen_text": [
+        "중대장 · 1심과 2심의 판단 차이"
+      ],
+      "fact_ids": [
+        "J01",
+        "J07"
+      ],
+      "narration_ids": [
+        "N045"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S086",
+      "chapter": "04",
+      "t_start": 261.767,
+      "t_end": 265.8,
+      "frame_start": 7853,
+      "frame_end_exclusive": 7974,
+      "visual": "보도상 법률 설명 카드. 법정형 숫자·산식 없음.",
+      "on_screen_text": [
+        "보도상 설명 · 가장 무거운 죄에 정한 형",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "J10"
+      ],
+      "narration_ids": [
+        "N046"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S087",
+      "chapter": "04",
+      "t_start": 265.8,
+      "t_end": 269.767,
+      "frame_start": 7974,
+      "frame_end_exclusive": 8093,
+      "visual": "보도상 법률 설명 카드. 법정형 숫자·산식 없음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "보도상 설명 · 가장 무거운 죄에 정한 형",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J10"
+      ],
+      "narration_ids": [
+        "N046"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S088",
+      "chapter": "04",
+      "t_start": 269.767,
+      "t_end": 273.2,
+      "frame_start": 8093,
+      "frame_end_exclusive": 8196,
+      "visual": "가중 가능이라는 문구만 강조. 1심 선고형에 배수 계산하지 않음.",
+      "on_screen_text": [
+        "보도상 설명 · 형의 가중 가능"
+      ],
+      "fact_ids": [
+        "J10"
+      ],
+      "narration_ids": [
+        "N047"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S089",
+      "chapter": "04",
+      "t_start": 273.2,
+      "t_end": 276.567,
+      "frame_start": 8196,
+      "frame_end_exclusive": 8297,
+      "visual": "가중 가능이라는 문구만 강조. 1심 선고형에 배수 계산하지 않음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "보도상 설명 · 형의 가중 가능",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J10"
+      ],
+      "narration_ids": [
+        "N047"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S090",
+      "chapter": "04",
+      "t_start": 276.567,
+      "t_end": 279.733,
+      "frame_start": 8297,
+      "frame_end_exclusive": 8392,
+      "visual": "중대장 카드에서 판단 차이와 형 증가를 연결하는 개념선.",
+      "on_screen_text": [
+        "중대장 · 죄수 관계 판단의 변경",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "J07",
+        "C07"
+      ],
+      "narration_ids": [
+        "N048"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S091",
+      "chapter": "04",
+      "t_start": 279.733,
+      "t_end": 282.967,
+      "frame_start": 8392,
+      "frame_end_exclusive": 8489,
+      "visual": "중대장 카드에서 판단 차이와 형 증가를 연결하는 개념선. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "중대장 · 죄수 관계 판단의 변경",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J07",
+        "C07"
+      ],
+      "narration_ids": [
+        "N048"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S092",
+      "chapter": "04",
+      "t_start": 282.967,
+      "t_end": 285.933,
+      "frame_start": 8489,
+      "frame_end_exclusive": 8578,
+      "visual": "2심 재판부 보도 요지 카드. 평가 주체를 재판부로 고정.",
+      "on_screen_text": [
+        "2심 재판부 · 보도 요지"
+      ],
+      "fact_ids": [
+        "J11"
+      ],
+      "narration_ids": [
+        "N049"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S093",
+      "chapter": "04",
+      "t_start": 285.933,
+      "t_end": 288.967,
+      "frame_start": 8578,
+      "frame_end_exclusive": 8669,
+      "visual": "2심 재판부 보도 요지 카드. 평가 주체를 재판부로 고정. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "2심 재판부 · 보도 요지",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J11"
+      ],
+      "narration_ids": [
+        "N049"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S094",
+      "chapter": "04",
+      "t_start": 288.967,
+      "t_end": 291.867,
+      "frame_start": 8669,
+      "frame_end_exclusive": 8756,
+      "visual": "빈 연병장의 추상 윤곽 위 법원 이유 문장. 인물 없음.",
+      "on_screen_text": [
+        "재판부 판단 · 충분히 예방할 수 있었던 사고",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "J11"
+      ],
+      "narration_ids": [
+        "N050"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S095",
+      "chapter": "04",
+      "t_start": 291.867,
+      "t_end": 294.767,
+      "frame_start": 8756,
+      "frame_end_exclusive": 8843,
+      "visual": "빈 연병장의 추상 윤곽 위 법원 이유 문장. 인물 없음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "재판부 판단 · 충분히 예방할 수 있었던 사고",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J11"
+      ],
+      "narration_ids": [
+        "N050"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S096",
+      "chapter": "04",
+      "t_start": 294.767,
+      "t_end": 299.067,
+      "frame_start": 8843,
+      "frame_end_exclusive": 8972,
+      "visual": "보호 의무에 관한 재판부 판단 카드. 국가 상징·판사 없음.",
+      "on_screen_text": [
+        "2심 재판부 · 병사의 생명과 신체 보호"
+      ],
+      "fact_ids": [
+        "J12"
+      ],
+      "narration_ids": [
+        "N051"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S097",
+      "chapter": "04",
+      "t_start": 299.067,
+      "t_end": 303.367,
+      "frame_start": 8972,
+      "frame_end_exclusive": 9101,
+      "visual": "보호 의무에 관한 재판부 판단 카드. 국가 상징·판사 없음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "2심 재판부 · 병사의 생명과 신체 보호",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J12"
+      ],
+      "narration_ids": [
+        "N051"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S098",
+      "chapter": "05",
+      "t_start": 303.367,
+      "t_end": 304.867,
+      "frame_start": 9101,
+      "frame_end_exclusive": 9146,
+      "visual": "전체 화면 장 카드. 선고와 확정. Noto Serif KR / Pretendard. 장 카드에는 새 사건 사실 없음.",
+      "on_screen_text": [
+        "05 선고와 확정"
+      ],
+      "fact_ids": [],
+      "narration_ids": [],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "hold",
+      "sound": "silent",
+      "kind": "chapter"
+    },
+    {
+      "id": "S099",
+      "chapter": "05",
+      "t_start": 304.867,
+      "t_end": 305.667,
+      "frame_start": 9146,
+      "frame_end_exclusive": 9170,
+      "visual": "6프레임 페이드아웃 뒤 0.6초 완전 암전. 다음 선고 카드에서 4프레임 흰 키업.",
+      "on_screen_text": [
+        " "
+      ],
+      "fact_ids": [],
+      "narration_ids": [],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "hold",
+      "sound": "silent",
+      "kind": "silence"
+    },
+    {
+      "id": "S100",
+      "chapter": "05",
+      "t_start": 305.667,
+      "t_end": 308.133,
+      "frame_start": 9170,
+      "frame_end_exclusive": 9244,
+      "visual": "빈 법정의 대칭 1점 투시. 파랑 키·자홍 측광, 법대와 전경 방청석의 깊이별 패럴랙스. 단일 중대장 선고 오버레이만 표시. 인물·국가 상징 없음.",
+      "on_screen_text": [
+        "05 / 선고",
+        "2심 · 2025년 6월 18일.",
+        "중대장",
+        "징역 5년 6개월",
+        "법정 재구성 · 개념도 · 실제 배치 아님",
+        "중대장에게 징역 5년 6개월이 선고됩니다.",
+        "문화일보 · 세계일보 · 경향신문 / 2025.06.18"
+      ],
+      "fact_ids": [
+        "C01",
+        "C07",
+        "J08"
+      ],
+      "narration_ids": [
+        "N052"
+      ],
+      "reconstruction_label": "법정 재구성 · 개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "Stage 2a: frame-driven slow push; independent foreground/midground/background parallax; static people",
+      "sound": "50Hz sine -28 dBFS, 0.8s at verdict onset; room tone resumes at -40 dBFS; no boom/click. Stage 1 preview remains silent.",
+      "kind": "scene",
+      "representative_revision": "stage_2a"
+    },
+    {
+      "id": "S101",
+      "chapter": "05",
+      "t_start": 308.133,
+      "t_end": 310.633,
+      "frame_start": 9244,
+      "frame_end_exclusive": 9319,
+      "visual": "중대장 단독 선고 카드. 0.8초 암전 후 흰 키업. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "중대장 · 2심 선고 징역 5년 6개월",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "C07"
+      ],
+      "narration_ids": [
+        "N052"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "50Hz sine -28 dBFS, 0.8s at verdict onset; room tone resumes at -40 dBFS; no boom/click. Stage 1 preview remains silent.",
+      "kind": "scene"
+    },
+    {
+      "id": "S102",
+      "chapter": "05",
+      "t_start": 310.633,
+      "t_end": 313.0,
+      "frame_start": 9319,
+      "frame_end_exclusive": 9390,
+      "visual": "같은 피고인만 1심 5년 → 2심 5년 6개월.",
+      "on_screen_text": [
+        "중대장 · 1심보다 6개월 증가"
+      ],
+      "fact_ids": [
+        "C05",
+        "C07"
+      ],
+      "narration_ids": [
+        "N053"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S103",
+      "chapter": "05",
+      "t_start": 313.0,
+      "t_end": 315.4,
+      "frame_start": 9390,
+      "frame_end_exclusive": 9462,
+      "visual": "같은 피고인만 1심 5년 → 2심 5년 6개월. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "중대장 · 1심보다 6개월 증가",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "C05",
+        "C07"
+      ],
+      "narration_ids": [
+        "N053"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S104",
+      "chapter": "05",
+      "t_start": 315.4,
+      "t_end": 317.767,
+      "frame_start": 9462,
+      "frame_end_exclusive": 9533,
+      "visual": "완전히 별도인 부중대장 2심 선고 카드.",
+      "on_screen_text": [
+        "부중대장 · 2심 선고 징역 3년"
+      ],
+      "fact_ids": [
+        "D06"
+      ],
+      "narration_ids": [
+        "N054"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S105",
+      "chapter": "05",
+      "t_start": 317.767,
+      "t_end": 320.167,
+      "frame_start": 9533,
+      "frame_end_exclusive": 9605,
+      "visual": "완전히 별도인 부중대장 2심 선고 카드. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "부중대장 · 2심 선고 징역 3년",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "D06"
+      ],
+      "narration_ids": [
+        "N054"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S106",
+      "chapter": "05",
+      "t_start": 320.167,
+      "t_end": 323.133,
+      "frame_start": 9605,
+      "frame_end_exclusive": 9694,
+      "visual": "부중대장만 1심 3년 → 2심 3년.",
+      "on_screen_text": [
+        "부중대장 · 1심과 같은 형량"
+      ],
+      "fact_ids": [
+        "D04",
+        "D06"
+      ],
+      "narration_ids": [
+        "N055"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S107",
+      "chapter": "05",
+      "t_start": 323.133,
+      "t_end": 326.9,
+      "frame_start": 9694,
+      "frame_end_exclusive": 9807,
+      "visual": "중대장 카드에 대법원 심급 메타를 추가.",
+      "on_screen_text": [
+        "중대장 · 상고심"
+      ],
+      "fact_ids": [
+        "C09",
+        "J13"
+      ],
+      "narration_ids": [
+        "N056"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S108",
+      "chapter": "05",
+      "t_start": 326.9,
+      "t_end": 329.8,
+      "frame_start": 9807,
+      "frame_end_exclusive": 9894,
+      "visual": "중대장만 대법원 날짜·상고 기각 표시.",
+      "on_screen_text": [
+        "중대장 · 2025년 9월 25일 · 상고 기각"
+      ],
+      "fact_ids": [
+        "C09",
+        "J13"
+      ],
+      "narration_ids": [
+        "N057"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S109",
+      "chapter": "05",
+      "t_start": 329.8,
+      "t_end": 332.7,
+      "frame_start": 9894,
+      "frame_end_exclusive": 9981,
+      "visual": "중대장만 대법원 날짜·상고 기각 표시. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "중대장 · 2025년 9월 25일 · 상고 기각",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "C09",
+        "J13"
+      ],
+      "narration_ids": [
+        "N057"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S110",
+      "chapter": "05",
+      "t_start": 332.7,
+      "t_end": 336.067,
+      "frame_start": 9981,
+      "frame_end_exclusive": 10082,
+      "visual": "중대장 카드의 대법원 판단 요지를 가까이 보여줌.",
+      "on_screen_text": [
+        "대법원 · 원심 판단 유지"
+      ],
+      "fact_ids": [
+        "J13"
+      ],
+      "narration_ids": [
+        "N058"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S111",
+      "chapter": "05",
+      "t_start": 336.067,
+      "t_end": 340.233,
+      "frame_start": 10082,
+      "frame_end_exclusive": 10207,
+      "visual": "중대장 최종 카드: 확정.",
+      "on_screen_text": [
+        "중대장 · 징역 5년 6개월 확정"
+      ],
+      "fact_ids": [
+        "C09"
+      ],
+      "narration_ids": [
+        "N059"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S112",
+      "chapter": "05",
+      "t_start": 340.233,
+      "t_end": 344.6,
+      "frame_start": 10207,
+      "frame_end_exclusive": 10338,
+      "visual": "부중대장 단독 최종 카드. 확정일은 쓰지 않음.",
+      "on_screen_text": [
+        "부중대장 · 징역 3년 확정"
+      ],
+      "fact_ids": [
+        "D08"
+      ],
+      "narration_ids": [
+        "N060"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S113",
+      "chapter": "05",
+      "t_start": 344.6,
+      "t_end": 347.767,
+      "frame_start": 10338,
+      "frame_end_exclusive": 10433,
+      "visual": "부중대장 카드 하단에 보도 기준일. 대법원 판결일처럼 표현하지 않음.",
+      "on_screen_text": [
+        "부중대장 · 2025년 9월 25일 보도 기준"
+      ],
+      "fact_ids": [
+        "D08"
+      ],
+      "narration_ids": [
+        "N061"
+      ],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S114",
+      "chapter": "05",
+      "t_start": 347.767,
+      "t_end": 351.0,
+      "frame_start": 10433,
+      "frame_end_exclusive": 10530,
+      "visual": "부중대장 카드 하단에 보도 기준일. 대법원 판결일처럼 표현하지 않음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "부중대장 · 2025년 9월 25일 보도 기준",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "D08"
+      ],
+      "narration_ids": [
+        "N061"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S115",
+      "chapter": "05",
+      "t_start": 351.0,
+      "t_end": 354.3,
+      "frame_start": 10530,
+      "frame_end_exclusive": 10629,
+      "visual": "처음의 표식 6개 도식으로 복귀. 밝고 중립적인 표식만.",
+      "on_screen_text": [
+        "피해자별 행위의 차이 · 항소심 판단",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "J08"
+      ],
+      "narration_ids": [
+        "N062"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S116",
+      "chapter": "05",
+      "t_start": 354.3,
+      "t_end": 357.6,
+      "frame_start": 10629,
+      "frame_end_exclusive": 10728,
+      "visual": "처음의 표식 6개 도식으로 복귀. 밝고 중립적인 표식만. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "피해자별 행위의 차이 · 항소심 판단",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J08"
+      ],
+      "narration_ids": [
+        "N062"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S117",
+      "chapter": "05",
+      "t_start": 357.6,
+      "t_end": 360.667,
+      "frame_start": 10728,
+      "frame_end_exclusive": 10820,
+      "visual": "빈 공간에 법원 이유의 짧은 요지. 제작자 평가로 바꾸지 않음.",
+      "on_screen_text": [
+        "2심 재판부 · 보도 요지 · 충분히 예방할 수 있었던 사망사고",
+        "개념도 · 실제 배치 아님"
+      ],
+      "fact_ids": [
+        "J11"
+      ],
+      "narration_ids": [
+        "N063"
+      ],
+      "reconstruction_label": "개념도 · 실제 배치 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S118",
+      "chapter": "05",
+      "t_start": 360.667,
+      "t_end": 363.8,
+      "frame_start": 10820,
+      "frame_end_exclusive": 10914,
+      "visual": "빈 공간에 법원 이유의 짧은 요지. 제작자 평가로 바꾸지 않음. / 별도 컷 2: 같은 확인 사실의 기록 항목·관계선 근접 화각. 새 동작·새 증거 추가 없음.",
+      "on_screen_text": [
+        "2심 재판부 · 보도 요지 · 충분히 예방할 수 있었던 사망사고",
+        "죄수 관계 개념도 · 실제 배치·범죄 개수 아님"
+      ],
+      "fact_ids": [
+        "J11"
+      ],
+      "narration_ids": [
+        "N063"
+      ],
+      "reconstruction_label": "죄수 관계 개념도 · 실제 배치·범죄 개수 아님",
+      "transition_in": "hard_cut",
+      "motion": "M1: 5% drift in; overlays stay in title-safe",
+      "sound": "room tone -38 to -40 dBFS",
+      "kind": "scene"
+    },
+    {
+      "id": "S119",
+      "chapter": "05",
+      "t_start": 363.8,
+      "t_end": 368.8,
+      "frame_start": 10914,
+      "frame_end_exclusive": 11064,
+      "visual": "출처 화면 1/2. 기사 제목·발행일·원문 URL은 facts.md의 출처 목록과 동일. 실제 원문 캡처 대신 직접 그린 글자.",
+      "on_screen_text": [
+        "출처 · 문화일보 · 세계일보 · 경향신문 · 뉴스1"
+      ],
+      "fact_ids": [],
+      "narration_ids": [],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "hold",
+      "sound": "silent",
+      "kind": "credits"
+    },
+    {
+      "id": "S120",
+      "chapter": "05",
+      "t_start": 368.8,
+      "t_end": 373.8,
+      "frame_start": 11064,
+      "frame_end_exclusive": 11214,
+      "visual": "출처 화면 2/2. 기사 제목·발행일·원문 URL은 facts.md의 출처 목록과 동일. 실제 원문 캡처 대신 직접 그린 글자.",
+      "on_screen_text": [
+        "출처 · 뉴시스 · YTN · 한겨레 · KBS · 뉴스핌"
+      ],
+      "fact_ids": [],
+      "narration_ids": [],
+      "reconstruction_label": null,
+      "transition_in": "hard_cut",
+      "motion": "hold",
+      "sound": "silent",
+      "kind": "credits"
+    }
+  ],
+  "representatives": [
+    {
+      "composition": "V4N18-REP1",
+      "shot_id": "S001",
+      "film_t_start": 0.0,
+      "clip_seconds": 5,
+      "fact_ids": [
+        "E01",
+        "E02",
+        "C02",
+        "E04"
+      ],
+      "preview_timing": "독립 5초 검토 클립. 최종 편집은 해당 shot의 시간·발화 경계를 따른다.",
+      "visual_revision": "stage_2a",
+      "output_directory": "rep2"
+    },
+    {
+      "composition": "V4N18-REP2",
+      "shot_id": "S002",
+      "clip_seconds": 5,
+      "fact_ids": [
+        "E01",
+        "E02"
+      ],
+      "preview_timing": "독립 5초 검토 클립. 최종 편집은 해당 shot의 시간·발화 경계를 따른다.",
+      "film_t_start": 4.667,
+      "visual_revision": "stage_2a",
+      "output_directory": "rep2"
+    },
+    {
+      "composition": "V4N18-REP3",
+      "shot_id": "S100",
+      "clip_seconds": 5,
+      "fact_ids": [
+        "C01",
+        "C07",
+        "J08"
+      ],
+      "preview_timing": "독립 5초 검토 클립. 최종 편집은 해당 shot의 시간·발화 경계를 따른다.",
+      "film_t_start": 305.667,
+      "visual_revision": "stage_2a",
+      "output_directory": "rep2"
+    }
+  ],
+  "visual_revision": "stage_2a_representatives"
+}

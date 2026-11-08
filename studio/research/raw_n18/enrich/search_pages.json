@@ -1,0 +1,20 @@
+[
+  [
+    "Q01",
+    "Google News",
+    "2026-10-30",
+    "https://news.google.com/search?q=12%EC%82%AC%EB%8B%A8%20%ED%9B%88%EB%A0%A8%EB%B3%91%20%EC%96%BC%EC%B0%A8%EB%A0%A4%20%EC%82%AC%EB%A7%9D&hl=ko&gl=KR&ceid=KR%3Ako"
+  ],
+  [
+    "Q02",
+    "Daum 검색",
+    "2026-10-30",
+    "https://search.daum.net/search?w=news&q=12%EC%82%AC%EB%8B%A8%20%ED%9B%88%EB%A0%A8%EB%B3%91%20%EC%96%BC%EC%B0%A8%EB%A0%A4%20%EC%82%AC%EB%A7%9D"
+  ],
+  [
+    "Q03",
+    "Naver 웹 검색",
+    "2026-10-30",
+    "https://search.naver.com/search.naver?where=news&query=12%EC%82%AC%EB%8B%A8%20%ED%9B%88%EB%A0%A8%EB%B3%91%20%EC%96%BC%EC%B0%A8%EB%A0%A4%20%EC%82%AC%EB%A7%9D"
+  ]
+]

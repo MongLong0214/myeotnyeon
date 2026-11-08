@@ -1,0 +1,665 @@
+{
+ "blender": "5.2.3 LTS",
+ "files": {
+  "111_06.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "111_06"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "111_06",
+     "frame_start": 1,
+     "frame_end": 1525,
+     "frames": 1525,
+     "seconds": 12.7
+    }
+   ]
+  },
+  "111_08.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "111_08"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "111_08",
+     "frame_start": 1,
+     "frame_end": 1535,
+     "frames": 1535,
+     "seconds": 12.78
+    }
+   ]
+  },
+  "111_28.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "111_28"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "111_28",
+     "frame_start": 1,
+     "frame_end": 1908,
+     "frames": 1908,
+     "seconds": 15.89
+    }
+   ]
+  },
+  "113_08.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "113_08"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "113_08",
+     "frame_start": 1,
+     "frame_end": 1846,
+     "frames": 1846,
+     "seconds": 15.37
+    }
+   ]
+  },
+  "113_21.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "113_21"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "113_21",
+     "frame_start": 1,
+     "frame_end": 1368,
+     "frames": 1368,
+     "seconds": 11.39
+    }
+   ]
+  },
+  "114_02.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "114_02"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "114_02",
+     "frame_start": 1,
+     "frame_end": 1743,
+     "frames": 1743,
+     "seconds": 14.52
+    }
+   ]
+  },
+  "136_25.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "136_25"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "136_25",
+     "frame_start": 1,
+     "frame_end": 1790,
+     "frames": 1790,
+     "seconds": 14.91
+    }
+   ]
+  },
+  "137_28.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "137_28"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "137_28",
+     "frame_start": 1,
+     "frame_end": 3723,
+     "frames": 3723,
+     "seconds": 31.02
+    }
+   ]
+  },
+  "139_18.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "139_18"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "139_18",
+     "frame_start": 1,
+     "frame_end": 855,
+     "frames": 855,
+     "seconds": 7.12
+    }
+   ]
+  },
+  "13_27.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "13_27"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "13_27",
+     "frame_start": 1,
+     "frame_end": 4170,
+     "frames": 4170,
+     "seconds": 34.74
+    }
+   ]
+  },
+  "140_09.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "140_09"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "140_09",
+     "frame_start": 1,
+     "frame_end": 816,
+     "frames": 816,
+     "seconds": 6.79
+    }
+   ]
+  },
+  "14_24.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "14_24"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "14_24",
+     "frame_start": 1,
+     "frame_end": 3703,
+     "frames": 3703,
+     "seconds": 30.85
+    }
+   ]
+  },
+  "40_10.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "40_10"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "40_10",
+     "frame_start": 1,
+     "frame_end": 6215,
+     "frames": 6215,
+     "seconds": 51.78
+    }
+   ]
+  },
+  "76_11.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "76_11"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "76_11",
+     "frame_start": 1,
+     "frame_end": 514,
+     "frames": 514,
+     "seconds": 4.27
+    }
+   ]
+  },
+  "90_18.bvh": {
+   "scene_fps": 120.00047922325778,
+   "armatures": [
+    "90_18"
+   ],
+   "bone_count": 31,
+   "bones_sample": [
+    "Hips",
+    "LHipJoint",
+    "LeftUpLeg",
+    "LeftLeg",
+    "LeftFoot",
+    "LeftToeBase",
+    "RHipJoint",
+    "RightUpLeg",
+    "RightLeg",
+    "RightFoot",
+    "RightToeBase",
+    "LowerBack",
+    "Spine",
+    "Spine1",
+    "Neck",
+    "Neck1",
+    "Head",
+    "LeftShoulder",
+    "LeftArm",
+    "LeftForeArm",
+    "LeftHand",
+    "LeftFingerBase",
+    "LeftHandIndex1",
+    "LThumb"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "90_18",
+     "frame_start": 1,
+     "frame_end": 395,
+     "frames": 395,
+     "seconds": 3.28
+    }
+   ]
+  }
+ }
+}

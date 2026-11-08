@@ -1,0 +1,11 @@
+{
+  "field-pack": "<path d=\"M-90-90Q0-125 90-90L105 82Q0 110-105 82Z\" fill=\"#7a846b\"/><path d=\"M-80-87L-60-38H63L83-87\" fill=\"#a2ac86\"/><path d=\"M-54-75V87M56-75V87\" stroke=\"#485644\" stroke-width=\"18\"/><rect x=\"-19\" y=\"-45\" width=\"38\" height=\"31\" rx=\"5\" fill=\"#d6b767\"/>",
+  "books": "<path d=\"M-100-40L75-65L109 48L-66 73Z\" fill=\"#b88e64\"/><path d=\"M-84-32L66-53L89 35L-60 57Z\" fill=\"#eee4c7\"/><path d=\"M-100-40L-66 73\" stroke=\"#6c6850\" stroke-width=\"20\"/><path d=\"M-65-15L60-34M-60 5L66-14M-53 25L72 6\" stroke=\"#c4bba3\" stroke-width=\"5\"/>",
+  "medical-bag": "<rect x=\"-94\" y=\"-65\" width=\"188\" height=\"143\" rx=\"24\" fill=\"#dbe6d7\"/><path d=\"M-40-65V-95H40V-65\" fill=\"none\" stroke-width=\"14\"/><path d=\"M-39 7H39M0-32V46\" stroke=\"#528f83\" stroke-width=\"23\"/>",
+  "faceless-head": "<path d=\"M-67-45Q-73-100 0-104Q74-100 68-45L58 45Q0 83-58 45Z\" fill=\"#263739\"/><path d=\"M-76-61L-65-110Q0-132 65-110L77-61Z\" fill=\"#46594d\"/>",
+  "recruit-back-head": "<path d=\"M-65-38Q-69-95 0-103Q70-95 65-38L54 43Q0 70-54 43Z\" fill=\"#788476\"/><path d=\"M-75-56L-66-106Q0-123 66-106L76-56Z\" fill=\"#8f9c7d\"/><path d=\"M-61-59H62\" stroke=\"#596d58\" stroke-width=\"12\"/>",
+  "court-scales": "<path d=\"M0-140V115M-130-90H130M-85 115H85\" fill=\"none\" stroke=\"#c9aa5b\" stroke-width=\"17\"/><path d=\"M-122-83L-177 30H-67ZM122-83L67 30H177Z\" fill=\"#d6ba6c\"/><circle cy=\"-143\" r=\"20\" fill=\"#d6ba6c\"/>",
+  "phone": "<rect x=\"-64\" y=\"-111\" width=\"128\" height=\"222\" rx=\"21\" fill=\"#34454c\"/><rect x=\"-49\" y=\"-86\" width=\"98\" height=\"161\" rx=\"9\" fill=\"#95bcb0\"/><circle cy=\"93\" r=\"7\" fill=\"#e8dbba\"/>",
+  "letter": "<path d=\"M-125-90H90L125-55V115H-125Z\" fill=\"#eee5c8\"/><path d=\"M90-90V-55H125\" fill=\"#c3bda5\"/><path d=\"M-92-42H58M-92-8H91M-92 26H91M-92 60H35\" stroke=\"#a8ad96\" stroke-width=\"10\"/>",
+  "shield": "<path d=\"M0-135L115-90L101 28Q75 101 0 135Q-75 101-101 28L-115-90Z\" fill=\"#4f827b\"/><path d=\"M-54 1L-13 46L64-51\" fill=\"none\" stroke=\"#dfce8b\" stroke-width=\"20\"/>"
+}

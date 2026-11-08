@@ -1,0 +1,1058 @@
+[
+  {
+    "cut": 1,
+    "from_shot": "V6_001",
+    "to_shot": "V6_002",
+    "ssim": 0.5200697206615373,
+    "camera_scale_ratio": 1.3,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 2,
+    "from_shot": "V6_002",
+    "to_shot": "V6_003",
+    "ssim": 0.5088620617515085,
+    "camera_scale_ratio": 1.3,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 3,
+    "from_shot": "V6_003",
+    "to_shot": "V6_004",
+    "ssim": 0.4941581604729875,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 4,
+    "from_shot": "V6_004",
+    "to_shot": "V6_005",
+    "ssim": 0.5539393666206197,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 5,
+    "from_shot": "V6_005",
+    "to_shot": "V6_006",
+    "ssim": 0.46511437760833246,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 6,
+    "from_shot": "V6_006",
+    "to_shot": "V6_007",
+    "ssim": 0.5169553346059947,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 7,
+    "from_shot": "V6_007",
+    "to_shot": "V6_008",
+    "ssim": 0.6003928004899404,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 8,
+    "from_shot": "V6_008",
+    "to_shot": "V6_009",
+    "ssim": 0.5773263325321775,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 9,
+    "from_shot": "V6_009",
+    "to_shot": "V6_010",
+    "ssim": 0.5465171025593861,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 10,
+    "from_shot": "V6_010",
+    "to_shot": "V6_011",
+    "ssim": 0.4894040305254317,
+    "camera_scale_ratio": 1.1382113821138211,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 11,
+    "from_shot": "V6_011",
+    "to_shot": "V6_012",
+    "ssim": 0.4894836494252187,
+    "camera_scale_ratio": 1.4,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 12,
+    "from_shot": "V6_012",
+    "to_shot": "V6_013",
+    "ssim": 0.5257301838720913,
+    "camera_scale_ratio": 1.3,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 13,
+    "from_shot": "V6_013",
+    "to_shot": "V6_014",
+    "ssim": 0.523795772794887,
+    "camera_scale_ratio": 1.3,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 14,
+    "from_shot": "V6_014",
+    "to_shot": "V6_015",
+    "ssim": 0.4941496776825566,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 15,
+    "from_shot": "V6_015",
+    "to_shot": "V6_016",
+    "ssim": 0.43169047783613246,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 16,
+    "from_shot": "V6_016",
+    "to_shot": "V6_017",
+    "ssim": 0.5574680322675047,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 17,
+    "from_shot": "V6_017",
+    "to_shot": "V6_018",
+    "ssim": 0.4843084458638633,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 18,
+    "from_shot": "V6_018",
+    "to_shot": "V6_019",
+    "ssim": 0.5197291116572135,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 19,
+    "from_shot": "V6_019",
+    "to_shot": "V6_020",
+    "ssim": 0.5615651179086132,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 20,
+    "from_shot": "V6_020",
+    "to_shot": "V6_021",
+    "ssim": 0.5411262067136101,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 21,
+    "from_shot": "V6_021",
+    "to_shot": "V6_022",
+    "ssim": 0.51262455736656,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 22,
+    "from_shot": "V6_022",
+    "to_shot": "V6_023",
+    "ssim": 0.4097334366317617,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 23,
+    "from_shot": "V6_023",
+    "to_shot": "V6_024",
+    "ssim": 0.3541778301455506,
+    "camera_scale_ratio": 1.2,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 24,
+    "from_shot": "V6_024",
+    "to_shot": "V6_025",
+    "ssim": 0.4039597717640899,
+    "camera_scale_ratio": 1.25,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 25,
+    "from_shot": "V6_025",
+    "to_shot": "V6_026",
+    "ssim": 0.3545513549799436,
+    "camera_scale_ratio": 1.5,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 26,
+    "from_shot": "V6_026",
+    "to_shot": "V6_027",
+    "ssim": 0.34206532975688536,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 27,
+    "from_shot": "V6_027",
+    "to_shot": "V6_028",
+    "ssim": 0.3766871774321504,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 28,
+    "from_shot": "V6_028",
+    "to_shot": "V6_029",
+    "ssim": 0.890976439212096,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 29,
+    "from_shot": "V6_029",
+    "to_shot": "V6_030",
+    "ssim": 0.6379904299744058,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 30,
+    "from_shot": "V6_030",
+    "to_shot": "V6_031",
+    "ssim": 0.5847104163546502,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 31,
+    "from_shot": "V6_031",
+    "to_shot": "V6_032",
+    "ssim": 0.5018851381647164,
+    "camera_scale_ratio": 1.3,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 32,
+    "from_shot": "V6_032",
+    "to_shot": "V6_033",
+    "ssim": 0.4727120489977481,
+    "camera_scale_ratio": 1.3,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 33,
+    "from_shot": "V6_033",
+    "to_shot": "V6_034",
+    "ssim": 0.46746970612640615,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 34,
+    "from_shot": "V6_034",
+    "to_shot": "V6_035",
+    "ssim": 0.600583763486279,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 35,
+    "from_shot": "V6_035",
+    "to_shot": "V6_036",
+    "ssim": 0.5021405172183043,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 36,
+    "from_shot": "V6_036",
+    "to_shot": "V6_037",
+    "ssim": 0.49721654957311473,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 37,
+    "from_shot": "V6_037",
+    "to_shot": "V6_038",
+    "ssim": 0.5292768478732477,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 38,
+    "from_shot": "V6_038",
+    "to_shot": "V6_039",
+    "ssim": 0.5927978673134264,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 39,
+    "from_shot": "V6_039",
+    "to_shot": "V6_040",
+    "ssim": 0.6720599674869784,
+    "camera_scale_ratio": 1.2845528455284554,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 40,
+    "from_shot": "V6_040",
+    "to_shot": "V6_041",
+    "ssim": 0.547326560090011,
+    "camera_scale_ratio": 1.58,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 41,
+    "from_shot": "V6_041",
+    "to_shot": "V6_042",
+    "ssim": 0.8365748684176447,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 42,
+    "from_shot": "V6_042",
+    "to_shot": "V6_043",
+    "ssim": 0.8494095512852424,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 43,
+    "from_shot": "V6_043",
+    "to_shot": "V6_044",
+    "ssim": 0.47918725967428,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 44,
+    "from_shot": "V6_044",
+    "to_shot": "V6_045",
+    "ssim": 0.46897526054346395,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 45,
+    "from_shot": "V6_045",
+    "to_shot": "V6_046",
+    "ssim": 0.5044903362092479,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 46,
+    "from_shot": "V6_046",
+    "to_shot": "V6_047",
+    "ssim": 0.4446584420195116,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 47,
+    "from_shot": "V6_047",
+    "to_shot": "V6_048",
+    "ssim": 0.7940725556772779,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 48,
+    "from_shot": "V6_048",
+    "to_shot": "V6_049",
+    "ssim": 0.8006617284019527,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 49,
+    "from_shot": "V6_049",
+    "to_shot": "V6_050",
+    "ssim": 0.46612129044432465,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 50,
+    "from_shot": "V6_050",
+    "to_shot": "V6_051",
+    "ssim": 0.48639290391144624,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 51,
+    "from_shot": "V6_051",
+    "to_shot": "V6_052",
+    "ssim": 0.5563862137670524,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 52,
+    "from_shot": "V6_052",
+    "to_shot": "V6_053",
+    "ssim": 0.6291253499779706,
+    "camera_scale_ratio": 1.2845528455284554,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 53,
+    "from_shot": "V6_053",
+    "to_shot": "V6_054",
+    "ssim": 0.5157793470661838,
+    "camera_scale_ratio": 1.58,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 54,
+    "from_shot": "V6_054",
+    "to_shot": "V6_055",
+    "ssim": 0.4263628540559219,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 55,
+    "from_shot": "V6_055",
+    "to_shot": "V6_056",
+    "ssim": 0.5059072385221817,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 56,
+    "from_shot": "V6_056",
+    "to_shot": "V6_057",
+    "ssim": 0.6020502468337832,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 57,
+    "from_shot": "V6_057",
+    "to_shot": "V6_058",
+    "ssim": 0.689173321506029,
+    "camera_scale_ratio": 1.2845528455284554,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 58,
+    "from_shot": "V6_058",
+    "to_shot": "V6_059",
+    "ssim": 0.5416654009612993,
+    "camera_scale_ratio": 1.58,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 59,
+    "from_shot": "V6_059",
+    "to_shot": "V6_060",
+    "ssim": 0.48660877591303225,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 60,
+    "from_shot": "V6_060",
+    "to_shot": "V6_061",
+    "ssim": 0.5228833164337445,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 61,
+    "from_shot": "V6_061",
+    "to_shot": "V6_062",
+    "ssim": 0.5967845730301794,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 62,
+    "from_shot": "V6_062",
+    "to_shot": "V6_063",
+    "ssim": 0.5559294182016244,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 63,
+    "from_shot": "V6_063",
+    "to_shot": "V6_064",
+    "ssim": 0.42810155888508933,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 64,
+    "from_shot": "V6_064",
+    "to_shot": "V6_065",
+    "ssim": 0.4773105513649876,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 65,
+    "from_shot": "V6_065",
+    "to_shot": "V6_066",
+    "ssim": 0.49152545296069405,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 66,
+    "from_shot": "V6_066",
+    "to_shot": "V6_067",
+    "ssim": 0.4707102702226776,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 67,
+    "from_shot": "V6_067",
+    "to_shot": "V6_068",
+    "ssim": 0.5679464403376924,
+    "camera_scale_ratio": 1.2845528455284554,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 68,
+    "from_shot": "V6_068",
+    "to_shot": "V6_069",
+    "ssim": 0.5238576491353476,
+    "camera_scale_ratio": 1.58,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 69,
+    "from_shot": "V6_069",
+    "to_shot": "V6_070",
+    "ssim": 0.3415690849751257,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 70,
+    "from_shot": "V6_070",
+    "to_shot": "V6_071",
+    "ssim": 0.34930385616936016,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 71,
+    "from_shot": "V6_071",
+    "to_shot": "V6_072",
+    "ssim": 0.3916065431950649,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 72,
+    "from_shot": "V6_072",
+    "to_shot": "V6_073",
+    "ssim": 0.5450490332772071,
+    "camera_scale_ratio": 1.35,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 73,
+    "from_shot": "V6_073",
+    "to_shot": "V6_074",
+    "ssim": 0.5259005504752872,
+    "camera_scale_ratio": 1.35,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 74,
+    "from_shot": "V6_074",
+    "to_shot": "V6_075",
+    "ssim": 0.40317924602342525,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 75,
+    "from_shot": "V6_075",
+    "to_shot": "V6_076",
+    "ssim": 0.4332583046714085,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 76,
+    "from_shot": "V6_076",
+    "to_shot": "V6_077",
+    "ssim": 0.533842322996293,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 77,
+    "from_shot": "V6_077",
+    "to_shot": "V6_078",
+    "ssim": 0.5399531405643669,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 78,
+    "from_shot": "V6_078",
+    "to_shot": "V6_079",
+    "ssim": 0.47772504392410997,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 79,
+    "from_shot": "V6_079",
+    "to_shot": "V6_080",
+    "ssim": 0.4999638897746704,
+    "camera_scale_ratio": 1.2845528455284554,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 80,
+    "from_shot": "V6_080",
+    "to_shot": "V6_081",
+    "ssim": 0.4554891853508687,
+    "camera_scale_ratio": 1.58,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 81,
+    "from_shot": "V6_081",
+    "to_shot": "V6_082",
+    "ssim": 0.6122242067801114,
+    "camera_scale_ratio": 1.35,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 82,
+    "from_shot": "V6_082",
+    "to_shot": "V6_083",
+    "ssim": 0.5410307645980422,
+    "camera_scale_ratio": 1.1481481481481481,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 83,
+    "from_shot": "V6_083",
+    "to_shot": "V6_084",
+    "ssim": 0.48536612232987464,
+    "camera_scale_ratio": 1.55,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 84,
+    "from_shot": "V6_084",
+    "to_shot": "V6_085",
+    "ssim": 0.5598935531661857,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 85,
+    "from_shot": "V6_085",
+    "to_shot": "V6_086",
+    "ssim": 0.547136129396586,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 86,
+    "from_shot": "V6_086",
+    "to_shot": "V6_087",
+    "ssim": 0.4454311346113861,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 87,
+    "from_shot": "V6_087",
+    "to_shot": "V6_088",
+    "ssim": 0.46374539316925756,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 88,
+    "from_shot": "V6_088",
+    "to_shot": "V6_089",
+    "ssim": 0.49618849192125963,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 89,
+    "from_shot": "V6_089",
+    "to_shot": "V6_090",
+    "ssim": 0.5209459555089276,
+    "camera_scale_ratio": 1.2845528455284554,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 90,
+    "from_shot": "V6_090",
+    "to_shot": "V6_091",
+    "ssim": 0.5098208123496871,
+    "camera_scale_ratio": 1.58,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 91,
+    "from_shot": "V6_091",
+    "to_shot": "V6_092",
+    "ssim": 0.49631253059046937,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 92,
+    "from_shot": "V6_092",
+    "to_shot": "V6_093",
+    "ssim": 0.523634516273065,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 93,
+    "from_shot": "V6_093",
+    "to_shot": "V6_094",
+    "ssim": 0.7817348878689506,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 94,
+    "from_shot": "V6_094",
+    "to_shot": "V6_095",
+    "ssim": 0.5252086749668758,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 95,
+    "from_shot": "V6_095",
+    "to_shot": "V6_096",
+    "ssim": 0.5549204908441121,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 96,
+    "from_shot": "V6_096",
+    "to_shot": "V6_097",
+    "ssim": 0.5040499292441528,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 97,
+    "from_shot": "V6_097",
+    "to_shot": "V6_098",
+    "ssim": 0.49626465133744874,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 98,
+    "from_shot": "V6_098",
+    "to_shot": "V6_099",
+    "ssim": 0.5573213938711994,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 99,
+    "from_shot": "V6_099",
+    "to_shot": "V6_100",
+    "ssim": 0.6151452166208421,
+    "camera_scale_ratio": 1.2845528455284554,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 100,
+    "from_shot": "V6_100",
+    "to_shot": "V6_101",
+    "ssim": 0.5889265798060028,
+    "camera_scale_ratio": 1.58,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 101,
+    "from_shot": "V6_101",
+    "to_shot": "V6_102",
+    "ssim": 0.5237047667046988,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 102,
+    "from_shot": "V6_102",
+    "to_shot": "V6_103",
+    "ssim": 0.568291912979249,
+    "camera_scale_ratio": 1.2845528455284554,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 103,
+    "from_shot": "V6_103",
+    "to_shot": "V6_104",
+    "ssim": 0.5205385678392217,
+    "camera_scale_ratio": 1.58,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 104,
+    "from_shot": "V6_104",
+    "to_shot": "V6_105",
+    "ssim": 0.7952991999264305,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 105,
+    "from_shot": "V6_105",
+    "to_shot": "V6_106",
+    "ssim": 0.5540615598931389,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 106,
+    "from_shot": "V6_106",
+    "to_shot": "V6_107",
+    "ssim": 0.5671854275754374,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 107,
+    "from_shot": "V6_107",
+    "to_shot": "V6_108",
+    "ssim": 0.5631743464849858,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 108,
+    "from_shot": "V6_108",
+    "to_shot": "V6_109",
+    "ssim": 0.5839270167349299,
+    "camera_scale_ratio": 1.2845528455284554,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 109,
+    "from_shot": "V6_109",
+    "to_shot": "V6_110",
+    "ssim": 0.5287316668268007,
+    "camera_scale_ratio": 1.58,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 110,
+    "from_shot": "V6_110",
+    "to_shot": "V6_111",
+    "ssim": 0.5081980583152234,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 111,
+    "from_shot": "V6_111",
+    "to_shot": "V6_112",
+    "ssim": 0.5329546275725462,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 112,
+    "from_shot": "V6_112",
+    "to_shot": "V6_113",
+    "ssim": 0.5324641194680314,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 113,
+    "from_shot": "V6_113",
+    "to_shot": "V6_114",
+    "ssim": 0.5459671700676961,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 114,
+    "from_shot": "V6_114",
+    "to_shot": "V6_115",
+    "ssim": 0.5112424422426046,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 115,
+    "from_shot": "V6_115",
+    "to_shot": "V6_116",
+    "ssim": 0.5204308365961828,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 116,
+    "from_shot": "V6_116",
+    "to_shot": "V6_117",
+    "ssim": 0.5158826427877261,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 117,
+    "from_shot": "V6_117",
+    "to_shot": "V6_118",
+    "ssim": 0.5055685932766472,
+    "camera_scale_ratio": 1.2845528455284554,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 118,
+    "from_shot": "V6_118",
+    "to_shot": "V6_119",
+    "ssim": 0.5301403939198461,
+    "camera_scale_ratio": 1.58,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 119,
+    "from_shot": "V6_119",
+    "to_shot": "V6_120",
+    "ssim": 0.49515139691749976,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 120,
+    "from_shot": "V6_120",
+    "to_shot": "V6_121",
+    "ssim": 0.5100449940394863,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 121,
+    "from_shot": "V6_121",
+    "to_shot": "V6_122",
+    "ssim": 0.5278875519185511,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 122,
+    "from_shot": "V6_122",
+    "to_shot": "V6_123",
+    "ssim": 0.534719875608201,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 123,
+    "from_shot": "V6_123",
+    "to_shot": "V6_124",
+    "ssim": 0.5662199778187853,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 124,
+    "from_shot": "V6_124",
+    "to_shot": "V6_125",
+    "ssim": 0.596308304678266,
+    "camera_scale_ratio": 1.2845528455284554,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 125,
+    "from_shot": "V6_125",
+    "to_shot": "V6_126",
+    "ssim": 0.5841312294779907,
+    "camera_scale_ratio": 1.58,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 126,
+    "from_shot": "V6_126",
+    "to_shot": "V6_127",
+    "ssim": 0.5370446105853677,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 127,
+    "from_shot": "V6_127",
+    "to_shot": "V6_128",
+    "ssim": 0.5061966205721256,
+    "camera_scale_ratio": 1.2845528455284554,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 128,
+    "from_shot": "V6_128",
+    "to_shot": "V6_129",
+    "ssim": 0.4913679667596972,
+    "camera_scale_ratio": 1.58,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 129,
+    "from_shot": "V6_129",
+    "to_shot": "V6_130",
+    "ssim": 0.4168947131767516,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 130,
+    "from_shot": "V6_130",
+    "to_shot": "V6_131",
+    "ssim": 0.425057187328528,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 131,
+    "from_shot": "V6_131",
+    "to_shot": "V6_132",
+    "ssim": 0.4166157158470196,
+    "camera_scale_ratio": 1.0,
+    "near_identical_candidate": false
+  },
+  {
+    "cut": 132,
+    "from_shot": "V6_132",
+    "to_shot": "V6_133",
+    "ssim": 0.7223518606915419,
+    "camera_scale_ratio": 1.23,
+    "near_identical_candidate": false
+  }
+]

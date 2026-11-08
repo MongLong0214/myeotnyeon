@@ -1,0 +1,35 @@
+{
+  "probe": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30.0,
+    "pix_fmt": "yuv420p",
+    "color_space": "bt709",
+    "color_primaries": "bt709",
+    "color_transfer": "bt709",
+    "audio": "aac",
+    "audio_bitrate": "317375",
+    "duration": 33.28,
+    "pass": true
+  },
+  "loudness": {
+    "integrated_lufs": -14.1,
+    "true_peak_dbtp": -1.5,
+    "pass_": true
+  },
+  "freeze_black": {
+    "freezes_over_2_5s": [],
+    "black_segments": [],
+    "pass_": true
+  },
+  "spelling": {
+    "issues": [],
+    "pass_": true
+  },
+  "accuracy": {
+    "no_finality_claim": true,
+    "finality_hits": [],
+    "request_mentions": [],
+    "pass_": true
+  }
+}

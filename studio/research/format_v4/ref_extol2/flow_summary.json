@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "push-in": 44,
+    "pull-out": 21,
+    "static": 13,
+    "parallax": 18,
+    "tilt": 1
+  },
+  "median_mean_flow_px_s_at_320w": 5.788634407600122,
+  "abs_scale_pct_s_median": 1.092956975192405,
+  "method": "Same ref1 Farneback + LK/RANSAC affine, top150 of180px, dt~0.2s, <=12 pairs/shot. Single sequential decode replaces random seeks; image motion proxy, not proof of actual camera trajectory."
+}

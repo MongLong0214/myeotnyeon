@@ -1,0 +1,178 @@
+[
+  {
+    "id": "T01",
+    "start_s": 0,
+    "end_s": 14,
+    "narration": "총격이 있었고 출납과장이 숨졌습니다.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T01_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T01_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T01_2.png"
+    ]
+  },
+  {
+    "id": "T02",
+    "start_s": 14,
+    "end_s": 24,
+    "narration": "2001-12-21 오전 10시께 대전 둔산동 은행 건물 지하주차장.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T02_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T02_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T02_2.png"
+    ]
+  },
+  {
+    "id": "T03",
+    "start_s": 24,
+    "end_s": 36,
+    "narration": "현금 운송 관계자 3명과 검은 그랜저XG, 복면 2명.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T03_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T03_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T03_2.png"
+    ]
+  },
+  {
+    "id": "T04",
+    "start_s": 36,
+    "end_s": 48,
+    "narration": "두 가방 중 한 개, 현금 3억 원이 빼앗겼습니다.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T04_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T04_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T04_2.png"
+    ]
+  },
+  {
+    "id": "T05",
+    "start_s": 48,
+    "end_s": 67,
+    "narration": "2001-12-01 수원에서 훔친 차량과 앞선 권총 강탈 사건.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T05_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T05_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T05_2.png"
+    ]
+  },
+  {
+    "id": "T06",
+    "start_s": 67,
+    "end_s": 84,
+    "narration": "CCTV가 없던 현장. 인근 상가 지하에 차량을 버린 뒤, 방화 시도가 보도됐습니다.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T06_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T06_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T06_2.png"
+    ]
+  },
+  {
+    "id": "T07",
+    "start_s": 84,
+    "end_s": 102,
+    "narration": "마스크와 손수건은 남았지만 당시 감식으로 DNA를 검출하지 못했습니다.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T07_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T07_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T07_2.png"
+    ]
+  },
+  {
+    "id": "T08",
+    "start_s": 102,
+    "end_s": 122,
+    "narration": "초기 조사와 2011년 중요미제사건 전담수사팀의 자료 인수.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T08_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T08_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T08_2.png"
+    ]
+  },
+  {
+    "id": "T09",
+    "start_s": 122,
+    "end_s": 138,
+    "narration": "2015년 태완이법 시행 뒤 수사는 계속됐습니다. 2017년 재감식이 돌파구가 됩니다.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T09_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T09_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T09_2.png"
+    ]
+  },
+  {
+    "id": "T10",
+    "start_s": 138,
+    "end_s": 156,
+    "narration": "DNA는 2015년 충북 불법게임장 담배꽁초 자료와 이어졌습니다.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T10_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T10_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T10_2.png"
+    ]
+  },
+  {
+    "id": "T11",
+    "start_s": 156,
+    "end_s": 173,
+    "narration": "2022년 B를 특정하고 8월 25일 검거. B 진술 뒤 A도 체포.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T11_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T11_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T11_2.png"
+    ]
+  },
+  {
+    "id": "T12",
+    "start_s": 173,
+    "end_s": 190,
+    "narration": "서로 다른 총격·돈 분배 주장이 법정에서 맞섰습니다.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T12_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T12_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T12_2.png"
+    ]
+  },
+  {
+    "id": "T13",
+    "start_s": 190,
+    "end_s": 210,
+    "narration": "2023-01-16 검찰 구형과 2023-02-17 1심 선고를 구별합니다.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T13_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T13_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T13_2.png"
+    ]
+  },
+  {
+    "id": "T14",
+    "start_s": 210,
+    "end_s": 230,
+    "narration": "2023-08-18 항소심은 두 사람 모두 무기징역을 선고했습니다.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T14_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T14_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T14_2.png"
+    ]
+  },
+  {
+    "id": "T15",
+    "start_s": 230,
+    "end_s": 246,
+    "narration": "2023-12-14 대법원 상고 기각으로 무기징역이 확정됐습니다.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T15_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T15_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T15_2.png"
+    ]
+  },
+  {
+    "id": "T16",
+    "start_s": 246,
+    "end_s": 259,
+    "narration": "돌아오지 못한 사람의 빈 일자리. 범인의 표정이 아닌 상실을 남깁니다.",
+    "frames": [
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T16_0.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T16_1.png",
+      "episodes/lf2_daejeon_bank/terra_remake/frames/T16_2.png"
+    ]
+  }
+]

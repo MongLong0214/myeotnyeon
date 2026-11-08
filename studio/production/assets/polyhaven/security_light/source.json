@@ -1,0 +1,20 @@
+{
+ "id": "security_light",
+ "name": "Security Light",
+ "type": 2,
+ "authors": {
+  "Maximilian Schuster": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/security_light",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/security_light/security_light_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/security_light/security_light_metal_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/security_light/security_light_alpha_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/security_light/security_light_nor_gl_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/security_light/security_light_rough_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/security_light/security_light_diff_2k.jpg"
+ ]
+}

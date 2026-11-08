@@ -1,0 +1,19 @@
+{
+  "sample_n": 89,
+  "sample_method": "top-level top-ranked comments; <=200; replies excluded; not representative and not retention analytics",
+  "keyword_theme_comment_counts_overlapping": {
+    "제작·몰입 언급": 4,
+    "기관·권력 언급": 4,
+    "형량·사법 언급": 27,
+    "피해·공감 언급": 2,
+    "사실·해석 논쟁 표지": 0,
+    "구독·업로드 기대": 4
+  },
+  "quoted_timestamp_counts_s": {
+    "246": 2,
+    "283": 1,
+    "383": 1,
+    "523": 1
+  },
+  "interpretation": "수사 과정의 몰입감보다 결말의 복역 기간에 대한 분노가 강하게 나타난다. 갑자기 끝난다는 마무리 길이 지적도 존재."
+}

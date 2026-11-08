@@ -1,0 +1,177 @@
+{
+ "blender": "5.2.3 LTS",
+ "files": {
+  "ArmsBySide_ID.bvh": {
+   "scene_fps": 59.998798394426075,
+   "armatures": [
+    "ArmsBySide_ID"
+   ],
+   "bone_count": 23,
+   "bones_sample": [
+    "Hips",
+    "Chest",
+    "Chest2",
+    "Chest3",
+    "Chest4",
+    "Neck",
+    "Head",
+    "RightCollar",
+    "RightShoulder",
+    "RightElbow",
+    "RightWrist",
+    "LeftCollar",
+    "LeftShoulder",
+    "LeftElbow",
+    "LeftWrist",
+    "RightHip",
+    "RightKnee",
+    "RightAnkle",
+    "RightToe",
+    "LeftHip",
+    "LeftKnee",
+    "LeftAnkle",
+    "LeftToe"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "ArmsBySide_ID",
+     "frame_start": 1,
+     "frame_end": 1880,
+     "frames": 1880,
+     "seconds": 31.32
+    }
+   ]
+  },
+  "Neutral_BW.bvh": {
+   "scene_fps": 59.998798394426075,
+   "armatures": [
+    "Neutral_BW"
+   ],
+   "bone_count": 23,
+   "bones_sample": [
+    "Hips",
+    "Chest",
+    "Chest2",
+    "Chest3",
+    "Chest4",
+    "Neck",
+    "Head",
+    "RightCollar",
+    "RightShoulder",
+    "RightElbow",
+    "RightWrist",
+    "LeftCollar",
+    "LeftShoulder",
+    "LeftElbow",
+    "LeftWrist",
+    "RightHip",
+    "RightKnee",
+    "RightAnkle",
+    "RightToe",
+    "LeftHip",
+    "LeftKnee",
+    "LeftAnkle",
+    "LeftToe"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "Neutral_BW",
+     "frame_start": 1,
+     "frame_end": 8644,
+     "frames": 8644,
+     "seconds": 144.05
+    }
+   ]
+  },
+  "Neutral_FW.bvh": {
+   "scene_fps": 59.998798394426075,
+   "armatures": [
+    "Neutral_FW"
+   ],
+   "bone_count": 23,
+   "bones_sample": [
+    "Hips",
+    "Chest",
+    "Chest2",
+    "Chest3",
+    "Chest4",
+    "Neck",
+    "Head",
+    "RightCollar",
+    "RightShoulder",
+    "RightElbow",
+    "RightWrist",
+    "LeftCollar",
+    "LeftShoulder",
+    "LeftElbow",
+    "LeftWrist",
+    "RightHip",
+    "RightKnee",
+    "RightAnkle",
+    "RightToe",
+    "LeftHip",
+    "LeftKnee",
+    "LeftAnkle",
+    "LeftToe"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "Neutral_FW",
+     "frame_start": 1,
+     "frame_end": 7896,
+     "frames": 7896,
+     "seconds": 131.59
+    }
+   ]
+  },
+  "Neutral_ID.bvh": {
+   "scene_fps": 59.998798394426075,
+   "armatures": [
+    "Neutral_ID"
+   ],
+   "bone_count": 23,
+   "bones_sample": [
+    "Hips",
+    "Chest",
+    "Chest2",
+    "Chest3",
+    "Chest4",
+    "Neck",
+    "Head",
+    "RightCollar",
+    "RightShoulder",
+    "RightElbow",
+    "RightWrist",
+    "LeftCollar",
+    "LeftShoulder",
+    "LeftElbow",
+    "LeftWrist",
+    "RightHip",
+    "RightKnee",
+    "RightAnkle",
+    "RightToe",
+    "LeftHip",
+    "LeftKnee",
+    "LeftAnkle",
+    "LeftToe"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [],
+   "actions": [
+    {
+     "name": "Neutral_ID",
+     "frame_start": 1,
+     "frame_end": 2103,
+     "frames": 2103,
+     "seconds": 35.03
+    }
+   ]
+  }
+ }
+}

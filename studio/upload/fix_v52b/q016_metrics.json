@@ -1,0 +1,57 @@
+{
+  "span": [
+    841,
+    844
+  ],
+  "held": 840,
+  "input": {
+    "audio_md5": "MD5=f1c5fb2b2e17c2d350f2601a6b0786a6",
+    "pcm_md5": "MD5=fe907ef6616bca038ce520b8b1d1dc62",
+    "lufs": -14.2
+  },
+  "output": {
+    "audio_md5": "MD5=f1c5fb2b2e17c2d350f2601a6b0786a6",
+    "pcm_md5": "MD5=fe907ef6616bca038ce520b8b1d1dc62",
+    "lufs": -14.2
+  },
+  "outside": {
+    "count": 886,
+    "minimum_psnr": 51.25,
+    "minimum_frame": 60,
+    "per_plane_min": {
+      "y": 50.15,
+      "u": 54.85,
+      "v": 55.08
+    }
+  },
+  "replaced": [
+    {
+      "frame": 841,
+      "psnr": 56.88,
+      "y": 56.1,
+      "u": 59.58,
+      "v": 58.58
+    },
+    {
+      "frame": 842,
+      "psnr": 56.94,
+      "y": 56.17,
+      "u": 59.58,
+      "v": 58.57
+    },
+    {
+      "frame": 843,
+      "psnr": 56.85,
+      "y": 56.06,
+      "u": 59.59,
+      "v": 58.56
+    },
+    {
+      "frame": 844,
+      "psnr": 56.87,
+      "y": 56.08,
+      "u": 59.62,
+      "v": 58.58
+    }
+  ]
+}

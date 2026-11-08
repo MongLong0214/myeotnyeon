@@ -1,0 +1,26 @@
+[
+  {
+    "id": "Q01",
+    "publisher": "Google News",
+    "date": "2026-10-30",
+    "url": "https://news.google.com/search?q=12%EC%82%AC%EB%8B%A8%20%ED%9B%88%EB%A0%A8%EB%B3%91%20%EC%96%BC%EC%B0%A8%EB%A0%A4%20%EC%82%AC%EB%A7%9D&hl=ko&gl=KR&ceid=KR%3Ako",
+    "fetched_at": "2026-10-30T00:13:48.774239+00:00",
+    "error": "robots disallow or robots unavailable: https://news.google.com/search?q=12%EC%82%AC%EB%8B%A8%20%ED%9B%88%EB%A0%A8%EB%B3%91%20%EC%96%BC%EC%B0%A8%EB%A0%A4%20%EC%82%AC%EB%A7%9D&hl=ko&gl=KR&ceid=KR%3Ako"
+  },
+  {
+    "id": "Q02",
+    "publisher": "Daum 검색",
+    "date": "2026-10-30",
+    "url": "https://search.daum.net/search?w=news&q=12%EC%82%AC%EB%8B%A8%20%ED%9B%88%EB%A0%A8%EB%B3%91%20%EC%96%BC%EC%B0%A8%EB%A0%A4%20%EC%82%AC%EB%A7%9D",
+    "fetched_at": "2026-10-30T00:13:48.774857+00:00",
+    "error": "robots disallow or robots unavailable: https://search.daum.net/search?w=news&q=12%EC%82%AC%EB%8B%A8%20%ED%9B%88%EB%A0%A8%EB%B3%91%20%EC%96%BC%EC%B0%A8%EB%A0%A4%20%EC%82%AC%EB%A7%9D"
+  },
+  {
+    "id": "Q03",
+    "publisher": "Naver 웹 검색",
+    "date": "2026-10-30",
+    "url": "https://search.naver.com/search.naver?where=news&query=12%EC%82%AC%EB%8B%A8%20%ED%9B%88%EB%A0%A8%EB%B3%91%20%EC%96%BC%EC%B0%A8%EB%A0%A4%20%EC%82%AC%EB%A7%9D",
+    "fetched_at": "2026-10-30T00:13:48.778280+00:00",
+    "error": "robots disallow or robots unavailable: https://search.naver.com/search.naver?where=news&query=12%EC%82%AC%EB%8B%A8%20%ED%9B%88%EB%A0%A8%EB%B3%91%20%EC%96%BC%EC%B0%A8%EB%A0%A4%20%EC%82%AC%EB%A7%9D"
+  }
+]

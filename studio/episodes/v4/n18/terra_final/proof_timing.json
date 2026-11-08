@@ -1,0 +1,45 @@
+{
+  "output_resolution": "426x240",
+  "delivery": "n18_terra_final_approval_proof_426x240.mp4",
+  "source_audio": "../audio/mix_master.wav",
+  "source_audio_range_s": [11.17, 29.4],
+  "timing_basis": "기존 mix_master.wav의 N003/N004/N005 원문 시간표를 그대로 사용했다. 등분 컷이 아니라 실제 발화 시작과 다음 발화 전 쉼 경계(17.57, 22.73)에 맞춰 화면을 교체한다.",
+  "shots": [
+    {
+      "shot_id": "01",
+      "source_svg": "svg/01_preparation_wide.svg",
+      "narration_id": "N003",
+      "source_audio_start_s": 11.17,
+      "source_audio_end_s": 17.233,
+      "proof_start_s": 0.0,
+      "proof_end_s": 6.4,
+      "spoken_text": "중대장이 지시한 것은 절차와 방법을 위반한 군기훈련, 이른바 얼차려였다.",
+      "facts": ["C02", "E03"],
+      "screen_decision": "훈련공간의 단일 익명 3/4 측면. 실제 보도 범위의 완전군장은 어깨·등에서 붙은 군장과 끈으로만 보이고, 특정 훈련동작은 재연하지 않는다. 두 팔·다리·군화는 분리하며 지면선은 발을 통과하지 않는다."
+    },
+    {
+      "shot_id": "02",
+      "source_svg": "svg/02_action_weight_shift.svg",
+      "narration_id": "N004",
+      "source_audio_start_s": 17.57,
+      "source_audio_end_s": 22.4,
+      "proof_start_s": 6.4,
+      "proof_end_s": 11.56,
+      "spoken_text": "부중대장도 이 군기훈련을 실시한 혐의로 재판에 넘겨진다.",
+      "facts": ["D02"],
+      "screen_decision": "법적 혐의 발화에 맞춘 단일 훈련장 개념 장면. 팔과 몸통 사이 여백, 붙은 군장, 앞뒤 다리·군화의 분리만 보이며, 미확인 지휘·폭력·구조 행동은 추가하지 않는다."
+    },
+    {
+      "shot_id": "03",
+      "source_svg": "svg/03_settled_grounded.svg",
+      "narration_id": "N005",
+      "source_audio_start_s": 22.73,
+      "source_audio_end_s": 29.4,
+      "proof_start_s": 11.56,
+      "proof_end_s": 18.23,
+      "spoken_text": "훈련 도중 의식을 잃은 훈련병에게 적절한 조치를 하지 않았다는 혐의도 포함된다.",
+      "facts": ["E04"],
+      "screen_decision": "정상 보행 대신 이미 지면에 정착한 비식별 상태 개념도. 배낭·손/팔뚝·굽은 무릎·군화의 접점만 단순하게 보이고, 쓰러지는 궤적·구조자·처치·외상은 그리지 않는다. 부적절한 조치 의혹은 자막의 혐의 문구로만 표현한다."
+    }
+  ]
+}

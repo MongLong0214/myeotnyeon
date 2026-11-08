@@ -1,0 +1,681 @@
+TAP version 13
+# Subtest: v3 q001: outgoing panel covers CTA pre-roll
+not ok 1 - v3 q001: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 1.629792
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f733: legacy outro background precedes ready CTA f741'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.start (node:internal/test_runner/test:944:17)
+    startSubtestAfterBootstrap (node:internal/test_runner/harness:296:17)
+  ...
+# Subtest: v3 q002: outgoing panel covers CTA pre-roll
+not ok 2 - v3 q002: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 15.47375
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f606: legacy outro background precedes ready CTA f614'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async startSubtestAfterBootstrap (node:internal/test_runner/harness:296:3)
+  ...
+# Subtest: v3 q003: outgoing panel covers CTA pre-roll
+not ok 3 - v3 q003: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 3.451416
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f871: legacy outro background precedes ready CTA f879'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q004: outgoing panel covers CTA pre-roll
+not ok 4 - v3 q004: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 6.785667
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f739: legacy outro background precedes ready CTA f747'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q005: outgoing panel covers CTA pre-roll
+not ok 5 - v3 q005: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 4.835875
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f869: legacy outro background precedes ready CTA f877'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q006: outgoing panel covers CTA pre-roll
+not ok 6 - v3 q006: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 6.798459
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f949: legacy outro background precedes ready CTA f957'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q007: outgoing panel covers CTA pre-roll
+not ok 7 - v3 q007: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 5.460375
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f967: legacy outro background precedes ready CTA f975'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q008: outgoing panel covers CTA pre-roll
+not ok 8 - v3 q008: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 4.425167
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f926: legacy outro background precedes ready CTA f934'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q009: outgoing panel covers CTA pre-roll
+not ok 9 - v3 q009: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 3.056916
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f1080: legacy outro background precedes ready CTA f1088'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q010: outgoing panel covers CTA pre-roll
+not ok 10 - v3 q010: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 2.989542
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f1113: legacy outro background precedes ready CTA f1121'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q011: outgoing panel covers CTA pre-roll
+not ok 11 - v3 q011: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 4.933
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f873: legacy outro background precedes ready CTA f881'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q012: outgoing panel covers CTA pre-roll
+not ok 12 - v3 q012: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 1.072042
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f994: legacy outro background precedes ready CTA f1002'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q013: outgoing panel covers CTA pre-roll
+not ok 13 - v3 q013: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 4.940917
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f824: legacy outro background precedes ready CTA f832'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q014: outgoing panel covers CTA pre-roll
+not ok 14 - v3 q014: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 1.002583
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f959: legacy outro background precedes ready CTA f967'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q015: outgoing panel covers CTA pre-roll
+not ok 15 - v3 q015: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.727041
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f759: legacy outro background precedes ready CTA f767'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q016: outgoing panel covers CTA pre-roll
+not ok 16 - v3 q016: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 1.97275
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f920: legacy outro background precedes ready CTA f928'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v3 q017: outgoing panel covers CTA pre-roll
+not ok 17 - v3 q017: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.724208
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:21:3'
+  failureType: 'testCodeFailure'
+  error: 'f705: legacy outro background precedes ready CTA f713'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:21:61)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v5 q012: no intermediate legacy outro
+not ok 18 - v5 q012: no intermediate legacy outro
+  ---
+  duration_ms: 0.651041
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:26:5'
+  failureType: 'testCodeFailure'
+  error: 'f1022: legacy outro background precedes ready CTA f1031'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:27:7)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v51 q012: no intermediate legacy outro
+not ok 19 - v51 q012: no intermediate legacy outro
+  ---
+  duration_ms: 0.547667
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:26:5'
+  failureType: 'testCodeFailure'
+  error: 'f1088: legacy outro background precedes ready CTA f1096'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:27:7)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v52 q012: no intermediate legacy outro
+not ok 20 - v52 q012: no intermediate legacy outro
+  ---
+  duration_ms: 0.549417
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:26:5'
+  failureType: 'testCodeFailure'
+  error: 'f917: legacy outro background precedes ready CTA f922'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:27:7)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v5 q015: no intermediate legacy outro
+not ok 21 - v5 q015: no intermediate legacy outro
+  ---
+  duration_ms: 0.49375
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:26:5'
+  failureType: 'testCodeFailure'
+  error: 'f784: legacy outro background precedes ready CTA f791'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:27:7)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v51 q015: no intermediate legacy outro
+not ok 22 - v51 q015: no intermediate legacy outro
+  ---
+  duration_ms: 0.657333
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:26:5'
+  failureType: 'testCodeFailure'
+  error: 'f814: legacy outro background precedes ready CTA f822'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:27:7)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v52 q015: no intermediate legacy outro
+not ok 23 - v52 q015: no intermediate legacy outro
+  ---
+  duration_ms: 0.353917
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:26:5'
+  failureType: 'testCodeFailure'
+  error: 'f659: legacy outro background precedes ready CTA f660'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:27:7)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v5 q016: no intermediate legacy outro
+not ok 24 - v5 q016: no intermediate legacy outro
+  ---
+  duration_ms: 0.361958
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:26:5'
+  failureType: 'testCodeFailure'
+  error: 'f948: legacy outro background precedes ready CTA f959'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:27:7)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v51 q016: no intermediate legacy outro
+not ok 25 - v51 q016: no intermediate legacy outro
+  ---
+  duration_ms: 0.459375
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:26:5'
+  failureType: 'testCodeFailure'
+  error: 'f1021: legacy outro background precedes ready CTA f1029'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:27:7)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v52 q016: no intermediate legacy outro
+not ok 26 - v52 q016: no intermediate legacy outro
+  ---
+  duration_ms: 0.273292
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:26:5'
+  failureType: 'testCodeFailure'
+  error: 'f841: legacy outro background precedes ready CTA f845'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:27:7)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v5 q017: no intermediate legacy outro
+not ok 27 - v5 q017: no intermediate legacy outro
+  ---
+  duration_ms: 0.682875
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:26:5'
+  failureType: 'testCodeFailure'
+  error: 'f735: legacy outro background precedes ready CTA f745'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:27:7)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v51 q017: no intermediate legacy outro
+not ok 28 - v51 q017: no intermediate legacy outro
+  ---
+  duration_ms: 0.33975
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:26:5'
+  failureType: 'testCodeFailure'
+  error: 'f782: legacy outro background precedes ready CTA f790'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:27:7)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: v52 q017: no intermediate legacy outro
+not ok 29 - v52 q017: no intermediate legacy outro
+  ---
+  duration_ms: 0.27975
+  type: 'test'
+  location: 'production/compositor/tests/endTransition.test.ts:26:5'
+  failureType: 'testCodeFailure'
+  error: 'f623: legacy outro background precedes ready CTA f627'
+  code: 'ERR_ASSERTION'
+  name: 'AssertionError'
+  expected: true
+  actual: false
+  operator: '=='
+  stack: |-
+    check (file://production/compositor/tests/endTransition.test.ts:15:12)
+    TestContext.<anonymous> (file://production/compositor/tests/endTransition.test.ts:27:7)
+    Test.runInAsyncScope (node:async_hooks:214:14)
+    Test.run (node:internal/test_runner/test:1047:25)
+    Test.processPendingSubtests (node:internal/test_runner/test:744:18)
+    Test.postRun (node:internal/test_runner/test:1173:19)
+    Test.run (node:internal/test_runner/test:1101:12)
+    async Test.processPendingSubtests (node:internal/test_runner/test:744:7)
+  ...
+# Subtest: already aligned full-screen transitions retain their display ranges
+ok 30 - already aligned full-screen transitions retain their display ranges
+  ---
+  duration_ms: 0.851625
+  type: 'test'
+  ...
+1..30
+# tests 30
+# suites 0
+# pass 1
+# fail 29
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 289.330791

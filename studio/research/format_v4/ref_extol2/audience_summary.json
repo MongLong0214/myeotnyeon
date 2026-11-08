@@ -1,0 +1,46 @@
+{
+  "downloaded": 217,
+  "root_count": 129,
+  "reply_count": 88,
+  "primary_counts_all": {
+    "사건 반응·배경·정확성·문화 연상": 58,
+    "제작·몰입·목소리·채널 성장": 82,
+    "경찰 대응·제도·총기정책": 65,
+    "다음 소재 요청": 1,
+    "지역·정치 혐오 또는 가해자 찬양": 9,
+    "짧은 반응·맥락외": 2
+  },
+  "primary_counts_roots": {
+    "사건 반응·배경·정확성·문화 연상": 42,
+    "제작·몰입·목소리·채널 성장": 43,
+    "경찰 대응·제도·총기정책": 32,
+    "다음 소재 요청": 1,
+    "지역·정치 혐오 또는 가해자 찬양": 9,
+    "짧은 반응·맥락외": 2
+  },
+  "root_uncoded": [
+    176,
+    189
+  ],
+  "timestamp_comments": [
+    {
+      "index": 131,
+      "id": "UgyNgSxcF-Wc1UNWe4l4AaABAg.AZtiJJvh_dnAaKBYBE4PUU",
+      "is_root": false,
+      "likes": 0,
+      "primary_theme": "경찰 대응·제도·총기정책",
+      "timestamp_mentions": "3:59",
+      "text": "3:59 아마 급할시 외부와 전화 연결을 하기위한 당직이 였을지도"
+    },
+    {
+      "index": 212,
+      "id": "UgznS15rd-Y2jpbLPbB4AaABAg",
+      "is_root": true,
+      "likes": 0,
+      "primary_theme": "사건 반응·배경·정확성·문화 연상",
+      "timestamp_mentions": "0:43",
+      "text": "0:43 백수가 아니고 저녁 근무 때문에 낮잠자고 있는데 가슴 쳐서 깨웠으면 나 같아도 팻을 듯 ㅠ"
+    }
+  ],
+  "method": "All 217 comments read. Root comments manually coded; replies inherit thread primary theme (tangents possible), separately counted. Theme counts mutually exclusive; subthemes overlap. Top-ranked YouTube sample, not random viewers or retention analytics. No attempt to fill to 300 by recency."
+}

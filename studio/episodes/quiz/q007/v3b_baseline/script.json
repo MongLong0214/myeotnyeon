@@ -1,0 +1,269 @@
+{
+ "episode_id": "q007",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 대법원 2025년 확정",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "수원 일대 주택 800여 가구를 사들인 일가족이, 세입자 500여 명의 전세보증금 760억 원을 가로챘습니다."
+   ],
+   "claim_ids": [
+    "V2-10_2",
+    "V2-10_4"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "money",
+    "money": "760억",
+    "moneyAt": -30,
+    "tags": [
+     {
+      "text": "세입자 500여 명",
+      "x": 500,
+      "y": 560,
+      "color": "#C9503E",
+      "at": 36,
+      "size": 48
+     }
+    ]
+   },
+   "in_frame": 0,
+   "duration_frames": 208,
+   "out_frame_exclusive": 208,
+   "required_claim_ids": [
+    "V2-10_2",
+    "V2-10_4"
+   ]
+  },
+  {
+   "cue_id": "C2",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "그런데 이 일가족, 게임 아이템에만 최소 13억 원을 썼다고 법원은 지적했죠."
+   ],
+   "claim_ids": [
+    "V2-10_5"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#E9E1F2",
+    "actors": [
+     {
+      "look": "D",
+      "x": 190,
+      "y": 900,
+      "scale": 0.78,
+      "expr": "smug",
+      "pose": "shrug"
+     },
+     {
+      "look": "A",
+      "x": 440,
+      "y": 900,
+      "scale": 0.78,
+      "expr": "smug"
+     },
+     {
+      "look": "suit",
+      "x": 690,
+      "y": 900,
+      "scale": 0.78,
+      "expr": "smug"
+     }
+    ],
+    "stamp": {
+     "lines": [
+      "게임 아이템",
+      "최소 13억"
+     ],
+     "x": 440,
+     "y": 160,
+     "at": 20,
+     "size": 92,
+     "maxW": 520
+    }
+   },
+   "in_frame": 208,
+   "duration_frames": 140,
+   "out_frame_exclusive": 348,
+   "required_claim_ids": [
+    "V2-10_5"
+   ]
+  },
+  {
+   "cue_id": "C3",
+   "act": "quiz",
+   "block_name": "quiz",
+   "narration": [
+    "자, 몇 년 받았을까요?",
+    "벌금일까요, 집행유예일까요, 아니면 실형일까요?"
+   ],
+   "claim_ids": [],
+   "pad_s": 3.2,
+   "note": "",
+   "p": {},
+   "in_frame": 348,
+   "duration_frames": 212,
+   "out_frame_exclusive": 560,
+   "required_claim_ids": []
+  },
+  {
+   "cue_id": "C4",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "정답은, 징역 15년. 법으로 줄 수 있는 최고형입니다."
+   ],
+   "claim_ids": [
+    "V2-10_1",
+    "V2-10_2"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "lines": [
+     "징역 15년",
+     "법정 최고형"
+    ]
+   },
+   "in_frame": 560,
+   "duration_frames": 105,
+   "out_frame_exclusive": 665,
+   "required_claim_ids": [
+    "V2-10_1",
+    "V2-10_2"
+   ]
+  },
+  {
+   "cue_id": "C5",
+   "act": "reason",
+   "block_name": "reason",
+   "narration": [
+    "보증금은 서민에게 전 재산과 같고, 피해자가 500명이 넘는다는 이유였어요."
+   ],
+   "claim_ids": [
+    "V2-10_2",
+    "V2-10_5"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "title": "실형 이유",
+    "chips": [
+     "보증금 = 서민의 전 재산",
+     "피해자 500명 넘음"
+    ],
+    "colors": [
+     "#F0433A",
+     "#F0433A"
+    ]
+   },
+   "in_frame": 665,
+   "duration_frames": 139,
+   "out_frame_exclusive": 804,
+   "required_claim_ids": [
+    "V2-10_2",
+    "V2-10_5"
+   ]
+  },
+  {
+   "cue_id": "C6",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "아내는 징역 6년, 감정평가사 아들은 징역 4년. 대법원에서 그대로 확정됐습니다."
+   ],
+   "claim_ids": [
+    "V2-10_2",
+    "V2-10_4"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#F2EBDC",
+    "actors": [
+     {
+      "look": "D",
+      "x": 190,
+      "y": 900,
+      "scale": 0.78,
+      "expr": "tired"
+     },
+     {
+      "look": "A",
+      "x": 440,
+      "y": 900,
+      "scale": 0.78,
+      "expr": "tired"
+     },
+     {
+      "look": "suit",
+      "x": 690,
+      "y": 900,
+      "scale": 0.78,
+      "expr": "tired"
+     }
+    ],
+    "tags": [
+     {
+      "text": "주범 징역 15년",
+      "x": 190,
+      "y": 40,
+      "color": "#F0433A",
+      "at": 0,
+      "size": 36
+     },
+     {
+      "text": "아내 징역 6년",
+      "x": 440,
+      "y": 40,
+      "color": "#141414",
+      "at": 4,
+      "size": 36
+     },
+     {
+      "text": "아들 징역 4년",
+      "x": 690,
+      "y": 40,
+      "color": "#141414",
+      "at": 40,
+      "size": 36
+     }
+    ]
+   },
+   "in_frame": 804,
+   "duration_frames": 163,
+   "out_frame_exclusive": 967,
+   "required_claim_ids": [
+    "V2-10_2",
+    "V2-10_4"
+   ]
+  },
+  {
+   "cue_id": "C7",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 1.2,
+   "note": "",
+   "p": {},
+   "in_frame": 967,
+   "duration_frames": 77,
+   "out_frame_exclusive": 1044,
+   "required_claim_ids": []
+  }
+ ],
+ "duration_frames": 1044,
+ "fps": 30
+}

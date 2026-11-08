@@ -1,0 +1,22 @@
+Asset: Universal Animation Library [Standard] - Quaternius
+Source page : https://quaternius.com/packs/universalanimationlibrary.html  ("License CC0")
+Download    : https://opengameart.org/content/universal-animation-library  (licence field: CC0,
+              link http://creativecommons.org/publicdomain/zero/1.0/), direct file
+              https://opengameart.org/sites/default/files/universal_animation_librarystandard.zip
+              (no login, no payment; fetched 2026-10-25)
+Also listed : https://quaternius.itch.io/universal-animation-library (Standard = free, name-your-price)
+
+Licence text shipped inside the zip (Animation Library[Standard]/License.txt), verbatim:
+-------------------------------------------------------
+License:
+CC0 1.0 Universal (CC0 1.0)
+Public Domain Dedication
+https://creativecommons.org/publicdomain/zero/1.0/
+------------------------------------------------------
+Models by @Quaternius
+-------------------------------------------------------
+
+Evidence copies in ./evidence/: Quaternius_License_in_zip.txt, opengameart_universal-animation-library.html,
+quaternius.com_universalanimationlibrary.html, Quaternius_Preview.png.
+
+Verdict: ALLOWED (CC0). Attribution not required; courtesy credit "Quaternius (quaternius.com)".

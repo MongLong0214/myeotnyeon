@@ -1,0 +1,232 @@
+{
+ "episode_id": "q015",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 중대장 재판",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "규정을 어긴 얼차려로 훈련병이 숨진 사건입니다."
+   ],
+   "claim_ids": [
+    "E04",
+    "C02"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#DCE3E6",
+    "tags": [
+     {
+      "text": "규정 위반 군기훈련",
+      "x": 480,
+      "y": 100,
+      "at": 2,
+      "color": "#2D3F73"
+     },
+     {
+      "text": "학대치사 · 직권남용 가혹행위",
+      "x": 480,
+      "y": 550,
+      "at": "e1-28",
+      "color": "#2D3F73",
+      "size": 32
+     }
+    ],
+    "stamps": [
+     {
+      "lines": [
+       "훈련병 사망"
+      ],
+      "x": 480,
+      "y": 350,
+      "at": 30,
+      "size": 100,
+      "maxW": 600,
+      "color": "#141414",
+      "rot": 0
+     }
+    ],
+    "punch": [
+     58,
+     88
+    ]
+   }
+  },
+  {
+   "cue_id": "C2",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "중대장은 훈련병 6명에게 규정을 어긴 군기훈련을 지시한 혐의였죠."
+   ],
+   "claim_ids": [
+    "C02",
+    "E02"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "bigtext",
+    "big": "6명",
+    "bigSub": "규정 위반 군기훈련 · 훈련병",
+    "bigAt": -6,
+    "bigBg": "#22242C",
+    "punch": [
+     30,
+     64,
+     98
+    ]
+   }
+  },
+  {
+   "cue_id": "C3",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "재판의 쟁점은 하나의 행위인지 여러 행위인지였습니다."
+   ],
+   "claim_ids": [
+    "J01",
+    "J07",
+    "J08"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#DCE3E6",
+    "stamps": [
+     {
+      "lines": [
+       "하나의 행위?",
+       "여러 행위?"
+      ],
+      "x": 480,
+      "y": 300,
+      "at": 6,
+      "size": 100,
+      "maxW": 620,
+      "color": "#141414",
+      "rot": 0
+     }
+    ],
+    "punch": [
+     34,
+     68,
+     102
+    ]
+   }
+  },
+  {
+   "cue_id": "C4",
+   "act": "weigh",
+   "block_name": "weigh",
+   "narration": [
+    "벌금, 집행유예, 실형 중 무엇이었을까요?",
+    "1심은 하나의 행위로 봤습니다.",
+    "2심은 피해자마다 학대 양상이 달랐다고 판단했죠.",
+    "그래서 여러 행위로 다시 봤습니다."
+   ],
+   "claim_ids": [
+    "J01",
+    "J07",
+    "J08"
+   ],
+   "pad_s": 1.5,
+   "note": "",
+   "p": {
+    "cards": [
+     {
+      "tag": "1심 판단",
+      "text": "하나의 행위",
+      "tone": "info"
+     },
+     {
+      "tag": "2심 판단",
+      "text": "피해자마다 다른 학대 양상",
+      "tone": "info"
+     },
+     {
+      "tag": "2심 판단",
+      "text": "여러 행위로 판단 변경",
+      "tone": "info"
+     }
+    ],
+    "faces": [
+     "serious",
+     "serious",
+     "serious",
+     "serious"
+    ],
+    "punch": [
+     34,
+     "e1-12",
+     "s2+30",
+     "s3+30",
+     "s3+62",
+     "s4+28",
+     "e4+18"
+    ]
+   }
+  },
+  {
+   "cue_id": "C5",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "실형. 중대장은 1심 징역 5년.",
+    "2심은 5년 6개월로 늘었고 그대로 확정됐습니다."
+   ],
+   "claim_ids": [
+    "C05",
+    "C07",
+    "C09"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "lines": [
+     "1심 징역 5년",
+     "중대장"
+    ],
+    "headAt": 2,
+    "steps": [
+     {
+      "s": 2,
+      "lines": [
+       "징역 5년 6개월",
+       "2심 · 이후 확정"
+      ]
+     }
+    ],
+    "punch": [
+     34,
+     "s2+28",
+     "s2+62"
+    ]
+   }
+  },
+  {
+   "cue_id": "C6",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 0.5,
+   "note": "",
+   "p": {
+    "staged": true,
+    "logoAt": 14,
+    "punch": [
+     30
+    ]
+   }
+  }
+ ]
+}

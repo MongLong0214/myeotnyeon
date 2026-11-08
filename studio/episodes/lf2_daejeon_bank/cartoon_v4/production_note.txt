@@ -1,0 +1,7 @@
+LF2 cartoon v4 — original 2D editorial reconstruction.
+Source: ../script_v1.md, ../beats.md, ../facts.md; actual final narration governs timing over the draft beat sheet.
+Original voice: ../audio/voice_full.wav, unretimed and copied byte-for-byte to public/. New soundtrack only adds a locally licensed, voice-ducked bed; no SFX.
+All cards, buildings, rooms and people are generic conceptual illustrations, not actual evidence photos or recorded behavior. No actual names, gunfire, collision, injury, body, family impersonation, live DNA scanning or reconstructed dialogue. Police injury and bank death remain separate narrative facts.
+A is linked via B’s statement, not the same DNA. Gu-hyeong, first-instance sentence, appellate decision and final judgment remain distinct in original narration/subtitles. Case-specific sentencing law is not presented as current general legal advice.
+Final render: TMPDIR=<this folder>/tmp node render.mjs final. To rebuild first: node render.mjs build. All dependency resolution is local in production/compositor/node_modules. Chrome wrapper disables external DNS; loopback serves Remotion only.
+Engine consumer API: ../../../production/compositor/src/cartoon/engine_v4/READY_ENGINE.txt

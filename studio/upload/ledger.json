@@ -1,0 +1,179 @@
+{
+ "channel": "몇년나옴 / VerdictKR",
+ "as_of": "2026-11-01",
+ "policy": "Same-qid reservations and free numbers pass. Published/scheduled numbers require the same known video_id; different or unknown video identity blocks.",
+ "note": "Local historical records only. Scheduled dates are recorded plans, not live publication confirmation. Unknown IDs remain null.",
+ "entries": [
+  {
+   "qid": "q001",
+   "video_id": "IKjz8gGErMk",
+   "evidence": [
+    "upload/del_v3_12.log:1725-1732",
+    "upload/del_private.log:1585"
+   ],
+   "removed_replacement_video_ids": [
+    "hei1-RqYXTY"
+   ],
+   "no": 1,
+   "state": "published",
+   "date": null
+  },
+  {
+   "qid": "q002",
+   "video_id": "zwgKEbvbxsU",
+   "evidence": [
+    "upload/del_v3_12.log:1725-1732",
+    "upload/del_private.log:1585"
+   ],
+   "removed_replacement_video_ids": [
+    "CCJ_D39AOCQ"
+   ],
+   "no": 2,
+   "state": "published",
+   "date": null
+  },
+  {
+   "qid": "q003",
+   "video_id": "0eo5o8u5EMM",
+   "evidence": [
+    "upload/up_v3_q003.log"
+   ],
+   "no": 3,
+   "state": "published",
+   "date": null
+  },
+  {
+   "qid": "q004",
+   "video_id": "EomEdxcqfsU",
+   "evidence": [
+    "upload/up_v4_q004.log"
+   ],
+   "no": 4,
+   "state": "published",
+   "date": null
+  },
+  {
+   "qid": "q005",
+   "video_id": "MYjtxd25BhU",
+   "evidence": [
+    "upload/up_v4_q005.log"
+   ],
+   "no": 5,
+   "state": "published",
+   "date": null
+  },
+  {
+   "qid": "q006",
+   "video_id": "1niGnkTw6BA",
+   "evidence": [
+    "upload/resched_q006c.log"
+   ],
+   "no": 6,
+   "state": "scheduled",
+   "date": "2026-10-27T19:00:00+09:00"
+  },
+  {
+   "qid": "q007",
+   "video_id": "E4zk6oCIbjA",
+   "evidence": [
+    "upload/del_v3_12.log:1725-1732",
+    "upload/del_private.log:1585"
+   ],
+   "no": 7,
+   "state": "scheduled",
+   "date": "2026-10-28T19:00:00+09:00"
+  },
+  {
+   "qid": "q008",
+   "video_id": null,
+   "evidence": [
+    "episodes/quiz/out/업로드_문안.md"
+   ],
+   "no": 8,
+   "state": "scheduled",
+   "date": "2026-10-29T19:00:00+09:00"
+  },
+  {
+   "qid": "q009",
+   "video_id": null,
+   "evidence": [
+    "episodes/quiz/out/업로드_문안.md"
+   ],
+   "no": 9,
+   "state": "scheduled",
+   "date": "2026-10-30T19:00:00+09:00"
+  },
+  {
+   "qid": "q010",
+   "video_id": null,
+   "evidence": [
+    "episodes/quiz/out/업로드_문안.md"
+   ],
+   "no": 10,
+   "state": "scheduled",
+   "date": "2026-10-31T19:00:00+09:00"
+  },
+  {
+   "qid": "q015",
+   "video_id": null,
+   "evidence": [
+    "upload/inspect_v52/report.md"
+   ],
+   "no": 11,
+   "state": "scheduled",
+   "date": "2026-11-01T19:00:00+09:00"
+  },
+  {
+   "qid": "q012",
+   "video_id": null,
+   "evidence": [
+    "upload/inspect_v52/report.md"
+   ],
+   "no": 12,
+   "state": "scheduled",
+   "date": "2026-11-02T19:00:00+09:00"
+  },
+  {
+   "qid": "q016",
+   "video_id": null,
+   "evidence": [
+    "upload/inspect_v52/report.md"
+   ],
+   "no": 13,
+   "state": "scheduled",
+   "date": "2026-11-03T19:00:00+09:00"
+  },
+  {
+   "qid": "q017",
+   "video_id": null,
+   "evidence": [
+    "upload/inspect_v52/report.md"
+   ],
+   "no": 14,
+   "state": "scheduled",
+   "date": "2026-11-04T19:00:00+09:00"
+  },
+  {
+   "qid": "q014",
+   "video_id": "S-eU5rbP9yg",
+   "evidence": [
+    "user task: #15 S-eU5rbP9yg (11-05), #16 reserved q013"
+   ],
+   "no": 15,
+   "state": "scheduled",
+   "date": "2026-11-05T19:00:00+09:00",
+   "replacement_video_id": "oxZUrYF8Chg",
+   "note": "S-eU5rbP9yg private (kept); oxZUrYF8Chg public 2026-11-05 19:00"
+  },
+  {
+   "qid": "q013",
+   "video_id": "VBEjj7mPjrI",
+   "evidence": [
+    "upload/v52_q013_n16_v3.mp4 sha256 c6202356…81c95; owner PASS uuid 76b5ebb2 (11-06 07:38Z \"ㅇㅇ좋아 합격\"); alOivtnJM58 deleted"
+   ],
+   "no": 16,
+   "state": "scheduled",
+   "date": "2026-11-06T19:00:00+09:00"
+  }
+ ]
+}

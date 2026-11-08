@@ -1,0 +1,14 @@
+{
+  "sample_n": 22,
+  "sample_method": "top-level top-ranked comments; <=200; replies excluded; not representative and not retention analytics",
+  "keyword_theme_comment_counts_overlapping": {
+    "제작·몰입 언급": 3,
+    "기관·권력 언급": 0,
+    "형량·사법 언급": 0,
+    "피해·공감 언급": 0,
+    "사실·해석 논쟁 표지": 0,
+    "구독·업로드 기대": 2
+  },
+  "quoted_timestamp_counts_s": {},
+  "interpretation": "드론 조직·예산·전쟁 대비 논쟁. 표본 안에 영상 스타일과 내레이션을 칭찬하는 반응이 있으므로 낮은 노출을 불만족으로 단정할 수 없다."
+}

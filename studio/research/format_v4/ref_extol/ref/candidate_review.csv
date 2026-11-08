@@ -1,0 +1,410 @@
+candidate,frame,time_s,sources,diff,hist,original_frame,keep,transition_type,confidence,visually_reviewed,boundary_kind,review_note
+1,159,5.3,diff_0.5s,5.014,0.023,159,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+2,166,5.533333,content;adaptive;ffmpeg;diff_0.5s,44.933,0.795,166,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+3,312,10.4,diff_0.5s,14.959,0.073,312,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+4,319,10.633333,content;adaptive;ffmpeg;diff_0.5s,62.166,0.584,319,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+5,546,18.2,content;adaptive;ffmpeg,55.57,0.655,546,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+6,638,21.266667,diff_0.5s,12.733,0.055,638,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+7,702,23.4,content;adaptive;ffmpeg,43.768,0.801,702,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+8,789,26.3,content;adaptive;ffmpeg,38.085,0.672,789,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+9,858,28.6,diff_0.5s,3.401,0.037,858,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+10,865,28.833333,content;adaptive;ffmpeg;diff_0.5s,59.685,0.583,865,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+11,948,31.6,content;adaptive;ffmpeg,44.719,0.733,948,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+12,1006,33.533333,content;adaptive;ffmpeg,45.455,0.679,1006,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+13,1037,34.566667,diff_0.5s,15.949,0.062,1037,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+14,1069,35.633333,content;adaptive;ffmpeg,38.064,0.477,1069,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+15,1173,39.1,content;adaptive;ffmpeg,27.204,0.487,1173,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+16,1287,42.9,content;adaptive;ffmpeg,44.172,0.776,1287,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+17,1413,47.1,content;adaptive;ffmpeg,77.926,0.766,1413,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+18,1498,49.933333,content;adaptive;ffmpeg,66.308,0.513,1498,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+19,1538,51.266667,diff_0.5s,12.23,0.08,1538,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+20,1602,53.4,diff_0.5s,10.238,0.045,1602,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+21,1681,56.033333,content;adaptive;ffmpeg,30.028,0.546,1681,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+22,1741,58.033333,content;adaptive;ffmpeg,27.632,0.473,1741,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+23,1754,58.466667,diff_0.5s,9.98,0.045,1754,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+24,1792,59.733333,content;diff_0.5s;ffmpeg,13.869,0.25,1792,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+25,1800,60.0,content;diff_0.5s,21.363,0.403,1800,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+26,1827,60.9,content;adaptive;ffmpeg,43.087,0.716,1827,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+27,1862,62.066667,content;diff_0.5s;ffmpeg,21.456,0.259,1862,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+28,1866,62.2,diff_0.5s;ffmpeg,39.731,0.107,1866,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+29,1890,63.0,content,13.112,0.035,1890,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+30,1898,63.266667,content,14.263,0.033,1898,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+31,1969,65.633333,content;adaptive;ffmpeg,20.269,0.313,1969,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+32,1999,66.633333,content,13.683,0.088,1999,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+33,2010,67.0,content,15.294,0.062,2010,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+34,2015,67.166667,content;diff_0.5s,16.839,0.077,2015,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+35,2022,67.4,diff_0.5s,23.206,0.059,2022,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+36,2028,67.6,content;diff_0.5s,21.428,0.072,2028,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+37,2068,68.933333,content;ffmpeg;diff_0.5s,29.078,0.479,2068,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+38,2075,69.166667,diff_0.5s;ffmpeg,9.744,0.046,2075,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+39,2079,69.3,diff_0.5s;ffmpeg,52.925,0.158,2079,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+40,2101,70.033333,content,11.652,0.038,2101,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+41,2228,74.266667,content;diff_0.5s,13.419,0.113,2228,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+42,2235,74.5,diff_0.5s,17.333,0.086,2235,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+43,2262,75.4,content,4.63,0.02,2262,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+44,2340,78.0,content;adaptive;ffmpeg,25.383,0.452,2340,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+45,2386,79.533333,content,16.299,0.064,2386,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+46,2398,79.933333,diff_0.5s,14.307,0.055,2398,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+47,2409,80.3,content,14.275,0.118,2409,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+48,2417,80.566667,content,12.96,0.041,2417,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+49,2431,81.033333,content;diff_0.5s,16.277,0.098,2431,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+50,2437,81.233333,diff_0.5s,11.225,0.07,2437,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+51,2455,81.833333,content,13.58,0.057,2455,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+52,2461,82.033333,content,8.974,0.046,2461,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+53,2470,82.333333,content,11.918,0.109,2470,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+54,2478,82.6,content,9.991,0.058,2478,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+55,2493,83.1,content,12.431,0.091,2493,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+56,2560,85.333333,content;adaptive;ffmpeg,28.388,0.419,2560,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+57,2682,89.4,content;adaptive;ffmpeg;diff_0.5s,76.717,0.711,2682,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+58,2688,89.6,adaptive;content;diff_0.5s;ffmpeg,71.859,0.691,2688,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+59,2701,90.033333,content;adaptive;ffmpeg,47.48,0.51,2701,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+60,2707,90.233333,content;adaptive;ffmpeg;diff_0.5s,45.237,0.757,2707,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+61,2711,90.366667,diff_0.5s,1.012,0.021,2711,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+62,2718,90.6,content;adaptive;ffmpeg;diff_0.5s,42.47,0.601,2718,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+63,2724,90.8,content;ffmpeg,27.95,0.233,2724,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+64,2737,91.2,adaptive;diff_0.5s;ffmpeg,5.889,0.035,2736,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+65,2743,91.433333,content;adaptive;ffmpeg;diff_0.5s,51.364,0.598,2743,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+66,2754,91.8,content;adaptive;ffmpeg,38.501,0.766,2754,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+67,2760,92.0,content;adaptive;ffmpeg,51.879,0.959,2760,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+68,2774,92.433333,adaptive;content;diff_0.5s;ffmpeg,1.937,0.02,2773,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+69,2780,92.666667,content;adaptive;ffmpeg;diff_0.5s,69.777,0.887,2780,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+70,2791,93.033333,adaptive;content;diff_0.5s;ffmpeg,82.247,0.696,2791,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+71,2797,93.233333,adaptive;diff_0.5s;ffmpeg,64.326,0.723,2797,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+72,2812,93.733333,content,1.981,0.025,2812,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+73,2847,94.8,content,5.139,0.06,2844,True,other,0.85,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+74,2902,96.733333,adaptive;ffmpeg,29.024,0.298,2902,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+75,3274,109.133333,content;adaptive;ffmpeg,53.92,0.609,3274,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+76,3278,109.266667,adaptive,1.131,0.024,3278,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+77,3325,110.833333,content,1.214,0.023,3325,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+78,3376,112.533333,content,1.572,0.022,3376,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+79,3399,113.3,content,1.626,0.026,3399,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+80,3416,113.866667,content,1.641,0.021,3416,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+81,3421,114.033333,content;adaptive;ffmpeg;diff_0.5s,79.431,0.548,3421,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+82,3428,114.266667,diff_0.5s,7.675,0.037,3428,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+83,3489,116.3,diff_0.5s,4.789,0.032,3489,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+84,3493,116.433333,content;adaptive;ffmpeg;diff_0.5s,73.527,0.394,3493,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+85,3585,119.5,adaptive;ffmpeg;diff_0.5s,49.162,0.488,3585,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+86,3592,119.733333,diff_0.5s,12.67,0.035,3592,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+87,3597,119.9,content;diff_0.5s,14.651,0.035,3597,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+88,3602,120.066667,content,13.248,0.127,3602,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+89,3652,121.733333,content;adaptive;ffmpeg;diff_0.5s,53.182,0.419,3652,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+90,3659,121.966667,diff_0.5s,3.772,0.034,3659,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+91,3705,123.5,diff_0.5s,11.887,0.04,3705,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+92,3751,125.033333,content;adaptive;ffmpeg;diff_0.5s,96.164,0.614,3751,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+93,3758,125.266667,diff_0.5s,1.657,0.023,3758,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+94,3853,128.433333,content;adaptive;ffmpeg;diff_0.5s,85.311,0.639,3853,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+95,3860,128.666667,diff_0.5s,13.371,0.023,3860,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+96,4027,134.233333,content;adaptive;ffmpeg;diff_0.5s,67.572,0.639,4027,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+97,4034,134.466667,diff_0.5s,3.58,0.028,4034,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+98,4098,136.6,content,12.392,0.035,4098,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+99,4117,137.233333,diff_0.5s,12.635,0.036,4117,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+100,4159,138.633333,content,11.608,0.033,4159,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+101,4170,139.0,content,11.023,0.039,4170,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+102,4232,141.066667,diff_0.5s,5.709,0.043,4232,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+103,4239,141.3,content;adaptive;ffmpeg;diff_0.5s,58.587,0.586,4239,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+104,4427,147.566667,content;diff_0.5s,16.296,0.078,4427,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+105,4431,147.766667,content;diff_0.5s,16.391,0.139,4433,True,other,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+106,4484,149.466667,content;adaptive;ffmpeg,34.832,0.801,4484,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+107,4607,153.566667,content;adaptive;ffmpeg,30.109,0.685,4607,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+108,4742,158.066667,diff_0.5s,6.184,0.054,4742,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+109,4748,158.266667,content;diff_0.5s,19.533,0.4,4748,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+110,4782,159.4,diff_0.5s,29.855,0.058,4782,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+111,4801,160.033333,content,8.436,0.033,4801,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+112,4825,160.833333,diff_0.5s,2.026,0.025,4825,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+113,4832,161.066667,content;adaptive;ffmpeg;diff_0.5s,76.485,0.499,4832,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+114,4938,164.6,content;adaptive;ffmpeg,29.939,0.853,4938,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+115,5009,166.966667,content;adaptive;ffmpeg,27.244,0.741,5009,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+116,5181,172.7,content;adaptive;ffmpeg,32.704,0.927,5181,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+117,5293,176.433333,content,7.963,0.035,5293,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+118,5326,177.533333,content,8.723,0.121,5326,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+119,5331,177.7,content,7.803,0.11,5331,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+120,5351,178.366667,diff_0.5s,15.978,0.041,5351,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+121,5371,179.033333,content,7.488,0.038,5371,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+122,5412,180.4,content;adaptive;ffmpeg,62.202,0.895,5412,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+123,5640,188.0,content;adaptive;ffmpeg,26.342,0.606,5640,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+124,5664,188.8,content,15.849,0.419,5664,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+125,5677,189.233333,diff_0.5s,18.877,0.039,5677,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+126,5688,189.6,content,6.539,0.034,5688,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+127,5737,191.233333,content,3.501,0.031,5737,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+128,5749,191.633333,content,4.267,0.026,5749,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+129,5759,191.966667,content,5.106,0.033,5759,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+130,5772,192.4,content,5.926,0.028,5772,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+131,5791,193.033333,content,5.479,0.028,5791,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+132,5836,194.533333,content,4.127,0.03,5836,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+133,5870,195.666667,content;diff_0.5s,8.928,0.037,5870,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+134,5877,195.9,content;diff_0.5s,6.718,0.033,5877,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+135,5886,196.2,content,6.881,0.052,5886,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+136,5891,196.366667,content,5.542,0.032,5891,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+137,5902,196.733333,content,5.75,0.034,5902,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+138,5911,197.033333,content,5.485,0.031,5911,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+139,5997,199.9,content,12.543,0.037,5997,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+140,6018,200.6,diff_0.5s,27.589,0.051,6018,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+141,6048,201.6,content,14.403,0.031,6048,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+142,6053,201.766667,content,21.924,0.066,6053,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+143,6066,202.2,diff_0.5s,18.092,0.058,6066,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+144,6074,202.466667,content,12.781,0.206,6074,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+397,6094,203.13333333333333,raw_diff_peak,8.301111111111112,0.1456707732879504,6094,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+145,6240,208.0,adaptive,2.741,0.025,6240,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+146,6274,209.133333,content;adaptive;ffmpeg,65.287,0.697,6274,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+147,6430,214.333333,diff_0.5s,14.598,0.088,6430,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+148,6456,215.2,diff_0.5s,10.782,0.075,6456,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+149,6461,215.366667,content;diff_0.5s;ffmpeg,17.762,0.24,6461,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+150,6475,215.833333,content;adaptive;ffmpeg,72.887,0.78,6475,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+151,6547,218.166667,adaptive;content;diff_0.5s;ffmpeg,22.418,0.099,6545,True,other,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+152,6607,220.233333,content;adaptive;ffmpeg,35.18,0.658,6607,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+153,6666,222.2,content;adaptive;ffmpeg,20.86,0.438,6666,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+154,6680,222.666667,content;diff_0.5s,8.359,0.036,6680,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+155,6715,223.833333,adaptive,2.208,0.024,6715,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+156,6722,224.066667,content;adaptive;ffmpeg,24.72,0.15,6722,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+157,6755,225.166667,content;adaptive;ffmpeg,29.509,0.219,6755,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+158,6774,225.8,diff_0.5s,6.021,0.057,6774,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+159,6781,226.033333,content;adaptive;ffmpeg;diff_0.5s,43.024,0.371,6781,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+160,6792,226.4,content,4.55,0.046,6792,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+161,6805,226.833333,content,11.226,0.036,6805,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+162,6815,227.166667,diff_0.5s,6.443,0.059,6815,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+163,6837,227.9,diff_0.5s,7.348,0.029,6837,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+164,6844,228.133333,content;adaptive;ffmpeg;diff_0.5s,35.743,0.339,6844,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+165,6873,229.1,diff_0.5s,8.359,0.041,6873,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+166,6880,229.333333,content;adaptive;diff_0.5s,25.071,0.311,6880,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+167,6897,229.9,diff_0.5s,9.417,0.042,6897,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+168,6914,230.466667,diff_0.5s,6.469,0.035,6914,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+169,6921,230.7,content;adaptive;diff_0.5s,18.564,0.223,6921,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+398,6968,232.26666666666668,raw_diff_peak,7.026649305555556,0.17337428305641997,6968,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+399,6982,232.73333333333332,raw_diff_peak,13.450347222222222,0.30963668618197415,6982,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+400,6991,233.03333333333333,raw_diff_peak,5.283489583333333,0.2080754075062478,6991,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+401,7004,233.46666666666667,raw_diff_peak,7.42234375,0.14691920579322204,7004,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+170,7009,233.633333,content;adaptive;ffmpeg,34.157,0.377,7009,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+171,7033,234.433333,content;adaptive;ffmpeg,31.191,0.237,7033,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+172,7052,235.066667,content;adaptive;ffmpeg,29.675,0.645,7052,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+173,7065,235.5,diff_0.5s,5.544,0.031,7065,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+174,7072,235.733333,content;adaptive;ffmpeg;diff_0.5s,33.536,0.326,7072,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+175,7091,236.366667,content;adaptive;ffmpeg,43.902,0.588,7091,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+176,7099,236.633333,adaptive,4.37,0.072,7099,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+177,7108,236.933333,content;adaptive;ffmpeg,33.833,0.379,7108,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+178,7113,237.1,adaptive,3.05,0.027,7113,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+179,7126,237.533333,content;adaptive;ffmpeg;diff_0.5s,38.129,0.352,7126,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+180,7133,237.766667,content;diff_0.5s,11.993,0.06,7133,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+181,7139,237.966667,content;adaptive;ffmpeg;diff_0.5s,73.941,0.789,7139,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+182,7275,242.5,content;adaptive;ffmpeg,37.064,0.507,7275,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+183,7322,244.066667,content,11.163,0.026,7322,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+184,7331,244.366667,diff_0.5s,6.991,0.038,7331,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+185,7399,246.633333,content,16.766,0.037,7399,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+186,7405,246.833333,content;diff_0.5s,19.342,0.029,7405,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+187,7412,247.066667,diff_0.5s,12.623,0.031,7412,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+188,7419,247.3,content;diff_0.5s,18.871,0.03,7419,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+189,7425,247.5,content,16.118,0.03,7425,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+190,7432,247.733333,content,6.675,0.037,7432,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+191,7459,248.633333,content;adaptive;ffmpeg,50.909,0.627,7459,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+192,7652,255.066667,content;adaptive;ffmpeg,38.829,0.635,7652,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+193,7749,258.3,content;adaptive;ffmpeg,37.741,0.872,7749,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+194,7834,261.133333,content;adaptive;ffmpeg,39.692,0.796,7834,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+195,7898,263.266667,content;adaptive;ffmpeg,50.098,0.605,7898,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+196,8053,268.433333,content;adaptive;ffmpeg,68.246,0.458,8053,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+197,8325,277.5,content;adaptive;ffmpeg,58.566,0.637,8325,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+198,8463,282.1,content;adaptive;ffmpeg;diff_0.5s,74.901,0.704,8463,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+199,8470,282.333333,diff_0.5s,2.647,0.036,8470,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+200,8557,285.233333,diff_0.5s,6.499,0.056,8557,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+201,8630,287.666667,content;adaptive;ffmpeg;diff_0.5s,82.096,0.585,8630,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+202,8637,287.9,diff_0.5s,4.704,0.04,8637,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+203,8660,288.666667,diff_0.5s,6.51,0.048,8660,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+204,8707,290.233333,content;diff_0.5s,17.033,0.183,8707,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+205,8713,290.433333,content;diff_0.5s,16.679,0.147,8713,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+206,8727,290.9,content,13.641,0.137,8727,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+207,8774,292.466667,content;adaptive;ffmpeg,26.761,0.532,8774,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+208,8824,294.133333,content,12.273,0.056,8824,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+209,8836,294.533333,content;diff_0.5s;ffmpeg,46.808,0.153,8836,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+210,8841,294.7,content;diff_0.5s;ffmpeg,1.868,0.027,8841,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+211,8848,294.933333,content;diff_0.5s;ffmpeg,34.54,0.159,8848,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+212,8856,295.2,content;diff_0.5s;ffmpeg,21.837,0.102,8856,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+213,8861,295.366667,content;diff_0.5s;ffmpeg,16.941,0.153,8861,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+214,8867,295.566667,content;ffmpeg;diff_0.5s,26.137,0.208,8867,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+215,8871,295.7,ffmpeg,16.745,0.125,8871,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+216,8885,296.166667,adaptive;diff_0.5s;ffmpeg,72.717,0.645,8885,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+217,8918,297.266667,content,11.294,0.057,8918,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+218,8940,298.0,content,6.773,0.058,8940,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+219,8951,298.366667,content,7.585,0.076,8951,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+220,8966,298.866667,content,9.916,0.071,8966,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+221,8979,299.3,content,8.358,0.057,8979,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+222,9013,300.433333,content;diff_0.5s,13.773,0.073,9013,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+223,9020,300.666667,content;diff_0.5s,12.081,0.066,9020,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+224,9047,301.566667,diff_0.5s,3.881,0.045,9047,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+225,9054,301.8,content;adaptive;ffmpeg;diff_0.5s,64.075,0.619,9054,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+226,9175,305.833333,diff_0.5s,1.597,0.04,9175,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+227,9182,306.066667,content;adaptive;ffmpeg;diff_0.5s,90.601,0.747,9182,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+228,9280,309.333333,content;adaptive;ffmpeg,25.684,0.541,9280,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+229,9304,310.133333,content,19.82,0.052,9304,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+230,9324,310.8,diff_0.5s,22.628,0.033,9324,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+231,9329,310.966667,content;diff_0.5s,18.045,0.044,9329,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+232,9336,311.2,content,15.6,0.087,9336,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+233,9386,312.866667,content;adaptive;ffmpeg,40.884,0.597,9386,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+234,9533,317.766667,content;adaptive;ffmpeg,73.855,0.622,9533,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+235,9537,317.9,content,5.872,0.025,9537,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+236,9555,318.5,content,14.562,0.034,9555,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+237,9565,318.833333,content,13.265,0.036,9565,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+238,9579,319.3,diff_0.5s,18.468,0.041,9579,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+239,9597,319.9,content;adaptive;ffmpeg,82.065,0.851,9597,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+240,9623,320.766667,diff_0.5s,4.453,0.106,9623,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+241,9630,321.0,content;adaptive;ffmpeg;diff_0.5s,68.266,0.757,9630,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+242,9742,324.733333,content;adaptive;ffmpeg,52.443,0.503,9742,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+243,9762,325.4,content,6.522,0.035,9762,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+244,9783,326.1,diff_0.5s,18.749,0.05,9783,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+245,9800,326.666667,content,12.316,0.047,9800,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+246,9807,326.9,content,10.34,0.044,9807,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+247,9849,328.3,content,1.979,0.029,9849,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+248,9935,331.166667,content;adaptive;ffmpeg,18.718,0.367,9935,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+249,10048,334.933333,adaptive;content;diff_0.5s;ffmpeg,72.047,0.373,10048,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+250,10055,335.166667,content;diff_0.5s,10.757,0.052,10055,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+251,10065,335.5,content;diff_0.5s,11.736,0.077,10065,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+252,10072,335.733333,diff_0.5s,16.145,0.052,10072,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+253,10083,336.1,content,9.755,0.059,10083,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+254,10169,338.966667,content;adaptive;ffmpeg;diff_0.5s,92.325,0.735,10169,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+255,10173,339.1,diff_0.5s,1.052,0.02,10173,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+256,10243,341.433333,content;adaptive;ffmpeg,18.963,0.536,10243,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+257,10265,342.166667,content,27.514,0.173,10265,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+258,10272,342.4,content;adaptive;ffmpeg,37.974,0.137,10272,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+259,10286,342.866667,diff_0.5s,27.882,0.039,10286,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+260,10293,343.1,content;diff_0.5s,24.179,0.052,10293,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+261,10303,343.433333,ffmpeg,30.206,0.167,10303,True,hard,0.85,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+262,10322,344.066667,content;adaptive;ffmpeg;diff_0.5s,37.824,0.431,10322,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+263,10329,344.3,adaptive;diff_0.5s,7.024,0.019,10329,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+264,10336,344.533333,content;adaptive;ffmpeg;diff_0.5s,24.124,0.201,10336,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+265,10346,344.866667,diff_0.5s,19.887,0.037,10346,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+266,10353,345.1,content;ffmpeg;diff_0.5s,34.873,0.324,10353,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+267,10357,345.233333,content,15.675,0.192,10357,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+402,10396,346.53333333333336,raw_diff_peak,4.046597222222222,0.17531569839539046,10396,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+403,10402,346.73333333333335,raw_diff_peak,9.040711805555556,0.11779145477296543,10402,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+268,10418,347.266667,content;adaptive;ffmpeg,29.274,0.356,10418,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+269,10429,347.633333,content;diff_0.5s,9.282,0.086,10429,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+270,10433,347.766667,content;diff_0.5s,18.118,0.059,10433,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+271,10464,348.8,content;adaptive;ffmpeg,32.967,0.345,10464,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+272,10483,349.433333,content;adaptive;ffmpeg,37.776,0.281,10483,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+273,10523,350.766667,adaptive;content;diff_0.5s;ffmpeg,42.227,0.265,10523,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+274,10530,351.0,diff_0.5s,8.858,0.066,10530,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+404,10550,351.6666666666667,raw_diff_peak,16.609947916666666,0.1543225178150189,10550,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+405,10568,352.26666666666665,raw_diff_peak,4.5232986111111115,0.15129937260240767,10568,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+406,10591,353.03333333333336,raw_diff_peak,10.886961805555556,0.10741041085931329,10591,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+275,10607,353.566667,content;adaptive;ffmpeg,19.318,0.34,10607,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+276,10627,354.233333,adaptive;ffmpeg,28.246,0.352,10627,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+277,10638,354.6,content;diff_0.5s,13.385,0.063,10638,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+278,10643,354.766667,diff_0.5s,20.888,0.094,10643,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+279,10650,355.0,adaptive;diff_0.5s,12.642,0.063,10650,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+280,10657,355.233333,content;adaptive;ffmpeg;diff_0.5s,30.189,0.241,10657,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+281,10664,355.466667,diff_0.5s,12.891,0.055,10664,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+282,10683,356.1,content;adaptive;ffmpeg,22.2,0.263,10683,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+283,10697,356.566667,diff_0.5s,15.948,0.046,10697,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+284,10704,356.8,content;adaptive;ffmpeg;diff_0.5s,35.44,0.377,10704,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+285,10714,357.133333,content,21.982,0.201,10714,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+407,10759,358.6333333333333,raw_diff_peak,11.62953125,0.1655879843195093,10759,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+286,10791,359.7,content;adaptive;ffmpeg,29.241,0.327,10791,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+287,10795,359.833333,adaptive,3.425,0.044,10795,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+288,10891,363.033333,content;adaptive;ffmpeg;diff_0.5s,25.126,0.28,10891,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+289,10896,363.2,content;diff_0.5s,21.632,0.173,10896,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+290,10905,363.5,content;diff_0.5s,20.679,0.276,10905,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+291,10915,363.833333,content;diff_0.5s;ffmpeg,4.872,0.035,10915,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+292,10918,363.966667,content;ffmpeg;diff_0.5s,15.265,0.071,10919,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+293,10931,364.366667,adaptive,2.247,0.038,10931,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+294,10943,364.766667,content;adaptive;ffmpeg,31.548,0.421,10943,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+295,10968,365.6,adaptive;content;diff_0.5s;ffmpeg,38.838,0.383,10968,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+296,10977,365.9,content;adaptive;ffmpeg;diff_0.5s,48.649,0.471,10977,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+297,10984,366.133333,content;adaptive;ffmpeg,32.207,0.417,10984,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+298,10994,366.466667,content;adaptive;ffmpeg;diff_0.5s,28.883,0.374,10994,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+299,11001,366.666667,adaptive;content;diff_0.5s;ffmpeg,7.237,0.044,11000,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+408,11005,366.8333333333333,raw_diff_peak,9.406996527777778,0.19030054557008616,11005,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+300,11041,368.033333,content;adaptive;ffmpeg,31.039,0.37,11041,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+301,11047,368.233333,content;diff_0.5s,27.295,0.186,11047,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+302,11056,368.533333,content;adaptive;ffmpeg;diff_0.5s,71.167,0.349,11056,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+303,11081,369.366667,content;diff_0.5s,19.495,0.064,11081,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+304,11088,369.533333,adaptive;content;diff_0.5s;ffmpeg,8.015,0.034,11086,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+305,11102,370.066667,adaptive,2.097,0.044,11102,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+306,11115,370.5,content;adaptive;ffmpeg,43.876,0.638,11115,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+307,11124,370.8,content;adaptive;ffmpeg;diff_0.5s,37.687,0.478,11124,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+308,11132,371.033333,adaptive;content;diff_0.5s;ffmpeg,2.594,0.021,11131,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+309,11144,371.466667,content;adaptive;ffmpeg;diff_0.5s,35.691,0.41,11144,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+310,11151,371.7,diff_0.5s,17.561,0.172,11151,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+311,11159,371.966667,content;adaptive,29.52,0.478,11159,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+312,11166,372.2,content;adaptive;ffmpeg,29.692,0.459,11166,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+313,11183,372.766667,adaptive;content;diff_0.5s;ffmpeg,92.491,0.551,11183,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+314,11190,373.0,diff_0.5s,14.396,0.051,11190,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+315,11196,373.2,content;diff_0.5s,8.256,0.043,11196,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+316,11321,377.366667,content;adaptive;ffmpeg;diff_0.5s,45.007,0.484,11321,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+317,11328,377.6,diff_0.5s,5.171,0.019,11328,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+318,11418,380.6,diff_0.5s,16.136,0.031,11418,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+319,11504,383.466667,diff_0.5s,26.98,0.275,11504,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+320,11523,384.1,diff_0.5s,15.945,0.035,11523,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+321,11585,386.166667,diff_0.5s,14.457,0.045,11585,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+322,11616,387.2,content,24.217,0.188,11616,True,hard,0.85,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+323,11676,389.2,content,3.887,0.017,11676,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+324,11683,389.433333,content,4.304,0.018,11683,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+325,11690,389.666667,content,4.713,0.025,11690,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+326,11816,393.866667,content,5.076,0.03,11816,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+327,11855,395.166667,content;adaptive;ffmpeg;diff_0.5s,74.899,0.711,11855,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+328,11862,395.4,diff_0.5s,3.106,0.033,11862,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+329,11892,396.4,diff_0.5s,7.935,0.05,11892,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+330,11948,398.266667,content;ffmpeg;diff_0.5s,21.425,0.226,11948,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+331,11955,398.5,diff_0.5s,38.477,0.058,11955,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+332,11974,399.133333,content,5.247,0.031,11974,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+333,11990,399.666667,content;adaptive;diff_0.5s,5.627,0.12,11990,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+334,11997,399.866667,adaptive;diff_0.5s;ffmpeg,39.058,0.6,11996,True,other,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+335,12056,401.866667,content;adaptive;ffmpeg,25.351,0.792,12056,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+336,12301,410.033333,content;adaptive;ffmpeg,51.644,0.585,12301,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+337,12558,418.6,content;adaptive;ffmpeg;diff_0.5s,68.1,0.846,12558,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+338,12565,418.833333,diff_0.5s,8.293,0.066,12565,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+339,12589,419.633333,adaptive,4.019,0.119,12589,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+340,12652,421.733333,diff_0.5s,10.504,0.031,12652,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+341,12704,423.466667,adaptive,1.272,0.027,12704,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+342,12765,425.5,adaptive,6.366,0.061,12765,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+343,12781,426.033333,content;adaptive;ffmpeg,24.26,0.218,12781,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+344,12868,428.933333,content;adaptive;ffmpeg,26.24,0.223,12868,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+345,13119,437.3,adaptive,6.601,0.064,13119,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+346,13179,439.3,content;adaptive;ffmpeg,30.31,0.274,13179,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+347,13235,441.166667,diff_0.5s,9.145,0.032,13235,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+348,13278,442.6,adaptive,4.071,0.035,13278,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+349,13388,446.266667,content;adaptive;ffmpeg,25.102,0.232,13388,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+350,13486,449.533333,diff_0.5s,8.546,0.031,13486,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+351,13583,452.766667,content;adaptive;ffmpeg,23.799,0.273,13583,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+352,13714,457.133333,content;adaptive;ffmpeg,57.646,0.894,13714,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+353,13826,460.866667,content;adaptive;ffmpeg,66.571,0.684,13826,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+354,13962,465.4,content;adaptive;ffmpeg;diff_0.5s,66.055,0.432,13962,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+355,13969,465.633333,diff_0.5s,5.46,0.026,13969,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+356,13989,466.3,content,15.302,0.032,13989,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+357,14004,466.8,diff_0.5s,19.229,0.032,14004,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+358,14031,467.7,content,13.818,0.035,14031,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+359,14066,468.866667,content;diff_0.5s,13.588,0.024,14066,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+360,14114,470.466667,content;adaptive;ffmpeg;diff_0.5s,68.403,0.561,14114,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+361,14121,470.7,diff_0.5s,6.588,0.036,14121,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+362,14156,471.866667,diff_0.5s,11.496,0.047,14156,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+363,14196,473.2,diff_0.5s,9.614,0.034,14196,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+364,14203,473.433333,content;adaptive;ffmpeg;diff_0.5s,56.423,0.548,14203,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+365,14253,475.1,content;diff_0.5s,14.814,0.041,14253,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+366,14260,475.333333,diff_0.5s,16.102,0.044,14260,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+367,14264,475.466667,content;diff_0.5s,14.961,0.045,14264,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+368,14290,476.333333,diff_0.5s,14.525,0.05,14290,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+369,14322,477.4,diff_0.5s,14.467,0.039,14322,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+370,14395,479.833333,content;adaptive;ffmpeg,49.482,0.649,14395,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+371,14413,480.433333,content,5.019,0.057,14413,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+372,14473,482.433333,diff_0.5s,10.306,0.031,14473,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+373,14544,484.8,content,4.203,0.036,14544,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+374,14550,485.0,content,4.515,0.044,14550,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+375,14567,485.566667,adaptive,0.95,0.02,14567,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+376,14581,486.033333,content;adaptive;ffmpeg,42.764,0.756,14581,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+377,14816,493.866667,content;adaptive;ffmpeg,53.391,0.835,14816,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+378,14852,495.066667,diff_0.5s,6.976,0.05,14852,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+379,14907,496.9,content;adaptive;ffmpeg,54.335,0.609,14907,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+380,14967,498.9,content;adaptive;ffmpeg,71.153,0.895,14967,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+381,15105,503.5,content;adaptive;ffmpeg,43.81,0.741,15105,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+382,15231,507.7,content;adaptive;ffmpeg;diff_0.5s,34.468,0.242,15231,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+383,15238,507.933333,diff_0.5s,8.71,0.024,15238,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+384,15252,508.4,content;diff_0.5s,11.696,0.059,15252,False,hard,0.98,True,rejected,same shot motion / overlay / duplicate nearby candidate
+385,15265,508.833333,content,7.315,0.032,15265,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+386,15394,513.133333,content;adaptive;ffmpeg,69.013,0.711,15394,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+409,15431,514.3666666666667,raw_diff_peak,5.8523958333333335,0.1603376241125483,15431,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+387,15464,515.466667,content;adaptive;ffmpeg,19.228,0.328,15464,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+388,15505,516.833333,adaptive;ffmpeg,16.764,0.363,15505,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+389,15543,518.1,content;adaptive;ffmpeg,33.147,0.61,15543,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+390,15564,518.8,diff_0.5s,24.835,0.076,15564,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+391,15582,519.4,content,22.025,0.034,15582,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+392,15599,519.966667,adaptive,9.937,0.037,15599,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+393,15663,522.1,content;adaptive;ffmpeg,65.8,0.636,15663,True,hard,0.98,True,composition-change,accepted scene/framing boundary or discontinuous background/viewport reset
+394,15742,524.733333,content,12.592,0.035,15742,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+395,15753,525.1,diff_0.5s,12.922,0.033,15753,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate
+396,15801,526.7,content,11.532,0.036,15801,False,hard,0.85,True,rejected,same shot motion / overlay / duplicate nearby candidate

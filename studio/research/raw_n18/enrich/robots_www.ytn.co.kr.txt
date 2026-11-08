@@ -1,0 +1,42 @@
+User-agent: *
+Disallow: /_batjob
+Disallow: /_comm
+Disallow: /_prog
+Disallow: /_newsletter
+Disallow: /_js
+Disallow: /css
+Disallow: /bbs
+Disallow: /ex_scroll
+Disallow: /ex_site
+Disallow: /dan
+Disallow: /community
+Disallow: /member2
+Disallow: /info/notice.php?sort=1
+
+User-agent: Googlebot
+Disallow: /_batjob
+Disallow: /_comm
+Disallow: /_prog
+Disallow: /_js
+Disallow: /css
+Disallow: /dan
+Disallow: /developer
+Disallow: /member2
+Disallow: /member_m
+Disallow: /info/notice.php?sort=1
+Allow: /
+
+User-agent: AhrefsBot
+User-agent: GPTBot
+Disallow: /
+
+
+User-agent: SemrushBot
+Allow: /
+Crawl-delay: 30
+
+User-agent: bingbot
+Allow: /
+Crawl-delay: 2
+
+Sitemap: https://www.ytn.co.kr/sitemap/google_sitemap.xml

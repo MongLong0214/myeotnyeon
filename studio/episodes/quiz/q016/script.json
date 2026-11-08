@@ -1,0 +1,311 @@
+{
+ "episode_id": "q016",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 역주행 운전자 재판",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "도심 역주행 사고로 9명이 숨졌습니다."
+   ],
+   "claim_ids": [
+    "F01"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "bigtext",
+    "big": "9명 사망",
+    "bigSub": "도심 역주행 사고",
+    "bigAt": -6,
+    "bigBg": "#22242C",
+    "punch": [
+     30,
+     62
+    ]
+   },
+   "in_frame": 0,
+   "duration_frames": 73,
+   "out_frame_exclusive": 73,
+   "required_claim_ids": [
+    "F01"
+   ]
+  },
+  {
+   "cue_id": "C2",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "운전자는 급발진을 주장했지만 법원은 받아들이지 않았죠.",
+    "급발진에서 나타날 신호는 없다고 봤습니다."
+   ],
+   "claim_ids": [
+    "F02"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#DCE3E6",
+    "tags": [
+     {
+      "text": "운전자 주장",
+      "x": 480,
+      "y": 100,
+      "at": 2,
+      "color": "#2D3F73"
+     }
+    ],
+    "stamps": [
+     {
+      "lines": [
+       "급발진 주장"
+      ],
+      "x": 480,
+      "y": 320,
+      "at": 18,
+      "until": "e1-40",
+      "size": 100,
+      "maxW": 600,
+      "color": "#141414",
+      "rot": 0
+     },
+     {
+      "lines": [
+       "법원은 불인정"
+      ],
+      "x": 480,
+      "y": 320,
+      "at": "e1-38",
+      "until": "s2",
+      "size": 100,
+      "maxW": 600,
+      "color": "#141414",
+      "rot": 0
+     },
+     {
+      "lines": [
+       "급발진 신호 없음"
+      ],
+      "x": 480,
+      "y": 320,
+      "at": "s2",
+      "size": 90,
+      "maxW": 600,
+      "color": "#141414",
+      "rot": 0
+     }
+    ],
+    "punch": [
+     44,
+     "e1-14",
+     "s2+28",
+     "s2+58"
+    ]
+   },
+   "in_frame": 73,
+   "duration_frames": 168,
+   "out_frame_exclusive": 241,
+   "required_claim_ids": [
+    "F02"
+   ]
+  },
+  {
+   "cue_id": "C3",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "1심과 2심은 여러 피해를 어떻게 처벌할지 달리 봤습니다.",
+    "1심은 인도와 차량 충돌 사고를 각각 별개의 행위로 봤죠."
+   ],
+   "claim_ids": [
+    "F03",
+    "F04"
+   ],
+   "pad_s": 0.5,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#DCE3E6",
+    "stamps": [
+     {
+      "lines": [
+       "여러 피해",
+       "심급마다 다른 판단"
+      ],
+      "x": 480,
+      "y": 300,
+      "at": 6,
+      "until": "s2",
+      "size": 90,
+      "maxW": 640,
+      "color": "#141414",
+      "rot": 0
+     },
+     {
+      "lines": [
+       "1심 판단",
+       "각각 별개의 행위"
+      ],
+      "x": 480,
+      "y": 300,
+      "at": "s2",
+      "size": 90,
+      "maxW": 640,
+      "color": "#141414",
+      "rot": 0
+     }
+    ],
+    "punch": [
+     34,
+     68,
+     "s2+30",
+     "s2+60",
+     "s2+90",
+     "e2+6"
+    ]
+   },
+   "in_frame": 241,
+   "duration_frames": 217,
+   "out_frame_exclusive": 458,
+   "required_claim_ids": [
+    "F03",
+    "F04"
+   ]
+  },
+  {
+   "cue_id": "C4",
+   "act": "weigh",
+   "block_name": "weigh",
+   "narration": [
+    "벌금, 집행유예, 실형 중 무엇이었을까요?",
+    "2심은 하나의 운전행위로 봤습니다.",
+    "한 번의 운전으로 여러 죄가 성립한 경우였죠.",
+    "가장 무거운 죄에 정해진 형으로 처벌합니다."
+   ],
+   "claim_ids": [
+    "F04",
+    "F05"
+   ],
+   "pad_s": 0.6,
+   "note": "",
+   "p": {
+    "cards": [
+     {
+      "tag": "2심 판단",
+      "text": "하나의 운전행위",
+      "tone": "info"
+     },
+     {
+      "tag": "죄의 수",
+      "text": "하나의 행위 · 여러 죄",
+      "tone": "info"
+     },
+     {
+      "tag": "처벌 방식",
+      "text": "가장 무거운 죄에 정한 형",
+      "tone": "info"
+     }
+    ],
+    "faces": [
+     "serious",
+     "serious",
+     "serious",
+     "serious"
+    ],
+    "punch": [
+     34,
+     "e1-12",
+     "s2+30",
+     "s3+28",
+     "s3+60",
+     "s4+30",
+     "s4+60"
+    ]
+   },
+   "in_frame": 458,
+   "duration_frames": 280,
+   "out_frame_exclusive": 738,
+   "required_claim_ids": [
+    "F04",
+    "F05"
+   ]
+  },
+  {
+   "cue_id": "C5",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "실형. 금고 7년 6개월에서 5년으로 줄어 확정됐습니다.",
+    "금고는 징역과 달리 노역 의무가 없습니다."
+   ],
+   "claim_ids": [
+    "F03",
+    "F04",
+    "F06",
+    "F07"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "lines": [
+     "금고 5년",
+     "1심 7년 6개월 → 2심 5년"
+    ],
+    "size": 86,
+    "steps": [
+     {
+      "s": 2,
+      "lines": [
+       "금고 5년 확정",
+       "징역과 달리 노역 의무 없음"
+      ],
+      "size": 74
+     }
+    ],
+    "punch": [
+     34,
+     68,
+     102,
+     "s2+28",
+     "s2+58"
+    ]
+   },
+   "in_frame": 738,
+   "duration_frames": 182,
+   "out_frame_exclusive": 920,
+   "required_claim_ids": [
+    "F03",
+    "F04",
+    "F06",
+    "F07"
+   ]
+  },
+  {
+   "cue_id": "C6",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 0.5,
+   "note": "",
+   "p": {
+    "staged": true,
+    "logoAt": 14,
+    "punch": [
+     30
+    ]
+   },
+   "in_frame": 920,
+   "duration_frames": 56,
+   "out_frame_exclusive": 976,
+   "required_claim_ids": []
+  }
+ ],
+ "duration_frames": 976,
+ "fps": 30
+}

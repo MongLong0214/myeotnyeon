@@ -1,0 +1,20 @@
+{
+ "episode": "q013",
+ "frames_checked": 800,
+ "bad_frames": [],
+ "full_initial_audit": "audit.log",
+ "rerendered_ranges": [
+  {
+   "file": "audit_hook_revised.log",
+   "from_": 0,
+   "to_inclusive": 60
+  },
+  {
+   "file": "audit_end_revised.log",
+   "from_": 755,
+   "to_inclusive": 799
+  }
+ ],
+ "reason": "Unchanged body compositor and input properties keep prior per-frame audit. Re-render every changed frame: q013 hero/CTA backgrounds, q014 last caption. No threshold changes.",
+ "source_identity": "episodes/quiz/v52_q013_q014_support/source_identity_revised.json"
+}

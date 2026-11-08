@@ -1,0 +1,443 @@
+[
+  {
+    "id": "O001",
+    "start_s": 0.0,
+    "end_s": 4.16,
+    "text": "이천이십사년 오월 이십삼일, 강원도 인제의 신병교육대다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O002",
+    "start_s": 4.38,
+    "end_s": 8.58,
+    "text": "육군 십이사단에서 훈련병 여섯 명을 대상으로 군기훈련이 실시된다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O003",
+    "start_s": 8.8,
+    "end_s": 13.38,
+    "text": "중대장이 지시한 것은 절차와 방법을 위반한 군기훈련, 이른바 얼차려였다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O004",
+    "start_s": 13.58,
+    "end_s": 17.18,
+    "text": "부중대장도 이 군기훈련을 실시한 혐의로 재판에 넘겨진다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O005",
+    "start_s": 17.36,
+    "end_s": 22.52,
+    "text": "훈련 도중 의식을 잃은 훈련병에게 적절한 조치를 하지 않았다는 혐의도 포함된다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O006",
+    "start_s": 22.62,
+    "end_s": 24.2,
+    "text": "훈련병은 이틀 뒤 숨졌다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O007",
+    "start_s": 24.38,
+    "end_s": 28.22,
+    "text": "재판에서는 이 군기훈련과 사망 사이의 인과관계가 쟁점이 된다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O008",
+    "start_s": 28.22,
+    "end_s": 33.26,
+    "text": "항소심에서는 피해자마다 행위를 어떻게 나누어 볼 것인가도 판단을 가른다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O009",
+    "start_s": 33.4,
+    "end_s": 38.68,
+    "text": "중대장에게 적용된 혐의는 형법상 학대치사와 군형법상 직권남용 가혹행위다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O010",
+    "start_s": 38.86,
+    "end_s": 44.34,
+    "text": "검찰은 중대장의 위법한 군기훈련을 단순한 과실로 보지 않고 학대치사죄로 기소한다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O011",
+    "start_s": 44.52,
+    "end_s": 50.0,
+    "text": "검찰은 사건 경위와 훈련 방식, 진행 경과와 피해자의 신체조건 등을 종합했다고 설명한다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O012",
+    "start_s": 50.2,
+    "end_s": 54.22,
+    "text": "부중대장에게 적용된 혐의도 학대치사와 직권남용 가혹행위다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O013",
+    "start_s": 54.22,
+    "end_s": 60.14,
+    "text": "부중대장의 공소사실에도 위법한 군기훈련 실시와 적절한 조치를 하지 않은 점이 들어간다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O014",
+    "start_s": 60.4,
+    "end_s": 64.58,
+    "text": "중대장 측은 잘못된 행동은 인정하면서도 학대치사 혐의는 부인했다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O015",
+    "start_s": 64.8,
+    "end_s": 69.86,
+    "text": "검찰은 군의 지도력과 관리 체제에 대한 국민 신뢰를 훼손한 점도 구형 이유로 든다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O016",
+    "start_s": 70.06,
+    "end_s": 74.22,
+    "text": "이천이십사년 십일월 십이일, 춘천지법에서 일심 결심공판이 열린다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O017",
+    "start_s": 74.44,
+    "end_s": 78.1,
+    "text": "이 공판에서 검찰이 중대장에게 요청한 형은 징역 십 년이다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O018",
+    "start_s": 78.32,
+    "end_s": 81.06,
+    "text": "부중대장에게 요청한 형은 징역 칠 년이었다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O019",
+    "start_s": 81.06,
+    "end_s": 84.58,
+    "text": "중대장의 징역 십 년은 검찰이 일심에서 구형한 수치다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O020",
+    "start_s": 84.86,
+    "end_s": 88.44,
+    "text": "부중대장의 징역 칠 년 역시 같은 일심 결심공판의 구형이다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O021",
+    "start_s": 88.98,
+    "end_s": 93.34,
+    "text": "이천이십오년 일월 칠일, 춘천지법 형사이부가 일심 판결을 선고한다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O022",
+    "start_s": 93.62,
+    "end_s": 98.32,
+    "text": "재판부는 중대장의 학대치사와 직권남용 가혹행위 혐의를 유죄로 판단한다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O023",
+    "start_s": 98.52,
+    "end_s": 101.36,
+    "text": "부중대장에게 적용된 혐의도 유죄로 판단했다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O024",
+    "start_s": 101.58,
+    "end_s": 105.16,
+    "text": "재판부는 군기훈련과 사망 사이의 인과관계를 인정했다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O025",
+    "start_s": 105.36,
+    "end_s": 109.86,
+    "text": "일심은 훈련병의 신체조건에 맞지 않는 군기훈련이 이뤄졌다고 지적한다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O026",
+    "start_s": 109.86,
+    "end_s": 113.88,
+    "text": "이러한 훈련이 군의 사기와 전투력을 떨어뜨린다는 설명이다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O027",
+    "start_s": 114.02,
+    "end_s": 118.08,
+    "text": "군에 대한 국민의 신뢰까지 해친다는 점에서 죄책이 무겁다고 봤다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O028",
+    "start_s": 118.32,
+    "end_s": 121.78,
+    "text": "피해자 측으로부터 용서받지 못했다는 사정도 지적했다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O029",
+    "start_s": 122.02,
+    "end_s": 127.4,
+    "text": "한편 재판부는 피고인들이 사실관계를 인정하고 반성하는 태도를 보인 점을 참작한다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O030",
+    "start_s": 127.62,
+    "end_s": 133.66,
+    "text": "군 기강 확립을 위한 교육 목적으로 훈련을 하다가 범행에 이르렀다는 점도 유리한 정상으로 봤다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O031",
+    "start_s": 133.82,
+    "end_s": 137.64,
+    "text": "일심은 하나의 행위가 여러 범죄를 구성하는 관계로 판단했다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O032",
+    "start_s": 137.64,
+    "end_s": 140.86,
+    "text": "하나의 행위에 여러 범죄가 성립한다고 본 것이다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O033",
+    "start_s": 141.16,
+    "end_s": 144.36,
+    "text": "일심은 학대치사죄의 양형기준을 참고해 형을 정했다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O034",
+    "start_s": 144.62,
+    "end_s": 146.92,
+    "text": "중대장에게 선고한 형은 징역 오 년이다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O035",
+    "start_s": 147.14,
+    "end_s": 151.18,
+    "text": "중대장에 대한 일심 구형은 십 년이었고 일심 선고는 오 년이었다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O036",
+    "start_s": 151.38,
+    "end_s": 153.94,
+    "text": "부중대장에게 선고한 형은 징역 삼 년이다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O037",
+    "start_s": 154.2,
+    "end_s": 158.34,
+    "text": "부중대장에 대한 일심 구형은 칠 년이었고 일심 선고는 삼 년이었다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O038",
+    "start_s": 158.8,
+    "end_s": 163.88,
+    "text": "이천이십오년 유월 십팔일, 서울고법 춘천재판부 형사일부가 항소심을 선고한다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O039",
+    "start_s": 163.88,
+    "end_s": 168.0,
+    "text": "항소심은 쟁점이 된 죄의 수에 관해 일심과 다른 판단을 내린다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O040",
+    "start_s": 168.26,
+    "end_s": 172.02,
+    "text": "일심은 같은 장소에서 같은 기회에 이뤄진 행위라는 점을 봤다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O041",
+    "start_s": 172.22,
+    "end_s": 177.26,
+    "text": "하지만 항소심은 피해자별로 가혹행위와 학대 양상이 어떻게 달랐는지 설명한다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O042",
+    "start_s": 177.46,
+    "end_s": 180.64,
+    "text": "따라서 여러 개의 행위로 인정할 수 있다고 판단했다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O043",
+    "start_s": 180.84,
+    "end_s": 183.58,
+    "text": "여러 행위로 여러 죄를 범한 관계로 본 것이다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O044",
+    "start_s": 183.74,
+    "end_s": 188.6,
+    "text": "항소심은 중대장의 범죄 행위들도 여러 행위로 여러 죄를 범한 관계로 판단했다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O045",
+    "start_s": 188.88,
+    "end_s": 193.02,
+    "text": "하나의 행위로 여러 범죄가 성립한다고 본 일심과 달라진 지점이다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O046",
+    "start_s": 193.02,
+    "end_s": 199.12,
+    "text": "보도는 하나의 행위가 여러 죄에 해당하면 가장 무거운 죄에 정한 형으로 처벌한다고 설명한다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O047",
+    "start_s": 199.26,
+    "end_s": 204.06,
+    "text": "여러 행위로 여러 죄를 범하면 가장 무거운 죄의 형을 가중할 수 있다는 설명이다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O048",
+    "start_s": 204.32,
+    "end_s": 208.94,
+    "text": "항소심이 중대장의 형을 늘리면서 제시한 이유가 이 죄수 관계의 차이였다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O049",
+    "start_s": 209.14,
+    "end_s": 213.36,
+    "text": "재판부는 지휘관들이 답습한 병영문화가 후진적이었다고 지적한다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O050",
+    "start_s": 213.56,
+    "end_s": 217.58,
+    "text": "그 결과 충분히 예방할 수 있었던 사망사고를 초래했다고 판단했다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O051",
+    "start_s": 217.76,
+    "end_s": 224.06,
+    "text": "국가가 병사들의 생명과 신체를 보호하리라는 기대는 사회의 기본인데 이를 배반한 범행이라고 봤다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O052",
+    "start_s": 224.22,
+    "end_s": 227.98,
+    "text": "항소심이 중대장에게 선고한 형은 징역 오 년 육 개월이다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O053",
+    "start_s": 228.3,
+    "end_s": 231.44,
+    "text": "중대장의 일심 선고였던 징역 오 년보다 육 개월 늘었다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O054",
+    "start_s": 231.8,
+    "end_s": 235.04,
+    "text": "부중대장에게는 항소심에서도 징역 삼 년이 선고됐다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O055",
+    "start_s": 235.26,
+    "end_s": 237.2,
+    "text": "부중대장의 형량은 일심과 같다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O056",
+    "start_s": 237.42,
+    "end_s": 239.94,
+    "text": "중대장 사건은 이후 대법원 판단을 받는다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O057",
+    "start_s": 240.14,
+    "end_s": 244.22,
+    "text": "이천이십오년 구월 이십오일, 대법원은 중대장의 상고를 기각했다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O058",
+    "start_s": 244.42,
+    "end_s": 246.7,
+    "text": "원심 판단에 잘못이 없다고 본 것이다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O059",
+    "start_s": 246.94,
+    "end_s": 249.84,
+    "text": "이로써 중대장의 징역 오 년 육 개월이 확정된다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O060",
+    "start_s": 249.84,
+    "end_s": 253.18,
+    "text": "부중대장의 징역 삼 년도 확정된 것으로 확인된다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O061",
+    "start_s": 253.44,
+    "end_s": 257.96,
+    "text": "이천이십오년 구월 이십오일 보도에서 확인되는 부중대장의 확정 상태다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O062",
+    "start_s": 258.16,
+    "end_s": 263.04,
+    "text": "이 사건의 항소심은 피해자별 행위의 차이를 살펴 죄수 관계를 다시 판단했다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  },
+  {
+    "id": "O063",
+    "start_s": 263.26,
+    "end_s": 267.76,
+    "text": "재판부가 남긴 판단은, 충분히 예방할 수 있었던 사망사고였다는 것이다.",
+    "source": "script.md canonical; times from fast-preview ASR"
+  }
+]

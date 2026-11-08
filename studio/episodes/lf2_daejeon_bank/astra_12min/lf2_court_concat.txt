@@ -1,0 +1,4 @@
+file 'episodes/lf2_daejeon_bank/astra_12min/LC01_ink_v2.mp4'
+file 'episodes/lf2_daejeon_bank/astra_12min/LC02_ink_v2.mp4'
+file 'episodes/lf2_daejeon_bank/astra_12min/LC03_ink_v2.mp4'
+file 'episodes/lf2_daejeon_bank/astra_12min/LC04_ink_v2.mp4'

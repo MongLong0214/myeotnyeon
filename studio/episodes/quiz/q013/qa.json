@@ -1,0 +1,120 @@
+{
+ "episode": "q013",
+ "file": "episodes/quiz/out/v3/q013.mp4",
+ "audit": {
+  "frames": 876,
+  "bad": 0,
+  "pass": true
+ },
+ "probe": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "pix_fmt": "yuv420p",
+  "color_space": "bt709",
+  "color_primaries": "bt709",
+  "color_transfer": "bt709",
+  "audio": "aac",
+  "audio_bitrate": "317378",
+  "duration": 29.205,
+  "pass": true
+ },
+ "loudness": {
+  "integrated_lufs": -14.1,
+  "true_peak_dbtp": -1.5,
+  "pass": true
+ },
+ "freeze_black": {
+  "freezes_over_2_5s": [],
+  "black_segments": [],
+  "pass": true
+ },
+ "asr_final_mix": {
+  "reference": "배달 음식 받는 곳을 바꿨다는 이유로 외국인 노동자에게 박치기를 22번 했습니다. 노동자는 뇌진탕 등 상해를 입었고 관리자는 구속된 채 재판에 넘겨졌죠. 게다가 음주운전으로 집행유예 기간 중이었어요. 벌금, 집행유예, 실형 중 무엇이었을까요? 판사는 집행유예 기간에 자숙하지 않았다고 꼬집었습니다. 다만 범행을 모두 인정했고 구금 생활로 반성했을 거라고 봤어요. 700만 원에 합의해 피해자도 처벌을 원치 않았죠. 정답은 벌금 400만 원입니다. 검찰은 징역 1년을 구형했었죠. 다음 사건도 맞혀 보세요.",
+  "transcript": "배달 음식 받는 곳을 바꿨다는 이유로 외국인 노동자에게 박치기를 22번 했습니다. 노동자는 뇌진탕 등 상해를 입었고 관리자는 구속된 채 재판에 넘겨졌죠. 게다가 음주운전으로 집행유예 기간 중이었어요. 벌금, 집행유예 실형 중 무엇이었을까요? 판사는 집행유예 기간에 자숙하지 않았다고 꼬집었습니다. 다만 범행을 모두 인정했고 구금생활로 반성했을 거라고 봤어요. 700만 원에 합의해 피해자도 처벌을 원치 않았죠. 정답은 벌금 400만 원입니다. 검찰은 징역 1년을 구형했었... 다음 사건도 마쳐보세요.",
+  "accuracy_raw": 0.9858,
+  "accuracy": 0.9953,
+  "pass": true,
+  "normalisation": "numbers to integers (1만 1천 = 11,000), m → 미터, phonetic spellings 마쳐→맞혀, 맞춰→맞혀, 2배→두 배, 공일공→010, 야차루를→야차룰을"
+ },
+ "numbers": {
+  "screen": [
+   1,
+   2,
+   10,
+   20,
+   22,
+   2026,
+   4000000,
+   7000000
+  ],
+  "speech": [
+   1,
+   22,
+   4000000,
+   7000000
+  ],
+  "not_in_facts": [],
+  "pass": true
+ },
+ "spelling": {
+  "issues": [],
+  "pass": true
+ },
+ "im_not_ai": {
+  "version": "2.3.2",
+  "counts": {
+   "C-8": 0,
+   "C-11": 0,
+   "I-4": 0,
+   "E-2": 0,
+   "F-5": 0
+  },
+  "pass": true,
+  "risk_band": "low"
+ },
+ "structure": {
+  "episode": "q013",
+  "frames": 876,
+  "seconds": 29.2,
+  "duration_ok": true,
+  "duration_hard_ok": true,
+  "reveal_frame": 722,
+  "reveal_ratio": 0.824,
+  "reveal_ok": true,
+  "max_gap_frames": 39,
+  "max_gap_at": [
+   392,
+   431
+  ],
+  "tempo_ok": true,
+  "changes_per_10s": 14.7,
+  "over_gap": [],
+  "pass": true
+ },
+ "accuracy": {
+  "no_finality_claim": true,
+  "finality_hits": [],
+  "request_mentions": [
+   "정답: 벌금 400만 원 · 구형은 징역 1년",
+   "구형은 징역 1년",
+   "검찰은 징역 1년을 구형했었죠."
+  ],
+  "pass": true
+ },
+ "phone_sheet": "episodes/quiz/out/v3/review/q013_phone.png",
+ "phone_sheet_frames": 22,
+ "gates": {
+  "audit": true,
+  "probe": true,
+  "loudness": true,
+  "freeze_black": true,
+  "asr_final_mix": true,
+  "numbers": true,
+  "spelling": true,
+  "im_not_ai": true,
+  "structure": true,
+  "accuracy": true
+ },
+ "all_pass": true
+}

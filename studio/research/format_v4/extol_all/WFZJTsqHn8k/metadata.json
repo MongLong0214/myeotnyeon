@@ -1,0 +1,29 @@
+{
+  "id": "WFZJTsqHn8k",
+  "title": "탈옥수 신창원 #shorts",
+  "description": "[omitted: third-party video description]",
+  "upload_date": "20260909",
+  "timestamp": 1788929475,
+  "duration": 95,
+  "view_count": 20324,
+  "like_count": 56,
+  "comment_count": 5,
+  "chapters": null,
+  "channel": "엑스톨(Extol)",
+  "channel_id": "UCHRG_xhaJj-5TsYnAjhJXVQ",
+  "channel_follower_count": null,
+  "webpage_url": "https://www.youtube.com/watch?v=WFZJTsqHn8k",
+  "categories": [
+    "People & Blogs"
+  ],
+  "tags": [],
+  "language": "ko",
+  "availability": "public",
+  "age_limit": 0,
+  "analysis_kind": "short",
+  "collected_local": "2026-10-30T09:09:37+0900",
+  "counts_method": "yt-dlp separate metadata extraction without write-comments; avoids capped extracted count",
+  "extractor_format_description": "135 - 480x854 (480p)+251-2 - audio only (한국어 원본 (default), medium)",
+  "extracted_audio_language": "ko",
+  "format_note_caveat": "For two reused media copies, selected format in fresh metadata is not the copy format; source_media.json ffprobe is authoritative."
+}

@@ -1,0 +1,53 @@
+{
+  "content_type_shot_counts": {
+    "3D render": 68,
+    "text card": 4,
+    "archival photo": 4,
+    "document or record card": 5,
+    "map": 8,
+    "news footage": 7,
+    "other": 1
+  },
+  "content_type_time_shares": {
+    "text card": 0.02012265235722499,
+    "news footage": 0.03392104254503642,
+    "map": 0.07716877475405648,
+    "other": 0.004024530471444999,
+    "document or record card": 0.12399386738213877,
+    "archival photo": 0.05742941101315958,
+    "3D render": 0.6833397214769389
+  },
+  "clause_boundary_proxy_count": 48,
+  "clause_boundary_proxy_share": 0.5,
+  "mix_onset_within_100ms_count": 41,
+  "nonword_mix_onset_within_100ms_count": 8,
+  "side_onset_within_100ms_count": 14,
+  "warning": "Onsets are not confirmed SFX; clauses are same ASR-rule estimate as ref1. Content labels identify visible format, not copyright status or asset origin.",
+  "pause_distribution_gt200ms": {
+    "count": 77,
+    "sum_s": 38.419999999999916,
+    "median_s": 0.36000000000001364,
+    "p10_s": 0.2400000000000091,
+    "p90_s": 0.5360000000000243,
+    "max_s": 3.519999999999982,
+    "histogram": {
+      "0.2_to_0.35": 33,
+      "0.35_to_0.5": 33,
+      "0.5_to_1": 7,
+      "1_to_2": 0,
+      "2_or_more": 4
+    }
+  },
+  "narration_only_endings": {
+    "sentences": 91,
+    "counts": {
+      "습니다": 86,
+      "요": 5
+    },
+    "shares": {
+      "습니다": 0.945054945054945,
+      "요": 0.054945054945054944
+    },
+    "excluded": "Teacher quotation and final article quotation; indirect dialogue remains narrator."
+  }
+}

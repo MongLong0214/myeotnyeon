@@ -1,0 +1,23 @@
+{
+ "started_at_kst": "2026-10-26T19:09:17+09:00",
+ "finished_at_kst": "2026-10-26T19:09:20+09:00",
+ "command": [
+  "$HOME/.local/bin/yt-dlp",
+  "--ignore-config",
+  "--no-cookies",
+  "--socket-timeout",
+  "25",
+  "--retries",
+  "1",
+  "--extractor-retries",
+  "1",
+  "--ignore-no-formats-error",
+  "--extractor-args",
+  "youtube:player_client=web",
+  "--skip-download",
+  "--dump-json",
+  "https://www.youtube.com/watch?v=8KD_shttTgc"
+ ],
+ "exit_code": 0,
+ "error": "WARNING: [youtube] 8KD_shttTgc: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nWARNING: Only images are available for download. use --list-formats to see them\nWARNING: Requested format is not available\n"
+}

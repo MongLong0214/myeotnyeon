@@ -1,0 +1,98 @@
+category,start_s,end_s,description,span_char_start,span_char_end
+foreshadowing,12.5,16.8,공간에 해답,,
+foreshadowing,56.1,59.4,입장 선별 예고,,
+foreshadowing,126.1,128.4,의도된 좁음,,
+foreshadowing,157.1,160.1,다른 이유 예고,,
+foreshadowing,187.4,189.6,테이블 계급 예고,,
+withholding,9.7,20.4,질문 뒤 장 카드,,
+withholding,104.5,128.4,좁음의 이유 유예,,
+withholding,157.1,168.6,다른 욕망 뒤 삽입 자료,,
+withholding,187.4,203.4,테이블 계급의 구체화,,
+withholding,336.7,344.7,애매한 위치의 해법,,
+quotes,35.3,38.4,공간의 태도를 의인화,,
+quotes,73.4,77,가드 발언 예시,,
+quotes,77.4,82.3,시청자가 들을 수 있는 발언 예시,,
+quotes,192,197.8,테이블 계급 표현,,
+quotes,230.5,237,소비자의 멸칭 언급,,
+irony,0,12.2,퇴폐와 인기가 동시에 존재,,
+irony,126.1,149.1,불편한 좁음이 판매 장치,,
+irony,209.3,230.3,고가 소비가 은밀함 대신 노출을 구매,,
+irony,269.3,272.9,구매를 말하기 위해 구매,,
+irony,274.3,304.1,핫한 장소에서도 행사는 실패,,
+irony,344.9,367,관심 없는 태도로 관심을 기다림,,
+irony,376.3,390.6,대상화와 만족의 모순,,
+questions,0.0,12.22,ASR의 물음표/의문형 어미; 질문 인용이 포함될 수 있음,,
+questions,77.38,79.58,ASR의 물음표/의문형 어미; 질문 인용이 포함될 수 있음,,
+questions,79.7,80.92,ASR의 물음표/의문형 어미; 질문 인용이 포함될 수 있음,,
+direct_address,77.38,79.58,명시적 청자 호명 표지; 인용문 안의 표지는 수동 해석 시 구분 필요,,
+direct_address,81.2,85.42,명시적 청자 호명 표지; 인용문 안의 표지는 수동 해석 시 구분 필요,,
+direct_address,131.16,135.94,명시적 청자 호명 표지; 인용문 안의 표지는 수동 해석 시 구분 필요,,
+reversals,0,0,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,126.1,126.1,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,157.1,157.1,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,217.9,217.9,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,269.3,269.3,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,279.6,279.6,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,344.9,344.9,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,376.3,376.3,상황·해석·기대의 재설정; 수동 의미 코딩,,
+specifics,0.0,1.94,place,1,3
+specifics,6.96,9.66,number/time,4,6
+specifics,6.96,9.66,time,1,3
+specifics,20.400000000000002,23.38,number,5,6
+specifics,20.400000000000002,23.38,number,16,20
+specifics,23.38,25.94,number,1,6
+specifics,25.94,28.98,number,7,12
+specifics,25.94,28.98,number,14,19
+specifics,31.08,33.08,object,4,6
+specifics,40.22,41.8,object,6,8
+specifics,40.22,41.8,place,4,8
+specifics,46.28,48.62,object,7,9
+specifics,51.5,53.22,object,3,5
+specifics,53.56,56.12,object,6,8
+specifics,68.68,73.12,object,28,30
+specifics,74.96,77.0,object,5,8
+specifics,85.42,92.32,number,35,36
+specifics,85.42,92.32,number,45,46
+specifics,92.52,100.14,number,44,46
+specifics,113.28,115.98,number,14,18
+specifics,115.98,119.18,object,21,23
+specifics,119.18,120.96,number,3,7
+specifics,121.32,123.44,number,15,19
+specifics,121.32,123.44,object,7,9
+specifics,168.64,170.78,object,10,13
+specifics,171.02,174.14,object,5,7
+specifics,174.14,177.44,object,1,4
+specifics,177.86,179.96,object,6,9
+specifics,177.86,179.96,object,11,13
+specifics,182.92,184.84,object,1,4
+specifics,187.38,189.6,object,5,8
+specifics,187.38,189.6,object,17,20
+specifics,194.66,197.8,object,9,12
+specifics,197.98,200.72,number,11,12
+specifics,197.98,200.72,number,15,17
+specifics,197.98,200.72,number,20,22
+specifics,197.98,200.72,object,24,27
+specifics,205.7,208.96,object,10,13
+specifics,219.66,221.1,object,5,8
+specifics,230.52,234.64,object,8,11
+specifics,237.4,241.48,object,6,9
+specifics,237.4,241.48,object,35,38
+specifics,243.96,247.8,object,5,8
+specifics,248.18,251.08,object,12,15
+specifics,251.08,253.6,object,3,6
+specifics,255.42,258.96,object,1,4
+specifics,258.96,262.64,number,1,4
+specifics,258.96,262.64,number,7,10
+specifics,262.94,265.94,object,6,9
+specifics,269.32,272.88,object,8,9
+specifics,269.32,272.88,object,26,27
+specifics,274.3,279.64,number,1,5
+specifics,274.3,279.64,place,9,11
+specifics,307.4,310.9,object,1,3
+specifics,310.9,314.82,object,1,4
+specifics,310.9,314.82,object,18,21
+specifics,321.44,323.0,object,1,4
+specifics,321.44,323.0,object,9,10
+specifics,351.06,353.42,object,1,4
+specifics,390.76,393.08,number,1,6
+specifics,390.76,393.08,number,7,9

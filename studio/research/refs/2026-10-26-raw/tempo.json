@@ -1,0 +1,134 @@
+{
+ "Nykfh2I4eBk": {
+  "sb_frames": 24,
+  "interval_s": 0.958,
+  "visual_changes_ge": 2,
+  "changes_per_10s": 0.9
+ },
+ "EsGemJYqaWE": {
+  "sb_frames": 53,
+  "interval_s": 0.981,
+  "visual_changes_ge": 37,
+  "changes_per_10s": 7.3
+ },
+ "4oAtyLyRABA": {
+  "sb_frames": 44,
+  "interval_s": 0.977,
+  "visual_changes_ge": 22,
+  "changes_per_10s": 5.2
+ },
+ "Ehjs0mbaaYw": {
+  "sb_frames": 51,
+  "interval_s": 0.98,
+  "visual_changes_ge": 26,
+  "changes_per_10s": 5.3
+ },
+ "JvJa_kdz6Yw": {
+  "sb_frames": 47,
+  "interval_s": 0.957,
+  "visual_changes_ge": 14,
+  "changes_per_10s": 3.1
+ },
+ "KsmJcoLeRJU": {
+  "sb_frames": 48,
+  "interval_s": 0.979,
+  "visual_changes_ge": 30,
+  "changes_per_10s": 6.4
+ },
+ "ApqOKh_QTxo": {
+  "sb_frames": 36,
+  "interval_s": 0.944,
+  "visual_changes_ge": 15,
+  "changes_per_10s": 4.4
+ },
+ "3K0uY0x-cus": {
+  "sb_frames": 44,
+  "interval_s": 0.953,
+  "visual_changes_ge": 15,
+  "changes_per_10s": 3.7
+ },
+ "-niDfHQhqmE": {
+  "sb_frames": 57,
+  "interval_s": 0.982,
+  "visual_changes_ge": 19,
+  "changes_per_10s": 3.4
+ },
+ "XSO59xOZ0e8": {
+  "sb_frames": 51,
+  "interval_s": 0.98,
+  "visual_changes_ge": 26,
+  "changes_per_10s": 5.3
+ },
+ "2dOUKItDw2c": {
+  "sb_frames": 45,
+  "interval_s": 0.977,
+  "visual_changes_ge": 23,
+  "changes_per_10s": 5.3
+ },
+ "viX9bKBe8Bc": {
+  "sb_frames": 27,
+  "interval_s": 0.962,
+  "visual_changes_ge": 1,
+  "changes_per_10s": 0.4
+ },
+ "efhcMCRukh4": {
+  "sb_frames": 48,
+  "interval_s": 0.979,
+  "visual_changes_ge": 20,
+  "changes_per_10s": 4.3
+ },
+ "-gaDkoZU6mM": {
+  "sb_frames": 54,
+  "interval_s": 0.963,
+  "visual_changes_ge": 36,
+  "changes_per_10s": 6.9
+ },
+ "8JHDPfnJVaw": {
+  "sb_frames": 28,
+  "interval_s": 0.929,
+  "visual_changes_ge": 15,
+  "changes_per_10s": 5.8
+ },
+ "7MrLyfL34GA": {
+  "sb_frames": 21,
+  "interval_s": 0.952,
+  "visual_changes_ge": 16,
+  "changes_per_10s": 8.0
+ },
+ "t8EFnyTfgqs": {
+  "sb_frames": 55,
+  "interval_s": 0.964,
+  "visual_changes_ge": 10,
+  "changes_per_10s": 1.9
+ },
+ "rGcRlRrtL1o": {
+  "sb_frames": 71,
+  "interval_s": 0.971,
+  "visual_changes_ge": 44,
+  "changes_per_10s": 6.5
+ },
+ "FLcCGqxBMuY": {
+  "sb_frames": 60,
+  "interval_s": 0.983,
+  "visual_changes_ge": 42,
+  "changes_per_10s": 7.1
+ },
+ "76soQnhHk58": {
+  "sb_frames": 27,
+  "interval_s": 0.923,
+  "visual_changes_ge": 13,
+  "changes_per_10s": 5.4
+ },
+ "IKjz8gGErMk": {
+  "sb_frames": 29,
+  "interval_s": 0.931,
+  "visual_changes_ge": 8,
+  "changes_per_10s": 3.0
+ },
+ "0eo5o8u5EMM": {
+  "sb_frames": 33,
+  "interval_s": 0.97,
+  "visual_changes_ge": 6,
+  "changes_per_10s": 1.9
+ }
+}

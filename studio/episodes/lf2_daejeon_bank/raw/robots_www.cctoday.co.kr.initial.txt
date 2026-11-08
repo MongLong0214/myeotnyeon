@@ -1,0 +1,9 @@
+URL: https://www.cctoday.co.kr/robots.txt
+HTTP: 200 (initial fetch; a later request returned 403 and is preserved separately)
+User-agent: *
+Disallow: /admin/
+Disallow: /paoin/
+Disallow: /engine_yonhap/
+Disallow: /search_yonhap/
+Allow: /news/photo/
+Sitemap: https://www.cctoday.co.kr/sitemap.xml

@@ -1,0 +1,11 @@
+{
+  "note": "ref = the line as written (subtitle form). tts = the same line with numbers spelled in Hangul, exactly as the production pipeline (episodes/EP001/tts.py LEX) feeds Supertonic. Every engine gets the tts form.",
+  "lines": [
+    {"id": 1, "ref": "음주운전 신고하겠다고 막아선 30대 남성을, 20대 여성 운전자가 차로 밀어 버렸습니다.",
+     "tts": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."},
+    {"id": 2, "ref": "여러분이 판사라면? 실형일까요, 집행유예일까요?",
+     "tts": "여러분이 판사라면? 실형일까요, 집행유예일까요?"},
+    {"id": 3, "ref": "판결은, 징역 8개월에 집행유예 2년!",
+     "tts": "판결은, 징역 팔 개월에 집행유예 이 년!"}
+  ]
+}

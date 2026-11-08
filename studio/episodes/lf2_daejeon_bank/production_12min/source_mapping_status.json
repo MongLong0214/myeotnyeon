@@ -1,0 +1,10 @@
+{
+  "episode": "LF2 대전 은행강도",
+  "script_source": "../lf2_10min_step1_plan_script_visual.md",
+  "timing_source": "../lf2_10min_step1_audit.json",
+  "facts_source": "../facts.md",
+  "current_audio": "../cartoon_v6/bundle/public/voice_v6fix2.wav",
+  "current_audio_seconds": 258.966667,
+  "script_blocks": {"original_preserved": 40, "new_fact_mapped": 17, "new_ids": ["A01","A02","A03","A04","A05","A06","A07","A08","A09","A10","A11","A12","A13","A14","A15","A16","A17"]},
+  "render_status": "No 720-second render was created: new block audio does not exist and no compatible Korean TTS succeeded. See audio_render_blocker.json."
+}

@@ -1,0 +1,108 @@
+[
+  {
+    "name": "v3_q003",
+    "file": "q003/render.json",
+    "from": 856,
+    "to": 886,
+    "outroFrom": 871,
+    "fullEndFrom": null,
+    "frames": 31,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false
+  },
+  {
+    "name": "v52_q012",
+    "file": "q012/v52/render_final.json",
+    "hookStyle": "v51",
+    "from": 902,
+    "to": 937,
+    "outroFrom": 917,
+    "fullEndFrom": 922,
+    "frames": 36,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false
+  },
+  {
+    "name": "v52_q015",
+    "file": "q015/v52/render_final.json",
+    "hookStyle": "v51",
+    "from": 644,
+    "to": 675,
+    "outroFrom": 659,
+    "fullEndFrom": 660,
+    "frames": 32,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false
+  },
+  {
+    "name": "v52_q016",
+    "file": "q016/v52/render_final.json",
+    "hookStyle": "v51",
+    "from": 826,
+    "to": 860,
+    "outroFrom": 841,
+    "fullEndFrom": 845,
+    "frames": 35,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false
+  },
+  {
+    "name": "v52_q017",
+    "file": "q017/v52/render_final.json",
+    "hookStyle": "v51",
+    "from": 608,
+    "to": 642,
+    "outroFrom": 623,
+    "fullEndFrom": 627,
+    "frames": 35,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false
+  },
+  {
+    "name": "aligned_control_q012",
+    "file": "q012/v52/render_final.json",
+    "hookStyle": "v51",
+    "aligned": true,
+    "from": 902,
+    "to": 932,
+    "outroFrom": 917,
+    "fullEndFrom": 917,
+    "frames": 31,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false
+  },
+  {
+    "name": "aligned_control_q017",
+    "file": "q017/v52/render_final.json",
+    "hookStyle": "v51",
+    "aligned": true,
+    "from": 608,
+    "to": 638,
+    "outroFrom": 623,
+    "fullEndFrom": 623,
+    "frames": 31,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false
+  }
+]

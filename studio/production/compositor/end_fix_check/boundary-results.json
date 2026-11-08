@@ -1,0 +1,271 @@
+[
+  {
+    "name": "v3_q003",
+    "file": "q003/render.json",
+    "from": 856,
+    "to": 886,
+    "outroFrom": 871,
+    "fullEndFrom": null,
+    "frames": 31,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false,
+    "changed_frames": [
+      871,
+      872,
+      873,
+      874,
+      875,
+      876,
+      877,
+      878
+    ],
+    "all_other_rendered_frames_pixel_identical": true,
+    "night_reference_probe": [
+      {
+        "frame": 871,
+        "before_night_reference_mae": 0.0,
+        "after_night_reference_mae": 156.665
+      },
+      {
+        "frame": 872,
+        "before_night_reference_mae": 0.0,
+        "after_night_reference_mae": 156.667
+      },
+      {
+        "frame": 873,
+        "before_night_reference_mae": 0.0,
+        "after_night_reference_mae": 156.671
+      },
+      {
+        "frame": 874,
+        "before_night_reference_mae": 0.0,
+        "after_night_reference_mae": 156.669
+      },
+      {
+        "frame": 875,
+        "before_night_reference_mae": 0.0,
+        "after_night_reference_mae": 156.671
+      },
+      {
+        "frame": 876,
+        "before_night_reference_mae": 0.0,
+        "after_night_reference_mae": 156.673
+      },
+      {
+        "frame": 877,
+        "before_night_reference_mae": 0.0,
+        "after_night_reference_mae": 156.674
+      },
+      {
+        "frame": 878,
+        "before_night_reference_mae": 0.0,
+        "after_night_reference_mae": 156.676
+      }
+    ]
+  },
+  {
+    "name": "v52_q012",
+    "file": "q012/v52/render_final.json",
+    "hookStyle": "v51",
+    "from": 902,
+    "to": 937,
+    "outroFrom": 917,
+    "fullEndFrom": 922,
+    "frames": 36,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false,
+    "changed_frames": [
+      917,
+      918,
+      919,
+      920,
+      921
+    ],
+    "all_other_rendered_frames_pixel_identical": true,
+    "night_reference_probe": [
+      {
+        "frame": 917,
+        "before_night_reference_mae": 0.0,
+        "after_night_reference_mae": 79.218
+      },
+      {
+        "frame": 918,
+        "before_night_reference_mae": 0.012,
+        "after_night_reference_mae": 79.229
+      },
+      {
+        "frame": 919,
+        "before_night_reference_mae": 0.014,
+        "after_night_reference_mae": 79.218
+      },
+      {
+        "frame": 920,
+        "before_night_reference_mae": 0.031,
+        "after_night_reference_mae": 79.223
+      },
+      {
+        "frame": 921,
+        "before_night_reference_mae": 0.036,
+        "after_night_reference_mae": 79.284
+      }
+    ]
+  },
+  {
+    "name": "v52_q015",
+    "file": "q015/v52/render_final.json",
+    "hookStyle": "v51",
+    "from": 644,
+    "to": 675,
+    "outroFrom": 659,
+    "fullEndFrom": 660,
+    "frames": 32,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false,
+    "changed_frames": [
+      659
+    ],
+    "all_other_rendered_frames_pixel_identical": true,
+    "night_reference_probe": [
+      {
+        "frame": 659,
+        "before_night_reference_mae": 0.0,
+        "after_night_reference_mae": 65.783
+      }
+    ]
+  },
+  {
+    "name": "v52_q016",
+    "file": "q016/v52/render_final.json",
+    "hookStyle": "v51",
+    "from": 826,
+    "to": 860,
+    "outroFrom": 841,
+    "fullEndFrom": 845,
+    "frames": 35,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false,
+    "changed_frames": [
+      841,
+      842,
+      843,
+      844
+    ],
+    "all_other_rendered_frames_pixel_identical": true,
+    "night_reference_probe": [
+      {
+        "frame": 841,
+        "before_night_reference_mae": 0.0,
+        "after_night_reference_mae": 65.741
+      },
+      {
+        "frame": 842,
+        "before_night_reference_mae": 0.029,
+        "after_night_reference_mae": 65.723
+      },
+      {
+        "frame": 843,
+        "before_night_reference_mae": 0.043,
+        "after_night_reference_mae": 65.722
+      },
+      {
+        "frame": 844,
+        "before_night_reference_mae": 0.061,
+        "after_night_reference_mae": 65.716
+      }
+    ]
+  },
+  {
+    "name": "v52_q017",
+    "file": "q017/v52/render_final.json",
+    "hookStyle": "v51",
+    "from": 608,
+    "to": 642,
+    "outroFrom": 623,
+    "fullEndFrom": 627,
+    "frames": 35,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false,
+    "changed_frames": [
+      623,
+      624,
+      625,
+      626
+    ],
+    "all_other_rendered_frames_pixel_identical": true,
+    "night_reference_probe": [
+      {
+        "frame": 623,
+        "before_night_reference_mae": 0.0,
+        "after_night_reference_mae": 73.486
+      },
+      {
+        "frame": 624,
+        "before_night_reference_mae": 0.005,
+        "after_night_reference_mae": 73.497
+      },
+      {
+        "frame": 625,
+        "before_night_reference_mae": 0.005,
+        "after_night_reference_mae": 73.486
+      },
+      {
+        "frame": 626,
+        "before_night_reference_mae": 0.009,
+        "after_night_reference_mae": 73.482
+      }
+    ]
+  },
+  {
+    "name": "aligned_control_q012",
+    "file": "q012/v52/render_final.json",
+    "hookStyle": "v51",
+    "aligned": true,
+    "from": 902,
+    "to": 932,
+    "outroFrom": 917,
+    "fullEndFrom": 917,
+    "frames": 31,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false,
+    "changed_frames": [],
+    "all_other_rendered_frames_pixel_identical": true,
+    "night_reference_probe": []
+  },
+  {
+    "name": "aligned_control_q017",
+    "file": "q017/v52/render_final.json",
+    "hookStyle": "v51",
+    "aligned": true,
+    "from": 608,
+    "to": 638,
+    "outroFrom": 623,
+    "fullEndFrom": 623,
+    "frames": 31,
+    "size": [
+      270,
+      480
+    ],
+    "audioRendered": false,
+    "changed_frames": [],
+    "all_other_rendered_frames_pixel_identical": true,
+    "night_reference_probe": []
+  }
+]

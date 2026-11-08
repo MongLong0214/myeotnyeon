@@ -1,0 +1,40 @@
+{
+ "pass_": true,
+ "range_inclusive": [
+  745,
+  761
+ ],
+ "outro_cue_from": 750,
+ "full_card_from": 755,
+ "held_verdict_frames": [
+  {
+   "frame": 750,
+   "seconds": 25.0,
+   "verdict_roi_mae": 0.5485354097144975
+  },
+  {
+   "frame": 751,
+   "seconds": 25.033333333333335,
+   "verdict_roi_mae": 1.4040823136818688
+  },
+  {
+   "frame": 752,
+   "seconds": 25.066666666666666,
+   "verdict_roi_mae": 1.6749202817945865
+  },
+  {
+   "frame": 753,
+   "seconds": 25.1,
+   "verdict_roi_mae": 6.563934000741565
+  },
+  {
+   "frame": 754,
+   "seconds": 25.133333333333333,
+   "verdict_roi_mae": 6.942947719688543
+  }
+ ],
+ "cut_mae": 50.446848958333334,
+ "method": "Every decoded frame from 5 frames before old outro through 6 frames after full card. Compare verdict ROI against last verdict frame; inspect consecutive-frame strip. Current getEndTransition keeps reveal until N-45; no intermediate Outro mounted.",
+ "strip": "episodes/quiz/v52_q013_q014_support/end_transition_q013.jpg",
+ "manual_review_pending": true
+}

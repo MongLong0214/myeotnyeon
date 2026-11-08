@@ -1,0 +1,71 @@
+{
+  "text": " A까지 같은 DNA로 특정한 건 아닙니다.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.34,
+      "text": " A까지 같은 DNA로 특정한 건 아닙니다.",
+      "tokens": [
+        50365,
+        316,
+        8786,
+        10005,
+        8272,
+        12888,
+        16909,
+        6170,
+        3049,
+        13507,
+        45842,
+        1972,
+        13,
+        50481
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.07731485366821289,
+      "compression_ratio": 0.8166666666666667,
+      "no_speech_prob": 6.6613160300266205e-12,
+      "words": [
+        {
+          "word": " A까지",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.88037109375
+        },
+        {
+          "word": " 같은",
+          "start": 0.42,
+          "end": 0.7,
+          "probability": 0.986328125
+        },
+        {
+          "word": " DNA로",
+          "start": 0.7,
+          "end": 1.36,
+          "probability": 0.97802734375
+        },
+        {
+          "word": " 특정한",
+          "start": 1.36,
+          "end": 1.78,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 건",
+          "start": 1.78,
+          "end": 1.92,
+          "probability": 0.96044921875
+        },
+        {
+          "word": " 아닙니다.",
+          "start": 1.92,
+          "end": 2.34,
+          "probability": 1.0
+        }
+      ]
+    }
+  ],
+  "language": "ko"
+}

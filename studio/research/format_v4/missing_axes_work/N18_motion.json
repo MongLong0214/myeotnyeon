@@ -1,0 +1,242 @@
+[
+  {
+    "sample": 1,
+    "shot": 1,
+    "end_pair_flow_px_per_s_320w": 0.7006979584693909,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 2,
+    "shot": 4,
+    "end_pair_flow_px_per_s_320w": 0.9448374509811401,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 3,
+    "shot": 7,
+    "end_pair_flow_px_per_s_320w": 3.321854829788208,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 4,
+    "shot": 9,
+    "end_pair_flow_px_per_s_320w": 1.2055039405822754,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 5,
+    "shot": 12,
+    "end_pair_flow_px_per_s_320w": 0.4626685678958893,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 6,
+    "shot": 15,
+    "end_pair_flow_px_per_s_320w": 0.23690520226955414,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 7,
+    "shot": 18,
+    "end_pair_flow_px_per_s_320w": 5.0085978507995605,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 8,
+    "shot": 21,
+    "end_pair_flow_px_per_s_320w": 5.757591247558594,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 9,
+    "shot": 23,
+    "end_pair_flow_px_per_s_320w": 4.197587490081787,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 10,
+    "shot": 26,
+    "end_pair_flow_px_per_s_320w": 3.73698091506958,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 11,
+    "shot": 29,
+    "end_pair_flow_px_per_s_320w": 9.40463638305664,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 12,
+    "shot": 32,
+    "end_pair_flow_px_per_s_320w": 5.238875389099121,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 13,
+    "shot": 35,
+    "end_pair_flow_px_per_s_320w": 0.5835708379745483,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 14,
+    "shot": 37,
+    "end_pair_flow_px_per_s_320w": 6.185357570648193,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 15,
+    "shot": 40,
+    "end_pair_flow_px_per_s_320w": 5.330976963043213,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 16,
+    "shot": 43,
+    "end_pair_flow_px_per_s_320w": 4.453941822052002,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 17,
+    "shot": 46,
+    "end_pair_flow_px_per_s_320w": 3.553757667541504,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 18,
+    "shot": 49,
+    "end_pair_flow_px_per_s_320w": 5.026870250701904,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 19,
+    "shot": 51,
+    "end_pair_flow_px_per_s_320w": 0.5558608174324036,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 20,
+    "shot": 54,
+    "end_pair_flow_px_per_s_320w": 0.0007743957103230059,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 21,
+    "shot": 57,
+    "end_pair_flow_px_per_s_320w": 5.828259468078613,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 22,
+    "shot": 60,
+    "end_pair_flow_px_per_s_320w": 0.05212352052330971,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 23,
+    "shot": 62,
+    "end_pair_flow_px_per_s_320w": 0.6063248515129089,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 24,
+    "shot": 65,
+    "end_pair_flow_px_per_s_320w": 2.6026611328125,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 25,
+    "shot": 68,
+    "end_pair_flow_px_per_s_320w": 4.198991775512695,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 26,
+    "shot": 71,
+    "end_pair_flow_px_per_s_320w": 5.241231918334961,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 27,
+    "shot": 74,
+    "end_pair_flow_px_per_s_320w": 0.801661491394043,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 28,
+    "shot": 76,
+    "end_pair_flow_px_per_s_320w": 6.907718181610107,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 29,
+    "shot": 79,
+    "end_pair_flow_px_per_s_320w": 4.751575469970703,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 30,
+    "shot": 82,
+    "end_pair_flow_px_per_s_320w": 2.897109031677246,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 31,
+    "shot": 85,
+    "end_pair_flow_px_per_s_320w": 0.722684919834137,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 32,
+    "shot": 88,
+    "end_pair_flow_px_per_s_320w": 1.9077805280685425,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 33,
+    "shot": 90,
+    "end_pair_flow_px_per_s_320w": 4.5273637771606445,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 34,
+    "shot": 93,
+    "end_pair_flow_px_per_s_320w": 0.5722465515136719,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 35,
+    "shot": 96,
+    "end_pair_flow_px_per_s_320w": 2.9935855865478516,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 36,
+    "shot": 99,
+    "end_pair_flow_px_per_s_320w": 2.9975435733795166,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 37,
+    "shot": 102,
+    "end_pair_flow_px_per_s_320w": 3.762373685836792,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 38,
+    "shot": 104,
+    "end_pair_flow_px_per_s_320w": 2.7243874073028564,
+    "visible_motion_proxy": true
+  },
+  {
+    "sample": 39,
+    "shot": 107,
+    "end_pair_flow_px_per_s_320w": 0.0017256372375413775,
+    "visible_motion_proxy": false
+  },
+  {
+    "sample": 40,
+    "shot": 110,
+    "end_pair_flow_px_per_s_320w": 0.2373901605606079,
+    "visible_motion_proxy": false
+  }
+]

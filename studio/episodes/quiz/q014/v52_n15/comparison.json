@@ -1,0 +1,66 @@
+{
+  "frame_count": 929,
+  "checks": {
+    "nb_read_frames": [
+      "929",
+      "929"
+    ],
+    "duration": [
+      "30.966667",
+      "30.966667"
+    ],
+    "r_frame_rate": [
+      "30/1",
+      "30/1"
+    ],
+    "width": [
+      1080,
+      1080
+    ],
+    "height": [
+      1920,
+      1920
+    ]
+  },
+  "container_duration": [
+    "30.976000",
+    "30.976000"
+  ],
+  "audio": {
+    "stream_md5_before": "MD5=fe02daf6cddae0623e6eee3c4a408c0c",
+    "stream_md5_after": "MD5=fe02daf6cddae0623e6eee3c4a408c0c",
+    "stream_identical": true,
+    "decoded_pcm_md5_before": "MD5=f03d012eecb8113dca68e2692a12b484",
+    "decoded_pcm_md5_after": "MD5=f03d012eecb8113dca68e2692a12b484",
+    "pcm_identical": true
+  },
+  "psnr": {
+    "method": "Decoded RGB24, per-frame MSE over every pixel outside declared text rectangles; zero-based frames; only active text region masked",
+    "regions_xyxy": {
+      "badge": [
+        304,
+        184,
+        784,
+        256
+      ],
+      "end_card_text": [
+        128,
+        1280,
+        800,
+        1376
+      ]
+    },
+    "badge_frames": [
+      61,
+      883
+    ],
+    "end_text_frames": [
+      884,
+      928
+    ],
+    "minimum_db": 45.42749519333697,
+    "minimum_frame": 59,
+    "all_frames_ge_45_db": true
+  },
+  "stills": "episodes/quiz/q014/v52_n15/before_after.jpg"
+}

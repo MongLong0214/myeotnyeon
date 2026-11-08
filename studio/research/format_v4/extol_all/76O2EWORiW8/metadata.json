@@ -1,0 +1,29 @@
+{
+  "id": "76O2EWORiW8",
+  "title": "훔치진 못했다? #shorts",
+  "description": "[omitted: third-party video description]",
+  "upload_date": "20260604",
+  "timestamp": 1780594718,
+  "duration": 50,
+  "view_count": 4704,
+  "like_count": 8,
+  "comment_count": null,
+  "chapters": null,
+  "channel": "엑스톨(Extol)",
+  "channel_id": "UCHRG_xhaJj-5TsYnAjhJXVQ",
+  "channel_follower_count": null,
+  "webpage_url": "https://www.youtube.com/watch?v=76O2EWORiW8",
+  "categories": [
+    "People & Blogs"
+  ],
+  "tags": [],
+  "language": "ko",
+  "availability": "public",
+  "age_limit": 0,
+  "analysis_kind": "short",
+  "collected_local": "2026-10-30T09:09:45+0900",
+  "counts_method": "yt-dlp separate metadata extraction without write-comments; avoids capped extracted count",
+  "extractor_format_description": "135 - 480x854 (480p)+251-2 - audio only (한국어 원본 (default), medium)",
+  "extracted_audio_language": "ko",
+  "format_note_caveat": "For two reused media copies, selected format in fresh metadata is not the copy format; source_media.json ffprobe is authoritative."
+}

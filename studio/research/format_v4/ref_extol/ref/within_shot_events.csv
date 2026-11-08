@@ -1,0 +1,4 @@
+event,start_frame,end_frame_exclusive,start_s,end_s,duration_frames,transition_type,new_shot,confidence,method
+terminal fade,15969,16038,532.3,534.6,69,fade-black,False,0.8,"observable luma reduction after final movement; onset threshold, encoding/ease obscures mathematical start"
+vent camera traversal,4734,4770,157.8,159.0,36,zoom-through,False,0.7,visual interval of continuous camera through vent; event extent approximate
+body wireframe traversal,1540,1681,51.333333333333336,56.03333333333333,141,other,False,0.9,"continuous object transformation and camera, not a dissolve/cut"

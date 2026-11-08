@@ -1,0 +1,3020 @@
+{
+ "durationInFrames": 11259,
+ "fps": 30,
+ "shots": [
+  {
+   "id": "S000",
+   "dur": 45,
+   "kind": "chapter",
+   "art": "verdict",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "",
+   "date": "",
+   "lines": [],
+   "label": "",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 0
+  },
+  {
+   "id": "S001",
+   "dur": 140,
+   "kind": "scene",
+   "art": "opening",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [],
+   "label": "재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": false,
+   "from": 45
+  },
+  {
+   "id": "S002",
+   "dur": 105,
+   "kind": "scene",
+   "art": "spatial",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    "훈련병 6명"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·거리·축척 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": false,
+   "from": 185
+  },
+  {
+   "id": "S003",
+   "dur": 90,
+   "kind": "scene",
+   "art": "spatial",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    "훈련병 6명"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·거리·축척 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": false,
+   "from": 290
+  },
+  {
+   "id": "S004",
+   "dur": 95,
+   "kind": "scene",
+   "art": "opening",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    "중대장 · 규정을 위반한 군기훈련"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": false,
+   "from": 380
+  },
+  {
+   "id": "S005",
+   "dur": 97,
+   "kind": "scene",
+   "art": "opening",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    "중대장 · 규정을 위반한 군기훈련"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": false,
+   "from": 475
+  },
+  {
+   "id": "S006",
+   "dur": 78,
+   "kind": "scene",
+   "art": "opening",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    "부중대장 · 군기훈련 실시 혐의"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": false,
+   "from": 572
+  },
+  {
+   "id": "S007",
+   "dur": 77,
+   "kind": "scene",
+   "art": "opening",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    "부중대장 · 군기훈련 실시 혐의"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": false,
+   "from": 650
+  },
+  {
+   "id": "S008",
+   "dur": 105,
+   "kind": "scene",
+   "art": "opening",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    "적절한 조치를 하지 않은 혐의"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 727
+  },
+  {
+   "id": "S009",
+   "dur": 105,
+   "kind": "scene",
+   "art": "opening",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    "적절한 조치를 하지 않은 혐의"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 832
+  },
+  {
+   "id": "S010",
+   "dur": 18,
+   "kind": "silence",
+   "art": "opening",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    ""
+   ],
+   "label": "재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": false,
+   "from": 937
+  },
+  {
+   "id": "S011",
+   "dur": 71,
+   "kind": "scene",
+   "art": "opening",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    "훈련병 사망 · 이틀 뒤"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 955
+  },
+  {
+   "id": "S012",
+   "dur": 84,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    "법정의 쟁점 · 인과관계"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 1026
+  },
+  {
+   "id": "S013",
+   "dur": 84,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    "법정의 쟁점 · 인과관계"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 1110
+  },
+  {
+   "id": "S014",
+   "dur": 98,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    "피해자별 행위 · 하나인가, 여러 개인가"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": false,
+   "from": 1194
+  },
+  {
+   "id": "S015",
+   "dur": 100,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "01 연병장",
+   "chapterLabel": "01 / 연병장",
+   "date": "2024년 5월 23일",
+   "lines": [
+    "피해자별 행위 · 하나인가, 여러 개인가"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": false,
+   "from": 1292
+  },
+  {
+   "id": "S016",
+   "dur": 45,
+   "kind": "chapter",
+   "art": "verdict",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 1392
+  },
+  {
+   "id": "S017",
+   "dur": 102,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "학대치사",
+    "직권남용 가혹행위"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "중대장 · 기소 혐의",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 1437
+  },
+  {
+   "id": "S018",
+   "dur": 102,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "학대치사",
+    "직권남용 가혹행위"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "중대장 · 기소 혐의",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 1539
+  },
+  {
+   "id": "S019",
+   "dur": 111,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "중대장 · 검찰의 기소 판단"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 1641
+  },
+  {
+   "id": "S020",
+   "dur": 111,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "중대장 · 검찰의 기소 판단"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 1752
+  },
+  {
+   "id": "S021",
+   "dur": 114,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "검찰 판단의 근거 · 보도 요지"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 1863
+  },
+  {
+   "id": "S022",
+   "dur": 114,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "검찰 판단의 근거 · 보도 요지"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 1977
+  },
+  {
+   "id": "S023",
+   "dur": 83,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "학대치사",
+    "직권남용 가혹행위"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "부중대장 · 기소 혐의",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 2091
+  },
+  {
+   "id": "S024",
+   "dur": 85,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "학대치사",
+    "직권남용 가혹행위"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "부중대장 · 기소 혐의",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 2174
+  },
+  {
+   "id": "S025",
+   "dur": 117,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "부중대장 · 공소사실의 범위"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 2259
+  },
+  {
+   "id": "S026",
+   "dur": 117,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "부중대장 · 공소사실의 범위"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 2376
+  },
+  {
+   "id": "S027",
+   "dur": 89,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "중대장 측 주장 · 학대치사 혐의 부인"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 2493
+  },
+  {
+   "id": "S028",
+   "dur": 91,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "중대장 측 주장 · 학대치사 혐의 부인"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 2582
+  },
+  {
+   "id": "S029",
+   "dur": 105,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "검찰의 구형 이유 · 국민 신뢰 훼손"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 2673
+  },
+  {
+   "id": "S030",
+   "dur": 105,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "",
+   "lines": [
+    "검찰의 구형 이유 · 국민 신뢰 훼손"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 2778
+  },
+  {
+   "id": "S031",
+   "dur": 90,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "1심 결심공판 · 2024년 11월 12일",
+   "lines": [
+    "1심 결심공판 · 2024년 11월 12일"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 2883
+  },
+  {
+   "id": "S032",
+   "dur": 90,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "1심 결심공판 · 2024년 11월 12일",
+   "lines": [
+    "1심 결심공판 · 2024년 11월 12일"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 2973
+  },
+  {
+   "id": "S033",
+   "dur": 78,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "1심 결심공판 · 2024년 11월 12일",
+   "lines": [
+    "징역 10년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "중대장 · 1심 검찰 구형",
+   "numeric": true,
+   "multiple": false,
+   "empty": true,
+   "from": 3063
+  },
+  {
+   "id": "S034",
+   "dur": 77,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "1심 결심공판 · 2024년 11월 12일",
+   "lines": [
+    "징역 10년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "중대장 · 1심 검찰 구형",
+   "numeric": true,
+   "multiple": false,
+   "empty": true,
+   "from": 3141
+  },
+  {
+   "id": "S035",
+   "dur": 119,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "1심 결심공판 · 2024년 11월 12일",
+   "lines": [
+    "징역 7년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "부중대장 · 1심 검찰 구형",
+   "numeric": true,
+   "multiple": false,
+   "empty": true,
+   "from": 3218
+  },
+  {
+   "id": "S036",
+   "dur": 71,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "1심 결심공판 · 2024년 11월 12일",
+   "lines": [
+    "징역 10년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "중대장 · 1심 검찰 구형",
+   "numeric": true,
+   "multiple": false,
+   "empty": true,
+   "from": 3337
+  },
+  {
+   "id": "S037",
+   "dur": 72,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "1심 결심공판 · 2024년 11월 12일",
+   "lines": [
+    "징역 10년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "중대장 · 1심 검찰 구형",
+   "numeric": true,
+   "multiple": false,
+   "empty": true,
+   "from": 3408
+  },
+  {
+   "id": "S038",
+   "dur": 78,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "1심 결심공판 · 2024년 11월 12일",
+   "lines": [
+    "징역 7년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "부중대장 · 1심 검찰 구형",
+   "numeric": true,
+   "multiple": false,
+   "empty": true,
+   "from": 3480
+  },
+  {
+   "id": "S039",
+   "dur": 77,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "02 기소와 구형",
+   "chapterLabel": "02 / 기소와 구형",
+   "date": "1심 결심공판 · 2024년 11월 12일",
+   "lines": [
+    "징역 7년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "부중대장 · 1심 검찰 구형",
+   "numeric": true,
+   "multiple": false,
+   "empty": true,
+   "from": 3558
+  },
+  {
+   "id": "S040",
+   "dur": 45,
+   "kind": "chapter",
+   "art": "verdict",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 3635
+  },
+  {
+   "id": "S041",
+   "dur": 90,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "1심 · 춘천지법 형사2부 · 2025년 1월 7일"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 3680
+  },
+  {
+   "id": "S042",
+   "dur": 90,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "1심 · 춘천지법 형사2부 · 2025년 1월 7일"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 3770
+  },
+  {
+   "id": "S043",
+   "dur": 98,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "중대장 · 1심 유죄 판단"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 3860
+  },
+  {
+   "id": "S044",
+   "dur": 100,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "중대장 · 1심 유죄 판단"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 3958
+  },
+  {
+   "id": "S045",
+   "dur": 125,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "부중대장 · 1심 유죄 판단"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 4058
+  },
+  {
+   "id": "S046",
+   "dur": 75,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "1심 판단 · 인과관계 인정"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 4183
+  },
+  {
+   "id": "S047",
+   "dur": 74,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "1심 판단 · 인과관계 인정"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 4258
+  },
+  {
+   "id": "S048",
+   "dur": 96,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "1심 재판부 · 보도 요지"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 4332
+  },
+  {
+   "id": "S049",
+   "dur": 96,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "1심 재판부 · 보도 요지"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 4428
+  },
+  {
+   "id": "S050",
+   "dur": 80,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "재판부 판단 · 군 사기와 전투력"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 4524
+  },
+  {
+   "id": "S051",
+   "dur": 82,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "재판부 판단 · 군 사기와 전투력"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 4604
+  },
+  {
+   "id": "S052",
+   "dur": 87,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "재판부 판단 · 국민 신뢰 훼손"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 4686
+  },
+  {
+   "id": "S053",
+   "dur": 87,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "재판부 판단 · 국민 신뢰 훼손"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 4773
+  },
+  {
+   "id": "S054",
+   "dur": 75,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "재판부가 지적한 사정 · 용서받지 못함"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 4860
+  },
+  {
+   "id": "S055",
+   "dur": 74,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "재판부가 지적한 사정 · 용서받지 못함"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 4935
+  },
+  {
+   "id": "S056",
+   "dur": 111,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "1심 양형 사정 · 사실관계 인정과 반성 태도"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 5009
+  },
+  {
+   "id": "S057",
+   "dur": 111,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "1심 양형 사정 · 사실관계 인정과 반성 태도"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 5120
+  },
+  {
+   "id": "S058",
+   "dur": 123,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "1심 양형 사정 · 교육 목적에서 시작한 점"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 5231
+  },
+  {
+   "id": "S059",
+   "dur": 123,
+   "kind": "scene",
+   "art": "dossier",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "1심 양형 사정 · 교육 목적에서 시작한 점"
+   ],
+   "label": "보도 요지 · 직접 그린 기록 카드",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 5354
+  },
+  {
+   "id": "S060",
+   "dur": 162,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "1심 · 한 행위로 여러 죄"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 5477
+  },
+  {
+   "id": "S061",
+   "dur": 131,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "하나의 행위가 여러 범죄를 구성"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 5639
+  },
+  {
+   "id": "S062",
+   "dur": 71,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "1심 · 학대치사죄 양형기준 참고"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 5770
+  },
+  {
+   "id": "S063",
+   "dur": 72,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "1심 · 학대치사죄 양형기준 참고"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 5841
+  },
+  {
+   "id": "S064",
+   "dur": 107,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "징역 5년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "중대장 · 1심 선고",
+   "numeric": true,
+   "multiple": false,
+   "empty": true,
+   "from": 5913
+  },
+  {
+   "id": "S065",
+   "dur": 83,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "구형 10년 / 선고 5년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "중대장 · 1심",
+   "numeric": true,
+   "multiple": false,
+   "empty": true,
+   "from": 6020
+  },
+  {
+   "id": "S066",
+   "dur": 85,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "구형 10년 / 선고 5년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "중대장 · 1심",
+   "numeric": true,
+   "multiple": false,
+   "empty": true,
+   "from": 6103
+  },
+  {
+   "id": "S067",
+   "dur": 113,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "징역 3년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "부중대장 · 1심 선고",
+   "numeric": true,
+   "multiple": false,
+   "empty": true,
+   "from": 6188
+  },
+  {
+   "id": "S068",
+   "dur": 87,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "구형 7년 / 선고 3년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "부중대장 · 1심",
+   "numeric": true,
+   "multiple": false,
+   "empty": true,
+   "from": 6301
+  },
+  {
+   "id": "S069",
+   "dur": 87,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "03 1심의 판단",
+   "chapterLabel": "03 / 1심의 판단",
+   "date": "1심 · 2025년 1월 7일",
+   "lines": [
+    "구형 7년 / 선고 3년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "부중대장 · 1심",
+   "numeric": true,
+   "multiple": false,
+   "empty": true,
+   "from": 6388
+  },
+  {
+   "id": "S070",
+   "dur": 45,
+   "kind": "chapter",
+   "art": "verdict",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 6475
+  },
+  {
+   "id": "S071",
+   "dur": 105,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "2심 · 서울고법 춘천재판부 · 2025년 6월 18일"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 6520
+  },
+  {
+   "id": "S072",
+   "dur": 105,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "2심 · 서울고법 춘천재판부 · 2025년 6월 18일"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 6625
+  },
+  {
+   "id": "S073",
+   "dur": 80,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "항소심의 쟁점 · 죄의 수"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 6730
+  },
+  {
+   "id": "S074",
+   "dur": 82,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "항소심의 쟁점 · 죄의 수"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 6810
+  },
+  {
+   "id": "S075",
+   "dur": 81,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "1심 판단을 설명한 항소심 · 같은 장소와 기회"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 6892
+  },
+  {
+   "id": "S076",
+   "dur": 81,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "1심 판단을 설명한 항소심 · 같은 장소와 기회"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 6973
+  },
+  {
+   "id": "S077",
+   "dur": 105,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "2심 재판부 · 피해자별 양상이 다름"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 7054
+  },
+  {
+   "id": "S078",
+   "dur": 105,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "2심 재판부 · 피해자별 양상이 다름"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 7159
+  },
+  {
+   "id": "S079",
+   "dur": 66,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "여러 개의 행위로 판단"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 7264
+  },
+  {
+   "id": "S080",
+   "dur": 71,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "여러 개의 행위로 판단"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 7330
+  },
+  {
+   "id": "S081",
+   "dur": 58,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "여러 행위로 여러 죄"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 7401
+  },
+  {
+   "id": "S082",
+   "dur": 61,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "여러 행위로 여러 죄"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 7459
+  },
+  {
+   "id": "S083",
+   "dur": 103,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "중대장 · 2심 · 여러 행위로 여러 죄"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 7520
+  },
+  {
+   "id": "S084",
+   "dur": 101,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "중대장 · 2심 · 여러 행위로 여러 죄"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 7623
+  },
+  {
+   "id": "S085",
+   "dur": 174,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "중대장 · 1심과 2심의 판단 차이"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 7724
+  },
+  {
+   "id": "S086",
+   "dur": 121,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "보도상 설명 · 가장 무거운 죄에 정한 형"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 7898
+  },
+  {
+   "id": "S087",
+   "dur": 119,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "보도상 설명 · 가장 무거운 죄에 정한 형"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 8019
+  },
+  {
+   "id": "S088",
+   "dur": 103,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "보도상 설명 · 형의 가중 가능"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 8138
+  },
+  {
+   "id": "S089",
+   "dur": 101,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "보도상 설명 · 형의 가중 가능"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 8241
+  },
+  {
+   "id": "S090",
+   "dur": 95,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "중대장 · 죄수 관계 판단의 변경"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 8342
+  },
+  {
+   "id": "S091",
+   "dur": 97,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "중대장 · 죄수 관계 판단의 변경"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 8437
+  },
+  {
+   "id": "S092",
+   "dur": 89,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "2심 재판부 · 보도 요지"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 8534
+  },
+  {
+   "id": "S093",
+   "dur": 91,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "2심 재판부 · 보도 요지"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 8623
+  },
+  {
+   "id": "S094",
+   "dur": 87,
+   "kind": "scene",
+   "art": "opening",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "재판부 판단 · 충분히 예방할 수 있었던 사고"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 8714
+  },
+  {
+   "id": "S095",
+   "dur": 87,
+   "kind": "scene",
+   "art": "opening",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "재판부 판단 · 충분히 예방할 수 있었던 사고"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 8801
+  },
+  {
+   "id": "S096",
+   "dur": 129,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "2심 재판부 · 병사의 생명과 신체 보호"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 8888
+  },
+  {
+   "id": "S097",
+   "dur": 129,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "04 항소심의 쟁점",
+   "chapterLabel": "04 / 항소심의 쟁점",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "2심 재판부 · 병사의 생명과 신체 보호"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 9017
+  },
+  {
+   "id": "S098",
+   "dur": 45,
+   "kind": "chapter",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "",
+   "lines": [],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 9146
+  },
+  {
+   "id": "S099",
+   "dur": 24,
+   "kind": "silence",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "",
+   "lines": [
+    ""
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 9191
+  },
+  {
+   "id": "S100",
+   "dur": 74,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "징역 5년 6개월"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "문화일보 · 세계일보 · 경향신문 / 2025.06.18",
+   "category": "중대장 · 2심 선고",
+   "numeric": true,
+   "multiple": true,
+   "empty": true,
+   "from": 9215
+  },
+  {
+   "id": "S101",
+   "dur": 75,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "징역 5년 6개월"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "문화일보 · 세계일보 · 경향신문 / 2025.06.18",
+   "category": "중대장 · 2심 선고",
+   "numeric": true,
+   "multiple": true,
+   "empty": true,
+   "from": 9289
+  },
+  {
+   "id": "S102",
+   "dur": 71,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "6개월 증가"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "중대장 · 1심보다",
+   "numeric": true,
+   "multiple": true,
+   "empty": true,
+   "from": 9364
+  },
+  {
+   "id": "S103",
+   "dur": 72,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "6개월 증가"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "중대장 · 1심보다",
+   "numeric": true,
+   "multiple": true,
+   "empty": true,
+   "from": 9435
+  },
+  {
+   "id": "S104",
+   "dur": 71,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "징역 3년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "부중대장 · 2심 선고",
+   "numeric": true,
+   "multiple": true,
+   "empty": true,
+   "from": 9507
+  },
+  {
+   "id": "S105",
+   "dur": 72,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "징역 3년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "부중대장 · 2심 선고",
+   "numeric": true,
+   "multiple": true,
+   "empty": true,
+   "from": 9578
+  },
+  {
+   "id": "S106",
+   "dur": 89,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "2심 · 2025년 6월 18일",
+   "lines": [
+    "1심과 같은 형량"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "부중대장 · 2심",
+   "numeric": true,
+   "multiple": true,
+   "empty": true,
+   "from": 9650
+  },
+  {
+   "id": "S107",
+   "dur": 113,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "",
+   "lines": [
+    "중대장 · 상고심"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 9739
+  },
+  {
+   "id": "S108",
+   "dur": 87,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "대법원 · 2025년 9월 25일",
+   "lines": [
+    "중대장 · 2025년 9월 25일 · 상고 기각"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 9852
+  },
+  {
+   "id": "S109",
+   "dur": 87,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "대법원 · 2025년 9월 25일",
+   "lines": [
+    "중대장 · 2025년 9월 25일 · 상고 기각"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 9939
+  },
+  {
+   "id": "S110",
+   "dur": 101,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "대법원 · 2025년 9월 25일",
+   "lines": [
+    "대법원 · 원심 판단 유지"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 10026
+  },
+  {
+   "id": "S111",
+   "dur": 125,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "대법원 · 2025년 9월 25일",
+   "lines": [
+    "징역 5년 6개월"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "중대장 · 대법원 확정",
+   "numeric": true,
+   "multiple": true,
+   "empty": true,
+   "from": 10127
+  },
+  {
+   "id": "S112",
+   "dur": 131,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "2025년 9월 25일 보도 기준",
+   "lines": [
+    "징역 3년"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "부중대장 · 확정 상태",
+   "numeric": true,
+   "multiple": true,
+   "empty": true,
+   "from": 10252
+  },
+  {
+   "id": "S113",
+   "dur": 95,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "2025년 9월 25일 보도 기준",
+   "lines": [
+    "부중대장 · 2025년 9월 25일 보도 기준"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 10383
+  },
+  {
+   "id": "S114",
+   "dur": 97,
+   "kind": "scene",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "2025년 9월 25일 보도 기준",
+   "lines": [
+    "부중대장 · 2025년 9월 25일 보도 기준"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 10478
+  },
+  {
+   "id": "S115",
+   "dur": 99,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "",
+   "lines": [
+    "피해자별 행위의 차이 · 항소심 판단"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 10575
+  },
+  {
+   "id": "S116",
+   "dur": 99,
+   "kind": "scene",
+   "art": "diagram",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "",
+   "lines": [
+    "피해자별 행위의 차이 · 항소심 판단"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치·범죄 개수 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 10674
+  },
+  {
+   "id": "S117",
+   "dur": 92,
+   "kind": "scene",
+   "art": "opening",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "",
+   "lines": [
+    "2심 재판부 · 보도 요지 · 충분히 예방할 수 있었던 사망사고"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 10773
+  },
+  {
+   "id": "S118",
+   "dur": 94,
+   "kind": "scene",
+   "art": "opening",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "",
+   "lines": [
+    "2심 재판부 · 보도 요지 · 충분히 예방할 수 있었던 사망사고"
+   ],
+   "label": "재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": true,
+   "empty": true,
+   "from": 10865
+  },
+  {
+   "id": "S119",
+   "dur": 150,
+   "kind": "credits",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "",
+   "lines": [
+    "문화일보",
+    "세계일보",
+    "경향신문",
+    "뉴스1"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 10959
+  },
+  {
+   "id": "S120",
+   "dur": 150,
+   "kind": "credits",
+   "art": "verdict",
+   "chapterTitle": "05 선고와 확정",
+   "chapterLabel": "05 / 선고와 확정",
+   "date": "",
+   "lines": [
+    "뉴시스",
+    "YTN",
+    "한겨레",
+    "KBS",
+    "뉴스핌"
+   ],
+   "label": "법정 재구성 · 개념도 · 실제 배치 아님",
+   "source": "",
+   "category": "",
+   "numeric": false,
+   "multiple": false,
+   "empty": true,
+   "from": 11109
+  }
+ ],
+ "subtitles": [
+  {
+   "from_": 45,
+   "to": 113,
+   "text": "2024년 5월 23일,",
+   "narration": "N001"
+  },
+  {
+   "from_": 113,
+   "to": 190,
+   "text": "강원도 인제의 신병교육대다.",
+   "narration": "N001"
+  },
+  {
+   "from_": 200,
+   "to": 299,
+   "text": "육군 12사단에서 훈련병 6명을 대상으로",
+   "narration": "N002"
+  },
+  {
+   "from_": 299,
+   "to": 370,
+   "text": "군기훈련이 실시된다.",
+   "narration": "N002"
+  },
+  {
+   "from_": 380,
+   "to": 466,
+   "text": "중대장이 지시한 것은 절차와 방법을 위반한",
+   "narration": "N003"
+  },
+  {
+   "from_": 466,
+   "to": 562,
+   "text": "군기훈련, 이른바 얼차려였다.",
+   "narration": "N003"
+  },
+  {
+   "from_": 572,
+   "to": 676,
+   "text": "부중대장도 이 군기훈련을 실시한 혐의로 재판에",
+   "narration": "N004"
+  },
+  {
+   "from_": 676,
+   "to": 717,
+   "text": "넘겨진다.",
+   "narration": "N004"
+  },
+  {
+   "from_": 727,
+   "to": 835,
+   "text": "훈련 도중 의식을 잃은 훈련병에게 적절한 조치를",
+   "narration": "N005"
+  },
+  {
+   "from_": 835,
+   "to": 927,
+   "text": "하지 않았다는 혐의도 포함된다.",
+   "narration": "N005"
+  },
+  {
+   "from_": 955,
+   "to": 1016,
+   "text": "훈련병은 이틀 뒤 숨졌다.",
+   "narration": "N006"
+  },
+  {
+   "from_": 1026,
+   "to": 1137,
+   "text": "재판에서는 이 군기훈련과 사망 사이의 인과관계가",
+   "narration": "N007"
+  },
+  {
+   "from_": 1137,
+   "to": 1184,
+   "text": "쟁점이 된다.",
+   "narration": "N007"
+  },
+  {
+   "from_": 1194,
+   "to": 1307,
+   "text": "항소심에서는 피해자마다 행위를 어떻게 나누어 볼",
+   "narration": "N008"
+  },
+  {
+   "from_": 1307,
+   "to": 1382,
+   "text": "것인가도 판단을 가른다.",
+   "narration": "N008"
+  },
+  {
+   "from_": 1437,
+   "to": 1539,
+   "text": "중대장에게 적용된 혐의는 형법상 학대치사와",
+   "narration": "N009"
+  },
+  {
+   "from_": 1539,
+   "to": 1631,
+   "text": "군형법상 직권남용 가혹행위다.",
+   "narration": "N009"
+  },
+  {
+   "from_": 1641,
+   "to": 1755,
+   "text": "검찰은 중대장의 위법한 군기훈련을 단순한 과실로",
+   "narration": "N010"
+  },
+  {
+   "from_": 1755,
+   "to": 1853,
+   "text": "보지 않고 학대치사죄로 기소한다.",
+   "narration": "N010"
+  },
+  {
+   "from_": 1863,
+   "to": 1942,
+   "text": "검찰은 사건 경위와 훈련 방식,",
+   "narration": "N011"
+  },
+  {
+   "from_": 1942,
+   "to": 2041,
+   "text": "진행 경과와 피해자의 신체조건 등을 종합했다고",
+   "narration": "N011"
+  },
+  {
+   "from_": 2041,
+   "to": 2081,
+   "text": "설명한다.",
+   "narration": "N011"
+  },
+  {
+   "from_": 2091,
+   "to": 2202,
+   "text": "부중대장에게 적용된 혐의도 학대치사와 직권남용",
+   "narration": "N012"
+  },
+  {
+   "from_": 2202,
+   "to": 2249,
+   "text": "가혹행위다.",
+   "narration": "N012"
+  },
+  {
+   "from_": 2259,
+   "to": 2374,
+   "text": "부중대장의 공소사실에도 위법한 군기훈련 실시와",
+   "narration": "N013"
+  },
+  {
+   "from_": 2374,
+   "to": 2483,
+   "text": "적절한 조치를 하지 않은 점이 들어간다.",
+   "narration": "N013"
+  },
+  {
+   "from_": 2493,
+   "to": 2605,
+   "text": "중대장 측은 잘못된 행동은 인정하면서도 학대치사",
+   "narration": "N014"
+  },
+  {
+   "from_": 2605,
+   "to": 2663,
+   "text": "혐의는 부인했다.",
+   "narration": "N014"
+  },
+  {
+   "from_": 2673,
+   "to": 2770,
+   "text": "검찰은 군의 지도력과 관리 체제에 대한 국민",
+   "narration": "N015"
+  },
+  {
+   "from_": 2770,
+   "to": 2873,
+   "text": "신뢰를 훼손한 점도 구형 이유로 든다.",
+   "narration": "N015"
+  },
+  {
+   "from_": 2883,
+   "to": 2956,
+   "text": "2024년 11월 12일,",
+   "narration": "N016"
+  },
+  {
+   "from_": 2956,
+   "to": 3053,
+   "text": "춘천지법에서 1심 결심공판이 열린다.",
+   "narration": "N016"
+  },
+  {
+   "from_": 3063,
+   "to": 3163,
+   "text": "이 공판에서 검찰이 중대장에게 요청한 형은 징역",
+   "narration": "N017"
+  },
+  {
+   "from_": 3163,
+   "to": 3208,
+   "text": "10년이다.",
+   "narration": "N017"
+  },
+  {
+   "from_": 3218,
+   "to": 3327,
+   "text": "부중대장에게 요청한 형은 징역 7년이었다.",
+   "narration": "N018"
+  },
+  {
+   "from_": 3337,
+   "to": 3436,
+   "text": "중대장의 징역 10년은 검찰이 1심에서 구형한",
+   "narration": "N019"
+  },
+  {
+   "from_": 3436,
+   "to": 3470,
+   "text": "수치다.",
+   "narration": "N019"
+  },
+  {
+   "from_": 3480,
+   "to": 3584,
+   "text": "부중대장의 징역 7년 역시 같은 1심 결심공판의",
+   "narration": "N020"
+  },
+  {
+   "from_": 3584,
+   "to": 3625,
+   "text": "구형이다.",
+   "narration": "N020"
+  },
+  {
+   "from_": 3680,
+   "to": 3743,
+   "text": "2025년 1월 7일,",
+   "narration": "N021"
+  },
+  {
+   "from_": 3743,
+   "to": 3850,
+   "text": "춘천지법 형사2부가 1심 판결을 선고한다.",
+   "narration": "N021"
+  },
+  {
+   "from_": 3860,
+   "to": 3973,
+   "text": "재판부는 중대장의 학대치사와 직권남용 가혹행위",
+   "narration": "N022"
+  },
+  {
+   "from_": 3973,
+   "to": 4048,
+   "text": "혐의를 유죄로 판단한다.",
+   "narration": "N022"
+  },
+  {
+   "from_": 4058,
+   "to": 4173,
+   "text": "부중대장에게 적용된 혐의도 유죄로 판단했다.",
+   "narration": "N023"
+  },
+  {
+   "from_": 4183,
+   "to": 4281,
+   "text": "재판부는 군기훈련과 사망 사이의 인과관계를",
+   "narration": "N024"
+  },
+  {
+   "from_": 4281,
+   "to": 4322,
+   "text": "인정했다.",
+   "narration": "N024"
+  },
+  {
+   "from_": 4332,
+   "to": 4444,
+   "text": "1심은 훈련병의 신체조건에 맞지 않는 군기훈련이",
+   "narration": "N025"
+  },
+  {
+   "from_": 4444,
+   "to": 4514,
+   "text": "이뤄졌다고 지적한다.",
+   "narration": "N025"
+  },
+  {
+   "from_": 4524,
+   "to": 4634,
+   "text": "이러한 훈련이 군의 사기와 전투력을 떨어뜨린다는",
+   "narration": "N026"
+  },
+  {
+   "from_": 4634,
+   "to": 4676,
+   "text": "설명이다.",
+   "narration": "N026"
+  },
+  {
+   "from_": 4686,
+   "to": 4781,
+   "text": "군에 대한 국민의 신뢰까지 해친다는 점에서",
+   "narration": "N027"
+  },
+  {
+   "from_": 4781,
+   "to": 4850,
+   "text": "죄책이 무겁다고 봤다.",
+   "narration": "N027"
+  },
+  {
+   "from_": 4860,
+   "to": 4958,
+   "text": "피해자 측으로부터 용서받지 못했다는 사정도",
+   "narration": "N028"
+  },
+  {
+   "from_": 4958,
+   "to": 4999,
+   "text": "지적했다.",
+   "narration": "N028"
+  },
+  {
+   "from_": 5009,
+   "to": 5118,
+   "text": "한편 재판부는 피고인들이 사실관계를 인정하고",
+   "narration": "N029"
+  },
+  {
+   "from_": 5118,
+   "to": 5221,
+   "text": "반성하는 태도를 보인 점을 참작한다.",
+   "narration": "N029"
+  },
+  {
+   "from_": 5231,
+   "to": 5324,
+   "text": "군 기강 확립을 위한 교육 목적으로 훈련을",
+   "narration": "N030"
+  },
+  {
+   "from_": 5324,
+   "to": 5434,
+   "text": "하다가 범행에 이르렀다는 점도 유리한 정상으로",
+   "narration": "N030"
+  },
+  {
+   "from_": 5434,
+   "to": 5467,
+   "text": "봤다.",
+   "narration": "N030"
+  },
+  {
+   "from_": 5477,
+   "to": 5571,
+   "text": "1심은 하나의 행위가 여러 범죄를 구성하는",
+   "narration": "N031"
+  },
+  {
+   "from_": 5571,
+   "to": 5629,
+   "text": "관계로 판단했다.",
+   "narration": "N031"
+  },
+  {
+   "from_": 5639,
+   "to": 5725,
+   "text": "하나의 행위에 여러 범죄가 성립한다고 본",
+   "narration": "N032"
+  },
+  {
+   "from_": 5725,
+   "to": 5760,
+   "text": "것이다.",
+   "narration": "N032"
+  },
+  {
+   "from_": 5770,
+   "to": 5867,
+   "text": "1심은 학대치사죄의 양형기준을 참고해 형을",
+   "narration": "N033"
+  },
+  {
+   "from_": 5867,
+   "to": 5903,
+   "text": "정했다.",
+   "narration": "N033"
+  },
+  {
+   "from_": 5913,
+   "to": 6010,
+   "text": "중대장에게 선고한 형은 징역 5년이다.",
+   "narration": "N034"
+  },
+  {
+   "from_": 6020,
+   "to": 6117,
+   "text": "중대장에 대한 1심 구형은 10년이었고 1심",
+   "narration": "N035"
+  },
+  {
+   "from_": 6117,
+   "to": 6178,
+   "text": "선고는 5년이었다.",
+   "narration": "N035"
+  },
+  {
+   "from_": 6188,
+   "to": 6291,
+   "text": "부중대장에게 선고한 형은 징역 3년이다.",
+   "narration": "N036"
+  },
+  {
+   "from_": 6301,
+   "to": 6402,
+   "text": "부중대장에 대한 1심 구형은 7년이었고 1심",
+   "narration": "N037"
+  },
+  {
+   "from_": 6402,
+   "to": 6465,
+   "text": "선고는 3년이었다.",
+   "narration": "N037"
+  },
+  {
+   "from_": 6520,
+   "to": 6590,
+   "text": "2025년 6월 18일,",
+   "narration": "N038"
+  },
+  {
+   "from_": 6590,
+   "to": 6680,
+   "text": "서울고법 춘천재판부 형사1부가 항소심을",
+   "narration": "N038"
+  },
+  {
+   "from_": 6680,
+   "to": 6720,
+   "text": "선고한다.",
+   "narration": "N038"
+  },
+  {
+   "from_": 6730,
+   "to": 6830,
+   "text": "항소심은 쟁점이 된 죄의 수에 관해 1심과 다른",
+   "narration": "N039"
+  },
+  {
+   "from_": 6830,
+   "to": 6882,
+   "text": "판단을 내린다.",
+   "narration": "N039"
+  },
+  {
+   "from_": 6892,
+   "to": 6981,
+   "text": "1심은 같은 장소에서 같은 기회에 이뤄진",
+   "narration": "N040"
+  },
+  {
+   "from_": 6981,
+   "to": 7044,
+   "text": "행위라는 점을 봤다.",
+   "narration": "N040"
+  },
+  {
+   "from_": 7054,
+   "to": 7157,
+   "text": "하지만 항소심은 피해자별로 가혹행위와 학대",
+   "narration": "N041"
+  },
+  {
+   "from_": 7157,
+   "to": 7254,
+   "text": "양상이 어떻게 달랐는지 설명한다.",
+   "narration": "N041"
+  },
+  {
+   "from_": 7264,
+   "to": 7350,
+   "text": "따라서 여러 개의 행위로 인정할 수 있다고",
+   "narration": "N042"
+  },
+  {
+   "from_": 7350,
+   "to": 7391,
+   "text": "판단했다.",
+   "narration": "N042"
+  },
+  {
+   "from_": 7401,
+   "to": 7510,
+   "text": "여러 행위로 여러 죄를 범한 관계로 본 것이다.",
+   "narration": "N043"
+  },
+  {
+   "from_": 7520,
+   "to": 7622,
+   "text": "항소심은 중대장의 범죄 행위들도 여러 행위로",
+   "narration": "N044"
+  },
+  {
+   "from_": 7622,
+   "to": 7714,
+   "text": "여러 죄를 범한 관계로 판단했다.",
+   "narration": "N044"
+  },
+  {
+   "from_": 7724,
+   "to": 7830,
+   "text": "하나의 행위로 여러 범죄가 성립한다고 본 1심과",
+   "narration": "N045"
+  },
+  {
+   "from_": 7830,
+   "to": 7888,
+   "text": "달라진 지점이다.",
+   "narration": "N045"
+  },
+  {
+   "from_": 7898,
+   "to": 8002,
+   "text": "보도는 하나의 행위가 여러 죄에 해당하면 가장",
+   "narration": "N046"
+  },
+  {
+   "from_": 8002,
+   "to": 8128,
+   "text": "무거운 죄에 정한 형으로 처벌한다고 설명한다.",
+   "narration": "N046"
+  },
+  {
+   "from_": 8138,
+   "to": 8240,
+   "text": "여러 행위로 여러 죄를 범하면 가장 무거운 죄의",
+   "narration": "N047"
+  },
+  {
+   "from_": 8240,
+   "to": 8332,
+   "text": "형을 가중할 수 있다는 설명이다.",
+   "narration": "N047"
+  },
+  {
+   "from_": 8342,
+   "to": 8449,
+   "text": "항소심이 중대장의 형을 늘리면서 제시한 이유가",
+   "narration": "N048"
+  },
+  {
+   "from_": 8449,
+   "to": 8524,
+   "text": "이 죄수 관계의 차이였다.",
+   "narration": "N048"
+  },
+  {
+   "from_": 8534,
+   "to": 8624,
+   "text": "재판부는 지휘관들이 답습한 병영문화가",
+   "narration": "N049"
+  },
+  {
+   "from_": 8624,
+   "to": 8704,
+   "text": "후진적이었다고 지적한다.",
+   "narration": "N049"
+  },
+  {
+   "from_": 8714,
+   "to": 8809,
+   "text": "그 결과 충분히 예방할 수 있었던 사망사고를",
+   "narration": "N050"
+  },
+  {
+   "from_": 8809,
+   "to": 8878,
+   "text": "초래했다고 판단했다.",
+   "narration": "N050"
+  },
+  {
+   "from_": 8888,
+   "to": 8993,
+   "text": "국가가 병사들의 생명과 신체를 보호하리라는",
+   "narration": "N051"
+  },
+  {
+   "from_": 8993,
+   "to": 9103,
+   "text": "기대는 사회의 기본인데 이를 배반한 범행이라고",
+   "narration": "N051"
+  },
+  {
+   "from_": 9103,
+   "to": 9136,
+   "text": "봤다.",
+   "narration": "N051"
+  },
+  {
+   "from_": 9215,
+   "to": 9308,
+   "text": "항소심이 중대장에게 선고한 형은 징역 5년",
+   "narration": "N052"
+  },
+  {
+   "from_": 9308,
+   "to": 9354,
+   "text": "6개월이다.",
+   "narration": "N052"
+  },
+  {
+   "from_": 9364,
+   "to": 9461,
+   "text": "중대장의 1심 선고였던 징역 5년보다 6개월",
+   "narration": "N053"
+  },
+  {
+   "from_": 9461,
+   "to": 9497,
+   "text": "늘었다.",
+   "narration": "N053"
+  },
+  {
+   "from_": 9507,
+   "to": 9599,
+   "text": "부중대장에게는 항소심에서도 징역 3년이",
+   "narration": "N054"
+  },
+  {
+   "from_": 9599,
+   "to": 9640,
+   "text": "선고됐다.",
+   "narration": "N054"
+  },
+  {
+   "from_": 9650,
+   "to": 9729,
+   "text": "부중대장의 형량은 1심과 같다.",
+   "narration": "N055"
+  },
+  {
+   "from_": 9739,
+   "to": 9842,
+   "text": "중대장 사건은 이후 대법원 판단을 받는다.",
+   "narration": "N056"
+  },
+  {
+   "from_": 9852,
+   "to": 9922,
+   "text": "2025년 9월 25일,",
+   "narration": "N057"
+  },
+  {
+   "from_": 9922,
+   "to": 10016,
+   "text": "대법원은 중대장의 상고를 기각했다.",
+   "narration": "N057"
+  },
+  {
+   "from_": 10026,
+   "to": 10117,
+   "text": "원심 판단에 잘못이 없다고 본 것이다.",
+   "narration": "N058"
+  },
+  {
+   "from_": 10127,
+   "to": 10242,
+   "text": "이로써 중대장의 징역 5년 6개월이 확정된다.",
+   "narration": "N059"
+  },
+  {
+   "from_": 10252,
+   "to": 10373,
+   "text": "부중대장의 징역 3년도 확정된 것으로 확인된다.",
+   "narration": "N060"
+  },
+  {
+   "from_": 10383,
+   "to": 10485,
+   "text": "2025년 9월 25일 보도에서 확인되는",
+   "narration": "N061"
+  },
+  {
+   "from_": 10485,
+   "to": 10565,
+   "text": "부중대장의 확정 상태다.",
+   "narration": "N061"
+  },
+  {
+   "from_": 10575,
+   "to": 10682,
+   "text": "이 사건의 항소심은 피해자별 행위의 차이를 살펴",
+   "narration": "N062"
+  },
+  {
+   "from_": 10682,
+   "to": 10763,
+   "text": "죄수 관계를 다시 판단했다.",
+   "narration": "N062"
+  },
+  {
+   "from_": 10773,
+   "to": 10835,
+   "text": "재판부가 남긴 판단은,",
+   "narration": "N063"
+  },
+  {
+   "from_": 10835,
+   "to": 10949,
+   "text": "충분히 예방할 수 있었던 사망사고였다는 것이다.",
+   "narration": "N063"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "episode": "q011",
+ "engine": "BLENDER_EEVEE",
+ "samples": 64,
+ "screen_space_raytracing": true,
+ "volumetric_samples": 64,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "total_seconds": 2.467731541953981,
+ "network": false,
+ "people": false,
+ "setting": "invented unmarked environment, not actual crime-scene footage",
+ "texture_cap": 1536
+}

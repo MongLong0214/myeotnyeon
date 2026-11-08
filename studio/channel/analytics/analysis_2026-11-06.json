@@ -1,0 +1,2326 @@
+{
+  "as_of": "2026-11-06",
+  "sources": [
+    "channel/analytics/daily/2026-11-06.json",
+    "channel/analytics/features.json",
+    "research/metrics/2026-10-30.json"
+  ],
+  "sample_size": 15,
+  "unmatched_video_ids": [],
+  "limitations": [
+    "통계적 유의성·인과 추정·회귀를 주장하지 않음. 서로 다른 영상 연령·관측 창·노출량.",
+    "identity inferred 및 local candidate와 공개본의 일치 확인 필요. 결측≠0. 그룹 median은 비가중 기술 통계.",
+    "표본이 늘어도 이 스크립트는 가설 갱신 보조. RULES/REPORT의 자동 덮어쓰기·공장 수정·공개 없음."
+  ],
+  "missing_metrics": {
+    "views": 0,
+    "average_view_duration_seconds": 5,
+    "average_percentage_viewed": 5,
+    "viewed_pct": 13,
+    "subscribers_net": 14,
+    "traffic_sources": 15
+  },
+  "historical_context": {
+    "source": "research/metrics/2026-10-30.json",
+    "data": {
+      "pulled_at": "2026-10-30T08:00+09:00",
+      "source": "YouTube Studio (owner profile, read-only), lifetime analytics lag ~2 days",
+      "channel": {
+        "subscribers": 7,
+        "views_28d": 6150,
+        "watch_hours_28d": 19.7,
+        "views_48h": 2395
+      },
+      "videos": [
+        {
+          "ep": 1,
+          "id": "IKjz8gGErMk",
+          "views": 1220,
+          "stayed_pct": 40.2,
+          "avg_dur": "0:23",
+          "len": "0:28",
+          "subs": null
+        },
+        {
+          "ep": 2,
+          "id": "zwgKEbvbxsU",
+          "views": 1286,
+          "stayed_pct": 45.5,
+          "avg_dur": "0:21",
+          "len": "0:23",
+          "subs": 2
+        },
+        {
+          "ep": 3,
+          "id": "0eo5o8u5EMM",
+          "views": 1147,
+          "stayed_pct": 44.6,
+          "avg_dur": "0:23",
+          "len": "0:32",
+          "subs": 1
+        },
+        {
+          "ep": 4,
+          "id": "EomEdxcqfsU",
+          "views": 16,
+          "note": "no Shorts-feed test; likely duplicate suppression after delete+re-upload (hypothesis)"
+        },
+        {
+          "ep": 5,
+          "id": "MYjtxd25BhU",
+          "views": 21,
+          "note": "same as ep4"
+        },
+        {
+          "ep": 6,
+          "id": "1niGnkTw6BA",
+          "views": 1231,
+          "stayed_pct": 39.4,
+          "avg_dur": "0:34",
+          "len": "0:40",
+          "subs": null
+        },
+        {
+          "ep": 7,
+          "id": "E4zk6oCIbjA",
+          "views": 1213,
+          "stayed_pct": 35.9,
+          "avg_dur": "0:29",
+          "len": "0:35",
+          "subs": 1,
+          "feed_pct": 96.6,
+          "note": "pre-fix wording published; description correction added 10-30"
+        },
+        {
+          "ep": 8,
+          "id": "_AYRzLJaFLo",
+          "views_first_12h": 1100,
+          "avg_view_rate_pct": 58.1,
+          "note": "uploader unknown (not in any session log)"
+        }
+      ]
+    },
+    "usage": "별도 과거 창; 현재 행에 결측 보간하지 않음"
+  },
+  "length_split_seconds": 31.433333,
+  "group_results": [
+    {
+      "axis": "answer",
+      "value": "acquittal_on_appeal",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q004 (EomEdxcqfsU)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 20
+      },
+      "average_view_duration_seconds": {
+        "n": 0,
+        "median": null
+      },
+      "average_percentage_viewed": {
+        "n": 0,
+        "median": null
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "answer",
+      "value": "custodial_sentence",
+      "metric_period": "unknown",
+      "n": 7,
+      "videos": [
+        "q016 (ozKvg2XFA0Y)",
+        "q014 (oxZUrYF8Chg)",
+        "q009 (Z2bRWBdK7bQ)",
+        "q007 (E4zk6oCIbjA)",
+        "q003 (0eo5o8u5EMM)",
+        "q010 (P33g73Z2c0g)",
+        "q015 (2Bs_T3OZFlk)"
+      ],
+      "views": {
+        "n": 7,
+        "median": 1213
+      },
+      "average_view_duration_seconds": {
+        "n": 4,
+        "median": 26.5
+      },
+      "average_percentage_viewed": {
+        "n": 4,
+        "median": 78.5
+      },
+      "viewed_pct": {
+        "n": 1,
+        "median": 50.1
+      },
+      "subscribers_net": {
+        "n": 1,
+        "median": 1
+      }
+    },
+    {
+      "axis": "answer",
+      "value": "fine",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q008 (_AYRzLJaFLo)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 1158
+      },
+      "average_view_duration_seconds": {
+        "n": 1,
+        "median": 19
+      },
+      "average_percentage_viewed": {
+        "n": 1,
+        "median": 58.3
+      },
+      "viewed_pct": {
+        "n": 1,
+        "median": 24.3
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "answer",
+      "value": "life_imprisonment",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q017 (-g-ubPCtVGw)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 1300
+      },
+      "average_view_duration_seconds": {
+        "n": 1,
+        "median": 31
+      },
+      "average_percentage_viewed": {
+        "n": 1,
+        "median": 136.6
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "answer",
+      "value": "suspended_sentence",
+      "metric_period": "unknown",
+      "n": 4,
+      "videos": [
+        "q002 (zwgKEbvbxsU)",
+        "q012 (g6IHdEbtJoE)",
+        "q001 (IKjz8gGErMk)",
+        "q005 (MYjtxd25BhU)"
+      ],
+      "views": {
+        "n": 4,
+        "median": 1252.5
+      },
+      "average_view_duration_seconds": {
+        "n": 3,
+        "median": 23
+      },
+      "average_percentage_viewed": {
+        "n": 3,
+        "median": 92.5
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "answer",
+      "value": "suspended_sentence_partial_acquittal",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q006 (1niGnkTw6BA)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 1230
+      },
+      "average_view_duration_seconds": {
+        "n": 1,
+        "median": 34
+      },
+      "average_percentage_viewed": {
+        "n": 1,
+        "median": 86.6
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "hook",
+      "value": "branded_header_panel",
+      "metric_period": "unknown",
+      "n": 10,
+      "videos": [
+        "q002 (zwgKEbvbxsU)",
+        "q006 (1niGnkTw6BA)",
+        "q001 (IKjz8gGErMk)",
+        "q009 (Z2bRWBdK7bQ)",
+        "q007 (E4zk6oCIbjA)",
+        "q008 (_AYRzLJaFLo)",
+        "q003 (0eo5o8u5EMM)",
+        "q010 (P33g73Z2c0g)",
+        "q005 (MYjtxd25BhU)",
+        "q004 (EomEdxcqfsU)"
+      ],
+      "views": {
+        "n": 10,
+        "median": 1185.5
+      },
+      "average_view_duration_seconds": {
+        "n": 7,
+        "median": 23
+      },
+      "average_percentage_viewed": {
+        "n": 7,
+        "median": 83.1
+      },
+      "viewed_pct": {
+        "n": 1,
+        "median": 24.3
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "hook",
+      "value": "full_bleed_hero",
+      "metric_period": "unknown",
+      "n": 5,
+      "videos": [
+        "q016 (ozKvg2XFA0Y)",
+        "q017 (-g-ubPCtVGw)",
+        "q014 (oxZUrYF8Chg)",
+        "q012 (g6IHdEbtJoE)",
+        "q015 (2Bs_T3OZFlk)"
+      ],
+      "views": {
+        "n": 5,
+        "median": 1288
+      },
+      "average_view_duration_seconds": {
+        "n": 3,
+        "median": 30
+      },
+      "average_percentage_viewed": {
+        "n": 3,
+        "median": 92.7
+      },
+      "viewed_pct": {
+        "n": 1,
+        "median": 50.1
+      },
+      "subscribers_net": {
+        "n": 1,
+        "median": 1
+      }
+    },
+    {
+      "axis": "length",
+      "value": "<= sample median",
+      "metric_period": "unknown",
+      "n": 8,
+      "videos": [
+        "q016 (ozKvg2XFA0Y)",
+        "q017 (-g-ubPCtVGw)",
+        "q002 (zwgKEbvbxsU)",
+        "q014 (oxZUrYF8Chg)",
+        "q001 (IKjz8gGErMk)",
+        "q015 (2Bs_T3OZFlk)",
+        "q005 (MYjtxd25BhU)",
+        "q004 (EomEdxcqfsU)"
+      ],
+      "views": {
+        "n": 8,
+        "median": 1256.0
+      },
+      "average_view_duration_seconds": {
+        "n": 4,
+        "median": 24.5
+      },
+      "average_percentage_viewed": {
+        "n": 4,
+        "median": 89.7
+      },
+      "viewed_pct": {
+        "n": 1,
+        "median": 50.1
+      },
+      "subscribers_net": {
+        "n": 1,
+        "median": 1
+      }
+    },
+    {
+      "axis": "length",
+      "value": "> sample median",
+      "metric_period": "unknown",
+      "n": 7,
+      "videos": [
+        "q012 (g6IHdEbtJoE)",
+        "q006 (1niGnkTw6BA)",
+        "q009 (Z2bRWBdK7bQ)",
+        "q007 (E4zk6oCIbjA)",
+        "q008 (_AYRzLJaFLo)",
+        "q003 (0eo5o8u5EMM)",
+        "q010 (P33g73Z2c0g)"
+      ],
+      "views": {
+        "n": 7,
+        "median": 1213
+      },
+      "average_view_duration_seconds": {
+        "n": 6,
+        "median": 28.0
+      },
+      "average_percentage_viewed": {
+        "n": 6,
+        "median": 78.5
+      },
+      "viewed_pct": {
+        "n": 1,
+        "median": 24.3
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "reenactment",
+      "value": "comedy_rig",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q014 (oxZUrYF8Chg)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 1288
+      },
+      "average_view_duration_seconds": {
+        "n": 0,
+        "median": null
+      },
+      "average_percentage_viewed": {
+        "n": 0,
+        "median": null
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 1,
+        "median": 1
+      }
+    },
+    {
+      "axis": "reenactment",
+      "value": "limited_2d_reenactment",
+      "metric_period": "unknown",
+      "n": 7,
+      "videos": [
+        "q002 (zwgKEbvbxsU)",
+        "q006 (1niGnkTw6BA)",
+        "q001 (IKjz8gGErMk)",
+        "q003 (0eo5o8u5EMM)",
+        "q010 (P33g73Z2c0g)",
+        "q005 (MYjtxd25BhU)",
+        "q004 (EomEdxcqfsU)"
+      ],
+      "views": {
+        "n": 7,
+        "median": 1153
+      },
+      "average_view_duration_seconds": {
+        "n": 4,
+        "median": 23.0
+      },
+      "average_percentage_viewed": {
+        "n": 4,
+        "median": 84.85
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "reenactment",
+      "value": "static_panels_with_motion_graphics",
+      "metric_period": "unknown",
+      "n": 7,
+      "videos": [
+        "q016 (ozKvg2XFA0Y)",
+        "q017 (-g-ubPCtVGw)",
+        "q012 (g6IHdEbtJoE)",
+        "q009 (Z2bRWBdK7bQ)",
+        "q007 (E4zk6oCIbjA)",
+        "q008 (_AYRzLJaFLo)",
+        "q015 (2Bs_T3OZFlk)"
+      ],
+      "views": {
+        "n": 7,
+        "median": 1215
+      },
+      "average_view_duration_seconds": {
+        "n": 6,
+        "median": 28.0
+      },
+      "average_percentage_viewed": {
+        "n": 6,
+        "median": 85.65
+      },
+      "viewed_pct": {
+        "n": 2,
+        "median": 37.2
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "title",
+      "value": "outcome_or_issue",
+      "metric_period": "unknown",
+      "n": 2,
+      "videos": [
+        "q016 (ozKvg2XFA0Y)",
+        "q015 (2Bs_T3OZFlk)"
+      ],
+      "views": {
+        "n": 2,
+        "median": 1429.0
+      },
+      "average_view_duration_seconds": {
+        "n": 1,
+        "median": 26
+      },
+      "average_percentage_viewed": {
+        "n": 1,
+        "median": 86.9
+      },
+      "viewed_pct": {
+        "n": 1,
+        "median": 50.1
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "title",
+      "value": "question_sentence",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q017 (-g-ubPCtVGw)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 1300
+      },
+      "average_view_duration_seconds": {
+        "n": 1,
+        "median": 31
+      },
+      "average_percentage_viewed": {
+        "n": 1,
+        "median": 136.6
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "title",
+      "value": "question_years",
+      "metric_period": "unknown",
+      "n": 12,
+      "videos": [
+        "q002 (zwgKEbvbxsU)",
+        "q014 (oxZUrYF8Chg)",
+        "q012 (g6IHdEbtJoE)",
+        "q006 (1niGnkTw6BA)",
+        "q001 (IKjz8gGErMk)",
+        "q009 (Z2bRWBdK7bQ)",
+        "q007 (E4zk6oCIbjA)",
+        "q008 (_AYRzLJaFLo)",
+        "q003 (0eo5o8u5EMM)",
+        "q010 (P33g73Z2c0g)",
+        "q005 (MYjtxd25BhU)",
+        "q004 (EomEdxcqfsU)"
+      ],
+      "views": {
+        "n": 12,
+        "median": 1214.0
+      },
+      "average_view_duration_seconds": {
+        "n": 8,
+        "median": 25.0
+      },
+      "average_percentage_viewed": {
+        "n": 8,
+        "median": 83.75
+      },
+      "viewed_pct": {
+        "n": 1,
+        "median": 24.3
+      },
+      "subscribers_net": {
+        "n": 1,
+        "median": 1
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "animal",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q009 (Z2bRWBdK7bQ)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 1213
+      },
+      "average_view_duration_seconds": {
+        "n": 1,
+        "median": 27
+      },
+      "average_percentage_viewed": {
+        "n": 1,
+        "median": 71.0
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "death",
+      "metric_period": "unknown",
+      "n": 8,
+      "videos": [
+        "q016 (ozKvg2XFA0Y)",
+        "q017 (-g-ubPCtVGw)",
+        "q014 (oxZUrYF8Chg)",
+        "q012 (g6IHdEbtJoE)",
+        "q006 (1niGnkTw6BA)",
+        "q008 (_AYRzLJaFLo)",
+        "q010 (P33g73Z2c0g)",
+        "q015 (2Bs_T3OZFlk)"
+      ],
+      "views": {
+        "n": 8,
+        "median": 1255.5
+      },
+      "average_view_duration_seconds": {
+        "n": 5,
+        "median": 30
+      },
+      "average_percentage_viewed": {
+        "n": 5,
+        "median": 86.9
+      },
+      "viewed_pct": {
+        "n": 2,
+        "median": 37.2
+      },
+      "subscribers_net": {
+        "n": 1,
+        "median": 1
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "education",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q003 (0eo5o8u5EMM)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 1153
+      },
+      "average_view_duration_seconds": {
+        "n": 1,
+        "median": 23
+      },
+      "average_percentage_viewed": {
+        "n": 1,
+        "median": 72.6
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "everyday",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q004 (EomEdxcqfsU)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 20
+      },
+      "average_view_duration_seconds": {
+        "n": 0,
+        "median": null
+      },
+      "average_percentage_viewed": {
+        "n": 0,
+        "median": null
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "fire",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q012 (g6IHdEbtJoE)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 1281
+      },
+      "average_view_duration_seconds": {
+        "n": 1,
+        "median": 30
+      },
+      "average_percentage_viewed": {
+        "n": 1,
+        "median": 92.7
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "fraud",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q007 (E4zk6oCIbjA)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 1215
+      },
+      "average_view_duration_seconds": {
+        "n": 1,
+        "median": 29
+      },
+      "average_percentage_viewed": {
+        "n": 1,
+        "median": 84.4
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "housing",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q007 (E4zk6oCIbjA)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 1215
+      },
+      "average_view_duration_seconds": {
+        "n": 1,
+        "median": 29
+      },
+      "average_percentage_viewed": {
+        "n": 1,
+        "median": 84.4
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "labor",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q005 (MYjtxd25BhU)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 26
+      },
+      "average_view_duration_seconds": {
+        "n": 0,
+        "median": null
+      },
+      "average_percentage_viewed": {
+        "n": 0,
+        "median": null
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "medical",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q008 (_AYRzLJaFLo)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 1158
+      },
+      "average_view_duration_seconds": {
+        "n": 1,
+        "median": 19
+      },
+      "average_percentage_viewed": {
+        "n": 1,
+        "median": 58.3
+      },
+      "viewed_pct": {
+        "n": 1,
+        "median": 24.3
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "military",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q015 (2Bs_T3OZFlk)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 1045
+      },
+      "average_view_duration_seconds": {
+        "n": 0,
+        "median": null
+      },
+      "average_percentage_viewed": {
+        "n": 0,
+        "median": null
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "negligence",
+      "metric_period": "unknown",
+      "n": 2,
+      "videos": [
+        "q016 (ozKvg2XFA0Y)",
+        "q012 (g6IHdEbtJoE)"
+      ],
+      "views": {
+        "n": 2,
+        "median": 1547.0
+      },
+      "average_view_duration_seconds": {
+        "n": 2,
+        "median": 28.0
+      },
+      "average_percentage_viewed": {
+        "n": 2,
+        "median": 89.8
+      },
+      "viewed_pct": {
+        "n": 1,
+        "median": 50.1
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "neighbor",
+      "metric_period": "unknown",
+      "n": 2,
+      "videos": [
+        "q017 (-g-ubPCtVGw)",
+        "q010 (P33g73Z2c0g)"
+      ],
+      "views": {
+        "n": 2,
+        "median": 1205.0
+      },
+      "average_view_duration_seconds": {
+        "n": 1,
+        "median": 31
+      },
+      "average_percentage_viewed": {
+        "n": 1,
+        "median": 136.6
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "theft",
+      "metric_period": "unknown",
+      "n": 1,
+      "videos": [
+        "q004 (EomEdxcqfsU)"
+      ],
+      "views": {
+        "n": 1,
+        "median": 20
+      },
+      "average_view_duration_seconds": {
+        "n": 0,
+        "median": null
+      },
+      "average_percentage_viewed": {
+        "n": 0,
+        "median": null
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "traffic",
+      "metric_period": "unknown",
+      "n": 3,
+      "videos": [
+        "q016 (ozKvg2XFA0Y)",
+        "q002 (zwgKEbvbxsU)",
+        "q001 (IKjz8gGErMk)"
+      ],
+      "views": {
+        "n": 3,
+        "median": 1291
+      },
+      "average_view_duration_seconds": {
+        "n": 3,
+        "median": 23
+      },
+      "average_percentage_viewed": {
+        "n": 3,
+        "median": 86.9
+      },
+      "viewed_pct": {
+        "n": 1,
+        "median": 50.1
+      },
+      "subscribers_net": {
+        "n": 0,
+        "median": null
+      }
+    },
+    {
+      "axis": "topic",
+      "value": "violence",
+      "metric_period": "unknown",
+      "n": 9,
+      "videos": [
+        "q017 (-g-ubPCtVGw)",
+        "q002 (zwgKEbvbxsU)",
+        "q014 (oxZUrYF8Chg)",
+        "q006 (1niGnkTw6BA)",
+        "q001 (IKjz8gGErMk)",
+        "q009 (Z2bRWBdK7bQ)",
+        "q003 (0eo5o8u5EMM)",
+        "q010 (P33g73Z2c0g)",
+        "q005 (MYjtxd25BhU)"
+      ],
+      "views": {
+        "n": 9,
+        "median": 1224
+      },
+      "average_view_duration_seconds": {
+        "n": 6,
+        "median": 25.0
+      },
+      "average_percentage_viewed": {
+        "n": 6,
+        "median": 84.85
+      },
+      "viewed_pct": {
+        "n": 0,
+        "median": null
+      },
+      "subscribers_net": {
+        "n": 1,
+        "median": 1
+      }
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "H1",
+      "claim": "첫 2초의 즉시 이해 가능한 사실·그림이 진입률을 높일 수 있다",
+      "direction": "viewed_pct ↑",
+      "strength": "중간: 진입 병목 관측은 높음, 훅 변경의 인과 신뢰는 낮음",
+      "evidence": "현재 viewed 관측 2/15개; 최대−최소 25.8pp. 나머지는 결측.",
+      "comparisons": [
+        {
+          "video": "q008 (_AYRzLJaFLo)",
+          "values": {
+            "viewed_pct": 24.3,
+            "average_percentage_viewed": 58.3
+          },
+          "source": {
+            "viewed_pct": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 14,
+              "raw": "- _AYRzLJaFLo | 한의원 침 | 10-29 | 1,158 | 0:19 (58.3%) | viewed 24.3%",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 14,
+              "raw": "- _AYRzLJaFLo | 한의원 침 | 10-29 | 1,158 | 0:19 (58.3%) | viewed 24.3%",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=_AYRzLJaFLo, sources"
+        },
+        {
+          "video": "q016 (ozKvg2XFA0Y)",
+          "values": {
+            "viewed_pct": 50.1,
+            "average_percentage_viewed": 86.9
+          },
+          "source": {
+            "viewed_pct": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 5,
+              "raw": "- ozKvg2XFA0Y | 역주행 9명 사망, 2심 | 11-03 | 1,813 | 0:26 (86.9%) | viewed vs swiped away: viewed 50.1%",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 5,
+              "raw": "- ozKvg2XFA0Y | 역주행 9명 사망, 2심 | 11-03 | 1,813 | 0:26 (86.9%) | viewed vs swiped away: viewed 50.1%",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=ozKvg2XFA0Y, sources"
+        }
+      ],
+      "caveat": "주제·공개일·포맷 동시 변경. 10-30 memo의 원인 단정은 재사용하지 않음.",
+      "result_confirmation_date": "2026-11-15"
+    },
+    {
+      "id": "H2",
+      "claim": "q014식 원인→반응 코미디 재연이 본문 몰입과 구독을 돕는다",
+      "direction": "구독/1,000조회 ↑, 시청 지속 ↑",
+      "strength": "낮음: owner 선호는 명확; 성과 인과 근거 부족",
+      "evidence": "q014와 유사 폭행 사망 주제 q006 비교; q014 유지율/viewed 결측. 훅은 코미디 변경 범위 밖.",
+      "comparisons": [
+        {
+          "video": "q014 (oxZUrYF8Chg)",
+          "values": {
+            "views": 1288,
+            "subscribers_net": 1,
+            "average_percentage_viewed": null,
+            "viewed_pct": null
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 8,
+              "raw": "- oxZUrYF8Chg | 야차룰 (comedy) | 11-05 | 1,288 | subs +1 (praised by the owner)",
+              "kind": "observed"
+            },
+            "subscribers_net": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 8,
+              "raw": "- oxZUrYF8Chg | 야차룰 (comedy) | 11-05 | 1,288 | subs +1 (praised by the owner)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=oxZUrYF8Chg, sources"
+        },
+        {
+          "video": "q006 (1niGnkTw6BA)",
+          "values": {
+            "views": 1230,
+            "subscribers_net": null,
+            "average_percentage_viewed": 86.6,
+            "viewed_pct": null
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 10,
+              "raw": "- 1niGnkTw6BA | 싸움 각서 | 10-27 | 1,230 | 0:34 (86.6%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 10,
+              "raw": "- 1niGnkTw6BA | 싸움 각서 | 10-27 | 1,230 | 0:34 (86.6%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=1niGnkTw6BA, sources"
+        }
+      ],
+      "caveat": "q014의 +1만으로 승자 선언 불가; 노출기간 다름. q006은 static 대조군도 아님.",
+      "result_confirmation_date": "2026-11-17"
+    },
+    {
+      "id": "H3",
+      "claim": "현재 구독 전환으로는 조회·전환을 함께 늘려야 1,000명에 접근한다",
+      "direction": "조회 × 순구독 전환 ↑",
+      "strength": "운영 진단 높음 / 개선 수단의 효과 미검증",
+      "evidence": "채널 같은 기간 순구독/조회 = 8/15092; live 구독 9. 이는 순구독 대용 지표.",
+      "comparisons": [
+        {
+          "video": "q014 (oxZUrYF8Chg)",
+          "values": {
+            "views": 1288,
+            "subscribers_net": 1
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 8,
+              "raw": "- oxZUrYF8Chg | 야차룰 (comedy) | 11-05 | 1,288 | subs +1 (praised by the owner)",
+              "kind": "observed"
+            },
+            "subscribers_net": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 8,
+              "raw": "- oxZUrYF8Chg | 야차룰 (comedy) | 11-05 | 1,288 | subs +1 (praised by the owner)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=oxZUrYF8Chg, sources"
+        }
+      ],
+      "channel_source": {
+        "period_label": {
+          "file": "channel/analytics/snapshot_2026-11-06.md",
+          "line": 2,
+          "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+          "kind": "observed"
+        },
+        "period_start": {
+          "file": "channel/analytics/snapshot_2026-11-06.md",
+          "line": 2,
+          "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+          "kind": "observed"
+        },
+        "period_end": {
+          "file": "channel/analytics/snapshot_2026-11-06.md",
+          "line": 2,
+          "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+          "kind": "observed"
+        },
+        "views": {
+          "file": "channel/analytics/snapshot_2026-11-06.md",
+          "line": 2,
+          "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+          "kind": "observed"
+        },
+        "watch_hours": {
+          "file": "channel/analytics/snapshot_2026-11-06.md",
+          "line": 2,
+          "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+          "kind": "observed"
+        },
+        "subscribers_net": {
+          "file": "channel/analytics/snapshot_2026-11-06.md",
+          "line": 2,
+          "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+          "kind": "observed"
+        },
+        "subscribers_total": {
+          "file": "channel/analytics/snapshot_2026-11-06.md",
+          "line": 2,
+          "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+          "kind": "observed"
+        },
+        "views_48h": {
+          "file": "channel/analytics/snapshot_2026-11-06.md",
+          "line": 2,
+          "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+          "kind": "observed"
+        }
+      },
+      "caveat": "채널 28일 값과 live 총구독·48시간 조회는 서로 다른 창. 구독 획득률·예측으로 해석 금지.",
+      "result_confirmation_date": "2026-11-20"
+    },
+    {
+      "id": "H4",
+      "claim": "질문형 대 쟁점 예고형 제목은 신규 영상으로 비교해야 한다",
+      "direction": "미정 (first_7d 조회·유입별 성과)",
+      "strength": "판단 보류",
+      "evidence": "현재 제목은 대부분 질문형; Studio 제목은 축약, 로컬 metadata는 후보.",
+      "comparisons": [
+        {
+          "video": "q016 (ozKvg2XFA0Y)",
+          "values": {
+            "views": 1813
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 5,
+              "raw": "- ozKvg2XFA0Y | 역주행 9명 사망, 2심 | 11-03 | 1,813 | 0:26 (86.9%) | viewed vs swiped away: viewed 50.1%",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=ozKvg2XFA0Y, sources"
+        },
+        {
+          "video": "q017 (-g-ubPCtVGw)",
+          "values": {
+            "views": 1300
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 6,
+              "raw": "- -g-ubPCtVGw | 일본도 살인 | 11-04 | 1,300 | 0:31 (136.6%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=-g-ubPCtVGw, sources"
+        },
+        {
+          "video": "q002 (zwgKEbvbxsU)",
+          "values": {
+            "views": 1291
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 7,
+              "raw": "- zwgKEbvbxsU | 경찰관 매달고 131m | 10-26 | 1,291 | 0:21 (92.5%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=zwgKEbvbxsU, sources"
+        },
+        {
+          "video": "q014 (oxZUrYF8Chg)",
+          "values": {
+            "views": 1288
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 8,
+              "raw": "- oxZUrYF8Chg | 야차룰 (comedy) | 11-05 | 1,288 | subs +1 (praised by the owner)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=oxZUrYF8Chg, sources"
+        },
+        {
+          "video": "q012 (g6IHdEbtJoE)",
+          "values": {
+            "views": 1281
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 9,
+              "raw": "- g6IHdEbtJoE | 경북 산불 | 11-02 | 1,281 | 0:30 (92.7%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=g6IHdEbtJoE, sources"
+        },
+        {
+          "video": "q006 (1niGnkTw6BA)",
+          "values": {
+            "views": 1230
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 10,
+              "raw": "- 1niGnkTw6BA | 싸움 각서 | 10-27 | 1,230 | 0:34 (86.6%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=1niGnkTw6BA, sources"
+        },
+        {
+          "video": "q001 (IKjz8gGErMk)",
+          "values": {
+            "views": 1224
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 11,
+              "raw": "- IKjz8gGErMk | 음주운전 신고자 | 10-26 | 1,224 | 0:23 (83.1%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=IKjz8gGErMk, sources"
+        },
+        {
+          "video": "q009 (Z2bRWBdK7bQ)",
+          "values": {
+            "views": 1213
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 12,
+              "raw": "- Z2bRWBdK7bQ | 개·고양이 11마리 | 10-30 | 1,213 | 0:27 (71.0%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=Z2bRWBdK7bQ, sources"
+        },
+        {
+          "video": "q007 (E4zk6oCIbjA)",
+          "values": {
+            "views": 1215
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 13,
+              "raw": "- E4zk6oCIbjA | 전세보증금 760억 | 10-28 | 1,215 | 0:29 (84.4%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=E4zk6oCIbjA, sources"
+        },
+        {
+          "video": "q008 (_AYRzLJaFLo)",
+          "values": {
+            "views": 1158
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 14,
+              "raw": "- _AYRzLJaFLo | 한의원 침 | 10-29 | 1,158 | 0:19 (58.3%) | viewed 24.3%",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=_AYRzLJaFLo, sources"
+        },
+        {
+          "video": "q003 (0eo5o8u5EMM)",
+          "values": {
+            "views": 1153
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 15,
+              "raw": "- 0eo5o8u5EMM | 똥기저귀 | 10-26 | 1,153 | 0:23 (72.6%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=0eo5o8u5EMM, sources"
+        },
+        {
+          "video": "q010 (P33g73Z2c0g)",
+          "values": {
+            "views": 1110
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 16,
+              "raw": "- P33g73Z2c0g | 층간소음 | 10-31 | 1,110",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=P33g73Z2c0g, sources"
+        },
+        {
+          "video": "q015 (2Bs_T3OZFlk)",
+          "values": {
+            "views": 1045
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 17,
+              "raw": "- 2Bs_T3OZFlk | 훈련병 얼차려 | 11-01 | 1,045",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=2Bs_T3OZFlk, sources"
+        },
+        {
+          "video": "q005 (MYjtxd25BhU)",
+          "values": {
+            "views": 26
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 18,
+              "raw": "- MYjtxd25BhU | 지게차 | 10-26 | 26",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=MYjtxd25BhU, sources"
+        },
+        {
+          "video": "q004 (EomEdxcqfsU)",
+          "values": {
+            "views": 20
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 19,
+              "raw": "- EomEdxcqfsU | 초코파이 | 10-26 | 20",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=EomEdxcqfsU, sources"
+        }
+      ],
+      "caveat": "Shorts feed의 viewed는 제목 단독 효과 지표가 아님.",
+      "result_confirmation_date": "2026-11-19"
+    },
+    {
+      "id": "H5",
+      "claim": "중복 설명을 줄인 길이가 절대 시청시간을 지키며 평균 시청 비율을 높일 수 있다",
+      "direction": "비율 ↑; 절대 시간·구독 동반 확인",
+      "strength": "낮음",
+      "evidence": "길이는 로컬 MP4 측정; 표본 중앙값 31.433s로 기술적 분할.",
+      "comparisons": [
+        {
+          "video": "q016 (ozKvg2XFA0Y)",
+          "values": {
+            "views": 1813,
+            "average_view_duration_seconds": 26,
+            "average_percentage_viewed": 86.9
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 5,
+              "raw": "- ozKvg2XFA0Y | 역주행 9명 사망, 2심 | 11-03 | 1,813 | 0:26 (86.9%) | viewed vs swiped away: viewed 50.1%",
+              "kind": "observed"
+            },
+            "average_view_duration_seconds": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 5,
+              "raw": "- ozKvg2XFA0Y | 역주행 9명 사망, 2심 | 11-03 | 1,813 | 0:26 (86.9%) | viewed vs swiped away: viewed 50.1%",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 5,
+              "raw": "- ozKvg2XFA0Y | 역주행 9명 사망, 2심 | 11-03 | 1,813 | 0:26 (86.9%) | viewed vs swiped away: viewed 50.1%",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=ozKvg2XFA0Y, sources"
+        },
+        {
+          "video": "q017 (-g-ubPCtVGw)",
+          "values": {
+            "views": 1300,
+            "average_view_duration_seconds": 31,
+            "average_percentage_viewed": 136.6
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 6,
+              "raw": "- -g-ubPCtVGw | 일본도 살인 | 11-04 | 1,300 | 0:31 (136.6%)",
+              "kind": "observed"
+            },
+            "average_view_duration_seconds": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 6,
+              "raw": "- -g-ubPCtVGw | 일본도 살인 | 11-04 | 1,300 | 0:31 (136.6%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 6,
+              "raw": "- -g-ubPCtVGw | 일본도 살인 | 11-04 | 1,300 | 0:31 (136.6%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=-g-ubPCtVGw, sources"
+        },
+        {
+          "video": "q002 (zwgKEbvbxsU)",
+          "values": {
+            "views": 1291,
+            "average_view_duration_seconds": 21,
+            "average_percentage_viewed": 92.5
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 7,
+              "raw": "- zwgKEbvbxsU | 경찰관 매달고 131m | 10-26 | 1,291 | 0:21 (92.5%)",
+              "kind": "observed"
+            },
+            "average_view_duration_seconds": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 7,
+              "raw": "- zwgKEbvbxsU | 경찰관 매달고 131m | 10-26 | 1,291 | 0:21 (92.5%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 7,
+              "raw": "- zwgKEbvbxsU | 경찰관 매달고 131m | 10-26 | 1,291 | 0:21 (92.5%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=zwgKEbvbxsU, sources"
+        },
+        {
+          "video": "q012 (g6IHdEbtJoE)",
+          "values": {
+            "views": 1281,
+            "average_view_duration_seconds": 30,
+            "average_percentage_viewed": 92.7
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 9,
+              "raw": "- g6IHdEbtJoE | 경북 산불 | 11-02 | 1,281 | 0:30 (92.7%)",
+              "kind": "observed"
+            },
+            "average_view_duration_seconds": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 9,
+              "raw": "- g6IHdEbtJoE | 경북 산불 | 11-02 | 1,281 | 0:30 (92.7%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 9,
+              "raw": "- g6IHdEbtJoE | 경북 산불 | 11-02 | 1,281 | 0:30 (92.7%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=g6IHdEbtJoE, sources"
+        },
+        {
+          "video": "q006 (1niGnkTw6BA)",
+          "values": {
+            "views": 1230,
+            "average_view_duration_seconds": 34,
+            "average_percentage_viewed": 86.6
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 10,
+              "raw": "- 1niGnkTw6BA | 싸움 각서 | 10-27 | 1,230 | 0:34 (86.6%)",
+              "kind": "observed"
+            },
+            "average_view_duration_seconds": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 10,
+              "raw": "- 1niGnkTw6BA | 싸움 각서 | 10-27 | 1,230 | 0:34 (86.6%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 10,
+              "raw": "- 1niGnkTw6BA | 싸움 각서 | 10-27 | 1,230 | 0:34 (86.6%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=1niGnkTw6BA, sources"
+        },
+        {
+          "video": "q001 (IKjz8gGErMk)",
+          "values": {
+            "views": 1224,
+            "average_view_duration_seconds": 23,
+            "average_percentage_viewed": 83.1
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 11,
+              "raw": "- IKjz8gGErMk | 음주운전 신고자 | 10-26 | 1,224 | 0:23 (83.1%)",
+              "kind": "observed"
+            },
+            "average_view_duration_seconds": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 11,
+              "raw": "- IKjz8gGErMk | 음주운전 신고자 | 10-26 | 1,224 | 0:23 (83.1%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 11,
+              "raw": "- IKjz8gGErMk | 음주운전 신고자 | 10-26 | 1,224 | 0:23 (83.1%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=IKjz8gGErMk, sources"
+        },
+        {
+          "video": "q009 (Z2bRWBdK7bQ)",
+          "values": {
+            "views": 1213,
+            "average_view_duration_seconds": 27,
+            "average_percentage_viewed": 71.0
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 12,
+              "raw": "- Z2bRWBdK7bQ | 개·고양이 11마리 | 10-30 | 1,213 | 0:27 (71.0%)",
+              "kind": "observed"
+            },
+            "average_view_duration_seconds": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 12,
+              "raw": "- Z2bRWBdK7bQ | 개·고양이 11마리 | 10-30 | 1,213 | 0:27 (71.0%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 12,
+              "raw": "- Z2bRWBdK7bQ | 개·고양이 11마리 | 10-30 | 1,213 | 0:27 (71.0%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=Z2bRWBdK7bQ, sources"
+        },
+        {
+          "video": "q007 (E4zk6oCIbjA)",
+          "values": {
+            "views": 1215,
+            "average_view_duration_seconds": 29,
+            "average_percentage_viewed": 84.4
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 13,
+              "raw": "- E4zk6oCIbjA | 전세보증금 760억 | 10-28 | 1,215 | 0:29 (84.4%)",
+              "kind": "observed"
+            },
+            "average_view_duration_seconds": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 13,
+              "raw": "- E4zk6oCIbjA | 전세보증금 760억 | 10-28 | 1,215 | 0:29 (84.4%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 13,
+              "raw": "- E4zk6oCIbjA | 전세보증금 760억 | 10-28 | 1,215 | 0:29 (84.4%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=E4zk6oCIbjA, sources"
+        },
+        {
+          "video": "q008 (_AYRzLJaFLo)",
+          "values": {
+            "views": 1158,
+            "average_view_duration_seconds": 19,
+            "average_percentage_viewed": 58.3
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 14,
+              "raw": "- _AYRzLJaFLo | 한의원 침 | 10-29 | 1,158 | 0:19 (58.3%) | viewed 24.3%",
+              "kind": "observed"
+            },
+            "average_view_duration_seconds": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 14,
+              "raw": "- _AYRzLJaFLo | 한의원 침 | 10-29 | 1,158 | 0:19 (58.3%) | viewed 24.3%",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 14,
+              "raw": "- _AYRzLJaFLo | 한의원 침 | 10-29 | 1,158 | 0:19 (58.3%) | viewed 24.3%",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=_AYRzLJaFLo, sources"
+        },
+        {
+          "video": "q003 (0eo5o8u5EMM)",
+          "values": {
+            "views": 1153,
+            "average_view_duration_seconds": 23,
+            "average_percentage_viewed": 72.6
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 15,
+              "raw": "- 0eo5o8u5EMM | 똥기저귀 | 10-26 | 1,153 | 0:23 (72.6%)",
+              "kind": "observed"
+            },
+            "average_view_duration_seconds": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 15,
+              "raw": "- 0eo5o8u5EMM | 똥기저귀 | 10-26 | 1,153 | 0:23 (72.6%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 15,
+              "raw": "- 0eo5o8u5EMM | 똥기저귀 | 10-26 | 1,153 | 0:23 (72.6%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=0eo5o8u5EMM, sources"
+        }
+      ],
+      "caveat": "100% 초과를 자르지 않음. 루프/재시청 가능성과 분모 길이의 기계적 효과; 원인 미확인.",
+      "result_confirmation_date": "2026-11-20"
+    },
+    {
+      "id": "H6",
+      "claim": "사망·폭력 등 주제 자체만으로 분배 확대를 설명할 수 없다",
+      "direction": "주제 가중치 보류",
+      "strength": "운영 진단 중간 / 주제 효과 낮음",
+      "evidence": "topic별 실제 비교는 아래 group_results. 다중 태그는 집단이 겹침.",
+      "comparisons": [
+        {
+          "video": "q016 (ozKvg2XFA0Y)",
+          "values": {
+            "views": 1813,
+            "average_percentage_viewed": 86.9
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 5,
+              "raw": "- ozKvg2XFA0Y | 역주행 9명 사망, 2심 | 11-03 | 1,813 | 0:26 (86.9%) | viewed vs swiped away: viewed 50.1%",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 5,
+              "raw": "- ozKvg2XFA0Y | 역주행 9명 사망, 2심 | 11-03 | 1,813 | 0:26 (86.9%) | viewed vs swiped away: viewed 50.1%",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=ozKvg2XFA0Y, sources"
+        },
+        {
+          "video": "q017 (-g-ubPCtVGw)",
+          "values": {
+            "views": 1300,
+            "average_percentage_viewed": 136.6
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 6,
+              "raw": "- -g-ubPCtVGw | 일본도 살인 | 11-04 | 1,300 | 0:31 (136.6%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 6,
+              "raw": "- -g-ubPCtVGw | 일본도 살인 | 11-04 | 1,300 | 0:31 (136.6%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=-g-ubPCtVGw, sources"
+        },
+        {
+          "video": "q002 (zwgKEbvbxsU)",
+          "values": {
+            "views": 1291,
+            "average_percentage_viewed": 92.5
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 7,
+              "raw": "- zwgKEbvbxsU | 경찰관 매달고 131m | 10-26 | 1,291 | 0:21 (92.5%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 7,
+              "raw": "- zwgKEbvbxsU | 경찰관 매달고 131m | 10-26 | 1,291 | 0:21 (92.5%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=zwgKEbvbxsU, sources"
+        },
+        {
+          "video": "q014 (oxZUrYF8Chg)",
+          "values": {
+            "views": 1288,
+            "average_percentage_viewed": null
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 8,
+              "raw": "- oxZUrYF8Chg | 야차룰 (comedy) | 11-05 | 1,288 | subs +1 (praised by the owner)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=oxZUrYF8Chg, sources"
+        },
+        {
+          "video": "q012 (g6IHdEbtJoE)",
+          "values": {
+            "views": 1281,
+            "average_percentage_viewed": 92.7
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 9,
+              "raw": "- g6IHdEbtJoE | 경북 산불 | 11-02 | 1,281 | 0:30 (92.7%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 9,
+              "raw": "- g6IHdEbtJoE | 경북 산불 | 11-02 | 1,281 | 0:30 (92.7%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=g6IHdEbtJoE, sources"
+        },
+        {
+          "video": "q006 (1niGnkTw6BA)",
+          "values": {
+            "views": 1230,
+            "average_percentage_viewed": 86.6
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 10,
+              "raw": "- 1niGnkTw6BA | 싸움 각서 | 10-27 | 1,230 | 0:34 (86.6%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 10,
+              "raw": "- 1niGnkTw6BA | 싸움 각서 | 10-27 | 1,230 | 0:34 (86.6%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=1niGnkTw6BA, sources"
+        },
+        {
+          "video": "q001 (IKjz8gGErMk)",
+          "values": {
+            "views": 1224,
+            "average_percentage_viewed": 83.1
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 11,
+              "raw": "- IKjz8gGErMk | 음주운전 신고자 | 10-26 | 1,224 | 0:23 (83.1%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 11,
+              "raw": "- IKjz8gGErMk | 음주운전 신고자 | 10-26 | 1,224 | 0:23 (83.1%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=IKjz8gGErMk, sources"
+        },
+        {
+          "video": "q009 (Z2bRWBdK7bQ)",
+          "values": {
+            "views": 1213,
+            "average_percentage_viewed": 71.0
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 12,
+              "raw": "- Z2bRWBdK7bQ | 개·고양이 11마리 | 10-30 | 1,213 | 0:27 (71.0%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 12,
+              "raw": "- Z2bRWBdK7bQ | 개·고양이 11마리 | 10-30 | 1,213 | 0:27 (71.0%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=Z2bRWBdK7bQ, sources"
+        },
+        {
+          "video": "q007 (E4zk6oCIbjA)",
+          "values": {
+            "views": 1215,
+            "average_percentage_viewed": 84.4
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 13,
+              "raw": "- E4zk6oCIbjA | 전세보증금 760억 | 10-28 | 1,215 | 0:29 (84.4%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 13,
+              "raw": "- E4zk6oCIbjA | 전세보증금 760억 | 10-28 | 1,215 | 0:29 (84.4%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=E4zk6oCIbjA, sources"
+        },
+        {
+          "video": "q008 (_AYRzLJaFLo)",
+          "values": {
+            "views": 1158,
+            "average_percentage_viewed": 58.3
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 14,
+              "raw": "- _AYRzLJaFLo | 한의원 침 | 10-29 | 1,158 | 0:19 (58.3%) | viewed 24.3%",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 14,
+              "raw": "- _AYRzLJaFLo | 한의원 침 | 10-29 | 1,158 | 0:19 (58.3%) | viewed 24.3%",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=_AYRzLJaFLo, sources"
+        },
+        {
+          "video": "q003 (0eo5o8u5EMM)",
+          "values": {
+            "views": 1153,
+            "average_percentage_viewed": 72.6
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 15,
+              "raw": "- 0eo5o8u5EMM | 똥기저귀 | 10-26 | 1,153 | 0:23 (72.6%)",
+              "kind": "observed"
+            },
+            "average_percentage_viewed": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 15,
+              "raw": "- 0eo5o8u5EMM | 똥기저귀 | 10-26 | 1,153 | 0:23 (72.6%)",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=0eo5o8u5EMM, sources"
+        },
+        {
+          "video": "q010 (P33g73Z2c0g)",
+          "values": {
+            "views": 1110,
+            "average_percentage_viewed": null
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 16,
+              "raw": "- P33g73Z2c0g | 층간소음 | 10-31 | 1,110",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=P33g73Z2c0g, sources"
+        },
+        {
+          "video": "q015 (2Bs_T3OZFlk)",
+          "values": {
+            "views": 1045,
+            "average_percentage_viewed": null
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 17,
+              "raw": "- 2Bs_T3OZFlk | 훈련병 얼차려 | 11-01 | 1,045",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=2Bs_T3OZFlk, sources"
+        },
+        {
+          "video": "q005 (MYjtxd25BhU)",
+          "values": {
+            "views": 26,
+            "average_percentage_viewed": null
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 18,
+              "raw": "- MYjtxd25BhU | 지게차 | 10-26 | 26",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=MYjtxd25BhU, sources"
+        },
+        {
+          "video": "q004 (EomEdxcqfsU)",
+          "values": {
+            "views": 20,
+            "average_percentage_viewed": null
+          },
+          "source": {
+            "views": {
+              "file": "channel/analytics/snapshot_2026-11-06.md",
+              "line": 19,
+              "raw": "- EomEdxcqfsU | 초코파이 | 10-26 | 20",
+              "kind": "observed"
+            }
+          },
+          "feature_reference": "features.json: video_id=EomEdxcqfsU, sources"
+        }
+      ],
+      "caveat": "저조회 q004/q005를 약한 주제의 증거로 쓰지 않음. 재업로드 억제는 10-30의 미확인 가설.",
+      "result_confirmation_date": "2026-11-20"
+    }
+  ],
+  "experiments": [
+    {
+      "slot": "V1",
+      "proposed_publish_date": "2026-11-07",
+      "axis": "hook",
+      "arm": "A: 첫 2초 사건 결과 자막 + 현재 hero",
+      "comparison": "V2",
+      "hypothesis": "H1",
+      "result_confirmation_date": "2026-11-15",
+      "primary_metric": "viewed_pct",
+      "secondary_metrics": [
+        "average_view_duration_seconds",
+        "average_percentage_viewed",
+        "viewed_pct",
+        "views",
+        "subscribers_net",
+        "traffic_sources"
+      ],
+      "controls": "유사 주제·정답 유형·공개 시각·CTA·다른 제작 요소 유지. 제목/길이 비교는 V5 공통 기준. 서로 다른 신규 사건이므로 주제 교란 남음."
+    },
+    {
+      "slot": "V2",
+      "proposed_publish_date": "2026-11-08",
+      "axis": "hook",
+      "arm": "B: 같은 자막 + 사건 행위가 즉시 읽히는 그림/동작",
+      "comparison": "V1",
+      "hypothesis": "H1",
+      "result_confirmation_date": "2026-11-15",
+      "primary_metric": "viewed_pct",
+      "secondary_metrics": [
+        "average_view_duration_seconds",
+        "average_percentage_viewed",
+        "viewed_pct",
+        "views",
+        "subscribers_net",
+        "traffic_sources"
+      ],
+      "controls": "유사 주제·정답 유형·공개 시각·CTA·다른 제작 요소 유지. 제목/길이 비교는 V5 공통 기준. 서로 다른 신규 사건이므로 주제 교란 남음."
+    },
+    {
+      "slot": "V3",
+      "proposed_publish_date": "2026-11-09",
+      "axis": "reenactment",
+      "arm": "A: q014식 comedy rig, 몸·팔·표정과 원인→반응",
+      "comparison": "V4",
+      "hypothesis": "H2",
+      "result_confirmation_date": "2026-11-17",
+      "primary_metric": "subscribers_net per 1,000 views",
+      "secondary_metrics": [
+        "average_view_duration_seconds",
+        "average_percentage_viewed",
+        "viewed_pct",
+        "views",
+        "subscribers_net",
+        "traffic_sources"
+      ],
+      "controls": "유사 주제·정답 유형·공개 시각·CTA·다른 제작 요소 유지. 제목/길이 비교는 V5 공통 기준. 서로 다른 신규 사건이므로 주제 교란 남음."
+    },
+    {
+      "slot": "V4",
+      "proposed_publish_date": "2026-11-10",
+      "axis": "reenactment",
+      "arm": "B: 같은 설명을 static panels로",
+      "comparison": "V3",
+      "hypothesis": "H2",
+      "result_confirmation_date": "2026-11-17",
+      "primary_metric": "subscribers_net per 1,000 views",
+      "secondary_metrics": [
+        "average_view_duration_seconds",
+        "average_percentage_viewed",
+        "viewed_pct",
+        "views",
+        "subscribers_net",
+        "traffic_sources"
+      ],
+      "controls": "유사 주제·정답 유형·공개 시각·CTA·다른 제작 요소 유지. 제목/길이 비교는 V5 공통 기준. 서로 다른 신규 사건이므로 주제 교란 남음."
+    },
+    {
+      "slot": "V5",
+      "proposed_publish_date": "2026-11-11",
+      "axis": "title_length_baseline",
+      "arm": "제목 A: 질문형 / 길이 A: 필요한 설명을 모두 유지",
+      "comparison": "V6 / V7",
+      "hypothesis": "H4/H5",
+      "result_confirmation_date": "2026-11-20",
+      "primary_metric": "subscribers_net per 1,000 views",
+      "secondary_metrics": [
+        "average_view_duration_seconds",
+        "average_percentage_viewed",
+        "viewed_pct",
+        "views",
+        "subscribers_net",
+        "traffic_sources"
+      ],
+      "controls": "유사 주제·정답 유형·공개 시각·CTA·다른 제작 요소 유지. 제목/길이 비교는 V5 공통 기준. 서로 다른 신규 사건이므로 주제 교란 남음."
+    },
+    {
+      "slot": "V6",
+      "proposed_publish_date": "2026-11-12",
+      "axis": "title",
+      "arm": "제목 B: 쟁점·결과 예고형 / 길이 A",
+      "comparison": "V5",
+      "hypothesis": "H4",
+      "result_confirmation_date": "2026-11-19",
+      "primary_metric": "views (first_7d)",
+      "secondary_metrics": [
+        "average_view_duration_seconds",
+        "average_percentage_viewed",
+        "viewed_pct",
+        "views",
+        "subscribers_net",
+        "traffic_sources"
+      ],
+      "controls": "유사 주제·정답 유형·공개 시각·CTA·다른 제작 요소 유지. 제목/길이 비교는 V5 공통 기준. 서로 다른 신규 사건이므로 주제 교란 남음."
+    },
+    {
+      "slot": "V7",
+      "proposed_publish_date": "2026-11-13",
+      "axis": "length",
+      "arm": "제목 A / 길이 B: 중복 설명·대기만 줄임",
+      "comparison": "V5",
+      "hypothesis": "H5",
+      "result_confirmation_date": "2026-11-20",
+      "primary_metric": "subscribers_net per 1,000 views",
+      "secondary_metrics": [
+        "average_view_duration_seconds",
+        "average_percentage_viewed",
+        "viewed_pct",
+        "views",
+        "subscribers_net",
+        "traffic_sources"
+      ],
+      "controls": "유사 주제·정답 유형·공개 시각·CTA·다른 제작 요소 유지. 제목/길이 비교는 V5 공통 기준. 서로 다른 신규 사건이므로 주제 교란 남음."
+    }
+  ],
+  "kpi": {
+    "source": {
+      "period_label": {
+        "file": "channel/analytics/snapshot_2026-11-06.md",
+        "line": 2,
+        "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+        "kind": "observed"
+      },
+      "period_start": {
+        "file": "channel/analytics/snapshot_2026-11-06.md",
+        "line": 2,
+        "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+        "kind": "observed"
+      },
+      "period_end": {
+        "file": "channel/analytics/snapshot_2026-11-06.md",
+        "line": 2,
+        "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+        "kind": "observed"
+      },
+      "views": {
+        "file": "channel/analytics/snapshot_2026-11-06.md",
+        "line": 2,
+        "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+        "kind": "observed"
+      },
+      "watch_hours": {
+        "file": "channel/analytics/snapshot_2026-11-06.md",
+        "line": 2,
+        "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+        "kind": "observed"
+      },
+      "subscribers_net": {
+        "file": "channel/analytics/snapshot_2026-11-06.md",
+        "line": 2,
+        "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+        "kind": "observed"
+      },
+      "subscribers_total": {
+        "file": "channel/analytics/snapshot_2026-11-06.md",
+        "line": 2,
+        "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+        "kind": "observed"
+      },
+      "views_48h": {
+        "file": "channel/analytics/snapshot_2026-11-06.md",
+        "line": 2,
+        "raw": "Channel: last 28 days (10-08 to 11-04) 15,092 views, 43.6 h watch time, +8 subscribers. Live: 9 subscribers, 2,904 views in the last 48 h.",
+        "kind": "observed"
+      }
+    },
+    "subscribers_goal": 1000,
+    "subscribers_current": 9,
+    "subscribers_remaining": 991,
+    "net_subscribers_per_view": 0.0005300821627352239,
+    "net_subscribers_per_1000_views": 0.5300821627352239,
+    "additional_views_at_unchanged_proxy": 1869521.5,
+    "meaning": "목표 산술 시나리오; 순구독/조회 대용값 유지 가정. 달성 날짜 예측 아님."
+  }
+}

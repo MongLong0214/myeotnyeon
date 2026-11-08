@@ -1,0 +1,2 @@
+N18 CARTOON V6 READY
+1080p and 360p rendered; final AAC ASR >=98%; every shot MATCH; every exact cut pair reviewed; 0 jump-cut detector hits. See qa_v6.json and alignment.md.

@@ -1,0 +1,11 @@
+{
+  "text": "대전지검은 이천이십이 년 구월 이십 일 두 사람을 강도살인 혐의로 구속기소했다고 밝혔습니다. 사건은 법원의 판단을 받게 됐죠.",
+  "model": "local Supertonic-3",
+  "voice": "M1",
+  "speed": 1.08,
+  "total_steps": 16,
+  "seed": 9036,
+  "network": false,
+  "reason": "articulation polish after ASR discrepancy; unchanged supported facts",
+  "target_voice_s": 7.42
+}

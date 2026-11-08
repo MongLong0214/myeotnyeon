@@ -1,0 +1,19 @@
+{
+ "id": "metal_office_desk",
+ "name": "Metal Office Desk",
+ "type": 2,
+ "authors": {
+  "Ulan Cabanilla": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/metal_office_desk",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/metal_office_desk/metal_office_desk_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_office_desk/metal_office_desk_diff_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/metal_office_desk/metal_office_desk_metal_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/metal_office_desk/metal_office_desk_nor_gl_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/metal_office_desk/metal_office_desk_rough_2k.exr"
+ ]
+}

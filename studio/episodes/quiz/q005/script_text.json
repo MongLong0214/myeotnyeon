@@ -1,0 +1,292 @@
+{
+ "episode_id": "q005",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 광주지법 2026년 1심",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "벽돌공장의 50대 지게차 기사가, 스리랑카 출신 동료를 벽돌 더미에 묶어 지게차로 들어 올렸습니다."
+   ],
+   "claim_ids": [
+    "V2-01_1"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#EAD9BF",
+    "props": [
+     {
+      "kind": "forklift",
+      "x": 640,
+      "y": 860,
+      "lift": 230,
+      "liftAt": [
+       60,
+       96
+      ]
+     },
+     {
+      "kind": "bricks",
+      "x": 330,
+      "y": 838,
+      "lift": 230,
+      "liftAt": [
+       60,
+       96
+      ]
+     },
+     {
+      "kind": "wrap",
+      "x": 330,
+      "y": 760,
+      "lift": 230,
+      "liftAt": [
+       60,
+       96
+      ],
+      "at": 30,
+      "front": true
+     }
+    ],
+    "actors": [
+     {
+      "look": "B",
+      "x": 330,
+      "y": 820,
+      "scale": 0.62,
+      "expr": "scared",
+      "lift": 230,
+      "liftAt": [
+       60,
+       96
+      ]
+     },
+     {
+      "look": "D",
+      "x": 700,
+      "y": 700,
+      "scale": 0.5,
+      "expr": "smug"
+     }
+    ],
+    "tags": [
+     {
+      "text": "50대 지게차 기사",
+      "x": 720,
+      "y": 40,
+      "color": "#C9503E"
+     },
+     {
+      "text": "이주노동자 동료",
+      "x": 300,
+      "y": 40,
+      "color": "#21B8B0",
+      "at": 24
+     }
+    ]
+   }
+  },
+  {
+   "cue_id": "C2",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "약 10미터를 끌고 다녔고, 이유는 일이 서툴다는 거였어요."
+   ],
+   "claim_ids": [
+    "V2-01_1"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#EAD9BF",
+    "props": [
+     {
+      "kind": "forklift",
+      "x": 640,
+      "y": 860,
+      "lift": 230
+     },
+     {
+      "kind": "bricks",
+      "x": 330,
+      "y": 838,
+      "lift": 230
+     },
+     {
+      "kind": "wrap",
+      "x": 330,
+      "y": 760,
+      "lift": 230,
+      "front": true
+     }
+    ],
+    "actors": [
+     {
+      "look": "B",
+      "x": 330,
+      "y": 820,
+      "scale": 0.62,
+      "expr": "scared",
+      "lift": 230
+     },
+     {
+      "look": "D",
+      "x": 700,
+      "y": 700,
+      "scale": 0.5,
+      "expr": "smug"
+     }
+    ],
+    "stamp": {
+     "lines": [
+      "약 10m 끌고 다님",
+      "이유: 업무 미숙"
+     ],
+     "x": 520,
+     "y": 140,
+     "at": 8,
+     "size": 84,
+     "maxW": 640
+    }
+   }
+  },
+  {
+   "cue_id": "C3",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "영상이 공개되자, 대통령까지 명백한 인권 유린이라며 분노했죠."
+   ],
+   "claim_ids": [
+    "V2-01_3"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#DCE6F2",
+    "tags": [
+     {
+      "text": "학대 영상 공개 → 사회적 공분",
+      "x": 500,
+      "y": 120,
+      "color": "#141414",
+      "at": 0,
+      "size": 44
+     }
+    ],
+    "stamp": {
+     "lines": [
+      "\"명백한 인권 유린\""
+     ],
+     "x": 500,
+     "y": 420,
+     "at": 14,
+     "size": 110,
+     "maxW": 820
+    }
+   }
+  },
+  {
+   "cue_id": "C4",
+   "act": "quiz",
+   "block_name": "quiz",
+   "narration": [
+    "자, 몇 년 받았을까요?",
+    "벌금일까요, 집행유예일까요, 아니면 실형일까요?"
+   ],
+   "claim_ids": [],
+   "pad_s": 3.2,
+   "note": "",
+   "p": {}
+  },
+  {
+   "cue_id": "C5",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "정답은, 징역 1년에 집행유예 2년."
+   ],
+   "claim_ids": [
+    "V2-01_1"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "lines": [
+     "징역 1년",
+     "집행유예 2년"
+    ]
+   }
+  },
+  {
+   "cue_id": "C6",
+   "act": "reason",
+   "block_name": "reason",
+   "narration": [
+    "피해자가 처벌을 원하지 않았고, 합의했다는 이유였어요."
+   ],
+   "claim_ids": [
+    "V2-01_1"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "title": "집행유예 이유",
+    "chips": [
+     "피해자가 처벌 원치 않음",
+     "합의"
+    ],
+    "colors": [
+     "#21B8B0",
+     "#21B8B0"
+    ]
+   }
+  },
+  {
+   "cue_id": "C7",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "노동단체는 솜방망이 처벌이라며 반발했습니다."
+   ],
+   "claim_ids": [
+    "V2-01_1"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#F2EBDC",
+    "stamp": {
+     "lines": [
+      "\"솜방망이 처벌\""
+     ],
+     "x": 500,
+     "y": 360,
+     "at": 10,
+     "size": 110,
+     "maxW": 820
+    }
+   }
+  },
+  {
+   "cue_id": "C8",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 1.2,
+   "note": "",
+   "p": {}
+  }
+ ]
+}

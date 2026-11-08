@@ -1,0 +1,62 @@
+[
+  {
+    "candidate": 115,
+    "frame": 568,
+    "time_s": 113.6,
+    "sources": [
+      "authored_event"
+    ],
+    "diff": 4.522482638888889,
+    "hist": 0.053242273179549715
+  },
+  {
+    "candidate": 116,
+    "frame": 1548,
+    "time_s": 309.6,
+    "sources": [
+      "authored_event"
+    ],
+    "diff": 1.2263368055555555,
+    "hist": 0.025287200932673816
+  },
+  {
+    "candidate": 117,
+    "frame": 1572,
+    "time_s": 314.4,
+    "sources": [
+      "authored_event"
+    ],
+    "diff": 1.2934895833333333,
+    "hist": 0.02352338256386805
+  },
+  {
+    "candidate": 118,
+    "frame": 1596,
+    "time_s": 319.2,
+    "sources": [
+      "authored_event"
+    ],
+    "diff": 1.2694270833333334,
+    "hist": 0.028523592780817477
+  },
+  {
+    "candidate": 119,
+    "frame": 1656,
+    "time_s": 331.2,
+    "sources": [
+      "authored_event"
+    ],
+    "diff": 0.9080902777777777,
+    "hist": 0.025270225580304787
+  },
+  {
+    "candidate": 120,
+    "frame": 1852,
+    "time_s": 370.4,
+    "sources": [
+      "authored_event"
+    ],
+    "diff": 3.082239583333333,
+    "hist": 0.05009467050989238
+  }
+]

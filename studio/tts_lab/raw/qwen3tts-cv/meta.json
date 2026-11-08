@@ -1,0 +1,866 @@
+{
+ "qwen3tts-cv_Sohee_neutral_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Sohee",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Sohee",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 9.29,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Sohee_neutral_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Sohee",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Sohee",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.6,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Sohee_neutral_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Sohee",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Sohee",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.68,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Sohee_comic_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Sohee",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Sohee",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 4.99,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Sohee_comic_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Sohee",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Sohee",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.23,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Sohee_comic_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Sohee",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Sohee",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 1.73,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Ryan_neutral_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Ryan",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Ryan",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 9.03,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Ryan_neutral_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Ryan",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Ryan",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 8.69,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Ryan_neutral_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Ryan",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Ryan",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.69,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Ryan_comic_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Ryan",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Ryan",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 4.09,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Ryan_comic_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Ryan",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Ryan",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 4.6,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Ryan_comic_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Ryan",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Ryan",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 1.8,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Aiden_neutral_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Aiden",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Aiden",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.99,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Aiden_neutral_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Aiden",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Aiden",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 6.48,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Aiden_neutral_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Aiden",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Aiden",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 1.77,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Aiden_comic_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Aiden",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Aiden",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 4.19,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Aiden_comic_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Aiden",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Aiden",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 4.3,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Aiden_comic_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Aiden",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Aiden",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.02,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Dylan_neutral_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Dylan",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Dylan",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 5.21,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Dylan_neutral_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Dylan",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Dylan",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.13,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Dylan_neutral_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Dylan",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Dylan",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.13,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Dylan_comic_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Dylan",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Dylan",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 5.2,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Dylan_comic_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Dylan",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Dylan",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.11,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Dylan_comic_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Dylan",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Dylan",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 1.57,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Eric_neutral_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Eric",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Eric",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.92,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Eric_neutral_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Eric",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Eric",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.98,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Eric_neutral_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Eric",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Eric",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.08,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Eric_comic_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Eric",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Eric",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.81,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Eric_comic_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Eric",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Eric",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.31,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Eric_comic_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Eric",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Eric",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 1.83,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Uncle_Fu_neutral_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Uncle_Fu",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Uncle_Fu",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.83,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Uncle_Fu_neutral_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Uncle_Fu",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Uncle_Fu",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.89,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Uncle_Fu_neutral_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Uncle_Fu",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Uncle_Fu",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 1.68,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Uncle_Fu_comic_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Uncle_Fu",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Uncle_Fu",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 4.27,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Uncle_Fu_comic_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Uncle_Fu",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Uncle_Fu",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.4,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Uncle_Fu_comic_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Uncle_Fu",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Uncle_Fu",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 1.73,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Vivian_neutral_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Vivian",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Vivian",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.93,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Vivian_neutral_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Vivian",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Vivian",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.36,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Vivian_neutral_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Vivian",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Vivian",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.05,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Vivian_comic_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Vivian",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Vivian",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.9,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Vivian_comic_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Vivian",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Vivian",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.38,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Vivian_comic_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Vivian",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Vivian",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 1.64,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Serena_neutral_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Serena",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Serena",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.84,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Serena_neutral_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Serena",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Serena",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.13,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Serena_neutral_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Serena",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Serena",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.23,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Serena_comic_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Serena",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Serena",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 4.0,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Serena_comic_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Serena",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Serena",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.82,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Serena_comic_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Serena",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Serena",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 1.91,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Ono_Anna_neutral_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Ono_Anna",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Ono_Anna",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 5.02,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Ono_Anna_neutral_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Ono_Anna",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Ono_Anna",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.7,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Ono_Anna_neutral_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Ono_Anna",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Ono_Anna",
+   "language": "korean",
+   "instruct": null,
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.08,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "qwen3tts-cv_Ono_Anna_comic_1": {
+  "engine": "qwen3tts-cv",
+  "voice": "Ono_Anna",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Ono_Anna",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 6.39,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "qwen3tts-cv_Ono_Anna_comic_2": {
+  "engine": "qwen3tts-cv",
+  "voice": "Ono_Anna",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Ono_Anna",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 3.6,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "qwen3tts-cv_Ono_Anna_comic_3": {
+  "engine": "qwen3tts-cv",
+  "voice": "Ono_Anna",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "model": "Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+   "speaker": "Ono_Anna",
+   "language": "korean",
+   "instruct": "Fast-paced, high-energy comedic narrator for an adult animated cartoon. Playful and sarcastic, big exaggerated pitch swings, punchy emphasis on key words, a little over-the-top.",
+   "seed": "1000+line"
+  },
+  "gen_seconds": 2.25,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ }
+}
