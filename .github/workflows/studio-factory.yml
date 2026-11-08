@@ -30,10 +30,10 @@ jobs:
         run: |
           command -v ffmpeg || brew install ffmpeg
           ffmpeg -version | head -1
-      # textgate.py loads the im-not-ai metrics (MIT) from this fixed path; pinned commit.
+      # textgate.py loads the im-not-ai metrics (MIT) from studio/.deps/im-not-ai (IM_NOT_AI_DIR overrides); pinned commit.
       - name: im-not-ai metrics
         run: |
-          d="$HOME/.claude/jobs/myeotnyeon-cto/tools/im-not-ai"
+          d="studio/.deps/im-not-ai"
           git init -q "$d"
           git -C "$d" fetch -q --depth 1 https://github.com/epoko77-ai/im-not-ai bad4ef0a2b514318b2278b65cb4545414ad84d82
           git -C "$d" checkout -q FETCH_HEAD

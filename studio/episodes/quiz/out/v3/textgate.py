@@ -3,8 +3,9 @@
 Offline, deterministic. Uses the checkout's own metrics where it has one (C-8 antithesis, C-11 ending-comma regex)
 and the taxonomy's definitions for the rest. usage: textgate.py q011 [...] — prints JSON per episode.
 Display text = header, tags, stamps, cards, reveal/answer text, choices, source line, captions (narration)."""
-import json, pathlib, re, sys
-IMNA = pathlib.Path.home() / '.claude/jobs/myeotnyeon-cto/tools/im-not-ai/skills/humanize-korean/references'
+import json, os, pathlib, re, sys
+# im-not-ai checkout (MIT, github.com/epoko77-ai/im-not-ai); default: studio/.deps/im-not-ai
+IMNA = pathlib.Path(os.environ.get('IM_NOT_AI_DIR', pathlib.Path(__file__).resolve().parents[4] / '.deps/im-not-ai')) / 'skills/humanize-korean/references'
 sys.path.insert(0, str(IMNA))
 import metrics_v2 as M  # noqa: E402
 HERE = pathlib.Path(__file__).resolve().parent

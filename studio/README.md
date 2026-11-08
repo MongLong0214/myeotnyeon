@@ -30,7 +30,8 @@ Python 스크립트의 경로는 `studio/`를 기준으로 한 상대 경로다.
 ```sh
 python3 -m venv .venv && .venv/bin/pip install -r factory/requirements-test.txt   # studio/에서. 테스트가 .venv/bin/python 을 직접 부른다
 # textgate.py가 쓰는 im-not-ai 지표(MIT)를 고정 커밋으로 받는다
-git clone https://github.com/epoko77-ai/im-not-ai ~/.claude/jobs/myeotnyeon-cto/tools/im-not-ai && git -C ~/.claude/jobs/myeotnyeon-cto/tools/im-not-ai checkout bad4ef0a2b514318b2278b65cb4545414ad84d82
+# (다른 위치에 두려면 IM_NOT_AI_DIR 환경변수로 지정)
+git clone https://github.com/epoko77-ai/im-not-ai .deps/im-not-ai && git -C .deps/im-not-ai checkout bad4ef0a2b514318b2278b65cb4545414ad84d82
 swiftc -O factory/ocr_vision.swift -o factory/.ocr_vision   # macOS Vision OCR 테스트용
 cd factory && ../.venv/bin/python -m unittest discover -s tests
 ```
