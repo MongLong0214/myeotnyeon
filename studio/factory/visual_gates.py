@@ -94,7 +94,7 @@ def measure_edges(video, width=640):
     stream = meta['streams'][0]
     height = round(stream['height']*width/stream['width']/2)*2
     proc = subprocess.Popen(['ffmpeg', '-v', 'error', '-i', str(video), '-map', '0:v:0',
-                             '-vf', f'scale={width}:{height}', '-vsync', '0',
+                             '-vf', f'scale={width}:{height}', '-fps_mode', 'passthrough',
                              '-pix_fmt', 'rgb24', '-f', 'rawvideo', '-'],
                             stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     n = 0

@@ -104,7 +104,7 @@ def analyze(video, out, metadata=None, contact_sheets=True):
     import tempfile
     with tempfile.TemporaryFile() as err:
         p = subprocess.Popen(['ffmpeg', '-v', 'error', '-i', str(video), '-map', '0:v:0',
-                              '-vf', f'scale={w}:{h}:flags=area', '-vsync', '0',
+                              '-vf', f'scale={w}:{h}:flags=area', '-fps_mode', 'passthrough',
                               '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-'], stdout=subprocess.PIPE, stderr=err)
         try:
             while True:
