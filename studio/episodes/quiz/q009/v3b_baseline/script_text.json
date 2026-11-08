@@ -1,0 +1,223 @@
+{
+ "episode_id": "q009",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 의정부지법 2025년 항소심",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "강아지 친구를 만들어 주고 싶다며, 20대 남성이 넉 달 동안 개 5마리와 고양이 6마리를 입양하거나 임시 보호로 데려왔습니다."
+   ],
+   "claim_ids": [
+    "V2-07_1",
+    "V2-07_2"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "phone",
+    "chat": [
+     {
+      "me": true,
+      "text": "\"강아지의 친구를 만들어주고 싶다\""
+     },
+     {
+      "me": true,
+      "text": "\"키우던 고양이가 병으로 죽어 새로 입양하려 한다\""
+     }
+    ],
+    "chatStep": 50,
+    "tags": [
+     {
+      "text": "입양 플랫폼에 올린 글",
+      "x": 500,
+      "y": 770,
+      "color": "#141414",
+      "at": 4,
+      "size": 34
+     }
+    ]
+   }
+  },
+  {
+   "cue_id": "C2",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "그리고 스트레스를 푼다는 이유로, 단기간에 11마리를 모두 죽였습니다."
+   ],
+   "claim_ids": [
+    "V2-07_1"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "set": "bigtext",
+    "big": "11마리",
+    "bigSub": "개 5마리 · 고양이 6마리",
+    "bigAt": -6,
+    "bigBg": "#1C1E26"
+   }
+  },
+  {
+   "cue_id": "C3",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "수사를 받는 중에도, 고양이를 또 데려왔고요."
+   ],
+   "claim_ids": [
+    "V2-07_1"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#E9E1F2",
+    "actors": [
+     {
+      "look": "hoodie",
+      "x": 260,
+      "y": 1000,
+      "scale": 1.15,
+      "expr": "smug",
+      "pose": "shrug"
+     }
+    ],
+    "stamp": {
+     "lines": [
+      "수사 중에도",
+      "또 데려옴"
+     ],
+     "x": 640,
+     "y": 300,
+     "at": 8,
+     "size": 104,
+     "maxW": 480,
+     "color": "#141414"
+    }
+   }
+  },
+  {
+   "cue_id": "C4",
+   "act": "quiz",
+   "block_name": "quiz",
+   "narration": [
+    "자, 몇 년 받았을까요?",
+    "벌금일까요, 집행유예일까요, 아니면 실형일까요?"
+   ],
+   "claim_ids": [],
+   "pad_s": 3.2,
+   "note": "",
+   "p": {}
+  },
+  {
+   "cue_id": "C5",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "1심은 집행유예였는데, 2심은 징역 1년 6개월. 실형, 법정구속입니다."
+   ],
+   "claim_ids": [
+    "V2-07_1",
+    "V2-07_3"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "lines": [
+     "징역 1년 6개월",
+     "실형 · 법정구속"
+    ]
+   }
+  },
+  {
+   "cue_id": "C6",
+   "act": "reason",
+   "block_name": "reason",
+   "narration": [
+    "수법이 매우 잔혹하고, 진정으로 뉘우치는 모습이 없다고 봤어요."
+   ],
+   "claim_ids": [
+    "V2-07_2"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "title": "실형 이유",
+    "chips": [
+     "수법·사체 처리 매우 잔혹",
+     "수사 중에도 또 인계받음"
+    ],
+    "colors": [
+     "#F0433A",
+     "#F0433A"
+    ]
+   }
+  },
+  {
+   "cue_id": "C7",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "법정구속되는 순간에도, 여자친구가 있어 잡혀가면 안 된다고 말했다고 전해졌습니다."
+   ],
+   "claim_ids": [
+    "V2-07_1",
+    "V2-07_2"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#F2EBDC",
+    "actors": [
+     {
+      "look": "hoodie",
+      "x": 260,
+      "y": 1000,
+      "scale": 1.15,
+      "expr": "shock"
+     }
+    ],
+    "tags": [
+     {
+      "text": "동물단체 활동가 전언",
+      "x": 640,
+      "y": 470,
+      "color": "#2D3F73",
+      "at": 30,
+      "size": 34
+     }
+    ],
+    "stamp": {
+     "lines": [
+      "\"여자친구가 있어",
+      "잡혀가면 안 된다\""
+     ],
+     "x": 640,
+     "y": 250,
+     "at": 24,
+     "size": 78,
+     "maxW": 520,
+     "color": "#141414",
+     "rot": -3
+    }
+   }
+  },
+  {
+   "cue_id": "C8",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 1.2,
+   "note": "",
+   "p": {}
+  }
+ ]
+}

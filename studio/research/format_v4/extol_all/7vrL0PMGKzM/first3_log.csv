@@ -1,0 +1,4 @@
+start_s,end_s,shown_summary,spoken_summary,cuts_in_second,cut_times_s,static_headline_present,note
+0,1,낚시터 모형과 주변의 마른 나무,시신 발견 날짜,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+1,2,낚시터를 위에서 사선으로 보는 동일 장면,날짜·요일 계속,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+2,3,낚시터 모형으로 조금 더 접근,발견 장소로 이어짐,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.

@@ -1,0 +1,131 @@
+{
+ "episode_id": "q001",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 대구지법 2023고단202",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "push2",
+   "block_name": "push2",
+   "narration": [
+    "음주운전 신고하려던 30대 남성을, 20대 여성 운전자가 차로 두 번 박았습니다."
+   ],
+   "claim_ids": [
+    "F003",
+    "F004",
+    "F008",
+    "F005"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {}
+  },
+  {
+   "cue_id": "C2",
+   "act": "hurt",
+   "block_name": "hurt",
+   "narration": [
+    "피해자는 약 34일 치료가 필요한 어깨 부상."
+   ],
+   "claim_ids": [
+    "F009"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "victim": "B",
+    "stamp": "약 34일 치료",
+    "sub": "어깨 부상",
+    "expr": "tired"
+   }
+  },
+  {
+   "cue_id": "C3",
+   "act": "remorse",
+   "block_name": "remorse",
+   "narration": [
+    "법원도, 진지하게 반성한다고 볼 수 없다고 했죠."
+   ],
+   "claim_ids": [
+    "J002"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "lines": [
+     "반성 없음"
+    ]
+   }
+  },
+  {
+   "cue_id": "C4",
+   "act": "quiz",
+   "block_name": "quiz",
+   "narration": [
+    "자, 몇 년 받았을까요?",
+    "벌금일까요, 집행유예일까요, 아니면 실형일까요?"
+   ],
+   "claim_ids": [],
+   "pad_s": 3.2,
+   "note": "",
+   "p": {}
+  },
+  {
+   "cue_id": "C5",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "정답은, 징역 8개월에 집행유예 2년."
+   ],
+   "claim_ids": [
+    "J003"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "lines": [
+     "징역 8개월",
+     "집행유예 2년"
+    ]
+   }
+  },
+  {
+   "cue_id": "C6",
+   "act": "reason",
+   "block_name": "reason",
+   "narration": [
+    "초범이고, 들이받은 건 인정했고, 신고가 두려워서 그랬다고 봤대요."
+   ],
+   "claim_ids": [
+    "J007"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "title": "집행유예 이유",
+    "chips": [
+     "초범",
+     "들이받은 건 인정",
+     "신고가 두려웠던 동기"
+    ],
+    "colors": [
+     "#21B8B0",
+     "#21B8B0",
+     "#21B8B0"
+    ]
+   }
+  },
+  {
+   "cue_id": "C7",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 1.2,
+   "note": "",
+   "p": {}
+  }
+ ]
+}

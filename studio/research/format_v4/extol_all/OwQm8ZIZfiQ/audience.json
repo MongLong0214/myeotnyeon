@@ -1,0 +1,16 @@
+{
+  "sample_n": 129,
+  "sample_method": "top-level top-ranked comments; <=200; replies excluded; not representative and not retention analytics",
+  "keyword_theme_comment_counts_overlapping": {
+    "제작·몰입 언급": 15,
+    "기관·권력 언급": 28,
+    "형량·사법 언급": 0,
+    "피해·공감 언급": 3,
+    "사실·해석 논쟁 표지": 0,
+    "구독·업로드 기대": 10
+  },
+  "quoted_timestamp_counts_s": {
+    "43": 1
+  },
+  "interpretation": "가해자의 별명 부여와 경찰 대응에 비판. 제작 품질·템포·내레이션을 구체적으로 칭찬한 댓글도 있다."
+}

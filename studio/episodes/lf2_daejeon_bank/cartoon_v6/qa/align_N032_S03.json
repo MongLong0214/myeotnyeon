@@ -1,0 +1,70 @@
+{
+  "text": " A의 DNA가 똑같이 나온 게 아닙니다.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 2.2,
+      "text": " A의 DNA가 똑같이 나온 게 아닙니다.",
+      "tokens": [
+        50365,
+        316,
+        2785,
+        8272,
+        1453,
+        33790,
+        1129,
+        34396,
+        7845,
+        45842,
+        1972,
+        13,
+        50475
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.14246501241411483,
+      "compression_ratio": 0.8070175438596491,
+      "no_speech_prob": 6.765040784506571e-12,
+      "words": [
+        {
+          "word": " A의",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.7568359375
+        },
+        {
+          "word": " DNA가",
+          "start": 0.36,
+          "end": 0.96,
+          "probability": 0.953125
+        },
+        {
+          "word": " 똑같이",
+          "start": 0.96,
+          "end": 1.44,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " 나온",
+          "start": 1.44,
+          "end": 1.66,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 게",
+          "start": 1.66,
+          "end": 1.8,
+          "probability": 0.8603515625
+        },
+        {
+          "word": " 아닙니다.",
+          "start": 1.8,
+          "end": 2.2,
+          "probability": 0.9990234375
+        }
+      ]
+    }
+  ],
+  "language": "ko"
+}

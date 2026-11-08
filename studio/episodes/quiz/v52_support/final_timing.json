@@ -1,0 +1,30 @@
+{
+ "q015": {
+  "original_planned_frames": 709,
+  "final_frames": 705,
+  "trailing_silence_removed_frames": 4,
+  "all_speech_retained": true,
+  "reveal_ratio": 0.750354609929078
+ },
+ "q012": {
+  "original_planned_frames": 967,
+  "final_frames": 967,
+  "trailing_silence_removed_frames": 0,
+  "all_speech_retained": true,
+  "reveal_ratio": 0.8448810754912099
+ },
+ "q016": {
+  "original_planned_frames": 890,
+  "final_frames": 890,
+  "trailing_silence_removed_frames": 0,
+  "all_speech_retained": true,
+  "reveal_ratio": 0.7617977528089888
+ },
+ "q017": {
+  "original_planned_frames": 672,
+  "final_frames": 672,
+  "trailing_silence_removed_frames": 0,
+  "all_speech_retained": true,
+  "reveal_ratio": 0.7574404761904762
+ }
+}

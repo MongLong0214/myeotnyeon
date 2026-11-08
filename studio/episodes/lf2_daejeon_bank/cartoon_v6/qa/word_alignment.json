@@ -1,0 +1,5347 @@
+{
+  "method": "Independent local Whisper per-sentence word timestamps from exact final sentence WAV samples; sample-exact final WAV assembly anchors; script grapheme alignment maps to containing ASR word. No text prompt. Hard cuts at next clause first-word onset, rounded to 30fps.",
+  "matched_fraction": 0.9932991722506898,
+  "words": [
+    {
+      "word": " 은행",
+      "start": 0.0,
+      "end": 0.24,
+      "probability": 0.99951171875,
+      "sentenceId": "N001_S01"
+    },
+    {
+      "word": " 지하에서",
+      "start": 0.24,
+      "end": 0.7,
+      "probability": 0.998046875,
+      "sentenceId": "N001_S01"
+    },
+    {
+      "word": " 총이",
+      "start": 0.7,
+      "end": 1.04,
+      "probability": 1.0,
+      "sentenceId": "N001_S01"
+    },
+    {
+      "word": " 터졌습니다.",
+      "start": 1.04,
+      "end": 1.54,
+      "probability": 0.99951171875,
+      "sentenceId": "N001_S01"
+    },
+    {
+      "word": " 출납",
+      "start": 1.905,
+      "end": 2.185,
+      "probability": 0.990234375,
+      "sentenceId": "N001_S02"
+    },
+    {
+      "word": " 과장이",
+      "start": 2.185,
+      "end": 2.505,
+      "probability": 0.8701171875,
+      "sentenceId": "N001_S02"
+    },
+    {
+      "word": " 쓰러졌습니다.",
+      "start": 2.505,
+      "end": 3.105,
+      "probability": 0.99951171875,
+      "sentenceId": "N001_S02"
+    },
+    {
+      "word": " 빼앗긴",
+      "start": 3.51,
+      "end": 3.79,
+      "probability": 0.9931640625,
+      "sentenceId": "N002_S01"
+    },
+    {
+      "word": " 돈은",
+      "start": 3.79,
+      "end": 4.029999999999999,
+      "probability": 0.99853515625,
+      "sentenceId": "N002_S01"
+    },
+    {
+      "word": " 3억원.",
+      "start": 4.029999999999999,
+      "end": 4.51,
+      "probability": 0.91015625,
+      "sentenceId": "N002_S01"
+    },
+    {
+      "word": " 버린",
+      "start": 4.77,
+      "end": 4.989999999999999,
+      "probability": 0.90869140625,
+      "sentenceId": "N002_S02"
+    },
+    {
+      "word": " 마스크가",
+      "start": 4.989999999999999,
+      "end": 5.47,
+      "probability": 0.99951171875,
+      "sentenceId": "N002_S02"
+    },
+    {
+      "word": " 어떻게",
+      "start": 5.47,
+      "end": 5.77,
+      "probability": 1.0,
+      "sentenceId": "N002_S02"
+    },
+    {
+      "word": " 범인들을",
+      "start": 5.77,
+      "end": 6.33,
+      "probability": 0.99951171875,
+      "sentenceId": "N002_S02"
+    },
+    {
+      "word": " 붙잡았을까요?",
+      "start": 6.33,
+      "end": 7.049999999999999,
+      "probability": 1.0,
+      "sentenceId": "N002_S02"
+    },
+    {
+      "word": " 그",
+      "start": 7.455,
+      "end": 7.535,
+      "probability": 0.9990234375,
+      "sentenceId": "N003_S01"
+    },
+    {
+      "word": " 천조각이",
+      "start": 7.535,
+      "end": 8.055,
+      "probability": 0.88671875,
+      "sentenceId": "N003_S01"
+    },
+    {
+      "word": " 약",
+      "start": 8.055,
+      "end": 8.235,
+      "probability": 1.0,
+      "sentenceId": "N003_S01"
+    },
+    {
+      "word": " 20년",
+      "start": 8.235,
+      "end": 8.615,
+      "probability": 0.9990234375,
+      "sentenceId": "N003_S01"
+    },
+    {
+      "word": " 8개월을",
+      "start": 8.615,
+      "end": 9.135,
+      "probability": 0.99853515625,
+      "sentenceId": "N003_S01"
+    },
+    {
+      "word": " 건너",
+      "start": 9.135,
+      "end": 9.375,
+      "probability": 0.99951171875,
+      "sentenceId": "N003_S01"
+    },
+    {
+      "word": " 공범을",
+      "start": 9.375,
+      "end": 9.875,
+      "probability": 0.9990234375,
+      "sentenceId": "N003_S01"
+    },
+    {
+      "word": " 가리킵니다.",
+      "start": 9.875,
+      "end": 10.315,
+      "probability": 0.9990234375,
+      "sentenceId": "N003_S01"
+    },
+    {
+      "word": " 그리고",
+      "start": 10.645,
+      "end": 10.844999999999999,
+      "probability": 0.99951171875,
+      "sentenceId": "N003_S02"
+    },
+    {
+      "word": " 20년형은",
+      "start": 10.844999999999999,
+      "end": 11.545,
+      "probability": 0.9951171875,
+      "sentenceId": "N003_S02"
+    },
+    {
+      "word": " 왜",
+      "start": 11.545,
+      "end": 11.745,
+      "probability": 1.0,
+      "sentenceId": "N003_S02"
+    },
+    {
+      "word": " 무기징역으로",
+      "start": 11.745,
+      "end": 12.504999999999999,
+      "probability": 0.994140625,
+      "sentenceId": "N003_S02"
+    },
+    {
+      "word": " 뒤집혔을까요?",
+      "start": 12.504999999999999,
+      "end": 13.205,
+      "probability": 0.9990234375,
+      "sentenceId": "N003_S02"
+    },
+    {
+      "word": " 2001년",
+      "start": 13.59,
+      "end": 14.05,
+      "probability": 0.98974609375,
+      "sentenceId": "N004_S01"
+    },
+    {
+      "word": " 12월",
+      "start": 14.05,
+      "end": 14.43,
+      "probability": 1.0,
+      "sentenceId": "N004_S01"
+    },
+    {
+      "word": " 21일",
+      "start": 14.43,
+      "end": 14.91,
+      "probability": 0.998046875,
+      "sentenceId": "N004_S01"
+    },
+    {
+      "word": " 오전",
+      "start": 14.91,
+      "end": 15.21,
+      "probability": 0.9931640625,
+      "sentenceId": "N004_S01"
+    },
+    {
+      "word": " 10시쯤",
+      "start": 15.21,
+      "end": 15.61,
+      "probability": 0.99755859375,
+      "sentenceId": "N004_S01"
+    },
+    {
+      "word": " 대전",
+      "start": 15.885,
+      "end": 16.125,
+      "probability": 0.9619140625,
+      "sentenceId": "N004_S02"
+    },
+    {
+      "word": " 둔산동",
+      "start": 16.125,
+      "end": 16.565,
+      "probability": 0.99609375,
+      "sentenceId": "N004_S02"
+    },
+    {
+      "word": " 국민은행",
+      "start": 16.565,
+      "end": 17.105,
+      "probability": 0.9990234375,
+      "sentenceId": "N004_S02"
+    },
+    {
+      "word": " 건물",
+      "start": 17.105,
+      "end": 17.405,
+      "probability": 0.99853515625,
+      "sentenceId": "N004_S02"
+    },
+    {
+      "word": " 지하주차장입니다.",
+      "start": 17.405,
+      "end": 18.165,
+      "probability": 0.98291015625,
+      "sentenceId": "N004_S02"
+    },
+    {
+      "word": " 은행",
+      "start": 18.535,
+      "end": 18.735,
+      "probability": 0.99951171875,
+      "sentenceId": "N005_S01"
+    },
+    {
+      "word": " 관계자",
+      "start": 18.735,
+      "end": 19.115,
+      "probability": 0.99853515625,
+      "sentenceId": "N005_S01"
+    },
+    {
+      "word": " 3명이",
+      "start": 19.115,
+      "end": 19.475,
+      "probability": 0.986328125,
+      "sentenceId": "N005_S01"
+    },
+    {
+      "word": " 돈가방을",
+      "start": 19.475,
+      "end": 20.075,
+      "probability": 0.9296875,
+      "sentenceId": "N005_S01"
+    },
+    {
+      "word": " 옮기던",
+      "start": 20.075,
+      "end": 20.375,
+      "probability": 0.99951171875,
+      "sentenceId": "N005_S01"
+    },
+    {
+      "word": " 순간",
+      "start": 20.375,
+      "end": 20.555,
+      "probability": 0.99951171875,
+      "sentenceId": "N005_S01"
+    },
+    {
+      "word": " 검은",
+      "start": 20.94,
+      "end": 21.16,
+      "probability": 0.99853515625,
+      "sentenceId": "N005_S02"
+    },
+    {
+      "word": " 승용차가",
+      "start": 21.16,
+      "end": 21.68,
+      "probability": 0.99951171875,
+      "sentenceId": "N005_S02"
+    },
+    {
+      "word": " 길을",
+      "start": 21.68,
+      "end": 21.94,
+      "probability": 0.9970703125,
+      "sentenceId": "N005_S02"
+    },
+    {
+      "word": " 막습니다.",
+      "start": 21.94,
+      "end": 22.28,
+      "probability": 0.99951171875,
+      "sentenceId": "N005_S02"
+    },
+    {
+      "word": " 복면을",
+      "start": 22.7,
+      "end": 23.099999999999998,
+      "probability": 0.99560546875,
+      "sentenceId": "N005_S03"
+    },
+    {
+      "word": " 쓴",
+      "start": 23.099999999999998,
+      "end": 23.3,
+      "probability": 1.0,
+      "sentenceId": "N005_S03"
+    },
+    {
+      "word": " 이인조입니다.",
+      "start": 23.3,
+      "end": 23.84,
+      "probability": 0.89404296875,
+      "sentenceId": "N005_S03"
+    },
+    {
+      "word": " 현장에는",
+      "start": 24.23,
+      "end": 24.650000000000002,
+      "probability": 0.99951171875,
+      "sentenceId": "N006_S01"
+    },
+    {
+      "word": " 권총이",
+      "start": 24.650000000000002,
+      "end": 25.150000000000002,
+      "probability": 0.99951171875,
+      "sentenceId": "N006_S01"
+    },
+    {
+      "word": " 등장했습니다.",
+      "start": 25.150000000000002,
+      "end": 25.65,
+      "probability": 1.0,
+      "sentenceId": "N006_S01"
+    },
+    {
+      "word": " 총격으로",
+      "start": 26.09,
+      "end": 26.47,
+      "probability": 0.99755859375,
+      "sentenceId": "N006_S02"
+    },
+    {
+      "word": " 숨진",
+      "start": 26.47,
+      "end": 26.75,
+      "probability": 0.9990234375,
+      "sentenceId": "N006_S02"
+    },
+    {
+      "word": " 사람은",
+      "start": 26.75,
+      "end": 27.13,
+      "probability": 1.0,
+      "sentenceId": "N006_S02"
+    },
+    {
+      "word": " 현금",
+      "start": 27.13,
+      "end": 27.47,
+      "probability": 1.0,
+      "sentenceId": "N006_S02"
+    },
+    {
+      "word": " 운송을",
+      "start": 27.47,
+      "end": 27.81,
+      "probability": 0.974609375,
+      "sentenceId": "N006_S02"
+    },
+    {
+      "word": " 맡은",
+      "start": 27.81,
+      "end": 28.11,
+      "probability": 1.0,
+      "sentenceId": "N006_S02"
+    },
+    {
+      "word": " 40대",
+      "start": 28.11,
+      "end": 28.59,
+      "probability": 0.9990234375,
+      "sentenceId": "N006_S02"
+    },
+    {
+      "word": " 출납",
+      "start": 28.59,
+      "end": 28.93,
+      "probability": 0.9970703125,
+      "sentenceId": "N006_S02"
+    },
+    {
+      "word": " 과장입니다.",
+      "start": 28.93,
+      "end": 29.31,
+      "probability": 0.92236328125,
+      "sentenceId": "N006_S02"
+    },
+    {
+      "word": " 일터에",
+      "start": 29.655,
+      "end": 30.035,
+      "probability": 0.99609375,
+      "sentenceId": "N007_S01"
+    },
+    {
+      "word": " 온",
+      "start": 30.035,
+      "end": 30.175,
+      "probability": 0.9990234375,
+      "sentenceId": "N007_S01"
+    },
+    {
+      "word": " 사람이",
+      "start": 30.175,
+      "end": 30.515,
+      "probability": 0.9990234375,
+      "sentenceId": "N007_S01"
+    },
+    {
+      "word": " 목숨을",
+      "start": 30.515,
+      "end": 31.035,
+      "probability": 0.9990234375,
+      "sentenceId": "N007_S01"
+    },
+    {
+      "word": " 잃었습니다.",
+      "start": 31.035,
+      "end": 31.315,
+      "probability": 0.99853515625,
+      "sentenceId": "N007_S01"
+    },
+    {
+      "word": " 법원은",
+      "start": 31.77,
+      "end": 32.07,
+      "probability": 0.99951171875,
+      "sentenceId": "N007_S02"
+    },
+    {
+      "word": " 그가",
+      "start": 32.07,
+      "end": 32.31,
+      "probability": 1.0,
+      "sentenceId": "N007_S02"
+    },
+    {
+      "word": " 직무에",
+      "start": 32.31,
+      "end": 32.67,
+      "probability": 0.99853515625,
+      "sentenceId": "N007_S02"
+    },
+    {
+      "word": " 충실하며",
+      "start": 32.67,
+      "end": 33.29,
+      "probability": 0.99951171875,
+      "sentenceId": "N007_S02"
+    },
+    {
+      "word": " 강도",
+      "start": 33.29,
+      "end": 33.69,
+      "probability": 0.99853515625,
+      "sentenceId": "N007_S02"
+    },
+    {
+      "word": " 범행을",
+      "start": 33.69,
+      "end": 34.07,
+      "probability": 0.986328125,
+      "sentenceId": "N007_S02"
+    },
+    {
+      "word": " 막으려다",
+      "start": 34.07,
+      "end": 34.51,
+      "probability": 1.0,
+      "sentenceId": "N007_S02"
+    },
+    {
+      "word": " 숨졌다고",
+      "start": 34.51,
+      "end": 35.05,
+      "probability": 0.9990234375,
+      "sentenceId": "N007_S02"
+    },
+    {
+      "word": " 짚었습니다.",
+      "start": 35.05,
+      "end": 35.43,
+      "probability": 0.99755859375,
+      "sentenceId": "N007_S02"
+    },
+    {
+      "word": " 가방은",
+      "start": 35.845,
+      "end": 36.144999999999996,
+      "probability": 0.99951171875,
+      "sentenceId": "N008_S01"
+    },
+    {
+      "word": " 2개,",
+      "start": 36.144999999999996,
+      "end": 36.385,
+      "probability": 0.916015625,
+      "sentenceId": "N008_S01"
+    },
+    {
+      "word": " 각각",
+      "start": 36.504999999999995,
+      "end": 36.725,
+      "probability": 1.0,
+      "sentenceId": "N008_S01"
+    },
+    {
+      "word": " 3억원.",
+      "start": 36.725,
+      "end": 37.085,
+      "probability": 0.94775390625,
+      "sentenceId": "N008_S01"
+    },
+    {
+      "word": " 범인들은",
+      "start": 37.36,
+      "end": 37.78,
+      "probability": 0.99755859375,
+      "sentenceId": "N008_S02"
+    },
+    {
+      "word": " 그",
+      "start": 37.78,
+      "end": 37.98,
+      "probability": 1.0,
+      "sentenceId": "N008_S02"
+    },
+    {
+      "word": " 중",
+      "start": 37.98,
+      "end": 38.1,
+      "probability": 0.8515625,
+      "sentenceId": "N008_S02"
+    },
+    {
+      "word": " 하나를",
+      "start": 38.1,
+      "end": 38.48,
+      "probability": 0.99951171875,
+      "sentenceId": "N008_S02"
+    },
+    {
+      "word": " 가져갔습니다.",
+      "start": 38.48,
+      "end": 39.12,
+      "probability": 0.9990234375,
+      "sentenceId": "N008_S02"
+    },
+    {
+      "word": " 운송액",
+      "start": 39.5,
+      "end": 39.88,
+      "probability": 0.99951171875,
+      "sentenceId": "N008_S03"
+    },
+    {
+      "word": " 6억",
+      "start": 39.88,
+      "end": 40.14,
+      "probability": 0.99951171875,
+      "sentenceId": "N008_S03"
+    },
+    {
+      "word": " 원과",
+      "start": 40.14,
+      "end": 40.44,
+      "probability": 0.91748046875,
+      "sentenceId": "N008_S03"
+    },
+    {
+      "word": " 빼앗긴",
+      "start": 40.44,
+      "end": 40.88,
+      "probability": 0.998046875,
+      "sentenceId": "N008_S03"
+    },
+    {
+      "word": " 3억",
+      "start": 40.88,
+      "end": 41.22,
+      "probability": 1.0,
+      "sentenceId": "N008_S03"
+    },
+    {
+      "word": " 원은",
+      "start": 41.22,
+      "end": 41.4,
+      "probability": 0.998046875,
+      "sentenceId": "N008_S03"
+    },
+    {
+      "word": " 다릅니다.",
+      "start": 41.4,
+      "end": 41.7,
+      "probability": 0.99951171875,
+      "sentenceId": "N008_S03"
+    },
+    {
+      "word": " 범행",
+      "start": 42.045,
+      "end": 42.285000000000004,
+      "probability": 0.99853515625,
+      "sentenceId": "N009_S01"
+    },
+    {
+      "word": " 차량은",
+      "start": 42.285000000000004,
+      "end": 42.665,
+      "probability": 0.9853515625,
+      "sentenceId": "N009_S01"
+    },
+    {
+      "word": " 훔친",
+      "start": 42.665,
+      "end": 43.045,
+      "probability": 0.9990234375,
+      "sentenceId": "N009_S01"
+    },
+    {
+      "word": " 그랜저였습니다.",
+      "start": 43.045,
+      "end": 43.585,
+      "probability": 0.9775390625,
+      "sentenceId": "N009_S01"
+    },
+    {
+      "word": " 2001년",
+      "start": 44.05,
+      "end": 44.51,
+      "probability": 0.99609375,
+      "sentenceId": "N009_S02"
+    },
+    {
+      "word": " 12월",
+      "start": 44.51,
+      "end": 44.989999999999995,
+      "probability": 1.0,
+      "sentenceId": "N009_S02"
+    },
+    {
+      "word": " 1일",
+      "start": 44.989999999999995,
+      "end": 45.209999999999994,
+      "probability": 1.0,
+      "sentenceId": "N009_S02"
+    },
+    {
+      "word": " 수원에서",
+      "start": 45.209999999999994,
+      "end": 45.69,
+      "probability": 0.9990234375,
+      "sentenceId": "N009_S02"
+    },
+    {
+      "word": " 시동이",
+      "start": 45.69,
+      "end": 46.15,
+      "probability": 0.9990234375,
+      "sentenceId": "N009_S02"
+    },
+    {
+      "word": " 걸린",
+      "start": 46.15,
+      "end": 46.37,
+      "probability": 1.0,
+      "sentenceId": "N009_S02"
+    },
+    {
+      "word": " 채",
+      "start": 46.37,
+      "end": 46.51,
+      "probability": 0.99462890625,
+      "sentenceId": "N009_S02"
+    },
+    {
+      "word": " 주차된",
+      "start": 46.51,
+      "end": 46.989999999999995,
+      "probability": 0.9990234375,
+      "sentenceId": "N009_S02"
+    },
+    {
+      "word": " 차를",
+      "start": 46.989999999999995,
+      "end": 47.23,
+      "probability": 1.0,
+      "sentenceId": "N009_S02"
+    },
+    {
+      "word": " 훔쳤습니다.",
+      "start": 47.23,
+      "end": 47.69,
+      "probability": 0.9990234375,
+      "sentenceId": "N009_S02"
+    },
+    {
+      "word": " 차도",
+      "start": 48.015,
+      "end": 48.235,
+      "probability": 0.9931640625,
+      "sentenceId": "N010_S01"
+    },
+    {
+      "word": " 훔쳤고",
+      "start": 48.235,
+      "end": 48.655,
+      "probability": 0.998046875,
+      "sentenceId": "N010_S01"
+    },
+    {
+      "word": " 총도",
+      "start": 48.655,
+      "end": 48.975,
+      "probability": 0.982421875,
+      "sentenceId": "N010_S01"
+    },
+    {
+      "word": " 빼앗았습니다.",
+      "start": 48.975,
+      "end": 49.395,
+      "probability": 0.98828125,
+      "sentenceId": "N010_S01"
+    },
+    {
+      "word": " 이",
+      "start": 49.88,
+      "end": 49.980000000000004,
+      "probability": 1.0,
+      "sentenceId": "N010_S02"
+    },
+    {
+      "word": " 권총의",
+      "start": 49.980000000000004,
+      "end": 50.38,
+      "probability": 0.99755859375,
+      "sentenceId": "N010_S02"
+    },
+    {
+      "word": " 출처를",
+      "start": 50.38,
+      "end": 50.74,
+      "probability": 0.998046875,
+      "sentenceId": "N010_S02"
+    },
+    {
+      "word": " 따라가면",
+      "start": 50.74,
+      "end": 51.260000000000005,
+      "probability": 0.99951171875,
+      "sentenceId": "N010_S02"
+    },
+    {
+      "word": " 은행",
+      "start": 51.260000000000005,
+      "end": 51.580000000000005,
+      "probability": 0.9990234375,
+      "sentenceId": "N010_S02"
+    },
+    {
+      "word": " 사건보다",
+      "start": 51.580000000000005,
+      "end": 52.040000000000006,
+      "probability": 0.9736328125,
+      "sentenceId": "N010_S02"
+    },
+    {
+      "word": " 앞선",
+      "start": 52.040000000000006,
+      "end": 52.5,
+      "probability": 0.9990234375,
+      "sentenceId": "N010_S02"
+    },
+    {
+      "word": " 범행이",
+      "start": 52.5,
+      "end": 52.86,
+      "probability": 0.9990234375,
+      "sentenceId": "N010_S02"
+    },
+    {
+      "word": " 나옵니다.",
+      "start": 52.86,
+      "end": 53.2,
+      "probability": 1.0,
+      "sentenceId": "N010_S02"
+    },
+    {
+      "word": " 2001년",
+      "start": 53.47,
+      "end": 53.99,
+      "probability": 0.994140625,
+      "sentenceId": "N011_S01"
+    },
+    {
+      "word": " 10월",
+      "start": 53.99,
+      "end": 54.29,
+      "probability": 1.0,
+      "sentenceId": "N011_S01"
+    },
+    {
+      "word": " 15일",
+      "start": 54.29,
+      "end": 54.629999999999995,
+      "probability": 0.9990234375,
+      "sentenceId": "N011_S01"
+    },
+    {
+      "word": " 자정",
+      "start": 54.629999999999995,
+      "end": 54.87,
+      "probability": 0.9970703125,
+      "sentenceId": "N011_S01"
+    },
+    {
+      "word": " 무렵.",
+      "start": 54.87,
+      "end": 55.11,
+      "probability": 0.9970703125,
+      "sentenceId": "N011_S01"
+    },
+    {
+      "word": " 두",
+      "start": 55.375,
+      "end": 55.455,
+      "probability": 0.9990234375,
+      "sentenceId": "N011_S02"
+    },
+    {
+      "word": " 사람은",
+      "start": 55.455,
+      "end": 55.855,
+      "probability": 1.0,
+      "sentenceId": "N011_S02"
+    },
+    {
+      "word": " 걸어서",
+      "start": 55.855,
+      "end": 56.215,
+      "probability": 1.0,
+      "sentenceId": "N011_S02"
+    },
+    {
+      "word": " 순찰하던",
+      "start": 56.215,
+      "end": 56.755,
+      "probability": 0.9990234375,
+      "sentenceId": "N011_S02"
+    },
+    {
+      "word": " 경찰관을",
+      "start": 56.755,
+      "end": 57.375,
+      "probability": 0.99365234375,
+      "sentenceId": "N011_S02"
+    },
+    {
+      "word": " 차로",
+      "start": 57.375,
+      "end": 57.615,
+      "probability": 0.99951171875,
+      "sentenceId": "N011_S02"
+    },
+    {
+      "word": " 들이받고",
+      "start": 57.615,
+      "end": 58.055,
+      "probability": 0.99658203125,
+      "sentenceId": "N011_S02"
+    },
+    {
+      "word": " 권총을",
+      "start": 58.055,
+      "end": 58.575,
+      "probability": 0.9990234375,
+      "sentenceId": "N011_S02"
+    },
+    {
+      "word": " 빼앗았습니다.",
+      "start": 58.575,
+      "end": 58.995,
+      "probability": 0.9990234375,
+      "sentenceId": "N011_S02"
+    },
+    {
+      "word": " 그",
+      "start": 59.47,
+      "end": 59.55,
+      "probability": 0.99951171875,
+      "sentenceId": "N012_S01"
+    },
+    {
+      "word": " 경찰관은",
+      "start": 59.55,
+      "end": 60.11,
+      "probability": 0.984375,
+      "sentenceId": "N012_S01"
+    },
+    {
+      "word": " 크게",
+      "start": 60.11,
+      "end": 60.37,
+      "probability": 1.0,
+      "sentenceId": "N012_S01"
+    },
+    {
+      "word": " 다쳤습니다.",
+      "start": 60.37,
+      "end": 60.87,
+      "probability": 0.99951171875,
+      "sentenceId": "N012_S01"
+    },
+    {
+      "word": " 여기서",
+      "start": 61.22,
+      "end": 61.48,
+      "probability": 0.9990234375,
+      "sentenceId": "N012_S02"
+    },
+    {
+      "word": " 살해된",
+      "start": 61.48,
+      "end": 61.96,
+      "probability": 0.98095703125,
+      "sentenceId": "N012_S02"
+    },
+    {
+      "word": " 것으로",
+      "start": 61.96,
+      "end": 62.22,
+      "probability": 0.99609375,
+      "sentenceId": "N012_S02"
+    },
+    {
+      "word": " 바꾸면",
+      "start": 62.22,
+      "end": 62.699999999999996,
+      "probability": 0.99951171875,
+      "sentenceId": "N012_S02"
+    },
+    {
+      "word": " 안",
+      "start": 62.699999999999996,
+      "end": 62.82,
+      "probability": 0.69873046875,
+      "sentenceId": "N012_S02"
+    },
+    {
+      "word": " 됩니다.",
+      "start": 62.82,
+      "end": 63.019999999999996,
+      "probability": 1.0,
+      "sentenceId": "N012_S02"
+    },
+    {
+      "word": " 은행",
+      "start": 63.46,
+      "end": 63.660000000000004,
+      "probability": 1.0,
+      "sentenceId": "N012_S03"
+    },
+    {
+      "word": " 범행에는",
+      "start": 63.660000000000004,
+      "end": 64.08,
+      "probability": 0.99853515625,
+      "sentenceId": "N012_S03"
+    },
+    {
+      "word": " 빼앗은",
+      "start": 64.08,
+      "end": 64.56,
+      "probability": 0.9990234375,
+      "sentenceId": "N012_S03"
+    },
+    {
+      "word": " 38국영",
+      "start": 64.56,
+      "end": 65.32000000000001,
+      "probability": 0.72119140625,
+      "sentenceId": "N012_S03"
+    },
+    {
+      "word": " 권총이",
+      "start": 65.32000000000001,
+      "end": 65.78,
+      "probability": 0.9619140625,
+      "sentenceId": "N012_S03"
+    },
+    {
+      "word": " 쓰였습니다.",
+      "start": 65.78,
+      "end": 66.08,
+      "probability": 0.9990234375,
+      "sentenceId": "N012_S03"
+    },
+    {
+      "word": " 은행",
+      "start": 66.535,
+      "end": 66.77499999999999,
+      "probability": 0.9990234375,
+      "sentenceId": "N013_S01"
+    },
+    {
+      "word": " 주차장에는",
+      "start": 66.77499999999999,
+      "end": 67.395,
+      "probability": 0.98828125,
+      "sentenceId": "N013_S01"
+    },
+    {
+      "word": " cctv도",
+      "start": 67.395,
+      "end": 68.05499999999999,
+      "probability": 0.875,
+      "sentenceId": "N013_S01"
+    },
+    {
+      "word": " 없었습니다.",
+      "start": 68.05499999999999,
+      "end": 68.49499999999999,
+      "probability": 0.99609375,
+      "sentenceId": "N013_S01"
+    },
+    {
+      "word": " 범행",
+      "start": 68.92,
+      "end": 69.2,
+      "probability": 0.9990234375,
+      "sentenceId": "N013_S02"
+    },
+    {
+      "word": " 순간에",
+      "start": 69.2,
+      "end": 69.58,
+      "probability": 0.97216796875,
+      "sentenceId": "N013_S02"
+    },
+    {
+      "word": " 영상이",
+      "start": 69.58,
+      "end": 70.0,
+      "probability": 0.978515625,
+      "sentenceId": "N013_S02"
+    },
+    {
+      "word": " 남아",
+      "start": 70.0,
+      "end": 70.32000000000001,
+      "probability": 0.99951171875,
+      "sentenceId": "N013_S02"
+    },
+    {
+      "word": " 범인을",
+      "start": 70.32000000000001,
+      "end": 70.72,
+      "probability": 0.998046875,
+      "sentenceId": "N013_S02"
+    },
+    {
+      "word": " 잡은",
+      "start": 70.72,
+      "end": 70.98,
+      "probability": 0.9970703125,
+      "sentenceId": "N013_S02"
+    },
+    {
+      "word": " 사건이",
+      "start": 70.98,
+      "end": 71.34,
+      "probability": 0.9931640625,
+      "sentenceId": "N013_S02"
+    },
+    {
+      "word": " 아닙니다.",
+      "start": 71.34,
+      "end": 71.7,
+      "probability": 1.0,
+      "sentenceId": "N013_S02"
+    },
+    {
+      "word": " 범인들은",
+      "start": 71.985,
+      "end": 72.365,
+      "probability": 0.99609375,
+      "sentenceId": "N014_S01"
+    },
+    {
+      "word": " 인근",
+      "start": 72.365,
+      "end": 72.665,
+      "probability": 1.0,
+      "sentenceId": "N014_S01"
+    },
+    {
+      "word": " 상가",
+      "start": 72.665,
+      "end": 72.965,
+      "probability": 0.99755859375,
+      "sentenceId": "N014_S01"
+    },
+    {
+      "word": " 지하에서",
+      "start": 72.965,
+      "end": 73.425,
+      "probability": 0.99951171875,
+      "sentenceId": "N014_S01"
+    },
+    {
+      "word": " 차를",
+      "start": 73.425,
+      "end": 73.785,
+      "probability": 1.0,
+      "sentenceId": "N014_S01"
+    },
+    {
+      "word": " 버리고",
+      "start": 73.785,
+      "end": 74.105,
+      "probability": 1.0,
+      "sentenceId": "N014_S01"
+    },
+    {
+      "word": " 다른",
+      "start": 74.105,
+      "end": 74.485,
+      "probability": 0.9990234375,
+      "sentenceId": "N014_S01"
+    },
+    {
+      "word": " 차로",
+      "start": 74.485,
+      "end": 74.765,
+      "probability": 0.9990234375,
+      "sentenceId": "N014_S01"
+    },
+    {
+      "word": " 갈아탔습니다.",
+      "start": 74.765,
+      "end": 75.345,
+      "probability": 0.9970703125,
+      "sentenceId": "N014_S01"
+    },
+    {
+      "word": " 버릴",
+      "start": 75.685,
+      "end": 75.905,
+      "probability": 0.98291015625,
+      "sentenceId": "N014_S02"
+    },
+    {
+      "word": " 건",
+      "start": 75.905,
+      "end": 76.065,
+      "probability": 0.958984375,
+      "sentenceId": "N014_S02"
+    },
+    {
+      "word": " 차만이",
+      "start": 76.065,
+      "end": 76.485,
+      "probability": 0.9443359375,
+      "sentenceId": "N014_S02"
+    },
+    {
+      "word": " 아니었습니다.",
+      "start": 76.485,
+      "end": 76.86500000000001,
+      "probability": 0.9990234375,
+      "sentenceId": "N014_S02"
+    },
+    {
+      "word": " 차량의",
+      "start": 77.375,
+      "end": 77.715,
+      "probability": 0.947265625,
+      "sentenceId": "N015_S01"
+    },
+    {
+      "word": " 불을",
+      "start": 77.715,
+      "end": 77.995,
+      "probability": 0.9912109375,
+      "sentenceId": "N015_S01"
+    },
+    {
+      "word": " 내",
+      "start": 77.995,
+      "end": 78.095,
+      "probability": 0.935546875,
+      "sentenceId": "N015_S01"
+    },
+    {
+      "word": " 증거까지",
+      "start": 78.095,
+      "end": 78.635,
+      "probability": 0.994140625,
+      "sentenceId": "N015_S01"
+    },
+    {
+      "word": " 없애려",
+      "start": 78.635,
+      "end": 79.095,
+      "probability": 0.98828125,
+      "sentenceId": "N015_S01"
+    },
+    {
+      "word": " 했습니다.",
+      "start": 79.095,
+      "end": 79.315,
+      "probability": 0.98828125,
+      "sentenceId": "N015_S01"
+    },
+    {
+      "word": " 하지만",
+      "start": 79.775,
+      "end": 79.995,
+      "probability": 0.9990234375,
+      "sentenceId": "N015_S02"
+    },
+    {
+      "word": " 마스크와",
+      "start": 79.995,
+      "end": 80.575,
+      "probability": 0.99951171875,
+      "sentenceId": "N015_S02"
+    },
+    {
+      "word": " 손수건은",
+      "start": 80.575,
+      "end": 81.135,
+      "probability": 0.91845703125,
+      "sentenceId": "N015_S02"
+    },
+    {
+      "word": " 남았습니다.",
+      "start": 81.135,
+      "end": 81.53500000000001,
+      "probability": 1.0,
+      "sentenceId": "N015_S02"
+    },
+    {
+      "word": " 지우려던",
+      "start": 82.01,
+      "end": 82.49000000000001,
+      "probability": 0.98974609375,
+      "sentenceId": "N015_S03"
+    },
+    {
+      "word": " 흔적이",
+      "start": 82.49000000000001,
+      "end": 82.93,
+      "probability": 0.998046875,
+      "sentenceId": "N015_S03"
+    },
+    {
+      "word": " 살아남은",
+      "start": 82.93,
+      "end": 83.39,
+      "probability": 0.99267578125,
+      "sentenceId": "N015_S03"
+    },
+    {
+      "word": " 겁니다.",
+      "start": 83.39,
+      "end": 83.57000000000001,
+      "probability": 0.96240234375,
+      "sentenceId": "N015_S03"
+    },
+    {
+      "word": " 증거",
+      "start": 83.995,
+      "end": 84.215,
+      "probability": 1.0,
+      "sentenceId": "N016_S01"
+    },
+    {
+      "word": " 삭제라더니",
+      "start": 84.215,
+      "end": 84.775,
+      "probability": 0.9951171875,
+      "sentenceId": "N016_S01"
+    },
+    {
+      "word": " 천",
+      "start": 84.775,
+      "end": 85.075,
+      "probability": 0.9501953125,
+      "sentenceId": "N016_S01"
+    },
+    {
+      "word": " 조각은",
+      "start": 85.075,
+      "end": 85.415,
+      "probability": 0.94677734375,
+      "sentenceId": "N016_S01"
+    },
+    {
+      "word": " 삭제가",
+      "start": 85.415,
+      "end": 85.715,
+      "probability": 0.9990234375,
+      "sentenceId": "N016_S01"
+    },
+    {
+      "word": " 안됐네요.",
+      "start": 85.715,
+      "end": 86.215,
+      "probability": 0.90234375,
+      "sentenceId": "N016_S01"
+    },
+    {
+      "word": " 범인들의",
+      "start": 86.54,
+      "end": 86.96000000000001,
+      "probability": 0.99658203125,
+      "sentenceId": "N016_S02"
+    },
+    {
+      "word": " 증거인멸",
+      "start": 86.96000000000001,
+      "end": 87.56,
+      "probability": 0.970703125,
+      "sentenceId": "N016_S02"
+    },
+    {
+      "word": " 계획에",
+      "start": 87.56,
+      "end": 87.94000000000001,
+      "probability": 0.994140625,
+      "sentenceId": "N016_S02"
+    },
+    {
+      "word": " 구멍이",
+      "start": 87.94000000000001,
+      "end": 88.38000000000001,
+      "probability": 0.99853515625,
+      "sentenceId": "N016_S02"
+    },
+    {
+      "word": " 남은",
+      "start": 88.38000000000001,
+      "end": 88.60000000000001,
+      "probability": 0.99951171875,
+      "sentenceId": "N016_S02"
+    },
+    {
+      "word": " 겁니다.",
+      "start": 88.60000000000001,
+      "end": 88.7,
+      "probability": 0.99462890625,
+      "sentenceId": "N016_S02"
+    },
+    {
+      "word": " 그런데",
+      "start": 89.15,
+      "end": 89.37,
+      "probability": 0.99951171875,
+      "sentenceId": "N017_S01"
+    },
+    {
+      "word": " 물건이",
+      "start": 89.37,
+      "end": 89.85000000000001,
+      "probability": 0.99951171875,
+      "sentenceId": "N017_S01"
+    },
+    {
+      "word": " 남았다고",
+      "start": 89.85000000000001,
+      "end": 90.33000000000001,
+      "probability": 1.0,
+      "sentenceId": "N017_S01"
+    },
+    {
+      "word": " 바로",
+      "start": 90.33000000000001,
+      "end": 90.61,
+      "probability": 1.0,
+      "sentenceId": "N017_S01"
+    },
+    {
+      "word": " 풀리진",
+      "start": 90.61,
+      "end": 91.09,
+      "probability": 0.98828125,
+      "sentenceId": "N017_S01"
+    },
+    {
+      "word": " 않았습니다.",
+      "start": 91.09,
+      "end": 91.55000000000001,
+      "probability": 0.99951171875,
+      "sentenceId": "N017_S01"
+    },
+    {
+      "word": " 사건",
+      "start": 91.925,
+      "end": 92.205,
+      "probability": 0.99609375,
+      "sentenceId": "N017_S02"
+    },
+    {
+      "word": " 직후",
+      "start": 92.205,
+      "end": 92.52499999999999,
+      "probability": 0.9990234375,
+      "sentenceId": "N017_S02"
+    },
+    {
+      "word": " 감식에서는",
+      "start": 92.52499999999999,
+      "end": 93.125,
+      "probability": 0.99609375,
+      "sentenceId": "N017_S02"
+    },
+    {
+      "word": " 마스크의",
+      "start": 93.125,
+      "end": 93.785,
+      "probability": 0.9716796875,
+      "sentenceId": "N017_S02"
+    },
+    {
+      "word": " dna를",
+      "start": 93.785,
+      "end": 94.285,
+      "probability": 0.8125,
+      "sentenceId": "N017_S02"
+    },
+    {
+      "word": " 검출하지",
+      "start": 94.285,
+      "end": 94.765,
+      "probability": 0.90478515625,
+      "sentenceId": "N017_S02"
+    },
+    {
+      "word": " 못했습니다.",
+      "start": 94.765,
+      "end": 95.185,
+      "probability": 0.9921875,
+      "sentenceId": "N017_S02"
+    },
+    {
+      "word": " 증거가",
+      "start": 95.615,
+      "end": 95.99499999999999,
+      "probability": 0.99853515625,
+      "sentenceId": "N018_S01"
+    },
+    {
+      "word": " 없었던",
+      "start": 95.99499999999999,
+      "end": 96.35499999999999,
+      "probability": 0.99951171875,
+      "sentenceId": "N018_S01"
+    },
+    {
+      "word": " 게",
+      "start": 96.35499999999999,
+      "end": 96.475,
+      "probability": 0.8623046875,
+      "sentenceId": "N018_S01"
+    },
+    {
+      "word": " 아닙니다.",
+      "start": 96.475,
+      "end": 96.85499999999999,
+      "probability": 1.0,
+      "sentenceId": "N018_S01"
+    },
+    {
+      "word": " 증거에서",
+      "start": 97.18,
+      "end": 97.7,
+      "probability": 0.9931640625,
+      "sentenceId": "N018_S02"
+    },
+    {
+      "word": " 이름으로",
+      "start": 97.7,
+      "end": 98.14,
+      "probability": 0.9990234375,
+      "sentenceId": "N018_S02"
+    },
+    {
+      "word": " 가는",
+      "start": 98.14,
+      "end": 98.34,
+      "probability": 0.99951171875,
+      "sentenceId": "N018_S02"
+    },
+    {
+      "word": " 길이",
+      "start": 98.34,
+      "end": 98.62,
+      "probability": 0.99755859375,
+      "sentenceId": "N018_S02"
+    },
+    {
+      "word": " 막혀",
+      "start": 98.62,
+      "end": 98.94000000000001,
+      "probability": 0.998046875,
+      "sentenceId": "N018_S02"
+    },
+    {
+      "word": " 있었습니다.",
+      "start": 98.94000000000001,
+      "end": 99.44000000000001,
+      "probability": 0.9765625,
+      "sentenceId": "N018_S02"
+    },
+    {
+      "word": " 수거품은",
+      "start": 99.825,
+      "end": 100.285,
+      "probability": 0.9970703125,
+      "sentenceId": "N018_S03"
+    },
+    {
+      "word": " 둔산경찰서에",
+      "start": 100.285,
+      "end": 101.165,
+      "probability": 0.95166015625,
+      "sentenceId": "N018_S03"
+    },
+    {
+      "word": " 보관됐습니다.",
+      "start": 101.165,
+      "end": 101.765,
+      "probability": 0.99853515625,
+      "sentenceId": "N018_S03"
+    },
+    {
+      "word": " 초기에는",
+      "start": 102.13,
+      "end": 102.50999999999999,
+      "probability": 0.99658203125,
+      "sentenceId": "N019_S01"
+    },
+    {
+      "word": " 사람",
+      "start": 102.50999999999999,
+      "end": 102.83,
+      "probability": 0.95751953125,
+      "sentenceId": "N019_S01"
+    },
+    {
+      "word": " 5",
+      "start": 102.83,
+      "end": 103.00999999999999,
+      "probability": 0.8642578125,
+      "sentenceId": "N019_S01"
+    },
+    {
+      "word": ",321명과",
+      "start": 103.00999999999999,
+      "end": 104.17,
+      "probability": 0.99365234375,
+      "sentenceId": "N019_S01"
+    },
+    {
+      "word": " 차량",
+      "start": 104.17,
+      "end": 104.55,
+      "probability": 0.998046875,
+      "sentenceId": "N019_S01"
+    },
+    {
+      "word": " 9",
+      "start": 104.55,
+      "end": 104.77,
+      "probability": 0.99853515625,
+      "sentenceId": "N019_S01"
+    },
+    {
+      "word": ",276대를",
+      "start": 104.77,
+      "end": 105.77,
+      "probability": 0.99951171875,
+      "sentenceId": "N019_S01"
+    },
+    {
+      "word": " 조사했다고",
+      "start": 105.77,
+      "end": 106.28999999999999,
+      "probability": 0.9990234375,
+      "sentenceId": "N019_S01"
+    },
+    {
+      "word": " 보도됐습니다.",
+      "start": 106.28999999999999,
+      "end": 106.85,
+      "probability": 0.998046875,
+      "sentenceId": "N019_S01"
+    },
+    {
+      "word": " 숫자는",
+      "start": 107.155,
+      "end": 107.475,
+      "probability": 0.99951171875,
+      "sentenceId": "N019_S02"
+    },
+    {
+      "word": " 엄청난데",
+      "start": 107.475,
+      "end": 108.155,
+      "probability": 0.97705078125,
+      "sentenceId": "N019_S02"
+    },
+    {
+      "word": " 범인",
+      "start": 108.155,
+      "end": 108.555,
+      "probability": 0.994140625,
+      "sentenceId": "N019_S02"
+    },
+    {
+      "word": " 이름은",
+      "start": 108.555,
+      "end": 108.815,
+      "probability": 0.998046875,
+      "sentenceId": "N019_S02"
+    },
+    {
+      "word": " 여전히",
+      "start": 108.815,
+      "end": 109.175,
+      "probability": 1.0,
+      "sentenceId": "N019_S02"
+    },
+    {
+      "word": " 비어있었습니다.",
+      "start": 109.175,
+      "end": 109.735,
+      "probability": 0.8759765625,
+      "sentenceId": "N019_S02"
+    },
+    {
+      "word": " 2002년에",
+      "start": 110.185,
+      "end": 110.785,
+      "probability": 0.99853515625,
+      "sentenceId": "N020_S01"
+    },
+    {
+      "word": " 붙잡힌",
+      "start": 110.785,
+      "end": 111.22500000000001,
+      "probability": 0.99951171875,
+      "sentenceId": "N020_S01"
+    },
+    {
+      "word": " 다른",
+      "start": 111.22500000000001,
+      "end": 111.44500000000001,
+      "probability": 1.0,
+      "sentenceId": "N020_S01"
+    },
+    {
+      "word": " 용의자",
+      "start": 111.44500000000001,
+      "end": 111.885,
+      "probability": 0.99951171875,
+      "sentenceId": "N020_S01"
+    },
+    {
+      "word": " 3명도",
+      "start": 111.885,
+      "end": 112.265,
+      "probability": 0.98193359375,
+      "sentenceId": "N020_S01"
+    },
+    {
+      "word": " 있었습니다.",
+      "start": 112.265,
+      "end": 112.765,
+      "probability": 1.0,
+      "sentenceId": "N020_S01"
+    },
+    {
+      "word": " 구속영장은",
+      "start": 113.12,
+      "end": 113.72,
+      "probability": 0.99853515625,
+      "sentenceId": "N020_S02"
+    },
+    {
+      "word": " 기각됐습니다.",
+      "start": 113.72,
+      "end": 114.36,
+      "probability": 0.998046875,
+      "sentenceId": "N020_S02"
+    },
+    {
+      "word": " 나중에",
+      "start": 114.73,
+      "end": 114.99000000000001,
+      "probability": 0.9990234375,
+      "sentenceId": "N020_S03"
+    },
+    {
+      "word": " 붙잡힌",
+      "start": 114.99000000000001,
+      "end": 115.57000000000001,
+      "probability": 0.99951171875,
+      "sentenceId": "N020_S03"
+    },
+    {
+      "word": " A와",
+      "start": 115.57000000000001,
+      "end": 115.83,
+      "probability": 0.9560546875,
+      "sentenceId": "N020_S03"
+    },
+    {
+      "word": " B와는",
+      "start": 115.83,
+      "end": 116.27000000000001,
+      "probability": 0.99951171875,
+      "sentenceId": "N020_S03"
+    },
+    {
+      "word": " 다른",
+      "start": 116.27000000000001,
+      "end": 116.59,
+      "probability": 0.99951171875,
+      "sentenceId": "N020_S03"
+    },
+    {
+      "word": " 사람들입니다.",
+      "start": 116.59,
+      "end": 117.17,
+      "probability": 0.9990234375,
+      "sentenceId": "N020_S03"
+    },
+    {
+      "word": " 2011년",
+      "start": 117.53,
+      "end": 118.13,
+      "probability": 0.998046875,
+      "sentenceId": "N021_S01"
+    },
+    {
+      "word": " 12월",
+      "start": 118.13,
+      "end": 118.65,
+      "probability": 1.0,
+      "sentenceId": "N021_S01"
+    },
+    {
+      "word": " 중요",
+      "start": 118.65,
+      "end": 118.91,
+      "probability": 0.64111328125,
+      "sentenceId": "N021_S01"
+    },
+    {
+      "word": " 미재",
+      "start": 118.91,
+      "end": 119.17,
+      "probability": 0.73583984375,
+      "sentenceId": "N021_S01"
+    },
+    {
+      "word": " 사건",
+      "start": 119.17,
+      "end": 119.41,
+      "probability": 0.73974609375,
+      "sentenceId": "N021_S01"
+    },
+    {
+      "word": " 전담",
+      "start": 119.41,
+      "end": 119.73,
+      "probability": 0.849609375,
+      "sentenceId": "N021_S01"
+    },
+    {
+      "word": " 수사팀이",
+      "start": 119.73,
+      "end": 120.25,
+      "probability": 0.99755859375,
+      "sentenceId": "N021_S01"
+    },
+    {
+      "word": " 증거와",
+      "start": 120.25,
+      "end": 120.65,
+      "probability": 1.0,
+      "sentenceId": "N021_S01"
+    },
+    {
+      "word": " 기록을",
+      "start": 120.65,
+      "end": 120.97,
+      "probability": 1.0,
+      "sentenceId": "N021_S01"
+    },
+    {
+      "word": " 인수해",
+      "start": 120.97,
+      "end": 121.35,
+      "probability": 1.0,
+      "sentenceId": "N021_S01"
+    },
+    {
+      "word": " 수사를",
+      "start": 121.35,
+      "end": 121.69,
+      "probability": 1.0,
+      "sentenceId": "N021_S01"
+    },
+    {
+      "word": " 다시",
+      "start": 121.69,
+      "end": 121.97,
+      "probability": 1.0,
+      "sentenceId": "N021_S01"
+    },
+    {
+      "word": " 시작했습니다.",
+      "start": 121.97,
+      "end": 122.53,
+      "probability": 1.0,
+      "sentenceId": "N021_S01"
+    },
+    {
+      "word": " 2015년에는",
+      "start": 122.92,
+      "end": 123.76,
+      "probability": 0.99951171875,
+      "sentenceId": "N022_S01"
+    },
+    {
+      "word": " 살인죄",
+      "start": 123.76,
+      "end": 124.26,
+      "probability": 0.998046875,
+      "sentenceId": "N022_S01"
+    },
+    {
+      "word": " 공소시효를",
+      "start": 124.26,
+      "end": 124.86,
+      "probability": 0.98779296875,
+      "sentenceId": "N022_S01"
+    },
+    {
+      "word": " 폐지한",
+      "start": 124.86,
+      "end": 125.24,
+      "probability": 0.998046875,
+      "sentenceId": "N022_S01"
+    },
+    {
+      "word": " 태환이법이",
+      "start": 125.24,
+      "end": 125.9,
+      "probability": 0.8701171875,
+      "sentenceId": "N022_S01"
+    },
+    {
+      "word": " 시행됐습니다.",
+      "start": 125.9,
+      "end": 126.56,
+      "probability": 0.99951171875,
+      "sentenceId": "N022_S01"
+    },
+    {
+      "word": " 이",
+      "start": 126.905,
+      "end": 127.025,
+      "probability": 0.99951171875,
+      "sentenceId": "N022_S02"
+    },
+    {
+      "word": " 사건도",
+      "start": 127.025,
+      "end": 127.405,
+      "probability": 0.9990234375,
+      "sentenceId": "N022_S02"
+    },
+    {
+      "word": " 수사를",
+      "start": 127.405,
+      "end": 127.745,
+      "probability": 1.0,
+      "sentenceId": "N022_S02"
+    },
+    {
+      "word": " 계속할",
+      "start": 127.745,
+      "end": 128.225,
+      "probability": 0.998046875,
+      "sentenceId": "N022_S02"
+    },
+    {
+      "word": " 수",
+      "start": 128.225,
+      "end": 128.325,
+      "probability": 1.0,
+      "sentenceId": "N022_S02"
+    },
+    {
+      "word": " 있었다고",
+      "start": 128.325,
+      "end": 128.725,
+      "probability": 0.9990234375,
+      "sentenceId": "N022_S02"
+    },
+    {
+      "word": " 보도됐습니다.",
+      "start": 128.725,
+      "end": 129.425,
+      "probability": 0.99755859375,
+      "sentenceId": "N022_S02"
+    },
+    {
+      "word": " 그리고",
+      "start": 129.79,
+      "end": 129.95,
+      "probability": 0.9990234375,
+      "sentenceId": "N023_S01"
+    },
+    {
+      "word": " 2017년",
+      "start": 129.95,
+      "end": 130.67,
+      "probability": 1.0,
+      "sentenceId": "N023_S01"
+    },
+    {
+      "word": " 재감식",
+      "start": 130.67,
+      "end": 131.19,
+      "probability": 0.96142578125,
+      "sentenceId": "N023_S01"
+    },
+    {
+      "word": " 마스크와",
+      "start": 131.455,
+      "end": 131.91500000000002,
+      "probability": 0.99755859375,
+      "sentenceId": "N023_S02"
+    },
+    {
+      "word": " 손수건의",
+      "start": 131.91500000000002,
+      "end": 132.455,
+      "probability": 0.9853515625,
+      "sentenceId": "N023_S02"
+    },
+    {
+      "word": " dna가",
+      "start": 132.455,
+      "end": 133.07500000000002,
+      "probability": 0.7998046875,
+      "sentenceId": "N023_S02"
+    },
+    {
+      "word": " 돌파구가",
+      "start": 133.07500000000002,
+      "end": 133.63500000000002,
+      "probability": 0.931640625,
+      "sentenceId": "N023_S02"
+    },
+    {
+      "word": " 됩니다.",
+      "start": 133.63500000000002,
+      "end": 133.775,
+      "probability": 0.99365234375,
+      "sentenceId": "N023_S02"
+    },
+    {
+      "word": " 그런데",
+      "start": 134.21,
+      "end": 134.43,
+      "probability": 0.99951171875,
+      "sentenceId": "N023_S03"
+    },
+    {
+      "word": " 비교",
+      "start": 134.43,
+      "end": 134.83,
+      "probability": 1.0,
+      "sentenceId": "N023_S03"
+    },
+    {
+      "word": " 상대가",
+      "start": 134.83,
+      "end": 135.21,
+      "probability": 0.8935546875,
+      "sentenceId": "N023_S03"
+    },
+    {
+      "word": " 뜻밖의",
+      "start": 135.21,
+      "end": 135.69,
+      "probability": 0.9970703125,
+      "sentenceId": "N023_S03"
+    },
+    {
+      "word": " 장소에",
+      "start": 135.69,
+      "end": 136.05,
+      "probability": 1.0,
+      "sentenceId": "N023_S03"
+    },
+    {
+      "word": " 있었습니다.",
+      "start": 136.05,
+      "end": 136.49,
+      "probability": 1.0,
+      "sentenceId": "N023_S03"
+    },
+    {
+      "word": " 은행도",
+      "start": 136.815,
+      "end": 137.195,
+      "probability": 0.998046875,
+      "sentenceId": "N024_S01"
+    },
+    {
+      "word": " 주차장도",
+      "start": 137.195,
+      "end": 137.73499999999999,
+      "probability": 0.994140625,
+      "sentenceId": "N024_S01"
+    },
+    {
+      "word": " 아닙니다.",
+      "start": 137.73499999999999,
+      "end": 138.095,
+      "probability": 1.0,
+      "sentenceId": "N024_S01"
+    },
+    {
+      "word": " 2015년",
+      "start": 138.435,
+      "end": 139.035,
+      "probability": 1.0,
+      "sentenceId": "N024_S02"
+    },
+    {
+      "word": " 충북의",
+      "start": 139.035,
+      "end": 139.415,
+      "probability": 0.9970703125,
+      "sentenceId": "N024_S02"
+    },
+    {
+      "word": " 불법",
+      "start": 139.415,
+      "end": 139.695,
+      "probability": 0.99951171875,
+      "sentenceId": "N024_S02"
+    },
+    {
+      "word": " 게임장에서",
+      "start": 139.695,
+      "end": 140.275,
+      "probability": 0.876953125,
+      "sentenceId": "N024_S02"
+    },
+    {
+      "word": " 수거한",
+      "start": 140.275,
+      "end": 140.735,
+      "probability": 0.998046875,
+      "sentenceId": "N024_S02"
+    },
+    {
+      "word": " 담배",
+      "start": 140.735,
+      "end": 141.055,
+      "probability": 0.97509765625,
+      "sentenceId": "N024_S02"
+    },
+    {
+      "word": " 꽁초였습니다.",
+      "start": 141.055,
+      "end": 141.555,
+      "probability": 0.884765625,
+      "sentenceId": "N024_S02"
+    },
+    {
+      "word": " 극공초의",
+      "start": 142.01,
+      "end": 142.57,
+      "probability": 0.91259765625,
+      "sentenceId": "N025_S01"
+    },
+    {
+      "word": " DNA와",
+      "start": 142.57,
+      "end": 143.13,
+      "probability": 0.9814453125,
+      "sentenceId": "N025_S01"
+    },
+    {
+      "word": " 은행",
+      "start": 143.13,
+      "end": 143.45,
+      "probability": 1.0,
+      "sentenceId": "N025_S01"
+    },
+    {
+      "word": " 사건의",
+      "start": 143.45,
+      "end": 143.92999999999998,
+      "probability": 0.9169921875,
+      "sentenceId": "N025_S01"
+    },
+    {
+      "word": " DNA가",
+      "start": 143.92999999999998,
+      "end": 144.45,
+      "probability": 1.0,
+      "sentenceId": "N025_S01"
+    },
+    {
+      "word": " 일치했습니다.",
+      "start": 144.45,
+      "end": 144.98999999999998,
+      "probability": 0.99951171875,
+      "sentenceId": "N025_S01"
+    },
+    {
+      "word": " 천조각과",
+      "start": 145.42,
+      "end": 145.85999999999999,
+      "probability": 0.92041015625,
+      "sentenceId": "N025_S02"
+    },
+    {
+      "word": " 담배꽁초",
+      "start": 145.85999999999999,
+      "end": 146.39999999999998,
+      "probability": 0.90478515625,
+      "sentenceId": "N025_S02"
+    },
+    {
+      "word": " 버린",
+      "start": 146.66,
+      "end": 146.88,
+      "probability": 0.9912109375,
+      "sentenceId": "N025_S03"
+    },
+    {
+      "word": " 물건끼리",
+      "start": 146.88,
+      "end": 147.38,
+      "probability": 0.99072265625,
+      "sentenceId": "N025_S03"
+    },
+    {
+      "word": " 연결된",
+      "start": 147.38,
+      "end": 147.78,
+      "probability": 0.99951171875,
+      "sentenceId": "N025_S03"
+    },
+    {
+      "word": " 셈입니다.",
+      "start": 147.78,
+      "end": 148.14,
+      "probability": 0.99609375,
+      "sentenceId": "N025_S03"
+    },
+    {
+      "word": " 범인",
+      "start": 148.535,
+      "end": 148.755,
+      "probability": 0.9990234375,
+      "sentenceId": "N026_S01"
+    },
+    {
+      "word": " 입장에선",
+      "start": 148.755,
+      "end": 149.215,
+      "probability": 0.99609375,
+      "sentenceId": "N026_S01"
+    },
+    {
+      "word": " 쓰레기였겠지만",
+      "start": 149.215,
+      "end": 150.015,
+      "probability": 0.99755859375,
+      "sentenceId": "N026_S01"
+    },
+    {
+      "word": " 수사에선",
+      "start": 150.015,
+      "end": 150.73499999999999,
+      "probability": 0.98486328125,
+      "sentenceId": "N026_S01"
+    },
+    {
+      "word": " 연결고리였습니다.",
+      "start": 150.73499999999999,
+      "end": 151.495,
+      "probability": 0.990234375,
+      "sentenceId": "N026_S01"
+    },
+    {
+      "word": " 다만",
+      "start": 151.98,
+      "end": 152.26,
+      "probability": 1.0,
+      "sentenceId": "N026_S02"
+    },
+    {
+      "word": " 일치했다고",
+      "start": 152.26,
+      "end": 152.89999999999998,
+      "probability": 0.998046875,
+      "sentenceId": "N026_S02"
+    },
+    {
+      "word": " 이름이",
+      "start": 152.89999999999998,
+      "end": 153.22,
+      "probability": 1.0,
+      "sentenceId": "N026_S02"
+    },
+    {
+      "word": " 자동으로",
+      "start": 153.22,
+      "end": 153.72,
+      "probability": 1.0,
+      "sentenceId": "N026_S02"
+    },
+    {
+      "word": " 뜬",
+      "start": 153.72,
+      "end": 153.89999999999998,
+      "probability": 0.9990234375,
+      "sentenceId": "N026_S02"
+    },
+    {
+      "word": " 건",
+      "start": 153.89999999999998,
+      "end": 154.0,
+      "probability": 0.9873046875,
+      "sentenceId": "N026_S02"
+    },
+    {
+      "word": " 아닙니다.",
+      "start": 154.0,
+      "end": 154.42,
+      "probability": 1.0,
+      "sentenceId": "N026_S02"
+    },
+    {
+      "word": " 게임장의",
+      "start": 154.74,
+      "end": 155.24,
+      "probability": 0.92236328125,
+      "sentenceId": "N027_S01"
+    },
+    {
+      "word": " dna도",
+      "start": 155.24,
+      "end": 155.82000000000002,
+      "probability": 0.8798828125,
+      "sentenceId": "N027_S01"
+    },
+    {
+      "word": " 신혼불명이었습니다.",
+      "start": 155.82000000000002,
+      "end": 156.86,
+      "probability": 0.8916015625,
+      "sentenceId": "N027_S01"
+    },
+    {
+      "word": " 같은",
+      "start": 157.25,
+      "end": 157.45,
+      "probability": 0.9990234375,
+      "sentenceId": "N027_S02"
+    },
+    {
+      "word": " 사람이라는",
+      "start": 157.45,
+      "end": 157.97,
+      "probability": 1.0,
+      "sentenceId": "N027_S02"
+    },
+    {
+      "word": " 단서는",
+      "start": 157.97,
+      "end": 158.43,
+      "probability": 0.99560546875,
+      "sentenceId": "N027_S02"
+    },
+    {
+      "word": " 얻었지만",
+      "start": 158.43,
+      "end": 158.89,
+      "probability": 0.998046875,
+      "sentenceId": "N027_S02"
+    },
+    {
+      "word": " 그",
+      "start": 158.89,
+      "end": 159.23,
+      "probability": 0.93896484375,
+      "sentenceId": "N027_S02"
+    },
+    {
+      "word": " 사람이",
+      "start": 159.23,
+      "end": 159.49,
+      "probability": 1.0,
+      "sentenceId": "N027_S02"
+    },
+    {
+      "word": " 누구인지는",
+      "start": 159.49,
+      "end": 160.13,
+      "probability": 0.9990234375,
+      "sentenceId": "N027_S02"
+    },
+    {
+      "word": " 더",
+      "start": 160.13,
+      "end": 160.41,
+      "probability": 1.0,
+      "sentenceId": "N027_S02"
+    },
+    {
+      "word": " 찾아야",
+      "start": 160.41,
+      "end": 160.83,
+      "probability": 1.0,
+      "sentenceId": "N027_S02"
+    },
+    {
+      "word": " 했습니다.",
+      "start": 160.83,
+      "end": 161.07,
+      "probability": 0.998046875,
+      "sentenceId": "N027_S02"
+    },
+    {
+      "word": " 경찰은",
+      "start": 161.485,
+      "end": 161.88500000000002,
+      "probability": 0.99951171875,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 게임장",
+      "start": 161.88500000000002,
+      "end": 162.32500000000002,
+      "probability": 0.99951171875,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 종업원과",
+      "start": 162.32500000000002,
+      "end": 162.805,
+      "probability": 0.99853515625,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 손님",
+      "start": 162.805,
+      "end": 163.085,
+      "probability": 1.0,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 등",
+      "start": 163.085,
+      "end": 163.22500000000002,
+      "probability": 1.0,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 출입",
+      "start": 163.22500000000002,
+      "end": 163.625,
+      "probability": 0.998046875,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 가능성이",
+      "start": 163.625,
+      "end": 164.04500000000002,
+      "probability": 0.99853515625,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 있는",
+      "start": 164.04500000000002,
+      "end": 164.22500000000002,
+      "probability": 1.0,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 약",
+      "start": 164.22500000000002,
+      "end": 164.525,
+      "probability": 0.9990234375,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 1만",
+      "start": 164.525,
+      "end": 164.78500000000003,
+      "probability": 1.0,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 5천",
+      "start": 164.78500000000003,
+      "end": 165.125,
+      "probability": 0.73779296875,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 명을",
+      "start": 165.125,
+      "end": 165.38500000000002,
+      "probability": 1.0,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 수사",
+      "start": 165.38500000000002,
+      "end": 165.645,
+      "probability": 0.994140625,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 대상으로",
+      "start": 165.645,
+      "end": 166.00500000000002,
+      "probability": 1.0,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 놓고",
+      "start": 166.00500000000002,
+      "end": 166.28500000000003,
+      "probability": 0.99951171875,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 확인했습니다.",
+      "start": 166.28500000000003,
+      "end": 166.745,
+      "probability": 1.0,
+      "sentenceId": "N028_S01"
+    },
+    {
+      "word": " 1만",
+      "start": 167.15,
+      "end": 167.45000000000002,
+      "probability": 0.9970703125,
+      "sentenceId": "N029_S01"
+    },
+    {
+      "word": " 5천명",
+      "start": 167.45000000000002,
+      "end": 167.95000000000002,
+      "probability": 0.93212890625,
+      "sentenceId": "N029_S01"
+    },
+    {
+      "word": " 전원의",
+      "start": 167.95000000000002,
+      "end": 168.37,
+      "probability": 0.98974609375,
+      "sentenceId": "N029_S01"
+    },
+    {
+      "word": " dna를",
+      "start": 168.37,
+      "end": 168.91,
+      "probability": 0.77294921875,
+      "sentenceId": "N029_S01"
+    },
+    {
+      "word": " 뽑았다는",
+      "start": 168.91,
+      "end": 169.37,
+      "probability": 0.974609375,
+      "sentenceId": "N029_S01"
+    },
+    {
+      "word": " 말은",
+      "start": 169.37,
+      "end": 169.65,
+      "probability": 0.9921875,
+      "sentenceId": "N029_S01"
+    },
+    {
+      "word": " 아닙니다.",
+      "start": 169.65,
+      "end": 170.05,
+      "probability": 0.99853515625,
+      "sentenceId": "N029_S01"
+    },
+    {
+      "word": " 몽타주와",
+      "start": 170.31,
+      "end": 170.77,
+      "probability": 0.96826171875,
+      "sentenceId": "N029_S02"
+    },
+    {
+      "word": " 목격자",
+      "start": 170.77,
+      "end": 171.17000000000002,
+      "probability": 0.99951171875,
+      "sentenceId": "N029_S02"
+    },
+    {
+      "word": " 인상차게",
+      "start": 171.17000000000002,
+      "end": 171.71,
+      "probability": 0.896484375,
+      "sentenceId": "N029_S02"
+    },
+    {
+      "word": " 차량",
+      "start": 171.71,
+      "end": 172.09,
+      "probability": 0.99951171875,
+      "sentenceId": "N029_S02"
+    },
+    {
+      "word": " 절도",
+      "start": 172.09,
+      "end": 172.35,
+      "probability": 0.970703125,
+      "sentenceId": "N029_S02"
+    },
+    {
+      "word": " 수법도",
+      "start": 172.35,
+      "end": 172.73,
+      "probability": 0.97607421875,
+      "sentenceId": "N029_S02"
+    },
+    {
+      "word": " 함께",
+      "start": 172.73,
+      "end": 172.99,
+      "probability": 1.0,
+      "sentenceId": "N029_S02"
+    },
+    {
+      "word": " 대조했습니다.",
+      "start": 172.99,
+      "end": 173.47,
+      "probability": 0.9931640625,
+      "sentenceId": "N029_S02"
+    },
+    {
+      "word": " 비교하고",
+      "start": 173.875,
+      "end": 174.275,
+      "probability": 0.99951171875,
+      "sentenceId": "N030_S01"
+    },
+    {
+      "word": " 좁히고",
+      "start": 174.275,
+      "end": 174.715,
+      "probability": 0.9970703125,
+      "sentenceId": "N030_S01"
+    },
+    {
+      "word": " 다시",
+      "start": 174.715,
+      "end": 174.955,
+      "probability": 0.98974609375,
+      "sentenceId": "N030_S01"
+    },
+    {
+      "word": " 확인합니다.",
+      "start": 174.955,
+      "end": 175.515,
+      "probability": 0.9931640625,
+      "sentenceId": "N030_S01"
+    },
+    {
+      "word": " 2022년",
+      "start": 175.9,
+      "end": 176.62,
+      "probability": 0.99609375,
+      "sentenceId": "N030_S02"
+    },
+    {
+      "word": " 3월",
+      "start": 176.62,
+      "end": 177.04,
+      "probability": 0.99609375,
+      "sentenceId": "N030_S02"
+    },
+    {
+      "word": " 드디어",
+      "start": 177.04,
+      "end": 177.36,
+      "probability": 0.84375,
+      "sentenceId": "N030_S02"
+    },
+    {
+      "word": " 유력",
+      "start": 177.36,
+      "end": 177.70000000000002,
+      "probability": 0.99560546875,
+      "sentenceId": "N030_S02"
+    },
+    {
+      "word": " 용의자비를",
+      "start": 177.70000000000002,
+      "end": 178.26000000000002,
+      "probability": 0.9111328125,
+      "sentenceId": "N030_S02"
+    },
+    {
+      "word": " 특정합니다.",
+      "start": 178.26000000000002,
+      "end": 178.76000000000002,
+      "probability": 0.986328125,
+      "sentenceId": "N030_S02"
+    },
+    {
+      "word": " 그런데",
+      "start": 179.14,
+      "end": 179.38,
+      "probability": 0.9990234375,
+      "sentenceId": "N030_S03"
+    },
+    {
+      "word": " 공범은",
+      "start": 179.38,
+      "end": 179.89999999999998,
+      "probability": 0.9990234375,
+      "sentenceId": "N030_S03"
+    },
+    {
+      "word": " 아직입니다.",
+      "start": 179.89999999999998,
+      "end": 180.38,
+      "probability": 0.9990234375,
+      "sentenceId": "N030_S03"
+    },
+    {
+      "word": " 경찰은",
+      "start": 180.735,
+      "end": 181.09500000000003,
+      "probability": 0.998046875,
+      "sentenceId": "N031_S01"
+    },
+    {
+      "word": " 과거",
+      "start": 181.09500000000003,
+      "end": 181.435,
+      "probability": 1.0,
+      "sentenceId": "N031_S01"
+    },
+    {
+      "word": " 행적과",
+      "start": 181.435,
+      "end": 181.895,
+      "probability": 0.9990234375,
+      "sentenceId": "N031_S01"
+    },
+    {
+      "word": " 주변인을",
+      "start": 181.895,
+      "end": 182.29500000000002,
+      "probability": 0.9931640625,
+      "sentenceId": "N031_S01"
+    },
+    {
+      "word": " 더",
+      "start": 182.29500000000002,
+      "end": 182.455,
+      "probability": 0.99951171875,
+      "sentenceId": "N031_S01"
+    },
+    {
+      "word": " 조사했습니다.",
+      "start": 182.455,
+      "end": 182.97500000000002,
+      "probability": 0.99609375,
+      "sentenceId": "N031_S01"
+    },
+    {
+      "word": " 2022년",
+      "start": 183.375,
+      "end": 184.055,
+      "probability": 0.99658203125,
+      "sentenceId": "N031_S02"
+    },
+    {
+      "word": " 8월",
+      "start": 184.055,
+      "end": 184.375,
+      "probability": 0.9990234375,
+      "sentenceId": "N031_S02"
+    },
+    {
+      "word": " 25일",
+      "start": 184.375,
+      "end": 184.875,
+      "probability": 0.95849609375,
+      "sentenceId": "N031_S02"
+    },
+    {
+      "word": " 비를",
+      "start": 184.875,
+      "end": 185.095,
+      "probability": 0.97705078125,
+      "sentenceId": "N031_S02"
+    },
+    {
+      "word": " 붙잡습니다.",
+      "start": 185.095,
+      "end": 185.655,
+      "probability": 0.9990234375,
+      "sentenceId": "N031_S02"
+    },
+    {
+      "word": " 검거장소는",
+      "start": 186.035,
+      "end": 186.695,
+      "probability": 0.904296875,
+      "sentenceId": "N031_S03"
+    },
+    {
+      "word": " 대전이었습니다.",
+      "start": 186.695,
+      "end": 187.415,
+      "probability": 0.998046875,
+      "sentenceId": "N031_S03"
+    },
+    {
+      "word": " B는",
+      "start": 187.78,
+      "end": 188.02,
+      "probability": 0.9091796875,
+      "sentenceId": "N032_S01"
+    },
+    {
+      "word": " A와",
+      "start": 188.02,
+      "end": 188.4,
+      "probability": 0.9990234375,
+      "sentenceId": "N032_S01"
+    },
+    {
+      "word": " 함께",
+      "start": 188.4,
+      "end": 188.64000000000001,
+      "probability": 0.99951171875,
+      "sentenceId": "N032_S01"
+    },
+    {
+      "word": " 범행했다고",
+      "start": 188.64000000000001,
+      "end": 189.28,
+      "probability": 0.9970703125,
+      "sentenceId": "N032_S01"
+    },
+    {
+      "word": " 진술했습니다.",
+      "start": 189.28,
+      "end": 189.88,
+      "probability": 0.96240234375,
+      "sentenceId": "N032_S01"
+    },
+    {
+      "word": " 그",
+      "start": 190.345,
+      "end": 190.445,
+      "probability": 1.0,
+      "sentenceId": "N032_S02"
+    },
+    {
+      "word": " 진술이",
+      "start": 190.445,
+      "end": 190.865,
+      "probability": 1.0,
+      "sentenceId": "N032_S02"
+    },
+    {
+      "word": " A의",
+      "start": 190.865,
+      "end": 191.245,
+      "probability": 0.9814453125,
+      "sentenceId": "N032_S02"
+    },
+    {
+      "word": " 체포로",
+      "start": 191.245,
+      "end": 191.625,
+      "probability": 0.99951171875,
+      "sentenceId": "N032_S02"
+    },
+    {
+      "word": " 이어집니다.",
+      "start": 191.625,
+      "end": 192.125,
+      "probability": 0.99951171875,
+      "sentenceId": "N032_S02"
+    },
+    {
+      "word": " A의",
+      "start": 192.455,
+      "end": 192.81500000000003,
+      "probability": 0.7568359375,
+      "sentenceId": "N032_S03"
+    },
+    {
+      "word": " DNA가",
+      "start": 192.81500000000003,
+      "end": 193.41500000000002,
+      "probability": 0.953125,
+      "sentenceId": "N032_S03"
+    },
+    {
+      "word": " 똑같이",
+      "start": 193.41500000000002,
+      "end": 193.895,
+      "probability": 0.99658203125,
+      "sentenceId": "N032_S03"
+    },
+    {
+      "word": " 나온",
+      "start": 193.895,
+      "end": 194.115,
+      "probability": 0.998046875,
+      "sentenceId": "N032_S03"
+    },
+    {
+      "word": " 게",
+      "start": 194.115,
+      "end": 194.25500000000002,
+      "probability": 0.8603515625,
+      "sentenceId": "N032_S03"
+    },
+    {
+      "word": " 아닙니다.",
+      "start": 194.25500000000002,
+      "end": 194.655,
+      "probability": 0.9990234375,
+      "sentenceId": "N032_S03"
+    },
+    {
+      "word": " A는",
+      "start": 194.93,
+      "end": 195.17000000000002,
+      "probability": 0.9833984375,
+      "sentenceId": "N033_S01"
+    },
+    {
+      "word": " 강원도",
+      "start": 195.17000000000002,
+      "end": 195.61,
+      "probability": 1.0,
+      "sentenceId": "N033_S01"
+    },
+    {
+      "word": " 정선의",
+      "start": 195.61,
+      "end": 196.05,
+      "probability": 0.99853515625,
+      "sentenceId": "N033_S01"
+    },
+    {
+      "word": " 찜질방에서",
+      "start": 196.05,
+      "end": 196.71,
+      "probability": 0.9990234375,
+      "sentenceId": "N033_S01"
+    },
+    {
+      "word": " 붙잡혔습니다.",
+      "start": 196.71,
+      "end": 197.39000000000001,
+      "probability": 1.0,
+      "sentenceId": "N033_S01"
+    },
+    {
+      "word": " 두",
+      "start": 197.755,
+      "end": 197.835,
+      "probability": 0.99755859375,
+      "sentenceId": "N033_S02"
+    },
+    {
+      "word": " 사람은",
+      "start": 197.835,
+      "end": 198.155,
+      "probability": 0.99853515625,
+      "sentenceId": "N033_S02"
+    },
+    {
+      "word": " 고등학교",
+      "start": 198.155,
+      "end": 198.575,
+      "probability": 1.0,
+      "sentenceId": "N033_S02"
+    },
+    {
+      "word": " 동창.",
+      "start": 198.575,
+      "end": 198.935,
+      "probability": 1.0,
+      "sentenceId": "N033_S02"
+    },
+    {
+      "word": " 2022년",
+      "start": 199.265,
+      "end": 199.96499999999997,
+      "probability": 0.99609375,
+      "sentenceId": "N033_S03"
+    },
+    {
+      "word": " 8월",
+      "start": 199.96499999999997,
+      "end": 200.30499999999998,
+      "probability": 0.9990234375,
+      "sentenceId": "N033_S03"
+    },
+    {
+      "word": " 27일",
+      "start": 200.30499999999998,
+      "end": 200.845,
+      "probability": 0.9990234375,
+      "sentenceId": "N033_S03"
+    },
+    {
+      "word": " 구속됐습니다.",
+      "start": 200.845,
+      "end": 201.48499999999999,
+      "probability": 0.99609375,
+      "sentenceId": "N033_S03"
+    },
+    {
+      "word": " 검거까지",
+      "start": 201.85,
+      "end": 202.29,
+      "probability": 0.90673828125,
+      "sentenceId": "N034_S01"
+    },
+    {
+      "word": " 약",
+      "start": 202.29,
+      "end": 202.47,
+      "probability": 0.9990234375,
+      "sentenceId": "N034_S01"
+    },
+    {
+      "word": " 20년",
+      "start": 202.47,
+      "end": 202.76999999999998,
+      "probability": 0.9990234375,
+      "sentenceId": "N034_S01"
+    },
+    {
+      "word": " 8개월.",
+      "start": 202.76999999999998,
+      "end": 203.23,
+      "probability": 0.99951171875,
+      "sentenceId": "N034_S01"
+    },
+    {
+      "word": " 쌓인",
+      "start": 203.495,
+      "end": 203.735,
+      "probability": 0.99267578125,
+      "sentenceId": "N034_S02"
+    },
+    {
+      "word": " 수사",
+      "start": 203.735,
+      "end": 203.995,
+      "probability": 1.0,
+      "sentenceId": "N034_S02"
+    },
+    {
+      "word": " 기록은",
+      "start": 203.995,
+      "end": 204.35500000000002,
+      "probability": 0.85009765625,
+      "sentenceId": "N034_S02"
+    },
+    {
+      "word": " 약",
+      "start": 204.35500000000002,
+      "end": 204.57500000000002,
+      "probability": 0.99951171875,
+      "sentenceId": "N034_S02"
+    },
+    {
+      "word": " 15만",
+      "start": 204.57500000000002,
+      "end": 205.01500000000001,
+      "probability": 0.9990234375,
+      "sentenceId": "N034_S02"
+    },
+    {
+      "word": " 쪽이라고",
+      "start": 205.01500000000001,
+      "end": 205.375,
+      "probability": 0.744140625,
+      "sentenceId": "N034_S02"
+    },
+    {
+      "word": " 보도됐습니다.",
+      "start": 205.375,
+      "end": 206.035,
+      "probability": 0.99169921875,
+      "sentenceId": "N034_S02"
+    },
+    {
+      "word": " 종이",
+      "start": 206.395,
+      "end": 206.655,
+      "probability": 0.9873046875,
+      "sentenceId": "N034_S03"
+    },
+    {
+      "word": " 두께가",
+      "start": 206.655,
+      "end": 207.01500000000001,
+      "probability": 0.99609375,
+      "sentenceId": "N034_S03"
+    },
+    {
+      "word": " 사건",
+      "start": 207.01500000000001,
+      "end": 207.41500000000002,
+      "probability": 0.9970703125,
+      "sentenceId": "N034_S03"
+    },
+    {
+      "word": " 해결",
+      "start": 207.41500000000002,
+      "end": 207.675,
+      "probability": 0.9970703125,
+      "sentenceId": "N034_S03"
+    },
+    {
+      "word": " 속도는",
+      "start": 207.675,
+      "end": 208.055,
+      "probability": 0.9482421875,
+      "sentenceId": "N034_S03"
+    },
+    {
+      "word": " 아니었습니다.",
+      "start": 208.055,
+      "end": 208.495,
+      "probability": 0.93212890625,
+      "sentenceId": "N034_S03"
+    },
+    {
+      "word": " 붙잡혔으니",
+      "start": 208.92,
+      "end": 209.48,
+      "probability": 0.9970703125,
+      "sentenceId": "N035_S01"
+    },
+    {
+      "word": " 끝일까요?",
+      "start": 209.48,
+      "end": 209.92,
+      "probability": 0.99853515625,
+      "sentenceId": "N035_S01"
+    },
+    {
+      "word": " 이제",
+      "start": 210.295,
+      "end": 210.43499999999997,
+      "probability": 0.99609375,
+      "sentenceId": "N035_S02"
+    },
+    {
+      "word": " 책임",
+      "start": 210.43499999999997,
+      "end": 210.795,
+      "probability": 0.9814453125,
+      "sentenceId": "N035_S02"
+    },
+    {
+      "word": " 떠넘기기가",
+      "start": 210.795,
+      "end": 211.39499999999998,
+      "probability": 0.98388671875,
+      "sentenceId": "N035_S02"
+    },
+    {
+      "word": " 시작됩니다.",
+      "start": 211.39499999999998,
+      "end": 211.93499999999997,
+      "probability": 0.97216796875,
+      "sentenceId": "N035_S02"
+    },
+    {
+      "word": " 두",
+      "start": 212.285,
+      "end": 212.385,
+      "probability": 0.9990234375,
+      "sentenceId": "N035_S03"
+    },
+    {
+      "word": " 사람은",
+      "start": 212.385,
+      "end": 212.725,
+      "probability": 1.0,
+      "sentenceId": "N035_S03"
+    },
+    {
+      "word": " 서로",
+      "start": 212.725,
+      "end": 212.92499999999998,
+      "probability": 1.0,
+      "sentenceId": "N035_S03"
+    },
+    {
+      "word": " 상대방이",
+      "start": 212.92499999999998,
+      "end": 213.505,
+      "probability": 0.99755859375,
+      "sentenceId": "N035_S03"
+    },
+    {
+      "word": " 총을",
+      "start": 213.505,
+      "end": 213.825,
+      "probability": 1.0,
+      "sentenceId": "N035_S03"
+    },
+    {
+      "word": " 쐈다고",
+      "start": 213.825,
+      "end": 214.165,
+      "probability": 0.99462890625,
+      "sentenceId": "N035_S03"
+    },
+    {
+      "word": " 주장했습니다.",
+      "start": 214.165,
+      "end": 214.745,
+      "probability": 0.9990234375,
+      "sentenceId": "N035_S03"
+    },
+    {
+      "word": " A는",
+      "start": 215.19,
+      "end": 215.47,
+      "probability": 0.9853515625,
+      "sentenceId": "N036_S01"
+    },
+    {
+      "word": " 처음",
+      "start": 215.47,
+      "end": 215.73,
+      "probability": 1.0,
+      "sentenceId": "N036_S01"
+    },
+    {
+      "word": " 부인하다",
+      "start": 215.73,
+      "end": 216.21,
+      "probability": 0.99951171875,
+      "sentenceId": "N036_S01"
+    },
+    {
+      "word": " 총격을",
+      "start": 216.21,
+      "end": 216.75,
+      "probability": 0.99853515625,
+      "sentenceId": "N036_S01"
+    },
+    {
+      "word": " 시인했다고",
+      "start": 216.75,
+      "end": 217.32999999999998,
+      "probability": 0.9970703125,
+      "sentenceId": "N036_S01"
+    },
+    {
+      "word": " 경찰이",
+      "start": 217.32999999999998,
+      "end": 217.81,
+      "probability": 1.0,
+      "sentenceId": "N036_S01"
+    },
+    {
+      "word": " 발표했습니다.",
+      "start": 217.81,
+      "end": 218.32999999999998,
+      "probability": 1.0,
+      "sentenceId": "N036_S01"
+    },
+    {
+      "word": " 하지만",
+      "start": 218.77,
+      "end": 218.95000000000002,
+      "probability": 1.0,
+      "sentenceId": "N036_S02"
+    },
+    {
+      "word": " 재판에서는",
+      "start": 218.95000000000002,
+      "end": 219.61,
+      "probability": 0.99951171875,
+      "sentenceId": "N036_S02"
+    },
+    {
+      "word": " 다시",
+      "start": 219.61,
+      "end": 219.89000000000001,
+      "probability": 1.0,
+      "sentenceId": "N036_S02"
+    },
+    {
+      "word": " 총격을",
+      "start": 219.89000000000001,
+      "end": 220.47,
+      "probability": 0.9970703125,
+      "sentenceId": "N036_S02"
+    },
+    {
+      "word": " 부인했습니다.",
+      "start": 220.47,
+      "end": 220.97,
+      "probability": 0.99609375,
+      "sentenceId": "N036_S02"
+    },
+    {
+      "word": " 돈을",
+      "start": 221.39,
+      "end": 221.64999999999998,
+      "probability": 1.0,
+      "sentenceId": "N037_S01"
+    },
+    {
+      "word": " 나눈",
+      "start": 221.64999999999998,
+      "end": 221.91,
+      "probability": 0.9814453125,
+      "sentenceId": "N037_S01"
+    },
+    {
+      "word": " 얘기마저",
+      "start": 221.91,
+      "end": 222.36999999999998,
+      "probability": 0.998046875,
+      "sentenceId": "N037_S01"
+    },
+    {
+      "word": " 달랐습니다.",
+      "start": 222.36999999999998,
+      "end": 222.91,
+      "probability": 0.99951171875,
+      "sentenceId": "N037_S01"
+    },
+    {
+      "word": " B는",
+      "start": 223.265,
+      "end": 223.445,
+      "probability": 0.9677734375,
+      "sentenceId": "N037_S02"
+    },
+    {
+      "word": " 자신이",
+      "start": 223.445,
+      "end": 223.825,
+      "probability": 1.0,
+      "sentenceId": "N037_S02"
+    },
+    {
+      "word": " 9천만원,",
+      "start": 223.825,
+      "end": 224.42499999999998,
+      "probability": 0.9482421875,
+      "sentenceId": "N037_S02"
+    },
+    {
+      "word": " A가",
+      "start": 224.565,
+      "end": 224.845,
+      "probability": 0.9990234375,
+      "sentenceId": "N037_S02"
+    },
+    {
+      "word": " 2억",
+      "start": 224.845,
+      "end": 225.105,
+      "probability": 0.9951171875,
+      "sentenceId": "N037_S02"
+    },
+    {
+      "word": " 천만원을",
+      "start": 225.105,
+      "end": 225.64499999999998,
+      "probability": 0.93603515625,
+      "sentenceId": "N037_S02"
+    },
+    {
+      "word": " 챙겼다고",
+      "start": 225.64499999999998,
+      "end": 226.08499999999998,
+      "probability": 0.9990234375,
+      "sentenceId": "N037_S02"
+    },
+    {
+      "word": " 진술했습니다.",
+      "start": 226.08499999999998,
+      "end": 226.665,
+      "probability": 0.9990234375,
+      "sentenceId": "N037_S02"
+    },
+    {
+      "word": " 반면",
+      "start": 227.11,
+      "end": 227.39000000000001,
+      "probability": 0.9990234375,
+      "sentenceId": "N038_S01"
+    },
+    {
+      "word": " A는",
+      "start": 227.39000000000001,
+      "end": 227.71,
+      "probability": 0.96728515625,
+      "sentenceId": "N038_S01"
+    },
+    {
+      "word": " 절반씩",
+      "start": 227.71,
+      "end": 228.25,
+      "probability": 0.99853515625,
+      "sentenceId": "N038_S01"
+    },
+    {
+      "word": " 나눴다고",
+      "start": 228.25,
+      "end": 228.67000000000002,
+      "probability": 0.99169921875,
+      "sentenceId": "N038_S01"
+    },
+    {
+      "word": " 했습니다.",
+      "start": 228.67000000000002,
+      "end": 228.95000000000002,
+      "probability": 0.99951171875,
+      "sentenceId": "N038_S01"
+    },
+    {
+      "word": " 이",
+      "start": 229.375,
+      "end": 229.495,
+      "probability": 0.99853515625,
+      "sentenceId": "N038_S02"
+    },
+    {
+      "word": " 숫자들은",
+      "start": 229.495,
+      "end": 229.975,
+      "probability": 1.0,
+      "sentenceId": "N038_S02"
+    },
+    {
+      "word": " 서로",
+      "start": 229.975,
+      "end": 230.195,
+      "probability": 0.99951171875,
+      "sentenceId": "N038_S02"
+    },
+    {
+      "word": " 다른",
+      "start": 230.195,
+      "end": 230.455,
+      "probability": 0.99951171875,
+      "sentenceId": "N038_S02"
+    },
+    {
+      "word": " 진술입니다.",
+      "start": 230.455,
+      "end": 231.015,
+      "probability": 0.994140625,
+      "sentenceId": "N038_S02"
+    },
+    {
+      "word": " 실제",
+      "start": 231.39,
+      "end": 231.70999999999998,
+      "probability": 0.9912109375,
+      "sentenceId": "N038_S03"
+    },
+    {
+      "word": " 분배액으로",
+      "start": 231.70999999999998,
+      "end": 232.26999999999998,
+      "probability": 0.99658203125,
+      "sentenceId": "N038_S03"
+    },
+    {
+      "word": " 확정하면",
+      "start": 232.26999999999998,
+      "end": 232.75,
+      "probability": 0.98876953125,
+      "sentenceId": "N038_S03"
+    },
+    {
+      "word": " 안됩니다.",
+      "start": 232.75,
+      "end": 233.14999999999998,
+      "probability": 0.87890625,
+      "sentenceId": "N038_S03"
+    },
+    {
+      "word": " 같이",
+      "start": 233.525,
+      "end": 233.76500000000001,
+      "probability": 0.998046875,
+      "sentenceId": "N039_S01"
+    },
+    {
+      "word": " 범행했다는",
+      "start": 233.76500000000001,
+      "end": 234.38500000000002,
+      "probability": 0.99951171875,
+      "sentenceId": "N039_S01"
+    },
+    {
+      "word": " 두",
+      "start": 234.38500000000002,
+      "end": 234.565,
+      "probability": 0.99951171875,
+      "sentenceId": "N039_S01"
+    },
+    {
+      "word": " 사람의",
+      "start": 234.565,
+      "end": 234.945,
+      "probability": 1.0,
+      "sentenceId": "N039_S01"
+    },
+    {
+      "word": " 계산서가",
+      "start": 234.945,
+      "end": 235.445,
+      "probability": 0.9990234375,
+      "sentenceId": "N039_S01"
+    },
+    {
+      "word": " 서로",
+      "start": 235.445,
+      "end": 235.685,
+      "probability": 1.0,
+      "sentenceId": "N039_S01"
+    },
+    {
+      "word": " 다릅니다.",
+      "start": 235.685,
+      "end": 236.085,
+      "probability": 1.0,
+      "sentenceId": "N039_S01"
+    },
+    {
+      "word": " 책임도",
+      "start": 236.45,
+      "end": 236.81,
+      "probability": 0.99609375,
+      "sentenceId": "N039_S02"
+    },
+    {
+      "word": " 상대에게",
+      "start": 236.81,
+      "end": 237.35,
+      "probability": 0.9990234375,
+      "sentenceId": "N039_S02"
+    },
+    {
+      "word": " 배송",
+      "start": 237.35,
+      "end": 237.67,
+      "probability": 1.0,
+      "sentenceId": "N039_S02"
+    },
+    {
+      "word": " 중이네요",
+      "start": 237.67,
+      "end": 238.04999999999998,
+      "probability": 0.8896484375,
+      "sentenceId": "N039_S02"
+    },
+    {
+      "word": " 총을",
+      "start": 238.355,
+      "end": 238.61499999999998,
+      "probability": 0.982421875,
+      "sentenceId": "N039_S03"
+    },
+    {
+      "word": " 쏜",
+      "start": 238.61499999999998,
+      "end": 238.795,
+      "probability": 0.99267578125,
+      "sentenceId": "N039_S03"
+    },
+    {
+      "word": " 사람이",
+      "start": 238.795,
+      "end": 239.05499999999998,
+      "probability": 0.9873046875,
+      "sentenceId": "N039_S03"
+    },
+    {
+      "word": " 상대라며",
+      "start": 239.05499999999998,
+      "end": 239.575,
+      "probability": 0.98681640625,
+      "sentenceId": "N039_S03"
+    },
+    {
+      "word": " 떠넘깁",
+      "start": 239.575,
+      "end": 240.05499999999998,
+      "probability": 0.90771484375,
+      "sentenceId": "N039_S03"
+    },
+    {
+      "word": " 니다.",
+      "start": 240.05499999999998,
+      "end": 240.215,
+      "probability": 0.5517578125,
+      "sentenceId": "N039_S03"
+    },
+    {
+      "word": " 2023년",
+      "start": 240.475,
+      "end": 241.17499999999998,
+      "probability": 0.9970703125,
+      "sentenceId": "N040_S01"
+    },
+    {
+      "word": " 1월",
+      "start": 241.17499999999998,
+      "end": 241.39499999999998,
+      "probability": 1.0,
+      "sentenceId": "N040_S01"
+    },
+    {
+      "word": " 16일",
+      "start": 241.39499999999998,
+      "end": 241.855,
+      "probability": 1.0,
+      "sentenceId": "N040_S01"
+    },
+    {
+      "word": " 검찰은",
+      "start": 241.855,
+      "end": 242.375,
+      "probability": 0.9814453125,
+      "sentenceId": "N040_S01"
+    },
+    {
+      "word": " A에게",
+      "start": 242.375,
+      "end": 242.775,
+      "probability": 0.8408203125,
+      "sentenceId": "N040_S01"
+    },
+    {
+      "word": " 사형",
+      "start": 242.775,
+      "end": 243.135,
+      "probability": 0.9873046875,
+      "sentenceId": "N040_S01"
+    },
+    {
+      "word": " B에게",
+      "start": 243.135,
+      "end": 243.575,
+      "probability": 0.7919921875,
+      "sentenceId": "N040_S01"
+    },
+    {
+      "word": " 무기징역을",
+      "start": 243.575,
+      "end": 244.23499999999999,
+      "probability": 0.98974609375,
+      "sentenceId": "N040_S01"
+    },
+    {
+      "word": " 구형했습니다.",
+      "start": 244.23499999999999,
+      "end": 244.67499999999998,
+      "probability": 0.984375,
+      "sentenceId": "N040_S01"
+    },
+    {
+      "word": " 검찰의",
+      "start": 245.095,
+      "end": 245.495,
+      "probability": 0.9970703125,
+      "sentenceId": "N040_S02"
+    },
+    {
+      "word": " 요구이지",
+      "start": 245.495,
+      "end": 245.895,
+      "probability": 0.8984375,
+      "sentenceId": "N040_S02"
+    },
+    {
+      "word": " 판결은",
+      "start": 245.895,
+      "end": 246.395,
+      "probability": 0.99951171875,
+      "sentenceId": "N040_S02"
+    },
+    {
+      "word": " 아닙니다.",
+      "start": 246.395,
+      "end": 246.755,
+      "probability": 1.0,
+      "sentenceId": "N040_S02"
+    },
+    {
+      "word": " 사형",
+      "start": 247.065,
+      "end": 247.285,
+      "probability": 0.95703125,
+      "sentenceId": "N041_S01"
+    },
+    {
+      "word": " 구형",
+      "start": 247.285,
+      "end": 247.525,
+      "probability": 0.92578125,
+      "sentenceId": "N041_S01"
+    },
+    {
+      "word": " 뒤",
+      "start": 247.525,
+      "end": 247.70499999999998,
+      "probability": 0.9921875,
+      "sentenceId": "N041_S01"
+    },
+    {
+      "word": " A가",
+      "start": 247.70499999999998,
+      "end": 248.085,
+      "probability": 0.958984375,
+      "sentenceId": "N041_S01"
+    },
+    {
+      "word": " 감사하다는",
+      "start": 248.085,
+      "end": 248.645,
+      "probability": 0.99951171875,
+      "sentenceId": "N041_S01"
+    },
+    {
+      "word": " 말을",
+      "start": 248.645,
+      "end": 248.825,
+      "probability": 0.99951171875,
+      "sentenceId": "N041_S01"
+    },
+    {
+      "word": " 했다는",
+      "start": 248.825,
+      "end": 249.185,
+      "probability": 0.9990234375,
+      "sentenceId": "N041_S01"
+    },
+    {
+      "word": " 법정",
+      "start": 249.185,
+      "end": 249.625,
+      "probability": 0.9990234375,
+      "sentenceId": "N041_S01"
+    },
+    {
+      "word": " 장면도",
+      "start": 249.625,
+      "end": 250.025,
+      "probability": 0.99755859375,
+      "sentenceId": "N041_S01"
+    },
+    {
+      "word": " 보도됐습니다.",
+      "start": 250.025,
+      "end": 250.645,
+      "probability": 0.998046875,
+      "sentenceId": "N041_S01"
+    },
+    {
+      "word": " 정확한",
+      "start": 251.01,
+      "end": 251.39,
+      "probability": 1.0,
+      "sentenceId": "N041_S02"
+    },
+    {
+      "word": " 표현은",
+      "start": 251.39,
+      "end": 251.79,
+      "probability": 1.0,
+      "sentenceId": "N041_S02"
+    },
+    {
+      "word": " 매체마다",
+      "start": 251.79,
+      "end": 252.31,
+      "probability": 0.99951171875,
+      "sentenceId": "N041_S02"
+    },
+    {
+      "word": " 달라",
+      "start": 252.31,
+      "end": 252.54999999999998,
+      "probability": 0.9892578125,
+      "sentenceId": "N041_S02"
+    },
+    {
+      "word": " 합쳐",
+      "start": 252.54999999999998,
+      "end": 252.87,
+      "probability": 0.998046875,
+      "sentenceId": "N041_S02"
+    },
+    {
+      "word": " 쓰지",
+      "start": 252.87,
+      "end": 253.10999999999999,
+      "probability": 0.9912109375,
+      "sentenceId": "N041_S02"
+    },
+    {
+      "word": " 않습니다.",
+      "start": 253.10999999999999,
+      "end": 253.45,
+      "probability": 0.9990234375,
+      "sentenceId": "N041_S02"
+    },
+    {
+      "word": " 말은",
+      "start": 253.785,
+      "end": 254.125,
+      "probability": 0.9931640625,
+      "sentenceId": "N042_S01"
+    },
+    {
+      "word": " 오락가락해도",
+      "start": 254.125,
+      "end": 254.825,
+      "probability": 0.9521484375,
+      "sentenceId": "N042_S01"
+    },
+    {
+      "word": " 법원은",
+      "start": 254.825,
+      "end": 255.265,
+      "probability": 0.9912109375,
+      "sentenceId": "N042_S01"
+    },
+    {
+      "word": " 판단해야",
+      "start": 255.265,
+      "end": 255.70499999999998,
+      "probability": 0.9931640625,
+      "sentenceId": "N042_S01"
+    },
+    {
+      "word": " 합니다.",
+      "start": 255.70499999999998,
+      "end": 255.905,
+      "probability": 0.97802734375,
+      "sentenceId": "N042_S01"
+    },
+    {
+      "word": " 총을",
+      "start": 256.27,
+      "end": 256.54999999999995,
+      "probability": 0.9970703125,
+      "sentenceId": "N042_S02"
+    },
+    {
+      "word": " 쏜",
+      "start": 256.54999999999995,
+      "end": 256.71,
+      "probability": 0.99462890625,
+      "sentenceId": "N042_S02"
+    },
+    {
+      "word": " 사람은",
+      "start": 256.71,
+      "end": 257.04999999999995,
+      "probability": 1.0,
+      "sentenceId": "N042_S02"
+    },
+    {
+      "word": " 누구라고",
+      "start": 257.04999999999995,
+      "end": 257.51,
+      "probability": 0.99951171875,
+      "sentenceId": "N042_S02"
+    },
+    {
+      "word": " 인정했을까요?",
+      "start": 257.51,
+      "end": 258.21,
+      "probability": 0.97705078125,
+      "sentenceId": "N042_S02"
+    },
+    {
+      "word": " 그리고",
+      "start": 258.57,
+      "end": 258.77,
+      "probability": 0.99853515625,
+      "sentenceId": "N042_S03"
+    },
+    {
+      "word": " 공범의",
+      "start": 258.77,
+      "end": 259.34999999999997,
+      "probability": 0.99755859375,
+      "sentenceId": "N042_S03"
+    },
+    {
+      "word": " 형은",
+      "start": 259.34999999999997,
+      "end": 259.61,
+      "probability": 0.9990234375,
+      "sentenceId": "N042_S03"
+    },
+    {
+      "word": " 어디로",
+      "start": 259.61,
+      "end": 259.87,
+      "probability": 0.9990234375,
+      "sentenceId": "N042_S03"
+    },
+    {
+      "word": " 갈까요?",
+      "start": 259.87,
+      "end": 260.21,
+      "probability": 0.99951171875,
+      "sentenceId": "N042_S03"
+    },
+    {
+      "word": " 2023년",
+      "start": 260.6,
+      "end": 261.34000000000003,
+      "probability": 0.998046875,
+      "sentenceId": "N043_S01"
+    },
+    {
+      "word": " 2월",
+      "start": 261.34000000000003,
+      "end": 261.66,
+      "probability": 1.0,
+      "sentenceId": "N043_S01"
+    },
+    {
+      "word": " 17일",
+      "start": 261.66,
+      "end": 262.14000000000004,
+      "probability": 1.0,
+      "sentenceId": "N043_S01"
+    },
+    {
+      "word": " 1심은",
+      "start": 262.14000000000004,
+      "end": 262.62,
+      "probability": 0.95361328125,
+      "sentenceId": "N043_S01"
+    },
+    {
+      "word": " A에게",
+      "start": 262.62,
+      "end": 263.02000000000004,
+      "probability": 0.9736328125,
+      "sentenceId": "N043_S01"
+    },
+    {
+      "word": " 무기징역,",
+      "start": 263.02000000000004,
+      "end": 263.62,
+      "probability": 0.9921875,
+      "sentenceId": "N043_S01"
+    },
+    {
+      "word": " B에게",
+      "start": 263.70000000000005,
+      "end": 263.96000000000004,
+      "probability": 0.9990234375,
+      "sentenceId": "N043_S01"
+    },
+    {
+      "word": " 징역",
+      "start": 263.96000000000004,
+      "end": 264.3,
+      "probability": 0.99853515625,
+      "sentenceId": "N043_S01"
+    },
+    {
+      "word": " 20년을",
+      "start": 264.3,
+      "end": 264.82000000000005,
+      "probability": 0.99853515625,
+      "sentenceId": "N043_S01"
+    },
+    {
+      "word": " 선고했습니다.",
+      "start": 264.82000000000005,
+      "end": 265.26000000000005,
+      "probability": 0.9990234375,
+      "sentenceId": "N043_S01"
+    },
+    {
+      "word": " 법원은",
+      "start": 265.645,
+      "end": 265.965,
+      "probability": 0.99658203125,
+      "sentenceId": "N044_S01"
+    },
+    {
+      "word": " A의",
+      "start": 265.965,
+      "end": 266.305,
+      "probability": 0.8720703125,
+      "sentenceId": "N044_S01"
+    },
+    {
+      "word": " 총격을",
+      "start": 266.305,
+      "end": 266.745,
+      "probability": 0.99853515625,
+      "sentenceId": "N044_S01"
+    },
+    {
+      "word": " 인정했습니다.",
+      "start": 266.745,
+      "end": 267.265,
+      "probability": 0.998046875,
+      "sentenceId": "N044_S01"
+    },
+    {
+      "word": " 총기",
+      "start": 267.785,
+      "end": 268.045,
+      "probability": 0.9970703125,
+      "sentenceId": "N044_S02"
+    },
+    {
+      "word": " 경험만",
+      "start": 268.045,
+      "end": 268.40500000000003,
+      "probability": 0.9658203125,
+      "sentenceId": "N044_S02"
+    },
+    {
+      "word": " 본",
+      "start": 268.40500000000003,
+      "end": 268.565,
+      "probability": 0.99951171875,
+      "sentenceId": "N044_S02"
+    },
+    {
+      "word": " 게",
+      "start": 268.565,
+      "end": 268.70500000000004,
+      "probability": 0.85400390625,
+      "sentenceId": "N044_S02"
+    },
+    {
+      "word": " 아닙니다.",
+      "start": 268.70500000000004,
+      "end": 269.045,
+      "probability": 0.9990234375,
+      "sentenceId": "N044_S02"
+    },
+    {
+      "word": " 권총을",
+      "start": 269.355,
+      "end": 269.735,
+      "probability": 0.99951171875,
+      "sentenceId": "N044_S03"
+    },
+    {
+      "word": " 쥐고",
+      "start": 269.735,
+      "end": 269.915,
+      "probability": 0.99951171875,
+      "sentenceId": "N044_S03"
+    },
+    {
+      "word": " 조준한",
+      "start": 269.915,
+      "end": 270.27500000000003,
+      "probability": 0.99951171875,
+      "sentenceId": "N044_S03"
+    },
+    {
+      "word": " 정황과",
+      "start": 270.27500000000003,
+      "end": 270.695,
+      "probability": 0.99951171875,
+      "sentenceId": "N044_S03"
+    },
+    {
+      "word": " 진술의",
+      "start": 270.695,
+      "end": 271.15500000000003,
+      "probability": 0.994140625,
+      "sentenceId": "N044_S03"
+    },
+    {
+      "word": " 신빙성도",
+      "start": 271.15500000000003,
+      "end": 271.735,
+      "probability": 0.99755859375,
+      "sentenceId": "N044_S03"
+    },
+    {
+      "word": " 판단했습니다.",
+      "start": 271.735,
+      "end": 272.235,
+      "probability": 1.0,
+      "sentenceId": "N044_S03"
+    },
+    {
+      "word": " B에게는",
+      "start": 272.66,
+      "end": 273.06,
+      "probability": 0.85498046875,
+      "sentenceId": "N045_S01"
+    },
+    {
+      "word": " 보조",
+      "start": 273.06,
+      "end": 273.38000000000005,
+      "probability": 0.9990234375,
+      "sentenceId": "N045_S01"
+    },
+    {
+      "word": " 역할과",
+      "start": 273.38000000000005,
+      "end": 273.8,
+      "probability": 0.9521484375,
+      "sentenceId": "N045_S01"
+    },
+    {
+      "word": " 자백을",
+      "start": 273.8,
+      "end": 274.24,
+      "probability": 0.99609375,
+      "sentenceId": "N045_S01"
+    },
+    {
+      "word": " 고려했습니다.",
+      "start": 274.24,
+      "end": 274.78000000000003,
+      "probability": 0.9951171875,
+      "sentenceId": "N045_S01"
+    },
+    {
+      "word": " 오래",
+      "start": 275.155,
+      "end": 275.35499999999996,
+      "probability": 0.8896484375,
+      "sentenceId": "N045_S02"
+    },
+    {
+      "word": " 묻힌",
+      "start": 275.35499999999996,
+      "end": 275.67499999999995,
+      "probability": 0.9951171875,
+      "sentenceId": "N045_S02"
+    },
+    {
+      "word": " 사건의",
+      "start": 275.67499999999995,
+      "end": 276.09499999999997,
+      "probability": 0.998046875,
+      "sentenceId": "N045_S02"
+    },
+    {
+      "word": " 경위를",
+      "start": 276.09499999999997,
+      "end": 276.41499999999996,
+      "probability": 0.986328125,
+      "sentenceId": "N045_S02"
+    },
+    {
+      "word": " 밝히는데",
+      "start": 276.41499999999996,
+      "end": 276.97499999999997,
+      "probability": 0.88427734375,
+      "sentenceId": "N045_S02"
+    },
+    {
+      "word": " 도움이",
+      "start": 276.97499999999997,
+      "end": 277.41499999999996,
+      "probability": 0.99951171875,
+      "sentenceId": "N045_S02"
+    },
+    {
+      "word": " 됐다는",
+      "start": 277.41499999999996,
+      "end": 277.73499999999996,
+      "probability": 0.9990234375,
+      "sentenceId": "N045_S02"
+    },
+    {
+      "word": " 점입니다.",
+      "start": 277.73499999999996,
+      "end": 278.09499999999997,
+      "probability": 1.0,
+      "sentenceId": "N045_S02"
+    },
+    {
+      "word": " 그런데",
+      "start": 278.445,
+      "end": 278.665,
+      "probability": 0.99951171875,
+      "sentenceId": "N046_S01"
+    },
+    {
+      "word": " 항소심에서",
+      "start": 278.665,
+      "end": 279.425,
+      "probability": 0.99951171875,
+      "sentenceId": "N046_S01"
+    },
+    {
+      "word": " 20년형의",
+      "start": 279.425,
+      "end": 280.22499999999997,
+      "probability": 0.9970703125,
+      "sentenceId": "N046_S01"
+    },
+    {
+      "word": " 문제가",
+      "start": 280.22499999999997,
+      "end": 280.545,
+      "probability": 1.0,
+      "sentenceId": "N046_S01"
+    },
+    {
+      "word": " 있다고",
+      "start": 280.545,
+      "end": 280.865,
+      "probability": 1.0,
+      "sentenceId": "N046_S01"
+    },
+    {
+      "word": " 합니다.",
+      "start": 280.865,
+      "end": 281.085,
+      "probability": 0.99951171875,
+      "sentenceId": "N046_S01"
+    },
+    {
+      "word": " 그러면",
+      "start": 281.51,
+      "end": 281.69,
+      "probability": 0.98388671875,
+      "sentenceId": "N046_S02"
+    },
+    {
+      "word": " 형이",
+      "start": 281.69,
+      "end": 282.09,
+      "probability": 0.99658203125,
+      "sentenceId": "N046_S02"
+    },
+    {
+      "word": " 줄어드나?",
+      "start": 282.09,
+      "end": 282.59,
+      "probability": 0.9794921875,
+      "sentenceId": "N046_S02"
+    },
+    {
+      "word": " 이",
+      "start": 282.86,
+      "end": 282.98,
+      "probability": 0.99853515625,
+      "sentenceId": "N046_S03"
+    },
+    {
+      "word": " 사건은",
+      "start": 282.98,
+      "end": 283.38,
+      "probability": 1.0,
+      "sentenceId": "N046_S03"
+    },
+    {
+      "word": " 반대였습니다.",
+      "start": 283.38,
+      "end": 283.98,
+      "probability": 0.9990234375,
+      "sentenceId": "N046_S03"
+    },
+    {
+      "word": " 2023년",
+      "start": 284.38,
+      "end": 285.14,
+      "probability": 0.99755859375,
+      "sentenceId": "N047_S01"
+    },
+    {
+      "word": " 8월",
+      "start": 285.14,
+      "end": 285.46,
+      "probability": 1.0,
+      "sentenceId": "N047_S01"
+    },
+    {
+      "word": " 18일",
+      "start": 285.46,
+      "end": 285.88,
+      "probability": 0.9990234375,
+      "sentenceId": "N047_S01"
+    },
+    {
+      "word": " 항소심은",
+      "start": 285.88,
+      "end": 286.48,
+      "probability": 0.9873046875,
+      "sentenceId": "N047_S01"
+    },
+    {
+      "word": " 둘",
+      "start": 286.48,
+      "end": 286.65999999999997,
+      "probability": 0.9990234375,
+      "sentenceId": "N047_S01"
+    },
+    {
+      "word": " 다",
+      "start": 286.65999999999997,
+      "end": 286.78,
+      "probability": 0.95849609375,
+      "sentenceId": "N047_S01"
+    },
+    {
+      "word": " 무기징역을",
+      "start": 286.78,
+      "end": 287.36,
+      "probability": 0.984375,
+      "sentenceId": "N047_S01"
+    },
+    {
+      "word": " 선고했습니다.",
+      "start": 287.36,
+      "end": 287.8,
+      "probability": 0.9990234375,
+      "sentenceId": "N047_S01"
+    },
+    {
+      "word": " B의",
+      "start": 288.225,
+      "end": 288.44500000000005,
+      "probability": 0.8525390625,
+      "sentenceId": "N047_S02"
+    },
+    {
+      "word": " 20년형이",
+      "start": 288.44500000000005,
+      "end": 289.185,
+      "probability": 0.9912109375,
+      "sentenceId": "N047_S02"
+    },
+    {
+      "word": " 무기로",
+      "start": 289.185,
+      "end": 289.52500000000003,
+      "probability": 0.994140625,
+      "sentenceId": "N047_S02"
+    },
+    {
+      "word": " 올라갔습니다.",
+      "start": 289.52500000000003,
+      "end": 290.125,
+      "probability": 0.99658203125,
+      "sentenceId": "N047_S02"
+    },
+    {
+      "word": " 이",
+      "start": 290.5,
+      "end": 290.62,
+      "probability": 0.99853515625,
+      "sentenceId": "N048_S01"
+    },
+    {
+      "word": " 사건에",
+      "start": 290.62,
+      "end": 291.0,
+      "probability": 0.9970703125,
+      "sentenceId": "N048_S01"
+    },
+    {
+      "word": " 적용된",
+      "start": 291.0,
+      "end": 291.42,
+      "probability": 1.0,
+      "sentenceId": "N048_S01"
+    },
+    {
+      "word": " 법의",
+      "start": 291.42,
+      "end": 291.72,
+      "probability": 1.0,
+      "sentenceId": "N048_S01"
+    },
+    {
+      "word": " 문제입니다.",
+      "start": 291.72,
+      "end": 292.14,
+      "probability": 0.998046875,
+      "sentenceId": "N048_S01"
+    },
+    {
+      "word": " 항소심은",
+      "start": 292.505,
+      "end": 292.985,
+      "probability": 0.990234375,
+      "sentenceId": "N048_S02"
+    },
+    {
+      "word": " 강도살인의",
+      "start": 292.985,
+      "end": 293.625,
+      "probability": 0.990234375,
+      "sentenceId": "N048_S02"
+    },
+    {
+      "word": " 법정형이",
+      "start": 293.625,
+      "end": 294.145,
+      "probability": 0.990234375,
+      "sentenceId": "N048_S02"
+    },
+    {
+      "word": " 사형",
+      "start": 294.145,
+      "end": 294.505,
+      "probability": 0.998046875,
+      "sentenceId": "N048_S02"
+    },
+    {
+      "word": " 또는",
+      "start": 294.505,
+      "end": 294.805,
+      "probability": 1.0,
+      "sentenceId": "N048_S02"
+    },
+    {
+      "word": " 무기징역이라고",
+      "start": 294.805,
+      "end": 295.585,
+      "probability": 0.99609375,
+      "sentenceId": "N048_S02"
+    },
+    {
+      "word": " 설명했습니다.",
+      "start": 295.585,
+      "end": 296.145,
+      "probability": 1.0,
+      "sentenceId": "N048_S02"
+    },
+    {
+      "word": " 정상을",
+      "start": 296.56,
+      "end": 296.86,
+      "probability": 0.99951171875,
+      "sentenceId": "N049_S01"
+    },
+    {
+      "word": " 참작해",
+      "start": 296.86,
+      "end": 297.26,
+      "probability": 0.9970703125,
+      "sentenceId": "N049_S01"
+    },
+    {
+      "word": " 감경하더라도",
+      "start": 297.26,
+      "end": 297.96,
+      "probability": 0.998046875,
+      "sentenceId": "N049_S01"
+    },
+    {
+      "word": " 유기징역의",
+      "start": 297.96,
+      "end": 298.62,
+      "probability": 0.94873046875,
+      "sentenceId": "N049_S01"
+    },
+    {
+      "word": " 상한은",
+      "start": 298.62,
+      "end": 299.0,
+      "probability": 0.91650390625,
+      "sentenceId": "N049_S01"
+    },
+    {
+      "word": " 15년.",
+      "start": 299.0,
+      "end": 299.48,
+      "probability": 1.0,
+      "sentenceId": "N049_S01"
+    },
+    {
+      "word": " 그래서",
+      "start": 299.785,
+      "end": 300.00500000000005,
+      "probability": 0.99853515625,
+      "sentenceId": "N049_S02"
+    },
+    {
+      "word": " 1심의",
+      "start": 300.00500000000005,
+      "end": 300.44500000000005,
+      "probability": 0.994140625,
+      "sentenceId": "N049_S02"
+    },
+    {
+      "word": " 20년",
+      "start": 300.44500000000005,
+      "end": 300.82500000000005,
+      "probability": 1.0,
+      "sentenceId": "N049_S02"
+    },
+    {
+      "word": " 선고는",
+      "start": 300.82500000000005,
+      "end": 301.245,
+      "probability": 0.99169921875,
+      "sentenceId": "N049_S02"
+    },
+    {
+      "word": " 잘못이라는",
+      "start": 301.245,
+      "end": 301.845,
+      "probability": 0.9970703125,
+      "sentenceId": "N049_S02"
+    },
+    {
+      "word": " 판단입니다.",
+      "start": 301.845,
+      "end": 302.50500000000005,
+      "probability": 0.9970703125,
+      "sentenceId": "N049_S02"
+    },
+    {
+      "word": " 그럼",
+      "start": 302.855,
+      "end": 303.035,
+      "probability": 0.998046875,
+      "sentenceId": "N050_S01"
+    },
+    {
+      "word": " 15년이",
+      "start": 303.035,
+      "end": 303.675,
+      "probability": 0.8486328125,
+      "sentenceId": "N050_S01"
+    },
+    {
+      "word": " 하구요?",
+      "start": 303.675,
+      "end": 303.89500000000004,
+      "probability": 0.62646484375,
+      "sentenceId": "N050_S01"
+    },
+    {
+      "word": " 항소심은",
+      "start": 304.24,
+      "end": 304.72,
+      "probability": 0.9990234375,
+      "sentenceId": "N050_S02"
+    },
+    {
+      "word": " B에게",
+      "start": 304.72,
+      "end": 305.04,
+      "probability": 0.84716796875,
+      "sentenceId": "N050_S02"
+    },
+    {
+      "word": " 불리한",
+      "start": 305.04,
+      "end": 305.48,
+      "probability": 0.9990234375,
+      "sentenceId": "N050_S02"
+    },
+    {
+      "word": " 사정이",
+      "start": 305.48,
+      "end": 305.84000000000003,
+      "probability": 1.0,
+      "sentenceId": "N050_S02"
+    },
+    {
+      "word": " 유리한",
+      "start": 305.84000000000003,
+      "end": 306.32,
+      "probability": 0.99951171875,
+      "sentenceId": "N050_S02"
+    },
+    {
+      "word": " 사정을",
+      "start": 306.32,
+      "end": 306.68,
+      "probability": 1.0,
+      "sentenceId": "N050_S02"
+    },
+    {
+      "word": " 압도한다고",
+      "start": 306.68,
+      "end": 307.24,
+      "probability": 0.99951171875,
+      "sentenceId": "N050_S02"
+    },
+    {
+      "word": " 보고",
+      "start": 307.24,
+      "end": 307.52,
+      "probability": 1.0,
+      "sentenceId": "N050_S02"
+    },
+    {
+      "word": " 감경",
+      "start": 307.52,
+      "end": 308.02,
+      "probability": 0.994140625,
+      "sentenceId": "N050_S02"
+    },
+    {
+      "word": " 자체를",
+      "start": 308.02,
+      "end": 308.42,
+      "probability": 0.9990234375,
+      "sentenceId": "N050_S02"
+    },
+    {
+      "word": " 하지",
+      "start": 308.42,
+      "end": 308.6,
+      "probability": 0.99951171875,
+      "sentenceId": "N050_S02"
+    },
+    {
+      "word": " 않았습니다.",
+      "start": 308.6,
+      "end": 309.02,
+      "probability": 1.0,
+      "sentenceId": "N050_S02"
+    },
+    {
+      "word": " 20에서",
+      "start": 309.365,
+      "end": 309.765,
+      "probability": 0.8427734375,
+      "sentenceId": "N051_S01"
+    },
+    {
+      "word": " 15로",
+      "start": 309.765,
+      "end": 310.285,
+      "probability": 0.9892578125,
+      "sentenceId": "N051_S01"
+    },
+    {
+      "word": " 내려간",
+      "start": 310.285,
+      "end": 310.665,
+      "probability": 0.99169921875,
+      "sentenceId": "N051_S01"
+    },
+    {
+      "word": " 게",
+      "start": 310.665,
+      "end": 310.785,
+      "probability": 0.7490234375,
+      "sentenceId": "N051_S01"
+    },
+    {
+      "word": " 아닙니다.",
+      "start": 310.785,
+      "end": 311.165,
+      "probability": 0.9990234375,
+      "sentenceId": "N051_S01"
+    },
+    {
+      "word": " 감경을",
+      "start": 311.485,
+      "end": 311.90500000000003,
+      "probability": 0.98876953125,
+      "sentenceId": "N051_S02"
+    },
+    {
+      "word": " 안해서",
+      "start": 311.90500000000003,
+      "end": 312.165,
+      "probability": 0.7607421875,
+      "sentenceId": "N051_S02"
+    },
+    {
+      "word": " 무기징역입니다.",
+      "start": 312.165,
+      "end": 312.96500000000003,
+      "probability": 0.96435546875,
+      "sentenceId": "N051_S02"
+    },
+    {
+      "word": " 형량표의",
+      "start": 313.355,
+      "end": 313.83500000000004,
+      "probability": 0.95751953125,
+      "sentenceId": "N051_S03"
+    },
+    {
+      "word": " 숫자만",
+      "start": 313.83500000000004,
+      "end": 314.235,
+      "probability": 0.99951171875,
+      "sentenceId": "N051_S03"
+    },
+    {
+      "word": " 보고",
+      "start": 314.235,
+      "end": 314.45500000000004,
+      "probability": 0.99951171875,
+      "sentenceId": "N051_S03"
+    },
+    {
+      "word": " 결말을",
+      "start": 314.45500000000004,
+      "end": 315.035,
+      "probability": 0.99609375,
+      "sentenceId": "N051_S03"
+    },
+    {
+      "word": " 찍으면",
+      "start": 315.035,
+      "end": 315.33500000000004,
+      "probability": 0.9990234375,
+      "sentenceId": "N051_S03"
+    },
+    {
+      "word": " 틀리는",
+      "start": 315.33500000000004,
+      "end": 315.695,
+      "probability": 0.998046875,
+      "sentenceId": "N051_S03"
+    },
+    {
+      "word": " 겁니다.",
+      "start": 315.695,
+      "end": 315.855,
+      "probability": 0.99755859375,
+      "sentenceId": "N051_S03"
+    },
+    {
+      "word": " 비가",
+      "start": 316.265,
+      "end": 316.465,
+      "probability": 0.7744140625,
+      "sentenceId": "N052_S01"
+    },
+    {
+      "word": " 발사자로",
+      "start": 316.465,
+      "end": 316.965,
+      "probability": 0.99951171875,
+      "sentenceId": "N052_S01"
+    },
+    {
+      "word": " 바뀌어서",
+      "start": 316.965,
+      "end": 317.465,
+      "probability": 1.0,
+      "sentenceId": "N052_S01"
+    },
+    {
+      "word": " 무기가",
+      "start": 317.465,
+      "end": 317.965,
+      "probability": 0.9990234375,
+      "sentenceId": "N052_S01"
+    },
+    {
+      "word": " 된",
+      "start": 317.965,
+      "end": 318.125,
+      "probability": 0.9990234375,
+      "sentenceId": "N052_S01"
+    },
+    {
+      "word": " 것도",
+      "start": 318.125,
+      "end": 318.305,
+      "probability": 0.99462890625,
+      "sentenceId": "N052_S01"
+    },
+    {
+      "word": " 아닙니다.",
+      "start": 318.305,
+      "end": 318.78499999999997,
+      "probability": 0.99951171875,
+      "sentenceId": "N052_S01"
+    },
+    {
+      "word": " A가",
+      "start": 319.055,
+      "end": 319.375,
+      "probability": 0.9931640625,
+      "sentenceId": "N052_S02"
+    },
+    {
+      "word": " 권총을",
+      "start": 319.375,
+      "end": 319.77500000000003,
+      "probability": 0.9990234375,
+      "sentenceId": "N052_S02"
+    },
+    {
+      "word": " 발사했다는",
+      "start": 319.77500000000003,
+      "end": 320.295,
+      "probability": 1.0,
+      "sentenceId": "N052_S02"
+    },
+    {
+      "word": " 판단은",
+      "start": 320.295,
+      "end": 320.77500000000003,
+      "probability": 1.0,
+      "sentenceId": "N052_S02"
+    },
+    {
+      "word": " 항소심에서도",
+      "start": 320.77500000000003,
+      "end": 321.595,
+      "probability": 0.9990234375,
+      "sentenceId": "N052_S02"
+    },
+    {
+      "word": " 유지됐습니다.",
+      "start": 321.595,
+      "end": 322.27500000000003,
+      "probability": 0.9951171875,
+      "sentenceId": "N052_S02"
+    },
+    {
+      "word": " 두",
+      "start": 322.63,
+      "end": 322.73,
+      "probability": 0.99755859375,
+      "sentenceId": "N053_S01"
+    },
+    {
+      "word": " 사람은",
+      "start": 322.73,
+      "end": 323.07,
+      "probability": 1.0,
+      "sentenceId": "N053_S01"
+    },
+    {
+      "word": " 형이",
+      "start": 323.07,
+      "end": 323.35,
+      "probability": 0.99853515625,
+      "sentenceId": "N053_S01"
+    },
+    {
+      "word": " 무겁다며",
+      "start": 323.35,
+      "end": 323.85,
+      "probability": 0.998046875,
+      "sentenceId": "N053_S01"
+    },
+    {
+      "word": " 상고했습니다.",
+      "start": 323.85,
+      "end": 324.37,
+      "probability": 0.9970703125,
+      "sentenceId": "N053_S01"
+    },
+    {
+      "word": " 마지막",
+      "start": 324.845,
+      "end": 325.14500000000004,
+      "probability": 0.99609375,
+      "sentenceId": "N053_S02"
+    },
+    {
+      "word": " 문은",
+      "start": 325.14500000000004,
+      "end": 325.46500000000003,
+      "probability": 0.9443359375,
+      "sentenceId": "N053_S02"
+    },
+    {
+      "word": " 대법원입니다.",
+      "start": 325.46500000000003,
+      "end": 326.08500000000004,
+      "probability": 0.98876953125,
+      "sentenceId": "N053_S02"
+    },
+    {
+      "word": " 약",
+      "start": 326.48,
+      "end": 326.66,
+      "probability": 0.99853515625,
+      "sentenceId": "N053_S03"
+    },
+    {
+      "word": " 20년",
+      "start": 326.66,
+      "end": 327.02000000000004,
+      "probability": 0.9990234375,
+      "sentenceId": "N053_S03"
+    },
+    {
+      "word": " 넘게",
+      "start": 327.02000000000004,
+      "end": 327.32,
+      "probability": 0.99951171875,
+      "sentenceId": "N053_S03"
+    },
+    {
+      "word": " 걸린",
+      "start": 327.32,
+      "end": 327.58000000000004,
+      "probability": 0.99951171875,
+      "sentenceId": "N053_S03"
+    },
+    {
+      "word": " 사건의",
+      "start": 327.58000000000004,
+      "end": 328.0,
+      "probability": 0.99560546875,
+      "sentenceId": "N053_S03"
+    },
+    {
+      "word": " 결론이",
+      "start": 328.0,
+      "end": 328.40000000000003,
+      "probability": 0.97314453125,
+      "sentenceId": "N053_S03"
+    },
+    {
+      "word": " 여기서",
+      "start": 328.40000000000003,
+      "end": 328.70000000000005,
+      "probability": 0.99609375,
+      "sentenceId": "N053_S03"
+    },
+    {
+      "word": " 정해집니다.",
+      "start": 328.70000000000005,
+      "end": 329.28000000000003,
+      "probability": 0.99951171875,
+      "sentenceId": "N053_S03"
+    },
+    {
+      "word": " 2023년",
+      "start": 329.56,
+      "end": 330.28000000000003,
+      "probability": 0.998046875,
+      "sentenceId": "N054_S01"
+    },
+    {
+      "word": " 12월",
+      "start": 330.28000000000003,
+      "end": 330.7,
+      "probability": 1.0,
+      "sentenceId": "N054_S01"
+    },
+    {
+      "word": " 14일",
+      "start": 330.7,
+      "end": 331.2,
+      "probability": 0.99951171875,
+      "sentenceId": "N054_S01"
+    },
+    {
+      "word": " 대법원은",
+      "start": 331.2,
+      "end": 331.72,
+      "probability": 0.95654296875,
+      "sentenceId": "N054_S01"
+    },
+    {
+      "word": " 상고를",
+      "start": 331.72,
+      "end": 332.1,
+      "probability": 0.99658203125,
+      "sentenceId": "N054_S01"
+    },
+    {
+      "word": " 기각했습니다.",
+      "start": 332.1,
+      "end": 332.58,
+      "probability": 0.98974609375,
+      "sentenceId": "N054_S01"
+    },
+    {
+      "word": " 두",
+      "start": 333.015,
+      "end": 333.135,
+      "probability": 0.9833984375,
+      "sentenceId": "N054_S02"
+    },
+    {
+      "word": " 사람",
+      "start": 333.135,
+      "end": 333.29499999999996,
+      "probability": 0.9521484375,
+      "sentenceId": "N054_S02"
+    },
+    {
+      "word": " 모두",
+      "start": 333.29499999999996,
+      "end": 333.555,
+      "probability": 0.99951171875,
+      "sentenceId": "N054_S02"
+    },
+    {
+      "word": " 무기징역이",
+      "start": 333.555,
+      "end": 334.235,
+      "probability": 0.96484375,
+      "sentenceId": "N054_S02"
+    },
+    {
+      "word": " 확정됐습니다.",
+      "start": 334.235,
+      "end": 334.91499999999996,
+      "probability": 0.97216796875,
+      "sentenceId": "N054_S02"
+    },
+    {
+      "word": " 대법원은",
+      "start": 335.3,
+      "end": 335.78000000000003,
+      "probability": 0.9990234375,
+      "sentenceId": "N055_S01"
+    },
+    {
+      "word": " 원심의",
+      "start": 335.78000000000003,
+      "end": 336.22,
+      "probability": 0.99755859375,
+      "sentenceId": "N055_S01"
+    },
+    {
+      "word": " 형이",
+      "start": 336.22,
+      "end": 336.46000000000004,
+      "probability": 0.998046875,
+      "sentenceId": "N055_S01"
+    },
+    {
+      "word": " 부당하다고",
+      "start": 336.46000000000004,
+      "end": 337.08,
+      "probability": 0.99609375,
+      "sentenceId": "N055_S01"
+    },
+    {
+      "word": " 볼",
+      "start": 337.08,
+      "end": 337.26,
+      "probability": 0.99951171875,
+      "sentenceId": "N055_S01"
+    },
+    {
+      "word": " 수",
+      "start": 337.26,
+      "end": 337.40000000000003,
+      "probability": 0.99951171875,
+      "sentenceId": "N055_S01"
+    },
+    {
+      "word": " 없다고",
+      "start": 337.40000000000003,
+      "end": 337.66,
+      "probability": 1.0,
+      "sentenceId": "N055_S01"
+    },
+    {
+      "word": " 판단했습니다.",
+      "start": 337.66,
+      "end": 338.28000000000003,
+      "probability": 0.99755859375,
+      "sentenceId": "N055_S01"
+    },
+    {
+      "word": " 무기징역을",
+      "start": 338.725,
+      "end": 339.38500000000005,
+      "probability": 0.9833984375,
+      "sentenceId": "N055_S02"
+    },
+    {
+      "word": " 가석방",
+      "start": 339.38500000000005,
+      "end": 339.82500000000005,
+      "probability": 0.994140625,
+      "sentenceId": "N055_S02"
+    },
+    {
+      "word": " 없는",
+      "start": 339.82500000000005,
+      "end": 340.045,
+      "probability": 0.95556640625,
+      "sentenceId": "N055_S02"
+    },
+    {
+      "word": " 종신형으로",
+      "start": 340.045,
+      "end": 340.64500000000004,
+      "probability": 0.9638671875,
+      "sentenceId": "N055_S02"
+    },
+    {
+      "word": " 바꿔",
+      "start": 340.64500000000004,
+      "end": 341.005,
+      "probability": 0.99755859375,
+      "sentenceId": "N055_S02"
+    },
+    {
+      "word": " 말할",
+      "start": 341.005,
+      "end": 341.26500000000004,
+      "probability": 0.9990234375,
+      "sentenceId": "N055_S02"
+    },
+    {
+      "word": " 수는",
+      "start": 341.26500000000004,
+      "end": 341.46500000000003,
+      "probability": 0.9970703125,
+      "sentenceId": "N055_S02"
+    },
+    {
+      "word": " 없습니다.",
+      "start": 341.46500000000003,
+      "end": 341.70500000000004,
+      "probability": 0.99951171875,
+      "sentenceId": "N055_S02"
+    },
+    {
+      "word": " 숨진",
+      "start": 342.195,
+      "end": 342.455,
+      "probability": 0.9912109375,
+      "sentenceId": "N056_S01"
+    },
+    {
+      "word": " 출납",
+      "start": 342.455,
+      "end": 342.735,
+      "probability": 0.98876953125,
+      "sentenceId": "N056_S01"
+    },
+    {
+      "word": " 과장은",
+      "start": 342.735,
+      "end": 343.115,
+      "probability": 0.8544921875,
+      "sentenceId": "N056_S01"
+    },
+    {
+      "word": " 두",
+      "start": 343.115,
+      "end": 343.275,
+      "probability": 0.9970703125,
+      "sentenceId": "N056_S01"
+    },
+    {
+      "word": " 자녀를",
+      "start": 343.275,
+      "end": 343.695,
+      "probability": 0.9990234375,
+      "sentenceId": "N056_S01"
+    },
+    {
+      "word": " 둔",
+      "start": 343.695,
+      "end": 343.875,
+      "probability": 0.99951171875,
+      "sentenceId": "N056_S01"
+    },
+    {
+      "word": " 가장이었습니다.",
+      "start": 343.875,
+      "end": 344.515,
+      "probability": 0.92919921875,
+      "sentenceId": "N056_S01"
+    },
+    {
+      "word": " 유족이",
+      "start": 344.88,
+      "end": 345.24,
+      "probability": 0.99951171875,
+      "sentenceId": "N056_S02"
+    },
+    {
+      "word": " 검거에",
+      "start": 345.24,
+      "end": 345.64,
+      "probability": 0.9921875,
+      "sentenceId": "N056_S02"
+    },
+    {
+      "word": " 감사를",
+      "start": 345.64,
+      "end": 346.04,
+      "probability": 0.9990234375,
+      "sentenceId": "N056_S02"
+    },
+    {
+      "word": " 전했다는",
+      "start": 346.04,
+      "end": 346.46,
+      "probability": 1.0,
+      "sentenceId": "N056_S02"
+    },
+    {
+      "word": " 보도는",
+      "start": 346.46,
+      "end": 346.88,
+      "probability": 0.99951171875,
+      "sentenceId": "N056_S02"
+    },
+    {
+      "word": " 경찰을",
+      "start": 346.88,
+      "end": 347.44,
+      "probability": 0.9990234375,
+      "sentenceId": "N056_S02"
+    },
+    {
+      "word": " 통한",
+      "start": 347.44,
+      "end": 347.7,
+      "probability": 1.0,
+      "sentenceId": "N056_S02"
+    },
+    {
+      "word": " 전원이었습니다.",
+      "start": 347.7,
+      "end": 348.38,
+      "probability": 0.9755859375,
+      "sentenceId": "N056_S02"
+    },
+    {
+      "word": " 이",
+      "start": 348.74,
+      "end": 348.86,
+      "probability": 0.99951171875,
+      "sentenceId": "N057_S01"
+    },
+    {
+      "word": " 사건의",
+      "start": 348.86,
+      "end": 349.2,
+      "probability": 0.9951171875,
+      "sentenceId": "N057_S01"
+    },
+    {
+      "word": " 마지막에",
+      "start": 349.2,
+      "end": 349.62,
+      "probability": 1.0,
+      "sentenceId": "N057_S01"
+    },
+    {
+      "word": " 남겨야",
+      "start": 349.62,
+      "end": 349.98,
+      "probability": 1.0,
+      "sentenceId": "N057_S01"
+    },
+    {
+      "word": " 할",
+      "start": 349.98,
+      "end": 350.16,
+      "probability": 0.99267578125,
+      "sentenceId": "N057_S01"
+    },
+    {
+      "word": " 건",
+      "start": 350.16,
+      "end": 350.36,
+      "probability": 0.994140625,
+      "sentenceId": "N057_S01"
+    },
+    {
+      "word": " 범인의",
+      "start": 350.36,
+      "end": 350.86,
+      "probability": 0.9990234375,
+      "sentenceId": "N057_S01"
+    },
+    {
+      "word": " 표정이",
+      "start": 350.86,
+      "end": 351.2,
+      "probability": 1.0,
+      "sentenceId": "N057_S01"
+    },
+    {
+      "word": " 아닙니다.",
+      "start": 351.2,
+      "end": 351.58,
+      "probability": 1.0,
+      "sentenceId": "N057_S01"
+    },
+    {
+      "word": " 일을",
+      "start": 351.915,
+      "end": 352.21500000000003,
+      "probability": 0.994140625,
+      "sentenceId": "N057_S02"
+    },
+    {
+      "word": " 하던",
+      "start": 352.21500000000003,
+      "end": 352.415,
+      "probability": 0.9990234375,
+      "sentenceId": "N057_S02"
+    },
+    {
+      "word": " 한",
+      "start": 352.415,
+      "end": 352.57500000000005,
+      "probability": 0.998046875,
+      "sentenceId": "N057_S02"
+    },
+    {
+      "word": " 사람이",
+      "start": 352.57500000000005,
+      "end": 352.89500000000004,
+      "probability": 0.99609375,
+      "sentenceId": "N057_S02"
+    },
+    {
+      "word": " 돌아오지",
+      "start": 352.89500000000004,
+      "end": 353.375,
+      "probability": 0.9990234375,
+      "sentenceId": "N057_S02"
+    },
+    {
+      "word": " 못했다는",
+      "start": 353.375,
+      "end": 353.875,
+      "probability": 0.99853515625,
+      "sentenceId": "N057_S02"
+    },
+    {
+      "word": " 사실입니다.",
+      "start": 353.875,
+      "end": 354.415,
+      "probability": 0.998046875,
+      "sentenceId": "N057_S02"
+    }
+  ]
+}

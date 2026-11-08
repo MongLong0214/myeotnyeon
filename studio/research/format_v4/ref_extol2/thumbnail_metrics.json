@@ -1,0 +1,47 @@
+{
+  "roi_xyxy": [
+    145,
+    425,
+    1140,
+    554
+  ],
+  "threshold": "HSV S<25,V>230",
+  "white_ink_bbox_xyxy": [
+    150,
+    436,
+    1130,
+    547
+  ],
+  "white_ink_pixels": 23495,
+  "glyph_height_px": 111,
+  "glyph_width_px": 980,
+  "canvas": [
+    1280,
+    720
+  ],
+  "text_bbox_area_share": 0.11803385416666666,
+  "white_ink_area_share": 0.02549370659722222,
+  "text_height_share": 0.15416666666666667,
+  "text_width_share": 0.765625,
+  "manually_observed_subject_boxes_xyxy": {
+    "shooter_left": [
+      145,
+      108,
+      655,
+      720
+    ],
+    "victim_right": [
+      590,
+      4,
+      1240,
+      720
+    ],
+    "muzzle_burst": [
+      650,
+      135,
+      812,
+      255
+    ]
+  },
+  "box_note": "Subject extents are manual approximate silhouette bounding boxes; text white mask exact within stated ROI."
+}

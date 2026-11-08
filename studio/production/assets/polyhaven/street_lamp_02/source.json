@@ -1,0 +1,20 @@
+{
+ "id": "street_lamp_02",
+ "name": "Street Lamp 02",
+ "type": 2,
+ "authors": {
+  "Josh Dean": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/street_lamp_02",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/street_lamp_02/street_lamp_02_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/street_lamp_02/street_lamp_02_diff_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/street_lamp_02/street_lamp_02_rough_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/street_lamp_02/street_lamp_02_opacity_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/street_lamp_02/street_lamp_02_nor_gl_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/street_lamp_02/street_lamp_02_metal_2k.exr"
+ ]
+}

@@ -1,0 +1,199 @@
+{
+  "stills": {
+    "A": {
+      "size": [
+        1080,
+        1920
+      ],
+      "phone_size": [
+        393,
+        698
+      ],
+      "text": {
+        "subtitle": {
+          "pixel_bbox": [
+            273,
+            1236,
+            727,
+            1291
+          ],
+          "glyph_height_px": 55,
+          "contrast_sample": 17.29
+        },
+        "role": {
+          "pixel_bbox": [
+            152,
+            624,
+            270,
+            665
+          ],
+          "glyph_height_px": 41,
+          "contrast_sample": 17.21
+        },
+        "measurement": {
+          "pixel_bbox": [
+            558,
+            672,
+            769,
+            717
+          ],
+          "glyph_height_px": 45,
+          "contrast_sample": 13.54
+        },
+        "date": {
+          "pixel_bbox": [
+            133,
+            421,
+            492,
+            462
+          ],
+          "glyph_height_px": 41
+        },
+        "meta": {
+          "pixel_bbox": [
+            131,
+            1408,
+            540,
+            1449
+          ],
+          "glyph_height_px": 41
+        }
+      },
+      "commander_torso_linear_luminance": 0.0275
+    },
+    "B": {
+      "size": [
+        1080,
+        1920
+      ],
+      "phone_size": [
+        393,
+        698
+      ],
+      "text": {
+        "subtitle": {
+          "pixel_bbox": [
+            273,
+            1236,
+            727,
+            1291
+          ],
+          "glyph_height_px": 55,
+          "contrast_sample": 17.27
+        },
+        "role": {
+          "pixel_bbox": [
+            152,
+            624,
+            270,
+            665
+          ],
+          "glyph_height_px": 41,
+          "contrast_sample": 17.4
+        },
+        "measurement": {
+          "pixel_bbox": [
+            558,
+            672,
+            769,
+            717
+          ],
+          "glyph_height_px": 45,
+          "contrast_sample": 13.52
+        },
+        "date": {
+          "pixel_bbox": [
+            133,
+            421,
+            492,
+            462
+          ],
+          "glyph_height_px": 41
+        },
+        "meta": {
+          "pixel_bbox": [
+            131,
+            1408,
+            540,
+            1449
+          ],
+          "glyph_height_px": 41
+        }
+      },
+      "commander_torso_linear_luminance": 0.0134
+    }
+  },
+  "determinism": {
+    "A": {
+      "frame": 40,
+      "different_pixels": 0
+    },
+    "B": {
+      "frame": 40,
+      "different_pixels": 0
+    }
+  },
+  "compression": {
+    "A": {
+      "frame": 69,
+      "target_bitrate": "8 Mbps",
+      "psnr_vs_original_clip_db": 54.61
+    },
+    "B": {
+      "frame": 69,
+      "target_bitrate": "8 Mbps",
+      "psnr_vs_original_clip_db": 61.55
+    }
+  },
+  "regression": {
+    "cover_q012_different_pixels": 0,
+    "existing_compositions": 52,
+    "metadata_changed": [],
+    "added_ids": [
+      "V4SPIKE-A",
+      "V4SPIKE-B"
+    ]
+  },
+  "mobile_zones": {
+    "hidden": "x<110, x>970, y<190, y>1540; x>880 when y>900",
+    "portrait_text_layout_envelopes": {
+      "titles": [
+        130,
+        210,
+        950,
+        360
+      ],
+      "date": [
+        130,
+        411,
+        600,
+        473
+      ],
+      "role": [
+        130,
+        590,
+        300,
+        700
+      ],
+      "measurement": [
+        535,
+        650,
+        792,
+        740
+      ],
+      "subtitle": [
+        130,
+        1220,
+        870,
+        1308
+      ],
+      "meta": [
+        130,
+        1400,
+        700,
+        1458
+      ]
+    },
+    "result": "All text envelopes avoid the hidden zones; role remains in this envelope throughout frames 0–89."
+  }
+}

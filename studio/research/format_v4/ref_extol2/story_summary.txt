@@ -1,0 +1,72 @@
+{
+  "voice": {
+    "sentence_count": 94,
+    "ending_counts": {
+      "습니다_ㅂ니다_입니다": 86,
+      "죠_지요": 0,
+      "요": 5,
+      "다": 3,
+      "other": 0
+    },
+    "ending_shares": {
+      "습니다_ㅂ니다_입니다": 0.9149,
+      "죠_지요": 0.0,
+      "요": 0.0532,
+      "다": 0.0319,
+      "other": 0.0
+    },
+    "average_sentence_hangul_syllables_normalized": 33.819148936170215,
+    "average_sentence_eojeol": 10.595744680851064,
+    "question_sentence_share": 0.0425531914893617,
+    "estimated_spoken_hangul_syllables": 3179,
+    "narration_syllables_per_timeline_s": 6.0923725565350715,
+    "narration_syllables_per_phrase_s": 6.580690568849879,
+    "note": "Same ref1 rule; quotes included here; chapter-card hallucination excluded. Numeral reading approximate."
+  },
+  "devices": {
+    "foreshadowing": {
+      "count": 5,
+      "per_minute": 0.5749329244921426
+    },
+    "reveal_withholding": {
+      "count": 7,
+      "per_minute": 0.8049060942889997
+    },
+    "quotes": {
+      "count": 7,
+      "per_minute": 0.8049060942889997
+    },
+    "humor_irony": {
+      "count": 5,
+      "per_minute": 0.5749329244921426
+    },
+    "stakes_contrast": {
+      "count": 27,
+      "per_minute": 3.1046377922575705
+    },
+    "rhetorical_questions": {
+      "count": 4,
+      "per_minute": 0.4599463395937141
+    },
+    "direct_address": {
+      "count": 0,
+      "per_minute": 0.0
+    },
+    "reversal_markers": {
+      "count": 6,
+      "per_minute": 0.6899195093905712
+    },
+    "specific_details": {
+      "count": 139,
+      "per_minute": 15.983135300881566
+    },
+    "open_loops": {
+      "count": 7,
+      "per_minute": 0.8049060942889997
+    },
+    "strict_action_cliffhangers": {
+      "count": 0,
+      "per_minute": 0
+    }
+  }
+}

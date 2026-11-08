@@ -1,0 +1,92 @@
+[
+  {
+    "run": "A-c1-75",
+    "wall_seconds": 21.684,
+    "frames": 75,
+    "render_ms": 19488,
+    "ms_per_frame": 259.84
+  },
+  {
+    "run": "A-default-75",
+    "wall_seconds": 23.265,
+    "frames": 75,
+    "render_ms": 21446,
+    "ms_per_frame": 285.947
+  },
+  {
+    "run": "A-clip-90",
+    "wall_seconds": 31.251,
+    "frames": 90,
+    "render_ms": 28930,
+    "ms_per_frame": 321.444
+  },
+  {
+    "run": "B-c1-75",
+    "wall_seconds": 22.625,
+    "frames": 75,
+    "render_ms": 20226,
+    "ms_per_frame": 269.68
+  },
+  {
+    "run": "B-default-75",
+    "wall_seconds": 37.731,
+    "frames": 75,
+    "render_ms": 3947,
+    "ms_per_frame": 52.627
+  },
+  {
+    "run": "B-clip-90",
+    "wall_seconds": 28.142,
+    "frames": 90,
+    "render_ms": 25683,
+    "ms_per_frame": 285.367
+  },
+  {
+    "run": "A-still-6",
+    "wall_seconds": 5.611
+  },
+  {
+    "run": "A-still-36",
+    "wall_seconds": 4.791
+  },
+  {
+    "run": "A-still-69",
+    "wall_seconds": 6.436
+  },
+  {
+    "run": "A-still-40",
+    "wall_seconds": 5.017
+  },
+  {
+    "run": "A-repeat-40",
+    "wall_seconds": 4.515
+  },
+  {
+    "run": "A-landscape",
+    "wall_seconds": 4.786
+  },
+  {
+    "run": "B-still-6",
+    "wall_seconds": 3.38
+  },
+  {
+    "run": "B-still-36",
+    "wall_seconds": 3.335
+  },
+  {
+    "run": "B-still-69",
+    "wall_seconds": 3.758
+  },
+  {
+    "run": "B-still-40",
+    "wall_seconds": 3.588
+  },
+  {
+    "run": "B-repeat-40",
+    "wall_seconds": 4.077
+  },
+  {
+    "run": "B-landscape",
+    "wall_seconds": 3.332
+  }
+]

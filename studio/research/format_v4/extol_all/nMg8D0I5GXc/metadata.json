@@ -1,0 +1,34 @@
+{
+  "id": "nMg8D0I5GXc",
+  "title": "북한이 전수받은 자폭드론의 위력",
+  "description": "[omitted: third-party video description]",
+  "upload_date": "20260601",
+  "timestamp": 1780321047,
+  "duration": 266,
+  "view_count": 21541,
+  "like_count": 399,
+  "comment_count": 34,
+  "chapters": null,
+  "channel": "엑스톨(Extol)",
+  "channel_id": "UCHRG_xhaJj-5TsYnAjhJXVQ",
+  "channel_follower_count": null,
+  "webpage_url": "https://www.youtube.com/watch?v=nMg8D0I5GXc",
+  "categories": [
+    "People & Blogs"
+  ],
+  "tags": [
+    "드론",
+    "드론전쟁",
+    "우크라이나 전쟁",
+    "우크라이나 러시아"
+  ],
+  "language": "ko",
+  "availability": "public",
+  "age_limit": 0,
+  "analysis_kind": "long",
+  "collected_local": "2026-10-30T09:08:57+0900",
+  "counts_method": "yt-dlp separate metadata extraction without write-comments; avoids capped extracted count",
+  "extractor_format_description": "137 - 1920x1080 (1080p)+251-2 - audio only (한국어 원본 (default), medium)",
+  "extracted_audio_language": "ko",
+  "format_note_caveat": "For two reused media copies, selected format in fresh metadata is not the copy format; source_media.json ffprobe is authoritative."
+}

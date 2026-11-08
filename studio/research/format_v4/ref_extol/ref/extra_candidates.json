@@ -1,0 +1,132 @@
+[
+  {
+    "candidate": 397,
+    "frame": 6094,
+    "time_s": 203.13333333333333,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 8.301111111111112,
+    "hist": 0.1456707732879504
+  },
+  {
+    "candidate": 398,
+    "frame": 6968,
+    "time_s": 232.26666666666668,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 7.026649305555556,
+    "hist": 0.17337428305641997
+  },
+  {
+    "candidate": 399,
+    "frame": 6982,
+    "time_s": 232.73333333333332,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 13.450347222222222,
+    "hist": 0.30963668618197415
+  },
+  {
+    "candidate": 400,
+    "frame": 6991,
+    "time_s": 233.03333333333333,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 5.283489583333333,
+    "hist": 0.2080754075062478
+  },
+  {
+    "candidate": 401,
+    "frame": 7004,
+    "time_s": 233.46666666666667,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 7.42234375,
+    "hist": 0.14691920579322204
+  },
+  {
+    "candidate": 402,
+    "frame": 10396,
+    "time_s": 346.53333333333336,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 4.046597222222222,
+    "hist": 0.17531569839539046
+  },
+  {
+    "candidate": 403,
+    "frame": 10402,
+    "time_s": 346.73333333333335,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 9.040711805555556,
+    "hist": 0.11779145477296543
+  },
+  {
+    "candidate": 404,
+    "frame": 10550,
+    "time_s": 351.6666666666667,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 16.609947916666666,
+    "hist": 0.1543225178150189
+  },
+  {
+    "candidate": 405,
+    "frame": 10568,
+    "time_s": 352.26666666666665,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 4.5232986111111115,
+    "hist": 0.15129937260240767
+  },
+  {
+    "candidate": 406,
+    "frame": 10591,
+    "time_s": 353.03333333333336,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 10.886961805555556,
+    "hist": 0.10741041085931329
+  },
+  {
+    "candidate": 407,
+    "frame": 10759,
+    "time_s": 358.6333333333333,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 11.62953125,
+    "hist": 0.1655879843195093
+  },
+  {
+    "candidate": 408,
+    "frame": 11005,
+    "time_s": 366.8333333333333,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 9.406996527777778,
+    "hist": 0.19030054557008616
+  },
+  {
+    "candidate": 409,
+    "frame": 15431,
+    "time_s": 514.3666666666667,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 5.8523958333333335,
+    "hist": 0.1603376241125483
+  }
+]

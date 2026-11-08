@@ -1,0 +1,27 @@
+User-agent: Googlebot
+Allow: /
+Allow: /ads.txt
+Disallow: /com/cmm/login_page.do
+Disallow: /com/cmm/total_search.do
+Disallow: /com/autopay/
+Disallow: /com/pay/
+Disallow: /com/ticket/
+Disallow: /com/mypage/
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Yeti
+Allow: /
+Disallow: /com/cmm/login_page.do
+Disallow: /com/cmm/total_search.do
+Disallow: /com/autopay/
+Disallow: /com/pay/
+Disallow: /com/ticket/
+Disallow: /com/mypage/
+
+User-agent: YisouSpider
+Disallow: /
+
+Sitemap: https://ichannela.com/sitemap/news-sitemap.do
+Sitemap: https://ichannela.com/sitemap/monthly-news-sitemap.do

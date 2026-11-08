@@ -1,0 +1,368 @@
+{
+ "episode_id": "q013",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 수원지법 2026년 1심",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "배달 음식 받는 곳을 바꿨다는 이유로 외국인 노동자에게 박치기를 22번 했습니다."
+   ],
+   "claim_ids": [
+    "V3-02_2",
+    "V3-02_1",
+    "V3-02_4"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "dorm",
+    "props": [
+     {
+      "kind": "delivery",
+      "x": 500,
+      "y": 880,
+      "scale": 0.8,
+      "at": 2,
+      "front": true
+     }
+    ],
+    "actors": [
+     {
+      "look": "suit",
+      "x": 270,
+      "expr": "angry",
+      "pose": "point"
+     },
+     {
+      "look": "B",
+      "x": 730,
+      "expr": "normal",
+      "flip": true,
+      "until": "e1-40"
+     },
+     {
+      "look": "B",
+      "x": 730,
+      "expr": "shock",
+      "flip": true,
+      "at": "e1-40"
+     }
+    ],
+    "tags": [
+     {
+      "text": "공장 관리자",
+      "x": 230,
+      "y": 40,
+      "color": "#C9503E",
+      "at": 2
+     },
+     {
+      "text": "베트남 국적 20대 노동자",
+      "x": 700,
+      "y": 40,
+      "color": "#21B8B0",
+      "at": 14,
+      "size": 36
+     }
+    ],
+    "burst": {
+     "x": 520,
+     "y": 390,
+     "at": "e1-40",
+     "text": "쿵!",
+     "r": 120,
+     "size": 80
+    },
+    "stamp": {
+     "lines": [
+      "박치기 22번"
+     ],
+     "x": 500,
+     "y": 190,
+     "at": "e1-16",
+     "size": 100,
+     "maxW": 560,
+     "rot": -6
+    },
+    "punch": [
+     44,
+     70
+    ]
+   },
+   "in_frame": 0,
+   "duration_frames": 146,
+   "out_frame_exclusive": 146,
+   "required_claim_ids": [
+    "V3-02_2",
+    "V3-02_1",
+    "V3-02_4"
+   ]
+  },
+  {
+   "cue_id": "C2",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "노동자는 뇌진탕 등 상해를 입었고 관리자는 구속된 채 재판에 넘겨졌죠."
+   ],
+   "claim_ids": [
+    "V3-02_1",
+    "V3-02_2",
+    "V3-02_4",
+    "V3-02_3"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#F6E7D7",
+    "actors": [
+     {
+      "look": "B",
+      "x": 260,
+      "y": 860,
+      "scale": 1.05,
+      "expr": "tired",
+      "pose": "sit",
+      "until": "e1-56"
+     },
+     {
+      "look": "suit",
+      "x": 260,
+      "y": 1000,
+      "scale": 1.15,
+      "expr": "serious",
+      "at": "e1-56"
+     }
+    ],
+    "stamps": [
+     {
+      "lines": [
+       "뇌진탕 등 상해"
+      ],
+      "x": 650,
+      "y": 280,
+      "at": 8,
+      "until": "e1-56",
+      "size": 92,
+      "maxW": 540
+     },
+     {
+      "lines": [
+       "구속 기소",
+       "혐의: 상해"
+      ],
+      "x": 650,
+      "y": 280,
+      "at": "e1-54",
+      "size": 92,
+      "maxW": 540,
+      "color": "#141414"
+     }
+    ],
+    "punch": [
+     38,
+     "e1-20"
+    ]
+   },
+   "in_frame": 146,
+   "duration_frames": 124,
+   "out_frame_exclusive": 270,
+   "required_claim_ids": [
+    "V3-02_1",
+    "V3-02_2",
+    "V3-02_4",
+    "V3-02_3"
+   ]
+  },
+  {
+   "cue_id": "C3",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "게다가 음주운전으로 집행유예 기간 중이었어요."
+   ],
+   "claim_ids": [
+    "V3-02_1",
+    "V3-02_2",
+    "V3-02_3"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#E9E1F2",
+    "actors": [
+     {
+      "look": "suit",
+      "x": 260,
+      "y": 1000,
+      "scale": 1.15,
+      "expr": "smug",
+      "pose": "shrug"
+     }
+    ],
+    "stamps": [
+     {
+      "lines": [
+       "음주운전",
+       "집행유예 기간 중"
+      ],
+      "x": 650,
+      "y": 250,
+      "at": 8,
+      "size": 96,
+      "maxW": 540,
+      "color": "#141414"
+     }
+    ],
+    "tags": [
+     {
+      "text": "음주운전 징역 10개월 · 집유 2년",
+      "x": 600,
+      "y": 410,
+      "color": "#2D3F73",
+      "at": 36,
+      "size": 30
+     }
+    ],
+    "punch": [
+     60
+    ]
+   },
+   "in_frame": 270,
+   "duration_frames": 85,
+   "out_frame_exclusive": 355,
+   "required_claim_ids": [
+    "V3-02_1",
+    "V3-02_2",
+    "V3-02_3"
+   ]
+  },
+  {
+   "cue_id": "C4",
+   "act": "weigh",
+   "block_name": "weigh",
+   "narration": [
+    "벌금, 집행유예, 실형 중 무엇이었을까요?",
+    "판사는 집행유예 기간에 자숙하지 않았다고 꼬집었습니다.",
+    "다만 범행을 모두 인정했고 구금 생활로 반성했을 거라고 봤어요.",
+    "700만 원에 합의해 피해자도 처벌을 원치 않았죠."
+   ],
+   "claim_ids": [
+    "V3-02_1",
+    "V3-02_2",
+    "V3-02_3"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "cards": [
+     {
+      "tag": "불리한 사정",
+      "text": "\"자숙하지 않고 범행\"",
+      "tone": "bad"
+     },
+     {
+      "tag": "유리한 사정",
+      "text": "범행 인정 · 구금 중 반성",
+      "tone": "good"
+     },
+     {
+      "tag": "유리한 사정",
+      "text": "700만 원 합의 · 처벌불원",
+      "tone": "good"
+     }
+    ],
+    "punch": [
+     34,
+     "s2+36",
+     "s2+66",
+     "s3+50",
+     "s3+80",
+     "s4+36",
+     "s4+70"
+    ]
+   },
+   "in_frame": 355,
+   "duration_frames": 362,
+   "out_frame_exclusive": 717,
+   "required_claim_ids": [
+    "V3-02_1",
+    "V3-02_2",
+    "V3-02_3"
+   ]
+  },
+  {
+   "cue_id": "C5",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "정답은 벌금 400만 원입니다.",
+    "검찰은 징역 1년을 구형했었죠."
+   ],
+   "claim_ids": [
+    "V3-02_1",
+    "V3-02_2",
+    "V3-02_3",
+    "V3-02_4"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "lines": [
+     "벌금 400만 원"
+    ],
+    "steps": [
+     {
+      "s": 2,
+      "lines": [
+       "벌금 400만 원",
+       "구형은 징역 1년"
+      ]
+     }
+    ],
+    "punch": [
+     40,
+     "s2+26"
+    ]
+   },
+   "in_frame": 717,
+   "duration_frames": 107,
+   "out_frame_exclusive": 824,
+   "required_claim_ids": [
+    "V3-02_1",
+    "V3-02_2",
+    "V3-02_3",
+    "V3-02_4"
+   ]
+  },
+  {
+   "cue_id": "C6",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 0.5,
+   "note": "",
+   "p": {
+    "staged": true,
+    "logoAt": 14,
+    "punch": [
+     30
+    ]
+   },
+   "in_frame": 824,
+   "duration_frames": 52,
+   "out_frame_exclusive": 876,
+   "required_claim_ids": []
+  }
+ ],
+ "duration_frames": 876,
+ "fps": 30
+}

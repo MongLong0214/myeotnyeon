@@ -1,0 +1,8 @@
+{
+  "v3b_samples": 3194880,
+  "v3c_samples": 3194880,
+  "identical_pcm": true,
+  "max_absolute_error": 0.0,
+  "rms_error": 0.0,
+  "correlation": 1.0
+}

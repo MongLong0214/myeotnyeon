@@ -1,0 +1,248 @@
+{
+  "topic": "범죄/연쇄살인 수사",
+  "title_formula": "국가 범위+최악의 인물 유형+고유명+체포 작전",
+  "cold_open_15_summary": "출소한 남자가 개를 관찰하다 해친다. 칼 대신 다른 도구를 고르려는 목적이 15초 무렵 드러난다.",
+  "cold_open_60_summary": "개→도구 선택→해머 개조→범행 예고. 36~41초 빠른 몽타주 후 01 전과자 장 카드와 인물 이력으로 되감는다.",
+  "beats": [
+    {
+      "start_s": 0,
+      "end_s": 18.6,
+      "function": "행동형 콜드오픈",
+      "summary": "사소한 관찰이 도구 선택 실험이었다는 반전"
+    },
+    {
+      "start_s": 18.6,
+      "end_s": 41.43,
+      "function": "준비와 예고",
+      "summary": "해머 제작을 클로즈업하고 범행 몽타주"
+    },
+    {
+      "start_s": 41.43,
+      "end_s": 92.03,
+      "function": "01 전과자",
+      "summary": "이력과 세 가지 범행 유형"
+    },
+    {
+      "start_s": 92.03,
+      "end_s": 175.3,
+      "function": "02 첫 현장",
+      "summary": "침입·동선·실수로 남긴 물건"
+    },
+    {
+      "start_s": 175.3,
+      "end_s": 265.1,
+      "function": "반복·증거",
+      "summary": "다음 현장과 족적의 반복; 경찰 해석과 대립"
+    },
+    {
+      "start_s": 265.1,
+      "end_s": 351.87,
+      "function": "수사 확대",
+      "summary": "실수·화재·족적·CCTV 뒤 범행 패턴 변경"
+    },
+    {
+      "start_s": 351.87,
+      "end_s": 433.87,
+      "function": "03 방식 변경",
+      "summary": "다른 대상과 공간으로 전환; 연결 실패와 업주의 발견"
+    },
+    {
+      "start_s": 433.87,
+      "end_s": 475.8,
+      "function": "04 단서",
+      "summary": "전화번호와 사라진 사람들의 공통점"
+    },
+    {
+      "start_s": 475.8,
+      "end_s": 546.67,
+      "function": "잠복·체포",
+      "summary": "미끼·차량·입안 전단지·소지품 확인"
+    },
+    {
+      "start_s": 546.67,
+      "end_s": 577.13,
+      "function": "재반전",
+      "summary": "체포 뒤 탈주"
+    },
+    {
+      "start_s": 577.13,
+      "end_s": 600.67,
+      "function": "05 재체포",
+      "summary": "수색과 재체포·기록 영상"
+    },
+    {
+      "start_s": 600.67,
+      "end_s": 636.53,
+      "function": "판결·현재",
+      "summary": "기록 음성과 선고 카드로 종결"
+    }
+  ],
+  "open_loops": [
+    {
+      "id": "L1",
+      "raised_s": 6.2,
+      "closed_or_reframed_s": 34.7,
+      "question": "왜 개에게 이런 행동을 하는가",
+      "resolution": "무기 선택의 준비였다는 서술"
+    },
+    {
+      "id": "L2",
+      "raised_s": 35.3,
+      "closed_or_reframed_s": 175.3,
+      "question": "준비한 도구는 어떤 범행으로 연결되는가",
+      "resolution": "첫 현장 서술"
+    },
+    {
+      "id": "L3",
+      "raised_s": 206.9,
+      "closed_or_reframed_s": 346.5,
+      "question": "반복되는 족적을 수사가 연결하는가",
+      "resolution": "공조수사로 확대"
+    },
+    {
+      "id": "L4",
+      "raised_s": 346.9,
+      "closed_or_reframed_s": 433.7,
+      "question": "범행 방식이 바뀌면 누가 연결하는가",
+      "resolution": "업주들이 패턴을 발견"
+    },
+    {
+      "id": "L5",
+      "raised_s": 448.2,
+      "closed_or_reframed_s": 543.2,
+      "question": "같은 전화번호의 주인을 잡는가",
+      "resolution": "함정과 물증으로 체포"
+    },
+    {
+      "id": "L6",
+      "raised_s": 556.1,
+      "closed_or_reframed_s": 588,
+      "question": "체포된 인물이 다시 벗어나는가",
+      "resolution": "탈주 후 재체포"
+    }
+  ],
+  "manual_devices": {
+    "foreshadowing": [
+      {
+        "start_s": 29,
+        "end_s": 41,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 67.9,
+        "end_s": 78.9,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 346.9,
+        "end_s": 351.6,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 453.4,
+        "end_s": 461.8,
+        "description": "[omitted: third-party video description]"
+      }
+    ],
+    "withholding": [
+      {
+        "start_s": 11.5,
+        "end_s": 18.4,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 35.3,
+        "end_s": 43,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 427.1,
+        "end_s": 433.7,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 448.2,
+        "end_s": 475.6,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 514.9,
+        "end_s": 534.3,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 556.1,
+        "end_s": 588,
+        "description": "[omitted: third-party video description]"
+      }
+    ],
+    "quotes": [
+      {
+        "start_s": 141.6,
+        "end_s": 153.8,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 600.9,
+        "end_s": 609.8,
+        "description": "[omitted: third-party video description]"
+      }
+    ],
+    "irony": [
+      {
+        "start_s": 215.8,
+        "end_s": 222,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 420.1,
+        "end_s": 433.7,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 556.1,
+        "end_s": 576.9,
+        "description": "[omitted: third-party video description]"
+      }
+    ]
+  },
+  "visual_notes": "거친 흑백 공간에 가해자 빨강·경찰 파랑·다른 인물 노랑/초록. 입체 조각상과 실제 CCTV/뉴스·사진이 섞인다. 접촉 직전/물체 클로즈업, 붉은 구체·액체·발자국으로 폭력을 추상화하지만 혈액을 연상시키는 표현은 존재한다. 절단면·장기 상세는 표본에서 확인하지 못함.",
+  "thumbnail_notes": "실제 체포 사진 한 장을 어둡게 처리하고 노란 의복을 초점으로 사용. 상단 빨간 인물명. 상위편 중 사진 중심 예외.",
+  "chapter_cliffhangers": [
+    {
+      "boundary_s": 41.433,
+      "cliffhanger_type_manual": "예고 후 되감기",
+      "lead_or_question": "해머 사용 결과를 몽타주로 먼저 남기고 이력으로 이동",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 92.033,
+      "cliffhanger_type_manual": "설명 전환",
+      "lead_or_question": "범행 유형을 제시한 뒤 첫 현장을 설명",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 351.867,
+      "cliffhanger_type_manual": "해법/전개 유예",
+      "lead_or_question": "경찰이 연결할 때 대상·방식 변경을 예고",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 433.867,
+      "cliffhanger_type_manual": "발견 유예",
+      "lead_or_question": "업주가 연결을 발견했다고 말한 뒤 구체적 단서를 보여줌",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 577.133,
+      "cliffhanger_type_manual": "행동 결과 중단",
+      "lead_or_question": "체포 뒤 탈주 상태를 남기고 재체포 장으로 이동",
+      "strict_action_interruption": true,
+      "status": "manual semantic classification; not retention evidence"
+    }
+  ]
+}

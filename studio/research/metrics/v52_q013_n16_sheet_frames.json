@@ -1,0 +1,188 @@
+[
+ {
+  "frame": 0,
+  "seconds": 0.0,
+  "label": "HOOK start",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0000.jpg"
+ },
+ {
+  "frame": 30,
+  "seconds": 1.0,
+  "label": "HOOK 1s",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0030.jpg"
+ },
+ {
+  "frame": 60,
+  "seconds": 2.0,
+  "label": "HOOK 2s",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0060.jpg"
+ },
+ {
+  "frame": 61,
+  "seconds": 2.033333333333333,
+  "label": "C1 dormitory",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0061.jpg"
+ },
+ {
+  "frame": 79,
+  "seconds": 2.6333333333333333,
+  "label": "C1 settled",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0079.jpg"
+ },
+ {
+  "frame": 139,
+  "seconds": 4.633333333333334,
+  "label": "C2 scene cut",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0139.jpg"
+ },
+ {
+  "frame": 151,
+  "seconds": 5.033333333333333,
+  "label": "C2 stamp at",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0151.jpg"
+ },
+ {
+  "frame": 157,
+  "seconds": 5.233333333333333,
+  "label": "C2 settled",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0157.jpg"
+ },
+ {
+  "frame": 161,
+  "seconds": 5.366666666666666,
+  "label": "C2 stamp settled",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0161.jpg"
+ },
+ {
+  "frame": 200,
+  "seconds": 6.666666666666667,
+  "label": "C2 court / original blank",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0200.jpg"
+ },
+ {
+  "frame": 202,
+  "seconds": 6.733333333333333,
+  "label": "C2 stamp until",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0202.jpg"
+ },
+ {
+  "frame": 204,
+  "seconds": 6.8,
+  "label": "C2 stamp at",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0204.jpg"
+ },
+ {
+  "frame": 212,
+  "seconds": 7.066666666666666,
+  "label": "C2 stamp settled",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0212.jpg"
+ },
+ {
+  "frame": 214,
+  "seconds": 7.133333333333334,
+  "label": "C2 stamp settled",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0214.jpg"
+ },
+ {
+  "frame": 253,
+  "seconds": 8.433333333333334,
+  "label": "C3 scene cut",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0253.jpg"
+ },
+ {
+  "frame": 260,
+  "seconds": 8.666666666666666,
+  "label": "C3 key / original blank",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0260.jpg"
+ },
+ {
+  "frame": 265,
+  "seconds": 8.833333333333334,
+  "label": "C3 stamp at",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0265.jpg"
+ },
+ {
+  "frame": 271,
+  "seconds": 9.033333333333333,
+  "label": "C3 settled",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0271.jpg"
+ },
+ {
+  "frame": 275,
+  "seconds": 9.166666666666666,
+  "label": "C3 stamp settled",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0275.jpg"
+ },
+ {
+  "frame": 329,
+  "seconds": 10.966666666666667,
+  "label": "C4 scene cut",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0329.jpg"
+ },
+ {
+  "frame": 347,
+  "seconds": 11.566666666666666,
+  "label": "C4 settled",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0347.jpg"
+ },
+ {
+  "frame": 421,
+  "seconds": 14.033333333333333,
+  "label": "C4 evidence 1",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0421.jpg"
+ },
+ {
+  "frame": 506,
+  "seconds": 16.866666666666667,
+  "label": "C4 evidence 2",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0506.jpg"
+ },
+ {
+  "frame": 609,
+  "seconds": 20.3,
+  "label": "C4 evidence 3",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0609.jpg"
+ },
+ {
+  "frame": 663,
+  "seconds": 22.1,
+  "label": "C5 scene cut",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0663.jpg"
+ },
+ {
+  "frame": 681,
+  "seconds": 22.7,
+  "label": "C5 settled",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0681.jpg"
+ },
+ {
+  "frame": 685,
+  "seconds": 22.833333333333332,
+  "label": "C5 answer",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0685.jpg"
+ },
+ {
+  "frame": 727,
+  "seconds": 24.233333333333334,
+  "label": "C5 prosecution request",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0727.jpg"
+ },
+ {
+  "frame": 754,
+  "seconds": 25.133333333333333,
+  "label": "Last held verdict",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0754.jpg"
+ },
+ {
+  "frame": 755,
+  "seconds": 25.166666666666668,
+  "label": "END #16",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0755.jpg"
+ },
+ {
+  "frame": 799,
+  "seconds": 26.633333333333333,
+  "label": "END last #16",
+  "file": "episodes/quiz/q013/v52_n16/review_frames/f0799.jpg"
+ }
+]

@@ -1,0 +1,10 @@
+{
+  "channel": "myeotnyeon",
+  "id": "q017_factory",
+  "format": "short",
+  "registry": "episodes/quiz/episodes_n16.py",
+  "source_id": "q017",
+  "number": 99,
+  "dry_number": true,
+  "notes": "Factory proof: rebuild of q017 from its cached v52 narration into out/factory/ with test number 99 (free in the ledger); TEST_ARTIFACT, never READY, never uploaded. q014 cannot be rebuilt today: its v52 public snapshot lost hook_v51/q014.png in the 11-06 cleanup."
+}

@@ -1,0 +1,35 @@
+ENGINE V6 API STABLE — 2026-11-01 — Task G (LF2), Task H may import read-only.
+
+Start from engine_v5; no v5 edits. index.ts retains Puppet, Set, Foreground, Car, Bag,
+Glyph, C, EvidenceCard, EvidenceLinks, Timeline, ToonMap and all earlier types.
+Stage({shot:CinematicShot,f:number,speech?:SpeechFrame}) remains the public entry.
+Without shot.staging it delegates to the retained v5 LegacyStage.
+
+For narration-matched cinematic scenes, set shot.staging (types.ts):
+sceneId:string; clockStart:absolute frame; actors:StagedActor[]; props:StagedProp[];
+links?:{from:[x,y],to:[x,y],label?,crossed?}[];
+focus?:{x,y,zoom}; angleDeg?:number (blocking/camera audit metadata);
+heading?, date?, location?, note?, axis?.
+Parent supplies SVG 1920x1080, local ToonPretendard font, subtitles below y=930.
+The stage is deterministic, silent, local-only, no network or assets side effects.
+Hard-cut camera, no automatic whip, shake, cycling, reaction host or snap zoom.
+Camera focus is an actual SVG crop; angleDeg documents the planned axis, not a 3D
+camera rotation. For reverses, use focus on the opposite speaker and profile/flip.
+
+StagedActor: id,role,x,y,scale?,flip?,view?,gesture?,expr?,anonymous?,still?,walk?,
+fall?,bag?,hideRightArm?,label?,motion?:{start,end,xTo?,yTo?,fallTo?}.
+StagedProp: id,kind,x,y,scale?,label?,text?,subtext?,tone?,crossed?,truck?,flip?,
+occupants?:Role[],portraits?:Role[],motion?:{start,end,xTo?,yTo?},fireAt?:absolute frame.
+Prop kinds: car,bag,aimedGun,mask,cloth,cigarette,dna,gun,camera,scale,law,clock,door,paper,
+question,emptyChair,file,records,people,fireAttempt,family; any other kind is a board.
+Motion uses absolute frames, clamped smoothstep. Keep IDs, coordinates, clockStart
+and motion start/end identical across same-scene cuts to preserve performance.
+No inferred screen direction: caller sets consistent xTo and actor flip explicitly.
+Roles and PuppetProps are unchanged from v5. Victims/criminals stay non-identifiable.
+Only host receives narration mouth movement; put host on screen only for commentary.
+
+This readiness flag promises API stability, not LF2 final render/QA completion.
+LF2 final readiness is episodes/lf2_daejeon_bank/cartoon_v6/READY.txt only.
+
+Board portraits are opt-in via prop.portraits:Role[]. LF2 supplies its A/B portraits
+explicitly; the engine does not infer a sibling episode's person/role from text.

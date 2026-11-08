@@ -1,0 +1,19 @@
+Asset: ACCAD Open Motion Project - motion capture data (BVH)
+Page (fetched 2026-10-25, copy in ./evidence/accad_system-data_page.html):
+  https://accad.osu.edu/research/motion-lab/system-data
+Downloads (no login, no payment):
+  https://accad.osu.edu/sites/accad.osu.edu/files/Female1_bvh.zip
+  https://accad.osu.edu/sites/accad.osu.edu/files/Male1_bvh.zip
+  https://accad.osu.edu/sites/accad.osu.edu/files/Male2_bvh.zip
+
+Licence statement on that page, verbatim:
+  "Open Motion Project by ACCAD/The Ohio State University is licensed under a Creative Commons
+   Attribution 3.0 Unported License."
+Licence: https://creativecommons.org/licenses/by/3.0/  (CC BY 3.0 - commercial use and adaptation allowed
+with attribution, link to licence, and indication of changes).
+
+REQUIRED CREDIT (put in the video credits / description):
+  Motion capture data from the Open Motion Project by ACCAD / The Ohio State University,
+  licensed under CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/). Motions were trimmed and retargeted.
+
+Verdict: ALLOWED (CC BY 3.0) - attribution mandatory.

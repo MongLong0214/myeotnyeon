@@ -1,0 +1,21 @@
+[
+  {
+    "path": "upload/inspect_v52/inspection/v52_q015_bench_pre_000.png",
+    "frames": [
+      523,
+      524,
+      525,
+      526,
+      527,
+      528,
+      529
+    ],
+    "box": [
+      70,
+      650,
+      450,
+      1030
+    ],
+    "scale": 1
+  }
+]

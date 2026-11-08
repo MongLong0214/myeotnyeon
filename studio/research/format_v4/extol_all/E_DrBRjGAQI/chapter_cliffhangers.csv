@@ -1,0 +1,6 @@
+boundary_s,cliffhanger_type_manual,lead_or_question,strict_action_interruption,status
+40.64,주제 안내 뒤 회상,민감 내용 안내 뒤 최초 단서 사건으로 이동,False,manual semantic classification; not retention evidence
+114.16,장벽/해법,익명성 장벽 뒤 거래 경로 설명,False,manual semantic classification; not retention evidence
+196.68,새 수사 단계,거래소 신원정보 뒤 사이트의 허점을 찾는 단계,False,manual semantic classification; not retention evidence
+327.28,장소/신원 전환,IP로 주택지역을 특정한 뒤 실제 신원과 체포로 이동,False,manual semantic classification; not retention evidence
+457.84,규모/결과 전환,추가 하드드라이브 뒤 포렌식 규모와 형량 결과,False,manual semantic classification; not retention evidence

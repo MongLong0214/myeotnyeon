@@ -1,0 +1,186 @@
+{
+ "episode_id": "q008",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 대전지법 2026년 1심",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "허리가 아파 한의원을 찾은 92세 환자가, 가슴 부위에 침을 맞은 뒤 같은 날 숨졌습니다."
+   ],
+   "claim_ids": [
+    "V2-15_1",
+    "V2-15_2"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#E3EEF0",
+    "actors": [
+     {
+      "look": "doctor",
+      "x": 270,
+      "y": 1000,
+      "scale": 1.1,
+      "expr": "serious"
+     }
+    ],
+    "tags": [
+     {
+      "text": "한의사",
+      "x": 270,
+      "y": 40,
+      "color": "#2D3F73"
+     }
+    ],
+    "stamp": {
+     "lines": [
+      "침 시술 후",
+      "같은 날 사망"
+     ],
+     "x": 640,
+     "y": 300,
+     "at": 36,
+     "size": 100,
+     "maxW": 500,
+     "color": "#141414",
+     "rot": -3
+    }
+   }
+  },
+  {
+   "cue_id": "C2",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "가슴 통증과 호흡곤란을 호소했는데도, 약 15분간 방치했다고 봤죠."
+   ],
+   "claim_ids": [
+    "V2-15_1"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "bigtext",
+    "big": "15분",
+    "bigSub": "가슴 통증·호흡곤란에도 방치",
+    "bigAt": -6,
+    "bigBg": "#2A2D38"
+   }
+  },
+  {
+   "cue_id": "C3",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "게다가 이 한의사, 수사를 받던 중에 사이가 나쁜 지인의 카페 앞에 바윗돌을 놓아 영업까지 방해했습니다."
+   ],
+   "claim_ids": [
+    "V2-15_1",
+    "V2-15_2"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "cafe",
+    "rocks": true,
+    "actors": [
+     {
+      "look": "doctor",
+      "x": 180,
+      "y": 880,
+      "scale": 0.85,
+      "expr": "smug",
+      "pose": "shrug"
+     }
+    ],
+    "stamp": {
+     "lines": [
+      "수사 중 업무방해",
+      "카페 앞 바윗돌"
+     ],
+     "x": 560,
+     "y": 110,
+     "at": 40,
+     "size": 96,
+     "maxW": 520,
+     "color": "#141414",
+     "rot": -4
+    }
+   }
+  },
+  {
+   "cue_id": "C4",
+   "act": "quiz",
+   "block_name": "quiz",
+   "narration": [
+    "자, 몇 년 받았을까요?",
+    "벌금일까요, 집행유예일까요, 아니면 실형일까요?"
+   ],
+   "claim_ids": [],
+   "pad_s": 3.2,
+   "note": "",
+   "p": {}
+  },
+  {
+   "cue_id": "C5",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "정답은, 벌금 2천만 원입니다."
+   ],
+   "claim_ids": [
+    "V2-15_1"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "lines": [
+     "벌금",
+     "2,000만 원"
+    ]
+   }
+  },
+  {
+   "cue_id": "C6",
+   "act": "reason",
+   "block_name": "reason",
+   "narration": [
+    "범행을 인정하고 반성했고, 유족과 원만히 합의했고, 업무방해 피해자에게도 공탁했다는 이유였어요."
+   ],
+   "claim_ids": [
+    "V2-15_2"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "title": "벌금 이유",
+    "chips": [
+     "범행 인정 · 반성",
+     "유족과 원만한 합의",
+     "업무방해 피해자에 공탁"
+    ],
+    "colors": [
+     "#8A93A6",
+     "#8A93A6",
+     "#8A93A6"
+    ]
+   }
+  },
+  {
+   "cue_id": "C7",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 1.2,
+   "note": "",
+   "p": {}
+  }
+ ]
+}

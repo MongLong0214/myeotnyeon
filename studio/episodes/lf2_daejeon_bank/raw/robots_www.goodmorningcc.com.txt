@@ -1,0 +1,13 @@
+URL: https://www.goodmorningcc.com/robots.txt
+HTTP: 200
+User-agent: *
+Disallow: /admin/
+
+User-agent: bingbot
+Crawl-delay: 30
+
+User-agent: GPTBot
+Disallow: /
+
+
+Sitemap: https://www.goodmorningcc.com/sitemap.xml

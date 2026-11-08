@@ -1,0 +1,135 @@
+category,start_s,end_s,description,coding,span_char_start,span_char_end
+foreshadowing,10.1,16.8,8시간/56명 결과 선제시,manual semantic; clause alignment; ±0.5s,,
+foreshadowing,71.66,81.72,악마·마을 사람 모두를 죽인다는 예고,manual semantic; clause alignment; ±0.5s,,
+foreshadowing,112.16,115.7,특등사수 설명→발사,manual semantic; clause alignment; ±0.5s,,
+foreshadowing,174.08,180.1,술만 먹으면 돌변한다는 설정→상갓집에서 회수,manual semantic; clause alignment; ±0.5s,,
+foreshadowing,329.06,334.66,총·수류탄을 지닌 채 술자리→대량 살상,manual semantic; clause alignment; ±0.5s,,
+withholding,10.1,16.8,파리가 어떻게 56명의 죽음으로 연결되는가,manual semantic; clause alignment; ±0.5s,,
+withholding,74.38,81.72,지금부터 할 행동의 규모를 먼저 예고,manual semantic; clause alignment; ±0.5s,,
+withholding,118.94,128.78,첫 희생자→전체 전개 유예,manual semantic; clause alignment; ±0.5s,,
+withholding,365.62,369.34,아기 울음→다음 행동 직전 중단,manual semantic; clause alignment; ±0.5s,,
+withholding,418.84,423.54,8시간 동안 경찰은 어디 있었는가,manual semantic; clause alignment; ±0.5s,,
+withholding,481.38,487.1,진짜 이유를 질문,manual semantic; clause alignment; ±0.5s,,
+withholding,509.08,513.18,한 미치광이의 일인가→사회적 여운,manual semantic; clause alignment; ±0.5s,,
+quotes,63.88,67.22,경찰이면 다냐고 간접 인용,manual semantic; clause alignment; ±0.5s,,
+quotes,144.84,157.44,담임교사 증언 한 블록,manual semantic; clause alignment; ±0.5s,,
+quotes,174.08,180.1,미친 호랑이라는 별명/주변 증언,manual semantic; clause alignment; ±0.5s,,
+quotes,335.08,338.2,비상이 걸려 무장했다는 답변,manual semantic; clause alignment; ±0.5s,,
+quotes,342.42,346.96,경찰이면 경찰이지라는 꾸짖음,manual semantic; clause alignment; ±0.5s,,
+quotes,379.04,386.42,불을 끄라는 외침 간접 인용,manual semantic; clause alignment; ±0.5s,,
+quotes,487.34,508.8,당시 기사 직접 인용 한 블록,manual semantic; clause alignment; ±0.5s,,
+irony,193.84,199.4,권력에 가장 가까운 곳→가장 먼 곳,manual semantic; clause alignment; ±0.5s,,
+irony,321.1,329.06,살상 중 문상·부의금·술자리의 역설; 웃음 유도와 구별,manual semantic; clause alignment; ±0.5s,,
+irony,354.4,362.6,슬픔의 장소에 또 불운,manual semantic; clause alignment; ±0.5s,,
+irony,423.78,427.54,경찰이 범행 종료 후 나타남,manual semantic; clause alignment; ±0.5s,,
+irony,437.18,471.92,보호해야 할 경찰이 반대로 도주·은신,manual semantic; clause alignment; ±0.5s,,
+questions,347.32,353.94,ASR의 물음표/의문형 어미; 질문 인용이 포함될 수 있음,,,
+questions,418.82,423.54,ASR의 물음표/의문형 어미; 질문 인용이 포함될 수 있음,,,
+questions,481.38,487.1,ASR의 물음표/의문형 어미; 질문 인용이 포함될 수 있음,,,
+questions,509.08,513.18,ASR의 물음표/의문형 어미; 질문 인용이 포함될 수 있음,,,
+reversals,23.04,23.04,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,71.66,71.66,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,95.56,95.56,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,166.08,166.08,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,193.84,193.84,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,243.82,243.82,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,321.1,321.1,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,354.4,354.4,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,365.62,365.62,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,423.78,423.78,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,437.18,437.18,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,481.38,481.38,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+specifics,0.0,5.4,number,,1,6
+specifics,0.0,5.4,number,,7,9
+specifics,0.0,5.4,number,,10,13
+specifics,0.0,5.4,number/time,,16,19
+specifics,5.4,9.72,object,,1,3
+specifics,10.1,16.8,number/time,,1,3
+specifics,10.1,16.8,number,,8,11
+specifics,10.1,16.8,object,,33,35
+specifics,17.06,22.82,number,,31,34
+specifics,17.06,22.82,place,,14,19
+specifics,26.76,33.62,number,,10,13
+specifics,26.76,33.62,object,,23,25
+specifics,58.5,63.52,number/time,,7,9
+specifics,58.5,63.52,number/time,,10,13
+specifics,58.5,63.52,time,,4,6
+specifics,81.72,85.28,object,,19,22
+specifics,87.7,93.22,number,,24,27
+specifics,87.7,93.22,number,,34,36
+specifics,87.7,93.22,object,,5,8
+specifics,87.7,93.22,object,,11,14
+specifics,87.7,93.22,object,,21,23
+specifics,87.7,93.22,object,,30,33
+specifics,107.28,111.94,object,,9,12
+specifics,116.1,118.72,object,,13,16
+specifics,118.94,124.1,number/time,,11,13
+specifics,118.94,124.1,number,,19,22
+specifics,118.94,124.1,number,,29,32
+specifics,131.52,136.08,place,,1,3
+specifics,139.3,141.66,number,,13,15
+specifics,139.3,141.66,number,,16,17
+specifics,144.84,148.24,number,,9,10
+specifics,166.08,173.82,number,,13,15
+specifics,213.1,221.6,number,,1,3
+specifics,221.6,230.1,object,,10,12
+specifics,221.6,230.1,object,,39,41
+specifics,232.78,238.5,place,,32,35
+specifics,239.1,243.82,object,,32,34
+specifics,239.1,243.82,place,,9,12
+specifics,243.82,248.06,place,,27,30
+specifics,252.28,255.62,place,,4,7
+specifics,255.96,260.96,number,,20,22
+specifics,255.96,260.96,number,,28,30
+specifics,255.96,260.96,place,,1,4
+specifics,261.36,263.1,number,,7,9
+specifics,267.62,270.84,place,,1,4
+specifics,278.68,285.56,number/time,,23,26
+specifics,290.52,292.7,number,,7,9
+specifics,296.5,300.28,object,,1,4
+specifics,306.94,309.88,object,,17,20
+specifics,310.24,312.56,number,,7,10
+specifics,317.3,319.08,place,,5,8
+specifics,322.98,326.5,number,,5,6
+specifics,322.98,326.5,number,,20,21
+specifics,322.98,326.5,object,,1,4
+specifics,326.5,329.06,number/time,,11,14
+specifics,329.06,334.66,object,,9,12
+specifics,329.06,334.66,object,,19,22
+specifics,347.32,353.94,number,,26,29
+specifics,347.32,353.94,object,,20,23
+specifics,358.24,362.6,place,,12,15
+specifics,362.86,365.28,number,,11,14
+specifics,362.86,365.28,place,,3,6
+specifics,365.62,369.34,object,,24,26
+specifics,365.62,369.34,place,,5,8
+specifics,373.1,378.66,place,,1,4
+specifics,386.42,389.08,number,,7,10
+specifics,389.34,394.58,number/time,,8,10
+specifics,389.34,394.58,number/time,,11,14
+specifics,389.34,394.58,time,,5,7
+specifics,395.3,397.32,number,,5,7
+specifics,397.72,399.98,number,,10,12
+specifics,397.72,399.98,object,,6,9
+specifics,400.4,403.56,number,,16,18
+specifics,403.94,407.22,number/time,,7,9
+specifics,407.52,412.52,number,,20,23
+specifics,407.52,412.52,number,,27,30
+specifics,407.52,412.52,object,,15,17
+specifics,412.52,415.32,number,,11,12
+specifics,412.52,415.32,object,,8,10
+specifics,416.42,418.84,number,,1,3
+specifics,418.84,421.04,number/time,,16,18
+specifics,427.84,430.64,number,,18,20
+specifics,430.64,435.06,number,,1,3
+specifics,435.06,436.94,number,,5,7
+specifics,437.18,442.08,number,,10,12
+specifics,447.74,450.32,place,,13,18
+specifics,451.76,453.82,number,,10,12
+specifics,462.04,463.82,number/time,,13,15
+specifics,462.04,463.82,time,,10,12
+specifics,463.82,465.52,number/time,,1,3
+specifics,468.2,470.12,number,,7,10
+specifics,479.66,481.38,object,,4,7
+specifics,498.5,502.22,number,,1,4
+specifics,498.5,502.22,number,,11,14

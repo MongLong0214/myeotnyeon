@@ -1,0 +1,547 @@
+{
+  "baseline_audio_seconds": 258.96666666666664,
+  "target_seconds": 600,
+  "planned_existing_seconds": 258.96666666666664,
+  "planned_added_seconds": 341.03333333333336,
+  "planned_total_seconds": 599.9999999999999,
+  "original_block_count": 40,
+  "original_ids": [
+    "N001",
+    "N002",
+    "N003",
+    "N004",
+    "N005",
+    "N006",
+    "N007",
+    "N008",
+    "N009",
+    "N010",
+    "N011",
+    "N012",
+    "N013",
+    "N014",
+    "N015",
+    "N016",
+    "N017",
+    "N018",
+    "N019",
+    "N020",
+    "N021",
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10",
+    "M11",
+    "M12",
+    "M13",
+    "M14",
+    "M15",
+    "M16",
+    "M17",
+    "N056",
+    "N057"
+  ],
+  "original_text_verbatim_all_present": true,
+  "original_ids_preserved_in_source_order": true,
+  "additional_ids": [
+    "A01",
+    "A02",
+    "A03",
+    "A04",
+    "A05",
+    "A06",
+    "A07",
+    "A08",
+    "A09",
+    "A10",
+    "A11",
+    "A12",
+    "A13",
+    "A14",
+    "A15",
+    "A16",
+    "A17"
+  ],
+  "additional_insertion_after": {
+    "A01": "N003",
+    "A02": "N008",
+    "A03": "N010",
+    "A04": "N016",
+    "A05": "N020",
+    "A06": "M02",
+    "A07": "M03",
+    "A08": "M05",
+    "A09": "M06",
+    "A10": "M08",
+    "A11": "M11",
+    "A12": "M11",
+    "A13": "M14",
+    "A14": "M15",
+    "A15": "M17",
+    "A16": "N056",
+    "A17": "N056"
+  },
+  "additional_hangul_syllables": 2173,
+  "baseline_hangul_syllables": 1659,
+  "baseline_rate_syllables_per_second": 6.406229888016476,
+  "additional_same_rate_estimated_seconds": 339.2010648985332,
+  "additional_budget_seconds": 341.03333333333336,
+  "estimate_minus_budget_seconds": -1.8322684348001417,
+  "timeline_blocks": [
+    {
+      "kind": "원본",
+      "id": "N001",
+      "planned_start_seconds": 0,
+      "planned_end_seconds": 3.51,
+      "planned_duration_seconds": 3.51
+    },
+    {
+      "kind": "원본",
+      "id": "N002",
+      "planned_start_seconds": 3.51,
+      "planned_end_seconds": 7.455,
+      "planned_duration_seconds": 3.9450000000000003
+    },
+    {
+      "kind": "원본",
+      "id": "N003",
+      "planned_start_seconds": 7.455,
+      "planned_end_seconds": 13.59,
+      "planned_duration_seconds": 6.135
+    },
+    {
+      "kind": "추가",
+      "id": "A01",
+      "planned_start_seconds": 13.59,
+      "planned_end_seconds": 32.73683233624789,
+      "planned_duration_seconds": 19.146832336247893
+    },
+    {
+      "kind": "원본",
+      "id": "N004",
+      "planned_start_seconds": 32.73683233624789,
+      "planned_end_seconds": 37.68183233624789,
+      "planned_duration_seconds": 4.945
+    },
+    {
+      "kind": "원본",
+      "id": "N005",
+      "planned_start_seconds": 37.68183233624789,
+      "planned_end_seconds": 43.376832336247894,
+      "planned_duration_seconds": 5.695
+    },
+    {
+      "kind": "원본",
+      "id": "N006",
+      "planned_start_seconds": 43.376832336247894,
+      "planned_end_seconds": 48.8018323362479,
+      "planned_duration_seconds": 5.425000000000001
+    },
+    {
+      "kind": "원본",
+      "id": "N007",
+      "planned_start_seconds": 48.8018323362479,
+      "planned_end_seconds": 54.991832336247896,
+      "planned_duration_seconds": 6.189999999999998
+    },
+    {
+      "kind": "원본",
+      "id": "N008",
+      "planned_start_seconds": 54.991832336247896,
+      "planned_end_seconds": 61.1918323362479,
+      "planned_duration_seconds": 6.200000000000003
+    },
+    {
+      "kind": "추가",
+      "id": "A02",
+      "planned_start_seconds": 61.1918323362479,
+      "planned_end_seconds": 79.55395842920694,
+      "planned_duration_seconds": 18.362126092959045
+    },
+    {
+      "kind": "원본",
+      "id": "N009",
+      "planned_start_seconds": 79.55395842920694,
+      "planned_end_seconds": 85.52395842920694,
+      "planned_duration_seconds": 5.969999999999999
+    },
+    {
+      "kind": "원본",
+      "id": "N010",
+      "planned_start_seconds": 85.52395842920694,
+      "planned_end_seconds": 90.97895842920694,
+      "planned_duration_seconds": 5.454999999999998
+    },
+    {
+      "kind": "추가",
+      "id": "A03",
+      "planned_start_seconds": 90.97895842920694,
+      "planned_end_seconds": 109.49802577082376,
+      "planned_duration_seconds": 18.519067341616815
+    },
+    {
+      "kind": "원본",
+      "id": "N011",
+      "planned_start_seconds": 109.49802577082376,
+      "planned_end_seconds": 115.49802577082376,
+      "planned_duration_seconds": 6.0
+    },
+    {
+      "kind": "원본",
+      "id": "N012",
+      "planned_start_seconds": 115.49802577082376,
+      "planned_end_seconds": 122.56302577082376,
+      "planned_duration_seconds": 7.064999999999998
+    },
+    {
+      "kind": "원본",
+      "id": "N013",
+      "planned_start_seconds": 122.56302577082376,
+      "planned_end_seconds": 128.01302577082376,
+      "planned_duration_seconds": 5.450000000000003
+    },
+    {
+      "kind": "원본",
+      "id": "N014",
+      "planned_start_seconds": 128.01302577082376,
+      "planned_end_seconds": 133.40302577082377,
+      "planned_duration_seconds": 5.390000000000001
+    },
+    {
+      "kind": "원본",
+      "id": "N015",
+      "planned_start_seconds": 133.40302577082377,
+      "planned_end_seconds": 140.02302577082378,
+      "planned_duration_seconds": 6.6200000000000045
+    },
+    {
+      "kind": "원본",
+      "id": "N016",
+      "planned_start_seconds": 140.02302577082378,
+      "planned_end_seconds": 145.17802577082378,
+      "planned_duration_seconds": 5.155000000000001
+    },
+    {
+      "kind": "추가",
+      "id": "A04",
+      "planned_start_seconds": 145.17802577082378,
+      "planned_end_seconds": 166.6789768369382,
+      "planned_duration_seconds": 21.50095106611444
+    },
+    {
+      "kind": "원본",
+      "id": "N017",
+      "planned_start_seconds": 166.6789768369382,
+      "planned_end_seconds": 173.14397683693818,
+      "planned_duration_seconds": 6.464999999999989
+    },
+    {
+      "kind": "원본",
+      "id": "N018",
+      "planned_start_seconds": 173.14397683693818,
+      "planned_end_seconds": 179.65897683693817,
+      "planned_duration_seconds": 6.515000000000001
+    },
+    {
+      "kind": "원본",
+      "id": "N019",
+      "planned_start_seconds": 179.65897683693817,
+      "planned_end_seconds": 187.71397683693817,
+      "planned_duration_seconds": 8.055000000000007
+    },
+    {
+      "kind": "원본",
+      "id": "N020",
+      "planned_start_seconds": 187.71397683693817,
+      "planned_end_seconds": 195.05897683693817,
+      "planned_duration_seconds": 7.344999999999999
+    },
+    {
+      "kind": "추가",
+      "id": "A05",
+      "planned_start_seconds": 195.05897683693817,
+      "planned_end_seconds": 213.578044178555,
+      "planned_duration_seconds": 18.519067341616815
+    },
+    {
+      "kind": "원본",
+      "id": "N021",
+      "planned_start_seconds": 213.578044178555,
+      "planned_end_seconds": 218.96804417855498,
+      "planned_duration_seconds": 5.390000000000001
+    },
+    {
+      "kind": "원본",
+      "id": "M01",
+      "planned_start_seconds": 218.96804417855498,
+      "planned_end_seconds": 224.628044178555,
+      "planned_duration_seconds": 5.660000000000011
+    },
+    {
+      "kind": "원본",
+      "id": "M02",
+      "planned_start_seconds": 224.628044178555,
+      "planned_end_seconds": 233.353044178555,
+      "planned_duration_seconds": 8.724999999999994
+    },
+    {
+      "kind": "추가",
+      "id": "A06",
+      "planned_start_seconds": 233.353044178555,
+      "planned_end_seconds": 254.69705399601168,
+      "planned_duration_seconds": 21.34400981745667
+    },
+    {
+      "kind": "원본",
+      "id": "M03",
+      "planned_start_seconds": 254.69705399601168,
+      "planned_end_seconds": 265.8720539960117,
+      "planned_duration_seconds": 11.174999999999983
+    },
+    {
+      "kind": "추가",
+      "id": "A07",
+      "planned_start_seconds": 265.8720539960117,
+      "planned_end_seconds": 286.27441632152176,
+      "planned_duration_seconds": 20.402362325510047
+    },
+    {
+      "kind": "원본",
+      "id": "M04",
+      "planned_start_seconds": 286.27441632152176,
+      "planned_end_seconds": 293.86441632152173,
+      "planned_duration_seconds": 7.590000000000003
+    },
+    {
+      "kind": "원본",
+      "id": "M05",
+      "planned_start_seconds": 293.86441632152173,
+      "planned_end_seconds": 306.2444163215217,
+      "planned_duration_seconds": 12.379999999999995
+    },
+    {
+      "kind": "추가",
+      "id": "A08",
+      "planned_start_seconds": 306.2444163215217,
+      "planned_end_seconds": 323.19407117656084,
+      "planned_duration_seconds": 16.949654855039118
+    },
+    {
+      "kind": "원본",
+      "id": "M06",
+      "planned_start_seconds": 323.19407117656084,
+      "planned_end_seconds": 327.5790711765609,
+      "planned_duration_seconds": 4.385000000000019
+    },
+    {
+      "kind": "추가",
+      "id": "A09",
+      "planned_start_seconds": 327.5790711765609,
+      "planned_end_seconds": 349.2369634913331,
+      "planned_duration_seconds": 21.65789231477221
+    },
+    {
+      "kind": "원본",
+      "id": "M07",
+      "planned_start_seconds": 349.2369634913331,
+      "planned_end_seconds": 357.16696349133304,
+      "planned_duration_seconds": 7.929999999999978
+    },
+    {
+      "kind": "원본",
+      "id": "M08",
+      "planned_start_seconds": 357.16696349133304,
+      "planned_end_seconds": 365.90696349133304,
+      "planned_duration_seconds": 8.740000000000009
+    },
+    {
+      "kind": "추가",
+      "id": "A10",
+      "planned_start_seconds": 365.90696349133304,
+      "planned_end_seconds": 387.09403206013195,
+      "planned_duration_seconds": 21.187068568798896
+    },
+    {
+      "kind": "원본",
+      "id": "M09",
+      "planned_start_seconds": 387.09403206013195,
+      "planned_end_seconds": 393.96903206013195,
+      "planned_duration_seconds": 6.875
+    },
+    {
+      "kind": "원본",
+      "id": "M10",
+      "planned_start_seconds": 393.96903206013195,
+      "planned_end_seconds": 398.994032060132,
+      "planned_duration_seconds": 5.025000000000006
+    },
+    {
+      "kind": "원본",
+      "id": "M11",
+      "planned_start_seconds": 398.994032060132,
+      "planned_end_seconds": 407.814032060132,
+      "planned_duration_seconds": 8.819999999999993
+    },
+    {
+      "kind": "추가",
+      "id": "A11",
+      "planned_start_seconds": 407.814032060132,
+      "planned_end_seconds": 427.11780564503766,
+      "planned_duration_seconds": 19.303773584905663
+    },
+    {
+      "kind": "추가",
+      "id": "A12",
+      "planned_start_seconds": 427.11780564503766,
+      "planned_end_seconds": 445.32299048933896,
+      "planned_duration_seconds": 18.205184844301275
+    },
+    {
+      "kind": "원본",
+      "id": "M12",
+      "planned_start_seconds": 445.32299048933896,
+      "planned_end_seconds": 449.57299048933896,
+      "planned_duration_seconds": 4.25
+    },
+    {
+      "kind": "원본",
+      "id": "M13",
+      "planned_start_seconds": 449.57299048933896,
+      "planned_end_seconds": 457.742990489339,
+      "planned_duration_seconds": 8.170000000000016
+    },
+    {
+      "kind": "원본",
+      "id": "M14",
+      "planned_start_seconds": 457.742990489339,
+      "planned_end_seconds": 464.85799048933893,
+      "planned_duration_seconds": 7.114999999999981
+    },
+    {
+      "kind": "추가",
+      "id": "A13",
+      "planned_start_seconds": 464.85799048933893,
+      "planned_end_seconds": 487.1436477987422,
+      "planned_duration_seconds": 22.285657309403284
+    },
+    {
+      "kind": "원본",
+      "id": "M15",
+      "planned_start_seconds": 487.1436477987422,
+      "planned_end_seconds": 490.71864779874227,
+      "planned_duration_seconds": 3.575000000000017
+    },
+    {
+      "kind": "추가",
+      "id": "A14",
+      "planned_start_seconds": 490.71864779874227,
+      "planned_end_seconds": 512.69042261083,
+      "planned_duration_seconds": 21.971774812087745
+    },
+    {
+      "kind": "원본",
+      "id": "M16",
+      "planned_start_seconds": 512.69042261083,
+      "planned_end_seconds": 519.3854226108299,
+      "planned_duration_seconds": 6.694999999999993
+    },
+    {
+      "kind": "원본",
+      "id": "M17",
+      "planned_start_seconds": 519.3854226108299,
+      "planned_end_seconds": 525.8954226108299,
+      "planned_duration_seconds": 6.509999999999991
+    },
+    {
+      "kind": "추가",
+      "id": "A15",
+      "planned_start_seconds": 525.8954226108299,
+      "planned_end_seconds": 546.925549930971,
+      "planned_duration_seconds": 21.030127320141126
+    },
+    {
+      "kind": "원본",
+      "id": "N056",
+      "planned_start_seconds": 546.925549930971,
+      "planned_end_seconds": 553.470549930971,
+      "planned_duration_seconds": 6.545000000000016
+    },
+    {
+      "kind": "추가",
+      "id": "A16",
+      "planned_start_seconds": 553.470549930971,
+      "planned_end_seconds": 572.3034997699033,
+      "planned_duration_seconds": 18.83294983893235
+    },
+    {
+      "kind": "추가",
+      "id": "A17",
+      "planned_start_seconds": 572.3034997699033,
+      "planned_end_seconds": 594.1183333333332,
+      "planned_duration_seconds": 21.814833563429975
+    },
+    {
+      "kind": "원본",
+      "id": "N057",
+      "planned_start_seconds": 594.1183333333332,
+      "planned_end_seconds": 599.9999999999999,
+      "planned_duration_seconds": 5.881666666666632
+    }
+  ],
+  "fact_ids_referenced": [
+    "F03",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F11",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F25",
+    "F26",
+    "F27",
+    "F30",
+    "F34",
+    "F35",
+    "F36",
+    "F37",
+    "F38",
+    "F39",
+    "F40",
+    "F41",
+    "F42",
+    "F43",
+    "F44",
+    "F45",
+    "F47",
+    "F48",
+    "F49",
+    "F50",
+    "F52"
+  ],
+  "stage": "step1_only",
+  "tts_generated": false,
+  "storyboard_generated": false,
+  "render_generated": false,
+  "verification": {
+    "original_audio_duration_preserved_exactly": true,
+    "additions_inserted_before_N057": true,
+    "planned_total_equals_600": true,
+    "placeholders_remaining": false
+  }
+}

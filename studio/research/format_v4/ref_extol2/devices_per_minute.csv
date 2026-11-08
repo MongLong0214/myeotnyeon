@@ -1,0 +1,10 @@
+start_s,end_s,foreshadowing,reveal_withholding,quotes,humor_irony,stakes_contrast,rhetorical_questions,direct_address,reversal_markers,specific_details
+0,60,1,1,0,0,3,0,0,0,23
+60,120,2,2,1,0,4,0,0,2,17
+120,180,1,0,2,0,1,0,0,1,10
+180,240,0,0,0,1,2,0,0,0,16
+240,300,0,0,0,0,3,0,0,1,15
+300,360,1,0,2,2,4,1,0,0,16
+360,420,0,2,1,0,3,1,0,0,22
+420,480,0,0,0,2,5,0,0,2,16
+480,521.8,0,2,1,0,2,2,0,0,4

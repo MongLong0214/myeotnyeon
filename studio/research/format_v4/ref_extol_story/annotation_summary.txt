@@ -1,0 +1,152 @@
+reference {
+  "voice": {
+    "sentence_count": 85,
+    "ending_counts": {
+      "습니다_ㅂ니다_입니다": 85,
+      "죠_지요": 0,
+      "요": 0,
+      "다": 0,
+      "other": 0
+    },
+    "ending_shares": {
+      "습니다_ㅂ니다_입니다": 1.0,
+      "죠_지요": 0.0,
+      "요": 0.0,
+      "다": 0.0,
+      "other": 0.0
+    },
+    "average_sentence_hangul_syllables_normalized": 36.53,
+    "average_sentence_eojeol": 10.96,
+    "question_sentence_share": 0.0,
+    "estimated_spoken_hangul_syllables": 3105,
+    "narration_syllables_per_timeline_s": 5.8079287111822735,
+    "narration_syllables_per_phrase_s": 6.767949779850911,
+    "speech_rate_method": "Hangul blocks; Arabic numerals expanded to Korean numerals, not unit names. Phrase span minus word gaps >0.2s. Approximation; ASR and foreign-unit pronunciation uncertainty. Reference telephone insert excluded."
+  },
+  "counts": {
+    "stakes_contrast": {
+      "count": 24,
+      "per_minute": 2.694
+    },
+    "foreshadowing": {
+      "count": 4,
+      "per_minute": 0.449
+    },
+    "reveal_withholding": {
+      "count": 8,
+      "per_minute": 0.898
+    },
+    "humor_irony": {
+      "count": 4,
+      "per_minute": 0.449
+    },
+    "quotes": {
+      "count": 1,
+      "per_minute": 0.112
+    },
+    "rhetorical_questions": {
+      "count": 0,
+      "per_minute": 0.0
+    },
+    "direct_address": {
+      "count": 0,
+      "per_minute": 0.0
+    },
+    "reversal_markers": {
+      "count": 10,
+      "per_minute": 1.122
+    },
+    "specific_details": {
+      "count": 179,
+      "per_minute": 20.089
+    },
+    "그런데_하지만_only": {
+      "count": 6,
+      "per_minute": 0.673
+    },
+    "open_loops": {
+      "count": 8,
+      "per_minute": 0.898
+    },
+    "chapter_ending_cliffhangers": {
+      "count": 4,
+      "per_minute": 0.449
+    }
+  }
+}
+ours_fast {
+  "voice": {
+    "sentence_count": 63,
+    "ending_counts": {
+      "습니다_ㅂ니다_입니다": 0,
+      "죠_지요": 0,
+      "요": 0,
+      "다": 63,
+      "other": 0
+    },
+    "ending_shares": {
+      "습니다_ㅂ니다_입니다": 0.0,
+      "죠_지요": 0.0,
+      "요": 0.0,
+      "다": 1.0,
+      "other": 0.0
+    },
+    "average_sentence_hangul_syllables_normalized": 26.35,
+    "average_sentence_eojeol": 8.38,
+    "question_sentence_share": 0.0,
+    "estimated_spoken_hangul_syllables": 1660,
+    "narration_syllables_per_timeline_s": 6.102941176470588,
+    "narration_syllables_per_phrase_s": 6.399876628884264,
+    "speech_rate_method": "Hangul blocks; Arabic numerals expanded to Korean numerals, not unit names. Phrase span minus word gaps >0.2s. Approximation; ASR and foreign-unit pronunciation uncertainty. Reference telephone insert excluded."
+  },
+  "counts": {
+    "stakes_contrast": {
+      "count": 9,
+      "per_minute": 1.985
+    },
+    "foreshadowing": {
+      "count": 1,
+      "per_minute": 0.221
+    },
+    "reveal_withholding": {
+      "count": 0,
+      "per_minute": 0.0
+    },
+    "humor_irony": {
+      "count": 0,
+      "per_minute": 0.0
+    },
+    "quotes": {
+      "count": 0,
+      "per_minute": 0.0
+    },
+    "rhetorical_questions": {
+      "count": 0,
+      "per_minute": 0.0
+    },
+    "direct_address": {
+      "count": 0,
+      "per_minute": 0.0
+    },
+    "reversal_markers": {
+      "count": 1,
+      "per_minute": 0.221
+    },
+    "specific_details": {
+      "count": 66,
+      "per_minute": 14.559
+    },
+    "그런데_하지만_only": {
+      "count": 1,
+      "per_minute": 0.221
+    },
+    "open_loops": {
+      "count": 2,
+      "per_minute": 0.441
+    },
+    "chapter_ending_cliffhangers": {
+      "count": 0,
+      "per_minute": 0.0
+    }
+  }
+}

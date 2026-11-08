@@ -1,0 +1,200 @@
+{
+ "items": [
+  {
+   "id": "C1_1",
+   "cue": "C1",
+   "act": "incident",
+   "start": 0.0,
+   "end": 89.79625,
+   "file": "episodes/quiz/q015/v52/hook_master.wav",
+   "text": "규정을 어긴 얼차려로 훈련병이 숨진 사건입니다. 몇 년 받았을까?",
+   "start_sample": 0,
+   "end_sample": 143674
+  },
+  {
+   "id": "C2_1",
+   "cue": "C2",
+   "act": "incident",
+   "start": 89.79625,
+   "end": 208.224375,
+   "file": "episodes/quiz/q015/audio/na/C2_1.wav",
+   "text": "중대장은 훈련병 6명에게 규정을 어긴 군기훈련을 지시한 혐의였죠.",
+   "start_sample": 143674,
+   "end_sample": 333159
+  },
+  {
+   "id": "C3_1",
+   "cue": "C3",
+   "act": "incident",
+   "start": 208.224375,
+   "end": 298.51,
+   "file": "episodes/quiz/q015/audio/na/C3_1.wav",
+   "text": "재판의 쟁점은 하나의 행위인지 여러 행위인지였습니다.",
+   "start_sample": 333159,
+   "end_sample": 477616
+  },
+  {
+   "id": "C4_1",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 298.51,
+   "end": 359.111875,
+   "file": "episodes/quiz/q015/audio/na/C4_1.wav",
+   "text": "벌금, 집행유예, 실형 중 무엇이었을까요?",
+   "start_sample": 477616,
+   "end_sample": 574579
+  },
+  {
+   "id": "C4_2",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 359.111875,
+   "end": 407.105,
+   "file": "episodes/quiz/q015/audio/na/C4_2.wav",
+   "text": "1심은 하나의 행위로 봤습니다.",
+   "start_sample": 574579,
+   "end_sample": 651368
+  },
+  {
+   "id": "C4_3",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 407.105,
+   "end": 483.816875,
+   "file": "episodes/quiz/q015/audio/na/C4_3.wav",
+   "text": "2심은 피해자마다 학대 양상이 달랐다고 판단했죠.",
+   "start_sample": 651368,
+   "end_sample": 774107
+  },
+  {
+   "id": "C4_4",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 483.816875,
+   "end": 526.893125,
+   "file": "episodes/quiz/q015/audio/na/C4_4.wav",
+   "text": "그래서 여러 행위로 다시 봤습니다.",
+   "start_sample": 774107,
+   "end_sample": 843029
+  },
+  {
+   "id": "C5_1",
+   "cue": "C5",
+   "act": "reveal",
+   "start": 526.893125,
+   "end": 586.77375,
+   "file": "episodes/quiz/q015/audio/na/C5_1.wav",
+   "text": "실형. 중대장은 1심 징역 5년.",
+   "start_sample": 843029,
+   "end_sample": 938838
+  },
+  {
+   "id": "C5_2",
+   "cue": "C5",
+   "act": "reveal",
+   "start": 586.77375,
+   "end": 663.24,
+   "file": "episodes/quiz/q015/audio/na/C5_2.wav",
+   "text": "2심은 5년 6개월로 늘었고 그대로 확정됐습니다.",
+   "start_sample": 938838,
+   "end_sample": 1061184
+  },
+  {
+   "id": "C6_1",
+   "cue": "C6",
+   "act": "outro",
+   "start": 663.24,
+   "end": 697.26375,
+   "file": "episodes/quiz/q015/audio/na/C6_1.wav",
+   "text": "다음 사건도 맞혀 보세요.",
+   "start_sample": 1061184,
+   "end_sample": 1115622
+  }
+ ],
+ "knots": [
+  [
+   0,
+   0.0
+  ],
+  [
+   110,
+   89.79625
+  ],
+  [
+   119,
+   89.79625
+  ],
+  [
+   237,
+   208.224375
+  ],
+  [
+   246,
+   208.224375
+  ],
+  [
+   336,
+   298.51
+  ],
+  [
+   345,
+   298.51
+  ],
+  [
+   406,
+   359.111875
+  ],
+  [
+   411,
+   359.111875
+  ],
+  [
+   459,
+   407.105
+  ],
+  [
+   464,
+   407.105
+  ],
+  [
+   541,
+   483.816875
+  ],
+  [
+   546,
+   483.816875
+  ],
+  [
+   589,
+   526.893125
+  ],
+  [
+   637,
+   526.893125
+  ],
+  [
+   697,
+   586.77375
+  ],
+  [
+   702,
+   586.77375
+  ],
+  [
+   778,
+   663.24
+  ],
+  [
+   787,
+   663.24
+  ],
+  [
+   821,
+   697.26375
+  ],
+  [
+   836,
+   709
+  ]
+ ]
+}

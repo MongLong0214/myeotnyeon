@@ -1,0 +1,775 @@
+{
+ "episode_id": "EP001",
+ "version": "v2-light",
+ "hud_case": "대한민국 · 대구지방법원 2023고단202",
+ "cues": [
+  {
+   "cue_id": "Q01",
+   "act": "A",
+   "block_name": "콜드오픈",
+   "narration": [
+    "2022년 여름, 새벽 3시 반.",
+    "대구의 한 주차장에서, 한 사람이 차 앞을 막아섭니다."
+   ],
+   "claim_ids": [
+    "F001",
+    "F003",
+    "F002"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 0,
+   "duration_frames": 179,
+   "out_frame_exclusive": 179,
+   "required_claim_ids": [
+    "F001",
+    "F003",
+    "F002"
+   ]
+  },
+  {
+   "cue_id": "Q02",
+   "act": "A",
+   "block_name": "콜드오픈",
+   "narration": [
+    "음주운전으로 신고하겠다는 거였죠.",
+    "그런데 운전자는, 그 사람을 차로 밀어 버립니다.",
+    "그것도 여러 번."
+   ],
+   "claim_ids": [
+    "F003",
+    "F004"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "in_frame": 179,
+   "duration_frames": 173,
+   "out_frame_exclusive": 352,
+   "required_claim_ids": [
+    "F003",
+    "F004"
+   ]
+  },
+  {
+   "cue_id": "Q03",
+   "act": "A",
+   "block_name": "콜드오픈",
+   "narration": [
+    "법원도 진지하게 반성한다고 볼 수 없다고 했어요.",
+    "그런데 결과는, 집행유예.",
+    "왜일까요?"
+   ],
+   "claim_ids": [
+    "J002",
+    "J003"
+   ],
+   "pad_s": 1.0,
+   "note": "",
+   "in_frame": 352,
+   "duration_frames": 167,
+   "out_frame_exclusive": 519,
+   "required_claim_ids": [
+    "J002",
+    "J003"
+   ]
+  },
+  {
+   "cue_id": "Q04",
+   "act": "B",
+   "block_name": "브랜드·기록 고지",
+   "narration": [],
+   "claim_ids": [
+    "BRAND"
+   ],
+   "pad_s": 3.0,
+   "note": "ident",
+   "in_frame": 519,
+   "duration_frames": 90,
+   "out_frame_exclusive": 609,
+   "required_claim_ids": [
+    "BRAND"
+   ]
+  },
+  {
+   "cue_id": "Q05",
+   "act": "B",
+   "block_name": "브랜드·기록 고지",
+   "narration": [
+    "당시 커뮤니티에서 '역대급 판결'로 불렸던 사건이에요.",
+    "2023년 8월, 대구지방법원의 1심 판결입니다."
+   ],
+   "claim_ids": [
+    "V001",
+    "S001",
+    "META"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "in_frame": 609,
+   "duration_frames": 195,
+   "out_frame_exclusive": 804,
+   "required_claim_ids": [
+    "V001",
+    "S001",
+    "META"
+   ]
+  },
+  {
+   "cue_id": "Q06",
+   "act": "C",
+   "block_name": "인물·배경",
+   "narration": [
+    "등장인물은 두 사람이에요.",
+    "차를 몬 A씨, 그리고 차 앞을 막아선 B씨.",
+    "원래 아는 사이였는지는 보도에 나오지 않아요."
+   ],
+   "claim_ids": [
+    "F003",
+    "F006",
+    "F007"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "in_frame": 804,
+   "duration_frames": 205,
+   "out_frame_exclusive": 1009,
+   "required_claim_ids": [
+    "F003",
+    "F006",
+    "F007"
+   ]
+  },
+  {
+   "cue_id": "Q07",
+   "act": "D",
+   "block_name": "사건 재구성",
+   "narration": [
+    "B씨가 차 앞을 막아서자, A씨는 차로 B씨를 밀기 시작합니다.",
+    "한 번이 아니라 여러 번.",
+    "결국 B씨는 넘어졌어요."
+   ],
+   "claim_ids": [
+    "F003",
+    "F004"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 1009,
+   "duration_frames": 205,
+   "out_frame_exclusive": 1214,
+   "required_claim_ids": [
+    "F003",
+    "F004"
+   ]
+  },
+  {
+   "cue_id": "Q08",
+   "act": "D",
+   "block_name": "사건 재구성",
+   "narration": [
+    "그런데 A씨는 차를 뒤로 뺐다가, 다시 앞으로 몰아 B씨를 한 번 더 들이받았습니다."
+   ],
+   "claim_ids": [
+    "F008"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 1214,
+   "duration_frames": 153,
+   "out_frame_exclusive": 1367,
+   "required_claim_ids": [
+    "F008"
+   ]
+  },
+  {
+   "cue_id": "Q09",
+   "act": "D",
+   "block_name": "사건 재구성",
+   "narration": [
+    "B씨는 약 34일 치료가 필요한 어깨 부상을 입었어요."
+   ],
+   "claim_ids": [
+    "F009"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "in_frame": 1367,
+   "duration_frames": 111,
+   "out_frame_exclusive": 1478,
+   "required_claim_ids": [
+    "F009"
+   ]
+  },
+  {
+   "cue_id": "Q10",
+   "act": "D",
+   "block_name": "사건 재구성",
+   "narration": [
+    "A씨 측 주장은 달랐어요.",
+    "부주의한 운전 탓이다, B씨가 차에 뛰어든 거다."
+   ],
+   "claim_ids": [
+    "A001"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 1478,
+   "duration_frames": 137,
+   "out_frame_exclusive": 1615,
+   "required_claim_ids": [
+    "A001"
+   ]
+  },
+  {
+   "cue_id": "Q11",
+   "act": "D",
+   "block_name": "사건 재구성",
+   "narration": [
+    "들이받은 것 자체는 A씨도 인정했어요.",
+    "다툼은 두 가지.",
+    "일부러 그랬나, 그리고 그것 때문에 다쳤나."
+   ],
+   "claim_ids": [
+    "A002",
+    "J007"
+   ],
+   "pad_s": 0.6,
+   "note": "",
+   "in_frame": 1615,
+   "duration_frames": 174,
+   "out_frame_exclusive": 1789,
+   "required_claim_ids": [
+    "A002",
+    "J007"
+   ]
+  },
+  {
+   "cue_id": "Q12",
+   "act": "E",
+   "block_name": "혐의",
+   "narration": [
+    "재판에 넘겨진 죄명은 특수상해.",
+    "위험한 물건으로 사람을 다치게 한 죄인데, 판례상 자동차도 위험한 물건이 될 수 있어요."
+   ],
+   "claim_ids": [
+    "P001",
+    "A003",
+    "L002"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 1789,
+   "duration_frames": 216,
+   "out_frame_exclusive": 2005,
+   "required_claim_ids": [
+    "P001",
+    "A003",
+    "L002"
+   ]
+  },
+  {
+   "cue_id": "Q13",
+   "act": "E",
+   "block_name": "혐의",
+   "narration": [
+    "법이 정한 형은 징역 1년 이상 10년 이하.",
+    "벌금으로는 끝낼 수 없는 죄예요."
+   ],
+   "claim_ids": [
+    "L001"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 2005,
+   "duration_frames": 135,
+   "out_frame_exclusive": 2140,
+   "required_claim_ids": [
+    "L001"
+   ]
+  },
+  {
+   "cue_id": "Q14",
+   "act": "E",
+   "block_name": "혐의",
+   "narration": [
+    "참고로 커뮤니티에선 음주운전이 확정된 사실처럼 퍼졌는데요.",
+    "보도된 죄명은, 특수상해 딱 하나예요.",
+    "음주 측정 결과도 보도된 적 없고요."
+   ],
+   "claim_ids": [
+    "M001",
+    "P002",
+    "U001"
+   ],
+   "pad_s": 0.5,
+   "note": "",
+   "in_frame": 2140,
+   "duration_frames": 245,
+   "out_frame_exclusive": 2385,
+   "required_claim_ids": [
+    "M001",
+    "P002",
+    "U001"
+   ]
+  },
+  {
+   "cue_id": "Q15",
+   "act": "F",
+   "block_name": "오늘의 질문",
+   "narration": [
+    "법원은 유죄를 인정했어요.",
+    "그럼 오늘의 질문.",
+    "반성도 없다면서, 왜 실형이 아니었을까?"
+   ],
+   "claim_ids": [
+    "J002",
+    "J003"
+   ],
+   "pad_s": 1.0,
+   "note": "",
+   "in_frame": 2385,
+   "duration_frames": 176,
+   "out_frame_exclusive": 2561,
+   "required_claim_ids": [
+    "J002",
+    "J003"
+   ]
+  },
+  {
+   "cue_id": "Q16",
+   "act": "G",
+   "block_name": "주장·증거",
+   "narration": [
+    "먼저, 유죄인지 아닌지부터 볼게요.",
+    "핵심은 현장 CCTV였어요.",
+    "판결을 전한 보도에 따르면, 범행 장면이 그대로 녹화돼 있었거든요."
+   ],
+   "claim_ids": [
+    "F010",
+    "A003"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 2561,
+   "duration_frames": 230,
+   "out_frame_exclusive": 2791,
+   "required_claim_ids": [
+    "F010",
+    "A003"
+   ]
+  },
+  {
+   "cue_id": "Q17",
+   "act": "G",
+   "block_name": "주장·증거",
+   "narration": [
+    "A씨 측은 들이받은 건 맞지만, B씨가 다치지 않았거나 그 행동 때문에 다친 건 아니라고 했어요."
+   ],
+   "claim_ids": [
+    "A002"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 2791,
+   "duration_frames": 184,
+   "out_frame_exclusive": 2975,
+   "required_claim_ids": [
+    "A002"
+   ]
+  },
+  {
+   "cue_id": "Q18",
+   "act": "G",
+   "block_name": "주장·증거",
+   "narration": [
+    "그 부분을 가른 건 진료기록이었어요.",
+    "B씨는 사건 다음 날부터 8월 말까지, 그리고 이듬해 5월쯤까지 치료를 받았어요."
+   ],
+   "claim_ids": [
+    "F011",
+    "E002"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "in_frame": 2975,
+   "duration_frames": 221,
+   "out_frame_exclusive": 3196,
+   "required_claim_ids": [
+    "F011",
+    "E002"
+   ]
+  },
+  {
+   "cue_id": "Q19",
+   "act": "H",
+   "block_name": "판단을 가른 요소",
+   "narration": [
+    "법원의 첫 번째 답은, 일부러 한 게 맞다는 거예요.",
+    "CCTV로 고의가 인정되고, B씨가 일부러 뛰어든 것으로는 보이지 않는다고 했어요."
+   ],
+   "claim_ids": [
+    "E001",
+    "J001"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 3196,
+   "duration_frames": 243,
+   "out_frame_exclusive": 3439,
+   "required_claim_ids": [
+    "E001",
+    "J001"
+   ]
+  },
+  {
+   "cue_id": "Q20",
+   "act": "H",
+   "block_name": "판단을 가른 요소",
+   "narration": [
+    "두 번째 답은, 다친 것도 맞다는 거였어요.",
+    "차로 민 힘이 가볍지 않았고, 진료기록도 B씨 말과 어느 정도 맞는다는 거죠."
+   ],
+   "claim_ids": [
+    "E002"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 3439,
+   "duration_frames": 211,
+   "out_frame_exclusive": 3650,
+   "required_claim_ids": [
+    "E002"
+   ]
+  },
+  {
+   "cue_id": "Q21",
+   "act": "H",
+   "block_name": "판단을 가른 요소",
+   "narration": [
+    "그래서 결론은, 특수상해 유죄였습니다."
+   ],
+   "claim_ids": [
+    "E001",
+    "E002"
+   ],
+   "pad_s": 0.8,
+   "note": "",
+   "in_frame": 3650,
+   "duration_frames": 84,
+   "out_frame_exclusive": 3734,
+   "required_claim_ids": [
+    "E001",
+    "E002"
+   ]
+  },
+  {
+   "cue_id": "Q22",
+   "act": "I",
+   "block_name": "판단 전 정리",
+   "narration": [
+    "이제 남은 건 형량이에요.",
+    "실형이냐, 집행유예냐.",
+    "여러분이 판사라면 어느 쪽이세요?"
+   ],
+   "claim_ids": [
+    "L003",
+    "L004"
+   ],
+   "pad_s": 1.5,
+   "note": "beat before the verdict",
+   "in_frame": 3734,
+   "duration_frames": 179,
+   "out_frame_exclusive": 3913,
+   "required_claim_ids": [
+    "L003",
+    "L004"
+   ]
+  },
+  {
+   "cue_id": "Q23",
+   "act": "J",
+   "block_name": "실제 판결",
+   "narration": [
+    "대구지방법원의 판단은, 징역 8개월에 집행유예 2년.",
+    "사회봉사 120시간."
+   ],
+   "claim_ids": [
+    "J003",
+    "S001"
+   ],
+   "pad_s": 1.5,
+   "note": "verdict",
+   "in_frame": 3913,
+   "duration_frames": 182,
+   "out_frame_exclusive": 4095,
+   "required_claim_ids": [
+    "J003",
+    "S001"
+   ]
+  },
+  {
+   "cue_id": "Q24",
+   "act": "J",
+   "block_name": "실제 판결",
+   "narration": [
+    "쉽게 말해, 징역 8개월을 2년 동안 미뤄 둔 거예요.",
+    "그사이 고의로 죄를 지어 실형이 확정되면, 유예는 효력을 잃고요."
+   ],
+   "claim_ids": [
+    "L005",
+    "J003"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 4095,
+   "duration_frames": 214,
+   "out_frame_exclusive": 4309,
+   "required_claim_ids": [
+    "L005",
+    "J003"
+   ]
+  },
+  {
+   "cue_id": "Q25",
+   "act": "J",
+   "block_name": "실제 판결",
+   "narration": [
+    "이 판결은 1심이고, 항소나 확정 여부는 보도로 확인되지 않아요."
+   ],
+   "claim_ids": [
+    "P003",
+    "S002"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "in_frame": 4309,
+   "duration_frames": 124,
+   "out_frame_exclusive": 4433,
+   "required_claim_ids": [
+    "P003",
+    "S002"
+   ]
+  },
+  {
+   "cue_id": "Q26",
+   "act": "K",
+   "block_name": "판결의 이유",
+   "narration": [
+    "자, 법원의 저울을 한번 볼까요?",
+    "불리한 쪽엔, 고의가 분명한데 남 탓을 한 것, 짧은 시간에 여러 번 그런 것, 피해자가 엄벌을 원한 것."
+   ],
+   "claim_ids": [
+    "J002",
+    "J005",
+    "J006"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 4433,
+   "duration_frames": 248,
+   "out_frame_exclusive": 4681,
+   "required_claim_ids": [
+    "J002",
+    "J005",
+    "J006"
+   ]
+  },
+  {
+   "cue_id": "Q27",
+   "act": "K",
+   "block_name": "판결의 이유",
+   "narration": [
+    "유리한 쪽엔, 들이받은 행동은 인정한 것, 신고가 두려워 벌인 일로 보이는 것, 그리고 초범이라는 것."
+   ],
+   "claim_ids": [
+    "J007"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "in_frame": 4681,
+   "duration_frames": 194,
+   "out_frame_exclusive": 4875,
+   "required_claim_ids": [
+    "J007"
+   ]
+  },
+  {
+   "cue_id": "Q28",
+   "act": "K",
+   "block_name": "판결의 이유",
+   "narration": [
+    "커뮤니티에선 '무서워했다니까 봐줬다'로 퍼졌지만, 그건 유리한 사정 세 가지 중 하나였어요.",
+    "형법은 반성 하나가 아니라, 동기와 결과, 범행 후 태도까지 함께 보라고 하거든요."
+   ],
+   "claim_ids": [
+    "M002",
+    "J007",
+    "L006",
+    "AN001"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "in_frame": 4875,
+   "duration_frames": 311,
+   "out_frame_exclusive": 5186,
+   "required_claim_ids": [
+    "M002",
+    "J007",
+    "L006",
+    "AN001"
+   ]
+  },
+  {
+   "cue_id": "Q29",
+   "act": "K",
+   "block_name": "판결의 이유",
+   "narration": [
+    "숫자로 보면 훨씬 쉬워요.",
+    "법정형 최저는 1년인데 선고는 8개월.",
+    "감경이 들어간 걸로 볼 수 있죠.",
+    "그리고 3년 이하 징역이라, 집행유예를 붙일 수 있었습니다."
+   ],
+   "claim_ids": [
+    "AN002",
+    "L001",
+    "L003",
+    "L004"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "in_frame": 5186,
+   "duration_frames": 271,
+   "out_frame_exclusive": 5457,
+   "required_claim_ids": [
+    "AN002",
+    "L001",
+    "L003",
+    "L004"
+   ]
+  },
+  {
+   "cue_id": "Q30",
+   "act": "K",
+   "block_name": "판결의 이유",
+   "narration": [
+    "그럼 이례적인 판결이었을까요?",
+    "2023년 1심 특수상해 사건은, 열에 일곱 이상이 집행유예였어요."
+   ],
+   "claim_ids": [
+    "S003"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 5457,
+   "duration_frames": 184,
+   "out_frame_exclusive": 5641,
+   "required_claim_ids": [
+    "S003"
+   ]
+  },
+  {
+   "cue_id": "Q31",
+   "act": "K",
+   "block_name": "판결의 이유",
+   "narration": [
+    "같은 대구지법에서, 경찰에 신고한 주민이 차를 가로막자 그대로 후진해 친 사건도, 징역 8개월에 집행유예 2년이었고요.",
+    "다만 그 사건은 전치 2주였어요."
+   ],
+   "claim_ids": [
+    "C001"
+   ],
+   "pad_s": 0.6,
+   "note": "",
+   "in_frame": 5641,
+   "duration_frames": 289,
+   "out_frame_exclusive": 5930,
+   "required_claim_ids": [
+    "C001"
+   ]
+  },
+  {
+   "cue_id": "Q32",
+   "act": "L",
+   "block_name": "현재 상태·종료",
+   "narration": [
+    "A씨는 선고 전에 300만 원을 공탁했지만, 피해자는 이걸 유리하게 봐주는 데 반대했어요.",
+    "그리고 2024년, 선고 직전 공탁이 있으면 법원이 피해자 의견을 꼭 듣도록 법이 바뀌었습니다."
+   ],
+   "claim_ids": [
+    "J004",
+    "L008"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "in_frame": 5930,
+   "duration_frames": 358,
+   "out_frame_exclusive": 6288,
+   "required_claim_ids": [
+    "J004",
+    "L008"
+   ]
+  },
+  {
+   "cue_id": "Q33",
+   "act": "L",
+   "block_name": "현재 상태·종료",
+   "narration": [
+    "판단을 가른 건 반성 하나가 아니라, 여러 사정의 무게였어요.",
+    "음주운전이 의심되는 차를 봤다면, 112에 위치와 방향, 차량 번호를 알려 주세요."
+   ],
+   "claim_ids": [
+    "J006",
+    "J007",
+    "T001"
+   ],
+   "pad_s": 0.8,
+   "note": "",
+   "in_frame": 6288,
+   "duration_frames": 281,
+   "out_frame_exclusive": 6569,
+   "required_claim_ids": [
+    "J006",
+    "J007",
+    "T001"
+   ]
+  },
+  {
+   "cue_id": "Q34",
+   "act": "L",
+   "block_name": "현재 상태·종료",
+   "narration": [
+    "다음 사건도, 판단의 근거부터 보겠습니다."
+   ],
+   "claim_ids": [
+    "BRAND"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "in_frame": 6569,
+   "duration_frames": 73,
+   "out_frame_exclusive": 6642,
+   "required_claim_ids": [
+    "BRAND"
+   ]
+  },
+  {
+   "cue_id": "Q35",
+   "act": "L",
+   "block_name": "현재 상태·종료",
+   "narration": [],
+   "claim_ids": [
+    "BRAND"
+   ],
+   "pad_s": 6.0,
+   "note": "endscreen",
+   "in_frame": 6642,
+   "duration_frames": 180,
+   "out_frame_exclusive": 6822,
+   "required_claim_ids": [
+    "BRAND"
+   ]
+  }
+ ],
+ "duration_frames": 6822,
+ "fps": 30
+}

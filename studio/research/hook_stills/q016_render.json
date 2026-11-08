@@ -1,0 +1,14 @@
+{
+  "episode": "q016",
+  "engine": "BLENDER_EEVEE",
+  "samples": 96,
+  "screen_space_raytracing": true,
+  "volumetric_samples": 128,
+  "build_seconds": 1.3293662080541253,
+  "render_seconds": 21.898701583966613,
+  "total_seconds": 23.2289437080035,
+  "resolution": [
+    1080,
+    1920
+  ]
+}

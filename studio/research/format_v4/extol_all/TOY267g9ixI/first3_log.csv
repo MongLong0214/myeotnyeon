@@ -1,0 +1,4 @@
+start_s,end_s,shown_summary,spoken_summary,cuts_in_second,cut_times_s,static_headline_present,note
+0,1,두 장수 조각상; 상단 승률 제목,숫자 두 개 제시,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+1,2,두 장수 양옆에 55와 73 숫자 등장,두 함대 규모라는 설명,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+2,3,같은 두 숫자와 인물,역사적 시점 설명,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.

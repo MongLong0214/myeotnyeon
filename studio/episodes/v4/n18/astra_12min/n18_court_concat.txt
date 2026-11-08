@@ -1,0 +1,4 @@
+file 'episodes/v4/n18/astra_12min/NC01_ink.mp4'
+file 'episodes/v4/n18/astra_12min/NC02_ink.mp4'
+file 'episodes/v4/n18/astra_12min/NC03_ink.mp4'
+file 'episodes/v4/n18/astra_12min/NC04_ink.mp4'

@@ -1,0 +1,10 @@
+{
+  "ready": false,
+  "gates": {
+    "build": {
+      "status": "FAIL",
+      "evidence": "No passing M1 narration take: C4_3"
+    }
+  },
+  "error": "Traceback (most recent call last):\n  File \"factory/short.py\", line 152, in build\n    cfg=prepare(p,q,n,fresh,video_id,dry_number);(p/'meta.txt').write_text(metadata(q,n,cfg['from_scratch']))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"factory/short.py\", line 49, in prepare\n    prepared,public,research=prepare_fresh(p,q)\n                             ^^^^^^^^^^^^^^^^^^\n  File \"factory/fresh.py\", line 82, in prepare\n    if selected is None:raise RuntimeError(f'No passing M1 narration take: {cid}_{k}')\n                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: No passing M1 narration take: C4_3\n"
+}

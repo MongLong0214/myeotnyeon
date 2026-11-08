@@ -1,0 +1,411 @@
+{
+  "tempo": 138,
+  "source": "Original deterministic oscillator/noise synthesis in sound.py, no third-party samples",
+  "ducking": "RMS envelope, up to 78% reduction under voice",
+  "events": [
+    {
+      "t": 4.033333333333333,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 7.6,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 11.666666666666666,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 15.966666666666667,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 19.533333333333335,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 31.0,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 34.93333333333333,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 38.9,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 42.733333333333334,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 57.733333333333334,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 61.3,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 64.9,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 68.73333333333333,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 73.0,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 74.13333333333334,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 76.4,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 76.4,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 79.83333333333333,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 83.3,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 83.3,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 87.46666666666667,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 91.26666666666667,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 94.86666666666666,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 96.06666666666666,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 98.6,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 98.6,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 101.16666666666667,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 102.43333333333334,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 106.1,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 106.1,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 109.8,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 113.46666666666667,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 117.1,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 120.66666666666667,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 124.06666666666666,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 128.3,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 131.06666666666666,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 132.46666666666667,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 133.86666666666667,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 136.43333333333334,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 140.03333333333333,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 143.8,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 147.6,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 151.2,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 154.73333333333332,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 158.2,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 161.86666666666667,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 165.56666666666666,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 169.3,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 172.9,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 176.43333333333334,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 177.66666666666666,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 180.1,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 180.1,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 183.9,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 187.93333333333334,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 192.06666666666666,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 195.93333333333334,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 199.8,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 203.93333333333334,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 203.93333333333334,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 206.33333333333334,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 207.53333333333333,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 208.73333333333332,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 211.1,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 214.63333333333333,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 218.2,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 221.76666666666668,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 225.33333333333334,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 228.83333333333334,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 232.26666666666668,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 235.93333333333334,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 239.66666666666666,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 243.5,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 244.76666666666668,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 247.3,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 251.26666666666668,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 255.33333333333334,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 259.3666666666667,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 260.73333333333335,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 263.46666666666664,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 267.1333333333333,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 270.6,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 274.1666666666667,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 275.3666666666667,
+      "kind": "self-made record scratch"
+    },
+    {
+      "t": 278.0,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 282.23333333333335,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 285.8,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 289.46666666666664,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 293.2,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 296.8666666666667,
+      "kind": "self-made whoosh"
+    },
+    {
+      "t": 10.969999999999999,
+      "kind": "self-made cliffhanger rise"
+    },
+    {
+      "t": 45.615,
+      "kind": "self-made cliffhanger rise"
+    },
+    {
+      "t": 82.60499999999999,
+      "kind": "self-made cliffhanger rise"
+    },
+    {
+      "t": 118.82499999999999,
+      "kind": "self-made cliffhanger rise"
+    },
+    {
+      "t": 157.48999999999998,
+      "kind": "self-made cliffhanger rise"
+    },
+    {
+      "t": 187.22,
+      "kind": "self-made cliffhanger rise"
+    },
+    {
+      "t": 227.0,
+      "kind": "self-made cliffhanger rise"
+    },
+    {
+      "t": 247.85,
+      "kind": "self-made cliffhanger rise"
+    },
+    {
+      "t": 287.51000000000005,
+      "kind": "self-made cliffhanger rise"
+    },
+    {
+      "t": 0.4,
+      "kind": "self-made abbreviated gunfire composite; no asserted shot count"
+    }
+  ]
+}

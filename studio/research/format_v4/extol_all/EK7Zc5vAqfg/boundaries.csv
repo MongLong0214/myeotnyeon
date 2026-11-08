@@ -1,0 +1,24 @@
+index,frame,time_s,transition_type,transition_frames_estimate,transition_duration_s_estimate,confidence,boundary_method,visual_confirmation
+1,11,0.36666666666666664,fade-black,15,0.5,0.5,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+2,20,0.6666666666666666,dissolve,15,0.5,0.45,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+3,28,0.9333333333333333,dissolve,15,0.5,0.45,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+4,36,1.2,dissolve,15,0.5,0.45,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+5,45,1.5,dissolve,15,0.5,0.45,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+6,52,1.7333333333333334,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+7,181,6.033333333333333,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+8,255,8.5,dissolve,15,0.5,0.45,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+9,316,10.533333333333333,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+10,407,13.566666666666666,dissolve,15,0.5,0.45,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+11,484,16.133333333333333,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+12,545,18.166666666666668,dissolve,14,0.4666666666666667,0.45,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+13,622,20.733333333333334,dissolve,15,0.5,0.45,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+14,638,21.266666666666666,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+15,660,22.0,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+16,680,22.666666666666668,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+17,699,23.3,dissolve,15,0.5,0.45,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+18,790,26.333333333333332,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+19,817,27.233333333333334,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+20,844,28.133333333333333,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+21,883,29.433333333333334,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+22,908,30.266666666666666,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+23,930,31.0,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review

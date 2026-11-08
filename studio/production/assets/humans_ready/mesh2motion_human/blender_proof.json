@@ -1,0 +1,754 @@
+{
+ "blender": "5.2.3 LTS",
+ "files": {
+  "human-addon-animations.glb": {
+   "scene_fps": 24.0,
+   "armatures": [
+    "Armature"
+   ],
+   "bone_count": 66,
+   "bones_sample": [
+    "root",
+    "pelvis",
+    "spine_01",
+    "spine_02",
+    "spine_03",
+    "neck_01",
+    "head",
+    "head_leaf",
+    "clavicle_l",
+    "upperarm_l",
+    "lowerarm_l",
+    "hand_l",
+    "index_01_l",
+    "index_02_l",
+    "index_03_l",
+    "index_04_leaf_l",
+    "middle_01_l",
+    "middle_02_l",
+    "middle_03_l",
+    "middle_04_leaf_l",
+    "pinky_01_l",
+    "pinky_02_l",
+    "pinky_03_l",
+    "pinky_04_leaf_l"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [
+    {
+     "name": "Icosphere",
+     "verts": 42,
+     "dims_m": [
+      1.902,
+      2.0,
+      2.0
+     ]
+    },
+    {
+     "name": "Mannequin",
+     "verts": 7399,
+     "dims_m": [
+      0.618,
+      1.099,
+      1.743
+     ]
+    }
+   ],
+   "actions": [
+    {
+     "name": "Angry",
+     "frame_start": 1,
+     "frame_end": 20,
+     "frames": 20,
+     "seconds": 0.79
+    },
+    {
+     "name": "Attack_Ground_Pound",
+     "frame_start": 1,
+     "frame_end": 65,
+     "frames": 65,
+     "seconds": 2.67
+    },
+    {
+     "name": "Backflip",
+     "frame_start": 1,
+     "frame_end": 60,
+     "frames": 60,
+     "seconds": 2.46
+    },
+    {
+     "name": "Bow",
+     "frame_start": 1,
+     "frame_end": 90,
+     "frames": 90,
+     "seconds": 3.71
+    },
+    {
+     "name": "Bow Pull Back",
+     "frame_start": 1,
+     "frame_end": 30,
+     "frames": 30,
+     "seconds": 1.21
+    },
+    {
+     "name": "Bow Pull Hold",
+     "frame_start": 1,
+     "frame_end": 6,
+     "frames": 6,
+     "seconds": 0.21
+    },
+    {
+     "name": "Bow Release",
+     "frame_start": 1,
+     "frame_end": 12,
+     "frames": 12,
+     "seconds": 0.46
+    },
+    {
+     "name": "Climb Ladder",
+     "frame_start": 1,
+     "frame_end": 87,
+     "frames": 87,
+     "seconds": 3.58
+    },
+    {
+     "name": "Climb Wall",
+     "frame_start": 1,
+     "frame_end": 50,
+     "frames": 50,
+     "seconds": 2.04
+    },
+    {
+     "name": "Confused",
+     "frame_start": 1,
+     "frame_end": 70,
+     "frames": 70,
+     "seconds": 2.88
+    },
+    {
+     "name": "Consume Item",
+     "frame_start": 1,
+     "frame_end": 100,
+     "frames": 100,
+     "seconds": 4.12
+    },
+    {
+     "name": "Crawl",
+     "frame_start": 1,
+     "frame_end": 41,
+     "frames": 41,
+     "seconds": 1.67
+    },
+    {
+     "name": "Crawl RM",
+     "frame_start": 1,
+     "frame_end": 41,
+     "frames": 41,
+     "seconds": 1.67
+    },
+    {
+     "name": "Dance Body Roll",
+     "frame_start": 1,
+     "frame_end": 156,
+     "frames": 156,
+     "seconds": 6.46
+    },
+    {
+     "name": "Dance Charleston",
+     "frame_start": 1,
+     "frame_end": 56,
+     "frames": 56,
+     "seconds": 2.29
+    },
+    {
+     "name": "Dance Reach Hip",
+     "frame_start": 1,
+     "frame_end": 61,
+     "frames": 61,
+     "seconds": 2.5
+    },
+    {
+     "name": "Death_A",
+     "frame_start": 1,
+     "frame_end": 108,
+     "frames": 108,
+     "seconds": 4.46
+    },
+    {
+     "name": "Death_B",
+     "frame_start": 1,
+     "frame_end": 45,
+     "frames": 45,
+     "seconds": 1.83
+    },
+    {
+     "name": "Death_C",
+     "frame_start": 1,
+     "frame_end": 53,
+     "frames": 53,
+     "seconds": 2.17
+    },
+    {
+     "name": "Defend",
+     "frame_start": 1,
+     "frame_end": 23,
+     "frames": 23,
+     "seconds": 0.92
+    },
+    {
+     "name": "Dizzy",
+     "frame_start": 1,
+     "frame_end": 58,
+     "frames": 58,
+     "seconds": 2.38
+    },
+    {
+     "name": "Dodge_back",
+     "frame_start": 1,
+     "frame_end": 24,
+     "frames": 24,
+     "seconds": 0.96
+    },
+    {
+     "name": "Dodge_back_RM",
+     "frame_start": 1,
+     "frame_end": 24,
+     "frames": 24,
+     "seconds": 0.96
+    },
+    {
+     "name": "Dodge_left",
+     "frame_start": 1,
+     "frame_end": 20,
+     "frames": 20,
+     "seconds": 0.79
+    },
+    {
+     "name": "Dodge_left_RM",
+     "frame_start": 1,
+     "frame_end": 20,
+     "frames": 20,
+     "seconds": 0.79
+    },
+    {
+     "name": "Dodge_right",
+     "frame_start": 1,
+     "frame_end": 20,
+     "frames": 20,
+     "seconds": 0.79
+    },
+    {
+     "name": "Dodge_right_RM",
+     "frame_start": 1,
+     "frame_end": 20,
+     "frames": 20,
+     "seconds": 0.79
+    },
+    {
+     "name": "Fighting Idle",
+     "frame_start": 1,
+     "frame_end": 41,
+     "frames": 41,
+     "seconds": 1.67
+    },
+    {
+     "name": "Fighting Left Jab",
+     "frame_start": 1,
+     "frame_end": 22,
+     "frames": 22,
+     "seconds": 0.88
+    },
+    {
+     "name": "Fighting Right Jab",
+     "frame_start": 1,
+     "frame_end": 22,
+     "frames": 22,
+     "seconds": 0.88
+    },
+    {
+     "name": "Flying Forward",
+     "frame_start": 1,
+     "frame_end": 12,
+     "frames": 12,
+     "seconds": 0.46
+    },
+    {
+     "name": "Flying Forward Super",
+     "frame_start": 1,
+     "frame_end": 12,
+     "frames": 12,
+     "seconds": 0.46
+    },
+    {
+     "name": "Glide",
+     "frame_start": 1,
+     "frame_end": 19,
+     "frames": 19,
+     "seconds": 0.75
+    },
+    {
+     "name": "Greeting",
+     "frame_start": 1,
+     "frame_end": 116,
+     "frames": 116,
+     "seconds": 4.79
+    },
+    {
+     "name": "Head Nod",
+     "frame_start": 1,
+     "frame_end": 21,
+     "frames": 21,
+     "seconds": 0.83
+    },
+    {
+     "name": "Idle Hurt",
+     "frame_start": 1,
+     "frame_end": 40,
+     "frames": 40,
+     "seconds": 1.62
+    },
+    {
+     "name": "Idle Listening",
+     "frame_start": 1,
+     "frame_end": 41,
+     "frames": 41,
+     "seconds": 1.67
+    },
+    {
+     "name": "Idle_Subtle",
+     "frame_start": 1,
+     "frame_end": 62,
+     "frames": 62,
+     "seconds": 2.54
+    },
+    {
+     "name": "Jump_2",
+     "frame_start": 1,
+     "frame_end": 39,
+     "frames": 39,
+     "seconds": 1.58
+    },
+    {
+     "name": "Jump_2_RM",
+     "frame_start": 1,
+     "frame_end": 39,
+     "frames": 39,
+     "seconds": 1.58
+    },
+    {
+     "name": "Jumping Jacks",
+     "frame_start": 1,
+     "frame_end": 30,
+     "frames": 30,
+     "seconds": 1.21
+    },
+    {
+     "name": "Kneeling Tired",
+     "frame_start": 1,
+     "frame_end": 20,
+     "frames": 20,
+     "seconds": 0.79
+    },
+    {
+     "name": "Ladder_Idle",
+     "frame_start": 1,
+     "frame_end": 60,
+     "frames": 60,
+     "seconds": 2.46
+    },
+    {
+     "name": "Land_Three_Point",
+     "frame_start": 1,
+     "frame_end": 33,
+     "frames": 33,
+     "seconds": 1.33
+    },
+    {
+     "name": "Ledge Hang",
+     "frame_start": 1,
+     "frame_end": 46,
+     "frames": 46,
+     "seconds": 1.88
+    },
+    {
+     "name": "Levitate Entrance",
+     "frame_start": 1,
+     "frame_end": 48,
+     "frames": 48,
+     "seconds": 1.96
+    },
+    {
+     "name": "Levitate Idle",
+     "frame_start": 1,
+     "frame_end": 48,
+     "frames": 48,
+     "seconds": 1.96
+    },
+    {
+     "name": "Meditate",
+     "frame_start": 1,
+     "frame_end": 36,
+     "frames": 36,
+     "seconds": 1.46
+    },
+    {
+     "name": "Pipe Climb",
+     "frame_start": 1,
+     "frame_end": 45,
+     "frames": 45,
+     "seconds": 1.83
+    },
+    {
+     "name": "Power Up",
+     "frame_start": 1,
+     "frame_end": 18,
+     "frames": 18,
+     "seconds": 0.71
+    },
+    {
+     "name": "Pushup",
+     "frame_start": 1,
+     "frame_end": 37,
+     "frames": 37,
+     "seconds": 1.5
+    },
+    {
+     "name": "Reject",
+     "frame_start": 1,
+     "frame_end": 91,
+     "frames": 91,
+     "seconds": 3.75
+    },
+    {
+     "name": "Rest Pose",
+     "frame_start": 1,
+     "frame_end": 10,
+     "frames": 10,
+     "seconds": 0.38
+    },
+    {
+     "name": "Run Jump",
+     "frame_start": 1,
+     "frame_end": 30,
+     "frames": 30,
+     "seconds": 1.21
+    },
+    {
+     "name": "Run_Anime",
+     "frame_start": 1,
+     "frame_end": 18,
+     "frames": 18,
+     "seconds": 0.71
+    },
+    {
+     "name": "Run_Female",
+     "frame_start": 1,
+     "frame_end": 20,
+     "frames": 20,
+     "seconds": 0.79
+    },
+    {
+     "name": "Run_Stealth",
+     "frame_start": 1,
+     "frame_end": 13,
+     "frames": 13,
+     "seconds": 0.5
+    },
+    {
+     "name": "Shivering",
+     "frame_start": 1,
+     "frame_end": 6,
+     "frames": 6,
+     "seconds": 0.21
+    },
+    {
+     "name": "Sleeping",
+     "frame_start": 1,
+     "frame_end": 40,
+     "frames": 40,
+     "seconds": 1.62
+    },
+    {
+     "name": "Strafe_left",
+     "frame_start": 1,
+     "frame_end": 24,
+     "frames": 24,
+     "seconds": 0.96
+    },
+    {
+     "name": "Strafe_right",
+     "frame_start": 1,
+     "frame_end": 24,
+     "frames": 24,
+     "seconds": 0.96
+    },
+    {
+     "name": "Sword_Attack_Air_Vertical",
+     "frame_start": 1,
+     "frame_end": 116,
+     "frames": 116,
+     "seconds": 4.79
+    },
+    {
+     "name": "Throw Object",
+     "frame_start": 1,
+     "frame_end": 45,
+     "frames": 45,
+     "seconds": 1.83
+    },
+    {
+     "name": "Tired Hunched",
+     "frame_start": 1,
+     "frame_end": 25,
+     "frames": 25,
+     "seconds": 1.0
+    },
+    {
+     "name": "Two-hand Blast",
+     "frame_start": 1,
+     "frame_end": 11,
+     "frames": 11,
+     "seconds": 0.42
+    },
+    {
+     "name": "Victory",
+     "frame_start": 1,
+     "frame_end": 40,
+     "frames": 40,
+     "seconds": 1.62
+    },
+    {
+     "name": "Victory Fist Pump",
+     "frame_start": 1,
+     "frame_end": 54,
+     "frames": 54,
+     "seconds": 2.21
+    },
+    {
+     "name": "Walk_Backwards",
+     "frame_start": 1,
+     "frame_end": 24,
+     "frames": 24,
+     "seconds": 0.96
+    },
+    {
+     "name": "Walk_Female",
+     "frame_start": 1,
+     "frame_end": 33,
+     "frames": 33,
+     "seconds": 1.33
+    },
+    {
+     "name": "Walk_Large",
+     "frame_start": 1,
+     "frame_end": 34,
+     "frames": 34,
+     "seconds": 1.38
+    },
+    {
+     "name": "Walk_Stealth",
+     "frame_start": 1,
+     "frame_end": 36,
+     "frames": 36,
+     "seconds": 1.46
+    },
+    {
+     "name": "Zombie Yell",
+     "frame_start": 1,
+     "frame_end": 89,
+     "frames": 89,
+     "seconds": 3.67
+    },
+    {
+     "name": "Zombie_Idle_Crouch",
+     "frame_start": 1,
+     "frame_end": 71,
+     "frames": 71,
+     "seconds": 2.92
+    },
+    {
+     "name": "Zombie_Rise",
+     "frame_start": 1,
+     "frame_end": 81,
+     "frames": 81,
+     "seconds": 3.33
+    },
+    {
+     "name": "Zombie_Walk_2",
+     "frame_start": 1,
+     "frame_end": 70,
+     "frames": 70,
+     "seconds": 2.88
+    }
+   ]
+  },
+  "human-mocap-animations.glb": {
+   "scene_fps": 24.0,
+   "armatures": [
+    "Armature"
+   ],
+   "bone_count": 66,
+   "bones_sample": [
+    "root",
+    "pelvis",
+    "spine_01",
+    "spine_02",
+    "spine_03",
+    "neck_01",
+    "head",
+    "head_leaf",
+    "clavicle_l",
+    "upperarm_l",
+    "lowerarm_l",
+    "hand_l",
+    "index_01_l",
+    "index_02_l",
+    "index_03_l",
+    "index_04_leaf_l",
+    "middle_01_l",
+    "middle_02_l",
+    "middle_03_l",
+    "middle_04_leaf_l",
+    "pinky_01_l",
+    "pinky_02_l",
+    "pinky_03_l",
+    "pinky_04_leaf_l"
+   ],
+   "mixamorig_bones": false,
+   "meshes": [
+    {
+     "name": "Icosphere",
+     "verts": 42,
+     "dims_m": [
+      1.902,
+      2.0,
+      2.0
+     ]
+    },
+    {
+     "name": "Mannequin",
+     "verts": 7399,
+     "dims_m": [
+      0.633,
+      0.577,
+      1.994
+     ]
+    }
+   ],
+   "actions": [
+    {
+     "name": "Cheer_One_arm",
+     "frame_start": 0,
+     "frame_end": 52,
+     "frames": 53,
+     "seconds": 2.17
+    },
+    {
+     "name": "Cheering_Two_Hands",
+     "frame_start": 0,
+     "frame_end": 38,
+     "frames": 39,
+     "seconds": 1.58
+    },
+    {
+     "name": "Fishing_Cast",
+     "frame_start": 0,
+     "frame_end": 70,
+     "frames": 72,
+     "seconds": 2.95
+    },
+    {
+     "name": "Fishing_Catch",
+     "frame_start": 0,
+     "frame_end": 49,
+     "frames": 50,
+     "seconds": 2.05
+    },
+    {
+     "name": "Fishing_Reel",
+     "frame_start": 0,
+     "frame_end": 34,
+     "frames": 36,
+     "seconds": 1.45
+    },
+    {
+     "name": "Golf_Drive",
+     "frame_start": 0,
+     "frame_end": 74,
+     "frames": 75,
+     "seconds": 3.1
+    },
+    {
+     "name": "Golf_idle",
+     "frame_start": 0,
+     "frame_end": 44,
+     "frames": 45,
+     "seconds": 1.83
+    },
+    {
+     "name": "Help_One_Arm",
+     "frame_start": 0,
+     "frame_end": 64,
+     "frames": 65,
+     "seconds": 2.67
+    },
+    {
+     "name": "Help_Two_Arms",
+     "frame_start": 0,
+     "frame_end": 38,
+     "frames": 39,
+     "seconds": 1.58
+    },
+    {
+     "name": "Insult",
+     "frame_start": 0,
+     "frame_end": 66,
+     "frames": 68,
+     "seconds": 2.78
+    },
+    {
+     "name": "Kick_Breach",
+     "frame_start": 0,
+     "frame_end": 44,
+     "frames": 45,
+     "seconds": 1.83
+    },
+    {
+     "name": "Salute",
+     "frame_start": 0,
+     "frame_end": 105,
+     "frames": 106,
+     "seconds": 4.38
+    },
+    {
+     "name": "Turn_Left_180",
+     "frame_start": 0,
+     "frame_end": 50,
+     "frames": 52,
+     "seconds": 2.12
+    },
+    {
+     "name": "Turn_Left_90",
+     "frame_start": 0,
+     "frame_end": 48,
+     "frames": 49,
+     "seconds": 2.0
+    },
+    {
+     "name": "Turn_Right_180",
+     "frame_start": 0,
+     "frame_end": 35,
+     "frames": 37,
+     "seconds": 1.48
+    },
+    {
+     "name": "Turn_Right_90",
+     "frame_start": 0,
+     "frame_end": 48,
+     "frames": 49,
+     "seconds": 2.0
+    }
+   ]
+  }
+ }
+}

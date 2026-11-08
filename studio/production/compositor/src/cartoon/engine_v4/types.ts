@@ -1,0 +1,11 @@
+export const C={ink:'#191c26',line:'#191c26',paper:'#fff9e9',yellow:'#ffda56',teal:'#42c4b4',red:'#ef7665',skin:'#edc5a0',shade:'#cc9476',wood:'#9b674d',slate:'#34424c'};
+export type Role='host'|'employee'|'robberA'|'robberB'|'defendantA'|'defendantB'|'detective'|'analyst'|'judge'|'police'|'clerk'|'lawyer';
+export type View='front'|'three-quarter'|'profile'|'back';
+export type Expression='neutral'|'skeptic'|'alarm'|'resolve'|'sad'|'surprise'|'thinking';
+export type Gesture='rest'|'point'|'shrug'|'hold'|'read'|'reach'|'stop'|'think';
+export type Viseme='rest'|'A'|'E'|'O'|'M'|'F';
+export type ShotType='wide'|'medium'|'close-up'|'over-the-shoulder'|'low-angle'|'high-angle'|'insert';
+export type Mood='day'|'night'|'tense'|'courtroom'|'reflective';
+export type SetName='exterior'|'parking'|'parking-reverse'|'street'|'getaway'|'investigation'|'evidence'|'lab'|'court'|'arcade'|'spa'|'memorial';
+export type SpeechFrame={amplitude:number;viseme:Viseme};
+export const ease=(p:number)=>{const t=Math.min(1,Math.max(0,p));return t*t*(3-2*t)};

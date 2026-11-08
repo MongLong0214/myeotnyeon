@@ -1,0 +1,15 @@
+{
+ "id": "modern_buildings_night",
+ "name": "Modern Buildings Night",
+ "type": 0,
+ "authors": {
+  "Greg Zaal": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/modern_buildings_night",
+ "resolution": "4k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/modern_buildings_night_4k.hdr"
+ ]
+}

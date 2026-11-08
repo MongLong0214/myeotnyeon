@@ -1,0 +1,240 @@
+[
+  {
+    "element": "01  DOCUMENTARY / CHAPTER",
+    "reference": [
+      "crops/C04.png"
+    ],
+    "old": "episodes/v4/n18/rep2/V4N18-REP1.png",
+    "new": "research/format_v4/type_v2/stills/n18_chapter.png",
+    "old_crop": null,
+    "new_crop": null,
+    "note": "Nearest baseline: small chapter label in REP1"
+  },
+  {
+    "element": "02  DOCUMENTARY / DATE",
+    "reference": [
+      "crops/C01.png"
+    ],
+    "old": "episodes/v4/n18/rep2/V4N18-REP1.png",
+    "new": "research/format_v4/type_v2/stills/n18_scene.png",
+    "old_crop": [
+      480,
+      20,
+      1440,
+      155
+    ],
+    "new_crop": [
+      480,
+      20,
+      1440,
+      155
+    ],
+    "note": "Date line only; same crop in OLD / NEW"
+  },
+  {
+    "element": "03  DOCUMENTARY / SUBTITLE",
+    "reference": [
+      "crops/C02.png"
+    ],
+    "old": "episodes/v4/n18/rep2/V4N18-REP1.png",
+    "new": "research/format_v4/type_v2/stills/n18_scene.png",
+    "old_crop": [
+      180,
+      900,
+      1740,
+      1000
+    ],
+    "new_crop": [
+      180,
+      900,
+      1740,
+      1000
+    ],
+    "note": "Fixed lower baseline / one line"
+  },
+  {
+    "element": "04  DOCUMENTARY / DOSSIER",
+    "reference": [
+      "crops/C05.png"
+    ],
+    "old": "episodes/v4/n18/rep2/V4N18-REP3.png",
+    "new": "research/format_v4/type_v2/stills/n18_dossier.png",
+    "old_crop": null,
+    "new_crop": null,
+    "note": "Nearest baseline: old verdict panel; no old dossier existed"
+  },
+  {
+    "element": "05  DOCUMENTARY / EVIDENCE LABEL",
+    "reference": [
+      "crops/C19.png",
+      "crops/C20.png"
+    ],
+    "old": "episodes/v4/n18/rep2/V4N18-REP1.png",
+    "new": "research/format_v4/type_v2/stills/n18_scene.png",
+    "old_crop": [
+      540,
+      220,
+      930,
+      410
+    ],
+    "new_crop": [
+      540,
+      220,
+      930,
+      410
+    ],
+    "note": "Scene-attached square label / hard pointer"
+  },
+  {
+    "element": "06  DOCUMENTARY / MEASUREMENT",
+    "reference": [
+      "crops/C03.png"
+    ],
+    "old": "episodes/v4/n18/rep2/V4N18-REP2.png",
+    "new": "research/format_v4/type_v2/stills/n18_measurement.png",
+    "old_crop": null,
+    "new_crop": null,
+    "note": "Measurement attached to the subjects; no number panel"
+  },
+  {
+    "element": "07  DOCUMENTARY / VERDICT",
+    "reference": [
+      "crops/C06.png"
+    ],
+    "old": "episodes/v4/n18/rep2/V4N18-REP3.png",
+    "new": "research/format_v4/type_v2/stills/n18_verdict.png",
+    "old_crop": null,
+    "new_crop": null,
+    "note": "Sentence appended to the existing record"
+  },
+  {
+    "element": "08  DOCUMENTARY / SOURCE",
+    "reference": [
+      "crops/C16.png"
+    ],
+    "old": "episodes/v4/n18/rep2/V4N18-REP3.png",
+    "new": "research/format_v4/type_v2/stills/n18_verdict.png",
+    "old_crop": [
+      0,
+      980,
+      1200,
+      1080
+    ],
+    "new_crop": [
+      0,
+      1010,
+      1200,
+      1080
+    ],
+    "note": "Small fixed credit; retain frame context at source edge"
+  },
+  {
+    "element": "09  SHORT / HEADER",
+    "reference": [
+      "crops/C26.png",
+      "crops/C24.png"
+    ],
+    "old": "research/format_v4/type_v2/old/short_header.png",
+    "new": "research/format_v4/type_v2/stills/q006_header.png",
+    "old_crop": [
+      0,
+      155,
+      1080,
+      420
+    ],
+    "new_crop": [
+      0,
+      155,
+      1080,
+      420
+    ],
+    "note": "Two dense lines / left registration / white and red"
+  },
+  {
+    "element": "10  SHORT / SUBTITLE",
+    "reference": [
+      "crops/C02.png",
+      "crops/C25.png"
+    ],
+    "old": "research/format_v4/type_v2/old/short_header.png",
+    "new": "research/format_v4/type_v2/stills/q006_header.png",
+    "old_crop": [
+      40,
+      1330,
+      1000,
+      1530
+    ],
+    "new_crop": [
+      40,
+      1220,
+      1000,
+      1425
+    ],
+    "note": "Two-line portrait adaptation / hard edge shadow"
+  },
+  {
+    "element": "11  SHORT / CHOICES",
+    "reference": [
+      "crops/C17.png"
+    ],
+    "old": "research/format_v4/type_v2/old/short_choices.png",
+    "new": "research/format_v4/type_v2/stills/q006_choices.png",
+    "old_crop": [
+      40,
+      460,
+      1040,
+      1330
+    ],
+    "new_crop": [
+      0,
+      450,
+      1080,
+      1210
+    ],
+    "note": "Three rows on one paper object; no highlighted answer"
+  },
+  {
+    "element": "12  SHORT / REASON",
+    "reference": [
+      "crops/C05.png",
+      "crops/C07.png"
+    ],
+    "old": "research/format_v4/type_v2/old/short_reason.png",
+    "new": "research/format_v4/type_v2/stills/q006_reason.png",
+    "old_crop": [
+      40,
+      460,
+      1040,
+      1330
+    ],
+    "new_crop": [
+      0,
+      450,
+      1080,
+      1210
+    ],
+    "note": "Single reported reason / serif hierarchy / record grid"
+  },
+  {
+    "element": "13  SHORT / VERDICT",
+    "reference": [
+      "crops/C06.png",
+      "crops/C24.png"
+    ],
+    "old": "research/format_v4/type_v2/old/short_verdict.png",
+    "new": "research/format_v4/type_v2/stills/q006_verdict.png",
+    "old_crop": [
+      40,
+      460,
+      1040,
+      1330
+    ],
+    "new_crop": [
+      0,
+      450,
+      1080,
+      1210
+    ],
+    "note": "Prison term and suspended sentence together"
+  }
+]

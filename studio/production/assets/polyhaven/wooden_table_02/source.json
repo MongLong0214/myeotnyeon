@@ -1,0 +1,19 @@
+{
+ "id": "wooden_table_02",
+ "name": "Wooden Table 02",
+ "type": 2,
+ "authors": {
+  "Serhii Khromov": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/wooden_table_02",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/wooden_table_02/wooden_table_02_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/wooden_table_02/wooden_table_02_metal_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_table_02/wooden_table_02_diff_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wooden_table_02/wooden_table_02_rough_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/wooden_table_02/wooden_table_02_nor_gl_2k.exr"
+ ]
+}

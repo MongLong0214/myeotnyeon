@@ -1,0 +1,24 @@
+{
+  "started_at_kst": "2026-10-26T19:02:21+09:00",
+  "finished_at_kst": "2026-10-26T19:02:23+09:00",
+  "command": [
+    "$HOME/.local/bin/yt-dlp",
+    "--ignore-config",
+    "--no-cookies",
+    "--no-warnings",
+    "--socket-timeout",
+    "25",
+    "--retries",
+    "1",
+    "--extractor-retries",
+    "1",
+    "--extractor-args",
+    "youtube:lang=ko",
+    "--flat-playlist",
+    "--dump-json",
+    "ytsearch50:사건 다큐"
+  ],
+  "exit_code": 0,
+  "error": "",
+  "rows": 50
+}

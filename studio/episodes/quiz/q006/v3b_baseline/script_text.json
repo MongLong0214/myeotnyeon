@@ -1,0 +1,191 @@
+{
+ "episode_id": "q006",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 수원고법 2026년 항소심",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "아파트 동대표 회의에서 다툰 두 동대표가, 싸움에 이의를 제기하지 않겠다는 각서를 썼습니다.",
+    "그리고 밖으로 나가 몸싸움을 벌였죠."
+   ],
+   "claim_ids": [
+    "V2-02_1"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "office",
+    "props": [
+     {
+      "kind": "memo",
+      "x": 500,
+      "y": 860,
+      "at": 60,
+      "front": true,
+      "scale": 0.85
+     }
+    ],
+    "actors": [
+     {
+      "look": "B",
+      "x": 250,
+      "expr": "angry",
+      "pose": "point"
+     },
+     {
+      "look": "D",
+      "x": 750,
+      "expr": "angry",
+      "flip": true
+     }
+    ],
+    "tags": [
+     {
+      "text": "40대 동대표",
+      "x": 250,
+      "y": 40,
+      "color": "#21B8B0"
+     },
+     {
+      "text": "50대 동대표",
+      "x": 750,
+      "y": 40,
+      "color": "#C9503E"
+     }
+    ]
+   }
+  },
+  {
+   "cue_id": "C2",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "40대가 주먹과 발로 50대의 얼굴 등을 때렸고, 50대는 몇 걸음 걷다 쓰러진 뒤, 병원으로 옮겨졌지만 끝내 숨졌습니다."
+   ],
+   "claim_ids": [
+    "V2-02_2"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "set": "memorial",
+    "stamp": {
+     "lines": [
+      "피해자 사망",
+      "사인: 급성심장사"
+     ],
+     "x": 500,
+     "y": 200,
+     "at": 70,
+     "size": 96,
+     "maxW": 560,
+     "color": "#141414",
+     "rot": 0
+    }
+   }
+  },
+  {
+   "cue_id": "C3",
+   "act": "quiz",
+   "block_name": "quiz",
+   "narration": [
+    "자, 몇 년 받았을까요?",
+    "벌금일까요, 집행유예일까요, 아니면 실형일까요?"
+   ],
+   "claim_ids": [],
+   "pad_s": 3.2,
+   "note": "",
+   "p": {}
+  },
+  {
+   "cue_id": "C4",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "폭행치사는 무죄. 폭행죄만 인정돼, 징역 10개월에 집행유예 2년입니다."
+   ],
+   "claim_ids": [
+    "V2-02_2"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "lines": [
+     "징역 10개월",
+     "집행유예 2년"
+    ]
+   }
+  },
+  {
+   "cue_id": "C5",
+   "act": "reason",
+   "block_name": "reason",
+   "narration": [
+    "숨질 걸 예견하긴 어려웠다고 봤고, 피해자가 먼저 때린 점, 우발적이었던 점도 고려했대요."
+   ],
+   "claim_ids": [
+    "V2-02_2",
+    "V2-02_3"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "title": "집행유예 이유",
+    "chips": [
+     "사망까지 예견하긴 어려움",
+     "피해자가 먼저 때림",
+     "우발적 · 반성"
+    ],
+    "colors": [
+     "#21B8B0",
+     "#21B8B0",
+     "#21B8B0"
+    ]
+   }
+  },
+  {
+   "cue_id": "C6",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "유족은 합의를 거부하고 엄벌을 탄원했지만, 2심 판단도 같았습니다."
+   ],
+   "claim_ids": [
+    "V2-02_1",
+    "V2-02_2"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "set": "memorial",
+    "stamp": {
+     "lines": [
+      "2심도 같은 판단"
+     ],
+     "x": 500,
+     "y": 200,
+     "at": 40,
+     "size": 96,
+     "maxW": 560,
+     "color": "#141414",
+     "rot": 0
+    }
+   }
+  },
+  {
+   "cue_id": "C7",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 1.2,
+   "note": "",
+   "p": {}
+  }
+ ]
+}

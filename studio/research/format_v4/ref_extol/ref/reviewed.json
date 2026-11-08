@@ -1,0 +1,7379 @@
+[
+  {
+    "candidate": 1,
+    "frame": 159,
+    "time_s": 5.3,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.014,
+    "hist": 0.023,
+    "original_frame": 159,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 2,
+    "frame": 166,
+    "time_s": 5.533333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 44.933,
+    "hist": 0.795,
+    "original_frame": 166,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 3,
+    "frame": 312,
+    "time_s": 10.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 14.959,
+    "hist": 0.073,
+    "original_frame": 312,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 4,
+    "frame": 319,
+    "time_s": 10.633333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 62.166,
+    "hist": 0.584,
+    "original_frame": 319,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 5,
+    "frame": 546,
+    "time_s": 18.2,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 55.57,
+    "hist": 0.655,
+    "original_frame": 546,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 6,
+    "frame": 638,
+    "time_s": 21.266667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 12.733,
+    "hist": 0.055,
+    "original_frame": 638,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 7,
+    "frame": 702,
+    "time_s": 23.4,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 43.768,
+    "hist": 0.801,
+    "original_frame": 702,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 8,
+    "frame": 789,
+    "time_s": 26.3,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 38.085,
+    "hist": 0.672,
+    "original_frame": 789,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 9,
+    "frame": 858,
+    "time_s": 28.6,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.401,
+    "hist": 0.037,
+    "original_frame": 858,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 10,
+    "frame": 865,
+    "time_s": 28.833333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 59.685,
+    "hist": 0.583,
+    "original_frame": 865,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 11,
+    "frame": 948,
+    "time_s": 31.6,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 44.719,
+    "hist": 0.733,
+    "original_frame": 948,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 12,
+    "frame": 1006,
+    "time_s": 33.533333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 45.455,
+    "hist": 0.679,
+    "original_frame": 1006,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 13,
+    "frame": 1037,
+    "time_s": 34.566667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 15.949,
+    "hist": 0.062,
+    "original_frame": 1037,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 14,
+    "frame": 1069,
+    "time_s": 35.633333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 38.064,
+    "hist": 0.477,
+    "original_frame": 1069,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 15,
+    "frame": 1173,
+    "time_s": 39.1,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 27.204,
+    "hist": 0.487,
+    "original_frame": 1173,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 16,
+    "frame": 1287,
+    "time_s": 42.9,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 44.172,
+    "hist": 0.776,
+    "original_frame": 1287,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 17,
+    "frame": 1413,
+    "time_s": 47.1,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 77.926,
+    "hist": 0.766,
+    "original_frame": 1413,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 18,
+    "frame": 1498,
+    "time_s": 49.933333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 66.308,
+    "hist": 0.513,
+    "original_frame": 1498,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 19,
+    "frame": 1538,
+    "time_s": 51.266667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 12.23,
+    "hist": 0.08,
+    "original_frame": 1538,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 20,
+    "frame": 1602,
+    "time_s": 53.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 10.238,
+    "hist": 0.045,
+    "original_frame": 1602,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 21,
+    "frame": 1681,
+    "time_s": 56.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 30.028,
+    "hist": 0.546,
+    "original_frame": 1681,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 22,
+    "frame": 1741,
+    "time_s": 58.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 27.632,
+    "hist": 0.473,
+    "original_frame": 1741,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 23,
+    "frame": 1754,
+    "time_s": 58.466667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.98,
+    "hist": 0.045,
+    "original_frame": 1754,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 24,
+    "frame": 1792,
+    "time_s": 59.733333,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 13.869,
+    "hist": 0.25,
+    "original_frame": 1792,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 25,
+    "frame": 1800,
+    "time_s": 60.0,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 21.363,
+    "hist": 0.403,
+    "original_frame": 1800,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 26,
+    "frame": 1827,
+    "time_s": 60.9,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 43.087,
+    "hist": 0.716,
+    "original_frame": 1827,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 27,
+    "frame": 1862,
+    "time_s": 62.066667,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 21.456,
+    "hist": 0.259,
+    "original_frame": 1862,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 28,
+    "frame": 1866,
+    "time_s": 62.2,
+    "sources": [
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 39.731,
+    "hist": 0.107,
+    "original_frame": 1866,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 29,
+    "frame": 1890,
+    "time_s": 63.0,
+    "sources": [
+      "content"
+    ],
+    "diff": 13.112,
+    "hist": 0.035,
+    "original_frame": 1890,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 30,
+    "frame": 1898,
+    "time_s": 63.266667,
+    "sources": [
+      "content"
+    ],
+    "diff": 14.263,
+    "hist": 0.033,
+    "original_frame": 1898,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 31,
+    "frame": 1969,
+    "time_s": 65.633333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 20.269,
+    "hist": 0.313,
+    "original_frame": 1969,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 32,
+    "frame": 1999,
+    "time_s": 66.633333,
+    "sources": [
+      "content"
+    ],
+    "diff": 13.683,
+    "hist": 0.088,
+    "original_frame": 1999,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 33,
+    "frame": 2010,
+    "time_s": 67.0,
+    "sources": [
+      "content"
+    ],
+    "diff": 15.294,
+    "hist": 0.062,
+    "original_frame": 2010,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 34,
+    "frame": 2015,
+    "time_s": 67.166667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 16.839,
+    "hist": 0.077,
+    "original_frame": 2015,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 35,
+    "frame": 2022,
+    "time_s": 67.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 23.206,
+    "hist": 0.059,
+    "original_frame": 2022,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 36,
+    "frame": 2028,
+    "time_s": 67.6,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 21.428,
+    "hist": 0.072,
+    "original_frame": 2028,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 37,
+    "frame": 2068,
+    "time_s": 68.933333,
+    "sources": [
+      "content",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 29.078,
+    "hist": 0.479,
+    "original_frame": 2068,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 38,
+    "frame": 2075,
+    "time_s": 69.166667,
+    "sources": [
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 9.744,
+    "hist": 0.046,
+    "original_frame": 2075,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 39,
+    "frame": 2079,
+    "time_s": 69.3,
+    "sources": [
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 52.925,
+    "hist": 0.158,
+    "original_frame": 2079,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 40,
+    "frame": 2101,
+    "time_s": 70.033333,
+    "sources": [
+      "content"
+    ],
+    "diff": 11.652,
+    "hist": 0.038,
+    "original_frame": 2101,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 41,
+    "frame": 2228,
+    "time_s": 74.266667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 13.419,
+    "hist": 0.113,
+    "original_frame": 2228,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 42,
+    "frame": 2235,
+    "time_s": 74.5,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 17.333,
+    "hist": 0.086,
+    "original_frame": 2235,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 43,
+    "frame": 2262,
+    "time_s": 75.4,
+    "sources": [
+      "content"
+    ],
+    "diff": 4.63,
+    "hist": 0.02,
+    "original_frame": 2262,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 44,
+    "frame": 2340,
+    "time_s": 78.0,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 25.383,
+    "hist": 0.452,
+    "original_frame": 2340,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 45,
+    "frame": 2386,
+    "time_s": 79.533333,
+    "sources": [
+      "content"
+    ],
+    "diff": 16.299,
+    "hist": 0.064,
+    "original_frame": 2386,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 46,
+    "frame": 2398,
+    "time_s": 79.933333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 14.307,
+    "hist": 0.055,
+    "original_frame": 2398,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 47,
+    "frame": 2409,
+    "time_s": 80.3,
+    "sources": [
+      "content"
+    ],
+    "diff": 14.275,
+    "hist": 0.118,
+    "original_frame": 2409,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 48,
+    "frame": 2417,
+    "time_s": 80.566667,
+    "sources": [
+      "content"
+    ],
+    "diff": 12.96,
+    "hist": 0.041,
+    "original_frame": 2417,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 49,
+    "frame": 2431,
+    "time_s": 81.033333,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 16.277,
+    "hist": 0.098,
+    "original_frame": 2431,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 50,
+    "frame": 2437,
+    "time_s": 81.233333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 11.225,
+    "hist": 0.07,
+    "original_frame": 2437,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 51,
+    "frame": 2455,
+    "time_s": 81.833333,
+    "sources": [
+      "content"
+    ],
+    "diff": 13.58,
+    "hist": 0.057,
+    "original_frame": 2455,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 52,
+    "frame": 2461,
+    "time_s": 82.033333,
+    "sources": [
+      "content"
+    ],
+    "diff": 8.974,
+    "hist": 0.046,
+    "original_frame": 2461,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 53,
+    "frame": 2470,
+    "time_s": 82.333333,
+    "sources": [
+      "content"
+    ],
+    "diff": 11.918,
+    "hist": 0.109,
+    "original_frame": 2470,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 54,
+    "frame": 2478,
+    "time_s": 82.6,
+    "sources": [
+      "content"
+    ],
+    "diff": 9.991,
+    "hist": 0.058,
+    "original_frame": 2478,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 55,
+    "frame": 2493,
+    "time_s": 83.1,
+    "sources": [
+      "content"
+    ],
+    "diff": 12.431,
+    "hist": 0.091,
+    "original_frame": 2493,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 56,
+    "frame": 2560,
+    "time_s": 85.333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 28.388,
+    "hist": 0.419,
+    "original_frame": 2560,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 57,
+    "frame": 2682,
+    "time_s": 89.4,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 76.717,
+    "hist": 0.711,
+    "original_frame": 2682,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 58,
+    "frame": 2688,
+    "time_s": 89.6,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 71.859,
+    "hist": 0.691,
+    "original_frame": 2688,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 59,
+    "frame": 2701,
+    "time_s": 90.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 47.48,
+    "hist": 0.51,
+    "original_frame": 2701,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 60,
+    "frame": 2707,
+    "time_s": 90.233333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 45.237,
+    "hist": 0.757,
+    "original_frame": 2707,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 61,
+    "frame": 2711,
+    "time_s": 90.366667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.012,
+    "hist": 0.021,
+    "original_frame": 2711,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 62,
+    "frame": 2718,
+    "time_s": 90.6,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 42.47,
+    "hist": 0.601,
+    "original_frame": 2718,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 63,
+    "frame": 2724,
+    "time_s": 90.8,
+    "sources": [
+      "content",
+      "ffmpeg"
+    ],
+    "diff": 27.95,
+    "hist": 0.233,
+    "original_frame": 2724,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 64,
+    "frame": 2737,
+    "time_s": 91.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 5.889,
+    "hist": 0.035,
+    "original_frame": 2736,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 65,
+    "frame": 2743,
+    "time_s": 91.433333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 51.364,
+    "hist": 0.598,
+    "original_frame": 2743,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 66,
+    "frame": 2754,
+    "time_s": 91.8,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 38.501,
+    "hist": 0.766,
+    "original_frame": 2754,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 67,
+    "frame": 2760,
+    "time_s": 92.0,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 51.879,
+    "hist": 0.959,
+    "original_frame": 2760,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 68,
+    "frame": 2774,
+    "time_s": 92.433333,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 1.937,
+    "hist": 0.02,
+    "original_frame": 2773,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 69,
+    "frame": 2780,
+    "time_s": 92.666667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 69.777,
+    "hist": 0.887,
+    "original_frame": 2780,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 70,
+    "frame": 2791,
+    "time_s": 93.033333,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 82.247,
+    "hist": 0.696,
+    "original_frame": 2791,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 71,
+    "frame": 2797,
+    "time_s": 93.233333,
+    "sources": [
+      "adaptive",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 64.326,
+    "hist": 0.723,
+    "original_frame": 2797,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 72,
+    "frame": 2812,
+    "time_s": 93.733333,
+    "sources": [
+      "content"
+    ],
+    "diff": 1.981,
+    "hist": 0.025,
+    "original_frame": 2812,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 73,
+    "frame": 2847,
+    "time_s": 94.8,
+    "sources": [
+      "content"
+    ],
+    "diff": 5.139,
+    "hist": 0.06,
+    "original_frame": 2844,
+    "keep": true,
+    "transition_type": "other",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 74,
+    "frame": 2902,
+    "time_s": 96.733333,
+    "sources": [
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 29.024,
+    "hist": 0.298,
+    "original_frame": 2902,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 75,
+    "frame": 3274,
+    "time_s": 109.133333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 53.92,
+    "hist": 0.609,
+    "original_frame": 3274,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 76,
+    "frame": 3278,
+    "time_s": 109.266667,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 1.131,
+    "hist": 0.024,
+    "original_frame": 3278,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 77,
+    "frame": 3325,
+    "time_s": 110.833333,
+    "sources": [
+      "content"
+    ],
+    "diff": 1.214,
+    "hist": 0.023,
+    "original_frame": 3325,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 78,
+    "frame": 3376,
+    "time_s": 112.533333,
+    "sources": [
+      "content"
+    ],
+    "diff": 1.572,
+    "hist": 0.022,
+    "original_frame": 3376,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 79,
+    "frame": 3399,
+    "time_s": 113.3,
+    "sources": [
+      "content"
+    ],
+    "diff": 1.626,
+    "hist": 0.026,
+    "original_frame": 3399,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 80,
+    "frame": 3416,
+    "time_s": 113.866667,
+    "sources": [
+      "content"
+    ],
+    "diff": 1.641,
+    "hist": 0.021,
+    "original_frame": 3416,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 81,
+    "frame": 3421,
+    "time_s": 114.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 79.431,
+    "hist": 0.548,
+    "original_frame": 3421,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 82,
+    "frame": 3428,
+    "time_s": 114.266667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.675,
+    "hist": 0.037,
+    "original_frame": 3428,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 83,
+    "frame": 3489,
+    "time_s": 116.3,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.789,
+    "hist": 0.032,
+    "original_frame": 3489,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 84,
+    "frame": 3493,
+    "time_s": 116.433333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 73.527,
+    "hist": 0.394,
+    "original_frame": 3493,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 85,
+    "frame": 3585,
+    "time_s": 119.5,
+    "sources": [
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 49.162,
+    "hist": 0.488,
+    "original_frame": 3585,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 86,
+    "frame": 3592,
+    "time_s": 119.733333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 12.67,
+    "hist": 0.035,
+    "original_frame": 3592,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 87,
+    "frame": 3597,
+    "time_s": 119.9,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 14.651,
+    "hist": 0.035,
+    "original_frame": 3597,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 88,
+    "frame": 3602,
+    "time_s": 120.066667,
+    "sources": [
+      "content"
+    ],
+    "diff": 13.248,
+    "hist": 0.127,
+    "original_frame": 3602,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 89,
+    "frame": 3652,
+    "time_s": 121.733333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 53.182,
+    "hist": 0.419,
+    "original_frame": 3652,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 90,
+    "frame": 3659,
+    "time_s": 121.966667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.772,
+    "hist": 0.034,
+    "original_frame": 3659,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 91,
+    "frame": 3705,
+    "time_s": 123.5,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 11.887,
+    "hist": 0.04,
+    "original_frame": 3705,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 92,
+    "frame": 3751,
+    "time_s": 125.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 96.164,
+    "hist": 0.614,
+    "original_frame": 3751,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 93,
+    "frame": 3758,
+    "time_s": 125.266667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.657,
+    "hist": 0.023,
+    "original_frame": 3758,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 94,
+    "frame": 3853,
+    "time_s": 128.433333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 85.311,
+    "hist": 0.639,
+    "original_frame": 3853,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 95,
+    "frame": 3860,
+    "time_s": 128.666667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 13.371,
+    "hist": 0.023,
+    "original_frame": 3860,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 96,
+    "frame": 4027,
+    "time_s": 134.233333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 67.572,
+    "hist": 0.639,
+    "original_frame": 4027,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 97,
+    "frame": 4034,
+    "time_s": 134.466667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.58,
+    "hist": 0.028,
+    "original_frame": 4034,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 98,
+    "frame": 4098,
+    "time_s": 136.6,
+    "sources": [
+      "content"
+    ],
+    "diff": 12.392,
+    "hist": 0.035,
+    "original_frame": 4098,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 99,
+    "frame": 4117,
+    "time_s": 137.233333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 12.635,
+    "hist": 0.036,
+    "original_frame": 4117,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 100,
+    "frame": 4159,
+    "time_s": 138.633333,
+    "sources": [
+      "content"
+    ],
+    "diff": 11.608,
+    "hist": 0.033,
+    "original_frame": 4159,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 101,
+    "frame": 4170,
+    "time_s": 139.0,
+    "sources": [
+      "content"
+    ],
+    "diff": 11.023,
+    "hist": 0.039,
+    "original_frame": 4170,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 102,
+    "frame": 4232,
+    "time_s": 141.066667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.709,
+    "hist": 0.043,
+    "original_frame": 4232,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 103,
+    "frame": 4239,
+    "time_s": 141.3,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 58.587,
+    "hist": 0.586,
+    "original_frame": 4239,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 104,
+    "frame": 4427,
+    "time_s": 147.566667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 16.296,
+    "hist": 0.078,
+    "original_frame": 4427,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 105,
+    "frame": 4431,
+    "time_s": 147.766667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 16.391,
+    "hist": 0.139,
+    "original_frame": 4433,
+    "keep": true,
+    "transition_type": "other",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 106,
+    "frame": 4484,
+    "time_s": 149.466667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 34.832,
+    "hist": 0.801,
+    "original_frame": 4484,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 107,
+    "frame": 4607,
+    "time_s": 153.566667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 30.109,
+    "hist": 0.685,
+    "original_frame": 4607,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 108,
+    "frame": 4742,
+    "time_s": 158.066667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.184,
+    "hist": 0.054,
+    "original_frame": 4742,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 109,
+    "frame": 4748,
+    "time_s": 158.266667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 19.533,
+    "hist": 0.4,
+    "original_frame": 4748,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 110,
+    "frame": 4782,
+    "time_s": 159.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 29.855,
+    "hist": 0.058,
+    "original_frame": 4782,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 111,
+    "frame": 4801,
+    "time_s": 160.033333,
+    "sources": [
+      "content"
+    ],
+    "diff": 8.436,
+    "hist": 0.033,
+    "original_frame": 4801,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 112,
+    "frame": 4825,
+    "time_s": 160.833333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.026,
+    "hist": 0.025,
+    "original_frame": 4825,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 113,
+    "frame": 4832,
+    "time_s": 161.066667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 76.485,
+    "hist": 0.499,
+    "original_frame": 4832,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 114,
+    "frame": 4938,
+    "time_s": 164.6,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 29.939,
+    "hist": 0.853,
+    "original_frame": 4938,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 115,
+    "frame": 5009,
+    "time_s": 166.966667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 27.244,
+    "hist": 0.741,
+    "original_frame": 5009,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 116,
+    "frame": 5181,
+    "time_s": 172.7,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 32.704,
+    "hist": 0.927,
+    "original_frame": 5181,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 117,
+    "frame": 5293,
+    "time_s": 176.433333,
+    "sources": [
+      "content"
+    ],
+    "diff": 7.963,
+    "hist": 0.035,
+    "original_frame": 5293,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 118,
+    "frame": 5326,
+    "time_s": 177.533333,
+    "sources": [
+      "content"
+    ],
+    "diff": 8.723,
+    "hist": 0.121,
+    "original_frame": 5326,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 119,
+    "frame": 5331,
+    "time_s": 177.7,
+    "sources": [
+      "content"
+    ],
+    "diff": 7.803,
+    "hist": 0.11,
+    "original_frame": 5331,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 120,
+    "frame": 5351,
+    "time_s": 178.366667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 15.978,
+    "hist": 0.041,
+    "original_frame": 5351,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 121,
+    "frame": 5371,
+    "time_s": 179.033333,
+    "sources": [
+      "content"
+    ],
+    "diff": 7.488,
+    "hist": 0.038,
+    "original_frame": 5371,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 122,
+    "frame": 5412,
+    "time_s": 180.4,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 62.202,
+    "hist": 0.895,
+    "original_frame": 5412,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 123,
+    "frame": 5640,
+    "time_s": 188.0,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 26.342,
+    "hist": 0.606,
+    "original_frame": 5640,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 124,
+    "frame": 5664,
+    "time_s": 188.8,
+    "sources": [
+      "content"
+    ],
+    "diff": 15.849,
+    "hist": 0.419,
+    "original_frame": 5664,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 125,
+    "frame": 5677,
+    "time_s": 189.233333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 18.877,
+    "hist": 0.039,
+    "original_frame": 5677,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 126,
+    "frame": 5688,
+    "time_s": 189.6,
+    "sources": [
+      "content"
+    ],
+    "diff": 6.539,
+    "hist": 0.034,
+    "original_frame": 5688,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 127,
+    "frame": 5737,
+    "time_s": 191.233333,
+    "sources": [
+      "content"
+    ],
+    "diff": 3.501,
+    "hist": 0.031,
+    "original_frame": 5737,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 128,
+    "frame": 5749,
+    "time_s": 191.633333,
+    "sources": [
+      "content"
+    ],
+    "diff": 4.267,
+    "hist": 0.026,
+    "original_frame": 5749,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 129,
+    "frame": 5759,
+    "time_s": 191.966667,
+    "sources": [
+      "content"
+    ],
+    "diff": 5.106,
+    "hist": 0.033,
+    "original_frame": 5759,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 130,
+    "frame": 5772,
+    "time_s": 192.4,
+    "sources": [
+      "content"
+    ],
+    "diff": 5.926,
+    "hist": 0.028,
+    "original_frame": 5772,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 131,
+    "frame": 5791,
+    "time_s": 193.033333,
+    "sources": [
+      "content"
+    ],
+    "diff": 5.479,
+    "hist": 0.028,
+    "original_frame": 5791,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 132,
+    "frame": 5836,
+    "time_s": 194.533333,
+    "sources": [
+      "content"
+    ],
+    "diff": 4.127,
+    "hist": 0.03,
+    "original_frame": 5836,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 133,
+    "frame": 5870,
+    "time_s": 195.666667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 8.928,
+    "hist": 0.037,
+    "original_frame": 5870,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 134,
+    "frame": 5877,
+    "time_s": 195.9,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 6.718,
+    "hist": 0.033,
+    "original_frame": 5877,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 135,
+    "frame": 5886,
+    "time_s": 196.2,
+    "sources": [
+      "content"
+    ],
+    "diff": 6.881,
+    "hist": 0.052,
+    "original_frame": 5886,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 136,
+    "frame": 5891,
+    "time_s": 196.366667,
+    "sources": [
+      "content"
+    ],
+    "diff": 5.542,
+    "hist": 0.032,
+    "original_frame": 5891,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 137,
+    "frame": 5902,
+    "time_s": 196.733333,
+    "sources": [
+      "content"
+    ],
+    "diff": 5.75,
+    "hist": 0.034,
+    "original_frame": 5902,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 138,
+    "frame": 5911,
+    "time_s": 197.033333,
+    "sources": [
+      "content"
+    ],
+    "diff": 5.485,
+    "hist": 0.031,
+    "original_frame": 5911,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 139,
+    "frame": 5997,
+    "time_s": 199.9,
+    "sources": [
+      "content"
+    ],
+    "diff": 12.543,
+    "hist": 0.037,
+    "original_frame": 5997,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 140,
+    "frame": 6018,
+    "time_s": 200.6,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 27.589,
+    "hist": 0.051,
+    "original_frame": 6018,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 141,
+    "frame": 6048,
+    "time_s": 201.6,
+    "sources": [
+      "content"
+    ],
+    "diff": 14.403,
+    "hist": 0.031,
+    "original_frame": 6048,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 142,
+    "frame": 6053,
+    "time_s": 201.766667,
+    "sources": [
+      "content"
+    ],
+    "diff": 21.924,
+    "hist": 0.066,
+    "original_frame": 6053,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 143,
+    "frame": 6066,
+    "time_s": 202.2,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 18.092,
+    "hist": 0.058,
+    "original_frame": 6066,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 144,
+    "frame": 6074,
+    "time_s": 202.466667,
+    "sources": [
+      "content"
+    ],
+    "diff": 12.781,
+    "hist": 0.206,
+    "original_frame": 6074,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 397,
+    "frame": 6094,
+    "time_s": 203.13333333333333,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 8.301111111111112,
+    "hist": 0.1456707732879504,
+    "original_frame": 6094,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 145,
+    "frame": 6240,
+    "time_s": 208.0,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 2.741,
+    "hist": 0.025,
+    "original_frame": 6240,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 146,
+    "frame": 6274,
+    "time_s": 209.133333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 65.287,
+    "hist": 0.697,
+    "original_frame": 6274,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 147,
+    "frame": 6430,
+    "time_s": 214.333333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 14.598,
+    "hist": 0.088,
+    "original_frame": 6430,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 148,
+    "frame": 6456,
+    "time_s": 215.2,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 10.782,
+    "hist": 0.075,
+    "original_frame": 6456,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 149,
+    "frame": 6461,
+    "time_s": 215.366667,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 17.762,
+    "hist": 0.24,
+    "original_frame": 6461,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 150,
+    "frame": 6475,
+    "time_s": 215.833333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 72.887,
+    "hist": 0.78,
+    "original_frame": 6475,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 151,
+    "frame": 6547,
+    "time_s": 218.166667,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 22.418,
+    "hist": 0.099,
+    "original_frame": 6545,
+    "keep": true,
+    "transition_type": "other",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 152,
+    "frame": 6607,
+    "time_s": 220.233333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 35.18,
+    "hist": 0.658,
+    "original_frame": 6607,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 153,
+    "frame": 6666,
+    "time_s": 222.2,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 20.86,
+    "hist": 0.438,
+    "original_frame": 6666,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 154,
+    "frame": 6680,
+    "time_s": 222.666667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 8.359,
+    "hist": 0.036,
+    "original_frame": 6680,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 155,
+    "frame": 6715,
+    "time_s": 223.833333,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 2.208,
+    "hist": 0.024,
+    "original_frame": 6715,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 156,
+    "frame": 6722,
+    "time_s": 224.066667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 24.72,
+    "hist": 0.15,
+    "original_frame": 6722,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 157,
+    "frame": 6755,
+    "time_s": 225.166667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 29.509,
+    "hist": 0.219,
+    "original_frame": 6755,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 158,
+    "frame": 6774,
+    "time_s": 225.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.021,
+    "hist": 0.057,
+    "original_frame": 6774,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 159,
+    "frame": 6781,
+    "time_s": 226.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 43.024,
+    "hist": 0.371,
+    "original_frame": 6781,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 160,
+    "frame": 6792,
+    "time_s": 226.4,
+    "sources": [
+      "content"
+    ],
+    "diff": 4.55,
+    "hist": 0.046,
+    "original_frame": 6792,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 161,
+    "frame": 6805,
+    "time_s": 226.833333,
+    "sources": [
+      "content"
+    ],
+    "diff": 11.226,
+    "hist": 0.036,
+    "original_frame": 6805,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 162,
+    "frame": 6815,
+    "time_s": 227.166667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.443,
+    "hist": 0.059,
+    "original_frame": 6815,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 163,
+    "frame": 6837,
+    "time_s": 227.9,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.348,
+    "hist": 0.029,
+    "original_frame": 6837,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 164,
+    "frame": 6844,
+    "time_s": 228.133333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 35.743,
+    "hist": 0.339,
+    "original_frame": 6844,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 165,
+    "frame": 6873,
+    "time_s": 229.1,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 8.359,
+    "hist": 0.041,
+    "original_frame": 6873,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 166,
+    "frame": 6880,
+    "time_s": 229.333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 25.071,
+    "hist": 0.311,
+    "original_frame": 6880,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 167,
+    "frame": 6897,
+    "time_s": 229.9,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.417,
+    "hist": 0.042,
+    "original_frame": 6897,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 168,
+    "frame": 6914,
+    "time_s": 230.466667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.469,
+    "hist": 0.035,
+    "original_frame": 6914,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 169,
+    "frame": 6921,
+    "time_s": 230.7,
+    "sources": [
+      "content",
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 18.564,
+    "hist": 0.223,
+    "original_frame": 6921,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 398,
+    "frame": 6968,
+    "time_s": 232.26666666666668,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 7.026649305555556,
+    "hist": 0.17337428305641997,
+    "original_frame": 6968,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 399,
+    "frame": 6982,
+    "time_s": 232.73333333333332,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 13.450347222222222,
+    "hist": 0.30963668618197415,
+    "original_frame": 6982,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 400,
+    "frame": 6991,
+    "time_s": 233.03333333333333,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 5.283489583333333,
+    "hist": 0.2080754075062478,
+    "original_frame": 6991,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 401,
+    "frame": 7004,
+    "time_s": 233.46666666666667,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 7.42234375,
+    "hist": 0.14691920579322204,
+    "original_frame": 7004,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 170,
+    "frame": 7009,
+    "time_s": 233.633333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 34.157,
+    "hist": 0.377,
+    "original_frame": 7009,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 171,
+    "frame": 7033,
+    "time_s": 234.433333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 31.191,
+    "hist": 0.237,
+    "original_frame": 7033,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 172,
+    "frame": 7052,
+    "time_s": 235.066667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 29.675,
+    "hist": 0.645,
+    "original_frame": 7052,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 173,
+    "frame": 7065,
+    "time_s": 235.5,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.544,
+    "hist": 0.031,
+    "original_frame": 7065,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 174,
+    "frame": 7072,
+    "time_s": 235.733333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 33.536,
+    "hist": 0.326,
+    "original_frame": 7072,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 175,
+    "frame": 7091,
+    "time_s": 236.366667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 43.902,
+    "hist": 0.588,
+    "original_frame": 7091,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 176,
+    "frame": 7099,
+    "time_s": 236.633333,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 4.37,
+    "hist": 0.072,
+    "original_frame": 7099,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 177,
+    "frame": 7108,
+    "time_s": 236.933333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 33.833,
+    "hist": 0.379,
+    "original_frame": 7108,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 178,
+    "frame": 7113,
+    "time_s": 237.1,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 3.05,
+    "hist": 0.027,
+    "original_frame": 7113,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 179,
+    "frame": 7126,
+    "time_s": 237.533333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 38.129,
+    "hist": 0.352,
+    "original_frame": 7126,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 180,
+    "frame": 7133,
+    "time_s": 237.766667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 11.993,
+    "hist": 0.06,
+    "original_frame": 7133,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 181,
+    "frame": 7139,
+    "time_s": 237.966667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 73.941,
+    "hist": 0.789,
+    "original_frame": 7139,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 182,
+    "frame": 7275,
+    "time_s": 242.5,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 37.064,
+    "hist": 0.507,
+    "original_frame": 7275,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 183,
+    "frame": 7322,
+    "time_s": 244.066667,
+    "sources": [
+      "content"
+    ],
+    "diff": 11.163,
+    "hist": 0.026,
+    "original_frame": 7322,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 184,
+    "frame": 7331,
+    "time_s": 244.366667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.991,
+    "hist": 0.038,
+    "original_frame": 7331,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 185,
+    "frame": 7399,
+    "time_s": 246.633333,
+    "sources": [
+      "content"
+    ],
+    "diff": 16.766,
+    "hist": 0.037,
+    "original_frame": 7399,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 186,
+    "frame": 7405,
+    "time_s": 246.833333,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 19.342,
+    "hist": 0.029,
+    "original_frame": 7405,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 187,
+    "frame": 7412,
+    "time_s": 247.066667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 12.623,
+    "hist": 0.031,
+    "original_frame": 7412,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 188,
+    "frame": 7419,
+    "time_s": 247.3,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 18.871,
+    "hist": 0.03,
+    "original_frame": 7419,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 189,
+    "frame": 7425,
+    "time_s": 247.5,
+    "sources": [
+      "content"
+    ],
+    "diff": 16.118,
+    "hist": 0.03,
+    "original_frame": 7425,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 190,
+    "frame": 7432,
+    "time_s": 247.733333,
+    "sources": [
+      "content"
+    ],
+    "diff": 6.675,
+    "hist": 0.037,
+    "original_frame": 7432,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 191,
+    "frame": 7459,
+    "time_s": 248.633333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 50.909,
+    "hist": 0.627,
+    "original_frame": 7459,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 192,
+    "frame": 7652,
+    "time_s": 255.066667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 38.829,
+    "hist": 0.635,
+    "original_frame": 7652,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 193,
+    "frame": 7749,
+    "time_s": 258.3,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 37.741,
+    "hist": 0.872,
+    "original_frame": 7749,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 194,
+    "frame": 7834,
+    "time_s": 261.133333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 39.692,
+    "hist": 0.796,
+    "original_frame": 7834,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 195,
+    "frame": 7898,
+    "time_s": 263.266667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 50.098,
+    "hist": 0.605,
+    "original_frame": 7898,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 196,
+    "frame": 8053,
+    "time_s": 268.433333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 68.246,
+    "hist": 0.458,
+    "original_frame": 8053,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 197,
+    "frame": 8325,
+    "time_s": 277.5,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 58.566,
+    "hist": 0.637,
+    "original_frame": 8325,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 198,
+    "frame": 8463,
+    "time_s": 282.1,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 74.901,
+    "hist": 0.704,
+    "original_frame": 8463,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 199,
+    "frame": 8470,
+    "time_s": 282.333333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.647,
+    "hist": 0.036,
+    "original_frame": 8470,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 200,
+    "frame": 8557,
+    "time_s": 285.233333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.499,
+    "hist": 0.056,
+    "original_frame": 8557,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 201,
+    "frame": 8630,
+    "time_s": 287.666667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 82.096,
+    "hist": 0.585,
+    "original_frame": 8630,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 202,
+    "frame": 8637,
+    "time_s": 287.9,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.704,
+    "hist": 0.04,
+    "original_frame": 8637,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 203,
+    "frame": 8660,
+    "time_s": 288.666667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.51,
+    "hist": 0.048,
+    "original_frame": 8660,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 204,
+    "frame": 8707,
+    "time_s": 290.233333,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 17.033,
+    "hist": 0.183,
+    "original_frame": 8707,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 205,
+    "frame": 8713,
+    "time_s": 290.433333,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 16.679,
+    "hist": 0.147,
+    "original_frame": 8713,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 206,
+    "frame": 8727,
+    "time_s": 290.9,
+    "sources": [
+      "content"
+    ],
+    "diff": 13.641,
+    "hist": 0.137,
+    "original_frame": 8727,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 207,
+    "frame": 8774,
+    "time_s": 292.466667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 26.761,
+    "hist": 0.532,
+    "original_frame": 8774,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 208,
+    "frame": 8824,
+    "time_s": 294.133333,
+    "sources": [
+      "content"
+    ],
+    "diff": 12.273,
+    "hist": 0.056,
+    "original_frame": 8824,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 209,
+    "frame": 8836,
+    "time_s": 294.533333,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 46.808,
+    "hist": 0.153,
+    "original_frame": 8836,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 210,
+    "frame": 8841,
+    "time_s": 294.7,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 1.868,
+    "hist": 0.027,
+    "original_frame": 8841,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 211,
+    "frame": 8848,
+    "time_s": 294.933333,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 34.54,
+    "hist": 0.159,
+    "original_frame": 8848,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 212,
+    "frame": 8856,
+    "time_s": 295.2,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 21.837,
+    "hist": 0.102,
+    "original_frame": 8856,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 213,
+    "frame": 8861,
+    "time_s": 295.366667,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 16.941,
+    "hist": 0.153,
+    "original_frame": 8861,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 214,
+    "frame": 8867,
+    "time_s": 295.566667,
+    "sources": [
+      "content",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 26.137,
+    "hist": 0.208,
+    "original_frame": 8867,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 215,
+    "frame": 8871,
+    "time_s": 295.7,
+    "sources": [
+      "ffmpeg"
+    ],
+    "diff": 16.745,
+    "hist": 0.125,
+    "original_frame": 8871,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 216,
+    "frame": 8885,
+    "time_s": 296.166667,
+    "sources": [
+      "adaptive",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 72.717,
+    "hist": 0.645,
+    "original_frame": 8885,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 217,
+    "frame": 8918,
+    "time_s": 297.266667,
+    "sources": [
+      "content"
+    ],
+    "diff": 11.294,
+    "hist": 0.057,
+    "original_frame": 8918,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 218,
+    "frame": 8940,
+    "time_s": 298.0,
+    "sources": [
+      "content"
+    ],
+    "diff": 6.773,
+    "hist": 0.058,
+    "original_frame": 8940,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 219,
+    "frame": 8951,
+    "time_s": 298.366667,
+    "sources": [
+      "content"
+    ],
+    "diff": 7.585,
+    "hist": 0.076,
+    "original_frame": 8951,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 220,
+    "frame": 8966,
+    "time_s": 298.866667,
+    "sources": [
+      "content"
+    ],
+    "diff": 9.916,
+    "hist": 0.071,
+    "original_frame": 8966,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 221,
+    "frame": 8979,
+    "time_s": 299.3,
+    "sources": [
+      "content"
+    ],
+    "diff": 8.358,
+    "hist": 0.057,
+    "original_frame": 8979,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 222,
+    "frame": 9013,
+    "time_s": 300.433333,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 13.773,
+    "hist": 0.073,
+    "original_frame": 9013,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 223,
+    "frame": 9020,
+    "time_s": 300.666667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 12.081,
+    "hist": 0.066,
+    "original_frame": 9020,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 224,
+    "frame": 9047,
+    "time_s": 301.566667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.881,
+    "hist": 0.045,
+    "original_frame": 9047,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 225,
+    "frame": 9054,
+    "time_s": 301.8,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 64.075,
+    "hist": 0.619,
+    "original_frame": 9054,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 226,
+    "frame": 9175,
+    "time_s": 305.833333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.597,
+    "hist": 0.04,
+    "original_frame": 9175,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 227,
+    "frame": 9182,
+    "time_s": 306.066667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 90.601,
+    "hist": 0.747,
+    "original_frame": 9182,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 228,
+    "frame": 9280,
+    "time_s": 309.333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 25.684,
+    "hist": 0.541,
+    "original_frame": 9280,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 229,
+    "frame": 9304,
+    "time_s": 310.133333,
+    "sources": [
+      "content"
+    ],
+    "diff": 19.82,
+    "hist": 0.052,
+    "original_frame": 9304,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 230,
+    "frame": 9324,
+    "time_s": 310.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 22.628,
+    "hist": 0.033,
+    "original_frame": 9324,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 231,
+    "frame": 9329,
+    "time_s": 310.966667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 18.045,
+    "hist": 0.044,
+    "original_frame": 9329,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 232,
+    "frame": 9336,
+    "time_s": 311.2,
+    "sources": [
+      "content"
+    ],
+    "diff": 15.6,
+    "hist": 0.087,
+    "original_frame": 9336,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 233,
+    "frame": 9386,
+    "time_s": 312.866667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 40.884,
+    "hist": 0.597,
+    "original_frame": 9386,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 234,
+    "frame": 9533,
+    "time_s": 317.766667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 73.855,
+    "hist": 0.622,
+    "original_frame": 9533,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 235,
+    "frame": 9537,
+    "time_s": 317.9,
+    "sources": [
+      "content"
+    ],
+    "diff": 5.872,
+    "hist": 0.025,
+    "original_frame": 9537,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 236,
+    "frame": 9555,
+    "time_s": 318.5,
+    "sources": [
+      "content"
+    ],
+    "diff": 14.562,
+    "hist": 0.034,
+    "original_frame": 9555,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 237,
+    "frame": 9565,
+    "time_s": 318.833333,
+    "sources": [
+      "content"
+    ],
+    "diff": 13.265,
+    "hist": 0.036,
+    "original_frame": 9565,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 238,
+    "frame": 9579,
+    "time_s": 319.3,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 18.468,
+    "hist": 0.041,
+    "original_frame": 9579,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 239,
+    "frame": 9597,
+    "time_s": 319.9,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 82.065,
+    "hist": 0.851,
+    "original_frame": 9597,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 240,
+    "frame": 9623,
+    "time_s": 320.766667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.453,
+    "hist": 0.106,
+    "original_frame": 9623,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 241,
+    "frame": 9630,
+    "time_s": 321.0,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 68.266,
+    "hist": 0.757,
+    "original_frame": 9630,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 242,
+    "frame": 9742,
+    "time_s": 324.733333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 52.443,
+    "hist": 0.503,
+    "original_frame": 9742,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 243,
+    "frame": 9762,
+    "time_s": 325.4,
+    "sources": [
+      "content"
+    ],
+    "diff": 6.522,
+    "hist": 0.035,
+    "original_frame": 9762,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 244,
+    "frame": 9783,
+    "time_s": 326.1,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 18.749,
+    "hist": 0.05,
+    "original_frame": 9783,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 245,
+    "frame": 9800,
+    "time_s": 326.666667,
+    "sources": [
+      "content"
+    ],
+    "diff": 12.316,
+    "hist": 0.047,
+    "original_frame": 9800,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 246,
+    "frame": 9807,
+    "time_s": 326.9,
+    "sources": [
+      "content"
+    ],
+    "diff": 10.34,
+    "hist": 0.044,
+    "original_frame": 9807,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 247,
+    "frame": 9849,
+    "time_s": 328.3,
+    "sources": [
+      "content"
+    ],
+    "diff": 1.979,
+    "hist": 0.029,
+    "original_frame": 9849,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 248,
+    "frame": 9935,
+    "time_s": 331.166667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 18.718,
+    "hist": 0.367,
+    "original_frame": 9935,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 249,
+    "frame": 10048,
+    "time_s": 334.933333,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 72.047,
+    "hist": 0.373,
+    "original_frame": 10048,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 250,
+    "frame": 10055,
+    "time_s": 335.166667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 10.757,
+    "hist": 0.052,
+    "original_frame": 10055,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 251,
+    "frame": 10065,
+    "time_s": 335.5,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 11.736,
+    "hist": 0.077,
+    "original_frame": 10065,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 252,
+    "frame": 10072,
+    "time_s": 335.733333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 16.145,
+    "hist": 0.052,
+    "original_frame": 10072,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 253,
+    "frame": 10083,
+    "time_s": 336.1,
+    "sources": [
+      "content"
+    ],
+    "diff": 9.755,
+    "hist": 0.059,
+    "original_frame": 10083,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 254,
+    "frame": 10169,
+    "time_s": 338.966667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 92.325,
+    "hist": 0.735,
+    "original_frame": 10169,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 255,
+    "frame": 10173,
+    "time_s": 339.1,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.052,
+    "hist": 0.02,
+    "original_frame": 10173,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 256,
+    "frame": 10243,
+    "time_s": 341.433333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 18.963,
+    "hist": 0.536,
+    "original_frame": 10243,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 257,
+    "frame": 10265,
+    "time_s": 342.166667,
+    "sources": [
+      "content"
+    ],
+    "diff": 27.514,
+    "hist": 0.173,
+    "original_frame": 10265,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 258,
+    "frame": 10272,
+    "time_s": 342.4,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 37.974,
+    "hist": 0.137,
+    "original_frame": 10272,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 259,
+    "frame": 10286,
+    "time_s": 342.866667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 27.882,
+    "hist": 0.039,
+    "original_frame": 10286,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 260,
+    "frame": 10293,
+    "time_s": 343.1,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 24.179,
+    "hist": 0.052,
+    "original_frame": 10293,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 261,
+    "frame": 10303,
+    "time_s": 343.433333,
+    "sources": [
+      "ffmpeg"
+    ],
+    "diff": 30.206,
+    "hist": 0.167,
+    "original_frame": 10303,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 262,
+    "frame": 10322,
+    "time_s": 344.066667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 37.824,
+    "hist": 0.431,
+    "original_frame": 10322,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 263,
+    "frame": 10329,
+    "time_s": 344.3,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.024,
+    "hist": 0.019,
+    "original_frame": 10329,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 264,
+    "frame": 10336,
+    "time_s": 344.533333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 24.124,
+    "hist": 0.201,
+    "original_frame": 10336,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 265,
+    "frame": 10346,
+    "time_s": 344.866667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 19.887,
+    "hist": 0.037,
+    "original_frame": 10346,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 266,
+    "frame": 10353,
+    "time_s": 345.1,
+    "sources": [
+      "content",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 34.873,
+    "hist": 0.324,
+    "original_frame": 10353,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 267,
+    "frame": 10357,
+    "time_s": 345.233333,
+    "sources": [
+      "content"
+    ],
+    "diff": 15.675,
+    "hist": 0.192,
+    "original_frame": 10357,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 402,
+    "frame": 10396,
+    "time_s": 346.53333333333336,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 4.046597222222222,
+    "hist": 0.17531569839539046,
+    "original_frame": 10396,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 403,
+    "frame": 10402,
+    "time_s": 346.73333333333335,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 9.040711805555556,
+    "hist": 0.11779145477296543,
+    "original_frame": 10402,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 268,
+    "frame": 10418,
+    "time_s": 347.266667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 29.274,
+    "hist": 0.356,
+    "original_frame": 10418,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 269,
+    "frame": 10429,
+    "time_s": 347.633333,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 9.282,
+    "hist": 0.086,
+    "original_frame": 10429,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 270,
+    "frame": 10433,
+    "time_s": 347.766667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 18.118,
+    "hist": 0.059,
+    "original_frame": 10433,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 271,
+    "frame": 10464,
+    "time_s": 348.8,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 32.967,
+    "hist": 0.345,
+    "original_frame": 10464,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 272,
+    "frame": 10483,
+    "time_s": 349.433333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 37.776,
+    "hist": 0.281,
+    "original_frame": 10483,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 273,
+    "frame": 10523,
+    "time_s": 350.766667,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 42.227,
+    "hist": 0.265,
+    "original_frame": 10523,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 274,
+    "frame": 10530,
+    "time_s": 351.0,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 8.858,
+    "hist": 0.066,
+    "original_frame": 10530,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 404,
+    "frame": 10550,
+    "time_s": 351.6666666666667,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 16.609947916666666,
+    "hist": 0.1543225178150189,
+    "original_frame": 10550,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 405,
+    "frame": 10568,
+    "time_s": 352.26666666666665,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 4.5232986111111115,
+    "hist": 0.15129937260240767,
+    "original_frame": 10568,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 406,
+    "frame": 10591,
+    "time_s": 353.03333333333336,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 10.886961805555556,
+    "hist": 0.10741041085931329,
+    "original_frame": 10591,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 275,
+    "frame": 10607,
+    "time_s": 353.566667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 19.318,
+    "hist": 0.34,
+    "original_frame": 10607,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 276,
+    "frame": 10627,
+    "time_s": 354.233333,
+    "sources": [
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 28.246,
+    "hist": 0.352,
+    "original_frame": 10627,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 277,
+    "frame": 10638,
+    "time_s": 354.6,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 13.385,
+    "hist": 0.063,
+    "original_frame": 10638,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 278,
+    "frame": 10643,
+    "time_s": 354.766667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 20.888,
+    "hist": 0.094,
+    "original_frame": 10643,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 279,
+    "frame": 10650,
+    "time_s": 355.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 12.642,
+    "hist": 0.063,
+    "original_frame": 10650,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 280,
+    "frame": 10657,
+    "time_s": 355.233333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 30.189,
+    "hist": 0.241,
+    "original_frame": 10657,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 281,
+    "frame": 10664,
+    "time_s": 355.466667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 12.891,
+    "hist": 0.055,
+    "original_frame": 10664,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 282,
+    "frame": 10683,
+    "time_s": 356.1,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 22.2,
+    "hist": 0.263,
+    "original_frame": 10683,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 283,
+    "frame": 10697,
+    "time_s": 356.566667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 15.948,
+    "hist": 0.046,
+    "original_frame": 10697,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 284,
+    "frame": 10704,
+    "time_s": 356.8,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 35.44,
+    "hist": 0.377,
+    "original_frame": 10704,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 285,
+    "frame": 10714,
+    "time_s": 357.133333,
+    "sources": [
+      "content"
+    ],
+    "diff": 21.982,
+    "hist": 0.201,
+    "original_frame": 10714,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 407,
+    "frame": 10759,
+    "time_s": 358.6333333333333,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 11.62953125,
+    "hist": 0.1655879843195093,
+    "original_frame": 10759,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 286,
+    "frame": 10791,
+    "time_s": 359.7,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 29.241,
+    "hist": 0.327,
+    "original_frame": 10791,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 287,
+    "frame": 10795,
+    "time_s": 359.833333,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 3.425,
+    "hist": 0.044,
+    "original_frame": 10795,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 288,
+    "frame": 10891,
+    "time_s": 363.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 25.126,
+    "hist": 0.28,
+    "original_frame": 10891,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 289,
+    "frame": 10896,
+    "time_s": 363.2,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 21.632,
+    "hist": 0.173,
+    "original_frame": 10896,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 290,
+    "frame": 10905,
+    "time_s": 363.5,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 20.679,
+    "hist": 0.276,
+    "original_frame": 10905,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 291,
+    "frame": 10915,
+    "time_s": 363.833333,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 4.872,
+    "hist": 0.035,
+    "original_frame": 10915,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 292,
+    "frame": 10918,
+    "time_s": 363.966667,
+    "sources": [
+      "content",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 15.265,
+    "hist": 0.071,
+    "original_frame": 10919,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 293,
+    "frame": 10931,
+    "time_s": 364.366667,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 2.247,
+    "hist": 0.038,
+    "original_frame": 10931,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 294,
+    "frame": 10943,
+    "time_s": 364.766667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 31.548,
+    "hist": 0.421,
+    "original_frame": 10943,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 295,
+    "frame": 10968,
+    "time_s": 365.6,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 38.838,
+    "hist": 0.383,
+    "original_frame": 10968,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 296,
+    "frame": 10977,
+    "time_s": 365.9,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 48.649,
+    "hist": 0.471,
+    "original_frame": 10977,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 297,
+    "frame": 10984,
+    "time_s": 366.133333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 32.207,
+    "hist": 0.417,
+    "original_frame": 10984,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 298,
+    "frame": 10994,
+    "time_s": 366.466667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 28.883,
+    "hist": 0.374,
+    "original_frame": 10994,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 299,
+    "frame": 11001,
+    "time_s": 366.666667,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 7.237,
+    "hist": 0.044,
+    "original_frame": 11000,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 408,
+    "frame": 11005,
+    "time_s": 366.8333333333333,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 9.406996527777778,
+    "hist": 0.19030054557008616,
+    "original_frame": 11005,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 300,
+    "frame": 11041,
+    "time_s": 368.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 31.039,
+    "hist": 0.37,
+    "original_frame": 11041,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 301,
+    "frame": 11047,
+    "time_s": 368.233333,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 27.295,
+    "hist": 0.186,
+    "original_frame": 11047,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 302,
+    "frame": 11056,
+    "time_s": 368.533333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 71.167,
+    "hist": 0.349,
+    "original_frame": 11056,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 303,
+    "frame": 11081,
+    "time_s": 369.366667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 19.495,
+    "hist": 0.064,
+    "original_frame": 11081,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 304,
+    "frame": 11088,
+    "time_s": 369.533333,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 8.015,
+    "hist": 0.034,
+    "original_frame": 11086,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 305,
+    "frame": 11102,
+    "time_s": 370.066667,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 2.097,
+    "hist": 0.044,
+    "original_frame": 11102,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 306,
+    "frame": 11115,
+    "time_s": 370.5,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 43.876,
+    "hist": 0.638,
+    "original_frame": 11115,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 307,
+    "frame": 11124,
+    "time_s": 370.8,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 37.687,
+    "hist": 0.478,
+    "original_frame": 11124,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 308,
+    "frame": 11132,
+    "time_s": 371.033333,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 2.594,
+    "hist": 0.021,
+    "original_frame": 11131,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 309,
+    "frame": 11144,
+    "time_s": 371.466667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 35.691,
+    "hist": 0.41,
+    "original_frame": 11144,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 310,
+    "frame": 11151,
+    "time_s": 371.7,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 17.561,
+    "hist": 0.172,
+    "original_frame": 11151,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 311,
+    "frame": 11159,
+    "time_s": 371.966667,
+    "sources": [
+      "content",
+      "adaptive"
+    ],
+    "diff": 29.52,
+    "hist": 0.478,
+    "original_frame": 11159,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 312,
+    "frame": 11166,
+    "time_s": 372.2,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 29.692,
+    "hist": 0.459,
+    "original_frame": 11166,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 313,
+    "frame": 11183,
+    "time_s": 372.766667,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 92.491,
+    "hist": 0.551,
+    "original_frame": 11183,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 314,
+    "frame": 11190,
+    "time_s": 373.0,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 14.396,
+    "hist": 0.051,
+    "original_frame": 11190,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 315,
+    "frame": 11196,
+    "time_s": 373.2,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 8.256,
+    "hist": 0.043,
+    "original_frame": 11196,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 316,
+    "frame": 11321,
+    "time_s": 377.366667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 45.007,
+    "hist": 0.484,
+    "original_frame": 11321,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 317,
+    "frame": 11328,
+    "time_s": 377.6,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.171,
+    "hist": 0.019,
+    "original_frame": 11328,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 318,
+    "frame": 11418,
+    "time_s": 380.6,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 16.136,
+    "hist": 0.031,
+    "original_frame": 11418,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 319,
+    "frame": 11504,
+    "time_s": 383.466667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 26.98,
+    "hist": 0.275,
+    "original_frame": 11504,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 320,
+    "frame": 11523,
+    "time_s": 384.1,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 15.945,
+    "hist": 0.035,
+    "original_frame": 11523,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 321,
+    "frame": 11585,
+    "time_s": 386.166667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 14.457,
+    "hist": 0.045,
+    "original_frame": 11585,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 322,
+    "frame": 11616,
+    "time_s": 387.2,
+    "sources": [
+      "content"
+    ],
+    "diff": 24.217,
+    "hist": 0.188,
+    "original_frame": 11616,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 323,
+    "frame": 11676,
+    "time_s": 389.2,
+    "sources": [
+      "content"
+    ],
+    "diff": 3.887,
+    "hist": 0.017,
+    "original_frame": 11676,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 324,
+    "frame": 11683,
+    "time_s": 389.433333,
+    "sources": [
+      "content"
+    ],
+    "diff": 4.304,
+    "hist": 0.018,
+    "original_frame": 11683,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 325,
+    "frame": 11690,
+    "time_s": 389.666667,
+    "sources": [
+      "content"
+    ],
+    "diff": 4.713,
+    "hist": 0.025,
+    "original_frame": 11690,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 326,
+    "frame": 11816,
+    "time_s": 393.866667,
+    "sources": [
+      "content"
+    ],
+    "diff": 5.076,
+    "hist": 0.03,
+    "original_frame": 11816,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 327,
+    "frame": 11855,
+    "time_s": 395.166667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 74.899,
+    "hist": 0.711,
+    "original_frame": 11855,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 328,
+    "frame": 11862,
+    "time_s": 395.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.106,
+    "hist": 0.033,
+    "original_frame": 11862,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 329,
+    "frame": 11892,
+    "time_s": 396.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.935,
+    "hist": 0.05,
+    "original_frame": 11892,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 330,
+    "frame": 11948,
+    "time_s": 398.266667,
+    "sources": [
+      "content",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 21.425,
+    "hist": 0.226,
+    "original_frame": 11948,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 331,
+    "frame": 11955,
+    "time_s": 398.5,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 38.477,
+    "hist": 0.058,
+    "original_frame": 11955,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 332,
+    "frame": 11974,
+    "time_s": 399.133333,
+    "sources": [
+      "content"
+    ],
+    "diff": 5.247,
+    "hist": 0.031,
+    "original_frame": 11974,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 333,
+    "frame": 11990,
+    "time_s": 399.666667,
+    "sources": [
+      "content",
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.627,
+    "hist": 0.12,
+    "original_frame": 11990,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 334,
+    "frame": 11997,
+    "time_s": 399.866667,
+    "sources": [
+      "adaptive",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 39.058,
+    "hist": 0.6,
+    "original_frame": 11996,
+    "keep": true,
+    "transition_type": "other",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 335,
+    "frame": 12056,
+    "time_s": 401.866667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 25.351,
+    "hist": 0.792,
+    "original_frame": 12056,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 336,
+    "frame": 12301,
+    "time_s": 410.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 51.644,
+    "hist": 0.585,
+    "original_frame": 12301,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 337,
+    "frame": 12558,
+    "time_s": 418.6,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 68.1,
+    "hist": 0.846,
+    "original_frame": 12558,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 338,
+    "frame": 12565,
+    "time_s": 418.833333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 8.293,
+    "hist": 0.066,
+    "original_frame": 12565,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 339,
+    "frame": 12589,
+    "time_s": 419.633333,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 4.019,
+    "hist": 0.119,
+    "original_frame": 12589,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 340,
+    "frame": 12652,
+    "time_s": 421.733333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 10.504,
+    "hist": 0.031,
+    "original_frame": 12652,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 341,
+    "frame": 12704,
+    "time_s": 423.466667,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 1.272,
+    "hist": 0.027,
+    "original_frame": 12704,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 342,
+    "frame": 12765,
+    "time_s": 425.5,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 6.366,
+    "hist": 0.061,
+    "original_frame": 12765,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 343,
+    "frame": 12781,
+    "time_s": 426.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 24.26,
+    "hist": 0.218,
+    "original_frame": 12781,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 344,
+    "frame": 12868,
+    "time_s": 428.933333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 26.24,
+    "hist": 0.223,
+    "original_frame": 12868,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 345,
+    "frame": 13119,
+    "time_s": 437.3,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 6.601,
+    "hist": 0.064,
+    "original_frame": 13119,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 346,
+    "frame": 13179,
+    "time_s": 439.3,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 30.31,
+    "hist": 0.274,
+    "original_frame": 13179,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 347,
+    "frame": 13235,
+    "time_s": 441.166667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.145,
+    "hist": 0.032,
+    "original_frame": 13235,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 348,
+    "frame": 13278,
+    "time_s": 442.6,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 4.071,
+    "hist": 0.035,
+    "original_frame": 13278,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 349,
+    "frame": 13388,
+    "time_s": 446.266667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 25.102,
+    "hist": 0.232,
+    "original_frame": 13388,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 350,
+    "frame": 13486,
+    "time_s": 449.533333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 8.546,
+    "hist": 0.031,
+    "original_frame": 13486,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 351,
+    "frame": 13583,
+    "time_s": 452.766667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 23.799,
+    "hist": 0.273,
+    "original_frame": 13583,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 352,
+    "frame": 13714,
+    "time_s": 457.133333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 57.646,
+    "hist": 0.894,
+    "original_frame": 13714,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 353,
+    "frame": 13826,
+    "time_s": 460.866667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 66.571,
+    "hist": 0.684,
+    "original_frame": 13826,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 354,
+    "frame": 13962,
+    "time_s": 465.4,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 66.055,
+    "hist": 0.432,
+    "original_frame": 13962,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 355,
+    "frame": 13969,
+    "time_s": 465.633333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.46,
+    "hist": 0.026,
+    "original_frame": 13969,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 356,
+    "frame": 13989,
+    "time_s": 466.3,
+    "sources": [
+      "content"
+    ],
+    "diff": 15.302,
+    "hist": 0.032,
+    "original_frame": 13989,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 357,
+    "frame": 14004,
+    "time_s": 466.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 19.229,
+    "hist": 0.032,
+    "original_frame": 14004,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 358,
+    "frame": 14031,
+    "time_s": 467.7,
+    "sources": [
+      "content"
+    ],
+    "diff": 13.818,
+    "hist": 0.035,
+    "original_frame": 14031,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 359,
+    "frame": 14066,
+    "time_s": 468.866667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 13.588,
+    "hist": 0.024,
+    "original_frame": 14066,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 360,
+    "frame": 14114,
+    "time_s": 470.466667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 68.403,
+    "hist": 0.561,
+    "original_frame": 14114,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 361,
+    "frame": 14121,
+    "time_s": 470.7,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.588,
+    "hist": 0.036,
+    "original_frame": 14121,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 362,
+    "frame": 14156,
+    "time_s": 471.866667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 11.496,
+    "hist": 0.047,
+    "original_frame": 14156,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 363,
+    "frame": 14196,
+    "time_s": 473.2,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.614,
+    "hist": 0.034,
+    "original_frame": 14196,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 364,
+    "frame": 14203,
+    "time_s": 473.433333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 56.423,
+    "hist": 0.548,
+    "original_frame": 14203,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 365,
+    "frame": 14253,
+    "time_s": 475.1,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 14.814,
+    "hist": 0.041,
+    "original_frame": 14253,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 366,
+    "frame": 14260,
+    "time_s": 475.333333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 16.102,
+    "hist": 0.044,
+    "original_frame": 14260,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 367,
+    "frame": 14264,
+    "time_s": 475.466667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 14.961,
+    "hist": 0.045,
+    "original_frame": 14264,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 368,
+    "frame": 14290,
+    "time_s": 476.333333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 14.525,
+    "hist": 0.05,
+    "original_frame": 14290,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 369,
+    "frame": 14322,
+    "time_s": 477.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 14.467,
+    "hist": 0.039,
+    "original_frame": 14322,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 370,
+    "frame": 14395,
+    "time_s": 479.833333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 49.482,
+    "hist": 0.649,
+    "original_frame": 14395,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 371,
+    "frame": 14413,
+    "time_s": 480.433333,
+    "sources": [
+      "content"
+    ],
+    "diff": 5.019,
+    "hist": 0.057,
+    "original_frame": 14413,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 372,
+    "frame": 14473,
+    "time_s": 482.433333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 10.306,
+    "hist": 0.031,
+    "original_frame": 14473,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 373,
+    "frame": 14544,
+    "time_s": 484.8,
+    "sources": [
+      "content"
+    ],
+    "diff": 4.203,
+    "hist": 0.036,
+    "original_frame": 14544,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 374,
+    "frame": 14550,
+    "time_s": 485.0,
+    "sources": [
+      "content"
+    ],
+    "diff": 4.515,
+    "hist": 0.044,
+    "original_frame": 14550,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 375,
+    "frame": 14567,
+    "time_s": 485.566667,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 0.95,
+    "hist": 0.02,
+    "original_frame": 14567,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 376,
+    "frame": 14581,
+    "time_s": 486.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 42.764,
+    "hist": 0.756,
+    "original_frame": 14581,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 377,
+    "frame": 14816,
+    "time_s": 493.866667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 53.391,
+    "hist": 0.835,
+    "original_frame": 14816,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 378,
+    "frame": 14852,
+    "time_s": 495.066667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.976,
+    "hist": 0.05,
+    "original_frame": 14852,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 379,
+    "frame": 14907,
+    "time_s": 496.9,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 54.335,
+    "hist": 0.609,
+    "original_frame": 14907,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 380,
+    "frame": 14967,
+    "time_s": 498.9,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 71.153,
+    "hist": 0.895,
+    "original_frame": 14967,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 381,
+    "frame": 15105,
+    "time_s": 503.5,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 43.81,
+    "hist": 0.741,
+    "original_frame": 15105,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 382,
+    "frame": 15231,
+    "time_s": 507.7,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 34.468,
+    "hist": 0.242,
+    "original_frame": 15231,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 383,
+    "frame": 15238,
+    "time_s": 507.933333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 8.71,
+    "hist": 0.024,
+    "original_frame": 15238,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 384,
+    "frame": 15252,
+    "time_s": 508.4,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 11.696,
+    "hist": 0.059,
+    "original_frame": 15252,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 385,
+    "frame": 15265,
+    "time_s": 508.833333,
+    "sources": [
+      "content"
+    ],
+    "diff": 7.315,
+    "hist": 0.032,
+    "original_frame": 15265,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 386,
+    "frame": 15394,
+    "time_s": 513.133333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 69.013,
+    "hist": 0.711,
+    "original_frame": 15394,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 409,
+    "frame": 15431,
+    "time_s": 514.3666666666667,
+    "sources": [
+      "raw_diff_peak"
+    ],
+    "diff": 5.8523958333333335,
+    "hist": 0.1603376241125483,
+    "original_frame": 15431,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 387,
+    "frame": 15464,
+    "time_s": 515.466667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 19.228,
+    "hist": 0.328,
+    "original_frame": 15464,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 388,
+    "frame": 15505,
+    "time_s": 516.833333,
+    "sources": [
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 16.764,
+    "hist": 0.363,
+    "original_frame": 15505,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 389,
+    "frame": 15543,
+    "time_s": 518.1,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 33.147,
+    "hist": 0.61,
+    "original_frame": 15543,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 390,
+    "frame": 15564,
+    "time_s": 518.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 24.835,
+    "hist": 0.076,
+    "original_frame": 15564,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 391,
+    "frame": 15582,
+    "time_s": 519.4,
+    "sources": [
+      "content"
+    ],
+    "diff": 22.025,
+    "hist": 0.034,
+    "original_frame": 15582,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 392,
+    "frame": 15599,
+    "time_s": 519.966667,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 9.937,
+    "hist": 0.037,
+    "original_frame": 15599,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 393,
+    "frame": 15663,
+    "time_s": 522.1,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 65.8,
+    "hist": 0.636,
+    "original_frame": 15663,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 394,
+    "frame": 15742,
+    "time_s": 524.733333,
+    "sources": [
+      "content"
+    ],
+    "diff": 12.592,
+    "hist": 0.035,
+    "original_frame": 15742,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 395,
+    "frame": 15753,
+    "time_s": 525.1,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 12.922,
+    "hist": 0.033,
+    "original_frame": 15753,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 396,
+    "frame": 15801,
+    "time_s": 526.7,
+    "sources": [
+      "content"
+    ],
+    "diff": 11.532,
+    "hist": 0.036,
+    "original_frame": 15801,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  }
+]

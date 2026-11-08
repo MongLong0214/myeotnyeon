@@ -1,0 +1,161 @@
+{
+ "accuracy": 1.0,
+ "transcript": " 규정을 어긴 얼차려로 훈련병이 숨진 사건입니다. 몇 년 받았을까? 중대장은 훈련병 6명에게 규정을 어긴 군기훈련을 지시한 혐의였죠. 재판의 쟁점은 하나의 행위인지 여러 행위인지였습니다. 벌금 집행유예 실형 중 무엇이었을까요? 1심은 하나의 행위로 봤습니다. 2심은 피해자마다 학대 양상이 달랐다고 판단했죠. 그래서 여러 행위로 다시 봤습니다. 실형. 중대장은 1심 징역 5년. 2심은 5년 6개월로 늘었고 그대로 확정됐습니다. 다음 사건도 마쳐보세요.",
+ "rows": [
+  {
+   "text": "규정을 어긴 얼차려로",
+   "start": 0,
+   "end": 35,
+   "old_start": 0,
+   "old_end": 39,
+   "start_seconds": 0.0,
+   "end_seconds": 1.18
+  },
+  {
+   "text": "훈련병이 숨진 사건입니다.",
+   "start": 35,
+   "end": 85,
+   "old_start": 39,
+   "old_end": 88,
+   "start_seconds": 1.18,
+   "end_seconds": 2.84
+  },
+  {
+   "text": "몇 년 받았을까?",
+   "start": 89,
+   "end": 116,
+   "old_start": 88,
+   "old_end": 119,
+   "start_seconds": 2.98,
+   "end_seconds": 3.86
+  },
+  {
+   "text": "중대장은 훈련병 6명에게",
+   "start": 119,
+   "end": 176,
+   "old_start": 120,
+   "old_end": 167,
+   "start_seconds": 3.98,
+   "end_seconds": 5.88
+  },
+  {
+   "text": "규정을 어긴 군기훈련을\n지시한 혐의였죠.",
+   "start": 176,
+   "end": 251,
+   "old_start": 167,
+   "old_end": 254,
+   "start_seconds": 5.88,
+   "end_seconds": 8.36
+  },
+  {
+   "text": "재판의 쟁점은",
+   "start": 254,
+   "end": 284,
+   "old_start": 255,
+   "old_end": 279,
+   "start_seconds": 8.48,
+   "end_seconds": 9.46
+  },
+  {
+   "text": "하나의 행위인지\n여러 행위인지였습니다.",
+   "start": 284,
+   "end": 350,
+   "old_start": 279,
+   "old_end": 361,
+   "start_seconds": 9.46,
+   "end_seconds": 11.66
+  },
+  {
+   "text": "벌금, 집행유예, 실형 중\n무엇이었을까요?",
+   "start": 361,
+   "end": 431,
+   "old_start": 362,
+   "old_end": 437,
+   "start_seconds": 12.02,
+   "end_seconds": 14.38
+  },
+  {
+   "text": "1심은 하나의 행위로\n봤습니다.",
+   "start": 437,
+   "end": 491,
+   "old_start": 437,
+   "old_end": 498,
+   "start_seconds": 14.56,
+   "end_seconds": 16.38
+  },
+  {
+   "text": "2심은 피해자마다",
+   "start": 498,
+   "end": 533,
+   "old_start": 498,
+   "old_end": 529,
+   "start_seconds": 16.6,
+   "end_seconds": 17.76
+  },
+  {
+   "text": "학대 양상이 달랐다고\n판단했죠.",
+   "start": 533,
+   "end": 592,
+   "old_start": 529,
+   "old_end": 596,
+   "start_seconds": 17.76,
+   "end_seconds": 19.74
+  },
+  {
+   "text": "그래서 여러 행위로\n다시 봤습니다.",
+   "start": 597,
+   "end": 657,
+   "old_start": 596,
+   "old_end": 662,
+   "start_seconds": 19.9,
+   "end_seconds": 21.9
+  },
+  {
+   "text": "실형.",
+   "start": 666,
+   "end": 673,
+   "old_start": 663,
+   "old_end": 680,
+   "start_seconds": 22.2,
+   "end_seconds": 22.44
+  },
+  {
+   "text": "중대장은 1심 징역 5년.",
+   "start": 675,
+   "end": 716,
+   "old_start": 680,
+   "old_end": 720,
+   "start_seconds": 22.5,
+   "end_seconds": 23.88
+  },
+  {
+   "text": "2심은 5년 6개월로 늘었고",
+   "start": 719,
+   "end": 772,
+   "old_start": 720,
+   "old_end": 766,
+   "start_seconds": 23.98,
+   "end_seconds": 25.72
+  },
+  {
+   "text": "그대로 확정됐습니다.",
+   "start": 772,
+   "end": 812,
+   "old_start": 766,
+   "old_end": 817,
+   "start_seconds": 25.72,
+   "end_seconds": 27.08
+  },
+  {
+   "text": "다음 사건도\n맞혀 보세요.",
+   "start": 817,
+   "end": 859,
+   "old_start": 818,
+   "old_end": 864,
+   "start_seconds": 27.24,
+   "end_seconds": 28.64
+  }
+ ],
+ "method": "Cached offline Whisper word timestamps, normalized with the exact existing episode numeral-reading lexicon. Caption boundaries interpolated within recognized words; no change to displayed text.",
+ "pass_": true
+}

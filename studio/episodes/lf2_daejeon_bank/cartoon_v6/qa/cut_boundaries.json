@@ -1,0 +1,1718 @@
+[
+  {
+    "shot": "V6_002",
+    "frame": 57,
+    "boundary_s": 1.905,
+    "offset_s": -0.0050000000000001155,
+    "asr_word": {
+      "word": " 출납",
+      "start": 1.905,
+      "end": 2.185,
+      "probability": 0.990234375,
+      "sentenceId": "N001_S02"
+    }
+  },
+  {
+    "shot": "V6_003",
+    "frame": 105,
+    "boundary_s": 3.51,
+    "offset_s": -0.009999999999999787,
+    "asr_word": {
+      "word": " 빼앗긴",
+      "start": 3.51,
+      "end": 3.79,
+      "probability": 0.9931640625,
+      "sentenceId": "N002_S01"
+    }
+  },
+  {
+    "shot": "V6_004",
+    "frame": 143,
+    "boundary_s": 4.77,
+    "offset_s": -0.0033333333333329662,
+    "asr_word": {
+      "word": " 버린",
+      "start": 4.77,
+      "end": 4.989999999999999,
+      "probability": 0.90869140625,
+      "sentenceId": "N002_S02"
+    }
+  },
+  {
+    "shot": "V6_005",
+    "frame": 224,
+    "boundary_s": 7.455,
+    "offset_s": 0.011666666666666714,
+    "asr_word": {
+      "word": " 그",
+      "start": 7.455,
+      "end": 7.535,
+      "probability": 0.9990234375,
+      "sentenceId": "N003_S01"
+    }
+  },
+  {
+    "shot": "V6_006",
+    "frame": 319,
+    "boundary_s": 10.645,
+    "offset_s": -0.011666666666666714,
+    "asr_word": {
+      "word": " 그리고",
+      "start": 10.645,
+      "end": 10.844999999999999,
+      "probability": 0.99951171875,
+      "sentenceId": "N003_S02"
+    }
+  },
+  {
+    "shot": "V6_007",
+    "frame": 408,
+    "boundary_s": 13.59,
+    "offset_s": 0.009999999999999787,
+    "asr_word": {
+      "word": " 2001년",
+      "start": 13.59,
+      "end": 14.05,
+      "probability": 0.98974609375,
+      "sentenceId": "N004_S01"
+    }
+  },
+  {
+    "shot": "V6_008",
+    "frame": 477,
+    "boundary_s": 15.885,
+    "offset_s": 0.015000000000000568,
+    "asr_word": {
+      "word": " 대전",
+      "start": 15.885,
+      "end": 16.125,
+      "probability": 0.9619140625,
+      "sentenceId": "N004_S02"
+    }
+  },
+  {
+    "shot": "V6_009",
+    "frame": 556,
+    "boundary_s": 18.535,
+    "offset_s": -0.0016666666666651508,
+    "asr_word": {
+      "word": " 은행",
+      "start": 18.535,
+      "end": 18.735,
+      "probability": 0.99951171875,
+      "sentenceId": "N005_S01"
+    }
+  },
+  {
+    "shot": "V6_010",
+    "frame": 628,
+    "boundary_s": 20.94,
+    "offset_s": -0.006666666666667709,
+    "asr_word": {
+      "word": " 검은",
+      "start": 20.94,
+      "end": 21.16,
+      "probability": 0.99853515625,
+      "sentenceId": "N005_S02"
+    }
+  },
+  {
+    "shot": "V6_011",
+    "frame": 681,
+    "boundary_s": 22.7,
+    "offset_s": 0.0,
+    "asr_word": {
+      "word": " 복면을",
+      "start": 22.7,
+      "end": 23.099999999999998,
+      "probability": 0.99560546875,
+      "sentenceId": "N005_S03"
+    }
+  },
+  {
+    "shot": "V6_012",
+    "frame": 727,
+    "boundary_s": 24.23,
+    "offset_s": 0.0033333333333338544,
+    "asr_word": {
+      "word": " 현장에는",
+      "start": 24.23,
+      "end": 24.650000000000002,
+      "probability": 0.99951171875,
+      "sentenceId": "N006_S01"
+    }
+  },
+  {
+    "shot": "V6_013",
+    "frame": 783,
+    "boundary_s": 26.09,
+    "offset_s": 0.010000000000001563,
+    "asr_word": {
+      "word": " 총격으로",
+      "start": 26.09,
+      "end": 26.47,
+      "probability": 0.99755859375,
+      "sentenceId": "N006_S02"
+    }
+  },
+  {
+    "shot": "V6_014",
+    "frame": 890,
+    "boundary_s": 29.655,
+    "offset_s": 0.011666666666666714,
+    "asr_word": {
+      "word": " 일터에",
+      "start": 29.655,
+      "end": 30.035,
+      "probability": 0.99609375,
+      "sentenceId": "N007_S01"
+    }
+  },
+  {
+    "shot": "V6_015",
+    "frame": 953,
+    "boundary_s": 31.77,
+    "offset_s": -0.0033333333333338544,
+    "asr_word": {
+      "word": " 법원은",
+      "start": 31.77,
+      "end": 32.07,
+      "probability": 0.99951171875,
+      "sentenceId": "N007_S02"
+    }
+  },
+  {
+    "shot": "V6_016",
+    "frame": 1075,
+    "boundary_s": 35.845,
+    "offset_s": -0.011666666666663161,
+    "asr_word": {
+      "word": " 가방은",
+      "start": 35.845,
+      "end": 36.144999999999996,
+      "probability": 0.99951171875,
+      "sentenceId": "N008_S01"
+    }
+  },
+  {
+    "shot": "V6_017",
+    "frame": 1121,
+    "boundary_s": 37.36,
+    "offset_s": 0.006666666666667709,
+    "asr_word": {
+      "word": " 범인들은",
+      "start": 37.36,
+      "end": 37.78,
+      "probability": 0.99755859375,
+      "sentenceId": "N008_S02"
+    }
+  },
+  {
+    "shot": "V6_018",
+    "frame": 1185,
+    "boundary_s": 39.5,
+    "offset_s": 0.0,
+    "asr_word": {
+      "word": " 운송액",
+      "start": 39.5,
+      "end": 39.88,
+      "probability": 0.99951171875,
+      "sentenceId": "N008_S03"
+    }
+  },
+  {
+    "shot": "V6_019",
+    "frame": 1261,
+    "boundary_s": 42.045,
+    "offset_s": -0.011666666666670267,
+    "asr_word": {
+      "word": " 범행",
+      "start": 42.045,
+      "end": 42.285000000000004,
+      "probability": 0.99853515625,
+      "sentenceId": "N009_S01"
+    }
+  },
+  {
+    "shot": "V6_020",
+    "frame": 1322,
+    "boundary_s": 44.05,
+    "offset_s": 0.016666666666672825,
+    "asr_word": {
+      "word": " 2001년",
+      "start": 44.05,
+      "end": 44.51,
+      "probability": 0.99609375,
+      "sentenceId": "N009_S02"
+    }
+  },
+  {
+    "shot": "V6_021",
+    "frame": 1440,
+    "boundary_s": 48.015,
+    "offset_s": -0.015000000000000568,
+    "asr_word": {
+      "word": " 차도",
+      "start": 48.015,
+      "end": 48.235,
+      "probability": 0.9931640625,
+      "sentenceId": "N010_S01"
+    }
+  },
+  {
+    "shot": "V6_022",
+    "frame": 1496,
+    "boundary_s": 49.88,
+    "offset_s": -0.013333333333335418,
+    "asr_word": {
+      "word": " 이",
+      "start": 49.88,
+      "end": 49.980000000000004,
+      "probability": 1.0,
+      "sentenceId": "N010_S02"
+    }
+  },
+  {
+    "shot": "V6_023",
+    "frame": 1604,
+    "boundary_s": 53.47,
+    "offset_s": -0.0033333333333303017,
+    "asr_word": {
+      "word": " 2001년",
+      "start": 53.47,
+      "end": 53.99,
+      "probability": 0.994140625,
+      "sentenceId": "N011_S01"
+    }
+  },
+  {
+    "shot": "V6_024",
+    "frame": 1661,
+    "boundary_s": 55.375,
+    "offset_s": -0.00833333333333286,
+    "asr_word": {
+      "word": " 두",
+      "start": 55.375,
+      "end": 55.455,
+      "probability": 0.9990234375,
+      "sentenceId": "N011_S02"
+    }
+  },
+  {
+    "shot": "V6_025",
+    "frame": 1742,
+    "boundary_s": 58.055,
+    "offset_s": 0.011666666666670267,
+    "asr_word": {
+      "word": " 권총을",
+      "start": 58.055,
+      "end": 58.575,
+      "probability": 0.9990234375,
+      "sentenceId": "N011_S02"
+    }
+  },
+  {
+    "shot": "V6_026",
+    "frame": 1784,
+    "boundary_s": 59.47,
+    "offset_s": -0.0033333333333303017,
+    "asr_word": {
+      "word": " 그",
+      "start": 59.47,
+      "end": 59.55,
+      "probability": 0.99951171875,
+      "sentenceId": "N012_S01"
+    }
+  },
+  {
+    "shot": "V6_027",
+    "frame": 1837,
+    "boundary_s": 61.22,
+    "offset_s": 0.013333333333335418,
+    "asr_word": {
+      "word": " 여기서",
+      "start": 61.22,
+      "end": 61.48,
+      "probability": 0.9990234375,
+      "sentenceId": "N012_S02"
+    }
+  },
+  {
+    "shot": "V6_028",
+    "frame": 1904,
+    "boundary_s": 63.46,
+    "offset_s": 0.006666666666667709,
+    "asr_word": {
+      "word": " 은행",
+      "start": 63.46,
+      "end": 63.660000000000004,
+      "probability": 1.0,
+      "sentenceId": "N012_S03"
+    }
+  },
+  {
+    "shot": "V6_029",
+    "frame": 1996,
+    "boundary_s": 66.535,
+    "offset_s": -0.0016666666666651508,
+    "asr_word": {
+      "word": " 은행",
+      "start": 66.535,
+      "end": 66.77499999999999,
+      "probability": 0.9990234375,
+      "sentenceId": "N013_S01"
+    }
+  },
+  {
+    "shot": "V6_030",
+    "frame": 2068,
+    "boundary_s": 68.92,
+    "offset_s": 0.013333333333335418,
+    "asr_word": {
+      "word": " 범행",
+      "start": 68.92,
+      "end": 69.2,
+      "probability": 0.9990234375,
+      "sentenceId": "N013_S02"
+    }
+  },
+  {
+    "shot": "V6_031",
+    "frame": 2160,
+    "boundary_s": 71.985,
+    "offset_s": 0.015000000000000568,
+    "asr_word": {
+      "word": " 범인들은",
+      "start": 71.985,
+      "end": 72.365,
+      "probability": 0.99609375,
+      "sentenceId": "N014_S01"
+    }
+  },
+  {
+    "shot": "V6_032",
+    "frame": 2271,
+    "boundary_s": 75.685,
+    "offset_s": 0.015000000000000568,
+    "asr_word": {
+      "word": " 버릴",
+      "start": 75.685,
+      "end": 75.905,
+      "probability": 0.98291015625,
+      "sentenceId": "N014_S02"
+    }
+  },
+  {
+    "shot": "V6_033",
+    "frame": 2321,
+    "boundary_s": 77.375,
+    "offset_s": -0.008333333333339965,
+    "asr_word": {
+      "word": " 차량의",
+      "start": 77.375,
+      "end": 77.715,
+      "probability": 0.947265625,
+      "sentenceId": "N015_S01"
+    }
+  },
+  {
+    "shot": "V6_034",
+    "frame": 2393,
+    "boundary_s": 79.775,
+    "offset_s": -0.008333333333339965,
+    "asr_word": {
+      "word": " 하지만",
+      "start": 79.775,
+      "end": 79.995,
+      "probability": 0.9990234375,
+      "sentenceId": "N015_S02"
+    }
+  },
+  {
+    "shot": "V6_035",
+    "frame": 2460,
+    "boundary_s": 82.01,
+    "offset_s": -0.010000000000005116,
+    "asr_word": {
+      "word": " 지우려던",
+      "start": 82.01,
+      "end": 82.49000000000001,
+      "probability": 0.98974609375,
+      "sentenceId": "N015_S03"
+    }
+  },
+  {
+    "shot": "V6_036",
+    "frame": 2520,
+    "boundary_s": 83.995,
+    "offset_s": 0.0049999999999954525,
+    "asr_word": {
+      "word": " 증거",
+      "start": 83.995,
+      "end": 84.215,
+      "probability": 1.0,
+      "sentenceId": "N016_S01"
+    }
+  },
+  {
+    "shot": "V6_037",
+    "frame": 2596,
+    "boundary_s": 86.54,
+    "offset_s": -0.006666666666674814,
+    "asr_word": {
+      "word": " 범인들의",
+      "start": 86.54,
+      "end": 86.96000000000001,
+      "probability": 0.99658203125,
+      "sentenceId": "N016_S02"
+    }
+  },
+  {
+    "shot": "V6_038",
+    "frame": 2674,
+    "boundary_s": 89.15,
+    "offset_s": -0.01666666666666572,
+    "asr_word": {
+      "word": " 그런데",
+      "start": 89.15,
+      "end": 89.37,
+      "probability": 0.99951171875,
+      "sentenceId": "N017_S01"
+    }
+  },
+  {
+    "shot": "V6_039",
+    "frame": 2758,
+    "boundary_s": 91.925,
+    "offset_s": 0.008333333333339965,
+    "asr_word": {
+      "word": " 사건",
+      "start": 91.925,
+      "end": 92.205,
+      "probability": 0.99609375,
+      "sentenceId": "N017_S02"
+    }
+  },
+  {
+    "shot": "V6_040",
+    "frame": 2868,
+    "boundary_s": 95.615,
+    "offset_s": -0.015000000000000568,
+    "asr_word": {
+      "word": " 증거가",
+      "start": 95.615,
+      "end": 95.99499999999999,
+      "probability": 0.99853515625,
+      "sentenceId": "N018_S01"
+    }
+  },
+  {
+    "shot": "V6_041",
+    "frame": 2915,
+    "boundary_s": 97.18,
+    "offset_s": -0.013333333333335418,
+    "asr_word": {
+      "word": " 증거에서",
+      "start": 97.18,
+      "end": 97.7,
+      "probability": 0.9931640625,
+      "sentenceId": "N018_S02"
+    }
+  },
+  {
+    "shot": "V6_042",
+    "frame": 2995,
+    "boundary_s": 99.825,
+    "offset_s": 0.008333333333325754,
+    "asr_word": {
+      "word": " 수거품은",
+      "start": 99.825,
+      "end": 100.285,
+      "probability": 0.9970703125,
+      "sentenceId": "N018_S03"
+    }
+  },
+  {
+    "shot": "V6_043",
+    "frame": 3064,
+    "boundary_s": 102.13,
+    "offset_s": 0.0033333333333445125,
+    "asr_word": {
+      "word": " 초기에는",
+      "start": 102.13,
+      "end": 102.50999999999999,
+      "probability": 0.99658203125,
+      "sentenceId": "N019_S01"
+    }
+  },
+  {
+    "shot": "V6_044",
+    "frame": 3215,
+    "boundary_s": 107.155,
+    "offset_s": 0.011666666666670267,
+    "asr_word": {
+      "word": " 숫자는",
+      "start": 107.155,
+      "end": 107.475,
+      "probability": 0.99951171875,
+      "sentenceId": "N019_S02"
+    }
+  },
+  {
+    "shot": "V6_045",
+    "frame": 3306,
+    "boundary_s": 110.185,
+    "offset_s": 0.015000000000000568,
+    "asr_word": {
+      "word": " 2002년에",
+      "start": 110.185,
+      "end": 110.785,
+      "probability": 0.99853515625,
+      "sentenceId": "N020_S01"
+    }
+  },
+  {
+    "shot": "V6_046",
+    "frame": 3394,
+    "boundary_s": 113.12,
+    "offset_s": 0.013333333333335418,
+    "asr_word": {
+      "word": " 구속영장은",
+      "start": 113.12,
+      "end": 113.72,
+      "probability": 0.99853515625,
+      "sentenceId": "N020_S02"
+    }
+  },
+  {
+    "shot": "V6_047",
+    "frame": 3442,
+    "boundary_s": 114.73,
+    "offset_s": 0.0033333333333303017,
+    "asr_word": {
+      "word": " 나중에",
+      "start": 114.73,
+      "end": 114.99000000000001,
+      "probability": 0.9990234375,
+      "sentenceId": "N020_S03"
+    }
+  },
+  {
+    "shot": "V6_048",
+    "frame": 3526,
+    "boundary_s": 117.53,
+    "offset_s": 0.0033333333333303017,
+    "asr_word": {
+      "word": " 2011년",
+      "start": 117.53,
+      "end": 118.13,
+      "probability": 0.998046875,
+      "sentenceId": "N021_S01"
+    }
+  },
+  {
+    "shot": "V6_049",
+    "frame": 3688,
+    "boundary_s": 122.92,
+    "offset_s": 0.013333333333335418,
+    "asr_word": {
+      "word": " 2015년에는",
+      "start": 122.92,
+      "end": 123.76,
+      "probability": 0.99951171875,
+      "sentenceId": "N022_S01"
+    }
+  },
+  {
+    "shot": "V6_050",
+    "frame": 3807,
+    "boundary_s": 126.905,
+    "offset_s": -0.0049999999999954525,
+    "asr_word": {
+      "word": " 이",
+      "start": 126.905,
+      "end": 127.025,
+      "probability": 0.99951171875,
+      "sentenceId": "N022_S02"
+    }
+  },
+  {
+    "shot": "V6_051",
+    "frame": 3894,
+    "boundary_s": 129.79,
+    "offset_s": 0.010000000000019327,
+    "asr_word": {
+      "word": " 그리고",
+      "start": 129.79,
+      "end": 129.95,
+      "probability": 0.9990234375,
+      "sentenceId": "N023_S01"
+    }
+  },
+  {
+    "shot": "V6_052",
+    "frame": 3944,
+    "boundary_s": 131.455,
+    "offset_s": 0.011666666666656056,
+    "asr_word": {
+      "word": " 마스크와",
+      "start": 131.455,
+      "end": 131.91500000000002,
+      "probability": 0.99755859375,
+      "sentenceId": "N023_S02"
+    }
+  },
+  {
+    "shot": "V6_053",
+    "frame": 4026,
+    "boundary_s": 134.21,
+    "offset_s": -0.010000000000019327,
+    "asr_word": {
+      "word": " 그런데",
+      "start": 134.21,
+      "end": 134.43,
+      "probability": 0.99951171875,
+      "sentenceId": "N023_S03"
+    }
+  },
+  {
+    "shot": "V6_054",
+    "frame": 4104,
+    "boundary_s": 136.815,
+    "offset_s": -0.014999999999986358,
+    "asr_word": {
+      "word": " 은행도",
+      "start": 136.815,
+      "end": 137.195,
+      "probability": 0.998046875,
+      "sentenceId": "N024_S01"
+    }
+  },
+  {
+    "shot": "V6_055",
+    "frame": 4153,
+    "boundary_s": 138.435,
+    "offset_s": -0.0016666666666651508,
+    "asr_word": {
+      "word": " 2015년",
+      "start": 138.435,
+      "end": 139.035,
+      "probability": 1.0,
+      "sentenceId": "N024_S02"
+    }
+  },
+  {
+    "shot": "V6_056",
+    "frame": 4260,
+    "boundary_s": 142.01,
+    "offset_s": -0.009999999999990905,
+    "asr_word": {
+      "word": " 극공초의",
+      "start": 142.01,
+      "end": 142.57,
+      "probability": 0.91259765625,
+      "sentenceId": "N025_S01"
+    }
+  },
+  {
+    "shot": "V6_057",
+    "frame": 4363,
+    "boundary_s": 145.42,
+    "offset_s": 0.013333333333349628,
+    "asr_word": {
+      "word": " 천조각과",
+      "start": 145.42,
+      "end": 145.85999999999999,
+      "probability": 0.92041015625,
+      "sentenceId": "N025_S02"
+    }
+  },
+  {
+    "shot": "V6_058",
+    "frame": 4400,
+    "boundary_s": 146.66,
+    "offset_s": 0.006666666666660603,
+    "asr_word": {
+      "word": " 버린",
+      "start": 146.66,
+      "end": 146.88,
+      "probability": 0.9912109375,
+      "sentenceId": "N025_S03"
+    }
+  },
+  {
+    "shot": "V6_059",
+    "frame": 4456,
+    "boundary_s": 148.535,
+    "offset_s": -0.0016666666666651508,
+    "asr_word": {
+      "word": " 범인",
+      "start": 148.535,
+      "end": 148.755,
+      "probability": 0.9990234375,
+      "sentenceId": "N026_S01"
+    }
+  },
+  {
+    "shot": "V6_060",
+    "frame": 4559,
+    "boundary_s": 151.98,
+    "offset_s": -0.013333333333321207,
+    "asr_word": {
+      "word": " 다만",
+      "start": 151.98,
+      "end": 152.26,
+      "probability": 1.0,
+      "sentenceId": "N026_S02"
+    }
+  },
+  {
+    "shot": "V6_061",
+    "frame": 4642,
+    "boundary_s": 154.74,
+    "offset_s": -0.006666666666689025,
+    "asr_word": {
+      "word": " 게임장의",
+      "start": 154.74,
+      "end": 155.24,
+      "probability": 0.92236328125,
+      "sentenceId": "N027_S01"
+    }
+  },
+  {
+    "shot": "V6_062",
+    "frame": 4718,
+    "boundary_s": 157.25,
+    "offset_s": 0.01666666666667993,
+    "asr_word": {
+      "word": " 같은",
+      "start": 157.25,
+      "end": 157.45,
+      "probability": 0.9990234375,
+      "sentenceId": "N027_S02"
+    }
+  },
+  {
+    "shot": "V6_063",
+    "frame": 4845,
+    "boundary_s": 161.485,
+    "offset_s": 0.014999999999986358,
+    "asr_word": {
+      "word": " 경찰은",
+      "start": 161.485,
+      "end": 161.88500000000002,
+      "probability": 0.99951171875,
+      "sentenceId": "N028_S01"
+    }
+  },
+  {
+    "shot": "V6_064",
+    "frame": 5014,
+    "boundary_s": 167.15,
+    "offset_s": -0.01666666666667993,
+    "asr_word": {
+      "word": " 1만",
+      "start": 167.15,
+      "end": 167.45000000000002,
+      "probability": 0.9970703125,
+      "sentenceId": "N029_S01"
+    }
+  },
+  {
+    "shot": "V6_065",
+    "frame": 5109,
+    "boundary_s": 170.31,
+    "offset_s": -0.009999999999990905,
+    "asr_word": {
+      "word": " 몽타주와",
+      "start": 170.31,
+      "end": 170.77,
+      "probability": 0.96826171875,
+      "sentenceId": "N029_S02"
+    }
+  },
+  {
+    "shot": "V6_066",
+    "frame": 5216,
+    "boundary_s": 173.875,
+    "offset_s": -0.008333333333325754,
+    "asr_word": {
+      "word": " 비교하고",
+      "start": 173.875,
+      "end": 174.275,
+      "probability": 0.99951171875,
+      "sentenceId": "N030_S01"
+    }
+  },
+  {
+    "shot": "V6_067",
+    "frame": 5277,
+    "boundary_s": 175.9,
+    "offset_s": 0.0,
+    "asr_word": {
+      "word": " 2022년",
+      "start": 175.9,
+      "end": 176.62,
+      "probability": 0.99609375,
+      "sentenceId": "N030_S02"
+    }
+  },
+  {
+    "shot": "V6_068",
+    "frame": 5374,
+    "boundary_s": 179.14,
+    "offset_s": -0.006666666666660603,
+    "asr_word": {
+      "word": " 그런데",
+      "start": 179.14,
+      "end": 179.38,
+      "probability": 0.9990234375,
+      "sentenceId": "N030_S03"
+    }
+  },
+  {
+    "shot": "V6_069",
+    "frame": 5422,
+    "boundary_s": 180.735,
+    "offset_s": -0.0016666666666935726,
+    "asr_word": {
+      "word": " 경찰은",
+      "start": 180.735,
+      "end": 181.09500000000003,
+      "probability": 0.998046875,
+      "sentenceId": "N031_S01"
+    }
+  },
+  {
+    "shot": "V6_070",
+    "frame": 5501,
+    "boundary_s": 183.375,
+    "offset_s": -0.008333333333325754,
+    "asr_word": {
+      "word": " 2022년",
+      "start": 183.375,
+      "end": 184.055,
+      "probability": 0.99658203125,
+      "sentenceId": "N031_S02"
+    }
+  },
+  {
+    "shot": "V6_071",
+    "frame": 5581,
+    "boundary_s": 186.035,
+    "offset_s": -0.0016666666666651508,
+    "asr_word": {
+      "word": " 검거장소는",
+      "start": 186.035,
+      "end": 186.695,
+      "probability": 0.904296875,
+      "sentenceId": "N031_S03"
+    }
+  },
+  {
+    "shot": "V6_072",
+    "frame": 5633,
+    "boundary_s": 187.78,
+    "offset_s": -0.013333333333321207,
+    "asr_word": {
+      "word": " B는",
+      "start": 187.78,
+      "end": 188.02,
+      "probability": 0.9091796875,
+      "sentenceId": "N032_S01"
+    }
+  },
+  {
+    "shot": "V6_073",
+    "frame": 5710,
+    "boundary_s": 190.345,
+    "offset_s": -0.011666666666656056,
+    "asr_word": {
+      "word": " 그",
+      "start": 190.345,
+      "end": 190.445,
+      "probability": 1.0,
+      "sentenceId": "N032_S02"
+    }
+  },
+  {
+    "shot": "V6_074",
+    "frame": 5774,
+    "boundary_s": 192.455,
+    "offset_s": 0.011666666666656056,
+    "asr_word": {
+      "word": " A의",
+      "start": 192.455,
+      "end": 192.81500000000003,
+      "probability": 0.7568359375,
+      "sentenceId": "N032_S03"
+    }
+  },
+  {
+    "shot": "V6_075",
+    "frame": 5848,
+    "boundary_s": 194.93,
+    "offset_s": 0.0033333333333303017,
+    "asr_word": {
+      "word": " A는",
+      "start": 194.93,
+      "end": 195.17000000000002,
+      "probability": 0.9833984375,
+      "sentenceId": "N033_S01"
+    }
+  },
+  {
+    "shot": "V6_076",
+    "frame": 5933,
+    "boundary_s": 197.755,
+    "offset_s": 0.011666666666684478,
+    "asr_word": {
+      "word": " 두",
+      "start": 197.755,
+      "end": 197.835,
+      "probability": 0.99755859375,
+      "sentenceId": "N033_S02"
+    }
+  },
+  {
+    "shot": "V6_077",
+    "frame": 5978,
+    "boundary_s": 199.265,
+    "offset_s": 0.0016666666666935726,
+    "asr_word": {
+      "word": " 2022년",
+      "start": 199.265,
+      "end": 199.96499999999997,
+      "probability": 0.99609375,
+      "sentenceId": "N033_S03"
+    }
+  },
+  {
+    "shot": "V6_078",
+    "frame": 6056,
+    "boundary_s": 201.85,
+    "offset_s": 0.01666666666667993,
+    "asr_word": {
+      "word": " 검거까지",
+      "start": 201.85,
+      "end": 202.29,
+      "probability": 0.90673828125,
+      "sentenceId": "N034_S01"
+    }
+  },
+  {
+    "shot": "V6_079",
+    "frame": 6105,
+    "boundary_s": 203.495,
+    "offset_s": 0.0049999999999954525,
+    "asr_word": {
+      "word": " 쌓인",
+      "start": 203.495,
+      "end": 203.735,
+      "probability": 0.99267578125,
+      "sentenceId": "N034_S02"
+    }
+  },
+  {
+    "shot": "V6_080",
+    "frame": 6192,
+    "boundary_s": 206.395,
+    "offset_s": 0.0049999999999954525,
+    "asr_word": {
+      "word": " 종이",
+      "start": 206.395,
+      "end": 206.655,
+      "probability": 0.9873046875,
+      "sentenceId": "N034_S03"
+    }
+  },
+  {
+    "shot": "V6_081",
+    "frame": 6268,
+    "boundary_s": 208.92,
+    "offset_s": 0.013333333333349628,
+    "asr_word": {
+      "word": " 붙잡혔으니",
+      "start": 208.92,
+      "end": 209.48,
+      "probability": 0.9970703125,
+      "sentenceId": "N035_S01"
+    }
+  },
+  {
+    "shot": "V6_082",
+    "frame": 6309,
+    "boundary_s": 210.295,
+    "offset_s": 0.005000000000023874,
+    "asr_word": {
+      "word": " 이제",
+      "start": 210.295,
+      "end": 210.43499999999997,
+      "probability": 0.99609375,
+      "sentenceId": "N035_S02"
+    }
+  },
+  {
+    "shot": "V6_083",
+    "frame": 6369,
+    "boundary_s": 212.285,
+    "offset_s": 0.01500000000001478,
+    "asr_word": {
+      "word": " 두",
+      "start": 212.285,
+      "end": 212.385,
+      "probability": 0.9990234375,
+      "sentenceId": "N035_S03"
+    }
+  },
+  {
+    "shot": "V6_084",
+    "frame": 6456,
+    "boundary_s": 215.19,
+    "offset_s": 0.009999999999990905,
+    "asr_word": {
+      "word": " A는",
+      "start": 215.19,
+      "end": 215.47,
+      "probability": 0.9853515625,
+      "sentenceId": "N036_S01"
+    }
+  },
+  {
+    "shot": "V6_085",
+    "frame": 6563,
+    "boundary_s": 218.77,
+    "offset_s": -0.0033333333333303017,
+    "asr_word": {
+      "word": " 하지만",
+      "start": 218.77,
+      "end": 218.95000000000002,
+      "probability": 1.0,
+      "sentenceId": "N036_S02"
+    }
+  },
+  {
+    "shot": "V6_086",
+    "frame": 6642,
+    "boundary_s": 221.39,
+    "offset_s": 0.010000000000019327,
+    "asr_word": {
+      "word": " 돈을",
+      "start": 221.39,
+      "end": 221.64999999999998,
+      "probability": 1.0,
+      "sentenceId": "N037_S01"
+    }
+  },
+  {
+    "shot": "V6_087",
+    "frame": 6698,
+    "boundary_s": 223.265,
+    "offset_s": 0.0016666666666935726,
+    "asr_word": {
+      "word": " B는",
+      "start": 223.265,
+      "end": 223.445,
+      "probability": 0.9677734375,
+      "sentenceId": "N037_S02"
+    }
+  },
+  {
+    "shot": "V6_088",
+    "frame": 6813,
+    "boundary_s": 227.11,
+    "offset_s": -0.010000000000019327,
+    "asr_word": {
+      "word": " 반면",
+      "start": 227.11,
+      "end": 227.39000000000001,
+      "probability": 0.9990234375,
+      "sentenceId": "N038_S01"
+    }
+  },
+  {
+    "shot": "V6_089",
+    "frame": 6881,
+    "boundary_s": 229.375,
+    "offset_s": -0.008333333333325754,
+    "asr_word": {
+      "word": " 이",
+      "start": 229.375,
+      "end": 229.495,
+      "probability": 0.99853515625,
+      "sentenceId": "N038_S02"
+    }
+  },
+  {
+    "shot": "V6_090",
+    "frame": 6942,
+    "boundary_s": 231.39,
+    "offset_s": 0.010000000000019327,
+    "asr_word": {
+      "word": " 실제",
+      "start": 231.39,
+      "end": 231.70999999999998,
+      "probability": 0.9912109375,
+      "sentenceId": "N038_S03"
+    }
+  },
+  {
+    "shot": "V6_091",
+    "frame": 7006,
+    "boundary_s": 233.525,
+    "offset_s": 0.008333333333325754,
+    "asr_word": {
+      "word": " 같이",
+      "start": 233.525,
+      "end": 233.76500000000001,
+      "probability": 0.998046875,
+      "sentenceId": "N039_S01"
+    }
+  },
+  {
+    "shot": "V6_092",
+    "frame": 7094,
+    "boundary_s": 236.45,
+    "offset_s": 0.01666666666667993,
+    "asr_word": {
+      "word": " 책임도",
+      "start": 236.45,
+      "end": 236.81,
+      "probability": 0.99609375,
+      "sentenceId": "N039_S02"
+    }
+  },
+  {
+    "shot": "V6_093",
+    "frame": 7151,
+    "boundary_s": 238.355,
+    "offset_s": 0.011666666666684478,
+    "asr_word": {
+      "word": " 총을",
+      "start": 238.355,
+      "end": 238.61499999999998,
+      "probability": 0.982421875,
+      "sentenceId": "N039_S03"
+    }
+  },
+  {
+    "shot": "V6_094",
+    "frame": 7214,
+    "boundary_s": 240.475,
+    "offset_s": -0.008333333333325754,
+    "asr_word": {
+      "word": " 2023년",
+      "start": 240.475,
+      "end": 241.17499999999998,
+      "probability": 0.9970703125,
+      "sentenceId": "N040_S01"
+    }
+  },
+  {
+    "shot": "V6_095",
+    "frame": 7353,
+    "boundary_s": 245.095,
+    "offset_s": 0.0049999999999954525,
+    "asr_word": {
+      "word": " 검찰의",
+      "start": 245.095,
+      "end": 245.495,
+      "probability": 0.9970703125,
+      "sentenceId": "N040_S02"
+    }
+  },
+  {
+    "shot": "V6_096",
+    "frame": 7412,
+    "boundary_s": 247.065,
+    "offset_s": 0.0016666666666651508,
+    "asr_word": {
+      "word": " 사형",
+      "start": 247.065,
+      "end": 247.285,
+      "probability": 0.95703125,
+      "sentenceId": "N041_S01"
+    }
+  },
+  {
+    "shot": "V6_097",
+    "frame": 7530,
+    "boundary_s": 251.01,
+    "offset_s": -0.009999999999990905,
+    "asr_word": {
+      "word": " 정확한",
+      "start": 251.01,
+      "end": 251.39,
+      "probability": 1.0,
+      "sentenceId": "N041_S02"
+    }
+  },
+  {
+    "shot": "V6_098",
+    "frame": 7614,
+    "boundary_s": 253.785,
+    "offset_s": 0.01500000000001478,
+    "asr_word": {
+      "word": " 말은",
+      "start": 253.785,
+      "end": 254.125,
+      "probability": 0.9931640625,
+      "sentenceId": "N042_S01"
+    }
+  },
+  {
+    "shot": "V6_099",
+    "frame": 7688,
+    "boundary_s": 256.27,
+    "offset_s": -0.0033333333333303017,
+    "asr_word": {
+      "word": " 총을",
+      "start": 256.27,
+      "end": 256.54999999999995,
+      "probability": 0.9970703125,
+      "sentenceId": "N042_S02"
+    }
+  },
+  {
+    "shot": "V6_100",
+    "frame": 7757,
+    "boundary_s": 258.57,
+    "offset_s": -0.0033333333333303017,
+    "asr_word": {
+      "word": " 그리고",
+      "start": 258.57,
+      "end": 258.77,
+      "probability": 0.99853515625,
+      "sentenceId": "N042_S03"
+    }
+  },
+  {
+    "shot": "V6_101",
+    "frame": 7818,
+    "boundary_s": 260.6,
+    "offset_s": 0.0,
+    "asr_word": {
+      "word": " 2023년",
+      "start": 260.6,
+      "end": 261.34000000000003,
+      "probability": 0.998046875,
+      "sentenceId": "N043_S01"
+    }
+  },
+  {
+    "shot": "V6_102",
+    "frame": 7969,
+    "boundary_s": 265.645,
+    "offset_s": -0.011666666666656056,
+    "asr_word": {
+      "word": " 법원은",
+      "start": 265.645,
+      "end": 265.965,
+      "probability": 0.99658203125,
+      "sentenceId": "N044_S01"
+    }
+  },
+  {
+    "shot": "V6_103",
+    "frame": 8034,
+    "boundary_s": 267.785,
+    "offset_s": 0.014999999999986358,
+    "asr_word": {
+      "word": " 총기",
+      "start": 267.785,
+      "end": 268.045,
+      "probability": 0.9970703125,
+      "sentenceId": "N044_S02"
+    }
+  },
+  {
+    "shot": "V6_104",
+    "frame": 8081,
+    "boundary_s": 269.355,
+    "offset_s": 0.011666666666656056,
+    "asr_word": {
+      "word": " 권총을",
+      "start": 269.355,
+      "end": 269.735,
+      "probability": 0.99951171875,
+      "sentenceId": "N044_S03"
+    }
+  },
+  {
+    "shot": "V6_105",
+    "frame": 8180,
+    "boundary_s": 272.66,
+    "offset_s": 0.006666666666660603,
+    "asr_word": {
+      "word": " B에게는",
+      "start": 272.66,
+      "end": 273.06,
+      "probability": 0.85498046875,
+      "sentenceId": "N045_S01"
+    }
+  },
+  {
+    "shot": "V6_106",
+    "frame": 8255,
+    "boundary_s": 275.155,
+    "offset_s": 0.0116666666667129,
+    "asr_word": {
+      "word": " 오래",
+      "start": 275.155,
+      "end": 275.35499999999996,
+      "probability": 0.8896484375,
+      "sentenceId": "N045_S02"
+    }
+  },
+  {
+    "shot": "V6_107",
+    "frame": 8353,
+    "boundary_s": 278.445,
+    "offset_s": -0.011666666666656056,
+    "asr_word": {
+      "word": " 그런데",
+      "start": 278.445,
+      "end": 278.665,
+      "probability": 0.99951171875,
+      "sentenceId": "N046_S01"
+    }
+  },
+  {
+    "shot": "V6_108",
+    "frame": 8445,
+    "boundary_s": 281.51,
+    "offset_s": -0.009999999999990905,
+    "asr_word": {
+      "word": " 그러면",
+      "start": 281.51,
+      "end": 281.69,
+      "probability": 0.98388671875,
+      "sentenceId": "N046_S02"
+    }
+  },
+  {
+    "shot": "V6_109",
+    "frame": 8486,
+    "boundary_s": 282.86,
+    "offset_s": 0.006666666666660603,
+    "asr_word": {
+      "word": " 이",
+      "start": 282.86,
+      "end": 282.98,
+      "probability": 0.99853515625,
+      "sentenceId": "N046_S03"
+    }
+  },
+  {
+    "shot": "V6_110",
+    "frame": 8531,
+    "boundary_s": 284.38,
+    "offset_s": -0.013333333333321207,
+    "asr_word": {
+      "word": " 2023년",
+      "start": 284.38,
+      "end": 285.14,
+      "probability": 0.99755859375,
+      "sentenceId": "N047_S01"
+    }
+  },
+  {
+    "shot": "V6_111",
+    "frame": 8647,
+    "boundary_s": 288.225,
+    "offset_s": 0.008333333333325754,
+    "asr_word": {
+      "word": " B의",
+      "start": 288.225,
+      "end": 288.44500000000005,
+      "probability": 0.8525390625,
+      "sentenceId": "N047_S02"
+    }
+  },
+  {
+    "shot": "V6_112",
+    "frame": 8715,
+    "boundary_s": 290.5,
+    "offset_s": 0.0,
+    "asr_word": {
+      "word": " 이",
+      "start": 290.5,
+      "end": 290.62,
+      "probability": 0.99853515625,
+      "sentenceId": "N048_S01"
+    }
+  },
+  {
+    "shot": "V6_113",
+    "frame": 8775,
+    "boundary_s": 292.505,
+    "offset_s": -0.0049999999999954525,
+    "asr_word": {
+      "word": " 항소심은",
+      "start": 292.505,
+      "end": 292.985,
+      "probability": 0.990234375,
+      "sentenceId": "N048_S02"
+    }
+  },
+  {
+    "shot": "V6_114",
+    "frame": 8897,
+    "boundary_s": 296.56,
+    "offset_s": 0.006666666666660603,
+    "asr_word": {
+      "word": " 정상을",
+      "start": 296.56,
+      "end": 296.86,
+      "probability": 0.99951171875,
+      "sentenceId": "N049_S01"
+    }
+  },
+  {
+    "shot": "V6_115",
+    "frame": 8994,
+    "boundary_s": 299.785,
+    "offset_s": 0.014999999999986358,
+    "asr_word": {
+      "word": " 그래서",
+      "start": 299.785,
+      "end": 300.00500000000005,
+      "probability": 0.99853515625,
+      "sentenceId": "N049_S02"
+    }
+  },
+  {
+    "shot": "V6_116",
+    "frame": 9086,
+    "boundary_s": 302.855,
+    "offset_s": 0.011666666666656056,
+    "asr_word": {
+      "word": " 그럼",
+      "start": 302.855,
+      "end": 303.035,
+      "probability": 0.998046875,
+      "sentenceId": "N050_S01"
+    }
+  },
+  {
+    "shot": "V6_117",
+    "frame": 9127,
+    "boundary_s": 304.24,
+    "offset_s": -0.006666666666660603,
+    "asr_word": {
+      "word": " 항소심은",
+      "start": 304.24,
+      "end": 304.72,
+      "probability": 0.9990234375,
+      "sentenceId": "N050_S02"
+    }
+  },
+  {
+    "shot": "V6_118",
+    "frame": 9281,
+    "boundary_s": 309.365,
+    "offset_s": 0.0016666666666651508,
+    "asr_word": {
+      "word": " 20에서",
+      "start": 309.365,
+      "end": 309.765,
+      "probability": 0.8427734375,
+      "sentenceId": "N051_S01"
+    }
+  },
+  {
+    "shot": "V6_119",
+    "frame": 9345,
+    "boundary_s": 311.485,
+    "offset_s": 0.014999999999986358,
+    "asr_word": {
+      "word": " 감경을",
+      "start": 311.485,
+      "end": 311.90500000000003,
+      "probability": 0.98876953125,
+      "sentenceId": "N051_S02"
+    }
+  },
+  {
+    "shot": "V6_120",
+    "frame": 9401,
+    "boundary_s": 313.355,
+    "offset_s": 0.011666666666656056,
+    "asr_word": {
+      "word": " 형량표의",
+      "start": 313.355,
+      "end": 313.83500000000004,
+      "probability": 0.95751953125,
+      "sentenceId": "N051_S03"
+    }
+  },
+  {
+    "shot": "V6_121",
+    "frame": 9488,
+    "boundary_s": 316.265,
+    "offset_s": 0.0016666666666651508,
+    "asr_word": {
+      "word": " 비가",
+      "start": 316.265,
+      "end": 316.465,
+      "probability": 0.7744140625,
+      "sentenceId": "N052_S01"
+    }
+  },
+  {
+    "shot": "V6_122",
+    "frame": 9572,
+    "boundary_s": 319.055,
+    "offset_s": 0.011666666666656056,
+    "asr_word": {
+      "word": " A가",
+      "start": 319.055,
+      "end": 319.375,
+      "probability": 0.9931640625,
+      "sentenceId": "N052_S02"
+    }
+  },
+  {
+    "shot": "V6_123",
+    "frame": 9679,
+    "boundary_s": 322.63,
+    "offset_s": 0.0033333333333303017,
+    "asr_word": {
+      "word": " 두",
+      "start": 322.63,
+      "end": 322.73,
+      "probability": 0.99755859375,
+      "sentenceId": "N053_S01"
+    }
+  },
+  {
+    "shot": "V6_124",
+    "frame": 9745,
+    "boundary_s": 324.845,
+    "offset_s": -0.0116666666667129,
+    "asr_word": {
+      "word": " 마지막",
+      "start": 324.845,
+      "end": 325.14500000000004,
+      "probability": 0.99609375,
+      "sentenceId": "N053_S02"
+    }
+  },
+  {
+    "shot": "V6_125",
+    "frame": 9794,
+    "boundary_s": 326.48,
+    "offset_s": -0.01333333333337805,
+    "asr_word": {
+      "word": " 약",
+      "start": 326.48,
+      "end": 326.66,
+      "probability": 0.99853515625,
+      "sentenceId": "N053_S03"
+    }
+  },
+  {
+    "shot": "V6_126",
+    "frame": 9887,
+    "boundary_s": 329.56,
+    "offset_s": 0.006666666666660603,
+    "asr_word": {
+      "word": " 2023년",
+      "start": 329.56,
+      "end": 330.28000000000003,
+      "probability": 0.998046875,
+      "sentenceId": "N054_S01"
+    }
+  },
+  {
+    "shot": "V6_127",
+    "frame": 9990,
+    "boundary_s": 333.015,
+    "offset_s": -0.014999999999986358,
+    "asr_word": {
+      "word": " 두",
+      "start": 333.015,
+      "end": 333.135,
+      "probability": 0.9833984375,
+      "sentenceId": "N054_S02"
+    }
+  },
+  {
+    "shot": "V6_128",
+    "frame": 10059,
+    "boundary_s": 335.3,
+    "offset_s": 0.0,
+    "asr_word": {
+      "word": " 대법원은",
+      "start": 335.3,
+      "end": 335.78000000000003,
+      "probability": 0.9990234375,
+      "sentenceId": "N055_S01"
+    }
+  },
+  {
+    "shot": "V6_129",
+    "frame": 10162,
+    "boundary_s": 338.725,
+    "offset_s": 0.008333333333325754,
+    "asr_word": {
+      "word": " 무기징역을",
+      "start": 338.725,
+      "end": 339.38500000000005,
+      "probability": 0.9833984375,
+      "sentenceId": "N055_S02"
+    }
+  },
+  {
+    "shot": "V6_130",
+    "frame": 10266,
+    "boundary_s": 342.195,
+    "offset_s": 0.0049999999999954525,
+    "asr_word": {
+      "word": " 숨진",
+      "start": 342.195,
+      "end": 342.455,
+      "probability": 0.9912109375,
+      "sentenceId": "N056_S01"
+    }
+  },
+  {
+    "shot": "V6_131",
+    "frame": 10346,
+    "boundary_s": 344.88,
+    "offset_s": -0.013333333333321207,
+    "asr_word": {
+      "word": " 유족이",
+      "start": 344.88,
+      "end": 345.24,
+      "probability": 0.99951171875,
+      "sentenceId": "N056_S02"
+    }
+  },
+  {
+    "shot": "V6_132",
+    "frame": 10462,
+    "boundary_s": 348.74,
+    "offset_s": -0.006666666666660603,
+    "asr_word": {
+      "word": " 이",
+      "start": 348.74,
+      "end": 348.86,
+      "probability": 0.99951171875,
+      "sentenceId": "N057_S01"
+    }
+  },
+  {
+    "shot": "V6_133",
+    "frame": 10557,
+    "boundary_s": 351.915,
+    "offset_s": -0.015000000000043201,
+    "asr_word": {
+      "word": " 일을",
+      "start": 351.915,
+      "end": 352.21500000000003,
+      "probability": 0.994140625,
+      "sentenceId": "N057_S02"
+    }
+  }
+]

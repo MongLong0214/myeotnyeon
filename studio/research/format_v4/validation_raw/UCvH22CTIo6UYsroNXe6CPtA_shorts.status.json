@@ -1,0 +1,26 @@
+{
+  "started_at_kst": "2026-10-26T19:04:45+09:00",
+  "finished_at_kst": "2026-10-26T19:04:46+09:00",
+  "command": [
+    "$HOME/.local/bin/yt-dlp",
+    "--ignore-config",
+    "--no-cookies",
+    "--no-warnings",
+    "--socket-timeout",
+    "25",
+    "--retries",
+    "1",
+    "--extractor-retries",
+    "1",
+    "--flat-playlist",
+    "--dump-json",
+    "--playlist-end",
+    "40",
+    "--extractor-args",
+    "youtubetab:approximate_date",
+    "https://www.youtube.com/channel/UCvH22CTIo6UYsroNXe6CPtA/shorts"
+  ],
+  "exit_code": 0,
+  "error": "",
+  "rows": 40
+}

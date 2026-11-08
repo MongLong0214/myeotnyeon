@@ -1,0 +1,90 @@
+{
+  "narrator": {
+    "role": "editorial narrator",
+    "identity": "fictional original design",
+    "face": "expressive",
+    "outfit": [
+      "#dca84b",
+      "#435765"
+    ],
+    "voice": "existing narration only"
+  },
+  "recruits": {
+    "role": "anonymous collective recruits",
+    "identity": "no singled-out victim",
+    "face": "back view or featureless neutral silhouette",
+    "outfit": [
+      "#879174",
+      "#596650"
+    ],
+    "count": 6,
+    "actions": [
+      "stand",
+      "breathe"
+    ],
+    "forbidden": [
+      "fall",
+      "kneel in distress",
+      "exercise",
+      "patient",
+      "individual label"
+    ]
+  },
+  "commander": {
+    "role": "중대장",
+    "face": "solid faceless silhouette",
+    "identity": "no age, sex, real likeness or rank badge",
+    "outfit": [
+      "#52634f",
+      "#263739"
+    ]
+  },
+  "deputy": {
+    "role": "부중대장",
+    "face": "solid faceless silhouette",
+    "identity": "no age, sex, real likeness or rank badge",
+    "outfit": [
+      "#52634f",
+      "#263739"
+    ],
+    "note": "Source-backed role is 부중대장; do not relabel as 소대장."
+  },
+  "medic": {
+    "role": "generic medical-service symbol",
+    "identity": "fictional, no treatment reenactment",
+    "face": "simple cartoon face",
+    "outfit": [
+      "#f1eee1",
+      "#445c6a"
+    ]
+  },
+  "judge": {
+    "role": "generic court representative",
+    "identity": "fictional editorial figure",
+    "face": "simple expressive cartoon face",
+    "outfit": [
+      "#303344",
+      "#faf6e8"
+    ],
+    "speaks": false
+  },
+  "investigator": {
+    "role": "generic investigator",
+    "identity": "fictional editorial figure",
+    "face": "simple cartoon face",
+    "outfit": [
+      "#c0a785",
+      "#394c5b"
+    ],
+    "speaks": false
+  },
+  "witness": {
+    "role": "anonymous testimony symbol",
+    "identity": "back view only, no real person or victim likeness",
+    "face": "not visible",
+    "outfit": [
+      "#879174",
+      "#596650"
+    ]
+  }
+}

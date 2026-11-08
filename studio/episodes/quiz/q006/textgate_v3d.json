@@ -1,0 +1,30 @@
+{
+  "episode": "q006",
+  "counts": {
+    "C-8": 0,
+    "C-11": 0,
+    "I-4": 0,
+    "E-2": 0,
+    "F-5": 0
+  },
+  "passed": true,
+  "detail": {
+    "C-11": [],
+    "F-5": [],
+    "endings": [
+      "니다",
+      "였죠",
+      "니다",
+      "니다",
+      "까요",
+      "대요",
+      "니다",
+      "니다",
+      "세요"
+    ],
+    "longest_same_ending_run": 2,
+    "risk_band": "low"
+  },
+  "n_labels": 65,
+  "n_sentences": 9
+}

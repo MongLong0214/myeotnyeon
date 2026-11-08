@@ -1,0 +1,65 @@
+[
+  {
+    "id": "TYPE2-N18-chapter",
+    "frame": 90,
+    "width": 1920,
+    "height": 1080,
+    "file": "n18_chapter.png"
+  },
+  {
+    "id": "TYPE2-N18-scene",
+    "frame": 90,
+    "width": 1920,
+    "height": 1080,
+    "file": "n18_scene.png"
+  },
+  {
+    "id": "TYPE2-N18-dossier",
+    "frame": 90,
+    "width": 1920,
+    "height": 1080,
+    "file": "n18_dossier.png"
+  },
+  {
+    "id": "TYPE2-N18-measurement",
+    "frame": 90,
+    "width": 1920,
+    "height": 1080,
+    "file": "n18_measurement.png"
+  },
+  {
+    "id": "TYPE2-N18-verdict",
+    "frame": 90,
+    "width": 1920,
+    "height": 1080,
+    "file": "n18_verdict.png"
+  },
+  {
+    "id": "TYPE2-Q006-header",
+    "frame": 90,
+    "width": 1080,
+    "height": 1920,
+    "file": "q006_header.png"
+  },
+  {
+    "id": "TYPE2-Q006-choices",
+    "frame": 90,
+    "width": 1080,
+    "height": 1920,
+    "file": "q006_choices.png"
+  },
+  {
+    "id": "TYPE2-Q006-reason",
+    "frame": 90,
+    "width": 1080,
+    "height": 1920,
+    "file": "q006_reason.png"
+  },
+  {
+    "id": "TYPE2-Q006-verdict",
+    "frame": 90,
+    "width": 1080,
+    "height": 1920,
+    "file": "q006_verdict.png"
+  }
+]

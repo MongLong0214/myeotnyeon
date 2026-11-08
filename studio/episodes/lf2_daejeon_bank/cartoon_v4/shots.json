@@ -1,0 +1,3197 @@
+[
+  {
+    "id": "V4_001",
+    "start": 0,
+    "end": 30,
+    "set": "exterior",
+    "type": "wide",
+    "action": "exterior",
+    "mood": "day",
+    "index": 0,
+    "variant": 0,
+    "facts": [
+      "F02",
+      "F04",
+      "F06"
+    ],
+    "narrationId": "N001",
+    "purpose": "N001 / exterior: 검은 승용차가 현금수송차 앞을 막습니다. 돈가방을 내리던 순간 복면을 쓴 두 사람이 나타났죠. 은행 지하주차장에서 권총이 발사됩니다."
+  },
+  {
+    "id": "V4_002",
+    "start": 30,
+    "end": 105,
+    "set": "parking",
+    "type": "medium",
+    "action": "block",
+    "mood": "tense",
+    "index": 1,
+    "variant": 0,
+    "facts": [
+      "F02",
+      "F04",
+      "F06"
+    ],
+    "narrationId": "N001",
+    "purpose": "N001 / block: 검은 승용차가 현금수송차 앞을 막습니다. 돈가방을 내리던 순간 복면을 쓴 두 사람이 나타났죠. 은행 지하주차장에서 권총이 발사됩니다."
+  },
+  {
+    "id": "V4_003",
+    "start": 105,
+    "end": 179,
+    "set": "parking-reverse",
+    "type": "medium",
+    "action": "approach",
+    "mood": "tense",
+    "index": 2,
+    "variant": 0,
+    "facts": [
+      "F02",
+      "F04",
+      "F06"
+    ],
+    "narrationId": "N001",
+    "purpose": "N001 / approach: 검은 승용차가 현금수송차 앞을 막습니다. 돈가방을 내리던 순간 복면을 쓴 두 사람이 나타났죠. 은행 지하주차장에서 권총이 발사됩니다."
+  },
+  {
+    "id": "V4_004",
+    "start": 179,
+    "end": 240,
+    "set": "parking",
+    "type": "over-the-shoulder",
+    "action": "reaction",
+    "mood": "tense",
+    "index": 3,
+    "variant": 0,
+    "facts": [
+      "F02",
+      "F04",
+      "F06"
+    ],
+    "narrationId": "N001",
+    "purpose": "N001 / reaction: 검은 승용차가 현금수송차 앞을 막습니다. 돈가방을 내리던 순간 복면을 쓴 두 사람이 나타났죠. 은행 지하주차장에서 권총이 발사됩니다."
+  },
+  {
+    "id": "V4_005",
+    "start": 240,
+    "end": 310,
+    "set": "court",
+    "type": "wide",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 4,
+    "variant": 1,
+    "facts": [
+      "F04",
+      "F40",
+      "F44"
+    ],
+    "narrationId": "N002",
+    "purpose": "N002 / court: 법원은 두 사람 모두에게 무기징역을 선고했습니다. 총을 쏜 사람과 돈가방을 옮긴 사람. 두 사람은 왜 같은 형이 됐을까요?"
+  },
+  {
+    "id": "V4_006",
+    "start": 310,
+    "end": 380,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 5,
+    "variant": 1,
+    "facts": [
+      "F04",
+      "F40",
+      "F44"
+    ],
+    "narrationId": "N002",
+    "purpose": "N002 / judge: 법원은 두 사람 모두에게 무기징역을 선고했습니다. 총을 쏜 사람과 돈가방을 옮긴 사람. 두 사람은 왜 같은 형이 됐을까요?"
+  },
+  {
+    "id": "V4_007",
+    "start": 380,
+    "end": 450,
+    "set": "court",
+    "type": "low-angle",
+    "action": "verdict",
+    "mood": "courtroom",
+    "index": 6,
+    "variant": 1,
+    "facts": [
+      "F04",
+      "F40",
+      "F44"
+    ],
+    "narrationId": "N002",
+    "purpose": "N002 / verdict: 법원은 두 사람 모두에게 무기징역을 선고했습니다. 총을 쏜 사람과 돈가방을 옮긴 사람. 두 사람은 왜 같은 형이 됐을까요?"
+  },
+  {
+    "id": "V4_008",
+    "start": 450,
+    "end": 507,
+    "set": "exterior",
+    "type": "wide",
+    "action": "exterior",
+    "mood": "day",
+    "index": 7,
+    "variant": 2,
+    "facts": [
+      "F01",
+      "F02"
+    ],
+    "narrationId": "N003",
+    "purpose": "N003 / exterior: 이천일 년 십이월 이십일 일 오전 열 시쯤. 대전 둔산동 국민은행 건물 지하주차장으로 돌아갑니다."
+  },
+  {
+    "id": "V4_009",
+    "start": 507,
+    "end": 563,
+    "set": "parking",
+    "type": "high-angle",
+    "action": "staff",
+    "mood": "tense",
+    "index": 8,
+    "variant": 2,
+    "facts": [
+      "F01",
+      "F02"
+    ],
+    "narrationId": "N003",
+    "purpose": "N003 / staff: 이천일 년 십이월 이십일 일 오전 열 시쯤. 대전 둔산동 국민은행 건물 지하주차장으로 돌아갑니다."
+  },
+  {
+    "id": "V4_010",
+    "start": 563,
+    "end": 620,
+    "set": "parking",
+    "type": "medium",
+    "action": "staff",
+    "mood": "tense",
+    "index": 9,
+    "variant": 2,
+    "facts": [
+      "F01",
+      "F02"
+    ],
+    "narrationId": "N003",
+    "purpose": "N003 / staff: 이천일 년 십이월 이십일 일 오전 열 시쯤. 대전 둔산동 국민은행 건물 지하주차장으로 돌아갑니다."
+  },
+  {
+    "id": "V4_011",
+    "start": 620,
+    "end": 678,
+    "set": "parking-reverse",
+    "type": "medium",
+    "action": "staff",
+    "mood": "tense",
+    "index": 10,
+    "variant": 3,
+    "facts": [
+      "F02",
+      "F03"
+    ],
+    "narrationId": "N004",
+    "purpose": "N004 / staff: 은행 관계자 세 명이 현금을 내려 옮기던 순간이었죠. 돈가방은 두 개. 각각 삼억 원씩 들어 있었습니다."
+  },
+  {
+    "id": "V4_012",
+    "start": 678,
+    "end": 736,
+    "set": "parking",
+    "type": "wide",
+    "action": "bags",
+    "mood": "tense",
+    "index": 11,
+    "variant": 3,
+    "facts": [
+      "F02",
+      "F03"
+    ],
+    "narrationId": "N004",
+    "purpose": "N004 / bags: 은행 관계자 세 명이 현금을 내려 옮기던 순간이었죠. 돈가방은 두 개. 각각 삼억 원씩 들어 있었습니다."
+  },
+  {
+    "id": "V4_013",
+    "start": 736,
+    "end": 794,
+    "set": "parking-reverse",
+    "type": "medium",
+    "action": "bags",
+    "mood": "tense",
+    "index": 12,
+    "variant": 3,
+    "facts": [
+      "F02",
+      "F03"
+    ],
+    "narrationId": "N004",
+    "purpose": "N004 / bags: 은행 관계자 세 명이 현금을 내려 옮기던 순간이었죠. 돈가방은 두 개. 각각 삼억 원씩 들어 있었습니다."
+  },
+  {
+    "id": "V4_014",
+    "start": 794,
+    "end": 866,
+    "set": "parking",
+    "type": "medium",
+    "action": "depart",
+    "mood": "tense",
+    "index": 13,
+    "variant": 4,
+    "facts": [
+      "F03",
+      "F05",
+      "F06"
+    ],
+    "narrationId": "N005",
+    "purpose": "N005 / depart: 강도들이 가져간 것은 그중 한 가방이었어요. 피해액 삼억 원. 현금을 운송하던 사십 대 은행 출납과장은 총격으로 숨졌습니다."
+  },
+  {
+    "id": "V4_015",
+    "start": 866,
+    "end": 938,
+    "set": "parking-reverse",
+    "type": "medium",
+    "action": "depart",
+    "mood": "tense",
+    "index": 14,
+    "variant": 4,
+    "facts": [
+      "F03",
+      "F05",
+      "F06"
+    ],
+    "narrationId": "N005",
+    "purpose": "N005 / depart: 강도들이 가져간 것은 그중 한 가방이었어요. 피해액 삼억 원. 현금을 운송하던 사십 대 은행 출납과장은 총격으로 숨졌습니다."
+  },
+  {
+    "id": "V4_016",
+    "start": 938,
+    "end": 1010,
+    "set": "parking",
+    "type": "medium",
+    "action": "empty",
+    "mood": "tense",
+    "index": 15,
+    "variant": 4,
+    "facts": [
+      "F03",
+      "F05",
+      "F06"
+    ],
+    "narrationId": "N005",
+    "purpose": "N005 / empty: 강도들이 가져간 것은 그중 한 가방이었어요. 피해액 삼억 원. 현금을 운송하던 사십 대 은행 출납과장은 총격으로 숨졌습니다."
+  },
+  {
+    "id": "V4_017",
+    "start": 1010,
+    "end": 1079,
+    "set": "parking",
+    "type": "medium",
+    "action": "empty",
+    "mood": "tense",
+    "index": 16,
+    "variant": 5,
+    "facts": [
+      "F12",
+      "F14"
+    ],
+    "narrationId": "N006",
+    "purpose": "N006 / empty: 주차장에는 폐쇄회로 카메라가 없었죠. 범행 뒤 두 사람은 인근 상가 지하주차장에서 차를 버리고 다른 차로 갈아탑니다."
+  },
+  {
+    "id": "V4_018",
+    "start": 1079,
+    "end": 1148,
+    "set": "parking-reverse",
+    "type": "low-angle",
+    "action": "switch",
+    "mood": "tense",
+    "index": 17,
+    "variant": 5,
+    "facts": [
+      "F12",
+      "F14"
+    ],
+    "narrationId": "N006",
+    "purpose": "N006 / switch: 주차장에는 폐쇄회로 카메라가 없었죠. 범행 뒤 두 사람은 인근 상가 지하주차장에서 차를 버리고 다른 차로 갈아탑니다."
+  },
+  {
+    "id": "V4_019",
+    "start": 1148,
+    "end": 1217,
+    "set": "getaway",
+    "type": "high-angle",
+    "action": "car",
+    "mood": "tense",
+    "index": 18,
+    "variant": 5,
+    "facts": [
+      "F12",
+      "F14"
+    ],
+    "narrationId": "N006",
+    "purpose": "N006 / car: 주차장에는 폐쇄회로 카메라가 없었죠. 범행 뒤 두 사람은 인근 상가 지하주차장에서 차를 버리고 다른 차로 갈아탑니다."
+  },
+  {
+    "id": "V4_020",
+    "start": 1217,
+    "end": 1288,
+    "set": "street",
+    "type": "wide",
+    "action": "police",
+    "mood": "night",
+    "index": 19,
+    "variant": 0,
+    "facts": [
+      "F07",
+      "F08"
+    ],
+    "narrationId": "N007",
+    "purpose": "N007 / police: 그들이 쓴 권총의 출처를 따라가면 두 달 전 범행이 나와요. 십월 십오 일 자정 무렵 순찰하던 경찰관을 차로 들이받았습니다."
+  },
+  {
+    "id": "V4_021",
+    "start": 1288,
+    "end": 1359,
+    "set": "street",
+    "type": "close-up",
+    "action": "police",
+    "mood": "night",
+    "index": 20,
+    "variant": 0,
+    "facts": [
+      "F07",
+      "F08"
+    ],
+    "narrationId": "N007",
+    "purpose": "N007 / police: 그들이 쓴 권총의 출처를 따라가면 두 달 전 범행이 나와요. 십월 십오 일 자정 무렵 순찰하던 경찰관을 차로 들이받았습니다."
+  },
+  {
+    "id": "V4_022",
+    "start": 1359,
+    "end": 1430,
+    "set": "street",
+    "type": "medium",
+    "action": "police",
+    "mood": "night",
+    "index": 21,
+    "variant": 0,
+    "facts": [
+      "F07",
+      "F08"
+    ],
+    "narrationId": "N007",
+    "purpose": "N007 / police: 그들이 쓴 권총의 출처를 따라가면 두 달 전 범행이 나와요. 십월 십오 일 자정 무렵 순찰하던 경찰관을 차로 들이받았습니다."
+  },
+  {
+    "id": "V4_023",
+    "start": 1430,
+    "end": 1492,
+    "set": "street",
+    "type": "wide",
+    "action": "police",
+    "mood": "night",
+    "index": 22,
+    "variant": 1,
+    "facts": [
+      "F07",
+      "F09"
+    ],
+    "narrationId": "N008",
+    "purpose": "N008 / police: 그 경찰관에게서 빼앗은 삼십팔 구경 권총이 은행 범행에 쓰였죠. 경찰관은 중상을 입었습니다. 은행에서 숨진 출납과장과는 다른 피해자예요."
+  },
+  {
+    "id": "V4_024",
+    "start": 1492,
+    "end": 1553,
+    "set": "street",
+    "type": "close-up",
+    "action": "police",
+    "mood": "night",
+    "index": 23,
+    "variant": 1,
+    "facts": [
+      "F07",
+      "F09"
+    ],
+    "narrationId": "N008",
+    "purpose": "N008 / police: 그 경찰관에게서 빼앗은 삼십팔 구경 권총이 은행 범행에 쓰였죠. 경찰관은 중상을 입었습니다. 은행에서 숨진 출납과장과는 다른 피해자예요."
+  },
+  {
+    "id": "V4_025",
+    "start": 1553,
+    "end": 1614,
+    "set": "investigation",
+    "type": "medium",
+    "action": "records",
+    "mood": "day",
+    "index": 24,
+    "variant": 1,
+    "facts": [
+      "F07",
+      "F09"
+    ],
+    "narrationId": "N008",
+    "purpose": "N008 / records: 그 경찰관에게서 빼앗은 삼십팔 구경 권총이 은행 범행에 쓰였죠. 경찰관은 중상을 입었습니다. 은행에서 숨진 출납과장과는 다른 피해자예요."
+  },
+  {
+    "id": "V4_026",
+    "start": 1614,
+    "end": 1676,
+    "set": "investigation",
+    "type": "insert",
+    "action": "records",
+    "mood": "day",
+    "index": 25,
+    "variant": 1,
+    "facts": [
+      "F07",
+      "F09"
+    ],
+    "narrationId": "N008",
+    "purpose": "N008 / records: 그 경찰관에게서 빼앗은 삼십팔 구경 권총이 은행 범행에 쓰였죠. 경찰관은 중상을 입었습니다. 은행에서 숨진 출납과장과는 다른 피해자예요."
+  },
+  {
+    "id": "V4_027",
+    "start": 1676,
+    "end": 1750,
+    "set": "getaway",
+    "type": "medium",
+    "action": "car",
+    "mood": "tense",
+    "index": 26,
+    "variant": 2,
+    "facts": [
+      "F11",
+      "F13"
+    ],
+    "narrationId": "N009",
+    "purpose": "N009 / car: 검은 그랜저도 훔친 차였습니다. 십이월 일 일 수원에서 시동이 걸린 채 주차된 차를 가져갔죠. 두 사람은 고등학교 동창이었어요."
+  },
+  {
+    "id": "V4_028",
+    "start": 1750,
+    "end": 1824,
+    "set": "parking-reverse",
+    "type": "medium",
+    "action": "car",
+    "mood": "tense",
+    "index": 27,
+    "variant": 2,
+    "facts": [
+      "F11",
+      "F13"
+    ],
+    "narrationId": "N009",
+    "purpose": "N009 / car: 검은 그랜저도 훔친 차였습니다. 십이월 일 일 수원에서 시동이 걸린 채 주차된 차를 가져갔죠. 두 사람은 고등학교 동창이었어요."
+  },
+  {
+    "id": "V4_029",
+    "start": 1824,
+    "end": 1898,
+    "set": "parking",
+    "type": "low-angle",
+    "action": "car",
+    "mood": "tense",
+    "index": 28,
+    "variant": 2,
+    "facts": [
+      "F11",
+      "F13"
+    ],
+    "narrationId": "N009",
+    "purpose": "N009 / car: 검은 그랜저도 훔친 차였습니다. 십이월 일 일 수원에서 시동이 걸린 채 주차된 차를 가져갔죠. 두 사람은 고등학교 동창이었어요."
+  },
+  {
+    "id": "V4_030",
+    "start": 1898,
+    "end": 1976,
+    "set": "evidence",
+    "type": "low-angle",
+    "action": "evidence",
+    "mood": "day",
+    "index": 29,
+    "variant": 3,
+    "facts": [
+      "F15",
+      "F18"
+    ],
+    "narrationId": "N010",
+    "purpose": "N010 / evidence: 그들은 범행 차량에 불을 내 증거를 없애려 했습니다. 하지만 버린 차 안에 마스크와 손수건이 남았죠. 검거의 첫 실마리가 여기 있습니다."
+  },
+  {
+    "id": "V4_031",
+    "start": 1976,
+    "end": 2053,
+    "set": "evidence",
+    "type": "insert",
+    "action": "mask",
+    "mood": "day",
+    "index": 30,
+    "variant": 3,
+    "facts": [
+      "F15",
+      "F18"
+    ],
+    "narrationId": "N010",
+    "purpose": "N010 / mask: 그들은 범행 차량에 불을 내 증거를 없애려 했습니다. 하지만 버린 차 안에 마스크와 손수건이 남았죠. 검거의 첫 실마리가 여기 있습니다."
+  },
+  {
+    "id": "V4_032",
+    "start": 2053,
+    "end": 2131,
+    "set": "evidence",
+    "type": "medium",
+    "action": "mask",
+    "mood": "day",
+    "index": 31,
+    "variant": 3,
+    "facts": [
+      "F15",
+      "F18"
+    ],
+    "narrationId": "N010",
+    "purpose": "N010 / mask: 그들은 범행 차량에 불을 내 증거를 없애려 했습니다. 하지만 버린 차 안에 마스크와 손수건이 남았죠. 검거의 첫 실마리가 여기 있습니다."
+  },
+  {
+    "id": "V4_033",
+    "start": 2131,
+    "end": 2208,
+    "set": "lab",
+    "type": "close-up",
+    "action": "lab",
+    "mood": "day",
+    "index": 32,
+    "variant": 4,
+    "facts": [
+      "F18",
+      "F19"
+    ],
+    "narrationId": "N011",
+    "purpose": "N011 / lab: 마스크와 손수건에 남은 디엔에이가 수사를 이어 줍니다. 처음 감식했을 때는 검출에 실패했어요. 물건은 이미 경찰 손에 있었습니다."
+  },
+  {
+    "id": "V4_034",
+    "start": 2208,
+    "end": 2284,
+    "set": "lab",
+    "type": "insert",
+    "action": "dna",
+    "mood": "day",
+    "index": 33,
+    "variant": 4,
+    "facts": [
+      "F18",
+      "F19"
+    ],
+    "narrationId": "N011",
+    "purpose": "N011 / dna: 마스크와 손수건에 남은 디엔에이가 수사를 이어 줍니다. 처음 감식했을 때는 검출에 실패했어요. 물건은 이미 경찰 손에 있었습니다."
+  },
+  {
+    "id": "V4_035",
+    "start": 2284,
+    "end": 2361,
+    "set": "evidence",
+    "type": "medium",
+    "action": "mask",
+    "mood": "day",
+    "index": 34,
+    "variant": 4,
+    "facts": [
+      "F18",
+      "F19"
+    ],
+    "narrationId": "N011",
+    "purpose": "N011 / mask: 마스크와 손수건에 남은 디엔에이가 수사를 이어 줍니다. 처음 감식했을 때는 검출에 실패했어요. 물건은 이미 경찰 손에 있었습니다."
+  },
+  {
+    "id": "V4_036",
+    "start": 2361,
+    "end": 2436,
+    "set": "lab",
+    "type": "medium",
+    "action": "dna",
+    "mood": "day",
+    "index": 35,
+    "variant": 5,
+    "facts": [
+      "F20",
+      "F21"
+    ],
+    "narrationId": "N012",
+    "purpose": "N012 / dna: 이천십칠 년 재감식에서 돌파구가 열리죠. 그런데 다른 사건의 담배꽁초와 유전자가 같았습니다. 이 흔적의 주인은 누구였을까요?"
+  },
+  {
+    "id": "V4_037",
+    "start": 2436,
+    "end": 2511,
+    "set": "lab",
+    "type": "insert",
+    "action": "links",
+    "mood": "day",
+    "index": 36,
+    "variant": 2,
+    "facts": [
+      "F20",
+      "F21"
+    ],
+    "narrationId": "N012",
+    "purpose": "N012 / links: 이천십칠 년 재감식에서 돌파구가 열리죠. 그런데 다른 사건의 담배꽁초와 유전자가 같았습니다. 이 흔적의 주인은 누구였을까요?"
+  },
+  {
+    "id": "V4_038",
+    "start": 2511,
+    "end": 2586,
+    "set": "lab",
+    "type": "close-up",
+    "action": "lab",
+    "mood": "day",
+    "index": 37,
+    "variant": 5,
+    "facts": [
+      "F20",
+      "F21"
+    ],
+    "narrationId": "N012",
+    "purpose": "N012 / lab: 이천십칠 년 재감식에서 돌파구가 열리죠. 그런데 다른 사건의 담배꽁초와 유전자가 같았습니다. 이 흔적의 주인은 누구였을까요?"
+  },
+  {
+    "id": "V4_039",
+    "start": 2586,
+    "end": 2643,
+    "set": "evidence",
+    "type": "medium",
+    "action": "mask",
+    "mood": "day",
+    "index": 38,
+    "variant": 0,
+    "facts": [
+      "F19"
+    ],
+    "narrationId": "N013",
+    "purpose": "N013 / mask: 처음 마스크 감식은 실패했죠. 수사는 어디서 다시 시작됐을까요?"
+  },
+  {
+    "id": "V4_040",
+    "start": 2643,
+    "end": 2700,
+    "set": "evidence",
+    "type": "low-angle",
+    "action": "archive",
+    "mood": "day",
+    "index": 39,
+    "variant": 0,
+    "facts": [
+      "F19"
+    ],
+    "narrationId": "N013",
+    "purpose": "N013 / archive: 처음 마스크 감식은 실패했죠. 수사는 어디서 다시 시작됐을까요?"
+  },
+  {
+    "id": "V4_041",
+    "start": 2700,
+    "end": 2775,
+    "set": "evidence",
+    "type": "high-angle",
+    "action": "archive",
+    "mood": "day",
+    "index": 40,
+    "variant": 1,
+    "facts": [
+      "F17"
+    ],
+    "narrationId": "N014",
+    "purpose": "N014 / archive: 현장 수거품은 대전 둔산경찰서에 보관됐어요. 이천십일 년 십이월 중요미제사건 전담수사팀이 증거물과 기록을 인수했습니다."
+  },
+  {
+    "id": "V4_042",
+    "start": 2775,
+    "end": 2850,
+    "set": "investigation",
+    "type": "medium",
+    "action": "trace",
+    "mood": "day",
+    "index": 41,
+    "variant": 1,
+    "facts": [
+      "F17"
+    ],
+    "narrationId": "N014",
+    "purpose": "N014 / trace: 현장 수거품은 대전 둔산경찰서에 보관됐어요. 이천십일 년 십이월 중요미제사건 전담수사팀이 증거물과 기록을 인수했습니다."
+  },
+  {
+    "id": "V4_043",
+    "start": 2850,
+    "end": 2925,
+    "set": "investigation",
+    "type": "medium",
+    "action": "timeline",
+    "mood": "day",
+    "index": 42,
+    "variant": 1,
+    "facts": [
+      "F17"
+    ],
+    "narrationId": "N014",
+    "purpose": "N014 / timeline: 현장 수거품은 대전 둔산경찰서에 보관됐어요. 이천십일 년 십이월 중요미제사건 전담수사팀이 증거물과 기록을 인수했습니다."
+  },
+  {
+    "id": "V4_044",
+    "start": 2925,
+    "end": 3004,
+    "set": "evidence",
+    "type": "wide",
+    "action": "evidence",
+    "mood": "day",
+    "index": 43,
+    "variant": 2,
+    "facts": [
+      "F17",
+      "F20"
+    ],
+    "narrationId": "N015",
+    "purpose": "N015 / evidence: 수사팀은 묵은 사건을 다시 살폈죠. 그리고 이천십칠 년 재감식이 돌파구가 됐습니다. 오래 보관한 물건에서 남성의 유전자가 나온 거예요."
+  },
+  {
+    "id": "V4_045",
+    "start": 3004,
+    "end": 3084,
+    "set": "lab",
+    "type": "medium",
+    "action": "lab",
+    "mood": "day",
+    "index": 44,
+    "variant": 2,
+    "facts": [
+      "F17",
+      "F20"
+    ],
+    "narrationId": "N015",
+    "purpose": "N015 / lab: 수사팀은 묵은 사건을 다시 살폈죠. 그리고 이천십칠 년 재감식이 돌파구가 됐습니다. 오래 보관한 물건에서 남성의 유전자가 나온 거예요."
+  },
+  {
+    "id": "V4_046",
+    "start": 3084,
+    "end": 3163,
+    "set": "lab",
+    "type": "medium",
+    "action": "dna",
+    "mood": "day",
+    "index": 45,
+    "variant": 2,
+    "facts": [
+      "F17",
+      "F20"
+    ],
+    "narrationId": "N015",
+    "purpose": "N015 / dna: 수사팀은 묵은 사건을 다시 살폈죠. 그리고 이천십칠 년 재감식이 돌파구가 됐습니다. 오래 보관한 물건에서 남성의 유전자가 나온 거예요."
+  },
+  {
+    "id": "V4_047",
+    "start": 3163,
+    "end": 3241,
+    "set": "lab",
+    "type": "medium",
+    "action": "dna",
+    "mood": "day",
+    "index": 46,
+    "variant": 3,
+    "facts": [
+      "F18",
+      "F20"
+    ],
+    "narrationId": "N016",
+    "purpose": "N016 / dna: 비교할 흔적을 얻었습니다. 다만 여기서 그 주인의 이름까지 밝혀진 것은 아니었죠. 수사팀은 다른 현장에 남은 디엔에이와 대조합니다."
+  },
+  {
+    "id": "V4_048",
+    "start": 3241,
+    "end": 3318,
+    "set": "lab",
+    "type": "medium",
+    "action": "lab",
+    "mood": "day",
+    "index": 47,
+    "variant": 3,
+    "facts": [
+      "F18",
+      "F20"
+    ],
+    "narrationId": "N016",
+    "purpose": "N016 / lab: 비교할 흔적을 얻었습니다. 다만 여기서 그 주인의 이름까지 밝혀진 것은 아니었죠. 수사팀은 다른 현장에 남은 디엔에이와 대조합니다."
+  },
+  {
+    "id": "V4_049",
+    "start": 3318,
+    "end": 3396,
+    "set": "lab",
+    "type": "medium",
+    "action": "links",
+    "mood": "day",
+    "index": 48,
+    "variant": 2,
+    "facts": [
+      "F18",
+      "F20"
+    ],
+    "narrationId": "N016",
+    "purpose": "N016 / links: 비교할 흔적을 얻었습니다. 다만 여기서 그 주인의 이름까지 밝혀진 것은 아니었죠. 수사팀은 다른 현장에 남은 디엔에이와 대조합니다."
+  },
+  {
+    "id": "V4_050",
+    "start": 3396,
+    "end": 3463,
+    "set": "arcade",
+    "type": "low-angle",
+    "action": "arcade",
+    "mood": "day",
+    "index": 49,
+    "variant": 4,
+    "facts": [
+      "F21"
+    ],
+    "narrationId": "N017",
+    "purpose": "N017 / arcade: 연결된 곳은 충북의 한 불법게임장이었어요. 이천십오 년 그곳에서 수거한 담배꽁초에 유전자가 남아 있었습니다."
+  },
+  {
+    "id": "V4_051",
+    "start": 3463,
+    "end": 3529,
+    "set": "arcade",
+    "type": "insert",
+    "action": "cigarette",
+    "mood": "day",
+    "index": 50,
+    "variant": 4,
+    "facts": [
+      "F21"
+    ],
+    "narrationId": "N017",
+    "purpose": "N017 / cigarette: 연결된 곳은 충북의 한 불법게임장이었어요. 이천십오 년 그곳에서 수거한 담배꽁초에 유전자가 남아 있었습니다."
+  },
+  {
+    "id": "V4_052",
+    "start": 3529,
+    "end": 3596,
+    "set": "arcade",
+    "type": "medium",
+    "action": "arcade",
+    "mood": "day",
+    "index": 51,
+    "variant": 4,
+    "facts": [
+      "F21"
+    ],
+    "narrationId": "N017",
+    "purpose": "N017 / arcade: 연결된 곳은 충북의 한 불법게임장이었어요. 이천십오 년 그곳에서 수거한 담배꽁초에 유전자가 남아 있었습니다."
+  },
+  {
+    "id": "V4_053",
+    "start": 3596,
+    "end": 3664,
+    "set": "evidence",
+    "type": "medium",
+    "action": "mask",
+    "mood": "day",
+    "index": 52,
+    "variant": 5,
+    "facts": [
+      "F18",
+      "F21"
+    ],
+    "narrationId": "N018",
+    "purpose": "N018 / mask: 은행 범행 차량의 마스크와 손수건. 게임장에 남은 담배꽁초. 서로 다른 시기의 물건에서 같은 사람의 흔적이 확인됐죠."
+  },
+  {
+    "id": "V4_054",
+    "start": 3664,
+    "end": 3732,
+    "set": "arcade",
+    "type": "insert",
+    "action": "cigarette",
+    "mood": "day",
+    "index": 53,
+    "variant": 5,
+    "facts": [
+      "F18",
+      "F21"
+    ],
+    "narrationId": "N018",
+    "purpose": "N018 / cigarette: 은행 범행 차량의 마스크와 손수건. 게임장에 남은 담배꽁초. 서로 다른 시기의 물건에서 같은 사람의 흔적이 확인됐죠."
+  },
+  {
+    "id": "V4_055",
+    "start": 3732,
+    "end": 3800,
+    "set": "lab",
+    "type": "medium",
+    "action": "links",
+    "mood": "day",
+    "index": 54,
+    "variant": 2,
+    "facts": [
+      "F18",
+      "F21"
+    ],
+    "narrationId": "N018",
+    "purpose": "N018 / links: 은행 범행 차량의 마스크와 손수건. 게임장에 남은 담배꽁초. 서로 다른 시기의 물건에서 같은 사람의 흔적이 확인됐죠."
+  },
+  {
+    "id": "V4_056",
+    "start": 3800,
+    "end": 3862,
+    "set": "lab",
+    "type": "close-up",
+    "action": "lab",
+    "mood": "day",
+    "index": 55,
+    "variant": 0,
+    "facts": [
+      "F21"
+    ],
+    "narrationId": "N019",
+    "purpose": "N019 / lab: 게임장 쪽 디엔에이도 신원불명이었습니다. 일치했다는 회신만으로 이름이 나오지는 않았어요. 이제 수사는 그 게임장 출입자들을 향합니다."
+  },
+  {
+    "id": "V4_057",
+    "start": 3862,
+    "end": 3923,
+    "set": "lab",
+    "type": "insert",
+    "action": "dna",
+    "mood": "day",
+    "index": 56,
+    "variant": 0,
+    "facts": [
+      "F21"
+    ],
+    "narrationId": "N019",
+    "purpose": "N019 / dna: 게임장 쪽 디엔에이도 신원불명이었습니다. 일치했다는 회신만으로 이름이 나오지는 않았어요. 이제 수사는 그 게임장 출입자들을 향합니다."
+  },
+  {
+    "id": "V4_058",
+    "start": 3923,
+    "end": 3984,
+    "set": "investigation",
+    "type": "medium",
+    "action": "trace",
+    "mood": "day",
+    "index": 57,
+    "variant": 0,
+    "facts": [
+      "F21"
+    ],
+    "narrationId": "N019",
+    "purpose": "N019 / trace: 게임장 쪽 디엔에이도 신원불명이었습니다. 일치했다는 회신만으로 이름이 나오지는 않았어요. 이제 수사는 그 게임장 출입자들을 향합니다."
+  },
+  {
+    "id": "V4_059",
+    "start": 3984,
+    "end": 4046,
+    "set": "investigation",
+    "type": "low-angle",
+    "action": "trace",
+    "mood": "day",
+    "index": 58,
+    "variant": 0,
+    "facts": [
+      "F21"
+    ],
+    "narrationId": "N019",
+    "purpose": "N019 / trace: 게임장 쪽 디엔에이도 신원불명이었습니다. 일치했다는 회신만으로 이름이 나오지는 않았어요. 이제 수사는 그 게임장 출입자들을 향합니다."
+  },
+  {
+    "id": "V4_060",
+    "start": 4046,
+    "end": 4124,
+    "set": "investigation",
+    "type": "medium",
+    "action": "crowd",
+    "mood": "day",
+    "index": 59,
+    "variant": 1,
+    "facts": [
+      "F22"
+    ],
+    "narrationId": "N020",
+    "purpose": "N020 / crowd: 경찰이 연관성을 살핀 대상은 약 일만 오천 명. 게임장에 출입했을 가능성이 있는 종업원과 손님 등이었죠. 그 많은 사람 중 누구였을까요?"
+  },
+  {
+    "id": "V4_061",
+    "start": 4124,
+    "end": 4202,
+    "set": "investigation",
+    "type": "low-angle",
+    "action": "trace",
+    "mood": "day",
+    "index": 60,
+    "variant": 1,
+    "facts": [
+      "F22"
+    ],
+    "narrationId": "N020",
+    "purpose": "N020 / trace: 경찰이 연관성을 살핀 대상은 약 일만 오천 명. 게임장에 출입했을 가능성이 있는 종업원과 손님 등이었죠. 그 많은 사람 중 누구였을까요?"
+  },
+  {
+    "id": "V4_062",
+    "start": 4202,
+    "end": 4280,
+    "set": "investigation",
+    "type": "medium",
+    "action": "crowd",
+    "mood": "day",
+    "index": 61,
+    "variant": 1,
+    "facts": [
+      "F22"
+    ],
+    "narrationId": "N020",
+    "purpose": "N020 / crowd: 경찰이 연관성을 살핀 대상은 약 일만 오천 명. 게임장에 출입했을 가능성이 있는 종업원과 손님 등이었죠. 그 많은 사람 중 누구였을까요?"
+  },
+  {
+    "id": "V4_063",
+    "start": 4280,
+    "end": 4349,
+    "set": "investigation",
+    "type": "medium",
+    "action": "crowd",
+    "mood": "day",
+    "index": 62,
+    "variant": 2,
+    "facts": [
+      "F22",
+      "F23"
+    ],
+    "narrationId": "N021",
+    "purpose": "N021 / crowd: 약 일만 오천 명을 놓고 경찰은 단서를 겹쳐 봅니다. 사건 당시 목격자들이 설명한 인상착의와 몽타주를 함께 대조했어요."
+  },
+  {
+    "id": "V4_064",
+    "start": 4349,
+    "end": 4418,
+    "set": "investigation",
+    "type": "insert",
+    "action": "clues",
+    "mood": "day",
+    "index": 63,
+    "variant": 2,
+    "facts": [
+      "F22",
+      "F23"
+    ],
+    "narrationId": "N021",
+    "purpose": "N021 / clues: 약 일만 오천 명을 놓고 경찰은 단서를 겹쳐 봅니다. 사건 당시 목격자들이 설명한 인상착의와 몽타주를 함께 대조했어요."
+  },
+  {
+    "id": "V4_065",
+    "start": 4418,
+    "end": 4487,
+    "set": "investigation",
+    "type": "wide",
+    "action": "trace",
+    "mood": "day",
+    "index": 64,
+    "variant": 2,
+    "facts": [
+      "F22",
+      "F23"
+    ],
+    "narrationId": "N021",
+    "purpose": "N021 / trace: 약 일만 오천 명을 놓고 경찰은 단서를 겹쳐 봅니다. 사건 당시 목격자들이 설명한 인상착의와 몽타주를 함께 대조했어요."
+  },
+  {
+    "id": "V4_066",
+    "start": 4487,
+    "end": 4551,
+    "set": "investigation",
+    "type": "medium",
+    "action": "clues",
+    "mood": "day",
+    "index": 65,
+    "variant": 3,
+    "facts": [
+      "F11",
+      "F23"
+    ],
+    "narrationId": "N022",
+    "purpose": "N022 / clues: 차량 절도 수법도 살폈죠. 시동이 걸린 차를 훔친 전력과 당시 차량 절도의 방식이 수사에서 함께 검토됐습니다."
+  },
+  {
+    "id": "V4_067",
+    "start": 4551,
+    "end": 4615,
+    "set": "getaway",
+    "type": "medium",
+    "action": "car",
+    "mood": "tense",
+    "index": 66,
+    "variant": 3,
+    "facts": [
+      "F11",
+      "F23"
+    ],
+    "narrationId": "N022",
+    "purpose": "N022 / car: 차량 절도 수법도 살폈죠. 시동이 걸린 차를 훔친 전력과 당시 차량 절도의 방식이 수사에서 함께 검토됐습니다."
+  },
+  {
+    "id": "V4_068",
+    "start": 4615,
+    "end": 4679,
+    "set": "investigation",
+    "type": "close-up",
+    "action": "trace",
+    "mood": "day",
+    "index": 67,
+    "variant": 3,
+    "facts": [
+      "F11",
+      "F23"
+    ],
+    "narrationId": "N022",
+    "purpose": "N022 / trace: 차량 절도 수법도 살폈죠. 시동이 걸린 차를 훔친 전력과 당시 차량 절도의 방식이 수사에서 함께 검토됐습니다."
+  },
+  {
+    "id": "V4_069",
+    "start": 4679,
+    "end": 4757,
+    "set": "investigation",
+    "type": "medium",
+    "action": "clues",
+    "mood": "day",
+    "index": 68,
+    "variant": 4,
+    "facts": [
+      "F22",
+      "F23"
+    ],
+    "narrationId": "N023",
+    "purpose": "N023 / clues: 게임장 출입 가능성에 얼굴과 인상착의 그리고 범죄경력이 더해집니다. 수사 대상 모두에게서 디엔에이를 채취했다는 뜻은 아니에요."
+  },
+  {
+    "id": "V4_070",
+    "start": 4757,
+    "end": 4834,
+    "set": "investigation",
+    "type": "medium",
+    "action": "trace",
+    "mood": "day",
+    "index": 69,
+    "variant": 4,
+    "facts": [
+      "F22",
+      "F23"
+    ],
+    "narrationId": "N023",
+    "purpose": "N023 / trace: 게임장 출입 가능성에 얼굴과 인상착의 그리고 범죄경력이 더해집니다. 수사 대상 모두에게서 디엔에이를 채취했다는 뜻은 아니에요."
+  },
+  {
+    "id": "V4_071",
+    "start": 4834,
+    "end": 4912,
+    "set": "investigation",
+    "type": "medium",
+    "action": "crowd",
+    "mood": "day",
+    "index": 70,
+    "variant": 4,
+    "facts": [
+      "F22",
+      "F23"
+    ],
+    "narrationId": "N023",
+    "purpose": "N023 / crowd: 게임장 출입 가능성에 얼굴과 인상착의 그리고 범죄경력이 더해집니다. 수사 대상 모두에게서 디엔에이를 채취했다는 뜻은 아니에요."
+  },
+  {
+    "id": "V4_072",
+    "start": 4912,
+    "end": 4986,
+    "set": "lab",
+    "type": "medium",
+    "action": "dna",
+    "mood": "day",
+    "index": 71,
+    "variant": 5,
+    "facts": [
+      "F24"
+    ],
+    "narrationId": "N024",
+    "purpose": "N024 / dna: 이천이십이 년 삼월. 마침내 비가 유력 용의자로 특정됩니다. 은행 범행 차량에 남은 유전자의 주인이 비라는 사실을 확인한 거죠."
+  },
+  {
+    "id": "V4_073",
+    "start": 4986,
+    "end": 5060,
+    "set": "lab",
+    "type": "insert",
+    "action": "identity",
+    "mood": "day",
+    "index": 72,
+    "variant": 5,
+    "facts": [
+      "F24"
+    ],
+    "narrationId": "N024",
+    "purpose": "N024 / identity: 이천이십이 년 삼월. 마침내 비가 유력 용의자로 특정됩니다. 은행 범행 차량에 남은 유전자의 주인이 비라는 사실을 확인한 거죠."
+  },
+  {
+    "id": "V4_074",
+    "start": 5060,
+    "end": 5134,
+    "set": "investigation",
+    "type": "medium",
+    "action": "trace",
+    "mood": "day",
+    "index": 73,
+    "variant": 5,
+    "facts": [
+      "F24"
+    ],
+    "narrationId": "N024",
+    "purpose": "N024 / trace: 이천이십이 년 삼월. 마침내 비가 유력 용의자로 특정됩니다. 은행 범행 차량에 남은 유전자의 주인이 비라는 사실을 확인한 거죠."
+  },
+  {
+    "id": "V4_075",
+    "start": 5134,
+    "end": 5213,
+    "set": "investigation",
+    "type": "medium",
+    "action": "identity",
+    "mood": "day",
+    "index": 74,
+    "variant": 0,
+    "facts": [
+      "F18",
+      "F24"
+    ],
+    "narrationId": "N025",
+    "purpose": "N025 / identity: 여기서 먼저 연결된 사람은 비였습니다. 에이까지 같은 디엔에이로 찾아낸 것은 아니에요. 두 사람을 붙잡는 연결고리는 서로 달랐습니다."
+  },
+  {
+    "id": "V4_076",
+    "start": 5213,
+    "end": 5292,
+    "set": "investigation",
+    "type": "insert",
+    "action": "links",
+    "mood": "day",
+    "index": 75,
+    "variant": 1,
+    "facts": [
+      "F18",
+      "F24"
+    ],
+    "narrationId": "N025",
+    "purpose": "N025 / links: 여기서 먼저 연결된 사람은 비였습니다. 에이까지 같은 디엔에이로 찾아낸 것은 아니에요. 두 사람을 붙잡는 연결고리는 서로 달랐습니다."
+  },
+  {
+    "id": "V4_077",
+    "start": 5292,
+    "end": 5371,
+    "set": "investigation",
+    "type": "medium",
+    "action": "trace",
+    "mood": "day",
+    "index": 76,
+    "variant": 0,
+    "facts": [
+      "F18",
+      "F24"
+    ],
+    "narrationId": "N025",
+    "purpose": "N025 / trace: 여기서 먼저 연결된 사람은 비였습니다. 에이까지 같은 디엔에이로 찾아낸 것은 아니에요. 두 사람을 붙잡는 연결고리는 서로 달랐습니다."
+  },
+  {
+    "id": "V4_078",
+    "start": 5371,
+    "end": 5448,
+    "set": "investigation",
+    "type": "medium",
+    "action": "trace",
+    "mood": "day",
+    "index": 77,
+    "variant": 1,
+    "facts": [
+      "F24",
+      "F25"
+    ],
+    "narrationId": "N026",
+    "purpose": "N026 / trace: 경찰은 비의 과거 행적과 주변을 더 조사했죠. 삼월에 특정한 뒤 보강수사와 추적이 이어집니다. 체포는 그해 팔월 이십오 일이었어요."
+  },
+  {
+    "id": "V4_079",
+    "start": 5448,
+    "end": 5524,
+    "set": "investigation",
+    "type": "insert",
+    "action": "timeline",
+    "mood": "day",
+    "index": 78,
+    "variant": 1,
+    "facts": [
+      "F24",
+      "F25"
+    ],
+    "narrationId": "N026",
+    "purpose": "N026 / timeline: 경찰은 비의 과거 행적과 주변을 더 조사했죠. 삼월에 특정한 뒤 보강수사와 추적이 이어집니다. 체포는 그해 팔월 이십오 일이었어요."
+  },
+  {
+    "id": "V4_080",
+    "start": 5524,
+    "end": 5601,
+    "set": "investigation",
+    "type": "medium",
+    "action": "map",
+    "mood": "day",
+    "index": 79,
+    "variant": 1,
+    "facts": [
+      "F24",
+      "F25"
+    ],
+    "narrationId": "N026",
+    "purpose": "N026 / map: 경찰은 비의 과거 행적과 주변을 더 조사했죠. 삼월에 특정한 뒤 보강수사와 추적이 이어집니다. 체포는 그해 팔월 이십오 일이었어요."
+  },
+  {
+    "id": "V4_081",
+    "start": 5601,
+    "end": 5663,
+    "set": "evidence",
+    "type": "medium",
+    "action": "archive",
+    "mood": "day",
+    "index": 80,
+    "variant": 2,
+    "facts": [
+      "F16",
+      "F49"
+    ],
+    "narrationId": "N027",
+    "purpose": "N027 / archive: 은행 사건이 난 뒤 약 이십 년 팔 개월이 흐른 때입니다. 검거까지 쌓인 수사기록은 약 십오만 쪽으로 보도됐죠."
+  },
+  {
+    "id": "V4_082",
+    "start": 5663,
+    "end": 5726,
+    "set": "evidence",
+    "type": "low-angle",
+    "action": "trace",
+    "mood": "day",
+    "index": 81,
+    "variant": 2,
+    "facts": [
+      "F16",
+      "F49"
+    ],
+    "narrationId": "N027",
+    "purpose": "N027 / trace: 은행 사건이 난 뒤 약 이십 년 팔 개월이 흐른 때입니다. 검거까지 쌓인 수사기록은 약 십오만 쪽으로 보도됐죠."
+  },
+  {
+    "id": "V4_083",
+    "start": 5726,
+    "end": 5788,
+    "set": "evidence",
+    "type": "high-angle",
+    "action": "archive",
+    "mood": "day",
+    "index": 82,
+    "variant": 2,
+    "facts": [
+      "F16",
+      "F49"
+    ],
+    "narrationId": "N027",
+    "purpose": "N027 / archive: 은행 사건이 난 뒤 약 이십 년 팔 개월이 흐른 때입니다. 검거까지 쌓인 수사기록은 약 십오만 쪽으로 보도됐죠."
+  },
+  {
+    "id": "V4_084",
+    "start": 5788,
+    "end": 5866,
+    "set": "investigation",
+    "type": "medium",
+    "action": "map",
+    "mood": "day",
+    "index": 83,
+    "variant": 3,
+    "facts": [
+      "F25",
+      "F26"
+    ],
+    "narrationId": "N028",
+    "purpose": "N028 / map: 대전에서 비를 붙잡았습니다. 비는 에이와 함께 범행했다고 진술했어요. 이제 수사팀은 공범을 찾아갑니다. 에이는 어디에 있었을까요?"
+  },
+  {
+    "id": "V4_085",
+    "start": 5866,
+    "end": 5943,
+    "set": "investigation",
+    "type": "medium",
+    "action": "statement",
+    "mood": "day",
+    "index": 84,
+    "variant": 3,
+    "facts": [
+      "F25",
+      "F26"
+    ],
+    "narrationId": "N028",
+    "purpose": "N028 / statement: 대전에서 비를 붙잡았습니다. 비는 에이와 함께 범행했다고 진술했어요. 이제 수사팀은 공범을 찾아갑니다. 에이는 어디에 있었을까요?"
+  },
+  {
+    "id": "V4_086",
+    "start": 5943,
+    "end": 6021,
+    "set": "investigation",
+    "type": "medium",
+    "action": "links",
+    "mood": "day",
+    "index": 85,
+    "variant": 1,
+    "facts": [
+      "F25",
+      "F26"
+    ],
+    "narrationId": "N028",
+    "purpose": "N028 / links: 대전에서 비를 붙잡았습니다. 비는 에이와 함께 범행했다고 진술했어요. 이제 수사팀은 공범을 찾아갑니다. 에이는 어디에 있었을까요?"
+  },
+  {
+    "id": "V4_087",
+    "start": 6021,
+    "end": 6083,
+    "set": "spa",
+    "type": "wide",
+    "action": "spa",
+    "mood": "day",
+    "index": 86,
+    "variant": 4,
+    "facts": [
+      "F25",
+      "F26"
+    ],
+    "narrationId": "N029",
+    "purpose": "N029 / spa: 에이가 붙잡힌 곳은 강원도 정선의 찜질방이었습니다. 비의 진술을 토대로 에이도 체포됐죠. 디엔에이에서 시작된 수사가 공범에게 닿습니다."
+  },
+  {
+    "id": "V4_088",
+    "start": 6083,
+    "end": 6144,
+    "set": "spa",
+    "type": "medium",
+    "action": "spa",
+    "mood": "day",
+    "index": 87,
+    "variant": 4,
+    "facts": [
+      "F25",
+      "F26"
+    ],
+    "narrationId": "N029",
+    "purpose": "N029 / spa: 에이가 붙잡힌 곳은 강원도 정선의 찜질방이었습니다. 비의 진술을 토대로 에이도 체포됐죠. 디엔에이에서 시작된 수사가 공범에게 닿습니다."
+  },
+  {
+    "id": "V4_089",
+    "start": 6144,
+    "end": 6206,
+    "set": "investigation",
+    "type": "medium",
+    "action": "links",
+    "mood": "day",
+    "index": 88,
+    "variant": 1,
+    "facts": [
+      "F25",
+      "F26"
+    ],
+    "narrationId": "N029",
+    "purpose": "N029 / links: 에이가 붙잡힌 곳은 강원도 정선의 찜질방이었습니다. 비의 진술을 토대로 에이도 체포됐죠. 디엔에이에서 시작된 수사가 공범에게 닿습니다."
+  },
+  {
+    "id": "V4_090",
+    "start": 6206,
+    "end": 6268,
+    "set": "investigation",
+    "type": "insert",
+    "action": "links",
+    "mood": "day",
+    "index": 89,
+    "variant": 1,
+    "facts": [
+      "F25",
+      "F26"
+    ],
+    "narrationId": "N029",
+    "purpose": "N029 / links: 에이가 붙잡힌 곳은 강원도 정선의 찜질방이었습니다. 비의 진술을 토대로 에이도 체포됐죠. 디엔에이에서 시작된 수사가 공범에게 닿습니다."
+  },
+  {
+    "id": "V4_091",
+    "start": 6268,
+    "end": 6344,
+    "set": "investigation",
+    "type": "medium",
+    "action": "timeline",
+    "mood": "day",
+    "index": 90,
+    "variant": 5,
+    "facts": [
+      "F25",
+      "F27"
+    ],
+    "narrationId": "N030",
+    "purpose": "N030 / timeline: 두 사람을 체포한 날은 팔월 이십오 일. 구속된 날은 이십칠 일이었어요. 체포 뒤 조사에서는 누가 총을 쐈는지가 쟁점으로 떠오릅니다."
+  },
+  {
+    "id": "V4_092",
+    "start": 6344,
+    "end": 6421,
+    "set": "investigation",
+    "type": "medium",
+    "action": "trace",
+    "mood": "day",
+    "index": 91,
+    "variant": 5,
+    "facts": [
+      "F25",
+      "F27"
+    ],
+    "narrationId": "N030",
+    "purpose": "N030 / trace: 두 사람을 체포한 날은 팔월 이십오 일. 구속된 날은 이십칠 일이었어요. 체포 뒤 조사에서는 누가 총을 쐈는지가 쟁점으로 떠오릅니다."
+  },
+  {
+    "id": "V4_093",
+    "start": 6421,
+    "end": 6497,
+    "set": "investigation",
+    "type": "low-angle",
+    "action": "interview",
+    "mood": "day",
+    "index": 92,
+    "variant": 5,
+    "facts": [
+      "F25",
+      "F27"
+    ],
+    "narrationId": "N030",
+    "purpose": "N030 / interview: 두 사람을 체포한 날은 팔월 이십오 일. 구속된 날은 이십칠 일이었어요. 체포 뒤 조사에서는 누가 총을 쐈는지가 쟁점으로 떠오릅니다."
+  },
+  {
+    "id": "V4_094",
+    "start": 6497,
+    "end": 6564,
+    "set": "investigation",
+    "type": "low-angle",
+    "action": "interview",
+    "mood": "day",
+    "index": 93,
+    "variant": 0,
+    "facts": [
+      "F28"
+    ],
+    "narrationId": "N031",
+    "purpose": "N031 / interview: 경찰 발표에 따르면 에이는 처음 범행을 부인했습니다. 구월 일 일에는 범행을 주도하고 총을 쏜 사실까지 시인했죠."
+  },
+  {
+    "id": "V4_095",
+    "start": 6564,
+    "end": 6631,
+    "set": "investigation",
+    "type": "high-angle",
+    "action": "statement",
+    "mood": "day",
+    "index": 94,
+    "variant": 0,
+    "facts": [
+      "F28"
+    ],
+    "narrationId": "N031",
+    "purpose": "N031 / statement: 경찰 발표에 따르면 에이는 처음 범행을 부인했습니다. 구월 일 일에는 범행을 주도하고 총을 쏜 사실까지 시인했죠."
+  },
+  {
+    "id": "V4_096",
+    "start": 6631,
+    "end": 6698,
+    "set": "investigation",
+    "type": "medium",
+    "action": "trace",
+    "mood": "day",
+    "index": 95,
+    "variant": 0,
+    "facts": [
+      "F28"
+    ],
+    "narrationId": "N031",
+    "purpose": "N031 / trace: 경찰 발표에 따르면 에이는 처음 범행을 부인했습니다. 구월 일 일에는 범행을 주도하고 총을 쏜 사실까지 시인했죠."
+  },
+  {
+    "id": "V4_097",
+    "start": 6698,
+    "end": 6773,
+    "set": "court",
+    "type": "wide",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 96,
+    "variant": 1,
+    "facts": [
+      "F28",
+      "F31"
+    ],
+    "narrationId": "N032",
+    "purpose": "N032 / court: 그런데 재판이 시작되자 에이는 총격을 부인했어요. 법정 보도에는 이런 말이 남습니다. “총을 쏜 건 제가 아니다”. 에이의 발언입니다."
+  },
+  {
+    "id": "V4_098",
+    "start": 6773,
+    "end": 6847,
+    "set": "court",
+    "type": "wide",
+    "action": "statement",
+    "mood": "courtroom",
+    "index": 97,
+    "variant": 1,
+    "facts": [
+      "F28",
+      "F31"
+    ],
+    "narrationId": "N032",
+    "purpose": "N032 / statement: 그런데 재판이 시작되자 에이는 총격을 부인했어요. 법정 보도에는 이런 말이 남습니다. “총을 쏜 건 제가 아니다”. 에이의 발언입니다."
+  },
+  {
+    "id": "V4_099",
+    "start": 6847,
+    "end": 6922,
+    "set": "court",
+    "type": "close-up",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 98,
+    "variant": 1,
+    "facts": [
+      "F28",
+      "F31"
+    ],
+    "narrationId": "N032",
+    "purpose": "N032 / judge: 그런데 재판이 시작되자 에이는 총격을 부인했어요. 법정 보도에는 이런 말이 남습니다. “총을 쏜 건 제가 아니다”. 에이의 발언입니다."
+  },
+  {
+    "id": "V4_100",
+    "start": 6922,
+    "end": 6997,
+    "set": "court",
+    "type": "medium",
+    "action": "split",
+    "mood": "courtroom",
+    "index": 99,
+    "variant": 2,
+    "facts": [
+      "F34"
+    ],
+    "narrationId": "N033",
+    "purpose": "N033 / split: 에이는 비가 총을 쐈다고 주장했죠. 비는 에이가 쐈다고 진술했습니다. 함께 범행한 두 사람이 총을 쏜 책임을 상대에게 돌린 거예요."
+  },
+  {
+    "id": "V4_101",
+    "start": 6997,
+    "end": 7073,
+    "set": "court",
+    "type": "medium",
+    "action": "statement",
+    "mood": "courtroom",
+    "index": 100,
+    "variant": 2,
+    "facts": [
+      "F34"
+    ],
+    "narrationId": "N033",
+    "purpose": "N033 / statement: 에이는 비가 총을 쐈다고 주장했죠. 비는 에이가 쐈다고 진술했습니다. 함께 범행한 두 사람이 총을 쏜 책임을 상대에게 돌린 거예요."
+  },
+  {
+    "id": "V4_102",
+    "start": 7073,
+    "end": 7148,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 101,
+    "variant": 2,
+    "facts": [
+      "F34"
+    ],
+    "narrationId": "N033",
+    "purpose": "N033 / judge: 에이는 비가 총을 쐈다고 주장했죠. 비는 에이가 쐈다고 진술했습니다. 함께 범행한 두 사람이 총을 쏜 책임을 상대에게 돌린 거예요."
+  },
+  {
+    "id": "V4_103",
+    "start": 7148,
+    "end": 7210,
+    "set": "investigation",
+    "type": "medium",
+    "action": "statement",
+    "mood": "day",
+    "index": 102,
+    "variant": 3,
+    "facts": [
+      "F35"
+    ],
+    "narrationId": "N034",
+    "purpose": "N034 / statement: 돈을 나눈 방식도 진술이 달랐습니다. 비는 자신이 구천만 원을 받고 에이가 이억 천만 원을 가져갔다고 했죠."
+  },
+  {
+    "id": "V4_104",
+    "start": 7210,
+    "end": 7272,
+    "set": "investigation",
+    "type": "low-angle",
+    "action": "interview",
+    "mood": "day",
+    "index": 103,
+    "variant": 3,
+    "facts": [
+      "F35"
+    ],
+    "narrationId": "N034",
+    "purpose": "N034 / interview: 돈을 나눈 방식도 진술이 달랐습니다. 비는 자신이 구천만 원을 받고 에이가 이억 천만 원을 가져갔다고 했죠."
+  },
+  {
+    "id": "V4_105",
+    "start": 7272,
+    "end": 7334,
+    "set": "investigation",
+    "type": "high-angle",
+    "action": "statement",
+    "mood": "day",
+    "index": 104,
+    "variant": 3,
+    "facts": [
+      "F35"
+    ],
+    "narrationId": "N034",
+    "purpose": "N034 / statement: 돈을 나눈 방식도 진술이 달랐습니다. 비는 자신이 구천만 원을 받고 에이가 이억 천만 원을 가져갔다고 했죠."
+  },
+  {
+    "id": "V4_106",
+    "start": 7334,
+    "end": 7405,
+    "set": "investigation",
+    "type": "high-angle",
+    "action": "statement",
+    "mood": "day",
+    "index": 105,
+    "variant": 4,
+    "facts": [
+      "F35"
+    ],
+    "narrationId": "N035",
+    "purpose": "N035 / statement: 에이는 절반씩 나눴다고 진술했어요. 이 금액들은 두 사람의 주장입니다. 서로 다른 진술을 두고 법원은 무엇을 믿었을까요?"
+  },
+  {
+    "id": "V4_107",
+    "start": 7405,
+    "end": 7475,
+    "set": "investigation",
+    "type": "medium",
+    "action": "interview",
+    "mood": "day",
+    "index": 106,
+    "variant": 4,
+    "facts": [
+      "F35"
+    ],
+    "narrationId": "N035",
+    "purpose": "N035 / interview: 에이는 절반씩 나눴다고 진술했어요. 이 금액들은 두 사람의 주장입니다. 서로 다른 진술을 두고 법원은 무엇을 믿었을까요?"
+  },
+  {
+    "id": "V4_108",
+    "start": 7475,
+    "end": 7546,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 107,
+    "variant": 4,
+    "facts": [
+      "F35"
+    ],
+    "narrationId": "N035",
+    "purpose": "N035 / judge: 에이는 절반씩 나눴다고 진술했어요. 이 금액들은 두 사람의 주장입니다. 서로 다른 진술을 두고 법원은 무엇을 믿었을까요?"
+  },
+  {
+    "id": "V4_109",
+    "start": 7546,
+    "end": 7621,
+    "set": "court",
+    "type": "medium",
+    "action": "timeline",
+    "mood": "courtroom",
+    "index": 108,
+    "variant": 5,
+    "facts": [
+      "F29"
+    ],
+    "narrationId": "N036",
+    "purpose": "N036 / timeline: 대전지검은 이천이십이 년 구월 이십 일 두 사람을 강도살인 혐의로 구속기소했다고 밝혔습니다. 사건은 법원의 판단을 받게 됐죠."
+  },
+  {
+    "id": "V4_110",
+    "start": 7621,
+    "end": 7696,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 109,
+    "variant": 5,
+    "facts": [
+      "F29"
+    ],
+    "narrationId": "N036",
+    "purpose": "N036 / court: 대전지검은 이천이십이 년 구월 이십 일 두 사람을 강도살인 혐의로 구속기소했다고 밝혔습니다. 사건은 법원의 판단을 받게 됐죠."
+  },
+  {
+    "id": "V4_111",
+    "start": 7696,
+    "end": 7771,
+    "set": "court",
+    "type": "close-up",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 110,
+    "variant": 5,
+    "facts": [
+      "F29"
+    ],
+    "narrationId": "N036",
+    "purpose": "N036 / judge: 대전지검은 이천이십이 년 구월 이십 일 두 사람을 강도살인 혐의로 구속기소했다고 밝혔습니다. 사건은 법원의 판단을 받게 됐죠."
+  },
+  {
+    "id": "V4_112",
+    "start": 7771,
+    "end": 7838,
+    "set": "court",
+    "type": "wide",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 111,
+    "variant": 0,
+    "facts": [
+      "F30"
+    ],
+    "narrationId": "N037",
+    "purpose": "N037 / court: 이천이십삼 년 일월 십육 일 결심공판. 검찰은 에이에게 사형을 구형합니다. 비에게 요구한 형은 무기징역이었어요."
+  },
+  {
+    "id": "V4_113",
+    "start": 7838,
+    "end": 7904,
+    "set": "court",
+    "type": "close-up",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 112,
+    "variant": 0,
+    "facts": [
+      "F30"
+    ],
+    "narrationId": "N037",
+    "purpose": "N037 / judge: 이천이십삼 년 일월 십육 일 결심공판. 검찰은 에이에게 사형을 구형합니다. 비에게 요구한 형은 무기징역이었어요."
+  },
+  {
+    "id": "V4_114",
+    "start": 7904,
+    "end": 7971,
+    "set": "court",
+    "type": "medium",
+    "action": "records",
+    "mood": "courtroom",
+    "index": 113,
+    "variant": 0,
+    "facts": [
+      "F30"
+    ],
+    "narrationId": "N037",
+    "purpose": "N037 / records: 이천이십삼 년 일월 십육 일 결심공판. 검찰은 에이에게 사형을 구형합니다. 비에게 요구한 형은 무기징역이었어요."
+  },
+  {
+    "id": "V4_115",
+    "start": 7971,
+    "end": 8035,
+    "set": "court",
+    "type": "medium",
+    "action": "records",
+    "mood": "courtroom",
+    "index": 114,
+    "variant": 1,
+    "facts": [
+      "F30",
+      "F36"
+    ],
+    "narrationId": "N038",
+    "purpose": "N038 / records: 검찰이 요청한 형과 법원이 선고한 형은 구별됩니다. 그다음 달 이월 십칠 일 대전지법에서 일심 판결이 나왔죠."
+  },
+  {
+    "id": "V4_116",
+    "start": 8035,
+    "end": 8098,
+    "set": "court",
+    "type": "insert",
+    "action": "timeline",
+    "mood": "courtroom",
+    "index": 115,
+    "variant": 1,
+    "facts": [
+      "F30",
+      "F36"
+    ],
+    "narrationId": "N038",
+    "purpose": "N038 / timeline: 검찰이 요청한 형과 법원이 선고한 형은 구별됩니다. 그다음 달 이월 십칠 일 대전지법에서 일심 판결이 나왔죠."
+  },
+  {
+    "id": "V4_117",
+    "start": 8098,
+    "end": 8162,
+    "set": "court",
+    "type": "close-up",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 116,
+    "variant": 1,
+    "facts": [
+      "F30",
+      "F36"
+    ],
+    "narrationId": "N038",
+    "purpose": "N038 / judge: 검찰이 요청한 형과 법원이 선고한 형은 구별됩니다. 그다음 달 이월 십칠 일 대전지법에서 일심 판결이 나왔죠."
+  },
+  {
+    "id": "V4_118",
+    "start": 8162,
+    "end": 8240,
+    "set": "court",
+    "type": "wide",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 117,
+    "variant": 2,
+    "facts": [
+      "F36"
+    ],
+    "narrationId": "N039",
+    "purpose": "N039 / court: 에이에게는 무기징역. 비에게는 징역 이십 년을 선고했습니다. 두 사람의 형량이 갈렸어요. 법원은 범행 역할과 진술을 어떻게 봤을까요?"
+  },
+  {
+    "id": "V4_119",
+    "start": 8240,
+    "end": 8318,
+    "set": "court",
+    "type": "wide",
+    "action": "split",
+    "mood": "courtroom",
+    "index": 118,
+    "variant": 2,
+    "facts": [
+      "F36"
+    ],
+    "narrationId": "N039",
+    "purpose": "N039 / split: 에이에게는 무기징역. 비에게는 징역 이십 년을 선고했습니다. 두 사람의 형량이 갈렸어요. 법원은 범행 역할과 진술을 어떻게 봤을까요?"
+  },
+  {
+    "id": "V4_120",
+    "start": 8318,
+    "end": 8396,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 119,
+    "variant": 2,
+    "facts": [
+      "F36"
+    ],
+    "narrationId": "N039",
+    "purpose": "N039 / judge: 에이에게는 무기징역. 비에게는 징역 이십 년을 선고했습니다. 두 사람의 형량이 갈렸어요. 법원은 범행 역할과 진술을 어떻게 봤을까요?"
+  },
+  {
+    "id": "V4_121",
+    "start": 8396,
+    "end": 8468,
+    "set": "court",
+    "type": "close-up",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 120,
+    "variant": 3,
+    "facts": [
+      "F37"
+    ],
+    "narrationId": "N040",
+    "purpose": "N040 / judge: 일심은 에이가 권총을 쐈다고 인정했죠. 총기 사용 경험과 권총을 잡고 조준한 정황 그리고 진술의 신빙성을 함께 살폈습니다."
+  },
+  {
+    "id": "V4_122",
+    "start": 8468,
+    "end": 8540,
+    "set": "court",
+    "type": "insert",
+    "action": "records",
+    "mood": "courtroom",
+    "index": 121,
+    "variant": 3,
+    "facts": [
+      "F37"
+    ],
+    "narrationId": "N040",
+    "purpose": "N040 / records: 일심은 에이가 권총을 쐈다고 인정했죠. 총기 사용 경험과 권총을 잡고 조준한 정황 그리고 진술의 신빙성을 함께 살폈습니다."
+  },
+  {
+    "id": "V4_123",
+    "start": 8540,
+    "end": 8612,
+    "set": "court",
+    "type": "high-angle",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 122,
+    "variant": 3,
+    "facts": [
+      "F37"
+    ],
+    "narrationId": "N040",
+    "purpose": "N040 / court: 일심은 에이가 권총을 쐈다고 인정했죠. 총기 사용 경험과 권총을 잡고 조준한 정황 그리고 진술의 신빙성을 함께 살폈습니다."
+  },
+  {
+    "id": "V4_124",
+    "start": 8612,
+    "end": 8686,
+    "set": "court",
+    "type": "medium",
+    "action": "statement",
+    "mood": "courtroom",
+    "index": 123,
+    "variant": 4,
+    "facts": [
+      "F37"
+    ],
+    "narrationId": "N041",
+    "purpose": "N041 / statement: 비의 진술은 주요 부분에서 일관되고 다른 진술이나 증거와도 맞는다고 판단했어요. 에이의 진술은 설득력이 떨어진다고 봤죠."
+  },
+  {
+    "id": "V4_125",
+    "start": 8686,
+    "end": 8760,
+    "set": "court",
+    "type": "close-up",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 124,
+    "variant": 4,
+    "facts": [
+      "F37"
+    ],
+    "narrationId": "N041",
+    "purpose": "N041 / judge: 비의 진술은 주요 부분에서 일관되고 다른 진술이나 증거와도 맞는다고 판단했어요. 에이의 진술은 설득력이 떨어진다고 봤죠."
+  },
+  {
+    "id": "V4_126",
+    "start": 8760,
+    "end": 8834,
+    "set": "court",
+    "type": "medium",
+    "action": "records",
+    "mood": "courtroom",
+    "index": 125,
+    "variant": 4,
+    "facts": [
+      "F37"
+    ],
+    "narrationId": "N041",
+    "purpose": "N041 / records: 비의 진술은 주요 부분에서 일관되고 다른 진술이나 증거와도 맞는다고 판단했어요. 에이의 진술은 설득력이 떨어진다고 봤죠."
+  },
+  {
+    "id": "V4_127",
+    "start": 8834,
+    "end": 8911,
+    "set": "court",
+    "type": "medium",
+    "action": "records",
+    "mood": "courtroom",
+    "index": 126,
+    "variant": 5,
+    "facts": [
+      "F37",
+      "F38"
+    ],
+    "narrationId": "N042",
+    "purpose": "N042 / records: 군 복무 경력만으로 발사자를 정한 판단은 아니었습니다. 여러 근거를 살핀 뒤 에이의 총격을 인정하고 비의 역할도 따로 평가합니다."
+  },
+  {
+    "id": "V4_128",
+    "start": 8911,
+    "end": 8987,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 127,
+    "variant": 5,
+    "facts": [
+      "F37",
+      "F38"
+    ],
+    "narrationId": "N042",
+    "purpose": "N042 / judge: 군 복무 경력만으로 발사자를 정한 판단은 아니었습니다. 여러 근거를 살핀 뒤 에이의 총격을 인정하고 비의 역할도 따로 평가합니다."
+  },
+  {
+    "id": "V4_129",
+    "start": 8987,
+    "end": 9064,
+    "set": "court",
+    "type": "high-angle",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 128,
+    "variant": 5,
+    "facts": [
+      "F37",
+      "F38"
+    ],
+    "narrationId": "N042",
+    "purpose": "N042 / court: 군 복무 경력만으로 발사자를 정한 판단은 아니었습니다. 여러 근거를 살핀 뒤 에이의 총격을 인정하고 비의 역할도 따로 평가합니다."
+  },
+  {
+    "id": "V4_130",
+    "start": 9064,
+    "end": 9145,
+    "set": "court",
+    "type": "wide",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 129,
+    "variant": 0,
+    "facts": [
+      "F38"
+    ],
+    "narrationId": "N043",
+    "purpose": "N043 / court: 일심은 비가 에이의 지시에 따라 범행을 돕는 역할을 했다고 봤어요. 비의 자백이 장기 미제 사건의 경위를 밝히는 데 도움을 준 점도 고려했죠."
+  },
+  {
+    "id": "V4_131",
+    "start": 9145,
+    "end": 9225,
+    "set": "court",
+    "type": "medium",
+    "action": "statement",
+    "mood": "courtroom",
+    "index": 130,
+    "variant": 0,
+    "facts": [
+      "F38"
+    ],
+    "narrationId": "N043",
+    "purpose": "N043 / statement: 일심은 비가 에이의 지시에 따라 범행을 돕는 역할을 했다고 봤어요. 비의 자백이 장기 미제 사건의 경위를 밝히는 데 도움을 준 점도 고려했죠."
+  },
+  {
+    "id": "V4_132",
+    "start": 9225,
+    "end": 9306,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 131,
+    "variant": 0,
+    "facts": [
+      "F38"
+    ],
+    "narrationId": "N043",
+    "purpose": "N043 / judge: 일심은 비가 에이의 지시에 따라 범행을 돕는 역할을 했다고 봤어요. 비의 자백이 장기 미제 사건의 경위를 밝히는 데 도움을 준 점도 고려했죠."
+  },
+  {
+    "id": "V4_133",
+    "start": 9306,
+    "end": 9372,
+    "set": "court",
+    "type": "wide",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 132,
+    "variant": 1,
+    "facts": [
+      "F33",
+      "F38"
+    ],
+    "narrationId": "N044",
+    "purpose": "N044 / court: 비는 최후진술에서 피해자와 유족에게 사죄했습니다. 아내와 아이들에게도 용서를 구하고 싶다고 말했어요. 이것은 피고인이 법정에서 한 진술입니다."
+  },
+  {
+    "id": "V4_134",
+    "start": 9372,
+    "end": 9438,
+    "set": "court",
+    "type": "medium",
+    "action": "statement",
+    "mood": "courtroom",
+    "index": 133,
+    "variant": 1,
+    "facts": [
+      "F33",
+      "F38"
+    ],
+    "narrationId": "N044",
+    "purpose": "N044 / statement: 비는 최후진술에서 피해자와 유족에게 사죄했습니다. 아내와 아이들에게도 용서를 구하고 싶다고 말했어요. 이것은 피고인이 법정에서 한 진술입니다."
+  },
+  {
+    "id": "V4_135",
+    "start": 9438,
+    "end": 9504,
+    "set": "court",
+    "type": "close-up",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 134,
+    "variant": 1,
+    "facts": [
+      "F33",
+      "F38"
+    ],
+    "narrationId": "N044",
+    "purpose": "N044 / judge: 비는 최후진술에서 피해자와 유족에게 사죄했습니다. 아내와 아이들에게도 용서를 구하고 싶다고 말했어요. 이것은 피고인이 법정에서 한 진술입니다."
+  },
+  {
+    "id": "V4_136",
+    "start": 9504,
+    "end": 9570,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 135,
+    "variant": 1,
+    "facts": [
+      "F33",
+      "F38"
+    ],
+    "narrationId": "N044",
+    "purpose": "N044 / judge: 비는 최후진술에서 피해자와 유족에게 사죄했습니다. 아내와 아이들에게도 용서를 구하고 싶다고 말했어요. 이것은 피고인이 법정에서 한 진술입니다."
+  },
+  {
+    "id": "V4_137",
+    "start": 9570,
+    "end": 9649,
+    "set": "court",
+    "type": "wide",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 136,
+    "variant": 2,
+    "facts": [
+      "F36",
+      "F40"
+    ],
+    "narrationId": "N045",
+    "purpose": "N045 / court: 그래서 일심의 형은 무기징역과 징역 이십 년으로 갈렸죠. 하지만 이십 년은 최종 형량이 아니었습니다. 항소심은 왜 이 숫자를 바꿨을까요?"
+  },
+  {
+    "id": "V4_138",
+    "start": 9649,
+    "end": 9729,
+    "set": "court",
+    "type": "insert",
+    "action": "scale",
+    "mood": "courtroom",
+    "index": 137,
+    "variant": 2,
+    "facts": [
+      "F36",
+      "F40"
+    ],
+    "narrationId": "N045",
+    "purpose": "N045 / scale: 그래서 일심의 형은 무기징역과 징역 이십 년으로 갈렸죠. 하지만 이십 년은 최종 형량이 아니었습니다. 항소심은 왜 이 숫자를 바꿨을까요?"
+  },
+  {
+    "id": "V4_139",
+    "start": 9729,
+    "end": 9808,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 138,
+    "variant": 2,
+    "facts": [
+      "F36",
+      "F40"
+    ],
+    "narrationId": "N045",
+    "purpose": "N045 / judge: 그래서 일심의 형은 무기징역과 징역 이십 년으로 갈렸죠. 하지만 이십 년은 최종 형량이 아니었습니다. 항소심은 왜 이 숫자를 바꿨을까요?"
+  },
+  {
+    "id": "V4_140",
+    "start": 9808,
+    "end": 9883,
+    "set": "court",
+    "type": "medium",
+    "action": "timeline",
+    "mood": "courtroom",
+    "index": 139,
+    "variant": 3,
+    "facts": [
+      "F40"
+    ],
+    "narrationId": "N046",
+    "purpose": "N046 / timeline: 이천이십삼 년 팔월 십팔 일 대전고법. 항소심은 에이와 비에게 모두 무기징역을 선고합니다. 비의 이십 년형이 무기로 높아졌어요."
+  },
+  {
+    "id": "V4_141",
+    "start": 9883,
+    "end": 9958,
+    "set": "court",
+    "type": "wide",
+    "action": "verdict",
+    "mood": "courtroom",
+    "index": 140,
+    "variant": 3,
+    "facts": [
+      "F40"
+    ],
+    "narrationId": "N046",
+    "purpose": "N046 / verdict: 이천이십삼 년 팔월 십팔 일 대전고법. 항소심은 에이와 비에게 모두 무기징역을 선고합니다. 비의 이십 년형이 무기로 높아졌어요."
+  },
+  {
+    "id": "V4_142",
+    "start": 9958,
+    "end": 10033,
+    "set": "court",
+    "type": "close-up",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 141,
+    "variant": 3,
+    "facts": [
+      "F40"
+    ],
+    "narrationId": "N046",
+    "purpose": "N046 / judge: 이천이십삼 년 팔월 십팔 일 대전고법. 항소심은 에이와 비에게 모두 무기징역을 선고합니다. 비의 이십 년형이 무기로 높아졌어요."
+  },
+  {
+    "id": "V4_143",
+    "start": 10033,
+    "end": 10114,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 142,
+    "variant": 4,
+    "facts": [
+      "F43"
+    ],
+    "narrationId": "N047",
+    "purpose": "N047 / judge: 항소심에서도 에이가 권총을 발사해 피해자를 살해했다는 판단은 유지됐죠. 비의 형이 오른 뒤에도 발사자로 인정된 사람은 에이였습니다."
+  },
+  {
+    "id": "V4_144",
+    "start": 10114,
+    "end": 10194,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 143,
+    "variant": 4,
+    "facts": [
+      "F43"
+    ],
+    "narrationId": "N047",
+    "purpose": "N047 / court: 항소심에서도 에이가 권총을 발사해 피해자를 살해했다는 판단은 유지됐죠. 비의 형이 오른 뒤에도 발사자로 인정된 사람은 에이였습니다."
+  },
+  {
+    "id": "V4_145",
+    "start": 10194,
+    "end": 10275,
+    "set": "court",
+    "type": "medium",
+    "action": "records",
+    "mood": "courtroom",
+    "index": 144,
+    "variant": 4,
+    "facts": [
+      "F43"
+    ],
+    "narrationId": "N047",
+    "purpose": "N047 / records: 항소심에서도 에이가 권총을 발사해 피해자를 살해했다는 판단은 유지됐죠. 비의 형이 오른 뒤에도 발사자로 인정된 사람은 에이였습니다."
+  },
+  {
+    "id": "V4_146",
+    "start": 10275,
+    "end": 10346,
+    "set": "court",
+    "type": "medium",
+    "action": "records",
+    "mood": "courtroom",
+    "index": 145,
+    "variant": 5,
+    "facts": [
+      "F41"
+    ],
+    "narrationId": "N048",
+    "purpose": "N048 / records: 재판부가 먼저 짚은 것은 일심 이십 년형의 법리 문제예요. 강도살인의 법정형은 사형 또는 무기징역이라고 설명했습니다."
+  },
+  {
+    "id": "V4_147",
+    "start": 10346,
+    "end": 10416,
+    "set": "court",
+    "type": "insert",
+    "action": "scale",
+    "mood": "courtroom",
+    "index": 146,
+    "variant": 5,
+    "facts": [
+      "F41"
+    ],
+    "narrationId": "N048",
+    "purpose": "N048 / scale: 재판부가 먼저 짚은 것은 일심 이십 년형의 법리 문제예요. 강도살인의 법정형은 사형 또는 무기징역이라고 설명했습니다."
+  },
+  {
+    "id": "V4_148",
+    "start": 10416,
+    "end": 10487,
+    "set": "court",
+    "type": "close-up",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 147,
+    "variant": 5,
+    "facts": [
+      "F41"
+    ],
+    "narrationId": "N048",
+    "purpose": "N048 / judge: 재판부가 먼저 짚은 것은 일심 이십 년형의 법리 문제예요. 강도살인의 법정형은 사형 또는 무기징역이라고 설명했습니다."
+  },
+  {
+    "id": "V4_149",
+    "start": 10487,
+    "end": 10555,
+    "set": "court",
+    "type": "medium",
+    "action": "scale",
+    "mood": "courtroom",
+    "index": 148,
+    "variant": 0,
+    "facts": [
+      "F41"
+    ],
+    "narrationId": "N049",
+    "purpose": "N049 / scale: 이어 이 사건에 적용되는 법에 따라 정상을 참작해 감경하더라도 유기징역은 칠 년에서 십오 년 범위여야 한다고 봤죠."
+  },
+  {
+    "id": "V4_150",
+    "start": 10555,
+    "end": 10623,
+    "set": "court",
+    "type": "close-up",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 149,
+    "variant": 0,
+    "facts": [
+      "F41"
+    ],
+    "narrationId": "N049",
+    "purpose": "N049 / judge: 이어 이 사건에 적용되는 법에 따라 정상을 참작해 감경하더라도 유기징역은 칠 년에서 십오 년 범위여야 한다고 봤죠."
+  },
+  {
+    "id": "V4_151",
+    "start": 10623,
+    "end": 10691,
+    "set": "court",
+    "type": "medium",
+    "action": "records",
+    "mood": "courtroom",
+    "index": 150,
+    "variant": 0,
+    "facts": [
+      "F41"
+    ],
+    "narrationId": "N049",
+    "purpose": "N049 / records: 이어 이 사건에 적용되는 법에 따라 정상을 참작해 감경하더라도 유기징역은 칠 년에서 십오 년 범위여야 한다고 봤죠."
+  },
+  {
+    "id": "V4_152",
+    "start": 10691,
+    "end": 10769,
+    "set": "court",
+    "type": "medium",
+    "action": "records",
+    "mood": "courtroom",
+    "index": 151,
+    "variant": 1,
+    "facts": [
+      "F41"
+    ],
+    "narrationId": "N050",
+    "purpose": "N050 / records: 일심이 선고한 이십 년은 그 범위를 벗어났다는 판단입니다. 여기까지라면 의문이 남아요. 그렇다면 비의 형을 십오 년으로 낮춘 걸까요?"
+  },
+  {
+    "id": "V4_153",
+    "start": 10769,
+    "end": 10847,
+    "set": "court",
+    "type": "insert",
+    "action": "scale",
+    "mood": "courtroom",
+    "index": 152,
+    "variant": 1,
+    "facts": [
+      "F41"
+    ],
+    "narrationId": "N050",
+    "purpose": "N050 / scale: 일심이 선고한 이십 년은 그 범위를 벗어났다는 판단입니다. 여기까지라면 의문이 남아요. 그렇다면 비의 형을 십오 년으로 낮춘 걸까요?"
+  },
+  {
+    "id": "V4_154",
+    "start": 10847,
+    "end": 10925,
+    "set": "court",
+    "type": "close-up",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 153,
+    "variant": 1,
+    "facts": [
+      "F41"
+    ],
+    "narrationId": "N050",
+    "purpose": "N050 / judge: 일심이 선고한 이십 년은 그 범위를 벗어났다는 판단입니다. 여기까지라면 의문이 남아요. 그렇다면 비의 형을 십오 년으로 낮춘 걸까요?"
+  },
+  {
+    "id": "V4_155",
+    "start": 10925,
+    "end": 10988,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 154,
+    "variant": 2,
+    "facts": [
+      "F41",
+      "F42"
+    ],
+    "narrationId": "N051",
+    "purpose": "N051 / judge: 항소심은 비에게 정상참작 감경을 하지 않았습니다. 비에게 불리한 사정이 유리한 사정을 압도한다고 판단했죠. 그래서 무기징역을 선택합니다."
+  },
+  {
+    "id": "V4_156",
+    "start": 10988,
+    "end": 11050,
+    "set": "court",
+    "type": "insert",
+    "action": "scale",
+    "mood": "courtroom",
+    "index": 155,
+    "variant": 2,
+    "facts": [
+      "F41",
+      "F42"
+    ],
+    "narrationId": "N051",
+    "purpose": "N051 / scale: 항소심은 비에게 정상참작 감경을 하지 않았습니다. 비에게 불리한 사정이 유리한 사정을 압도한다고 판단했죠. 그래서 무기징역을 선택합니다."
+  },
+  {
+    "id": "V4_157",
+    "start": 11050,
+    "end": 11113,
+    "set": "court",
+    "type": "low-angle",
+    "action": "verdict",
+    "mood": "courtroom",
+    "index": 156,
+    "variant": 2,
+    "facts": [
+      "F41",
+      "F42"
+    ],
+    "narrationId": "N051",
+    "purpose": "N051 / verdict: 항소심은 비에게 정상참작 감경을 하지 않았습니다. 비에게 불리한 사정이 유리한 사정을 압도한다고 판단했죠. 그래서 무기징역을 선택합니다."
+  },
+  {
+    "id": "V4_158",
+    "start": 11113,
+    "end": 11176,
+    "set": "court",
+    "type": "high-angle",
+    "action": "verdict",
+    "mood": "courtroom",
+    "index": 157,
+    "variant": 2,
+    "facts": [
+      "F41",
+      "F42"
+    ],
+    "narrationId": "N051",
+    "purpose": "N051 / verdict: 항소심은 비에게 정상참작 감경을 하지 않았습니다. 비에게 불리한 사정이 유리한 사정을 압도한다고 판단했죠. 그래서 무기징역을 선택합니다."
+  },
+  {
+    "id": "V4_159",
+    "start": 11176,
+    "end": 11238,
+    "set": "court",
+    "type": "wide",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 158,
+    "variant": 3,
+    "facts": [
+      "F38",
+      "F42"
+    ],
+    "narrationId": "N052",
+    "purpose": "N052 / court: 일심이 고려한 자백과 범행을 도운 역할이 있었습니다. 항소심은 감경 여부를 다시 판단했어요. 비에게 유리한 사정만으로 형을 줄이지 않았죠."
+  },
+  {
+    "id": "V4_160",
+    "start": 11238,
+    "end": 11299,
+    "set": "court",
+    "type": "insert",
+    "action": "records",
+    "mood": "courtroom",
+    "index": 159,
+    "variant": 3,
+    "facts": [
+      "F38",
+      "F42"
+    ],
+    "narrationId": "N052",
+    "purpose": "N052 / records: 일심이 고려한 자백과 범행을 도운 역할이 있었습니다. 항소심은 감경 여부를 다시 판단했어요. 비에게 유리한 사정만으로 형을 줄이지 않았죠."
+  },
+  {
+    "id": "V4_161",
+    "start": 11299,
+    "end": 11360,
+    "set": "court",
+    "type": "close-up",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 160,
+    "variant": 3,
+    "facts": [
+      "F38",
+      "F42"
+    ],
+    "narrationId": "N052",
+    "purpose": "N052 / judge: 일심이 고려한 자백과 범행을 도운 역할이 있었습니다. 항소심은 감경 여부를 다시 판단했어요. 비에게 유리한 사정만으로 형을 줄이지 않았죠."
+  },
+  {
+    "id": "V4_162",
+    "start": 11360,
+    "end": 11422,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 161,
+    "variant": 3,
+    "facts": [
+      "F38",
+      "F42"
+    ],
+    "narrationId": "N052",
+    "purpose": "N052 / judge: 일심이 고려한 자백과 범행을 도운 역할이 있었습니다. 항소심은 감경 여부를 다시 판단했어요. 비에게 유리한 사정만으로 형을 줄이지 않았죠."
+  },
+  {
+    "id": "V4_163",
+    "start": 11422,
+    "end": 11484,
+    "set": "court",
+    "type": "medium",
+    "action": "records",
+    "mood": "courtroom",
+    "index": 162,
+    "variant": 4,
+    "facts": [
+      "F40",
+      "F41",
+      "F42"
+    ],
+    "narrationId": "N053",
+    "purpose": "N053 / records: 결론에 이르는 순서는 이렇습니다. 일심 이십 년형의 법리 문제를 짚고 감경 여부를 판단합니다. 감경을 하지 않아 비에게도 무기가 선고됐어요."
+  },
+  {
+    "id": "V4_164",
+    "start": 11484,
+    "end": 11546,
+    "set": "court",
+    "type": "insert",
+    "action": "scale",
+    "mood": "courtroom",
+    "index": 163,
+    "variant": 4,
+    "facts": [
+      "F40",
+      "F41",
+      "F42"
+    ],
+    "narrationId": "N053",
+    "purpose": "N053 / scale: 결론에 이르는 순서는 이렇습니다. 일심 이십 년형의 법리 문제를 짚고 감경 여부를 판단합니다. 감경을 하지 않아 비에게도 무기가 선고됐어요."
+  },
+  {
+    "id": "V4_165",
+    "start": 11546,
+    "end": 11607,
+    "set": "court",
+    "type": "medium",
+    "action": "verdict",
+    "mood": "courtroom",
+    "index": 164,
+    "variant": 4,
+    "facts": [
+      "F40",
+      "F41",
+      "F42"
+    ],
+    "narrationId": "N053",
+    "purpose": "N053 / verdict: 결론에 이르는 순서는 이렇습니다. 일심 이십 년형의 법리 문제를 짚고 감경 여부를 판단합니다. 감경을 하지 않아 비에게도 무기가 선고됐어요."
+  },
+  {
+    "id": "V4_166",
+    "start": 11607,
+    "end": 11669,
+    "set": "court",
+    "type": "medium",
+    "action": "verdict",
+    "mood": "courtroom",
+    "index": 165,
+    "variant": 4,
+    "facts": [
+      "F40",
+      "F41",
+      "F42"
+    ],
+    "narrationId": "N053",
+    "purpose": "N053 / verdict: 결론에 이르는 순서는 이렇습니다. 일심 이십 년형의 법리 문제를 짚고 감경 여부를 판단합니다. 감경을 하지 않아 비에게도 무기가 선고됐어요."
+  },
+  {
+    "id": "V4_167",
+    "start": 11669,
+    "end": 11750,
+    "set": "court",
+    "type": "medium",
+    "action": "split",
+    "mood": "courtroom",
+    "index": 166,
+    "variant": 5,
+    "facts": [
+      "F34",
+      "F43"
+    ],
+    "narrationId": "N054",
+    "purpose": "N054 / split: 서로 상대가 총을 쐈다고 했던 두 사람. 법원은 에이의 총격을 인정했죠. 비에게도 무기를 선고한 이유는 발사자가 바뀌어서가 아니었습니다."
+  },
+  {
+    "id": "V4_168",
+    "start": 11750,
+    "end": 11830,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 167,
+    "variant": 5,
+    "facts": [
+      "F34",
+      "F43"
+    ],
+    "narrationId": "N054",
+    "purpose": "N054 / judge: 서로 상대가 총을 쐈다고 했던 두 사람. 법원은 에이의 총격을 인정했죠. 비에게도 무기를 선고한 이유는 발사자가 바뀌어서가 아니었습니다."
+  },
+  {
+    "id": "V4_169",
+    "start": 11830,
+    "end": 11911,
+    "set": "court",
+    "type": "high-angle",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 168,
+    "variant": 5,
+    "facts": [
+      "F34",
+      "F43"
+    ],
+    "narrationId": "N054",
+    "purpose": "N054 / court: 서로 상대가 총을 쐈다고 했던 두 사람. 법원은 에이의 총격을 인정했죠. 비에게도 무기를 선고한 이유는 발사자가 바뀌어서가 아니었습니다."
+  },
+  {
+    "id": "V4_170",
+    "start": 11911,
+    "end": 11982,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 169,
+    "variant": 0,
+    "facts": [
+      "F40",
+      "F42",
+      "F44",
+      "F45"
+    ],
+    "narrationId": "N055",
+    "purpose": "N055 / judge: 항소심은 비에게 감경을 하지 않았습니다. 그래서 두 사람 모두 무기징역을 선고받았죠. 두 사람은 형이 무겁다며 상고했어요. 대법원에서는 어떤 판단이 나왔을까요?"
+  },
+  {
+    "id": "V4_171",
+    "start": 11982,
+    "end": 12054,
+    "set": "court",
+    "type": "low-angle",
+    "action": "verdict",
+    "mood": "courtroom",
+    "index": 170,
+    "variant": 0,
+    "facts": [
+      "F40",
+      "F42",
+      "F44",
+      "F45"
+    ],
+    "narrationId": "N055",
+    "purpose": "N055 / verdict: 항소심은 비에게 감경을 하지 않았습니다. 그래서 두 사람 모두 무기징역을 선고받았죠. 두 사람은 형이 무겁다며 상고했어요. 대법원에서는 어떤 판단이 나왔을까요?"
+  },
+  {
+    "id": "V4_172",
+    "start": 12054,
+    "end": 12125,
+    "set": "court",
+    "type": "high-angle",
+    "action": "court",
+    "mood": "courtroom",
+    "index": 171,
+    "variant": 0,
+    "facts": [
+      "F40",
+      "F42",
+      "F44",
+      "F45"
+    ],
+    "narrationId": "N055",
+    "purpose": "N055 / court: 항소심은 비에게 감경을 하지 않았습니다. 그래서 두 사람 모두 무기징역을 선고받았죠. 두 사람은 형이 무겁다며 상고했어요. 대법원에서는 어떤 판단이 나왔을까요?"
+  },
+  {
+    "id": "V4_173",
+    "start": 12125,
+    "end": 12196,
+    "set": "court",
+    "type": "insert",
+    "action": "scale",
+    "mood": "courtroom",
+    "index": 172,
+    "variant": 0,
+    "facts": [
+      "F40",
+      "F42",
+      "F44",
+      "F45"
+    ],
+    "narrationId": "N055",
+    "purpose": "N055 / scale: 항소심은 비에게 감경을 하지 않았습니다. 그래서 두 사람 모두 무기징역을 선고받았죠. 두 사람은 형이 무겁다며 상고했어요. 대법원에서는 어떤 판단이 나왔을까요?"
+  },
+  {
+    "id": "V4_174",
+    "start": 12196,
+    "end": 12258,
+    "set": "court",
+    "type": "medium",
+    "action": "timeline",
+    "mood": "courtroom",
+    "index": 173,
+    "variant": 1,
+    "facts": [
+      "F44",
+      "F45"
+    ],
+    "narrationId": "N056",
+    "purpose": "N056 / timeline: 이천이십삼 년 십이월 십사 일 대법원은 상고를 기각했어요. 원심의 형이 부당하다고 볼 수 없다고 판단했죠. 두 사람의 무기징역이 확정됩니다."
+  },
+  {
+    "id": "V4_175",
+    "start": 12258,
+    "end": 12319,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 174,
+    "variant": 1,
+    "facts": [
+      "F44",
+      "F45"
+    ],
+    "narrationId": "N056",
+    "purpose": "N056 / judge: 이천이십삼 년 십이월 십사 일 대법원은 상고를 기각했어요. 원심의 형이 부당하다고 볼 수 없다고 판단했죠. 두 사람의 무기징역이 확정됩니다."
+  },
+  {
+    "id": "V4_176",
+    "start": 12319,
+    "end": 12380,
+    "set": "court",
+    "type": "wide",
+    "action": "verdict",
+    "mood": "courtroom",
+    "index": 175,
+    "variant": 1,
+    "facts": [
+      "F44",
+      "F45"
+    ],
+    "narrationId": "N056",
+    "purpose": "N056 / verdict: 이천이십삼 년 십이월 십사 일 대법원은 상고를 기각했어요. 원심의 형이 부당하다고 볼 수 없다고 판단했죠. 두 사람의 무기징역이 확정됩니다."
+  },
+  {
+    "id": "V4_177",
+    "start": 12380,
+    "end": 12442,
+    "set": "court",
+    "type": "medium",
+    "action": "verdict",
+    "mood": "courtroom",
+    "index": 176,
+    "variant": 1,
+    "facts": [
+      "F44",
+      "F45"
+    ],
+    "narrationId": "N056",
+    "purpose": "N056 / verdict: 이천이십삼 년 십이월 십사 일 대법원은 상고를 기각했어요. 원심의 형이 부당하다고 볼 수 없다고 판단했죠. 두 사람의 무기징역이 확정됩니다."
+  },
+  {
+    "id": "V4_178",
+    "start": 12442,
+    "end": 12523,
+    "set": "memorial",
+    "type": "wide",
+    "action": "memorial",
+    "mood": "reflective",
+    "index": 177,
+    "variant": 2,
+    "facts": [
+      "F39",
+      "F48"
+    ],
+    "narrationId": "N057",
+    "purpose": "N057 / memorial: 이 사건으로 숨진 출납과장은 두 자녀를 둔 가장이었습니다. 일심 법원은 그가 책임감과 성실함으로 강도 범행을 막으려다 숨진 점을 짚었죠."
+  },
+  {
+    "id": "V4_179",
+    "start": 12523,
+    "end": 12604,
+    "set": "memorial",
+    "type": "medium",
+    "action": "memorial",
+    "mood": "reflective",
+    "index": 178,
+    "variant": 2,
+    "facts": [
+      "F39",
+      "F48"
+    ],
+    "narrationId": "N057",
+    "purpose": "N057 / memorial: 이 사건으로 숨진 출납과장은 두 자녀를 둔 가장이었습니다. 일심 법원은 그가 책임감과 성실함으로 강도 범행을 막으려다 숨진 점을 짚었죠."
+  },
+  {
+    "id": "V4_180",
+    "start": 12604,
+    "end": 12685,
+    "set": "memorial",
+    "type": "insert",
+    "action": "memorial",
+    "mood": "reflective",
+    "index": 179,
+    "variant": 2,
+    "facts": [
+      "F39",
+      "F48"
+    ],
+    "narrationId": "N057",
+    "purpose": "N057 / memorial: 이 사건으로 숨진 출납과장은 두 자녀를 둔 가장이었습니다. 일심 법원은 그가 책임감과 성실함으로 강도 범행을 막으려다 숨진 점을 짚었죠."
+  },
+  {
+    "id": "V4_181",
+    "start": 12685,
+    "end": 12750,
+    "set": "investigation",
+    "type": "close-up",
+    "action": "trace",
+    "mood": "day",
+    "index": 180,
+    "variant": 3,
+    "facts": [
+      "F16",
+      "F47"
+    ],
+    "narrationId": "N058",
+    "purpose": "N058 / trace: 검거 뒤 유족이 경찰에 감사의 뜻을 전했다는 보도가 나왔어요. 출납과장이 숨진 뒤 약 이십 년 팔 개월. 그 감사의 말은 경찰을 통해 보도로 전해졌습니다."
+  },
+  {
+    "id": "V4_182",
+    "start": 12750,
+    "end": 12815,
+    "set": "memorial",
+    "type": "medium",
+    "action": "memorial",
+    "mood": "reflective",
+    "index": 181,
+    "variant": 3,
+    "facts": [
+      "F16",
+      "F47"
+    ],
+    "narrationId": "N058",
+    "purpose": "N058 / memorial: 검거 뒤 유족이 경찰에 감사의 뜻을 전했다는 보도가 나왔어요. 출납과장이 숨진 뒤 약 이십 년 팔 개월. 그 감사의 말은 경찰을 통해 보도로 전해졌습니다."
+  },
+  {
+    "id": "V4_183",
+    "start": 12815,
+    "end": 12880,
+    "set": "investigation",
+    "type": "low-angle",
+    "action": "archive",
+    "mood": "day",
+    "index": 182,
+    "variant": 3,
+    "facts": [
+      "F16",
+      "F47"
+    ],
+    "narrationId": "N058",
+    "purpose": "N058 / archive: 검거 뒤 유족이 경찰에 감사의 뜻을 전했다는 보도가 나왔어요. 출납과장이 숨진 뒤 약 이십 년 팔 개월. 그 감사의 말은 경찰을 통해 보도로 전해졌습니다."
+  },
+  {
+    "id": "V4_184",
+    "start": 12880,
+    "end": 12945,
+    "set": "investigation",
+    "type": "high-angle",
+    "action": "archive",
+    "mood": "day",
+    "index": 183,
+    "variant": 3,
+    "facts": [
+      "F16",
+      "F47"
+    ],
+    "narrationId": "N058",
+    "purpose": "N058 / archive: 검거 뒤 유족이 경찰에 감사의 뜻을 전했다는 보도가 나왔어요. 출납과장이 숨진 뒤 약 이십 년 팔 개월. 그 감사의 말은 경찰을 통해 보도로 전해졌습니다."
+  },
+  {
+    "id": "V4_185",
+    "start": 12945,
+    "end": 13017,
+    "set": "evidence",
+    "type": "medium",
+    "action": "mask",
+    "mood": "day",
+    "index": 184,
+    "variant": 4,
+    "facts": [
+      "F16",
+      "F18",
+      "F25"
+    ],
+    "narrationId": "N059",
+    "purpose": "N059 / mask: 버린 차의 마스크와 손수건은 검거의 실마리로 남았습니다. 그 디엔에이가 비를 가리키고 비의 진술이 에이에게 이어졌어요."
+  },
+  {
+    "id": "V4_186",
+    "start": 13017,
+    "end": 13089,
+    "set": "lab",
+    "type": "insert",
+    "action": "identity",
+    "mood": "day",
+    "index": 185,
+    "variant": 4,
+    "facts": [
+      "F16",
+      "F18",
+      "F25"
+    ],
+    "narrationId": "N059",
+    "purpose": "N059 / identity: 버린 차의 마스크와 손수건은 검거의 실마리로 남았습니다. 그 디엔에이가 비를 가리키고 비의 진술이 에이에게 이어졌어요."
+  },
+  {
+    "id": "V4_187",
+    "start": 13089,
+    "end": 13161,
+    "set": "investigation",
+    "type": "medium",
+    "action": "links",
+    "mood": "day",
+    "index": 186,
+    "variant": 1,
+    "facts": [
+      "F16",
+      "F18",
+      "F25"
+    ],
+    "narrationId": "N059",
+    "purpose": "N059 / links: 버린 차의 마스크와 손수건은 검거의 실마리로 남았습니다. 그 디엔에이가 비를 가리키고 비의 진술이 에이에게 이어졌어요."
+  },
+  {
+    "id": "V4_188",
+    "start": 13161,
+    "end": 13236,
+    "set": "court",
+    "type": "medium",
+    "action": "records",
+    "mood": "courtroom",
+    "index": 187,
+    "variant": 5,
+    "facts": [
+      "F36",
+      "F40",
+      "F44"
+    ],
+    "narrationId": "N060",
+    "purpose": "N060 / records: 일심에서 비에게 선고된 징역 이십 년은 항소심에서 무기징역으로 바뀌었죠. 대법원에서 두 사람 모두 무기징역이 확정됐습니다."
+  },
+  {
+    "id": "V4_189",
+    "start": 13236,
+    "end": 13312,
+    "set": "court",
+    "type": "over-the-shoulder",
+    "action": "judge",
+    "mood": "courtroom",
+    "index": 188,
+    "variant": 5,
+    "facts": [
+      "F36",
+      "F40",
+      "F44"
+    ],
+    "narrationId": "N060",
+    "purpose": "N060 / judge: 일심에서 비에게 선고된 징역 이십 년은 항소심에서 무기징역으로 바뀌었죠. 대법원에서 두 사람 모두 무기징역이 확정됐습니다."
+  },
+  {
+    "id": "V4_190",
+    "start": 13312,
+    "end": 13387,
+    "set": "court",
+    "type": "medium",
+    "action": "verdict",
+    "mood": "courtroom",
+    "index": 189,
+    "variant": 5,
+    "facts": [
+      "F36",
+      "F40",
+      "F44"
+    ],
+    "narrationId": "N060",
+    "purpose": "N060 / verdict: 일심에서 비에게 선고된 징역 이십 년은 항소심에서 무기징역으로 바뀌었죠. 대법원에서 두 사람 모두 무기징역이 확정됐습니다."
+  }
+]

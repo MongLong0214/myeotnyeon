@@ -1,0 +1,160 @@
+{
+ "accuracy": 1.0,
+ "character_clock_accuracy": 1.0,
+ "rows": [
+  {
+   "text": "규정을 어긴 얼차려로",
+   "start": 0,
+   "end": 31,
+   "old_start": 0,
+   "old_end": 29,
+   "start_seconds": 0.0,
+   "end_seconds": 1.04
+  },
+  {
+   "text": "훈련병이 숨진 사건입니다.",
+   "start": 31,
+   "end": 66,
+   "old_start": 29,
+   "old_end": 66,
+   "start_seconds": 1.04,
+   "end_seconds": 2.2
+  },
+  {
+   "text": "몇 년 받았을까?",
+   "start": 67,
+   "end": 87,
+   "old_start": 66,
+   "old_end": 90,
+   "start_seconds": 2.24,
+   "end_seconds": 2.9
+  },
+  {
+   "text": "중대장은 훈련병 6명에게",
+   "start": 90,
+   "end": 136,
+   "old_start": 90,
+   "old_end": 131,
+   "start_seconds": 3.0,
+   "end_seconds": 4.52
+  },
+  {
+   "text": "규정을 어긴 군기훈련을\n지시한 혐의였죠.",
+   "start": 136,
+   "end": 205,
+   "old_start": 131,
+   "old_end": 208,
+   "start_seconds": 4.52,
+   "end_seconds": 6.82
+  },
+  {
+   "text": "재판의 쟁점은",
+   "start": 208,
+   "end": 233,
+   "old_start": 208,
+   "old_end": 228,
+   "start_seconds": 6.94,
+   "end_seconds": 7.78
+  },
+  {
+   "text": "하나의 행위인지\n여러 행위인지였습니다.",
+   "start": 233,
+   "end": 288,
+   "old_start": 228,
+   "old_end": 299,
+   "start_seconds": 7.78,
+   "end_seconds": 9.6
+  },
+  {
+   "text": "벌금, 집행유예, 실형 중\n무엇이었을까요?",
+   "start": 298,
+   "end": 355,
+   "old_start": 299,
+   "old_end": 359,
+   "start_seconds": 9.92,
+   "end_seconds": 11.84
+  },
+  {
+   "text": "1심은 하나의 행위로\n봤습니다.",
+   "start": 359,
+   "end": 401,
+   "old_start": 359,
+   "old_end": 407,
+   "start_seconds": 11.98,
+   "end_seconds": 13.36
+  },
+  {
+   "text": "2심은 피해자마다",
+   "start": 408,
+   "end": 434,
+   "old_start": 407,
+   "old_end": 432,
+   "start_seconds": 13.6,
+   "end_seconds": 14.46
+  },
+  {
+   "text": "학대 양상이 달랐다고\n판단했죠.",
+   "start": 434,
+   "end": 481,
+   "old_start": 432,
+   "old_end": 484,
+   "start_seconds": 14.46,
+   "end_seconds": 16.04
+  },
+  {
+   "text": "그래서 여러 행위로\n다시 봤습니다.",
+   "start": 486,
+   "end": 525,
+   "old_start": 484,
+   "old_end": 527,
+   "start_seconds": 16.2,
+   "end_seconds": 17.5
+  },
+  {
+   "text": "실형.",
+   "start": 530,
+   "end": 539,
+   "old_start": 527,
+   "old_end": 545,
+   "start_seconds": 17.68,
+   "end_seconds": 17.96
+  },
+  {
+   "text": "중대장은 1심 징역 5년.",
+   "start": 541,
+   "end": 584,
+   "old_start": 545,
+   "old_end": 587,
+   "start_seconds": 18.02,
+   "end_seconds": 19.46
+  },
+  {
+   "text": "2심은 5년 6개월로 늘었고",
+   "start": 586,
+   "end": 631,
+   "old_start": 587,
+   "old_end": 623,
+   "start_seconds": 19.54,
+   "end_seconds": 21.02
+  },
+  {
+   "text": "그대로 확정됐습니다.",
+   "start": 631,
+   "end": 661,
+   "old_start": 623,
+   "old_end": 663,
+   "start_seconds": 21.02,
+   "end_seconds": 22.02
+  },
+  {
+   "text": "다음 사건도\n맞혀 보세요.",
+   "start": 663,
+   "end": 693,
+   "old_start": 663,
+   "old_end": 697,
+   "start_seconds": 22.1,
+   "end_seconds": 23.1
+  }
+ ],
+ "pass_": true
+}

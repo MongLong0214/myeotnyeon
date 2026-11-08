@@ -1,0 +1,252 @@
+{
+  "checked_at": "2026-10-26T20:08:22+09:00",
+  "path": "B: 2D SVG/React",
+  "typecheck": "npx --no-install tsc --noEmit passed (typecheck.log)",
+  "source_articles": 13,
+  "accepted_fact_rows": 36,
+  "fact_publisher_coverage": {
+    "E01": [
+      "문화일보",
+      "한겨레"
+    ],
+    "E02": [
+      "문화일보",
+      "한겨레"
+    ],
+    "E03": [
+      "경향신문",
+      "뉴스1"
+    ],
+    "E04": [
+      "문화일보",
+      "한겨레"
+    ],
+    "E05": [
+      "KBS",
+      "뉴스핌"
+    ],
+    "E06": [
+      "YTN",
+      "뉴스1"
+    ],
+    "E07": [
+      "YTN",
+      "뉴시스"
+    ],
+    "C01": [
+      "YTN",
+      "뉴시스"
+    ],
+    "C02": [
+      "뉴시스",
+      "문화일보"
+    ],
+    "C03": [
+      "YTN",
+      "뉴시스"
+    ],
+    "C04": [
+      "YTN",
+      "뉴시스"
+    ],
+    "C05": [
+      "뉴스1",
+      "뉴시스"
+    ],
+    "C06": [
+      "YTN",
+      "뉴스1",
+      "뉴시스"
+    ],
+    "C07": [
+      "경향신문",
+      "문화일보",
+      "세계일보"
+    ],
+    "C09": [
+      "KBS",
+      "뉴시스",
+      "한겨레"
+    ],
+    "C10": [
+      "YTN",
+      "경향신문",
+      "뉴시스"
+    ],
+    "D01": [
+      "YTN",
+      "뉴스1",
+      "뉴시스"
+    ],
+    "D02": [
+      "뉴시스",
+      "세계일보"
+    ],
+    "D03": [
+      "YTN",
+      "뉴시스"
+    ],
+    "D04": [
+      "뉴스1",
+      "뉴시스"
+    ],
+    "D05": [
+      "YTN",
+      "뉴스1",
+      "뉴시스"
+    ],
+    "D06": [
+      "경향신문",
+      "문화일보",
+      "세계일보"
+    ],
+    "D08": [
+      "KBS",
+      "뉴시스",
+      "한겨레"
+    ],
+    "J01": [
+      "경향신문",
+      "뉴시스",
+      "문화일보"
+    ],
+    "J02": [
+      "경향신문",
+      "뉴시스"
+    ],
+    "J03": [
+      "경향신문",
+      "뉴스1",
+      "뉴시스"
+    ],
+    "J04": [
+      "뉴스1",
+      "뉴시스"
+    ],
+    "J05": [
+      "경향신문",
+      "뉴스1",
+      "뉴스핌"
+    ],
+    "J06": [
+      "YTN",
+      "뉴스1"
+    ],
+    "J07": [
+      "경향신문",
+      "문화일보",
+      "세계일보"
+    ],
+    "J08": [
+      "경향신문",
+      "뉴시스",
+      "문화일보"
+    ],
+    "J09": [
+      "경향신문",
+      "문화일보",
+      "세계일보"
+    ],
+    "J10": [
+      "경향신문",
+      "문화일보"
+    ],
+    "J11": [
+      "뉴스핌",
+      "한겨레"
+    ],
+    "J12": [
+      "뉴스핌",
+      "뉴시스"
+    ],
+    "J13": [
+      "KBS",
+      "뉴스핌",
+      "뉴시스"
+    ]
+  },
+  "clips": [
+    {
+      "file": "V4N18-REP1.mp4",
+      "seconds": 5.0,
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264",
+      "frames": 150,
+      "fps": "30/1",
+      "pixel_format": "yuv420p",
+      "color_space": "bt709",
+      "audio_streams": 0
+    },
+    {
+      "file": "V4N18-REP2.mp4",
+      "seconds": 5.0,
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264",
+      "frames": 150,
+      "fps": "30/1",
+      "pixel_format": "yuv420p",
+      "color_space": "bt709",
+      "audio_streams": 0
+    },
+    {
+      "file": "V4N18-REP3.mp4",
+      "seconds": 5.0,
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264",
+      "frames": 150,
+      "fps": "30/1",
+      "pixel_format": "yuv420p",
+      "color_space": "bt709",
+      "audio_streams": 0
+    }
+  ],
+  "subject": {
+    "frame": 90,
+    "mean_linear_luminance": 0.59574,
+    "target_min": 0.35,
+    "method": "Mean of rendered PNG pixels inside the complete B silhouette; exact SVG outline sampled at 1600 points, projected at frame 90. Includes grain, vignette and risk rim."
+  },
+  "contrast": {
+    "ratios_on_opaque_ink_plate": {
+      "title_red": 9.089,
+      "white": 17.495,
+      "secondary": 11.68,
+      "measurement": 13.76
+    },
+    "target_min": 7,
+    "red_title_fill_pixel_count": 3533
+  },
+  "regression": {
+    "existing_compositions": 54,
+    "new_compositions": [
+      "V4N18-REP1",
+      "V4N18-REP2",
+      "V4N18-REP3"
+    ],
+    "changed_existing_metadata": [],
+    "changed_baseline_files": [
+      "production/compositor/src/Root.tsx"
+    ],
+    "root_change": "one import and one V4N18Compositions registration only",
+    "cover_q012_different_pixels": 0
+  },
+  "script": {
+    "syllables": 1742,
+    "planned_seconds": 384.43333333333334,
+    "narration_sentences": 63,
+    "chapters": 5,
+    "shots": 120,
+    "actual_voice_recording": "not generated in Stage 1"
+  },
+  "visual_review": "Inspected all three stills and MP4 frames 0,45,149. Fixed role-chip overlap, text plates and dashed count reveal. No victim performance, real image, footage or audio.",
+  "limitations": [
+    "Narration duration is estimated; align to real voice in Stage 2.",
+    "Deputy finality date and appeal history excluded because reports conflict.",
+    "Appeal prosecution requests excluded for lack of two unambiguous independent reports.",
+    "Nanum fonts absent locally; used only bundled OFL Noto Serif KR and Pretendard."
+  ],
+  "stage2_blockers": []
+}

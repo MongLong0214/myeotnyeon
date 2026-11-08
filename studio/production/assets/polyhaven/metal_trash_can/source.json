@@ -1,0 +1,23 @@
+{
+ "id": "metal_trash_can",
+ "name": "Metal Trash Can",
+ "type": 2,
+ "authors": {
+  "GurJas Studios": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/metal_trash_can",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/metal_trash_can/metal_trash_can_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/metal_trash_can/metal_trash_can_rust_metal_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/metal_trash_can/metal_trash_can_rust_nor_gl_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/metal_trash_can/metal_trash_can_diff_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/metal_trash_can/metal_trash_can_rough_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/metal_trash_can/metal_trash_can_metal_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/metal_trash_can/metal_trash_can_rust_rough_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/metal_trash_can/metal_trash_can_nor_gl_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/metal_trash_can/metal_trash_can_rust_diff_2k.png"
+ ]
+}

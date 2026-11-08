@@ -1,0 +1,19 @@
+{
+  "syllables_normalized_estimate": 3179,
+  "syllable_method": "Hangul blocks; Arabic numerals expanded to Korean readings; ASR/counting uncertainty retained",
+  "syllables_per_timeline_s": 6.0923725565350715,
+  "syllables_per_phrase_s": 6.580690568849879,
+  "asr_pause_count_gt_0_2": 77,
+  "asr_pause_median_s": 0.36000000000001364,
+  "asr_pause_total_s": 38.419999999999916,
+  "vad_pause_count_gt_0_2": 43,
+  "vad_pause_median_s": 0.26,
+  "mixed_speech_rms_dbfs": -18.4862400363153,
+  "mixed_nonword_rms_dbfs": -19.911818950995446,
+  "side_rms_dbfs": -31.42234184168695,
+  "side_speech_rms_dbfs": -31.672280939214343,
+  "side_nonword_rms_dbfs": -29.19386755243407,
+  "bed_to_speech_proxy_db": -1.4255789146801447,
+  "bed_to_speech_proxy_warning": "nonword mixture vs word mixture; includes ambience/SFX, not isolated music vs narration loudness",
+  "audio_onset_count": 1336
+}

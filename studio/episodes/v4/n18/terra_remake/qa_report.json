@@ -1,0 +1,12 @@
+{
+  "shots": 67,
+  "duplicate_indices": false,
+  "coverage_start_s": 0.0,
+  "coverage_end_s": 334.06666666666666,
+  "middle_sheets": [
+    "shot_middles_01.jpg",
+    "shot_middles_02.jpg"
+  ],
+  "impact_boundaries": "impact_cut_boundaries.jpg",
+  "status": "PASS: 67 unique source-aligned visual beats with positive durations"
+}

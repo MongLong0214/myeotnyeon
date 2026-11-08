@@ -1,0 +1,1341 @@
+{
+  "source_audio": "episodes/v4/n18/audio/mix_master.wav",
+  "source_audio_duration_s": 385.933333,
+  "lead_s": 1.5,
+  "timing_basis": "shots.json actual t_start/t_end; each cue is shifted by the 1.5 s audio leader; no equal-time assignment.",
+  "shots": [
+    {
+      "shot_id": "S001",
+      "start_s": 1.5,
+      "end_s": 6.167,
+      "narration_id": "N001",
+      "spoken_text": "이천이십사년 오월 이십삼일, 강원도 인제의 신병교육대다.",
+      "facts": [
+        "E01",
+        "E02",
+        "C02",
+        "E04"
+      ],
+      "screen": "training_grounded"
+    },
+    {
+      "shot_id": "S002",
+      "start_s": 6.167,
+      "end_s": 9.667,
+      "narration_id": "N001",
+      "spoken_text": "이천이십사년 오월 이십삼일, 강원도 인제의 신병교육대다.",
+      "facts": [
+        "E01",
+        "E02"
+      ],
+      "screen": "training_six"
+    },
+    {
+      "shot_id": "S003",
+      "start_s": 9.667,
+      "end_s": 12.667,
+      "narration_id": "N002",
+      "spoken_text": "육군 십이사단에서 훈련병 여섯 명을 대상으로 군기훈련이 실시된다.",
+      "facts": [
+        "E01",
+        "E02"
+      ],
+      "screen": "training_six"
+    },
+    {
+      "shot_id": "S004",
+      "start_s": 12.667,
+      "end_s": 15.833,
+      "narration_id": "N003",
+      "spoken_text": "중대장이 지시한 것은 절차와 방법을 위반한 군기훈련, 이른바 얼차려였다.",
+      "facts": [
+        "C02",
+        "E03"
+      ],
+      "screen": "training_kit"
+    },
+    {
+      "shot_id": "S005",
+      "start_s": 15.833,
+      "end_s": 19.067,
+      "narration_id": "N003",
+      "spoken_text": "중대장이 지시한 것은 절차와 방법을 위반한 군기훈련, 이른바 얼차려였다.",
+      "facts": [
+        "C02",
+        "E03"
+      ],
+      "screen": "training_kit"
+    },
+    {
+      "shot_id": "S006",
+      "start_s": 19.067,
+      "end_s": 21.667,
+      "narration_id": "N004",
+      "spoken_text": "부중대장도 이 군기훈련을 실시한 혐의로 재판에 넘겨진다.",
+      "facts": [
+        "D02"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S007",
+      "start_s": 21.667,
+      "end_s": 24.233,
+      "narration_id": "N004",
+      "spoken_text": "부중대장도 이 군기훈련을 실시한 혐의로 재판에 넘겨진다.",
+      "facts": [
+        "D02"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S008",
+      "start_s": 24.233,
+      "end_s": 27.733,
+      "narration_id": "N005",
+      "spoken_text": "훈련 도중 의식을 잃은 훈련병에게 적절한 조치를 하지 않았다는 혐의도 포함된다.",
+      "facts": [
+        "E04"
+      ],
+      "screen": "training_grounded"
+    },
+    {
+      "shot_id": "S009",
+      "start_s": 27.733,
+      "end_s": 31.233,
+      "narration_id": "N005",
+      "spoken_text": "훈련 도중 의식을 잃은 훈련병에게 적절한 조치를 하지 않았다는 혐의도 포함된다.",
+      "facts": [
+        "E04"
+      ],
+      "screen": "training_grounded"
+    },
+    {
+      "shot_id": "S010",
+      "start_s": 31.233,
+      "end_s": 31.833,
+      "narration_id": "",
+      "spoken_text": "",
+      "facts": [],
+      "screen": "training_kit"
+    },
+    {
+      "shot_id": "S011",
+      "start_s": 31.833,
+      "end_s": 34.2,
+      "narration_id": "N006",
+      "spoken_text": "훈련병은 이틀 뒤 숨졌다.",
+      "facts": [
+        "E05"
+      ],
+      "screen": "hospital"
+    },
+    {
+      "shot_id": "S012",
+      "start_s": 34.2,
+      "end_s": 37.0,
+      "narration_id": "N007",
+      "spoken_text": "재판에서는 이 군기훈련과 사망 사이의 인과관계가 쟁점이 된다.",
+      "facts": [
+        "J06"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S013",
+      "start_s": 37.0,
+      "end_s": 39.8,
+      "narration_id": "N007",
+      "spoken_text": "재판에서는 이 군기훈련과 사망 사이의 인과관계가 쟁점이 된다.",
+      "facts": [
+        "J06"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S014",
+      "start_s": 39.8,
+      "end_s": 43.067,
+      "narration_id": "N008",
+      "spoken_text": "항소심에서는 피해자마다 행위를 어떻게 나누어 볼 것인가도 판단을 가른다.",
+      "facts": [
+        "J07",
+        "J08"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S015",
+      "start_s": 43.067,
+      "end_s": 46.4,
+      "narration_id": "N008",
+      "spoken_text": "항소심에서는 피해자마다 행위를 어떻게 나누어 볼 것인가도 판단을 가른다.",
+      "facts": [
+        "J07",
+        "J08"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S016",
+      "start_s": 46.4,
+      "end_s": 47.9,
+      "narration_id": "",
+      "spoken_text": "",
+      "facts": [],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S017",
+      "start_s": 47.9,
+      "end_s": 51.3,
+      "narration_id": "N009",
+      "spoken_text": "중대장에게 적용된 혐의는 형법상 학대치사와 군형법상 직권남용 가혹행위다.",
+      "facts": [
+        "C01"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S018",
+      "start_s": 51.3,
+      "end_s": 54.7,
+      "narration_id": "N009",
+      "spoken_text": "중대장에게 적용된 혐의는 형법상 학대치사와 군형법상 직권남용 가혹행위다.",
+      "facts": [
+        "C01"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S019",
+      "start_s": 54.7,
+      "end_s": 58.4,
+      "narration_id": "N010",
+      "spoken_text": "검찰은 중대장의 위법한 군기훈련을 단순한 과실로 보지 않고 학대치사죄로 기소한다.",
+      "facts": [
+        "C10"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S020",
+      "start_s": 58.4,
+      "end_s": 62.1,
+      "narration_id": "N010",
+      "spoken_text": "검찰은 중대장의 위법한 군기훈련을 단순한 과실로 보지 않고 학대치사죄로 기소한다.",
+      "facts": [
+        "C10"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S021",
+      "start_s": 62.1,
+      "end_s": 65.9,
+      "narration_id": "N011",
+      "spoken_text": "검찰은 사건 경위와 훈련 방식, 진행 경과와 피해자의 신체조건 등을 종합했다고 설명한다.",
+      "facts": [
+        "E06"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S022",
+      "start_s": 65.9,
+      "end_s": 69.7,
+      "narration_id": "N011",
+      "spoken_text": "검찰은 사건 경위와 훈련 방식, 진행 경과와 피해자의 신체조건 등을 종합했다고 설명한다.",
+      "facts": [
+        "E06"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S023",
+      "start_s": 69.7,
+      "end_s": 72.467,
+      "narration_id": "N012",
+      "spoken_text": "부중대장에게 적용된 혐의도 학대치사와 직권남용 가혹행위다.",
+      "facts": [
+        "D01"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S024",
+      "start_s": 72.467,
+      "end_s": 75.3,
+      "narration_id": "N012",
+      "spoken_text": "부중대장에게 적용된 혐의도 학대치사와 직권남용 가혹행위다.",
+      "facts": [
+        "D01"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S025",
+      "start_s": 75.3,
+      "end_s": 79.2,
+      "narration_id": "N013",
+      "spoken_text": "부중대장의 공소사실에도 위법한 군기훈련 실시와 적절한 조치를 하지 않은 점이 들어간다.",
+      "facts": [
+        "D02"
+      ],
+      "screen": "training_kit"
+    },
+    {
+      "shot_id": "S026",
+      "start_s": 79.2,
+      "end_s": 83.1,
+      "narration_id": "N013",
+      "spoken_text": "부중대장의 공소사실에도 위법한 군기훈련 실시와 적절한 조치를 하지 않은 점이 들어간다.",
+      "facts": [
+        "D02"
+      ],
+      "screen": "training_kit"
+    },
+    {
+      "shot_id": "S027",
+      "start_s": 83.1,
+      "end_s": 86.067,
+      "narration_id": "N014",
+      "spoken_text": "중대장 측은 잘못된 행동은 인정하면서도 학대치사 혐의는 부인했다.",
+      "facts": [
+        "C04"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S028",
+      "start_s": 86.067,
+      "end_s": 89.1,
+      "narration_id": "N014",
+      "spoken_text": "중대장 측은 잘못된 행동은 인정하면서도 학대치사 혐의는 부인했다.",
+      "facts": [
+        "C04"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S029",
+      "start_s": 89.1,
+      "end_s": 92.6,
+      "narration_id": "N015",
+      "spoken_text": "검찰은 군의 지도력과 관리 체제에 대한 국민 신뢰를 훼손한 점도 구형 이유로 든다.",
+      "facts": [
+        "E07"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S030",
+      "start_s": 92.6,
+      "end_s": 96.1,
+      "narration_id": "N015",
+      "spoken_text": "검찰은 군의 지도력과 관리 체제에 대한 국민 신뢰를 훼손한 점도 구형 이유로 든다.",
+      "facts": [
+        "E07"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S031",
+      "start_s": 96.1,
+      "end_s": 99.1,
+      "narration_id": "N016",
+      "spoken_text": "이천이십사년 십일월 십이일, 춘천지법에서 일심 결심공판이 열린다.",
+      "facts": [
+        "C03"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S032",
+      "start_s": 99.1,
+      "end_s": 102.1,
+      "narration_id": "N016",
+      "spoken_text": "이천이십사년 십일월 십이일, 춘천지법에서 일심 결심공판이 열린다.",
+      "facts": [
+        "C03"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S033",
+      "start_s": 102.1,
+      "end_s": 104.7,
+      "narration_id": "N017",
+      "spoken_text": "이 공판에서 검찰이 중대장에게 요청한 형은 징역 십 년이다.",
+      "facts": [
+        "C03"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S034",
+      "start_s": 104.7,
+      "end_s": 107.267,
+      "narration_id": "N017",
+      "spoken_text": "이 공판에서 검찰이 중대장에게 요청한 형은 징역 십 년이다.",
+      "facts": [
+        "C03"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S035",
+      "start_s": 107.267,
+      "end_s": 111.233,
+      "narration_id": "N018",
+      "spoken_text": "부중대장에게 요청한 형은 징역 칠 년이었다.",
+      "facts": [
+        "D03"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S036",
+      "start_s": 111.233,
+      "end_s": 113.6,
+      "narration_id": "N019",
+      "spoken_text": "중대장의 징역 십 년은 검찰이 일심에서 구형한 수치다.",
+      "facts": [
+        "C03"
+      ],
+      "screen": "court_records"
+    },
+    {
+      "shot_id": "S037",
+      "start_s": 113.6,
+      "end_s": 116.0,
+      "narration_id": "N019",
+      "spoken_text": "중대장의 징역 십 년은 검찰이 일심에서 구형한 수치다.",
+      "facts": [
+        "C03"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S038",
+      "start_s": 116.0,
+      "end_s": 118.6,
+      "narration_id": "N020",
+      "spoken_text": "부중대장의 징역 칠 년 역시 같은 일심 결심공판의 구형이다.",
+      "facts": [
+        "D03"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S039",
+      "start_s": 118.6,
+      "end_s": 121.167,
+      "narration_id": "N020",
+      "spoken_text": "부중대장의 징역 칠 년 역시 같은 일심 결심공판의 구형이다.",
+      "facts": [
+        "D03"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S040",
+      "start_s": 121.167,
+      "end_s": 122.667,
+      "narration_id": "",
+      "spoken_text": "",
+      "facts": [],
+      "screen": "training_kit"
+    },
+    {
+      "shot_id": "S041",
+      "start_s": 122.667,
+      "end_s": 125.667,
+      "narration_id": "N021",
+      "spoken_text": "이천이십오년 일월 칠일, 춘천지법 형사이부가 일심 판결을 선고한다.",
+      "facts": [
+        "C05",
+        "D04"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S042",
+      "start_s": 125.667,
+      "end_s": 128.667,
+      "narration_id": "N021",
+      "spoken_text": "이천이십오년 일월 칠일, 춘천지법 형사이부가 일심 판결을 선고한다.",
+      "facts": [
+        "C05",
+        "D04"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S043",
+      "start_s": 128.667,
+      "end_s": 131.933,
+      "narration_id": "N022",
+      "spoken_text": "재판부는 중대장의 학대치사와 직권남용 가혹행위 혐의를 유죄로 판단한다.",
+      "facts": [
+        "C06"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S044",
+      "start_s": 131.933,
+      "end_s": 135.267,
+      "narration_id": "N022",
+      "spoken_text": "재판부는 중대장의 학대치사와 직권남용 가혹행위 혐의를 유죄로 판단한다.",
+      "facts": [
+        "C06"
+      ],
+      "screen": "court_prosecutor"
+    },
+    {
+      "shot_id": "S045",
+      "start_s": 135.267,
+      "end_s": 139.433,
+      "narration_id": "N023",
+      "spoken_text": "부중대장에게 적용된 혐의도 유죄로 판단했다.",
+      "facts": [
+        "D05"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S046",
+      "start_s": 139.433,
+      "end_s": 141.933,
+      "narration_id": "N024",
+      "spoken_text": "재판부는 군기훈련과 사망 사이의 인과관계를 인정했다.",
+      "facts": [
+        "J06"
+      ],
+      "screen": "court_records"
+    },
+    {
+      "shot_id": "S047",
+      "start_s": 141.933,
+      "end_s": 144.4,
+      "narration_id": "N024",
+      "spoken_text": "재판부는 군기훈련과 사망 사이의 인과관계를 인정했다.",
+      "facts": [
+        "J06"
+      ],
+      "screen": "court_prosecutor"
+    },
+    {
+      "shot_id": "S048",
+      "start_s": 144.4,
+      "end_s": 147.6,
+      "narration_id": "N025",
+      "spoken_text": "일심은 훈련병의 신체조건에 맞지 않는 군기훈련이 이뤄졌다고 지적한다.",
+      "facts": [
+        "J03"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S049",
+      "start_s": 147.6,
+      "end_s": 150.8,
+      "narration_id": "N025",
+      "spoken_text": "일심은 훈련병의 신체조건에 맞지 않는 군기훈련이 이뤄졌다고 지적한다.",
+      "facts": [
+        "J03"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S050",
+      "start_s": 150.8,
+      "end_s": 153.467,
+      "narration_id": "N026",
+      "spoken_text": "이러한 훈련이 군의 사기와 전투력을 떨어뜨린다는 설명이다.",
+      "facts": [
+        "J03"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S051",
+      "start_s": 153.467,
+      "end_s": 156.2,
+      "narration_id": "N026",
+      "spoken_text": "이러한 훈련이 군의 사기와 전투력을 떨어뜨린다는 설명이다.",
+      "facts": [
+        "J03"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S052",
+      "start_s": 156.2,
+      "end_s": 159.1,
+      "narration_id": "N027",
+      "spoken_text": "군에 대한 국민의 신뢰까지 해친다는 점에서 죄책이 무겁다고 봤다.",
+      "facts": [
+        "J03"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S053",
+      "start_s": 159.1,
+      "end_s": 162.0,
+      "narration_id": "N027",
+      "spoken_text": "군에 대한 국민의 신뢰까지 해친다는 점에서 죄책이 무겁다고 봤다.",
+      "facts": [
+        "J03"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S054",
+      "start_s": 162.0,
+      "end_s": 164.5,
+      "narration_id": "N028",
+      "spoken_text": "피해자 측으로부터 용서받지 못했다는 사정도 지적했다.",
+      "facts": [
+        "J05"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S055",
+      "start_s": 164.5,
+      "end_s": 166.967,
+      "narration_id": "N028",
+      "spoken_text": "피해자 측으로부터 용서받지 못했다는 사정도 지적했다.",
+      "facts": [
+        "J05"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S056",
+      "start_s": 166.967,
+      "end_s": 170.667,
+      "narration_id": "N029",
+      "spoken_text": "한편 재판부는 피고인들이 사실관계를 인정하고 반성하는 태도를 보인 점을 참작한다.",
+      "facts": [
+        "J04"
+      ],
+      "screen": "court_defendants"
+    },
+    {
+      "shot_id": "S057",
+      "start_s": 170.667,
+      "end_s": 174.367,
+      "narration_id": "N029",
+      "spoken_text": "한편 재판부는 피고인들이 사실관계를 인정하고 반성하는 태도를 보인 점을 참작한다.",
+      "facts": [
+        "J04"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S058",
+      "start_s": 174.367,
+      "end_s": 178.467,
+      "narration_id": "N030",
+      "spoken_text": "군 기강 확립을 위한 교육 목적으로 훈련을 하다가 범행에 이르렀다는 점도 유리한 정상으로 봤다.",
+      "facts": [
+        "J04"
+      ],
+      "screen": "court_defendants"
+    },
+    {
+      "shot_id": "S059",
+      "start_s": 178.467,
+      "end_s": 182.567,
+      "narration_id": "N030",
+      "spoken_text": "군 기강 확립을 위한 교육 목적으로 훈련을 하다가 범행에 이르렀다는 점도 유리한 정상으로 봤다.",
+      "facts": [
+        "J04"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S060",
+      "start_s": 182.567,
+      "end_s": 187.967,
+      "narration_id": "N031",
+      "spoken_text": "일심은 하나의 행위가 여러 범죄를 구성하는 관계로 판단했다.",
+      "facts": [
+        "J01"
+      ],
+      "screen": "court_defendants"
+    },
+    {
+      "shot_id": "S061",
+      "start_s": 187.967,
+      "end_s": 192.333,
+      "narration_id": "N032",
+      "spoken_text": "하나의 행위에 여러 범죄가 성립한다고 본 것이다.",
+      "facts": [
+        "J01",
+        "J09"
+      ],
+      "screen": "court_defendants"
+    },
+    {
+      "shot_id": "S062",
+      "start_s": 192.333,
+      "end_s": 194.7,
+      "narration_id": "N033",
+      "spoken_text": "일심은 학대치사죄의 양형기준을 참고해 형을 정했다.",
+      "facts": [
+        "J02"
+      ],
+      "screen": "court_prosecutor"
+    },
+    {
+      "shot_id": "S063",
+      "start_s": 194.7,
+      "end_s": 197.1,
+      "narration_id": "N033",
+      "spoken_text": "일심은 학대치사죄의 양형기준을 참고해 형을 정했다.",
+      "facts": [
+        "J02"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S064",
+      "start_s": 197.1,
+      "end_s": 200.667,
+      "narration_id": "N034",
+      "spoken_text": "중대장에게 선고한 형은 징역 오 년이다.",
+      "facts": [
+        "C05"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S065",
+      "start_s": 200.667,
+      "end_s": 203.433,
+      "narration_id": "N035",
+      "spoken_text": "중대장에 대한 일심 구형은 십 년이었고 일심 선고는 오 년이었다.",
+      "facts": [
+        "C03",
+        "C05"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S066",
+      "start_s": 203.433,
+      "end_s": 206.267,
+      "narration_id": "N035",
+      "spoken_text": "중대장에 대한 일심 구형은 십 년이었고 일심 선고는 오 년이었다.",
+      "facts": [
+        "C03",
+        "C05"
+      ],
+      "screen": "court_records"
+    },
+    {
+      "shot_id": "S067",
+      "start_s": 206.267,
+      "end_s": 210.033,
+      "narration_id": "N036",
+      "spoken_text": "부중대장에게 선고한 형은 징역 삼 년이다.",
+      "facts": [
+        "D04"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S068",
+      "start_s": 210.033,
+      "end_s": 212.933,
+      "narration_id": "N037",
+      "spoken_text": "부중대장에 대한 일심 구형은 칠 년이었고 일심 선고는 삼 년이었다.",
+      "facts": [
+        "D03",
+        "D04"
+      ],
+      "screen": "court_records"
+    },
+    {
+      "shot_id": "S069",
+      "start_s": 212.933,
+      "end_s": 215.833,
+      "narration_id": "N037",
+      "spoken_text": "부중대장에 대한 일심 구형은 칠 년이었고 일심 선고는 삼 년이었다.",
+      "facts": [
+        "D03",
+        "D04"
+      ],
+      "screen": "court_prosecutor"
+    },
+    {
+      "shot_id": "S070",
+      "start_s": 215.833,
+      "end_s": 217.333,
+      "narration_id": "",
+      "spoken_text": "",
+      "facts": [],
+      "screen": "court_records"
+    },
+    {
+      "shot_id": "S071",
+      "start_s": 217.333,
+      "end_s": 220.833,
+      "narration_id": "N038",
+      "spoken_text": "이천이십오년 유월 십팔일, 서울고법 춘천재판부 형사일부가 항소심을 선고한다.",
+      "facts": [
+        "C07",
+        "D06"
+      ],
+      "screen": "court_prosecutor"
+    },
+    {
+      "shot_id": "S072",
+      "start_s": 220.833,
+      "end_s": 224.333,
+      "narration_id": "N038",
+      "spoken_text": "이천이십오년 유월 십팔일, 서울고법 춘천재판부 형사일부가 항소심을 선고한다.",
+      "facts": [
+        "C07",
+        "D06"
+      ],
+      "screen": "court_records"
+    },
+    {
+      "shot_id": "S073",
+      "start_s": 224.333,
+      "end_s": 227.0,
+      "narration_id": "N039",
+      "spoken_text": "항소심은 쟁점이 된 죄의 수에 관해 일심과 다른 판단을 내린다.",
+      "facts": [
+        "J07"
+      ],
+      "screen": "court_prosecutor"
+    },
+    {
+      "shot_id": "S074",
+      "start_s": 227.0,
+      "end_s": 229.733,
+      "narration_id": "N039",
+      "spoken_text": "항소심은 쟁점이 된 죄의 수에 관해 일심과 다른 판단을 내린다.",
+      "facts": [
+        "J07"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S075",
+      "start_s": 229.733,
+      "end_s": 232.433,
+      "narration_id": "N040",
+      "spoken_text": "일심은 같은 장소에서 같은 기회에 이뤄진 행위라는 점을 봤다.",
+      "facts": [
+        "J08"
+      ],
+      "screen": "court_prosecutor"
+    },
+    {
+      "shot_id": "S076",
+      "start_s": 232.433,
+      "end_s": 235.133,
+      "narration_id": "N040",
+      "spoken_text": "일심은 같은 장소에서 같은 기회에 이뤄진 행위라는 점을 봤다.",
+      "facts": [
+        "J08"
+      ],
+      "screen": "court_records"
+    },
+    {
+      "shot_id": "S077",
+      "start_s": 235.133,
+      "end_s": 238.633,
+      "narration_id": "N041",
+      "spoken_text": "하지만 항소심은 피해자별로 가혹행위와 학대 양상이 어떻게 달랐는지 설명한다.",
+      "facts": [
+        "J08"
+      ],
+      "screen": "court_prosecutor"
+    },
+    {
+      "shot_id": "S078",
+      "start_s": 238.633,
+      "end_s": 242.133,
+      "narration_id": "N041",
+      "spoken_text": "하지만 항소심은 피해자별로 가혹행위와 학대 양상이 어떻게 달랐는지 설명한다.",
+      "facts": [
+        "J08"
+      ],
+      "screen": "court_records"
+    },
+    {
+      "shot_id": "S079",
+      "start_s": 242.133,
+      "end_s": 244.333,
+      "narration_id": "N042",
+      "spoken_text": "따라서 여러 개의 행위로 인정할 수 있다고 판단했다.",
+      "facts": [
+        "J08"
+      ],
+      "screen": "court_prosecutor"
+    },
+    {
+      "shot_id": "S080",
+      "start_s": 244.333,
+      "end_s": 246.7,
+      "narration_id": "N042",
+      "spoken_text": "따라서 여러 개의 행위로 인정할 수 있다고 판단했다.",
+      "facts": [
+        "J08"
+      ],
+      "screen": "court_prosecutor"
+    },
+    {
+      "shot_id": "S081",
+      "start_s": 246.7,
+      "end_s": 248.633,
+      "narration_id": "N043",
+      "spoken_text": "여러 행위로 여러 죄를 범한 관계로 본 것이다.",
+      "facts": [
+        "J09"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S082",
+      "start_s": 248.633,
+      "end_s": 250.667,
+      "narration_id": "N043",
+      "spoken_text": "여러 행위로 여러 죄를 범한 관계로 본 것이다.",
+      "facts": [
+        "J09"
+      ],
+      "screen": "court_records"
+    },
+    {
+      "shot_id": "S083",
+      "start_s": 250.667,
+      "end_s": 254.1,
+      "narration_id": "N044",
+      "spoken_text": "항소심은 중대장의 범죄 행위들도 여러 행위로 여러 죄를 범한 관계로 판단했다.",
+      "facts": [
+        "J07"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S084",
+      "start_s": 254.1,
+      "end_s": 257.467,
+      "narration_id": "N044",
+      "spoken_text": "항소심은 중대장의 범죄 행위들도 여러 행위로 여러 죄를 범한 관계로 판단했다.",
+      "facts": [
+        "J07"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S085",
+      "start_s": 257.467,
+      "end_s": 263.267,
+      "narration_id": "N045",
+      "spoken_text": "하나의 행위로 여러 범죄가 성립한다고 본 일심과 달라진 지점이다.",
+      "facts": [
+        "J01",
+        "J07"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S086",
+      "start_s": 263.267,
+      "end_s": 267.3,
+      "narration_id": "N046",
+      "spoken_text": "보도는 하나의 행위가 여러 죄에 해당하면 가장 무거운 죄에 정한 형으로 처벌한다고 설명한다.",
+      "facts": [
+        "J10"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S087",
+      "start_s": 267.3,
+      "end_s": 271.267,
+      "narration_id": "N046",
+      "spoken_text": "보도는 하나의 행위가 여러 죄에 해당하면 가장 무거운 죄에 정한 형으로 처벌한다고 설명한다.",
+      "facts": [
+        "J10"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S088",
+      "start_s": 271.267,
+      "end_s": 274.7,
+      "narration_id": "N047",
+      "spoken_text": "여러 행위로 여러 죄를 범하면 가장 무거운 죄의 형을 가중할 수 있다는 설명이다.",
+      "facts": [
+        "J10"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S089",
+      "start_s": 274.7,
+      "end_s": 278.067,
+      "narration_id": "N047",
+      "spoken_text": "여러 행위로 여러 죄를 범하면 가장 무거운 죄의 형을 가중할 수 있다는 설명이다.",
+      "facts": [
+        "J10"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S090",
+      "start_s": 278.067,
+      "end_s": 281.233,
+      "narration_id": "N048",
+      "spoken_text": "항소심이 중대장의 형을 늘리면서 제시한 이유가 이 죄수 관계의 차이였다.",
+      "facts": [
+        "J07",
+        "C07"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S091",
+      "start_s": 281.233,
+      "end_s": 284.467,
+      "narration_id": "N048",
+      "spoken_text": "항소심이 중대장의 형을 늘리면서 제시한 이유가 이 죄수 관계의 차이였다.",
+      "facts": [
+        "J07",
+        "C07"
+      ],
+      "screen": "court_records"
+    },
+    {
+      "shot_id": "S092",
+      "start_s": 284.467,
+      "end_s": 287.433,
+      "narration_id": "N049",
+      "spoken_text": "재판부는 지휘관들이 답습한 병영문화가 후진적이었다고 지적한다.",
+      "facts": [
+        "J11"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S093",
+      "start_s": 287.433,
+      "end_s": 290.467,
+      "narration_id": "N049",
+      "spoken_text": "재판부는 지휘관들이 답습한 병영문화가 후진적이었다고 지적한다.",
+      "facts": [
+        "J11"
+      ],
+      "screen": "court_records"
+    },
+    {
+      "shot_id": "S094",
+      "start_s": 290.467,
+      "end_s": 293.367,
+      "narration_id": "N050",
+      "spoken_text": "그 결과 충분히 예방할 수 있었던 사망사고를 초래했다고 판단했다.",
+      "facts": [
+        "J11"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S095",
+      "start_s": 293.367,
+      "end_s": 296.267,
+      "narration_id": "N050",
+      "spoken_text": "그 결과 충분히 예방할 수 있었던 사망사고를 초래했다고 판단했다.",
+      "facts": [
+        "J11"
+      ],
+      "screen": "court_defendants"
+    },
+    {
+      "shot_id": "S096",
+      "start_s": 296.267,
+      "end_s": 300.567,
+      "narration_id": "N051",
+      "spoken_text": "국가가 병사들의 생명과 신체를 보호하리라는 기대는 사회의 기본인데 이를 배반한 범행이라고 봤다.",
+      "facts": [
+        "J12"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S097",
+      "start_s": 300.567,
+      "end_s": 304.867,
+      "narration_id": "N051",
+      "spoken_text": "국가가 병사들의 생명과 신체를 보호하리라는 기대는 사회의 기본인데 이를 배반한 범행이라고 봤다.",
+      "facts": [
+        "J12"
+      ],
+      "screen": "court_defendants"
+    },
+    {
+      "shot_id": "S098",
+      "start_s": 304.867,
+      "end_s": 306.367,
+      "narration_id": "",
+      "spoken_text": "",
+      "facts": [],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S099",
+      "start_s": 306.367,
+      "end_s": 307.167,
+      "narration_id": "",
+      "spoken_text": "",
+      "facts": [],
+      "screen": "court_defendants"
+    },
+    {
+      "shot_id": "S100",
+      "start_s": 307.167,
+      "end_s": 309.633,
+      "narration_id": "N052",
+      "spoken_text": "항소심이 중대장에게 선고한 형은 징역 오 년 육 개월이다.",
+      "facts": [
+        "C01",
+        "C07",
+        "J08"
+      ],
+      "screen": "court_defendants"
+    },
+    {
+      "shot_id": "S101",
+      "start_s": 309.633,
+      "end_s": 312.133,
+      "narration_id": "N052",
+      "spoken_text": "항소심이 중대장에게 선고한 형은 징역 오 년 육 개월이다.",
+      "facts": [
+        "C07"
+      ],
+      "screen": "court_records"
+    },
+    {
+      "shot_id": "S102",
+      "start_s": 312.133,
+      "end_s": 314.5,
+      "narration_id": "N053",
+      "spoken_text": "중대장의 일심 선고였던 징역 오 년보다 육 개월 늘었다.",
+      "facts": [
+        "C05",
+        "C07"
+      ],
+      "screen": "court_prosecutor"
+    },
+    {
+      "shot_id": "S103",
+      "start_s": 314.5,
+      "end_s": 316.9,
+      "narration_id": "N053",
+      "spoken_text": "중대장의 일심 선고였던 징역 오 년보다 육 개월 늘었다.",
+      "facts": [
+        "C05",
+        "C07"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S104",
+      "start_s": 316.9,
+      "end_s": 319.267,
+      "narration_id": "N054",
+      "spoken_text": "부중대장에게는 항소심에서도 징역 삼 년이 선고됐다.",
+      "facts": [
+        "D06"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S105",
+      "start_s": 319.267,
+      "end_s": 321.667,
+      "narration_id": "N054",
+      "spoken_text": "부중대장에게는 항소심에서도 징역 삼 년이 선고됐다.",
+      "facts": [
+        "D06"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S106",
+      "start_s": 321.667,
+      "end_s": 324.633,
+      "narration_id": "N055",
+      "spoken_text": "부중대장의 형량은 일심과 같다.",
+      "facts": [
+        "D04",
+        "D06"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S107",
+      "start_s": 324.633,
+      "end_s": 328.4,
+      "narration_id": "N056",
+      "spoken_text": "중대장 사건은 이후 대법원 판단을 받는다.",
+      "facts": [
+        "C09",
+        "J13"
+      ],
+      "screen": "court_records"
+    },
+    {
+      "shot_id": "S108",
+      "start_s": 328.4,
+      "end_s": 331.3,
+      "narration_id": "N057",
+      "spoken_text": "이천이십오년 구월 이십오일, 대법원은 중대장의 상고를 기각했다.",
+      "facts": [
+        "C09",
+        "J13"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S109",
+      "start_s": 331.3,
+      "end_s": 334.2,
+      "narration_id": "N057",
+      "spoken_text": "이천이십오년 구월 이십오일, 대법원은 중대장의 상고를 기각했다.",
+      "facts": [
+        "C09",
+        "J13"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S110",
+      "start_s": 334.2,
+      "end_s": 337.567,
+      "narration_id": "N058",
+      "spoken_text": "원심 판단에 잘못이 없다고 본 것이다.",
+      "facts": [
+        "J13"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S111",
+      "start_s": 337.567,
+      "end_s": 341.733,
+      "narration_id": "N059",
+      "spoken_text": "이로써 중대장의 징역 오 년 육 개월이 확정된다.",
+      "facts": [
+        "C09"
+      ],
+      "screen": "court_defendants"
+    },
+    {
+      "shot_id": "S112",
+      "start_s": 341.733,
+      "end_s": 346.1,
+      "narration_id": "N060",
+      "spoken_text": "부중대장의 징역 삼 년도 확정된 것으로 확인된다.",
+      "facts": [
+        "D08"
+      ],
+      "screen": "court_prosecutor"
+    },
+    {
+      "shot_id": "S113",
+      "start_s": 346.1,
+      "end_s": 349.267,
+      "narration_id": "N061",
+      "spoken_text": "이천이십오년 구월 이십오일 보도에서 확인되는 부중대장의 확정 상태다.",
+      "facts": [
+        "D08"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S114",
+      "start_s": 349.267,
+      "end_s": 352.5,
+      "narration_id": "N061",
+      "spoken_text": "이천이십오년 구월 이십오일 보도에서 확인되는 부중대장의 확정 상태다.",
+      "facts": [
+        "D08"
+      ],
+      "screen": "court_judgeclose"
+    },
+    {
+      "shot_id": "S115",
+      "start_s": 352.5,
+      "end_s": 355.8,
+      "narration_id": "N062",
+      "spoken_text": "이 사건의 항소심은 피해자별 행위의 차이를 살펴 죄수 관계를 다시 판단했다.",
+      "facts": [
+        "J08"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S116",
+      "start_s": 355.8,
+      "end_s": 359.1,
+      "narration_id": "N062",
+      "spoken_text": "이 사건의 항소심은 피해자별 행위의 차이를 살펴 죄수 관계를 다시 판단했다.",
+      "facts": [
+        "J08"
+      ],
+      "screen": "court_witness"
+    },
+    {
+      "shot_id": "S117",
+      "start_s": 359.1,
+      "end_s": 362.167,
+      "narration_id": "N063",
+      "spoken_text": "재판부가 남긴 판단은, 충분히 예방할 수 있었던 사망사고였다는 것이다.",
+      "facts": [
+        "J11"
+      ],
+      "screen": "court_wide"
+    },
+    {
+      "shot_id": "S118",
+      "start_s": 362.167,
+      "end_s": 365.3,
+      "narration_id": "N063",
+      "spoken_text": "재판부가 남긴 판단은, 충분히 예방할 수 있었던 사망사고였다는 것이다.",
+      "facts": [
+        "J11"
+      ],
+      "screen": "court_defendants"
+    },
+    {
+      "shot_id": "S119",
+      "start_s": 365.3,
+      "end_s": 370.3,
+      "narration_id": "",
+      "spoken_text": "",
+      "facts": [],
+      "screen": "training_kit"
+    },
+    {
+      "shot_id": "S120",
+      "start_s": 370.3,
+      "end_s": 375.3,
+      "narration_id": "",
+      "spoken_text": "",
+      "facts": [],
+      "screen": "training_kit"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "result": {
+    "episode": "q006",
+    "frames": 998,
+    "seconds": 33.27,
+    "duration_ok": true,
+    "duration_hard_ok": true,
+    "reveal_frame": 769,
+    "reveal_ratio": 0.771,
+    "reveal_ok": true,
+    "max_gap_frames": 174,
+    "max_gap_at": [
+      775,
+      949
+    ],
+    "tempo_ok": false,
+    "changes_per_10s": 9.6,
+    "over_gap": [
+      [
+        165,
+        599,
+        764
+      ],
+      [
+        174,
+        775,
+        949
+      ]
+    ]
+  },
+  "events": [
+    [
+      0,
+      "C1 cut incident"
+    ],
+    [
+      34,
+      "C1 zoom"
+    ],
+    [
+      64,
+      "C1 props[0] in"
+    ],
+    [
+      70,
+      "C1 zoom"
+    ],
+    [
+      106,
+      "C1 zoom"
+    ],
+    [
+      142,
+      "C1 zoom"
+    ],
+    [
+      178,
+      "C1 zoom"
+    ],
+    [
+      214,
+      "C1 zoom"
+    ],
+    [
+      229,
+      "C2 cut incident"
+    ],
+    [
+      262,
+      "C2 zoom"
+    ],
+    [
+      298,
+      "C2 zoom"
+    ],
+    [
+      302,
+      "C2 stamp"
+    ],
+    [
+      334,
+      "C2 zoom"
+    ],
+    [
+      370,
+      "C2 zoom"
+    ],
+    [
+      406,
+      "C2 zoom"
+    ],
+    [
+      442,
+      "C2 zoom"
+    ],
+    [
+      473,
+      "C6 cut incident"
+    ],
+    [
+      482,
+      "C6 stamp"
+    ],
+    [
+      506,
+      "C6 zoom"
+    ],
+    [
+      542,
+      "C6 zoom"
+    ],
+    [
+      552,
+      "C3 cut quiz"
+    ],
+    [
+      559,
+      "C3 quiz anim"
+    ],
+    [
+      597,
+      "C5 cut weigh"
+    ],
+    [
+      599,
+      "C5 title"
+    ],
+    [
+      764,
+      "C4 cut reveal"
+    ],
+    [
+      769,
+      "C4 hit"
+    ],
+    [
+      775,
+      "C4 stamp"
+    ],
+    [
+      949,
+      "C7 cut outro"
+    ],
+    [
+      952,
+      "C7 card"
+    ],
+    [
+      966,
+      "C7 logo"
+    ],
+    [
+      982,
+      "C7 zoom"
+    ]
+  ]
+}

@@ -1,0 +1,11 @@
+{"pulled_at":"2026-10-30T08:00+09:00","source":"YouTube Studio (owner profile, read-only), lifetime analytics lag ~2 days",
+ "channel":{"subscribers":7,"views_28d":6150,"watch_hours_28d":19.7,"views_48h":2395},
+ "videos":[
+  {"ep":1,"id":"IKjz8gGErMk","views":1220,"stayed_pct":40.2,"avg_dur":"0:23","len":"0:28","subs":null},
+  {"ep":2,"id":"zwgKEbvbxsU","views":1286,"stayed_pct":45.5,"avg_dur":"0:21","len":"0:23","subs":2},
+  {"ep":3,"id":"0eo5o8u5EMM","views":1147,"stayed_pct":44.6,"avg_dur":"0:23","len":"0:32","subs":1},
+  {"ep":4,"id":"EomEdxcqfsU","views":16,"note":"no Shorts-feed test; likely duplicate suppression after delete+re-upload (hypothesis)"},
+  {"ep":5,"id":"MYjtxd25BhU","views":21,"note":"same as ep4"},
+  {"ep":6,"id":"1niGnkTw6BA","views":1231,"stayed_pct":39.4,"avg_dur":"0:34","len":"0:40","subs":null},
+  {"ep":7,"id":"E4zk6oCIbjA","views":1213,"stayed_pct":35.9,"avg_dur":"0:29","len":"0:35","subs":1,"feed_pct":96.6,"note":"pre-fix wording published; description correction added 10-30"},
+  {"ep":8,"id":"_AYRzLJaFLo","views_first_12h":1100,"avg_view_rate_pct":58.1,"note":"uploader unknown (not in any session log)"}]}

@@ -1,0 +1,5088 @@
+[
+  {
+    "candidate": 1,
+    "frame": 140,
+    "time_s": 4.666667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 19.256,
+    "hist": 0.043,
+    "original_candidate_frame": 140,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 2,
+    "frame": 169,
+    "time_s": 5.633333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 71.196,
+    "hist": 0.381,
+    "original_candidate_frame": 169,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 169,
+    "transition_end_frame_exclusive": 169,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 3,
+    "frame": 176,
+    "time_s": 5.866667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.428,
+    "hist": 0.011,
+    "original_candidate_frame": 176,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 4,
+    "frame": 302,
+    "time_s": 10.066667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 92.501,
+    "hist": 0.717,
+    "original_candidate_frame": 302,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 302,
+    "transition_end_frame_exclusive": 302,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 5,
+    "frame": 309,
+    "time_s": 10.3,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.579,
+    "hist": 0.259,
+    "original_candidate_frame": 309,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 6,
+    "frame": 316,
+    "time_s": 10.533333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 43.568,
+    "hist": 0.521,
+    "original_candidate_frame": 316,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 316,
+    "transition_end_frame_exclusive": 316,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 7,
+    "frame": 331,
+    "time_s": 11.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 39.107,
+    "hist": 0.406,
+    "original_candidate_frame": 331,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 331,
+    "transition_end_frame_exclusive": 331,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 8,
+    "frame": 346,
+    "time_s": 11.533333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 34.539,
+    "hist": 0.592,
+    "original_candidate_frame": 346,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 346,
+    "transition_end_frame_exclusive": 346,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 9,
+    "frame": 354,
+    "time_s": 11.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.244,
+    "hist": 0.02,
+    "original_candidate_frame": 354,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 10,
+    "frame": 361,
+    "time_s": 12.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 53.085,
+    "hist": 0.614,
+    "original_candidate_frame": 361,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 361,
+    "transition_end_frame_exclusive": 361,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 11,
+    "frame": 377,
+    "time_s": 12.566667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 60.938,
+    "hist": 0.679,
+    "original_candidate_frame": 377,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 377,
+    "transition_end_frame_exclusive": 377,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 12,
+    "frame": 384,
+    "time_s": 12.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 10.314,
+    "hist": 0.031,
+    "original_candidate_frame": 384,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 13,
+    "frame": 393,
+    "time_s": 13.1,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 50.381,
+    "hist": 0.515,
+    "original_candidate_frame": 393,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 393,
+    "transition_end_frame_exclusive": 393,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 14,
+    "frame": 409,
+    "time_s": 13.633333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 26.184,
+    "hist": 0.511,
+    "original_candidate_frame": 409,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 409,
+    "transition_end_frame_exclusive": 409,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 15,
+    "frame": 416,
+    "time_s": 13.866667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.824,
+    "hist": 0.039,
+    "original_candidate_frame": 416,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 16,
+    "frame": 439,
+    "time_s": 14.633333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.089,
+    "hist": 0.035,
+    "original_candidate_frame": 439,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 17,
+    "frame": 446,
+    "time_s": 14.866667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 103.517,
+    "hist": 0.938,
+    "original_candidate_frame": 446,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 446,
+    "transition_end_frame_exclusive": 446,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 18,
+    "frame": 510,
+    "time_s": 17.0,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 65.958,
+    "hist": 0.844,
+    "original_candidate_frame": 510,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 510,
+    "transition_end_frame_exclusive": 510,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 19,
+    "frame": 517,
+    "time_s": 17.233333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.247,
+    "hist": 0.008,
+    "original_candidate_frame": 517,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 240,
+    "frame": 694,
+    "time_s": 23.133333333333333,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 1.9796527777777777,
+    "hist": 0.015016385351611341,
+    "original_candidate_frame": 694,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 241,
+    "frame": 756,
+    "time_s": 25.2,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 1.7722916666666666,
+    "hist": 0.013480034474518173,
+    "original_candidate_frame": 756,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 20,
+    "frame": 813,
+    "time_s": 27.1,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 66.27,
+    "hist": 0.43,
+    "original_candidate_frame": 813,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 813,
+    "transition_end_frame_exclusive": 813,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 21,
+    "frame": 820,
+    "time_s": 27.333333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.451,
+    "hist": 0.015,
+    "original_candidate_frame": 820,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 22,
+    "frame": 1013,
+    "time_s": 33.766667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 83.017,
+    "hist": 0.728,
+    "original_candidate_frame": 1013,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 1013,
+    "transition_end_frame_exclusive": 1013,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 23,
+    "frame": 1020,
+    "time_s": 34.0,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.592,
+    "hist": 0.018,
+    "original_candidate_frame": 1020,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 24,
+    "frame": 1092,
+    "time_s": 36.4,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 69.787,
+    "hist": 0.773,
+    "original_candidate_frame": 1092,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 1092,
+    "transition_end_frame_exclusive": 1092,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 25,
+    "frame": 1099,
+    "time_s": 36.633333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.457,
+    "hist": 0.024,
+    "original_candidate_frame": 1099,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 26,
+    "frame": 1158,
+    "time_s": 38.6,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 79.77,
+    "hist": 0.585,
+    "original_candidate_frame": 1158,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 1158,
+    "transition_end_frame_exclusive": 1158,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 27,
+    "frame": 1165,
+    "time_s": 38.833333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.409,
+    "hist": 0.059,
+    "original_candidate_frame": 1165,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 28,
+    "frame": 1232,
+    "time_s": 41.066667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 64.126,
+    "hist": 0.768,
+    "original_candidate_frame": 1232,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 1232,
+    "transition_end_frame_exclusive": 1232,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 29,
+    "frame": 1239,
+    "time_s": 41.3,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.563,
+    "hist": 0.018,
+    "original_candidate_frame": 1239,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 30,
+    "frame": 1385,
+    "time_s": 46.166667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.577,
+    "hist": 0.023,
+    "original_candidate_frame": 1385,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 31,
+    "frame": 1392,
+    "time_s": 46.4,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 81.267,
+    "hist": 0.698,
+    "original_candidate_frame": 1392,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 1392,
+    "transition_end_frame_exclusive": 1392,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 32,
+    "frame": 1458,
+    "time_s": 48.6,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.762,
+    "hist": 0.023,
+    "original_candidate_frame": 1458,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 242,
+    "frame": 1580,
+    "time_s": 52.666666666666664,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.9831770833333335,
+    "hist": 0.02413253180611936,
+    "original_candidate_frame": 1580,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 33,
+    "frame": 1685,
+    "time_s": 56.166667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.494,
+    "hist": 0.028,
+    "original_candidate_frame": 1685,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 34,
+    "frame": 1749,
+    "time_s": 58.3,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.805,
+    "hist": 0.023,
+    "original_candidate_frame": 1749,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 35,
+    "frame": 1756,
+    "time_s": 58.533333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 92.517,
+    "hist": 0.636,
+    "original_candidate_frame": 1756,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 1756,
+    "transition_end_frame_exclusive": 1756,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 36,
+    "frame": 1915,
+    "time_s": 63.833333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 16.179,
+    "hist": 0.06,
+    "original_candidate_frame": 1915,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 37,
+    "frame": 1980,
+    "time_s": 66.0,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 62.069,
+    "hist": 0.671,
+    "original_candidate_frame": 1980,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 1980,
+    "transition_end_frame_exclusive": 1980,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 38,
+    "frame": 1987,
+    "time_s": 66.233333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.339,
+    "hist": 0.011,
+    "original_candidate_frame": 1987,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 39,
+    "frame": 2028,
+    "time_s": 67.6,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 8.994,
+    "hist": 0.097,
+    "original_candidate_frame": 2028,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 40,
+    "frame": 2174,
+    "time_s": 72.466667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.328,
+    "hist": 0.013,
+    "original_candidate_frame": 2174,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 41,
+    "frame": 2181,
+    "time_s": 72.7,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 68.302,
+    "hist": 0.522,
+    "original_candidate_frame": 2181,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 2181,
+    "transition_end_frame_exclusive": 2181,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 243,
+    "frame": 2231,
+    "time_s": 74.36666666666666,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.3709895833333334,
+    "hist": 0.03419044576866739,
+    "original_candidate_frame": 2231,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 42,
+    "frame": 2458,
+    "time_s": 81.933333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 56.842,
+    "hist": 0.687,
+    "original_candidate_frame": 2458,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 2458,
+    "transition_end_frame_exclusive": 2458,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 43,
+    "frame": 2523,
+    "time_s": 84.1,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 43.651,
+    "hist": 0.541,
+    "original_candidate_frame": 2523,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 2523,
+    "transition_end_frame_exclusive": 2523,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 44,
+    "frame": 2669,
+    "time_s": 88.966667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 19.567,
+    "hist": 0.302,
+    "original_candidate_frame": 2669,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 2669,
+    "transition_end_frame_exclusive": 2669,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 244,
+    "frame": 2807,
+    "time_s": 93.56666666666666,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.26234375,
+    "hist": 0.02765860672938223,
+    "original_candidate_frame": 2807,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 45,
+    "frame": 2835,
+    "time_s": 94.5,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 52.634,
+    "hist": 0.525,
+    "original_candidate_frame": 2835,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 2835,
+    "transition_end_frame_exclusive": 2835,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 245,
+    "frame": 2863,
+    "time_s": 95.43333333333334,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.499184027777778,
+    "hist": 0.023487920498073453,
+    "original_candidate_frame": 2863,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 246,
+    "frame": 3037,
+    "time_s": 101.23333333333333,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.9096006944444444,
+    "hist": 0.03449545205068572,
+    "original_candidate_frame": 3037,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 46,
+    "frame": 3058,
+    "time_s": 101.933333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 58.244,
+    "hist": 0.493,
+    "original_candidate_frame": 3058,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 3058,
+    "transition_end_frame_exclusive": 3058,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 47,
+    "frame": 3065,
+    "time_s": 102.166667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 15.972,
+    "hist": 0.043,
+    "original_candidate_frame": 3065,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 48,
+    "frame": 3075,
+    "time_s": 102.5,
+    "sources": [
+      "content"
+    ],
+    "diff": 10.836,
+    "hist": 0.073,
+    "original_candidate_frame": 3075,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 49,
+    "frame": 3226,
+    "time_s": 107.533333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 50.636,
+    "hist": 0.701,
+    "original_candidate_frame": 3226,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 3226,
+    "transition_end_frame_exclusive": 3226,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 50,
+    "frame": 3322,
+    "time_s": 110.733333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.4,
+    "hist": 0.018,
+    "original_candidate_frame": 3322,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 51,
+    "frame": 3329,
+    "time_s": 110.966667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 53.205,
+    "hist": 0.522,
+    "original_candidate_frame": 3329,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 3329,
+    "transition_end_frame_exclusive": 3329,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 247,
+    "frame": 3483,
+    "time_s": 116.1,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.773420138888889,
+    "hist": 0.030950474428515614,
+    "original_candidate_frame": 3483,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 52,
+    "frame": 3566,
+    "time_s": 118.866667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 86.637,
+    "hist": 0.672,
+    "original_candidate_frame": 3566,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 3566,
+    "transition_end_frame_exclusive": 3566,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 53,
+    "frame": 3573,
+    "time_s": 119.1,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.716,
+    "hist": 0.26,
+    "original_candidate_frame": 3573,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 54,
+    "frame": 3631,
+    "time_s": 121.033333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 8.81,
+    "hist": 0.243,
+    "original_candidate_frame": 3631,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 55,
+    "frame": 3638,
+    "time_s": 121.266667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 52.13,
+    "hist": 0.572,
+    "original_candidate_frame": 3638,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 3638,
+    "transition_end_frame_exclusive": 3638,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 56,
+    "frame": 3884,
+    "time_s": 129.433333,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 30.961,
+    "hist": 0.137,
+    "original_candidate_frame": 3883,
+    "keep": true,
+    "transition": "glitch",
+    "transition_start_frame": 3877,
+    "transition_end_frame_exclusive": 3892,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 57,
+    "frame": 3888,
+    "time_s": 129.6,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 40.433,
+    "hist": 0.077,
+    "original_candidate_frame": 3888,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 58,
+    "frame": 3964,
+    "time_s": 132.133333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 78.325,
+    "hist": 0.561,
+    "original_candidate_frame": 3964,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 3964,
+    "transition_end_frame_exclusive": 3964,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 59,
+    "frame": 3971,
+    "time_s": 132.366667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 11.725,
+    "hist": 0.029,
+    "original_candidate_frame": 3971,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 60,
+    "frame": 4000,
+    "time_s": 133.333333,
+    "sources": [
+      "content",
+      "adaptive"
+    ],
+    "diff": 1.095,
+    "hist": 0.027,
+    "original_candidate_frame": 4000,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 248,
+    "frame": 4023,
+    "time_s": 134.1,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.2306944444444445,
+    "hist": 0.019886278606646393,
+    "original_candidate_frame": 4023,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 249,
+    "frame": 4088,
+    "time_s": 136.26666666666668,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.940347222222222,
+    "hist": 0.0165131249750088,
+    "original_candidate_frame": 4088,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 250,
+    "frame": 4180,
+    "time_s": 139.33333333333334,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.62125,
+    "hist": 0.014865439125184276,
+    "original_candidate_frame": 4180,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 61,
+    "frame": 4250,
+    "time_s": 141.666667,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 0.488,
+    "hist": 0.02,
+    "original_candidate_frame": 4250,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 62,
+    "frame": 4345,
+    "time_s": 144.833333,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 122.13,
+    "hist": 0.579,
+    "original_candidate_frame": 4345,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 4345,
+    "transition_end_frame_exclusive": 4345,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 63,
+    "frame": 4377,
+    "time_s": 145.9,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 19.673,
+    "hist": 0.035,
+    "original_candidate_frame": 4377,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 64,
+    "frame": 4385,
+    "time_s": 146.166667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 53.838,
+    "hist": 0.016,
+    "original_candidate_frame": 4385,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 251,
+    "frame": 4418,
+    "time_s": 147.26666666666668,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 4.316284722222222,
+    "hist": 0.017173536391759635,
+    "original_candidate_frame": 4418,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 252,
+    "frame": 4458,
+    "time_s": 148.6,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 1.9701041666666668,
+    "hist": 0.00849999014701934,
+    "original_candidate_frame": 4458,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 253,
+    "frame": 4504,
+    "time_s": 150.13333333333333,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.9508854166666665,
+    "hist": 0.016923817770436656,
+    "original_candidate_frame": 4504,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 254,
+    "frame": 4572,
+    "time_s": 152.4,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.9444270833333333,
+    "hist": 0.017399360038411388,
+    "original_candidate_frame": 4572,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 255,
+    "frame": 4664,
+    "time_s": 155.46666666666667,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.8361111111111112,
+    "hist": 0.011958822835044538,
+    "original_candidate_frame": 4664,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 65,
+    "frame": 4732,
+    "time_s": 157.733333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 132.772,
+    "hist": 0.724,
+    "original_candidate_frame": 4732,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 4732,
+    "transition_end_frame_exclusive": 4732,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 66,
+    "frame": 4739,
+    "time_s": 157.966667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.36,
+    "hist": 0.016,
+    "original_candidate_frame": 4739,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 67,
+    "frame": 4750,
+    "time_s": 158.333333,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 0.504,
+    "hist": 0.019,
+    "original_candidate_frame": 4750,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 256,
+    "frame": 4787,
+    "time_s": 159.56666666666666,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 1.76609375,
+    "hist": 0.011378214180845184,
+    "original_candidate_frame": 4787,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 257,
+    "frame": 4838,
+    "time_s": 161.26666666666668,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 1.8907118055555556,
+    "hist": 0.014743487763245916,
+    "original_candidate_frame": 4838,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 258,
+    "frame": 4893,
+    "time_s": 163.1,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.6724479166666666,
+    "hist": 0.021736988912810767,
+    "original_candidate_frame": 4893,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 68,
+    "frame": 4988,
+    "time_s": 166.266667,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 131.307,
+    "hist": 0.709,
+    "original_candidate_frame": 4988,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 4988,
+    "transition_end_frame_exclusive": 4988,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 69,
+    "frame": 4995,
+    "time_s": 166.5,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 66.222,
+    "hist": 0.073,
+    "original_candidate_frame": 4995,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 259,
+    "frame": 5087,
+    "time_s": 169.56666666666666,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 5.2740625,
+    "hist": 0.03252721490181932,
+    "original_candidate_frame": 5087,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 260,
+    "frame": 5110,
+    "time_s": 170.33333333333334,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 6.264149305555556,
+    "hist": 0.036361203137727116,
+    "original_candidate_frame": 5110,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 261,
+    "frame": 5224,
+    "time_s": 174.13333333333333,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 5.269722222222223,
+    "hist": 0.022103180075180168,
+    "original_candidate_frame": 5224,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 70,
+    "frame": 5250,
+    "time_s": 175.0,
+    "sources": [
+      "content",
+      "ffmpeg"
+    ],
+    "diff": 47.966,
+    "hist": 0.028,
+    "original_candidate_frame": 5250,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 71,
+    "frame": 5258,
+    "time_s": 175.266667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 63.603,
+    "hist": 0.07,
+    "original_candidate_frame": 5258,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 262,
+    "frame": 5288,
+    "time_s": 176.26666666666668,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.73671875,
+    "hist": 0.011819800521203613,
+    "original_candidate_frame": 5288,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 263,
+    "frame": 5341,
+    "time_s": 178.03333333333333,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.0790625,
+    "hist": 0.005762531755948545,
+    "original_candidate_frame": 5341,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 72,
+    "frame": 5412,
+    "time_s": 180.4,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 146.065,
+    "hist": 0.706,
+    "original_candidate_frame": 5412,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 5412,
+    "transition_end_frame_exclusive": 5412,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 73,
+    "frame": 5419,
+    "time_s": 180.633333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.059,
+    "hist": 0.013,
+    "original_candidate_frame": 5419,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 264,
+    "frame": 5454,
+    "time_s": 181.8,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.533541666666667,
+    "hist": 0.032945799160966384,
+    "original_candidate_frame": 5454,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 74,
+    "frame": 5500,
+    "time_s": 183.333333,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 0.491,
+    "hist": 0.023,
+    "original_candidate_frame": 5500,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 75,
+    "frame": 5563,
+    "time_s": 185.433333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 50.623,
+    "hist": 0.206,
+    "original_candidate_frame": 5563,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 5563,
+    "transition_end_frame_exclusive": 5563,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 76,
+    "frame": 5567,
+    "time_s": 185.566667,
+    "sources": [
+      "content"
+    ],
+    "diff": 12.088,
+    "hist": 0.016,
+    "original_candidate_frame": 5567,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 77,
+    "frame": 5577,
+    "time_s": 185.9,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 26.608,
+    "hist": 0.017,
+    "original_candidate_frame": 5577,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 265,
+    "frame": 5606,
+    "time_s": 186.86666666666667,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.42578125,
+    "hist": 0.08607372013895205,
+    "original_candidate_frame": 5606,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 78,
+    "frame": 5684,
+    "time_s": 189.466667,
+    "sources": [
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 19.932,
+    "hist": 0.025,
+    "original_candidate_frame": 5684,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 79,
+    "frame": 5692,
+    "time_s": 189.733333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 41.726,
+    "hist": 0.25,
+    "original_candidate_frame": 5692,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 80,
+    "frame": 5701,
+    "time_s": 189.966667,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 29.049,
+    "hist": 0.601,
+    "original_candidate_frame": 5699,
+    "keep": true,
+    "transition": "cross-dissolve",
+    "transition_start_frame": 5699,
+    "transition_end_frame_exclusive": 5703,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 81,
+    "frame": 5750,
+    "time_s": 191.666667,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 4.054,
+    "hist": 0.095,
+    "original_candidate_frame": 5750,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 82,
+    "frame": 5840,
+    "time_s": 194.666667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.61,
+    "hist": 0.238,
+    "original_candidate_frame": 5840,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 83,
+    "frame": 5983,
+    "time_s": 199.433333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.183,
+    "hist": 0.032,
+    "original_candidate_frame": 5983,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 84,
+    "frame": 5990,
+    "time_s": 199.666667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 128.548,
+    "hist": 0.921,
+    "original_candidate_frame": 5990,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 5990,
+    "transition_end_frame_exclusive": 5990,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 85,
+    "frame": 6233,
+    "time_s": 207.766667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.912,
+    "hist": 0.047,
+    "original_candidate_frame": 6233,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 266,
+    "frame": 6291,
+    "time_s": 209.7,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.5219618055555557,
+    "hist": 0.04165974472662922,
+    "original_candidate_frame": 6291,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 86,
+    "frame": 6369,
+    "time_s": 212.3,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 17.924,
+    "hist": 0.072,
+    "original_candidate_frame": 6369,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 87,
+    "frame": 6400,
+    "time_s": 213.333333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.695,
+    "hist": 0.028,
+    "original_candidate_frame": 6400,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 88,
+    "frame": 6407,
+    "time_s": 213.566667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 54.478,
+    "hist": 0.686,
+    "original_candidate_frame": 6407,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 6407,
+    "transition_end_frame_exclusive": 6407,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 267,
+    "frame": 6501,
+    "time_s": 216.7,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.060885416666667,
+    "hist": 0.027236410242687026,
+    "original_candidate_frame": 6501,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 268,
+    "frame": 6576,
+    "time_s": 219.2,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.804010416666667,
+    "hist": 0.016689413091712554,
+    "original_candidate_frame": 6576,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 89,
+    "frame": 6653,
+    "time_s": 221.766667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 98.559,
+    "hist": 0.613,
+    "original_candidate_frame": 6653,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 6653,
+    "transition_end_frame_exclusive": 6653,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 90,
+    "frame": 6660,
+    "time_s": 222.0,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.422,
+    "hist": 0.01,
+    "original_candidate_frame": 6660,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 91,
+    "frame": 6744,
+    "time_s": 224.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.642,
+    "hist": 0.021,
+    "original_candidate_frame": 6744,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 92,
+    "frame": 6751,
+    "time_s": 225.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 82.507,
+    "hist": 0.736,
+    "original_candidate_frame": 6751,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 6751,
+    "transition_end_frame_exclusive": 6751,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 93,
+    "frame": 6844,
+    "time_s": 228.133333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.952,
+    "hist": 0.023,
+    "original_candidate_frame": 6844,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 94,
+    "frame": 6851,
+    "time_s": 228.366667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 82.646,
+    "hist": 0.723,
+    "original_candidate_frame": 6851,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 6851,
+    "transition_end_frame_exclusive": 6851,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 95,
+    "frame": 6922,
+    "time_s": 230.666667,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 22.593,
+    "hist": 0.226,
+    "original_candidate_frame": 6920,
+    "keep": true,
+    "transition": "glitch",
+    "transition_start_frame": 6915,
+    "transition_end_frame_exclusive": 6930,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 96,
+    "frame": 6927,
+    "time_s": 230.9,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 33.533,
+    "hist": 0.047,
+    "original_candidate_frame": 6927,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 97,
+    "frame": 6944,
+    "time_s": 231.466667,
+    "sources": [
+      "content",
+      "adaptive"
+    ],
+    "diff": 1.569,
+    "hist": 0.067,
+    "original_candidate_frame": 6944,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 98,
+    "frame": 7003,
+    "time_s": 233.433333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 64.301,
+    "hist": 0.591,
+    "original_candidate_frame": 7003,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 7003,
+    "transition_end_frame_exclusive": 7003,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 99,
+    "frame": 7023,
+    "time_s": 234.1,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 16.881,
+    "hist": 0.015,
+    "original_candidate_frame": 7023,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 269,
+    "frame": 7065,
+    "time_s": 235.5,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.8126736111111112,
+    "hist": 0.02473527256896752,
+    "original_candidate_frame": 7065,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 100,
+    "frame": 7164,
+    "time_s": 238.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 12.208,
+    "hist": 0.022,
+    "original_candidate_frame": 7164,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 101,
+    "frame": 7171,
+    "time_s": 239.033333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 47.13,
+    "hist": 0.335,
+    "original_candidate_frame": 7171,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 7171,
+    "transition_end_frame_exclusive": 7171,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 102,
+    "frame": 7250,
+    "time_s": 241.666667,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 1.356,
+    "hist": 0.02,
+    "original_candidate_frame": 7250,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 270,
+    "frame": 7276,
+    "time_s": 242.53333333333333,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 7.023420138888889,
+    "hist": 0.04268790251442809,
+    "original_candidate_frame": 7276,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 271,
+    "frame": 7325,
+    "time_s": 244.16666666666666,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.331579861111111,
+    "hist": 0.015297807032325843,
+    "original_candidate_frame": 7325,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 272,
+    "frame": 7381,
+    "time_s": 246.03333333333333,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 7.018402777777778,
+    "hist": 0.0424595055669904,
+    "original_candidate_frame": 7381,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 273,
+    "frame": 7404,
+    "time_s": 246.8,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.7410763888888887,
+    "hist": 0.02253114353341038,
+    "original_candidate_frame": 7404,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 103,
+    "frame": 7449,
+    "time_s": 248.3,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 49.516,
+    "hist": 0.747,
+    "original_candidate_frame": 7449,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 7449,
+    "transition_end_frame_exclusive": 7449,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 104,
+    "frame": 7569,
+    "time_s": 252.3,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 18.141,
+    "hist": 0.154,
+    "original_candidate_frame": 7569,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 105,
+    "frame": 7574,
+    "time_s": 252.466667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.953,
+    "hist": 0.026,
+    "original_candidate_frame": 7574,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 106,
+    "frame": 7638,
+    "time_s": 254.6,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 50.292,
+    "hist": 0.809,
+    "original_candidate_frame": 7638,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 7638,
+    "transition_end_frame_exclusive": 7638,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 107,
+    "frame": 7654,
+    "time_s": 255.133333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 15.615,
+    "hist": 0.022,
+    "original_candidate_frame": 7654,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 108,
+    "frame": 7680,
+    "time_s": 256.0,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 38.971,
+    "hist": 0.822,
+    "original_candidate_frame": 7680,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 7680,
+    "transition_end_frame_exclusive": 7680,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 109,
+    "frame": 7803,
+    "time_s": 260.1,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 47.912,
+    "hist": 0.354,
+    "original_candidate_frame": 7803,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 7803,
+    "transition_end_frame_exclusive": 7803,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 110,
+    "frame": 7810,
+    "time_s": 260.333333,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 7.193,
+    "hist": 0.032,
+    "original_candidate_frame": 7810,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 111,
+    "frame": 7826,
+    "time_s": 260.866667,
+    "sources": [
+      "content"
+    ],
+    "diff": 7.764,
+    "hist": 0.026,
+    "original_candidate_frame": 7826,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 112,
+    "frame": 7834,
+    "time_s": 261.133333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.03,
+    "hist": 0.025,
+    "original_candidate_frame": 7834,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 113,
+    "frame": 7841,
+    "time_s": 261.366667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 12.023,
+    "hist": 0.088,
+    "original_candidate_frame": 7841,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 114,
+    "frame": 7846,
+    "time_s": 261.533333,
+    "sources": [
+      "content"
+    ],
+    "diff": 10.829,
+    "hist": 0.068,
+    "original_candidate_frame": 7846,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 115,
+    "frame": 7851,
+    "time_s": 261.7,
+    "sources": [
+      "content"
+    ],
+    "diff": 10.154,
+    "hist": 0.046,
+    "original_candidate_frame": 7851,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 116,
+    "frame": 7874,
+    "time_s": 262.466667,
+    "sources": [
+      "content"
+    ],
+    "diff": 8.347,
+    "hist": 0.033,
+    "original_candidate_frame": 7874,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 117,
+    "frame": 7879,
+    "time_s": 262.633333,
+    "sources": [
+      "content"
+    ],
+    "diff": 8.583,
+    "hist": 0.026,
+    "original_candidate_frame": 7879,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 118,
+    "frame": 8022,
+    "time_s": 267.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.534,
+    "hist": 0.022,
+    "original_candidate_frame": 8022,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 119,
+    "frame": 8029,
+    "time_s": 267.633333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 40.316,
+    "hist": 0.8,
+    "original_candidate_frame": 8029,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 8029,
+    "transition_end_frame_exclusive": 8029,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 120,
+    "frame": 8045,
+    "time_s": 268.166667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 15.628,
+    "hist": 0.022,
+    "original_candidate_frame": 8045,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 274,
+    "frame": 8074,
+    "time_s": 269.1333333333333,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.238611111111111,
+    "hist": 0.0161507355694609,
+    "original_candidate_frame": 8074,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 275,
+    "frame": 8134,
+    "time_s": 271.1333333333333,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 1.6256944444444446,
+    "hist": 0.005354453581236071,
+    "original_candidate_frame": 8134,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 121,
+    "frame": 8216,
+    "time_s": 273.866667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 53.929,
+    "hist": 0.773,
+    "original_candidate_frame": 8216,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 8216,
+    "transition_end_frame_exclusive": 8216,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 122,
+    "frame": 8359,
+    "time_s": 278.633333,
+    "sources": [
+      "content"
+    ],
+    "diff": 16.553,
+    "hist": 0.033,
+    "original_candidate_frame": 8359,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 123,
+    "frame": 8376,
+    "time_s": 279.2,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 14.97,
+    "hist": 0.06,
+    "original_candidate_frame": 8376,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 124,
+    "frame": 8395,
+    "time_s": 279.833333,
+    "sources": [
+      "content"
+    ],
+    "diff": 15.06,
+    "hist": 0.124,
+    "original_candidate_frame": 8395,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 125,
+    "frame": 8436,
+    "time_s": 281.2,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 14.143,
+    "hist": 0.046,
+    "original_candidate_frame": 8436,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 126,
+    "frame": 8500,
+    "time_s": 283.333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 48.339,
+    "hist": 0.448,
+    "original_candidate_frame": 8500,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 8500,
+    "transition_end_frame_exclusive": 8500,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 127,
+    "frame": 8507,
+    "time_s": 283.566667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.61,
+    "hist": 0.031,
+    "original_candidate_frame": 8507,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 128,
+    "frame": 8548,
+    "time_s": 284.933333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.027,
+    "hist": 0.031,
+    "original_candidate_frame": 8548,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 129,
+    "frame": 8577,
+    "time_s": 285.9,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 25.449,
+    "hist": 0.172,
+    "original_candidate_frame": 8577,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 130,
+    "frame": 8584,
+    "time_s": 286.133333,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 30.739,
+    "hist": 0.079,
+    "original_candidate_frame": 8584,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 131,
+    "frame": 8638,
+    "time_s": 287.933333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 37.357,
+    "hist": 0.612,
+    "original_candidate_frame": 8638,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 8638,
+    "transition_end_frame_exclusive": 8638,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 132,
+    "frame": 8649,
+    "time_s": 288.3,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 17.336,
+    "hist": 0.024,
+    "original_candidate_frame": 8649,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 133,
+    "frame": 8708,
+    "time_s": 290.266667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 62.662,
+    "hist": 0.64,
+    "original_candidate_frame": 8708,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 8708,
+    "transition_end_frame_exclusive": 8708,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 134,
+    "frame": 8715,
+    "time_s": 290.5,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.692,
+    "hist": 0.027,
+    "original_candidate_frame": 8715,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 135,
+    "frame": 8793,
+    "time_s": 293.1,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 49.532,
+    "hist": 0.647,
+    "original_candidate_frame": 8793,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 8793,
+    "transition_end_frame_exclusive": 8793,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 136,
+    "frame": 8800,
+    "time_s": 293.333333,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 28.1,
+    "hist": 0.027,
+    "original_candidate_frame": 8800,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 137,
+    "frame": 8897,
+    "time_s": 296.566667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 53.444,
+    "hist": 0.787,
+    "original_candidate_frame": 8897,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 8897,
+    "transition_end_frame_exclusive": 8897,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 138,
+    "frame": 8904,
+    "time_s": 296.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.21,
+    "hist": 0.072,
+    "original_candidate_frame": 8904,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 139,
+    "frame": 9047,
+    "time_s": 301.566667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 34.669,
+    "hist": 0.546,
+    "original_candidate_frame": 9047,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 9047,
+    "transition_end_frame_exclusive": 9047,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 140,
+    "frame": 9098,
+    "time_s": 303.266667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 36.166,
+    "hist": 0.602,
+    "original_candidate_frame": 9098,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 9098,
+    "transition_end_frame_exclusive": 9098,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 141,
+    "frame": 9212,
+    "time_s": 307.066667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 40.144,
+    "hist": 0.476,
+    "original_candidate_frame": 9212,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 9212,
+    "transition_end_frame_exclusive": 9212,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 276,
+    "frame": 9224,
+    "time_s": 307.46666666666664,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 6.0003125,
+    "hist": 0.14340600654265703,
+    "original_candidate_frame": 9224,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 277,
+    "frame": 9227,
+    "time_s": 307.56666666666666,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.0027430555555554,
+    "hist": 0.01574516219940068,
+    "original_candidate_frame": 9227,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 142,
+    "frame": 9323,
+    "time_s": 310.766667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 32.769,
+    "hist": 0.962,
+    "original_candidate_frame": 9323,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 9323,
+    "transition_end_frame_exclusive": 9323,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 143,
+    "frame": 9386,
+    "time_s": 312.866667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 36.76,
+    "hist": 0.921,
+    "original_candidate_frame": 9386,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 9386,
+    "transition_end_frame_exclusive": 9386,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 144,
+    "frame": 9402,
+    "time_s": 313.4,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 28.474,
+    "hist": 0.026,
+    "original_candidate_frame": 9402,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 145,
+    "frame": 9408,
+    "time_s": 313.6,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 36.696,
+    "hist": 0.027,
+    "original_candidate_frame": 9408,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 278,
+    "frame": 9446,
+    "time_s": 314.8666666666667,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.0132465277777776,
+    "hist": 0.009252034152998374,
+    "original_candidate_frame": 9446,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 146,
+    "frame": 9516,
+    "time_s": 317.2,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 66.589,
+    "hist": 0.763,
+    "original_candidate_frame": 9516,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 9516,
+    "transition_end_frame_exclusive": 9516,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 147,
+    "frame": 9523,
+    "time_s": 317.433333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.194,
+    "hist": 0.016,
+    "original_candidate_frame": 9523,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 148,
+    "frame": 9625,
+    "time_s": 320.833333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.045,
+    "hist": 0.018,
+    "original_candidate_frame": 9625,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 149,
+    "frame": 9632,
+    "time_s": 321.066667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 49.98,
+    "hist": 0.529,
+    "original_candidate_frame": 9632,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 9632,
+    "transition_end_frame_exclusive": 9632,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 150,
+    "frame": 9686,
+    "time_s": 322.866667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.828,
+    "hist": 0.025,
+    "original_candidate_frame": 9686,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 151,
+    "frame": 10001,
+    "time_s": 333.366667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.619,
+    "hist": 0.022,
+    "original_candidate_frame": 10001,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 152,
+    "frame": 10182,
+    "time_s": 339.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.882,
+    "hist": 0.021,
+    "original_candidate_frame": 10182,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 153,
+    "frame": 10318,
+    "time_s": 343.933333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.114,
+    "hist": 0.018,
+    "original_candidate_frame": 10318,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 154,
+    "frame": 10325,
+    "time_s": 344.166667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 70.785,
+    "hist": 0.633,
+    "original_candidate_frame": 10325,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 10325,
+    "transition_end_frame_exclusive": 10325,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 155,
+    "frame": 10495,
+    "time_s": 349.833333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.186,
+    "hist": 0.027,
+    "original_candidate_frame": 10495,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 156,
+    "frame": 10502,
+    "time_s": 350.066667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 73.288,
+    "hist": 0.346,
+    "original_candidate_frame": 10502,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 10502,
+    "transition_end_frame_exclusive": 10502,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 157,
+    "frame": 10560,
+    "time_s": 352.0,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 0.691,
+    "hist": 0.025,
+    "original_candidate_frame": 10560,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 279,
+    "frame": 10584,
+    "time_s": 352.8,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.546736111111111,
+    "hist": 0.03262331873134156,
+    "original_candidate_frame": 10584,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 280,
+    "frame": 10628,
+    "time_s": 354.26666666666665,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.340607638888889,
+    "hist": 0.031498436080970554,
+    "original_candidate_frame": 10628,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 158,
+    "frame": 10712,
+    "time_s": 357.066667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 37.541,
+    "hist": 0.932,
+    "original_candidate_frame": 10712,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 10712,
+    "transition_end_frame_exclusive": 10712,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 159,
+    "frame": 10817,
+    "time_s": 360.566667,
+    "sources": [
+      "content"
+    ],
+    "diff": 9.428,
+    "hist": 0.041,
+    "original_candidate_frame": 10817,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 160,
+    "frame": 10840,
+    "time_s": 361.333333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.123,
+    "hist": 0.077,
+    "original_candidate_frame": 10840,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 161,
+    "frame": 10847,
+    "time_s": 361.566667,
+    "sources": [
+      "content",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 36.782,
+    "hist": 0.165,
+    "original_candidate_frame": 10847,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 10847,
+    "transition_end_frame_exclusive": 10847,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 162,
+    "frame": 10968,
+    "time_s": 365.6,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 44.722,
+    "hist": 0.777,
+    "original_candidate_frame": 10968,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 10968,
+    "transition_end_frame_exclusive": 10968,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 163,
+    "frame": 10975,
+    "time_s": 365.833333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 8.128,
+    "hist": 0.022,
+    "original_candidate_frame": 10975,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 164,
+    "frame": 11089,
+    "time_s": 369.633333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 58.885,
+    "hist": 0.637,
+    "original_candidate_frame": 11089,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 11089,
+    "transition_end_frame_exclusive": 11089,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 165,
+    "frame": 11096,
+    "time_s": 369.866667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.011,
+    "hist": 0.012,
+    "original_candidate_frame": 11096,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 166,
+    "frame": 11193,
+    "time_s": 373.1,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 53.689,
+    "hist": 0.716,
+    "original_candidate_frame": 11193,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 11193,
+    "transition_end_frame_exclusive": 11193,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 281,
+    "frame": 11238,
+    "time_s": 374.6,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 1.965954861111111,
+    "hist": 0.020674640583272477,
+    "original_candidate_frame": 11238,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 167,
+    "frame": 11283,
+    "time_s": 376.1,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 28.949,
+    "hist": 0.346,
+    "original_candidate_frame": 11283,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 11283,
+    "transition_end_frame_exclusive": 11283,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 168,
+    "frame": 11549,
+    "time_s": 384.966667,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 2.629,
+    "hist": 0.08,
+    "original_candidate_frame": 11549,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 169,
+    "frame": 11681,
+    "time_s": 389.366667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 51.135,
+    "hist": 0.7,
+    "original_candidate_frame": 11681,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 11681,
+    "transition_end_frame_exclusive": 11681,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 170,
+    "frame": 11848,
+    "time_s": 394.933333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.912,
+    "hist": 0.018,
+    "original_candidate_frame": 11848,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 171,
+    "frame": 11855,
+    "time_s": 395.166667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 33.556,
+    "hist": 0.455,
+    "original_candidate_frame": 11855,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 11855,
+    "transition_end_frame_exclusive": 11855,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 172,
+    "frame": 11926,
+    "time_s": 397.533333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.8,
+    "hist": 0.023,
+    "original_candidate_frame": 11926,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 173,
+    "frame": 11975,
+    "time_s": 399.166667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.024,
+    "hist": 0.018,
+    "original_candidate_frame": 11975,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 174,
+    "frame": 11982,
+    "time_s": 399.4,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 49.251,
+    "hist": 0.495,
+    "original_candidate_frame": 11982,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 11982,
+    "transition_end_frame_exclusive": 11982,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 282,
+    "frame": 11996,
+    "time_s": 399.8666666666667,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 4.509045138888889,
+    "hist": 0.03632782154382853,
+    "original_candidate_frame": 11996,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 283,
+    "frame": 12008,
+    "time_s": 400.26666666666665,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.415277777777778,
+    "hist": 0.018731892949046206,
+    "original_candidate_frame": 12008,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 175,
+    "frame": 12047,
+    "time_s": 401.566667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 49.097,
+    "hist": 0.731,
+    "original_candidate_frame": 12047,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 12047,
+    "transition_end_frame_exclusive": 12047,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 176,
+    "frame": 12054,
+    "time_s": 401.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.027,
+    "hist": 0.013,
+    "original_candidate_frame": 12054,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 177,
+    "frame": 12115,
+    "time_s": 403.833333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 42.297,
+    "hist": 0.727,
+    "original_candidate_frame": 12115,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 12115,
+    "transition_end_frame_exclusive": 12115,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 284,
+    "frame": 12189,
+    "time_s": 406.3,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 1.9337152777777777,
+    "hist": 0.022740304618904368,
+    "original_candidate_frame": 12189,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 178,
+    "frame": 12226,
+    "time_s": 407.533333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 42.675,
+    "hist": 0.736,
+    "original_candidate_frame": 12226,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 12226,
+    "transition_end_frame_exclusive": 12226,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 285,
+    "frame": 12286,
+    "time_s": 409.53333333333336,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 1.9274131944444444,
+    "hist": 0.014288244812178797,
+    "original_candidate_frame": 12286,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 286,
+    "frame": 12381,
+    "time_s": 412.7,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.446701388888889,
+    "hist": 0.015993357458886016,
+    "original_candidate_frame": 12381,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 179,
+    "frame": 12483,
+    "time_s": 416.066667,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 29.421,
+    "hist": 0.215,
+    "original_candidate_frame": 12482,
+    "keep": true,
+    "transition": "glitch",
+    "transition_start_frame": 12479,
+    "transition_end_frame_exclusive": 12494,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 180,
+    "frame": 12489,
+    "time_s": 416.3,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 38.537,
+    "hist": 0.047,
+    "original_candidate_frame": 12489,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 181,
+    "frame": 12500,
+    "time_s": 416.666667,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 15.013,
+    "hist": 0.075,
+    "original_candidate_frame": 12500,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 182,
+    "frame": 12564,
+    "time_s": 418.8,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 69.4,
+    "hist": 0.503,
+    "original_candidate_frame": 12564,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 12564,
+    "transition_end_frame_exclusive": 12564,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 183,
+    "frame": 12571,
+    "time_s": 419.033333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.496,
+    "hist": 0.017,
+    "original_candidate_frame": 12571,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 184,
+    "frame": 12599,
+    "time_s": 419.966667,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 19.221,
+    "hist": 0.024,
+    "original_candidate_frame": 12599,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 185,
+    "frame": 12605,
+    "time_s": 420.166667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 8.733,
+    "hist": 0.02,
+    "original_candidate_frame": 12605,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 186,
+    "frame": 12639,
+    "time_s": 421.3,
+    "sources": [
+      "content",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 27.068,
+    "hist": 0.023,
+    "original_candidate_frame": 12639,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 187,
+    "frame": 12645,
+    "time_s": 421.5,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 29.156,
+    "hist": 0.029,
+    "original_candidate_frame": 12645,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 188,
+    "frame": 12679,
+    "time_s": 422.633333,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 21.02,
+    "hist": 0.026,
+    "original_candidate_frame": 12679,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 189,
+    "frame": 12686,
+    "time_s": 422.866667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 28.56,
+    "hist": 0.024,
+    "original_candidate_frame": 12686,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 190,
+    "frame": 12714,
+    "time_s": 423.8,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 62.135,
+    "hist": 0.786,
+    "original_candidate_frame": 12714,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 12714,
+    "transition_end_frame_exclusive": 12714,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 191,
+    "frame": 12721,
+    "time_s": 424.033333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.814,
+    "hist": 0.03,
+    "original_candidate_frame": 12721,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 192,
+    "frame": 12832,
+    "time_s": 427.733333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.247,
+    "hist": 0.022,
+    "original_candidate_frame": 12832,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 193,
+    "frame": 12839,
+    "time_s": 427.966667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 30.866,
+    "hist": 0.816,
+    "original_candidate_frame": 12839,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 12839,
+    "transition_end_frame_exclusive": 12839,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 287,
+    "frame": 12927,
+    "time_s": 430.9,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.7849826388888888,
+    "hist": 0.03341033424561032,
+    "original_candidate_frame": 12927,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 288,
+    "frame": 12974,
+    "time_s": 432.46666666666664,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.706354166666667,
+    "hist": 0.03244918977900797,
+    "original_candidate_frame": 12974,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 194,
+    "frame": 13000,
+    "time_s": 433.333333,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 0.423,
+    "hist": 0.014,
+    "original_candidate_frame": 13000,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 289,
+    "frame": 13062,
+    "time_s": 435.4,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.4516145833333334,
+    "hist": 0.018206361299687845,
+    "original_candidate_frame": 13062,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 195,
+    "frame": 13119,
+    "time_s": 437.3,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 35.996,
+    "hist": 0.826,
+    "original_candidate_frame": 13119,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 13119,
+    "transition_end_frame_exclusive": 13119,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 196,
+    "frame": 13293,
+    "time_s": 443.1,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 8.984,
+    "hist": 0.027,
+    "original_candidate_frame": 13293,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 197,
+    "frame": 13422,
+    "time_s": 447.4,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 43.572,
+    "hist": 0.605,
+    "original_candidate_frame": 13422,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 13422,
+    "transition_end_frame_exclusive": 13422,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 198,
+    "frame": 13515,
+    "time_s": 450.5,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.434,
+    "hist": 0.065,
+    "original_candidate_frame": 13515,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 199,
+    "frame": 13657,
+    "time_s": 455.233333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.693,
+    "hist": 0.018,
+    "original_candidate_frame": 13657,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 200,
+    "frame": 13664,
+    "time_s": 455.466667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 40.344,
+    "hist": 0.618,
+    "original_candidate_frame": 13664,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 13664,
+    "transition_end_frame_exclusive": 13664,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 201,
+    "frame": 13780,
+    "time_s": 459.333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 40.953,
+    "hist": 0.242,
+    "original_candidate_frame": 13780,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 13780,
+    "transition_end_frame_exclusive": 13780,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 202,
+    "frame": 13787,
+    "time_s": 459.566667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.242,
+    "hist": 0.018,
+    "original_candidate_frame": 13787,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 203,
+    "frame": 13891,
+    "time_s": 463.033333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 22.241,
+    "hist": 0.029,
+    "original_candidate_frame": 13891,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 204,
+    "frame": 13954,
+    "time_s": 465.133333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 58.492,
+    "hist": 0.67,
+    "original_candidate_frame": 13954,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 13954,
+    "transition_end_frame_exclusive": 13954,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 205,
+    "frame": 13961,
+    "time_s": 465.366667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.153,
+    "hist": 0.012,
+    "original_candidate_frame": 13961,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 206,
+    "frame": 14037,
+    "time_s": 467.9,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 23.675,
+    "hist": 0.024,
+    "original_candidate_frame": 14037,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 207,
+    "frame": 14126,
+    "time_s": 470.866667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.413,
+    "hist": 0.017,
+    "original_candidate_frame": 14126,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 208,
+    "frame": 14186,
+    "time_s": 472.833333,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 92.428,
+    "hist": 0.643,
+    "original_candidate_frame": 14185,
+    "keep": true,
+    "transition": "glitch",
+    "transition_start_frame": 14178,
+    "transition_end_frame_exclusive": 14198,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 209,
+    "frame": 14190,
+    "time_s": 473.0,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 47.774,
+    "hist": 0.064,
+    "original_candidate_frame": 14190,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 210,
+    "frame": 14259,
+    "time_s": 475.3,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 89.589,
+    "hist": 0.692,
+    "original_candidate_frame": 14259,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 14259,
+    "transition_end_frame_exclusive": 14259,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 211,
+    "frame": 14266,
+    "time_s": 475.533333,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 20.365,
+    "hist": 0.066,
+    "original_candidate_frame": 14266,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 212,
+    "frame": 14315,
+    "time_s": 477.166667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 12.635,
+    "hist": 0.022,
+    "original_candidate_frame": 14315,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 213,
+    "frame": 14365,
+    "time_s": 478.833333,
+    "sources": [
+      "content"
+    ],
+    "diff": 7.584,
+    "hist": 0.039,
+    "original_candidate_frame": 14365,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 214,
+    "frame": 14411,
+    "time_s": 480.366667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.752,
+    "hist": 0.064,
+    "original_candidate_frame": 14411,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 215,
+    "frame": 14453,
+    "time_s": 481.766667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 74.266,
+    "hist": 0.544,
+    "original_candidate_frame": 14453,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 14453,
+    "transition_end_frame_exclusive": 14453,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 216,
+    "frame": 14460,
+    "time_s": 482.0,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 10.693,
+    "hist": 0.035,
+    "original_candidate_frame": 14460,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 217,
+    "frame": 14494,
+    "time_s": 483.133333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 16.739,
+    "hist": 0.044,
+    "original_candidate_frame": 14494,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 218,
+    "frame": 14511,
+    "time_s": 483.7,
+    "sources": [
+      "content"
+    ],
+    "diff": 8.596,
+    "hist": 0.03,
+    "original_candidate_frame": 14511,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 219,
+    "frame": 14516,
+    "time_s": 483.866667,
+    "sources": [
+      "content"
+    ],
+    "diff": 8.756,
+    "hist": 0.031,
+    "original_candidate_frame": 14516,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 220,
+    "frame": 14524,
+    "time_s": 484.133333,
+    "sources": [
+      "content"
+    ],
+    "diff": 11.347,
+    "hist": 0.036,
+    "original_candidate_frame": 14524,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 221,
+    "frame": 14614,
+    "time_s": 487.133333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.963,
+    "hist": 0.025,
+    "original_candidate_frame": 14614,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 222,
+    "frame": 14621,
+    "time_s": 487.366667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 90.977,
+    "hist": 0.638,
+    "original_candidate_frame": 14621,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 14621,
+    "transition_end_frame_exclusive": 14621,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 223,
+    "frame": 14627,
+    "time_s": 487.566667,
+    "sources": [
+      "content"
+    ],
+    "diff": 25.034,
+    "hist": 0.065,
+    "original_candidate_frame": 14627,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 224,
+    "frame": 14637,
+    "time_s": 487.9,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 41.824,
+    "hist": 0.064,
+    "original_candidate_frame": 14637,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 225,
+    "frame": 14647,
+    "time_s": 488.233333,
+    "sources": [
+      "content"
+    ],
+    "diff": 33.538,
+    "hist": 0.058,
+    "original_candidate_frame": 14647,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 290,
+    "frame": 14699,
+    "time_s": 489.96666666666664,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.8393055555555557,
+    "hist": 0.00660628945596087,
+    "original_candidate_frame": 14699,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 226,
+    "frame": 14750,
+    "time_s": 491.666667,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 0.448,
+    "hist": 0.045,
+    "original_candidate_frame": 14750,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 291,
+    "frame": 14789,
+    "time_s": 492.96666666666664,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 4.836024305555555,
+    "hist": 0.017699027957657567,
+    "original_candidate_frame": 14789,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 292,
+    "frame": 14833,
+    "time_s": 494.43333333333334,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.4300868055555553,
+    "hist": 0.009441924214802258,
+    "original_candidate_frame": 14833,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 293,
+    "frame": 14901,
+    "time_s": 496.7,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.013888888888889,
+    "hist": 0.0023924266406021104,
+    "original_candidate_frame": 14901,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 294,
+    "frame": 14963,
+    "time_s": 498.76666666666665,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 4.662899305555555,
+    "hist": 0.012600638342049171,
+    "original_candidate_frame": 14963,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 295,
+    "frame": 15072,
+    "time_s": 502.4,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 4.862621527777778,
+    "hist": 0.014832508739431118,
+    "original_candidate_frame": 15072,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 296,
+    "frame": 15130,
+    "time_s": 504.3333333333333,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 2.447795138888889,
+    "hist": 0.008299063939710753,
+    "original_candidate_frame": 15130,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 227,
+    "frame": 15173,
+    "time_s": 505.766667,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 32.087,
+    "hist": 0.071,
+    "original_candidate_frame": 15173,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 228,
+    "frame": 15181,
+    "time_s": 506.033333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 52.306,
+    "hist": 0.05,
+    "original_candidate_frame": 15181,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 229,
+    "frame": 15188,
+    "time_s": 506.266667,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 38.329,
+    "hist": 0.025,
+    "original_candidate_frame": 15188,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 297,
+    "frame": 15270,
+    "time_s": 509.0,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 4.321892361111111,
+    "hist": 0.009286555915922472,
+    "original_candidate_frame": 15270,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 298,
+    "frame": 15344,
+    "time_s": 511.46666666666664,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 3.2676736111111113,
+    "hist": 0.005789231458174573,
+    "original_candidate_frame": 15344,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 230,
+    "frame": 15401,
+    "time_s": 513.366667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 119.887,
+    "hist": 0.686,
+    "original_candidate_frame": 15401,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 15401,
+    "transition_end_frame_exclusive": 15401,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 231,
+    "frame": 15408,
+    "time_s": 513.6,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 1.325,
+    "hist": 0.019,
+    "original_candidate_frame": 15408,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 300,
+    "frame": 15411,
+    "time_s": 513.7,
+    "sources": [
+      "manual_embedded_footage_review"
+    ],
+    "keep": true,
+    "transition": "embedded-footage-hardcut",
+    "transition_start_frame": 15411,
+    "transition_end_frame_exclusive": 15411,
+    "review": "f15410 room / f15411 interview; fine_231.jpg"
+  },
+  {
+    "candidate": 232,
+    "frame": 15454,
+    "time_s": 515.133333,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 20.099,
+    "hist": 0.235,
+    "original_candidate_frame": 15454,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 15454,
+    "transition_end_frame_exclusive": 15454,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 299,
+    "frame": 15480,
+    "time_s": 516.0,
+    "sources": [
+      "isolated_mad_supplement"
+    ],
+    "diff": 5.006649305555555,
+    "hist": 0.024595444613118665,
+    "original_candidate_frame": 15480,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 233,
+    "frame": 15490,
+    "time_s": 516.333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 23.922,
+    "hist": 0.267,
+    "original_candidate_frame": 15490,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 15490,
+    "transition_end_frame_exclusive": 15490,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 234,
+    "frame": 15500,
+    "time_s": 516.666667,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 1.606,
+    "hist": 0.026,
+    "original_candidate_frame": 15500,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 235,
+    "frame": 15523,
+    "time_s": 517.433333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 20.291,
+    "hist": 0.181,
+    "original_candidate_frame": 15523,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 15523,
+    "transition_end_frame_exclusive": 15523,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 236,
+    "frame": 15568,
+    "time_s": 518.933333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 18.213,
+    "hist": 0.19,
+    "original_candidate_frame": 15568,
+    "keep": true,
+    "transition": "hardcut",
+    "transition_start_frame": 15568,
+    "transition_end_frame_exclusive": 15568,
+    "review": "visual check; fine strip for gradual transition; hardcut=0 blended frames; 1-frame discontinuity"
+  },
+  {
+    "candidate": 237,
+    "frame": 15575,
+    "time_s": 519.166667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.256,
+    "hist": 0.015,
+    "original_candidate_frame": 15575,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 238,
+    "frame": 15642,
+    "time_s": 521.4,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 15.235,
+    "hist": 0.075,
+    "original_candidate_frame": 15642,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  },
+  {
+    "candidate": 239,
+    "frame": 15646,
+    "time_s": 521.533333,
+    "sources": [
+      "adaptive",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 86.077,
+    "hist": 0.472,
+    "original_candidate_frame": 15646,
+    "keep": false,
+    "transition": "rejected",
+    "transition_start_frame": null,
+    "transition_end_frame_exclusive": null,
+    "review": "all six adjacent frames visually checked; continuous camera, labels, subtitles, particles and mesh changes excluded"
+  }
+]

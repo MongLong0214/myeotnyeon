@@ -1,0 +1,16 @@
+{
+  "shot": "C158",
+  "reason": "Final encoded contact sheet revealed left-edge narrator face clipping in a close-up. Moved narrator right within the safe area.",
+  "replacement_frames": [
+    10846,
+    10913
+  ],
+  "replacement_frame_count": 68,
+  "replacement_source": "qa/C158_patch.mp4",
+  "replacement_render": "Engine v4 at native 1920x1080, 30 fps; full absolute timeline frame numbers retained.",
+  "assembly": "Replaced only C158 picture frames, re-encoded native video at CRF16. Original AAC stream copied without re-encoding.",
+  "original_audio_stream_hash": "SHA256=bfe0653ff1639f331cb09925ac02619cfc5ced7d8bf4634d06861fbc56c1851c",
+  "fixed_audio_stream_hash": "SHA256=bfe0653ff1639f331cb09925ac02619cfc5ced7d8bf4634d06861fbc56c1851c",
+  "audio_packets_identical": true,
+  "frames": 13663
+}

@@ -1,0 +1,2102 @@
+[
+  {
+    "text": "군기훈련 도중, 사람이 쓰러졌습니다.",
+    "start": 0,
+    "end": 70,
+    "startMs": 0.0,
+    "endMs": 2333.3333333333335,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H001"
+  },
+  {
+    "text": "법원은 학대치사를 인정했죠.",
+    "start": 70,
+    "end": 128,
+    "startMs": 2333.3333333333335,
+    "endMs": 4266.666666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H002"
+  },
+  {
+    "text": "그런데 교육 목적은 왜 형을 정할 때",
+    "start": 128,
+    "end": 183,
+    "startMs": 4266.666666666667,
+    "endMs": 6100.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H003"
+  },
+  {
+    "text": "참작됐을까요?",
+    "start": 183,
+    "end": 220,
+    "startMs": 6100.0,
+    "endMs": 7333.333333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H003"
+  },
+  {
+    "text": "2024년 5월 23일.",
+    "start": 220,
+    "end": 277,
+    "startMs": 7333.333333333333,
+    "endMs": 9233.333333333332,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H004"
+  },
+  {
+    "text": "강원 인제, 육군 12사단 신병교육대.",
+    "start": 277,
+    "end": 348,
+    "startMs": 9233.333333333332,
+    "endMs": 11600.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H005"
+  },
+  {
+    "text": "경찰 수사결과, 전날 취침점호 뒤 떠들었다는",
+    "start": 348,
+    "end": 427,
+    "startMs": 11600.0,
+    "endMs": 14233.333333333332,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H006"
+  },
+  {
+    "text": "이유로 훈련병들을 적발했습니다.",
+    "start": 427,
+    "end": 491,
+    "startMs": 14233.333333333332,
+    "endMs": 16366.666666666668,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H006"
+  },
+  {
+    "text": "부중대장이 다음 날 구두 보고했고,",
+    "start": 491,
+    "end": 542,
+    "startMs": 16366.666666666668,
+    "endMs": 18066.666666666668,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H007"
+  },
+  {
+    "text": "중대장이 승인했습니다.",
+    "start": 542,
+    "end": 600,
+    "startMs": 18066.666666666668,
+    "endMs": 20000.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H008"
+  },
+  {
+    "text": "그런데 확인서도, 소명 기회도 빠졌습니다.",
+    "start": 600,
+    "end": 678,
+    "startMs": 20000.0,
+    "endMs": 22600.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H009"
+  },
+  {
+    "text": "시작부터 규정을 어겼습니다.",
+    "start": 678,
+    "end": 736,
+    "startMs": 22600.0,
+    "endMs": 24533.333333333336,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H010"
+  },
+  {
+    "text": "신체 상태와 훈련장 온도지수도 제대로",
+    "start": 736,
+    "end": 810,
+    "startMs": 24533.333333333336,
+    "endMs": 27000.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H011"
+  },
+  {
+    "text": "확인하지 않았다고 합니다.",
+    "start": 810,
+    "end": 857,
+    "startMs": 27000.0,
+    "endMs": 28566.666666666668,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H011"
+  },
+  {
+    "text": "사람을 움직이기 전에 확인할 기본.",
+    "start": 857,
+    "end": 924,
+    "startMs": 28566.666666666668,
+    "endMs": 30800.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H012"
+  },
+  {
+    "text": "그건 건너뛰고 명령부터 움직였습니다.",
+    "start": 924,
+    "end": 998,
+    "startMs": 30800.0,
+    "endMs": 33266.666666666664,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H013"
+  },
+  {
+    "text": "대상은 6명.",
+    "start": 998,
+    "end": 1031,
+    "startMs": 33266.666666666664,
+    "endMs": 34366.666666666664,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H014"
+  },
+  {
+    "text": "보급품을 다 못 받았는데",
+    "start": 1031,
+    "end": 1065,
+    "startMs": 34366.666666666664,
+    "endMs": 35500.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H015"
+  },
+  {
+    "text": "군장의 빈 곳은 책으로 채웠습니다.",
+    "start": 1065,
+    "end": 1139,
+    "startMs": 35500.0,
+    "endMs": 37966.66666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H016"
+  },
+  {
+    "text": "안전 절차는 비우고, 군장은 채우고.",
+    "start": 1139,
+    "end": 1206,
+    "startMs": 37966.66666666667,
+    "endMs": 40200.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H017"
+  },
+  {
+    "text": "이 순서가 어디까지 갔을까요?",
+    "start": 1206,
+    "end": 1264,
+    "startMs": 40200.0,
+    "endMs": 42133.333333333336,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H018"
+  },
+  {
+    "text": "시작은 16시 26분쯤.",
+    "start": 1264,
+    "end": 1317,
+    "startMs": 42133.333333333336,
+    "endMs": 43900.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H019"
+  },
+  {
+    "text": "완전군장에 총기를 휴대한 훈련병들.",
+    "start": 1317,
+    "end": 1387,
+    "startMs": 43900.0,
+    "endMs": 46233.333333333336,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H020"
+  },
+  {
+    "text": "연병장 두 바퀴를 걸었습니다.",
+    "start": 1387,
+    "end": 1445,
+    "startMs": 46233.333333333336,
+    "endMs": 48166.666666666664,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H021"
+  },
+  {
+    "text": "그다음 중대장의 지시는 선착순 한 바퀴.",
+    "start": 1445,
+    "end": 1520,
+    "startMs": 48166.666666666664,
+    "endMs": 50666.666666666664,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H022"
+  },
+  {
+    "text": "팔굽혀펴기.",
+    "start": 1520,
+    "end": 1548,
+    "startMs": 50666.666666666664,
+    "endMs": 51600.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H023"
+  },
+  {
+    "text": "그리고 뜀걸음 세 바퀴.",
+    "start": 1548,
+    "end": 1593,
+    "startMs": 51600.0,
+    "endMs": 53100.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H024"
+  },
+  {
+    "text": "완전군장 상태였습니다.",
+    "start": 1593,
+    "end": 1642,
+    "startMs": 53100.0,
+    "endMs": 54733.333333333336,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H025"
+  },
+  {
+    "text": "군기라는 이름표가 규정 위반을 허용하는",
+    "start": 1642,
+    "end": 1713,
+    "startMs": 54733.333333333336,
+    "endMs": 57100.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H026"
+  },
+  {
+    "text": "면허증은 아니니까요.",
+    "start": 1713,
+    "end": 1759,
+    "startMs": 57100.0,
+    "endMs": 58633.333333333336,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H026"
+  },
+  {
+    "text": "17시 11분쯤, 뛰던 훈련병이",
+    "start": 1759,
+    "end": 1817,
+    "startMs": 58633.333333333336,
+    "endMs": 60566.66666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H027"
+  },
+  {
+    "text": "쓰러졌습니다.",
+    "start": 1817,
+    "end": 1847,
+    "startMs": 60566.66666666667,
+    "endMs": 61566.66666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H027"
+  },
+  {
+    "text": "시작한 지 약 45분 뒤.",
+    "start": 1847,
+    "end": 1896,
+    "startMs": 61566.66666666667,
+    "endMs": 63200.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H028"
+  },
+  {
+    "text": "멈춰야 했던 건 훈련입니다.",
+    "start": 1896,
+    "end": 1950,
+    "startMs": 63200.0,
+    "endMs": 65000.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H029"
+  },
+  {
+    "text": "지금은 위급함을 알아보고 응급조치를 할",
+    "start": 1950,
+    "end": 2022,
+    "startMs": 65000.0,
+    "endMs": 67400.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H030"
+  },
+  {
+    "text": "때였습니다.",
+    "start": 2022,
+    "end": 2050,
+    "startMs": 67400.0,
+    "endMs": 68333.33333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H030"
+  },
+  {
+    "text": "경찰은 간부들이 열사병의 위급함을 제대로",
+    "start": 2050,
+    "end": 2125,
+    "startMs": 68333.33333333333,
+    "endMs": 70833.33333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H031"
+  },
+  {
+    "text": "인지하지 못해 응급처치를 지체했다고",
+    "start": 2125,
+    "end": 2193,
+    "startMs": 70833.33333333333,
+    "endMs": 73100.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H031"
+  },
+  {
+    "text": "봤습니다.",
+    "start": 2193,
+    "end": 2218,
+    "startMs": 73100.0,
+    "endMs": 73933.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H031"
+  },
+  {
+    "text": "군장보다 먼저 챙겨야 했던 사람의 상태.",
+    "start": 2218,
+    "end": 2293,
+    "startMs": 73933.33333333334,
+    "endMs": 76433.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H032"
+  },
+  {
+    "text": "그다음은 병원 기록입니다.",
+    "start": 2293,
+    "end": 2346,
+    "startMs": 76433.33333333334,
+    "endMs": 78200.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H033"
+  },
+  {
+    "text": "의무대에서 처치받고",
+    "start": 2346,
+    "end": 2383,
+    "startMs": 78200.0,
+    "endMs": 79433.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H034"
+  },
+  {
+    "text": "속초의료원으로,",
+    "start": 2383,
+    "end": 2412,
+    "startMs": 79433.33333333334,
+    "endMs": 80400.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H035"
+  },
+  {
+    "text": "다시 강릉아산병원으로 옮겨졌습니다.",
+    "start": 2412,
+    "end": 2488,
+    "startMs": 80400.0,
+    "endMs": 82933.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H036"
+  },
+  {
+    "text": "이송 당시 40도를 넘는 고열이 있었다고",
+    "start": 2488,
+    "end": 2560,
+    "startMs": 82933.33333333334,
+    "endMs": 85333.33333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H037"
+  },
+  {
+    "text": "합니다.",
+    "start": 2560,
+    "end": 2580,
+    "startMs": 85333.33333333333,
+    "endMs": 86000.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H037"
+  },
+  {
+    "text": "위급함은 추상적인 말이 아니었습니다.",
+    "start": 2580,
+    "end": 2655,
+    "startMs": 86000.0,
+    "endMs": 88500.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H038"
+  },
+  {
+    "text": "속초의료원 관계자는 도착 때 검사에서 장기",
+    "start": 2655,
+    "end": 2736,
+    "startMs": 88500.0,
+    "endMs": 91200.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H039"
+  },
+  {
+    "text": "손상이 의심되는 중증 상태였다고",
+    "start": 2736,
+    "end": 2793,
+    "startMs": 91200.0,
+    "endMs": 93100.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H039"
+  },
+  {
+    "text": "설명했습니다.",
+    "start": 2793,
+    "end": 2822,
+    "startMs": 93100.0,
+    "endMs": 94066.66666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H039"
+  },
+  {
+    "text": "강릉아산병원 도착은 21시 40분쯤.",
+    "start": 2822,
+    "end": 2901,
+    "startMs": 94066.66666666666,
+    "endMs": 96700.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H040"
+  },
+  {
+    "text": "속초의료원에서 옮겨 도착하기까지 약 세",
+    "start": 2901,
+    "end": 2969,
+    "startMs": 96700.0,
+    "endMs": 98966.66666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H041"
+  },
+  {
+    "text": "시간.",
+    "start": 2969,
+    "end": 2989,
+    "startMs": 98966.66666666667,
+    "endMs": 99633.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H041"
+  },
+  {
+    "text": "두 병원 사이 전체 경과입니다.",
+    "start": 2989,
+    "end": 3046,
+    "startMs": 99633.33333333334,
+    "endMs": 101533.33333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H042"
+  },
+  {
+    "text": "차로 달린 시간만을 뜻하지 않습니다.",
+    "start": 3046,
+    "end": 3117,
+    "startMs": 101533.33333333333,
+    "endMs": 103900.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H043"
+  },
+  {
+    "text": "중환자실 치료가 이어졌지만,",
+    "start": 3117,
+    "end": 3159,
+    "startMs": 103900.0,
+    "endMs": 105300.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H044"
+  },
+  {
+    "text": "쓰러진 이틀 뒤인 2024년 5월 25일",
+    "start": 3159,
+    "end": 3249,
+    "startMs": 105300.0,
+    "endMs": 108300.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H045"
+  },
+  {
+    "text": "숨졌습니다.",
+    "start": 3249,
+    "end": 3276,
+    "startMs": 108300.0,
+    "endMs": 109200.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H045"
+  },
+  {
+    "text": "수사결과 보도에 나온 사인은 열사병에 의한",
+    "start": 3276,
+    "end": 3348,
+    "startMs": 109200.0,
+    "endMs": 111600.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H046"
+  },
+  {
+    "text": "다발성 장기부전.",
+    "start": 3348,
+    "end": 3389,
+    "startMs": 111600.0,
+    "endMs": 112966.66666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H046"
+  },
+  {
+    "text": "어머니 편지에는 첫 전화 시각이 남았습니다.",
+    "start": 3389,
+    "end": 3472,
+    "startMs": 112966.66666666667,
+    "endMs": 115733.33333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H047"
+  },
+  {
+    "text": "5월 23일, 17시 54분.",
+    "start": 3472,
+    "end": 3535,
+    "startMs": 115733.33333333333,
+    "endMs": 117833.33333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H048"
+  },
+  {
+    "text": "아들이 쓰러졌다는 전화.",
+    "start": 3535,
+    "end": 3584,
+    "startMs": 117833.33333333333,
+    "endMs": 119466.66666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H049"
+  },
+  {
+    "text": "법정에는 살아남은 동료들이 섰습니다.",
+    "start": 3584,
+    "end": 3659,
+    "startMs": 119466.66666666667,
+    "endMs": 121966.66666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H050"
+  },
+  {
+    "text": "그들이 전한 장면은 더 무겁습니다.",
+    "start": 3659,
+    "end": 3725,
+    "startMs": 121966.66666666667,
+    "endMs": 124166.66666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H051"
+  },
+  {
+    "text": "2024년 8월 27일 공판.",
+    "start": 3725,
+    "end": 3791,
+    "startMs": 124166.66666666667,
+    "endMs": 126366.66666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H052"
+  },
+  {
+    "text": "함께 훈련받던 동료 네 명이 증인으로",
+    "start": 3791,
+    "end": 3856,
+    "startMs": 126366.66666666666,
+    "endMs": 128533.33333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H053"
+  },
+  {
+    "text": "나왔습니다.",
+    "start": 3856,
+    "end": 3883,
+    "startMs": 128533.33333333333,
+    "endMs": 129433.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H053"
+  },
+  {
+    "text": "군장에 책 약 마흔 권을 넣었다는 취지의",
+    "start": 3883,
+    "end": 3948,
+    "startMs": 129433.33333333334,
+    "endMs": 131600.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H054"
+  },
+  {
+    "text": "증언.",
+    "start": 3948,
+    "end": 3966,
+    "startMs": 131600.0,
+    "endMs": 132200.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H054"
+  },
+  {
+    "text": "실제 무게를 확정한 수치는 아닙니다.",
+    "start": 3966,
+    "end": 4036,
+    "startMs": 132200.0,
+    "endMs": 134533.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H055"
+  },
+  {
+    "text": "쓰러진 뒤에도 중대장이 욕설하며 혼내거나",
+    "start": 4036,
+    "end": 4119,
+    "startMs": 134533.33333333334,
+    "endMs": 137300.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H056"
+  },
+  {
+    "text": "일어나라고 소리쳤다고 증언했습니다.",
+    "start": 4119,
+    "end": 4187,
+    "startMs": 137300.0,
+    "endMs": 139566.66666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H056"
+  },
+  {
+    "text": "쓰러진 뒤에도 질책했다는 증언.",
+    "start": 4187,
+    "end": 4249,
+    "startMs": 139566.66666666666,
+    "endMs": 141633.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H057"
+  },
+  {
+    "text": "위급한 상황에서 나온 대응이었다는 겁니다.",
+    "start": 4249,
+    "end": 4332,
+    "startMs": 141633.3333333333,
+    "endMs": 144400.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H058"
+  },
+  {
+    "text": "한 동료는 외상 후 스트레스 장애 진단을",
+    "start": 4332,
+    "end": 4401,
+    "startMs": 144400.0,
+    "endMs": 146700.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H059"
+  },
+  {
+    "text": "받았다고 밝혔습니다.",
+    "start": 4401,
+    "end": 4445,
+    "startMs": 146700.0,
+    "endMs": 148166.66666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H059"
+  },
+  {
+    "text": "살아남았다고 끝이 아니죠.",
+    "start": 4445,
+    "end": 4499,
+    "startMs": 148166.66666666666,
+    "endMs": 149966.66666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H060"
+  },
+  {
+    "text": "동료 한 명은 처치가 빨랐다면 살 수 있었을",
+    "start": 4499,
+    "end": 4572,
+    "startMs": 149966.66666666666,
+    "endMs": 152400.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H061"
+  },
+  {
+    "text": "거라는 아쉬움도 말했습니다.",
+    "start": 4572,
+    "end": 4628,
+    "startMs": 152400.0,
+    "endMs": 154266.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H061"
+  },
+  {
+    "text": "검찰은 단순 과실로 보지 않았습니다.",
+    "start": 4628,
+    "end": 4699,
+    "startMs": 154266.6666666667,
+    "endMs": 156633.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H062"
+  },
+  {
+    "text": "훈련 방식과 경과, 신체조건을 종합해 학대로",
+    "start": 4699,
+    "end": 4777,
+    "startMs": 156633.3333333333,
+    "endMs": 159233.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H063"
+  },
+  {
+    "text": "판단했습니다.",
+    "start": 4777,
+    "end": 4808,
+    "startMs": 159233.3333333333,
+    "endMs": 160266.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H063"
+  },
+  {
+    "text": "중대장과 부중대장은 학대치사, 직권남용",
+    "start": 4808,
+    "end": 4884,
+    "startMs": 160266.6666666667,
+    "endMs": 162800.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H064"
+  },
+  {
+    "text": "가혹행위로 기소됐습니다.",
+    "start": 4884,
+    "end": 4933,
+    "startMs": 162800.0,
+    "endMs": 164433.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H064"
+  },
+  {
+    "text": "훈련이라는 포장지가 벗겨집니다.",
+    "start": 4933,
+    "end": 4999,
+    "startMs": 164433.33333333334,
+    "endMs": 166633.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H065"
+  },
+  {
+    "text": "중대장 측은 잘못된 행동을 인정하면서도",
+    "start": 4999,
+    "end": 5068,
+    "startMs": 166633.3333333333,
+    "endMs": 168933.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H066"
+  },
+  {
+    "text": "학대치사 혐의는 부인했습니다.",
+    "start": 5068,
+    "end": 5133,
+    "startMs": 168933.33333333334,
+    "endMs": 171100.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H066"
+  },
+  {
+    "text": "변호인 측 주장입니다.",
+    "start": 5133,
+    "end": 5178,
+    "startMs": 171100.0,
+    "endMs": 172600.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H067"
+  },
+  {
+    "text": "법원의 답은 달랐습니다.",
+    "start": 5178,
+    "end": 5227,
+    "startMs": 172600.0,
+    "endMs": 174233.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H068"
+  },
+  {
+    "text": "1심은 두 사람을 유죄로 보고 훈련과 사망",
+    "start": 5227,
+    "end": 5299,
+    "startMs": 174233.3333333333,
+    "endMs": 176633.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H069"
+  },
+  {
+    "text": "사이 인과관계를 인정했습니다.",
+    "start": 5299,
+    "end": 5361,
+    "startMs": 176633.3333333333,
+    "endMs": 178700.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H069"
+  },
+  {
+    "text": "재판부는 신체조건에 맞지 않는",
+    "start": 5361,
+    "end": 5412,
+    "startMs": 178700.0,
+    "endMs": 180400.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H070"
+  },
+  {
+    "text": "군기훈련이었다며 죄책이 무겁다고",
+    "start": 5412,
+    "end": 5478,
+    "startMs": 180400.0,
+    "endMs": 182600.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H070"
+  },
+  {
+    "text": "판단했습니다.",
+    "start": 5478,
+    "end": 5512,
+    "startMs": 182600.0,
+    "endMs": 183733.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H070"
+  },
+  {
+    "text": "군 사기, 전투력, 국민 신뢰까지 해쳤다는",
+    "start": 5512,
+    "end": 5575,
+    "startMs": 183733.3333333333,
+    "endMs": 185833.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H071"
+  },
+  {
+    "text": "판단.",
+    "start": 5575,
+    "end": 5596,
+    "startMs": 185833.33333333334,
+    "endMs": 186533.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H071"
+  },
+  {
+    "text": "군기를 세운다더니 군의 신뢰를 무너뜨린",
+    "start": 5596,
+    "end": 5665,
+    "startMs": 186533.33333333334,
+    "endMs": 188833.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H072"
+  },
+  {
+    "text": "셈이죠.",
+    "start": 5665,
+    "end": 5687,
+    "startMs": 188833.33333333334,
+    "endMs": 189566.66666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H072"
+  },
+  {
+    "text": "피해자 측 용서도 받지 못했다고",
+    "start": 5687,
+    "end": 5741,
+    "startMs": 189566.66666666666,
+    "endMs": 191366.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H073"
+  },
+  {
+    "text": "지적했습니다.",
+    "start": 5741,
+    "end": 5775,
+    "startMs": 191366.6666666667,
+    "endMs": 192500.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H073"
+  },
+  {
+    "text": "그런데 다른 이유가 등장합니다.",
+    "start": 5775,
+    "end": 5837,
+    "startMs": 192500.0,
+    "endMs": 194566.66666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H074"
+  },
+  {
+    "text": "1심은 사실관계 인정과 반성하는 태도를",
+    "start": 5837,
+    "end": 5912,
+    "startMs": 194566.66666666666,
+    "endMs": 197066.66666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H075"
+  },
+  {
+    "text": "유리한 정상으로 참작했습니다.",
+    "start": 5912,
+    "end": 5970,
+    "startMs": 197066.66666666666,
+    "endMs": 199000.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H075"
+  },
+  {
+    "text": "군 기강 확립을 위한 교육 목적으로 훈련하다",
+    "start": 5970,
+    "end": 6041,
+    "startMs": 199000.0,
+    "endMs": 201366.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H076"
+  },
+  {
+    "text": "범행에 이른 점도 참작했습니다.",
+    "start": 6041,
+    "end": 6109,
+    "startMs": 201366.6666666667,
+    "endMs": 203633.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H076"
+  },
+  {
+    "text": "교육 목적.",
+    "start": 6109,
+    "end": 6132,
+    "startMs": 203633.3333333333,
+    "endMs": 204400.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H077"
+  },
+  {
+    "text": "사람을 지키지 못한 훈련에 그 말을 고려한",
+    "start": 6132,
+    "end": 6197,
+    "startMs": 204400.0,
+    "endMs": 206566.66666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H078"
+  },
+  {
+    "text": "판결.",
+    "start": 6197,
+    "end": 6220,
+    "startMs": 206566.66666666666,
+    "endMs": 207333.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H078"
+  },
+  {
+    "text": "선고는 과연 몇 년이었을까요?",
+    "start": 6220,
+    "end": 6278,
+    "startMs": 207333.33333333334,
+    "endMs": 209266.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H079"
+  },
+  {
+    "text": "무죄라는 뜻은 아닙니다.",
+    "start": 6278,
+    "end": 6327,
+    "startMs": 209266.6666666667,
+    "endMs": 210900.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H080"
+  },
+  {
+    "text": "학대치사는 유죄.",
+    "start": 6327,
+    "end": 6363,
+    "startMs": 210900.0,
+    "endMs": 212100.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H081"
+  },
+  {
+    "text": "교육 목적은 형을 정한 이유입니다.",
+    "start": 6363,
+    "end": 6429,
+    "startMs": 212100.0,
+    "endMs": 214300.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H082"
+  },
+  {
+    "text": "목적을 참작한 것과 행위를 정당화한 것은",
+    "start": 6429,
+    "end": 6499,
+    "startMs": 214300.0,
+    "endMs": 216633.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H083"
+  },
+  {
+    "text": "다릅니다.",
+    "start": 6499,
+    "end": 6525,
+    "startMs": 216633.3333333333,
+    "endMs": 217500.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H083"
+  },
+  {
+    "text": "섞으면 판결도 흐려집니다.",
+    "start": 6525,
+    "end": 6579,
+    "startMs": 217500.0,
+    "endMs": 219300.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H084"
+  },
+  {
+    "text": "2024년 11월 12일, 검찰은",
+    "start": 6579,
+    "end": 6646,
+    "startMs": 219300.0,
+    "endMs": 221533.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H085"
+  },
+  {
+    "text": "중대장 징역 10년,",
+    "start": 6646,
+    "end": 6681,
+    "startMs": 221533.33333333334,
+    "endMs": 222700.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H086"
+  },
+  {
+    "text": "부중대장 징역 7년을 구형했습니다.",
+    "start": 6681,
+    "end": 6743,
+    "startMs": 222700.0,
+    "endMs": 224766.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H087"
+  },
+  {
+    "text": "구형은 요청이지 선고가 아닙니다.",
+    "start": 6743,
+    "end": 6809,
+    "startMs": 224766.6666666667,
+    "endMs": 226966.66666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H088"
+  },
+  {
+    "text": "군의 지도력과 관리 체제에 대한 신뢰 훼손도",
+    "start": 6809,
+    "end": 6882,
+    "startMs": 226966.66666666666,
+    "endMs": 229400.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H089"
+  },
+  {
+    "text": "이유였죠.",
+    "start": 6882,
+    "end": 6909,
+    "startMs": 229400.0,
+    "endMs": 230300.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H089"
+  },
+  {
+    "text": "2025년 1월 7일, 춘천지법 선고.",
+    "start": 6909,
+    "end": 6984,
+    "startMs": 230300.0,
+    "endMs": 232800.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H090"
+  },
+  {
+    "text": "중대장 징역 5년,",
+    "start": 6984,
+    "end": 7013,
+    "startMs": 232800.0,
+    "endMs": 233766.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H091"
+  },
+  {
+    "text": "부중대장 징역 3년.",
+    "start": 7013,
+    "end": 7054,
+    "startMs": 233766.6666666667,
+    "endMs": 235133.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H092"
+  },
+  {
+    "text": "요청과 선고 사이의 차이.",
+    "start": 7054,
+    "end": 7103,
+    "startMs": 235133.3333333333,
+    "endMs": 236766.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H093"
+  },
+  {
+    "text": "그런데 중대장 5년은 마지막 숫자가",
+    "start": 7103,
+    "end": 7169,
+    "startMs": 236766.6666666667,
+    "endMs": 238966.66666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H094"
+  },
+  {
+    "text": "아니었습니다.",
+    "start": 7169,
+    "end": 7199,
+    "startMs": 238966.66666666666,
+    "endMs": 239966.66666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H094"
+  },
+  {
+    "text": "항소심에서는 이 일을 하나의 행위로 묶어 볼",
+    "start": 7199,
+    "end": 7273,
+    "startMs": 239966.66666666666,
+    "endMs": 242433.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H095"
+  },
+  {
+    "text": "수 있는지, 그 판단이 바뀌었습니다.",
+    "start": 7273,
+    "end": 7342,
+    "startMs": 242433.33333333334,
+    "endMs": 244733.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H095"
+  },
+  {
+    "text": "1심은 하나의 행위가 여러 범죄를 구성하는",
+    "start": 7342,
+    "end": 7411,
+    "startMs": 244733.3333333333,
+    "endMs": 247033.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H096"
+  },
+  {
+    "text": "상상적 경합.",
+    "start": 7411,
+    "end": 7446,
+    "startMs": 247033.33333333334,
+    "endMs": 248200.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H096"
+  },
+  {
+    "text": "죄는 여러 개라도 행위는 하나로 봤죠.",
+    "start": 7446,
+    "end": 7516,
+    "startMs": 248200.0,
+    "endMs": 250533.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H097"
+  },
+  {
+    "text": "항소심은 같은 장소, 같은 기회라는",
+    "start": 7516,
+    "end": 7579,
+    "startMs": 250533.33333333334,
+    "endMs": 252633.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H098"
+  },
+  {
+    "text": "이유만으로 하나로 묶을 수 없다고 봤습니다.",
+    "start": 7579,
+    "end": 7659,
+    "startMs": 252633.3333333333,
+    "endMs": 255300.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H098"
+  },
+  {
+    "text": "피해자마다 가혹행위와 학대 양상이 달랐다는",
+    "start": 7659,
+    "end": 7738,
+    "startMs": 255300.0,
+    "endMs": 257933.33333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H099"
+  },
+  {
+    "text": "겁니다.",
+    "start": 7738,
+    "end": 7759,
+    "startMs": 257933.33333333334,
+    "endMs": 258633.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H099"
+  },
+  {
+    "text": "사람별 피해를 나누어 보았죠.",
+    "start": 7759,
+    "end": 7817,
+    "startMs": 258633.3333333333,
+    "endMs": 260566.66666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H100"
+  },
+  {
+    "text": "여러 행위로 여러 죄를 범한 실체적 경합.",
+    "start": 7817,
+    "end": 7892,
+    "startMs": 260566.66666666666,
+    "endMs": 263066.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H101"
+  },
+  {
+    "text": "쟁점은 피해를 어떻게 구분하느냐였습니다.",
+    "start": 7892,
+    "end": 7975,
+    "startMs": 263066.6666666667,
+    "endMs": 265833.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H102"
+  },
+  {
+    "text": "여섯 사람을 한 덩어리로 보는 화면이",
+    "start": 7975,
+    "end": 8037,
+    "startMs": 265833.3333333333,
+    "endMs": 267900.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H103"
+  },
+  {
+    "text": "깨집니다.",
+    "start": 8037,
+    "end": 8062,
+    "startMs": 267900.0,
+    "endMs": 268733.3333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H103"
+  },
+  {
+    "text": "정확히 죄가 여섯 개라는 계산은 아닙니다.",
+    "start": 8062,
+    "end": 8141,
+    "startMs": 268733.3333333334,
+    "endMs": 271366.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H104"
+  },
+  {
+    "text": "2025년 6월 18일, 중대장은 징역 5년",
+    "start": 8141,
+    "end": 8218,
+    "startMs": 271366.6666666667,
+    "endMs": 273933.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H105"
+  },
+  {
+    "text": "6개월.",
+    "start": 8218,
+    "end": 8241,
+    "startMs": 273933.3333333333,
+    "endMs": 274700.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H105"
+  },
+  {
+    "text": "1심보다 6개월 늘었습니다.",
+    "start": 8241,
+    "end": 8299,
+    "startMs": 274700.0,
+    "endMs": 276633.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H106"
+  },
+  {
+    "text": "부중대장은 같은 징역 3년.",
+    "start": 8299,
+    "end": 8353,
+    "startMs": 276633.3333333333,
+    "endMs": 278433.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H107"
+  },
+  {
+    "text": "중대장 형이 늘어난 이유를 이쪽으로 옮겨 쓸",
+    "start": 8353,
+    "end": 8428,
+    "startMs": 278433.3333333333,
+    "endMs": 280933.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H108"
+  },
+  {
+    "text": "수는 없습니다.",
+    "start": 8428,
+    "end": 8461,
+    "startMs": 280933.3333333333,
+    "endMs": 282033.3333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H108"
+  },
+  {
+    "text": "항소심의 지적은 숫자보다 날카롭습니다.",
+    "start": 8461,
+    "end": 8540,
+    "startMs": 282033.3333333334,
+    "endMs": 284666.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H109"
+  },
+  {
+    "text": "충분히 예방할 수 있었던 사망사고.",
+    "start": 8540,
+    "end": 8606,
+    "startMs": 284666.6666666667,
+    "endMs": 286866.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H110"
+  },
+  {
+    "text": "지휘관들이 후진적 병영문화를 답습했다는",
+    "start": 8606,
+    "end": 8680,
+    "startMs": 286866.6666666667,
+    "endMs": 289333.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H111"
+  },
+  {
+    "text": "지적.",
+    "start": 8680,
+    "end": 8698,
+    "startMs": 289333.3333333333,
+    "endMs": 289933.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H111"
+  },
+  {
+    "text": "예방할 수 있었다는 말이 남습니다.",
+    "start": 8698,
+    "end": 8764,
+    "startMs": 289933.3333333333,
+    "endMs": 292133.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H112"
+  },
+  {
+    "text": "국가가 병사의 생명과 신체를 보호하리라는",
+    "start": 8764,
+    "end": 8841,
+    "startMs": 292133.3333333333,
+    "endMs": 294700.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H113"
+  },
+  {
+    "text": "사회의 기본적 기대를 배반한 범행이라고",
+    "start": 8841,
+    "end": 8911,
+    "startMs": 294700.0,
+    "endMs": 297033.3333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H113"
+  },
+  {
+    "text": "봤습니다.",
+    "start": 8911,
+    "end": 8936,
+    "startMs": 297033.3333333334,
+    "endMs": 297866.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H113"
+  },
+  {
+    "text": "안전하게 돌려보내리라는 기대.",
+    "start": 8936,
+    "end": 8998,
+    "startMs": 297866.6666666667,
+    "endMs": 299933.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H114"
+  },
+  {
+    "text": "특별한 서비스가 아니라 출발선이어야 합니다.",
+    "start": 8998,
+    "end": 9085,
+    "startMs": 299933.3333333333,
+    "endMs": 302833.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H115"
+  },
+  {
+    "text": "2025년 9월 25일, 대법원이 중대장",
+    "start": 9085,
+    "end": 9169,
+    "startMs": 302833.3333333333,
+    "endMs": 305633.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H116"
+  },
+  {
+    "text": "상고를 기각했습니다.",
+    "start": 9169,
+    "end": 9211,
+    "startMs": 305633.3333333333,
+    "endMs": 307033.3333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H116"
+  },
+  {
+    "text": "징역 5년 6개월 확정.",
+    "start": 9211,
+    "end": 9256,
+    "startMs": 307033.3333333334,
+    "endMs": 308533.3333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H117"
+  },
+  {
+    "text": "부중대장 징역 3년도 확정 상태.",
+    "start": 9256,
+    "end": 9318,
+    "startMs": 308533.3333333334,
+    "endMs": 310600.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H118"
+  },
+  {
+    "text": "같은 날 두 사람의 본안을 함께 판단했다는",
+    "start": 9318,
+    "end": 9388,
+    "startMs": 310600.0,
+    "endMs": 312933.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H119"
+  },
+  {
+    "text": "뜻은 아닙니다.",
+    "start": 9388,
+    "end": 9423,
+    "startMs": 312933.3333333333,
+    "endMs": 314100.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H119"
+  },
+  {
+    "text": "판결은 끝났습니다.",
+    "start": 9423,
+    "end": 9463,
+    "startMs": 314100.0,
+    "endMs": 315433.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H120"
+  },
+  {
+    "text": "군은 무엇을 바꾸겠다고 했을까요?",
+    "start": 9463,
+    "end": 9529,
+    "startMs": 315433.3333333333,
+    "endMs": 317633.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H121"
+  },
+  {
+    "text": "대책은 다시 기본으로 돌아갑니다.",
+    "start": 9529,
+    "end": 9595,
+    "startMs": 317633.3333333333,
+    "endMs": 319833.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H122"
+  },
+  {
+    "text": "2024년 6월 27일, 국방부는 훈련병",
+    "start": 9595,
+    "end": 9678,
+    "startMs": 319833.3333333333,
+    "endMs": 322600.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H123"
+  },
+  {
+    "text": "군기훈련에서 체력단련 종목을 빼기로 했다고",
+    "start": 9678,
+    "end": 9757,
+    "startMs": 322600.0,
+    "endMs": 325233.3333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H123"
+  },
+  {
+    "text": "밝혔습니다.",
+    "start": 9757,
+    "end": 9784,
+    "startMs": 325233.3333333334,
+    "endMs": 326133.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H123"
+  },
+  {
+    "text": "개인 소명 단계를 반드시 거치도록 절차도",
+    "start": 9784,
+    "end": 9858,
+    "startMs": 326133.3333333333,
+    "endMs": 328600.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H124"
+  },
+  {
+    "text": "표준화했습니다.",
+    "start": 9858,
+    "end": 9893,
+    "startMs": 328600.0,
+    "endMs": 329766.6666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H124"
+  },
+  {
+    "text": "사건에서 빠졌던 그 단계죠.",
+    "start": 9893,
+    "end": 9947,
+    "startMs": 329766.6666666666,
+    "endMs": 331566.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H125"
+  },
+  {
+    "text": "신병교육부대 군기훈련 승인권자는 영관급",
+    "start": 9947,
+    "end": 10030,
+    "startMs": 331566.6666666667,
+    "endMs": 334333.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H126"
+  },
+  {
+    "text": "지휘관으로 높이기로 했습니다.",
+    "start": 10030,
+    "end": 10085,
+    "startMs": 334333.3333333333,
+    "endMs": 336166.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H126"
+  },
+  {
+    "text": "건강상태 수시 확인,",
+    "start": 10085,
+    "end": 10125,
+    "startMs": 336166.6666666667,
+    "endMs": 337500.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H127"
+  },
+  {
+    "text": "기상에 따른 진행 판단,",
+    "start": 10125,
+    "end": 10165,
+    "startMs": 337500.0,
+    "endMs": 338833.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H128"
+  },
+  {
+    "text": "응급상황 대비 뒤 시행하는 절차도",
+    "start": 10165,
+    "end": 10219,
+    "startMs": 338833.3333333333,
+    "endMs": 340633.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H129"
+  },
+  {
+    "text": "담았습니다.",
+    "start": 10219,
+    "end": 10245,
+    "startMs": 340633.3333333333,
+    "endMs": 341500.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H129"
+  },
+  {
+    "text": "사람 확인.",
+    "start": 10245,
+    "end": 10268,
+    "startMs": 341500.0,
+    "endMs": 342266.6666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H130"
+  },
+  {
+    "text": "날씨 확인.",
+    "start": 10268,
+    "end": 10292,
+    "startMs": 342266.6666666666,
+    "endMs": 343066.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H131"
+  },
+  {
+    "text": "응급상황 준비.",
+    "start": 10292,
+    "end": 10325,
+    "startMs": 343066.6666666667,
+    "endMs": 344166.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H132"
+  },
+  {
+    "text": "신기술 발표가 아닙니다.",
+    "start": 10325,
+    "end": 10374,
+    "startMs": 344166.6666666667,
+    "endMs": 345800.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H133"
+  },
+  {
+    "text": "사람을 훈련시키는 기본입니다.",
+    "start": 10374,
+    "end": 10436,
+    "startMs": 345800.0,
+    "endMs": 347866.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H134"
+  },
+  {
+    "text": "혹서기 관리는 7월 1일에서 6월 1일",
+    "start": 10436,
+    "end": 10502,
+    "startMs": 347866.6666666667,
+    "endMs": 350066.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H135"
+  },
+  {
+    "text": "시작으로 확대.",
+    "start": 10502,
+    "end": 10536,
+    "startMs": 350066.6666666667,
+    "endMs": 351200.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H135"
+  },
+  {
+    "text": "끝은 같은 8월 31일.",
+    "start": 10536,
+    "end": 10585,
+    "startMs": 351200.0,
+    "endMs": 352833.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H136"
+  },
+  {
+    "text": "온도지수는 하루 세 차례 이상 측정.",
+    "start": 10585,
+    "end": 10652,
+    "startMs": 352833.3333333333,
+    "endMs": 355066.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H137"
+  },
+  {
+    "text": "하지만 대책 발표가 현장의 안전을 대신하진",
+    "start": 10652,
+    "end": 10726,
+    "startMs": 355066.6666666667,
+    "endMs": 357533.3333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H138"
+  },
+  {
+    "text": "못합니다.",
+    "start": 10726,
+    "end": 10752,
+    "startMs": 357533.3333333334,
+    "endMs": 358400.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H138"
+  },
+  {
+    "text": "바꾸겠다는 목록은 남았습니다.",
+    "start": 10752,
+    "end": 10814,
+    "startMs": 358400.0,
+    "endMs": 360466.6666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H139"
+  },
+  {
+    "text": "훈련병을 기다렸던 자리에는 무엇이",
+    "start": 10814,
+    "end": 10874,
+    "startMs": 360466.6666666666,
+    "endMs": 362466.6666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H140"
+  },
+  {
+    "text": "남았을까요?",
+    "start": 10874,
+    "end": 10905,
+    "startMs": 362466.6666666666,
+    "endMs": 363500.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H140"
+  },
+  {
+    "text": "2024년 6월 19일, 인제체육관 수료식장",
+    "start": 10905,
+    "end": 10995,
+    "startMs": 363500.0,
+    "endMs": 366500.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H141"
+  },
+  {
+    "text": "추모 공간에는 명예수료증이 놓였습니다.",
+    "start": 10995,
+    "end": 11069,
+    "startMs": 366500.0,
+    "endMs": 368966.6666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H141"
+  },
+  {
+    "text": "참석자들은 국화꽃을 놓고 고인을",
+    "start": 11069,
+    "end": 11129,
+    "startMs": 368966.6666666666,
+    "endMs": 370966.6666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H142"
+  },
+  {
+    "text": "추모했습니다.",
+    "start": 11129,
+    "end": 11161,
+    "startMs": 370966.6666666666,
+    "endMs": 372033.3333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H142"
+  },
+  {
+    "text": "수료식 안에 마련된 추모 공간이었습니다.",
+    "start": 11161,
+    "end": 11240,
+    "startMs": 372033.3333333334,
+    "endMs": 374666.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H143"
+  },
+  {
+    "text": "어머니는 편지에 수료생 251명 가운데",
+    "start": 11240,
+    "end": 11318,
+    "startMs": 374666.6666666667,
+    "endMs": 377266.6666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H144"
+  },
+  {
+    "text": "아들만 없다고 썼습니다.",
+    "start": 11318,
+    "end": 11369,
+    "startMs": 377266.6666666666,
+    "endMs": 378966.6666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H144"
+  },
+  {
+    "text": "비어 있는 한 사람의 자리.",
+    "start": 11369,
+    "end": 11419,
+    "startMs": 378966.6666666666,
+    "endMs": 380633.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H145"
+  },
+  {
+    "text": "입영 날, 먼 길 돌아갈 부모의 손을 잡고",
+    "start": 11419,
+    "end": 11488,
+    "startMs": 380633.3333333333,
+    "endMs": 382933.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H146"
+  },
+  {
+    "text": "등을 다독였다는 기억도 편지에 남았습니다.",
+    "start": 11488,
+    "end": 11565,
+    "startMs": 382933.3333333333,
+    "endMs": 385500.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H146"
+  },
+  {
+    "text": "그날 저녁 부모는 용산역 분향소에서 조문객을",
+    "start": 11565,
+    "end": 11647,
+    "startMs": 385500.0,
+    "endMs": 388233.3333333334,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H147"
+  },
+  {
+    "text": "맞았습니다.",
+    "start": 11647,
+    "end": 11674,
+    "startMs": 388233.3333333334,
+    "endMs": 389133.3333333333,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H147"
+  },
+  {
+    "text": "돌아올 사람 대신 추모객을 맞은 겁니다.",
+    "start": 11674,
+    "end": 11748,
+    "startMs": 389133.3333333333,
+    "endMs": 391600.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H148"
+  },
+  {
+    "text": "법원이 인정한 건 학대치사.",
+    "start": 11748,
+    "end": 11802,
+    "startMs": 391600.0,
+    "endMs": 393400.0,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H149"
+  },
+  {
+    "text": "생명과 안전을 밀어낸 책임은 훈련이라는 말로",
+    "start": 11802,
+    "end": 11885,
+    "startMs": 393400.0,
+    "endMs": 396166.6666666667,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H150"
+  },
+  {
+    "text": "지워지지 않습니다.",
+    "start": 11885,
+    "end": 11924,
+    "startMs": 396166.6666666667,
+    "endMs": 397466.6666666666,
+    "timestampMs": null,
+    "confidence": null,
+    "shotId": "H150"
+  }
+]

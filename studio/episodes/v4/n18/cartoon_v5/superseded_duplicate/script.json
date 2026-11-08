@@ -1,0 +1,1160 @@
+{
+  "title": "군기는 챙기면서, 사람은 왜 놓쳤나",
+  "version": "N18 cartoon v5 script v2",
+  "voice": "M1",
+  "voice_basis": "current Shorts q017/audio/na/index.json",
+  "source_documents": [
+    "../facts.md",
+    "../facts_enrich.md"
+  ],
+  "lexicon": [
+    [
+      "2024년 11월 12일",
+      "이천이십사 년 십일 월 십이 일"
+    ],
+    [
+      "2024년 5월 23일",
+      "이천이십사 년 오 월 이십삼 일"
+    ],
+    [
+      "2024년 5월 25일",
+      "이천이십사 년 오 월 이십오 일"
+    ],
+    [
+      "2024년 6월 27일",
+      "이천이십사 년 유월 이십칠 일"
+    ],
+    [
+      "2025년 1월 7일",
+      "이천이십오 년 일 월 칠 일"
+    ],
+    [
+      "2025년 6월 18일",
+      "이천이십오 년 유월 십팔 일"
+    ],
+    [
+      "2025년 9월 25일",
+      "이천이십오 년 구 월 이십오 일"
+    ],
+    [
+      "오후 4시 26분",
+      "오후 네 시 이십육 분"
+    ],
+    [
+      "오후 5시 11분",
+      "오후 다섯 시 십일 분"
+    ],
+    [
+      "오후 5시 54분",
+      "오후 다섯 시 오십사 분"
+    ],
+    [
+      "밤 9시 40분",
+      "밤 아홉 시 사십 분"
+    ],
+    [
+      "5년 6개월",
+      "오 년 육 개월"
+    ],
+    [
+      "500년형",
+      "오백 년형"
+    ],
+    [
+      "12사단",
+      "십이 사단"
+    ],
+    [
+      "11월 12일",
+      "십일 월 십이 일"
+    ],
+    [
+      "6월 19일",
+      "유월 십구 일"
+    ],
+    [
+      "8월 27일",
+      "팔 월 이십칠 일"
+    ],
+    [
+      "40권",
+      "마흔 권"
+    ],
+    [
+      "45분",
+      "사십오 분"
+    ],
+    [
+      "10년",
+      "십 년"
+    ],
+    [
+      "7년",
+      "칠 년"
+    ],
+    [
+      "5년",
+      "오 년"
+    ],
+    [
+      "3년",
+      "삼 년"
+    ],
+    [
+      "6개월",
+      "육 개월"
+    ],
+    [
+      "6명",
+      "여섯 명"
+    ],
+    [
+      "6개",
+      "여섯 개"
+    ],
+    [
+      "1심",
+      "일심"
+    ]
+  ],
+  "lines": [
+    {
+      "id": "N001",
+      "text": "훈련이 사람을 죽였습니다.",
+      "tts_text": "훈련이 사람을 죽였습니다.",
+      "facts": [
+        "J06"
+      ],
+      "stage": "host",
+      "chapter": 1,
+      "cliffhanger": false
+    },
+    {
+      "id": "N002",
+      "text": "그런데 판결에는 교육 목적이 등장합니다.",
+      "tts_text": "그런데 판결에는 교육 목적이 등장합니다.",
+      "facts": [
+        "J04",
+        "C06"
+      ],
+      "stage": "court",
+      "chapter": 1,
+      "cliffhanger": false
+    },
+    {
+      "id": "N003",
+      "text": "군기는 챙기면서, 안전은 왜 놓쳤을까요?",
+      "tts_text": "군기는 챙기면서, 안전은 왜 놓쳤을까요?",
+      "facts": [
+        "F04",
+        "F05",
+        "J12"
+      ],
+      "stage": "host",
+      "chapter": 1,
+      "cliffhanger": false
+    },
+    {
+      "id": "N004",
+      "text": "육군 12사단 훈련병 사망 사건. 확정된 중대장 형은 5년 6개월입니다.",
+      "tts_text": "육군 십이 사단 훈련병 사망 사건. 확정된 중대장 형은 오 년 육 개월입니다.",
+      "facts": [
+        "E01",
+        "C09"
+      ],
+      "stage": "ground",
+      "chapter": 1,
+      "cliffhanger": false
+    },
+    {
+      "id": "N005",
+      "text": "하지만 숫자만 보고 끝내면, 그날 빠진 안전장치도 함께 사라집니다.",
+      "tts_text": "하지만 숫자만 보고 끝내면, 그날 빠진 안전장치도 함께 사라집니다.",
+      "facts": [
+        "F04",
+        "F05"
+      ],
+      "stage": "host",
+      "chapter": 1,
+      "cliffhanger": false
+    },
+    {
+      "id": "N006",
+      "text": "2024년 5월 23일, 강원 인제의 신병교육대. 군기훈련 대상은 6명이었습니다.",
+      "tts_text": "이천이십사 년 오 월 이십삼 일, 강원 인제의 신병교육대. 군기훈련 대상은 여섯 명이었습니다.",
+      "facts": [
+        "E01",
+        "E02"
+      ],
+      "stage": "ground",
+      "chapter": 1,
+      "cliffhanger": false
+    },
+    {
+      "id": "N007",
+      "text": "경찰 수사결과, 계기는 전날 취침점호 뒤 떠들었다는 적발이었습니다.",
+      "tts_text": "경찰 수사결과, 계기는 전날 취침점호 뒤 떠들었다는 적발이었습니다.",
+      "facts": [
+        "F02"
+      ],
+      "stage": "barracks",
+      "chapter": 1,
+      "cliffhanger": false
+    },
+    {
+      "id": "N008",
+      "text": "여섯 명 모두 실제로 떠들었다고 단정하는 건 아닙니다. 소명할 절차가 있었으니까요.",
+      "tts_text": "여섯 명 모두 실제로 떠들었다고 단정하는 건 아닙니다. 소명할 절차가 있었으니까요.",
+      "facts": [
+        "F02",
+        "F04"
+      ],
+      "stage": "investigation",
+      "chapter": 1,
+      "cliffhanger": false
+    },
+    {
+      "id": "N009",
+      "text": "부중대장이 다음 날 오전 구두 보고를 하고, 중대장의 승인을 받았습니다.",
+      "tts_text": "부중대장이 다음 날 오전 구두 보고를 하고, 중대장의 승인을 받았습니다.",
+      "facts": [
+        "F03"
+      ],
+      "stage": "command",
+      "chapter": 1,
+      "cliffhanger": false
+    },
+    {
+      "id": "N010",
+      "text": "승인은 받았는데, 확인은 빠졌습니다. 대체 무엇을 건너뛴 걸까요?",
+      "tts_text": "승인은 받았는데, 확인은 빠졌습니다. 대체 무엇을 건너뛴 걸까요?",
+      "facts": [
+        "F04",
+        "F05"
+      ],
+      "stage": "host",
+      "chapter": 1,
+      "cliffhanger": true
+    },
+    {
+      "id": "N011",
+      "text": "경찰은 확인서 작성과 소명 기회가 지켜지지 않았다고 밝혔습니다.",
+      "tts_text": "경찰은 확인서 작성과 소명 기회가 지켜지지 않았다고 밝혔습니다.",
+      "facts": [
+        "F04"
+      ],
+      "stage": "investigation",
+      "chapter": 2,
+      "cliffhanger": false
+    },
+    {
+      "id": "N012",
+      "text": "왜 훈련받는지 확인하고, 본인 말도 듣는 절차. 시작부터 빠진 겁니다.",
+      "tts_text": "왜 훈련받는지 확인하고, 본인 말도 듣는 절차. 시작부터 빠진 겁니다.",
+      "facts": [
+        "F04"
+      ],
+      "stage": "host",
+      "chapter": 2,
+      "cliffhanger": false
+    },
+    {
+      "id": "N013",
+      "text": "훈련병 신체 상태도, 훈련장 온도지수도 제대로 확인하지 않았다는 수사결과입니다.",
+      "tts_text": "훈련병 신체 상태도, 훈련장 온도지수도 제대로 확인하지 않았다는 수사결과입니다.",
+      "facts": [
+        "F05"
+      ],
+      "stage": "investigation",
+      "chapter": 2,
+      "cliffhanger": false
+    },
+    {
+      "id": "N014",
+      "text": "사람 몸을 움직일 권한은 있는데, 그 몸을 확인하는 절차는 놓쳤습니다.",
+      "tts_text": "사람 몸을 움직일 권한은 있는데, 그 몸을 확인하는 절차는 놓쳤습니다.",
+      "facts": [
+        "F04",
+        "F05"
+      ],
+      "stage": "command",
+      "chapter": 2,
+      "cliffhanger": false
+    },
+    {
+      "id": "N015",
+      "text": "여기서 군장 이야기가 나옵니다. 훈련병들은 보급품도 모두 받지 못했습니다.",
+      "tts_text": "여기서 군장 이야기가 나옵니다. 훈련병들은 보급품도 모두 받지 못했습니다.",
+      "facts": [
+        "F06"
+      ],
+      "stage": "ground",
+      "chapter": 2,
+      "cliffhanger": false
+    },
+    {
+      "id": "N016",
+      "text": "경찰에 따르면, 군장의 빈 공간을 책으로 채우게 했습니다.",
+      "tts_text": "경찰에 따르면, 군장의 빈 공간을 책으로 채우게 했습니다.",
+      "facts": [
+        "F06"
+      ],
+      "stage": "barracks",
+      "chapter": 2,
+      "cliffhanger": false
+    },
+    {
+      "id": "N017",
+      "text": "동료들은 나중에 법정에서 책 약 40권을 넣었다는 취지로 증언했습니다.",
+      "tts_text": "동료들은 나중에 법정에서 책 약 마흔 권을 넣었다는 취지로 증언했습니다.",
+      "facts": [
+        "F07"
+      ],
+      "stage": "witness",
+      "chapter": 2,
+      "cliffhanger": false
+    },
+    {
+      "id": "N018",
+      "text": "책은 읽으라고 있는 건데, 여기서는 군장을 채우는 물건이 됐습니다.",
+      "tts_text": "책은 읽으라고 있는 건데, 여기서는 군장을 채우는 물건이 됐습니다.",
+      "facts": [
+        "F07"
+      ],
+      "stage": "host",
+      "chapter": 2,
+      "cliffhanger": false
+    },
+    {
+      "id": "N019",
+      "text": "정확한 무게를 하나로 찍지는 않겠습니다. 확인된 건 책으로 채웠다는 사실입니다.",
+      "tts_text": "정확한 무게를 하나로 찍지는 않겠습니다. 확인된 건 책으로 채웠다는 사실입니다.",
+      "facts": [
+        "F06",
+        "F07"
+      ],
+      "stage": "investigation",
+      "chapter": 2,
+      "cliffhanger": false
+    },
+    {
+      "id": "N020",
+      "text": "그런 군장을 메고 시작된 훈련. 걷기에서 끝났을까요?",
+      "tts_text": "그런 군장을 메고 시작된 훈련. 걷기에서 끝났을까요?",
+      "facts": [
+        "F08",
+        "F09"
+      ],
+      "stage": "command",
+      "chapter": 2,
+      "cliffhanger": true
+    },
+    {
+      "id": "N021",
+      "text": "경찰이 특정한 시작 시각은 오후 4시 26분쯤입니다.",
+      "tts_text": "경찰이 특정한 시작 시각은 오후 네 시 이십육 분쯤입니다.",
+      "facts": [
+        "F10"
+      ],
+      "stage": "ground",
+      "chapter": 3,
+      "cliffhanger": false
+    },
+    {
+      "id": "N022",
+      "text": "먼저 완전군장 상태로, 총기를 휴대한 채 연병장 두 바퀴를 걸었습니다.",
+      "tts_text": "먼저 완전군장 상태로, 총기를 휴대한 채 연병장 두 바퀴를 걸었습니다.",
+      "facts": [
+        "F08"
+      ],
+      "stage": "ground",
+      "chapter": 3,
+      "cliffhanger": false
+    },
+    {
+      "id": "N023",
+      "text": "이어서 중대장이 완전군장 상태의 선착순 한 바퀴를 지시했습니다.",
+      "tts_text": "이어서 중대장이 완전군장 상태의 선착순 한 바퀴를 지시했습니다.",
+      "facts": [
+        "F09"
+      ],
+      "stage": "command",
+      "chapter": 3,
+      "cliffhanger": false
+    },
+    {
+      "id": "N024",
+      "text": "팔굽혀펴기, 다시 뜀걸음 세 바퀴. 경찰이 발표한 지시 순서입니다.",
+      "tts_text": "팔굽혀펴기, 다시 뜀걸음 세 바퀴. 경찰이 발표한 지시 순서입니다.",
+      "facts": [
+        "F09"
+      ],
+      "stage": "ground",
+      "chapter": 3,
+      "cliffhanger": false
+    },
+    {
+      "id": "N025",
+      "text": "그리고 오후 5시 11분쯤. 시작 약 45분 뒤, 한 훈련병이 의식을 잃었습니다.",
+      "tts_text": "그리고 오후 다섯 시 십일 분쯤. 시작 약 사십오 분 뒤, 한 훈련병이 의식을 잃었습니다.",
+      "facts": [
+        "F11",
+        "F12"
+      ],
+      "stage": "hospital",
+      "chapter": 3,
+      "cliffhanger": false
+    },
+    {
+      "id": "N026",
+      "text": "경찰은 간부들이 열사병의 위급 상황을 제대로 인지하지 못했다고 봤습니다.",
+      "tts_text": "경찰은 간부들이 열사병의 위급 상황을 제대로 인지하지 못했다고 봤습니다.",
+      "facts": [
+        "F13"
+      ],
+      "stage": "investigation",
+      "chapter": 3,
+      "cliffhanger": false
+    },
+    {
+      "id": "N027",
+      "text": "신속한 응급처치도 지체했다는 판단입니다. 훈련 방법만의 문제가 아니었습니다.",
+      "tts_text": "신속한 응급처치도 지체했다는 판단입니다. 훈련 방법만의 문제가 아니었습니다.",
+      "facts": [
+        "F13"
+      ],
+      "stage": "hospital",
+      "chapter": 3,
+      "cliffhanger": false
+    },
+    {
+      "id": "N028",
+      "text": "훈련병은 의무대를 거쳐 속초의료원, 강릉아산병원으로 옮겨졌습니다.",
+      "tts_text": "훈련병은 의무대를 거쳐 속초의료원, 강릉아산병원으로 옮겨졌습니다.",
+      "facts": [
+        "F16"
+      ],
+      "stage": "transport",
+      "chapter": 3,
+      "cliffhanger": false
+    },
+    {
+      "id": "N029",
+      "text": "강릉 도착은 밤 9시 40분쯤. 두 병원 사이의 전체 경과는 약 세 시간이었습니다.",
+      "tts_text": "강릉 도착은 밤 아홉 시 사십 분쯤. 두 병원 사이의 전체 경과는 약 세 시간이었습니다.",
+      "facts": [
+        "F18",
+        "F19"
+      ],
+      "stage": "hospital",
+      "chapter": 3,
+      "cliffhanger": false
+    },
+    {
+      "id": "N030",
+      "text": "차를 세 시간 탔다는 뜻은 아닙니다. 그 사이 가족에게는 어떤 연락이 갔을까요?",
+      "tts_text": "차를 세 시간 탔다는 뜻은 아닙니다. 그 사이 가족에게는 어떤 연락이 갔을까요?",
+      "facts": [
+        "F19",
+        "F23"
+      ],
+      "stage": "host",
+      "chapter": 3,
+      "cliffhanger": true
+    },
+    {
+      "id": "N031",
+      "text": "어머니는 공개편지에 첫 전화를 받은 시각을 오후 5시 54분으로 적었습니다.",
+      "tts_text": "어머니는 공개편지에 첫 전화를 받은 시각을 오후 다섯 시 오십사 분으로 적었습니다.",
+      "facts": [
+        "F23"
+      ],
+      "stage": "letter",
+      "chapter": 4,
+      "cliffhanger": false
+    },
+    {
+      "id": "N032",
+      "text": "그 편지에는 입영 날, 먼 길 돌아갈 부모를 아들이 걱정한 기억도 담겼습니다.",
+      "tts_text": "그 편지에는 입영 날, 먼 길 돌아갈 부모를 아들이 걱정한 기억도 담겼습니다.",
+      "facts": [
+        "F25"
+      ],
+      "stage": "letter",
+      "chapter": 4,
+      "cliffhanger": false
+    },
+    {
+      "id": "N033",
+      "text": "차로 여섯 시간에서 일곱 시간. 부모 손을 잡고 등을 다독였다는 회고입니다.",
+      "tts_text": "차로 여섯 시간에서 일곱 시간. 부모 손을 잡고 등을 다독였다는 회고입니다.",
+      "facts": [
+        "F25"
+      ],
+      "stage": "memorial",
+      "chapter": 4,
+      "cliffhanger": false
+    },
+    {
+      "id": "N034",
+      "text": "어머니가 편지에 적은 신병 생활은 아홉 날. 입대 날짜를 역산한 숫자는 아닙니다.",
+      "tts_text": "어머니가 편지에 적은 신병 생활은 아홉 날. 입대 날짜를 역산한 숫자는 아닙니다.",
+      "facts": [
+        "F01"
+      ],
+      "stage": "barracks",
+      "chapter": 4,
+      "cliffhanger": false
+    },
+    {
+      "id": "N035",
+      "text": "훈련병은 이틀 뒤인 2024년 5월 25일 숨졌습니다.",
+      "tts_text": "훈련병은 이틀 뒤인 이천이십사 년 오 월 이십오 일 숨졌습니다.",
+      "facts": [
+        "F15"
+      ],
+      "stage": "memorial",
+      "chapter": 4,
+      "cliffhanger": false
+    },
+    {
+      "id": "N036",
+      "text": "6월 19일, 동기들의 수료식장 추모 공간에는 명예수료증이 놓였습니다.",
+      "tts_text": "유월 십구 일, 동기들의 수료식장 추모 공간에는 명예수료증이 놓였습니다.",
+      "facts": [
+        "F30"
+      ],
+      "stage": "memorial",
+      "chapter": 4,
+      "cliffhanger": false
+    },
+    {
+      "id": "N037",
+      "text": "참석자들은 국화꽃을 놓고 고인을 추모했습니다. 돌아온 건 사람이 아니었습니다.",
+      "tts_text": "참석자들은 국화꽃을 놓고 고인을 추모했습니다. 돌아온 건 사람이 아니었습니다.",
+      "facts": [
+        "F31"
+      ],
+      "stage": "memorial",
+      "chapter": 4,
+      "cliffhanger": false
+    },
+    {
+      "id": "N038",
+      "text": "그 뒤 8월 27일 공판. 함께 군기훈련을 받은 동료 네 명이 증인으로 섰습니다.",
+      "tts_text": "그 뒤 팔 월 이십칠 일 공판. 함께 군기훈련을 받은 동료 네 명이 증인으로 섰습니다.",
+      "facts": [
+        "F32"
+      ],
+      "stage": "witness",
+      "chapter": 4,
+      "cliffhanger": false
+    },
+    {
+      "id": "N039",
+      "text": "한 생존 훈련병은 외상 후 스트레스 장애 진단을 받았다고 법정에서 밝혔습니다.",
+      "tts_text": "한 생존 훈련병은 외상 후 스트레스 장애 진단을 받았다고 법정에서 밝혔습니다.",
+      "facts": [
+        "F35"
+      ],
+      "stage": "witness",
+      "chapter": 4,
+      "cliffhanger": false
+    },
+    {
+      "id": "N040",
+      "text": "검찰은 단순 과실로 보지 않았습니다. 적용한 죄명은 학대치사였습니다.",
+      "tts_text": "검찰은 단순 과실로 보지 않았습니다. 적용한 죄명은 학대치사였습니다.",
+      "facts": [
+        "C10",
+        "C01",
+        "D01"
+      ],
+      "stage": "host",
+      "chapter": 4,
+      "cliffhanger": true
+    },
+    {
+      "id": "N041",
+      "text": "훈련 방식과 진행 경과, 피해자의 신체조건까지 종합해 학대라고 판단했습니다.",
+      "tts_text": "훈련 방식과 진행 경과, 피해자의 신체조건까지 종합해 학대라고 판단했습니다.",
+      "facts": [
+        "E06"
+      ],
+      "stage": "prosecution",
+      "chapter": 5,
+      "cliffhanger": false
+    },
+    {
+      "id": "N042",
+      "text": "중대장과 부중대장 모두 학대치사와 직권남용 가혹행위 혐의로 기소됐습니다.",
+      "tts_text": "중대장과 부중대장 모두 학대치사와 직권남용 가혹행위 혐의로 기소됐습니다.",
+      "facts": [
+        "C01",
+        "D01"
+      ],
+      "stage": "court",
+      "chapter": 5,
+      "cliffhanger": false
+    },
+    {
+      "id": "N043",
+      "text": "중대장 측은 잘못된 행동을 인정하면서도, 1심에서 학대치사 혐의는 부인했습니다.",
+      "tts_text": "중대장 측은 잘못된 행동을 인정하면서도, 일심에서 학대치사 혐의는 부인했습니다.",
+      "facts": [
+        "C04"
+      ],
+      "stage": "defendant",
+      "chapter": 5,
+      "cliffhanger": false
+    },
+    {
+      "id": "N044",
+      "text": "행동은 인정하지만 그 죄는 아니라는 주장. 법원의 답은 달랐습니다.",
+      "tts_text": "행동은 인정하지만 그 죄는 아니라는 주장. 법원의 답은 달랐습니다.",
+      "facts": [
+        "C04",
+        "C06"
+      ],
+      "stage": "host",
+      "chapter": 5,
+      "cliffhanger": false
+    },
+    {
+      "id": "N045",
+      "text": "1심은 두 사람 모두 유죄. 군기훈련과 사망 사이의 인과관계도 인정했습니다.",
+      "tts_text": "일심은 두 사람 모두 유죄. 군기훈련과 사망 사이의 인과관계도 인정했습니다.",
+      "facts": [
+        "C06",
+        "D05",
+        "J06"
+      ],
+      "stage": "court",
+      "chapter": 5,
+      "cliffhanger": false
+    },
+    {
+      "id": "N046",
+      "text": "신체조건에 맞지 않는 군기훈련, 군의 사기와 전투력, 국민 신뢰를 해친 점을 짚었습니다.",
+      "tts_text": "신체조건에 맞지 않는 군기훈련, 군의 사기와 전투력, 국민 신뢰를 해친 점을 짚었습니다.",
+      "facts": [
+        "J03"
+      ],
+      "stage": "court",
+      "chapter": 5,
+      "cliffhanger": false
+    },
+    {
+      "id": "N047",
+      "text": "피해자 측에게 용서받지 못했다는 사정도 지적했습니다.",
+      "tts_text": "피해자 측에게 용서받지 못했다는 사정도 지적했습니다.",
+      "facts": [
+        "J05"
+      ],
+      "stage": "court",
+      "chapter": 5,
+      "cliffhanger": false
+    },
+    {
+      "id": "N048",
+      "text": "그런데 이 판결에는, 피고인에게 유리하게 참작한 사정도 있습니다.",
+      "tts_text": "그런데 이 판결에는, 피고인에게 유리하게 참작한 사정도 있습니다.",
+      "facts": [
+        "J04"
+      ],
+      "stage": "host",
+      "chapter": 5,
+      "cliffhanger": false
+    },
+    {
+      "id": "N049",
+      "text": "사실관계를 인정한 점. 잘못을 반성하는 태도. 그리고 교육 목적입니다.",
+      "tts_text": "사실관계를 인정한 점. 잘못을 반성하는 태도. 그리고 교육 목적입니다.",
+      "facts": [
+        "J04"
+      ],
+      "stage": "defendant",
+      "chapter": 5,
+      "cliffhanger": false
+    },
+    {
+      "id": "N050",
+      "text": "학대치사는 유죄인데, 교육 목적은 참작. 이 문장이 형량에서 어떻게 만났을까요?",
+      "tts_text": "학대치사는 유죄인데, 교육 목적은 참작. 이 문장이 형량에서 어떻게 만났을까요?",
+      "facts": [
+        "J04",
+        "C06"
+      ],
+      "stage": "host",
+      "chapter": 5,
+      "cliffhanger": true
+    },
+    {
+      "id": "N051",
+      "text": "1심은 군 기강을 세우려는 교육 목적으로 훈련하다 범행에 이른 점을 참작했습니다.",
+      "tts_text": "일심은 군 기강을 세우려는 교육 목적으로 훈련하다 범행에 이른 점을 참작했습니다.",
+      "facts": [
+        "J04"
+      ],
+      "stage": "court",
+      "chapter": 6,
+      "cliffhanger": false
+    },
+    {
+      "id": "N052",
+      "text": "교육 목적이라고 적었다고, 학대가 교육으로 바뀐 건 아닙니다. 유죄 판단은 유지됐습니다.",
+      "tts_text": "교육 목적이라고 적었다고, 학대가 교육으로 바뀐 건 아닙니다. 유죄 판단은 유지됐습니다.",
+      "facts": [
+        "J04",
+        "C06"
+      ],
+      "stage": "host",
+      "chapter": 6,
+      "cliffhanger": false
+    },
+    {
+      "id": "N053",
+      "text": "검찰은 군의 지도력과 관리 체제에 대한 국민 신뢰가 훼손됐다고 구형 이유를 밝혔습니다.",
+      "tts_text": "검찰은 군의 지도력과 관리 체제에 대한 국민 신뢰가 훼손됐다고 구형 이유를 밝혔습니다.",
+      "facts": [
+        "E07"
+      ],
+      "stage": "prosecution",
+      "chapter": 6,
+      "cliffhanger": false
+    },
+    {
+      "id": "N054",
+      "text": "2024년 11월 12일. 중대장에게 요청한 형은 징역 10년이었습니다.",
+      "tts_text": "이천이십사 년 십일 월 십이 일. 중대장에게 요청한 형은 징역 십 년이었습니다.",
+      "facts": [
+        "C03"
+      ],
+      "stage": "prosecution",
+      "chapter": 6,
+      "cliffhanger": false
+    },
+    {
+      "id": "N055",
+      "text": "부중대장에게는 징역 7년. 둘 다 검찰의 구형입니다. 법원이 내린 선고와 구분합니다.",
+      "tts_text": "부중대장에게는 징역 칠 년. 둘 다 검찰의 구형입니다. 법원이 내린 선고와 구분합니다.",
+      "facts": [
+        "D03"
+      ],
+      "stage": "prosecution",
+      "chapter": 6,
+      "cliffhanger": false
+    },
+    {
+      "id": "N056",
+      "text": "2025년 1월 7일. 중대장에게 실제로 선고된 1심 형은 징역 5년입니다.",
+      "tts_text": "이천이십오 년 일 월 칠 일. 중대장에게 실제로 선고된 일심 형은 징역 오 년입니다.",
+      "facts": [
+        "C05"
+      ],
+      "stage": "court",
+      "chapter": 6,
+      "cliffhanger": false
+    },
+    {
+      "id": "N057",
+      "text": "부중대장은 징역 3년. 각자의 구형과 각자의 선고가 이렇게 갈렸습니다.",
+      "tts_text": "부중대장은 징역 삼 년. 각자의 구형과 각자의 선고가 이렇게 갈렸습니다.",
+      "facts": [
+        "D04"
+      ],
+      "stage": "court",
+      "chapter": 6,
+      "cliffhanger": false
+    },
+    {
+      "id": "N058",
+      "text": "유죄와 형량은 다른 질문입니다. 무거운 사정과 유리한 사정을 함께 본 결과입니다.",
+      "tts_text": "유죄와 형량은 다른 질문입니다. 무거운 사정과 유리한 사정을 함께 본 결과입니다.",
+      "facts": [
+        "J03",
+        "J04"
+      ],
+      "stage": "host",
+      "chapter": 6,
+      "cliffhanger": false
+    },
+    {
+      "id": "N059",
+      "text": "선고 뒤 어머니는 피고인들이 500년형을 받은들 적다고 하겠느냐고 말했습니다.",
+      "tts_text": "선고 뒤 어머니는 피고인들이 오백 년형을 받은들 적다고 하겠느냐고 말했습니다.",
+      "facts": [
+        "F37"
+      ],
+      "stage": "memorial",
+      "chapter": 6,
+      "cliffhanger": false
+    },
+    {
+      "id": "N060",
+      "text": "하지만 중대장 5년은 마지막 숫자가 아니었습니다. 항소심에서 무엇이 바뀌었을까요?",
+      "tts_text": "하지만 중대장 오 년은 마지막 숫자가 아니었습니다. 항소심에서 무엇이 바뀌었을까요?",
+      "facts": [
+        "C07",
+        "J07"
+      ],
+      "stage": "host",
+      "chapter": 6,
+      "cliffhanger": true
+    },
+    {
+      "id": "N061",
+      "text": "1심은 하나의 행위가 여러 범죄를 구성하는 관계, 상상적 경합으로 봤습니다.",
+      "tts_text": "일심은 하나의 행위가 여러 범죄를 구성하는 관계, 상상적 경합으로 봤습니다.",
+      "facts": [
+        "J01"
+      ],
+      "stage": "court",
+      "chapter": 7,
+      "cliffhanger": false
+    },
+    {
+      "id": "N062",
+      "text": "항소심은 다르게 봤습니다. 같은 장소에서 이어졌다는 것만으로 묶지 않았습니다.",
+      "tts_text": "항소심은 다르게 봤습니다. 같은 장소에서 이어졌다는 것만으로 묶지 않았습니다.",
+      "facts": [
+        "J07",
+        "J08"
+      ],
+      "stage": "investigation",
+      "chapter": 7,
+      "cliffhanger": false
+    },
+    {
+      "id": "N063",
+      "text": "피해자마다 구체적인 가혹행위와 학대의 양상이 달랐다는 겁니다.",
+      "tts_text": "피해자마다 구체적인 가혹행위와 학대의 양상이 달랐다는 겁니다.",
+      "facts": [
+        "J08"
+      ],
+      "stage": "witness",
+      "chapter": 7,
+      "cliffhanger": false
+    },
+    {
+      "id": "N064",
+      "text": "한 훈련장이라는 큰 묶음에서, 각 사람이 당한 행위로 시선이 옮겨갑니다.",
+      "tts_text": "한 훈련장이라는 큰 묶음에서, 각 사람이 당한 행위로 시선이 옮겨갑니다.",
+      "facts": [
+        "J08"
+      ],
+      "stage": "host",
+      "chapter": 7,
+      "cliffhanger": false
+    },
+    {
+      "id": "N065",
+      "text": "여러 행위로 여러 죄를 범한 관계인 실체적 경합. 죄의 수에 관한 판단이 바뀌었습니다.",
+      "tts_text": "여러 행위로 여러 죄를 범한 관계인 실체적 경합. 죄의 수에 관한 판단이 바뀌었습니다.",
+      "facts": [
+        "J07",
+        "J09"
+      ],
+      "stage": "court",
+      "chapter": 7,
+      "cliffhanger": false
+    },
+    {
+      "id": "N066",
+      "text": "훈련병 6명이니까 범죄도 딱 6개라는 계산은 아닙니다. 행위를 구별한 판단입니다.",
+      "tts_text": "훈련병 여섯 명이니까 범죄도 딱 여섯 개라는 계산은 아닙니다. 행위를 구별한 판단입니다.",
+      "facts": [
+        "J08",
+        "E02"
+      ],
+      "stage": "host",
+      "chapter": 7,
+      "cliffhanger": false
+    },
+    {
+      "id": "N067",
+      "text": "항소심은 지휘관들이 후진적 병영문화를 답습했다고 지적했습니다.",
+      "tts_text": "항소심은 지휘관들이 후진적 병영문화를 답습했다고 지적했습니다.",
+      "facts": [
+        "J11"
+      ],
+      "stage": "court",
+      "chapter": 7,
+      "cliffhanger": false
+    },
+    {
+      "id": "N068",
+      "text": "충분히 예방할 수 있었던 사망사고를 초래했다는 판단입니다.",
+      "tts_text": "충분히 예방할 수 있었던 사망사고를 초래했다는 판단입니다.",
+      "facts": [
+        "J11"
+      ],
+      "stage": "ground",
+      "chapter": 7,
+      "cliffhanger": false
+    },
+    {
+      "id": "N069",
+      "text": "국가가 병사의 생명과 신체를 보호하리라는 사회의 기본 기대를 배반했다고 봤습니다.",
+      "tts_text": "국가가 병사의 생명과 신체를 보호하리라는 사회의 기본 기대를 배반했다고 봤습니다.",
+      "facts": [
+        "J12"
+      ],
+      "stage": "court",
+      "chapter": 7,
+      "cliffhanger": false
+    },
+    {
+      "id": "N070",
+      "text": "군기를 세운다는 명분, 사람을 지킬 책임. 바뀐 판단은 형량을 어디까지 움직였을까요?",
+      "tts_text": "군기를 세운다는 명분, 사람을 지킬 책임. 바뀐 판단은 형량을 어디까지 움직였을까요?",
+      "facts": [
+        "C07",
+        "J07"
+      ],
+      "stage": "host",
+      "chapter": 7,
+      "cliffhanger": true
+    },
+    {
+      "id": "N071",
+      "text": "2025년 6월 18일, 항소심은 중대장에게 징역 5년 6개월을 선고했습니다.",
+      "tts_text": "이천이십오 년 유월 십팔 일, 항소심은 중대장에게 징역 오 년 육 개월을 선고했습니다.",
+      "facts": [
+        "C07"
+      ],
+      "stage": "court",
+      "chapter": 8,
+      "cliffhanger": false
+    },
+    {
+      "id": "N072",
+      "text": "1심 5년에서 6개월 증가했습니다. 이전 형에 배수를 곱한 산수는 아닙니다.",
+      "tts_text": "일심 오 년에서 육 개월 증가했습니다. 이전 형에 배수를 곱한 산수는 아닙니다.",
+      "facts": [
+        "C05",
+        "C07"
+      ],
+      "stage": "host",
+      "chapter": 8,
+      "cliffhanger": false
+    },
+    {
+      "id": "N073",
+      "text": "부중대장은 1심과 같은 징역 3년입니다. 두 사람의 결과를 섞으면 안 됩니다.",
+      "tts_text": "부중대장은 일심과 같은 징역 삼 년입니다. 두 사람의 결과를 섞으면 안 됩니다.",
+      "facts": [
+        "D06"
+      ],
+      "stage": "court",
+      "chapter": 8,
+      "cliffhanger": false
+    },
+    {
+      "id": "N074",
+      "text": "중대장 형이 늘어난 이유를 부중대장 형이 유지된 이유로 그대로 옮길 수도 없습니다.",
+      "tts_text": "중대장 형이 늘어난 이유를 부중대장 형이 유지된 이유로 그대로 옮길 수도 없습니다.",
+      "facts": [
+        "C07",
+        "D06"
+      ],
+      "stage": "host",
+      "chapter": 8,
+      "cliffhanger": false
+    },
+    {
+      "id": "N075",
+      "text": "대법원은 중대장에 대한 원심 판단에 잘못이 없다고 보고 상고를 기각했습니다.",
+      "tts_text": "대법원은 중대장에 대한 원심 판단에 잘못이 없다고 보고 상고를 기각했습니다.",
+      "facts": [
+        "J13"
+      ],
+      "stage": "court",
+      "chapter": 8,
+      "cliffhanger": false
+    },
+    {
+      "id": "N076",
+      "text": "2025년 9월 25일. 중대장의 징역 5년 6개월이 확정됐습니다.",
+      "tts_text": "이천이십오 년 구 월 이십오 일. 중대장의 징역 오 년 육 개월이 확정됐습니다.",
+      "facts": [
+        "C09"
+      ],
+      "stage": "court",
+      "chapter": 8,
+      "cliffhanger": false
+    },
+    {
+      "id": "N077",
+      "text": "부중대장의 징역 3년도 확정 상태입니다. 같은 날 보도로 확인되는 상태입니다.",
+      "tts_text": "부중대장의 징역 삼 년도 확정 상태입니다. 같은 날 보도로 확인되는 상태입니다.",
+      "facts": [
+        "D08"
+      ],
+      "stage": "court",
+      "chapter": 8,
+      "cliffhanger": false
+    },
+    {
+      "id": "N078",
+      "text": "부중대장까지 그날 대법원이 본안을 판단했다고 말하지는 않겠습니다.",
+      "tts_text": "부중대장까지 그날 대법원이 본안을 판단했다고 말하지는 않겠습니다.",
+      "facts": [
+        "D08"
+      ],
+      "stage": "host",
+      "chapter": 8,
+      "cliffhanger": false
+    },
+    {
+      "id": "N079",
+      "text": "재판과 별개로, 사건 뒤 국방부는 훈련병 군기훈련 대책을 발표했습니다.",
+      "tts_text": "재판과 별개로, 사건 뒤 국방부는 훈련병 군기훈련 대책을 발표했습니다.",
+      "facts": [
+        "F38",
+        "F39"
+      ],
+      "stage": "reform",
+      "chapter": 8,
+      "cliffhanger": false
+    },
+    {
+      "id": "N080",
+      "text": "그 대책에 다시 등장한 단어가 있습니다. 처음에 빠졌던 바로 그 절차입니다.",
+      "tts_text": "그 대책에 다시 등장한 단어가 있습니다. 처음에 빠졌던 바로 그 절차입니다.",
+      "facts": [
+        "F04",
+        "F39"
+      ],
+      "stage": "host",
+      "chapter": 8,
+      "cliffhanger": true
+    },
+    {
+      "id": "N081",
+      "text": "2024년 6월 27일 발표. 훈련병 군기훈련에서 체력단련 종목을 제외하기로 했습니다.",
+      "tts_text": "이천이십사 년 유월 이십칠 일 발표. 훈련병 군기훈련에서 체력단련 종목을 제외하기로 했습니다.",
+      "facts": [
+        "F38"
+      ],
+      "stage": "reform",
+      "chapter": 9,
+      "cliffhanger": false
+    },
+    {
+      "id": "N082",
+      "text": "일반 신병 교육의 체력훈련을 전부 없앴다는 뜻은 아닙니다.",
+      "tts_text": "일반 신병 교육의 체력훈련을 전부 없앴다는 뜻은 아닙니다.",
+      "facts": [
+        "F38"
+      ],
+      "stage": "ground",
+      "chapter": 9,
+      "cliffhanger": false
+    },
+    {
+      "id": "N083",
+      "text": "개인에게 반드시 소명 기회를 주도록 시행 절차도 표준화했습니다.",
+      "tts_text": "개인에게 반드시 소명 기회를 주도록 시행 절차도 표준화했습니다.",
+      "facts": [
+        "F39"
+      ],
+      "stage": "reform",
+      "chapter": 9,
+      "cliffhanger": false
+    },
+    {
+      "id": "N084",
+      "text": "육군 신병교육부대의 군기훈련 승인권자는 영관급 지휘관으로 높이기로 했습니다.",
+      "tts_text": "육군 신병교육부대의 군기훈련 승인권자는 영관급 지휘관으로 높이기로 했습니다.",
+      "facts": [
+        "F40"
+      ],
+      "stage": "command",
+      "chapter": 9,
+      "cliffhanger": false
+    },
+    {
+      "id": "N085",
+      "text": "건강 상태를 수시로 확인하고, 응급상황 대비책부터 마련하는 절차도 담겼습니다.",
+      "tts_text": "건강 상태를 수시로 확인하고, 응급상황 대비책부터 마련하는 절차도 담겼습니다.",
+      "facts": [
+        "F41"
+      ],
+      "stage": "hospital",
+      "chapter": 9,
+      "cliffhanger": false
+    },
+    {
+      "id": "N086",
+      "text": "소명 듣기. 몸 상태 확인하기. 위급할 때 대비하기. 그렇게 대단한 주문입니까?",
+      "tts_text": "소명 듣기. 몸 상태 확인하기. 위급할 때 대비하기. 그렇게 대단한 주문입니까?",
+      "facts": [
+        "F04",
+        "F05",
+        "F39",
+        "F41"
+      ],
+      "stage": "host",
+      "chapter": 9,
+      "cliffhanger": false
+    },
+    {
+      "id": "N087",
+      "text": "사건 전에 지키지 않은 절차가, 사건 뒤 대책에서 다시 강조됐습니다.",
+      "tts_text": "사건 전에 지키지 않은 절차가, 사건 뒤 대책에서 다시 강조됐습니다.",
+      "facts": [
+        "F04",
+        "F39"
+      ],
+      "stage": "investigation",
+      "chapter": 9,
+      "cliffhanger": false
+    },
+    {
+      "id": "N088",
+      "text": "항소심이 남긴 말은 무겁습니다. 예방할 수 있었고, 보호받을 기대는 배반됐습니다.",
+      "tts_text": "항소심이 남긴 말은 무겁습니다. 예방할 수 있었고, 보호받을 기대는 배반됐습니다.",
+      "facts": [
+        "J11",
+        "J12"
+      ],
+      "stage": "memorial",
+      "chapter": 9,
+      "cliffhanger": false
+    },
+    {
+      "id": "N089",
+      "text": "교육 목적을 참작한 판결. 생명을 지킬 국가의 책임. 여러분은 어느 대목을 더 무겁게 봅니까?",
+      "tts_text": "교육 목적을 참작한 판결. 생명을 지킬 국가의 책임. 여러분은 어느 대목을 더 무겁게 봅니까?",
+      "facts": [
+        "J04",
+        "J12"
+      ],
+      "stage": "host",
+      "chapter": 9,
+      "cliffhanger": false
+    },
+    {
+      "id": "N090",
+      "text": "군기를 세운다던 훈련에서, 반드시 먼저 지켰어야 할 것은 사람이었습니다.",
+      "tts_text": "군기를 세운다던 훈련에서, 반드시 먼저 지켰어야 할 것은 사람이었습니다.",
+      "facts": [
+        "J11",
+        "J12"
+      ],
+      "stage": "memorial",
+      "chapter": 9,
+      "cliffhanger": false
+    }
+  ],
+  "red_lines": [
+    "original fictional designs only",
+    "no identifiable victim or bereaved likeness",
+    "no collapse, patient, death or gore shown",
+    "no invented event dialogue or blocking presented as documentary fact",
+    "commander and deputy faceless; source role is 부중대장, not 소대장",
+    "all screen dates numeric"
+  ],
+  "visual_note": "Character movement is labelled illustrative. Only narrator has lip sync; no event dialogue is synthesized."
+}

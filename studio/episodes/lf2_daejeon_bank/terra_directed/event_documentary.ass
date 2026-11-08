@@ -1,0 +1,29 @@
+[Script Info]
+Title: LF2 documentary captions
+ScriptType: v4.00+
+PlayResX: 640
+PlayResY: 360
+ScaledBorderAndShadow: yes
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name,Fontname,Fontsize,PrimaryColour,SecondaryColour,OutlineColour,BackColour,Bold,Italic,Underline,StrikeOut,ScaleX,ScaleY,Spacing,Angle,BorderStyle,Outline,Shadow,Alignment,MarginL,MarginR,MarginV,Encoding
+Style: Caption,Pretendard,31,&H00F8F7F2,&H00000000,&H00101824,&H28101824,1,0,0,0,100,100,0,0,3,6,0,2,20,20,9,1
+
+[Events]
+Format: Layer,Start,End,Style,Name,MarginL,MarginR,MarginV,Effect,Text
+Dialogue: 0,0:00:00.00,0:00:02.06,Caption,,0,0,0,,2001년 12월 21일,\N오전 10시쯤.
+Dialogue: 0,0:00:02.29,0:00:04.61,Caption,,0,0,0,,대전 둔산동 국민은행\N건물 지하주차장입니다.
+Dialogue: 0,0:00:04.94,0:00:07.00,Caption,,0,0,0,,은행 관계자 3명이\N돈가방을 옮기던 순간.
+Dialogue: 0,0:00:07.35,0:00:08.73,Caption,,0,0,0,,검은 승용차가 길을 막습니다.
+Dialogue: 0,0:00:09.11,0:00:10.29,Caption,,0,0,0,,복면을 쓴 2인조입니다.
+Dialogue: 0,0:00:10.64,0:00:12.10,Caption,,0,0,0,,현장에는 권총이 등장했습니다.
+Dialogue: 0,0:00:12.50,0:00:14.52,Caption,,0,0,0,,총격으로 숨진 사람은\N현금 운송을 맡은
+Dialogue: 0,0:00:14.52,0:00:15.76,Caption,,0,0,0,,40대 출납과장입니다.
+Dialogue: 0,0:00:16.06,0:00:17.76,Caption,,0,0,0,,일터에 온 사람이\N목숨을 잃었습니다.
+Dialogue: 0,0:00:18.18,0:00:20.48,Caption,,0,0,0,,법원은 그가 직무에\N충실하며 강도 범행을
+Dialogue: 0,0:00:20.48,0:00:21.88,Caption,,0,0,0,,막으려다 숨졌다고 짚었습니다.
+Dialogue: 0,0:00:22.25,0:00:23.53,Caption,,0,0,0,,가방은 2개, 각각 3억 원.
+Dialogue: 0,0:00:23.77,0:00:25.57,Caption,,0,0,0,,범인들은 그중\N하나를 가져갔습니다.
+Dialogue: 0,0:00:25.91,0:00:27.81,Caption,,0,0,0,,운송액 6억 원과\N빼앗긴 3억 원은
+Dialogue: 0,0:00:27.81,0:00:28.15,Caption,,0,0,0,,다릅니다.

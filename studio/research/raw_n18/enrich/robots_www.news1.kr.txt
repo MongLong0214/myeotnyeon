@@ -1,0 +1,20 @@
+User-agent: *
+
+Disallow: /ads
+Disallow: /jebo
+Disallow: /search
+Allow: /ads.txt
+
+User-agent: Kapiko
+User-agent: K-Ninja
+User-agent: Arora
+User-agent: Kazehakase
+User-agent: AcooBrowser
+
+Disallow: /
+
+Sitemap: https://www.news1.kr/api/feeds/category/
+Sitemap: https://www.news1.kr/api/feeds/sitemap-index/
+Sitemap: https://www.news1.kr/api/feeds/google-news/
+Sitemap: https://www.news1.kr/api/feeds/globalmarkets/
+

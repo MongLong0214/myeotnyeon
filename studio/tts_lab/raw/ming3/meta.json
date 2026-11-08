@@ -1,0 +1,383 @@
+{
+ "ming3_US_James_neutral_1": {
+  "engine": "ming3",
+  "voice": "US_James",
+  "style": "neutral",
+  "line": 1,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "voice": "US_James"
+  },
+  "gen_seconds": 16.26,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "ming3_US_James_neutral_2": {
+  "engine": "ming3",
+  "voice": "US_James",
+  "style": "neutral",
+  "line": 2,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "voice": "US_James"
+  },
+  "gen_seconds": 7.92,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "ming3_US_James_neutral_3": {
+  "engine": "ming3",
+  "voice": "US_James",
+  "style": "neutral",
+  "line": 3,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "voice": "US_James"
+  },
+  "gen_seconds": 8.41,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "ming3_US_James_comic_1": {
+  "engine": "ming3",
+  "voice": "US_James",
+  "style": "comic",
+  "line": 1,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": null, \"语速\": \"快速\", \"基频\": \"高\", \"音量\": null, \"情感\": \"高兴\", \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": \"US_James\"}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 12.21,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "ming3_US_James_comic_2": {
+  "engine": "ming3",
+  "voice": "US_James",
+  "style": "comic",
+  "line": 2,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": null, \"语速\": \"快速\", \"基频\": \"高\", \"音量\": null, \"情感\": \"高兴\", \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": \"US_James\"}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 7.4,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "ming3_US_James_comic_3": {
+  "engine": "ming3",
+  "voice": "US_James",
+  "style": "comic",
+  "line": 3,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": null, \"语速\": \"快速\", \"基频\": \"高\", \"音量\": null, \"情感\": \"高兴\", \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": \"US_James\"}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 7.11,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "ming3_US_Emma_comic_1": {
+  "engine": "ming3",
+  "voice": "US_Emma",
+  "style": "comic",
+  "line": 1,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": null, \"语速\": \"快速\", \"基频\": \"高\", \"音量\": null, \"情感\": \"高兴\", \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": \"US_Emma\"}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 23.83,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "ming3_US_Emma_comic_2": {
+  "engine": "ming3",
+  "voice": "US_Emma",
+  "style": "comic",
+  "line": 2,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": null, \"语速\": \"快速\", \"基频\": \"高\", \"音量\": null, \"情感\": \"高兴\", \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": \"US_Emma\"}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 23.12,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "ming3_US_Emma_comic_3": {
+  "engine": "ming3",
+  "voice": "US_Emma",
+  "style": "comic",
+  "line": 3,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": null, \"语速\": \"快速\", \"基频\": \"高\", \"音量\": null, \"情感\": \"高兴\", \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": \"US_Emma\"}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 11.88,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "ming3_designM30_neutral_1": {
+  "engine": "ming3",
+  "voice": "designM30",
+  "style": "neutral",
+  "line": 1,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": \"三十岁出头的韩国男性，嗓音明亮略带沙哑，标准首尔口音。平稳清晰的纪录片旁白，语速适中。\", \"语速\": null, \"基频\": null, \"音量\": null, \"情感\": null, \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": null}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 22.02,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "ming3_designM30_neutral_2": {
+  "engine": "ming3",
+  "voice": "designM30",
+  "style": "neutral",
+  "line": 2,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": \"三十岁出头的韩国男性，嗓音明亮略带沙哑，标准首尔口音。平稳清晰的纪录片旁白，语速适中。\", \"语速\": null, \"基频\": null, \"音量\": null, \"情感\": null, \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": null}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 14.97,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "ming3_designM30_neutral_3": {
+  "engine": "ming3",
+  "voice": "designM30",
+  "style": "neutral",
+  "line": 3,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": \"三十岁出头的韩国男性，嗓音明亮略带沙哑，标准首尔口音。平稳清晰的纪录片旁白，语速适中。\", \"语速\": null, \"基频\": null, \"音量\": null, \"情感\": null, \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": null}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 17.14,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "ming3_designM30_comic_1": {
+  "engine": "ming3",
+  "voice": "designM30",
+  "style": "comic",
+  "line": 1,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": \"三十岁出头的韩国男性，嗓音明亮略带沙哑，标准首尔口音。成人动画里语速很快的搞笑旁白，充满活力，语气调侃讽刺，音调起伏夸张，重音有力，喜剧节奏感强。\", \"语速\": null, \"基频\": null, \"音量\": null, \"情感\": null, \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": null}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 16.17,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "ming3_designM30_comic_2": {
+  "engine": "ming3",
+  "voice": "designM30",
+  "style": "comic",
+  "line": 2,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": \"三十岁出头的韩国男性，嗓音明亮略带沙哑，标准首尔口音。成人动画里语速很快的搞笑旁白，充满活力，语气调侃讽刺，音调起伏夸张，重音有力，喜剧节奏感强。\", \"语速\": null, \"基频\": null, \"音量\": null, \"情感\": null, \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": null}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 57.28,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "ming3_designM30_comic_3": {
+  "engine": "ming3",
+  "voice": "designM30",
+  "style": "comic",
+  "line": 3,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": \"三十岁出头的韩国男性，嗓音明亮略带沙哑，标准首尔口音。成人动画里语速很快的搞笑旁白，充满活力，语气调侃讽刺，音调起伏夸张，重音有力，喜剧节奏感强。\", \"语速\": null, \"基频\": null, \"音量\": null, \"情感\": null, \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": null}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 7.4,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "ming3_designM30_comicfast_1": {
+  "engine": "ming3",
+  "voice": "designM30",
+  "style": "comicfast",
+  "line": 1,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": \"三十岁出头的韩国男性，嗓音明亮略带沙哑，标准首尔口音。成人动画里语速很快的搞笑旁白，充满活力，语气调侃讽刺，音调起伏夸张，重音有力，喜剧节奏感强。\", \"语速\": \"快速\", \"基频\": \"高\", \"音量\": null, \"情感\": \"高兴\", \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": null}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 12.74,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "ming3_designM30_comicfast_2": {
+  "engine": "ming3",
+  "voice": "designM30",
+  "style": "comicfast",
+  "line": 2,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": \"三十岁出头的韩国男性，嗓音明亮略带沙哑，标准首尔口音。成人动画里语速很快的搞笑旁白，充满活力，语气调侃讽刺，音调起伏夸张，重音有力，喜剧节奏感强。\", \"语速\": \"快速\", \"基频\": \"高\", \"音量\": null, \"情感\": \"高兴\", \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": null}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 8.2,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "ming3_designM30_comicfast_3": {
+  "engine": "ming3",
+  "voice": "designM30",
+  "style": "comicfast",
+  "line": 3,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": \"三十岁出头的韩国男性，嗓音明亮略带沙哑，标准首尔口音。成人动画里语速很快的搞笑旁白，充满活力，语气调侃讽刺，音调起伏夸张，重音有力，喜剧节奏感强。\", \"语速\": \"快速\", \"基频\": \"高\", \"音量\": null, \"情感\": \"高兴\", \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": null}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 7.39,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "ming3_designF20_comic_1": {
+  "engine": "ming3",
+  "voice": "designF20",
+  "style": "comic",
+  "line": 1,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": \"二十多岁的韩国女性，嗓音清亮活泼，标准首尔口音。综艺节目里机智的旁白，语速快，俏皮跳跃，音调起伏戏剧化，带点调侃，喜剧节奏感强。\", \"语速\": null, \"基频\": null, \"音量\": null, \"情感\": null, \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": null}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 13.35,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "ming3_designF20_comic_2": {
+  "engine": "ming3",
+  "voice": "designF20",
+  "style": "comic",
+  "line": 2,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": \"二十多岁的韩国女性，嗓音清亮活泼，标准首尔口音。综艺节目里机智的旁白，语速快，俏皮跳跃，音调起伏戏剧化，带点调侃，喜剧节奏感强。\", \"语速\": null, \"基频\": null, \"音量\": null, \"情感\": null, \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": null}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 11.58,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "ming3_designF20_comic_3": {
+  "engine": "ming3",
+  "voice": "designF20",
+  "style": "comic",
+  "line": 3,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "{\"audio_sequence\": [{\"序号\": 1, \"说话人\": \"speaker_1\", \"方言\": null, \"风格\": \"二十多岁的韩国女性，嗓音清亮活泼，标准首尔口音。综艺节目里机智的旁白，语速快，俏皮跳跃，音调起伏戏剧化，带点调侃，喜剧节奏感强。\", \"语速\": null, \"基频\": null, \"音量\": null, \"情感\": null, \"BGM\": {\"Genre\": null, \"Mood\": null, \"Instrument\": null, \"Theme\": null, \"ENV\": null, \"SNR\": null}, \"IP\": null}]}",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 7.41,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "ming3_freeM30_comic_1": {
+  "engine": "ming3",
+  "voice": "freeM30",
+  "style": "comic",
+  "line": 1,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "A Korean man in his early 30s with a bright, slightly husky voice, speaking natural Seoul Korean. A fast-talking comedic narrator for an adult animated cartoon: energetic and sarcastic, big exaggerated pitch swings, punchy emphasis, comic timing.",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 14.38,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "ming3_freeM30_comic_2": {
+  "engine": "ming3",
+  "voice": "freeM30",
+  "style": "comic",
+  "line": 2,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "A Korean man in his early 30s with a bright, slightly husky voice, speaking natural Seoul Korean. A fast-talking comedic narrator for an adult animated cartoon: energetic and sarcastic, big exaggerated pitch swings, punchy emphasis, comic timing.",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 5.24,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "ming3_freeM30_comic_3": {
+  "engine": "ming3",
+  "voice": "freeM30",
+  "style": "comic",
+  "line": 3,
+  "sr": 44100,
+  "params": {
+   "model": "mlx-community/Ming-3.0-tts-0.5B-bf16",
+   "lang_code": "ko",
+   "seed": "1000+line",
+   "instruct": "A Korean man in his early 30s with a bright, slightly husky voice, speaking natural Seoul Korean. A fast-talking comedic narrator for an adult animated cartoon: energetic and sarcastic, big exaggerated pitch swings, punchy emphasis, comic timing.",
+   "use_zero_spk_emb": true
+  },
+  "gen_seconds": 4.43,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ }
+}

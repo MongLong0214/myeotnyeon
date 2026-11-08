@@ -1,0 +1,72 @@
+{
+  "id": "exp001-hook-arm",
+  "assignedAt": "2026-10-26T15:45+09:00",
+  "assignedBy": "cto-myeotnyeon",
+  "status": "assigned-before-production",
+  "hypotheses": {
+    "H1": "frame-0 결과형 (tension headline, exact sentence hidden) vs 질문형 (case + '몇 년 나왔을까?')",
+    "H2_H3_all": "choices strip ≤1.5s, 2-3 reason cards, reveal ≥75% runtime, 25-35s, visual change ≤1.5s — applied to all four, not tested within this batch",
+    "H4": "REMOVED 2026-10-26 16:07 KST by CEO (msg_49a0c7f6): pinned comment needs advanced verification; do not split arms further"
+  },
+  "evidence": "research/refs/2026-10-26.md (20 Shorts; 19 frames+subtitles, 1 frames-only)",
+  "arms": {
+    "q011": {
+      "case": "V3-05 airplane emergency door",
+      "H1": "결과형",
+      "H4": false,
+      "answer": "집행유예",
+      "death": false
+    },
+    "q012": {
+      "case": "V3-01 wildfire 27 dead",
+      "H1": "질문형",
+      "H4": false,
+      "answer": "집행유예",
+      "death": true,
+      "music": false,
+      "qaExtra": "no sensational wording, no victim suffering or body description, no graphic visuals"
+    },
+    "q013": {
+      "case": "V3-02 22 headbutts",
+      "H1": "결과형",
+      "H4": false,
+      "answer": "벌금",
+      "death": false
+    },
+    "q014": {
+      "case": "V3-03 야차룰 fight death (2심 징역 6년, 구형 5년보다 무거움)",
+      "H1": "질문형",
+      "H4": false,
+      "answer": "실형",
+      "death": true,
+      "music": false,
+      "replaced": "2026-10-26 17:05 KST: V3-04 (010 phishing) shelved, owner judged the topic too weak; arm unchanged (질문형)"
+    }
+  },
+  "confoundersToRecord": [
+    "topic provocation_score",
+    "duration_s",
+    "publish time (all 19:00 KST planned)",
+    "answer type",
+    "death case / no music (q012)",
+    "day of week",
+    "H2/H3 structure change vs q001-q010 baseline"
+  ],
+  "metrics": [
+    "Shorts feed shown count",
+    "viewed vs swiped %",
+    "average view duration and % viewed",
+    "subscribers gained",
+    "views"
+  ],
+  "observationWindows": [
+    "48h",
+    "72h",
+    "7d"
+  ],
+  "decisionRule": "Direction only. >=4 episodes per arm is a minimum observation amount, not an auto-promotion rule; if samples or feed impressions are thin or topic strength differs a lot, the result stays undetermined. Reference frequencies are hypothesis evidence, not proof of cause; keep small-channel and low-performer counterexamples.",
+  "result": null,
+  "comparisonScope": "H1 within the new common format (H2/H3 applied to all four). Improvements vs q001-q010 must not be attributed to H2 or H3 individually.",
+  "plannedBatch": "EP11-EP18 (H1 alternates so each arm reaches >=4 episodes; EP15-EP18 continue the same alternation)",
+  "next": "exp002 (ending: short teaser of the actually planned next case vs current ending) starts with the batch AFTER EP18, per CEO msg_22e7d48c. exp001 is recorded as undetermined if inconclusive."
+}

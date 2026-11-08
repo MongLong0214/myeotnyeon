@@ -1,0 +1,21 @@
+{
+  "external_audio_files": [],
+  "procedural": [
+    {
+      "file": "audio/stem_ambience.wav",
+      "source": "audio_build.py: seeded Gaussian noise, bandpass 90–2400 Hz",
+      "licence": "Original procedural sound generated for this production; no third-party audio recording"
+    },
+    {
+      "file": "audio/stem_transitions.wav",
+      "source": "audio_build.py: original 50 Hz sine, 0.8 s sin² envelope",
+      "licence": "Original procedural sound generated for this production; no third-party audio recording"
+    }
+  ],
+  "narration": {
+    "source": "Existing local Supertone/supertonic-3 pipeline; M1",
+    "licence": "OpenRAIL-M (existing model licence)",
+    "commercial_use": true
+  },
+  "music": false
+}

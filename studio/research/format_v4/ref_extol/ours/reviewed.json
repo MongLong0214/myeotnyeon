@@ -1,0 +1,2324 @@
+[
+  {
+    "candidate": 1,
+    "frame": 8,
+    "time_s": 1.6,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 17.636,
+    "hist": 0.69,
+    "original_frame": 8,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 2,
+    "frame": 31,
+    "time_s": 6.2,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 12.916,
+    "hist": 0.345,
+    "original_frame": 31,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 3,
+    "frame": 49,
+    "time_s": 9.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 6.367,
+    "hist": 0.063,
+    "original_frame": 49,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 4,
+    "frame": 64,
+    "time_s": 12.6,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 0.927,
+    "hist": 0.013,
+    "original_frame": 63,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 5,
+    "frame": 80,
+    "time_s": 15.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.777,
+    "hist": 0.019,
+    "original_frame": 79,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 6,
+    "frame": 96,
+    "time_s": 19.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.839,
+    "hist": 0.017,
+    "original_frame": 95,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 7,
+    "frame": 109,
+    "time_s": 21.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.159,
+    "hist": 0.059,
+    "original_frame": 109,
+    "keep": true,
+    "transition_type": "push-in-cut",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 8,
+    "frame": 122,
+    "time_s": 24.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.145,
+    "hist": 0.021,
+    "original_frame": 121,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 121,
+    "frame": 139,
+    "time_s": 27.8,
+    "sources": [
+      "native_frame_sweep"
+    ],
+    "diff": 3.2211011904761904,
+    "hist": null,
+    "original_frame": 139,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 9,
+    "frame": 140,
+    "time_s": 28.0,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.736,
+    "hist": 0.057,
+    "original_frame": 140,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 10,
+    "frame": 157,
+    "time_s": 31.2,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 0.218,
+    "hist": 0.009,
+    "original_frame": 156,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 11,
+    "frame": 160,
+    "time_s": 32.0,
+    "sources": [
+      "ffmpeg"
+    ],
+    "diff": 21.751,
+    "hist": 0.701,
+    "original_frame": 160,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 12,
+    "frame": 171,
+    "time_s": 34.2,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 13.04,
+    "hist": 0.316,
+    "original_frame": 171,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 122,
+    "frame": 185,
+    "time_s": 37.0,
+    "sources": [
+      "native_frame_sweep"
+    ],
+    "diff": 4.221041666666666,
+    "hist": null,
+    "original_frame": 185,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 13,
+    "frame": 186,
+    "time_s": 37.2,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.426,
+    "hist": 0.06,
+    "original_frame": 186,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 14,
+    "frame": 199,
+    "time_s": 39.6,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 1.572,
+    "hist": 0.042,
+    "original_frame": 198,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 15,
+    "frame": 216,
+    "time_s": 43.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.785,
+    "hist": 0.069,
+    "original_frame": 216,
+    "keep": true,
+    "transition_type": "push-in-cut",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 16,
+    "frame": 232,
+    "time_s": 46.2,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 1.733,
+    "hist": 0.04,
+    "original_frame": 231,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 17,
+    "frame": 240,
+    "time_s": 48.0,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 18.891,
+    "hist": 0.616,
+    "original_frame": 240,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 18,
+    "frame": 257,
+    "time_s": 51.4,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.226,
+    "hist": 0.09,
+    "original_frame": 257,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 19,
+    "frame": 274,
+    "time_s": 54.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.337,
+    "hist": 0.009,
+    "original_frame": 273,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 20,
+    "frame": 292,
+    "time_s": 58.4,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.57,
+    "hist": 0.094,
+    "original_frame": 292,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 21,
+    "frame": 311,
+    "time_s": 62.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.325,
+    "hist": 0.008,
+    "original_frame": 310,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 22,
+    "frame": 330,
+    "time_s": 66.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.52,
+    "hist": 0.087,
+    "original_frame": 330,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 23,
+    "frame": 349,
+    "time_s": 69.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 8.001,
+    "hist": 0.102,
+    "original_frame": 349,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 24,
+    "frame": 363,
+    "time_s": 72.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.321,
+    "hist": 0.09,
+    "original_frame": 363,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 25,
+    "frame": 377,
+    "time_s": 75.4,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.677,
+    "hist": 0.086,
+    "original_frame": 377,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 26,
+    "frame": 396,
+    "time_s": 79.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.753,
+    "hist": 0.093,
+    "original_frame": 396,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 27,
+    "frame": 416,
+    "time_s": 83.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.344,
+    "hist": 0.008,
+    "original_frame": 415,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 28,
+    "frame": 431,
+    "time_s": 86.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.39,
+    "hist": 0.09,
+    "original_frame": 431,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 29,
+    "frame": 446,
+    "time_s": 89.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.348,
+    "hist": 0.007,
+    "original_frame": 445,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 30,
+    "frame": 463,
+    "time_s": 92.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 6.107,
+    "hist": 0.094,
+    "original_frame": 463,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 31,
+    "frame": 481,
+    "time_s": 96.2,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 15.061,
+    "hist": 0.402,
+    "original_frame": 481,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 32,
+    "frame": 496,
+    "time_s": 99.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.511,
+    "hist": 0.106,
+    "original_frame": 496,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 33,
+    "frame": 511,
+    "time_s": 102.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.834,
+    "hist": 0.025,
+    "original_frame": 510,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 34,
+    "frame": 524,
+    "time_s": 104.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 6.898,
+    "hist": 0.105,
+    "original_frame": 524,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 35,
+    "frame": 537,
+    "time_s": 107.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.16,
+    "hist": 0.022,
+    "original_frame": 536,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 36,
+    "frame": 557,
+    "time_s": 111.4,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 10.004,
+    "hist": 0.103,
+    "original_frame": 557,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 115,
+    "frame": 568,
+    "time_s": 113.6,
+    "sources": [
+      "authored_event"
+    ],
+    "diff": 4.522482638888889,
+    "hist": 0.053242273179549715,
+    "original_frame": 568,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 37,
+    "frame": 580,
+    "time_s": 115.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.448,
+    "hist": 0.033,
+    "original_frame": 579,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 38,
+    "frame": 593,
+    "time_s": 118.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.308,
+    "hist": 0.053,
+    "original_frame": 593,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 39,
+    "frame": 606,
+    "time_s": 121.0,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 1.482,
+    "hist": 0.043,
+    "original_frame": 605,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 40,
+    "frame": 614,
+    "time_s": 122.8,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 18.942,
+    "hist": 0.716,
+    "original_frame": 614,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 41,
+    "frame": 629,
+    "time_s": 125.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.253,
+    "hist": 0.103,
+    "original_frame": 629,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 42,
+    "frame": 644,
+    "time_s": 128.6,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 0.912,
+    "hist": 0.024,
+    "original_frame": 643,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 43,
+    "frame": 660,
+    "time_s": 132.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.7,
+    "hist": 0.091,
+    "original_frame": 660,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 44,
+    "frame": 677,
+    "time_s": 135.4,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.073,
+    "hist": 0.088,
+    "original_frame": 677,
+    "keep": true,
+    "transition_type": "push-in-cut",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 45,
+    "frame": 698,
+    "time_s": 139.6,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 17.185,
+    "hist": 0.397,
+    "original_frame": 698,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 46,
+    "frame": 710,
+    "time_s": 142.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.093,
+    "hist": 0.061,
+    "original_frame": 710,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 47,
+    "frame": 722,
+    "time_s": 144.2,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 1.633,
+    "hist": 0.044,
+    "original_frame": 721,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 48,
+    "frame": 738,
+    "time_s": 147.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.2,
+    "hist": 0.086,
+    "original_frame": 738,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 49,
+    "frame": 754,
+    "time_s": 150.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 8.263,
+    "hist": 0.094,
+    "original_frame": 754,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 50,
+    "frame": 768,
+    "time_s": 153.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.478,
+    "hist": 0.087,
+    "original_frame": 768,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 51,
+    "frame": 781,
+    "time_s": 156.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 8.061,
+    "hist": 0.095,
+    "original_frame": 781,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 52,
+    "frame": 796,
+    "time_s": 159.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 4.939,
+    "hist": 0.084,
+    "original_frame": 796,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 53,
+    "frame": 810,
+    "time_s": 162.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 8.319,
+    "hist": 0.093,
+    "original_frame": 810,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 54,
+    "frame": 823,
+    "time_s": 164.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.77,
+    "hist": 0.09,
+    "original_frame": 823,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 55,
+    "frame": 835,
+    "time_s": 167.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 8.422,
+    "hist": 0.093,
+    "original_frame": 835,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 56,
+    "frame": 854,
+    "time_s": 170.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.308,
+    "hist": 0.088,
+    "original_frame": 854,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 57,
+    "frame": 872,
+    "time_s": 174.4,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 8.633,
+    "hist": 0.092,
+    "original_frame": 872,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 58,
+    "frame": 893,
+    "time_s": 178.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.735,
+    "hist": 0.089,
+    "original_frame": 893,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 59,
+    "frame": 913,
+    "time_s": 182.6,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 13.855,
+    "hist": 0.291,
+    "original_frame": 913,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 60,
+    "frame": 940,
+    "time_s": 188.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.759,
+    "hist": 0.076,
+    "original_frame": 940,
+    "keep": true,
+    "transition_type": "push-in-cut",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 61,
+    "frame": 962,
+    "time_s": 192.4,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 18.222,
+    "hist": 0.197,
+    "original_frame": 962,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 123,
+    "frame": 974,
+    "time_s": 194.8,
+    "sources": [
+      "native_frame_sweep"
+    ],
+    "diff": 5.379255952380952,
+    "hist": null,
+    "original_frame": 974,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 62,
+    "frame": 975,
+    "time_s": 195.0,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.641,
+    "hist": 0.048,
+    "original_frame": 975,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 63,
+    "frame": 986,
+    "time_s": 197.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.189,
+    "hist": 0.029,
+    "original_frame": 985,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 64,
+    "frame": 1004,
+    "time_s": 200.6,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.759,
+    "hist": 0.02,
+    "original_frame": 1003,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 65,
+    "frame": 1018,
+    "time_s": 203.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 6.917,
+    "hist": 0.098,
+    "original_frame": 1018,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 66,
+    "frame": 1032,
+    "time_s": 206.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.953,
+    "hist": 0.021,
+    "original_frame": 1031,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 67,
+    "frame": 1051,
+    "time_s": 210.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 9.171,
+    "hist": 0.106,
+    "original_frame": 1051,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 124,
+    "frame": 1065,
+    "time_s": 213.0,
+    "sources": [
+      "native_frame_sweep"
+    ],
+    "diff": 4.194434523809524,
+    "hist": null,
+    "original_frame": 1065,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 68,
+    "frame": 1066,
+    "time_s": 213.2,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.594,
+    "hist": 0.033,
+    "original_frame": 1066,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 69,
+    "frame": 1080,
+    "time_s": 215.8,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 0.833,
+    "hist": 0.025,
+    "original_frame": 1079,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 70,
+    "frame": 1087,
+    "time_s": 217.4,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 19.523,
+    "hist": 0.714,
+    "original_frame": 1087,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 71,
+    "frame": 1105,
+    "time_s": 221.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.496,
+    "hist": 0.102,
+    "original_frame": 1105,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 72,
+    "frame": 1122,
+    "time_s": 224.4,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 16.189,
+    "hist": 0.252,
+    "original_frame": 1122,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 73,
+    "frame": 1135,
+    "time_s": 226.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.092,
+    "hist": 0.049,
+    "original_frame": 1134,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 74,
+    "frame": 1149,
+    "time_s": 229.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.168,
+    "hist": 0.035,
+    "original_frame": 1148,
+    "keep": true,
+    "transition_type": "push-in-cut",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 75,
+    "frame": 1163,
+    "time_s": 232.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.857,
+    "hist": 0.091,
+    "original_frame": 1163,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 76,
+    "frame": 1176,
+    "time_s": 235.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.081,
+    "hist": 0.025,
+    "original_frame": 1175,
+    "keep": true,
+    "transition_type": "push-in-cut",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 77,
+    "frame": 1194,
+    "time_s": 238.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 8.001,
+    "hist": 0.09,
+    "original_frame": 1194,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 78,
+    "frame": 1211,
+    "time_s": 242.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.722,
+    "hist": 0.021,
+    "original_frame": 1210,
+    "keep": true,
+    "transition_type": "push-in-cut",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 79,
+    "frame": 1222,
+    "time_s": 244.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.144,
+    "hist": 0.039,
+    "original_frame": 1221,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 80,
+    "frame": 1234,
+    "time_s": 246.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.189,
+    "hist": 0.032,
+    "original_frame": 1233,
+    "keep": true,
+    "transition_type": "push-in-cut",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 81,
+    "frame": 1244,
+    "time_s": 248.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.336,
+    "hist": 0.029,
+    "original_frame": 1243,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 82,
+    "frame": 1254,
+    "time_s": 250.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.471,
+    "hist": 0.028,
+    "original_frame": 1253,
+    "keep": true,
+    "transition_type": "push-in-cut",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 83,
+    "frame": 1271,
+    "time_s": 254.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 9.32,
+    "hist": 0.088,
+    "original_frame": 1271,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 84,
+    "frame": 1288,
+    "time_s": 257.4,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.711,
+    "hist": 0.035,
+    "original_frame": 1287,
+    "keep": true,
+    "transition_type": "push-in-cut",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 85,
+    "frame": 1317,
+    "time_s": 263.4,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 11.043,
+    "hist": 0.099,
+    "original_frame": 1317,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 86,
+    "frame": 1337,
+    "time_s": 267.4,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.565,
+    "hist": 0.069,
+    "original_frame": 1337,
+    "keep": true,
+    "transition_type": "push-in-cut",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 87,
+    "frame": 1357,
+    "time_s": 271.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.545,
+    "hist": 0.039,
+    "original_frame": 1356,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 88,
+    "frame": 1374,
+    "time_s": 274.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 6.585,
+    "hist": 0.064,
+    "original_frame": 1374,
+    "keep": true,
+    "transition_type": "push-in-cut",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 89,
+    "frame": 1391,
+    "time_s": 278.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.754,
+    "hist": 0.035,
+    "original_frame": 1390,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 90,
+    "frame": 1407,
+    "time_s": 281.4,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 5.711,
+    "hist": 0.066,
+    "original_frame": 1407,
+    "keep": true,
+    "transition_type": "push-in-cut",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 91,
+    "frame": 1423,
+    "time_s": 284.6,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 17.699,
+    "hist": 0.197,
+    "original_frame": 1423,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 125,
+    "frame": 1438,
+    "time_s": 287.6,
+    "sources": [
+      "native_frame_sweep"
+    ],
+    "diff": 3.3089285714285714,
+    "hist": null,
+    "original_frame": 1438,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 92,
+    "frame": 1439,
+    "time_s": 287.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.319,
+    "hist": 0.032,
+    "original_frame": 1439,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 93,
+    "frame": 1453,
+    "time_s": 290.4,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 0.818,
+    "hist": 0.022,
+    "original_frame": 1452,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 126,
+    "frame": 1467,
+    "time_s": 293.4,
+    "sources": [
+      "native_frame_sweep"
+    ],
+    "diff": 4.290982142857143,
+    "hist": null,
+    "original_frame": 1467,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 94,
+    "frame": 1468,
+    "time_s": 293.6,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.757,
+    "hist": 0.043,
+    "original_frame": 1468,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 95,
+    "frame": 1482,
+    "time_s": 296.4,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 13.549,
+    "hist": 0.32,
+    "original_frame": 1482,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 127,
+    "frame": 1503,
+    "time_s": 300.6,
+    "sources": [
+      "native_frame_sweep"
+    ],
+    "diff": 4.288154761904762,
+    "hist": null,
+    "original_frame": 1503,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 96,
+    "frame": 1504,
+    "time_s": 300.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.175,
+    "hist": 0.043,
+    "original_frame": 1504,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 97,
+    "frame": 1525,
+    "time_s": 304.8,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 0.428,
+    "hist": 0.023,
+    "original_frame": 1524,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 98,
+    "frame": 1532,
+    "time_s": 306.2,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 0.027,
+    "hist": 0.007,
+    "original_frame": 1531,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 99,
+    "frame": 1536,
+    "time_s": 307.2,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 26.951,
+    "hist": 0.661,
+    "original_frame": 1536,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 116,
+    "frame": 1549,
+    "time_s": 309.6,
+    "sources": [
+      "authored_event"
+    ],
+    "diff": 1.2263368055555555,
+    "hist": 0.025287200932673816,
+    "original_frame": 1548,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 100,
+    "frame": 1561,
+    "time_s": 312.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.085,
+    "hist": 0.035,
+    "original_frame": 1560,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 117,
+    "frame": 1573,
+    "time_s": 314.4,
+    "sources": [
+      "authored_event"
+    ],
+    "diff": 1.2934895833333333,
+    "hist": 0.02352338256386805,
+    "original_frame": 1572,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 101,
+    "frame": 1585,
+    "time_s": 316.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.174,
+    "hist": 0.029,
+    "original_frame": 1584,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 118,
+    "frame": 1597,
+    "time_s": 319.2,
+    "sources": [
+      "authored_event"
+    ],
+    "diff": 1.2694270833333334,
+    "hist": 0.028523592780817477,
+    "original_frame": 1596,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 102,
+    "frame": 1609,
+    "time_s": 321.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 1.18,
+    "hist": 0.043,
+    "original_frame": 1608,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 103,
+    "frame": 1624,
+    "time_s": 324.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.941,
+    "hist": 0.017,
+    "original_frame": 1623,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 104,
+    "frame": 1642,
+    "time_s": 328.4,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.732,
+    "hist": 0.122,
+    "original_frame": 1642,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 119,
+    "frame": 1657,
+    "time_s": 331.2,
+    "sources": [
+      "authored_event"
+    ],
+    "diff": 0.9080902777777777,
+    "hist": 0.025270225580304787,
+    "original_frame": 1656,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 105,
+    "frame": 1671,
+    "time_s": 334.2,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 9.129,
+    "hist": 0.111,
+    "original_frame": 1671,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 106,
+    "frame": 1688,
+    "time_s": 337.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.69,
+    "hist": 0.069,
+    "original_frame": 1688,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 107,
+    "frame": 1709,
+    "time_s": 341.6,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.455,
+    "hist": 0.025,
+    "original_frame": 1708,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 108,
+    "frame": 1731,
+    "time_s": 346.0,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.414,
+    "hist": 0.016,
+    "original_frame": 1730,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 109,
+    "frame": 1747,
+    "time_s": 349.4,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.664,
+    "hist": 0.111,
+    "original_frame": 1747,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 110,
+    "frame": 1763,
+    "time_s": 352.4,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 0.892,
+    "hist": 0.024,
+    "original_frame": 1762,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 111,
+    "frame": 1779,
+    "time_s": 355.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 7.217,
+    "hist": 0.086,
+    "original_frame": 1779,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 112,
+    "frame": 1796,
+    "time_s": 359.0,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 0.838,
+    "hist": 0.036,
+    "original_frame": 1795,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 128,
+    "frame": 1811,
+    "time_s": 362.2,
+    "sources": [
+      "native_frame_sweep"
+    ],
+    "diff": 4.989375,
+    "hist": null,
+    "original_frame": 1811,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 113,
+    "frame": 1812,
+    "time_s": 362.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.421,
+    "hist": 0.036,
+    "original_frame": 1812,
+    "keep": false,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "rejected",
+    "review_note": "same shot motion / overlay / duplicate nearby candidate"
+  },
+  {
+    "candidate": 114,
+    "frame": 1827,
+    "time_s": 365.2,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 0.172,
+    "hist": 0.005,
+    "original_frame": 1826,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.98,
+    "visually_reviewed": true,
+    "boundary_kind": "composition-change",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  },
+  {
+    "candidate": 120,
+    "frame": 1852,
+    "time_s": 370.4,
+    "sources": [
+      "authored_event"
+    ],
+    "diff": 3.082239583333333,
+    "hist": 0.05009467050989238,
+    "original_frame": 1852,
+    "keep": true,
+    "transition_type": "hard",
+    "confidence": 0.85,
+    "visually_reviewed": true,
+    "boundary_kind": "same-view-reset",
+    "review_note": "accepted scene/framing boundary or discontinuous background/viewport reset"
+  }
+]

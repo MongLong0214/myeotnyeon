@@ -1,0 +1,19 @@
+{
+  "syllables_normalized_estimate": 1663,
+  "syllable_method": "Hangul blocks; decimals, Arabic numerals, cm/km/kg/m and IMF expanded; numeral pronunciation/ASR uncertainty remains",
+  "syllables_per_timeline_s": 6.113970588235294,
+  "syllables_per_phrase_s": 6.43775162589037,
+  "asr_pause_count_gt_0_2": 37,
+  "asr_pause_median_s": 0.23999999999999488,
+  "asr_pause_total_s": 9.44000000000003,
+  "vad_pause_count_gt_0_2": 6,
+  "vad_pause_median_s": 0.26,
+  "mixed_speech_rms_dbfs": -16.78836164954992,
+  "mixed_nonword_rms_dbfs": -32.37467214923012,
+  "side_rms_dbfs": -72.89889606903488,
+  "side_speech_rms_dbfs": -72.62658634562979,
+  "side_nonword_rms_dbfs": -87.40628980910891,
+  "bed_to_speech_proxy_db": -15.586310499680202,
+  "bed_to_speech_proxy_warning": "nonword mixture vs word mixture; includes ambience/SFX, not isolated music vs narration loudness",
+  "audio_onset_count": 846
+}

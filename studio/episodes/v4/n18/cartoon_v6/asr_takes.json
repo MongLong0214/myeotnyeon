@@ -1,0 +1,6354 @@
+{
+  "model": "local cached whisper-large-v3-turbo",
+  "initial_prompt": null,
+  "items": [
+    {
+      "id": "N001_01",
+      "expected": "군기훈련 도중, 사람이 쓰러졌습니다.",
+      "asr": "군기훈련 도중 사람이 쓰러졌습니다.",
+      "errors": 0,
+      "characters": 15,
+      "match": 1.0,
+      "mtime": 1793512282.1543543,
+      "words": [
+        {
+          "word": " 군기훈련",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.93310546875
+        },
+        {
+          "word": " 도중",
+          "start": 0.52,
+          "end": 0.88,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 사람이",
+          "start": 0.88,
+          "end": 1.34,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " 쓰러졌습니다.",
+          "start": 1.34,
+          "end": 1.96,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N002_01",
+      "expected": "법원은 학대치사를 인정했죠.",
+      "asr": "법원은 학대치사를 인정했죠.",
+      "errors": 0,
+      "characters": 12,
+      "match": 1.0,
+      "mtime": 1793512283.488735,
+      "words": [
+        {
+          "word": " 법원은",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 학대치사를",
+          "start": 0.36,
+          "end": 0.92,
+          "probability": 0.978515625
+        },
+        {
+          "word": " 인정했죠.",
+          "start": 0.92,
+          "end": 1.58,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N002_02",
+      "expected": "그런데 교육 목적은 왜 형을 정할 때 참작됐을까요?",
+      "asr": "그런데 교육 목적은 왜 형을 정할 때 참작됐을까요?",
+      "errors": 0,
+      "characters": 20,
+      "match": 1.0,
+      "mtime": 1793512285.4894547,
+      "words": [
+        {
+          "word": " 그런데",
+          "start": 0.0,
+          "end": 0.2,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 교육",
+          "start": 0.2,
+          "end": 0.52,
+          "probability": 1.0
+        },
+        {
+          "word": " 목적은",
+          "start": 0.52,
+          "end": 1.0,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 왜",
+          "start": 1.0,
+          "end": 1.18,
+          "probability": 1.0
+        },
+        {
+          "word": " 형을",
+          "start": 1.18,
+          "end": 1.48,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 정할",
+          "start": 1.48,
+          "end": 1.72,
+          "probability": 1.0
+        },
+        {
+          "word": " 때",
+          "start": 1.72,
+          "end": 1.84,
+          "probability": 1.0
+        },
+        {
+          "word": " 참작됐을까요?",
+          "start": 1.84,
+          "end": 2.7,
+          "probability": 0.99658203125
+        }
+      ]
+    },
+    {
+      "id": "N003_01",
+      "expected": "2024년 5월 23일.",
+      "asr": "2024년 5월 23일",
+      "errors": 0,
+      "characters": 12,
+      "match": 1.0,
+      "mtime": 1793512287.049725,
+      "words": [
+        {
+          "word": " 2024년",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 5월",
+          "start": 0.76,
+          "end": 1.06,
+          "probability": 1.0
+        },
+        {
+          "word": " 23일",
+          "start": 1.06,
+          "end": 1.66,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N003_02",
+      "expected": "강원 인제, 육군 12사단 신병교육대.",
+      "asr": "강원 인재 육군 12사단 신병교육대",
+      "errors": 1,
+      "characters": 15,
+      "match": 0.9333333333333333,
+      "mtime": 1793512289.5906296,
+      "words": [
+        {
+          "word": " 강원",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.994140625
+        },
+        {
+          "word": " 인재",
+          "start": 0.28,
+          "end": 0.48,
+          "probability": 0.62548828125
+        },
+        {
+          "word": " 육군",
+          "start": 0.48,
+          "end": 0.78,
+          "probability": 0.98046875
+        },
+        {
+          "word": " 12사단",
+          "start": 0.78,
+          "end": 1.3,
+          "probability": 0.98291015625
+        },
+        {
+          "word": " 신병교육대",
+          "start": 1.3,
+          "end": 2.0,
+          "probability": 0.98095703125
+        }
+      ]
+    },
+    {
+      "id": "N004_01",
+      "expected": "경찰 수사결과, 전날 취침점호 뒤 떠들었다는 이유로 훈련병들을 적발했습니다.",
+      "asr": "경찰 수사 결과 전날 취침 저모 뒤 떠들었다는 이유로 훈련병들을 적발했습니다.",
+      "errors": 2,
+      "characters": 32,
+      "match": 0.9375,
+      "mtime": 1793512294.0416842,
+      "words": [
+        {
+          "word": " 경찰",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 수사",
+          "start": 0.24,
+          "end": 0.56,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 결과",
+          "start": 0.56,
+          "end": 0.8,
+          "probability": 0.97802734375
+        },
+        {
+          "word": " 전날",
+          "start": 0.8,
+          "end": 1.34,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 취침",
+          "start": 1.34,
+          "end": 1.72,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 저모",
+          "start": 1.72,
+          "end": 1.94,
+          "probability": 0.42919921875
+        },
+        {
+          "word": " 뒤",
+          "start": 1.94,
+          "end": 2.08,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " 떠들었다는",
+          "start": 2.08,
+          "end": 2.64,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 이유로",
+          "start": 2.64,
+          "end": 3.06,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 훈련병들을",
+          "start": 3.06,
+          "end": 3.8,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 적발했습니다.",
+          "start": 3.8,
+          "end": 4.3,
+          "probability": 0.99658203125
+        }
+      ]
+    },
+    {
+      "id": "N005_01",
+      "expected": "부중대장이 다음 날 구두 보고했고, 중대장이 승인했습니다.",
+      "asr": "부중대장이 다음날 구두 보고했고 중대장이 승인했습니다.",
+      "errors": 0,
+      "characters": 24,
+      "match": 1.0,
+      "mtime": 1793512297.8053076,
+      "words": [
+        {
+          "word": " 부중대장이",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " 다음날",
+          "start": 0.46,
+          "end": 0.86,
+          "probability": 0.8779296875
+        },
+        {
+          "word": " 구두",
+          "start": 0.86,
+          "end": 1.12,
+          "probability": 0.9609375
+        },
+        {
+          "word": " 보고했고",
+          "start": 1.12,
+          "end": 1.72,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " 중대장이",
+          "start": 1.72,
+          "end": 2.44,
+          "probability": 0.98046875
+        },
+        {
+          "word": " 승인했습니다.",
+          "start": 2.44,
+          "end": 3.06,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N006_01",
+      "expected": "그런데 확인서도, 소명 기회도 빠졌습니다.",
+      "asr": "그런데 확인서도 소명 기회도 빠졌습니다.",
+      "errors": 0,
+      "characters": 17,
+      "match": 1.0,
+      "mtime": 1793512300.9196458,
+      "words": [
+        {
+          "word": " 그런데",
+          "start": 0.0,
+          "end": 0.2,
+          "probability": 1.0
+        },
+        {
+          "word": " 확인서도",
+          "start": 0.2,
+          "end": 0.7,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " 소명",
+          "start": 0.7,
+          "end": 1.3,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " 기회도",
+          "start": 1.3,
+          "end": 1.62,
+          "probability": 0.876953125
+        },
+        {
+          "word": " 빠졌습니다.",
+          "start": 1.62,
+          "end": 2.22,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N006_02",
+      "expected": "시작부터 규정을 어겼습니다.",
+      "asr": "시작부터 규정을 어겼습니다.",
+      "errors": 0,
+      "characters": 12,
+      "match": 1.0,
+      "mtime": 1793512303.4270642,
+      "words": [
+        {
+          "word": " 시작부터",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 규정을",
+          "start": 0.48,
+          "end": 0.94,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 어겼습니다.",
+          "start": 0.94,
+          "end": 1.46,
+          "probability": 0.99755859375
+        }
+      ]
+    },
+    {
+      "id": "N007_01",
+      "expected": "신체 상태와 훈련장 온도지수도 제대로 확인하지 않았다고 합니다.",
+      "asr": "신체 상태와 훈련장 온도 지수도 제대로 확인하지 않았다고 합니다.",
+      "errors": 0,
+      "characters": 27,
+      "match": 1.0,
+      "mtime": 1793512307.8205216,
+      "words": [
+        {
+          "word": " 신체",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.9560546875
+        },
+        {
+          "word": " 상태와",
+          "start": 0.3,
+          "end": 0.78,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 훈련장",
+          "start": 0.78,
+          "end": 1.32,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 온도",
+          "start": 1.32,
+          "end": 1.7,
+          "probability": 1.0
+        },
+        {
+          "word": " 지수도",
+          "start": 1.7,
+          "end": 2.12,
+          "probability": 0.8779296875
+        },
+        {
+          "word": " 제대로",
+          "start": 2.12,
+          "end": 2.48,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 확인하지",
+          "start": 2.48,
+          "end": 3.0,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 않았다고",
+          "start": 3.0,
+          "end": 3.38,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 합니다.",
+          "start": 3.38,
+          "end": 3.6,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N008_01",
+      "expected": "사람을 움직이기 전에 확인할 기본.",
+      "asr": "사람을 움직이기 전에 확인할 기본",
+      "errors": 0,
+      "characters": 14,
+      "match": 1.0,
+      "mtime": 1793512310.367498,
+      "words": [
+        {
+          "word": " 사람을",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 움직이기",
+          "start": 0.4,
+          "end": 0.9,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 전에",
+          "start": 0.9,
+          "end": 1.06,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 확인할",
+          "start": 1.06,
+          "end": 1.58,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " 기본",
+          "start": 1.58,
+          "end": 1.82,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N008_02",
+      "expected": "그건 건너뛰고 명령부터 움직였습니다.",
+      "asr": "그건 건너뛰고 명령부터 움직였습니다.",
+      "errors": 0,
+      "characters": 16,
+      "match": 1.0,
+      "mtime": 1793512312.8891108,
+      "words": [
+        {
+          "word": " 그건",
+          "start": 0.0,
+          "end": 0.2,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 건너뛰고",
+          "start": 0.2,
+          "end": 0.82,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 명령부터",
+          "start": 0.82,
+          "end": 1.42,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 움직였습니다.",
+          "start": 1.42,
+          "end": 1.92,
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": "N009_01",
+      "expected": "대상은 6명.",
+      "asr": "대상은 6명.",
+      "errors": 0,
+      "characters": 5,
+      "match": 1.0,
+      "mtime": 1793512314.3913777,
+      "words": [
+        {
+          "word": " 대상은",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 6명.",
+          "start": 0.36,
+          "end": 0.74,
+          "probability": 0.9951171875
+        }
+      ]
+    },
+    {
+      "id": "N009_02",
+      "expected": "보급품을 다 못 받았는데 군장의 빈 곳은 책으로 채웠습니다.",
+      "asr": "보급품을 다 못 받았는데 군장의 빈 곳은 책으로 채웠습니다.",
+      "errors": 0,
+      "characters": 24,
+      "match": 1.0,
+      "mtime": 1793512318.3051817,
+      "words": [
+        {
+          "word": " 보급품을",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.9921875
+        },
+        {
+          "word": " 다",
+          "start": 0.42,
+          "end": 0.56,
+          "probability": 1.0
+        },
+        {
+          "word": " 못",
+          "start": 0.56,
+          "end": 0.74,
+          "probability": 1.0
+        },
+        {
+          "word": " 받았는데",
+          "start": 0.74,
+          "end": 1.14,
+          "probability": 0.9677734375
+        },
+        {
+          "word": " 군장의",
+          "start": 1.14,
+          "end": 1.86,
+          "probability": 0.958984375
+        },
+        {
+          "word": " 빈",
+          "start": 1.86,
+          "end": 2.02,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 곳은",
+          "start": 2.02,
+          "end": 2.32,
+          "probability": 0.97265625
+        },
+        {
+          "word": " 책으로",
+          "start": 2.32,
+          "end": 2.66,
+          "probability": 1.0
+        },
+        {
+          "word": " 채웠습니다.",
+          "start": 2.66,
+          "end": 3.16,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N010_01",
+      "expected": "안전 절차는 비우고, 군장은 채우고.",
+      "asr": "안전 절차는 비우고 군장은 채우고",
+      "errors": 0,
+      "characters": 14,
+      "match": 1.0,
+      "mtime": 1793512320.6577096,
+      "words": [
+        {
+          "word": " 안전",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 절차는",
+          "start": 0.32,
+          "end": 0.66,
+          "probability": 0.96484375
+        },
+        {
+          "word": " 비우고",
+          "start": 0.66,
+          "end": 1.04,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 군장은",
+          "start": 1.04,
+          "end": 1.54,
+          "probability": 0.87890625
+        },
+        {
+          "word": " 채우고",
+          "start": 1.54,
+          "end": 1.94,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N010_02",
+      "expected": "이 순서가 어디까지 갔을까요?",
+      "asr": "이 순서가 어디까지 갔을까요?",
+      "errors": 0,
+      "characters": 12,
+      "match": 1.0,
+      "mtime": 1793512322.6657808,
+      "words": [
+        {
+          "word": " 이",
+          "start": 0.0,
+          "end": 0.12,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 순서가",
+          "start": 0.12,
+          "end": 0.56,
+          "probability": 1.0
+        },
+        {
+          "word": " 어디까지",
+          "start": 0.56,
+          "end": 1.0,
+          "probability": 1.0
+        },
+        {
+          "word": " 갔을까요?",
+          "start": 1.0,
+          "end": 1.52,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N011_01",
+      "expected": "시작은 16시 26분쯤.",
+      "asr": "시작은 16시 26분쯤.",
+      "errors": 0,
+      "characters": 11,
+      "match": 1.0,
+      "mtime": 1793512324.6355567,
+      "words": [
+        {
+          "word": " 시작은",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 16시",
+          "start": 0.34,
+          "end": 0.76,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " 26분쯤.",
+          "start": 0.76,
+          "end": 1.52,
+          "probability": 0.990234375
+        }
+      ]
+    },
+    {
+      "id": "N011_02",
+      "expected": "완전군장에 총기를 휴대한 훈련병들.",
+      "asr": "완전군장의 총기를 휴대한 훈련병들.",
+      "errors": 1,
+      "characters": 15,
+      "match": 0.9333333333333333,
+      "mtime": 1793512326.6324093,
+      "words": [
+        {
+          "word": " 완전군장의",
+          "start": 0.0,
+          "end": 0.68,
+          "probability": 0.853515625
+        },
+        {
+          "word": " 총기를",
+          "start": 0.68,
+          "end": 1.02,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 휴대한",
+          "start": 1.02,
+          "end": 1.4,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 훈련병들.",
+          "start": 1.4,
+          "end": 2.02,
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": "N012_01",
+      "expected": "연병장 두 바퀴를 걸었습니다.",
+      "asr": "연병장 두 바퀴를 걸었습니다.",
+      "errors": 0,
+      "characters": 12,
+      "match": 1.0,
+      "mtime": 1793512328.2421405,
+      "words": [
+        {
+          "word": " 연병장",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " 두",
+          "start": 0.46,
+          "end": 0.64,
+          "probability": 0.810546875
+        },
+        {
+          "word": " 바퀴를",
+          "start": 0.64,
+          "end": 1.02,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 걸었습니다.",
+          "start": 1.02,
+          "end": 1.4,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": "N012_02",
+      "expected": "그다음 중대장의 지시는 선착순 한 바퀴.",
+      "asr": "그 다음 중대장의 지시는 선착순 한바퀴.",
+      "errors": 0,
+      "characters": 16,
+      "match": 1.0,
+      "mtime": 1793512330.2932546,
+      "words": [
+        {
+          "word": " 그",
+          "start": 0.0,
+          "end": 0.1,
+          "probability": 0.89794921875
+        },
+        {
+          "word": " 다음",
+          "start": 0.1,
+          "end": 0.24,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 중대장의",
+          "start": 0.24,
+          "end": 0.82,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 지시는",
+          "start": 0.82,
+          "end": 1.12,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 선착순",
+          "start": 1.12,
+          "end": 1.74,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 한바퀴.",
+          "start": 1.74,
+          "end": 2.22,
+          "probability": 0.896484375
+        }
+      ]
+    },
+    {
+      "id": "N013_01",
+      "expected": "팔굽혀펴기.",
+      "asr": "팔굽혀펴",
+      "errors": 1,
+      "characters": 5,
+      "match": 0.8,
+      "mtime": 1793512331.3403451,
+      "words": [
+        {
+          "word": " 팔굽혀펴",
+          "start": 0.0,
+          "end": 0.66,
+          "probability": 0.958984375
+        }
+      ]
+    },
+    {
+      "id": "N013_02",
+      "expected": "그리고 뜀걸음 세 바퀴.",
+      "asr": "그리고 뜀걸음 3바퀴.",
+      "errors": 0,
+      "characters": 9,
+      "match": 1.0,
+      "mtime": 1793512332.4832985,
+      "words": [
+        {
+          "word": " 그리고",
+          "start": 0.0,
+          "end": 0.14,
+          "probability": 0.994140625
+        },
+        {
+          "word": " 뜀걸음",
+          "start": 0.14,
+          "end": 0.72,
+          "probability": 0.82373046875
+        },
+        {
+          "word": " 3바퀴.",
+          "start": 0.72,
+          "end": 1.24,
+          "probability": 0.931640625
+        }
+      ]
+    },
+    {
+      "id": "N013_03",
+      "expected": "완전군장 상태였습니다.",
+      "asr": "완전 군장 상태였습니다.",
+      "errors": 0,
+      "characters": 10,
+      "match": 1.0,
+      "mtime": 1793512333.635442,
+      "words": [
+        {
+          "word": " 완전",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 군장",
+          "start": 0.3,
+          "end": 0.6,
+          "probability": 0.810546875
+        },
+        {
+          "word": " 상태였습니다.",
+          "start": 0.6,
+          "end": 1.06,
+          "probability": 0.95068359375
+        }
+      ]
+    },
+    {
+      "id": "N014_01",
+      "expected": "군기라는 이름표가 규정 위반을 허용하는 면허증은 아니니까요.",
+      "asr": "군기라는 이름표가 규정 위반을 허용하는 면허증은 아니니까요.",
+      "errors": 0,
+      "characters": 26,
+      "match": 1.0,
+      "mtime": 1793512336.1934137,
+      "words": [
+        {
+          "word": " 군기라는",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 이름표가",
+          "start": 0.5,
+          "end": 1.06,
+          "probability": 1.0
+        },
+        {
+          "word": " 규정",
+          "start": 1.06,
+          "end": 1.5,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 위반을",
+          "start": 1.5,
+          "end": 1.92,
+          "probability": 0.96142578125
+        },
+        {
+          "word": " 허용하는",
+          "start": 1.92,
+          "end": 2.38,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 면허증은",
+          "start": 2.38,
+          "end": 3.0,
+          "probability": 1.0
+        },
+        {
+          "word": " 아니니까요.",
+          "start": 3.0,
+          "end": 3.64,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N015_01",
+      "expected": "17시 11분쯤, 뛰던 훈련병이 쓰러졌습니다.",
+      "asr": "17시 11분쯤 뛰던 훈련병이 쓰러졌습니다.",
+      "errors": 0,
+      "characters": 19,
+      "match": 1.0,
+      "mtime": 1793512338.3118694,
+      "words": [
+        {
+          "word": " 17시",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " 11분쯤",
+          "start": 0.42,
+          "end": 1.1,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " 뛰던",
+          "start": 1.1,
+          "end": 1.42,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 훈련병이",
+          "start": 1.42,
+          "end": 1.94,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " 쓰러졌습니다.",
+          "start": 1.94,
+          "end": 2.5,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N015_02",
+      "expected": "시작한 지 약 45분 뒤.",
+      "asr": "시작한지 약 45분 뒤",
+      "errors": 0,
+      "characters": 10,
+      "match": 1.0,
+      "mtime": 1793512339.834339,
+      "words": [
+        {
+          "word": " 시작한지",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.9306640625
+        },
+        {
+          "word": " 약",
+          "start": 0.44,
+          "end": 0.62,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 45분",
+          "start": 0.62,
+          "end": 1.14,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " 뒤",
+          "start": 1.14,
+          "end": 1.3,
+          "probability": 0.9970703125
+        }
+      ]
+    },
+    {
+      "id": "N016_01",
+      "expected": "멈춰야 했던 건 훈련입니다.",
+      "asr": "멈춰야 했던 건 훈련입니다.",
+      "errors": 0,
+      "characters": 11,
+      "match": 1.0,
+      "mtime": 1793512341.4104805,
+      "words": [
+        {
+          "word": " 멈춰야",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 했던",
+          "start": 0.4,
+          "end": 0.6,
+          "probability": 0.96728515625
+        },
+        {
+          "word": " 건",
+          "start": 0.6,
+          "end": 0.78,
+          "probability": 0.94677734375
+        },
+        {
+          "word": " 훈련입니다.",
+          "start": 0.78,
+          "end": 1.32,
+          "probability": 0.994140625
+        }
+      ]
+    },
+    {
+      "id": "N016_02",
+      "expected": "지금은 위급함을 알아보고 응급조치를 할 때였습니다.",
+      "asr": "지금은 위급함을 알아보고 응급조치를 할 때였습니다.",
+      "errors": 0,
+      "characters": 22,
+      "match": 1.0,
+      "mtime": 1793512343.6107411,
+      "words": [
+        {
+          "word": " 지금은",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 위급함을",
+          "start": 0.28,
+          "end": 0.92,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 알아보고",
+          "start": 0.92,
+          "end": 1.44,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 응급조치를",
+          "start": 1.44,
+          "end": 2.2,
+          "probability": 0.9189453125
+        },
+        {
+          "word": " 할",
+          "start": 2.2,
+          "end": 2.4,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 때였습니다.",
+          "start": 2.4,
+          "end": 2.78,
+          "probability": 0.99658203125
+        }
+      ]
+    },
+    {
+      "id": "N017_01",
+      "expected": "경찰은 간부들이 열사병의 위급함을 제대로 인지하지 못해 응급처치를 지체했다고 봤습니다.",
+      "asr": "경찰은 간부들이 열사병의 위급함을 제대로 인지하지 못해 응급처치를 지체했다고 봤습니다.",
+      "errors": 0,
+      "characters": 38,
+      "match": 1.0,
+      "mtime": 1793512347.336177,
+      "words": [
+        {
+          "word": " 경찰은",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 간부들이",
+          "start": 0.4,
+          "end": 0.92,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 열사병의",
+          "start": 0.92,
+          "end": 1.62,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " 위급함을",
+          "start": 1.62,
+          "end": 2.26,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 제대로",
+          "start": 2.26,
+          "end": 2.52,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 인지하지",
+          "start": 2.52,
+          "end": 3.0,
+          "probability": 1.0
+        },
+        {
+          "word": " 못해",
+          "start": 3.0,
+          "end": 3.36,
+          "probability": 1.0
+        },
+        {
+          "word": " 응급처치를",
+          "start": 3.36,
+          "end": 4.16,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " 지체했다고",
+          "start": 4.16,
+          "end": 4.76,
+          "probability": 0.9921875
+        },
+        {
+          "word": " 봤습니다.",
+          "start": 4.76,
+          "end": 5.18,
+          "probability": 0.9970703125
+        }
+      ]
+    },
+    {
+      "id": "N018_01",
+      "expected": "군장보다 먼저 챙겨야 했던 사람의 상태.",
+      "asr": "군장보다 먼저 챙겨야 했던 사람의 상태.",
+      "errors": 0,
+      "characters": 16,
+      "match": 1.0,
+      "mtime": 1793512350.568596,
+      "words": [
+        {
+          "word": " 군장보다",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " 먼저",
+          "start": 0.5,
+          "end": 0.8,
+          "probability": 1.0
+        },
+        {
+          "word": " 챙겨야",
+          "start": 0.8,
+          "end": 1.22,
+          "probability": 1.0
+        },
+        {
+          "word": " 했던",
+          "start": 1.22,
+          "end": 1.44,
+          "probability": 0.98193359375
+        },
+        {
+          "word": " 사람의",
+          "start": 1.44,
+          "end": 1.82,
+          "probability": 1.0
+        },
+        {
+          "word": " 상태.",
+          "start": 1.82,
+          "end": 2.1,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N018_02",
+      "expected": "그다음은 병원 기록입니다.",
+      "asr": "그 다음은 병원 기록입니다.",
+      "errors": 0,
+      "characters": 11,
+      "match": 1.0,
+      "mtime": 1793512352.7390444,
+      "words": [
+        {
+          "word": " 그",
+          "start": 0.0,
+          "end": 0.1,
+          "probability": 0.9345703125
+        },
+        {
+          "word": " 다음은",
+          "start": 0.1,
+          "end": 0.44,
+          "probability": 1.0
+        },
+        {
+          "word": " 병원",
+          "start": 0.44,
+          "end": 0.82,
+          "probability": 1.0
+        },
+        {
+          "word": " 기록입니다.",
+          "start": 0.82,
+          "end": 1.32,
+          "probability": 0.94775390625
+        }
+      ]
+    },
+    {
+      "id": "N019_01",
+      "expected": "의무대에서 처치받고 속초의료원으로, 다시 강릉아산병원으로 옮겨졌습니다.",
+      "asr": "의무대에서 처치받고 속초의료원으로 다시 강릉아산병원으로 옮겨졌습니다.",
+      "errors": 0,
+      "characters": 32,
+      "match": 1.0,
+      "mtime": 1793512358.895711,
+      "words": [
+        {
+          "word": " 의무대에서",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 처치받고",
+          "start": 0.56,
+          "end": 1.24,
+          "probability": 0.96484375
+        },
+        {
+          "word": " 속초의료원으로",
+          "start": 1.24,
+          "end": 2.22,
+          "probability": 0.93798828125
+        },
+        {
+          "word": " 다시",
+          "start": 2.22,
+          "end": 2.54,
+          "probability": 0.97998046875
+        },
+        {
+          "word": " 강릉아산병원으로",
+          "start": 2.54,
+          "end": 3.68,
+          "probability": 0.9541015625
+        },
+        {
+          "word": " 옮겨졌습니다.",
+          "start": 3.68,
+          "end": 4.32,
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": "N020_01",
+      "expected": "이송 당시 40도를 넘는 고열이 있었다고 합니다.",
+      "asr": "이송 당시 40도를 넘는 고열이 있었다고 합니다.",
+      "errors": 0,
+      "characters": 20,
+      "match": 1.0,
+      "mtime": 1793512362.9468663,
+      "words": [
+        {
+          "word": " 이송",
+          "start": 0.0,
+          "end": 0.26,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " 당시",
+          "start": 0.26,
+          "end": 0.5,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 40도를",
+          "start": 0.5,
+          "end": 1.2,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 넘는",
+          "start": 1.2,
+          "end": 1.5,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 고열이",
+          "start": 1.5,
+          "end": 1.96,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 있었다고",
+          "start": 1.96,
+          "end": 2.4,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 합니다.",
+          "start": 2.4,
+          "end": 2.58,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N020_02",
+      "expected": "위급함은 추상적인 말이 아니었습니다.",
+      "asr": "위급함은 추상적인 말이 아니었습니다.",
+      "errors": 0,
+      "characters": 16,
+      "match": 1.0,
+      "mtime": 1793512366.2042658,
+      "words": [
+        {
+          "word": " 위급함은",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 추상적인",
+          "start": 0.58,
+          "end": 1.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 말이",
+          "start": 1.22,
+          "end": 1.46,
+          "probability": 1.0
+        },
+        {
+          "word": " 아니었습니다.",
+          "start": 1.46,
+          "end": 1.96,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N021_01",
+      "expected": "속초의료원 관계자는 도착 때 검사에서 장기 손상이 의심되는 중증 상태였다고 설명했습니다.",
+      "asr": "속초 의료원 관계자는 도착 때 검사에서 장기 손상이 의심되는 중증 상태였다고 설명했습니다.",
+      "errors": 0,
+      "characters": 38,
+      "match": 1.0,
+      "mtime": 1793512376.3869152,
+      "words": [
+        {
+          "word": " 속초",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 의료원",
+          "start": 0.3,
+          "end": 0.64,
+          "probability": 0.904296875
+        },
+        {
+          "word": " 관계자는",
+          "start": 0.64,
+          "end": 1.1,
+          "probability": 1.0
+        },
+        {
+          "word": " 도착",
+          "start": 1.1,
+          "end": 1.64,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 때",
+          "start": 1.64,
+          "end": 1.76,
+          "probability": 0.92626953125
+        },
+        {
+          "word": " 검사에서",
+          "start": 1.76,
+          "end": 2.34,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 장기",
+          "start": 2.34,
+          "end": 2.72,
+          "probability": 1.0
+        },
+        {
+          "word": " 손상이",
+          "start": 2.72,
+          "end": 3.06,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 의심되는",
+          "start": 3.06,
+          "end": 3.58,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 중증",
+          "start": 3.58,
+          "end": 4.04,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 상태였다고",
+          "start": 4.04,
+          "end": 4.6,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " 설명했습니다.",
+          "start": 4.6,
+          "end": 5.14,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N022_01",
+      "expected": "강릉아산병원 도착은 21시 40분쯤.",
+      "asr": "강릉 아산병원 도착은 21시 40분쯤.",
+      "errors": 0,
+      "characters": 17,
+      "match": 1.0,
+      "mtime": 1793512382.2632823,
+      "words": [
+        {
+          "word": " 강릉",
+          "start": 0.0,
+          "end": 0.26,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 아산병원",
+          "start": 0.26,
+          "end": 0.7,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " 도착은",
+          "start": 0.7,
+          "end": 1.08,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 21시",
+          "start": 1.08,
+          "end": 1.64,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 40분쯤.",
+          "start": 1.64,
+          "end": 2.36,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": "N022_02",
+      "expected": "속초의료원에서 옮겨 도착하기까지 약 세 시간.",
+      "asr": "속초의료원에서 옮겨 도착하기까지 약 3시간",
+      "errors": 0,
+      "characters": 19,
+      "match": 1.0,
+      "mtime": 1793512388.4395006,
+      "words": [
+        {
+          "word": " 속초의료원에서",
+          "start": 0.0,
+          "end": 0.74,
+          "probability": 0.9677734375
+        },
+        {
+          "word": " 옮겨",
+          "start": 0.74,
+          "end": 1.02,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 도착하기까지",
+          "start": 1.02,
+          "end": 1.76,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " 약",
+          "start": 1.76,
+          "end": 2.1,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " 3시간",
+          "start": 2.1,
+          "end": 2.54,
+          "probability": 0.99755859375
+        }
+      ]
+    },
+    {
+      "id": "N023_01",
+      "expected": "두 병원 사이 전체 경과입니다.",
+      "asr": "두 병원 사이 전체 경과입니다.",
+      "errors": 0,
+      "characters": 12,
+      "match": 1.0,
+      "mtime": 1793512392.9095588,
+      "words": [
+        {
+          "word": " 두",
+          "start": 0.0,
+          "end": 0.1,
+          "probability": 0.9921875
+        },
+        {
+          "word": " 병원",
+          "start": 0.1,
+          "end": 0.42,
+          "probability": 1.0
+        },
+        {
+          "word": " 사이",
+          "start": 0.42,
+          "end": 0.66,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 전체",
+          "start": 0.66,
+          "end": 0.94,
+          "probability": 1.0
+        },
+        {
+          "word": " 경과입니다.",
+          "start": 0.94,
+          "end": 1.44,
+          "probability": 0.9931640625
+        }
+      ]
+    },
+    {
+      "id": "N023_02",
+      "expected": "차로 달린 시간만을 뜻하지 않습니다.",
+      "asr": "차로 달린 시간만을 뜻하지 않습니다.",
+      "errors": 0,
+      "characters": 15,
+      "match": 1.0,
+      "mtime": 1793512397.436399,
+      "words": [
+        {
+          "word": " 차로",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " 달린",
+          "start": 0.22,
+          "end": 0.52,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 시간만을",
+          "start": 0.52,
+          "end": 1.12,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 뜻하지",
+          "start": 1.12,
+          "end": 1.52,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 않습니다.",
+          "start": 1.52,
+          "end": 1.92,
+          "probability": 0.99658203125
+        }
+      ]
+    },
+    {
+      "id": "N024_01",
+      "expected": "중환자실 치료가 이어졌지만, 쓰러진 이틀 뒤인 2024년 5월 25일 숨졌습니다.",
+      "asr": "중환자실 치료가 이어졌지만 쓰러진 이틀 뒤인 2024년 5월 25일 숨졌습니다.",
+      "errors": 0,
+      "characters": 36,
+      "match": 1.0,
+      "mtime": 1793512404.22378,
+      "words": [
+        {
+          "word": " 중환자실",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 치료가",
+          "start": 0.48,
+          "end": 0.82,
+          "probability": 1.0
+        },
+        {
+          "word": " 이어졌지만",
+          "start": 0.82,
+          "end": 1.4,
+          "probability": 1.0
+        },
+        {
+          "word": " 쓰러진",
+          "start": 1.4,
+          "end": 1.96,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " 이틀",
+          "start": 1.96,
+          "end": 2.26,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 뒤인",
+          "start": 2.26,
+          "end": 2.56,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 2024년",
+          "start": 2.56,
+          "end": 3.52,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 5월",
+          "start": 3.52,
+          "end": 3.94,
+          "probability": 1.0
+        },
+        {
+          "word": " 25일",
+          "start": 3.94,
+          "end": 4.42,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 숨졌습니다.",
+          "start": 4.42,
+          "end": 4.94,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N025_01",
+      "expected": "수사결과 보도에 나온 사인은 열사병에 의한 다발성 장기부전.",
+      "asr": "수사 결과 보도에 나온 사인은 열사병에 의한 다발성 장기부전.",
+      "errors": 0,
+      "characters": 25,
+      "match": 1.0,
+      "mtime": 1793512410.3165922,
+      "words": [
+        {
+          "word": " 수사",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 1.0
+        },
+        {
+          "word": " 결과",
+          "start": 0.22,
+          "end": 0.4,
+          "probability": 0.87744140625
+        },
+        {
+          "word": " 보도에",
+          "start": 0.4,
+          "end": 0.84,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 나온",
+          "start": 0.84,
+          "end": 1.0,
+          "probability": 1.0
+        },
+        {
+          "word": " 사인은",
+          "start": 1.0,
+          "end": 1.46,
+          "probability": 0.97705078125
+        },
+        {
+          "word": " 열사병에",
+          "start": 1.46,
+          "end": 2.1,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 의한",
+          "start": 2.1,
+          "end": 2.38,
+          "probability": 1.0
+        },
+        {
+          "word": " 다발성",
+          "start": 2.38,
+          "end": 2.92,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 장기부전.",
+          "start": 2.92,
+          "end": 3.5,
+          "probability": 0.89013671875
+        }
+      ]
+    },
+    {
+      "id": "N026_01",
+      "expected": "어머니 편지에는 첫 전화 시각이 남았습니다.",
+      "asr": "어머니 편지에는 첫 전화 시각이 남았습니다.",
+      "errors": 0,
+      "characters": 18,
+      "match": 1.0,
+      "mtime": 1793512416.6825297,
+      "words": [
+        {
+          "word": " 어머니",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 편지에는",
+          "start": 0.32,
+          "end": 0.8,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 첫",
+          "start": 0.8,
+          "end": 1.12,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 전화",
+          "start": 1.12,
+          "end": 1.46,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 시각이",
+          "start": 1.46,
+          "end": 1.84,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " 남았습니다.",
+          "start": 1.84,
+          "end": 2.26,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N026_02",
+      "expected": "5월 23일, 17시 54분.",
+      "asr": "5월 23일 17시 54분",
+      "errors": 0,
+      "characters": 13,
+      "match": 1.0,
+      "mtime": 1793512421.6246378,
+      "words": [
+        {
+          "word": " 5월",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 23일",
+          "start": 0.24,
+          "end": 0.76,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 17시",
+          "start": 0.76,
+          "end": 1.2,
+          "probability": 0.939453125
+        },
+        {
+          "word": " 54분",
+          "start": 1.2,
+          "end": 1.76,
+          "probability": 0.9951171875
+        }
+      ]
+    },
+    {
+      "id": "N026_03",
+      "expected": "아들이 쓰러졌다는 전화.",
+      "asr": "아들이 쓰러졌다는 전화.",
+      "errors": 0,
+      "characters": 10,
+      "match": 1.0,
+      "mtime": 1793512426.0171432,
+      "words": [
+        {
+          "word": " 아들이",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 1.0
+        },
+        {
+          "word": " 쓰러졌다는",
+          "start": 0.28,
+          "end": 0.92,
+          "probability": 1.0
+        },
+        {
+          "word": " 전화.",
+          "start": 0.92,
+          "end": 1.32,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N027_01",
+      "expected": "법정에는 살아남은 동료들이 섰습니다.",
+      "asr": "법정에는 살아남은 동료들이 섰습니다.",
+      "errors": 0,
+      "characters": 16,
+      "match": 1.0,
+      "mtime": 1793512431.4865398,
+      "words": [
+        {
+          "word": " 법정에는",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 살아남은",
+          "start": 0.46,
+          "end": 1.06,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 동료들이",
+          "start": 1.06,
+          "end": 1.56,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 섰습니다.",
+          "start": 1.56,
+          "end": 2.04,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N027_02",
+      "expected": "그들이 전한 장면은 더 무겁습니다.",
+      "asr": "그들이 전한 장면은 더 무겁습니다.",
+      "errors": 0,
+      "characters": 14,
+      "match": 1.0,
+      "mtime": 1793512436.7400517,
+      "words": [
+        {
+          "word": " 그들이",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 전한",
+          "start": 0.28,
+          "end": 0.56,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 장면은",
+          "start": 0.56,
+          "end": 1.0,
+          "probability": 1.0
+        },
+        {
+          "word": " 더",
+          "start": 1.0,
+          "end": 1.16,
+          "probability": 1.0
+        },
+        {
+          "word": " 무겁습니다.",
+          "start": 1.16,
+          "end": 1.78,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N028_01",
+      "expected": "2024년 8월 27일 공판.",
+      "asr": "2024년 8월 27일 공판",
+      "errors": 0,
+      "characters": 14,
+      "match": 1.0,
+      "mtime": 1793512442.3815627,
+      "words": [
+        {
+          "word": " 2024년",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " 8월",
+          "start": 0.76,
+          "end": 1.1,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 27일",
+          "start": 1.1,
+          "end": 1.58,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 공판",
+          "start": 1.58,
+          "end": 1.94,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N028_02",
+      "expected": "함께 훈련받던 동료 네 명이 증인으로 나왔습니다.",
+      "asr": "함께 훈련받던 동료 4명이 증인으로 나왔습니다.",
+      "errors": 0,
+      "characters": 20,
+      "match": 1.0,
+      "mtime": 1793512448.9486578,
+      "words": [
+        {
+          "word": " 함께",
+          "start": 0.0,
+          "end": 0.26,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 훈련받던",
+          "start": 0.26,
+          "end": 0.88,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " 동료",
+          "start": 0.88,
+          "end": 1.22,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 4명이",
+          "start": 1.22,
+          "end": 1.66,
+          "probability": 0.9716796875
+        },
+        {
+          "word": " 증인으로",
+          "start": 1.66,
+          "end": 2.16,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 나왔습니다.",
+          "start": 2.16,
+          "end": 2.68,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N029_01",
+      "expected": "군장에 책 약 마흔 권을 넣었다는 취지의 증언.",
+      "asr": "군장에 책 약 40권을 넣었다는 취지의 증언.",
+      "errors": 0,
+      "characters": 18,
+      "match": 1.0,
+      "mtime": 1793512455.7467985,
+      "words": [
+        {
+          "word": " 군장에",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.8974609375
+        },
+        {
+          "word": " 책",
+          "start": 0.36,
+          "end": 0.56,
+          "probability": 1.0
+        },
+        {
+          "word": " 약",
+          "start": 0.56,
+          "end": 0.82,
+          "probability": 1.0
+        },
+        {
+          "word": " 40권을",
+          "start": 0.82,
+          "end": 1.34,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " 넣었다는",
+          "start": 1.34,
+          "end": 1.7,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 취지의",
+          "start": 1.7,
+          "end": 2.18,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 증언.",
+          "start": 2.18,
+          "end": 2.5,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N029_02",
+      "expected": "실제 무게를 확정한 수치는 아닙니다.",
+      "asr": "실제 무게를 확정한 수치는 아닙니다.",
+      "errors": 0,
+      "characters": 15,
+      "match": 1.0,
+      "mtime": 1793512460.6362648,
+      "words": [
+        {
+          "word": " 실제",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 무게를",
+          "start": 0.32,
+          "end": 0.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 확정한",
+          "start": 0.76,
+          "end": 1.18,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 수치는",
+          "start": 1.18,
+          "end": 1.5,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 아닙니다.",
+          "start": 1.5,
+          "end": 2.0,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N030_01",
+      "expected": "쓰러진 뒤에도 중대장이 욕설하며 혼내거나 일어나라고 소리쳤다고 증언했습니다.",
+      "asr": "쓰러진 뒤에도 중대장이 욕설하며 혼내거나 일어나라고 소리쳤다고 증언했습니다.",
+      "errors": 0,
+      "characters": 34,
+      "match": 1.0,
+      "mtime": 1793512469.6666157,
+      "words": [
+        {
+          "word": " 쓰러진",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 뒤에도",
+          "start": 0.38,
+          "end": 0.76,
+          "probability": 1.0
+        },
+        {
+          "word": " 중대장이",
+          "start": 0.76,
+          "end": 1.46,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 욕설하며",
+          "start": 1.46,
+          "end": 2.14,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " 혼내거나",
+          "start": 2.14,
+          "end": 2.76,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 일어나라고",
+          "start": 2.76,
+          "end": 3.3,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 소리쳤다고",
+          "start": 3.3,
+          "end": 4.0,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 증언했습니다.",
+          "start": 4.0,
+          "end": 4.56,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N031_01",
+      "expected": "쓰러진 뒤에도 질책했다는 증언.",
+      "asr": "쓰러진 뒤에도 질책했다는 증언",
+      "errors": 0,
+      "characters": 13,
+      "match": 1.0,
+      "mtime": 1793512474.50066,
+      "words": [
+        {
+          "word": " 쓰러진",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 뒤에도",
+          "start": 0.38,
+          "end": 0.66,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 질책했다는",
+          "start": 0.66,
+          "end": 1.32,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 증언",
+          "start": 1.32,
+          "end": 1.74,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N031_02",
+      "expected": "위급한 상황에서 나온 대응이었다는 겁니다.",
+      "asr": "위급한 상황에서 나온 대응이었다는 겁니다.",
+      "errors": 0,
+      "characters": 18,
+      "match": 1.0,
+      "mtime": 1793512478.9988217,
+      "words": [
+        {
+          "word": " 위급한",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 상황에서",
+          "start": 0.5,
+          "end": 0.98,
+          "probability": 1.0
+        },
+        {
+          "word": " 나온",
+          "start": 0.98,
+          "end": 1.3,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 대응이었다는",
+          "start": 1.3,
+          "end": 2.02,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 겁니다.",
+          "start": 2.02,
+          "end": 2.28,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N032_01",
+      "expected": "한 동료는 외상 후 스트레스 장애 진단을 받았다고 밝혔습니다.",
+      "asr": "한 동료는 외상 후 스트레스 장애 진단을 받았다고 밝혔습니다.",
+      "errors": 0,
+      "characters": 25,
+      "match": 1.0,
+      "mtime": 1793512485.6567945,
+      "words": [
+        {
+          "word": " 한",
+          "start": 0.0,
+          "end": 0.14,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 동료는",
+          "start": 0.14,
+          "end": 0.56,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 외상",
+          "start": 0.56,
+          "end": 0.94,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 후",
+          "start": 0.94,
+          "end": 1.08,
+          "probability": 0.95068359375
+        },
+        {
+          "word": " 스트레스",
+          "start": 1.08,
+          "end": 1.56,
+          "probability": 1.0
+        },
+        {
+          "word": " 장애",
+          "start": 1.56,
+          "end": 1.9,
+          "probability": 0.9931640625
+        },
+        {
+          "word": " 진단을",
+          "start": 1.9,
+          "end": 2.3,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 받았다고",
+          "start": 2.3,
+          "end": 2.78,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 밝혔습니다.",
+          "start": 2.78,
+          "end": 3.34,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N032_02",
+      "expected": "살아남았다고 끝이 아니죠.",
+      "asr": "살아남았다고 끝이 아니죠.",
+      "errors": 0,
+      "characters": 11,
+      "match": 1.0,
+      "mtime": 1793512490.7514787,
+      "words": [
+        {
+          "word": " 살아남았다고",
+          "start": 0.0,
+          "end": 0.72,
+          "probability": 0.984375
+        },
+        {
+          "word": " 끝이",
+          "start": 0.72,
+          "end": 1.12,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 아니죠.",
+          "start": 1.12,
+          "end": 1.44,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N033_01",
+      "expected": "동료 한 명은 처치가 빨랐다면 살 수 있었을 거라는 아쉬움도 말했습니다.",
+      "asr": "동료 한 명은 처치가 빨랐다면 살 수 있었을 거라는 아쉬움도 말했습니다.",
+      "errors": 0,
+      "characters": 29,
+      "match": 1.0,
+      "mtime": 1793512499.4441407,
+      "words": [
+        {
+          "word": " 동료",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 한",
+          "start": 0.24,
+          "end": 0.36,
+          "probability": 0.9580078125
+        },
+        {
+          "word": " 명은",
+          "start": 0.36,
+          "end": 0.68,
+          "probability": 1.0
+        },
+        {
+          "word": " 처치가",
+          "start": 0.68,
+          "end": 1.06,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " 빨랐다면",
+          "start": 1.06,
+          "end": 1.68,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 살",
+          "start": 1.68,
+          "end": 1.92,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 수",
+          "start": 1.92,
+          "end": 2.06,
+          "probability": 1.0
+        },
+        {
+          "word": " 있었을",
+          "start": 2.06,
+          "end": 2.46,
+          "probability": 1.0
+        },
+        {
+          "word": " 거라는",
+          "start": 2.46,
+          "end": 2.78,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 아쉬움도",
+          "start": 2.78,
+          "end": 3.42,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 말했습니다.",
+          "start": 3.42,
+          "end": 3.8,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N034_01",
+      "expected": "검찰은 단순 과실로 보지 않았습니다.",
+      "asr": "검찰은 단순 과실로 보지 않았습니다.",
+      "errors": 0,
+      "characters": 15,
+      "match": 1.0,
+      "mtime": 1793512504.1968076,
+      "words": [
+        {
+          "word": " 검찰은",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 단순",
+          "start": 0.42,
+          "end": 0.8,
+          "probability": 1.0
+        },
+        {
+          "word": " 과실로",
+          "start": 0.8,
+          "end": 1.22,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 보지",
+          "start": 1.22,
+          "end": 1.48,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 않았습니다.",
+          "start": 1.48,
+          "end": 1.94,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N034_02",
+      "expected": "훈련 방식과 경과, 신체조건을 종합해 학대로 판단했습니다.",
+      "asr": "훈련 방식과 경과 신체 조건을 종합해 학대로 판단했습니다.",
+      "errors": 0,
+      "characters": 24,
+      "match": 1.0,
+      "mtime": 1793512511.509508,
+      "words": [
+        {
+          "word": " 훈련",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.97265625
+        },
+        {
+          "word": " 방식과",
+          "start": 0.22,
+          "end": 0.68,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 경과",
+          "start": 0.68,
+          "end": 1.02,
+          "probability": 0.9384765625
+        },
+        {
+          "word": " 신체",
+          "start": 1.02,
+          "end": 1.5,
+          "probability": 0.84716796875
+        },
+        {
+          "word": " 조건을",
+          "start": 1.5,
+          "end": 1.84,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 종합해",
+          "start": 1.84,
+          "end": 2.26,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 학대로",
+          "start": 2.26,
+          "end": 2.62,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " 판단했습니다.",
+          "start": 2.62,
+          "end": 3.16,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N035_01",
+      "expected": "중대장과 부중대장은 학대치사, 직권남용 가혹행위로 기소됐습니다.",
+      "asr": "중대장과 부중대장은 학대치사, 직권남용 가혹 행위로 기소됐습니다.",
+      "errors": 0,
+      "characters": 28,
+      "match": 1.0,
+      "mtime": 1793512518.7317624,
+      "words": [
+        {
+          "word": " 중대장과",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 부중대장은",
+          "start": 0.5,
+          "end": 1.16,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 학대치사,",
+          "start": 1.16,
+          "end": 1.82,
+          "probability": 0.990234375
+        },
+        {
+          "word": " 직권남용",
+          "start": 2.02,
+          "end": 2.56,
+          "probability": 0.9892578125
+        },
+        {
+          "word": " 가혹",
+          "start": 2.56,
+          "end": 2.86,
+          "probability": 0.9619140625
+        },
+        {
+          "word": " 행위로",
+          "start": 2.86,
+          "end": 3.18,
+          "probability": 0.9365234375
+        },
+        {
+          "word": " 기소됐습니다.",
+          "start": 3.18,
+          "end": 3.8,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N035_02",
+      "expected": "훈련이라는 포장지가 벗겨집니다.",
+      "asr": "훈련이라는 포장지가 벗겨집니다.",
+      "errors": 0,
+      "characters": 14,
+      "match": 1.0,
+      "mtime": 1793512522.307437,
+      "words": [
+        {
+          "word": " 훈련이라는",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 포장지가",
+          "start": 0.5,
+          "end": 1.12,
+          "probability": 1.0
+        },
+        {
+          "word": " 벗겨집니다.",
+          "start": 1.12,
+          "end": 1.82,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N036_01",
+      "expected": "중대장 측은 잘못된 행동을 인정하면서도 학대치사 혐의는 부인했습니다.",
+      "asr": "중대장 측은 잘못된 행동을 인정하면서도 학대치사 혐의는 부인했습니다.",
+      "errors": 0,
+      "characters": 30,
+      "match": 1.0,
+      "mtime": 1793512528.554539,
+      "words": [
+        {
+          "word": " 중대장",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 측은",
+          "start": 0.34,
+          "end": 0.68,
+          "probability": 1.0
+        },
+        {
+          "word": " 잘못된",
+          "start": 0.68,
+          "end": 1.16,
+          "probability": 1.0
+        },
+        {
+          "word": " 행동을",
+          "start": 1.16,
+          "end": 1.52,
+          "probability": 1.0
+        },
+        {
+          "word": " 인정하면서도",
+          "start": 1.52,
+          "end": 2.28,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 학대치사",
+          "start": 2.28,
+          "end": 2.94,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " 혐의는",
+          "start": 2.94,
+          "end": 3.32,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 부인했습니다.",
+          "start": 3.32,
+          "end": 3.92,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N036_02",
+      "expected": "변호인 측 주장입니다.",
+      "asr": "변호인 측 주장입니다.",
+      "errors": 0,
+      "characters": 9,
+      "match": 1.0,
+      "mtime": 1793512531.1470833,
+      "words": [
+        {
+          "word": " 변호인",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 측",
+          "start": 0.4,
+          "end": 0.5,
+          "probability": 0.9921875
+        },
+        {
+          "word": " 주장입니다.",
+          "start": 0.5,
+          "end": 1.06,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N037_01",
+      "expected": "법원의 답은 달랐습니다.",
+      "asr": "법원의 답은 달랐습니다.",
+      "errors": 0,
+      "characters": 10,
+      "match": 1.0,
+      "mtime": 1793512534.1477258,
+      "words": [
+        {
+          "word": " 법원의",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 답은",
+          "start": 0.36,
+          "end": 0.64,
+          "probability": 1.0
+        },
+        {
+          "word": " 달랐습니다.",
+          "start": 0.64,
+          "end": 1.18,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N037_02",
+      "expected": "1심은 두 사람을 유죄로 보고 훈련과 사망 사이 인과관계를 인정했습니다.",
+      "asr": "1심은 두 사람을 유죄로 보고 훈련과 사망 사이 인과관계를 인정했습니다.",
+      "errors": 0,
+      "characters": 30,
+      "match": 1.0,
+      "mtime": 1793512540.9631915,
+      "words": [
+        {
+          "word": " 1심은",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " 두",
+          "start": 0.38,
+          "end": 0.5,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 사람을",
+          "start": 0.5,
+          "end": 0.88,
+          "probability": 1.0
+        },
+        {
+          "word": " 유죄로",
+          "start": 0.88,
+          "end": 1.22,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 보고",
+          "start": 1.22,
+          "end": 1.46,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 훈련과",
+          "start": 1.46,
+          "end": 2.08,
+          "probability": 0.994140625
+        },
+        {
+          "word": " 사망",
+          "start": 2.08,
+          "end": 2.4,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 사이",
+          "start": 2.4,
+          "end": 2.7,
+          "probability": 0.986328125
+        },
+        {
+          "word": " 인과관계를",
+          "start": 2.7,
+          "end": 3.46,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 인정했습니다.",
+          "start": 3.46,
+          "end": 3.98,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N038_01",
+      "expected": "재판부는 신체조건에 맞지 않는 군기훈련이었다며 죄책이 무겁다고 판단했습니다.",
+      "asr": "재판부는 신체 조건에 맞지 않는 군기 훈련이었다며 죄책이 무겁다고 판단했습니다.",
+      "errors": 0,
+      "characters": 34,
+      "match": 1.0,
+      "mtime": 1793512548.4462554,
+      "words": [
+        {
+          "word": " 재판부는",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 신체",
+          "start": 0.5,
+          "end": 0.84,
+          "probability": 0.974609375
+        },
+        {
+          "word": " 조건에",
+          "start": 0.84,
+          "end": 1.2,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 맞지",
+          "start": 1.2,
+          "end": 1.48,
+          "probability": 1.0
+        },
+        {
+          "word": " 않는",
+          "start": 1.48,
+          "end": 1.68,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 군기",
+          "start": 1.68,
+          "end": 2.08,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 훈련이었다며",
+          "start": 2.08,
+          "end": 2.8,
+          "probability": 0.94873046875
+        },
+        {
+          "word": " 죄책이",
+          "start": 2.8,
+          "end": 3.36,
+          "probability": 0.994140625
+        },
+        {
+          "word": " 무겁다고",
+          "start": 3.36,
+          "end": 3.88,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 판단했습니다.",
+          "start": 3.88,
+          "end": 4.52,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N039_01",
+      "expected": "군 사기, 전투력, 국민 신뢰까지 해쳤다는 판단.",
+      "asr": "군 사기, 전투력, 국민 신뢰까지 헤쳤다는 판단.",
+      "errors": 1,
+      "characters": 18,
+      "match": 0.9444444444444444,
+      "mtime": 1793512553.4223895,
+      "words": [
+        {
+          "word": " 군",
+          "start": 0.0,
+          "end": 0.16,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " 사기,",
+          "start": 0.16,
+          "end": 0.48,
+          "probability": 0.9677734375
+        },
+        {
+          "word": " 전투력,",
+          "start": 0.56,
+          "end": 0.94,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 국민",
+          "start": 1.04,
+          "end": 1.28,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 신뢰까지",
+          "start": 1.28,
+          "end": 1.72,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 헤쳤다는",
+          "start": 1.72,
+          "end": 2.08,
+          "probability": 0.8798828125
+        },
+        {
+          "word": " 판단.",
+          "start": 2.08,
+          "end": 2.5,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N039_02",
+      "expected": "군기를 세운다더니 군의 신뢰를 무너뜨린 셈이죠.",
+      "asr": "군기를 세운다더니 군의 신뢰를 무너뜨린 셈이죠.",
+      "errors": 0,
+      "characters": 20,
+      "match": 1.0,
+      "mtime": 1793512558.46065,
+      "words": [
+        {
+          "word": " 군기를",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 세운다더니",
+          "start": 0.32,
+          "end": 0.94,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 군의",
+          "start": 0.94,
+          "end": 1.4,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 신뢰를",
+          "start": 1.4,
+          "end": 1.78,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 무너뜨린",
+          "start": 1.78,
+          "end": 2.3,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 셈이죠.",
+          "start": 2.3,
+          "end": 2.66,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N040_01",
+      "expected": "피해자 측 용서도 받지 못했다고 지적했습니다.",
+      "asr": "피해자 측 용서도 받지 못했다고 지적했습니다.",
+      "errors": 0,
+      "characters": 19,
+      "match": 1.0,
+      "mtime": 1793512563.6417766,
+      "words": [
+        {
+          "word": " 피해자",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 측",
+          "start": 0.34,
+          "end": 0.48,
+          "probability": 0.9873046875
+        },
+        {
+          "word": " 용서도",
+          "start": 0.48,
+          "end": 0.94,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 받지",
+          "start": 0.94,
+          "end": 1.28,
+          "probability": 1.0
+        },
+        {
+          "word": " 못했다고",
+          "start": 1.28,
+          "end": 1.8,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 지적했습니다.",
+          "start": 1.8,
+          "end": 2.38,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N040_02",
+      "expected": "그런데 다른 이유가 등장합니다.",
+      "asr": "그런데 다른 이유가 등장합니다.",
+      "errors": 0,
+      "characters": 13,
+      "match": 1.0,
+      "mtime": 1793512567.420391,
+      "words": [
+        {
+          "word": " 그런데",
+          "start": 0.0,
+          "end": 0.2,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 다른",
+          "start": 0.2,
+          "end": 0.62,
+          "probability": 1.0
+        },
+        {
+          "word": " 이유가",
+          "start": 0.62,
+          "end": 1.04,
+          "probability": 1.0
+        },
+        {
+          "word": " 등장합니다.",
+          "start": 1.04,
+          "end": 1.64,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N041_01",
+      "expected": "1심은 사실관계 인정과 반성하는 태도를 유리한 정상으로 참작했습니다.",
+      "asr": "1심은 사실관계 인정과 반성하는 태도를 유리한 정상으로 참작했습니다.",
+      "errors": 0,
+      "characters": 30,
+      "match": 1.0,
+      "mtime": 1793512575.9570935,
+      "words": [
+        {
+          "word": " 1심은",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " 사실관계",
+          "start": 0.44,
+          "end": 1.06,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 인정과",
+          "start": 1.06,
+          "end": 1.52,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 반성하는",
+          "start": 1.52,
+          "end": 2.08,
+          "probability": 1.0
+        },
+        {
+          "word": " 태도를",
+          "start": 2.08,
+          "end": 2.52,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 유리한",
+          "start": 2.52,
+          "end": 2.94,
+          "probability": 1.0
+        },
+        {
+          "word": " 정상으로",
+          "start": 2.94,
+          "end": 3.44,
+          "probability": 1.0
+        },
+        {
+          "word": " 참작했습니다.",
+          "start": 3.44,
+          "end": 4.0,
+          "probability": 0.9951171875
+        }
+      ]
+    },
+    {
+      "id": "N042_01",
+      "expected": "군 기강 확립을 위한 교육 목적으로 훈련하다 범행에 이른 점도 참작했습니다.",
+      "asr": "군 기강 확립을 위한 교육 목적으로 훈련하다 범행에 이른 점도 참작했습니다.",
+      "errors": 0,
+      "characters": 31,
+      "match": 1.0,
+      "mtime": 1793512581.5927608,
+      "words": [
+        {
+          "word": " 군",
+          "start": 0.0,
+          "end": 0.18,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 기강",
+          "start": 0.18,
+          "end": 0.48,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " 확립을",
+          "start": 0.48,
+          "end": 0.88,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " 위한",
+          "start": 0.88,
+          "end": 1.1,
+          "probability": 1.0
+        },
+        {
+          "word": " 교육",
+          "start": 1.1,
+          "end": 1.4,
+          "probability": 1.0
+        },
+        {
+          "word": " 목적으로",
+          "start": 1.4,
+          "end": 1.8,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 훈련하다",
+          "start": 1.8,
+          "end": 2.34,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 범행에",
+          "start": 2.34,
+          "end": 2.9,
+          "probability": 0.98974609375
+        },
+        {
+          "word": " 이른",
+          "start": 2.9,
+          "end": 3.08,
+          "probability": 0.9853515625
+        },
+        {
+          "word": " 점도",
+          "start": 3.08,
+          "end": 3.36,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 참작했습니다.",
+          "start": 3.36,
+          "end": 4.02,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": "N043_01",
+      "expected": "교육 목적.",
+      "asr": "교육 목적",
+      "errors": 0,
+      "characters": 4,
+      "match": 1.0,
+      "mtime": 1793512583.5414212,
+      "words": [
+        {
+          "word": " 교육",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " 목적",
+          "start": 0.22,
+          "end": 0.52,
+          "probability": 0.9755859375
+        }
+      ]
+    },
+    {
+      "id": "N043_02",
+      "expected": "사람을 지키지 못한 훈련에 그 말을 고려한 판결.",
+      "asr": "사람을 지키지 못한 훈련에 그 말을 고려한 판결.",
+      "errors": 0,
+      "characters": 19,
+      "match": 1.0,
+      "mtime": 1793512587.67909,
+      "words": [
+        {
+          "word": " 사람을",
+          "start": 0.0,
+          "end": 0.32,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " 지키지",
+          "start": 0.32,
+          "end": 0.64,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 못한",
+          "start": 0.64,
+          "end": 0.9,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 훈련에",
+          "start": 0.9,
+          "end": 1.32,
+          "probability": 0.984375
+        },
+        {
+          "word": " 그",
+          "start": 1.32,
+          "end": 1.56,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " 말을",
+          "start": 1.56,
+          "end": 1.78,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 고려한",
+          "start": 1.78,
+          "end": 2.16,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 판결.",
+          "start": 2.16,
+          "end": 2.6,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N043_03",
+      "expected": "선고는 과연 몇 년이었을까요?",
+      "asr": "선고는 과연 몇 년이었을까요?",
+      "errors": 0,
+      "characters": 12,
+      "match": 1.0,
+      "mtime": 1793512590.497404,
+      "words": [
+        {
+          "word": " 선고는",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.97509765625
+        },
+        {
+          "word": " 과연",
+          "start": 0.38,
+          "end": 0.7,
+          "probability": 1.0
+        },
+        {
+          "word": " 몇",
+          "start": 0.7,
+          "end": 0.9,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 년이었을까요?",
+          "start": 0.9,
+          "end": 1.54,
+          "probability": 0.990234375
+        }
+      ]
+    },
+    {
+      "id": "N044_01",
+      "expected": "무죄라는 뜻은 아닙니다.",
+      "asr": "무죄라는 뜻은 아닙니다.",
+      "errors": 0,
+      "characters": 10,
+      "match": 1.0,
+      "mtime": 1793512592.77346,
+      "words": [
+        {
+          "word": " 무죄라는",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.982421875
+        },
+        {
+          "word": " 뜻은",
+          "start": 0.48,
+          "end": 0.82,
+          "probability": 1.0
+        },
+        {
+          "word": " 아닙니다.",
+          "start": 0.82,
+          "end": 1.24,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N044_02",
+      "expected": "학대치사는 유죄.",
+      "asr": "학대치사는 유지",
+      "errors": 1,
+      "characters": 7,
+      "match": 0.8571428571428572,
+      "mtime": 1793512595.1588106,
+      "words": [
+        {
+          "word": " 학대치사는",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.97509765625
+        },
+        {
+          "word": " 유지",
+          "start": 0.76,
+          "end": 0.94,
+          "probability": 0.4248046875
+        }
+      ]
+    },
+    {
+      "id": "N044_03",
+      "expected": "교육 목적은 형을 정한 이유입니다.",
+      "asr": "교육 목적은 형을 정한 이유입니다.",
+      "errors": 0,
+      "characters": 14,
+      "match": 1.0,
+      "mtime": 1793512598.5297341,
+      "words": [
+        {
+          "word": " 교육",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.994140625
+        },
+        {
+          "word": " 목적은",
+          "start": 0.3,
+          "end": 0.76,
+          "probability": 0.97021484375
+        },
+        {
+          "word": " 형을",
+          "start": 0.76,
+          "end": 1.08,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 정한",
+          "start": 1.08,
+          "end": 1.36,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 이유입니다.",
+          "start": 1.36,
+          "end": 1.78,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N045_01",
+      "expected": "목적을 참작한 것과 행위를 정당화한 것은 다릅니다.",
+      "asr": "목적을 참작한 것과 행위를 정당화한 것은 다릅니다.",
+      "errors": 0,
+      "characters": 21,
+      "match": 1.0,
+      "mtime": 1793512603.71112,
+      "words": [
+        {
+          "word": " 목적을",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 참작한",
+          "start": 0.42,
+          "end": 0.84,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 것과",
+          "start": 0.84,
+          "end": 1.18,
+          "probability": 1.0
+        },
+        {
+          "word": " 행위를",
+          "start": 1.18,
+          "end": 1.56,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 정당화한",
+          "start": 1.56,
+          "end": 2.12,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " 것은",
+          "start": 2.12,
+          "end": 2.34,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 다릅니다.",
+          "start": 2.34,
+          "end": 2.76,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N045_02",
+      "expected": "섞으면 판결도 흐려집니다.",
+      "asr": "섞으면 판결도 흐려집니다.",
+      "errors": 0,
+      "characters": 11,
+      "match": 1.0,
+      "mtime": 1793512606.59582,
+      "words": [
+        {
+          "word": " 섞으면",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.9833984375
+        },
+        {
+          "word": " 판결도",
+          "start": 0.36,
+          "end": 0.84,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " 흐려집니다.",
+          "start": 0.84,
+          "end": 1.38,
+          "probability": 0.9951171875
+        }
+      ]
+    },
+    {
+      "id": "N046_01",
+      "expected": "2024년 11월 12일, 검찰은 중대장 징역 10년, 부중대장 징역 7년을 구형했습니다.",
+      "asr": "2024년 11월 12일 검찰은 중대장 징역 10년, 부중대장 징역 7년을 구형했습니다.",
+      "errors": 0,
+      "characters": 37,
+      "match": 1.0,
+      "mtime": 1793512615.4342523,
+      "words": [
+        {
+          "word": " 2024년",
+          "start": 0.0,
+          "end": 0.8,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 11월",
+          "start": 0.8,
+          "end": 1.22,
+          "probability": 1.0
+        },
+        {
+          "word": " 12일",
+          "start": 1.22,
+          "end": 1.7,
+          "probability": 1.0
+        },
+        {
+          "word": " 검찰은",
+          "start": 1.7,
+          "end": 2.24,
+          "probability": 0.86572265625
+        },
+        {
+          "word": " 중대장",
+          "start": 2.24,
+          "end": 2.66,
+          "probability": 1.0
+        },
+        {
+          "word": " 징역",
+          "start": 2.66,
+          "end": 2.92,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 10년,",
+          "start": 2.92,
+          "end": 3.28,
+          "probability": 1.0
+        },
+        {
+          "word": " 부중대장",
+          "start": 3.4,
+          "end": 3.86,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 징역",
+          "start": 3.86,
+          "end": 4.12,
+          "probability": 1.0
+        },
+        {
+          "word": " 7년을",
+          "start": 4.12,
+          "end": 4.54,
+          "probability": 1.0
+        },
+        {
+          "word": " 구형했습니다.",
+          "start": 4.54,
+          "end": 4.98,
+          "probability": 0.990234375
+        }
+      ]
+    },
+    {
+      "id": "N047_01",
+      "expected": "구형은 요청이지 선고가 아닙니다.",
+      "asr": "구형은 요청이지 선고가 아닙니다.",
+      "errors": 0,
+      "characters": 14,
+      "match": 1.0,
+      "mtime": 1793512619.4782612,
+      "words": [
+        {
+          "word": " 구형은",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " 요청이지",
+          "start": 0.36,
+          "end": 0.92,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 선고가",
+          "start": 0.92,
+          "end": 1.44,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " 아닙니다.",
+          "start": 1.44,
+          "end": 1.82,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N047_02",
+      "expected": "군의 지도력과 관리 체제에 대한 신뢰 훼손도 이유였죠.",
+      "asr": "군의 지도력과 관리 체제에 대한 신뢰 훼손도 이유였죠.",
+      "errors": 0,
+      "characters": 22,
+      "match": 1.0,
+      "mtime": 1793512626.1246717,
+      "words": [
+        {
+          "word": " 군의",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 지도력과",
+          "start": 0.28,
+          "end": 0.78,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 관리",
+          "start": 0.78,
+          "end": 1.12,
+          "probability": 1.0
+        },
+        {
+          "word": " 체제에",
+          "start": 1.12,
+          "end": 1.5,
+          "probability": 0.91748046875
+        },
+        {
+          "word": " 대한",
+          "start": 1.5,
+          "end": 1.7,
+          "probability": 1.0
+        },
+        {
+          "word": " 신뢰",
+          "start": 1.7,
+          "end": 2.08,
+          "probability": 0.96630859375
+        },
+        {
+          "word": " 훼손도",
+          "start": 2.08,
+          "end": 2.44,
+          "probability": 0.962890625
+        },
+        {
+          "word": " 이유였죠.",
+          "start": 2.44,
+          "end": 2.98,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": "N048_01",
+      "expected": "2025년 1월 7일, 춘천지법 선고.",
+      "asr": "2025년 1월 7일 춘천지법 선고",
+      "errors": 0,
+      "characters": 16,
+      "match": 1.0,
+      "mtime": 1793512631.8374193,
+      "words": [
+        {
+          "word": " 2025년",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " 1월",
+          "start": 0.62,
+          "end": 0.86,
+          "probability": 1.0
+        },
+        {
+          "word": " 7일",
+          "start": 0.86,
+          "end": 1.2,
+          "probability": 1.0
+        },
+        {
+          "word": " 춘천지법",
+          "start": 1.2,
+          "end": 1.78,
+          "probability": 0.982421875
+        },
+        {
+          "word": " 선고",
+          "start": 1.78,
+          "end": 2.16,
+          "probability": 0.97119140625
+        }
+      ]
+    },
+    {
+      "id": "N048_02",
+      "expected": "중대장 징역 5년, 부중대장 징역 3년.",
+      "asr": "중대장 징역 5년, 부중대장 징역 3년.",
+      "errors": 0,
+      "characters": 15,
+      "match": 1.0,
+      "mtime": 1793512637.2094257,
+      "words": [
+        {
+          "word": " 중대장",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 징역",
+          "start": 0.3,
+          "end": 0.56,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 5년,",
+          "start": 0.56,
+          "end": 0.86,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 부중대장",
+          "start": 0.98,
+          "end": 1.42,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 징역",
+          "start": 1.42,
+          "end": 1.7,
+          "probability": 1.0
+        },
+        {
+          "word": " 3년.",
+          "start": 1.7,
+          "end": 2.02,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N049_01",
+      "expected": "요청과 선고 사이의 차이.",
+      "asr": "요청과 선고 사이의 차이",
+      "errors": 0,
+      "characters": 10,
+      "match": 1.0,
+      "mtime": 1793512640.5486076,
+      "words": [
+        {
+          "word": " 요청과",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 선고",
+          "start": 0.4,
+          "end": 0.68,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 사이의",
+          "start": 0.68,
+          "end": 1.04,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " 차이",
+          "start": 1.04,
+          "end": 1.38,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N049_02",
+      "expected": "그런데 중대장 5년은 마지막 숫자가 아니었습니다.",
+      "asr": "그런데 중대장 5년은 마지막 숫자가 아니었습니다.",
+      "errors": 0,
+      "characters": 21,
+      "match": 1.0,
+      "mtime": 1793512645.44638,
+      "words": [
+        {
+          "word": " 그런데",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 중대장",
+          "start": 0.24,
+          "end": 0.84,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 5년은",
+          "start": 0.84,
+          "end": 1.28,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " 마지막",
+          "start": 1.28,
+          "end": 1.72,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 숫자가",
+          "start": 1.72,
+          "end": 2.18,
+          "probability": 1.0
+        },
+        {
+          "word": " 아니었습니다.",
+          "start": 2.18,
+          "end": 2.68,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N050_01",
+      "expected": "항소심에서는 이 일을 하나의 행위로 묶어 볼 수 있는지, 그 판단이 바뀌었습니다.",
+      "asr": "항소심에서는 이 일을 하나의 행위로 묶어볼 수 있는지 그 판단이 바뀌었습니다.",
+      "errors": 0,
+      "characters": 32,
+      "match": 1.0,
+      "mtime": 1793512650.9891784,
+      "words": [
+        {
+          "word": " 항소심에서는",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 이",
+          "start": 0.62,
+          "end": 0.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 일을",
+          "start": 0.96,
+          "end": 1.26,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 하나의",
+          "start": 1.26,
+          "end": 1.64,
+          "probability": 1.0
+        },
+        {
+          "word": " 행위로",
+          "start": 1.64,
+          "end": 1.96,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 묶어볼",
+          "start": 1.96,
+          "end": 2.46,
+          "probability": 0.9736328125
+        },
+        {
+          "word": " 수",
+          "start": 2.46,
+          "end": 2.58,
+          "probability": 1.0
+        },
+        {
+          "word": " 있는지",
+          "start": 2.58,
+          "end": 2.98,
+          "probability": 1.0
+        },
+        {
+          "word": " 그",
+          "start": 2.98,
+          "end": 3.28,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " 판단이",
+          "start": 3.28,
+          "end": 3.76,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 바뀌었습니다.",
+          "start": 3.76,
+          "end": 4.26,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N051_01",
+      "expected": "1심은 하나의 행위가 여러 범죄를 구성하는 상상적 경합.",
+      "asr": "1심은 하나의 행위가 여러 범죄를 구성하는 상상적 경합.",
+      "errors": 0,
+      "characters": 23,
+      "match": 1.0,
+      "mtime": 1793512656.5491807,
+      "words": [
+        {
+          "word": " 1심은",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 0.95458984375
+        },
+        {
+          "word": " 하나의",
+          "start": 0.4,
+          "end": 0.74,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 행위가",
+          "start": 0.74,
+          "end": 1.12,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 여러",
+          "start": 1.12,
+          "end": 1.44,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " 범죄를",
+          "start": 1.44,
+          "end": 1.86,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 구성하는",
+          "start": 1.86,
+          "end": 2.32,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 상상적",
+          "start": 2.32,
+          "end": 2.9,
+          "probability": 0.9921875
+        },
+        {
+          "word": " 경합.",
+          "start": 2.9,
+          "end": 3.22,
+          "probability": 0.9794921875
+        }
+      ]
+    },
+    {
+      "id": "N051_02",
+      "expected": "죄는 여러 개라도 행위는 하나로 봤죠.",
+      "asr": "죄는 여러 개라도 행위는 하나로 받죠.",
+      "errors": 1,
+      "characters": 15,
+      "match": 0.9333333333333333,
+      "mtime": 1793512659.695825,
+      "words": [
+        {
+          "word": " 죄는",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 여러",
+          "start": 0.28,
+          "end": 0.54,
+          "probability": 1.0
+        },
+        {
+          "word": " 개라도",
+          "start": 0.54,
+          "end": 0.86,
+          "probability": 0.9638671875
+        },
+        {
+          "word": " 행위는",
+          "start": 0.86,
+          "end": 1.26,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 하나로",
+          "start": 1.26,
+          "end": 1.6,
+          "probability": 1.0
+        },
+        {
+          "word": " 받죠.",
+          "start": 1.6,
+          "end": 1.96,
+          "probability": 0.8583984375
+        }
+      ]
+    },
+    {
+      "id": "N052_01",
+      "expected": "항소심은 같은 장소, 같은 기회라는 이유만으로 하나로 묶을 수 없다고 봤습니다.",
+      "asr": "항소심은 같은 장소, 같은 기회라는 이유만으로 하나로 묶을 수 없다고 봤습니다.",
+      "errors": 0,
+      "characters": 32,
+      "match": 1.0,
+      "mtime": 1793512666.6000698,
+      "words": [
+        {
+          "word": " 항소심은",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.984375
+        },
+        {
+          "word": " 같은",
+          "start": 0.44,
+          "end": 0.72,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 장소,",
+          "start": 0.72,
+          "end": 1.14,
+          "probability": 1.0
+        },
+        {
+          "word": " 같은",
+          "start": 1.26,
+          "end": 1.52,
+          "probability": 1.0
+        },
+        {
+          "word": " 기회라는",
+          "start": 1.52,
+          "end": 2.08,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 이유만으로",
+          "start": 2.08,
+          "end": 2.64,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 하나로",
+          "start": 2.64,
+          "end": 3.16,
+          "probability": 0.994140625
+        },
+        {
+          "word": " 묶을",
+          "start": 3.16,
+          "end": 3.46,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 수",
+          "start": 3.46,
+          "end": 3.6,
+          "probability": 1.0
+        },
+        {
+          "word": " 없다고",
+          "start": 3.6,
+          "end": 3.94,
+          "probability": 1.0
+        },
+        {
+          "word": " 봤습니다.",
+          "start": 3.94,
+          "end": 4.36,
+          "probability": 0.9970703125
+        }
+      ]
+    },
+    {
+      "id": "N053_01",
+      "expected": "피해자마다 가혹행위와 학대 양상이 달랐다는 겁니다.",
+      "asr": "피해자마다 가혹 행위와 학대 양상이 달랐다는 겁니다.",
+      "errors": 0,
+      "characters": 22,
+      "match": 1.0,
+      "mtime": 1793512672.2397904,
+      "words": [
+        {
+          "word": " 피해자마다",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.99169921875
+        },
+        {
+          "word": " 가혹",
+          "start": 0.58,
+          "end": 1.0,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 행위와",
+          "start": 1.0,
+          "end": 1.42,
+          "probability": 0.9365234375
+        },
+        {
+          "word": " 학대",
+          "start": 1.42,
+          "end": 1.74,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 양상이",
+          "start": 1.74,
+          "end": 2.12,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 달랐다는",
+          "start": 2.12,
+          "end": 2.64,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 겁니다.",
+          "start": 2.64,
+          "end": 2.84,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N053_02",
+      "expected": "사람별 피해를 나누어 보았죠.",
+      "asr": "사람별 피해를 나누어 보았죠",
+      "errors": 0,
+      "characters": 12,
+      "match": 1.0,
+      "mtime": 1793512676.5050316,
+      "words": [
+        {
+          "word": " 사람별",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.97900390625
+        },
+        {
+          "word": " 피해를",
+          "start": 0.48,
+          "end": 0.86,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 나누어",
+          "start": 0.86,
+          "end": 1.18,
+          "probability": 0.9833984375
+        },
+        {
+          "word": " 보았죠",
+          "start": 1.18,
+          "end": 1.58,
+          "probability": 0.994140625
+        }
+      ]
+    },
+    {
+      "id": "N054_01",
+      "expected": "여러 행위로 여러 죄를 범한 실체적 경합.",
+      "asr": "여러 행위로 여러 죄를 범한 실체적 경합.",
+      "errors": 0,
+      "characters": 16,
+      "match": 1.0,
+      "mtime": 1793512682.1882684,
+      "words": [
+        {
+          "word": " 여러",
+          "start": 0.0,
+          "end": 0.18,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " 행위로",
+          "start": 0.18,
+          "end": 0.54,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 여러",
+          "start": 0.54,
+          "end": 0.8,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 죄를",
+          "start": 0.8,
+          "end": 1.06,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 범한",
+          "start": 1.06,
+          "end": 1.4,
+          "probability": 1.0
+        },
+        {
+          "word": " 실체적",
+          "start": 1.4,
+          "end": 1.9,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 경합.",
+          "start": 1.9,
+          "end": 2.22,
+          "probability": 0.98876953125
+        }
+      ]
+    },
+    {
+      "id": "N054_02",
+      "expected": "쟁점은 피해를 어떻게 구분하느냐였습니다.",
+      "asr": "쟁점은 피해를 어떻게 구분하느냐였습니다.",
+      "errors": 0,
+      "characters": 18,
+      "match": 1.0,
+      "mtime": 1793512686.8013062,
+      "words": [
+        {
+          "word": " 쟁점은",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 피해를",
+          "start": 0.44,
+          "end": 0.82,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " 어떻게",
+          "start": 0.82,
+          "end": 1.18,
+          "probability": 1.0
+        },
+        {
+          "word": " 구분하느냐였습니다.",
+          "start": 1.18,
+          "end": 2.22,
+          "probability": 0.95751953125
+        }
+      ]
+    },
+    {
+      "id": "N055_01",
+      "expected": "여섯 사람을 한 덩어리로 보는 화면이 깨집니다.",
+      "asr": "6사람을 한 덩어리로 보는 화면이 깨집니다.",
+      "errors": 0,
+      "characters": 18,
+      "match": 1.0,
+      "mtime": 1793512692.8794186,
+      "words": [
+        {
+          "word": " 6사람을",
+          "start": 0.0,
+          "end": 0.66,
+          "probability": 0.88818359375
+        },
+        {
+          "word": " 한",
+          "start": 0.66,
+          "end": 0.86,
+          "probability": 0.9921875
+        },
+        {
+          "word": " 덩어리로",
+          "start": 0.86,
+          "end": 1.36,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 보는",
+          "start": 1.36,
+          "end": 1.58,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 화면이",
+          "start": 1.58,
+          "end": 2.06,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " 깨집니다.",
+          "start": 2.06,
+          "end": 2.56,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N055_02",
+      "expected": "정확히 죄가 여섯 개라는 계산은 아닙니다.",
+      "asr": "정확히 죄가 6개라는 계산은 아닙니다.",
+      "errors": 0,
+      "characters": 16,
+      "match": 1.0,
+      "mtime": 1793512698.3730855,
+      "words": [
+        {
+          "word": " 정확히",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 1.0
+        },
+        {
+          "word": " 죄가",
+          "start": 0.42,
+          "end": 0.68,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 6개라는",
+          "start": 0.68,
+          "end": 1.38,
+          "probability": 0.92041015625
+        },
+        {
+          "word": " 계산은",
+          "start": 1.38,
+          "end": 1.8,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 아닙니다.",
+          "start": 1.8,
+          "end": 2.22,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N056_01",
+      "expected": "2025년 6월 18일, 중대장은 징역 5년 6개월.",
+      "asr": "2025년 6월 18일 중대장은 징역 5년 6개월.",
+      "errors": 0,
+      "characters": 22,
+      "match": 1.0,
+      "mtime": 1793512703.0974572,
+      "words": [
+        {
+          "word": " 2025년",
+          "start": 0.0,
+          "end": 0.68,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 6월",
+          "start": 0.68,
+          "end": 0.96,
+          "probability": 1.0
+        },
+        {
+          "word": " 18일",
+          "start": 0.96,
+          "end": 1.4,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 중대장은",
+          "start": 1.4,
+          "end": 1.98,
+          "probability": 0.9658203125
+        },
+        {
+          "word": " 징역",
+          "start": 1.98,
+          "end": 2.28,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 5년",
+          "start": 2.28,
+          "end": 2.56,
+          "probability": 1.0
+        },
+        {
+          "word": " 6개월.",
+          "start": 2.56,
+          "end": 3.08,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N056_02",
+      "expected": "1심보다 6개월 늘었습니다.",
+      "asr": "1심보다 6개월 늘었습니다.",
+      "errors": 0,
+      "characters": 12,
+      "match": 1.0,
+      "mtime": 1793512706.4017332,
+      "words": [
+        {
+          "word": " 1심보다",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.984375
+        },
+        {
+          "word": " 6개월",
+          "start": 0.52,
+          "end": 0.98,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 늘었습니다.",
+          "start": 0.98,
+          "end": 1.34,
+          "probability": 0.99560546875
+        }
+      ]
+    },
+    {
+      "id": "N057_01",
+      "expected": "부중대장은 같은 징역 3년.",
+      "asr": "보증대장은 같은 징역 3년.",
+      "errors": 2,
+      "characters": 11,
+      "match": 0.8181818181818181,
+      "mtime": 1793512709.9604604,
+      "words": [
+        {
+          "word": " 보증대장은",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " 같은",
+          "start": 0.54,
+          "end": 0.8,
+          "probability": 1.0
+        },
+        {
+          "word": " 징역",
+          "start": 0.8,
+          "end": 1.1,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 3년.",
+          "start": 1.1,
+          "end": 1.46,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N057_02",
+      "expected": "중대장 형이 늘어난 이유를 이쪽으로 옮겨 쓸 수는 없습니다.",
+      "asr": "중대장형이 늘어난 이유를 이쪽으로 옮겨 쓸 수는 없습니다.",
+      "errors": 0,
+      "characters": 24,
+      "match": 1.0,
+      "mtime": 1793512717.171089,
+      "words": [
+        {
+          "word": " 중대장형이",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " 늘어난",
+          "start": 0.62,
+          "end": 0.96,
+          "probability": 1.0
+        },
+        {
+          "word": " 이유를",
+          "start": 0.96,
+          "end": 1.38,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 이쪽으로",
+          "start": 1.38,
+          "end": 1.94,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 옮겨",
+          "start": 1.94,
+          "end": 2.32,
+          "probability": 0.97607421875
+        },
+        {
+          "word": " 쓸",
+          "start": 2.32,
+          "end": 2.5,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " 수는",
+          "start": 2.5,
+          "end": 2.76,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 없습니다.",
+          "start": 2.76,
+          "end": 3.06,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N058_01",
+      "expected": "항소심의 지적은 숫자보다 날카롭습니다.",
+      "asr": "항소심의 지적은 숫자보다 날카롭습니다.",
+      "errors": 0,
+      "characters": 17,
+      "match": 1.0,
+      "mtime": 1793512723.274387,
+      "words": [
+        {
+          "word": " 항소심의",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 지적은",
+          "start": 0.52,
+          "end": 0.94,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 숫자보다",
+          "start": 0.94,
+          "end": 1.52,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 날카롭습니다.",
+          "start": 1.52,
+          "end": 2.22,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N058_02",
+      "expected": "충분히 예방할 수 있었던 사망사고.",
+      "asr": "충분히 예방할 수 있었던 사망사고",
+      "errors": 0,
+      "characters": 14,
+      "match": 1.0,
+      "mtime": 1793512728.1039932,
+      "words": [
+        {
+          "word": " 충분히",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 예방할",
+          "start": 0.36,
+          "end": 0.74,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 수",
+          "start": 0.74,
+          "end": 0.82,
+          "probability": 1.0
+        },
+        {
+          "word": " 있었던",
+          "start": 0.82,
+          "end": 1.18,
+          "probability": 1.0
+        },
+        {
+          "word": " 사망사고",
+          "start": 1.18,
+          "end": 1.88,
+          "probability": 0.98291015625
+        }
+      ]
+    },
+    {
+      "id": "N059_01",
+      "expected": "지휘관들이 후진적 병영문화를 답습했다는 지적.",
+      "asr": "지휘관들이 후진적 병영문화를 답습했다는 지적.",
+      "errors": 0,
+      "characters": 20,
+      "match": 1.0,
+      "mtime": 1793512734.1283796,
+      "words": [
+        {
+          "word": " 지휘관들이",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 후진적",
+          "start": 0.58,
+          "end": 1.12,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 병영문화를",
+          "start": 1.12,
+          "end": 1.76,
+          "probability": 0.755859375
+        },
+        {
+          "word": " 답습했다는",
+          "start": 1.76,
+          "end": 2.44,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 지적.",
+          "start": 2.44,
+          "end": 2.78,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N059_02",
+      "expected": "예방할 수 있었다는 말이 남습니다.",
+      "asr": "예방할 수 있었다는 말이 남습니다.",
+      "errors": 0,
+      "characters": 14,
+      "match": 1.0,
+      "mtime": 1793512739.35474,
+      "words": [
+        {
+          "word": " 예방할",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.984375
+        },
+        {
+          "word": " 수",
+          "start": 0.44,
+          "end": 0.54,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " 있었다는",
+          "start": 0.54,
+          "end": 1.0,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 말이",
+          "start": 1.0,
+          "end": 1.26,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 남습니다.",
+          "start": 1.26,
+          "end": 1.74,
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": "N060_01",
+      "expected": "국가가 병사의 생명과 신체를 보호하리라는 사회의 기본적 기대를 배반한 범행이라고 봤습니다.",
+      "asr": "국가가 병사의 생명과 신체를 보호하리라는 사회의 기본적 기대를 배반한 범행이라고 봤습니다.",
+      "errors": 0,
+      "characters": 39,
+      "match": 1.0,
+      "mtime": 1793512752.0118332,
+      "words": [
+        {
+          "word": " 국가가",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 병사의",
+          "start": 0.38,
+          "end": 0.88,
+          "probability": 1.0
+        },
+        {
+          "word": " 생명과",
+          "start": 0.88,
+          "end": 1.4,
+          "probability": 1.0
+        },
+        {
+          "word": " 신체를",
+          "start": 1.4,
+          "end": 1.88,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 보호하리라는",
+          "start": 1.88,
+          "end": 2.56,
+          "probability": 0.9833984375
+        },
+        {
+          "word": " 사회의",
+          "start": 2.56,
+          "end": 3.02,
+          "probability": 0.95263671875
+        },
+        {
+          "word": " 기본적",
+          "start": 3.02,
+          "end": 3.52,
+          "probability": 1.0
+        },
+        {
+          "word": " 기대를",
+          "start": 3.52,
+          "end": 3.82,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 배반한",
+          "start": 3.82,
+          "end": 4.34,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 범행이라고",
+          "start": 4.34,
+          "end": 4.88,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 봤습니다.",
+          "start": 4.88,
+          "end": 5.32,
+          "probability": 0.9912109375
+        }
+      ]
+    },
+    {
+      "id": "N061_01",
+      "expected": "안전하게 돌려보내리라는 기대.",
+      "asr": "안전하게 돌려보내리라는 기대.",
+      "errors": 0,
+      "characters": 13,
+      "match": 1.0,
+      "mtime": 1793512757.5381436,
+      "words": [
+        {
+          "word": " 안전하게",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 돌려보내리라는",
+          "start": 0.46,
+          "end": 1.4,
+          "probability": 0.9921875
+        },
+        {
+          "word": " 기대.",
+          "start": 1.4,
+          "end": 1.66,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N061_02",
+      "expected": "특별한 서비스가 아니라 출발선이어야 합니다.",
+      "asr": "특별한 서비스가 아니라 출발선이어야 합니다.",
+      "errors": 0,
+      "characters": 19,
+      "match": 1.0,
+      "mtime": 1793512763.5881555,
+      "words": [
+        {
+          "word": " 특별한",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 서비스가",
+          "start": 0.4,
+          "end": 0.88,
+          "probability": 1.0
+        },
+        {
+          "word": " 아니라",
+          "start": 0.88,
+          "end": 1.14,
+          "probability": 1.0
+        },
+        {
+          "word": " 출발선이어야",
+          "start": 1.14,
+          "end": 2.22,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " 합니다.",
+          "start": 2.22,
+          "end": 2.42,
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": "N062_01",
+      "expected": "2025년 9월 25일, 대법원이 중대장 상고를 기각했습니다.",
+      "asr": "2025년 9월 25일 대법원이 중대장 상고를 기각했습니다.",
+      "errors": 0,
+      "characters": 28,
+      "match": 1.0,
+      "mtime": 1793512770.592583,
+      "words": [
+        {
+          "word": " 2025년",
+          "start": 0.0,
+          "end": 0.68,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 9월",
+          "start": 0.68,
+          "end": 1.02,
+          "probability": 1.0
+        },
+        {
+          "word": " 25일",
+          "start": 1.02,
+          "end": 1.66,
+          "probability": 1.0
+        },
+        {
+          "word": " 대법원이",
+          "start": 1.66,
+          "end": 2.22,
+          "probability": 0.9794921875
+        },
+        {
+          "word": " 중대장",
+          "start": 2.22,
+          "end": 2.8,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 상고를",
+          "start": 2.8,
+          "end": 3.18,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " 기각했습니다.",
+          "start": 3.18,
+          "end": 3.7,
+          "probability": 0.9970703125
+        }
+      ]
+    },
+    {
+      "id": "N062_02",
+      "expected": "징역 5년 6개월 확정.",
+      "asr": "징역 5년 6개월 확정.",
+      "errors": 0,
+      "characters": 9,
+      "match": 1.0,
+      "mtime": 1793512774.1758592,
+      "words": [
+        {
+          "word": " 징역",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 5년",
+          "start": 0.22,
+          "end": 0.46,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 6개월",
+          "start": 0.46,
+          "end": 0.84,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 확정.",
+          "start": 0.84,
+          "end": 1.18,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N063_01",
+      "expected": "부중대장 징역 3년도 확정 상태.",
+      "asr": "부중대장 징역 3년도 확정상태.",
+      "errors": 0,
+      "characters": 13,
+      "match": 1.0,
+      "mtime": 1793512778.561384,
+      "words": [
+        {
+          "word": " 부중대장",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.984375
+        },
+        {
+          "word": " 징역",
+          "start": 0.42,
+          "end": 0.68,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " 3년도",
+          "start": 0.68,
+          "end": 1.06,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " 확정상태.",
+          "start": 1.06,
+          "end": 1.72,
+          "probability": 0.9072265625
+        }
+      ]
+    },
+    {
+      "id": "N063_02",
+      "expected": "같은 날 두 사람의 본안을 함께 판단했다는 뜻은 아닙니다.",
+      "asr": "같은 날 두 사람의 본안을 함께 판단했다는 뜻은 아닙니다.",
+      "errors": 0,
+      "characters": 23,
+      "match": 1.0,
+      "mtime": 1793512784.4219913,
+      "words": [
+        {
+          "word": " 같은",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 날",
+          "start": 0.22,
+          "end": 0.44,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 두",
+          "start": 0.44,
+          "end": 0.62,
+          "probability": 0.9921875
+        },
+        {
+          "word": " 사람의",
+          "start": 0.62,
+          "end": 0.96,
+          "probability": 1.0
+        },
+        {
+          "word": " 본안을",
+          "start": 0.96,
+          "end": 1.36,
+          "probability": 0.9755859375
+        },
+        {
+          "word": " 함께",
+          "start": 1.36,
+          "end": 1.68,
+          "probability": 1.0
+        },
+        {
+          "word": " 판단했다는",
+          "start": 1.68,
+          "end": 2.32,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 뜻은",
+          "start": 2.32,
+          "end": 2.68,
+          "probability": 1.0
+        },
+        {
+          "word": " 아닙니다.",
+          "start": 2.68,
+          "end": 3.08,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N064_01",
+      "expected": "판결은 끝났습니다.",
+      "asr": "판결은 끝났습니다.",
+      "errors": 0,
+      "characters": 8,
+      "match": 1.0,
+      "mtime": 1793512787.2982457,
+      "words": [
+        {
+          "word": " 판결은",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 끝났습니다.",
+          "start": 0.42,
+          "end": 0.94,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N064_02",
+      "expected": "군은 무엇을 바꾸겠다고 했을까요?",
+      "asr": "군은 무엇을 바꾸겠다고 했을까요?",
+      "errors": 0,
+      "characters": 14,
+      "match": 1.0,
+      "mtime": 1793512791.4796991,
+      "words": [
+        {
+          "word": " 군은",
+          "start": 0.0,
+          "end": 0.26,
+          "probability": 0.97314453125
+        },
+        {
+          "word": " 무엇을",
+          "start": 0.26,
+          "end": 0.74,
+          "probability": 1.0
+        },
+        {
+          "word": " 바꾸겠다고",
+          "start": 0.74,
+          "end": 1.34,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 했을까요?",
+          "start": 1.34,
+          "end": 1.82,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N064_03",
+      "expected": "대책은 다시 기본으로 돌아갑니다.",
+      "asr": "대책은 다시 기본으로 돌아갑니다.",
+      "errors": 0,
+      "characters": 14,
+      "match": 1.0,
+      "mtime": 1793512795.6302402,
+      "words": [
+        {
+          "word": " 대책은",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 1.0
+        },
+        {
+          "word": " 다시",
+          "start": 0.4,
+          "end": 0.62,
+          "probability": 1.0
+        },
+        {
+          "word": " 기본으로",
+          "start": 0.62,
+          "end": 1.18,
+          "probability": 1.0
+        },
+        {
+          "word": " 돌아갑니다.",
+          "start": 1.18,
+          "end": 1.78,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N065_01",
+      "expected": "2024년 6월 27일, 국방부는 훈련병 군기훈련에서 체력단련 종목을 빼기로 했다고 밝혔습니다.",
+      "asr": "2024년 6월 27일 국방부는 훈련병 군기훈련에서 체력단련 종목을 빼기로 했다고 밝혔습니다.",
+      "errors": 0,
+      "characters": 43,
+      "match": 1.0,
+      "mtime": 1793512806.6528273,
+      "words": [
+        {
+          "word": " 2024년",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " 6월",
+          "start": 0.76,
+          "end": 1.1,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 27일",
+          "start": 1.1,
+          "end": 1.68,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 국방부는",
+          "start": 1.68,
+          "end": 2.26,
+          "probability": 0.94091796875
+        },
+        {
+          "word": " 훈련병",
+          "start": 2.26,
+          "end": 2.74,
+          "probability": 0.98779296875
+        },
+        {
+          "word": " 군기훈련에서",
+          "start": 2.74,
+          "end": 3.56,
+          "probability": 0.91455078125
+        },
+        {
+          "word": " 체력단련",
+          "start": 3.56,
+          "end": 4.32,
+          "probability": 0.98486328125
+        },
+        {
+          "word": " 종목을",
+          "start": 4.32,
+          "end": 4.74,
+          "probability": 0.9951171875
+        },
+        {
+          "word": " 빼기로",
+          "start": 4.74,
+          "end": 5.1,
+          "probability": 0.994140625
+        },
+        {
+          "word": " 했다고",
+          "start": 5.1,
+          "end": 5.38,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 밝혔습니다.",
+          "start": 5.38,
+          "end": 5.9,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N066_01",
+      "expected": "개인 소명 단계를 반드시 거치도록 절차도 표준화했습니다.",
+      "asr": "개인 소명 단계를 반드시 거치도록 절차도 표준화했습니다.",
+      "errors": 0,
+      "characters": 24,
+      "match": 1.0,
+      "mtime": 1793512815.7886093,
+      "words": [
+        {
+          "word": " 개인",
+          "start": 0.0,
+          "end": 0.2,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 소명",
+          "start": 0.2,
+          "end": 0.54,
+          "probability": 0.9697265625
+        },
+        {
+          "word": " 단계를",
+          "start": 0.54,
+          "end": 1.0,
+          "probability": 0.990234375
+        },
+        {
+          "word": " 반드시",
+          "start": 1.0,
+          "end": 1.46,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 거치도록",
+          "start": 1.46,
+          "end": 1.96,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 절차도",
+          "start": 1.96,
+          "end": 2.44,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 표준화했습니다.",
+          "start": 2.44,
+          "end": 3.1,
+          "probability": 0.9326171875
+        }
+      ]
+    },
+    {
+      "id": "N066_02",
+      "expected": "사건에서 빠졌던 그 단계죠.",
+      "asr": "사건에서 빠졌던 그 단계죠.",
+      "errors": 0,
+      "characters": 11,
+      "match": 1.0,
+      "mtime": 1793512822.3282506,
+      "words": [
+        {
+          "word": " 사건에서",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.98095703125
+        },
+        {
+          "word": " 빠졌던",
+          "start": 0.42,
+          "end": 0.9,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 그",
+          "start": 0.9,
+          "end": 1.06,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 단계죠.",
+          "start": 1.06,
+          "end": 1.46,
+          "probability": 0.99560546875
+        }
+      ]
+    },
+    {
+      "id": "N067_01",
+      "expected": "신병교육부대 군기훈련 승인권자는 영관급 지휘관으로 높이기로 했습니다.",
+      "asr": "신병교육부대 군기훈련 승인권자는 연관급 지휘관으로 높이기로 했습니다.",
+      "errors": 1,
+      "characters": 31,
+      "match": 0.967741935483871,
+      "mtime": 1793512833.4972463,
+      "words": [
+        {
+          "word": " 신병교육부대",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.99267578125
+        },
+        {
+          "word": " 군기훈련",
+          "start": 0.76,
+          "end": 1.38,
+          "probability": 0.99365234375
+        },
+        {
+          "word": " 승인권자는",
+          "start": 1.38,
+          "end": 2.06,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 연관급",
+          "start": 2.06,
+          "end": 2.76,
+          "probability": 0.96630859375
+        },
+        {
+          "word": " 지휘관으로",
+          "start": 2.76,
+          "end": 3.38,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 높이기로",
+          "start": 3.38,
+          "end": 3.84,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 했습니다.",
+          "start": 3.84,
+          "end": 4.06,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N068_01",
+      "expected": "건강상태 수시 확인, 기상에 따른 진행 판단, 응급상황 대비 뒤 시행하는 절차도 담았습니다.",
+      "asr": "건강상태 수시 확인, 기상에 따른 진행 판단, 응급상황 대비 뒤 시행하는 절차도 담았습니다.",
+      "errors": 0,
+      "characters": 36,
+      "match": 1.0,
+      "mtime": 1793512845.091368,
+      "words": [
+        {
+          "word": " 건강상태",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.96728515625
+        },
+        {
+          "word": " 수시",
+          "start": 0.58,
+          "end": 0.9,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 확인,",
+          "start": 0.9,
+          "end": 1.14,
+          "probability": 0.767578125
+        },
+        {
+          "word": " 기상에",
+          "start": 1.32,
+          "end": 1.62,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 따른",
+          "start": 1.62,
+          "end": 1.88,
+          "probability": 1.0
+        },
+        {
+          "word": " 진행",
+          "start": 1.88,
+          "end": 2.14,
+          "probability": 1.0
+        },
+        {
+          "word": " 판단,",
+          "start": 2.14,
+          "end": 2.52,
+          "probability": 0.82470703125
+        },
+        {
+          "word": " 응급상황",
+          "start": 2.66,
+          "end": 3.18,
+          "probability": 0.92041015625
+        },
+        {
+          "word": " 대비",
+          "start": 3.18,
+          "end": 3.4,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 뒤",
+          "start": 3.4,
+          "end": 3.5,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 시행하는",
+          "start": 3.5,
+          "end": 4.04,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 절차도",
+          "start": 4.04,
+          "end": 4.46,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 담았습니다.",
+          "start": 4.46,
+          "end": 4.88,
+          "probability": 0.99755859375
+        }
+      ]
+    },
+    {
+      "id": "N069_01",
+      "expected": "사람 확인.",
+      "asr": "사람 확인",
+      "errors": 0,
+      "characters": 4,
+      "match": 1.0,
+      "mtime": 1793512847.834497,
+      "words": [
+        {
+          "word": " 사람",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.97119140625
+        },
+        {
+          "word": " 확인",
+          "start": 0.28,
+          "end": 0.48,
+          "probability": 0.8544921875
+        }
+      ]
+    },
+    {
+      "id": "N069_02",
+      "expected": "날씨 확인.",
+      "asr": "날씬",
+      "errors": 3,
+      "characters": 4,
+      "match": 0.25,
+      "mtime": 1793512850.2906234,
+      "words": [
+        {
+          "word": " 날씬",
+          "start": 0.0,
+          "end": 0.44,
+          "probability": 0.974609375
+        }
+      ]
+    },
+    {
+      "id": "N069_03",
+      "expected": "응급상황 준비.",
+      "asr": "응급상황 준비",
+      "errors": 0,
+      "characters": 6,
+      "match": 1.0,
+      "mtime": 1793512852.5676665,
+      "words": [
+        {
+          "word": " 응급상황",
+          "start": 0.0,
+          "end": 0.5,
+          "probability": 0.92724609375
+        },
+        {
+          "word": " 준비",
+          "start": 0.5,
+          "end": 0.7,
+          "probability": 0.91650390625
+        }
+      ]
+    },
+    {
+      "id": "N069_04",
+      "expected": "신기술 발표가 아닙니다.",
+      "asr": "신기술 발표가 아닙니다.",
+      "errors": 0,
+      "characters": 10,
+      "match": 1.0,
+      "mtime": 1793512855.2915235,
+      "words": [
+        {
+          "word": " 신기술",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.98828125
+        },
+        {
+          "word": " 발표가",
+          "start": 0.46,
+          "end": 0.86,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 아닙니다.",
+          "start": 0.86,
+          "end": 1.26,
+          "probability": 0.99951171875
+        }
+      ]
+    },
+    {
+      "id": "N069_05",
+      "expected": "사람을 훈련시키는 기본입니다.",
+      "asr": "사람을 훈련시키는 기본입니다.",
+      "errors": 0,
+      "characters": 13,
+      "match": 1.0,
+      "mtime": 1793512859.5503104,
+      "words": [
+        {
+          "word": " 사람을",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.98828125
+        },
+        {
+          "word": " 훈련시키는",
+          "start": 0.42,
+          "end": 1.08,
+          "probability": 0.9912109375
+        },
+        {
+          "word": " 기본입니다.",
+          "start": 1.08,
+          "end": 1.62,
+          "probability": 0.984375
+        }
+      ]
+    },
+    {
+      "id": "N070_01",
+      "expected": "혹서기 관리는 7월 1일에서 6월 1일 시작으로 확대.",
+      "asr": "폭서기 관리는 7월 1일에서 6월 1일 시작으로 확대.",
+      "errors": 1,
+      "characters": 22,
+      "match": 0.9545454545454546,
+      "mtime": 1793512867.414441,
+      "words": [
+        {
+          "word": " 폭서기",
+          "start": 0.0,
+          "end": 0.3,
+          "probability": 0.70703125
+        },
+        {
+          "word": " 관리는",
+          "start": 0.3,
+          "end": 0.66,
+          "probability": 0.9970703125
+        },
+        {
+          "word": " 7월",
+          "start": 0.66,
+          "end": 1.1,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 1일에서",
+          "start": 1.1,
+          "end": 1.54,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 6월",
+          "start": 1.54,
+          "end": 1.96,
+          "probability": 1.0
+        },
+        {
+          "word": " 1일",
+          "start": 1.96,
+          "end": 2.2,
+          "probability": 1.0
+        },
+        {
+          "word": " 시작으로",
+          "start": 2.2,
+          "end": 2.62,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 확대.",
+          "start": 2.62,
+          "end": 3.0,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": "N070_02",
+      "expected": "끝은 같은 8월 31일.",
+      "asr": "끝은 같은 8월 31일",
+      "errors": 0,
+      "characters": 10,
+      "match": 1.0,
+      "mtime": 1793512872.0306602,
+      "words": [
+        {
+          "word": " 끝은",
+          "start": 0.0,
+          "end": 0.24,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 같은",
+          "start": 0.24,
+          "end": 0.42,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 8월",
+          "start": 0.42,
+          "end": 0.8,
+          "probability": 1.0
+        },
+        {
+          "word": " 31일",
+          "start": 0.8,
+          "end": 1.32,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N071_01",
+      "expected": "온도지수는 하루 세 차례 이상 측정.",
+      "asr": "온도지수는 하루 3차례 이상 측정",
+      "errors": 0,
+      "characters": 14,
+      "match": 1.0,
+      "mtime": 1793512876.9998412,
+      "words": [
+        {
+          "word": " 온도지수는",
+          "start": 0.0,
+          "end": 0.58,
+          "probability": 0.97119140625
+        },
+        {
+          "word": " 하루",
+          "start": 0.58,
+          "end": 0.8,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 3차례",
+          "start": 0.8,
+          "end": 1.26,
+          "probability": 0.9814453125
+        },
+        {
+          "word": " 이상",
+          "start": 1.26,
+          "end": 1.5,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 측정",
+          "start": 1.5,
+          "end": 1.88,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N071_02",
+      "expected": "하지만 대책 발표가 현장의 안전을 대신하진 못합니다.",
+      "asr": "하지만 대책 발표가 현장의 안전을 대신하진 못합니다.",
+      "errors": 0,
+      "characters": 22,
+      "match": 1.0,
+      "mtime": 1793512884.2349854,
+      "words": [
+        {
+          "word": " 하지만",
+          "start": 0.0,
+          "end": 0.18,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 대책",
+          "start": 0.18,
+          "end": 0.56,
+          "probability": 1.0
+        },
+        {
+          "word": " 발표가",
+          "start": 0.56,
+          "end": 1.06,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " 현장의",
+          "start": 1.06,
+          "end": 1.6,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 안전을",
+          "start": 1.6,
+          "end": 1.98,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 대신하진",
+          "start": 1.98,
+          "end": 2.48,
+          "probability": 0.98291015625
+        },
+        {
+          "word": " 못합니다.",
+          "start": 2.48,
+          "end": 2.9,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N072_01",
+      "expected": "바꾸겠다는 목록은 남았습니다.",
+      "asr": "바꾸겠다는 목록은 남았습니다.",
+      "errors": 0,
+      "characters": 13,
+      "match": 1.0,
+      "mtime": 1793512888.2081442,
+      "words": [
+        {
+          "word": " 바꾸겠다는",
+          "start": 0.0,
+          "end": 0.62,
+          "probability": 0.994140625
+        },
+        {
+          "word": " 목록은",
+          "start": 0.62,
+          "end": 1.08,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 남았습니다.",
+          "start": 1.08,
+          "end": 1.48,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N072_02",
+      "expected": "훈련병을 기다렸던 자리에는 무엇이 남았을까요?",
+      "asr": "훈련병을 기다렸던 자리에는 무엇이 남았을까요?",
+      "errors": 0,
+      "characters": 20,
+      "match": 1.0,
+      "mtime": 1793512892.6216092,
+      "words": [
+        {
+          "word": " 훈련병을",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 기다렸던",
+          "start": 0.54,
+          "end": 1.0,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 자리에는",
+          "start": 1.0,
+          "end": 1.44,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 무엇이",
+          "start": 1.44,
+          "end": 2.0,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 남았을까요?",
+          "start": 2.0,
+          "end": 2.62,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N073_01",
+      "expected": "2024년 6월 19일, 인제체육관 수료식장 추모 공간에는 명예수료증이 놓였습니다.",
+      "asr": "2024년 6월 19일 인재체육관 수료식장 추모 공간에는 명예수료증이 놓였습니다.",
+      "errors": 1,
+      "characters": 37,
+      "match": 0.972972972972973,
+      "mtime": 1793512900.7562888,
+      "words": [
+        {
+          "word": " 2024년",
+          "start": 0.0,
+          "end": 0.76,
+          "probability": 0.98388671875
+        },
+        {
+          "word": " 6월",
+          "start": 0.76,
+          "end": 1.08,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 19일",
+          "start": 1.08,
+          "end": 1.6,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " 인재체육관",
+          "start": 1.6,
+          "end": 2.42,
+          "probability": 0.9169921875
+        },
+        {
+          "word": " 수료식장",
+          "start": 2.42,
+          "end": 3.0,
+          "probability": 0.9736328125
+        },
+        {
+          "word": " 추모",
+          "start": 3.0,
+          "end": 3.28,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 공간에는",
+          "start": 3.28,
+          "end": 3.76,
+          "probability": 0.9765625
+        },
+        {
+          "word": " 명예수료증이",
+          "start": 3.76,
+          "end": 4.64,
+          "probability": 0.966796875
+        },
+        {
+          "word": " 놓였습니다.",
+          "start": 4.64,
+          "end": 4.92,
+          "probability": 0.998046875
+        }
+      ]
+    },
+    {
+      "id": "N074_01",
+      "expected": "참석자들은 국화꽃을 놓고 고인을 추모했습니다.",
+      "asr": "참석자들은 국화꽃을 놓고 고인을 추모했습니다.",
+      "errors": 0,
+      "characters": 20,
+      "match": 1.0,
+      "mtime": 1793512905.5274239,
+      "words": [
+        {
+          "word": " 참석자들은",
+          "start": 0.0,
+          "end": 0.64,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 국화꽃을",
+          "start": 0.64,
+          "end": 1.32,
+          "probability": 0.98876953125
+        },
+        {
+          "word": " 놓고",
+          "start": 1.32,
+          "end": 1.64,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 고인을",
+          "start": 1.64,
+          "end": 2.0,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 추모했습니다.",
+          "start": 2.0,
+          "end": 2.52,
+          "probability": 0.99658203125
+        }
+      ]
+    },
+    {
+      "id": "N074_02",
+      "expected": "수료식 안에 마련된 추모 공간이었습니다.",
+      "asr": "수료식 안에 마련된 추모 공간이었습니다.",
+      "errors": 0,
+      "characters": 17,
+      "match": 1.0,
+      "mtime": 1793512910.4782217,
+      "words": [
+        {
+          "word": " 수료식",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.900390625
+        },
+        {
+          "word": " 안에",
+          "start": 0.46,
+          "end": 0.7,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " 마련된",
+          "start": 0.7,
+          "end": 1.18,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 추모",
+          "start": 1.18,
+          "end": 1.52,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 공간이었습니다.",
+          "start": 1.52,
+          "end": 2.22,
+          "probability": 0.96142578125
+        }
+      ]
+    },
+    {
+      "id": "N075_01",
+      "expected": "어머니는 편지에 수료생 251명 가운데 아들만 없다고 썼습니다.",
+      "asr": "어머니는 편지에 수료생 251명 가운데 아들만 없다고 썼습니다.",
+      "errors": 0,
+      "characters": 29,
+      "match": 1.0,
+      "mtime": 1793512917.10939,
+      "words": [
+        {
+          "word": " 어머니는",
+          "start": 0.0,
+          "end": 0.42,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 편지에",
+          "start": 0.42,
+          "end": 0.92,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 수료생",
+          "start": 0.92,
+          "end": 1.36,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 251명",
+          "start": 1.36,
+          "end": 2.26,
+          "probability": 0.99560546875
+        },
+        {
+          "word": " 가운데",
+          "start": 2.26,
+          "end": 2.62,
+          "probability": 1.0
+        },
+        {
+          "word": " 아들만",
+          "start": 2.62,
+          "end": 3.18,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 없다고",
+          "start": 3.18,
+          "end": 3.5,
+          "probability": 1.0
+        },
+        {
+          "word": " 썼습니다.",
+          "start": 3.5,
+          "end": 3.94,
+          "probability": 0.99853515625
+        }
+      ]
+    },
+    {
+      "id": "N075_02",
+      "expected": "비어 있는 한 사람의 자리.",
+      "asr": "비어있는 한 사람의 자리.",
+      "errors": 0,
+      "characters": 10,
+      "match": 1.0,
+      "mtime": 1793512919.7354536,
+      "words": [
+        {
+          "word": " 비어있는",
+          "start": 0.0,
+          "end": 0.46,
+          "probability": 0.978515625
+        },
+        {
+          "word": " 한",
+          "start": 0.46,
+          "end": 0.66,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 사람의",
+          "start": 0.66,
+          "end": 1.06,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 자리.",
+          "start": 1.06,
+          "end": 1.38,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N076_01",
+      "expected": "입영 날, 먼 길 돌아갈 부모의 손을 잡고 등을 다독였다는 기억도 편지에 남았습니다.",
+      "asr": "입영날 먼 길 돌아갈 부모의 손을 잡고 등을 다독였다는 기억도 편지에 남았습니다.",
+      "errors": 0,
+      "characters": 33,
+      "match": 1.0,
+      "mtime": 1793512927.8406773,
+      "words": [
+        {
+          "word": " 입영날",
+          "start": 0.0,
+          "end": 0.48,
+          "probability": 0.77197265625
+        },
+        {
+          "word": " 먼",
+          "start": 0.48,
+          "end": 0.8,
+          "probability": 0.7587890625
+        },
+        {
+          "word": " 길",
+          "start": 0.8,
+          "end": 1.02,
+          "probability": 0.96240234375
+        },
+        {
+          "word": " 돌아갈",
+          "start": 1.02,
+          "end": 1.4,
+          "probability": 1.0
+        },
+        {
+          "word": " 부모의",
+          "start": 1.4,
+          "end": 1.74,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 손을",
+          "start": 1.74,
+          "end": 2.0,
+          "probability": 1.0
+        },
+        {
+          "word": " 잡고",
+          "start": 2.0,
+          "end": 2.32,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 등을",
+          "start": 2.32,
+          "end": 2.62,
+          "probability": 1.0
+        },
+        {
+          "word": " 다독였다는",
+          "start": 2.62,
+          "end": 3.14,
+          "probability": 0.99755859375
+        },
+        {
+          "word": " 기억도",
+          "start": 3.14,
+          "end": 3.58,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 편지에",
+          "start": 3.58,
+          "end": 4.1,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 남았습니다.",
+          "start": 4.1,
+          "end": 4.44,
+          "probability": 1.0
+        }
+      ]
+    },
+    {
+      "id": "N077_01",
+      "expected": "그날 저녁 부모는 용산역 분향소에서 조문객을 맞았습니다.",
+      "asr": "그날 저녁 부모는 용산역 분향소에서 조문객을 맞았습니다.",
+      "errors": 0,
+      "characters": 24,
+      "match": 1.0,
+      "mtime": 1793512933.3492582,
+      "words": [
+        {
+          "word": " 그날",
+          "start": 0.0,
+          "end": 0.22,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 저녁",
+          "start": 0.22,
+          "end": 0.46,
+          "probability": 0.90234375
+        },
+        {
+          "word": " 부모는",
+          "start": 0.46,
+          "end": 0.84,
+          "probability": 0.97216796875
+        },
+        {
+          "word": " 용산역",
+          "start": 0.84,
+          "end": 1.42,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 분향소에서",
+          "start": 1.42,
+          "end": 2.14,
+          "probability": 0.8916015625
+        },
+        {
+          "word": " 조문객을",
+          "start": 2.14,
+          "end": 2.72,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 맞았습니다.",
+          "start": 2.72,
+          "end": 3.12,
+          "probability": 0.9990234375
+        }
+      ]
+    },
+    {
+      "id": "N077_02",
+      "expected": "돌아올 사람 대신 추모객을 맞은 겁니다.",
+      "asr": "돌아올 사람 대신 추모객을 맞은 겁니다.",
+      "errors": 0,
+      "characters": 16,
+      "match": 1.0,
+      "mtime": 1793512937.8707726,
+      "words": [
+        {
+          "word": " 돌아올",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 사람",
+          "start": 0.38,
+          "end": 0.52,
+          "probability": 0.998046875
+        },
+        {
+          "word": " 대신",
+          "start": 0.52,
+          "end": 0.88,
+          "probability": 1.0
+        },
+        {
+          "word": " 추모객을",
+          "start": 0.88,
+          "end": 1.48,
+          "probability": 0.99658203125
+        },
+        {
+          "word": " 맞은",
+          "start": 1.48,
+          "end": 1.74,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 겁니다.",
+          "start": 1.74,
+          "end": 1.94,
+          "probability": 0.97509765625
+        }
+      ]
+    },
+    {
+      "id": "N078_01",
+      "expected": "법원이 인정한 건 학대치사.",
+      "asr": "법원이 인정한 건 학대치사.",
+      "errors": 0,
+      "characters": 11,
+      "match": 1.0,
+      "mtime": 1793512941.0656419,
+      "words": [
+        {
+          "word": " 법원이",
+          "start": 0.0,
+          "end": 0.34,
+          "probability": 0.99853515625
+        },
+        {
+          "word": " 인정한",
+          "start": 0.34,
+          "end": 0.72,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 건",
+          "start": 0.72,
+          "end": 0.86,
+          "probability": 0.87646484375
+        },
+        {
+          "word": " 학대치사.",
+          "start": 0.86,
+          "end": 1.44,
+          "probability": 0.9951171875
+        }
+      ]
+    },
+    {
+      "id": "N078_02",
+      "expected": "생명과 안전을 밀어낸 책임은 훈련이라는 말로 지워지지 않습니다.",
+      "asr": "생명과 안전을 밀어낸 책임은 훈련이라는 말로 지워지지 않습니다.",
+      "errors": 0,
+      "characters": 27,
+      "match": 1.0,
+      "mtime": 1793512947.021319,
+      "words": [
+        {
+          "word": " 생명과",
+          "start": 0.0,
+          "end": 0.52,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 안전을",
+          "start": 0.52,
+          "end": 0.94,
+          "probability": 0.99951171875
+        },
+        {
+          "word": " 밀어낸",
+          "start": 0.94,
+          "end": 1.24,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 책임은",
+          "start": 1.24,
+          "end": 1.7,
+          "probability": 0.99609375
+        },
+        {
+          "word": " 훈련이라는",
+          "start": 1.7,
+          "end": 2.34,
+          "probability": 0.99462890625
+        },
+        {
+          "word": " 말로",
+          "start": 2.34,
+          "end": 2.78,
+          "probability": 1.0
+        },
+        {
+          "word": " 지워지지",
+          "start": 2.78,
+          "end": 3.3,
+          "probability": 0.9990234375
+        },
+        {
+          "word": " 않습니다.",
+          "start": 3.3,
+          "end": 3.66,
+          "probability": 0.99951171875
+        }
+      ]
+    }
+  ],
+  "match": 0.9938056523422377,
+  "elapsed": 8.292957067489624
+}

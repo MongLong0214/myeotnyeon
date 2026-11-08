@@ -1,0 +1,138 @@
+{
+ "episode": "q012",
+ "file": "episodes/quiz/out/v3/q012.mp4",
+ "audit": {
+  "frames": 1048,
+  "bad": 0,
+  "pass": true
+ },
+ "probe": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "pix_fmt": "yuv420p",
+  "color_space": "bt709",
+  "color_primaries": "bt709",
+  "color_transfer": "bt709",
+  "audio": "aac",
+  "audio_bitrate": "317375",
+  "duration": 34.944,
+  "pass": true
+ },
+ "loudness": {
+  "integrated_lufs": -14.0,
+  "true_peak_dbtp": -1.5,
+  "pass": true
+ },
+ "freeze_black": {
+  "freezes_over_2_5s": [],
+  "black_segments": [],
+  "pass": true
+ },
+ "asr_final_mix": {
+  "reference": "27명이 숨진 지난해 경북 산불은 두 곳에서 시작됐습니다. 그중 한 곳이 의성군에 있는 과수원이었죠. 60대 과수원 임차인이 농사 부산물을 태운 뒤 불씨가 꺼졌는지 확인하지 않고 자리를 떠난 혐의였습니다. 불은 강풍을 타고 5개 시·군까지 번졌죠. 149시간 동안 27명이 숨지고 40명이 다쳤습니다. 벌금, 집행유예, 실형 중 무엇이었을까요? 2심 재판부는 결과가 상당히 무겁다고 봤습니다. 죄명은 실수로 불을 낸 실화였고요. 2심에서 검찰 구형은 징역 3년이었습니다. 1심은 징역 2년 6개월에 집행유예 3년. 2심 판결도 그대로였습니다. 다음 사건도 맞혀 보세요.",
+  "transcript": "27명이 숨진 지난해 경북 산불은 두 곳에서 시작됐습니다. 그 중 한 곳이 의성군에 있는 과수원이었죠. 60대 과수원 임차인이 농사 부산물을 태운 뒤 불씨가 꺼졌는지 확인하지 않고 자리를 떠난 혐의였습니다. 불은 강풍을 타고 5개 시군까지 번졌죠. 149시간 동안 27명이 숨지고 40명이 다쳤습니다. 벌금, 집행유예, 실형 중 무엇이었을까요? 2심 재판부는 결과가 상당히 무겁다고 봤습니다. 죄명은 실수로 불을 낸 실화였고요. 2심에서 검찰 구형은 징역 3년이었습니다. 1심은 징역 2년 6개월에 집행유예 3년, 2심 판결도 그대로였습니다. 다음 사건도 마쳐보세요.",
+  "accuracy_raw": 0.9913,
+  "accuracy": 1.0,
+  "pass": true,
+  "normalisation": "numbers to integers (1만 1천 = 11,000), m → 미터, phonetic spellings 마쳐→맞혀, 맞춰→맞혀, 2배→두 배, 공일공→010, 야차루를→야차룰을"
+ },
+ "numbers": {
+  "screen": [
+   1,
+   2,
+   3,
+   5,
+   6,
+   27,
+   40,
+   60,
+   149,
+   2025,
+   2026
+  ],
+  "speech": [
+   1,
+   2,
+   3,
+   5,
+   6,
+   27,
+   40,
+   60,
+   149
+  ],
+  "not_in_facts": [],
+  "pass": true
+ },
+ "spelling": {
+  "issues": [],
+  "pass": true
+ },
+ "im_not_ai": {
+  "version": "2.3.2",
+  "counts": {
+   "C-8": 0,
+   "C-11": 0,
+   "I-4": 0,
+   "E-2": 0,
+   "F-5": 0
+  },
+  "pass": true,
+  "risk_band": "low"
+ },
+ "structure": {
+  "episode": "q012",
+  "frames": 1048,
+  "seconds": 34.93,
+  "duration_ok": true,
+  "duration_hard_ok": true,
+  "reveal_frame": 873,
+  "reveal_ratio": 0.833,
+  "reveal_ok": true,
+  "max_gap_frames": 44,
+  "max_gap_at": [
+   688,
+   732
+  ],
+  "tempo_ok": true,
+  "changes_per_10s": 13.7,
+  "over_gap": [],
+  "pass": true
+ },
+ "accuracy": {
+  "no_finality_claim": true,
+  "finality_hits": [],
+  "request_mentions": [
+   "2심 검찰 구형",
+   "2심에서 검찰 구형은 징역 3년이었습니다."
+  ],
+  "request_instance": "2심",
+  "request_unscoped": [],
+  "single_defendant": "archived articles name one defendant (A씨, 28); the 5-year request is his 1심 request (facts.md 정확성 점검)",
+  "pass": true
+ },
+ "death_case": {
+  "sensational_or_suffering_words": [],
+  "graphic_staging": [],
+  "music": "none (make.py forces it for serious episodes)",
+  "visual_review": "frames checked by eye on the phone sheet: no people in fire scenes, no bodies, no injuries; memorial = chrysanthemum + candle",
+  "pass": true
+ },
+ "phone_sheet": "episodes/quiz/out/v3/review/q012_phone.png",
+ "phone_sheet_frames": 24,
+ "gates": {
+  "audit": true,
+  "probe": true,
+  "loudness": true,
+  "freeze_black": true,
+  "asr_final_mix": true,
+  "numbers": true,
+  "spelling": true,
+  "im_not_ai": true,
+  "structure": true,
+  "accuracy": true,
+  "death_case": true
+ },
+ "all_pass": true
+}

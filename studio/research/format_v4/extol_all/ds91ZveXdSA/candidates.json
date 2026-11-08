@@ -1,0 +1,452 @@
+[
+  {
+    "candidate": 1,
+    "frame": 105,
+    "time_s": 3.5,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 8.981358024691358,
+    "hist": 0.0033008178026660943
+  },
+  {
+    "candidate": 2,
+    "frame": 179,
+    "time_s": 5.966666666666667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.104683641975309,
+    "hist": 0.011758621706332793
+  },
+  {
+    "candidate": 3,
+    "frame": 186,
+    "time_s": 6.2,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 20.56849537037037,
+    "hist": 0.26255955350106613
+  },
+  {
+    "candidate": 4,
+    "frame": 277,
+    "time_s": 9.233333333333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 24.2320524691358,
+    "hist": 0.1935993587615219
+  },
+  {
+    "candidate": 5,
+    "frame": 284,
+    "time_s": 9.466666666666667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.414297839506173,
+    "hist": 0.01708600033349566
+  },
+  {
+    "candidate": 6,
+    "frame": 357,
+    "time_s": 11.9,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.86179012345679,
+    "hist": 0.009594390755527826
+  },
+  {
+    "candidate": 7,
+    "frame": 364,
+    "time_s": 12.133333333333333,
+    "sources": [
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 29.377476851851853,
+    "hist": 0.171771238682381
+  },
+  {
+    "candidate": 8,
+    "frame": 396,
+    "time_s": 13.2,
+    "sources": [
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 24.08554012345679,
+    "hist": 0.29186376034608363
+  },
+  {
+    "candidate": 9,
+    "frame": 462,
+    "time_s": 15.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.62528549382716,
+    "hist": 0.02263843547629831
+  },
+  {
+    "candidate": 10,
+    "frame": 535,
+    "time_s": 17.833333333333332,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 42.21000771604938,
+    "hist": 0.3675151333347632
+  },
+  {
+    "candidate": 11,
+    "frame": 542,
+    "time_s": 18.066666666666666,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.6303472222222222,
+    "hist": 0.01049426897158963
+  },
+  {
+    "candidate": 12,
+    "frame": 564,
+    "time_s": 18.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.336574074074074,
+    "hist": 0.012286130743465705
+  },
+  {
+    "candidate": 13,
+    "frame": 621,
+    "time_s": 20.7,
+    "sources": [
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 27.646203703703705,
+    "hist": 0.14439401708467747
+  },
+  {
+    "candidate": 14,
+    "frame": 681,
+    "time_s": 22.7,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 10.935979938271604,
+    "hist": 0.015888761959809834
+  },
+  {
+    "candidate": 15,
+    "frame": 761,
+    "time_s": 25.366666666666667,
+    "sources": [
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 28.142237654320986,
+    "hist": 0.27969599975493886
+  },
+  {
+    "candidate": 16,
+    "frame": 854,
+    "time_s": 28.466666666666665,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.5778626543209877,
+    "hist": 0.012499949487209425
+  },
+  {
+    "candidate": 17,
+    "frame": 861,
+    "time_s": 28.7,
+    "sources": [
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 32.25290895061728,
+    "hist": 0.1254988105975934
+  },
+  {
+    "candidate": 18,
+    "frame": 931,
+    "time_s": 31.033333333333335,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.396774691358025,
+    "hist": 0.001661216300496686
+  },
+  {
+    "candidate": 19,
+    "frame": 1019,
+    "time_s": 33.96666666666667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 34.96534722222222,
+    "hist": 0.25237515768255214
+  },
+  {
+    "candidate": 20,
+    "frame": 1086,
+    "time_s": 36.2,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 33.38578703703703,
+    "hist": 0.28975347145781477
+  },
+  {
+    "candidate": 21,
+    "frame": 1126,
+    "time_s": 37.53333333333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 24.134706790123456,
+    "hist": 0.275324967472064
+  },
+  {
+    "candidate": 22,
+    "frame": 1194,
+    "time_s": 39.8,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 33.2291975308642,
+    "hist": 0.3017687096974481
+  },
+  {
+    "candidate": 23,
+    "frame": 1283,
+    "time_s": 42.766666666666666,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 38.60809413580247,
+    "hist": 0.31989601955153596
+  },
+  {
+    "candidate": 24,
+    "frame": 1385,
+    "time_s": 46.166666666666664,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 36.884220679012344,
+    "hist": 0.31790920004939666
+  },
+  {
+    "candidate": 25,
+    "frame": 1444,
+    "time_s": 48.13333333333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 26.610146604938272,
+    "hist": 0.26083893145104664
+  },
+  {
+    "candidate": 26,
+    "frame": 1592,
+    "time_s": 53.06666666666667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.4214274691358026,
+    "hist": 0.013413785857574327
+  },
+  {
+    "candidate": 27,
+    "frame": 1599,
+    "time_s": 53.3,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 34.982824074074074,
+    "hist": 0.20663922946286406
+  },
+  {
+    "candidate": 28,
+    "frame": 1630,
+    "time_s": 54.333333333333336,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.6158179012345677,
+    "hist": 0.014793763623688483
+  },
+  {
+    "candidate": 29,
+    "frame": 1677,
+    "time_s": 55.9,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.3219058641975305,
+    "hist": 0.01339336068490101
+  },
+  {
+    "candidate": 30,
+    "frame": 1684,
+    "time_s": 56.13333333333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 27.219436728395063,
+    "hist": 0.2519633013252297
+  },
+  {
+    "candidate": 31,
+    "frame": 1834,
+    "time_s": 61.13333333333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 23.163819444444446,
+    "hist": 0.249564888119789
+  },
+  {
+    "candidate": 32,
+    "frame": 1841,
+    "time_s": 61.36666666666667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.384375,
+    "hist": 0.014686035235654869
+  },
+  {
+    "candidate": 33,
+    "frame": 1921,
+    "time_s": 64.03333333333333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.395787037037037,
+    "hist": 0.014600203697559665
+  },
+  {
+    "candidate": 34,
+    "frame": 1928,
+    "time_s": 64.26666666666667,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 26.04576388888889,
+    "hist": 0.2012876860388765
+  },
+  {
+    "candidate": 35,
+    "frame": 2047,
+    "time_s": 68.23333333333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 29.489097222222224,
+    "hist": 0.40103467837999096
+  },
+  {
+    "candidate": 36,
+    "frame": 2134,
+    "time_s": 71.13333333333334,
+    "sources": [
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 29.55381172839506,
+    "hist": 0.11212605119925147
+  },
+  {
+    "candidate": 37,
+    "frame": 2236,
+    "time_s": 74.53333333333333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.318479938271605,
+    "hist": 0.014337653728941684
+  },
+  {
+    "candidate": 38,
+    "frame": 2243,
+    "time_s": 74.76666666666667,
+    "sources": [
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 31.639845679012346,
+    "hist": 0.14505120216791864
+  },
+  {
+    "candidate": 39,
+    "frame": 2367,
+    "time_s": 78.9,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.296180555555556,
+    "hist": 0.017115605954672704
+  },
+  {
+    "candidate": 40,
+    "frame": 2374,
+    "time_s": 79.13333333333334,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 29.269475308641976,
+    "hist": 0.15614331326101052
+  }
+]
