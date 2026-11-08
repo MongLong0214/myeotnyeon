@@ -1,0 +1,12 @@
+{
+  "video_id": "50GA6_DeJbE",
+  "links": [
+    {
+      "id": "OwQm8ZIZfiQ",
+      "source_path": "/reelPlayerOverlayRenderer/playerOverlay/reelPlayerOverlayViewModel/metapanel/reelMetapanelViewModel/metadataItems/3/reelCarouselViewModel/buttonViewModels/0/reelCarouselButtonViewModel/buttonViewModel/buttonViewModel/onTap/innertubeCommand/watchEndpoint"
+    }
+  ],
+  "has_related_video_carousel_link": true,
+  "method": "yt-dlp YoutubeIE download of public reel_item_watch response; only watchEndpoint inside the metapanel reelCarousel; observed UI link, not topic inference",
+  "overlay_present": true
+}

@@ -1,0 +1,2191 @@
+{
+ "episode_id": "EP001",
+ "hud_case": "대한민국 · 대구지방법원 2023고단202",
+ "cues": [
+  {
+   "cue_id": "Q01",
+   "act": "A",
+   "in_frame": 0,
+   "duration_frames": 240,
+   "out_frame_exclusive": 240,
+   "component": "G01",
+   "narration": [
+    "2022년 7월 28일 새벽 3시 30분쯤, 대구의 한 주차장."
+   ],
+   "super": "2022. 7. 28. 오전 3시 30분경 · 대구 수성구 · 주차장",
+   "plate": [
+    "SH01",
+    {}
+   ],
+   "hud": "recon",
+   "gfx": [
+    {
+     "type": "stamp",
+     "at": 10,
+     "lines": [
+      "2022. 7. 28. 오전 3시 30분경",
+      "대구 수성구 · 주차장 (개념 세트)"
+     ],
+     "pos": "bl"
+    }
+   ],
+   "claim_ids": [
+    "F001",
+    "F002"
+   ],
+   "required_claim_ids": [
+    "F001"
+   ],
+   "ref_principles": [
+    "P1",
+    "P2",
+    "P9"
+   ],
+   "video_direction": "비실사 3D. 안개 낀 새벽 주차장, 전조등이 켜진 승용차 측면에서 전방을 보는 저각 숏. 전조등 빛 속에 한 인물이 서 있다. 카메라 천천히 전진.",
+   "audio_cue": "AMB01 IN 12f (밤 주차장 저역 험) / FX01 전조등 빛 상승 1회",
+   "qc": "혐의만 있는 행위를 확정 사실로 말하지 않는다."
+  },
+  {
+   "cue_id": "Q02",
+   "act": "A",
+   "in_frame": 240,
+   "duration_frames": 240,
+   "out_frame_exclusive": 480,
+   "component": "G02",
+   "narration": [
+    "음주운전으로 신고하겠다며 차 앞을 막아선 사람을,",
+    "운전자는 차로 여러 차례 밀어 넘어뜨렸습니다."
+   ],
+   "super": "[법원이 인정한 사실] 신고하겠다며 막아선 B씨를 차로 여러 차례 밀어 넘어뜨림",
+   "plate": [
+    "SH02",
+    {}
+   ],
+   "hud": "recon",
+   "gfx": [],
+   "claim_ids": [
+    "F003",
+    "F004"
+   ],
+   "required_claim_ids": [
+    "F002",
+    "L001"
+   ],
+   "ref_principles": [
+    "P2"
+   ],
+   "video_direction": "역방향. 인물 뒤에서 눈부신 전조등을 마주 본다. 손을 들어 막아서는 자세. 접촉 장면 없음.",
+   "audio_cue": "MUS01 FADE IN 15f",
+   "qc": "반전·무죄·형량을 사실과 다르게 과장하지 않는다."
+  },
+  {
+   "cue_id": "Q03",
+   "act": "A",
+   "in_frame": 480,
+   "duration_frames": 240,
+   "out_frame_exclusive": 720,
+   "component": "G03",
+   "narration": [
+    "법원은 운전자가 진지하게 반성한다고 볼 수 없다고 했습니다.",
+    "그런데 결론은, 집행유예였습니다."
+   ],
+   "super": "진지한 반성 없음 → 그런데 집행유예?",
+   "plate": [
+    "SH03",
+    {
+     "dim": 0.45
+    }
+   ],
+   "hud": "court",
+   "gfx": [
+    {
+     "type": "question",
+     "at": 150,
+     "kicker": "1심 결론 · 2023. 8. 16.",
+     "text": "반성 없음, 그런데 집행유예.\n왜였을까?",
+     "size": 72,
+     "y": 330
+    }
+   ],
+   "claim_ids": [
+    "J002",
+    "J003"
+   ],
+   "required_claim_ids": [
+    "L001"
+   ],
+   "ref_principles": [
+    "P1"
+   ],
+   "video_direction": "주차장 상공 느린 궤도. 화면을 어둡게 내리고 질문 한 줄.",
+   "audio_cue": "MUS01 HOLD / FX02 -6dB",
+   "qc": "실제 쟁점만 예고. 결정적 전제는 숨기지 않는다."
+  },
+  {
+   "cue_id": "Q04",
+   "act": "B",
+   "in_frame": 720,
+   "duration_frames": 120,
+   "out_frame_exclusive": 840,
+   "component": "G04",
+   "narration": [],
+   "super": "판결의 이유 | EP01",
+   "plate": [
+    "SH04",
+    {}
+   ],
+   "hud": null,
+   "gfx": [
+    {
+     "type": "ident",
+     "at": 70
+    }
+   ],
+   "claim_ids": [
+    "BRAND"
+   ],
+   "required_claim_ids": [
+    "BRAND"
+   ],
+   "ref_principles": [],
+   "video_direction": "자체 한국어 로고타입 위로 빛이 지나간다. 4초.",
+   "audio_cue": "ST01 4초",
+   "qc": "고정 브랜딩 구간. 4초를 넘기지 않는다."
+  },
+  {
+   "cue_id": "Q05",
+   "act": "B",
+   "in_frame": 840,
+   "duration_frames": 360,
+   "out_frame_exclusive": 1200,
+   "component": "G05",
+   "narration": [
+    "대구지방법원이 2023년 8월 16일 선고한 1심 판결입니다.",
+    "판결문 대신, 판결 내용을 전한 보도로 재구성했습니다."
+   ],
+   "super": "대한민국 | 대구지방법원 형사3단독 | 제1심 | 2023. 8. 16. 선고\n판결 기반 보도로 재구성 · 판결문 원문 미확보 · 공간 단순화",
+   "plate": [
+    "SH05",
+    {}
+   ],
+   "hud": null,
+   "gfx": [
+    {
+     "type": "card",
+     "at": 20,
+     "x": 1060,
+     "y": 200,
+     "w": 764,
+     "tag": "material",
+     "title": "사건 기록 카드",
+     "rows": [
+      {
+       "k": "국가",
+       "v": "대한민국"
+      },
+      {
+       "k": "법원",
+       "v": "대구지방법원 형사3단독"
+      },
+      {
+       "k": "사건",
+       "v": "2023고단202 특수상해"
+      },
+      {
+       "k": "심급",
+       "v": "제1심 · 2023. 8. 16. 선고"
+      },
+      {
+       "k": "근거",
+       "v": "판결 내용을 전한 보도",
+       "small": "판결문 원문 미확보"
+      },
+      {
+       "k": "확인일",
+       "v": "2026. 10. 25."
+      }
+     ],
+     "footer": "기록 기반 애니메이션 · 인물·공간 단순화"
+    }
+   ],
+   "claim_ids": [
+    "S001",
+    "META"
+   ],
+   "required_claim_ids": [
+    "S001",
+    "META"
+   ],
+   "ref_principles": [
+    "P7"
+   ],
+   "video_direction": "자체 제작 한국 지도(퍼블릭 도메인 윤곽) 위 대구 지점으로 카메라 접근. 우측 기록 카드.",
+   "audio_cue": "MUS01 DUCK / AMB01 OUT 12f",
+   "qc": "당시 관할·심급과 최신 확정 여부를 분리 표기한다."
+  },
+  {
+   "cue_id": "Q06",
+   "act": "C",
+   "in_frame": 1200,
+   "duration_frames": 300,
+   "out_frame_exclusive": 1500,
+   "component": "G06",
+   "narration": [
+    "등장인물은 두 사람입니다.",
+    "승용차를 운전한 A씨, 그리고 차 앞을 막아선 B씨입니다."
+   ],
+   "super": "A씨 | 운전자 · 피고인 · 보도 당시 28세\nB씨 | 막아선 사람 · 피해자 · 30대",
+   "plate": [
+    "SH06",
+    {}
+   ],
+   "hud": "recon",
+   "gfx": [
+    {
+     "type": "labels",
+     "at": 40,
+     "items": [
+      {
+       "x": 640,
+       "y": 250,
+       "text": "A씨\n운전자 · 피고인",
+       "tag": "recon",
+       "delay": 40
+      },
+      {
+       "x": 1290,
+       "y": 250,
+       "text": "B씨\n피해자 · 30대",
+       "tag": "recon",
+       "delay": 70
+      }
+     ]
+    }
+   ],
+   "claim_ids": [
+    "F005"
+   ],
+   "required_claim_ids": [
+    "F003",
+    "F004"
+   ],
+   "ref_principles": [],
+   "video_direction": "어두운 스튜디오, 중립 점토색 마네킹 두 개. 얼굴·표정 없음. 색으로 역할을 암시하지 않음.",
+   "audio_cue": "MUS01 HOLD",
+   "qc": "피해자·미성년자 식별정보 제외. 피고인 색상으로 유죄 암시 금지."
+  },
+  {
+   "cue_id": "Q07",
+   "act": "C",
+   "in_frame": 1500,
+   "duration_frames": 300,
+   "out_frame_exclusive": 1800,
+   "component": "G07",
+   "narration": [
+    "보도에서 두 사람의 이전 관계는 확인되지 않습니다.",
+    "B씨가 막아선 이유는, A씨를 음주운전으로 신고하겠다는 것이었습니다."
+   ],
+   "super": "두 사람의 이전 관계: 보도로 확인되지 않음",
+   "plate": [
+    "SH06",
+    {
+     "startFrom": 300
+    }
+   ],
+   "hud": "recon",
+   "gfx": [
+    {
+     "type": "card",
+     "at": 20,
+     "x": 96,
+     "y": 640,
+     "w": 820,
+     "tag": "unknown",
+     "title": "두 사람의 이전 관계",
+     "rows": [],
+     "titleSize": 40
+    },
+    {
+     "type": "card",
+     "at": 150,
+     "x": 1004,
+     "y": 640,
+     "w": 820,
+     "tag": "report",
+     "title": "막아선 이유: 음주운전 신고",
+     "rows": [],
+     "titleSize": 40
+    }
+   ],
+   "claim_ids": [
+    "F006",
+    "F003"
+   ],
+   "required_claim_ids": [
+    "F005"
+   ],
+   "ref_principles": [],
+   "video_direction": "같은 공간. 관계선은 확인된 것만. 이전 관계 칸은 회색 점선(불명).",
+   "audio_cue": "FX03 relation draw / MUS01",
+   "qc": "동기·성격·내면의 독백을 창작하지 않는다."
+  },
+  {
+   "cue_id": "Q08",
+   "act": "C",
+   "in_frame": 1800,
+   "duration_frames": 300,
+   "out_frame_exclusive": 2100,
+   "component": "G08",
+   "narration": [
+    "장소는 대구 수성구의 한 주차장입니다.",
+    "지상인지 지하인지는 보도마다 달라서, 화면은 개념도로만 보여드립니다."
+   ],
+   "super": "개념도 · 정확한 배치 아님 (지상: 판결 기반 보도 / 지하: 일부 보도)",
+   "plate": [
+    "SH07",
+    {
+     "dim": 0.25
+    }
+   ],
+   "hud": "concept",
+   "gfx": [
+    {
+     "type": "floorplan",
+     "at": 170,
+     "step": 3
+    }
+   ],
+   "claim_ids": [
+    "F007"
+   ],
+   "required_claim_ids": [
+    "F006"
+   ],
+   "ref_principles": [
+    "P5"
+   ],
+   "video_direction": "비스듬한 시점에서 수직 부감으로 크레인. 이후 2D 개념 평면도(통로·주차칸·차량·인물 위치) 오버레이.",
+   "audio_cue": "AMB02 IN 12f",
+   "qc": "사생활 주소 제외. 알 수 없는 위치는 임의 확정 금지."
+  },
+  {
+   "cue_id": "Q09",
+   "act": "D",
+   "in_frame": 2100,
+   "duration_frames": 420,
+   "out_frame_exclusive": 2520,
+   "component": "G09",
+   "narration": [
+    "법원이 인정한 사실은 이렇습니다.",
+    "B씨는 A씨를 음주운전으로 신고하겠다며, A씨가 탄 차 앞을 막아섰습니다."
+   ],
+   "super": "T1 | 신고하겠다며 차 앞을 막아섬",
+   "plate": [
+    "SH08",
+    {}
+   ],
+   "hud": "recon",
+   "gfx": [
+    {
+     "type": "chip",
+     "at": 30,
+     "text": "T1 · 오전 3시 30분경",
+     "sub": "신고하겠다며 차 앞을 막아섬"
+    }
+   ],
+   "claim_ids": [
+    "F003",
+    "F001"
+   ],
+   "required_claim_ids": [
+    "F007"
+   ],
+   "ref_principles": [
+    "P2"
+   ],
+   "video_direction": "측면 중경. B가 걸어 들어와 차 앞에 서고 한 손을 든다. A는 차 안 실루엣(세부 없음).",
+   "audio_cue": "AMB02 / MUS01",
+   "qc": "시각 정확도(날짜/시각/추정)를 기록과 일치시킨다."
+  },
+  {
+   "cue_id": "Q10",
+   "act": "D",
+   "in_frame": 2520,
+   "duration_frames": 420,
+   "out_frame_exclusive": 2940,
+   "component": "G09",
+   "narration": [
+    "A씨는 타고 있던 승용차로 B씨를 여러 차례 밀어 넘어뜨렸습니다.",
+    "짧은 시간 안에 같은 행동이 거듭됐습니다."
+   ],
+   "super": "T2 | 승용차로 여러 차례 밀어 넘어뜨림 (접촉 장면 생략)",
+   "plate": [
+    "SH09",
+    {
+     "cut": [
+      0.4,
+      0.66
+     ]
+    }
+   ],
+   "hud": "recon",
+   "gfx": [
+    {
+     "type": "chip",
+     "at": 20,
+     "text": "T2",
+     "sub": "승용차로 여러 차례(수회) 밀어 넘어뜨림"
+    },
+    {
+     "type": "omit",
+     "at_frac": 0.4,
+     "to_frac": 0.66,
+     "text": "행위 묘사 생략"
+    }
+   ],
+   "claim_ids": [
+    "F004",
+    "J007"
+   ],
+   "required_claim_ids": [
+    "F008"
+   ],
+   "ref_principles": [
+    "P2",
+    "P4"
+   ],
+   "video_direction": "차가 천천히 전진, B가 뒤로 밀려난다. 접촉 직전 암전 처리 후 B가 바닥에 앉은 상태(전후만).",
+   "audio_cue": "AMB02 / FX04 비폭력 저역 1회",
+   "qc": "핵심 행위만. 실행 방법·도구 상세는 불필요하면 제외."
+  },
+  {
+   "cue_id": "Q11",
+   "act": "D",
+   "in_frame": 2940,
+   "duration_frames": 420,
+   "out_frame_exclusive": 3360,
+   "component": "G10",
+   "narration": [
+    "이 장면을 두고 A씨 측의 설명은 달랐습니다.",
+    "부주의한 운전 탓이라거나, B씨가 차에 뛰어들어 생긴 일이라는 주장이었습니다."
+   ],
+   "super": "[피고인 주장] 부주의한 운전 탓 / 피해자가 차량에 뛰어듦",
+   "plate": [
+    "SH10",
+    {}
+   ],
+   "hud": "defense",
+   "gfx": [
+    {
+     "type": "labels",
+     "at": 60,
+     "items": [
+      {
+       "x": 1290,
+       "y": 180,
+       "text": "피해자가 차에 뛰어들었다",
+       "tag": "defense",
+       "delay": 60
+      },
+      {
+       "x": 600,
+       "y": 180,
+       "text": "부주의한 운전 탓이다",
+       "tag": "defense",
+       "delay": 150
+      }
+     ]
+    }
+   ],
+   "claim_ids": [
+    "A001"
+   ],
+   "required_claim_ids": [
+    "A001",
+    "A002"
+   ],
+   "ref_principles": [],
+   "video_direction": "같은 공간에 반투명 점선 레이어로 피고인 측 설명을 표시. 확정 재현과 구분되는 낮은 불투명도.",
+   "audio_cue": "MUS01 -2dB / SFX 최소",
+   "qc": "한쪽 주장을 중립 내레이션이나 확정 재현으로 바꾸지 않는다."
+  },
+  {
+   "cue_id": "Q12",
+   "act": "D",
+   "in_frame": 3360,
+   "duration_frames": 420,
+   "out_frame_exclusive": 3780,
+   "component": "G09",
+   "narration": [
+    "이어 A씨는 차를 뒤로 뺐다가 다시 앞으로 몰아, B씨를 한 번 더 들이받았습니다.",
+    "B씨는 약 34일의 치료가 필요한 어깨 부상을 입었습니다."
+   ],
+   "super": "T3 | 후진 후 다시 진행, 1회 충격 (행위 묘사 생략)\n어깨관절 염좌·긴장, 약 34일 치료",
+   "plate": [
+    "SH11",
+    {
+     "cut": [
+      0.74,
+      1.0
+     ]
+    }
+   ],
+   "hud": "recon",
+   "gfx": [
+    {
+     "type": "chip",
+     "at": 20,
+     "text": "T3",
+     "sub": "후진 후 다시 진행 · 1회 충격"
+    },
+    {
+     "type": "omit",
+     "at_frac": 0.74,
+     "to_frac": 1.0,
+     "text": "행위 묘사 생략"
+    },
+    {
+     "type": "card",
+     "at_frac": 0.76,
+     "x": 96,
+     "y": 200,
+     "w": 760,
+     "tag": "court",
+     "title": "결과",
+     "rows": [
+      {
+       "v": "어깨관절 염좌 및 긴장"
+      },
+      {
+       "v": "약 34일 치료 필요",
+       "small": "일부 보도: 전치 5주"
+      }
+     ]
+    }
+   ],
+   "claim_ids": [
+    "F008",
+    "F009"
+   ],
+   "required_claim_ids": [
+    "F009"
+   ],
+   "ref_principles": [
+    "P4"
+   ],
+   "video_direction": "후진등이 켜지고 차가 물러났다가 다시 전진. 접촉 전 끊고 결과 카드.",
+   "audio_cue": "AMB02 OUT 12f / 무음 12f",
+   "qc": "폭력 장면·비명·피해자의 고통을 흥미 장치로 쓰지 않는다."
+  },
+  {
+   "cue_id": "Q13",
+   "act": "D",
+   "in_frame": 3780,
+   "duration_frames": 420,
+   "out_frame_exclusive": 4200,
+   "component": "G11",
+   "narration": [
+    "정리하면, 차로 B씨를 들이받은 사실은 A씨 측도 인정했습니다.",
+    "다툼은 일부러 그랬는지, 그리고 그 때문에 다쳤는지에 있었습니다."
+   ],
+   "super": "확인됨 / 다툼 있음 / 보도로 확인 안 됨",
+   "plate": [
+    "SH12",
+    {
+     "dim": 0.6
+    }
+   ],
+   "hud": "analysis",
+   "gfx": [
+    {
+     "type": "timeline",
+     "at": 10,
+     "events": [
+      {
+       "t": "T1",
+       "label": "차 앞을\n막아섬",
+       "state": "ok"
+      },
+      {
+       "t": "T2",
+       "label": "여러 차례\n밀어 넘어뜨림",
+       "state": "ok"
+      },
+      {
+       "t": "T3",
+       "label": "후진 후\n1회 충격",
+       "state": "ok"
+      },
+      {
+       "t": "쟁점",
+       "label": "고의였나?\n그 때문에 다쳤나?",
+       "state": "dispute"
+      },
+      {
+       "t": "보도 없음",
+       "label": "실제 음주 여부\n사건 전후 경위",
+       "state": "unknown"
+      }
+     ]
+    }
+   ],
+   "claim_ids": [
+    "F004",
+    "F008",
+    "A002",
+    "U001"
+   ],
+   "required_claim_ids": [
+    "F007",
+    "F008",
+    "F009",
+    "A001"
+   ],
+   "ref_principles": [],
+   "video_direction": "앞선 3D 장면을 시간축으로 축약. 실선=법원 인정, 점선 주황=다툼, 회색=보도로 확인 안 됨.",
+   "audio_cue": "MUS02 IN 18f",
+   "qc": "결정적 반대 사실을 빠뜨리지 않는다. 정보 공정성 점검."
+  },
+  {
+   "cue_id": "Q14",
+   "act": "E",
+   "in_frame": 4200,
+   "duration_frames": 360,
+   "out_frame_exclusive": 4560,
+   "component": "G12",
+   "narration": [
+    "사건은 수사를 거쳐 법정으로 갔습니다.",
+    "검찰이 적용한 죄명은 특수상해였습니다."
+   ],
+   "super": "사건 → 수사 → 기소(특수상해) → 1심 선고 | 체포·구속 여부 보도 없음",
+   "plate": [
+    "SH13",
+    {}
+   ],
+   "hud": null,
+   "gfx": [
+    {
+     "type": "chapter",
+     "at": 0,
+     "dur": 60,
+     "no": "02",
+     "title": "법정으로"
+    },
+    {
+     "type": "chain",
+     "at": 70,
+     "nodes": [
+      {
+       "label": "사건",
+       "sub": "2022. 7. 28."
+      },
+      {
+       "label": "수사",
+       "sub": "체포·구속 여부\n보도 없음",
+       "state": "unknown"
+      },
+      {
+       "label": "기소",
+       "sub": "특수상해"
+      },
+      {
+       "label": "1심 선고",
+       "sub": "2023. 8. 16."
+      }
+     ],
+     "active": 3
+    }
+   ],
+   "claim_ids": [
+    "P001",
+    "U002"
+   ],
+   "required_claim_ids": [
+    "P001"
+   ],
+   "ref_principles": [
+    "P6",
+    "P7"
+   ],
+   "video_direction": "장 카드 후 비어 있는 법정 공간(판사 인물·법봉 없음)으로 느린 전진. 절차 노드.",
+   "audio_cue": "MUS02 HOLD",
+   "qc": "체포·기소·유죄는 다른 상태. 노드 이름을 정확히 쓴다."
+  },
+  {
+   "cue_id": "Q15",
+   "act": "E",
+   "in_frame": 4560,
+   "duration_frames": 360,
+   "out_frame_exclusive": 4920,
+   "component": "G13",
+   "narration": [
+    "특수상해는 위험한 물건을 이용해 사람을 다치게 한 죄입니다.",
+    "자동차도 위험한 물건이 될 수 있고, 법정형은 징역 1년 이상 10년 이하입니다."
+   ],
+   "super": "형법 제258조의2 제1항 | 1년 이상 10년 이하의 징역",
+   "plate": [
+    "SH13",
+    {
+     "startFrom": 360
+    }
+   ],
+   "hud": null,
+   "gfx": [
+    {
+     "type": "card",
+     "at": 20,
+     "center": true,
+     "y": 210,
+     "w": 1300,
+     "tag": "law",
+     "serif": true,
+     "title": "형법 제258조의2(특수상해) 제1항",
+     "rows": [
+      {
+       "v": "… 위험한 물건을 휴대하여 제257조 제1항 또는 제2항의 죄를 범한 때에는"
+      },
+      {
+       "v": "1년 이상 10년 이하의 징역에 처한다.",
+       "state": "hl"
+      }
+     ],
+     "footer": "대법원 84도2001 등: 자동차도 사용 방법에 따라 위험한 물건에 해당"
+    }
+   ],
+   "claim_ids": [
+    "L001",
+    "L002"
+   ],
+   "required_claim_ids": [
+    "L002",
+    "P002"
+   ],
+   "ref_principles": [],
+   "video_direction": "법조문을 자체 조판. 원문 스캔 없음.",
+   "audio_cue": "FX05 card / MUS02",
+   "qc": "구형·기소 내용·선고를 구분. 현행법을 소급 적용하지 않는다."
+  },
+  {
+   "cue_id": "Q16",
+   "act": "E",
+   "in_frame": 4920,
+   "duration_frames": 330,
+   "out_frame_exclusive": 5250,
+   "component": "G13",
+   "narration": [
+    "보도에 나온 죄명은 특수상해뿐이고, 음주 측정 결과도 보도되지 않았습니다.",
+    "이 영상이 다루는 것도, 이 특수상해 판결입니다."
+   ],
+   "super": "오늘의 범위: 특수상해 판결 1건 | 음주운전 혐의·측정 결과 보도 없음",
+   "plate": [
+    "SH13",
+    {
+     "startFrom": 720
+    }
+   ],
+   "hud": null,
+   "gfx": [
+    {
+     "type": "card",
+     "at": 20,
+     "center": true,
+     "y": 260,
+     "w": 1180,
+     "title": "이 영상의 범위",
+     "rows": [
+      {
+       "v": "다루는 것: 특수상해 1심 판결",
+       "state": "ok"
+      },
+      {
+       "v": "보도되지 않은 것: 음주운전 혐의, 음주 측정 결과",
+       "state": "unknown"
+      }
+     ]
+    }
+   ],
+   "claim_ids": [
+    "U001",
+    "P002"
+   ],
+   "required_claim_ids": [
+    "L001",
+    "L002"
+   ],
+   "ref_principles": [],
+   "video_direction": "범위 선언 카드. 결과를 바꾸는 부수 혐의 없음(보도 기준)을 명시.",
+   "audio_cue": "MUS02 HOLD",
+   "qc": "범위를 선언. 결과를 바꾸는 부수 혐의는 생략 금지."
+  },
+  {
+   "cue_id": "Q17",
+   "act": "F",
+   "in_frame": 5250,
+   "duration_frames": 450,
+   "out_frame_exclusive": 5700,
+   "component": "G14",
+   "narration": [
+    "법원은 유죄를 인정했습니다.",
+    "그렇다면 남는 질문은 이것입니다.",
+    "반성한다고 볼 수 없다던 피고인에게, 왜 형의 집행을 미뤘을까."
+   ],
+   "super": "오늘의 질문: 반성 없다는 피고인에게 왜 집행유예였나",
+   "plate": [
+    "SH14",
+    {}
+   ],
+   "hud": null,
+   "gfx": [
+    {
+     "type": "chapter",
+     "at": 0,
+     "dur": 60,
+     "no": "03",
+     "title": "오늘의 질문"
+    },
+    {
+     "type": "question",
+     "at": 200,
+     "text": "반성 없다고 한 피고인에게\n왜 집행을 미뤘을까?",
+     "size": 70,
+     "y": 330
+    }
+   ],
+   "claim_ids": [
+    "J001",
+    "J002",
+    "J003"
+   ],
+   "required_claim_ids": [
+    "L003"
+   ],
+   "ref_principles": [
+    "P6"
+   ],
+   "video_direction": "낮은 시점의 법정 공간. 질문 한 문장.",
+   "audio_cue": "MUS02 -2dB",
+   "qc": "번역 감수. 국가별 요건을 한국법과 같다고 설명하지 않는다."
+  },
+  {
+   "cue_id": "Q18",
+   "act": "F",
+   "in_frame": 5700,
+   "duration_frames": 450,
+   "out_frame_exclusive": 6150,
+   "component": "G15",
+   "narration": [
+    "답을 보려면 세 가지를 따져야 합니다.",
+    "법이 정한 형의 범위, 그 범위를 낮추는 감경, 그리고 집행유예를 붙일 수 있는 조건입니다."
+   ],
+   "super": "판단 기준 ① 법정형 ② 감경 ③ 집행유예 요건(형법 제51조의 사정)",
+   "plate": [
+    "SH14",
+    {
+     "startFrom": 450
+    }
+   ],
+   "hud": "law",
+   "gfx": [
+    {
+     "type": "chain",
+     "at": 60,
+     "title": "판단 기준",
+     "tag": "law",
+     "nodes": [
+      {
+       "label": "① 법정형",
+       "sub": "징역 1년 이상\n10년 이하"
+      },
+      {
+       "label": "② 감경",
+       "sub": "정상참작감경 시\n형기의 2분의 1"
+      },
+      {
+       "label": "③ 집행유예 요건",
+       "sub": "3년 이하 징역 +\n형법 제51조의 사정"
+      }
+     ]
+    }
+   ],
+   "claim_ids": [
+    "L001",
+    "L003",
+    "L004"
+   ],
+   "required_claim_ids": [
+    "L003",
+    "L004"
+   ],
+   "ref_principles": [],
+   "video_direction": "기준을 읽는 동안 카메라 정지에 가깝게.",
+   "audio_cue": "MUS02 FADE OUT 마지막 15f",
+   "qc": "고정 3요건 강요 금지. 문장 종료 후 03:25 자연 전환."
+  },
+  {
+   "cue_id": "Q19",
+   "act": "G",
+   "in_frame": 6150,
+   "duration_frames": 420,
+   "out_frame_exclusive": 6570,
+   "component": "G16",
+   "narration": [
+    "먼저 유죄 판단부터 보겠습니다.",
+    "검찰은 A씨가 일부러 차로 B씨를 들이받아 다치게 했다며 특수상해로 기소했습니다. 재판에서 핵심 자료가 된 것은 현장 CCTV였습니다."
+   ],
+   "super": "[공소사실] 고의로 차량으로 들이받아 상해 | 핵심 자료: 현장 CCTV",
+   "plate": [
+    "SH15",
+    {}
+   ],
+   "hud": "prosecution",
+   "gfx": [
+    {
+     "type": "card",
+     "at": 40,
+     "x": 96,
+     "y": 200,
+     "w": 800,
+     "tag": "prosecution",
+     "title": "공소사실 요지",
+     "rows": [
+      {
+       "v": "고의로 차량을 이용해 상해 (특수상해)"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "at": 160,
+     "x": 96,
+     "y": 500,
+     "w": 800,
+     "tag": "material",
+     "title": "재판에서 거론된 자료",
+     "rows": [
+      {
+       "v": "현장 CCTV · 진료기록 · 피해자 진술"
+      }
+     ],
+     "titleSize": 38
+    }
+   ],
+   "claim_ids": [
+    "A003",
+    "E001"
+   ],
+   "required_claim_ids": [
+    "A003",
+    "E001"
+   ],
+   "ref_principles": [
+    "P3"
+   ],
+   "video_direction": "주차장 CCTV 장치 자체를 증거물 클로즈업으로. 영상 화면은 만들지 않음.",
+   "audio_cue": "MUS03 IN 15f",
+   "qc": "기록으로 확인된 주장만. 없는 법정 대사 생성 금지."
+  },
+  {
+   "cue_id": "Q20",
+   "act": "G",
+   "in_frame": 6570,
+   "duration_frames": 420,
+   "out_frame_exclusive": 6990,
+   "component": "G17",
+   "narration": [
+    "판결 내용을 전한 보도에 따르면, CCTV에는 범행 장면이 그대로 녹화돼 있었습니다.",
+    "다만 부상의 정도와 치료 기간은, 영상이 아니라 진료기록으로 확인됐습니다."
+   ],
+   "super": "CCTV로 본 것: 차량의 반복 진행·후진 후 재진행 / 진료기록으로 본 것: 치료 내용·기간",
+   "plate": [
+    "SH15",
+    {
+     "startFrom": 420
+    }
+   ],
+   "hud": "material",
+   "gfx": [
+    {
+     "type": "columns",
+     "at": 40,
+     "cols": [
+      {
+       "title": "CCTV로 확인된 것",
+       "tag": "material",
+       "items": [
+        {
+         "v": "차가 여러 차례 진행",
+         "state": "ok"
+        },
+        {
+         "v": "후진 후 다시 진행",
+         "state": "ok"
+        }
+       ]
+      },
+      {
+       "title": "진료기록으로 확인된 것",
+       "tag": "material",
+       "items": [
+        {
+         "v": "부상 부위·치료 내용",
+         "state": "ok"
+        },
+        {
+         "v": "치료 기간",
+         "state": "ok"
+        }
+       ]
+      }
+     ],
+     "y": 560
+    }
+   ],
+   "claim_ids": [
+    "E001",
+    "F010"
+   ],
+   "required_claim_ids": [
+    "E001",
+    "F010"
+   ],
+   "ref_principles": [
+    "P3"
+   ],
+   "video_direction": "자료가 입증하는 범위와 한계를 두 칸으로 분리. 가짜 CCTV 화면 없음.",
+   "audio_cue": "FX06 highlight / MUS03",
+   "qc": "위조 문서·실제 CCTV처럼 보이는 화면 제작 금지."
+  },
+  {
+   "cue_id": "Q21",
+   "act": "G",
+   "in_frame": 6990,
+   "duration_frames": 420,
+   "out_frame_exclusive": 7410,
+   "component": "G16",
+   "narration": [
+    "A씨 측은 차로 들이받은 사실 자체는 인정했습니다.",
+    "하지만 B씨가 다치지 않았거나, 들이받은 행동과 부상 사이에 인과관계가 없다고 주장했습니다."
+   ],
+   "super": "[피고인·변호인 주장] 폭행 사실은 인정 / 상해 미발생 또는 인과관계 없음",
+   "plate": [
+    "SH10",
+    {
+     "startFrom": 200,
+     "dim": 0.35
+    }
+   ],
+   "hud": "defense",
+   "gfx": [
+    {
+     "type": "card",
+     "at": 40,
+     "x": 1004,
+     "y": 200,
+     "w": 820,
+     "tag": "defense",
+     "title": "A씨 측 주장",
+     "rows": [
+      {
+       "v": "차로 들이받아 폭행한 사실은 있다"
+      },
+      {
+       "v": "그러나 상해가 생기지 않았다",
+       "state": "dispute"
+      },
+      {
+       "v": "또는 폭행과 상해 사이 인과관계가 없다",
+       "state": "dispute"
+      }
+     ]
+    }
+   ],
+   "claim_ids": [
+    "A002",
+    "E002"
+   ],
+   "required_claim_ids": [
+    "A004",
+    "E002"
+   ],
+   "ref_principles": [],
+   "video_direction": "반론을 검찰 측과 같은 크기·위계로 제시.",
+   "audio_cue": "MUS03 동일 레벨",
+   "qc": "반론이 기록에 없으면 ‘기록에서 확인되지 않음’. 가짜 균형 금지."
+  },
+  {
+   "cue_id": "Q22",
+   "act": "G",
+   "in_frame": 7410,
+   "duration_frames": 420,
+   "out_frame_exclusive": 7830,
+   "component": "G17",
+   "narration": [
+    "부상을 뒷받침한 건 진료기록이었습니다.",
+    "B씨는 사건 다음 날부터 8월 말까지, 그 뒤로도 이듬해 5월쯤까지 어깨 등을 치료받았습니다."
+   ],
+   "super": "진료기록(자료 요약): 2022. 7. 29.~8. 31. 및 이후 2023. 5.경까지 치료",
+   "plate": [
+    "SH17",
+    {}
+   ],
+   "hud": "material",
+   "gfx": [
+    {
+     "type": "period",
+     "at": 60
+    }
+   ],
+   "claim_ids": [
+    "E002",
+    "F011"
+   ],
+   "required_claim_ids": [
+    "E002",
+    "F011"
+   ],
+   "ref_principles": [
+    "P3",
+    "P4"
+   ],
+   "video_direction": "닫힌 진료기록 폴더(읽을 수 없는 자체 소품) + 치료 기간 막대. 가짜 문서 화면 없음.",
+   "audio_cue": "MUS03 / FX06 1회",
+   "qc": "확률·정확도를 임의 수치화하지 않는다."
+  },
+  {
+   "cue_id": "Q23",
+   "act": "G",
+   "in_frame": 7830,
+   "duration_frames": 420,
+   "out_frame_exclusive": 8250,
+   "component": "G18",
+   "narration": [
+    "결국 다툼은 두 가지로 모였습니다.",
+    "일부러 그랬는가. 그리고 그 때문에 다쳤는가.",
+    "법원이 이 두 질문에 어떻게 답했는지 보겠습니다."
+   ],
+   "super": "공통 사실: 차로 들이받음 / 다툼: 고의 · 상해와 인과관계",
+   "plate": [
+    "SH18",
+    {}
+   ],
+   "hud": "analysis",
+   "gfx": [
+    {
+     "type": "columns",
+     "at": 30,
+     "y": 200,
+     "cols": [
+      {
+       "title": "양측이 함께 인정",
+       "items": [
+        {
+         "v": "차로 B씨를 들이받은 사실",
+         "state": "ok"
+        }
+       ]
+      },
+      {
+       "title": "다툼 지점",
+       "tag": "party",
+       "items": [
+        {
+         "v": "일부러 그랬는가",
+         "state": "dispute"
+        },
+        {
+         "v": "그 때문에 다쳤는가",
+         "state": "dispute"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "claim_ids": [
+    "A002",
+    "A003"
+   ],
+   "required_claim_ids": [
+    "A003",
+    "A004",
+    "E001",
+    "E002"
+   ],
+   "ref_principles": [],
+   "video_direction": "비교판. 확률·승패 표시 없음.",
+   "audio_cue": "MUS03 OUT 마지막 15f",
+   "qc": "같은 분량은 같은 증명력을 뜻하지 않는다."
+  },
+  {
+   "cue_id": "Q24",
+   "act": "H",
+   "in_frame": 8250,
+   "duration_frames": 360,
+   "out_frame_exclusive": 8610,
+   "component": "G19",
+   "narration": [
+    "법원은 CCTV 영상을 근거로 특수상해의 고의를 인정했습니다.",
+    "B씨가 일부러 차 앞으로 뛰어든 것으로는 보이지 않는다고도 했습니다."
+   ],
+   "super": "[법원 판단·요약] CCTV로 상해 결과·특수상해 고의 인정, 피해자가 일부러 뛰어든 것으로 보이지 않음",
+   "plate": [
+    "SH19",
+    {}
+   ],
+   "hud": "courtSummary",
+   "gfx": [
+    {
+     "type": "card",
+     "at": 30,
+     "center": true,
+     "y": 220,
+     "w": 1300,
+     "tag": "courtSummary",
+     "serif": true,
+     "title": "고의",
+     "rows": [
+      {
+       "v": "현장 CCTV 영상에 의하면 특수상해의 고의가 인정된다"
+      },
+      {
+       "v": "피해자가 일부러 차량 앞으로 뛰어든 것으로 보이지 않는다"
+      }
+     ],
+     "footer": "요약 · 따옴표 없음 · 출처: 판결 내용을 인용한 보도"
+    }
+   ],
+   "claim_ids": [
+    "J001"
+   ],
+   "required_claim_ids": [
+    "J001"
+   ],
+   "ref_principles": [],
+   "video_direction": "판결 요약은 따옴표 없이 자체 조판.",
+   "audio_cue": "MUS04 IN 18f",
+   "qc": "인용이면 원문과 글자 단위 대조, 요약이면 따옴표 금지."
+  },
+  {
+   "cue_id": "Q25",
+   "act": "H",
+   "in_frame": 8610,
+   "duration_frames": 360,
+   "out_frame_exclusive": 8970,
+   "component": "G20",
+   "narration": [
+    "부상에 대해서는, 차를 이용한 힘이 가볍지 않았고,",
+    "진료기록이 B씨의 진술과 어느 정도 들어맞는다고 봤습니다."
+   ],
+   "super": "상해 ← 차량 유형력의 정도 + 진료기록과 피해자 진술의 일치",
+   "plate": [
+    "SH19",
+    {
+     "startFrom": 360
+    }
+   ],
+   "hud": "courtSummary",
+   "gfx": [
+    {
+     "type": "chain",
+     "at": 30,
+     "tag": "courtSummary",
+     "title": "상해 인정의 근거",
+     "nodes": [
+      {
+       "label": "차량을 이용한\n힘의 정도",
+       "sub": "가볍지 않음"
+      },
+      {
+       "label": "진료기록 ↔\n피해자 진술",
+       "sub": "어느 정도 일치"
+      },
+      {
+       "label": "상해 인정",
+       "sub": "약 34일 치료 필요",
+       "state": "hl"
+      }
+     ]
+    }
+   ],
+   "claim_ids": [
+    "J001",
+    "E002"
+   ],
+   "required_claim_ids": [
+    "J001",
+    "L003"
+   ],
+   "ref_principles": [],
+   "video_direction": "근거→요건 연결.",
+   "audio_cue": "MUS04 HOLD",
+   "qc": "새 증거를 마지막에 갑자기 추가하지 않는다."
+  },
+  {
+   "cue_id": "Q26",
+   "act": "H",
+   "in_frame": 8970,
+   "duration_frames": 330,
+   "out_frame_exclusive": 9300,
+   "component": "G18",
+   "narration": [
+    "그래서 A씨 측 주장은 받아들여지지 않았습니다.",
+    "결론은, 특수상해 유죄였습니다."
+   ],
+   "super": "채택: CCTV·진료기록·피해자 진술 / 배척: 부주의·뛰어듦·상해 없음 주장",
+   "plate": [
+    "SH19",
+    {
+     "startFrom": 720
+    }
+   ],
+   "hud": "courtSummary",
+   "gfx": [
+    {
+     "type": "columns",
+     "at": 20,
+     "y": 220,
+     "cols": [
+      {
+       "title": "채택",
+       "tag": "court",
+       "items": [
+        {
+         "v": "현장 CCTV",
+         "state": "ok"
+        },
+        {
+         "v": "진료기록",
+         "state": "ok"
+        },
+        {
+         "v": "피해자 진술",
+         "state": "ok"
+        }
+       ]
+      },
+      {
+       "title": "배척",
+       "tag": "court",
+       "items": [
+        {
+         "v": "부주의한 운전 탓",
+         "state": "no"
+        },
+        {
+         "v": "피해자가 뛰어듦",
+         "state": "no"
+        },
+        {
+         "v": "상해 없음 · 인과관계 없음",
+         "state": "no"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "claim_ids": [
+    "J002"
+   ],
+   "required_claim_ids": [
+    "J002",
+    "E001"
+   ],
+   "ref_principles": [],
+   "video_direction": "채택/배척 상태 라벨.",
+   "audio_cue": "MUS04 -2dB",
+   "qc": "불인정 이유를 판결에 없는 것으로 창작하지 않는다."
+  },
+  {
+   "cue_id": "Q27",
+   "act": "I",
+   "in_frame": 9300,
+   "duration_frames": 300,
+   "out_frame_exclusive": 9600,
+   "component": "G03",
+   "narration": [
+    "남은 것은 형을 어떻게 정하느냐였습니다.",
+    "실형이냐, 집행유예냐."
+   ],
+   "super": "실형 / 집행유예",
+   "plate": [
+    "SH20",
+    {}
+   ],
+   "hud": "analysis",
+   "gfx": [
+    {
+     "type": "twin",
+     "at": 40,
+     "left": "실형",
+     "right": "집행유예"
+    }
+   ],
+   "claim_ids": [
+    "L004",
+    "J001"
+   ],
+   "required_claim_ids": [
+    "L003",
+    "J001"
+   ],
+   "ref_principles": [],
+   "video_direction": "위에서 본 어두운 탁자 위 두 개의 빛 웅덩이. 징역형이 전제된 상태에서 집행 여부의 두 갈래.",
+   "audio_cue": "MUS04 HOLD",
+   "qc": "유무죄 양자택일이 아니면 양자택일 카드 사용 금지."
+  },
+  {
+   "cue_id": "Q28",
+   "act": "I",
+   "in_frame": 9600,
+   "duration_frames": 300,
+   "out_frame_exclusive": 9900,
+   "component": "G18",
+   "narration": [
+    "법원이 밝힌 사정은 양쪽 모두에 있었습니다."
+   ],
+   "super": "사실 / 기준 / 판단",
+   "plate": [
+    "SH20",
+    {
+     "startFrom": 300
+    }
+   ],
+   "hud": "analysis",
+   "gfx": [
+    {
+     "type": "columns",
+     "at": 10,
+     "y": 250,
+     "cols": [
+      {
+       "title": "사실",
+       "items": [
+        {
+         "v": "수회 밀어 넘어뜨림 · 후진 후 1회"
+        },
+        {
+         "v": "약 34일 치료 상해"
+        }
+       ]
+      },
+      {
+       "title": "기준",
+       "items": [
+        {
+         "v": "법정형 1년~10년"
+        },
+        {
+         "v": "감경 · 집행유예 요건"
+        }
+       ]
+      },
+      {
+       "title": "판단",
+       "items": [
+        {
+         "v": "유죄 (특수상해)"
+        },
+        {
+         "v": "형: 다음 화면",
+         "state": "unknown"
+        }
+       ]
+      }
+     ],
+     "outAt": 282
+    }
+   ],
+   "claim_ids": [
+    "F004",
+    "L001",
+    "J001"
+   ],
+   "required_claim_ids": [
+    "F001",
+    "L003",
+    "J001"
+   ],
+   "ref_principles": [],
+   "video_direction": "움직임을 줄여 판결에 시선 집중. 마지막 18프레임 무음.",
+   "audio_cue": "MUS04 OUT 15f / SIL 18f",
+   "qc": "댓글·구독 유도 없음. 반대 사실까지 요약했는지 점검."
+  },
+  {
+   "cue_id": "Q29",
+   "act": "J",
+   "in_frame": 9900,
+   "duration_frames": 360,
+   "out_frame_exclusive": 10260,
+   "component": "G21",
+   "narration": [
+    "대구지방법원의 판단은, 징역 8개월에 집행유예 2년.",
+    "사회봉사 120시간도 함께 명령했습니다."
+   ],
+   "super": "[법원 판단] 징역 8개월 · 집행유예 2년 · 사회봉사 120시간\n대구지방법원 형사3단독 · 2023. 8. 16. 선고 · 제1심",
+   "plate": [
+    "SH21",
+    {}
+   ],
+   "hud": null,
+   "gfx": [
+    {
+     "type": "verdict",
+     "at": 8,
+     "lines": [
+      {
+       "text": "징역 8개월"
+      },
+      {
+       "text": "집행유예 2년",
+       "size": 88
+      },
+      {
+       "text": "사회봉사 120시간",
+       "size": 56,
+       "color": "#E6B061"
+      }
+     ],
+     "meta": "대구지방법원 형사3단독 · 2023. 8. 16. 선고 · 제1심"
+    }
+   ],
+   "claim_ids": [
+    "J003"
+   ],
+   "required_claim_ids": [
+    "J003"
+   ],
+   "ref_principles": [],
+   "video_direction": "시리즈의 정점. 카메라 안정, 빈 법대 위 단일 광원. 주문 최소 6초 노출. 망치·피 효과 없음.",
+   "audio_cue": "ST02 저음 1회",
+   "qc": "구형·선고·확정 판결 구분. 무죄는 무죄로 명확히 표기."
+  },
+  {
+   "cue_id": "Q30",
+   "act": "J",
+   "in_frame": 10260,
+   "duration_frames": 360,
+   "out_frame_exclusive": 10620,
+   "component": "G22",
+   "narration": [
+    "징역 8개월을 선고하되, 2년 동안 그 집행을 미룬 겁니다.",
+    "이 기간에 고의로 죄를 지어 금고 이상의 실형이 확정되면, 유예는 효력을 잃습니다."
+   ],
+   "super": "징역 8개월 | 집행유예 2년 | 사회봉사 120시간 | 형사공탁 300만 원(변론종결 후·피해자 반대) | 구형: 보도 없음",
+   "plate": [
+    "SH21",
+    {
+     "startFrom": 360,
+     "dim": 0.4
+    }
+   ],
+   "hud": "court",
+   "gfx": [
+    {
+     "type": "card",
+     "at": 20,
+     "x": 96,
+     "y": 200,
+     "w": 860,
+     "tag": "court",
+     "title": "처분",
+     "rows": [
+      {
+       "k": "선고형",
+       "v": "징역 8개월"
+      },
+      {
+       "k": "집행유예",
+       "v": "2년"
+      },
+      {
+       "k": "부수 처분",
+       "v": "사회봉사 120시간"
+      },
+      {
+       "k": "검찰 구형",
+       "v": "보도 없음",
+       "state": "unknown"
+      }
+     ]
+    },
+    {
+     "type": "card",
+     "at": 60,
+     "x": 1004,
+     "y": 200,
+     "w": 820,
+     "tag": "law",
+     "title": "집행유예가 효력을 잃는 경우",
+     "rows": [
+      {
+       "v": "유예기간 중 고의로 범한 죄로\n금고 이상 실형이 확정되면"
+      },
+      {
+       "v": "형법 제63조",
+       "small": "취소 사유: 제64조"
+      }
+     ]
+    }
+   ],
+   "claim_ids": [
+    "J004",
+    "L005"
+   ],
+   "required_claim_ids": [
+    "J003",
+    "J004"
+   ],
+   "ref_principles": [
+    "P7"
+   ],
+   "video_direction": "처분을 숫자·단위 중심으로 분해.",
+   "audio_cue": "MUS05 IN 15f",
+   "qc": "국가별 형량을 환산·서열화하지 않는다. 총형량 추측 금지."
+  },
+  {
+   "cue_id": "Q31",
+   "act": "J",
+   "in_frame": 10620,
+   "duration_frames": 330,
+   "out_frame_exclusive": 10950,
+   "component": "G23",
+   "narration": [
+    "이 판결은 1심입니다.",
+    "항소가 있었는지, 형이 확정됐는지는 공개된 보도로 확인되지 않았습니다."
+   ],
+   "super": "심급: 제1심 | 항소·확정 여부: 보도로 확인되지 않음 | 확인일 2026. 10. 25.",
+   "plate": [
+    "SH21",
+    {
+     "startFrom": 720,
+     "dim": 0.4
+    }
+   ],
+   "hud": "unknown",
+   "gfx": [
+    {
+     "type": "chain",
+     "at": 20,
+     "nodes": [
+      {
+       "label": "1심 선고",
+       "sub": "2023. 8. 16."
+      },
+      {
+       "label": "항소",
+       "sub": "보도로 확인 안 됨",
+       "state": "unknown"
+      },
+      {
+       "label": "확정 여부",
+       "sub": "보도로 확인 안 됨",
+       "state": "unknown"
+      }
+     ],
+     "active": 0,
+     "title": "재판 단계 · 확인일 2026. 10. 25."
+    }
+   ],
+   "claim_ids": [
+    "P003"
+   ],
+   "required_claim_ids": [
+    "P003",
+    "J005"
+   ],
+   "ref_principles": [],
+   "video_direction": "심급 시간축. 확인하지 못한 단계는 점선·회색.",
+   "audio_cue": "MUS05 HOLD",
+   "qc": "파기환송·재심 개시를 무죄 확정으로 말하지 않는다."
+  },
+  {
+   "cue_id": "Q32",
+   "act": "K",
+   "in_frame": 10950,
+   "duration_frames": 450,
+   "out_frame_exclusive": 11400,
+   "component": "G24",
+   "narration": [
+    "법원이 먼저 짚은 건 불리한 사정이었습니다.",
+    "고의가 비교적 분명한데도 부주의나 피해자 탓을 한 점, 짧은 시간에 행동이 거듭된 점, 피해자가 엄벌을 원한 점입니다."
+   ],
+   "super": "판결의 이유 1 | 불리한 정상: 진지한 반성 없음 · 행위 반복 · 공탁에 피해자 반대 · 엄벌 탄원",
+   "plate": [
+    "SH22",
+    {}
+   ],
+   "hud": "courtSummary",
+   "gfx": [
+    {
+     "type": "chapter",
+     "at": 0,
+     "dur": 54,
+     "no": "04",
+     "title": "판결의 이유"
+    },
+    {
+     "type": "card",
+     "at": 60,
+     "x": 96,
+     "y": 190,
+     "w": 900,
+     "tag": "courtSummary",
+     "title": "불리한 사정",
+     "rows": [
+      {
+       "v": "고의가 비교적 분명한데 부주의·피해자 탓 → 진지한 반성으로 보기 어려움"
+      },
+      {
+       "v": "짧은 시간이나 행위가 거듭됨 → 죄질 불량"
+      },
+      {
+       "v": "변론종결 후 공탁 300만 원, 피해자는 참작에 반대"
+      },
+      {
+       "v": "피해자의 엄벌 탄원"
+      }
+     ],
+     "rowSize": 31
+    }
+   ],
+   "claim_ids": [
+    "J005",
+    "J006"
+   ],
+   "required_claim_ids": [
+    "J006"
+   ],
+   "ref_principles": [
+    "P6"
+   ],
+   "video_direction": "초반 주차장 장면을 부감으로 다시 읽기. 법원이 중시한 사실에 주석.",
+   "audio_cue": "MUS05 -2dB",
+   "qc": "제작진 해석과 법원 이유 분리."
+  },
+  {
+   "cue_id": "Q33",
+   "act": "K",
+   "in_frame": 11400,
+   "duration_frames": 450,
+   "out_frame_exclusive": 11850,
+   "component": "G24",
+   "narration": [
+    "반대로 유리한 사정도 들었습니다.",
+    "차로 들이받은 행위 자체는 인정한 점, 신고에 대한 두려운 마음에서 범행에 이른 것으로 보이는 점, 그리고 초범이라는 점입니다."
+   ],
+   "super": "판결의 이유 2 | 유리한 정상: 특수폭행 행위 자체 시인 · 신고에 대한 두려움(동기) · 초범",
+   "plate": [
+    "SH22",
+    {
+     "startFrom": 450
+    }
+   ],
+   "hud": "courtSummary",
+   "gfx": [
+    {
+     "type": "card",
+     "at": 30,
+     "x": 1004,
+     "y": 190,
+     "w": 820,
+     "tag": "courtSummary",
+     "title": "유리한 사정",
+     "rows": [
+      {
+       "v": "특수폭행 행위 자체는 시인"
+      },
+      {
+       "v": "음주운전 신고에 대한 두려운 마음에\n범행에 이른 것으로 보임"
+      },
+      {
+       "v": "초범"
+      }
+     ],
+     "rowSize": 33
+    }
+   ],
+   "claim_ids": [
+    "J007"
+   ],
+   "required_claim_ids": [
+    "J007"
+   ],
+   "ref_principles": [],
+   "video_direction": "같은 공간, 다른 정보 레이어. 없는 이유를 추가하지 않음.",
+   "audio_cue": "MUS05 HOLD",
+   "qc": "실제 이유가 하나면 두 번째 이유를 만들어 채우지 않는다."
+  },
+  {
+   "cue_id": "Q34",
+   "act": "K",
+   "in_frame": 11850,
+   "duration_frames": 450,
+   "out_frame_exclusive": 12300,
+   "component": "G25",
+   "narration": [
+    "많은 사람이 묻습니다. 반성도 없는데, 왜?",
+    "하지만 형법은 반성 하나가 아니라, 범인의 성행과 환경, 범행의 동기와 결과, 범행 뒤의 정황까지 함께 놓고 형을 정하라고 합니다."
+   ],
+   "super": "직관의 질문: 반성도 없는데 왜? / 법원의 질문: 형법 제51조의 사정 전체로 판단",
+   "plate": [
+    "SH23",
+    {}
+   ],
+   "hud": "analysis",
+   "gfx": [
+    {
+     "type": "columns",
+     "at": 30,
+     "y": 200,
+     "cols": [
+      {
+       "title": "직관의 질문",
+       "tag": "analysis",
+       "items": [
+        {
+         "v": "반성도 없는데 왜 풀어주나?"
+        }
+       ]
+      },
+      {
+       "title": "형법 제51조가 묻는 것",
+       "tag": "law",
+       "items": [
+        {
+         "v": "연령·성행·지능·환경"
+        },
+        {
+         "v": "피해자와의 관계"
+        },
+        {
+         "v": "범행의 동기·수단·결과"
+        },
+        {
+         "v": "범행 후의 정황"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "claim_ids": [
+    "L006",
+    "AN001"
+   ],
+   "required_claim_ids": [
+    "J006",
+    "L003",
+    "AN001"
+   ],
+   "ref_principles": [],
+   "video_direction": "직관과 법적 질문의 대비. 법원 조롱 없음.",
+   "audio_cue": "MUS05 HOLD",
+   "qc": "법원을 조롱하거나 무죄자에게 범죄자 낙인 금지."
+  },
+  {
+   "cue_id": "Q35",
+   "act": "K",
+   "in_frame": 12300,
+   "duration_frames": 450,
+   "out_frame_exclusive": 12750,
+   "component": "G20",
+   "narration": [
+    "법정형의 하한은 1년인데 선고는 8개월이었으니, 감경이 적용됐다고 볼 수 있습니다. 그리고 3년 이하의 징역이라 집행유예를 붙일 수 있었습니다."
+   ],
+   "super": "[제작진 해설] 1년~10년 → 감경 시 6개월~5년 → 선고 8개월 → 3년 이하라 집행유예 가능 (감경 조문은 보도에 없음)",
+   "plate": [
+    "SH23",
+    {
+     "startFrom": 450
+    }
+   ],
+   "hud": "analysis",
+   "gfx": [
+    {
+     "type": "chain",
+     "at": 20,
+     "tag": "analysis",
+     "title": "형이 정해지는 길 (보도된 형량으로 본 해설)",
+     "nodes": [
+      {
+       "label": "법정형",
+       "sub": "1년 ~ 10년"
+      },
+      {
+       "label": "감경 적용 시",
+       "sub": "6개월 ~ 5년\n(형법 제53·55조)"
+      },
+      {
+       "label": "선고형",
+       "sub": "징역 8개월",
+       "state": "hl"
+      },
+      {
+       "label": "집행유예",
+       "sub": "3년 이하라 가능\n(형법 제62조)"
+      }
+     ]
+    },
+    {
+     "type": "note",
+     "at": 160,
+     "text": "보도에는 적용된 감경 조문이 나오지 않습니다."
+    }
+   ],
+   "claim_ids": [
+    "AN002",
+    "L003",
+    "L004"
+   ],
+   "required_claim_ids": [
+    "J006",
+    "J007"
+   ],
+   "ref_principles": [],
+   "video_direction": "증거→기준→판단의 읽기 순서가 먼저 보이게.",
+   "audio_cue": "FX06 highlight / MUS05",
+   "qc": "가상사례 일반화보다 해당 사건의 실제 논증을 우선."
+  },
+  {
+   "cue_id": "Q36",
+   "act": "K",
+   "in_frame": 12750,
+   "duration_frames": 450,
+   "out_frame_exclusive": 13200,
+   "component": "G25",
+   "narration": [
+    "그렇다고 이 행위를 가볍게 본 판결은 아닙니다. 법원은 죄질이 좋지 않다고 했습니다.",
+    "참고로 2023년 1심 특수상해 사건에선, 열 명 중 일곱 명 이상이 집행유예였습니다."
+   ],
+   "super": "이 판결이 말하지 않은 것 | 2023년 1심 특수상해(양형기준 적용) 3,550명 중 2,659명(74.9%) 집행유예",
+   "plate": [
+    "SH23",
+    {
+     "startFrom": 900
+    }
+   ],
+   "hud": "analysis",
+   "gfx": [
+    {
+     "type": "card",
+     "at": 20,
+     "x": 96,
+     "y": 190,
+     "w": 860,
+     "tag": "analysis",
+     "title": "이 판결이 말하지 않은 것",
+     "rows": [
+      {
+       "v": "집행유예 = 무죄가 아님 (유죄·징역형)",
+       "state": "ok"
+      },
+      {
+       "v": "'두려움' 참작 = 범행 정당화가 아님",
+       "state": "ok"
+      },
+      {
+       "v": "음주운전 여부는 판단 대상 아님 (보도 기준)",
+       "state": "unknown"
+      }
+     ],
+     "rowSize": 31
+    },
+    {
+     "type": "stat",
+     "at": 200,
+     "x": 1004,
+     "y": 190,
+     "w": 820,
+     "big": "74.9%",
+     "label": "2023년 1심 특수상해(제1유형)\n집행유예 비율",
+     "sub": "양형기준 적용 3,550명 중 2,659명\n양형위원회 2023 연간보고서"
+    }
+   ],
+   "claim_ids": [
+    "J006",
+    "AN003",
+    "S003"
+   ],
+   "required_claim_ids": [
+    "J008",
+    "L004"
+   ],
+   "ref_principles": [],
+   "video_direction": "일반화 범위 표시. 법률 상담처럼 단정하지 않음.",
+   "audio_cue": "MUS05 OUT 마지막 18f",
+   "qc": "법률 상담처럼 단정하지 않는다. 일반화는 검수 대상."
+  },
+  {
+   "cue_id": "Q37",
+   "act": "L",
+   "in_frame": 13200,
+   "duration_frames": 300,
+   "out_frame_exclusive": 13500,
+   "component": "G23",
+   "narration": [
+    "이 판결 뒤인 2024년, 선고 직전 공탁이 있으면 법원이 피해자 의견을 꼭 듣도록 형사소송법이 바뀌었습니다."
+   ],
+   "super": "최신 상태 | 확인일 2026. 10. 25. | 2024. 10. 16. 형사소송법 개정 공포(공탁 시 피해자 의견 청취)",
+   "plate": [
+    "SH24",
+    {
+     "dim": 0.55
+    }
+   ],
+   "hud": null,
+   "gfx": [
+    {
+     "type": "card",
+     "at": 20,
+     "center": true,
+     "y": 220,
+     "w": 1300,
+     "tag": "law",
+     "title": "이후 바뀐 것",
+     "rows": [
+      {
+       "k": "2022. 12. 9.",
+       "v": "형사공탁 특례 시행 (피해자 인적사항 몰라도 공탁)"
+      },
+      {
+       "k": "2023. 8. 16.",
+       "v": "이 사건 1심 선고 · 변론종결 후 공탁 300만 원"
+      },
+      {
+       "k": "2024. 10. 16.",
+       "v": "형사소송법 개정 공포: 선고 임박 공탁 시 피해자 의견 청취 의무",
+       "state": "hl"
+      }
+     ],
+     "footer": "확인일 2026. 10. 25. · 이 사건 판결에 소급 적용된다는 뜻은 아님",
+     "rowSize": 32
+    }
+   ],
+   "claim_ids": [
+    "L007",
+    "L008",
+    "S002"
+   ],
+   "required_claim_ids": [
+    "P003",
+    "S002"
+   ],
+   "ref_principles": [],
+   "video_direction": "후속 제도 변화와 확인일 분리.",
+   "audio_cue": "MUS06 IN 18f",
+   "qc": "확정 판결도 후속 재심·사면 등 상태를 구별. 사실만."
+  },
+  {
+   "cue_id": "Q38",
+   "act": "L",
+   "in_frame": 13500,
+   "duration_frames": 300,
+   "out_frame_exclusive": 13800,
+   "component": "G26",
+   "narration": [
+    "판단을 가른 건 반성 하나가 아니라, 법이 따지라고 정한 여러 사정이었습니다.",
+    "출처는 설명란에 있습니다."
+   ],
+   "super": "한 줄 정리 + 핵심 출처 (설명란: 원문·정정 내역)",
+   "plate": [
+    "SH24",
+    {
+     "startFrom": 300,
+     "dim": 0.6
+    }
+   ],
+   "hud": null,
+   "gfx": [
+    {
+     "type": "question",
+     "at": 10,
+     "text": "판단을 가른 건 반성 하나가 아니라\n법이 정한 여러 사정이었다",
+     "size": 60,
+     "y": 230
+    },
+    {
+     "type": "sources",
+     "at": 60,
+     "lines": [
+      "로이슈 2023. 8. 25. · 연합뉴스 2023. 8. 20. · 경북일보 2023. 8. 16. · MBC 2023. 8. 21.",
+      "국가법령정보센터 형법 · 양형위원회 폭력범죄 양형기준 · 2023 연간보고서 · 법무부 2024. 10. 16.",
+      "원문·정정 내역: 설명란"
+     ]
+    }
+   ],
+   "claim_ids": [
+    "J006",
+    "S001",
+    "S002"
+   ],
+   "required_claim_ids": [
+    "J006",
+    "S001",
+    "S002"
+   ],
+   "ref_principles": [],
+   "video_direction": "출처 표기를 엔드스크린 이전에 완료.",
+   "audio_cue": "MUS06 HOLD",
+   "qc": "핵심 출처 표시는 엔드카드 이전에 완료."
+  },
+  {
+   "cue_id": "Q39",
+   "act": "L",
+   "in_frame": 13800,
+   "duration_frames": 240,
+   "out_frame_exclusive": 14040,
+   "component": "G27",
+   "narration": [
+    "다음 사건도, 판단의 근거부터 보겠습니다."
+   ],
+   "super": "다음 사건도, 판단의 근거부터.",
+   "plate": null,
+   "hud": null,
+   "gfx": [
+    {
+     "type": "endscreen",
+     "at": 0
+    }
+   ],
+   "claim_ids": [
+    "BRAND"
+   ],
+   "required_claim_ids": [
+    "BRAND"
+   ],
+   "ref_principles": [],
+   "video_direction": "시리즈 소개로 대체(실제 연결 영상 없음). 허위 예고 없음.",
+   "audio_cue": "MUS06 HOLD",
+   "qc": "실제 연결 영상이 없으면 시리즈 소개로 대체. 허위 예고 금지."
+  },
+  {
+   "cue_id": "Q40",
+   "act": "L",
+   "in_frame": 14040,
+   "duration_frames": 360,
+   "out_frame_exclusive": 14400,
+   "component": "G27",
+   "narration": [],
+   "super": "{관련 영상 슬롯} | {구독 슬롯}",
+   "plate": null,
+   "hud": null,
+   "gfx": [
+    {
+     "type": "endscreen",
+     "at": 0
+    }
+   ],
+   "claim_ids": [
+    "BRAND"
+   ],
+   "required_claim_ids": [
+    "BRAND"
+   ],
+   "ref_principles": [],
+   "video_direction": "최종 화면 유지. 새 정보 없음. 08:00:00 종료.",
+   "audio_cue": "MUS06 FADE OUT 마지막 24f",
+   "qc": "08:00:00 종료, 추가 블랙·로고 붙이지 않음."
+  }
+ ]
+}

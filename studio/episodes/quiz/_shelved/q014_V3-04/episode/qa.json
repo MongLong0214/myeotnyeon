@@ -1,0 +1,116 @@
+{
+ "episode": "q014",
+ "file": "episodes/quiz/out/v3/q014.mp4",
+ "audit": {
+  "frames": 886,
+  "bad": 0,
+  "pass": true
+ },
+ "probe": {
+  "width": 1080,
+  "height": 1920,
+  "fps": 30.0,
+  "pix_fmt": "yuv420p",
+  "color_space": "bt709",
+  "color_primaries": "bt709",
+  "color_transfer": "bt709",
+  "audio": "aac",
+  "audio_bitrate": "317371",
+  "duration": 29.547,
+  "pass": true
+ },
+ "loudness": {
+  "integrated_lufs": -14.0,
+  "true_peak_dbtp": -1.4,
+  "pass": true
+ },
+ "freeze_black": {
+  "freezes_over_2_5s": [],
+  "black_segments": [],
+  "pass": true
+ },
+ "asr_final_mix": {
+  "reference": "해외 피싱 조직의 전화가 국내 010 번호로 뜨게 만든 20대 두 명. 일주일마다 전국 모텔을 옮겨 다니며 대포폰 136대와 유심칩 395개를 썼습니다. 피해자는 39명이고 피해액은 약 11억 원이었어요. 벌금, 집행유예, 실형 중 무엇이었을까요? 판사는 단순 현금 수거책보다 가담 정도가 무겁다고 봤습니다. 피해 회복을 위한 노력도 없었고요. 다만 범행을 인정했고 벌금형보다 무거운 전과는 없었죠. 정답은 실형, 징역 10년입니다. 검찰 구형 5년의 두 배였어요. 다음 사건도 맞혀 보세요.",
+  "transcript": "해외 피싱 조직의 전화가 국내 010번호로 뜨게 만든 20대 2명. 일주일마다 전국 모텔을 옮겨다니며 대포폰 136대와 유심칩 395개를 썼습니다. 피해자는 39명이고 피해액은 약 11억 원이었어요. 벌금 집행유예, 실형 중 무엇이었을까요? 판사는 단순 현금 수거책보다 가담 정도가 무겁다고 봤습니다. 피해 회복을 위한 노력도 없었고요. 다만 범행을 인정했고 벌금형보다 무거운 정과는 없었죠. 정답은 실형, 징역 10년입니다. 검찰 구형 5년의 2배였어요. 다음 사건도 마쳐보세요.",
+  "accuracy_raw": 0.9755,
+  "accuracy": 0.9902,
+  "pass": true,
+  "normalisation": "numbers to integers (1만 1천 = 11,000), m → 미터, phonetic spellings 마쳐→맞혀, 맞춰→맞혀, 2배→두 배, 공일공→010"
+ },
+ "numbers": {
+  "screen": [
+   1,
+   2,
+   5,
+   6,
+   9,
+   10,
+   20,
+   39,
+   136,
+   395,
+   2026,
+   1100000000
+  ],
+  "speech": [
+   5,
+   10,
+   20,
+   39,
+   136,
+   395,
+   1100000000
+  ],
+  "not_in_facts": [],
+  "pass": true
+ },
+ "spelling": {
+  "issues": [],
+  "pass": true
+ },
+ "im_not_ai": {
+  "version": "2.3.2",
+  "counts": {
+   "C-8": 0,
+   "C-11": 0,
+   "I-4": 0,
+   "E-2": 0,
+   "F-5": 0
+  },
+  "pass": true,
+  "risk_band": "low"
+ },
+ "structure": {
+  "episode": "q014",
+  "frames": 886,
+  "seconds": 29.53,
+  "duration_ok": true,
+  "duration_hard_ok": true,
+  "reveal_frame": 735,
+  "reveal_ratio": 0.83,
+  "reveal_ok": true,
+  "max_gap_frames": 43,
+  "max_gap_at": [
+   351,
+   394
+  ],
+  "tempo_ok": true,
+  "changes_per_10s": 14.9,
+  "over_gap": [],
+  "pass": true
+ },
+ "phone_sheet": "episodes/quiz/out/v3/review/q014_phone.png",
+ "phone_sheet_frames": 21,
+ "gates": {
+  "audit": true,
+  "probe": true,
+  "loudness": true,
+  "freeze_black": true,
+  "asr_final_mix": true,
+  "numbers": true,
+  "spelling": true,
+  "im_not_ai": true,
+  "structure": true
+ },
+ "all_pass": true
+}

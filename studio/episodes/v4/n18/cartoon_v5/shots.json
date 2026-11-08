@@ -1,0 +1,4048 @@
+[
+  {
+    "id": "F001",
+    "index": 0,
+    "start": 0,
+    "end": 53,
+    "scene": "drill-collapse",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 0,
+    "performanceEnd": 53,
+    "narrationId": "N001",
+    "facts": [
+      "E04",
+      "F11"
+    ],
+    "characterActing": true,
+    "purpose": "군기훈련 도중, 사람이 쓰러졌습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F002",
+    "index": 1,
+    "start": 53,
+    "end": 91,
+    "scene": "court-reveal",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 53,
+    "performanceEnd": 166,
+    "narrationId": "N002",
+    "facts": [
+      "C06",
+      "D05",
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "법원은 학대치사를 인정했죠. 그런데 교육 목적은 왜 형을 정할 때 참작됐을까요?",
+    "characterPresent": true
+  },
+  {
+    "id": "F003",
+    "index": 2,
+    "start": 91,
+    "end": 128,
+    "scene": "court-reveal",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 53,
+    "performanceEnd": 166,
+    "narrationId": "N002",
+    "facts": [
+      "C06",
+      "D05",
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "법원은 학대치사를 인정했죠. 그런데 교육 목적은 왜 형을 정할 때 참작됐을까요?",
+    "characterPresent": true
+  },
+  {
+    "id": "F004",
+    "index": 3,
+    "start": 128,
+    "end": 166,
+    "scene": "court-reveal",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 53,
+    "performanceEnd": 166,
+    "narrationId": "N002",
+    "facts": [
+      "C06",
+      "D05",
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "법원은 학대치사를 인정했죠. 그런데 교육 목적은 왜 형을 정할 때 참작됐을까요?",
+    "characterPresent": true
+  },
+  {
+    "id": "F005",
+    "index": 4,
+    "start": 166,
+    "end": 214,
+    "scene": "drill-wide",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 166,
+    "performanceEnd": 262,
+    "narrationId": "N003",
+    "facts": [
+      "E01"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 5월 23일. 강원 인제, 육군 12사단 신병교육대.",
+    "characterPresent": true
+  },
+  {
+    "id": "F006",
+    "index": 5,
+    "start": 214,
+    "end": 262,
+    "scene": "drill-wide",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 166,
+    "performanceEnd": 262,
+    "narrationId": "N003",
+    "facts": [
+      "E01"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 5월 23일. 강원 인제, 육군 12사단 신병교육대.",
+    "characterPresent": true
+  },
+  {
+    "id": "F007",
+    "index": 6,
+    "start": 262,
+    "end": 300,
+    "scene": "barracks",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 262,
+    "performanceEnd": 375,
+    "narrationId": "N004",
+    "facts": [
+      "F02"
+    ],
+    "characterActing": true,
+    "purpose": "경찰 수사결과, 전날 취침점호 뒤 떠들었다는 이유로 훈련병들을 적발했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F008",
+    "index": 7,
+    "start": 300,
+    "end": 337,
+    "scene": "barracks",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 262,
+    "performanceEnd": 375,
+    "narrationId": "N004",
+    "facts": [
+      "F02"
+    ],
+    "characterActing": true,
+    "purpose": "경찰 수사결과, 전날 취침점호 뒤 떠들었다는 이유로 훈련병들을 적발했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F009",
+    "index": 8,
+    "start": 337,
+    "end": 375,
+    "scene": "barracks",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 262,
+    "performanceEnd": 375,
+    "narrationId": "N004",
+    "facts": [
+      "F02"
+    ],
+    "characterActing": true,
+    "purpose": "경찰 수사결과, 전날 취침점호 뒤 떠들었다는 이유로 훈련병들을 적발했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F010",
+    "index": 9,
+    "start": 375,
+    "end": 418,
+    "scene": "command-approve",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 375,
+    "performanceEnd": 460,
+    "narrationId": "N005",
+    "facts": [
+      "F03"
+    ],
+    "characterActing": true,
+    "purpose": "부중대장이 다음 날 구두 보고했고, 중대장이 승인했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F011",
+    "index": 10,
+    "start": 418,
+    "end": 460,
+    "scene": "command-approve",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 375,
+    "performanceEnd": 460,
+    "narrationId": "N005",
+    "facts": [
+      "F03"
+    ],
+    "characterActing": true,
+    "purpose": "부중대장이 다음 날 구두 보고했고, 중대장이 승인했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F012",
+    "index": 11,
+    "start": 460,
+    "end": 494,
+    "scene": "command-skip",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 460,
+    "performanceEnd": 562,
+    "narrationId": "N006",
+    "facts": [
+      "F04"
+    ],
+    "characterActing": true,
+    "purpose": "그런데 확인서도, 소명 기회도 빠졌습니다. 시작부터 규정을 어겼습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F013",
+    "index": 12,
+    "start": 494,
+    "end": 528,
+    "scene": "command-skip",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 460,
+    "performanceEnd": 562,
+    "narrationId": "N006",
+    "facts": [
+      "F04"
+    ],
+    "characterActing": true,
+    "purpose": "그런데 확인서도, 소명 기회도 빠졌습니다. 시작부터 규정을 어겼습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F014",
+    "index": 13,
+    "start": 528,
+    "end": 562,
+    "scene": "command-skip",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 460,
+    "performanceEnd": 562,
+    "narrationId": "N006",
+    "facts": [
+      "F04"
+    ],
+    "characterActing": true,
+    "purpose": "그런데 확인서도, 소명 기회도 빠졌습니다. 시작부터 규정을 어겼습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F015",
+    "index": 14,
+    "start": 562,
+    "end": 610,
+    "scene": "inspector",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 562,
+    "performanceEnd": 658,
+    "narrationId": "N007",
+    "facts": [
+      "F05"
+    ],
+    "characterActing": true,
+    "purpose": "신체 상태와 훈련장 온도지수도 제대로 확인하지 않았다고 합니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F016",
+    "index": 15,
+    "start": 610,
+    "end": 658,
+    "scene": "inspector",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 562,
+    "performanceEnd": 658,
+    "narrationId": "N007",
+    "facts": [
+      "F05"
+    ],
+    "characterActing": true,
+    "purpose": "신체 상태와 훈련장 온도지수도 제대로 확인하지 않았다고 합니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F017",
+    "index": 16,
+    "start": 658,
+    "end": 693,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 658,
+    "performanceEnd": 764,
+    "narrationId": "N008",
+    "facts": [
+      "F03",
+      "F04",
+      "F05"
+    ],
+    "characterActing": true,
+    "purpose": "사람을 움직이기 전에 확인할 기본. 그건 건너뛰고 명령부터 움직였습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F018",
+    "index": 17,
+    "start": 693,
+    "end": 729,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 658,
+    "performanceEnd": 764,
+    "narrationId": "N008",
+    "facts": [
+      "F03",
+      "F04",
+      "F05"
+    ],
+    "characterActing": true,
+    "purpose": "사람을 움직이기 전에 확인할 기본. 그건 건너뛰고 명령부터 움직였습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F019",
+    "index": 18,
+    "start": 729,
+    "end": 764,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 658,
+    "performanceEnd": 764,
+    "narrationId": "N008",
+    "facts": [
+      "F03",
+      "F04",
+      "F05"
+    ],
+    "characterActing": true,
+    "purpose": "사람을 움직이기 전에 확인할 기본. 그건 건너뛰고 명령부터 움직였습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F020",
+    "index": 19,
+    "start": 764,
+    "end": 799,
+    "scene": "recruits-pack",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 764,
+    "performanceEnd": 870,
+    "narrationId": "N009",
+    "facts": [
+      "E02",
+      "F06"
+    ],
+    "characterActing": true,
+    "purpose": "대상은 6명. 보급품을 다 못 받았는데 군장의 빈 곳은 책으로 채웠습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F021",
+    "index": 20,
+    "start": 799,
+    "end": 835,
+    "scene": "insert-pack",
+    "type": "insert",
+    "serious": false,
+    "performanceStart": 764,
+    "performanceEnd": 870,
+    "narrationId": "N009",
+    "facts": [
+      "E02",
+      "F06"
+    ],
+    "characterActing": false,
+    "purpose": "대상은 6명. 보급품을 다 못 받았는데 군장의 빈 곳은 책으로 채웠습니다.",
+    "characterPresent": false
+  },
+  {
+    "id": "F022",
+    "index": 21,
+    "start": 835,
+    "end": 870,
+    "scene": "recruits-pack",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 764,
+    "performanceEnd": 870,
+    "narrationId": "N009",
+    "facts": [
+      "E02",
+      "F06"
+    ],
+    "characterActing": true,
+    "purpose": "대상은 6명. 보급품을 다 못 받았는데 군장의 빈 곳은 책으로 채웠습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F023",
+    "index": 22,
+    "start": 870,
+    "end": 916,
+    "scene": "command-satire",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 870,
+    "performanceEnd": 962,
+    "narrationId": "N010",
+    "facts": [
+      "F04",
+      "F05",
+      "F06"
+    ],
+    "characterActing": true,
+    "purpose": "안전 절차는 비우고, 군장은 채우고. 이 순서가 어디까지 갔을까요?",
+    "characterPresent": true
+  },
+  {
+    "id": "F024",
+    "index": 23,
+    "start": 916,
+    "end": 962,
+    "scene": "command-satire",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 870,
+    "performanceEnd": 962,
+    "narrationId": "N010",
+    "facts": [
+      "F04",
+      "F05",
+      "F06"
+    ],
+    "characterActing": true,
+    "purpose": "안전 절차는 비우고, 군장은 채우고. 이 순서가 어디까지 갔을까요?",
+    "characterPresent": true
+  },
+  {
+    "id": "F025",
+    "index": 24,
+    "start": 962,
+    "end": 1008,
+    "scene": "drill-march",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 962,
+    "performanceEnd": 1054,
+    "narrationId": "N011",
+    "facts": [
+      "F08",
+      "F10"
+    ],
+    "characterActing": true,
+    "purpose": "시작은 16시 26분쯤. 완전군장에 총기를 휴대한 훈련병들.",
+    "characterPresent": true
+  },
+  {
+    "id": "F026",
+    "index": 25,
+    "start": 1008,
+    "end": 1054,
+    "scene": "drill-march",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 962,
+    "performanceEnd": 1054,
+    "narrationId": "N011",
+    "facts": [
+      "F08",
+      "F10"
+    ],
+    "characterActing": true,
+    "purpose": "시작은 16시 26분쯤. 완전군장에 총기를 휴대한 훈련병들.",
+    "characterPresent": true
+  },
+  {
+    "id": "F027",
+    "index": 26,
+    "start": 1054,
+    "end": 1087,
+    "scene": "drill-race",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 1054,
+    "performanceEnd": 1153,
+    "narrationId": "N012",
+    "facts": [
+      "F08",
+      "F09"
+    ],
+    "characterActing": true,
+    "purpose": "연병장 두 바퀴를 걸었습니다. 그다음 중대장의 지시는 선착순 한 바퀴.",
+    "characterPresent": true
+  },
+  {
+    "id": "F028",
+    "index": 27,
+    "start": 1087,
+    "end": 1120,
+    "scene": "drill-race",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 1054,
+    "performanceEnd": 1153,
+    "narrationId": "N012",
+    "facts": [
+      "F08",
+      "F09"
+    ],
+    "characterActing": true,
+    "purpose": "연병장 두 바퀴를 걸었습니다. 그다음 중대장의 지시는 선착순 한 바퀴.",
+    "characterPresent": true
+  },
+  {
+    "id": "F029",
+    "index": 28,
+    "start": 1120,
+    "end": 1153,
+    "scene": "drill-race",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 1054,
+    "performanceEnd": 1153,
+    "narrationId": "N012",
+    "facts": [
+      "F08",
+      "F09"
+    ],
+    "characterActing": true,
+    "purpose": "연병장 두 바퀴를 걸었습니다. 그다음 중대장의 지시는 선착순 한 바퀴.",
+    "characterPresent": true
+  },
+  {
+    "id": "F030",
+    "index": 29,
+    "start": 1153,
+    "end": 1196,
+    "scene": "drill-pushup",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 1153,
+    "performanceEnd": 1238,
+    "narrationId": "N013",
+    "facts": [
+      "F09"
+    ],
+    "characterActing": true,
+    "purpose": "팔굽혀펴기. 그리고 뜀걸음 세 바퀴. 완전군장 상태였습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F031",
+    "index": 30,
+    "start": 1196,
+    "end": 1238,
+    "scene": "drill-pushup",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 1153,
+    "performanceEnd": 1238,
+    "narrationId": "N013",
+    "facts": [
+      "F09"
+    ],
+    "characterActing": true,
+    "purpose": "팔굽혀펴기. 그리고 뜀걸음 세 바퀴. 완전군장 상태였습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F032",
+    "index": 31,
+    "start": 1238,
+    "end": 1284,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 1238,
+    "performanceEnd": 1330,
+    "narrationId": "N014",
+    "facts": [
+      "E03",
+      "C06"
+    ],
+    "characterActing": true,
+    "purpose": "군기라는 이름표가 규정 위반을 허용하는 면허증은 아니니까요.",
+    "characterPresent": true
+  },
+  {
+    "id": "F033",
+    "index": 32,
+    "start": 1284,
+    "end": 1330,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 1238,
+    "performanceEnd": 1330,
+    "narrationId": "N014",
+    "facts": [
+      "E03",
+      "C06"
+    ],
+    "characterActing": true,
+    "purpose": "군기라는 이름표가 규정 위반을 허용하는 면허증은 아니니까요.",
+    "characterPresent": true
+  },
+  {
+    "id": "F034",
+    "index": 33,
+    "start": 1330,
+    "end": 1386,
+    "scene": "drill-collapse",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 1330,
+    "performanceEnd": 1442,
+    "narrationId": "N015",
+    "facts": [
+      "F11",
+      "F12"
+    ],
+    "characterActing": true,
+    "purpose": "17시 11분쯤, 뛰던 훈련병이 쓰러졌습니다. 시작한 지 약 45분 뒤.",
+    "characterPresent": true
+  },
+  {
+    "id": "F035",
+    "index": 34,
+    "start": 1386,
+    "end": 1442,
+    "scene": "drill-collapse",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 1330,
+    "performanceEnd": 1442,
+    "narrationId": "N015",
+    "facts": [
+      "F11",
+      "F12"
+    ],
+    "characterActing": true,
+    "purpose": "17시 11분쯤, 뛰던 훈련병이 쓰러졌습니다. 시작한 지 약 45분 뒤.",
+    "characterPresent": true
+  },
+  {
+    "id": "F036",
+    "index": 35,
+    "start": 1442,
+    "end": 1500,
+    "scene": "emergency-ground",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 1442,
+    "performanceEnd": 1558,
+    "narrationId": "N016",
+    "facts": [
+      "F13"
+    ],
+    "characterActing": true,
+    "purpose": "멈춰야 했던 건 훈련입니다. 지금은 위급함을 알아보고 응급조치를 할 때였습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F037",
+    "index": 36,
+    "start": 1500,
+    "end": 1558,
+    "scene": "emergency-ground",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 1442,
+    "performanceEnd": 1558,
+    "narrationId": "N016",
+    "facts": [
+      "F13"
+    ],
+    "characterActing": true,
+    "purpose": "멈춰야 했던 건 훈련입니다. 지금은 위급함을 알아보고 응급조치를 할 때였습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F038",
+    "index": 37,
+    "start": 1558,
+    "end": 1603,
+    "scene": "emergency-ground",
+    "type": "low-angle",
+    "serious": true,
+    "performanceStart": 1558,
+    "performanceEnd": 1692,
+    "narrationId": "N017",
+    "facts": [
+      "F13"
+    ],
+    "characterActing": true,
+    "purpose": "경찰은 간부들이 열사병의 위급함을 제대로 인지하지 못해 응급처치를 지체했다고 봤습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F039",
+    "index": 38,
+    "start": 1603,
+    "end": 1647,
+    "scene": "emergency-ground",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 1558,
+    "performanceEnd": 1692,
+    "narrationId": "N017",
+    "facts": [
+      "F13"
+    ],
+    "characterActing": true,
+    "purpose": "경찰은 간부들이 열사병의 위급함을 제대로 인지하지 못해 응급처치를 지체했다고 봤습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F040",
+    "index": 39,
+    "start": 1647,
+    "end": 1692,
+    "scene": "emergency-ground",
+    "type": "high-angle",
+    "serious": true,
+    "performanceStart": 1558,
+    "performanceEnd": 1692,
+    "narrationId": "N017",
+    "facts": [
+      "F13"
+    ],
+    "characterActing": true,
+    "purpose": "경찰은 간부들이 열사병의 위급함을 제대로 인지하지 못해 응급처치를 지체했다고 봤습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F041",
+    "index": 40,
+    "start": 1692,
+    "end": 1740,
+    "scene": "medics",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 1692,
+    "performanceEnd": 1787,
+    "narrationId": "N018",
+    "facts": [
+      "F05",
+      "F06",
+      "F13",
+      "F16"
+    ],
+    "characterActing": true,
+    "purpose": "군장보다 먼저 챙겨야 했던 사람의 상태. 그다음은 병원 기록입니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F042",
+    "index": 41,
+    "start": 1740,
+    "end": 1787,
+    "scene": "medics",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 1692,
+    "performanceEnd": 1787,
+    "narrationId": "N018",
+    "facts": [
+      "F05",
+      "F06",
+      "F13",
+      "F16"
+    ],
+    "characterActing": true,
+    "purpose": "군장보다 먼저 챙겨야 했던 사람의 상태. 그다음은 병원 기록입니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F043",
+    "index": 42,
+    "start": 1787,
+    "end": 1826,
+    "scene": "transport",
+    "type": "low-angle",
+    "serious": true,
+    "performanceStart": 1787,
+    "performanceEnd": 1904,
+    "narrationId": "N019",
+    "facts": [
+      "F16"
+    ],
+    "characterActing": true,
+    "purpose": "의무대에서 처치받고 속초의료원으로, 다시 강릉아산병원으로 옮겨졌습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F044",
+    "index": 43,
+    "start": 1826,
+    "end": 1865,
+    "scene": "transport",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 1787,
+    "performanceEnd": 1904,
+    "narrationId": "N019",
+    "facts": [
+      "F16"
+    ],
+    "characterActing": true,
+    "purpose": "의무대에서 처치받고 속초의료원으로, 다시 강릉아산병원으로 옮겨졌습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F045",
+    "index": 44,
+    "start": 1865,
+    "end": 1904,
+    "scene": "transport",
+    "type": "high-angle",
+    "serious": true,
+    "performanceStart": 1787,
+    "performanceEnd": 1904,
+    "narrationId": "N019",
+    "facts": [
+      "F16"
+    ],
+    "characterActing": true,
+    "purpose": "의무대에서 처치받고 속초의료원으로, 다시 강릉아산병원으로 옮겨졌습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F046",
+    "index": 45,
+    "start": 1904,
+    "end": 1946,
+    "scene": "hospital",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 1904,
+    "performanceEnd": 2030,
+    "narrationId": "N020",
+    "facts": [
+      "F21"
+    ],
+    "characterActing": true,
+    "purpose": "이송 당시 40도를 넘는 고열이 있었다고 합니다. 위급함은 추상적인 말이 아니었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F047",
+    "index": 46,
+    "start": 1946,
+    "end": 1988,
+    "scene": "hospital",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 1904,
+    "performanceEnd": 2030,
+    "narrationId": "N020",
+    "facts": [
+      "F21"
+    ],
+    "characterActing": true,
+    "purpose": "이송 당시 40도를 넘는 고열이 있었다고 합니다. 위급함은 추상적인 말이 아니었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F048",
+    "index": 47,
+    "start": 1988,
+    "end": 2030,
+    "scene": "hospital",
+    "type": "low-angle",
+    "serious": true,
+    "performanceStart": 1904,
+    "performanceEnd": 2030,
+    "narrationId": "N020",
+    "facts": [
+      "F21"
+    ],
+    "characterActing": true,
+    "purpose": "이송 당시 40도를 넘는 고열이 있었다고 합니다. 위급함은 추상적인 말이 아니었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F049",
+    "index": 48,
+    "start": 2030,
+    "end": 2075,
+    "scene": "hospital",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 2030,
+    "performanceEnd": 2164,
+    "narrationId": "N021",
+    "facts": [
+      "F20"
+    ],
+    "characterActing": true,
+    "purpose": "속초의료원 관계자는 도착 때 검사에서 장기 손상이 의심되는 중증 상태였다고 설명했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F050",
+    "index": 49,
+    "start": 2075,
+    "end": 2119,
+    "scene": "hospital",
+    "type": "high-angle",
+    "serious": true,
+    "performanceStart": 2030,
+    "performanceEnd": 2164,
+    "narrationId": "N021",
+    "facts": [
+      "F20"
+    ],
+    "characterActing": true,
+    "purpose": "속초의료원 관계자는 도착 때 검사에서 장기 손상이 의심되는 중증 상태였다고 설명했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F051",
+    "index": 50,
+    "start": 2119,
+    "end": 2164,
+    "scene": "hospital",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 2030,
+    "performanceEnd": 2164,
+    "narrationId": "N021",
+    "facts": [
+      "F20"
+    ],
+    "characterActing": true,
+    "purpose": "속초의료원 관계자는 도착 때 검사에서 장기 손상이 의심되는 중증 상태였다고 설명했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F052",
+    "index": 51,
+    "start": 2164,
+    "end": 2206,
+    "scene": "transport",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 2164,
+    "performanceEnd": 2291,
+    "narrationId": "N022",
+    "facts": [
+      "F18",
+      "F19"
+    ],
+    "characterActing": true,
+    "purpose": "강릉아산병원 도착은 21시 40분쯤. 속초의료원에서 옮겨 도착하기까지 약 세 시간.",
+    "characterPresent": true
+  },
+  {
+    "id": "F053",
+    "index": 52,
+    "start": 2206,
+    "end": 2249,
+    "scene": "transport",
+    "type": "low-angle",
+    "serious": true,
+    "performanceStart": 2164,
+    "performanceEnd": 2291,
+    "narrationId": "N022",
+    "facts": [
+      "F18",
+      "F19"
+    ],
+    "characterActing": true,
+    "purpose": "강릉아산병원 도착은 21시 40분쯤. 속초의료원에서 옮겨 도착하기까지 약 세 시간.",
+    "characterPresent": true
+  },
+  {
+    "id": "F054",
+    "index": 53,
+    "start": 2249,
+    "end": 2291,
+    "scene": "transport",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 2164,
+    "performanceEnd": 2291,
+    "narrationId": "N022",
+    "facts": [
+      "F18",
+      "F19"
+    ],
+    "characterActing": true,
+    "purpose": "강릉아산병원 도착은 21시 40분쯤. 속초의료원에서 옮겨 도착하기까지 약 세 시간.",
+    "characterPresent": true
+  },
+  {
+    "id": "F055",
+    "index": 54,
+    "start": 2291,
+    "end": 2339,
+    "scene": "investigator",
+    "type": "high-angle",
+    "serious": true,
+    "performanceStart": 2291,
+    "performanceEnd": 2387,
+    "narrationId": "N023",
+    "facts": [
+      "F19"
+    ],
+    "characterActing": true,
+    "purpose": "두 병원 사이 전체 경과입니다. 차로 달린 시간만을 뜻하지 않습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F056",
+    "index": 55,
+    "start": 2339,
+    "end": 2387,
+    "scene": "investigator",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 2291,
+    "performanceEnd": 2387,
+    "narrationId": "N023",
+    "facts": [
+      "F19"
+    ],
+    "characterActing": true,
+    "purpose": "두 병원 사이 전체 경과입니다. 차로 달린 시간만을 뜻하지 않습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F057",
+    "index": 56,
+    "start": 2387,
+    "end": 2429,
+    "scene": "hospital-loss",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 2387,
+    "performanceEnd": 2514,
+    "narrationId": "N024",
+    "facts": [
+      "F15",
+      "F22"
+    ],
+    "characterActing": false,
+    "purpose": "중환자실 치료가 이어졌지만, 쓰러진 이틀 뒤인 2024년 5월 25일 숨졌습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F058",
+    "index": 57,
+    "start": 2429,
+    "end": 2472,
+    "scene": "hospital-loss",
+    "type": "low-angle",
+    "serious": true,
+    "performanceStart": 2387,
+    "performanceEnd": 2514,
+    "narrationId": "N024",
+    "facts": [
+      "F15",
+      "F22"
+    ],
+    "characterActing": false,
+    "purpose": "중환자실 치료가 이어졌지만, 쓰러진 이틀 뒤인 2024년 5월 25일 숨졌습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F059",
+    "index": 58,
+    "start": 2472,
+    "end": 2514,
+    "scene": "hospital-loss",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 2387,
+    "performanceEnd": 2514,
+    "narrationId": "N024",
+    "facts": [
+      "F15",
+      "F22"
+    ],
+    "characterActing": false,
+    "purpose": "중환자실 치료가 이어졌지만, 쓰러진 이틀 뒤인 2024년 5월 25일 숨졌습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F060",
+    "index": 59,
+    "start": 2514,
+    "end": 2558,
+    "scene": "medics",
+    "type": "high-angle",
+    "serious": true,
+    "performanceStart": 2514,
+    "performanceEnd": 2602,
+    "narrationId": "N025",
+    "facts": [
+      "F14"
+    ],
+    "characterActing": true,
+    "purpose": "수사결과 보도에 나온 사인은 열사병에 의한 다발성 장기부전.",
+    "characterPresent": true
+  },
+  {
+    "id": "F061",
+    "index": 60,
+    "start": 2558,
+    "end": 2602,
+    "scene": "medics",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 2514,
+    "performanceEnd": 2602,
+    "narrationId": "N025",
+    "facts": [
+      "F14"
+    ],
+    "characterActing": true,
+    "purpose": "수사결과 보도에 나온 사인은 열사병에 의한 다발성 장기부전.",
+    "characterPresent": true
+  },
+  {
+    "id": "F062",
+    "index": 61,
+    "start": 2602,
+    "end": 2650,
+    "scene": "family-call",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 2602,
+    "performanceEnd": 2746,
+    "narrationId": "N026",
+    "facts": [
+      "F23"
+    ],
+    "characterActing": true,
+    "purpose": "어머니 편지에는 첫 전화 시각이 남았습니다. 5월 23일, 17시 54분. 아들이 쓰러졌다는 전화.",
+    "characterPresent": true
+  },
+  {
+    "id": "F063",
+    "index": 62,
+    "start": 2650,
+    "end": 2698,
+    "scene": "family-call",
+    "type": "low-angle",
+    "serious": true,
+    "performanceStart": 2602,
+    "performanceEnd": 2746,
+    "narrationId": "N026",
+    "facts": [
+      "F23"
+    ],
+    "characterActing": true,
+    "purpose": "어머니 편지에는 첫 전화 시각이 남았습니다. 5월 23일, 17시 54분. 아들이 쓰러졌다는 전화.",
+    "characterPresent": true
+  },
+  {
+    "id": "F064",
+    "index": 63,
+    "start": 2698,
+    "end": 2746,
+    "scene": "family-call",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 2602,
+    "performanceEnd": 2746,
+    "narrationId": "N026",
+    "facts": [
+      "F23"
+    ],
+    "characterActing": true,
+    "purpose": "어머니 편지에는 첫 전화 시각이 남았습니다. 5월 23일, 17시 54분. 아들이 쓰러졌다는 전화.",
+    "characterPresent": true
+  },
+  {
+    "id": "F065",
+    "index": 64,
+    "start": 2746,
+    "end": 2799,
+    "scene": "witness",
+    "type": "high-angle",
+    "serious": true,
+    "performanceStart": 2746,
+    "performanceEnd": 2852,
+    "narrationId": "N027",
+    "facts": [
+      "F32",
+      "F34"
+    ],
+    "characterActing": true,
+    "purpose": "법정에는 살아남은 동료들이 섰습니다. 그들이 전한 장면은 더 무겁습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F066",
+    "index": 65,
+    "start": 2799,
+    "end": 2852,
+    "scene": "witness",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 2746,
+    "performanceEnd": 2852,
+    "narrationId": "N027",
+    "facts": [
+      "F32",
+      "F34"
+    ],
+    "characterActing": true,
+    "purpose": "법정에는 살아남은 동료들이 섰습니다. 그들이 전한 장면은 더 무겁습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F067",
+    "index": 66,
+    "start": 2852,
+    "end": 2892,
+    "scene": "witness",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 2852,
+    "performanceEnd": 2972,
+    "narrationId": "N028",
+    "facts": [
+      "F32"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 8월 27일 공판. 함께 훈련받던 동료 네 명이 증인으로 나왔습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F068",
+    "index": 67,
+    "start": 2892,
+    "end": 2932,
+    "scene": "witness",
+    "type": "low-angle",
+    "serious": true,
+    "performanceStart": 2852,
+    "performanceEnd": 2972,
+    "narrationId": "N028",
+    "facts": [
+      "F32"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 8월 27일 공판. 함께 훈련받던 동료 네 명이 증인으로 나왔습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F069",
+    "index": 68,
+    "start": 2932,
+    "end": 2972,
+    "scene": "witness",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 2852,
+    "performanceEnd": 2972,
+    "narrationId": "N028",
+    "facts": [
+      "F32"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 8월 27일 공판. 함께 훈련받던 동료 네 명이 증인으로 나왔습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F070",
+    "index": 69,
+    "start": 2972,
+    "end": 3011,
+    "scene": "witness-pack",
+    "type": "high-angle",
+    "serious": true,
+    "performanceStart": 2972,
+    "performanceEnd": 3089,
+    "narrationId": "N029",
+    "facts": [
+      "F07"
+    ],
+    "characterActing": true,
+    "purpose": "군장에 책 약 마흔 권을 넣었다는 취지의 증언. 실제 무게를 확정한 수치는 아닙니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F071",
+    "index": 70,
+    "start": 3011,
+    "end": 3050,
+    "scene": "witness-pack",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 2972,
+    "performanceEnd": 3089,
+    "narrationId": "N029",
+    "facts": [
+      "F07"
+    ],
+    "characterActing": true,
+    "purpose": "군장에 책 약 마흔 권을 넣었다는 취지의 증언. 실제 무게를 확정한 수치는 아닙니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F072",
+    "index": 71,
+    "start": 3050,
+    "end": 3089,
+    "scene": "witness-pack",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 2972,
+    "performanceEnd": 3089,
+    "narrationId": "N029",
+    "facts": [
+      "F07"
+    ],
+    "characterActing": true,
+    "purpose": "군장에 책 약 마흔 권을 넣었다는 취지의 증언. 실제 무게를 확정한 수치는 아닙니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F073",
+    "index": 72,
+    "start": 3089,
+    "end": 3129,
+    "scene": "witness-collapse",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 3089,
+    "performanceEnd": 3209,
+    "narrationId": "N030",
+    "facts": [
+      "F34"
+    ],
+    "characterActing": true,
+    "purpose": "쓰러진 뒤에도 중대장이 욕설하며 혼내거나 일어나라고 소리쳤다고 증언했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F074",
+    "index": 73,
+    "start": 3129,
+    "end": 3169,
+    "scene": "witness-collapse",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 3089,
+    "performanceEnd": 3209,
+    "narrationId": "N030",
+    "facts": [
+      "F34"
+    ],
+    "characterActing": false,
+    "purpose": "쓰러진 뒤에도 중대장이 욕설하며 혼내거나 일어나라고 소리쳤다고 증언했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F075",
+    "index": 74,
+    "start": 3169,
+    "end": 3209,
+    "scene": "witness-collapse",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 3089,
+    "performanceEnd": 3209,
+    "narrationId": "N030",
+    "facts": [
+      "F34"
+    ],
+    "characterActing": false,
+    "purpose": "쓰러진 뒤에도 중대장이 욕설하며 혼내거나 일어나라고 소리쳤다고 증언했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F076",
+    "index": 75,
+    "start": 3209,
+    "end": 3264,
+    "scene": "witness",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 3209,
+    "performanceEnd": 3319,
+    "narrationId": "N031",
+    "facts": [
+      "F34"
+    ],
+    "characterActing": true,
+    "purpose": "쓰러진 뒤에도 질책했다는 증언. 위급한 상황에서 나온 대응이었다는 겁니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F077",
+    "index": 76,
+    "start": 3264,
+    "end": 3319,
+    "scene": "witness",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 3209,
+    "performanceEnd": 3319,
+    "narrationId": "N031",
+    "facts": [
+      "F34"
+    ],
+    "characterActing": true,
+    "purpose": "쓰러진 뒤에도 질책했다는 증언. 위급한 상황에서 나온 대응이었다는 겁니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F078",
+    "index": 77,
+    "start": 3319,
+    "end": 3361,
+    "scene": "witness-distress",
+    "type": "low-angle",
+    "serious": true,
+    "performanceStart": 3319,
+    "performanceEnd": 3446,
+    "narrationId": "N032",
+    "facts": [
+      "F35"
+    ],
+    "characterActing": true,
+    "purpose": "한 동료는 외상 후 스트레스 장애 진단을 받았다고 밝혔습니다. 살아남았다고 끝이 아니죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F079",
+    "index": 78,
+    "start": 3361,
+    "end": 3404,
+    "scene": "witness-distress",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 3319,
+    "performanceEnd": 3446,
+    "narrationId": "N032",
+    "facts": [
+      "F35"
+    ],
+    "characterActing": true,
+    "purpose": "한 동료는 외상 후 스트레스 장애 진단을 받았다고 밝혔습니다. 살아남았다고 끝이 아니죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F080",
+    "index": 79,
+    "start": 3404,
+    "end": 3446,
+    "scene": "witness-distress",
+    "type": "high-angle",
+    "serious": true,
+    "performanceStart": 3319,
+    "performanceEnd": 3446,
+    "narrationId": "N032",
+    "facts": [
+      "F35"
+    ],
+    "characterActing": true,
+    "purpose": "한 동료는 외상 후 스트레스 장애 진단을 받았다고 밝혔습니다. 살아남았다고 끝이 아니죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F081",
+    "index": 80,
+    "start": 3446,
+    "end": 3497,
+    "scene": "witness",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 3446,
+    "performanceEnd": 3548,
+    "narrationId": "N033",
+    "facts": [
+      "F36"
+    ],
+    "characterActing": true,
+    "purpose": "동료 한 명은 처치가 빨랐다면 살 수 있었을 거라는 아쉬움도 말했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F082",
+    "index": 81,
+    "start": 3497,
+    "end": 3548,
+    "scene": "witness",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 3446,
+    "performanceEnd": 3548,
+    "narrationId": "N033",
+    "facts": [
+      "F36"
+    ],
+    "characterActing": true,
+    "purpose": "동료 한 명은 처치가 빨랐다면 살 수 있었을 거라는 아쉬움도 말했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F083",
+    "index": 82,
+    "start": 3548,
+    "end": 3594,
+    "scene": "investigators",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 3548,
+    "performanceEnd": 3685,
+    "narrationId": "N034",
+    "facts": [
+      "C10",
+      "E06"
+    ],
+    "characterActing": true,
+    "purpose": "검찰은 단순 과실로 보지 않았습니다. 훈련 방식과 경과, 신체조건을 종합해 학대로 판단했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F084",
+    "index": 83,
+    "start": 3594,
+    "end": 3639,
+    "scene": "investigators",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 3548,
+    "performanceEnd": 3685,
+    "narrationId": "N034",
+    "facts": [
+      "C10",
+      "E06"
+    ],
+    "characterActing": true,
+    "purpose": "검찰은 단순 과실로 보지 않았습니다. 훈련 방식과 경과, 신체조건을 종합해 학대로 판단했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F085",
+    "index": 84,
+    "start": 3639,
+    "end": 3685,
+    "scene": "investigators",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 3548,
+    "performanceEnd": 3685,
+    "narrationId": "N034",
+    "facts": [
+      "C10",
+      "E06"
+    ],
+    "characterActing": true,
+    "purpose": "검찰은 단순 과실로 보지 않았습니다. 훈련 방식과 경과, 신체조건을 종합해 학대로 판단했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F086",
+    "index": 85,
+    "start": 3685,
+    "end": 3722,
+    "scene": "court-enter",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 3685,
+    "performanceEnd": 3833,
+    "narrationId": "N035",
+    "facts": [
+      "C01",
+      "D01"
+    ],
+    "characterActing": true,
+    "purpose": "중대장과 부중대장은 학대치사, 직권남용 가혹행위로 기소됐습니다. 훈련이라는 포장지가 벗겨집니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F087",
+    "index": 86,
+    "start": 3722,
+    "end": 3759,
+    "scene": "court-enter",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 3685,
+    "performanceEnd": 3833,
+    "narrationId": "N035",
+    "facts": [
+      "C01",
+      "D01"
+    ],
+    "characterActing": true,
+    "purpose": "중대장과 부중대장은 학대치사, 직권남용 가혹행위로 기소됐습니다. 훈련이라는 포장지가 벗겨집니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F088",
+    "index": 87,
+    "start": 3759,
+    "end": 3796,
+    "scene": "court-enter",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 3685,
+    "performanceEnd": 3833,
+    "narrationId": "N035",
+    "facts": [
+      "C01",
+      "D01"
+    ],
+    "characterActing": true,
+    "purpose": "중대장과 부중대장은 학대치사, 직권남용 가혹행위로 기소됐습니다. 훈련이라는 포장지가 벗겨집니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F089",
+    "index": 88,
+    "start": 3796,
+    "end": 3833,
+    "scene": "court-enter",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 3685,
+    "performanceEnd": 3833,
+    "narrationId": "N035",
+    "facts": [
+      "C01",
+      "D01"
+    ],
+    "characterActing": true,
+    "purpose": "중대장과 부중대장은 학대치사, 직권남용 가혹행위로 기소됐습니다. 훈련이라는 포장지가 벗겨집니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F090",
+    "index": 89,
+    "start": 3833,
+    "end": 3879,
+    "scene": "defense",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 3833,
+    "performanceEnd": 3971,
+    "narrationId": "N036",
+    "facts": [
+      "C04"
+    ],
+    "characterActing": true,
+    "purpose": "중대장 측은 잘못된 행동을 인정하면서도 학대치사 혐의는 부인했습니다. 변호인 측 주장입니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F091",
+    "index": 90,
+    "start": 3879,
+    "end": 3925,
+    "scene": "defense",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 3833,
+    "performanceEnd": 3971,
+    "narrationId": "N036",
+    "facts": [
+      "C04"
+    ],
+    "characterActing": true,
+    "purpose": "중대장 측은 잘못된 행동을 인정하면서도 학대치사 혐의는 부인했습니다. 변호인 측 주장입니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F092",
+    "index": 91,
+    "start": 3925,
+    "end": 3971,
+    "scene": "defense",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 3833,
+    "performanceEnd": 3971,
+    "narrationId": "N036",
+    "facts": [
+      "C04"
+    ],
+    "characterActing": true,
+    "purpose": "중대장 측은 잘못된 행동을 인정하면서도 학대치사 혐의는 부인했습니다. 변호인 측 주장입니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F093",
+    "index": 92,
+    "start": 3971,
+    "end": 4018,
+    "scene": "court-judge",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 3971,
+    "performanceEnd": 4112,
+    "narrationId": "N037",
+    "facts": [
+      "C06",
+      "D05",
+      "J06"
+    ],
+    "characterActing": true,
+    "purpose": "법원의 답은 달랐습니다. 1심은 두 사람을 유죄로 보고 훈련과 사망 사이 인과관계를 인정했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F094",
+    "index": 93,
+    "start": 4018,
+    "end": 4065,
+    "scene": "court-judge",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 3971,
+    "performanceEnd": 4112,
+    "narrationId": "N037",
+    "facts": [
+      "C06",
+      "D05",
+      "J06"
+    ],
+    "characterActing": true,
+    "purpose": "법원의 답은 달랐습니다. 1심은 두 사람을 유죄로 보고 훈련과 사망 사이 인과관계를 인정했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F095",
+    "index": 94,
+    "start": 4065,
+    "end": 4112,
+    "scene": "court-judge",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 3971,
+    "performanceEnd": 4112,
+    "narrationId": "N037",
+    "facts": [
+      "C06",
+      "D05",
+      "J06"
+    ],
+    "characterActing": true,
+    "purpose": "법원의 답은 달랐습니다. 1심은 두 사람을 유죄로 보고 훈련과 사망 사이 인과관계를 인정했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F096",
+    "index": 95,
+    "start": 4112,
+    "end": 4152,
+    "scene": "court-judge",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 4112,
+    "performanceEnd": 4232,
+    "narrationId": "N038",
+    "facts": [
+      "J03"
+    ],
+    "characterActing": true,
+    "purpose": "재판부는 신체조건에 맞지 않는 군기훈련이었다며 죄책이 무겁다고 판단했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F097",
+    "index": 96,
+    "start": 4152,
+    "end": 4192,
+    "scene": "court-judge",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 4112,
+    "performanceEnd": 4232,
+    "narrationId": "N038",
+    "facts": [
+      "J03"
+    ],
+    "characterActing": true,
+    "purpose": "재판부는 신체조건에 맞지 않는 군기훈련이었다며 죄책이 무겁다고 판단했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F098",
+    "index": 97,
+    "start": 4192,
+    "end": 4232,
+    "scene": "court-judge",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 4112,
+    "performanceEnd": 4232,
+    "narrationId": "N038",
+    "facts": [
+      "J03"
+    ],
+    "characterActing": true,
+    "purpose": "재판부는 신체조건에 맞지 않는 군기훈련이었다며 죄책이 무겁다고 판단했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F099",
+    "index": 98,
+    "start": 4232,
+    "end": 4277,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 4232,
+    "performanceEnd": 4366,
+    "narrationId": "N039",
+    "facts": [
+      "J03"
+    ],
+    "characterActing": true,
+    "purpose": "군 사기, 전투력, 국민 신뢰까지 해쳤다는 판단. 군기를 세운다더니 군의 신뢰를 무너뜨린 셈이죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F100",
+    "index": 99,
+    "start": 4277,
+    "end": 4321,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 4232,
+    "performanceEnd": 4366,
+    "narrationId": "N039",
+    "facts": [
+      "J03"
+    ],
+    "characterActing": true,
+    "purpose": "군 사기, 전투력, 국민 신뢰까지 해쳤다는 판단. 군기를 세운다더니 군의 신뢰를 무너뜨린 셈이죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F101",
+    "index": 100,
+    "start": 4321,
+    "end": 4366,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 4232,
+    "performanceEnd": 4366,
+    "narrationId": "N039",
+    "facts": [
+      "J03"
+    ],
+    "characterActing": true,
+    "purpose": "군 사기, 전투력, 국민 신뢰까지 해쳤다는 판단. 군기를 세운다더니 군의 신뢰를 무너뜨린 셈이죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F102",
+    "index": 101,
+    "start": 4366,
+    "end": 4404,
+    "scene": "court-turn",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 4366,
+    "performanceEnd": 4479,
+    "narrationId": "N040",
+    "facts": [
+      "J05",
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "피해자 측 용서도 받지 못했다고 지적했습니다. 그런데 다른 이유가 등장합니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F103",
+    "index": 102,
+    "start": 4404,
+    "end": 4441,
+    "scene": "court-turn",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 4366,
+    "performanceEnd": 4479,
+    "narrationId": "N040",
+    "facts": [
+      "J05",
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "피해자 측 용서도 받지 못했다고 지적했습니다. 그런데 다른 이유가 등장합니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F104",
+    "index": 103,
+    "start": 4441,
+    "end": 4479,
+    "scene": "court-turn",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 4366,
+    "performanceEnd": 4479,
+    "narrationId": "N040",
+    "facts": [
+      "J05",
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "피해자 측 용서도 받지 못했다고 지적했습니다. 그런데 다른 이유가 등장합니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F105",
+    "index": 104,
+    "start": 4479,
+    "end": 4514,
+    "scene": "court-defense",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 4479,
+    "performanceEnd": 4585,
+    "narrationId": "N041",
+    "facts": [
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "1심은 사실관계 인정과 반성하는 태도를 유리한 정상으로 참작했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F106",
+    "index": 105,
+    "start": 4514,
+    "end": 4550,
+    "scene": "court-defense",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 4479,
+    "performanceEnd": 4585,
+    "narrationId": "N041",
+    "facts": [
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "1심은 사실관계 인정과 반성하는 태도를 유리한 정상으로 참작했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F107",
+    "index": 106,
+    "start": 4550,
+    "end": 4585,
+    "scene": "court-defense",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 4479,
+    "performanceEnd": 4585,
+    "narrationId": "N041",
+    "facts": [
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "1심은 사실관계 인정과 반성하는 태도를 유리한 정상으로 참작했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F108",
+    "index": 107,
+    "start": 4585,
+    "end": 4622,
+    "scene": "court-judge",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 4585,
+    "performanceEnd": 4695,
+    "narrationId": "N042",
+    "facts": [
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "군 기강 확립을 위한 교육 목적으로 훈련하다 범행에 이른 점도 참작했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F109",
+    "index": 108,
+    "start": 4622,
+    "end": 4658,
+    "scene": "court-judge",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 4585,
+    "performanceEnd": 4695,
+    "narrationId": "N042",
+    "facts": [
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "군 기강 확립을 위한 교육 목적으로 훈련하다 범행에 이른 점도 참작했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F110",
+    "index": 109,
+    "start": 4658,
+    "end": 4695,
+    "scene": "court-judge",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 4585,
+    "performanceEnd": 4695,
+    "narrationId": "N042",
+    "facts": [
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "군 기강 확립을 위한 교육 목적으로 훈련하다 범행에 이른 점도 참작했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F111",
+    "index": 110,
+    "start": 4695,
+    "end": 4736,
+    "scene": "narrator-wild",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 4695,
+    "performanceEnd": 4818,
+    "narrationId": "N043",
+    "facts": [
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "교육 목적. 사람을 지키지 못한 훈련에 그 말을 고려한 판결. 선고는 과연 몇 년이었을까요?",
+    "characterPresent": true
+  },
+  {
+    "id": "F112",
+    "index": 111,
+    "start": 4736,
+    "end": 4777,
+    "scene": "narrator-wild",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 4695,
+    "performanceEnd": 4818,
+    "narrationId": "N043",
+    "facts": [
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "교육 목적. 사람을 지키지 못한 훈련에 그 말을 고려한 판결. 선고는 과연 몇 년이었을까요?",
+    "characterPresent": true
+  },
+  {
+    "id": "F113",
+    "index": 112,
+    "start": 4777,
+    "end": 4818,
+    "scene": "narrator-wild",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 4695,
+    "performanceEnd": 4818,
+    "narrationId": "N043",
+    "facts": [
+      "J04"
+    ],
+    "characterActing": true,
+    "purpose": "교육 목적. 사람을 지키지 못한 훈련에 그 말을 고려한 판결. 선고는 과연 몇 년이었을까요?",
+    "characterPresent": true
+  },
+  {
+    "id": "F114",
+    "index": 113,
+    "start": 4818,
+    "end": 4855,
+    "scene": "court-judge",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 4818,
+    "performanceEnd": 4928,
+    "narrationId": "N044",
+    "facts": [
+      "J04",
+      "C06",
+      "D05"
+    ],
+    "characterActing": true,
+    "purpose": "무죄라는 뜻은 아닙니다. 학대치사는 유죄. 교육 목적은 형을 정한 이유입니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F115",
+    "index": 114,
+    "start": 4855,
+    "end": 4891,
+    "scene": "court-judge",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 4818,
+    "performanceEnd": 4928,
+    "narrationId": "N044",
+    "facts": [
+      "J04",
+      "C06",
+      "D05"
+    ],
+    "characterActing": true,
+    "purpose": "무죄라는 뜻은 아닙니다. 학대치사는 유죄. 교육 목적은 형을 정한 이유입니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F116",
+    "index": 115,
+    "start": 4891,
+    "end": 4928,
+    "scene": "court-judge",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 4818,
+    "performanceEnd": 4928,
+    "narrationId": "N044",
+    "facts": [
+      "J04",
+      "C06",
+      "D05"
+    ],
+    "characterActing": true,
+    "purpose": "무죄라는 뜻은 아닙니다. 학대치사는 유죄. 교육 목적은 형을 정한 이유입니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F117",
+    "index": 116,
+    "start": 4928,
+    "end": 4965,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 4928,
+    "performanceEnd": 5040,
+    "narrationId": "N045",
+    "facts": [
+      "J04",
+      "C06"
+    ],
+    "characterActing": true,
+    "purpose": "목적을 참작한 것과 행위를 정당화한 것은 다릅니다. 섞으면 판결도 흐려집니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F118",
+    "index": 117,
+    "start": 4965,
+    "end": 5003,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 4928,
+    "performanceEnd": 5040,
+    "narrationId": "N045",
+    "facts": [
+      "J04",
+      "C06"
+    ],
+    "characterActing": true,
+    "purpose": "목적을 참작한 것과 행위를 정당화한 것은 다릅니다. 섞으면 판결도 흐려집니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F119",
+    "index": 118,
+    "start": 5003,
+    "end": 5040,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 4928,
+    "performanceEnd": 5040,
+    "narrationId": "N045",
+    "facts": [
+      "J04",
+      "C06"
+    ],
+    "characterActing": true,
+    "purpose": "목적을 참작한 것과 행위를 정당화한 것은 다릅니다. 섞으면 판결도 흐려집니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F120",
+    "index": 119,
+    "start": 5040,
+    "end": 5084,
+    "scene": "prosecutor",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 5040,
+    "performanceEnd": 5171,
+    "narrationId": "N046",
+    "facts": [
+      "C03",
+      "D03"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 11월 12일, 검찰은 중대장 징역 10년, 부중대장 징역 7년을 구형했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F121",
+    "index": 120,
+    "start": 5084,
+    "end": 5127,
+    "scene": "prosecutor",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 5040,
+    "performanceEnd": 5171,
+    "narrationId": "N046",
+    "facts": [
+      "C03",
+      "D03"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 11월 12일, 검찰은 중대장 징역 10년, 부중대장 징역 7년을 구형했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F122",
+    "index": 121,
+    "start": 5127,
+    "end": 5171,
+    "scene": "prosecutor",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 5040,
+    "performanceEnd": 5171,
+    "narrationId": "N046",
+    "facts": [
+      "C03",
+      "D03"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 11월 12일, 검찰은 중대장 징역 10년, 부중대장 징역 7년을 구형했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F123",
+    "index": 122,
+    "start": 5171,
+    "end": 5213,
+    "scene": "prosecutor",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 5171,
+    "performanceEnd": 5298,
+    "narrationId": "N047",
+    "facts": [
+      "E07",
+      "C03",
+      "D03"
+    ],
+    "characterActing": true,
+    "purpose": "구형은 요청이지 선고가 아닙니다. 군의 지도력과 관리 체제에 대한 신뢰 훼손도 이유였죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F124",
+    "index": 123,
+    "start": 5213,
+    "end": 5256,
+    "scene": "prosecutor",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 5171,
+    "performanceEnd": 5298,
+    "narrationId": "N047",
+    "facts": [
+      "E07",
+      "C03",
+      "D03"
+    ],
+    "characterActing": true,
+    "purpose": "구형은 요청이지 선고가 아닙니다. 군의 지도력과 관리 체제에 대한 신뢰 훼손도 이유였죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F125",
+    "index": 124,
+    "start": 5256,
+    "end": 5298,
+    "scene": "prosecutor",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 5171,
+    "performanceEnd": 5298,
+    "narrationId": "N047",
+    "facts": [
+      "E07",
+      "C03",
+      "D03"
+    ],
+    "characterActing": true,
+    "purpose": "구형은 요청이지 선고가 아닙니다. 군의 지도력과 관리 체제에 대한 신뢰 훼손도 이유였죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F126",
+    "index": 125,
+    "start": 5298,
+    "end": 5334,
+    "scene": "court-verdict",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 5298,
+    "performanceEnd": 5407,
+    "narrationId": "N048",
+    "facts": [
+      "C05",
+      "D04"
+    ],
+    "characterActing": true,
+    "purpose": "2025년 1월 7일, 춘천지법 선고. 중대장 징역 5년, 부중대장 징역 3년.",
+    "characterPresent": true
+  },
+  {
+    "id": "F127",
+    "index": 126,
+    "start": 5334,
+    "end": 5371,
+    "scene": "court-verdict",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 5298,
+    "performanceEnd": 5407,
+    "narrationId": "N048",
+    "facts": [
+      "C05",
+      "D04"
+    ],
+    "characterActing": true,
+    "purpose": "2025년 1월 7일, 춘천지법 선고. 중대장 징역 5년, 부중대장 징역 3년.",
+    "characterPresent": true
+  },
+  {
+    "id": "F128",
+    "index": 127,
+    "start": 5371,
+    "end": 5407,
+    "scene": "court-verdict",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 5298,
+    "performanceEnd": 5407,
+    "narrationId": "N048",
+    "facts": [
+      "C05",
+      "D04"
+    ],
+    "characterActing": true,
+    "purpose": "2025년 1월 7일, 춘천지법 선고. 중대장 징역 5년, 부중대장 징역 3년.",
+    "characterPresent": true
+  },
+  {
+    "id": "F129",
+    "index": 128,
+    "start": 5407,
+    "end": 5444,
+    "scene": "court-turn",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 5407,
+    "performanceEnd": 5517,
+    "narrationId": "N049",
+    "facts": [
+      "C03",
+      "C05",
+      "C07"
+    ],
+    "characterActing": true,
+    "purpose": "요청과 선고 사이의 차이. 그런데 중대장 5년은 마지막 숫자가 아니었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F130",
+    "index": 129,
+    "start": 5444,
+    "end": 5480,
+    "scene": "court-turn",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 5407,
+    "performanceEnd": 5517,
+    "narrationId": "N049",
+    "facts": [
+      "C03",
+      "C05",
+      "C07"
+    ],
+    "characterActing": true,
+    "purpose": "요청과 선고 사이의 차이. 그런데 중대장 5년은 마지막 숫자가 아니었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F131",
+    "index": 130,
+    "start": 5480,
+    "end": 5517,
+    "scene": "court-turn",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 5407,
+    "performanceEnd": 5517,
+    "narrationId": "N049",
+    "facts": [
+      "C03",
+      "C05",
+      "C07"
+    ],
+    "characterActing": true,
+    "purpose": "요청과 선고 사이의 차이. 그런데 중대장 5년은 마지막 숫자가 아니었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F132",
+    "index": 131,
+    "start": 5517,
+    "end": 5555,
+    "scene": "appeal",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 5517,
+    "performanceEnd": 5630,
+    "narrationId": "N050",
+    "facts": [
+      "J07",
+      "J08"
+    ],
+    "characterActing": true,
+    "purpose": "항소심에서는 이 일을 하나의 행위로 묶어 볼 수 있는지, 그 판단이 바뀌었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F133",
+    "index": 132,
+    "start": 5555,
+    "end": 5592,
+    "scene": "appeal",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 5517,
+    "performanceEnd": 5630,
+    "narrationId": "N050",
+    "facts": [
+      "J07",
+      "J08"
+    ],
+    "characterActing": true,
+    "purpose": "항소심에서는 이 일을 하나의 행위로 묶어 볼 수 있는지, 그 판단이 바뀌었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F134",
+    "index": 133,
+    "start": 5592,
+    "end": 5630,
+    "scene": "appeal",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 5517,
+    "performanceEnd": 5630,
+    "narrationId": "N050",
+    "facts": [
+      "J07",
+      "J08"
+    ],
+    "characterActing": true,
+    "purpose": "항소심에서는 이 일을 하나의 행위로 묶어 볼 수 있는지, 그 판단이 바뀌었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F135",
+    "index": 134,
+    "start": 5630,
+    "end": 5674,
+    "scene": "judge-group",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 5630,
+    "performanceEnd": 5763,
+    "narrationId": "N051",
+    "facts": [
+      "J01",
+      "J09"
+    ],
+    "characterActing": true,
+    "purpose": "1심은 하나의 행위가 여러 범죄를 구성하는 상상적 경합. 죄는 여러 개라도 행위는 하나로 봤죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F136",
+    "index": 135,
+    "start": 5674,
+    "end": 5719,
+    "scene": "judge-group",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 5630,
+    "performanceEnd": 5763,
+    "narrationId": "N051",
+    "facts": [
+      "J01",
+      "J09"
+    ],
+    "characterActing": true,
+    "purpose": "1심은 하나의 행위가 여러 범죄를 구성하는 상상적 경합. 죄는 여러 개라도 행위는 하나로 봤죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F137",
+    "index": 136,
+    "start": 5719,
+    "end": 5763,
+    "scene": "judge-group",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 5630,
+    "performanceEnd": 5763,
+    "narrationId": "N051",
+    "facts": [
+      "J01",
+      "J09"
+    ],
+    "characterActing": true,
+    "purpose": "1심은 하나의 행위가 여러 범죄를 구성하는 상상적 경합. 죄는 여러 개라도 행위는 하나로 봤죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F138",
+    "index": 137,
+    "start": 5763,
+    "end": 5801,
+    "scene": "judge-separate",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 5763,
+    "performanceEnd": 5876,
+    "narrationId": "N052",
+    "facts": [
+      "J08"
+    ],
+    "characterActing": true,
+    "purpose": "항소심은 같은 장소, 같은 기회라는 이유만으로 하나로 묶을 수 없다고 봤습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F139",
+    "index": 138,
+    "start": 5801,
+    "end": 5838,
+    "scene": "judge-separate",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 5763,
+    "performanceEnd": 5876,
+    "narrationId": "N052",
+    "facts": [
+      "J08"
+    ],
+    "characterActing": true,
+    "purpose": "항소심은 같은 장소, 같은 기회라는 이유만으로 하나로 묶을 수 없다고 봤습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F140",
+    "index": 139,
+    "start": 5838,
+    "end": 5876,
+    "scene": "judge-separate",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 5763,
+    "performanceEnd": 5876,
+    "narrationId": "N052",
+    "facts": [
+      "J08"
+    ],
+    "characterActing": true,
+    "purpose": "항소심은 같은 장소, 같은 기회라는 이유만으로 하나로 묶을 수 없다고 봤습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F141",
+    "index": 140,
+    "start": 5876,
+    "end": 5916,
+    "scene": "recruits-wide",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 5876,
+    "performanceEnd": 5996,
+    "narrationId": "N053",
+    "facts": [
+      "J08"
+    ],
+    "characterActing": true,
+    "purpose": "피해자마다 가혹행위와 학대 양상이 달랐다는 겁니다. 사람별 피해를 나누어 보았죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F142",
+    "index": 141,
+    "start": 5916,
+    "end": 5956,
+    "scene": "recruits-wide",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 5876,
+    "performanceEnd": 5996,
+    "narrationId": "N053",
+    "facts": [
+      "J08"
+    ],
+    "characterActing": true,
+    "purpose": "피해자마다 가혹행위와 학대 양상이 달랐다는 겁니다. 사람별 피해를 나누어 보았죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F143",
+    "index": 142,
+    "start": 5956,
+    "end": 5996,
+    "scene": "recruits-wide",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 5876,
+    "performanceEnd": 5996,
+    "narrationId": "N053",
+    "facts": [
+      "J08"
+    ],
+    "characterActing": true,
+    "purpose": "피해자마다 가혹행위와 학대 양상이 달랐다는 겁니다. 사람별 피해를 나누어 보았죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F144",
+    "index": 143,
+    "start": 5996,
+    "end": 6036,
+    "scene": "judge-separate",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 5996,
+    "performanceEnd": 6116,
+    "narrationId": "N054",
+    "facts": [
+      "J07",
+      "J08",
+      "J09"
+    ],
+    "characterActing": true,
+    "purpose": "여러 행위로 여러 죄를 범한 실체적 경합. 쟁점은 피해를 어떻게 구분하느냐였습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F145",
+    "index": 144,
+    "start": 6036,
+    "end": 6076,
+    "scene": "judge-separate",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 5996,
+    "performanceEnd": 6116,
+    "narrationId": "N054",
+    "facts": [
+      "J07",
+      "J08",
+      "J09"
+    ],
+    "characterActing": true,
+    "purpose": "여러 행위로 여러 죄를 범한 실체적 경합. 쟁점은 피해를 어떻게 구분하느냐였습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F146",
+    "index": 145,
+    "start": 6076,
+    "end": 6116,
+    "scene": "judge-separate",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 5996,
+    "performanceEnd": 6116,
+    "narrationId": "N054",
+    "facts": [
+      "J07",
+      "J08",
+      "J09"
+    ],
+    "characterActing": true,
+    "purpose": "여러 행위로 여러 죄를 범한 실체적 경합. 쟁점은 피해를 어떻게 구분하느냐였습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F147",
+    "index": 146,
+    "start": 6116,
+    "end": 6158,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 6116,
+    "performanceEnd": 6242,
+    "narrationId": "N055",
+    "facts": [
+      "E02",
+      "J08"
+    ],
+    "characterActing": true,
+    "purpose": "여섯 사람을 한 덩어리로 보는 화면이 깨집니다. 정확히 죄가 여섯 개라는 계산은 아닙니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F148",
+    "index": 147,
+    "start": 6158,
+    "end": 6200,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 6116,
+    "performanceEnd": 6242,
+    "narrationId": "N055",
+    "facts": [
+      "E02",
+      "J08"
+    ],
+    "characterActing": true,
+    "purpose": "여섯 사람을 한 덩어리로 보는 화면이 깨집니다. 정확히 죄가 여섯 개라는 계산은 아닙니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F149",
+    "index": 148,
+    "start": 6200,
+    "end": 6242,
+    "scene": "narrator-react",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 6116,
+    "performanceEnd": 6242,
+    "narrationId": "N055",
+    "facts": [
+      "E02",
+      "J08"
+    ],
+    "characterActing": true,
+    "purpose": "여섯 사람을 한 덩어리로 보는 화면이 깨집니다. 정확히 죄가 여섯 개라는 계산은 아닙니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F150",
+    "index": 149,
+    "start": 6242,
+    "end": 6282,
+    "scene": "appeal-verdict",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 6242,
+    "performanceEnd": 6363,
+    "narrationId": "N056",
+    "facts": [
+      "C07"
+    ],
+    "characterActing": true,
+    "purpose": "2025년 6월 18일, 중대장은 징역 5년 6개월. 1심보다 6개월 늘었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F151",
+    "index": 150,
+    "start": 6282,
+    "end": 6323,
+    "scene": "appeal-verdict",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 6242,
+    "performanceEnd": 6363,
+    "narrationId": "N056",
+    "facts": [
+      "C07"
+    ],
+    "characterActing": true,
+    "purpose": "2025년 6월 18일, 중대장은 징역 5년 6개월. 1심보다 6개월 늘었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F152",
+    "index": 151,
+    "start": 6323,
+    "end": 6363,
+    "scene": "appeal-verdict",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 6242,
+    "performanceEnd": 6363,
+    "narrationId": "N056",
+    "facts": [
+      "C07"
+    ],
+    "characterActing": true,
+    "purpose": "2025년 6월 18일, 중대장은 징역 5년 6개월. 1심보다 6개월 늘었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F153",
+    "index": 152,
+    "start": 6363,
+    "end": 6404,
+    "scene": "appeal-defense",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 6363,
+    "performanceEnd": 6486,
+    "narrationId": "N057",
+    "facts": [
+      "D06"
+    ],
+    "characterActing": true,
+    "purpose": "부중대장은 같은 징역 3년. 중대장 형이 늘어난 이유를 이쪽으로 옮겨 쓸 수는 없습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F154",
+    "index": 153,
+    "start": 6404,
+    "end": 6445,
+    "scene": "appeal-defense",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 6363,
+    "performanceEnd": 6486,
+    "narrationId": "N057",
+    "facts": [
+      "D06"
+    ],
+    "characterActing": true,
+    "purpose": "부중대장은 같은 징역 3년. 중대장 형이 늘어난 이유를 이쪽으로 옮겨 쓸 수는 없습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F155",
+    "index": 154,
+    "start": 6445,
+    "end": 6486,
+    "scene": "appeal-defense",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 6363,
+    "performanceEnd": 6486,
+    "narrationId": "N057",
+    "facts": [
+      "D06"
+    ],
+    "characterActing": true,
+    "purpose": "부중대장은 같은 징역 3년. 중대장 형이 늘어난 이유를 이쪽으로 옮겨 쓸 수는 없습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F156",
+    "index": 155,
+    "start": 6486,
+    "end": 6522,
+    "scene": "court-judge",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 6486,
+    "performanceEnd": 6595,
+    "narrationId": "N058",
+    "facts": [
+      "J11"
+    ],
+    "characterActing": true,
+    "purpose": "항소심의 지적은 숫자보다 날카롭습니다. 충분히 예방할 수 있었던 사망사고.",
+    "characterPresent": true
+  },
+  {
+    "id": "F157",
+    "index": 156,
+    "start": 6522,
+    "end": 6559,
+    "scene": "court-judge",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 6486,
+    "performanceEnd": 6595,
+    "narrationId": "N058",
+    "facts": [
+      "J11"
+    ],
+    "characterActing": true,
+    "purpose": "항소심의 지적은 숫자보다 날카롭습니다. 충분히 예방할 수 있었던 사망사고.",
+    "characterPresent": true
+  },
+  {
+    "id": "F158",
+    "index": 157,
+    "start": 6559,
+    "end": 6595,
+    "scene": "court-judge",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 6486,
+    "performanceEnd": 6595,
+    "narrationId": "N058",
+    "facts": [
+      "J11"
+    ],
+    "characterActing": true,
+    "purpose": "항소심의 지적은 숫자보다 날카롭습니다. 충분히 예방할 수 있었던 사망사고.",
+    "characterPresent": true
+  },
+  {
+    "id": "F159",
+    "index": 158,
+    "start": 6595,
+    "end": 6635,
+    "scene": "command-shadow",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 6595,
+    "performanceEnd": 6716,
+    "narrationId": "N059",
+    "facts": [
+      "J11"
+    ],
+    "characterActing": true,
+    "purpose": "지휘관들이 후진적 병영문화를 답습했다는 지적. 예방할 수 있었다는 말이 남습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F160",
+    "index": 159,
+    "start": 6635,
+    "end": 6676,
+    "scene": "command-shadow",
+    "type": "high-angle",
+    "serious": true,
+    "performanceStart": 6595,
+    "performanceEnd": 6716,
+    "narrationId": "N059",
+    "facts": [
+      "J11"
+    ],
+    "characterActing": true,
+    "purpose": "지휘관들이 후진적 병영문화를 답습했다는 지적. 예방할 수 있었다는 말이 남습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F161",
+    "index": 160,
+    "start": 6676,
+    "end": 6716,
+    "scene": "command-shadow",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 6595,
+    "performanceEnd": 6716,
+    "narrationId": "N059",
+    "facts": [
+      "J11"
+    ],
+    "characterActing": true,
+    "purpose": "지휘관들이 후진적 병영문화를 답습했다는 지적. 예방할 수 있었다는 말이 남습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F162",
+    "index": 161,
+    "start": 6716,
+    "end": 6762,
+    "scene": "court-judge",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 6716,
+    "performanceEnd": 6853,
+    "narrationId": "N060",
+    "facts": [
+      "J12"
+    ],
+    "characterActing": true,
+    "purpose": "국가가 병사의 생명과 신체를 보호하리라는 사회의 기본적 기대를 배반한 범행이라고 봤습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F163",
+    "index": 162,
+    "start": 6762,
+    "end": 6807,
+    "scene": "court-judge",
+    "type": "close-up",
+    "serious": true,
+    "performanceStart": 6716,
+    "performanceEnd": 6853,
+    "narrationId": "N060",
+    "facts": [
+      "J12"
+    ],
+    "characterActing": true,
+    "purpose": "국가가 병사의 생명과 신체를 보호하리라는 사회의 기본적 기대를 배반한 범행이라고 봤습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F164",
+    "index": 163,
+    "start": 6807,
+    "end": 6853,
+    "scene": "court-judge",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 6716,
+    "performanceEnd": 6853,
+    "narrationId": "N060",
+    "facts": [
+      "J12"
+    ],
+    "characterActing": true,
+    "purpose": "국가가 병사의 생명과 신체를 보호하리라는 사회의 기본적 기대를 배반한 범행이라고 봤습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F165",
+    "index": 164,
+    "start": 6853,
+    "end": 6910,
+    "scene": "narrator-serious",
+    "type": "close-up",
+    "serious": true,
+    "performanceStart": 6853,
+    "performanceEnd": 6966,
+    "narrationId": "N061",
+    "facts": [
+      "J12"
+    ],
+    "characterActing": true,
+    "purpose": "안전하게 돌려보내리라는 기대. 특별한 서비스가 아니라 출발선이어야 합니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F166",
+    "index": 165,
+    "start": 6910,
+    "end": 6966,
+    "scene": "narrator-serious",
+    "type": "close-up",
+    "serious": true,
+    "performanceStart": 6853,
+    "performanceEnd": 6966,
+    "narrationId": "N061",
+    "facts": [
+      "J12"
+    ],
+    "characterActing": true,
+    "purpose": "안전하게 돌려보내리라는 기대. 특별한 서비스가 아니라 출발선이어야 합니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F167",
+    "index": 166,
+    "start": 6966,
+    "end": 7010,
+    "scene": "supreme",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 6966,
+    "performanceEnd": 7097,
+    "narrationId": "N062",
+    "facts": [
+      "C09",
+      "J13"
+    ],
+    "characterActing": true,
+    "purpose": "2025년 9월 25일, 대법원이 중대장 상고를 기각했습니다. 징역 5년 6개월 확정.",
+    "characterPresent": true
+  },
+  {
+    "id": "F168",
+    "index": 167,
+    "start": 7010,
+    "end": 7053,
+    "scene": "supreme",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 6966,
+    "performanceEnd": 7097,
+    "narrationId": "N062",
+    "facts": [
+      "C09",
+      "J13"
+    ],
+    "characterActing": true,
+    "purpose": "2025년 9월 25일, 대법원이 중대장 상고를 기각했습니다. 징역 5년 6개월 확정.",
+    "characterPresent": true
+  },
+  {
+    "id": "F169",
+    "index": 168,
+    "start": 7053,
+    "end": 7097,
+    "scene": "supreme",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 6966,
+    "performanceEnd": 7097,
+    "narrationId": "N062",
+    "facts": [
+      "C09",
+      "J13"
+    ],
+    "characterActing": true,
+    "purpose": "2025년 9월 25일, 대법원이 중대장 상고를 기각했습니다. 징역 5년 6개월 확정.",
+    "characterPresent": true
+  },
+  {
+    "id": "F170",
+    "index": 169,
+    "start": 7097,
+    "end": 7139,
+    "scene": "court-defense",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 7097,
+    "performanceEnd": 7224,
+    "narrationId": "N063",
+    "facts": [
+      "D08"
+    ],
+    "characterActing": true,
+    "purpose": "부중대장 징역 3년도 확정 상태. 같은 날 두 사람의 본안을 함께 판단했다는 뜻은 아닙니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F171",
+    "index": 170,
+    "start": 7139,
+    "end": 7182,
+    "scene": "court-defense",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 7097,
+    "performanceEnd": 7224,
+    "narrationId": "N063",
+    "facts": [
+      "D08"
+    ],
+    "characterActing": true,
+    "purpose": "부중대장 징역 3년도 확정 상태. 같은 날 두 사람의 본안을 함께 판단했다는 뜻은 아닙니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F172",
+    "index": 171,
+    "start": 7182,
+    "end": 7224,
+    "scene": "court-defense",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 7097,
+    "performanceEnd": 7224,
+    "narrationId": "N063",
+    "facts": [
+      "D08"
+    ],
+    "characterActing": true,
+    "purpose": "부중대장 징역 3년도 확정 상태. 같은 날 두 사람의 본안을 함께 판단했다는 뜻은 아닙니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F173",
+    "index": 172,
+    "start": 7224,
+    "end": 7266,
+    "scene": "policy",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 7224,
+    "performanceEnd": 7351,
+    "narrationId": "N064",
+    "facts": [
+      "F38",
+      "F39",
+      "F41"
+    ],
+    "characterActing": true,
+    "purpose": "판결은 끝났습니다. 군은 무엇을 바꾸겠다고 했을까요? 대책은 다시 기본으로 돌아갑니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F174",
+    "index": 173,
+    "start": 7266,
+    "end": 7309,
+    "scene": "policy",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 7224,
+    "performanceEnd": 7351,
+    "narrationId": "N064",
+    "facts": [
+      "F38",
+      "F39",
+      "F41"
+    ],
+    "characterActing": true,
+    "purpose": "판결은 끝났습니다. 군은 무엇을 바꾸겠다고 했을까요? 대책은 다시 기본으로 돌아갑니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F175",
+    "index": 174,
+    "start": 7309,
+    "end": 7351,
+    "scene": "policy",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 7224,
+    "performanceEnd": 7351,
+    "narrationId": "N064",
+    "facts": [
+      "F38",
+      "F39",
+      "F41"
+    ],
+    "characterActing": true,
+    "purpose": "판결은 끝났습니다. 군은 무엇을 바꾸겠다고 했을까요? 대책은 다시 기본으로 돌아갑니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F176",
+    "index": 175,
+    "start": 7351,
+    "end": 7389,
+    "scene": "policy-drill",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 7351,
+    "performanceEnd": 7502,
+    "narrationId": "N065",
+    "facts": [
+      "F38"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 6월 27일, 국방부는 훈련병 군기훈련에서 체력단련 종목을 빼기로 했다고 밝혔습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F177",
+    "index": 176,
+    "start": 7389,
+    "end": 7426,
+    "scene": "policy-drill",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 7351,
+    "performanceEnd": 7502,
+    "narrationId": "N065",
+    "facts": [
+      "F38"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 6월 27일, 국방부는 훈련병 군기훈련에서 체력단련 종목을 빼기로 했다고 밝혔습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F178",
+    "index": 177,
+    "start": 7426,
+    "end": 7464,
+    "scene": "policy-drill",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 7351,
+    "performanceEnd": 7502,
+    "narrationId": "N065",
+    "facts": [
+      "F38"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 6월 27일, 국방부는 훈련병 군기훈련에서 체력단련 종목을 빼기로 했다고 밝혔습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F179",
+    "index": 178,
+    "start": 7464,
+    "end": 7502,
+    "scene": "policy-drill",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 7351,
+    "performanceEnd": 7502,
+    "narrationId": "N065",
+    "facts": [
+      "F38"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 6월 27일, 국방부는 훈련병 군기훈련에서 체력단련 종목을 빼기로 했다고 밝혔습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F180",
+    "index": 179,
+    "start": 7502,
+    "end": 7543,
+    "scene": "policy-explain",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 7502,
+    "performanceEnd": 7625,
+    "narrationId": "N066",
+    "facts": [
+      "F39",
+      "F04"
+    ],
+    "characterActing": true,
+    "purpose": "개인 소명 단계를 반드시 거치도록 절차도 표준화했습니다. 사건에서 빠졌던 그 단계죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F181",
+    "index": 180,
+    "start": 7543,
+    "end": 7584,
+    "scene": "policy-explain",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 7502,
+    "performanceEnd": 7625,
+    "narrationId": "N066",
+    "facts": [
+      "F39",
+      "F04"
+    ],
+    "characterActing": true,
+    "purpose": "개인 소명 단계를 반드시 거치도록 절차도 표준화했습니다. 사건에서 빠졌던 그 단계죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F182",
+    "index": 181,
+    "start": 7584,
+    "end": 7625,
+    "scene": "policy-explain",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 7502,
+    "performanceEnd": 7625,
+    "narrationId": "N066",
+    "facts": [
+      "F39",
+      "F04"
+    ],
+    "characterActing": true,
+    "purpose": "개인 소명 단계를 반드시 거치도록 절차도 표준화했습니다. 사건에서 빠졌던 그 단계죠.",
+    "characterPresent": true
+  },
+  {
+    "id": "F183",
+    "index": 182,
+    "start": 7625,
+    "end": 7662,
+    "scene": "policy-command",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 7625,
+    "performanceEnd": 7735,
+    "narrationId": "N067",
+    "facts": [
+      "F40"
+    ],
+    "characterActing": true,
+    "purpose": "신병교육부대 군기훈련 승인권자는 영관급 지휘관으로 높이기로 했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F184",
+    "index": 183,
+    "start": 7662,
+    "end": 7698,
+    "scene": "policy-command",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 7625,
+    "performanceEnd": 7735,
+    "narrationId": "N067",
+    "facts": [
+      "F40"
+    ],
+    "characterActing": true,
+    "purpose": "신병교육부대 군기훈련 승인권자는 영관급 지휘관으로 높이기로 했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F185",
+    "index": 184,
+    "start": 7698,
+    "end": 7735,
+    "scene": "policy-command",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 7625,
+    "performanceEnd": 7735,
+    "narrationId": "N067",
+    "facts": [
+      "F40"
+    ],
+    "characterActing": true,
+    "purpose": "신병교육부대 군기훈련 승인권자는 영관급 지휘관으로 높이기로 했습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F186",
+    "index": 185,
+    "start": 7735,
+    "end": 7777,
+    "scene": "policy-medics",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 7735,
+    "performanceEnd": 7862,
+    "narrationId": "N068",
+    "facts": [
+      "F41"
+    ],
+    "characterActing": true,
+    "purpose": "건강상태 수시 확인, 기상에 따른 진행 판단, 응급상황 대비 뒤 시행하는 절차도 담았습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F187",
+    "index": 186,
+    "start": 7777,
+    "end": 7820,
+    "scene": "policy-medics",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 7735,
+    "performanceEnd": 7862,
+    "narrationId": "N068",
+    "facts": [
+      "F41"
+    ],
+    "characterActing": true,
+    "purpose": "건강상태 수시 확인, 기상에 따른 진행 판단, 응급상황 대비 뒤 시행하는 절차도 담았습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F188",
+    "index": 187,
+    "start": 7820,
+    "end": 7862,
+    "scene": "policy-medics",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 7735,
+    "performanceEnd": 7862,
+    "narrationId": "N068",
+    "facts": [
+      "F41"
+    ],
+    "characterActing": true,
+    "purpose": "건강상태 수시 확인, 기상에 따른 진행 판단, 응급상황 대비 뒤 시행하는 절차도 담았습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F189",
+    "index": 188,
+    "start": 7862,
+    "end": 7905,
+    "scene": "narrator-wild",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 7862,
+    "performanceEnd": 7992,
+    "narrationId": "N069",
+    "facts": [
+      "F41"
+    ],
+    "characterActing": true,
+    "purpose": "사람 확인. 날씨 확인. 응급상황 준비. 신기술 발표가 아닙니다. 사람을 훈련시키는 기본입니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F190",
+    "index": 189,
+    "start": 7905,
+    "end": 7949,
+    "scene": "narrator-wild",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 7862,
+    "performanceEnd": 7992,
+    "narrationId": "N069",
+    "facts": [
+      "F41"
+    ],
+    "characterActing": true,
+    "purpose": "사람 확인. 날씨 확인. 응급상황 준비. 신기술 발표가 아닙니다. 사람을 훈련시키는 기본입니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F191",
+    "index": 190,
+    "start": 7949,
+    "end": 7992,
+    "scene": "narrator-wild",
+    "type": "close-up",
+    "serious": false,
+    "performanceStart": 7862,
+    "performanceEnd": 7992,
+    "narrationId": "N069",
+    "facts": [
+      "F41"
+    ],
+    "characterActing": true,
+    "purpose": "사람 확인. 날씨 확인. 응급상황 준비. 신기술 발표가 아닙니다. 사람을 훈련시키는 기본입니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F192",
+    "index": 191,
+    "start": 7992,
+    "end": 8030,
+    "scene": "policy-inspect",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 7992,
+    "performanceEnd": 8105,
+    "narrationId": "N070",
+    "facts": [
+      "F42"
+    ],
+    "characterActing": true,
+    "purpose": "혹서기 관리는 7월 1일에서 6월 1일 시작으로 확대. 끝은 같은 8월 31일.",
+    "characterPresent": true
+  },
+  {
+    "id": "F193",
+    "index": 192,
+    "start": 8030,
+    "end": 8067,
+    "scene": "policy-inspect",
+    "type": "low-angle",
+    "serious": false,
+    "performanceStart": 7992,
+    "performanceEnd": 8105,
+    "narrationId": "N070",
+    "facts": [
+      "F42"
+    ],
+    "characterActing": true,
+    "purpose": "혹서기 관리는 7월 1일에서 6월 1일 시작으로 확대. 끝은 같은 8월 31일.",
+    "characterPresent": true
+  },
+  {
+    "id": "F194",
+    "index": 193,
+    "start": 8067,
+    "end": 8105,
+    "scene": "policy-inspect",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 7992,
+    "performanceEnd": 8105,
+    "narrationId": "N070",
+    "facts": [
+      "F42"
+    ],
+    "characterActing": true,
+    "purpose": "혹서기 관리는 7월 1일에서 6월 1일 시작으로 확대. 끝은 같은 8월 31일.",
+    "characterPresent": true
+  },
+  {
+    "id": "F195",
+    "index": 194,
+    "start": 8105,
+    "end": 8147,
+    "scene": "policy-inspect",
+    "type": "high-angle",
+    "serious": false,
+    "performanceStart": 8105,
+    "performanceEnd": 8232,
+    "narrationId": "N071",
+    "facts": [
+      "F43"
+    ],
+    "characterActing": true,
+    "purpose": "온도지수는 하루 세 차례 이상 측정. 하지만 대책 발표가 현장의 안전을 대신하진 못합니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F196",
+    "index": 195,
+    "start": 8147,
+    "end": 8190,
+    "scene": "policy-inspect",
+    "type": "wide",
+    "serious": false,
+    "performanceStart": 8105,
+    "performanceEnd": 8232,
+    "narrationId": "N071",
+    "facts": [
+      "F43"
+    ],
+    "characterActing": true,
+    "purpose": "온도지수는 하루 세 차례 이상 측정. 하지만 대책 발표가 현장의 안전을 대신하진 못합니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F197",
+    "index": 196,
+    "start": 8190,
+    "end": 8232,
+    "scene": "policy-inspect",
+    "type": "medium",
+    "serious": false,
+    "performanceStart": 8105,
+    "performanceEnd": 8232,
+    "narrationId": "N071",
+    "facts": [
+      "F43"
+    ],
+    "characterActing": true,
+    "purpose": "온도지수는 하루 세 차례 이상 측정. 하지만 대책 발표가 현장의 안전을 대신하진 못합니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F198",
+    "index": 197,
+    "start": 8232,
+    "end": 8271,
+    "scene": "memorial-enter",
+    "type": "low-angle",
+    "serious": true,
+    "performanceStart": 8232,
+    "performanceEnd": 8349,
+    "narrationId": "N072",
+    "facts": [
+      "F30",
+      "F31"
+    ],
+    "characterActing": true,
+    "purpose": "바꾸겠다는 목록은 남았습니다. 훈련병을 기다렸던 자리에는 무엇이 남았을까요?",
+    "characterPresent": true
+  },
+  {
+    "id": "F199",
+    "index": 198,
+    "start": 8271,
+    "end": 8310,
+    "scene": "memorial-enter",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 8232,
+    "performanceEnd": 8349,
+    "narrationId": "N072",
+    "facts": [
+      "F30",
+      "F31"
+    ],
+    "characterActing": true,
+    "purpose": "바꾸겠다는 목록은 남았습니다. 훈련병을 기다렸던 자리에는 무엇이 남았을까요?",
+    "characterPresent": true
+  },
+  {
+    "id": "F200",
+    "index": 199,
+    "start": 8310,
+    "end": 8349,
+    "scene": "memorial-enter",
+    "type": "high-angle",
+    "serious": true,
+    "performanceStart": 8232,
+    "performanceEnd": 8349,
+    "narrationId": "N072",
+    "facts": [
+      "F30",
+      "F31"
+    ],
+    "characterActing": true,
+    "purpose": "바꾸겠다는 목록은 남았습니다. 훈련병을 기다렸던 자리에는 무엇이 남았을까요?",
+    "characterPresent": true
+  },
+  {
+    "id": "F201",
+    "index": 200,
+    "start": 8349,
+    "end": 8392,
+    "scene": "memorial",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 8349,
+    "performanceEnd": 8479,
+    "narrationId": "N073",
+    "facts": [
+      "F30"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 6월 19일, 인제체육관 수료식장 추모 공간에는 명예수료증이 놓였습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F202",
+    "index": 201,
+    "start": 8392,
+    "end": 8436,
+    "scene": "insert-certificate",
+    "type": "insert",
+    "serious": true,
+    "performanceStart": 8349,
+    "performanceEnd": 8479,
+    "narrationId": "N073",
+    "facts": [
+      "F30"
+    ],
+    "characterActing": false,
+    "purpose": "2024년 6월 19일, 인제체육관 수료식장 추모 공간에는 명예수료증이 놓였습니다.",
+    "characterPresent": false
+  },
+  {
+    "id": "F203",
+    "index": 202,
+    "start": 8436,
+    "end": 8479,
+    "scene": "memorial",
+    "type": "low-angle",
+    "serious": true,
+    "performanceStart": 8349,
+    "performanceEnd": 8479,
+    "narrationId": "N073",
+    "facts": [
+      "F30"
+    ],
+    "characterActing": true,
+    "purpose": "2024년 6월 19일, 인제체육관 수료식장 추모 공간에는 명예수료증이 놓였습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F204",
+    "index": 203,
+    "start": 8479,
+    "end": 8522,
+    "scene": "memorial-flowers",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 8479,
+    "performanceEnd": 8609,
+    "narrationId": "N074",
+    "facts": [
+      "F31"
+    ],
+    "characterActing": true,
+    "purpose": "참석자들은 국화꽃을 놓고 고인을 추모했습니다. 수료식 안에 마련된 추모 공간이었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F205",
+    "index": 204,
+    "start": 8522,
+    "end": 8566,
+    "scene": "memorial-flowers",
+    "type": "high-angle",
+    "serious": true,
+    "performanceStart": 8479,
+    "performanceEnd": 8609,
+    "narrationId": "N074",
+    "facts": [
+      "F31"
+    ],
+    "characterActing": true,
+    "purpose": "참석자들은 국화꽃을 놓고 고인을 추모했습니다. 수료식 안에 마련된 추모 공간이었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F206",
+    "index": 205,
+    "start": 8566,
+    "end": 8609,
+    "scene": "memorial-flowers",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 8479,
+    "performanceEnd": 8609,
+    "narrationId": "N074",
+    "facts": [
+      "F31"
+    ],
+    "characterActing": true,
+    "purpose": "참석자들은 국화꽃을 놓고 고인을 추모했습니다. 수료식 안에 마련된 추모 공간이었습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F207",
+    "index": 206,
+    "start": 8609,
+    "end": 8655,
+    "scene": "family-memorial",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 8609,
+    "performanceEnd": 8746,
+    "narrationId": "N075",
+    "facts": [
+      "F27"
+    ],
+    "characterActing": true,
+    "purpose": "어머니는 편지에 수료생 251명 가운데 아들만 없다고 썼습니다. 비어 있는 한 사람의 자리.",
+    "characterPresent": true
+  },
+  {
+    "id": "F208",
+    "index": 207,
+    "start": 8655,
+    "end": 8700,
+    "scene": "family-memorial",
+    "type": "low-angle",
+    "serious": true,
+    "performanceStart": 8609,
+    "performanceEnd": 8746,
+    "narrationId": "N075",
+    "facts": [
+      "F27"
+    ],
+    "characterActing": true,
+    "purpose": "어머니는 편지에 수료생 251명 가운데 아들만 없다고 썼습니다. 비어 있는 한 사람의 자리.",
+    "characterPresent": true
+  },
+  {
+    "id": "F209",
+    "index": 208,
+    "start": 8700,
+    "end": 8746,
+    "scene": "family-memorial",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 8609,
+    "performanceEnd": 8746,
+    "narrationId": "N075",
+    "facts": [
+      "F27"
+    ],
+    "characterActing": true,
+    "purpose": "어머니는 편지에 수료생 251명 가운데 아들만 없다고 썼습니다. 비어 있는 한 사람의 자리.",
+    "characterPresent": true
+  },
+  {
+    "id": "F210",
+    "index": 209,
+    "start": 8746,
+    "end": 8785,
+    "scene": "family-farewell",
+    "type": "high-angle",
+    "serious": true,
+    "performanceStart": 8746,
+    "performanceEnd": 8863,
+    "narrationId": "N076",
+    "facts": [
+      "F25"
+    ],
+    "characterActing": true,
+    "purpose": "입영 날, 먼 길 돌아갈 부모의 손을 잡고 등을 다독였다는 기억도 편지에 남았습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F211",
+    "index": 210,
+    "start": 8785,
+    "end": 8824,
+    "scene": "family-farewell",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 8746,
+    "performanceEnd": 8863,
+    "narrationId": "N076",
+    "facts": [
+      "F25"
+    ],
+    "characterActing": true,
+    "purpose": "입영 날, 먼 길 돌아갈 부모의 손을 잡고 등을 다독였다는 기억도 편지에 남았습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F212",
+    "index": 211,
+    "start": 8824,
+    "end": 8863,
+    "scene": "family-farewell",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 8746,
+    "performanceEnd": 8863,
+    "narrationId": "N076",
+    "facts": [
+      "F25"
+    ],
+    "characterActing": true,
+    "purpose": "입영 날, 먼 길 돌아갈 부모의 손을 잡고 등을 다독였다는 기억도 편지에 남았습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F213",
+    "index": 212,
+    "start": 8863,
+    "end": 8910,
+    "scene": "memorial-bow",
+    "type": "low-angle",
+    "serious": true,
+    "performanceStart": 8863,
+    "performanceEnd": 9004,
+    "narrationId": "N077",
+    "facts": [
+      "F29"
+    ],
+    "characterActing": true,
+    "purpose": "그날 저녁 부모는 용산역 분향소에서 조문객을 맞았습니다. 돌아올 사람 대신 추모객을 맞은 겁니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F214",
+    "index": 213,
+    "start": 8910,
+    "end": 8957,
+    "scene": "memorial-bow",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 8863,
+    "performanceEnd": 9004,
+    "narrationId": "N077",
+    "facts": [
+      "F29"
+    ],
+    "characterActing": true,
+    "purpose": "그날 저녁 부모는 용산역 분향소에서 조문객을 맞았습니다. 돌아올 사람 대신 추모객을 맞은 겁니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F215",
+    "index": 214,
+    "start": 8957,
+    "end": 9004,
+    "scene": "memorial-bow",
+    "type": "high-angle",
+    "serious": true,
+    "performanceStart": 8863,
+    "performanceEnd": 9004,
+    "narrationId": "N077",
+    "facts": [
+      "F29"
+    ],
+    "characterActing": true,
+    "purpose": "그날 저녁 부모는 용산역 분향소에서 조문객을 맞았습니다. 돌아올 사람 대신 추모객을 맞은 겁니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F216",
+    "index": 215,
+    "start": 9004,
+    "end": 9049,
+    "scene": "memorial-end",
+    "type": "wide",
+    "serious": true,
+    "performanceStart": 9004,
+    "performanceEnd": 9138,
+    "narrationId": "N078",
+    "facts": [
+      "C06",
+      "D05",
+      "J12"
+    ],
+    "characterActing": true,
+    "purpose": "법원이 인정한 건 학대치사. 생명과 안전을 밀어낸 책임은 훈련이라는 말로 지워지지 않습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F217",
+    "index": 216,
+    "start": 9049,
+    "end": 9093,
+    "scene": "memorial-end",
+    "type": "medium",
+    "serious": true,
+    "performanceStart": 9004,
+    "performanceEnd": 9138,
+    "narrationId": "N078",
+    "facts": [
+      "C06",
+      "D05",
+      "J12"
+    ],
+    "characterActing": true,
+    "purpose": "법원이 인정한 건 학대치사. 생명과 안전을 밀어낸 책임은 훈련이라는 말로 지워지지 않습니다.",
+    "characterPresent": true
+  },
+  {
+    "id": "F218",
+    "index": 217,
+    "start": 9093,
+    "end": 9138,
+    "scene": "memorial-end",
+    "type": "low-angle",
+    "serious": true,
+    "performanceStart": 9004,
+    "performanceEnd": 9138,
+    "narrationId": "N078",
+    "facts": [
+      "C06",
+      "D05",
+      "J12"
+    ],
+    "characterActing": true,
+    "purpose": "법원이 인정한 건 학대치사. 생명과 안전을 밀어낸 책임은 훈련이라는 말로 지워지지 않습니다.",
+    "characterPresent": true
+  }
+]

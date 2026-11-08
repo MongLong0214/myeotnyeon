@@ -1,0 +1,136 @@
+{
+ "episode_id": "S001",
+ "version": "shorts-1",
+ "hud_case": "대구지방법원 2023고단202",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "hook",
+   "block_name": "hook",
+   "narration": [
+    "음주운전 신고하겠다고 차 앞을 막았더니,",
+    "운전자가 그대로 차로 밀어 버렸습니다."
+   ],
+   "claim_ids": [
+    "F003",
+    "F004"
+   ],
+   "pad_s": 0.2,
+   "note": ""
+  },
+  {
+   "cue_id": "C2",
+   "act": "again",
+   "block_name": "again",
+   "narration": [
+    "한 번이 아니라 여러 번.",
+    "밀려 넘어진 뒤에도, 차를 뒤로 뺐다가 다시 와서 한 번 더 들이받았어요."
+   ],
+   "claim_ids": [
+    "F004",
+    "F008"
+   ],
+   "pad_s": 0.2,
+   "note": ""
+  },
+  {
+   "cue_id": "C3",
+   "act": "injury",
+   "block_name": "injury",
+   "narration": [
+    "피해자는 약 34일 치료가 필요한 어깨 부상을 입었습니다."
+   ],
+   "claim_ids": [
+    "F009"
+   ],
+   "pad_s": 0.2,
+   "note": ""
+  },
+  {
+   "cue_id": "C4",
+   "act": "claim",
+   "block_name": "claim",
+   "narration": [
+    "그런데 운전자 측 주장은 이랬어요.",
+    "부주의한 운전 탓이다, 저 사람이 뛰어든 거다."
+   ],
+   "claim_ids": [
+    "A001"
+   ],
+   "pad_s": 0.2,
+   "note": ""
+  },
+  {
+   "cue_id": "C5",
+   "act": "court",
+   "block_name": "court",
+   "narration": [
+    "하지만 현장 CCTV에 다 찍혀 있었고, 법원은 고의라고 봤어요.",
+    "진지한 반성도 없다고 했죠."
+   ],
+   "claim_ids": [
+    "F010",
+    "E001",
+    "J001",
+    "J002"
+   ],
+   "pad_s": 0.3,
+   "note": ""
+  },
+  {
+   "cue_id": "C6",
+   "act": "vote",
+   "block_name": "vote",
+   "narration": [
+    "자, 여러분이 판사라면?",
+    "실형일까요, 집행유예일까요?"
+   ],
+   "claim_ids": [
+    "J003"
+   ],
+   "pad_s": 1.2,
+   "note": ""
+  },
+  {
+   "cue_id": "C7",
+   "act": "verdict",
+   "block_name": "verdict",
+   "narration": [
+    "판결은, 징역 8개월에 집행유예 2년."
+   ],
+   "claim_ids": [
+    "J003",
+    "S001"
+   ],
+   "pad_s": 0.8,
+   "note": ""
+  },
+  {
+   "cue_id": "C8",
+   "act": "why",
+   "block_name": "why",
+   "narration": [
+    "반성은 없었지만, 초범이었고, 들이받은 건 인정했고, 신고가 두려워 그랬다고 본 거예요."
+   ],
+   "claim_ids": [
+    "J005",
+    "J007"
+   ],
+   "pad_s": 0.4,
+   "note": ""
+  },
+  {
+   "cue_id": "C9",
+   "act": "ask",
+   "block_name": "ask",
+   "narration": [
+    "이 판결, 여러분 생각은 어때요?"
+   ],
+   "claim_ids": [
+    "BRAND"
+   ],
+   "pad_s": 2.0,
+   "note": ""
+  }
+ ]
+}

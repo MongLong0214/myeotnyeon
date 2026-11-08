@@ -1,0 +1,31 @@
+{
+ "episode": "q015",
+ "counts": {
+  "C-8": 0,
+  "C-11": 0,
+  "I-4": 0,
+  "E-2": 0,
+  "F-5": 0
+ },
+ "passed": true,
+ "detail": {
+  "C-11": [],
+  "F-5": [],
+  "endings": [
+   "을까",
+   "였죠",
+   "니다",
+   "까요",
+   "니다",
+   "했죠",
+   "니다",
+   "5년",
+   "니다",
+   "세요"
+  ],
+  "longest_same_ending_run": 1,
+  "risk_band": "low"
+ },
+ "n_labels": 26,
+ "n_sentences": 10
+}

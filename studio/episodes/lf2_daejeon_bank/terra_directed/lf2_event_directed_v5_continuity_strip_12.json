@@ -1,0 +1,62 @@
+[
+  {
+    "index": 1,
+    "video_seconds": 6.8,
+    "label": "before vehicle block"
+  },
+  {
+    "index": 2,
+    "video_seconds": 7.5,
+    "label": "sedan crosses/blocks lane"
+  },
+  {
+    "index": 3,
+    "video_seconds": 8.5,
+    "label": "team stopped after block"
+  },
+  {
+    "index": 4,
+    "video_seconds": 10.7,
+    "label": "after block"
+  },
+  {
+    "index": 5,
+    "video_seconds": 20.9,
+    "label": "empty hand near floor bag"
+  },
+  {
+    "index": 6,
+    "video_seconds": 21.2,
+    "label": "handle contact"
+  },
+  {
+    "index": 7,
+    "video_seconds": 22.7,
+    "label": "grasp before cut"
+  },
+  {
+    "index": 8,
+    "video_seconds": 23.05,
+    "label": "lift start"
+  },
+  {
+    "index": 9,
+    "video_seconds": 23.35,
+    "label": "lift clear"
+  },
+  {
+    "index": 10,
+    "video_seconds": 24.0,
+    "label": "carry begins"
+  },
+  {
+    "index": 11,
+    "video_seconds": 25.0,
+    "label": "carry"
+  },
+  {
+    "index": 12,
+    "video_seconds": 27.0,
+    "label": "sedan arrival"
+  }
+]

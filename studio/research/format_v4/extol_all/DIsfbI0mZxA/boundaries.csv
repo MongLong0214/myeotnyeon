@@ -1,0 +1,16 @@
+index,frame,time_s,transition_type,transition_frames_estimate,transition_duration_s_estimate,confidence,boundary_method,visual_confirmation
+1,92,3.066666666666667,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+2,197,6.566666666666666,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+3,374,12.466666666666667,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+4,699,23.3,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+5,821,27.366666666666667,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+6,1067,35.56666666666667,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+7,1223,40.766666666666666,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+8,1313,43.766666666666666,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+9,1439,47.96666666666667,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+10,1674,55.8,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+11,2174,72.46666666666667,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+12,2214,73.8,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+13,2290,76.33333333333333,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+14,2353,78.43333333333334,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+15,2421,80.7,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review

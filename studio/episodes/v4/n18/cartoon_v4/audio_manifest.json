@@ -1,0 +1,17 @@
+{
+  "narration": "public/narration.wav",
+  "recovery": "audio_recovery.json",
+  "music": "assets/music/Sneaky Spelunking - Joel Cummins.mp3",
+  "licence": "music_license.md",
+  "music_gain_linear": 0.1,
+  "ducking": {
+    "threshold": 0.018,
+    "ratio": 9,
+    "attack_ms": 8,
+    "release_ms": 230
+  },
+  "new_sfx": [],
+  "sfx_note": "No separately licensed SFX found in assets; original recovered track remains intact. No collapse, impact, death or invented event sound added.",
+  "normalization": false,
+  "voice_speed_pitch_edited": false
+}

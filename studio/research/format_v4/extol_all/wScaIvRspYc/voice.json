@@ -1,0 +1,26 @@
+{
+  "sentence_count_estimate": 146,
+  "ending_counts": {
+    "습니다_니다": 140,
+    "other": 3,
+    "다": 3
+  },
+  "ending_shares": {
+    "습니다_니다": 0.958904109589041,
+    "죠_지요": 0.0,
+    "요": 0.0,
+    "다": 0.02054794520547945,
+    "other": 0.02054794520547945
+  },
+  "sentence_syllables_mean_estimate": 27.86986301369863,
+  "sentence_syllables_median_estimate": 24.0,
+  "sentence_eojeol_mean_estimate": 8.787671232876713,
+  "question_sentence_share_estimate": 0.02054794520547945,
+  "all_asr_syllables_per_timeline_s_estimate": 5.937834419690631,
+  "narrator_syllables_per_timeline_s_estimate": 5.937834419690631,
+  "narrator_syllables_per_phrase_s_estimate": 6.450129985416271,
+  "excluded_archival_or_card_intervals_s": [],
+  "asr_pause_count_gt_0_2_excluding_archival_gap": 117,
+  "asr_pause_median_s": 0.4199999999999875,
+  "method": "same Hangul + Korean numeral expansion and sentence-ending split for all 8; ASR errors/units/quoted speech affect counts; not acoustic phoneme alignment"
+}

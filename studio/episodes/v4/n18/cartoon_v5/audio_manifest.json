@@ -1,0 +1,8 @@
+{
+  "narration": "Local Supertonic 3 M1; existing OpenRAIL-M model; fresh synthesis.",
+  "music": "Original procedural 146 BPM minor synth bass/chords/drums from NumPy sine/noise; no samples.",
+  "sfx": "Original seeded filtered noise and sine chirps; no external recordings.",
+  "third_party_recordings": [],
+  "network": false,
+  "uploads": false
+}

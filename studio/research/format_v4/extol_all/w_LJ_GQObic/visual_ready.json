@@ -1,0 +1,7 @@
+{
+  "shot_count_initial": 162,
+  "duration_s": 534.6,
+  "fps": 30.0,
+  "source": "reused frame-accurate visual review",
+  "measure_pixels": "palette at320x180; black bars/subtitles included; corner darkness and residual texture not isolated vignette/grain"
+}

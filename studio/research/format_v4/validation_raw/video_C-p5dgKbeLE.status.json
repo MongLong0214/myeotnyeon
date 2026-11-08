@@ -1,0 +1,25 @@
+{
+  "started_at_kst": "2026-10-26T19:07:59+09:00",
+  "finished_at_kst": "2026-10-26T19:08:02+09:00",
+  "command": [
+    "$HOME/.local/bin/yt-dlp",
+    "--ignore-config",
+    "--no-cookies",
+    "--no-warnings",
+    "--socket-timeout",
+    "25",
+    "--retries",
+    "1",
+    "--extractor-retries",
+    "1",
+    "--skip-download",
+    "--ignore-no-formats-error",
+    "--extractor-args",
+    "youtube:player_client=web",
+    "--dump-json",
+    "https://www.youtube.com/watch?v=C-p5dgKbeLE"
+  ],
+  "exit_code": 0,
+  "error": "",
+  "rows": 1
+}

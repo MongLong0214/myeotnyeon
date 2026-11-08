@@ -1,0 +1,8 @@
+loop_id,resolution_s,nearest_mix_onset_s,delta_s,onset_within_0_1s_proxy,onset_overlaps_asr_word,sfx_or_music_hit_confirmed,note
+L1,118.94,118.89,-0.04999999999999716,True,False,,"spectral flux transient; may be speech consonant, music or SFX; not perceptual confirmation"
+L2,407.22,407.19,-0.03000000000002956,True,True,,"spectral flux transient; may be speech consonant, music or SFX; not perceptual confirmation"
+L3,161.02,160.93,-0.09000000000000341,True,True,,"spectral flux transient; may be speech consonant, music or SFX; not perceptual confirmation"
+L4,230.1,230.0,-0.09999999999999432,True,True,,"spectral flux transient; may be speech consonant, music or SFX; not perceptual confirmation"
+L5,372.58,372.65000000000003,0.07000000000005002,True,False,,"spectral flux transient; may be speech consonant, music or SFX; not perceptual confirmation"
+L6,471.92,471.92,0.0,True,True,,"spectral flux transient; may be speech consonant, music or SFX; not perceptual confirmation"
+L7,521.5,521.49,-0.009999999999990905,True,True,,"spectral flux transient; may be speech consonant, music or SFX; not perceptual confirmation"

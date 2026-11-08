@@ -1,0 +1,10 @@
+{
+  "ready": false,
+  "gates": {
+    "build": {
+      "status": "FAIL",
+      "evidence": ""
+    }
+  },
+  "error": "Traceback (most recent call last):\n  File \"factory/short.py\", line 152, in build\n    cfg=prepare(p,q,n,fresh,video_id,dry_number);(p/'meta.txt').write_text(metadata(q,n,cfg['from_scratch']))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"factory/short.py\", line 49, in prepare\n    prepared,public,research=prepare_fresh(p,q)\n                             ^^^^^^^^^^^^^^^^^^\n  File \"factory/fresh.py\", line 78, in prepare\n    ar=mlx_whisper.transcribe(str(f),path_or_hf_repo=str(model),language='ko',temperature=0,condition_on_previous_text=False,word_timestamps=True)\n       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/mlx_whisper/transcribe.py\", line 415, in transcribe\n    add_word_timestamps(\n  File \".venv/lib/python3.12/site-packages/mlx_whisper/timing.py\", line 241, in add_word_timestamps\n    alignment = find_alignment(model, tokenizer, text_tokens, mel, num_frames, **kwargs)\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \".venv/lib/python3.12/site-packages/mlx_whisper/timing.py\", line 141, in find_alignment\n    text_token_probs = np.array(text_token_probs)\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyboardInterrupt\n"
+}

@@ -1,0 +1,39 @@
+{
+  "decoded_frames": 13387,
+  "black_windows": [],
+  "freeze_durations_over_3s": [],
+  "identical_adjacent_frames": 0,
+  "longest_identical_frame_run_s": 0.03333333333333333,
+  "encoded_audio_alignment": [
+    {
+      "at_s": 0.5,
+      "audio_delay_ms": 0.0,
+      "correlation": 0.999935
+    },
+    {
+      "at_s": 30,
+      "audio_delay_ms": 0.0,
+      "correlation": 0.999925
+    },
+    {
+      "at_s": 100,
+      "audio_delay_ms": 0.0,
+      "correlation": 0.999933
+    },
+    {
+      "at_s": 200,
+      "audio_delay_ms": 0.0,
+      "correlation": 0.999913
+    },
+    {
+      "at_s": 400,
+      "audio_delay_ms": 0.0,
+      "correlation": 0.999954
+    }
+  ],
+  "max_abs_audio_delay_ms": 0.0,
+  "decoded_audio_peak": 0.9505069851875305,
+  "decoded_samples_above_unity": 0,
+  "all_frame_scan": "qa/detectors.log",
+  "frame_hashes": "qa/frame_hashes.md5"
+}

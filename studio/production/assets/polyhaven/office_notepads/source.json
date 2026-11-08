@@ -1,0 +1,18 @@
+{
+ "id": "office_notepads",
+ "name": "Office Notepads",
+ "type": 2,
+ "authors": {
+  "Ulan Cabanilla": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/office_notepads",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/office_notepads/office_notepads_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/office_notepads/office_notepads_diff_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/office_notepads/office_notepads_nor_gl_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/office_notepads/office_notepads_rough_2k.exr"
+ ]
+}

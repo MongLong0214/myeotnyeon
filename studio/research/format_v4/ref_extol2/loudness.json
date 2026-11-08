@@ -1,0 +1,14 @@
+{
+  "reference2": {
+    "integrated_LUFS": -15.74,
+    "true_peak_dBTP": 0.42,
+    "LRA_LU": 3.4,
+    "method": "ffmpeg loudnorm input measurement; original audio, no normalization saved"
+  },
+  "n18_fast": {
+    "integrated_LUFS": -14.07,
+    "true_peak_dBTP": -1.2,
+    "LRA_LU": 1.4,
+    "method": "ffmpeg loudnorm input measurement; original audio, no normalization saved"
+  }
+}

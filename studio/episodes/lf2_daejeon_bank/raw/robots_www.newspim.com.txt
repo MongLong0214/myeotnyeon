@@ -1,0 +1,21 @@
+URL: https://www.newspim.com/robots.txt
+HTTP: 200
+User-agent: *
+Disallow: /event/
+Disallow: /quicknews/
+Disallow: /survey/
+Disallow: /persondb/
+Disallow: /search
+Disallow: /anda/
+Disallow: /company/
+Disallow: /customer/
+Disallow: /section/corpnews
+Disallow: /ir/
+Disallow: /forum/
+Disallow: /etc/
+Disallow: /newsletter/
+Disallow: /news/preview/print
+
+Sitemap: https://www.newspim.com/sitemap/section
+Sitemap: https://www.newspim.com/sitemap/recent
+Sitemap: https://www.newspim.com/sitemap/archive

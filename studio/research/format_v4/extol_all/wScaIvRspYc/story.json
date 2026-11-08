@@ -1,0 +1,244 @@
+{
+  "topic": "역사/군사 전략",
+  "title_formula": "승률 숫자+유명 장군+설계한+지옥도",
+  "cold_open_15_summary": "함대의 두 수를 차례로 보여주고 열세인 조선의 승리를 제시한다.",
+  "cold_open_60_summary": "두 전투의 수적 대비를 연속 제시한 후 승리를 가능하게 한 조건 설계를 질문한다. 47초부터 배의 바닥 구조와 항해 조건을 설명한다.",
+  "beats": [
+    {
+      "start_s": 0,
+      "end_s": 45.1,
+      "function": "결과·질문",
+      "summary": "두 전투의 열세와 승리; 설계 원리 질문"
+    },
+    {
+      "start_s": 45.1,
+      "end_s": 143.9,
+      "function": "01 조건",
+      "summary": "선체·거리·무기·접근전의 제약"
+    },
+    {
+      "start_s": 143.9,
+      "end_s": 204.4,
+      "function": "02 한산도 세팅",
+      "summary": "진영보다 장소·적의 유리한 지형"
+    },
+    {
+      "start_s": 204.4,
+      "end_s": 264.8,
+      "function": "유인과 전개",
+      "summary": "추격 거리와 진영 너비"
+    },
+    {
+      "start_s": 264.8,
+      "end_s": 325,
+      "function": "동시성·화력",
+      "summary": "훈련과 화포 수 계산"
+    },
+    {
+      "start_s": 325,
+      "end_s": 382.4,
+      "function": "약점 봉쇄",
+      "summary": "측면·거북선·회전 재장전"
+    },
+    {
+      "start_s": 382.4,
+      "end_s": 413.8,
+      "function": "첫 보상",
+      "summary": "전투 결과와 보급로"
+    },
+    {
+      "start_s": 413.8,
+      "end_s": 465.4,
+      "function": "03 상실",
+      "summary": "지휘권 변화와 함대 상실"
+    },
+    {
+      "start_s": 465.4,
+      "end_s": 538.5,
+      "function": "명량의 조건",
+      "summary": "남은 배와 좁은 폭으로 수적 차이 제한"
+    },
+    {
+      "start_s": 538.5,
+      "end_s": 607.3,
+      "function": "시간 변수",
+      "summary": "조류의 변화까지 버티는 전개"
+    },
+    {
+      "start_s": 607.3,
+      "end_s": 634,
+      "function": "보상",
+      "summary": "지휘관 손실·후퇴·결과"
+    },
+    {
+      "start_s": 634,
+      "end_s": 685,
+      "function": "통합 결론",
+      "summary": "서로 반대인 지형 선택이 같은 논리였다는 회수"
+    }
+  ],
+  "open_loops": [
+    {
+      "id": "L1",
+      "raised_s": 36.4,
+      "closed_or_reframed_s": 685,
+      "question": "왜 열세에서도 이길 조건을 만들었는가",
+      "resolution": "두 전투 원리를 통합"
+    },
+    {
+      "id": "L2",
+      "raised_s": 82.5,
+      "closed_or_reframed_s": 377.4,
+      "question": "평저선 특성이 언제 결정적인가",
+      "resolution": "선회와 교대 발포"
+    },
+    {
+      "id": "L3",
+      "raised_s": 135.6,
+      "closed_or_reframed_s": 264.8,
+      "question": "접근전 전에 적을 격파할 조건은 무엇인가",
+      "resolution": "유인과 넓은 전개 공간"
+    },
+    {
+      "id": "L4",
+      "raised_s": 210.9,
+      "closed_or_reframed_s": 237.5,
+      "question": "얼마나 빠르게 유인해야 하는가",
+      "resolution": "적이 추격 가능한 거리 유지"
+    },
+    {
+      "id": "L5",
+      "raised_s": 349,
+      "closed_or_reframed_s": 377.4,
+      "question": "재장전 공백을 어떻게 메우는가",
+      "resolution": "회전·반대편 발포"
+    },
+    {
+      "id": "L6",
+      "raised_s": 476.3,
+      "closed_or_reframed_s": 535.8,
+      "question": "적은 배로 가능한 조건은 무엇인가",
+      "resolution": "해협 폭으로 동시 접근 수 제한"
+    },
+    {
+      "id": "L7",
+      "raised_s": 538.7,
+      "closed_or_reframed_s": 603.9,
+      "question": "정오까지 버티면 무엇이 바뀌는가",
+      "resolution": "해류 방향 반전"
+    }
+  ],
+  "manual_devices": {
+    "foreshadowing": [
+      {
+        "start_s": 82.5,
+        "end_s": 86.2,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 146.9,
+        "end_s": 153.9,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 210.9,
+        "end_s": 214.1,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 349,
+        "end_s": 362.1,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 476.3,
+        "end_s": 480.2,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 538.7,
+        "end_s": 541.1,
+        "description": "[omitted: third-party video description]"
+      }
+    ],
+    "withholding": [
+      {
+        "start_s": 36.4,
+        "end_s": 45.1,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 135.6,
+        "end_s": 146.5,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 210.9,
+        "end_s": 229.3,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 349,
+        "end_s": 377.4,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 454.2,
+        "end_s": 465.4,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 538.7,
+        "end_s": 603.9,
+        "description": "[omitted: third-party video description]"
+      }
+    ],
+    "quotes": [
+      {
+        "start_s": 268.6,
+        "end_s": 280.1,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 454.2,
+        "end_s": 463.1,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 541.6,
+        "end_s": 554.5,
+        "description": "[omitted: third-party video description]"
+      }
+    ],
+    "irony": [
+      {
+        "start_s": 413.8,
+        "end_s": 451,
+        "description": "[omitted: third-party video description]"
+      },
+      {
+        "start_s": 634,
+        "end_s": 667.1,
+        "description": "[omitted: third-party video description]"
+      }
+    ]
+  },
+  "visual_notes": "3D 선박·장군 조각상·단면·지도·문헌 카드. 파란 조선과 붉은 상대를 역할로 부호화. 실제 사건의 사실성은 이번 형식 분석에서 별도 검증하지 않음.",
+  "thumbnail_notes": "푸른 장군 조각상이 두 개의 해전 판을 지휘하는 디오라마. 검정 배경, 흰 물결, 파랑/빨강. 문구와 실제 얼굴 없음.",
+  "chapter_cliffhangers": [
+    {
+      "boundary_s": 45.733,
+      "cliffhanger_type_manual": "해답 유예",
+      "lead_or_question": "두 승리의 조건 설계를 질문한 뒤 첫 전투의 조건으로 이동",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 463.4,
+      "cliffhanger_type_manual": "해법 유예",
+      "lead_or_question": "함대 상실·남은 전력을 제시한 뒤 다른 지형의 해법으로 이동",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sample_n": 200,
+  "sample_method": "top-level top-ranked comments; <=200; replies excluded; not representative and not retention analytics",
+  "keyword_theme_comment_counts_overlapping": {
+    "제작·몰입 언급": 11,
+    "기관·권력 언급": 26,
+    "형량·사법 언급": 3,
+    "피해·공감 언급": 3,
+    "사실·해석 논쟁 표지": 1,
+    "구독·업로드 기대": 7
+  },
+  "quoted_timestamp_counts_s": {
+    "25": 1,
+    "28": 1,
+    "302": 1,
+    "322": 1,
+    "332": 1,
+    "412": 1,
+    "419": 4,
+    "423": 1,
+    "439": 1,
+    "450": 1,
+    "525": 1
+  },
+  "interpretation": "신고 전화 구간의 응대가 가장 자주 논쟁이 되는 장면군. 가스총 실패·수리공 신고·새우잠의 세부 묘사도 언급."
+}

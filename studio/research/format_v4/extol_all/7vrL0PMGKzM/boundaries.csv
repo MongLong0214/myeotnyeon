@@ -1,0 +1,5 @@
+index,frame,time_s,transition_type,transition_frames_estimate,transition_duration_s_estimate,confidence,boundary_method,visual_confirmation
+1,396,13.2,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+2,440,14.666666666666666,hard,1,0.03333333333333333,0.75,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+3,624,20.8,dissolve,15,0.5,0.45,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review
+4,790,26.333333333333332,dissolve,15,0.5,0.45,detector ensemble; sampled boundary visual review; not exhaustive manual truth,pending sampled visual review

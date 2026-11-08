@@ -1,0 +1,206 @@
+{
+ "accuracy": 0.9956331877729258,
+ "transcript": " 도심 역주행 사고로 9명이 숨졌습니다. 몇 년 받았을까? 운전자는 급발진을 주장했지만 법원은 받아들이지 않았죠. 급발진에서 나타날 신호는 없다고 봤습니다. 1심과 2심은 여러 피해를 어떻게 처벌할지 달리 봤습니다. 1심은 인도와 차량 충돌 사고를 각각 별개의 행위로 봤죠. 벌금, 집행유예, 실형 중 무엇이었을까요? 2심은 하나의 운전 행위로 봤습니다. 한 번의 운전으로 여러 죄가 성립한 경우였죠. 가장 무거운 죄에 정해진 형으로 처벌합니다. 실형, 금고 7년 6개월에서 5년으로 줄어 확정됐습니다. 금고는 징역과 달리 노역 의무가 없습니다. 다음 사건도 마쳐보세요.",
+ "rows": [
+  {
+   "text": "도심 역주행 사고로",
+   "start": 0,
+   "end": 37,
+   "old_start": 0,
+   "old_end": 37,
+   "start_seconds": 0.0,
+   "end_seconds": 1.22
+  },
+  {
+   "text": "9명이 숨졌습니다.",
+   "start": 37,
+   "end": 71,
+   "old_start": 37,
+   "old_end": 74,
+   "start_seconds": 1.22,
+   "end_seconds": 2.36
+  },
+  {
+   "text": "몇 년 받았을까?",
+   "start": 75,
+   "end": 102,
+   "old_start": 74,
+   "old_end": 106,
+   "start_seconds": 2.5,
+   "end_seconds": 3.4
+  },
+  {
+   "text": "운전자는 급발진을\n주장했지만",
+   "start": 106,
+   "end": 164,
+   "old_start": 107,
+   "old_end": 158,
+   "start_seconds": 3.52,
+   "end_seconds": 5.48
+  },
+  {
+   "text": "법원은 받아들이지\n않았죠.",
+   "start": 164,
+   "end": 214,
+   "old_start": 158,
+   "old_end": 219,
+   "start_seconds": 5.48,
+   "end_seconds": 7.14
+  },
+  {
+   "text": "급발진에서 나타날 신호는",
+   "start": 219,
+   "end": 267,
+   "old_start": 219,
+   "old_end": 262,
+   "start_seconds": 7.3,
+   "end_seconds": 8.9
+  },
+  {
+   "text": "없다고 봤습니다.",
+   "start": 267,
+   "end": 298,
+   "old_start": 262,
+   "old_end": 303,
+   "start_seconds": 8.9,
+   "end_seconds": 9.92
+  },
+  {
+   "text": "1심과 2심은",
+   "start": 303,
+   "end": 333,
+   "old_start": 304,
+   "old_end": 328,
+   "start_seconds": 10.1,
+   "end_seconds": 11.1
+  },
+  {
+   "text": "여러 피해를 어떻게\n처벌할지 달리 봤습니다.",
+   "start": 333,
+   "end": 409,
+   "old_start": 328,
+   "old_end": 416,
+   "start_seconds": 11.1,
+   "end_seconds": 13.62
+  },
+  {
+   "text": "1심은 인도와 차량 충돌 사고를",
+   "start": 415,
+   "end": 474,
+   "old_start": 416,
+   "old_end": 466,
+   "start_seconds": 13.82,
+   "end_seconds": 15.8
+  },
+  {
+   "text": "각각 별개의 행위로 봤죠.",
+   "start": 474,
+   "end": 518,
+   "old_start": 466,
+   "old_end": 521,
+   "start_seconds": 15.8,
+   "end_seconds": 17.28
+  },
+  {
+   "text": "벌금, 집행유예, 실형 중\n무엇이었을까요?",
+   "start": 521,
+   "end": 591,
+   "old_start": 522,
+   "old_end": 597,
+   "start_seconds": 17.38,
+   "end_seconds": 19.7
+  },
+  {
+   "text": "2심은 하나의 운전행위로\n봤습니다.",
+   "start": 596,
+   "end": 661,
+   "old_start": 597,
+   "old_end": 667,
+   "start_seconds": 19.86,
+   "end_seconds": 22.02
+  },
+  {
+   "text": "한 번의 운전으로",
+   "start": 667,
+   "end": 692,
+   "old_start": 667,
+   "old_end": 694,
+   "start_seconds": 22.22,
+   "end_seconds": 23.06
+  },
+  {
+   "text": "여러 죄가 성립한\n경우였죠.",
+   "start": 692,
+   "end": 746,
+   "old_start": 694,
+   "old_end": 751,
+   "start_seconds": 23.06,
+   "end_seconds": 24.86
+  },
+  {
+   "text": "가장 무거운 죄에\n정해진 형으로 처벌합니다.",
+   "start": 750,
+   "end": 829,
+   "old_start": 751,
+   "old_end": 834,
+   "start_seconds": 25.0,
+   "end_seconds": 27.62
+  },
+  {
+   "text": "실형.",
+   "start": 829,
+   "end": 845,
+   "old_start": 835,
+   "old_end": 856,
+   "start_seconds": 27.62,
+   "end_seconds": 28.18
+  },
+  {
+   "text": "금고 7년 6개월에서",
+   "start": 848,
+   "end": 889,
+   "old_start": 856,
+   "old_end": 888,
+   "start_seconds": 28.28,
+   "end_seconds": 29.62
+  },
+  {
+   "text": "5년으로 줄어\n확정됐습니다.",
+   "start": 889,
+   "end": 940,
+   "old_start": 888,
+   "old_end": 945,
+   "start_seconds": 29.62,
+   "end_seconds": 31.34
+  },
+  {
+   "text": "금고는 징역과 달리",
+   "start": 944,
+   "end": 982,
+   "old_start": 945,
+   "old_end": 975,
+   "start_seconds": 31.48,
+   "end_seconds": 32.74
+  },
+  {
+   "text": "노역 의무가 없습니다.",
+   "start": 982,
+   "end": 1015,
+   "old_start": 975,
+   "old_end": 1024,
+   "start_seconds": 32.74,
+   "end_seconds": 33.82
+  },
+  {
+   "text": "다음 사건도\n맞혀 보세요.",
+   "start": 1024,
+   "end": 1064,
+   "old_start": 1025,
+   "old_end": 1071,
+   "start_seconds": 34.14,
+   "end_seconds": 35.46
+  }
+ ],
+ "method": "Cached offline Whisper word timestamps, normalized with the exact existing episode numeral-reading lexicon. Caption boundaries interpolated within recognized words; no change to displayed text.",
+ "pass_": true
+}

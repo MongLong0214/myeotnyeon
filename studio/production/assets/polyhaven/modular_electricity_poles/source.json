@@ -1,0 +1,22 @@
+{
+ "id": "modular_electricity_poles",
+ "name": "Modular Electricity Poles",
+ "type": 2,
+ "authors": {
+  "James Ray Cock": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/modular_electricity_poles",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/modular_electricity_poles/modular_electricity_poles_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_electricity_poles/modular_electricity_poles_diff_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electricity_poles/modular_electricity_poles_nor_gl_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electricity_poles/modular_electricity_poles_pieces_metal_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electricity_poles/modular_electricity_poles_pieces_diff_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electricity_poles/modular_electricity_poles_pieces_rough_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_electricity_poles/modular_electricity_poles_pieces_nor_gl_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_electricity_poles/modular_electricity_poles_rough_2k.exr"
+ ]
+}

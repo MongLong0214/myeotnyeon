@@ -1,0 +1,1 @@
+READY episodes/lf2_daejeon_bank/out/lf2_rep_segments_720p.mp4 A:119.875-163.750,B:244.458-287.083 1 0

@@ -1,0 +1,200 @@
+{
+ "items": [
+  {
+   "id": "C1_1",
+   "cue": "C1",
+   "act": "incident",
+   "start": 0.0,
+   "end": 154.74875,
+   "file": "upload/pkg/q013_n16_v3/prepared/hook_master.wav",
+   "text": "배달 음식 받는 곳을 바꿨다는 이유로 외국인 노동자에게 박치기를 22번 했습니다. 몇 년 받았을까?",
+   "start_sample": 0,
+   "end_sample": 247598
+  },
+  {
+   "id": "C2_1",
+   "cue": "C2",
+   "act": "incident",
+   "start": 154.74875,
+   "end": 269.345625,
+   "file": "episodes/quiz/q013/audio/na/C2_1.wav",
+   "text": "노동자는 뇌진탕 등 상해를 입었고 관리자는 구속된 채 재판에 넘겨졌죠.",
+   "start_sample": 247598,
+   "end_sample": 430953
+  },
+  {
+   "id": "C3_1",
+   "cue": "C3",
+   "act": "incident",
+   "start": 269.345625,
+   "end": 345.271875,
+   "file": "episodes/quiz/q013/audio/na/C3_1.wav",
+   "text": "게다가 음주운전으로 집행유예 기간 중이었어요.",
+   "start_sample": 430953,
+   "end_sample": 552435
+  },
+  {
+   "id": "C4_1",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 345.271875,
+   "end": 412.990625,
+   "file": "episodes/quiz/q013/audio/na/C4_1.wav",
+   "text": "벌금, 집행유예, 실형 중 무엇이었을까요?",
+   "start_sample": 552435,
+   "end_sample": 660785
+  },
+  {
+   "id": "C4_2",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 412.990625,
+   "end": 498.10125,
+   "file": "episodes/quiz/q013/audio/na/C4_2.wav",
+   "text": "판사는 집행유예 기간에 자숙하지 않았다고 꼬집었습니다.",
+   "start_sample": 660785,
+   "end_sample": 796962
+  },
+  {
+   "id": "C4_3",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 498.10125,
+   "end": 600.746875,
+   "file": "episodes/quiz/q013/audio/na/C4_3.wav",
+   "text": "다만 범행을 모두 인정했고 구금 생활로 반성했을 거라고 봤어요.",
+   "start_sample": 796962,
+   "end_sample": 961195
+  },
+  {
+   "id": "C4_4",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 600.746875,
+   "end": 679.288125,
+   "file": "episodes/quiz/q013/audio/na/C4_4.wav",
+   "text": "700만 원에 합의해 피해자도 처벌을 원치 않았죠.",
+   "start_sample": 961195,
+   "end_sample": 1086861
+  },
+  {
+   "id": "C5_1",
+   "cue": "C5",
+   "act": "reveal",
+   "start": 679.288125,
+   "end": 720.690625,
+   "file": "episodes/quiz/q013/audio/na/C5_1.wav",
+   "text": "정답은 벌금 400만 원입니다.",
+   "start_sample": 1086861,
+   "end_sample": 1153105
+  },
+  {
+   "id": "C5_2",
+   "cue": "C5",
+   "act": "reveal",
+   "start": 720.690625,
+   "end": 766.20375,
+   "file": "episodes/quiz/q013/audio/na/C5_2.wav",
+   "text": "검찰은 징역 1년을 구형했었죠.",
+   "start_sample": 1153105,
+   "end_sample": 1225926
+  },
+  {
+   "id": "C6_1",
+   "cue": "C6",
+   "act": "outro",
+   "start": 766.20375,
+   "end": 800.275625,
+   "file": "episodes/quiz/q013/audio/na/C6_1.wav",
+   "text": "다음 사건도 맞혀 보세요.",
+   "start_sample": 1225926,
+   "end_sample": 1280441
+  }
+ ],
+ "knots": [
+  [
+   0,
+   0.0
+  ],
+  [
+   140,
+   154.74875
+  ],
+  [
+   149,
+   154.74875
+  ],
+  [
+   264,
+   269.345625
+  ],
+  [
+   273,
+   269.345625
+  ],
+  [
+   349,
+   345.271875
+  ],
+  [
+   358,
+   345.271875
+  ],
+  [
+   426,
+   412.990625
+  ],
+  [
+   431,
+   412.990625
+  ],
+  [
+   516,
+   498.10125
+  ],
+  [
+   521,
+   498.10125
+  ],
+  [
+   624,
+   600.746875
+  ],
+  [
+   629,
+   600.746875
+  ],
+  [
+   708,
+   679.288125
+  ],
+  [
+   720,
+   679.288125
+  ],
+  [
+   761,
+   720.690625
+  ],
+  [
+   766,
+   720.690625
+  ],
+  [
+   812,
+   766.20375
+  ],
+  [
+   827,
+   766.20375
+  ],
+  [
+   861,
+   800.275625
+  ],
+  [
+   876,
+   812
+  ]
+ ]
+}

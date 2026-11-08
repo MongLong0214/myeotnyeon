@@ -1,0 +1,150 @@
+[
+  {
+    "candidate": 1,
+    "frame": 99,
+    "time_s": 3.3,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 14.337037037037037,
+    "hist": 0.017717013436526846
+  },
+  {
+    "candidate": 2,
+    "frame": 396,
+    "time_s": 13.2,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 26.487770061728394,
+    "hist": 0.13991857449027695
+  },
+  {
+    "candidate": 3,
+    "frame": 440,
+    "time_s": 14.666666666666666,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 31.686882716049382,
+    "hist": 0.17087193326575476
+  },
+  {
+    "candidate": 4,
+    "frame": 470,
+    "time_s": 15.666666666666666,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.464251543209876,
+    "hist": 0.04041065879478052
+  },
+  {
+    "candidate": 5,
+    "frame": 618,
+    "time_s": 20.6,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.156759259259259,
+    "hist": 0.052160366888843526
+  },
+  {
+    "candidate": 6,
+    "frame": 624,
+    "time_s": 20.8,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 33.571473765432096,
+    "hist": 0.2333846553492553
+  },
+  {
+    "candidate": 7,
+    "frame": 725,
+    "time_s": 24.166666666666668,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.26054012345679,
+    "hist": 0.0603961461011494
+  },
+  {
+    "candidate": 8,
+    "frame": 790,
+    "time_s": 26.333333333333332,
+    "sources": [
+      "content",
+      "adaptive"
+    ],
+    "diff": 15.939760802469136,
+    "hist": 0.09275174015187104
+  },
+  {
+    "candidate": 9,
+    "frame": 804,
+    "time_s": 26.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.1503549382716045,
+    "hist": 0.019932308090213218
+  },
+  {
+    "candidate": 10,
+    "frame": 882,
+    "time_s": 29.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.35891975308642,
+    "hist": 0.01206754923896645
+  },
+  {
+    "candidate": 11,
+    "frame": 931,
+    "time_s": 31.033333333333335,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.464768518518518,
+    "hist": 0.001980904831656325
+  },
+  {
+    "candidate": 12,
+    "frame": 1219,
+    "time_s": 40.63333333333333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 12.420331790123457,
+    "hist": 0.012630094370110638
+  },
+  {
+    "candidate": 13,
+    "frame": 1357,
+    "time_s": 45.233333333333334,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.769938271604937,
+    "hist": 0.007070424092504447
+  },
+  {
+    "candidate": 14,
+    "frame": 1439,
+    "time_s": 47.96666666666667,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 12.370810185185185,
+    "hist": 0.011364973360668355
+  }
+]

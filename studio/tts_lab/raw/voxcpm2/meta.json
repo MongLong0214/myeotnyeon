@@ -1,0 +1,290 @@
+{
+ "voxcpm2_M30_neutral_1": {
+  "engine": "voxcpm2",
+  "voice": "M30",
+  "style": "neutral",
+  "line": 1,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A Korean man in his early 30s with a bright, slightly husky voice, speaking natural Seoul Korean. Calm, clear documentary narrator, even pace.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 27.53,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "voxcpm2_M30_neutral_2": {
+  "engine": "voxcpm2",
+  "voice": "M30",
+  "style": "neutral",
+  "line": 2,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A Korean man in his early 30s with a bright, slightly husky voice, speaking natural Seoul Korean. Calm, clear documentary narrator, even pace.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 13.02,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "voxcpm2_M30_neutral_3": {
+  "engine": "voxcpm2",
+  "voice": "M30",
+  "style": "neutral",
+  "line": 3,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A Korean man in his early 30s with a bright, slightly husky voice, speaking natural Seoul Korean. Calm, clear documentary narrator, even pace.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 11.27,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "voxcpm2_M30_comic_1": {
+  "engine": "voxcpm2",
+  "voice": "M30",
+  "style": "comic",
+  "line": 1,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A Korean man in his early 30s with a bright, slightly husky voice, speaking natural Seoul Korean. A fast-talking comedic narrator for an adult animated cartoon: energetic and sarcastic, big exaggerated pitch swings, punchy emphasis, comic timing.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 22.58,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "voxcpm2_M30_comic_2": {
+  "engine": "voxcpm2",
+  "voice": "M30",
+  "style": "comic",
+  "line": 2,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A Korean man in his early 30s with a bright, slightly husky voice, speaking natural Seoul Korean. A fast-talking comedic narrator for an adult animated cartoon: energetic and sarcastic, big exaggerated pitch swings, punchy emphasis, comic timing.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 13.03,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "voxcpm2_M30_comic_3": {
+  "engine": "voxcpm2",
+  "voice": "M30",
+  "style": "comic",
+  "line": 3,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A Korean man in his early 30s with a bright, slightly husky voice, speaking natural Seoul Korean. A fast-talking comedic narrator for an adult animated cartoon: energetic and sarcastic, big exaggerated pitch swings, punchy emphasis, comic timing.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 12.15,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "voxcpm2_F20_neutral_1": {
+  "engine": "voxcpm2",
+  "voice": "F20",
+  "style": "neutral",
+  "line": 1,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A Korean woman in her late 20s with a clear, lively voice, speaking natural Seoul Korean. Calm, friendly news-style narrator, even pace.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 18.37,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "voxcpm2_F20_neutral_2": {
+  "engine": "voxcpm2",
+  "voice": "F20",
+  "style": "neutral",
+  "line": 2,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A Korean woman in her late 20s with a clear, lively voice, speaking natural Seoul Korean. Calm, friendly news-style narrator, even pace.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 11.23,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "voxcpm2_F20_neutral_3": {
+  "engine": "voxcpm2",
+  "voice": "F20",
+  "style": "neutral",
+  "line": 3,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A Korean woman in her late 20s with a clear, lively voice, speaking natural Seoul Korean. Calm, friendly news-style narrator, even pace.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 11.21,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "voxcpm2_F20_comic_1": {
+  "engine": "voxcpm2",
+  "voice": "F20",
+  "style": "comic",
+  "line": 1,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A Korean woman in her late 20s with a clear, lively voice, speaking natural Seoul Korean. A witty variety-show narrator: fast, bouncy and playful, dramatic rises and falls in pitch, teasing tone, comic timing.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 15.18,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "voxcpm2_F20_comic_2": {
+  "engine": "voxcpm2",
+  "voice": "F20",
+  "style": "comic",
+  "line": 2,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A Korean woman in her late 20s with a clear, lively voice, speaking natural Seoul Korean. A witty variety-show narrator: fast, bouncy and playful, dramatic rises and falls in pitch, teasing tone, comic timing.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 10.43,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "voxcpm2_F20_comic_3": {
+  "engine": "voxcpm2",
+  "voice": "F20",
+  "style": "comic",
+  "line": 3,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A Korean woman in her late 20s with a clear, lively voice, speaking natural Seoul Korean. A witty variety-show narrator: fast, bouncy and playful, dramatic rises and falls in pitch, teasing tone, comic timing.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 6.6,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "voxcpm2_Deep_neutral_1": {
+  "engine": "voxcpm2",
+  "voice": "Deep",
+  "style": "neutral",
+  "line": 1,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A middle-aged Korean man with a deep, gravelly voice, speaking natural Seoul Korean. Serious, measured narrator.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 13.67,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "voxcpm2_Deep_neutral_2": {
+  "engine": "voxcpm2",
+  "voice": "Deep",
+  "style": "neutral",
+  "line": 2,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A middle-aged Korean man with a deep, gravelly voice, speaking natural Seoul Korean. Serious, measured narrator.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 9.64,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "voxcpm2_Deep_neutral_3": {
+  "engine": "voxcpm2",
+  "voice": "Deep",
+  "style": "neutral",
+  "line": 3,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A middle-aged Korean man with a deep, gravelly voice, speaking natural Seoul Korean. Serious, measured narrator.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 8.27,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "voxcpm2_Deep_comic_1": {
+  "engine": "voxcpm2",
+  "voice": "Deep",
+  "style": "comic",
+  "line": 1,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A middle-aged Korean man with a deep, gravelly voice, speaking natural Seoul Korean. Over-the-top dramatic movie-trailer narration played for laughs: huge emphasis, theatrical pauses, booming climaxes.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 15.09,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "voxcpm2_Deep_comic_2": {
+  "engine": "voxcpm2",
+  "voice": "Deep",
+  "style": "comic",
+  "line": 2,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A middle-aged Korean man with a deep, gravelly voice, speaking natural Seoul Korean. Over-the-top dramatic movie-trailer narration played for laughs: huge emphasis, theatrical pauses, booming climaxes.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 8.67,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "voxcpm2_Deep_comic_3": {
+  "engine": "voxcpm2",
+  "voice": "Deep",
+  "style": "comic",
+  "line": 3,
+  "sr": 48000,
+  "params": {
+   "model": "mlx-community/VoxCPM2-bf16",
+   "instruct": "A middle-aged Korean man with a deep, gravelly voice, speaking natural Seoul Korean. Over-the-top dramatic movie-trailer narration played for laughs: huge emphasis, theatrical pauses, booming climaxes.",
+   "seed": "1000+line",
+   "inference_timesteps": 10,
+   "cfg_value": 2.0
+  },
+  "gen_seconds": 12.46,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ }
+}

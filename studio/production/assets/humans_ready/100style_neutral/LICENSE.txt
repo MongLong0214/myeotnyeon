@@ -1,0 +1,18 @@
+Asset: 100STYLE Dataset - Ian Mason, Sebastian Starke, Taku Komura (2022)
+Official page: https://www.ianxmason.com/100style/  (copy: ./evidence/ianxmason_100style_page.html)
+Zenodo record: https://zenodo.org/records/8127870  (metadata copy: ./evidence/zenodo_record_8127870.json,
+               "license": {"id": "cc-by-4.0"}; DOI 10.1145/3522618)
+Download: https://zenodo.org/records/8127870/files/100STYLE.zip?download=1 (public, no login).
+          Members extracted: 100STYLE/Neutral/Neutral_{ID,FW,BW}.bvh, 100STYLE/ArmsBySide/ArmsBySide_ID.bvh,
+          100STYLE/Frame_Cuts.csv, 100STYLE/Dataset_List.csv
+
+Licence statement on the official page, verbatim:
+  "For creative or commercial work please credit in an appropriate way. E.g. "The 100STYLE Dataset - Ian Mason".
+   This work is licensed under a Creative Commons Attribution 4.0 International License."
+Licence: https://creativecommons.org/licenses/by/4.0/
+
+REQUIRED CREDIT:
+  The 100STYLE Dataset - Ian Mason (Mason, Starke, Komura 2022), CC BY 4.0
+  (https://creativecommons.org/licenses/by/4.0/). Motions were trimmed and retargeted.
+
+Verdict: ALLOWED (CC BY 4.0) - attribution mandatory.

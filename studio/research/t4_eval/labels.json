@@ -1,0 +1,70 @@
+[
+ {
+  "id": "c01",
+  "used": true
+ },
+ {
+  "id": "c02",
+  "used": true
+ },
+ {
+  "id": "c03",
+  "used": false
+ },
+ {
+  "id": "c04",
+  "used": false
+ },
+ {
+  "id": "c05",
+  "used": true
+ },
+ {
+  "id": "c06",
+  "used": false
+ },
+ {
+  "id": "c07",
+  "used": false
+ },
+ {
+  "id": "c08",
+  "used": false
+ },
+ {
+  "id": "c09",
+  "used": false
+ },
+ {
+  "id": "c10",
+  "used": true
+ },
+ {
+  "id": "c11",
+  "used": true
+ },
+ {
+  "id": "c12",
+  "used": false
+ },
+ {
+  "id": "c13",
+  "used": false
+ },
+ {
+  "id": "c14",
+  "used": false
+ },
+ {
+  "id": "c15",
+  "used": false
+ },
+ {
+  "id": "c16",
+  "used": false
+ },
+ {
+  "id": "c17",
+  "used": false
+ }
+]

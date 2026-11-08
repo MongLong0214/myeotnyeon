@@ -1,0 +1,10 @@
+{
+  "episode": "N18 훈련병 사건",
+  "facts_source": "../facts.md",
+  "current_timing_source": "../cartoon_v6/shots_v6fix2.json",
+  "current_added_narration_source": "../cartoon_v6/narration_v6fix2.json",
+  "current_master": "../cartoon_v6/n18_cartoon_v6fix2_360p.mp4",
+  "current_master_seconds": 334.066667,
+  "directed_cue_source": "../terra_directed/direct_scene_cues.json",
+  "render_status": "No 720-second render was created: no compatible Korean narration generation route succeeded. See audio_render_blocker.json."
+}

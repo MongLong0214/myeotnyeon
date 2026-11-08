@@ -1,0 +1,4 @@
+start_s,end_s,shown_summary,spoken_summary,cuts_in_second,cut_times_s,static_headline_present,note
+0,1,보라색 브라우저 도식과 상단 질문,익명 브라우저와 코인 거래 제시,1,[0.6333333333333333],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+1,2,흰 사이트·코인·잠금 도식으로 전환,거래 조건의 질문 계속,1,[1.9],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+2,3,경찰이 인물을 체포하는 재연,체포를 피할 수 있는지 질문,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.

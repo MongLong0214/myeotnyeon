@@ -1,0 +1,238 @@
+{
+ "episode_id": "q003",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 대전지법 2025년 항소심",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "아이를 학대했다고 의심한 학부모가, 어린이집 교사의 얼굴을 똥 묻은 기저귀로 때렸습니다."
+   ],
+   "claim_ids": [
+    "V2-05_1"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#D7E8EE",
+    "props": [
+     {
+      "kind": "tiles",
+      "x": 500,
+      "y": 900
+     },
+     {
+      "kind": "diaper",
+      "x": 455,
+      "y": 545,
+      "rot": 20,
+      "scale": 0.45,
+      "until": 48,
+      "front": true
+     },
+     {
+      "kind": "diaper",
+      "x": 705,
+      "y": 500,
+      "rot": -15,
+      "scale": 0.7,
+      "at": 48,
+      "front": true
+     }
+    ],
+    "actors": [
+     {
+      "look": "A",
+      "x": 300,
+      "expr": "angry",
+      "pose": "point"
+     },
+     {
+      "look": "clerk",
+      "x": 720,
+      "expr": "normal",
+      "flip": true,
+      "until": 50
+     },
+     {
+      "look": "clerk",
+      "x": 720,
+      "expr": "shock",
+      "flip": true,
+      "at": 50
+     }
+    ],
+    "tags": [
+     {
+      "text": "학부모",
+      "x": 300,
+      "y": 40,
+      "color": "#C9503E"
+     },
+     {
+      "text": "어린이집 교사",
+      "x": 720,
+      "y": 40,
+      "color": "#21B8B0"
+     }
+    ],
+    "burst": {
+     "x": 540,
+     "y": 210,
+     "at": 48,
+     "text": "퍽!",
+     "r": 150,
+     "size": 90
+    }
+   }
+  },
+  {
+   "cue_id": "C2",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "교사는 안경이 부러졌고, 판결 때까지도 일을 못 할 만큼 고통을 호소했대요."
+   ],
+   "claim_ids": [
+    "V2-05_1"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#F6E7D7",
+    "actors": [
+     {
+      "look": "clerk",
+      "x": 260,
+      "y": 860,
+      "scale": 1.05,
+      "expr": "tired",
+      "pose": "sit"
+     }
+    ],
+    "stamp": {
+     "lines": [
+      "전치 2주",
+      "안경 부러짐"
+     ],
+     "x": 680,
+     "y": 250,
+     "at": 10,
+     "maxW": 540
+    }
+   }
+  },
+  {
+   "cue_id": "C3",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "학부모가 낸 아동학대 고소는, 전부 불기소였고요."
+   ],
+   "claim_ids": [
+    "V2-05_1"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#E9E1F2",
+    "actors": [
+     {
+      "look": "A",
+      "x": 260,
+      "y": 1000,
+      "scale": 1.15,
+      "expr": "smug",
+      "pose": "shrug"
+     }
+    ],
+    "stamp": {
+     "lines": [
+      "아동학대 고소",
+      "전부 불기소"
+     ],
+     "x": 650,
+     "y": 300,
+     "at": 8,
+     "maxW": 520,
+     "color": "#141414"
+    }
+   }
+  },
+  {
+   "cue_id": "C4",
+   "act": "quiz",
+   "block_name": "quiz",
+   "narration": [
+    "자, 몇 년 받았을까요?",
+    "벌금일까요, 집행유예일까요, 아니면 실형일까요?"
+   ],
+   "claim_ids": [],
+   "pad_s": 3.2,
+   "note": "",
+   "p": {}
+  },
+  {
+   "cue_id": "C5",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "1심은 집행유예였는데, 2심은 징역 6개월. 실형입니다."
+   ],
+   "claim_ids": [
+    "V2-05_1"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "lines": [
+     "징역 6개월",
+     "실형"
+    ]
+   }
+  },
+  {
+   "cue_id": "C6",
+   "act": "reason",
+   "block_name": "reason",
+   "narration": [
+    "얼굴에 오물을 묻힌 건 모욕할 의도였고, 피해 회복도 안 됐고, 반성도 없었다고 봤어요."
+   ],
+   "claim_ids": [
+    "V2-05_1"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "title": "실형 이유",
+    "chips": [
+     "오물로 모욕하려는 의도",
+     "피해 회복 안 됨",
+     "사과·반성 없음"
+    ],
+    "colors": [
+     "#F0433A",
+     "#F0433A",
+     "#F0433A"
+    ]
+   }
+  },
+  {
+   "cue_id": "C7",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 1.2,
+   "note": "",
+   "p": {}
+  }
+ ]
+}

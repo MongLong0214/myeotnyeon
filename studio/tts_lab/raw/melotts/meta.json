@@ -1,0 +1,146 @@
+{
+ "melotts_KR_neutral_1": {
+  "engine": "melotts",
+  "voice": "KR",
+  "style": "neutral",
+  "line": 1,
+  "sr": 44100,
+  "params": {
+   "speed": 1.0,
+   "sdp_ratio": 0.2,
+   "noise_scale": 0.6,
+   "noise_scale_w": 0.8,
+   "device": "cpu"
+  },
+  "gen_seconds": 45.76,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "melotts_KR_neutral_2": {
+  "engine": "melotts",
+  "voice": "KR",
+  "style": "neutral",
+  "line": 2,
+  "sr": 44100,
+  "params": {
+   "speed": 1.0,
+   "sdp_ratio": 0.2,
+   "noise_scale": 0.6,
+   "noise_scale_w": 0.8,
+   "device": "cpu"
+  },
+  "gen_seconds": 1.69,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "melotts_KR_neutral_3": {
+  "engine": "melotts",
+  "voice": "KR",
+  "style": "neutral",
+  "line": 3,
+  "sr": 44100,
+  "params": {
+   "speed": 1.0,
+   "sdp_ratio": 0.2,
+   "noise_scale": 0.6,
+   "noise_scale_w": 0.8,
+   "device": "cpu"
+  },
+  "gen_seconds": 1.0,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "melotts_KR_fast_1": {
+  "engine": "melotts",
+  "voice": "KR",
+  "style": "fast",
+  "line": 1,
+  "sr": 44100,
+  "params": {
+   "speed": 1.25,
+   "sdp_ratio": 0.2,
+   "noise_scale": 0.6,
+   "noise_scale_w": 0.8,
+   "device": "cpu"
+  },
+  "gen_seconds": 1.11,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "melotts_KR_fast_2": {
+  "engine": "melotts",
+  "voice": "KR",
+  "style": "fast",
+  "line": 2,
+  "sr": 44100,
+  "params": {
+   "speed": 1.25,
+   "sdp_ratio": 0.2,
+   "noise_scale": 0.6,
+   "noise_scale_w": 0.8,
+   "device": "cpu"
+  },
+  "gen_seconds": 0.85,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "melotts_KR_fast_3": {
+  "engine": "melotts",
+  "voice": "KR",
+  "style": "fast",
+  "line": 3,
+  "sr": 44100,
+  "params": {
+   "speed": 1.25,
+   "sdp_ratio": 0.2,
+   "noise_scale": 0.6,
+   "noise_scale_w": 0.8,
+   "device": "cpu"
+  },
+  "gen_seconds": 0.59,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "melotts_KR_comic_1": {
+  "engine": "melotts",
+  "voice": "KR",
+  "style": "comic",
+  "line": 1,
+  "sr": 44100,
+  "params": {
+   "speed": 1.25,
+   "sdp_ratio": 0.8,
+   "noise_scale": 0.9,
+   "noise_scale_w": 1.0,
+   "device": "cpu"
+  },
+  "gen_seconds": 1.16,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "melotts_KR_comic_2": {
+  "engine": "melotts",
+  "voice": "KR",
+  "style": "comic",
+  "line": 2,
+  "sr": 44100,
+  "params": {
+   "speed": 1.25,
+   "sdp_ratio": 0.8,
+   "noise_scale": 0.9,
+   "noise_scale_w": 1.0,
+   "device": "cpu"
+  },
+  "gen_seconds": 0.94,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "melotts_KR_comic_3": {
+  "engine": "melotts",
+  "voice": "KR",
+  "style": "comic",
+  "line": 3,
+  "sr": 44100,
+  "params": {
+   "speed": 1.25,
+   "sdp_ratio": 0.8,
+   "noise_scale": 0.9,
+   "noise_scale_w": 1.0,
+   "device": "cpu"
+  },
+  "gen_seconds": 0.56,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ }
+}

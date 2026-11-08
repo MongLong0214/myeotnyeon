@@ -1,0 +1,2 @@
+NOT READY v52c_q016.mp4 52.61 true 0
+Night background remains in source f845 and output f845–860; see verify.md.

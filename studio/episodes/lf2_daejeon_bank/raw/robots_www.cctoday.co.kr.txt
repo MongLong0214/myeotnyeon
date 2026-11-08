@@ -1,0 +1,2 @@
+URL: https://www.cctoday.co.kr/robots.txt
+HTTP: 403

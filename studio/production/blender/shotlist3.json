@@ -1,0 +1,3 @@
+{"L01_aerial": [290, 2, false], "L02_hood": [170, 1, false], "L03_beams": [110, 2, false], "L04_push": [172, 1, false],
+ "L05_wheel": [160, 2, true], "L06_ground": [160, 2, false], "L07_reverse": [160, 1, false], "L08_driver": [150, 2, false],
+ "L09_ghost": [186, 1, false], "L13_outro": [250, 2, true]}

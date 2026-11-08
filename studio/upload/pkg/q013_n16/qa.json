@@ -1,0 +1,10 @@
+{
+  "ready": false,
+  "gates": {
+    "build": {
+      "status": "FAIL",
+      "evidence": "Prepared narration differs from episode entry"
+    }
+  },
+  "error": "Traceback (most recent call last):\n  File \"factory/short.py\", line 118, in build\n    cfg=prepare(p,q,n);(p/'meta.txt').write_text(metadata(q,n))\n        ^^^^^^^^^^^^^^\n  File \"factory/short.py\", line 59, in prepare\n    if audio['reference']!=expected:raise ValueError('Prepared narration differs from episode entry')\n                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: Prepared narration differs from episode entry\n"
+}

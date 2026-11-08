@@ -1,0 +1,7 @@
+{
+  "shot_count_initial": 142,
+  "duration_s": 574.0333333333333,
+  "fps": 30.0,
+  "source": "detector ensemble; sampled boundary visual review; not exhaustive manual truth",
+  "measure_pixels": "palette at320x180; black bars/subtitles included; corner darkness and residual texture not isolated vignette/grain"
+}

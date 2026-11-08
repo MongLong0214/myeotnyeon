@@ -1,0 +1,226 @@
+{
+  "id": "myeotnyeon",
+  "pack_version": 1,
+  "identity": {
+    "name": "몇년나옴",
+    "handle": "@몇년나옴",
+    "topic": "실제 한국 판결 보도 기반 형량 퀴즈(2D 카툰)",
+    "studio_channel_check": "업로드 직전 Studio에서 채널 이름 '몇년나옴'과 핸들을 확인한다 (upload/upload_one.sh 첫 단계)"
+  },
+  "language": "ko",
+  "sources": {
+    "episode_registry": "episodes/quiz/episodes_n16.py",
+    "research_archive_glob": "research/raw*/{sid}.txt",
+    "topic_ranking": "research/topic_scores/RANKED.md"
+  },
+  "voice": {
+    "engine": "supertonic-3",
+    "id": "M1",
+    "local_only": true,
+    "short_min_sps": 7.5,
+    "short_max_gap_s": 0.12,
+    "long_sps_window": [
+      6.2,
+      6.6
+    ],
+    "lexicon": [
+      "episodes/S001/tts.py:LEX",
+      "episodes/quiz/make.py:EXTRA_LEX",
+      "episode.lex"
+    ]
+  },
+  "art": {
+    "style": "2D 카툰, 릭앤모티 톤(복제 금지), 숏츠·롱폼 그림체 통일, 3D/Blender 프레임 금지 (H8, B5)",
+    "short_engine": "production/compositor (v52 Quiz + HookV52)",
+    "long_engine": "production/lf_toon/src (ToonRig, shots, camera2d, Captions)",
+    "rig_preset": "lf_toon ToonRig default (H17b/H18 관절 규칙)",
+    "style_bible": [
+      "production/lf_toon/LONGFORM_ANIMATION_BIBLE.md",
+      "factory/unslop/STYLE_VIDEO.md"
+    ]
+  },
+  "subtitle": {
+    "short": {
+      "font": "Pretendard ExtraBold",
+      "size_px": 70,
+      "weight": 800,
+      "stroke_px": 12,
+      "align": "center",
+      "max_lines": 2,
+      "line_max": 14,
+      "splitter": "authored"
+    },
+    "long": {
+      "font": "Pretendard ExtraBold",
+      "size_px": 54,
+      "weight": 800,
+      "stroke_px": 10,
+      "align": "center",
+      "max_lines": 2,
+      "line_max": 18,
+      "splitter": "auto"
+    },
+    "engine_note": "size/stroke are the values compiled into production/compositor/src/Quiz.tsx Caption and factory/lib/code_lint.py LONGFORM_CAPTION; make.py checks line rules, it does not restyle the TSX"
+  },
+  "templates": {
+    "short_title": "{title} #형량퀴즈 #몇년나옴",
+    "title_rules": {
+      "max_chars": 100,
+      "must_end_with": "#몇년나옴",
+      "forbidden_regex": "형량\\s*퀴즈\\s*#\\d+\\s*·"
+    },
+    "short_description": "{description} {source_line}\n출처: {source_urls}\n\n판결 보도를 바탕으로 재구성한 영상입니다. 실제 현장 영상이 아니며, 내레이션은 AI 음성 합성(Supertonic 3 M1)입니다.\n#몇년나옴 #형량퀴즈 #판결 #shorts",
+    "pinned_comment": "여러분이 판사라면? 👇",
+    "meta_layout": "[제목]\n{title_line}\n\n[설명]\n{description_block}\n\n[고정 댓글]\n{pinned_comment}\n"
+  },
+  "formats": {
+    "short": {
+      "canvas": [
+        1080,
+        1920
+      ],
+      "fps": 30,
+      "duration_s": [
+        22,
+        40
+      ],
+      "quiz": {
+        "choices": [
+          "벌금",
+          "집행유예",
+          "실형"
+        ],
+        "ask": "몇 년 받았을까?",
+        "outro": "다음 사건도 맞혀 보세요.",
+        "answer_last": true,
+        "preanswer_choice_s": 3
+      },
+      "pipeline": "factory/short.py prepare -> factory/render.cjs -> factory/gates.py evaluate"
+    },
+    "long": {
+      "canvas": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "pipeline": "per-build scripts in production/lf_toon/<build>/ (synth.py, prepare.py, render.cjs, finalize) -> factory/longform_qa.py"
+    }
+  },
+  "facts": {
+    "min_sources": 2,
+    "publisher_from": "URL header line of the archived source",
+    "signoff": "CTO"
+  },
+  "red_lines": {
+    "topics_regex": "성폭행|강간|강제추행|미성년\\s*피해|아동\\s*피해|가정폭력|데이트폭력|스토킹",
+    "notes": "factory/gates.py redline_gate uses the same list; named public figures and cases without a verdict are excluded by CTO fact review"
+  },
+  "checklist": {
+    "source": "factory/REVIEW_CHECKLIST.md",
+    "short": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H13",
+      "H14",
+      "H16",
+      "H17",
+      "H19",
+      "H20"
+    ],
+    "long": [
+      "A1",
+      "A2",
+      "A3",
+      "B1",
+      "B2",
+      "B3",
+      "B4",
+      "B5",
+      "B6",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "D1",
+      "D2",
+      "D3",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "G1",
+      "G2",
+      "H1",
+      "H3",
+      "H4",
+      "H6",
+      "H7",
+      "H8",
+      "H9",
+      "H12",
+      "H13",
+      "H15",
+      "H16",
+      "H17",
+      "H18",
+      "H19",
+      "H20"
+    ],
+    "note": "profile lists which owner rules apply; the machine gates that implement them are factory/gates.py + factory/review_gates.py ITEMS"
+  },
+  "upload": {
+    "cadence": "하루 1개 (업로드 행위 기준, 롱폼 포함, 교체 업로드도 1개로 센다) — G1",
+    "ledger": "upload/ledger.json",
+    "precheck": "factory/upload_precheck.md",
+    "after_replace": "대체본 readback 뒤 비공개 잔존본 즉시 영구 삭제 — G2, H11",
+    "auto_upload": false
+  },
+  "review": {
+    "order": [
+      "CTO",
+      "CEO",
+      "owner"
+    ],
+    "ceo_gate": "CTO 서명 뒤 CEO 시각 검수 PASS가 있어야 원일에게 전달 (F3)"
+  }
+}

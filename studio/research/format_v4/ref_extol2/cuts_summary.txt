@@ -1,0 +1,98 @@
+{
+  "duration_s": 521.8,
+  "fps": 30.0,
+  "frames": 15654,
+  "cut_count": 96,
+  "shot_count": 97,
+  "cut_per_minute": 11.038712150249138,
+  "shot_duration_mean_s": 5.379381443298969,
+  "shot_duration_median_s": 4.333333333333333,
+  "shot_duration_quantiles_s": {
+    "p10": 1.22,
+    "p25": 2.433333333333333,
+    "p75": 7.433333333333334,
+    "p90": 9.820000000000002,
+    "max": 26.0
+  },
+  "shots_under_1s": 8,
+  "shots_over_8s": 20,
+  "transition_counts": {
+    "embedded-footage-hardcut": 1,
+    "hardcut": 90,
+    "cross-dissolve": 1,
+    "glitch": 4
+  },
+  "sections": [
+    {
+      "section": "first15",
+      "start_s": 0,
+      "end_s": 15,
+      "cut_count": 10,
+      "cuts_per_minute": 40.0,
+      "shot_start_count": 11,
+      "median_full_shot_duration_s": 0.5333333333333333
+    },
+    {
+      "section": "first60",
+      "start_s": 0,
+      "end_s": 60,
+      "cut_count": 18,
+      "cuts_per_minute": 18.0,
+      "shot_start_count": 19,
+      "median_full_shot_duration_s": 2.2
+    },
+    {
+      "section": "cold_open",
+      "start_s": 0,
+      "end_s": 129.46666666666667,
+      "cut_count": 29,
+      "cuts_per_minute": 13.439752832131823,
+      "shot_start_count": 30,
+      "median_full_shot_duration_s": 3.9333333333333336
+    },
+    {
+      "section": "01_우범곤_순경",
+      "start_s": 129.46666666666667,
+      "end_s": 230.73333333333332,
+      "cut_count": 12,
+      "cuts_per_minute": 7.109940750493747,
+      "shot_start_count": 13,
+      "median_full_shot_duration_s": 8.2
+    },
+    {
+      "section": "02_사건_당일",
+      "start_s": 230.73333333333332,
+      "end_s": 416.1,
+      "cut_count": 34,
+      "cuts_per_minute": 11.005214889408377,
+      "shot_start_count": 35,
+      "median_full_shot_duration_s": 4.1
+    },
+    {
+      "section": "03_경찰_출동",
+      "start_s": 416.1,
+      "end_s": 472.8666666666667,
+      "cut_count": 8,
+      "cuts_per_minute": 8.455666470933648,
+      "shot_start_count": 9,
+      "median_full_shot_duration_s": 5.8
+    },
+    {
+      "section": "04_범행_목적",
+      "start_s": 472.8666666666667,
+      "end_s": 521.8,
+      "cut_count": 9,
+      "cuts_per_minute": 11.035422343324262,
+      "shot_start_count": 10,
+      "median_full_shot_duration_s": 1.9666666666666666
+    }
+  ],
+  "terminal_effect": {
+    "type": "glitch_to_black",
+    "start_frame": 15637,
+    "end_frame_exclusive": 15654,
+    "duration_frames": 17,
+    "counted_as_content_cut": false
+  },
+  "method": "Same detector thresholds and dimensions as ref1. 239 union candidates + 60 isolated MAD candidates + 1 manual embedded-video cut, all reviewed. Excludes subtitles/type reveals, particles, continuous pans/pushes and mesh animation. Gradual anchors=first target-dominant frame. Ending glitch retained separately."
+}

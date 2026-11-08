@@ -1,0 +1,364 @@
+{
+  "topic": "범죄/탈옥·추적",
+  "title_formula": "기간+경찰 농락+탈옥수+체포 작전",
+  "manual_devices": {
+    "foreshadowing": [
+      {
+        "start_s": 14.26,
+        "end_s": 17.94,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      },
+      {
+        "start_s": 88.42,
+        "end_s": 94.42,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      },
+      {
+        "start_s": 239.3,
+        "end_s": 248.32,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      },
+      {
+        "start_s": 401.58,
+        "end_s": 411.52,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      }
+    ],
+    "withholding": [
+      {
+        "start_s": 23.4,
+        "end_s": 28.6,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      },
+      {
+        "start_s": 28.6,
+        "end_s": 35.16,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      },
+      {
+        "start_s": 88.42,
+        "end_s": 94.42,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      },
+      {
+        "start_s": 153.68,
+        "end_s": 164.18,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      },
+      {
+        "start_s": 239.3,
+        "end_s": 248.32,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      },
+      {
+        "start_s": 395.26,
+        "end_s": 399.24,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      },
+      {
+        "start_s": 411.9,
+        "end_s": 414.64,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      },
+      {
+        "start_s": 476.88,
+        "end_s": 485.7,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      }
+    ],
+    "quotes": [
+      {
+        "start_s": 418.3,
+        "end_s": 457.02,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      }
+    ],
+    "irony": [
+      {
+        "start_s": 244.74,
+        "end_s": 248.32,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      },
+      {
+        "start_s": 290.28,
+        "end_s": 295.96,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      },
+      {
+        "start_s": 359.84,
+        "end_s": 371.02,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      },
+      {
+        "start_s": 507.42,
+        "end_s": 521.8,
+        "description": "[omitted: third-party video description]",
+        "coding": "manual semantic annotation, timestamp to ASR clause; not independent fact verification"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "start_s": 0,
+      "end_s": 17.94,
+      "function": "cold open / 실행 직전",
+      "summary": "행동부터 시작; 배경 설명은 뒤로"
+    },
+    {
+      "start_s": 18.28,
+      "end_s": 35.16,
+      "function": "장애물과 수수께끼",
+      "summary": "환풍구 통과; 창살·체격 해법 유예"
+    },
+    {
+      "start_s": 35.48,
+      "end_s": 68.62,
+      "function": "미니 장애물 연쇄",
+      "summary": "벽→땅 파기→파이프·밧줄"
+    },
+    {
+      "start_s": 69.56,
+      "end_s": 94.42,
+      "function": "첫 보상과 확장",
+      "summary": "철조망 돌파·탈옥 성공 뒤 장기 도주 예고"
+    },
+    {
+      "start_s": 95.5,
+      "end_s": 128.04,
+      "function": "01 무기수 / 과거로 회귀",
+      "summary": "초기 범죄 이력·무기징역의 배경"
+    },
+    {
+      "start_s": 128.46,
+      "end_s": 147.1,
+      "function": "기대 뒤집기",
+      "summary": "모범수와 사전 계획 대비"
+    },
+    {
+      "start_s": 148,
+      "end_s": 164.18,
+      "function": "02 탈옥 계획 / 해법의 목록",
+      "summary": "창살 제거와 체격 축소 두 과제"
+    },
+    {
+      "start_s": 164.54,
+      "end_s": 187.76,
+      "function": "도구·소리의 인과",
+      "summary": "톱날·밑창·방송 시간"
+    },
+    {
+      "start_s": 188.16,
+      "end_s": 205.92,
+      "function": "준비 회수",
+      "summary": "체중 변화·절단·껌"
+    },
+    {
+      "start_s": 206.38,
+      "end_s": 217.78,
+      "function": "원점 합류",
+      "summary": "오프닝 시점으로 복귀"
+    },
+    {
+      "start_s": 218.5,
+      "end_s": 248.32,
+      "function": "03 도주 생활 / 추격자 등장",
+      "summary": "국가적 혼란과 형사의 집념 대비"
+    },
+    {
+      "start_s": 248.78,
+      "end_s": 290,
+      "function": "작전과 기대 상승",
+      "summary": "주소·인원·신문 구독 위장·가스총"
+    },
+    {
+      "start_s": 290.28,
+      "end_s": 329.44,
+      "function": "반전·반전·탈출",
+      "summary": "가스총 실패→위협→추격→도주"
+    },
+    {
+      "start_s": 329.74,
+      "end_s": 383.32,
+      "function": "대가·규모 확대",
+      "summary": "해임·현상금·거리·경찰 동원·임금 대비"
+    },
+    {
+      "start_s": 383.62,
+      "end_s": 399.24,
+      "function": "새 발견",
+      "summary": "수리공이 수상한 남자 발견"
+    },
+    {
+      "start_s": 400.5,
+      "end_s": 418.3,
+      "function": "04 체포 작전 / 무표정 반전",
+      "summary": "정체 노출 탐지 설명 뒤 신고"
+    },
+    {
+      "start_s": 418.3,
+      "end_s": 457.02,
+      "function": "기록 음성 삽입",
+      "summary": "전화 기록으로 음색·시간감 변경"
+    },
+    {
+      "start_s": 457.02,
+      "end_s": 485.7,
+      "function": "마지막 작전",
+      "summary": "포위·무반응·진입"
+    },
+    {
+      "start_s": 486.06,
+      "end_s": 503.24,
+      "function": "최종 보상",
+      "summary": "체포·신원 확인·장기 도주 종결"
+    },
+    {
+      "start_s": 503.56,
+      "end_s": 534.614,
+      "function": "후일담·사회적 역설",
+      "summary": "추가 형과 대중 반응, 말미 현황"
+    }
+  ],
+  "open_loops": [
+    {
+      "id": "R1",
+      "raised_s": 14.26,
+      "closed_or_reframed_s": 88.2,
+      "question": "탈옥은 어떻게 성공하는가",
+      "resolution": "후속 행동/설명에서 회수"
+    },
+    {
+      "id": "R2",
+      "raised_s": 23.4,
+      "closed_or_reframed_s": 205.92,
+      "question": "창살이 왜 쉽게 떨어졌는가",
+      "resolution": "후속 행동/설명에서 회수"
+    },
+    {
+      "id": "R3",
+      "raised_s": 28.6,
+      "closed_or_reframed_s": 199.3,
+      "question": "작은 환풍구 통과를 어떻게 준비했는가",
+      "resolution": "후속 행동/설명에서 회수"
+    },
+    {
+      "id": "R4",
+      "raised_s": 88.42,
+      "closed_or_reframed_s": 503.24,
+      "question": "장기간 도주는 어떻게 끝나는가",
+      "resolution": "후속 행동/설명에서 회수"
+    },
+    {
+      "id": "R5",
+      "raised_s": 96.86,
+      "closed_or_reframed_s": 128.04,
+      "question": "무기징역에 이른 배경은 무엇인가",
+      "resolution": "후속 행동/설명에서 회수"
+    },
+    {
+      "id": "R6",
+      "raised_s": 239.3,
+      "closed_or_reframed_s": 329.44,
+      "question": "재도전하는 형사는 이번에 잡는가",
+      "resolution": "후속 행동/설명에서 회수"
+    },
+    {
+      "id": "R7",
+      "raised_s": 395.26,
+      "closed_or_reframed_s": 418.3,
+      "question": "무표정한 수리공은 알아챘는가",
+      "resolution": "후속 행동/설명에서 회수"
+    },
+    {
+      "id": "R8",
+      "raised_s": 457.02,
+      "closed_or_reframed_s": 489.1,
+      "question": "마지막 포위 작전은 성공하는가",
+      "resolution": "후속 행동/설명에서 회수"
+    }
+  ],
+  "prior_cliffhangers": [
+    {
+      "boundary_s": 95.5,
+      "lead_start_s": 88.42,
+      "lead_end_s": 94.42,
+      "type": "규모 확대",
+      "loop": "R4",
+      "description": "[omitted: third-party video description]"
+    },
+    {
+      "boundary_s": 148,
+      "lead_start_s": 141.22,
+      "lead_end_s": 147.1,
+      "type": "해법 유예",
+      "loop": "R2/R3",
+      "description": "[omitted: third-party video description]"
+    },
+    {
+      "boundary_s": 218.5,
+      "lead_start_s": 208.94,
+      "lead_end_s": 217.78,
+      "type": "행동 중단·순환 연결",
+      "loop": "R4",
+      "description": "[omitted: third-party video description]"
+    },
+    {
+      "boundary_s": 400.5,
+      "lead_start_s": 395.26,
+      "lead_end_s": 399.24,
+      "type": "발견 직후 중단",
+      "loop": "R7",
+      "description": "[omitted: third-party video description]"
+    }
+  ],
+  "visual_notes": "3D 재연·지도·자료·장 카드의 혼합. 공간의 장애물과 인물 행동을 카메라 이동으로 연결. 원래 작업의 전수 경계 리뷰와 내용 코딩을 재사용.",
+  "thumbnail_notes": "흰 공간에서 인물 한 명과 파란/검정 경찰의 대치; 두 라벨로 역할 표시.",
+  "cold_open_15_summary": "수감 중인 인물이 새벽에 조용히 일어나 오랜 준비의 실행을 시작한다.",
+  "cold_open_60_summary": "교도소 환풍구→건물 밖→공사장→벽이라는 장애물을 순서대로 넘는다. 창살과 체격의 해법은 유예한다.",
+  "chapter_cliffhangers": [
+    {
+      "boundary_s": 94.9,
+      "cliffhanger_type_manual": "규모 확대",
+      "lead_or_question": "탈옥 성공 뒤 장기 도주라는 더 큰 질문을 남기고 회상",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 147.7,
+      "cliffhanger_type_manual": "해법 유예",
+      "lead_or_question": "창살과 체격의 두 과제 해결을 다음 장에 남김",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 218.233,
+      "cliffhanger_type_manual": "행동 중단/순환 합류",
+      "lead_or_question": "창살을 떼는 오프닝 시점에 합류하고 도주로 넘김",
+      "strict_action_interruption": true,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 399.9,
+      "cliffhanger_type_manual": "발견 직후 중단",
+      "lead_or_question": "수리공이 수상한 남자를 발견한 직후 체포 작전 카드",
+      "strict_action_interruption": true,
+      "status": "manual semantic classification; not retention evidence"
+    }
+  ]
+}

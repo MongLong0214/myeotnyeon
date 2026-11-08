@@ -1,0 +1,114 @@
+{
+  "items": [
+    {
+      "id": "C1_1",
+      "cue": "C1",
+      "text": "약 1만 1천 미터 상공을 날던 여객기에서 한 승객이 비상문 레버를 들어 올렸습니다. 몇 년 받았을까?",
+      "start": 0.0,
+      "end": 150.8575,
+      "start_sample": 0,
+      "end_sample": 241372,
+      "file": "upload/pkg/q011_n99_v5/prepared/C1_1_take2.wav"
+    },
+    {
+      "id": "C2_1",
+      "cue": "C2",
+      "text": "방콕에서 대구로 오던 비행기였고 홍콩과 대만 사이를 지나던 중이었죠.",
+      "start": 150.8575,
+      "end": 256.5175,
+      "start_sample": 241372,
+      "end_sample": 410428,
+      "file": "upload/pkg/q011_n99_v5/prepared/C2_1_take0.wav"
+    },
+    {
+      "id": "C3_1",
+      "cue": "C3",
+      "text": "실제로 문은 열리지 않았습니다.",
+      "start": 256.5175,
+      "end": 298.87125,
+      "start_sample": 410428,
+      "end_sample": 478194,
+      "file": "upload/pkg/q011_n99_v5/prepared/C3_1_take0.wav"
+    },
+    {
+      "id": "C3_2",
+      "cue": "C3",
+      "text": "이 승객은 항공보안법 위반 혐의로 재판에 넘겨졌어요.",
+      "start": 298.87125,
+      "end": 382.830625,
+      "start_sample": 478194,
+      "end_sample": 612529,
+      "file": "upload/pkg/q011_n99_v5/prepared/C3_2_take1.wav"
+    },
+    {
+      "id": "C4_1",
+      "cue": "C4",
+      "text": "벌금, 집행유예, 실형 중 무엇이었을까요?",
+      "start": 382.830625,
+      "end": 441.6475,
+      "start_sample": 612529,
+      "end_sample": 706636,
+      "file": "upload/pkg/q011_n99_v5/prepared/C4_1_take1.wav"
+    },
+    {
+      "id": "C4_2",
+      "cue": "C4",
+      "text": "판사는 먼저 죄책이 가볍지 않다고 했습니다.",
+      "start": 441.6475,
+      "end": 505.7025,
+      "start_sample": 706636,
+      "end_sample": 809124,
+      "file": "upload/pkg/q011_n99_v5/prepared/C4_2_take0.wav"
+    },
+    {
+      "id": "C4_3",
+      "cue": "C4",
+      "text": "다만 실제로 문이 열릴 가능성은 거의 없었다고 봤고요.",
+      "start": 505.7025,
+      "end": 590.260625,
+      "start_sample": 809124,
+      "end_sample": 944417,
+      "file": "upload/pkg/q011_n99_v5/prepared/C4_3_take2.wav"
+    },
+    {
+      "id": "C4_4",
+      "cue": "C4",
+      "text": "레버도 한 번 올렸을 뿐 계속 열려고 하진 않았죠.",
+      "start": 590.260625,
+      "end": 660.301875,
+      "start_sample": 944417,
+      "end_sample": 1056483,
+      "file": "upload/pkg/q011_n99_v5/prepared/C4_4_take0.wav"
+    },
+    {
+      "id": "C5_1",
+      "cue": "C5",
+      "text": "정답은 징역 4개월에 집행유예 2년입니다.",
+      "start": 660.301875,
+      "end": 730.6425,
+      "start_sample": 1056483,
+      "end_sample": 1169028,
+      "file": "upload/pkg/q011_n99_v5/prepared/C5_1_take0.wav"
+    },
+    {
+      "id": "C5_2",
+      "cue": "C5",
+      "text": "사회봉사 80시간도 함께 명령했어요.",
+      "start": 730.6425,
+      "end": 790.0575,
+      "start_sample": 1169028,
+      "end_sample": 1264092,
+      "file": "upload/pkg/q011_n99_v5/prepared/C5_2_take0.wav"
+    },
+    {
+      "id": "C6_1",
+      "cue": "C6",
+      "text": "다음 사건도 맞혀 보세요.",
+      "start": 790.0575,
+      "end": 820.738125,
+      "start_sample": 1264092,
+      "end_sample": 1313181,
+      "file": "upload/pkg/q011_n99_v5/prepared/C6_1_take0.wav"
+    }
+  ]
+}

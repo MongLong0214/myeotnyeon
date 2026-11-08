@@ -1,0 +1,5 @@
+boundary_s,cliffhanger_type_manual,lead_or_question,strict_action_interruption,status
+94.9,규모 확대,탈옥 성공 뒤 장기 도주라는 더 큰 질문을 남기고 회상,False,manual semantic classification; not retention evidence
+147.7,해법 유예,창살과 체격의 두 과제 해결을 다음 장에 남김,False,manual semantic classification; not retention evidence
+218.233,행동 중단/순환 합류,창살을 떼는 오프닝 시점에 합류하고 도주로 넘김,True,manual semantic classification; not retention evidence
+399.9,발견 직후 중단,수리공이 수상한 남자를 발견한 직후 체포 작전 카드,True,manual semantic classification; not retention evidence

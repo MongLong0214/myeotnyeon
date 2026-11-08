@@ -1,0 +1,71 @@
+[
+  {
+    "name": "v3_q003",
+    "frames": 31,
+    "changed_frames": [
+      871,
+      872,
+      873,
+      874,
+      875,
+      876,
+      877,
+      878
+    ],
+    "all_other_rendered_frames_pixel_identical": true
+  },
+  {
+    "name": "v52_q012",
+    "frames": 36,
+    "changed_frames": [
+      917,
+      918,
+      919,
+      920,
+      921
+    ],
+    "all_other_rendered_frames_pixel_identical": true
+  },
+  {
+    "name": "v52_q015",
+    "frames": 32,
+    "changed_frames": [
+      659
+    ],
+    "all_other_rendered_frames_pixel_identical": true
+  },
+  {
+    "name": "v52_q016",
+    "frames": 35,
+    "changed_frames": [
+      841,
+      842,
+      843,
+      844
+    ],
+    "all_other_rendered_frames_pixel_identical": true
+  },
+  {
+    "name": "v52_q017",
+    "frames": 35,
+    "changed_frames": [
+      623,
+      624,
+      625,
+      626
+    ],
+    "all_other_rendered_frames_pixel_identical": true
+  },
+  {
+    "name": "aligned_control_q012",
+    "frames": 31,
+    "changed_frames": [],
+    "all_other_rendered_frames_pixel_identical": true
+  },
+  {
+    "name": "aligned_control_q017",
+    "frames": 31,
+    "changed_frames": [],
+    "all_other_rendered_frames_pixel_identical": true
+  }
+]

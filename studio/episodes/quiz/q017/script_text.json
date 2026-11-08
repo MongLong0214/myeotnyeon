@@ -1,0 +1,233 @@
+{
+ "episode_id": "q017",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 아파트 살인 등 재판",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "아파트에서 이웃을 일본도로 살해한 사건입니다."
+   ],
+   "claim_ids": [
+    "F01"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#DCE3E6",
+    "tags": [
+     {
+      "text": "아파트 이웃 주민",
+      "x": 480,
+      "y": 100,
+      "at": 2,
+      "color": "#2D3F73"
+     }
+    ],
+    "stamps": [
+     {
+      "lines": [
+       "일본도 살인 사건"
+      ],
+      "x": 480,
+      "y": 350,
+      "at": 28,
+      "size": 90,
+      "maxW": 620,
+      "color": "#141414",
+      "rot": 0
+     }
+    ],
+    "punch": [
+     56,
+     88
+    ]
+   }
+  },
+  {
+   "cue_id": "C2",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "피고인은 심신미약을 이유로 형을 줄여 달라고 주장했죠."
+   ],
+   "claim_ids": [
+    "F02"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "paper",
+    "paper": "#DCE3E6",
+    "tags": [
+     {
+      "text": "피고인 측 주장",
+      "x": 480,
+      "y": 100,
+      "at": 2,
+      "color": "#2D3F73"
+     }
+    ],
+    "stamps": [
+     {
+      "lines": [
+       "심신미약",
+       "감형 요청"
+      ],
+      "x": 480,
+      "y": 320,
+      "at": 22,
+      "size": 100,
+      "maxW": 600,
+      "color": "#141414",
+      "rot": 0
+     }
+    ],
+    "punch": [
+     52,
+     84
+    ]
+   }
+  },
+  {
+   "cue_id": "C3",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "반대로 검찰은 1심과 2심 모두 사형을 구형했습니다."
+   ],
+   "claim_ids": [
+    "F03"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "bigtext",
+    "big": "사형",
+    "bigSub": "1심·2심 사형 구형",
+    "bigAt": -6,
+    "bigBg": "#22242C",
+    "punch": [
+     30,
+     64,
+     98
+    ]
+   }
+  },
+  {
+   "cue_id": "C4",
+   "act": "weigh",
+   "block_name": "weigh",
+   "narration": [
+    "벌금, 집행유예, 실형 중 무엇이었을까요?",
+    "2심은 심신미약을 인정했죠.",
+    "그래도 형을 줄일 사유는 아니라고 봤죠.",
+    "범행이 중대하고 재범 위험도 있다고 판단했습니다."
+   ],
+   "claim_ids": [
+    "F04",
+    "F05"
+   ],
+   "pad_s": 1.6,
+   "note": "",
+   "p": {
+    "cards": [
+     {
+      "tag": "2심 판단",
+      "text": "심신미약 인정",
+      "tone": "info"
+     },
+     {
+      "tag": "2심 판단",
+      "text": "형을 줄일 사유는 아님",
+      "tone": "info"
+     },
+     {
+      "tag": "불리한 사정",
+      "text": "범행 중대성 · 재범 위험",
+      "tone": "bad"
+     }
+    ],
+    "faces": [
+     "serious",
+     "serious",
+     "serious",
+     "serious"
+    ],
+    "punch": [
+     34,
+     "e1-12",
+     "s2+30",
+     "s3+30",
+     "s4+30",
+     "s4+62",
+     "e4+18"
+    ]
+   }
+  },
+  {
+   "cue_id": "C5",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "정답은 실형. 1심과 2심 모두 무기징역.",
+    "대법원에서 그대로 확정됐습니다."
+   ],
+   "claim_ids": [
+    "F06",
+    "F07"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "lines": [
+     "무기징역",
+     "1심 · 2심 동일"
+    ],
+    "steps": [
+     {
+      "s": 2,
+      "lines": [
+       "무기징역 확정",
+       "대법원 상고 기각"
+      ]
+     }
+    ],
+    "tags": [
+     {
+      "text": "살인 · 모욕 · 도검법 위반 포함",
+      "x": 600,
+      "y": 450,
+      "at": 18,
+      "size": 28
+     }
+    ],
+    "punch": [
+     34,
+     "s2+28"
+    ]
+   }
+  },
+  {
+   "cue_id": "C6",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 0.5,
+   "note": "",
+   "p": {
+    "staged": true,
+    "logoAt": 14,
+    "punch": [
+     30
+    ]
+   }
+  }
+ ]
+}

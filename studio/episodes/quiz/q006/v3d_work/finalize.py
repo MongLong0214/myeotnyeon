@@ -1,0 +1,79 @@
+from pathlib import Path
+import json,re,sys,hashlib,datetime,subprocess
+W=Path.cwd();Q=W/'episodes/quiz/q006';P=Q/'v3d_work';V=W/'upload/v3d_q006.mp4'
+sys.path.insert(0,str(W/'episodes/quiz/out/v3'));import qa,tempo,textgate
+# The existing qa.py is invoked as functions so its fixed v3 output paths are
+# never written. Keep the original engines and thresholds, with the new input.
+standard=json.loads((P/'qa_pipeline.json').read_text())
+(P/'qa_pipeline.json').write_text(json.dumps(standard,ensure_ascii=False,indent=2))
+# Keep the original engine; include all fixed TYPE 02 labels and rendered captions too.
+strict_input=json.loads((P/'strict_frames.json').read_text())
+ep=textgate.EPISODES['q006'];lab=textgate.labels(ep);nar=textgate.narration(ep)
+actual=sorted({t for row in strict_input for t in row['texts']})
+extra=[t for t in actual if t not in lab and t not in nar]
+original_labels=textgate.labels
+textgate.labels=lambda ep: original_labels(ep)+extra
+(P/'textgate_full_display.txt').write_text('\n'.join(lab+extra+nar))
+tg=textgate.gate('q006');(Q/'textgate_v3d.json').write_text(json.dumps(tg,ensure_ascii=False,indent=2))
+tm,events=tempo.check('q006');(Q/'tempo_v3d.json').write_text(json.dumps(dict(result=tm,events=events),ensure_ascii=False,indent=2))
+base=json.loads((Q/'qa_v3b.json').read_text());doc=json.loads((W/'production/compositor/public/q006/render.json').read_text());identity=json.loads((P/'default_identity.json').read_text());strict=json.loads((P/'strict_frames.json').read_text());asr=json.loads((Q/'asr_final_v3d.json').read_text());audio=json.loads((P/'audio_compare.json').read_text());protection=json.loads((P/'protection_after.json').read_text());shots=json.loads((P/'sheet_frames.json').read_text());before=json.loads((P/'compositions_before.json').read_text());after=json.loads((P/'compositions_after.json').read_text())
+audit=(Q/'audit_v3d/q006.txt').read_text().splitlines();audit_frames={int(re.search(r'f=(\d+)',x)[1]) for x in audit};audit_bad=sum(not x.endswith(' n=0 END') for x in audit)
+clip_bad=[x['frame'] for x in strict if x['bad']];sync_bad=[x['frame'] for x in strict if not x['sync']]
+# SRT and the rendered captions share the existing 30 fps schedule.
+srt=(Q/'subtitles.ko.srt').read_text();blocks=srt.strip().split('\n\n');srt_bad=[];max_ms=0
+for b,s in zip(blocks,doc['subtitles']):
+ lines=b.splitlines();times=lines[1].split(' --> ')
+ def ms(t):
+  h,m,rest=t.split(':');secs,millis=rest.split(',');return (int(h)*3600+int(m)*60+int(secs))*1000+int(millis)
+ delta=max(abs(ms(times[0])-s['from_']/30*1000),abs(ms(times[1])-s['to']/30*1000));max_ms=max(max_ms,delta)
+ if '\n'.join(lines[2:])!=s['text'] or delta>.5:srt_bad.append(s['from_'])
+assert len(blocks)==len(doc['subtitles'])
+# Answer-bearing text may begin at the unchanged first answer caption (767).
+spoilers=[x['frame'] for x in strict if x['frame']<767 and any(re.search(r'정답:|징역 10|집유 2|집행유예 2|폭행치사 무죄|폭행죄 인정',t) for t in x['texts'])]
+# Same archived primary reporting as v3b; no network and no wording changes.
+source_checks=[('research/raw2/V2-02_2.txt','징역 10개월에 집행유예 2년'),('research/raw2/V2-02_2.txt','40대 동대표'),('research/raw2/V2-02_2.txt','50대 B씨'),('research/raw2/V2-02_2.txt','급성심장사'),('research/raw2/V2-02_2.txt','폭행치사 무죄'),('research/raw2/V2-02_2.txt','피해자가 먼저 피고인의 얼굴'),('research/raw2/V2-02_2.txt','우발적으로 발생'),('research/raw2/V2-02_1.txt','엄벌')]
+source_evidence=[dict(file=p,phrase=t,found=t in (W/p).read_text()) for p,t in source_checks];numbers_ok=all(x['found'] for x in source_evidence)
+mlog=(Q/'motion_black_v3d.log').read_text();freeze_starts=re.findall(r'freeze_start: ([\d.]+)',mlog);black_starts=re.findall(r'black_start:([\d.]+)',mlog)
+hash_=hashlib.sha256(V.read_bytes()).hexdigest();manifest=W/'upload/v3d.sha256'
+assert not manifest.exists();manifest.write_text(hash_+'  v3d_q006.mp4\n')
+probe=standard['probe'];loud=standard['loudness'];fb=standard['freeze_black'];secs=doc['durationInFrames']/30
+passfail=lambda v:'PASS' if v else 'FAIL'
+gates=dict(duration_22_40=passfail(22<=secs<=40),duration_25_40=passfail(25<=secs<=40),choices_at_most_1p8_seconds='PASS',reason_cards_2_or_3='PASS',reveal_at_least_75_percent=passfail(tm['reveal_ok']),visual_change_every_1p5_seconds=passfail(not freeze_starts),tempo_metadata='N/A',safe_area_audit=passfail(audit_frames==set(range(998)) and audit_bad==0),text_clipping_and_frame_overflow=passfail(not clip_bad and len(strict)==998),phone_sheet_visual_review='PASS',loudness=passfail(loud['pass_']),no_freeze_over_2p5_seconds=passfail(fb['pass_']),no_black_frames=passfail(not black_starts),format=passfail(probe['pass']),asr_normalized_0p99=passfail(asr['passed']),numbers_match_existing_source_data=passfail(numbers_ok),spelling=passfail(standard['spelling']['pass_']),accuracy=passfail(standard['accuracy']['pass_']),textgate=passfail(tg['passed']),subtitle_sync=passfail(not sync_bad and not srt_bad),no_spoiler_before_reveal=passfail(not spoilers),death_case_no_music='PASS',narration_audio_unchanged=passfail(audio['identical_pcm']),original_v3_other_episodes_facts_unchanged=passfail(set(protection['changed'])=={'episodes/quiz/episodes.py','production/compositor/public/q006/render.json'}),existing_compositions_still_list=passfail(before==after),default_props_byte_identity=passfail(all(x['match'] for x in identity)),typecheck='PASS')
+r=dict(episode='q006',quizStyle='premium',typeStyle='type2',checked_at=datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=9))).isoformat(),passed=all(x in ('PASS','N/A') for x in gates.values()),gates=gates,output=str(V),duration_seconds=secs,container_duration_seconds=probe['duration'],frames=998,timing=base['timing'],loudness=dict(integrated_lufs=loud['integrated_lufs'],true_peak_dbtp=loud['true_peak_dbtp'],measured_on='delivered AAC',evidence='loudness_v3d.log'),video={k:probe[k] for k in ['width','height','fps','color_space','color_transfer','color_primaries','pix_fmt']},safe_area=dict(audit_command='TMPDIR="$W/episodes/quiz/q006/v3d_work/tmp" node episodes/quiz/q006/v3d_work/render.cjs audit',audited_frames=len(audit_frames),bad=audit_bad,zones=dict(left=110,right=970,top=190,bottom=1540,railX=880,railY=900),evidence='audit_v3d/q006.txt',strict_fonts_ready_frames=len(strict),clipped_or_unsafe_frames=clip_bad,strict_evidence='v3d_work/strict_frames.json'),phone_review=dict(file='phone_sheet_v3d.png',frames=len(shots['phone']),checked_by_eye=True,notes='26 frames at all subtitle starts and cue ends; essential text stays clear of the exact v3b phone masks. Existing incident artwork is preserved.'),frame_sheet=dict(file=str(W/'research/format_v4/type_v2/q006_v3d_sheet.jpg'),frames=len(shots['contact']),frame_numbers=shots['contact'],first_seconds=shots['contact'][0]/30,last_seconds=shots['contact'][-1]/30,checked_by_eye=True),motion=dict(freeze_threshold_db=-50,freeze_events_over_2p5s=fb['freezes_over_2_5s'],freeze_events_over_1p5s=bool(freeze_starts),black_events=black_starts,evidence='motion_black_v3d.log',h3='Same v3b decoded-video detector at -50 dB and d=1.5 s: no detected hold. Type 02 surface texture updates every 3 frames; this is not evidence of semantic scene changes.'),tempo=dict(tm,evidence='tempo_v3d.json',note='Unmodified tempo.py returns FAIL on the unchanged q006 render data. It does not model premium cardAt, legalAfter, or background animation. The archived v3b PASS is not reproducible with this metadata engine; no timing was changed to silence it.'),asr={k:asr[k] for k in ['match','errors','characters','initial_prompt','normalization']},numbers=dict(source=base['numbers']['source'],verified=base['numbers']['verified'],facts_files_modified=0,evidence=source_evidence),textgate=dict(counts=tg['counts'],engine_label_counts=tg['counts'],evidence='textgate_v3d.json',note='Current unchanged textgate.py flags the existing display text 우발적 범행 as F-5=1. Archived textgate_v3b.json says F-5=0. Same input was preserved; no exemption or factual rewrite was introduced.'),subtitle_sync=dict(frames_checked=998,bad_frames=sync_bad,subtitles=19,srt_bad=srt_bad,srt_max_rounding_error_ms=max_ms,audio_identical_to_v3b=audio['identical_pcm'],evidence=['v3d_work/strict_frames.json','v3d_work/audio_compare.json'],method='Wait for loaded fonts, compare actual DOM caption text and its from-frame to the original subtitle schedule on every frame; compare SRT schedule and decoded delivered audio.'),sound=base['sound'],spoiler_review=dict(header_trigger_frame=769,earliest_answer_audio_caption_frame=767,early_answer_frames=spoilers,checked_by_eye=True),compatibility=dict(default_renderer_preserved=all(x['match'] for x in identity),default_stills=identity,compositions_before=len(before),compositions_after=len(after),composition_metadata_identical=before==after,original_upload_files_changed=0,public_render_data_and_audio_changed=0),protection=protection,files_implemented=['production/compositor/src/Root.tsx','production/compositor/src/Quiz.tsx','production/compositor/src/type2/QuizType2.tsx'],uploads=0,sha256=hash_,checksum_manifest=str(manifest),scope_notes=['Type 02 fonts, paper choices and serif record/verdict layout were adapted to the exact v3b phone zones. Script, narration, timing, facts and display wording were preserved.','A/B/C labels remain A/B/C; fixed review-still wording was not copied into the live episode. Existing incident labels/artwork and outro remain as before.','Strict range-box overlap candidates occurred on 170 frames only between the existing two stamp lines 피해자 사망 / 사인: 급성심장사. Inspection of the delivered frame 312 confirms separated ink glyphs; no UI-zone or clipping violation.','QA is not marked all-pass: current textgate and raw metadata tempo results disagree with archived v3b PASS records.'],fonts=dict(header_choices_verdict='Do Hyeon',subtitle='Pretendard 600',reason_legal='Nanum Myeongjo',ask='Song Myung',source_and_small_labels='Nanum Gothic Coding',location='production/compositor/public/fonts',network=False),unfinished=[])
+# v3d policy and comparison evidence, applied before the new QA record is written.
+r['timing']=json.loads((Q/'qa_v3c.json').read_text())['timing']
+r['tempo_metadata_raw']=dict(result=tm,events=events,verdict=passfail(tm['tempo_ok']),applicable=False,evidence='tempo_v3d.json',reason='CTO decision: tempo.py reads metadata only and does not model premium cardAt, legalAfter or animation. For quizStyle=premium, the decoded-frame visual_change_every_1p5_seconds gate is authoritative. Timing is unchanged.',authoritative_gate='visual_change_every_1p5_seconds')
+r['tempo']['note']=r['tempo_metadata_raw']['reason']
+r['textgate'].update(note='Unmodified textgate.py on the full display corpus: episode labels, all card texts, actual TYPE 02 fixed labels, rendered captions and narration. No exemptions.',full_display_evidence='v3d_work/textgate_full_display.txt',n_labels=tg['n_labels'],n_sentences=tg['n_sentences'])
+r['numbers']['verified']=[x.replace('우발적 범행','우발적이었음') for x in r['numbers']['verified']]
+r['numbers']['wording_decision']='CTO-approved card edit retains the reported court finding 우발적으로 발생; no narration, subtitle, audio, timing or other factual text changed.'
+r['subtitle_sync'].pop('audio_identical_to_v3b',None)
+r['subtitle_sync']['audio_identical_to_v3c']=audio['identical_pcm']
+r['audio_identity']=dict(audio,reference=str(W/'upload/v3c_q006.mp4'),evidence='v3d_work/audio_compare.json')
+r['gates']['narration_audio_unchanged']=passfail(audio['identical_pcm'] and audio['identical_aac_bytes'])
+frames=json.loads((P/'frame_compare.json').read_text())
+r['frame_identity']=dict(reference=str(W/'upload/v3c_q006.mp4'),frames_compared=frames['frames_compared'],identical_frames=frames['identical_frames'],different_frame_numbers=[x['frame'] for x in frames['different_frames']],card_interval_inclusive=frames['card_interval_inclusive'],outside_card_differences=frames['outside_card_differences'],only_card_frames_differ=frames['only_card_frames_differ'],evidence='v3d_work/frame_compare.json')
+r['gates']['delivered_video_only_target_card_frames_differ']=passfail(frames['only_card_frames_differ'])
+source_frames=json.loads((P/'source_frame_compare.json').read_text())
+r['source_frame_identity']=dict(source_frames,evidence='v3d_work/source_frame_compare.json',sample_spatial_difference_boxes=json.loads((P/'source_spatial_compare.json').read_text()),spatial_evidence='v3d_work/source_spatial_compare.json')
+r['gates']['lossless_source_only_target_card_frames_changed']=passfail(source_frames['only_card_frames_differ'])
+r['frame_identity']['note']='H.264 CRF 14 interframe encoding uses lookahead and reference pictures. Decoded delivery pixels differ outside the card interval; this exact-pixel requirement is not marked PASS. Lossless source comparison separately establishes the content change scope.'
+r['compatibility']['composition_comparison']=json.loads((P/'composition_comparison.json').read_text())
+r['compatibility']['composition_metadata_identical']=False
+r['compatibility']['composition_metadata_identical_except_card']=r['compatibility']['composition_comparison']['metadata_equal_except_authorized_card']
+r['compatibility']['public_render_data_and_audio_changed']=1
+r['compatibility']['public_render_data_change']='Only /cues/4/p/cards/2/text; audio and timing data byte-identical.'
+r['files_implemented']=['episodes/quiz/episodes.py','production/compositor/public/q006/render.json']
+r['scope_notes']=['Only q006 reason card 우발적 범행 → 우발적이었음; original script, narration, subtitles, audio, timing and design otherwise unchanged.','Render and QA engines/settings reused from v3c. Metadata tempo is not applicable to premium per CTO decision; raw result retained.','Pre-existing uploads protected by before/after SHA-256 comparison. No network or uploads used.','Existing stamp range boxes overlap on some frames; delivered ink glyphs remain separated, as in the unchanged v3c layout.']
+r['pipeline']=dict(based_on='episodes/quiz/q006/v3c_work',renderer='episodes/quiz/q006/v3d_work/render.cjs',composition='Q006',inputProps=dict(quizStyle='premium',typeStyle='type2'),codec='h264',crf=14,pixelFormat='yuv420p',colorSpace='bt709',audioBitrate='320k',concurrency=6,renderer_same_except_artifact_paths=(P/'render.cjs').read_text()==(Q/'v3c_work/render.cjs').read_text().replace('v3c','v3d'),qa_engines=['episodes/quiz/out/v3/qa.py','episodes/quiz/out/v3/textgate.py','episodes/quiz/out/v3/tempo.py'],network=False)
+r['frame_identity']['outside_card_different_frames']=len(frames['outside_card_differences'])
+r['frame_identity']['outside_card_max_absolute_pixel_error']=max((x['max_error'] for x in frames['outside_card_differences']),default=0)
+r['frame_identity']['outside_card_max_frame_mean_absolute_error']=max((x['mean_absolute_error'] for x in frames['outside_card_differences']),default=0)
+r['preview']=dict(file=str(W/'upload/preview/v3d_q006_preview.mp4'),width=720,height=1280,evidence='v3d_work/preview_probe.json')
+r['v3c_pipeline_passed']=all(v in ('PASS','N/A') for k,v in r['gates'].items() if k not in ('delivered_video_only_target_card_frames_differ','lossless_source_only_target_card_frames_changed'))
+r['passed']=all(v in ('PASS','N/A') for v in r['gates'].values())
+r['unfinished']=[] if r['passed'] else [k for k,v in r['gates'].items() if v not in ('PASS','N/A')]
+r['unfinished_details']=[] if frames['only_card_frames_differ'] else ['The reused H.264 CRF 14 pipeline produces decoded pixel differences on 265 frames outside the authorized card interval (669–699 and 764–997). These are not waived. Lossless source frame equality is checked separately. No encoding, timing or design changes were made to force the comparison to pass.']
+r['asr']['evidence']='asr_final_v3d.json'
+(Q/'qa_v3d.json').write_text(json.dumps(r,ensure_ascii=False,indent=2))
+print(json.dumps(dict(sha256=hash_,duration=secs,passed=r['passed'],failed=r['unfinished']),ensure_ascii=False,indent=2))

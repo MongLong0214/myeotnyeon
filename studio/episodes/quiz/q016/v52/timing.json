@@ -1,0 +1,238 @@
+{
+ "items": [
+  {
+   "id": "C1_1",
+   "cue": "C1",
+   "act": "incident",
+   "start": 0.0,
+   "end": 85.755625,
+   "file": "episodes/quiz/q016/v52/hook_master.wav",
+   "text": "도심 역주행 사고로 9명이 숨졌습니다. 몇 년 받았을까?",
+   "start_sample": 0,
+   "end_sample": 137209
+  },
+  {
+   "id": "C2_1",
+   "cue": "C2",
+   "act": "incident",
+   "start": 85.755625,
+   "end": 176.4875,
+   "file": "episodes/quiz/q016/audio/na/C2_1.wav",
+   "text": "운전자는 급발진을 주장했지만 법원은 받아들이지 않았죠.",
+   "start_sample": 137209,
+   "end_sample": 282380
+  },
+  {
+   "id": "C2_2",
+   "cue": "C2",
+   "act": "incident",
+   "start": 176.4875,
+   "end": 239.09,
+   "file": "episodes/quiz/q016/audio/na/C2_2.wav",
+   "text": "급발진에서 나타날 신호는 없다고 봤습니다.",
+   "start_sample": 282380,
+   "end_sample": 382544
+  },
+  {
+   "id": "C3_1",
+   "cue": "C3",
+   "act": "incident",
+   "start": 239.09,
+   "end": 332.756875,
+   "file": "episodes/quiz/q016/audio/na/C3_1.wav",
+   "text": "1심과 2심은 여러 피해를 어떻게 처벌할지 달리 봤습니다.",
+   "start_sample": 382544,
+   "end_sample": 532411
+  },
+  {
+   "id": "C3_2",
+   "cue": "C3",
+   "act": "incident",
+   "start": 332.756875,
+   "end": 432.9125,
+   "file": "episodes/quiz/q016/audio/na/C3_2.wav",
+   "text": "1심은 인도와 차량 충돌 사고를 각각 별개의 행위로 봤죠.",
+   "start_sample": 532411,
+   "end_sample": 692660
+  },
+  {
+   "id": "C4_1",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 432.9125,
+   "end": 492.694375,
+   "file": "episodes/quiz/q016/audio/na/C4_1.wav",
+   "text": "벌금, 집행유예, 실형 중 무엇이었을까요?",
+   "start_sample": 692660,
+   "end_sample": 788311
+  },
+  {
+   "id": "C4_2",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 492.694375,
+   "end": 543.734375,
+   "file": "episodes/quiz/q016/audio/na/C4_2.wav",
+   "text": "2심은 하나의 운전행위로 봤습니다.",
+   "start_sample": 788311,
+   "end_sample": 869975
+  },
+  {
+   "id": "C4_3",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 543.734375,
+   "end": 611.676875,
+   "file": "episodes/quiz/q016/audio/na/C4_3.wav",
+   "text": "한 번의 운전으로 여러 죄가 성립한 경우였죠.",
+   "start_sample": 869975,
+   "end_sample": 978683
+  },
+  {
+   "id": "C4_4",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 611.676875,
+   "end": 676.31125,
+   "file": "episodes/quiz/q016/audio/na/C4_4.wav",
+   "text": "가장 무거운 죄에 정해진 형으로 처벌합니다.",
+   "start_sample": 978683,
+   "end_sample": 1082098
+  },
+  {
+   "id": "C5_1",
+   "cue": "C5",
+   "act": "reveal",
+   "start": 676.31125,
+   "end": 778.490625,
+   "file": "episodes/quiz/q016/audio/na/C5_1.wav",
+   "text": "실형. 금고 7년 6개월에서 5년으로 줄어 확정됐습니다.",
+   "start_sample": 1082098,
+   "end_sample": 1245585
+  },
+  {
+   "id": "C5_2",
+   "cue": "C5",
+   "act": "reveal",
+   "start": 778.490625,
+   "end": 844.57875,
+   "file": "episodes/quiz/q016/audio/na/C5_2.wav",
+   "text": "금고는 징역과 달리 노역 의무가 없습니다.",
+   "start_sample": 1245585,
+   "end_sample": 1351326
+  },
+  {
+   "id": "C6_1",
+   "cue": "C6",
+   "act": "outro",
+   "start": 844.57875,
+   "end": 882.245625,
+   "file": "episodes/quiz/q016/audio/na/C6_1.wav",
+   "text": "다음 사건도 맞혀 보세요.",
+   "start_sample": 1351326,
+   "end_sample": 1411593
+  }
+ ],
+ "knots": [
+  [
+   0,
+   0.0
+  ],
+  [
+   95,
+   85.755625
+  ],
+  [
+   104,
+   85.755625
+  ],
+  [
+   195,
+   176.4875
+  ],
+  [
+   200,
+   176.4875
+  ],
+  [
+   263,
+   239.09
+  ],
+  [
+   272,
+   239.09
+  ],
+  [
+   366,
+   332.756875
+  ],
+  [
+   371,
+   332.756875
+  ],
+  [
+   471,
+   432.9125
+  ],
+  [
+   489,
+   432.9125
+  ],
+  [
+   549,
+   492.694375
+  ],
+  [
+   554,
+   492.694375
+  ],
+  [
+   605,
+   543.734375
+  ],
+  [
+   610,
+   543.734375
+  ],
+  [
+   678,
+   611.676875
+  ],
+  [
+   683,
+   611.676875
+  ],
+  [
+   748,
+   676.31125
+  ],
+  [
+   769,
+   676.31125
+  ],
+  [
+   871,
+   778.490625
+  ],
+  [
+   876,
+   778.490625
+  ],
+  [
+   942,
+   844.57875
+  ],
+  [
+   951,
+   844.57875
+  ],
+  [
+   989,
+   882.245625
+  ],
+  [
+   1004,
+   890
+  ]
+ ]
+}

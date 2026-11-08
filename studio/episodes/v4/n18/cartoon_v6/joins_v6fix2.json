@@ -1,0 +1,401 @@
+[
+  {
+    "kind": "current join",
+    "id": "H007",
+    "before_frame": 491,
+    "after_frame": 491
+  },
+  {
+    "kind": "current join",
+    "id": "H008",
+    "before_frame": 542,
+    "after_frame": 542
+  },
+  {
+    "kind": "current join",
+    "id": "H028",
+    "before_frame": 1847,
+    "after_frame": 1847
+  },
+  {
+    "kind": "current join",
+    "id": "H029",
+    "before_frame": 1896,
+    "after_frame": 1896
+  },
+  {
+    "kind": "current join",
+    "id": "H030",
+    "before_frame": 1950,
+    "after_frame": 1950
+  },
+  {
+    "kind": "current join",
+    "id": "H031B",
+    "before_frame": 2125,
+    "after_frame": 2125
+  },
+  {
+    "kind": "current join",
+    "id": "H033",
+    "before_frame": 2293,
+    "after_frame": 2293
+  },
+  {
+    "kind": "current join",
+    "id": "H035",
+    "before_frame": 2383,
+    "after_frame": 2383
+  },
+  {
+    "kind": "current join",
+    "id": "H036",
+    "before_frame": 2412,
+    "after_frame": 2412
+  },
+  {
+    "kind": "current join",
+    "id": "H037",
+    "before_frame": 2488,
+    "after_frame": 2488
+  },
+  {
+    "kind": "current join",
+    "id": "H039",
+    "before_frame": 2655,
+    "after_frame": 2655
+  },
+  {
+    "kind": "current join",
+    "id": "H040",
+    "before_frame": 2822,
+    "after_frame": 2822
+  },
+  {
+    "kind": "current join",
+    "id": "H044",
+    "before_frame": 3117,
+    "after_frame": 3117
+  },
+  {
+    "kind": "current join",
+    "id": "H046",
+    "before_frame": 3276,
+    "after_frame": 3276
+  },
+  {
+    "kind": "current join",
+    "id": "H047",
+    "before_frame": 3389,
+    "after_frame": 3389
+  },
+  {
+    "kind": "current join",
+    "id": "H050",
+    "before_frame": 3584,
+    "after_frame": 3584
+  },
+  {
+    "kind": "current join",
+    "id": "H062",
+    "before_frame": 4628,
+    "after_frame": 4628
+  },
+  {
+    "kind": "current join",
+    "id": "M001",
+    "before_frame": 4808,
+    "after_frame": 4808
+  },
+  {
+    "kind": "current join",
+    "id": "M002",
+    "before_frame": 4999,
+    "after_frame": 4937
+  },
+  {
+    "kind": "current join",
+    "id": "M003",
+    "before_frame": 6579,
+    "after_frame": 5071
+  },
+  {
+    "kind": "current join",
+    "id": "M003a",
+    "before_frame": 6743,
+    "after_frame": 5235
+  },
+  {
+    "kind": "current join",
+    "id": "M004",
+    "before_frame": 6909,
+    "after_frame": 5361
+  },
+  {
+    "kind": "current join",
+    "id": "M005",
+    "before_frame": 5178,
+    "after_frame": 5541
+  },
+  {
+    "kind": "current join",
+    "id": "M006",
+    "before_frame": 5361,
+    "after_frame": 5659
+  },
+  {
+    "kind": "current join",
+    "id": "M007",
+    "before_frame": 5687,
+    "after_frame": 5822
+  },
+  {
+    "kind": "current join",
+    "id": "M008",
+    "before_frame": 5970,
+    "after_frame": 5986
+  },
+  {
+    "kind": "current join",
+    "id": "M009",
+    "before_frame": 6278,
+    "after_frame": 6146
+  },
+  {
+    "kind": "current join",
+    "id": "M010",
+    "before_frame": 7199,
+    "after_frame": 6267
+  },
+  {
+    "kind": "current join",
+    "id": "M010B",
+    "before_frame": 7199,
+    "after_frame": 6414
+  },
+  {
+    "kind": "current join",
+    "id": "M011",
+    "before_frame": 8141,
+    "after_frame": 6541
+  },
+  {
+    "kind": "current join",
+    "id": "M011B",
+    "before_frame": 8141,
+    "after_frame": 6683
+  },
+  {
+    "kind": "current join",
+    "id": "M012",
+    "before_frame": 8461,
+    "after_frame": 6755
+  },
+  {
+    "kind": "current join",
+    "id": "M013",
+    "before_frame": 8764,
+    "after_frame": 6957
+  },
+  {
+    "kind": "current join",
+    "id": "M014",
+    "before_frame": 9085,
+    "after_frame": 7129
+  },
+  {
+    "kind": "current join",
+    "id": "M014B",
+    "before_frame": 9085,
+    "after_frame": 7243
+  },
+  {
+    "kind": "current join",
+    "id": "M015",
+    "before_frame": 9256,
+    "after_frame": 7352
+  },
+  {
+    "kind": "current join",
+    "id": "H120",
+    "before_frame": 9423,
+    "after_frame": 7521
+  },
+  {
+    "kind": "current join",
+    "id": "H123",
+    "before_frame": 9595,
+    "after_frame": 7693
+  },
+  {
+    "kind": "current join",
+    "id": "H124",
+    "before_frame": 9784,
+    "after_frame": 7882
+  },
+  {
+    "kind": "current join",
+    "id": "H126",
+    "before_frame": 9947,
+    "after_frame": 8045
+  },
+  {
+    "kind": "current join",
+    "id": "H127",
+    "before_frame": 10085,
+    "after_frame": 8183
+  },
+  {
+    "kind": "current join",
+    "id": "H135",
+    "before_frame": 10436,
+    "after_frame": 8534
+  },
+  {
+    "kind": "current join",
+    "id": "H137",
+    "before_frame": 10585,
+    "after_frame": 8683
+  },
+  {
+    "kind": "current join",
+    "id": "H138",
+    "before_frame": 10652,
+    "after_frame": 8750
+  },
+  {
+    "kind": "current join",
+    "id": "H140",
+    "before_frame": 10814,
+    "after_frame": 8912
+  },
+  {
+    "kind": "current join",
+    "id": "H142",
+    "before_frame": 11069,
+    "after_frame": 9167
+  },
+  {
+    "kind": "current join",
+    "id": "H144",
+    "before_frame": 11240,
+    "after_frame": 9338
+  },
+  {
+    "kind": "current join",
+    "id": "H146",
+    "before_frame": 11419,
+    "after_frame": 9517
+  },
+  {
+    "kind": "current join",
+    "id": "H147",
+    "before_frame": 11565,
+    "after_frame": 9663
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H031",
+    "before_frame": 2050,
+    "after_frame": 2050,
+    "mapping": "same retained audio time"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H066",
+    "before_frame": 4999,
+    "after_frame": 4808,
+    "mapping": "semantic replacement: middle narration rewritten"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H071",
+    "before_frame": 5512,
+    "after_frame": 5659,
+    "mapping": "semantic replacement: middle narration rewritten"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H074",
+    "before_frame": 5775,
+    "after_frame": 5822,
+    "mapping": "semantic replacement: middle narration rewritten"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H075",
+    "before_frame": 5837,
+    "after_frame": 5822,
+    "mapping": "semantic replacement: middle narration rewritten"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H079",
+    "before_frame": 6220,
+    "after_frame": 5986,
+    "mapping": "semantic replacement: middle narration rewritten"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H083",
+    "before_frame": 6429,
+    "after_frame": 5986,
+    "mapping": "semantic replacement: middle narration rewritten"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H093",
+    "before_frame": 7054,
+    "after_frame": 4808,
+    "mapping": "semantic replacement: middle narration rewritten"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H098",
+    "before_frame": 7516,
+    "after_frame": 6267,
+    "mapping": "semantic replacement: middle narration rewritten"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H101",
+    "before_frame": 7817,
+    "after_frame": 6267,
+    "mapping": "semantic replacement: middle narration rewritten"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H107",
+    "before_frame": 8299,
+    "after_frame": 6541,
+    "mapping": "semantic replacement: middle narration rewritten"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H114",
+    "before_frame": 8936,
+    "after_frame": 6957,
+    "mapping": "semantic replacement: middle narration rewritten"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H117",
+    "before_frame": 9211,
+    "after_frame": 7129,
+    "mapping": "semantic replacement: middle narration rewritten"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H119",
+    "before_frame": 9318,
+    "after_frame": 7352,
+    "mapping": "semantic replacement: middle narration rewritten"
+  },
+  {
+    "kind": "removed/replaced old join",
+    "id": "H149",
+    "before_frame": 11748,
+    "after_frame": 9846,
+    "mapping": "same retained audio time"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "sample_n": 169,
+  "sample_method": "top-level top-ranked comments; <=200; replies excluded; not representative and not retention analytics",
+  "keyword_theme_comment_counts_overlapping": {
+    "제작·몰입 언급": 13,
+    "기관·권력 언급": 0,
+    "형량·사법 언급": 0,
+    "피해·공감 언급": 1,
+    "사실·해석 논쟁 표지": 17,
+    "구독·업로드 기대": 5
+  },
+  "quoted_timestamp_counts_s": {
+    "122": 2,
+    "193": 1,
+    "215": 1,
+    "363": 1,
+    "371": 1,
+    "405": 1,
+    "419": 1,
+    "596": 1
+  },
+  "interpretation": "장비와 지휘의 기여 논쟁, 다른 지휘관과의 비교. 철쇄설·지도 표기 등 사실 주장에 이견이 있어 형식만 차용해야 한다."
+}

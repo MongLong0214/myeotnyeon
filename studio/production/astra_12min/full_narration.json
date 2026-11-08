@@ -1,0 +1,4422 @@
+{
+  "lf2_full": {
+    "episode": "lf2_daejeon_bank",
+    "items": [
+      {
+        "id": "L01_01",
+        "text": "검은 승용차가 은행 지하의 길을 막았습니다.",
+        "facts": [
+          "F03",
+          "F18",
+          "F40",
+          "F43"
+        ],
+        "paragraph": "L01",
+        "direct_shot": "가방 손잡이 근접→마스크 증거봉투→B의 빈 피고인석. 질문마다 새로운 대상 노출.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "가방 손잡이 근접",
+        "after": "B의 빈 피고인석. 질문마다 새로운 대상 노출."
+      },
+      {
+        "id": "L01_02",
+        "text": "빼앗긴 가방 하나에는 삼억 원이 들어 있었습니다.",
+        "facts": [
+          "F03",
+          "F18",
+          "F40",
+          "F43"
+        ],
+        "paragraph": "L01",
+        "direct_shot": "가방 손잡이 근접→마스크 증거봉투→B의 빈 피고인석. 질문마다 새로운 대상 노출.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "가방 손잡이 근접",
+        "after": "B의 빈 피고인석. 질문마다 새로운 대상 노출."
+      },
+      {
+        "id": "L01_03",
+        "text": "그런데 범인에게서 돈이 아니라, 버린 천 조각이 돌아옵니다.",
+        "facts": [
+          "F03",
+          "F18",
+          "F40",
+          "F43"
+        ],
+        "paragraph": "L01",
+        "direct_shot": "가방 손잡이 근접→마스크 증거봉투→B의 빈 피고인석. 질문마다 새로운 대상 노출.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "가방 손잡이 근접",
+        "after": "B의 빈 피고인석. 질문마다 새로운 대상 노출."
+      },
+      {
+        "id": "L01_04",
+        "text": "그 흔적이 이름으로 바뀌기까지 약 이십 년.",
+        "facts": [
+          "F03",
+          "F18",
+          "F40",
+          "F43"
+        ],
+        "paragraph": "L01",
+        "direct_shot": "가방 손잡이 근접→마스크 증거봉투→B의 빈 피고인석. 질문마다 새로운 대상 노출.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "가방 손잡이 근접",
+        "after": "B의 빈 피고인석. 질문마다 새로운 대상 노출."
+      },
+      {
+        "id": "L01_05",
+        "text": "법정에서는 또 다른 질문이 기다립니다.",
+        "facts": [
+          "F03",
+          "F18",
+          "F40",
+          "F43"
+        ],
+        "paragraph": "L01",
+        "direct_shot": "가방 손잡이 근접→마스크 증거봉투→B의 빈 피고인석. 질문마다 새로운 대상 노출.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "가방 손잡이 근접",
+        "after": "B의 빈 피고인석. 질문마다 새로운 대상 노출."
+      },
+      {
+        "id": "L01_06",
+        "text": "공범 비의 이십 년형은 왜 무기징역이 됐을까요?",
+        "facts": [
+          "F03",
+          "F18",
+          "F40",
+          "F43"
+        ],
+        "paragraph": "L01",
+        "direct_shot": "가방 손잡이 근접→마스크 증거봉투→B의 빈 피고인석. 질문마다 새로운 대상 노출.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "가방 손잡이 근접",
+        "after": "B의 빈 피고인석. 질문마다 새로운 대상 노출."
+      },
+      {
+        "id": "L01_07",
+        "text": "범인을 찾아낸 과정과 형을 정한 과정을 나눠 따라가겠습니다.",
+        "facts": [
+          "F03",
+          "F18",
+          "F40",
+          "F43"
+        ],
+        "paragraph": "L01",
+        "direct_shot": "가방 손잡이 근접→마스크 증거봉투→B의 빈 피고인석. 질문마다 새로운 대상 노출.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "가방 손잡이 근접",
+        "after": "B의 빈 피고인석. 질문마다 새로운 대상 노출."
+      },
+      {
+        "id": "L02_01",
+        "text": "이천일년 십이월 이십일일, 오전 열 시쯤.",
+        "facts": [
+          "F01",
+          "F02",
+          "F04"
+        ],
+        "paragraph": "L02",
+        "direct_shot": "지하 램프 원경→수송차 앞을 가로지르는 검은 차량. 같은 진행방향 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "지하 램프 원경",
+        "after": "수송차 앞을 가로지르는 검은 차량. 같은 진행방향 유지."
+      },
+      {
+        "id": "L02_02",
+        "text": "대전 둔산동 국민은행 건물의 지하주차장입니다.",
+        "facts": [
+          "F01",
+          "F02",
+          "F04"
+        ],
+        "paragraph": "L02",
+        "direct_shot": "지하 램프 원경→수송차 앞을 가로지르는 검은 차량. 같은 진행방향 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "지하 램프 원경",
+        "after": "수송차 앞을 가로지르는 검은 차량. 같은 진행방향 유지."
+      },
+      {
+        "id": "L02_03",
+        "text": "은행 관계자 세 명이 현금 가방을 내려 옮기던 순간, 검은 그랜저가 현금수송차량을 가로막았습니다.",
+        "facts": [
+          "F01",
+          "F02",
+          "F04"
+        ],
+        "paragraph": "L02",
+        "direct_shot": "지하 램프 원경→수송차 앞을 가로지르는 검은 차량. 같은 진행방향 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "지하 램프 원경",
+        "after": "수송차 앞을 가로지르는 검은 차량. 같은 진행방향 유지."
+      },
+      {
+        "id": "L02_04",
+        "text": "복면을 쓴 두 사람이 등장합니다.",
+        "facts": [
+          "F01",
+          "F02",
+          "F04"
+        ],
+        "paragraph": "L02",
+        "direct_shot": "지하 램프 원경→수송차 앞을 가로지르는 검은 차량. 같은 진행방향 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "지하 램프 원경",
+        "after": "수송차 앞을 가로지르는 검은 차량. 같은 진행방향 유지."
+      },
+      {
+        "id": "L02_05",
+        "text": "화면은 보도 내용을 설명하는 재구성입니다.",
+        "facts": [
+          "F01",
+          "F02",
+          "F04"
+        ],
+        "paragraph": "L02",
+        "direct_shot": "지하 램프 원경→수송차 앞을 가로지르는 검은 차량. 같은 진행방향 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "지하 램프 원경",
+        "after": "수송차 앞을 가로지르는 검은 차량. 같은 진행방향 유지."
+      },
+      {
+        "id": "L02_06",
+        "text": "당시 주차장의 실제 촬영 영상을 보여 드리는 것은 아닙니다.",
+        "facts": [
+          "F01",
+          "F02",
+          "F04"
+        ],
+        "paragraph": "L02",
+        "direct_shot": "지하 램프 원경→수송차 앞을 가로지르는 검은 차량. 같은 진행방향 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "지하 램프 원경",
+        "after": "수송차 앞을 가로지르는 검은 차량. 같은 진행방향 유지."
+      },
+      {
+        "id": "L03_01",
+        "text": "운송하던 가방은 두 개였습니다.",
+        "facts": [
+          "F03",
+          "F04"
+        ],
+        "paragraph": "L03",
+        "direct_shot": "직원 손의 두 가방→B 손에 한 가방→남은 한 가방. 소유 전환을 같은 숏에서 표시.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "직원 손의 두 가방",
+        "after": "남은 한 가방. 소유 전환을 같은 숏에서 표시."
+      },
+      {
+        "id": "L03_02",
+        "text": "각각 삼억 원, 전체로는 육억 원이었습니다.",
+        "facts": [
+          "F03",
+          "F04"
+        ],
+        "paragraph": "L03",
+        "direct_shot": "직원 손의 두 가방→B 손에 한 가방→남은 한 가방. 소유 전환을 같은 숏에서 표시.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "직원 손의 두 가방",
+        "after": "남은 한 가방. 소유 전환을 같은 숏에서 표시."
+      },
+      {
+        "id": "L03_03",
+        "text": "범인들이 챙겨 달아난 것은 그중 하나였습니다.",
+        "facts": [
+          "F03",
+          "F04"
+        ],
+        "paragraph": "L03",
+        "direct_shot": "직원 손의 두 가방→B 손에 한 가방→남은 한 가방. 소유 전환을 같은 숏에서 표시.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "직원 손의 두 가방",
+        "after": "남은 한 가방. 소유 전환을 같은 숏에서 표시."
+      },
+      {
+        "id": "L03_04",
+        "text": "그래서 전체 운송액과 실제로 빼앗긴 액수는 다릅니다.",
+        "facts": [
+          "F03",
+          "F04"
+        ],
+        "paragraph": "L03",
+        "direct_shot": "직원 손의 두 가방→B 손에 한 가방→남은 한 가방. 소유 전환을 같은 숏에서 표시.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "직원 손의 두 가방",
+        "after": "남은 한 가방. 소유 전환을 같은 숏에서 표시."
+      },
+      {
+        "id": "L03_05",
+        "text": "두 가방을 모두 차에 싣는 그림이라면 피해액을 바꿔 버립니다.",
+        "facts": [
+          "F03",
+          "F04"
+        ],
+        "paragraph": "L03",
+        "direct_shot": "직원 손의 두 가방→B 손에 한 가방→남은 한 가방. 소유 전환을 같은 숏에서 표시.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "직원 손의 두 가방",
+        "after": "남은 한 가방. 소유 전환을 같은 숏에서 표시."
+      },
+      {
+        "id": "L03_06",
+        "text": "이 사건에서 확인된 반출은 한 가방, 삼억 원입니다.",
+        "facts": [
+          "F03",
+          "F04"
+        ],
+        "paragraph": "L03",
+        "direct_shot": "직원 손의 두 가방→B 손에 한 가방→남은 한 가방. 소유 전환을 같은 숏에서 표시.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "직원 손의 두 가방",
+        "after": "남은 한 가방. 소유 전환을 같은 숏에서 표시."
+      },
+      {
+        "id": "L03_07",
+        "text": "뒤에 나올 돈 분배 주장도 이 돈에 관한 이야기입니다.",
+        "facts": [
+          "F03",
+          "F04"
+        ],
+        "paragraph": "L03",
+        "direct_shot": "직원 손의 두 가방→B 손에 한 가방→남은 한 가방. 소유 전환을 같은 숏에서 표시.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "직원 손의 두 가방",
+        "after": "남은 한 가방. 소유 전환을 같은 숏에서 표시."
+      },
+      {
+        "id": "L04_01",
+        "text": "현장에서 권총이 발사됐고, 현금 운송 업무를 하던 사십 대 출납과장이 숨졌습니다.",
+        "facts": [
+          "F05",
+          "F06",
+          "F39"
+        ],
+        "paragraph": "L04",
+        "direct_shot": "A의 손과 권총 파지→발사 순간 생략→직원 자리가 비는 넓은 장면. 고어와 발사횟수 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "A의 손과 권총 파지",
+        "after": "직원 자리가 비는 넓은 장면. 고어와 발사횟수 없음."
+      },
+      {
+        "id": "L04_02",
+        "text": "법원은 피해자가 직무에 충실하며 강도 범행을 막으려다 사망했다고 짚었습니다.",
+        "facts": [
+          "F05",
+          "F06",
+          "F39"
+        ],
+        "paragraph": "L04",
+        "direct_shot": "A의 손과 권총 파지→발사 순간 생략→직원 자리가 비는 넓은 장면. 고어와 발사횟수 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "A의 손과 권총 파지",
+        "after": "직원 자리가 비는 넓은 장면. 고어와 발사횟수 없음."
+      },
+      {
+        "id": "L04_03",
+        "text": "정확한 총 발사 횟수는 보도들이 일치하지 않습니다.",
+        "facts": [
+          "F05",
+          "F06",
+          "F39"
+        ],
+        "paragraph": "L04",
+        "direct_shot": "A의 손과 권총 파지→발사 순간 생략→직원 자리가 비는 넓은 장면. 고어와 발사횟수 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "A의 손과 권총 파지",
+        "after": "직원 자리가 비는 넓은 장면. 고어와 발사횟수 없음."
+      },
+      {
+        "id": "L04_04",
+        "text": "그래서 여기서는 총성과 섬광을 세어 횟수를 만들어 내지 않습니다.",
+        "facts": [
+          "F05",
+          "F06",
+          "F39"
+        ],
+        "paragraph": "L04",
+        "direct_shot": "A의 손과 권총 파지→발사 순간 생략→직원 자리가 비는 넓은 장면. 고어와 발사횟수 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "A의 손과 권총 파지",
+        "after": "직원 자리가 비는 넓은 장면. 고어와 발사횟수 없음."
+      },
+      {
+        "id": "L04_05",
+        "text": "확인된 사실은 권총이 사용됐고, 일하던 한 사람이 목숨을 잃었다는 것입니다.",
+        "facts": [
+          "F05",
+          "F06",
+          "F39"
+        ],
+        "paragraph": "L04",
+        "direct_shot": "A의 손과 권총 파지→발사 순간 생략→직원 자리가 비는 넓은 장면. 고어와 발사횟수 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "A의 손과 권총 파지",
+        "after": "직원 자리가 비는 넓은 장면. 고어와 발사횟수 없음."
+      },
+      {
+        "id": "L05_01",
+        "text": "그 권총은 어디서 나왔을까요?",
+        "facts": [
+          "F07",
+          "F08",
+          "F09"
+        ],
+        "paragraph": "L05",
+        "direct_shot": "시간 역행 날짜→순찰 경찰관·차량 간격→권총 출처를 별도 소품 컷으로 연결.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "시간 역행 날짜",
+        "after": "권총 출처를 별도 소품 컷으로 연결."
+      },
+      {
+        "id": "L05_02",
+        "text": "은행 사건보다 앞선 이천일년 시월 십오일 자정 무렵으로 돌아갑니다.",
+        "facts": [
+          "F07",
+          "F08",
+          "F09"
+        ],
+        "paragraph": "L05",
+        "direct_shot": "시간 역행 날짜→순찰 경찰관·차량 간격→권총 출처를 별도 소품 컷으로 연결.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "시간 역행 날짜",
+        "after": "권총 출처를 별도 소품 컷으로 연결."
+      },
+      {
+        "id": "L05_03",
+        "text": "두 사람은 도보 순찰 중이던 경찰관을 차로 들이받고 권총을 빼앗았습니다.",
+        "facts": [
+          "F07",
+          "F08",
+          "F09"
+        ],
+        "paragraph": "L05",
+        "direct_shot": "시간 역행 날짜→순찰 경찰관·차량 간격→권총 출처를 별도 소품 컷으로 연결.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "시간 역행 날짜",
+        "after": "권총 출처를 별도 소품 컷으로 연결."
+      },
+      {
+        "id": "L05_04",
+        "text": "경찰관은 크게 다쳤습니다.",
+        "facts": [
+          "F07",
+          "F08",
+          "F09"
+        ],
+        "paragraph": "L05",
+        "direct_shot": "시간 역행 날짜→순찰 경찰관·차량 간격→권총 출처를 별도 소품 컷으로 연결.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "시간 역행 날짜",
+        "after": "권총 출처를 별도 소품 컷으로 연결."
+      },
+      {
+        "id": "L05_05",
+        "text": "은행에서 숨진 출납과장과 이 경찰관은 다른 피해자입니다.",
+        "facts": [
+          "F07",
+          "F08",
+          "F09"
+        ],
+        "paragraph": "L05",
+        "direct_shot": "시간 역행 날짜→순찰 경찰관·차량 간격→권총 출처를 별도 소품 컷으로 연결.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "시간 역행 날짜",
+        "after": "권총 출처를 별도 소품 컷으로 연결."
+      },
+      {
+        "id": "L05_06",
+        "text": "앞선 사건의 중상을 사망으로 바꾸거나 다른 경찰관 피살사건을 섞으면, 총기의 출처부터 잘못 설명하게 됩니다.",
+        "facts": [
+          "F07",
+          "F08",
+          "F09"
+        ],
+        "paragraph": "L05",
+        "direct_shot": "시간 역행 날짜→순찰 경찰관·차량 간격→권총 출처를 별도 소품 컷으로 연결.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "시간 역행 날짜",
+        "after": "권총 출처를 별도 소품 컷으로 연결."
+      },
+      {
+        "id": "L06_01",
+        "text": "차량 역시 범인들의 정상적인 소유물이 아니었습니다.",
+        "facts": [
+          "F11",
+          "F04"
+        ],
+        "paragraph": "L06",
+        "direct_shot": "수원 주차 차량→시동 걸린 계기판은 구체 수치 없음→은행의 같은 검은 차로 매치컷.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "수원 주차 차량",
+        "after": "은행의 같은 검은 차로 매치컷."
+      },
+      {
+        "id": "L06_02",
+        "text": "십이월 일일, 수원에서 시동이 걸린 채 주차된 그랜저 엑스지를 훔쳤습니다.",
+        "facts": [
+          "F11",
+          "F04"
+        ],
+        "paragraph": "L06",
+        "direct_shot": "수원 주차 차량→시동 걸린 계기판은 구체 수치 없음→은행의 같은 검은 차로 매치컷.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "수원 주차 차량",
+        "after": "은행의 같은 검은 차로 매치컷."
+      },
+      {
+        "id": "L06_03",
+        "text": "경찰관에게서 빼앗은 권총과 훔친 승용차가, 십이월 이십일일 은행 지하주차장으로 이어집니다.",
+        "facts": [
+          "F11",
+          "F04"
+        ],
+        "paragraph": "L06",
+        "direct_shot": "수원 주차 차량→시동 걸린 계기판은 구체 수치 없음→은행의 같은 검은 차로 매치컷.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "수원 주차 차량",
+        "after": "은행의 같은 검은 차로 매치컷."
+      },
+      {
+        "id": "L06_04",
+        "text": "서로 다른 날의 준비 범행입니다.",
+        "facts": [
+          "F11",
+          "F04"
+        ],
+        "paragraph": "L06",
+        "direct_shot": "수원 주차 차량→시동 걸린 계기판은 구체 수치 없음→은행의 같은 검은 차로 매치컷.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "수원 주차 차량",
+        "after": "은행의 같은 검은 차로 매치컷."
+      },
+      {
+        "id": "L06_05",
+        "text": "차를 훔친 날을 은행 사건 당일로 합치지 않아야, 범행 전에 무엇이 마련됐는지 시간 순서가 보입니다.",
+        "facts": [
+          "F11",
+          "F04"
+        ],
+        "paragraph": "L06",
+        "direct_shot": "수원 주차 차량→시동 걸린 계기판은 구체 수치 없음→은행의 같은 검은 차로 매치컷.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "수원 주차 차량",
+        "after": "은행의 같은 검은 차로 매치컷."
+      },
+      {
+        "id": "L07_01",
+        "text": "주차장에는 씨씨티브이가 없었습니다.",
+        "facts": [
+          "F12",
+          "F14",
+          "F15"
+        ],
+        "paragraph": "L07",
+        "direct_shot": "빈 주차장 벽→인근 상가 지하의 버려진 차→차내 천 조각. CCTV 프레임 연출 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "빈 주차장 벽",
+        "after": "차내 천 조각. CCTV 프레임 연출 금지."
+      },
+      {
+        "id": "L07_02",
+        "text": "범행 순간의 영상으로 얼굴을 확인해 잡은 사건이 아닙니다.",
+        "facts": [
+          "F12",
+          "F14",
+          "F15"
+        ],
+        "paragraph": "L07",
+        "direct_shot": "빈 주차장 벽→인근 상가 지하의 버려진 차→차내 천 조각. CCTV 프레임 연출 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "빈 주차장 벽",
+        "after": "차내 천 조각. CCTV 프레임 연출 금지."
+      },
+      {
+        "id": "L07_03",
+        "text": "두 사람은 범행 뒤 인근 상가 건물 지하에서 차를 버리고 다른 차로 갈아탔습니다.",
+        "facts": [
+          "F12",
+          "F14",
+          "F15"
+        ],
+        "paragraph": "L07",
+        "direct_shot": "빈 주차장 벽→인근 상가 지하의 버려진 차→차내 천 조각. CCTV 프레임 연출 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "빈 주차장 벽",
+        "after": "차내 천 조각. CCTV 프레임 연출 금지."
+      },
+      {
+        "id": "L07_04",
+        "text": "차량에 불을 내 증거를 없애려 했다는 보도도 있습니다.",
+        "facts": [
+          "F12",
+          "F14",
+          "F15"
+        ],
+        "paragraph": "L07",
+        "direct_shot": "빈 주차장 벽→인근 상가 지하의 버려진 차→차내 천 조각. CCTV 프레임 연출 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "빈 주차장 벽",
+        "after": "차내 천 조각. CCTV 프레임 연출 금지."
+      },
+      {
+        "id": "L07_05",
+        "text": "하지만 그 시도에도 불구하고 차량 안의 마스크와 손수건은 남았습니다.",
+        "facts": [
+          "F12",
+          "F14",
+          "F15"
+        ],
+        "paragraph": "L07",
+        "direct_shot": "빈 주차장 벽→인근 상가 지하의 버려진 차→차내 천 조각. CCTV 프레임 연출 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "빈 주차장 벽",
+        "after": "차내 천 조각. CCTV 프레임 연출 금지."
+      },
+      {
+        "id": "L07_06",
+        "text": "사건의 다음 장면은 도주한 차가 아니라, 남겨진 물건에서 시작합니다.",
+        "facts": [
+          "F12",
+          "F14",
+          "F15"
+        ],
+        "paragraph": "L07",
+        "direct_shot": "빈 주차장 벽→인근 상가 지하의 버려진 차→차내 천 조각. CCTV 프레임 연출 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "빈 주차장 벽",
+        "after": "차내 천 조각. CCTV 프레임 연출 금지."
+      },
+      {
+        "id": "L08_01",
+        "text": "물건이 남았다고 곧바로 범인을 알 수 있었던 것은 아닙니다.",
+        "facts": [
+          "F17",
+          "F18",
+          "F19"
+        ],
+        "paragraph": "L08",
+        "direct_shot": "차내 마스크→봉인 수거품→보관 선반. 감식 절차는 추상적 비교 화면으로 제한.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "차내 마스크",
+        "after": "보관 선반. 감식 절차는 추상적 비교 화면으로 제한."
+      },
+      {
+        "id": "L08_02",
+        "text": "경찰은 사건 직후 마스크 감식을 의뢰했지만, 당시에는 디엔에이를 검출하지 못했습니다.",
+        "facts": [
+          "F17",
+          "F18",
+          "F19"
+        ],
+        "paragraph": "L08",
+        "direct_shot": "차내 마스크→봉인 수거품→보관 선반. 감식 절차는 추상적 비교 화면으로 제한.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "차내 마스크",
+        "after": "보관 선반. 감식 절차는 추상적 비교 화면으로 제한."
+      },
+      {
+        "id": "L08_03",
+        "text": "수거품은 대전 둔산경찰서에 보관됐습니다.",
+        "facts": [
+          "F17",
+          "F18",
+          "F19"
+        ],
+        "paragraph": "L08",
+        "direct_shot": "차내 마스크→봉인 수거품→보관 선반. 감식 절차는 추상적 비교 화면으로 제한.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "차내 마스크",
+        "after": "보관 선반. 감식 절차는 추상적 비교 화면으로 제한."
+      },
+      {
+        "id": "L08_04",
+        "text": "증거가 처음부터 없었던 사건과, 증거는 있지만 분석으로 답을 얻지 못한 사건은 다릅니다.",
+        "facts": [
+          "F17",
+          "F18",
+          "F19"
+        ],
+        "paragraph": "L08",
+        "direct_shot": "차내 마스크→봉인 수거품→보관 선반. 감식 절차는 추상적 비교 화면으로 제한.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "차내 마스크",
+        "after": "보관 선반. 감식 절차는 추상적 비교 화면으로 제한."
+      },
+      {
+        "id": "L08_05",
+        "text": "이 사건에서는 후자였습니다.",
+        "facts": [
+          "F17",
+          "F18",
+          "F19"
+        ],
+        "paragraph": "L08",
+        "direct_shot": "차내 마스크→봉인 수거품→보관 선반. 감식 절차는 추상적 비교 화면으로 제한.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "차내 마스크",
+        "after": "보관 선반. 감식 절차는 추상적 비교 화면으로 제한."
+      },
+      {
+        "id": "L08_06",
+        "text": "보관된 물건이 있었기에 훗날 다시 질문할 대상도 남아 있었습니다.",
+        "facts": [
+          "F17",
+          "F18",
+          "F19"
+        ],
+        "paragraph": "L08",
+        "direct_shot": "차내 마스크→봉인 수거품→보관 선반. 감식 절차는 추상적 비교 화면으로 제한.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "차내 마스크",
+        "after": "보관 선반. 감식 절차는 추상적 비교 화면으로 제한."
+      },
+      {
+        "id": "L09_01",
+        "text": "초기 수사 규모는 작지 않았습니다.",
+        "facts": [
+          "F50",
+          "F52"
+        ],
+        "paragraph": "L09",
+        "direct_shot": "수사기록 넘기는 손→차량 조사목록→2002년 별도 용의자 기록 닫힘. A·B 얼굴 연결 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "수사기록 넘기는 손",
+        "after": "2002년 별도 용의자 기록 닫힘. A·B 얼굴 연결 금지."
+      },
+      {
+        "id": "L09_02",
+        "text": "목격자와 전과자 등 오천삼백이십일 명, 차량 구천이백칠십육 대를 조사했다고 보도됐습니다.",
+        "facts": [
+          "F50",
+          "F52"
+        ],
+        "paragraph": "L09",
+        "direct_shot": "수사기록 넘기는 손→차량 조사목록→2002년 별도 용의자 기록 닫힘. A·B 얼굴 연결 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "수사기록 넘기는 손",
+        "after": "2002년 별도 용의자 기록 닫힘. A·B 얼굴 연결 금지."
+      },
+      {
+        "id": "L09_03",
+        "text": "이천이년에는 다른 용의자 세 명이 붙잡히기도 했습니다.",
+        "facts": [
+          "F50",
+          "F52"
+        ],
+        "paragraph": "L09",
+        "direct_shot": "수사기록 넘기는 손→차량 조사목록→2002년 별도 용의자 기록 닫힘. A·B 얼굴 연결 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "수사기록 넘기는 손",
+        "after": "2002년 별도 용의자 기록 닫힘. A·B 얼굴 연결 금지."
+      },
+      {
+        "id": "L09_04",
+        "text": "그러나 구속영장이 기각됐습니다.",
+        "facts": [
+          "F50",
+          "F52"
+        ],
+        "paragraph": "L09",
+        "direct_shot": "수사기록 넘기는 손→차량 조사목록→2002년 별도 용의자 기록 닫힘. A·B 얼굴 연결 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "수사기록 넘기는 손",
+        "after": "2002년 별도 용의자 기록 닫힘. A·B 얼굴 연결 금지."
+      },
+      {
+        "id": "L09_05",
+        "text": "이들을 훗날 검거된 에이와 비로 그려서는 안 됩니다.",
+        "facts": [
+          "F50",
+          "F52"
+        ],
+        "paragraph": "L09",
+        "direct_shot": "수사기록 넘기는 손→차량 조사목록→2002년 별도 용의자 기록 닫힘. A·B 얼굴 연결 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "수사기록 넘기는 손",
+        "after": "2002년 별도 용의자 기록 닫힘. A·B 얼굴 연결 금지."
+      },
+      {
+        "id": "L09_06",
+        "text": "조사한 사람이 많다는 것은 수사의 범위를 말할 뿐, 그 사람들 모두에게 범행 책임이 있었다는 뜻이 아닙니다.",
+        "facts": [
+          "F50",
+          "F52"
+        ],
+        "paragraph": "L09",
+        "direct_shot": "수사기록 넘기는 손→차량 조사목록→2002년 별도 용의자 기록 닫힘. A·B 얼굴 연결 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "수사기록 넘기는 손",
+        "after": "2002년 별도 용의자 기록 닫힘. A·B 얼굴 연결 금지."
+      },
+      {
+        "id": "L10_01",
+        "text": "이천십일년 십이월, 중요미제사건 전담수사팀이 증거물과 수사기록을 인수하고 수사를 다시 시작했습니다.",
+        "facts": [
+          "F17",
+          "F51"
+        ],
+        "paragraph": "L10",
+        "direct_shot": "2011년 기록 인계 손동작→2015년 법률 자료→닫히지 않는 수사기록. 설명판 대신 물건 이동.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2011년 기록 인계 손동작",
+        "after": "닫히지 않는 수사기록. 설명판 대신 물건 이동."
+      },
+      {
+        "id": "L10_02",
+        "text": "그 뒤 수사를 계속할 수 있게 한 법률 변화도 있었습니다.",
+        "facts": [
+          "F17",
+          "F51"
+        ],
+        "paragraph": "L10",
+        "direct_shot": "2011년 기록 인계 손동작→2015년 법률 자료→닫히지 않는 수사기록. 설명판 대신 물건 이동.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2011년 기록 인계 손동작",
+        "after": "닫히지 않는 수사기록. 설명판 대신 물건 이동."
+      },
+      {
+        "id": "L10_03",
+        "text": "이천십오년 태완이법 시행으로 살인죄 공소시효가 폐지된 것입니다.",
+        "facts": [
+          "F17",
+          "F51"
+        ],
+        "paragraph": "L10",
+        "direct_shot": "2011년 기록 인계 손동작→2015년 법률 자료→닫히지 않는 수사기록. 설명판 대신 물건 이동.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2011년 기록 인계 손동작",
+        "after": "닫히지 않는 수사기록. 설명판 대신 물건 이동."
+      },
+      {
+        "id": "L10_04",
+        "text": "보도는 이 사건 역시 수사를 이어갈 수 있었다고 전합니다.",
+        "facts": [
+          "F17",
+          "F51"
+        ],
+        "paragraph": "L10",
+        "direct_shot": "2011년 기록 인계 손동작→2015년 법률 자료→닫히지 않는 수사기록. 설명판 대신 물건 이동.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2011년 기록 인계 손동작",
+        "after": "닫히지 않는 수사기록. 설명판 대신 물건 이동."
+      },
+      {
+        "id": "L10_05",
+        "text": "기술이 답을 찾을 때까지 기다릴 증거와, 계속 수사할 수 있는 법적 조건이 함께 남았습니다.",
+        "facts": [
+          "F17",
+          "F51"
+        ],
+        "paragraph": "L10",
+        "direct_shot": "2011년 기록 인계 손동작→2015년 법률 자료→닫히지 않는 수사기록. 설명판 대신 물건 이동.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2011년 기록 인계 손동작",
+        "after": "닫히지 않는 수사기록. 설명판 대신 물건 이동."
+      },
+      {
+        "id": "L11_01",
+        "text": "돌파구는 이천십칠년 재감식에서 나왔습니다.",
+        "facts": [
+          "F18",
+          "F20",
+          "F21"
+        ],
+        "paragraph": "L11",
+        "direct_shot": "보관 마스크·손수건→2015년 게임장 담배꽁초→두 비교자료를 조사자가 나란히 놓음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "보관 마스크·손수건",
+        "after": "두 비교자료를 조사자가 나란히 놓음."
+      },
+      {
+        "id": "L11_02",
+        "text": "마스크와 손수건의 디엔에이가, 이천십오년 충북 불법게임장에서 수거된 담배꽁초의 디엔에이와 일치했습니다.",
+        "facts": [
+          "F18",
+          "F20",
+          "F21"
+        ],
+        "paragraph": "L11",
+        "direct_shot": "보관 마스크·손수건→2015년 게임장 담배꽁초→두 비교자료를 조사자가 나란히 놓음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "보관 마스크·손수건",
+        "after": "두 비교자료를 조사자가 나란히 놓음."
+      },
+      {
+        "id": "L11_03",
+        "text": "은행과 게임장.",
+        "facts": [
+          "F18",
+          "F20",
+          "F21"
+        ],
+        "paragraph": "L11",
+        "direct_shot": "보관 마스크·손수건→2015년 게임장 담배꽁초→두 비교자료를 조사자가 나란히 놓음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "보관 마스크·손수건",
+        "after": "두 비교자료를 조사자가 나란히 놓음."
+      },
+      {
+        "id": "L11_04",
+        "text": "서로 다른 장소에서 남은 흔적이 연결된 것입니다.",
+        "facts": [
+          "F18",
+          "F20",
+          "F21"
+        ],
+        "paragraph": "L11",
+        "direct_shot": "보관 마스크·손수건→2015년 게임장 담배꽁초→두 비교자료를 조사자가 나란히 놓음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "보관 마스크·손수건",
+        "after": "두 비교자료를 조사자가 나란히 놓음."
+      },
+      {
+        "id": "L11_05",
+        "text": "다만 공개 보도는 세부 감식 순서와 회신 시점까지 모두 같은 것은 아닙니다.",
+        "facts": [
+          "F18",
+          "F20",
+          "F21"
+        ],
+        "paragraph": "L11",
+        "direct_shot": "보관 마스크·손수건→2015년 게임장 담배꽁초→두 비교자료를 조사자가 나란히 놓음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "보관 마스크·손수건",
+        "after": "두 비교자료를 조사자가 나란히 놓음."
+      },
+      {
+        "id": "L11_06",
+        "text": "여기서는 확인되는 연도와 비교 대상, 그리고 일치했다는 결과까지만 따라갑니다.",
+        "facts": [
+          "F18",
+          "F20",
+          "F21"
+        ],
+        "paragraph": "L11",
+        "direct_shot": "보관 마스크·손수건→2015년 게임장 담배꽁초→두 비교자료를 조사자가 나란히 놓음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "보관 마스크·손수건",
+        "after": "두 비교자료를 조사자가 나란히 놓음."
+      },
+      {
+        "id": "L12_01",
+        "text": "여기서 바로 이름이 튀어나왔을까요?",
+        "facts": [
+          "F21",
+          "F22",
+          "F23"
+        ],
+        "paragraph": "L12",
+        "direct_shot": "일치 결과 옆 이름칸은 공란→게임장 출입가능자 기록→몽타주·차량전력 자료 대조.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "일치 결과 옆 이름칸은 공란",
+        "after": "몽타주·차량전력 자료 대조."
+      },
+      {
+        "id": "L12_02",
+        "text": "그렇지 않았습니다.",
+        "facts": [
+          "F21",
+          "F22",
+          "F23"
+        ],
+        "paragraph": "L12",
+        "direct_shot": "일치 결과 옆 이름칸은 공란→게임장 출입가능자 기록→몽타주·차량전력 자료 대조.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "일치 결과 옆 이름칸은 공란",
+        "after": "몽타주·차량전력 자료 대조."
+      },
+      {
+        "id": "L12_03",
+        "text": "게임장 쪽 디엔에이도 신원불명이었습니다.",
+        "facts": [
+          "F21",
+          "F22",
+          "F23"
+        ],
+        "paragraph": "L12",
+        "direct_shot": "일치 결과 옆 이름칸은 공란→게임장 출입가능자 기록→몽타주·차량전력 자료 대조.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "일치 결과 옆 이름칸은 공란",
+        "after": "몽타주·차량전력 자료 대조."
+      },
+      {
+        "id": "L12_04",
+        "text": "같은 사람의 흔적이라는 단서는 얻었지만, 그 사람이 누구인지는 더 찾아야 했습니다.",
+        "facts": [
+          "F21",
+          "F22",
+          "F23"
+        ],
+        "paragraph": "L12",
+        "direct_shot": "일치 결과 옆 이름칸은 공란→게임장 출입가능자 기록→몽타주·차량전력 자료 대조.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "일치 결과 옆 이름칸은 공란",
+        "after": "몽타주·차량전력 자료 대조."
+      },
+      {
+        "id": "L12_05",
+        "text": "경찰은 게임장에 출입했을 가능성이 있는 종업원과 손님 등 약 일만 오천 명을 수사 대상으로 놓았습니다.",
+        "facts": [
+          "F21",
+          "F22",
+          "F23"
+        ],
+        "paragraph": "L12",
+        "direct_shot": "일치 결과 옆 이름칸은 공란→게임장 출입가능자 기록→몽타주·차량전력 자료 대조.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "일치 결과 옆 이름칸은 공란",
+        "after": "몽타주·차량전력 자료 대조."
+      },
+      {
+        "id": "L12_06",
+        "text": "그 숫자는 전원의 디엔에이를 채취했다는 뜻이 아닙니다.",
+        "facts": [
+          "F21",
+          "F22",
+          "F23"
+        ],
+        "paragraph": "L12",
+        "direct_shot": "일치 결과 옆 이름칸은 공란→게임장 출입가능자 기록→몽타주·차량전력 자료 대조.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "일치 결과 옆 이름칸은 공란",
+        "after": "몽타주·차량전력 자료 대조."
+      },
+      {
+        "id": "L12_07",
+        "text": "후보군을 놓고 연관성을 확인하는 단계였습니다.",
+        "facts": [
+          "F21",
+          "F22",
+          "F23"
+        ],
+        "paragraph": "L12",
+        "direct_shot": "일치 결과 옆 이름칸은 공란→게임장 출입가능자 기록→몽타주·차량전력 자료 대조.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "일치 결과 옆 이름칸은 공란",
+        "after": "몽타주·차량전력 자료 대조."
+      },
+      {
+        "id": "L13_01",
+        "text": "경찰은 디엔에이 외에도 몽타주, 목격자가 전한 인상착의, 차량 절도 수법을 함께 대조했습니다.",
+        "facts": [
+          "F23",
+          "F24"
+        ],
+        "paragraph": "L13",
+        "direct_shot": "조사자가 목격기록과 차량절도 기록을 분리해 확인→B 특정 파일에만 표시.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "조사자가 목격기록과 차량절도 기록을 분리해 확인",
+        "after": "B 특정 파일에만 표시."
+      },
+      {
+        "id": "L13_02",
+        "text": "시동이 걸린 차량을 훔친 전력 같은 단서도 대상을 좁히는 데 쓰였다고 밝혔습니다.",
+        "facts": [
+          "F23",
+          "F24"
+        ],
+        "paragraph": "L13",
+        "direct_shot": "조사자가 목격기록과 차량절도 기록을 분리해 확인→B 특정 파일에만 표시.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "조사자가 목격기록과 차량절도 기록을 분리해 확인",
+        "after": "B 특정 파일에만 표시."
+      },
+      {
+        "id": "L13_03",
+        "text": "이천이십이년 삼월, 비가 유력 용의자로 특정됩니다.",
+        "facts": [
+          "F23",
+          "F24"
+        ],
+        "paragraph": "L13",
+        "direct_shot": "조사자가 목격기록과 차량절도 기록을 분리해 확인→B 특정 파일에만 표시.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "조사자가 목격기록과 차량절도 기록을 분리해 확인",
+        "after": "B 특정 파일에만 표시."
+      },
+      {
+        "id": "L13_04",
+        "text": "이름을 특정한 뒤에도 과거 행적과 주변인을 조사하는 보강수사가 이어졌습니다.",
+        "facts": [
+          "F23",
+          "F24"
+        ],
+        "paragraph": "L13",
+        "direct_shot": "조사자가 목격기록과 차량절도 기록을 분리해 확인→B 특정 파일에만 표시.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "조사자가 목격기록과 차량절도 기록을 분리해 확인",
+        "after": "B 특정 파일에만 표시."
+      },
+      {
+        "id": "L13_05",
+        "text": "흔적의 일치와 실제 검거 사이에는 이렇게 확인 과정이 더 있었습니다.",
+        "facts": [
+          "F23",
+          "F24"
+        ],
+        "paragraph": "L13",
+        "direct_shot": "조사자가 목격기록과 차량절도 기록을 분리해 확인→B 특정 파일에만 표시.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "조사자가 목격기록과 차량절도 기록을 분리해 확인",
+        "after": "B 특정 파일에만 표시."
+      },
+      {
+        "id": "L14_01",
+        "text": "이천이십이년 팔월 이십오일, 경찰은 대전에서 비를 검거했습니다.",
+        "facts": [
+          "F25",
+          "F26",
+          "F27"
+        ],
+        "paragraph": "L14",
+        "direct_shot": "대전 B 체포→B 진술 기록에서 A 이름 연결→정선 별도 장소. DNA 선을 A에게 연결 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대전 B 체포",
+        "after": "정선 별도 장소. DNA 선을 A에게 연결 금지."
+      },
+      {
+        "id": "L14_02",
+        "text": "비는 에이와 함께 범행했다고 진술했습니다.",
+        "facts": [
+          "F25",
+          "F26",
+          "F27"
+        ],
+        "paragraph": "L14",
+        "direct_shot": "대전 B 체포→B 진술 기록에서 A 이름 연결→정선 별도 장소. DNA 선을 A에게 연결 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대전 B 체포",
+        "after": "정선 별도 장소. DNA 선을 A에게 연결 금지."
+      },
+      {
+        "id": "L14_03",
+        "text": "그 진술을 단서로 에이는 강원도 정선의 찜질방에서 체포됐습니다.",
+        "facts": [
+          "F25",
+          "F26",
+          "F27"
+        ],
+        "paragraph": "L14",
+        "direct_shot": "대전 B 체포→B 진술 기록에서 A 이름 연결→정선 별도 장소. DNA 선을 A에게 연결 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대전 B 체포",
+        "after": "정선 별도 장소. DNA 선을 A에게 연결 금지."
+      },
+      {
+        "id": "L14_04",
+        "text": "에이까지 같은 현장 디엔에이로 직접 특정한 것은 아닙니다.",
+        "facts": [
+          "F25",
+          "F26",
+          "F27"
+        ],
+        "paragraph": "L14",
+        "direct_shot": "대전 B 체포→B 진술 기록에서 A 이름 연결→정선 별도 장소. DNA 선을 A에게 연결 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대전 B 체포",
+        "after": "정선 별도 장소. DNA 선을 A에게 연결 금지."
+      },
+      {
+        "id": "L14_05",
+        "text": "두 사람은 팔월 이십칠일 구속됐습니다.",
+        "facts": [
+          "F25",
+          "F26",
+          "F27"
+        ],
+        "paragraph": "L14",
+        "direct_shot": "대전 B 체포→B 진술 기록에서 A 이름 연결→정선 별도 장소. DNA 선을 A에게 연결 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대전 B 체포",
+        "after": "정선 별도 장소. DNA 선을 A에게 연결 금지."
+      },
+      {
+        "id": "L14_06",
+        "text": "체포와 구속은 날짜가 다르고, 두 사람에게 이른 수사의 연결고리도 서로 달랐습니다.",
+        "facts": [
+          "F25",
+          "F26",
+          "F27"
+        ],
+        "paragraph": "L14",
+        "direct_shot": "대전 B 체포→B 진술 기록에서 A 이름 연결→정선 별도 장소. DNA 선을 A에게 연결 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대전 B 체포",
+        "after": "정선 별도 장소. DNA 선을 A에게 연결 금지."
+      },
+      {
+        "id": "L15_01",
+        "text": "두 사람은 고등학교 동창이었습니다.",
+        "facts": [
+          "F13",
+          "F16",
+          "F49"
+        ],
+        "paragraph": "L15",
+        "direct_shot": "두 익명 피고인 분리→누적 기록 묶음→법정으로 넘어가는 문. 수량 그대로 시각화 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "두 익명 피고인 분리",
+        "after": "법정으로 넘어가는 문. 수량 그대로 시각화 금지."
+      },
+      {
+        "id": "L15_02",
+        "text": "은행 사건에서 검거까지 걸린 시간은 약 이십 년 팔 개월.",
+        "facts": [
+          "F13",
+          "F16",
+          "F49"
+        ],
+        "paragraph": "L15",
+        "direct_shot": "두 익명 피고인 분리→누적 기록 묶음→법정으로 넘어가는 문. 수량 그대로 시각화 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "두 익명 피고인 분리",
+        "after": "법정으로 넘어가는 문. 수량 그대로 시각화 금지."
+      },
+      {
+        "id": "L15_03",
+        "text": "언론의 이십일 년 만이라는 표현은 연도 기준의 말입니다.",
+        "facts": [
+          "F13",
+          "F16",
+          "F49"
+        ],
+        "paragraph": "L15",
+        "direct_shot": "두 익명 피고인 분리→누적 기록 묶음→법정으로 넘어가는 문. 수량 그대로 시각화 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "두 익명 피고인 분리",
+        "after": "법정으로 넘어가는 문. 수량 그대로 시각화 금지."
+      },
+      {
+        "id": "L15_04",
+        "text": "그동안 쌓인 수사기록은 약 십오만 쪽이라고 보도됐습니다.",
+        "facts": [
+          "F13",
+          "F16",
+          "F49"
+        ],
+        "paragraph": "L15",
+        "direct_shot": "두 익명 피고인 분리→누적 기록 묶음→법정으로 넘어가는 문. 수량 그대로 시각화 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "두 익명 피고인 분리",
+        "after": "법정으로 넘어가는 문. 수량 그대로 시각화 금지."
+      },
+      {
+        "id": "L15_05",
+        "text": "하지만 두꺼운 기록의 양 자체가 총격 책임을 결정하는 것은 아닙니다.",
+        "facts": [
+          "F13",
+          "F16",
+          "F49"
+        ],
+        "paragraph": "L15",
+        "direct_shot": "두 익명 피고인 분리→누적 기록 묶음→법정으로 넘어가는 문. 수량 그대로 시각화 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "두 익명 피고인 분리",
+        "after": "법정으로 넘어가는 문. 수량 그대로 시각화 금지."
+      },
+      {
+        "id": "L15_06",
+        "text": "검거된 두 사람이 어떤 역할을 했는지, 이제 법정에서 각각 판단할 차례였습니다.",
+        "facts": [
+          "F13",
+          "F16",
+          "F49"
+        ],
+        "paragraph": "L15",
+        "direct_shot": "두 익명 피고인 분리→누적 기록 묶음→법정으로 넘어가는 문. 수량 그대로 시각화 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "두 익명 피고인 분리",
+        "after": "법정으로 넘어가는 문. 수량 그대로 시각화 금지."
+      },
+      {
+        "id": "L16_01",
+        "text": "진술은 한 방향으로만 이어지지 않았습니다.",
+        "facts": [
+          "F28",
+          "F29",
+          "F31",
+          "F34"
+        ],
+        "paragraph": "L16",
+        "direct_shot": "경찰 발표문 날짜→A의 서로 다른 진술 기록→두 피고인 사이 시선 역방향 컷.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "경찰 발표문 날짜",
+        "after": "두 피고인 사이 시선 역방향 컷."
+      },
+      {
+        "id": "L16_02",
+        "text": "경찰은 에이가 처음 부인하다가 이천이십이년 구월 일일 범행 주도와 총격을 시인했다고 발표했습니다.",
+        "facts": [
+          "F28",
+          "F29",
+          "F31",
+          "F34"
+        ],
+        "paragraph": "L16",
+        "direct_shot": "경찰 발표문 날짜→A의 서로 다른 진술 기록→두 피고인 사이 시선 역방향 컷.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "경찰 발표문 날짜",
+        "after": "두 피고인 사이 시선 역방향 컷."
+      },
+      {
+        "id": "L16_03",
+        "text": "그런데 재판에서는 다시 총격을 부인했습니다.",
+        "facts": [
+          "F28",
+          "F29",
+          "F31",
+          "F34"
+        ],
+        "paragraph": "L16",
+        "direct_shot": "경찰 발표문 날짜→A의 서로 다른 진술 기록→두 피고인 사이 시선 역방향 컷.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "경찰 발표문 날짜",
+        "after": "두 피고인 사이 시선 역방향 컷."
+      },
+      {
+        "id": "L16_04",
+        "text": "구월 이십일, 검찰은 두 사람을 강도살인 혐의로 구속기소했다고 밝혔습니다.",
+        "facts": [
+          "F28",
+          "F29",
+          "F31",
+          "F34"
+        ],
+        "paragraph": "L16",
+        "direct_shot": "경찰 발표문 날짜→A의 서로 다른 진술 기록→두 피고인 사이 시선 역방향 컷.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "경찰 발표문 날짜",
+        "after": "두 피고인 사이 시선 역방향 컷."
+      },
+      {
+        "id": "L16_05",
+        "text": "두 피고인은 총을 쏜 사람이 상대방이라고 주장했습니다.",
+        "facts": [
+          "F28",
+          "F29",
+          "F31",
+          "F34"
+        ],
+        "paragraph": "L16",
+        "direct_shot": "경찰 발표문 날짜→A의 서로 다른 진술 기록→두 피고인 사이 시선 역방향 컷.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "경찰 발표문 날짜",
+        "after": "두 피고인 사이 시선 역방향 컷."
+      },
+      {
+        "id": "L16_06",
+        "text": "수사 때의 시인과 법정에서의 부인을 같은 말처럼 합칠 수는 없습니다.",
+        "facts": [
+          "F28",
+          "F29",
+          "F31",
+          "F34"
+        ],
+        "paragraph": "L16",
+        "direct_shot": "경찰 발표문 날짜→A의 서로 다른 진술 기록→두 피고인 사이 시선 역방향 컷.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "경찰 발표문 날짜",
+        "after": "두 피고인 사이 시선 역방향 컷."
+      },
+      {
+        "id": "L17_01",
+        "text": "돈을 어떻게 나눴는지도 말이 달랐습니다.",
+        "facts": [
+          "F35",
+          "F34"
+        ],
+        "paragraph": "L17",
+        "direct_shot": "B 진술서의 금액→A 진술서의 절반 주장. 실제 돈분배 장면 재연 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "B 진술서의 금액",
+        "after": "A 진술서의 절반 주장. 실제 돈분배 장면 재연 금지."
+      },
+      {
+        "id": "L17_02",
+        "text": "비는 자신이 구천만 원, 에이가 이억 천만 원을 가졌다고 진술했습니다.",
+        "facts": [
+          "F35",
+          "F34"
+        ],
+        "paragraph": "L17",
+        "direct_shot": "B 진술서의 금액→A 진술서의 절반 주장. 실제 돈분배 장면 재연 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "B 진술서의 금액",
+        "after": "A 진술서의 절반 주장. 실제 돈분배 장면 재연 금지."
+      },
+      {
+        "id": "L17_03",
+        "text": "에이는 절반씩 나눴다고 했습니다.",
+        "facts": [
+          "F35",
+          "F34"
+        ],
+        "paragraph": "L17",
+        "direct_shot": "B 진술서의 금액→A 진술서의 절반 주장. 실제 돈분배 장면 재연 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "B 진술서의 금액",
+        "after": "A 진술서의 절반 주장. 실제 돈분배 장면 재연 금지."
+      },
+      {
+        "id": "L17_04",
+        "text": "이 금액은 각자의 주장입니다.",
+        "facts": [
+          "F35",
+          "F34"
+        ],
+        "paragraph": "L17",
+        "direct_shot": "B 진술서의 금액→A 진술서의 절반 주장. 실제 돈분배 장면 재연 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "B 진술서의 금액",
+        "after": "A 진술서의 절반 주장. 실제 돈분배 장면 재연 금지."
+      },
+      {
+        "id": "L17_05",
+        "text": "실제 분배 현장을 본 것처럼 현금을 세는 장면을 그리면, 다투는 내용을 확정 사실로 바꾸게 됩니다.",
+        "facts": [
+          "F35",
+          "F34"
+        ],
+        "paragraph": "L17",
+        "direct_shot": "B 진술서의 금액→A 진술서의 절반 주장. 실제 돈분배 장면 재연 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "B 진술서의 금액",
+        "after": "A 진술서의 절반 주장. 실제 돈분배 장면 재연 금지."
+      },
+      {
+        "id": "L17_06",
+        "text": "총격과 돈 분배를 둘러싼 충돌은, 재판부가 진술을 그대로 받아들일 수 없었던 쟁점을 보여 줍니다.",
+        "facts": [
+          "F35",
+          "F34"
+        ],
+        "paragraph": "L17",
+        "direct_shot": "B 진술서의 금액→A 진술서의 절반 주장. 실제 돈분배 장면 재연 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "B 진술서의 금액",
+        "after": "A 진술서의 절반 주장. 실제 돈분배 장면 재연 금지."
+      },
+      {
+        "id": "L18_01",
+        "text": "이천이십삼년 일월 십육일 결심공판.",
+        "facts": [
+          "F30",
+          "F32",
+          "F33"
+        ],
+        "paragraph": "L18",
+        "direct_shot": "검사 일어서서 법대로 서류 제시→A·B 최후진술 기록 삽입. 창작 입모양·대사 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "검사 일어서서 법대로 서류 제시",
+        "after": "A·B 최후진술 기록 삽입. 창작 입모양·대사 없음."
+      },
+      {
+        "id": "L18_02",
+        "text": "검찰은 에이에게 사형, 비에게 무기징역을 구형했습니다.",
+        "facts": [
+          "F30",
+          "F32",
+          "F33"
+        ],
+        "paragraph": "L18",
+        "direct_shot": "검사 일어서서 법대로 서류 제시→A·B 최후진술 기록 삽입. 창작 입모양·대사 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "검사 일어서서 법대로 서류 제시",
+        "after": "A·B 최후진술 기록 삽입. 창작 입모양·대사 없음."
+      },
+      {
+        "id": "L18_03",
+        "text": "검찰이 법원에 요구한 형이지, 법원이 선고한 결과는 아닙니다.",
+        "facts": [
+          "F30",
+          "F32",
+          "F33"
+        ],
+        "paragraph": "L18",
+        "direct_shot": "검사 일어서서 법대로 서류 제시→A·B 최후진술 기록 삽입. 창작 입모양·대사 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "검사 일어서서 법대로 서류 제시",
+        "after": "A·B 최후진술 기록 삽입. 창작 입모양·대사 없음."
+      },
+      {
+        "id": "L18_04",
+        "text": "사형 구형 뒤 에이가 감사하다는 말을 했다고 보도됐지만 정확한 표현은 매체마다 달랐습니다.",
+        "facts": [
+          "F30",
+          "F32",
+          "F33"
+        ],
+        "paragraph": "L18",
+        "direct_shot": "검사 일어서서 법대로 서류 제시→A·B 최후진술 기록 삽입. 창작 입모양·대사 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "검사 일어서서 법대로 서류 제시",
+        "after": "A·B 최후진술 기록 삽입. 창작 입모양·대사 없음."
+      },
+      {
+        "id": "L18_05",
+        "text": "비는 피해자와 유족에게 사죄하고 가족에게도 용서를 구하고 싶다는 취지로 말했습니다.",
+        "facts": [
+          "F30",
+          "F32",
+          "F33"
+        ],
+        "paragraph": "L18",
+        "direct_shot": "검사 일어서서 법대로 서류 제시→A·B 최후진술 기록 삽입. 창작 입모양·대사 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "검사 일어서서 법대로 서류 제시",
+        "after": "A·B 최후진술 기록 삽입. 창작 입모양·대사 없음."
+      },
+      {
+        "id": "L18_06",
+        "text": "이 발언을 소개한다고 반성의 진정성까지 확인되는 것은 아닙니다.",
+        "facts": [
+          "F30",
+          "F32",
+          "F33"
+        ],
+        "paragraph": "L18",
+        "direct_shot": "검사 일어서서 법대로 서류 제시→A·B 최후진술 기록 삽입. 창작 입모양·대사 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "검사 일어서서 법대로 서류 제시",
+        "after": "A·B 최후진술 기록 삽입. 창작 입모양·대사 없음."
+      },
+      {
+        "id": "L19_01",
+        "text": "이천이십삼년 이월 십칠일, 일심은 에이에게 무기징역, 비에게 징역 이십 년을 선고했습니다.",
+        "facts": [
+          "F36",
+          "F37"
+        ],
+        "paragraph": "L19",
+        "direct_shot": "선고일 전환→법대 판사가 판결문 읽기→A 파지·조준 정황의 제한적 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "선고일 전환",
+        "after": "A 파지·조준 정황의 제한적 삽입."
+      },
+      {
+        "id": "L19_02",
+        "text": "누가 권총을 발사했는지에 대해서는 에이를 인정했습니다.",
+        "facts": [
+          "F36",
+          "F37"
+        ],
+        "paragraph": "L19",
+        "direct_shot": "선고일 전환→법대 판사가 판결문 읽기→A 파지·조준 정황의 제한적 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "선고일 전환",
+        "after": "A 파지·조준 정황의 제한적 삽입."
+      },
+      {
+        "id": "L19_03",
+        "text": "법원은 총기 경험과 권총을 쥐고 조준한 정황, 진술의 신빙성을 함께 봤습니다.",
+        "facts": [
+          "F36",
+          "F37"
+        ],
+        "paragraph": "L19",
+        "direct_shot": "선고일 전환→법대 판사가 판결문 읽기→A 파지·조준 정황의 제한적 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "선고일 전환",
+        "after": "A 파지·조준 정황의 제한적 삽입."
+      },
+      {
+        "id": "L19_04",
+        "text": "군 경력이 있다는 한 가지 이유만으로 발사자를 정했다는 설명이 아닙니다.",
+        "facts": [
+          "F36",
+          "F37"
+        ],
+        "paragraph": "L19",
+        "direct_shot": "선고일 전환→법대 판사가 판결문 읽기→A 파지·조준 정황의 제한적 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "선고일 전환",
+        "after": "A 파지·조준 정황의 제한적 삽입."
+      },
+      {
+        "id": "L19_05",
+        "text": "법원이 살핀 여러 근거를 하나의 인상적인 단서로 줄이면 판단의 구조가 사라집니다.",
+        "facts": [
+          "F36",
+          "F37"
+        ],
+        "paragraph": "L19",
+        "direct_shot": "선고일 전환→법대 판사가 판결문 읽기→A 파지·조준 정황의 제한적 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "선고일 전환",
+        "after": "A 파지·조준 정황의 제한적 삽입."
+      },
+      {
+        "id": "L20_01",
+        "text": "비에게는 보조 역할과 자백이 고려됐습니다.",
+        "facts": [
+          "F37",
+          "F38",
+          "F39"
+        ],
+        "paragraph": "L20",
+        "direct_shot": "B 피고인석→자백 기록→판사의 양형 부분 읽기. A 발사자 판단 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "B 피고인석",
+        "after": "판사의 양형 부분 읽기. A 발사자 판단 유지."
+      },
+      {
+        "id": "L20_02",
+        "text": "자백이 장기간 미제로 남은 사건의 경위를 밝히는 데 도움이 됐다는 것입니다.",
+        "facts": [
+          "F37",
+          "F38",
+          "F39"
+        ],
+        "paragraph": "L20",
+        "direct_shot": "B 피고인석→자백 기록→판사의 양형 부분 읽기. A 발사자 판단 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "B 피고인석",
+        "after": "판사의 양형 부분 읽기. A 발사자 판단 유지."
+      },
+      {
+        "id": "L20_03",
+        "text": "반면 피해자는 직무에 충실하며 강도 범행을 막으려다 숨졌다고 재판부는 짚었습니다.",
+        "facts": [
+          "F37",
+          "F38",
+          "F39"
+        ],
+        "paragraph": "L20",
+        "direct_shot": "B 피고인석→자백 기록→판사의 양형 부분 읽기. A 발사자 판단 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "B 피고인석",
+        "after": "판사의 양형 부분 읽기. A 발사자 판단 유지."
+      },
+      {
+        "id": "L20_04",
+        "text": "피고인에게 유리한 사정과 피해의 중대함은 서로 다른 항목입니다.",
+        "facts": [
+          "F37",
+          "F38",
+          "F39"
+        ],
+        "paragraph": "L20",
+        "direct_shot": "B 피고인석→자백 기록→판사의 양형 부분 읽기. A 발사자 판단 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "B 피고인석",
+        "after": "판사의 양형 부분 읽기. A 발사자 판단 유지."
+      },
+      {
+        "id": "L20_05",
+        "text": "비의 이십 년형은 비를 발사자로 인정한 결과가 아니라, 공범의 역할과 양형 사정을 판단한 일심의 결론이었습니다.",
+        "facts": [
+          "F37",
+          "F38",
+          "F39"
+        ],
+        "paragraph": "L20",
+        "direct_shot": "B 피고인석→자백 기록→판사의 양형 부분 읽기. A 발사자 판단 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "B 피고인석",
+        "after": "판사의 양형 부분 읽기. A 발사자 판단 유지."
+      },
+      {
+        "id": "L21_01",
+        "text": "그런데 이천이십삼년 팔월 십팔일, 항소심은 두 사람 모두에게 무기징역을 선고합니다.",
+        "facts": [
+          "F40",
+          "F41"
+        ],
+        "paragraph": "L21",
+        "direct_shot": "항소심 날짜→일심 판결문의 20년 부분→적용법 법정형 문구를 짧게 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "항소심 날짜",
+        "after": "적용법 법정형 문구를 짧게 삽입."
+      },
+      {
+        "id": "L21_02",
+        "text": "비의 이십 년형이 바뀌었습니다.",
+        "facts": [
+          "F40",
+          "F41"
+        ],
+        "paragraph": "L21",
+        "direct_shot": "항소심 날짜→일심 판결문의 20년 부분→적용법 법정형 문구를 짧게 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "항소심 날짜",
+        "after": "적용법 법정형 문구를 짧게 삽입."
+      },
+      {
+        "id": "L21_03",
+        "text": "왜 더 낮은 형이 아니라 무기징역이었을까요?",
+        "facts": [
+          "F40",
+          "F41"
+        ],
+        "paragraph": "L21",
+        "direct_shot": "항소심 날짜→일심 판결문의 20년 부분→적용법 법정형 문구를 짧게 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "항소심 날짜",
+        "after": "적용법 법정형 문구를 짧게 삽입."
+      },
+      {
+        "id": "L21_04",
+        "text": "항소심은 당시 적용되는 강도살인의 법정형이 사형 또는 무기징역이라고 설명했습니다.",
+        "facts": [
+          "F40",
+          "F41"
+        ],
+        "paragraph": "L21",
+        "direct_shot": "항소심 날짜→일심 판결문의 20년 부분→적용법 법정형 문구를 짧게 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "항소심 날짜",
+        "after": "적용법 법정형 문구를 짧게 삽입."
+      },
+      {
+        "id": "L21_05",
+        "text": "정상참작으로 감경하더라도 유기징역은 칠 년에서 십오 년 범위여야 한다는 판단이었습니다.",
+        "facts": [
+          "F40",
+          "F41"
+        ],
+        "paragraph": "L21",
+        "direct_shot": "항소심 날짜→일심 판결문의 20년 부분→적용법 법정형 문구를 짧게 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "항소심 날짜",
+        "after": "적용법 법정형 문구를 짧게 삽입."
+      },
+      {
+        "id": "L21_06",
+        "text": "따라서 일심의 이십 년 선고는 유지될 수 없었습니다.",
+        "facts": [
+          "F40",
+          "F41"
+        ],
+        "paragraph": "L21",
+        "direct_shot": "항소심 날짜→일심 판결문의 20년 부분→적용법 법정형 문구를 짧게 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "항소심 날짜",
+        "after": "적용법 법정형 문구를 짧게 삽입."
+      },
+      {
+        "id": "L22_01",
+        "text": "여기서 십오 년이라는 숫자만 보면 오히려 형이 줄어야 할 것처럼 들릴 수 있습니다.",
+        "facts": [
+          "F41",
+          "F42"
+        ],
+        "paragraph": "L22",
+        "direct_shot": "법대에서 감경 여부 검토→감경하지 않은 판결문으로 넘어감. 자동 화살표 산식 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "법대에서 감경 여부 검토",
+        "after": "감경하지 않은 판결문으로 넘어감. 자동 화살표 산식 금지."
+      },
+      {
+        "id": "L22_02",
+        "text": "하지만 그 범위는 감경을 하는 경우입니다.",
+        "facts": [
+          "F41",
+          "F42"
+        ],
+        "paragraph": "L22",
+        "direct_shot": "법대에서 감경 여부 검토→감경하지 않은 판결문으로 넘어감. 자동 화살표 산식 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "법대에서 감경 여부 검토",
+        "after": "감경하지 않은 판결문으로 넘어감. 자동 화살표 산식 금지."
+      },
+      {
+        "id": "L22_03",
+        "text": "먼저 감경할 수 있는지를 판단해야 합니다.",
+        "facts": [
+          "F41",
+          "F42"
+        ],
+        "paragraph": "L22",
+        "direct_shot": "법대에서 감경 여부 검토→감경하지 않은 판결문으로 넘어감. 자동 화살표 산식 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "법대에서 감경 여부 검토",
+        "after": "감경하지 않은 판결문으로 넘어감. 자동 화살표 산식 금지."
+      },
+      {
+        "id": "L22_04",
+        "text": "항소심은 비에게 불리한 사정이 유리한 사정을 압도한다고 봤습니다.",
+        "facts": [
+          "F41",
+          "F42"
+        ],
+        "paragraph": "L22",
+        "direct_shot": "법대에서 감경 여부 검토→감경하지 않은 판결문으로 넘어감. 자동 화살표 산식 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "법대에서 감경 여부 검토",
+        "after": "감경하지 않은 판결문으로 넘어감. 자동 화살표 산식 금지."
+      },
+      {
+        "id": "L22_05",
+        "text": "그래서 정상참작 감경을 하지 않고 무기징역을 선고했습니다.",
+        "facts": [
+          "F41",
+          "F42"
+        ],
+        "paragraph": "L22",
+        "direct_shot": "법대에서 감경 여부 검토→감경하지 않은 판결문으로 넘어감. 자동 화살표 산식 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "법대에서 감경 여부 검토",
+        "after": "감경하지 않은 판결문으로 넘어감. 자동 화살표 산식 금지."
+      },
+      {
+        "id": "L22_06",
+        "text": "이십 년을 십오 년으로 고치는 계산이 아니라, 법정형과 감경 여부를 함께 다시 판단한 것입니다.",
+        "facts": [
+          "F41",
+          "F42"
+        ],
+        "paragraph": "L22",
+        "direct_shot": "법대에서 감경 여부 검토→감경하지 않은 판결문으로 넘어감. 자동 화살표 산식 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "법대에서 감경 여부 검토",
+        "after": "감경하지 않은 판결문으로 넘어감. 자동 화살표 산식 금지."
+      },
+      {
+        "id": "L23_01",
+        "text": "에이가 발사자라는 판단은 항소심에서도 유지됐습니다.",
+        "facts": [
+          "F43",
+          "F46"
+        ],
+        "paragraph": "L23",
+        "direct_shot": "A와 B 자리 유지→전자장치 처분 별도 문서→형량 문서와 분리해서 닫기.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "A와 B 자리 유지",
+        "after": "형량 문서와 분리해서 닫기."
+      },
+      {
+        "id": "L23_02",
+        "text": "비의 형이 바뀐 것을 총을 쏜 사람이 바뀐 것으로 이해하면 안 됩니다.",
+        "facts": [
+          "F43",
+          "F46"
+        ],
+        "paragraph": "L23",
+        "direct_shot": "A와 B 자리 유지→전자장치 처분 별도 문서→형량 문서와 분리해서 닫기.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "A와 B 자리 유지",
+        "after": "형량 문서와 분리해서 닫기."
+      },
+      {
+        "id": "L23_03",
+        "text": "또 형량과 별도로 위치추적 전자장치 부착 명령도 있었습니다.",
+        "facts": [
+          "F43",
+          "F46"
+        ],
+        "paragraph": "L23",
+        "direct_shot": "A와 B 자리 유지→전자장치 처분 별도 문서→형량 문서와 분리해서 닫기.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "A와 B 자리 유지",
+        "after": "형량 문서와 분리해서 닫기."
+      },
+      {
+        "id": "L23_04",
+        "text": "에이 이십 년, 비 십 년이 일심에서 명령됐고 항소심에서도 유지됐다고 보도됐습니다.",
+        "facts": [
+          "F43",
+          "F46"
+        ],
+        "paragraph": "L23",
+        "direct_shot": "A와 B 자리 유지→전자장치 처분 별도 문서→형량 문서와 분리해서 닫기.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "A와 B 자리 유지",
+        "after": "형량 문서와 분리해서 닫기."
+      },
+      {
+        "id": "L23_05",
+        "text": "이 숫자는 무기징역에 더하는 유기징역 기간이 아닙니다.",
+        "facts": [
+          "F43",
+          "F46"
+        ],
+        "paragraph": "L23",
+        "direct_shot": "A와 B 자리 유지→전자장치 처분 별도 문서→형량 문서와 분리해서 닫기.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "A와 B 자리 유지",
+        "after": "형량 문서와 분리해서 닫기."
+      },
+      {
+        "id": "L23_06",
+        "text": "형과 별도 처분을 구분해야 판결의 숫자를 잘못 옮기지 않습니다.",
+        "facts": [
+          "F43",
+          "F46"
+        ],
+        "paragraph": "L23",
+        "direct_shot": "A와 B 자리 유지→전자장치 처분 별도 문서→형량 문서와 분리해서 닫기.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "A와 B 자리 유지",
+        "after": "형량 문서와 분리해서 닫기."
+      },
+      {
+        "id": "L24_01",
+        "text": "두 사람은 형이 무겁다며 상고했습니다.",
+        "facts": [
+          "F44",
+          "F45"
+        ],
+        "paragraph": "L24",
+        "direct_shot": "대법원 사건기록→상고기각 문서→피고인 두 자리 동일 결론.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대법원 사건기록",
+        "after": "피고인 두 자리 동일 결론."
+      },
+      {
+        "id": "L24_02",
+        "text": "이천이십삼년 십이월 십사일, 대법원은 상고를 기각했습니다.",
+        "facts": [
+          "F44",
+          "F45"
+        ],
+        "paragraph": "L24",
+        "direct_shot": "대법원 사건기록→상고기각 문서→피고인 두 자리 동일 결론.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대법원 사건기록",
+        "after": "피고인 두 자리 동일 결론."
+      },
+      {
+        "id": "L24_03",
+        "text": "두 사람의 무기징역이 확정됐습니다.",
+        "facts": [
+          "F44",
+          "F45"
+        ],
+        "paragraph": "L24",
+        "direct_shot": "대법원 사건기록→상고기각 문서→피고인 두 자리 동일 결론.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대법원 사건기록",
+        "after": "피고인 두 자리 동일 결론."
+      },
+      {
+        "id": "L24_04",
+        "text": "보도된 이유는 피고인들의 주장을 고려하더라도 원심의 형이 부당하다고 볼 수 없다는 것입니다.",
+        "facts": [
+          "F44",
+          "F45"
+        ],
+        "paragraph": "L24",
+        "direct_shot": "대법원 사건기록→상고기각 문서→피고인 두 자리 동일 결론.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대법원 사건기록",
+        "after": "피고인 두 자리 동일 결론."
+      },
+      {
+        "id": "L24_05",
+        "text": "이것을 가석방이 절대 불가능한 종신형으로 바꿔 말할 수는 없습니다.",
+        "facts": [
+          "F44",
+          "F45"
+        ],
+        "paragraph": "L24",
+        "direct_shot": "대법원 사건기록→상고기각 문서→피고인 두 자리 동일 결론.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대법원 사건기록",
+        "after": "피고인 두 자리 동일 결론."
+      },
+      {
+        "id": "L24_06",
+        "text": "확인된 확정 결과는 무기징역이며, 그 밖의 제도적 가능성을 이 판결 보도만으로 채우지 않겠습니다.",
+        "facts": [
+          "F44",
+          "F45"
+        ],
+        "paragraph": "L24",
+        "direct_shot": "대법원 사건기록→상고기각 문서→피고인 두 자리 동일 결론.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대법원 사건기록",
+        "after": "피고인 두 자리 동일 결론."
+      },
+      {
+        "id": "L25_01",
+        "text": "처음의 질문으로 돌아가 보겠습니다.",
+        "facts": [
+          "F18",
+          "F21",
+          "F25",
+          "F37",
+          "F42"
+        ],
+        "paragraph": "L25",
+        "direct_shot": "마스크→비의 기록→에이 진술→법정 판결문을 한 방향으로 넘기며 처음 질문 회수.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "마스크",
+        "after": "법정 판결문을 한 방향으로 넘기며 처음 질문 회수."
+      },
+      {
+        "id": "L25_02",
+        "text": "마스크와 손수건은 다른 장소의 흔적과 연결됐고, 추가 수사를 거쳐 비의 이름에 닿았습니다.",
+        "facts": [
+          "F18",
+          "F21",
+          "F25",
+          "F37",
+          "F42"
+        ],
+        "paragraph": "L25",
+        "direct_shot": "마스크→비의 기록→에이 진술→법정 판결문을 한 방향으로 넘기며 처음 질문 회수.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "마스크",
+        "after": "법정 판결문을 한 방향으로 넘기며 처음 질문 회수."
+      },
+      {
+        "id": "L25_03",
+        "text": "비의 진술은 에이 체포의 단서가 됐습니다.",
+        "facts": [
+          "F18",
+          "F21",
+          "F25",
+          "F37",
+          "F42"
+        ],
+        "paragraph": "L25",
+        "direct_shot": "마스크→비의 기록→에이 진술→법정 판결문을 한 방향으로 넘기며 처음 질문 회수.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "마스크",
+        "after": "법정 판결문을 한 방향으로 넘기며 처음 질문 회수."
+      },
+      {
+        "id": "L25_04",
+        "text": "그러나 누가 총을 쐈는지와 어떤 형을 선고할지는 법정에서 별도로 판단했습니다.",
+        "facts": [
+          "F18",
+          "F21",
+          "F25",
+          "F37",
+          "F42"
+        ],
+        "paragraph": "L25",
+        "direct_shot": "마스크→비의 기록→에이 진술→법정 판결문을 한 방향으로 넘기며 처음 질문 회수.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "마스크",
+        "after": "법정 판결문을 한 방향으로 넘기며 처음 질문 회수."
+      },
+      {
+        "id": "L25_05",
+        "text": "물증, 진술, 유죄 판단, 형량 판단.",
+        "facts": [
+          "F18",
+          "F21",
+          "F25",
+          "F37",
+          "F42"
+        ],
+        "paragraph": "L25",
+        "direct_shot": "마스크→비의 기록→에이 진술→법정 판결문을 한 방향으로 넘기며 처음 질문 회수.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "마스크",
+        "after": "법정 판결문을 한 방향으로 넘기며 처음 질문 회수."
+      },
+      {
+        "id": "L25_06",
+        "text": "서로 이어져 있지만 어느 한 단계도 나머지 모두를 대신하지는 않았습니다.",
+        "facts": [
+          "F18",
+          "F21",
+          "F25",
+          "F37",
+          "F42"
+        ],
+        "paragraph": "L25",
+        "direct_shot": "마스크→비의 기록→에이 진술→법정 판결문을 한 방향으로 넘기며 처음 질문 회수.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "마스크",
+        "after": "법정 판결문을 한 방향으로 넘기며 처음 질문 회수."
+      },
+      {
+        "id": "L26_01",
+        "text": "숨진 출납과장은 두 자녀를 둔 가장이었다고 보도됐습니다.",
+        "facts": [
+          "F05",
+          "F39",
+          "F47",
+          "F48"
+        ],
+        "paragraph": "L26",
+        "direct_shot": "비어 있는 직원 작업자리→가방이 남은 주차장→정지 추모컷 대신 조명 꺼지는 실제 공간 변화.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "비어 있는 직원 작업자리",
+        "after": "정지 추모컷 대신 조명 꺼지는 실제 공간 변화."
+      },
+      {
+        "id": "L26_02",
+        "text": "유족이 검거에 감사를 전했다는 이야기는 경찰을 통한 전언입니다.",
+        "facts": [
+          "F05",
+          "F39",
+          "F47",
+          "F48"
+        ],
+        "paragraph": "L26",
+        "direct_shot": "비어 있는 직원 작업자리→가방이 남은 주차장→정지 추모컷 대신 조명 꺼지는 실제 공간 변화.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "비어 있는 직원 작업자리",
+        "after": "정지 추모컷 대신 조명 꺼지는 실제 공간 변화."
+      },
+      {
+        "id": "L26_03",
+        "text": "유족을 직접 인터뷰한 것처럼 대화를 만들거나, 그때의 마음을 대신 말하지 않겠습니다.",
+        "facts": [
+          "F05",
+          "F39",
+          "F47",
+          "F48"
+        ],
+        "paragraph": "L26",
+        "direct_shot": "비어 있는 직원 작업자리→가방이 남은 주차장→정지 추모컷 대신 조명 꺼지는 실제 공간 변화.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "비어 있는 직원 작업자리",
+        "after": "정지 추모컷 대신 조명 꺼지는 실제 공간 변화."
+      },
+      {
+        "id": "L26_04",
+        "text": "긴 수사와 확정 판결이 돌아오지 못한 사람을 되돌리지는 못합니다.",
+        "facts": [
+          "F05",
+          "F39",
+          "F47",
+          "F48"
+        ],
+        "paragraph": "L26",
+        "direct_shot": "비어 있는 직원 작업자리→가방이 남은 주차장→정지 추모컷 대신 조명 꺼지는 실제 공간 변화.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "비어 있는 직원 작업자리",
+        "after": "정지 추모컷 대신 조명 꺼지는 실제 공간 변화."
+      },
+      {
+        "id": "L26_05",
+        "text": "이 사건의 끝에 남는 것은 범인의 표정이 아니라, 현금 운송 업무를 하던 한 사람이 일터에서 돌아오지 못했다는 사실입니다.",
+        "facts": [
+          "F05",
+          "F39",
+          "F47",
+          "F48"
+        ],
+        "paragraph": "L26",
+        "direct_shot": "비어 있는 직원 작업자리→가방이 남은 주차장→정지 추모컷 대신 조명 꺼지는 실제 공간 변화.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "비어 있는 직원 작업자리",
+        "after": "정지 추모컷 대신 조명 꺼지는 실제 공간 변화."
+      }
+    ],
+    "setting": "DIRECT_SHOTS_NOT_YET_RENDERED",
+    "date": "",
+    "target_seconds": 720
+  },
+  "n18_full": {
+    "episode": "v4/n18",
+    "items": [
+      {
+        "id": "T01_01",
+        "text": "군기훈련 도중 한 사람이 쓰러졌습니다.",
+        "facts": [
+          "E04",
+          "C06",
+          "D05",
+          "J04"
+        ],
+        "paragraph": "T01",
+        "direct_shot": "뛰는 군장 훈련병→쓰러진 뒤 빈 동선→법대. 고통 확대 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "뛰는 군장 훈련병",
+        "after": "법대. 고통 확대 없음."
+      },
+      {
+        "id": "T01_02",
+        "text": "법원은 학대치사를 인정했습니다.",
+        "facts": [
+          "E04",
+          "C06",
+          "D05",
+          "J04"
+        ],
+        "paragraph": "T01",
+        "direct_shot": "뛰는 군장 훈련병→쓰러진 뒤 빈 동선→법대. 고통 확대 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "뛰는 군장 훈련병",
+        "after": "법대. 고통 확대 없음."
+      },
+      {
+        "id": "T01_03",
+        "text": "그런데 판결 이유에는 교육 목적을 참작했다는 설명도 나옵니다.",
+        "facts": [
+          "E04",
+          "C06",
+          "D05",
+          "J04"
+        ],
+        "paragraph": "T01",
+        "direct_shot": "뛰는 군장 훈련병→쓰러진 뒤 빈 동선→법대. 고통 확대 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "뛰는 군장 훈련병",
+        "after": "법대. 고통 확대 없음."
+      },
+      {
+        "id": "T01_04",
+        "text": "유죄인데, 교육 목적을 고려했다니 무슨 뜻일까요?",
+        "facts": [
+          "E04",
+          "C06",
+          "D05",
+          "J04"
+        ],
+        "paragraph": "T01",
+        "direct_shot": "뛰는 군장 훈련병→쓰러진 뒤 빈 동선→법대. 고통 확대 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "뛰는 군장 훈련병",
+        "after": "법대. 고통 확대 없음."
+      },
+      {
+        "id": "T01_05",
+        "text": "또 중대장의 형은 항소심에서 왜 달라졌을까요?",
+        "facts": [
+          "E04",
+          "C06",
+          "D05",
+          "J04"
+        ],
+        "paragraph": "T01",
+        "direct_shot": "뛰는 군장 훈련병→쓰러진 뒤 빈 동선→법대. 고통 확대 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "뛰는 군장 훈련병",
+        "after": "법대. 고통 확대 없음."
+      },
+      {
+        "id": "T01_06",
+        "text": "훈련 현장, 수사기관의 판단, 법원의 형량 판단을 차례로 나누면, 서로 모순처럼 보이는 말들이 어느 단계의 설명인지 드러납니다.",
+        "facts": [
+          "E04",
+          "C06",
+          "D05",
+          "J04"
+        ],
+        "paragraph": "T01",
+        "direct_shot": "뛰는 군장 훈련병→쓰러진 뒤 빈 동선→법대. 고통 확대 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "뛰는 군장 훈련병",
+        "after": "법대. 고통 확대 없음."
+      },
+      {
+        "id": "T02_01",
+        "text": "사건은 이천이십사년 오월 이십삼일, 강원 인제의 육군 십이사단 신병교육대에서 일어났습니다.",
+        "facts": [
+          "E01",
+          "E02",
+          "enrich:F02",
+          "enrich:F03"
+        ],
+        "paragraph": "T02",
+        "direct_shot": "생활관 문밖→구두보고 공간→연병장 여섯 위치. 실제 대사 창작 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "생활관 문밖",
+        "after": "연병장 여섯 위치. 실제 대사 창작 없음."
+      },
+      {
+        "id": "T02_02",
+        "text": "대상은 훈련병 여섯 명이었습니다.",
+        "facts": [
+          "E01",
+          "E02",
+          "enrich:F02",
+          "enrich:F03"
+        ],
+        "paragraph": "T02",
+        "direct_shot": "생활관 문밖→구두보고 공간→연병장 여섯 위치. 실제 대사 창작 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "생활관 문밖",
+        "after": "연병장 여섯 위치. 실제 대사 창작 없음."
+      },
+      {
+        "id": "T02_03",
+        "text": "경찰 수사결과 보도에 따르면, 전날 취침점호 뒤 떠들었다는 이유로 적발됐고 부중대장이 다음 날 구두 보고한 뒤 중대장이 승인했습니다.",
+        "facts": [
+          "E01",
+          "E02",
+          "enrich:F02",
+          "enrich:F03"
+        ],
+        "paragraph": "T02",
+        "direct_shot": "생활관 문밖→구두보고 공간→연병장 여섯 위치. 실제 대사 창작 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "생활관 문밖",
+        "after": "연병장 여섯 위치. 실제 대사 창작 없음."
+      },
+      {
+        "id": "T02_04",
+        "text": "여기서 지휘관은 중대장과 부중대장입니다.",
+        "facts": [
+          "E01",
+          "E02",
+          "enrich:F02",
+          "enrich:F03"
+        ],
+        "paragraph": "T02",
+        "direct_shot": "생활관 문밖→구두보고 공간→연병장 여섯 위치. 실제 대사 창작 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "생활관 문밖",
+        "after": "연병장 여섯 위치. 실제 대사 창작 없음."
+      },
+      {
+        "id": "T02_05",
+        "text": "별도의 소대장을 만들어 역할을 옮기지 않겠습니다.",
+        "facts": [
+          "E01",
+          "E02",
+          "enrich:F02",
+          "enrich:F03"
+        ],
+        "paragraph": "T02",
+        "direct_shot": "생활관 문밖→구두보고 공간→연병장 여섯 위치. 실제 대사 창작 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "생활관 문밖",
+        "after": "연병장 여섯 위치. 실제 대사 창작 없음."
+      },
+      {
+        "id": "T03_01",
+        "text": "훈련을 시작하기 전부터 빠진 절차가 있었습니다.",
+        "facts": [
+          "enrich:F04",
+          "enrich:F05"
+        ],
+        "paragraph": "T03",
+        "direct_shot": "확인서 앞 빈 자리→신체 확인 항목 공란→훈련 시작. 미확인 서명·실제양식 재현 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "확인서 앞 빈 자리",
+        "after": "훈련 시작. 미확인 서명·실제양식 재현 금지."
+      },
+      {
+        "id": "T03_02",
+        "text": "경찰은 확인서를 작성하고 소명 기회를 주는 과정이 지켜지지 않았다고 밝혔습니다.",
+        "facts": [
+          "enrich:F04",
+          "enrich:F05"
+        ],
+        "paragraph": "T03",
+        "direct_shot": "확인서 앞 빈 자리→신체 확인 항목 공란→훈련 시작. 미확인 서명·실제양식 재현 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "확인서 앞 빈 자리",
+        "after": "훈련 시작. 미확인 서명·실제양식 재현 금지."
+      },
+      {
+        "id": "T03_03",
+        "text": "신체 상태와 훈련장 온도지수도 제대로 확인하지 않았다는 수사결과가 보도됐습니다.",
+        "facts": [
+          "enrich:F04",
+          "enrich:F05"
+        ],
+        "paragraph": "T03",
+        "direct_shot": "확인서 앞 빈 자리→신체 확인 항목 공란→훈련 시작. 미확인 서명·실제양식 재현 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "확인서 앞 빈 자리",
+        "after": "훈련 시작. 미확인 서명·실제양식 재현 금지."
+      },
+      {
+        "id": "T03_04",
+        "text": "훈련 명령이 내려졌다는 사실과 그 명령이 필요한 절차를 거쳤다는 것은 다릅니다.",
+        "facts": [
+          "enrich:F04",
+          "enrich:F05"
+        ],
+        "paragraph": "T03",
+        "direct_shot": "확인서 앞 빈 자리→신체 확인 항목 공란→훈련 시작. 미확인 서명·실제양식 재현 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "확인서 앞 빈 자리",
+        "after": "훈련 시작. 미확인 서명·실제양식 재현 금지."
+      },
+      {
+        "id": "T03_05",
+        "text": "이 사건은 시작 전 확인을 건너뛴 상태에서 사람을 움직이게 했다는 문제를 안고 있었습니다.",
+        "facts": [
+          "enrich:F04",
+          "enrich:F05"
+        ],
+        "paragraph": "T03",
+        "direct_shot": "확인서 앞 빈 자리→신체 확인 항목 공란→훈련 시작. 미확인 서명·실제양식 재현 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "확인서 앞 빈 자리",
+        "after": "훈련 시작. 미확인 서명·실제양식 재현 금지."
+      },
+      {
+        "id": "T04_01",
+        "text": "훈련병들은 보급품을 모두 받지 못한 상태였습니다.",
+        "facts": [
+          "enrich:F06",
+          "enrich:F07"
+        ],
+        "paragraph": "T04",
+        "direct_shot": "책을 군장 안에 넣는 손→덮개→어깨끈이 몸에 결속. 권수·중량 카운트 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "책을 군장 안에 넣는 손",
+        "after": "어깨끈이 몸에 결속. 권수·중량 카운트 없음."
+      },
+      {
+        "id": "T04_02",
+        "text": "군장의 빈 곳을 책으로 채우게 했다는 경찰 수사결과가 보도됐습니다.",
+        "facts": [
+          "enrich:F06",
+          "enrich:F07"
+        ],
+        "paragraph": "T04",
+        "direct_shot": "책을 군장 안에 넣는 손→덮개→어깨끈이 몸에 결속. 권수·중량 카운트 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "책을 군장 안에 넣는 손",
+        "after": "어깨끈이 몸에 결속. 권수·중량 카운트 없음."
+      },
+      {
+        "id": "T04_03",
+        "text": "뒤에 법정에 나온 동료들은 책 약 마흔 권을 넣었다는 취지로 증언했습니다.",
+        "facts": [
+          "enrich:F06",
+          "enrich:F07"
+        ],
+        "paragraph": "T04",
+        "direct_shot": "책을 군장 안에 넣는 손→덮개→어깨끈이 몸에 결속. 권수·중량 카운트 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "책을 군장 안에 넣는 손",
+        "after": "어깨끈이 몸에 결속. 권수·중량 카운트 없음."
+      },
+      {
+        "id": "T04_04",
+        "text": "책의 권수에 관한 증언을 실제 군장의 무게로 바꿀 수는 없습니다.",
+        "facts": [
+          "enrich:F06",
+          "enrich:F07"
+        ],
+        "paragraph": "T04",
+        "direct_shot": "책을 군장 안에 넣는 손→덮개→어깨끈이 몸에 결속. 권수·중량 카운트 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "책을 군장 안에 넣는 손",
+        "after": "어깨끈이 몸에 결속. 권수·중량 카운트 없음."
+      },
+      {
+        "id": "T04_05",
+        "text": "여기서는 확인된 물건과 행동, 곧 책으로 빈 공간을 채운 군장까지만 보여 줍니다.",
+        "facts": [
+          "enrich:F06",
+          "enrich:F07"
+        ],
+        "paragraph": "T04",
+        "direct_shot": "책을 군장 안에 넣는 손→덮개→어깨끈이 몸에 결속. 권수·중량 카운트 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "책을 군장 안에 넣는 손",
+        "after": "어깨끈이 몸에 결속. 권수·중량 카운트 없음."
+      },
+      {
+        "id": "T04_06",
+        "text": "무게 수치를 임의로 달지는 않습니다.",
+        "facts": [
+          "enrich:F06",
+          "enrich:F07"
+        ],
+        "paragraph": "T04",
+        "direct_shot": "책을 군장 안에 넣는 손→덮개→어깨끈이 몸에 결속. 권수·중량 카운트 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "책을 군장 안에 넣는 손",
+        "after": "어깨끈이 몸에 결속. 권수·중량 카운트 없음."
+      },
+      {
+        "id": "T05_01",
+        "text": "시작 시점은 경찰 수사결과 보도 기준 오후 네 시 이십육 분쯤입니다.",
+        "facts": [
+          "enrich:F08",
+          "enrich:F10"
+        ],
+        "paragraph": "T05",
+        "direct_shot": "군장·슬링·손 파지 근접→뒤꿈치 접지 보행→연병장 진행방향 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "군장·슬링·손 파지 근접",
+        "after": "연병장 진행방향 유지."
+      },
+      {
+        "id": "T05_02",
+        "text": "훈련병들은 총기를 휴대한 완전군장 상태로 먼저 연병장 두 바퀴를 걸었습니다.",
+        "facts": [
+          "enrich:F08",
+          "enrich:F10"
+        ],
+        "paragraph": "T05",
+        "direct_shot": "군장·슬링·손 파지 근접→뒤꿈치 접지 보행→연병장 진행방향 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "군장·슬링·손 파지 근접",
+        "after": "연병장 진행방향 유지."
+      },
+      {
+        "id": "T05_03",
+        "text": "화면에서도 몸 뒤의 군장과 총기를 구분해서 보겠습니다.",
+        "facts": [
+          "enrich:F08",
+          "enrich:F10"
+        ],
+        "paragraph": "T05",
+        "direct_shot": "군장·슬링·손 파지 근접→뒤꿈치 접지 보행→연병장 진행방향 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "군장·슬링·손 파지 근접",
+        "after": "연병장 진행방향 유지."
+      },
+      {
+        "id": "T05_04",
+        "text": "가벼운 복장으로 걷는 그림을 붙이면 발화와 다른 상황이 됩니다.",
+        "facts": [
+          "enrich:F08",
+          "enrich:F10"
+        ],
+        "paragraph": "T05",
+        "direct_shot": "군장·슬링·손 파지 근접→뒤꿈치 접지 보행→연병장 진행방향 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "군장·슬링·손 파지 근접",
+        "after": "연병장 진행방향 유지."
+      },
+      {
+        "id": "T05_05",
+        "text": "다만 재구성의 걸음 수나 화면 속 거리는 실제 현장의 전체 보행 거리나 시간을 측정한 값이 아닙니다.",
+        "facts": [
+          "enrich:F08",
+          "enrich:F10"
+        ],
+        "paragraph": "T05",
+        "direct_shot": "군장·슬링·손 파지 근접→뒤꿈치 접지 보행→연병장 진행방향 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "군장·슬링·손 파지 근접",
+        "after": "연병장 진행방향 유지."
+      },
+      {
+        "id": "T06_01",
+        "text": "뒤이어 중대장이 지시한 것은 선착순 한 바퀴였습니다.",
+        "facts": [
+          "enrich:F09",
+          "E03"
+        ],
+        "paragraph": "T06",
+        "direct_shot": "보행에서 달리기로 전환→팔굽혀펴기 손·발 지지→다시 뜀걸음. 동작별 컷 명확히.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "보행에서 달리기로 전환",
+        "after": "다시 뜀걸음. 동작별 컷 명확히."
+      },
+      {
+        "id": "T06_02",
+        "text": "그다음 팔굽혀펴기, 그리고 뜀걸음 세 바퀴가 이어졌다고 경찰은 밝혔습니다.",
+        "facts": [
+          "enrich:F09",
+          "E03"
+        ],
+        "paragraph": "T06",
+        "direct_shot": "보행에서 달리기로 전환→팔굽혀펴기 손·발 지지→다시 뜀걸음. 동작별 컷 명확히.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "보행에서 달리기로 전환",
+        "after": "다시 뜀걸음. 동작별 컷 명확히."
+      },
+      {
+        "id": "T06_03",
+        "text": "완전군장 상태였습니다.",
+        "facts": [
+          "enrich:F09",
+          "E03"
+        ],
+        "paragraph": "T06",
+        "direct_shot": "보행에서 달리기로 전환→팔굽혀펴기 손·발 지지→다시 뜀걸음. 동작별 컷 명확히.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "보행에서 달리기로 전환",
+        "after": "다시 뜀걸음. 동작별 컷 명확히."
+      },
+      {
+        "id": "T06_04",
+        "text": "걷기와 뛰기, 팔굽혀펴기는 서로 다른 동작입니다.",
+        "facts": [
+          "enrich:F09",
+          "E03"
+        ],
+        "paragraph": "T06",
+        "direct_shot": "보행에서 달리기로 전환→팔굽혀펴기 손·발 지지→다시 뜀걸음. 동작별 컷 명확히.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "보행에서 달리기로 전환",
+        "after": "다시 뜀걸음. 동작별 컷 명확히."
+      },
+      {
+        "id": "T06_05",
+        "text": "이 장면에서는 팔꿈치가 굽혀지고 몸이 내려갔다가 올라오는 움직임을 따로 보여 줍니다.",
+        "facts": [
+          "enrich:F09",
+          "E03"
+        ],
+        "paragraph": "T06",
+        "direct_shot": "보행에서 달리기로 전환→팔굽혀펴기 손·발 지지→다시 뜀걸음. 동작별 컷 명확히.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "보행에서 달리기로 전환",
+        "after": "다시 뜀걸음. 동작별 컷 명확히."
+      },
+      {
+        "id": "T06_06",
+        "text": "정확한 팔굽혀펴기 횟수나 연병장 둘레는 확인되지 않았으므로 화면에 숫자를 만들어 넣지 않습니다.",
+        "facts": [
+          "enrich:F09",
+          "E03"
+        ],
+        "paragraph": "T06",
+        "direct_shot": "보행에서 달리기로 전환→팔굽혀펴기 손·발 지지→다시 뜀걸음. 동작별 컷 명확히.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "보행에서 달리기로 전환",
+        "after": "다시 뜀걸음. 동작별 컷 명확히."
+      },
+      {
+        "id": "T07_01",
+        "text": "오후 다섯 시 십일 분쯤, 뜀걸음 지시를 수행하던 훈련병 한 명이 쓰러졌다고 경찰 수사결과는 전합니다.",
+        "facts": [
+          "enrich:F11",
+          "enrich:F12"
+        ],
+        "paragraph": "T07",
+        "direct_shot": "달리던 훈련병 무릎 굽힘→중심 하강→옆으로 쓰러진 뒤 컷 종료.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "달리던 훈련병 무릎 굽힘",
+        "after": "옆으로 쓰러진 뒤 컷 종료."
+      },
+      {
+        "id": "T07_02",
+        "text": "시작한 지 약 사십오 분 뒤였습니다.",
+        "facts": [
+          "enrich:F11",
+          "enrich:F12"
+        ],
+        "paragraph": "T07",
+        "direct_shot": "달리던 훈련병 무릎 굽힘→중심 하강→옆으로 쓰러진 뒤 컷 종료.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "달리던 훈련병 무릎 굽힘",
+        "after": "옆으로 쓰러진 뒤 컷 종료."
+      },
+      {
+        "id": "T07_03",
+        "text": "세 바퀴를 다 완주한 뒤에 쓰러졌다고 바꿔 말해서는 안 됩니다.",
+        "facts": [
+          "enrich:F11",
+          "enrich:F12"
+        ],
+        "paragraph": "T07",
+        "direct_shot": "달리던 훈련병 무릎 굽힘→중심 하강→옆으로 쓰러진 뒤 컷 종료.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "달리던 훈련병 무릎 굽힘",
+        "after": "옆으로 쓰러진 뒤 컷 종료."
+      },
+      {
+        "id": "T07_04",
+        "text": "초기 보도의 시각과 후속 수사 발표의 시각도 조금씩 달랐습니다.",
+        "facts": [
+          "enrich:F11",
+          "enrich:F12"
+        ],
+        "paragraph": "T07",
+        "direct_shot": "달리던 훈련병 무릎 굽힘→중심 하강→옆으로 쓰러진 뒤 컷 종료.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "달리던 훈련병 무릎 굽힘",
+        "after": "옆으로 쓰러진 뒤 컷 종료."
+      },
+      {
+        "id": "T07_05",
+        "text": "여기서는 후속 경찰 수사결과가 특정한 시각과, 그 지시를 수행하던 중이라는 순서를 기준으로 삼습니다.",
+        "facts": [
+          "enrich:F11",
+          "enrich:F12"
+        ],
+        "paragraph": "T07",
+        "direct_shot": "달리던 훈련병 무릎 굽힘→중심 하강→옆으로 쓰러진 뒤 컷 종료.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "달리던 훈련병 무릎 굽힘",
+        "after": "옆으로 쓰러진 뒤 컷 종료."
+      },
+      {
+        "id": "T08_01",
+        "text": "쓰러진 뒤에는 대응이 문제였습니다.",
+        "facts": [
+          "enrich:F13",
+          "E04"
+        ],
+        "paragraph": "T08",
+        "direct_shot": "훈련 동선 멈춤→쓰러진 위치와 지휘관 거리 넓은 컷→수사기록. 의료행위 창작 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "훈련 동선 멈춤",
+        "after": "수사기록. 의료행위 창작 없음."
+      },
+      {
+        "id": "T08_02",
+        "text": "경찰은 간부들이 열사병의 위급 상황을 제대로 인지하지 못해 신속한 응급처치를 지체했다고 판단했습니다.",
+        "facts": [
+          "enrich:F13",
+          "E04"
+        ],
+        "paragraph": "T08",
+        "direct_shot": "훈련 동선 멈춤→쓰러진 위치와 지휘관 거리 넓은 컷→수사기록. 의료행위 창작 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "훈련 동선 멈춤",
+        "after": "수사기록. 의료행위 창작 없음."
+      },
+      {
+        "id": "T08_03",
+        "text": "이는 수사기관의 판단으로 전해진 내용입니다.",
+        "facts": [
+          "enrich:F13",
+          "E04"
+        ],
+        "paragraph": "T08",
+        "direct_shot": "훈련 동선 멈춤→쓰러진 위치와 지휘관 거리 넓은 컷→수사기록. 의료행위 창작 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "훈련 동선 멈춤",
+        "after": "수사기록. 의료행위 창작 없음."
+      },
+      {
+        "id": "T08_04",
+        "text": "몇 분만 빨랐다면 반드시 살았을 것이라고 단정하는 의학적 결론은 아닙니다.",
+        "facts": [
+          "enrich:F13",
+          "E04"
+        ],
+        "paragraph": "T08",
+        "direct_shot": "훈련 동선 멈춤→쓰러진 위치와 지휘관 거리 넓은 컷→수사기록. 의료행위 창작 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "훈련 동선 멈춤",
+        "after": "수사기록. 의료행위 창작 없음."
+      },
+      {
+        "id": "T08_05",
+        "text": "다만 이 사건의 책임을 살피는 범위가 훈련 동작에만 머물지 않고, 실신 뒤 적절한 조치가 있었는지까지 이어진다는 점은 분명합니다.",
+        "facts": [
+          "enrich:F13",
+          "E04"
+        ],
+        "paragraph": "T08",
+        "direct_shot": "훈련 동선 멈춤→쓰러진 위치와 지휘관 거리 넓은 컷→수사기록. 의료행위 창작 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "훈련 동선 멈춤",
+        "after": "수사기록. 의료행위 창작 없음."
+      },
+      {
+        "id": "T09_01",
+        "text": "훈련병은 의무대에서 처치를 받은 뒤 속초의료원으로 이송됐고, 다시 강릉아산병원으로 옮겨졌다고 보도됐습니다.",
+        "facts": [
+          "enrich:F16",
+          "enrich:F17"
+        ],
+        "paragraph": "T09",
+        "direct_shot": "의무대 문→속초의료원 외관→병원 이름 교체. 전원 경로 방향 일관.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "의무대 문",
+        "after": "병원 이름 교체. 전원 경로 방향 일관."
+      },
+      {
+        "id": "T09_02",
+        "text": "속초의료원 도착 시각은 기사마다 오후 여섯 시 사십 분에서 오십 분쯤으로 차이가 있습니다.",
+        "facts": [
+          "enrich:F16",
+          "enrich:F17"
+        ],
+        "paragraph": "T09",
+        "direct_shot": "의무대 문→속초의료원 외관→병원 이름 교체. 전원 경로 방향 일관.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "의무대 문",
+        "after": "병원 이름 교체. 전원 경로 방향 일관."
+      },
+      {
+        "id": "T09_03",
+        "text": "따라서 분 단위 시각 하나를 확정해서 쓰지 않겠습니다.",
+        "facts": [
+          "enrich:F16",
+          "enrich:F17"
+        ],
+        "paragraph": "T09",
+        "direct_shot": "의무대 문→속초의료원 외관→병원 이름 교체. 전원 경로 방향 일관.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "의무대 문",
+        "after": "병원 이름 교체. 전원 경로 방향 일관."
+      },
+      {
+        "id": "T09_04",
+        "text": "서로 다른 보도를 평균 내 새로운 도착 시각을 만들 수도 없습니다.",
+        "facts": [
+          "enrich:F16",
+          "enrich:F17"
+        ],
+        "paragraph": "T09",
+        "direct_shot": "의무대 문→속초의료원 외관→병원 이름 교체. 전원 경로 방향 일관.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "의무대 문",
+        "after": "병원 이름 교체. 전원 경로 방향 일관."
+      },
+      {
+        "id": "T09_05",
+        "text": "확인되는 이송의 순서와 자료가 일치하지 않는 부분을 함께 남깁니다.",
+        "facts": [
+          "enrich:F16",
+          "enrich:F17"
+        ],
+        "paragraph": "T09",
+        "direct_shot": "의무대 문→속초의료원 외관→병원 이름 교체. 전원 경로 방향 일관.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "의무대 문",
+        "after": "병원 이름 교체. 전원 경로 방향 일관."
+      },
+      {
+        "id": "T10_01",
+        "text": "의료원 관계자는 도착 당시 검사에서 장기 손상이 의심되는 중증 상태였다고 설명했습니다.",
+        "facts": [
+          "enrich:F20",
+          "enrich:F21"
+        ],
+        "paragraph": "T10",
+        "direct_shot": "의료원 기록을 확인하는 손→중립적 병실 외부. 장기·고통 재현 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "의료원 기록을 확인하는 손",
+        "after": "중립적 병실 외부. 장기·고통 재현 없음."
+      },
+      {
+        "id": "T10_02",
+        "text": "이송 당시 사십 도를 넘는 고열이 있었다는 보도도 있습니다.",
+        "facts": [
+          "enrich:F20",
+          "enrich:F21"
+        ],
+        "paragraph": "T10",
+        "direct_shot": "의료원 기록을 확인하는 손→중립적 병실 외부. 장기·고통 재현 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "의료원 기록을 확인하는 손",
+        "after": "중립적 병실 외부. 장기·고통 재현 없음."
+      },
+      {
+        "id": "T10_03",
+        "text": "이것은 의료 취재에서 전해진 상태 설명이지, 우리가 의료기록 원본을 직접 검증했다는 뜻은 아닙니다.",
+        "facts": [
+          "enrich:F20",
+          "enrich:F21"
+        ],
+        "paragraph": "T10",
+        "direct_shot": "의료원 기록을 확인하는 손→중립적 병실 외부. 장기·고통 재현 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "의료원 기록을 확인하는 손",
+        "after": "중립적 병실 외부. 장기·고통 재현 없음."
+      },
+      {
+        "id": "T10_04",
+        "text": "어느 장기가 언제 손상됐는지 추가로 추정하지 않겠습니다.",
+        "facts": [
+          "enrich:F20",
+          "enrich:F21"
+        ],
+        "paragraph": "T10",
+        "direct_shot": "의료원 기록을 확인하는 손→중립적 병실 외부. 장기·고통 재현 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "의료원 기록을 확인하는 손",
+        "after": "중립적 병실 외부. 장기·고통 재현 없음."
+      },
+      {
+        "id": "T10_05",
+        "text": "확인된 범위 안에서도 상급병원으로 옮겨야 할 만큼 위중한 상황이었다는 사실은 드러납니다.",
+        "facts": [
+          "enrich:F20",
+          "enrich:F21"
+        ],
+        "paragraph": "T10",
+        "direct_shot": "의료원 기록을 확인하는 손→중립적 병실 외부. 장기·고통 재현 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "의료원 기록을 확인하는 손",
+        "after": "중립적 병실 외부. 장기·고통 재현 없음."
+      },
+      {
+        "id": "T11_01",
+        "text": "강릉아산병원에 도착한 시각은 그날 밤 아홉 시 사십 분쯤으로 교차 보도됐습니다.",
+        "facts": [
+          "enrich:F18",
+          "enrich:F19"
+        ],
+        "paragraph": "T11",
+        "direct_shot": "전원 문의 기록→다른 병원 문→21:40 시각. 세 시간 차량주행 루프 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "전원 문의 기록",
+        "after": "21:40 시각. 세 시간 차량주행 루프 금지."
+      },
+      {
+        "id": "T11_02",
+        "text": "속초의료원에서 상급병원으로 옮겨 도착하기까지 약 세 시간이 걸렸다는 설명입니다.",
+        "facts": [
+          "enrich:F18",
+          "enrich:F19"
+        ],
+        "paragraph": "T11",
+        "direct_shot": "전원 문의 기록→다른 병원 문→21:40 시각. 세 시간 차량주행 루프 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "전원 문의 기록",
+        "after": "21:40 시각. 세 시간 차량주행 루프 금지."
+      },
+      {
+        "id": "T11_03",
+        "text": "이 세 시간 전부가 차로 달린 시간은 아닙니다.",
+        "facts": [
+          "enrich:F18",
+          "enrich:F19"
+        ],
+        "paragraph": "T11",
+        "direct_shot": "전원 문의 기록→다른 병원 문→21:40 시각. 세 시간 차량주행 루프 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "전원 문의 기록",
+        "after": "21:40 시각. 세 시간 차량주행 루프 금지."
+      },
+      {
+        "id": "T11_04",
+        "text": "전원이 가능한 병원을 찾는 과정까지 포함한 전체 경과입니다.",
+        "facts": [
+          "enrich:F18",
+          "enrich:F19"
+        ],
+        "paragraph": "T11",
+        "direct_shot": "전원 문의 기록→다른 병원 문→21:40 시각. 세 시간 차량주행 루프 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "전원 문의 기록",
+        "after": "21:40 시각. 세 시간 차량주행 루프 금지."
+      },
+      {
+        "id": "T11_05",
+        "text": "어느 한 병원이 세 시간 내내 거부했다고 단순화하는 것도 근거를 넘어섭니다.",
+        "facts": [
+          "enrich:F18",
+          "enrich:F19"
+        ],
+        "paragraph": "T11",
+        "direct_shot": "전원 문의 기록→다른 병원 문→21:40 시각. 세 시간 차량주행 루프 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "전원 문의 기록",
+        "after": "21:40 시각. 세 시간 차량주행 루프 금지."
+      },
+      {
+        "id": "T11_06",
+        "text": "이동 경로와 시간의 의미를 함께 구분해야 합니다.",
+        "facts": [
+          "enrich:F18",
+          "enrich:F19"
+        ],
+        "paragraph": "T11",
+        "direct_shot": "전원 문의 기록→다른 병원 문→21:40 시각. 세 시간 차량주행 루프 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "전원 문의 기록",
+        "after": "21:40 시각. 세 시간 차량주행 루프 금지."
+      },
+      {
+        "id": "T12_01",
+        "text": "중환자실 치료가 이어졌지만, 훈련병은 쓰러진 이틀 뒤인 오월 이십오일 숨졌습니다.",
+        "facts": [
+          "enrich:F14",
+          "enrich:F15",
+          "enrich:F22"
+        ],
+        "paragraph": "T12",
+        "direct_shot": "중환자실 외부→2024-05-25 날짜→비어 있는 복도. 심전도 멈춤 효과 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "중환자실 외부",
+        "after": "비어 있는 복도. 심전도 멈춤 효과 없음."
+      },
+      {
+        "id": "T12_02",
+        "text": "오월 이십삼일은 군기훈련 중 쓰러진 날이고, 사망일은 다릅니다.",
+        "facts": [
+          "enrich:F14",
+          "enrich:F15",
+          "enrich:F22"
+        ],
+        "paragraph": "T12",
+        "direct_shot": "중환자실 외부→2024-05-25 날짜→비어 있는 복도. 심전도 멈춤 효과 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "중환자실 외부",
+        "after": "비어 있는 복도. 심전도 멈춤 효과 없음."
+      },
+      {
+        "id": "T12_03",
+        "text": "이후 수사결과 보도는 사인을 열사병에 의한 다발성 장기부전으로 전했습니다.",
+        "facts": [
+          "enrich:F14",
+          "enrich:F15",
+          "enrich:F22"
+        ],
+        "paragraph": "T12",
+        "direct_shot": "중환자실 외부→2024-05-25 날짜→비어 있는 복도. 심전도 멈춤 효과 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "중환자실 외부",
+        "after": "비어 있는 복도. 심전도 멈춤 효과 없음."
+      },
+      {
+        "id": "T12_04",
+        "text": "초기 기사에 나온 의심 증상을 최종 확정 진단으로 바꿔 붙이지 않습니다.",
+        "facts": [
+          "enrich:F14",
+          "enrich:F15",
+          "enrich:F22"
+        ],
+        "paragraph": "T12",
+        "direct_shot": "중환자실 외부→2024-05-25 날짜→비어 있는 복도. 심전도 멈춤 효과 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "중환자실 외부",
+        "after": "비어 있는 복도. 심전도 멈춤 효과 없음."
+      },
+      {
+        "id": "T12_05",
+        "text": "확인된 사망 경과와 후속 보도 소견을 중립적으로 남기고, 신체 상태를 자극적으로 재연하지 않겠습니다.",
+        "facts": [
+          "enrich:F14",
+          "enrich:F15",
+          "enrich:F22"
+        ],
+        "paragraph": "T12",
+        "direct_shot": "중환자실 외부→2024-05-25 날짜→비어 있는 복도. 심전도 멈춤 효과 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "중환자실 외부",
+        "after": "비어 있는 복도. 심전도 멈춤 효과 없음."
+      },
+      {
+        "id": "T13_01",
+        "text": "가족에게 남은 기록은 병원 기사만이 아니었습니다.",
+        "facts": [
+          "enrich:F23",
+          "enrich:F26"
+        ],
+        "paragraph": "T13",
+        "direct_shot": "편지 위 전화 시각→인용 범위만 짧게 표시→편지를 접는 손. 어머니 행동 재연 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "편지 위 전화 시각",
+        "after": "편지를 접는 손. 어머니 행동 재연 없음."
+      },
+      {
+        "id": "T13_02",
+        "text": "어머니는 공개편지에 아들이 쓰러졌다는 첫 전화를 받은 시각을 오월 이십삼일 오후 다섯 시 오십사 분이라고 적었습니다.",
+        "facts": [
+          "enrich:F23",
+          "enrich:F26"
+        ],
+        "paragraph": "T13",
+        "direct_shot": "편지 위 전화 시각→인용 범위만 짧게 표시→편지를 접는 손. 어머니 행동 재연 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "편지 위 전화 시각",
+        "after": "편지를 접는 손. 어머니 행동 재연 없음."
+      },
+      {
+        "id": "T13_03",
+        "text": "이것은 편지에 기록된 통보 시각입니다.",
+        "facts": [
+          "enrich:F23",
+          "enrich:F26"
+        ],
+        "paragraph": "T13",
+        "direct_shot": "편지 위 전화 시각→인용 범위만 짧게 표시→편지를 접는 손. 어머니 행동 재연 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "편지 위 전화 시각",
+        "after": "편지를 접는 손. 어머니 행동 재연 없음."
+      },
+      {
+        "id": "T13_04",
+        "text": "쓰러진 시각이나 직접 확보한 통신기록과 같은 자료는 아닙니다.",
+        "facts": [
+          "enrich:F23",
+          "enrich:F26"
+        ],
+        "paragraph": "T13",
+        "direct_shot": "편지 위 전화 시각→인용 범위만 짧게 표시→편지를 접는 손. 어머니 행동 재연 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "편지 위 전화 시각",
+        "after": "편지를 접는 손. 어머니 행동 재연 없음."
+      },
+      {
+        "id": "T13_05",
+        "text": "편지에는 안전하게 훈련시켜 수료식 날 보여 주겠다는 대대장의 말을 기억한다는 내용도 있었습니다.",
+        "facts": [
+          "enrich:F23",
+          "enrich:F26"
+        ],
+        "paragraph": "T13",
+        "direct_shot": "편지 위 전화 시각→인용 범위만 짧게 표시→편지를 접는 손. 어머니 행동 재연 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "편지 위 전화 시각",
+        "after": "편지를 접는 손. 어머니 행동 재연 없음."
+      },
+      {
+        "id": "T13_06",
+        "text": "그 화자를 중대장으로 바꾸지 않습니다.",
+        "facts": [
+          "enrich:F23",
+          "enrich:F26"
+        ],
+        "paragraph": "T13",
+        "direct_shot": "편지 위 전화 시각→인용 범위만 짧게 표시→편지를 접는 손. 어머니 행동 재연 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "편지 위 전화 시각",
+        "after": "편지를 접는 손. 어머니 행동 재연 없음."
+      },
+      {
+        "id": "T14_01",
+        "text": "이천이십사년 팔월 이십칠일 공판에는 함께 훈련받던 동료 네 명이 증인으로 나왔습니다.",
+        "facts": [
+          "enrich:F32",
+          "enrich:F33"
+        ],
+        "paragraph": "T14",
+        "direct_shot": "증인석으로 들어오는 익명 동료→생활관 문에 배트 실루엣 삽입→증인석 복귀. 타격 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증인석으로 들어오는 익명 동료",
+        "after": "증인석 복귀. 타격 없음."
+      },
+      {
+        "id": "T14_02",
+        "text": "네 명은 그날 출석한 증인 수이지, 사건 당시 군기훈련 대상의 전체 인원은 아닙니다.",
+        "facts": [
+          "enrich:F32",
+          "enrich:F33"
+        ],
+        "paragraph": "T14",
+        "direct_shot": "증인석으로 들어오는 익명 동료→생활관 문에 배트 실루엣 삽입→증인석 복귀. 타격 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증인석으로 들어오는 익명 동료",
+        "after": "증인석 복귀. 타격 없음."
+      },
+      {
+        "id": "T14_03",
+        "text": "동료들은 부중대장이 취침시간 생활관에 야구배트를 들고 들어와 다음 날 군기훈련을 예고했다고 증언했습니다.",
+        "facts": [
+          "enrich:F32",
+          "enrich:F33"
+        ],
+        "paragraph": "T14",
+        "direct_shot": "증인석으로 들어오는 익명 동료→생활관 문에 배트 실루엣 삽입→증인석 복귀. 타격 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증인석으로 들어오는 익명 동료",
+        "after": "증인석 복귀. 타격 없음."
+      },
+      {
+        "id": "T14_04",
+        "text": "배트를 들고 있었다는 증언을 배트로 때렸다는 장면으로 바꿀 근거는 없습니다.",
+        "facts": [
+          "enrich:F32",
+          "enrich:F33"
+        ],
+        "paragraph": "T14",
+        "direct_shot": "증인석으로 들어오는 익명 동료→생활관 문에 배트 실루엣 삽입→증인석 복귀. 타격 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증인석으로 들어오는 익명 동료",
+        "after": "증인석 복귀. 타격 없음."
+      },
+      {
+        "id": "T14_05",
+        "text": "법정에서 전해진 행동의 범위를 지킵니다.",
+        "facts": [
+          "enrich:F32",
+          "enrich:F33"
+        ],
+        "paragraph": "T14",
+        "direct_shot": "증인석으로 들어오는 익명 동료→생활관 문에 배트 실루엣 삽입→증인석 복귀. 타격 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증인석으로 들어오는 익명 동료",
+        "after": "증인석 복귀. 타격 없음."
+      },
+      {
+        "id": "T15_01",
+        "text": "동료들은 훈련병이 쓰러진 뒤에도 중대장이 욕설하며 혼내거나 일어나라고 소리쳤다고 증언했습니다.",
+        "facts": [
+          "enrich:F34",
+          "enrich:F35"
+        ],
+        "paragraph": "T15",
+        "direct_shot": "증언을 듣는 법정→기록하는 손→동료의 빈 자리. 욕설 육성 합성 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증언을 듣는 법정",
+        "after": "동료의 빈 자리. 욕설 육성 합성 없음."
+      },
+      {
+        "id": "T15_02",
+        "text": "기사마다 구체적인 표현은 달랐습니다.",
+        "facts": [
+          "enrich:F34",
+          "enrich:F35"
+        ],
+        "paragraph": "T15",
+        "direct_shot": "증언을 듣는 법정→기록하는 손→동료의 빈 자리. 욕설 육성 합성 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증언을 듣는 법정",
+        "after": "동료의 빈 자리. 욕설 육성 합성 없음."
+      },
+      {
+        "id": "T15_03",
+        "text": "그래서 그 말을 모아 현장 녹음처럼 합성하지 않습니다.",
+        "facts": [
+          "enrich:F34",
+          "enrich:F35"
+        ],
+        "paragraph": "T15",
+        "direct_shot": "증언을 듣는 법정→기록하는 손→동료의 빈 자리. 욕설 육성 합성 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증언을 듣는 법정",
+        "after": "동료의 빈 자리. 욕설 육성 합성 없음."
+      },
+      {
+        "id": "T15_04",
+        "text": "그날 증언한 훈련병 한 명은 외상 후 스트레스 장애 진단을 받았다고 밝혔습니다.",
+        "facts": [
+          "enrich:F34",
+          "enrich:F35"
+        ],
+        "paragraph": "T15",
+        "direct_shot": "증언을 듣는 법정→기록하는 손→동료의 빈 자리. 욕설 육성 합성 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증언을 듣는 법정",
+        "after": "동료의 빈 자리. 욕설 육성 합성 없음."
+      },
+      {
+        "id": "T15_05",
+        "text": "의료기록 원본을 확인한 것은 아니며, 동료 모두가 같은 진단을 받았다는 뜻도 아닙니다.",
+        "facts": [
+          "enrich:F34",
+          "enrich:F35"
+        ],
+        "paragraph": "T15",
+        "direct_shot": "증언을 듣는 법정→기록하는 손→동료의 빈 자리. 욕설 육성 합성 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증언을 듣는 법정",
+        "after": "동료의 빈 자리. 욕설 육성 합성 없음."
+      },
+      {
+        "id": "T15_06",
+        "text": "살아남은 사람에게도 사건이 남았다는 증언입니다.",
+        "facts": [
+          "enrich:F34",
+          "enrich:F35"
+        ],
+        "paragraph": "T15",
+        "direct_shot": "증언을 듣는 법정→기록하는 손→동료의 빈 자리. 욕설 육성 합성 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증언을 듣는 법정",
+        "after": "동료의 빈 자리. 욕설 육성 합성 없음."
+      },
+      {
+        "id": "T16_01",
+        "text": "한 증인은 응급처치가 더 빨랐다면 살 수 있었을 것이라는 아쉬움도 말했습니다.",
+        "facts": [
+          "enrich:F36",
+          "enrich:F13"
+        ],
+        "paragraph": "T16",
+        "direct_shot": "증인석에서 서류 내려놓기→수사기록과 증언 기록을 나란히 놓되 분리.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증인석에서 서류 내려놓기",
+        "after": "수사기록과 증언 기록을 나란히 놓되 분리."
+      },
+      {
+        "id": "T16_02",
+        "text": "증인이 법정에서 전한 평가입니다.",
+        "facts": [
+          "enrich:F36",
+          "enrich:F13"
+        ],
+        "paragraph": "T16",
+        "direct_shot": "증인석에서 서류 내려놓기→수사기록과 증언 기록을 나란히 놓되 분리.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증인석에서 서류 내려놓기",
+        "after": "수사기록과 증언 기록을 나란히 놓되 분리."
+      },
+      {
+        "id": "T16_03",
+        "text": "생존 가능성을 확정한 의료 판단으로 옮기지는 않겠습니다.",
+        "facts": [
+          "enrich:F36",
+          "enrich:F13"
+        ],
+        "paragraph": "T16",
+        "direct_shot": "증인석에서 서류 내려놓기→수사기록과 증언 기록을 나란히 놓되 분리.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증인석에서 서류 내려놓기",
+        "after": "수사기록과 증언 기록을 나란히 놓되 분리."
+      },
+      {
+        "id": "T16_04",
+        "text": "경찰의 응급처치 지체 판단과 동료가 전한 아쉬움은 관련되지만 같은 종류의 증거는 아닙니다.",
+        "facts": [
+          "enrich:F36",
+          "enrich:F13"
+        ],
+        "paragraph": "T16",
+        "direct_shot": "증인석에서 서류 내려놓기→수사기록과 증언 기록을 나란히 놓되 분리.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증인석에서 서류 내려놓기",
+        "after": "수사기록과 증언 기록을 나란히 놓되 분리."
+      },
+      {
+        "id": "T16_05",
+        "text": "기록의 출처를 구분하는 이유는 사건을 가볍게 보기 위해서가 아닙니다.",
+        "facts": [
+          "enrich:F36",
+          "enrich:F13"
+        ],
+        "paragraph": "T16",
+        "direct_shot": "증인석에서 서류 내려놓기→수사기록과 증언 기록을 나란히 놓되 분리.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증인석에서 서류 내려놓기",
+        "after": "수사기록과 증언 기록을 나란히 놓되 분리."
+      },
+      {
+        "id": "T16_06",
+        "text": "책임을 설명할 때 확인된 사실과 추정을 섞지 않기 위해서입니다.",
+        "facts": [
+          "enrich:F36",
+          "enrich:F13"
+        ],
+        "paragraph": "T16",
+        "direct_shot": "증인석에서 서류 내려놓기→수사기록과 증언 기록을 나란히 놓되 분리.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "증인석에서 서류 내려놓기",
+        "after": "수사기록과 증언 기록을 나란히 놓되 분리."
+      },
+      {
+        "id": "T17_01",
+        "text": "검찰은 이 사건을 단순 과실로만 보지 않았습니다.",
+        "facts": [
+          "C10",
+          "E06",
+          "C01",
+          "D01"
+        ],
+        "paragraph": "T17",
+        "direct_shot": "검사가 훈련기록과 신체조건 자료 확인→기소 문서→두 피고인석.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "검사가 훈련기록과 신체조건 자료 확인",
+        "after": "두 피고인석."
+      },
+      {
+        "id": "T17_02",
+        "text": "사건 경위와 훈련 방식, 진행 경과, 피해자의 신체조건을 종합해 위법한 군기훈련을 학대로 판단했다고 밝혔습니다.",
+        "facts": [
+          "C10",
+          "E06",
+          "C01",
+          "D01"
+        ],
+        "paragraph": "T17",
+        "direct_shot": "검사가 훈련기록과 신체조건 자료 확인→기소 문서→두 피고인석.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "검사가 훈련기록과 신체조건 자료 확인",
+        "after": "두 피고인석."
+      },
+      {
+        "id": "T17_03",
+        "text": "중대장과 부중대장은 학대치사와 직권남용 가혹행위 혐의로 기소됐습니다.",
+        "facts": [
+          "C10",
+          "E06",
+          "C01",
+          "D01"
+        ],
+        "paragraph": "T17",
+        "direct_shot": "검사가 훈련기록과 신체조건 자료 확인→기소 문서→두 피고인석.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "검사가 훈련기록과 신체조건 자료 확인",
+        "after": "두 피고인석."
+      },
+      {
+        "id": "T17_04",
+        "text": "경찰 수사결과를 소개하는 단계에서 검찰의 기소 판단으로 넘어온 것입니다.",
+        "facts": [
+          "C10",
+          "E06",
+          "C01",
+          "D01"
+        ],
+        "paragraph": "T17",
+        "direct_shot": "검사가 훈련기록과 신체조건 자료 확인→기소 문서→두 피고인석.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "검사가 훈련기록과 신체조건 자료 확인",
+        "after": "두 피고인석."
+      },
+      {
+        "id": "T17_05",
+        "text": "기소한 혐의와 법원이 최종적으로 인정한 내용은 다음 재판 과정을 통해 구분해서 보겠습니다.",
+        "facts": [
+          "C10",
+          "E06",
+          "C01",
+          "D01"
+        ],
+        "paragraph": "T17",
+        "direct_shot": "검사가 훈련기록과 신체조건 자료 확인→기소 문서→두 피고인석.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "검사가 훈련기록과 신체조건 자료 확인",
+        "after": "두 피고인석."
+      },
+      {
+        "id": "T18_01",
+        "text": "중대장 측은 잘못된 행동은 인정하면서도 학대치사 혐의는 부인했습니다.",
+        "facts": [
+          "C04",
+          "C03",
+          "D03",
+          "E07"
+        ],
+        "paragraph": "T18",
+        "direct_shot": "변호인 측 기록→검사가 일어나 법대로 의견서 제시. 판사는 듣는 위치 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "변호인 측 기록",
+        "after": "검사가 일어나 법대로 의견서 제시. 판사는 듣는 위치 유지."
+      },
+      {
+        "id": "T18_02",
+        "text": "이는 변호인 측 주장입니다.",
+        "facts": [
+          "C04",
+          "C03",
+          "D03",
+          "E07"
+        ],
+        "paragraph": "T18",
+        "direct_shot": "변호인 측 기록→검사가 일어나 법대로 의견서 제시. 판사는 듣는 위치 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "변호인 측 기록",
+        "after": "검사가 일어나 법대로 의견서 제시. 판사는 듣는 위치 유지."
+      },
+      {
+        "id": "T18_03",
+        "text": "이천이십사년 십일월 십이일 결심공판에서 검찰은 중대장에게 징역 십 년, 부중대장에게 징역 칠 년을 구형했습니다.",
+        "facts": [
+          "C04",
+          "C03",
+          "D03",
+          "E07"
+        ],
+        "paragraph": "T18",
+        "direct_shot": "변호인 측 기록→검사가 일어나 법대로 의견서 제시. 판사는 듣는 위치 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "변호인 측 기록",
+        "after": "검사가 일어나 법대로 의견서 제시. 판사는 듣는 위치 유지."
+      },
+      {
+        "id": "T18_04",
+        "text": "군의 지도력과 관리 체제에 대한 국민 신뢰를 훼손한 점도 구형 사유로 들었습니다.",
+        "facts": [
+          "C04",
+          "C03",
+          "D03",
+          "E07"
+        ],
+        "paragraph": "T18",
+        "direct_shot": "변호인 측 기록→검사가 일어나 법대로 의견서 제시. 판사는 듣는 위치 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "변호인 측 기록",
+        "after": "검사가 일어나 법대로 의견서 제시. 판사는 듣는 위치 유지."
+      },
+      {
+        "id": "T18_05",
+        "text": "이때 발언하는 주체는 검사입니다.",
+        "facts": [
+          "C04",
+          "C03",
+          "D03",
+          "E07"
+        ],
+        "paragraph": "T18",
+        "direct_shot": "변호인 측 기록→검사가 일어나 법대로 의견서 제시. 판사는 듣는 위치 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "변호인 측 기록",
+        "after": "검사가 일어나 법대로 의견서 제시. 판사는 듣는 위치 유지."
+      },
+      {
+        "id": "T18_06",
+        "text": "아직 법원이 형을 선고하는 장면이 아닙니다.",
+        "facts": [
+          "C04",
+          "C03",
+          "D03",
+          "E07"
+        ],
+        "paragraph": "T18",
+        "direct_shot": "변호인 측 기록→검사가 일어나 법대로 의견서 제시. 판사는 듣는 위치 유지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "변호인 측 기록",
+        "after": "검사가 일어나 법대로 의견서 제시. 판사는 듣는 위치 유지."
+      },
+      {
+        "id": "T19_01",
+        "text": "이천이십오년 일월 칠일, 춘천지법은 중대장에게 징역 오 년, 부중대장에게 징역 삼 년을 선고했습니다.",
+        "facts": [
+          "C05",
+          "D04",
+          "C06",
+          "D05",
+          "J06"
+        ],
+        "paragraph": "T19",
+        "direct_shot": "2025-01-07 법대 중심 컷→판사가 판결문을 들어 읽음→피고인 두 자리.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2025-01-07 법대 중심 컷",
+        "after": "피고인 두 자리."
+      },
+      {
+        "id": "T19_02",
+        "text": "두 사람의 학대치사와 직권남용 가혹행위 혐의는 유죄로 판단됐습니다.",
+        "facts": [
+          "C05",
+          "D04",
+          "C06",
+          "D05",
+          "J06"
+        ],
+        "paragraph": "T19",
+        "direct_shot": "2025-01-07 법대 중심 컷→판사가 판결문을 들어 읽음→피고인 두 자리.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2025-01-07 법대 중심 컷",
+        "after": "피고인 두 자리."
+      },
+      {
+        "id": "T19_03",
+        "text": "재판부는 군기훈련과 사망 사이 인과관계를 인정했습니다.",
+        "facts": [
+          "C05",
+          "D04",
+          "C06",
+          "D05",
+          "J06"
+        ],
+        "paragraph": "T19",
+        "direct_shot": "2025-01-07 법대 중심 컷→판사가 판결문을 들어 읽음→피고인 두 자리.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2025-01-07 법대 중심 컷",
+        "after": "피고인 두 자리."
+      },
+      {
+        "id": "T19_04",
+        "text": "검찰의 구형보다 선고형이 낮다는 사실을 무죄 판단으로 이해하면 안 됩니다.",
+        "facts": [
+          "C05",
+          "D04",
+          "C06",
+          "D05",
+          "J06"
+        ],
+        "paragraph": "T19",
+        "direct_shot": "2025-01-07 법대 중심 컷→판사가 판결문을 들어 읽음→피고인 두 자리.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2025-01-07 법대 중심 컷",
+        "after": "피고인 두 자리."
+      },
+      {
+        "id": "T19_05",
+        "text": "혐의를 유죄로 인정하는 판단과 얼마의 형을 정하는 판단은 연결돼 있으면서도 다른 질문입니다.",
+        "facts": [
+          "C05",
+          "D04",
+          "C06",
+          "D05",
+          "J06"
+        ],
+        "paragraph": "T19",
+        "direct_shot": "2025-01-07 법대 중심 컷→판사가 판결문을 들어 읽음→피고인 두 자리.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2025-01-07 법대 중심 컷",
+        "after": "피고인 두 자리."
+      },
+      {
+        "id": "T20_01",
+        "text": "일심 재판부는 신체조건에 맞지 않는 군기훈련을 시킨 점, 군 사기와 전투력, 국민 신뢰까지 해친 점에서 죄책을 무겁게 봤습니다.",
+        "facts": [
+          "J03",
+          "J05"
+        ],
+        "paragraph": "T20",
+        "direct_shot": "판사의 이유 낭독→훈련장 빈 군장→유족석은 식별 인물 없이 뒤쪽 공간만.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "판사의 이유 낭독",
+        "after": "유족석은 식별 인물 없이 뒤쪽 공간만."
+      },
+      {
+        "id": "T20_02",
+        "text": "피해자 측으로부터 용서받지 못했다는 사정도 지적했습니다.",
+        "facts": [
+          "J03",
+          "J05"
+        ],
+        "paragraph": "T20",
+        "direct_shot": "판사의 이유 낭독→훈련장 빈 군장→유족석은 식별 인물 없이 뒤쪽 공간만.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "판사의 이유 낭독",
+        "after": "유족석은 식별 인물 없이 뒤쪽 공간만."
+      },
+      {
+        "id": "T20_03",
+        "text": "훈련이라는 이름이 붙었다고 책임이 사라진 것이 아닙니다.",
+        "facts": [
+          "J03",
+          "J05"
+        ],
+        "paragraph": "T20",
+        "direct_shot": "판사의 이유 낭독→훈련장 빈 군장→유족석은 식별 인물 없이 뒤쪽 공간만.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "판사의 이유 낭독",
+        "after": "유족석은 식별 인물 없이 뒤쪽 공간만."
+      },
+      {
+        "id": "T20_04",
+        "text": "어떤 조직 안에서 어떤 목적으로 시작했는지와 별개로, 실제로 시행한 행위와 그 결과를 판단한 것입니다.",
+        "facts": [
+          "J03",
+          "J05"
+        ],
+        "paragraph": "T20",
+        "direct_shot": "판사의 이유 낭독→훈련장 빈 군장→유족석은 식별 인물 없이 뒤쪽 공간만.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "판사의 이유 낭독",
+        "after": "유족석은 식별 인물 없이 뒤쪽 공간만."
+      },
+      {
+        "id": "T20_05",
+        "text": "여기까지가 판결에서 불리하게 본 사정입니다.",
+        "facts": [
+          "J03",
+          "J05"
+        ],
+        "paragraph": "T20",
+        "direct_shot": "판사의 이유 낭독→훈련장 빈 군장→유족석은 식별 인물 없이 뒤쪽 공간만.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "판사의 이유 낭독",
+        "after": "유족석은 식별 인물 없이 뒤쪽 공간만."
+      },
+      {
+        "id": "T21_01",
+        "text": "동시에 일심은 사실관계를 인정하고 잘못을 반성하는 태도, 군 기강 확립을 위한 교육 목적에서 훈련하다 범행에 이른 점을 유리한 정상으로 참작했습니다.",
+        "facts": [
+          "J04",
+          "C06",
+          "D05"
+        ],
+        "paragraph": "T21",
+        "direct_shot": "피고인측 기록→판결문의 양형 부분→유죄 문서와 나란히 확인.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "피고인측 기록",
+        "after": "유죄 문서와 나란히 확인."
+      },
+      {
+        "id": "T21_02",
+        "text": "처음의 질문이 여기 있습니다.",
+        "facts": [
+          "J04",
+          "C06",
+          "D05"
+        ],
+        "paragraph": "T21",
+        "direct_shot": "피고인측 기록→판결문의 양형 부분→유죄 문서와 나란히 확인.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "피고인측 기록",
+        "after": "유죄 문서와 나란히 확인."
+      },
+      {
+        "id": "T21_03",
+        "text": "교육 목적은 형을 정할 때 고려한 이유입니다.",
+        "facts": [
+          "J04",
+          "C06",
+          "D05"
+        ],
+        "paragraph": "T21",
+        "direct_shot": "피고인측 기록→판결문의 양형 부분→유죄 문서와 나란히 확인.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "피고인측 기록",
+        "after": "유죄 문서와 나란히 확인."
+      },
+      {
+        "id": "T21_04",
+        "text": "학대치사가 무죄라거나 그 훈련이 정당했다는 결론이 아닙니다.",
+        "facts": [
+          "J04",
+          "C06",
+          "D05"
+        ],
+        "paragraph": "T21",
+        "direct_shot": "피고인측 기록→판결문의 양형 부분→유죄 문서와 나란히 확인.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "피고인측 기록",
+        "after": "유죄 문서와 나란히 확인."
+      },
+      {
+        "id": "T21_05",
+        "text": "유죄 판단을 지운 뒤 교육 목적이라는 문구만 떼어 놓으면 판결을 반대로 전달하게 됩니다.",
+        "facts": [
+          "J04",
+          "C06",
+          "D05"
+        ],
+        "paragraph": "T21",
+        "direct_shot": "피고인측 기록→판결문의 양형 부분→유죄 문서와 나란히 확인.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "피고인측 기록",
+        "after": "유죄 문서와 나란히 확인."
+      },
+      {
+        "id": "T22_01",
+        "text": "항소심에서는 죄의 수를 어떻게 볼 것인지도 달라졌습니다.",
+        "facts": [
+          "J01",
+          "J02",
+          "J07"
+        ],
+        "paragraph": "T22",
+        "direct_shot": "일심 판단 기록 한 묶음→항소심에서 피해자별 기록을 각각 펼침.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "일심 판단 기록 한 묶음",
+        "after": "항소심에서 피해자별 기록을 각각 펼침."
+      },
+      {
+        "id": "T22_02",
+        "text": "일심은 하나의 행위가 여러 범죄를 구성하는 상상적 경합으로 판단했습니다.",
+        "facts": [
+          "J01",
+          "J02",
+          "J07"
+        ],
+        "paragraph": "T22",
+        "direct_shot": "일심 판단 기록 한 묶음→항소심에서 피해자별 기록을 각각 펼침.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "일심 판단 기록 한 묶음",
+        "after": "항소심에서 피해자별 기록을 각각 펼침."
+      },
+      {
+        "id": "T22_03",
+        "text": "학대치사죄의 양형기준도 참고했습니다.",
+        "facts": [
+          "J01",
+          "J02",
+          "J07"
+        ],
+        "paragraph": "T22",
+        "direct_shot": "일심 판단 기록 한 묶음→항소심에서 피해자별 기록을 각각 펼침.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "일심 판단 기록 한 묶음",
+        "after": "항소심에서 피해자별 기록을 각각 펼침."
+      },
+      {
+        "id": "T22_04",
+        "text": "항소심은 이를 여러 행위로 여러 죄를 범한 실체적 경합으로 봤습니다.",
+        "facts": [
+          "J01",
+          "J02",
+          "J07"
+        ],
+        "paragraph": "T22",
+        "direct_shot": "일심 판단 기록 한 묶음→항소심에서 피해자별 기록을 각각 펼침.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "일심 판단 기록 한 묶음",
+        "after": "항소심에서 피해자별 기록을 각각 펼침."
+      },
+      {
+        "id": "T22_05",
+        "text": "이름만 어려운 법률 용어의 교체가 아닙니다.",
+        "facts": [
+          "J01",
+          "J02",
+          "J07"
+        ],
+        "paragraph": "T22",
+        "direct_shot": "일심 판단 기록 한 묶음→항소심에서 피해자별 기록을 각각 펼침.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "일심 판단 기록 한 묶음",
+        "after": "항소심에서 피해자별 기록을 각각 펼침."
+      },
+      {
+        "id": "T22_06",
+        "text": "같은 훈련 안에서 일어났다는 이유로 행위들을 하나로 묶을 수 있는지가 중요한 쟁점이었습니다.",
+        "facts": [
+          "J01",
+          "J02",
+          "J07"
+        ],
+        "paragraph": "T22",
+        "direct_shot": "일심 판단 기록 한 묶음→항소심에서 피해자별 기록을 각각 펼침.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "일심 판단 기록 한 묶음",
+        "after": "항소심에서 피해자별 기록을 각각 펼침."
+      },
+      {
+        "id": "T23_01",
+        "text": "항소심은 같은 장소와 같은 기회라는 점보다 피해자별 구체적인 가혹행위와 학대 양상이 다르다는 점에 주목했습니다.",
+        "facts": [
+          "J08",
+          "J09"
+        ],
+        "paragraph": "T23",
+        "direct_shot": "같은 연병장 전경→서로 분리된 훈련병의 위치·동작→법정 기록 복귀. 죄 개수 숫자 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "같은 연병장 전경",
+        "after": "법정 기록 복귀. 죄 개수 숫자 없음."
+      },
+      {
+        "id": "T23_02",
+        "text": "하나의 장소에서 명령이 이어졌어도, 그로 인해 각 피해자에게 가해진 행위를 하나로만 볼 수 없다는 설명입니다.",
+        "facts": [
+          "J08",
+          "J09"
+        ],
+        "paragraph": "T23",
+        "direct_shot": "같은 연병장 전경→서로 분리된 훈련병의 위치·동작→법정 기록 복귀. 죄 개수 숫자 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "같은 연병장 전경",
+        "after": "법정 기록 복귀. 죄 개수 숫자 없음."
+      },
+      {
+        "id": "T23_03",
+        "text": "여기서 여섯 명의 훈련병을 그린다고 정확히 여섯 개의 죄라고 계산하는 것은 아닙니다.",
+        "facts": [
+          "J08",
+          "J09"
+        ],
+        "paragraph": "T23",
+        "direct_shot": "같은 연병장 전경→서로 분리된 훈련병의 위치·동작→법정 기록 복귀. 죄 개수 숫자 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "같은 연병장 전경",
+        "after": "법정 기록 복귀. 죄 개수 숫자 없음."
+      },
+      {
+        "id": "T23_04",
+        "text": "사람의 수와 법원이 판단한 죄의 수를 같은 숫자로 취급하지 않겠습니다.",
+        "facts": [
+          "J08",
+          "J09"
+        ],
+        "paragraph": "T23",
+        "direct_shot": "같은 연병장 전경→서로 분리된 훈련병의 위치·동작→법정 기록 복귀. 죄 개수 숫자 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "같은 연병장 전경",
+        "after": "법정 기록 복귀. 죄 개수 숫자 없음."
+      },
+      {
+        "id": "T24_01",
+        "text": "보도는 상상적 경합과 실체적 경합에 따라 가능한 처벌 범위가 달라질 수 있다고 설명했습니다.",
+        "facts": [
+          "J10",
+          "C07",
+          "D06"
+        ],
+        "paragraph": "T24",
+        "direct_shot": "형량을 곱하는 도식 대신 두 심급의 개별 판결문→중대장 행만 변경.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "형량을 곱하는 도식 대신 두 심급의 개별 판결문",
+        "after": "중대장 행만 변경."
+      },
+      {
+        "id": "T24_02",
+        "text": "하지만 일심 선고형에 일정한 배수를 곱해 항소심 형을 구하는 계산은 아닙니다.",
+        "facts": [
+          "J10",
+          "C07",
+          "D06"
+        ],
+        "paragraph": "T24",
+        "direct_shot": "형량을 곱하는 도식 대신 두 심급의 개별 판결문→중대장 행만 변경.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "형량을 곱하는 도식 대신 두 심급의 개별 판결문",
+        "after": "중대장 행만 변경."
+      },
+      {
+        "id": "T24_03",
+        "text": "이천이십오년 유월 십팔일, 중대장에게는 일심보다 육 개월 늘어난 징역 오 년 육 개월이 선고됐습니다.",
+        "facts": [
+          "J10",
+          "C07",
+          "D06"
+        ],
+        "paragraph": "T24",
+        "direct_shot": "형량을 곱하는 도식 대신 두 심급의 개별 판결문→중대장 행만 변경.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "형량을 곱하는 도식 대신 두 심급의 개별 판결문",
+        "after": "중대장 행만 변경."
+      },
+      {
+        "id": "T24_04",
+        "text": "부중대장은 원심과 같은 징역 삼 년이었습니다.",
+        "facts": [
+          "J10",
+          "C07",
+          "D06"
+        ],
+        "paragraph": "T24",
+        "direct_shot": "형량을 곱하는 도식 대신 두 심급의 개별 판결문→중대장 행만 변경.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "형량을 곱하는 도식 대신 두 심급의 개별 판결문",
+        "after": "중대장 행만 변경."
+      },
+      {
+        "id": "T24_05",
+        "text": "중대장의 증형 이유를 부중대장의 형이 유지된 개별 이유로 그대로 옮길 수는 없습니다.",
+        "facts": [
+          "J10",
+          "C07",
+          "D06"
+        ],
+        "paragraph": "T24",
+        "direct_shot": "형량을 곱하는 도식 대신 두 심급의 개별 판결문→중대장 행만 변경.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "형량을 곱하는 도식 대신 두 심급의 개별 판결문",
+        "after": "중대장 행만 변경."
+      },
+      {
+        "id": "T25_01",
+        "text": "항소심은 지휘관들이 후진적인 병영문화를 답습해 충분히 예방할 수 있었던 사망사고를 초래했다고 지적했습니다.",
+        "facts": [
+          "J11",
+          "J12"
+        ],
+        "paragraph": "T25",
+        "direct_shot": "항소심 재판부→빈 훈련장→닫힌 생활관 문. 예방가능성을 허구 구출로 재연 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "항소심 재판부",
+        "after": "닫힌 생활관 문. 예방가능성을 허구 구출로 재연 금지."
+      },
+      {
+        "id": "T25_02",
+        "text": "국가가 병사들의 생명과 신체를 보호하리라는 사회의 기본적 기대를 배반한 범행이라고도 봤습니다.",
+        "facts": [
+          "J11",
+          "J12"
+        ],
+        "paragraph": "T25",
+        "direct_shot": "항소심 재판부→빈 훈련장→닫힌 생활관 문. 예방가능성을 허구 구출로 재연 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "항소심 재판부",
+        "after": "닫힌 생활관 문. 예방가능성을 허구 구출로 재연 금지."
+      },
+      {
+        "id": "T25_03",
+        "text": "이는 항소심이 밝힌 책임의 의미입니다.",
+        "facts": [
+          "J11",
+          "J12"
+        ],
+        "paragraph": "T25",
+        "direct_shot": "항소심 재판부→빈 훈련장→닫힌 생활관 문. 예방가능성을 허구 구출로 재연 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "항소심 재판부",
+        "after": "닫힌 생활관 문. 예방가능성을 허구 구출로 재연 금지."
+      },
+      {
+        "id": "T25_04",
+        "text": "영상에서 확인되지 않은 구조 행동을 새로 만들어 반대 결말을 보여 주지는 않겠습니다.",
+        "facts": [
+          "J11",
+          "J12"
+        ],
+        "paragraph": "T25",
+        "direct_shot": "항소심 재판부→빈 훈련장→닫힌 생활관 문. 예방가능성을 허구 구출로 재연 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "항소심 재판부",
+        "after": "닫힌 생활관 문. 예방가능성을 허구 구출로 재연 금지."
+      },
+      {
+        "id": "T25_05",
+        "text": "판결이 지적한 것은 실제로 일어난 사건에서 지켜지지 않은 보호의 책임입니다.",
+        "facts": [
+          "J11",
+          "J12"
+        ],
+        "paragraph": "T25",
+        "direct_shot": "항소심 재판부→빈 훈련장→닫힌 생활관 문. 예방가능성을 허구 구출로 재연 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "항소심 재판부",
+        "after": "닫힌 생활관 문. 예방가능성을 허구 구출로 재연 금지."
+      },
+      {
+        "id": "T26_01",
+        "text": "이천이십오년 구월 이십오일, 대법원은 중대장에 대한 원심 판단에 잘못이 없다고 보고 상고를 기각했습니다.",
+        "facts": [
+          "C09",
+          "J13",
+          "D08"
+        ],
+        "paragraph": "T26",
+        "direct_shot": "대법원 중대장 기록→상고기각→별도 부중대장 확정상태 기록.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대법원 중대장 기록",
+        "after": "별도 부중대장 확정상태 기록."
+      },
+      {
+        "id": "T26_02",
+        "text": "징역 오 년 육 개월이 확정됐습니다.",
+        "facts": [
+          "C09",
+          "J13",
+          "D08"
+        ],
+        "paragraph": "T26",
+        "direct_shot": "대법원 중대장 기록→상고기각→별도 부중대장 확정상태 기록.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대법원 중대장 기록",
+        "after": "별도 부중대장 확정상태 기록."
+      },
+      {
+        "id": "T26_03",
+        "text": "부중대장의 징역 삼 년도 당시 보도 기준 확정 상태였습니다.",
+        "facts": [
+          "C09",
+          "J13",
+          "D08"
+        ],
+        "paragraph": "T26",
+        "direct_shot": "대법원 중대장 기록→상고기각→별도 부중대장 확정상태 기록.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대법원 중대장 기록",
+        "after": "별도 부중대장 확정상태 기록."
+      },
+      {
+        "id": "T26_04",
+        "text": "그러나 같은 날 대법원이 두 사람의 본안을 함께 판단했다는 뜻은 아닙니다.",
+        "facts": [
+          "C09",
+          "J13",
+          "D08"
+        ],
+        "paragraph": "T26",
+        "direct_shot": "대법원 중대장 기록→상고기각→별도 부중대장 확정상태 기록.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대법원 중대장 기록",
+        "after": "별도 부중대장 확정상태 기록."
+      },
+      {
+        "id": "T26_05",
+        "text": "확인되지 않은 부중대장의 확정일이나 절차를 채워 넣지 않고, 두 사람의 결론과 확인 범위를 따로 남깁니다.",
+        "facts": [
+          "C09",
+          "J13",
+          "D08"
+        ],
+        "paragraph": "T26",
+        "direct_shot": "대법원 중대장 기록→상고기각→별도 부중대장 확정상태 기록.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "대법원 중대장 기록",
+        "after": "별도 부중대장 확정상태 기록."
+      },
+      {
+        "id": "T27_01",
+        "text": "재판과 별개로 재발방지 대책은 무엇을 바꾸겠다고 했을까요?",
+        "facts": [
+          "enrich:F38",
+          "enrich:F39"
+        ],
+        "paragraph": "T27",
+        "direct_shot": "2024-06-27 발표자료→소명 기회 자리→체력단련 제외 문구 짧게 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2024-06-27 발표자료",
+        "after": "체력단련 제외 문구 짧게 삽입."
+      },
+      {
+        "id": "T27_02",
+        "text": "이천이십사년 유월 이십칠일 국방부는 훈련병에 대한 군기훈련에서 체력단련 종목을 제외하기로 했다고 밝혔습니다.",
+        "facts": [
+          "enrich:F38",
+          "enrich:F39"
+        ],
+        "paragraph": "T27",
+        "direct_shot": "2024-06-27 발표자료→소명 기회 자리→체력단련 제외 문구 짧게 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2024-06-27 발표자료",
+        "after": "체력단련 제외 문구 짧게 삽입."
+      },
+      {
+        "id": "T27_03",
+        "text": "일반 신병 교육의 체력훈련 전체를 금지했다는 뜻은 아닙니다.",
+        "facts": [
+          "enrich:F38",
+          "enrich:F39"
+        ],
+        "paragraph": "T27",
+        "direct_shot": "2024-06-27 발표자료→소명 기회 자리→체력단련 제외 문구 짧게 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2024-06-27 발표자료",
+        "after": "체력단련 제외 문구 짧게 삽입."
+      },
+      {
+        "id": "T27_04",
+        "text": "군기훈련 전에 반드시 개인 소명 단계를 거치도록 절차도 표준화했습니다.",
+        "facts": [
+          "enrich:F38",
+          "enrich:F39"
+        ],
+        "paragraph": "T27",
+        "direct_shot": "2024-06-27 발표자료→소명 기회 자리→체력단련 제외 문구 짧게 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2024-06-27 발표자료",
+        "after": "체력단련 제외 문구 짧게 삽입."
+      },
+      {
+        "id": "T27_05",
+        "text": "사건에서 지켜지지 않았다고 지적된 절차를 대책이 다시 강조한 것입니다.",
+        "facts": [
+          "enrich:F38",
+          "enrich:F39"
+        ],
+        "paragraph": "T27",
+        "direct_shot": "2024-06-27 발표자료→소명 기회 자리→체력단련 제외 문구 짧게 삽입.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "2024-06-27 발표자료",
+        "after": "체력단련 제외 문구 짧게 삽입."
+      },
+      {
+        "id": "T28_01",
+        "text": "육군 신병교육부대의 군기훈련 승인권자를 영관급 지휘관으로 높이기로 했다는 내용도 보도됐습니다.",
+        "facts": [
+          "enrich:F40",
+          "enrich:F41"
+        ],
+        "paragraph": "T28",
+        "direct_shot": "승인서가 상위 결재 위치로 이동→건강 확인→응급대비 물품. 실제 현재시행 주장 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "승인서가 상위 결재 위치로 이동",
+        "after": "응급대비 물품. 실제 현재시행 주장 금지."
+      },
+      {
+        "id": "T28_02",
+        "text": "대상자의 건강상태를 수시로 확인하고 기상에 따라 장소와 계속 진행할지를 판단하며, 응급상황 대비책을 마련한 뒤 시행한다는 절차도 담겼습니다.",
+        "facts": [
+          "enrich:F40",
+          "enrich:F41"
+        ],
+        "paragraph": "T28",
+        "direct_shot": "승인서가 상위 결재 위치로 이동→건강 확인→응급대비 물품. 실제 현재시행 주장 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "승인서가 상위 결재 위치로 이동",
+        "after": "응급대비 물품. 실제 현재시행 주장 금지."
+      },
+      {
+        "id": "T28_03",
+        "text": "승인 주체, 진행 중 확인, 위급할 때의 대비가 각각 다른 단계입니다.",
+        "facts": [
+          "enrich:F40",
+          "enrich:F41"
+        ],
+        "paragraph": "T28",
+        "direct_shot": "승인서가 상위 결재 위치로 이동→건강 확인→응급대비 물품. 실제 현재시행 주장 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "승인서가 상위 결재 위치로 이동",
+        "after": "응급대비 물품. 실제 현재시행 주장 금지."
+      },
+      {
+        "id": "T28_04",
+        "text": "발표문이 있다는 사실만으로 모든 현장에서 지켜졌다고 말할 수는 없습니다.",
+        "facts": [
+          "enrich:F40",
+          "enrich:F41"
+        ],
+        "paragraph": "T28",
+        "direct_shot": "승인서가 상위 결재 위치로 이동→건강 확인→응급대비 물품. 실제 현재시행 주장 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "승인서가 상위 결재 위치로 이동",
+        "after": "응급대비 물품. 실제 현재시행 주장 금지."
+      },
+      {
+        "id": "T29_01",
+        "text": "혹서기 관리 기간은 칠월 일일부터 팔월 삼십일일까지에서, 유월 일일부터 팔월 삼십일일까지로 늘리기로 했습니다.",
+        "facts": [
+          "enrich:F42",
+          "enrich:F43",
+          "enrich:F44"
+        ],
+        "paragraph": "T29",
+        "direct_shot": "달력 범위 변화→온도지수 측정 장치 개념컷→청원 문서. 현재 규정·입법완료로 표시 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "달력 범위 변화",
+        "after": "청원 문서. 현재 규정·입법완료로 표시 금지."
+      },
+      {
+        "id": "T29_02",
+        "text": "주둔지별 온도지수는 하루 세 차례 이상 측정하도록 했습니다.",
+        "facts": [
+          "enrich:F42",
+          "enrich:F43",
+          "enrich:F44"
+        ],
+        "paragraph": "T29",
+        "direct_shot": "달력 범위 변화→온도지수 측정 장치 개념컷→청원 문서. 현재 규정·입법완료로 표시 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "달력 범위 변화",
+        "after": "청원 문서. 현재 규정·입법완료로 표시 금지."
+      },
+      {
+        "id": "T29_03",
+        "text": "이것은 당시 발표된 대책이며 사건 당일의 기온을 증명하는 자료는 아닙니다.",
+        "facts": [
+          "enrich:F42",
+          "enrich:F43",
+          "enrich:F44"
+        ],
+        "paragraph": "T29",
+        "direct_shot": "달력 범위 변화→온도지수 측정 장치 개념컷→청원 문서. 현재 규정·입법완료로 표시 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "달력 범위 변화",
+        "after": "청원 문서. 현재 규정·입법완료로 표시 금지."
+      },
+      {
+        "id": "T29_04",
+        "text": "불법 군기훈련을 거부할 권리를 보장하자는 국민동의청원도 일주일 만에 오만 명 동의를 넘겼습니다.",
+        "facts": [
+          "enrich:F42",
+          "enrich:F43",
+          "enrich:F44"
+        ],
+        "paragraph": "T29",
+        "direct_shot": "달력 범위 변화→온도지수 측정 장치 개념컷→청원 문서. 현재 규정·입법완료로 표시 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "달력 범위 변화",
+        "after": "청원 문서. 현재 규정·입법완료로 표시 금지."
+      },
+      {
+        "id": "T29_05",
+        "text": "청원이 성립한 것과 법이 제정된 것은 구분해야 합니다.",
+        "facts": [
+          "enrich:F42",
+          "enrich:F43",
+          "enrich:F44"
+        ],
+        "paragraph": "T29",
+        "direct_shot": "달력 범위 변화→온도지수 측정 장치 개념컷→청원 문서. 현재 규정·입법완료로 표시 금지.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "달력 범위 변화",
+        "after": "청원 문서. 현재 규정·입법완료로 표시 금지."
+      },
+      {
+        "id": "T30_01",
+        "text": "이천이십사년 유월 십구일, 인제체육관 수료식장 추모 공간에는 숨진 훈련병의 명예수료증이 놓였습니다.",
+        "facts": [
+          "enrich:F30",
+          "enrich:F31",
+          "enrich:F27"
+        ],
+        "paragraph": "T30",
+        "direct_shot": "명예수료증→손이 국화를 놓음→비어 있는 자리. 집계인원 계산 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "명예수료증",
+        "after": "비어 있는 자리. 집계인원 계산 없음."
+      },
+      {
+        "id": "T30_02",
+        "text": "참석자들은 국화꽃을 놓고 고인을 추모했습니다.",
+        "facts": [
+          "enrich:F30",
+          "enrich:F31",
+          "enrich:F27"
+        ],
+        "paragraph": "T30",
+        "direct_shot": "명예수료증→손이 국화를 놓음→비어 있는 자리. 집계인원 계산 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "명예수료증",
+        "after": "비어 있는 자리. 집계인원 계산 없음."
+      },
+      {
+        "id": "T30_03",
+        "text": "어머니는 공개편지에 수료생 이백오십일 명 가운데 아들만 없다고 썼습니다.",
+        "facts": [
+          "enrich:F30",
+          "enrich:F31",
+          "enrich:F27"
+        ],
+        "paragraph": "T30",
+        "direct_shot": "명예수료증→손이 국화를 놓음→비어 있는 자리. 집계인원 계산 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "명예수료증",
+        "after": "비어 있는 자리. 집계인원 계산 없음."
+      },
+      {
+        "id": "T30_04",
+        "text": "이 숫자는 편지의 표현입니다.",
+        "facts": [
+          "enrich:F30",
+          "enrich:F31",
+          "enrich:F27"
+        ],
+        "paragraph": "T30",
+        "direct_shot": "명예수료증→손이 국화를 놓음→비어 있는 자리. 집계인원 계산 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "명예수료증",
+        "after": "비어 있는 자리. 집계인원 계산 없음."
+      },
+      {
+        "id": "T30_05",
+        "text": "실제 참석 인원을 직접 집계한 수치로 바꾸거나, 그중 몇 명이 귀가했는지 계산하지 않습니다.",
+        "facts": [
+          "enrich:F30",
+          "enrich:F31",
+          "enrich:F27"
+        ],
+        "paragraph": "T30",
+        "direct_shot": "명예수료증→손이 국화를 놓음→비어 있는 자리. 집계인원 계산 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "명예수료증",
+        "after": "비어 있는 자리. 집계인원 계산 없음."
+      },
+      {
+        "id": "T30_06",
+        "text": "수료식 날 부재를 기록한 말로 남깁니다.",
+        "facts": [
+          "enrich:F30",
+          "enrich:F31",
+          "enrich:F27"
+        ],
+        "paragraph": "T30",
+        "direct_shot": "명예수료증→손이 국화를 놓음→비어 있는 자리. 집계인원 계산 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "명예수료증",
+        "after": "비어 있는 자리. 집계인원 계산 없음."
+      },
+      {
+        "id": "T31_01",
+        "text": "어머니의 편지에는 입영 날의 기억도 담겼습니다.",
+        "facts": [
+          "enrich:F24",
+          "enrich:F25",
+          "enrich:F29"
+        ],
+        "paragraph": "T31",
+        "direct_shot": "편지의 손·등 기억은 종이 위 삽입→용산역 분향소 원경. 실제 얼굴·목소리 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "편지의 손·등 기억은 종이 위 삽입",
+        "after": "용산역 분향소 원경. 실제 얼굴·목소리 없음."
+      },
+      {
+        "id": "T31_02",
+        "text": "먼 길 돌아갈 부모의 손을 잡고 등을 다독였다는 기억입니다.",
+        "facts": [
+          "enrich:F24",
+          "enrich:F25",
+          "enrich:F29"
+        ],
+        "paragraph": "T31",
+        "direct_shot": "편지의 손·등 기억은 종이 위 삽입→용산역 분향소 원경. 실제 얼굴·목소리 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "편지의 손·등 기억은 종이 위 삽입",
+        "after": "용산역 분향소 원경. 실제 얼굴·목소리 없음."
+      },
+      {
+        "id": "T31_03",
+        "text": "아들이 걱정 말고 내려가라고 했다는 말 역시 어머니의 회고로 전해집니다.",
+        "facts": [
+          "enrich:F24",
+          "enrich:F25",
+          "enrich:F29"
+        ],
+        "paragraph": "T31",
+        "direct_shot": "편지의 손·등 기억은 종이 위 삽입→용산역 분향소 원경. 실제 얼굴·목소리 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "편지의 손·등 기억은 종이 위 삽입",
+        "after": "용산역 분향소 원경. 실제 얼굴·목소리 없음."
+      },
+      {
+        "id": "T31_04",
+        "text": "현장 대화를 녹음한 것처럼 새 목소리를 붙이지 않겠습니다.",
+        "facts": [
+          "enrich:F24",
+          "enrich:F25",
+          "enrich:F29"
+        ],
+        "paragraph": "T31",
+        "direct_shot": "편지의 손·등 기억은 종이 위 삽입→용산역 분향소 원경. 실제 얼굴·목소리 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "편지의 손·등 기억은 종이 위 삽입",
+        "after": "용산역 분향소 원경. 실제 얼굴·목소리 없음."
+      },
+      {
+        "id": "T31_05",
+        "text": "수료식 날 저녁, 부모는 용산역 시민 분향소에서 조문객을 맞았다고 보도됐습니다.",
+        "facts": [
+          "enrich:F24",
+          "enrich:F25",
+          "enrich:F29"
+        ],
+        "paragraph": "T31",
+        "direct_shot": "편지의 손·등 기억은 종이 위 삽입→용산역 분향소 원경. 실제 얼굴·목소리 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "편지의 손·등 기억은 종이 위 삽입",
+        "after": "용산역 분향소 원경. 실제 얼굴·목소리 없음."
+      },
+      {
+        "id": "T31_06",
+        "text": "돌아올 사람을 기다리던 가족에게 남은 장면은 추모의 자리였습니다.",
+        "facts": [
+          "enrich:F24",
+          "enrich:F25",
+          "enrich:F29"
+        ],
+        "paragraph": "T31",
+        "direct_shot": "편지의 손·등 기억은 종이 위 삽입→용산역 분향소 원경. 실제 얼굴·목소리 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "편지의 손·등 기억은 종이 위 삽입",
+        "after": "용산역 분향소 원경. 실제 얼굴·목소리 없음."
+      },
+      {
+        "id": "T32_01",
+        "text": "처음의 두 질문에는 이제 다른 층위의 답이 있습니다.",
+        "facts": [
+          "C06",
+          "D05",
+          "J04",
+          "J12"
+        ],
+        "paragraph": "T32",
+        "direct_shot": "법정에서 빈 연병장으로→군장을 내려놓은 공간→작품 종료. 무음 늘리기 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "법정에서 빈 연병장으로",
+        "after": "작품 종료. 무음 늘리기 없음."
+      },
+      {
+        "id": "T32_02",
+        "text": "교육 목적은 유죄를 없앤 이유가 아니라 형을 정할 때 고려한 사정이었습니다.",
+        "facts": [
+          "C06",
+          "D05",
+          "J04",
+          "J12"
+        ],
+        "paragraph": "T32",
+        "direct_shot": "법정에서 빈 연병장으로→군장을 내려놓은 공간→작품 종료. 무음 늘리기 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "법정에서 빈 연병장으로",
+        "after": "작품 종료. 무음 늘리기 없음."
+      },
+      {
+        "id": "T32_03",
+        "text": "항소심은 피해자별 행위를 어떻게 볼 것인지 판단을 바꿨고, 중대장에게 더 높은 형을 선고했습니다.",
+        "facts": [
+          "C06",
+          "D05",
+          "J04",
+          "J12"
+        ],
+        "paragraph": "T32",
+        "direct_shot": "법정에서 빈 연병장으로→군장을 내려놓은 공간→작품 종료. 무음 늘리기 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "법정에서 빈 연병장으로",
+        "after": "작품 종료. 무음 늘리기 없음."
+      },
+      {
+        "id": "T32_04",
+        "text": "그러나 형량의 숫자만으로 이 사건을 다 설명할 수는 없습니다.",
+        "facts": [
+          "C06",
+          "D05",
+          "J04",
+          "J12"
+        ],
+        "paragraph": "T32",
+        "direct_shot": "법정에서 빈 연병장으로→군장을 내려놓은 공간→작품 종료. 무음 늘리기 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "법정에서 빈 연병장으로",
+        "after": "작품 종료. 무음 늘리기 없음."
+      },
+      {
+        "id": "T32_05",
+        "text": "법원이 지적한 생명과 신체 보호의 책임, 훈련이라는 이름으로도 지워지지 않는 그 책임이 마지막에 남습니다.",
+        "facts": [
+          "C06",
+          "D05",
+          "J04",
+          "J12"
+        ],
+        "paragraph": "T32",
+        "direct_shot": "법정에서 빈 연병장으로→군장을 내려놓은 공간→작품 종료. 무음 늘리기 없음.",
+        "action": "UNIMPLEMENTED_DIRECT_SHOT",
+        "before": "법정에서 빈 연병장으로",
+        "after": "작품 종료. 무음 늘리기 없음."
+      }
+    ],
+    "setting": "DIRECT_SHOTS_NOT_YET_RENDERED",
+    "date": "",
+    "target_seconds": 720
+  }
+}

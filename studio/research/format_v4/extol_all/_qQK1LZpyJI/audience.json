@@ -1,0 +1,19 @@
+{
+  "sample_n": 200,
+  "sample_method": "top-level top-ranked comments; <=200; replies excluded; not representative and not retention analytics",
+  "keyword_theme_comment_counts_overlapping": {
+    "제작·몰입 언급": 8,
+    "기관·권력 언급": 1,
+    "형량·사법 언급": 1,
+    "피해·공감 언급": 3,
+    "사실·해석 논쟁 표지": 0,
+    "구독·업로드 기대": 5
+  },
+  "quoted_timestamp_counts_s": {
+    "52": 1,
+    "178": 1,
+    "192": 1,
+    "390": 1
+  },
+  "interpretation": "클럽 문화·계급·세대·방문 경험이 주된 논쟁. 비관심 소재인데도 조형물 같은 화면 때문에 봤다는 제작 반응이 있다."
+}

@@ -1,0 +1,169 @@
+{
+ "accuracy": 1.0,
+ "character_clock_accuracy": 0.9917355371900827,
+ "rows": [
+  {
+   "text": "27명이 숨진\n지난해 경북 산불은",
+   "start": 0,
+   "end": 67,
+   "old_start": 0,
+   "old_end": 54,
+   "start_seconds": 0.0,
+   "end_seconds": 2.22
+  },
+  {
+   "text": "두 곳에서 시작됐습니다.",
+   "start": 67,
+   "end": 99,
+   "old_start": 54,
+   "old_end": 96,
+   "start_seconds": 2.22,
+   "end_seconds": 3.3
+  },
+  {
+   "text": "몇 년 나왔을까?",
+   "start": 101,
+   "end": 122,
+   "old_start": 96,
+   "old_end": 124,
+   "start_seconds": 3.36,
+   "end_seconds": 4.06
+  },
+  {
+   "text": "그중 한 곳이\n의성군에 있는 과수원이었죠.",
+   "start": 124,
+   "end": 184,
+   "old_start": 124,
+   "old_end": 186,
+   "start_seconds": 4.14,
+   "end_seconds": 6.12
+  },
+  {
+   "text": "60대 과수원 임차인이\n농사 부산물을 태운 뒤",
+   "start": 187,
+   "end": 269,
+   "old_start": 186,
+   "old_end": 261,
+   "start_seconds": 6.22,
+   "end_seconds": 8.96
+  },
+  {
+   "text": "불씨가 꺼졌는지\n확인하지 않고",
+   "start": 269,
+   "end": 324,
+   "old_start": 261,
+   "old_end": 312,
+   "start_seconds": 8.96,
+   "end_seconds": 10.8
+  },
+  {
+   "text": "자리를 떠난 혐의였습니다.",
+   "start": 324,
+   "end": 362,
+   "old_start": 312,
+   "old_end": 372,
+   "start_seconds": 10.8,
+   "end_seconds": 12.06
+  },
+  {
+   "text": "불은 강풍을 타고\n5개 시·군까지 번졌죠.",
+   "start": 371,
+   "end": 439,
+   "old_start": 372,
+   "old_end": 443,
+   "start_seconds": 12.36,
+   "end_seconds": 14.62
+  },
+  {
+   "text": "149시간 동안\n27명이 숨지고",
+   "start": 445,
+   "end": 508,
+   "old_start": 443,
+   "old_end": 496,
+   "start_seconds": 14.82,
+   "end_seconds": 16.92
+  },
+  {
+   "text": "40명이 다쳤습니다.",
+   "start": 508,
+   "end": 541,
+   "old_start": 496,
+   "old_end": 546,
+   "start_seconds": 16.92,
+   "end_seconds": 18.04
+  },
+  {
+   "text": "벌금, 집행유예, 실형 중\n무엇이었을까요?",
+   "start": 545,
+   "end": 610,
+   "old_start": 546,
+   "old_end": 614,
+   "start_seconds": 18.18,
+   "end_seconds": 20.32
+  },
+  {
+   "text": "2심 재판부는 결과가\n상당히 무겁다고 봤습니다.",
+   "start": 613,
+   "end": 686,
+   "old_start": 614,
+   "old_end": 691,
+   "start_seconds": 20.44,
+   "end_seconds": 22.86
+  },
+  {
+   "text": "죄명은 실수로\n불을 낸 실화였고요.",
+   "start": 691,
+   "end": 740,
+   "old_start": 691,
+   "old_end": 742,
+   "start_seconds": 23.02,
+   "end_seconds": 24.68
+  },
+  {
+   "text": "2심에서 검찰 구형은\n징역 3년이었습니다.",
+   "start": 743,
+   "end": 811,
+   "old_start": 742,
+   "old_end": 815,
+   "start_seconds": 24.76,
+   "end_seconds": 27.02
+  },
+  {
+   "text": "1심은\n징역 2년 6개월에",
+   "start": 815,
+   "end": 854,
+   "old_start": 815,
+   "old_end": 850,
+   "start_seconds": 27.18,
+   "end_seconds": 28.46
+  },
+  {
+   "text": "집행유예 3년.",
+   "start": 854,
+   "end": 878,
+   "old_start": 850,
+   "old_end": 881,
+   "start_seconds": 28.46,
+   "end_seconds": 29.26
+  },
+  {
+   "text": "2심 판결도\n그대로였습니다.",
+   "start": 878,
+   "end": 915,
+   "old_start": 881,
+   "old_end": 921,
+   "start_seconds": 29.26,
+   "end_seconds": 30.5
+  },
+  {
+   "text": "다음 사건도\n맞혀 보세요.",
+   "start": 920,
+   "end": 953,
+   "old_start": 921,
+   "old_end": 957,
+   "start_seconds": 30.68,
+   "end_seconds": 31.76
+  }
+ ],
+ "pass_": true
+}

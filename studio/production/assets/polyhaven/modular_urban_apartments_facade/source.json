@@ -1,0 +1,29 @@
+{
+ "id": "modular_urban_apartments_facade",
+ "name": "Modular Urban Apartments Facade",
+ "type": 2,
+ "authors": {
+  "James Ray Cock": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/modular_urban_apartments_facade",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_trim_01_rough_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_objects_diff_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_trim_02_diff_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_objects_rough_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_objects_nor_gl_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_trim_01_diff_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_trim_02_rough_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_plaster_nor_gl_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_objects_metal_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_plaster_rough_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_plaster_diff_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_objects_alpha_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_trim_01_nor_gl_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/modular_urban_apartments_facade/modular_urban_apartments_facade_trim_02_nor_gl_2k.png"
+ ]
+}

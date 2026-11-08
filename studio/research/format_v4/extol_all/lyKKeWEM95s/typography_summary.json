@@ -1,0 +1,15 @@
+{
+  "sampled_frame_count": 5,
+  "region_count": 23,
+  "subtitle_box_height_median_frame_share": 0.042154566744730615,
+  "headline_box_height_median_frame_share": 0.05939806596456704,
+  "subtitle_present_sample_share": 1.0,
+  "method": "Apple Vision OCR at <=1280px width; role by location/number patterns; no font family identity inferred",
+  "sample_times_s": [
+    0,
+    1,
+    2,
+    3,
+    26
+  ]
+}

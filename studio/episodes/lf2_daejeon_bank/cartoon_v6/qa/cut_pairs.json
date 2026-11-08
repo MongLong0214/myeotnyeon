@@ -1,0 +1,1190 @@
+[
+  {
+    "cut": 1,
+    "before_frame": 56,
+    "after_frame": 57,
+    "before_subtitle": "[자막 없음] 직전: 은행 지하에서 총이 터졌습니다.",
+    "after_subtitle": "출납과장이 쓰러졌습니다.",
+    "from_shot": "V6_001",
+    "to_shot": "V6_002"
+  },
+  {
+    "cut": 2,
+    "before_frame": 104,
+    "after_frame": 105,
+    "before_subtitle": "[자막 없음] 직전: 출납과장이 쓰러졌습니다.",
+    "after_subtitle": "빼앗긴 돈은 3억 원.",
+    "from_shot": "V6_002",
+    "to_shot": "V6_003"
+  },
+  {
+    "cut": 3,
+    "before_frame": 142,
+    "after_frame": 143,
+    "before_subtitle": "[자막 없음] 직전: 빼앗긴 돈은 3억 원.",
+    "after_subtitle": "버린 마스크가 어떻게 범인들을 붙잡았을까요?",
+    "from_shot": "V6_003",
+    "to_shot": "V6_004"
+  },
+  {
+    "cut": 4,
+    "before_frame": 223,
+    "after_frame": 224,
+    "before_subtitle": "[자막 없음] 직전: 버린 마스크가 어떻게 범인들을 붙잡았을까요?",
+    "after_subtitle": "그 천 조각이 약 20년 8개월을 건너",
+    "from_shot": "V6_004",
+    "to_shot": "V6_005"
+  },
+  {
+    "cut": 5,
+    "before_frame": 318,
+    "after_frame": 319,
+    "before_subtitle": "[자막 없음] 직전: 공범을 가리킵니다.",
+    "after_subtitle": "그리고 20년형은 왜 무기징역으로",
+    "from_shot": "V6_005",
+    "to_shot": "V6_006"
+  },
+  {
+    "cut": 6,
+    "before_frame": 407,
+    "after_frame": 408,
+    "before_subtitle": "[자막 없음] 직전: 뒤집혔을까요?",
+    "after_subtitle": "2001년 12월 21일, 오전 10시쯤.",
+    "from_shot": "V6_006",
+    "to_shot": "V6_007"
+  },
+  {
+    "cut": 7,
+    "before_frame": 476,
+    "after_frame": 477,
+    "before_subtitle": "[자막 없음] 직전: 2001년 12월 21일, 오전 10시쯤.",
+    "after_subtitle": "대전 둔산동 국민은행 건물 지하주차장입니다.",
+    "from_shot": "V6_007",
+    "to_shot": "V6_008"
+  },
+  {
+    "cut": 8,
+    "before_frame": 555,
+    "after_frame": 556,
+    "before_subtitle": "[자막 없음] 직전: 대전 둔산동 국민은행 건물 지하주차장입니다.",
+    "after_subtitle": "은행 관계자 3명이 돈가방을 옮기던 순간.",
+    "from_shot": "V6_008",
+    "to_shot": "V6_009"
+  },
+  {
+    "cut": 9,
+    "before_frame": 627,
+    "after_frame": 628,
+    "before_subtitle": "[자막 없음] 직전: 은행 관계자 3명이 돈가방을 옮기던 순간.",
+    "after_subtitle": "검은 승용차가 길을 막습니다.",
+    "from_shot": "V6_009",
+    "to_shot": "V6_010"
+  },
+  {
+    "cut": 10,
+    "before_frame": 680,
+    "after_frame": 681,
+    "before_subtitle": "[자막 없음] 직전: 검은 승용차가 길을 막습니다.",
+    "after_subtitle": "복면을 쓴 2인조입니다.",
+    "from_shot": "V6_010",
+    "to_shot": "V6_011"
+  },
+  {
+    "cut": 11,
+    "before_frame": 726,
+    "after_frame": 727,
+    "before_subtitle": "[자막 없음] 직전: 복면을 쓴 2인조입니다.",
+    "after_subtitle": "현장에는 권총이 등장했습니다.",
+    "from_shot": "V6_011",
+    "to_shot": "V6_012"
+  },
+  {
+    "cut": 12,
+    "before_frame": 782,
+    "after_frame": 783,
+    "before_subtitle": "[자막 없음] 직전: 현장에는 권총이 등장했습니다.",
+    "after_subtitle": "총격으로 숨진 사람은 현금 운송을 맡은",
+    "from_shot": "V6_012",
+    "to_shot": "V6_013"
+  },
+  {
+    "cut": 13,
+    "before_frame": 889,
+    "after_frame": 890,
+    "before_subtitle": "[자막 없음] 직전: 40대 출납과장입니다.",
+    "after_subtitle": "일터에 온 사람이 목숨을 잃었습니다.",
+    "from_shot": "V6_013",
+    "to_shot": "V6_014"
+  },
+  {
+    "cut": 14,
+    "before_frame": 952,
+    "after_frame": 953,
+    "before_subtitle": "[자막 없음] 직전: 일터에 온 사람이 목숨을 잃었습니다.",
+    "after_subtitle": "법원은 그가 직무에 충실하며 강도 범행을",
+    "from_shot": "V6_014",
+    "to_shot": "V6_015"
+  },
+  {
+    "cut": 15,
+    "before_frame": 1074,
+    "after_frame": 1075,
+    "before_subtitle": "[자막 없음] 직전: 막으려다 숨졌다고 짚었습니다.",
+    "after_subtitle": "가방은 2개, 각각 3억 원.",
+    "from_shot": "V6_015",
+    "to_shot": "V6_016"
+  },
+  {
+    "cut": 16,
+    "before_frame": 1120,
+    "after_frame": 1121,
+    "before_subtitle": "[자막 없음] 직전: 가방은 2개, 각각 3억 원.",
+    "after_subtitle": "범인들은 그중 하나를 가져갔습니다.",
+    "from_shot": "V6_016",
+    "to_shot": "V6_017"
+  },
+  {
+    "cut": 17,
+    "before_frame": 1184,
+    "after_frame": 1185,
+    "before_subtitle": "[자막 없음] 직전: 범인들은 그중 하나를 가져갔습니다.",
+    "after_subtitle": "운송액 6억 원과 빼앗긴 3억 원은",
+    "from_shot": "V6_017",
+    "to_shot": "V6_018"
+  },
+  {
+    "cut": 18,
+    "before_frame": 1260,
+    "after_frame": 1261,
+    "before_subtitle": "[자막 없음] 직전: 다릅니다.",
+    "after_subtitle": "범행 차량은 훔친 그랜저였습니다.",
+    "from_shot": "V6_018",
+    "to_shot": "V6_019"
+  },
+  {
+    "cut": 19,
+    "before_frame": 1321,
+    "after_frame": 1322,
+    "before_subtitle": "[자막 없음] 직전: 범행 차량은 훔친 그랜저였습니다.",
+    "after_subtitle": "2001년 12월 1일 수원에서, 시동이",
+    "from_shot": "V6_019",
+    "to_shot": "V6_020"
+  },
+  {
+    "cut": 20,
+    "before_frame": 1439,
+    "after_frame": 1440,
+    "before_subtitle": "[자막 없음] 직전: 걸린 채 주차된 차를 훔쳤습니다.",
+    "after_subtitle": "차도 훔쳤고, 총도 빼앗았습니다.",
+    "from_shot": "V6_020",
+    "to_shot": "V6_021"
+  },
+  {
+    "cut": 21,
+    "before_frame": 1495,
+    "after_frame": 1496,
+    "before_subtitle": "[자막 없음] 직전: 차도 훔쳤고, 총도 빼앗았습니다.",
+    "after_subtitle": "이 권총의 출처를 따라가면 은행 사건보다",
+    "from_shot": "V6_021",
+    "to_shot": "V6_022"
+  },
+  {
+    "cut": 22,
+    "before_frame": 1603,
+    "after_frame": 1604,
+    "before_subtitle": "[자막 없음] 직전: 앞선 범행이 나옵니다.",
+    "after_subtitle": "2001년 10월 15일 자정 무렵.",
+    "from_shot": "V6_022",
+    "to_shot": "V6_023"
+  },
+  {
+    "cut": 23,
+    "before_frame": 1660,
+    "after_frame": 1661,
+    "before_subtitle": "[자막 없음] 직전: 2001년 10월 15일 자정 무렵.",
+    "after_subtitle": "두 사람은 걸어서 순찰하던 경찰관을 차로",
+    "from_shot": "V6_023",
+    "to_shot": "V6_024"
+  },
+  {
+    "cut": 24,
+    "before_frame": 1741,
+    "after_frame": 1742,
+    "before_subtitle": "들이받고",
+    "after_subtitle": "권총을 빼앗았습니다.",
+    "from_shot": "V6_024",
+    "to_shot": "V6_025"
+  },
+  {
+    "cut": 25,
+    "before_frame": 1783,
+    "after_frame": 1784,
+    "before_subtitle": "[자막 없음] 직전: 권총을 빼앗았습니다.",
+    "after_subtitle": "그 경찰관은 크게 다쳤습니다.",
+    "from_shot": "V6_025",
+    "to_shot": "V6_026"
+  },
+  {
+    "cut": 26,
+    "before_frame": 1836,
+    "after_frame": 1837,
+    "before_subtitle": "[자막 없음] 직전: 그 경찰관은 크게 다쳤습니다.",
+    "after_subtitle": "여기서 살해된 것으로 바꾸면 안 됩니다.",
+    "from_shot": "V6_026",
+    "to_shot": "V6_027"
+  },
+  {
+    "cut": 27,
+    "before_frame": 1903,
+    "after_frame": 1904,
+    "before_subtitle": "[자막 없음] 직전: 여기서 살해된 것으로 바꾸면 안 됩니다.",
+    "after_subtitle": "은행 범행에는 빼앗은 38구경 권총이",
+    "from_shot": "V6_027",
+    "to_shot": "V6_028"
+  },
+  {
+    "cut": 28,
+    "before_frame": 1995,
+    "after_frame": 1996,
+    "before_subtitle": "[자막 없음] 직전: 쓰였습니다.",
+    "after_subtitle": "은행 주차장에는 CCTV도 없었습니다.",
+    "from_shot": "V6_028",
+    "to_shot": "V6_029"
+  },
+  {
+    "cut": 29,
+    "before_frame": 2067,
+    "after_frame": 2068,
+    "before_subtitle": "[자막 없음] 직전: 은행 주차장에는 CCTV도 없었습니다.",
+    "after_subtitle": "범행 순간의 영상이 남아 범인을 잡은 사건이",
+    "from_shot": "V6_029",
+    "to_shot": "V6_030"
+  },
+  {
+    "cut": 30,
+    "before_frame": 2159,
+    "after_frame": 2160,
+    "before_subtitle": "[자막 없음] 직전: 아닙니다.",
+    "after_subtitle": "범인들은 인근 상가 지하에서 차를 버리고",
+    "from_shot": "V6_030",
+    "to_shot": "V6_031"
+  },
+  {
+    "cut": 31,
+    "before_frame": 2270,
+    "after_frame": 2271,
+    "before_subtitle": "[자막 없음] 직전: 다른 차로 갈아탔습니다.",
+    "after_subtitle": "버릴 건 차만이 아니었습니다.",
+    "from_shot": "V6_031",
+    "to_shot": "V6_032"
+  },
+  {
+    "cut": 32,
+    "before_frame": 2320,
+    "after_frame": 2321,
+    "before_subtitle": "[자막 없음] 직전: 버릴 건 차만이 아니었습니다.",
+    "after_subtitle": "차량에 불을 내 증거까지 없애려 했습니다.",
+    "from_shot": "V6_032",
+    "to_shot": "V6_033"
+  },
+  {
+    "cut": 33,
+    "before_frame": 2392,
+    "after_frame": 2393,
+    "before_subtitle": "[자막 없음] 직전: 차량에 불을 내 증거까지 없애려 했습니다.",
+    "after_subtitle": "하지만 마스크와 손수건은 남았습니다.",
+    "from_shot": "V6_033",
+    "to_shot": "V6_034"
+  },
+  {
+    "cut": 34,
+    "before_frame": 2459,
+    "after_frame": 2460,
+    "before_subtitle": "[자막 없음] 직전: 하지만 마스크와 손수건은 남았습니다.",
+    "after_subtitle": "지우려던 흔적이 살아남은 겁니다.",
+    "from_shot": "V6_034",
+    "to_shot": "V6_035"
+  },
+  {
+    "cut": 35,
+    "before_frame": 2519,
+    "after_frame": 2520,
+    "before_subtitle": "[자막 없음] 직전: 지우려던 흔적이 살아남은 겁니다.",
+    "after_subtitle": "증거 삭제라더니, 천 조각은 삭제가 안",
+    "from_shot": "V6_035",
+    "to_shot": "V6_036"
+  },
+  {
+    "cut": 36,
+    "before_frame": 2595,
+    "after_frame": 2596,
+    "before_subtitle": "[자막 없음] 직전: 됐네요.",
+    "after_subtitle": "범인들의 증거인멸 계획에 구멍이 남은",
+    "from_shot": "V6_036",
+    "to_shot": "V6_037"
+  },
+  {
+    "cut": 37,
+    "before_frame": 2673,
+    "after_frame": 2674,
+    "before_subtitle": "[자막 없음] 직전: 겁니다.",
+    "after_subtitle": "[자막 없음] 직전: 겁니다.",
+    "from_shot": "V6_037",
+    "to_shot": "V6_038"
+  },
+  {
+    "cut": 38,
+    "before_frame": 2757,
+    "after_frame": 2758,
+    "before_subtitle": "[자막 없음] 직전: 않았습니다.",
+    "after_subtitle": "사건 직후 감식에서는 마스크의 DNA를",
+    "from_shot": "V6_038",
+    "to_shot": "V6_039"
+  },
+  {
+    "cut": 39,
+    "before_frame": 2867,
+    "after_frame": 2868,
+    "before_subtitle": "[자막 없음] 직전: 검출하지 못했습니다.",
+    "after_subtitle": "증거가 없었던 게 아닙니다.",
+    "from_shot": "V6_039",
+    "to_shot": "V6_040"
+  },
+  {
+    "cut": 40,
+    "before_frame": 2914,
+    "after_frame": 2915,
+    "before_subtitle": "[자막 없음] 직전: 증거가 없었던 게 아닙니다.",
+    "after_subtitle": "증거에서 이름으로 가는 길이 막혀",
+    "from_shot": "V6_040",
+    "to_shot": "V6_041"
+  },
+  {
+    "cut": 41,
+    "before_frame": 2994,
+    "after_frame": 2995,
+    "before_subtitle": "[자막 없음] 직전: 있었습니다.",
+    "after_subtitle": "수거품은 둔산경찰서에 보관됐습니다.",
+    "from_shot": "V6_041",
+    "to_shot": "V6_042"
+  },
+  {
+    "cut": 42,
+    "before_frame": 3063,
+    "after_frame": 3064,
+    "before_subtitle": "[자막 없음] 직전: 수거품은 둔산경찰서에 보관됐습니다.",
+    "after_subtitle": "초기에는 사람 5321명과 차량 9276대를",
+    "from_shot": "V6_042",
+    "to_shot": "V6_043"
+  },
+  {
+    "cut": 43,
+    "before_frame": 3214,
+    "after_frame": 3215,
+    "before_subtitle": "[자막 없음] 직전: 조사했다고 보도됐습니다.",
+    "after_subtitle": "숫자는 엄청난데, 범인 이름은 여전히 비어",
+    "from_shot": "V6_043",
+    "to_shot": "V6_044"
+  },
+  {
+    "cut": 44,
+    "before_frame": 3305,
+    "after_frame": 3306,
+    "before_subtitle": "[자막 없음] 직전: 있었습니다.",
+    "after_subtitle": "2002년에 붙잡힌 다른 용의자 3명도",
+    "from_shot": "V6_044",
+    "to_shot": "V6_045"
+  },
+  {
+    "cut": 45,
+    "before_frame": 3393,
+    "after_frame": 3394,
+    "before_subtitle": "[자막 없음] 직전: 있었습니다.",
+    "after_subtitle": "구속영장은 기각됐습니다.",
+    "from_shot": "V6_045",
+    "to_shot": "V6_046"
+  },
+  {
+    "cut": 46,
+    "before_frame": 3441,
+    "after_frame": 3442,
+    "before_subtitle": "[자막 없음] 직전: 구속영장은 기각됐습니다.",
+    "after_subtitle": "나중에 붙잡힌 A와 B와는 다른",
+    "from_shot": "V6_046",
+    "to_shot": "V6_047"
+  },
+  {
+    "cut": 47,
+    "before_frame": 3525,
+    "after_frame": 3526,
+    "before_subtitle": "[자막 없음] 직전: 사람들입니다.",
+    "after_subtitle": "2011년 12월, 중요미제사건 전담수사팀이",
+    "from_shot": "V6_047",
+    "to_shot": "V6_048"
+  },
+  {
+    "cut": 48,
+    "before_frame": 3687,
+    "after_frame": 3688,
+    "before_subtitle": "[자막 없음] 직전: 시작했습니다.",
+    "after_subtitle": "2015년에는 살인죄 공소시효를 폐지한",
+    "from_shot": "V6_048",
+    "to_shot": "V6_049"
+  },
+  {
+    "cut": 49,
+    "before_frame": 3806,
+    "after_frame": 3807,
+    "before_subtitle": "[자막 없음] 직전: 태완이법이 시행됐습니다.",
+    "after_subtitle": "이 사건도 수사를 계속할 수 있었다고",
+    "from_shot": "V6_049",
+    "to_shot": "V6_050"
+  },
+  {
+    "cut": 50,
+    "before_frame": 3893,
+    "after_frame": 3894,
+    "before_subtitle": "[자막 없음] 직전: 보도됐습니다.",
+    "after_subtitle": "그리고 2017년 재감식.",
+    "from_shot": "V6_050",
+    "to_shot": "V6_051"
+  },
+  {
+    "cut": 51,
+    "before_frame": 3943,
+    "after_frame": 3944,
+    "before_subtitle": "[자막 없음] 직전: 그리고 2017년 재감식.",
+    "after_subtitle": "마스크와 손수건의 DNA가 돌파구가 됩니다.",
+    "from_shot": "V6_051",
+    "to_shot": "V6_052"
+  },
+  {
+    "cut": 52,
+    "before_frame": 4025,
+    "after_frame": 4026,
+    "before_subtitle": "[자막 없음] 직전: 마스크와 손수건의 DNA가 돌파구가 됩니다.",
+    "after_subtitle": "그런데 비교 상대가 뜻밖의 장소에",
+    "from_shot": "V6_052",
+    "to_shot": "V6_053"
+  },
+  {
+    "cut": 53,
+    "before_frame": 4103,
+    "after_frame": 4104,
+    "before_subtitle": "[자막 없음] 직전: 있었습니다.",
+    "after_subtitle": "은행도, 주차장도 아닙니다.",
+    "from_shot": "V6_053",
+    "to_shot": "V6_054"
+  },
+  {
+    "cut": 54,
+    "before_frame": 4152,
+    "after_frame": 4153,
+    "before_subtitle": "[자막 없음] 직전: 은행도, 주차장도 아닙니다.",
+    "after_subtitle": "2015년 충북의 불법게임장에서 수거한",
+    "from_shot": "V6_054",
+    "to_shot": "V6_055"
+  },
+  {
+    "cut": 55,
+    "before_frame": 4259,
+    "after_frame": 4260,
+    "before_subtitle": "[자막 없음] 직전: 담배꽁초였습니다.",
+    "after_subtitle": "그 꽁초의 DNA와 은행 사건의 DNA가",
+    "from_shot": "V6_055",
+    "to_shot": "V6_056"
+  },
+  {
+    "cut": 56,
+    "before_frame": 4362,
+    "after_frame": 4363,
+    "before_subtitle": "[자막 없음] 직전: 일치했습니다.",
+    "after_subtitle": "천 조각과 담배꽁초.",
+    "from_shot": "V6_056",
+    "to_shot": "V6_057"
+  },
+  {
+    "cut": 57,
+    "before_frame": 4399,
+    "after_frame": 4400,
+    "before_subtitle": "[자막 없음] 직전: 천 조각과 담배꽁초.",
+    "after_subtitle": "버린 물건끼리 연결된 셈입니다.",
+    "from_shot": "V6_057",
+    "to_shot": "V6_058"
+  },
+  {
+    "cut": 58,
+    "before_frame": 4455,
+    "after_frame": 4456,
+    "before_subtitle": "[자막 없음] 직전: 버린 물건끼리 연결된 셈입니다.",
+    "after_subtitle": "범인 입장에선 쓰레기였겠지만, 수사에선",
+    "from_shot": "V6_058",
+    "to_shot": "V6_059"
+  },
+  {
+    "cut": 59,
+    "before_frame": 4558,
+    "after_frame": 4559,
+    "before_subtitle": "[자막 없음] 직전: 연결고리였습니다.",
+    "after_subtitle": "다만 일치했다고 이름이 자동으로 뜬 건",
+    "from_shot": "V6_059",
+    "to_shot": "V6_060"
+  },
+  {
+    "cut": 60,
+    "before_frame": 4641,
+    "after_frame": 4642,
+    "before_subtitle": "[자막 없음] 직전: 아닙니다.",
+    "after_subtitle": "게임장의 DNA도 신원불명이었습니다.",
+    "from_shot": "V6_060",
+    "to_shot": "V6_061"
+  },
+  {
+    "cut": 61,
+    "before_frame": 4717,
+    "after_frame": 4718,
+    "before_subtitle": "[자막 없음] 직전: 게임장의 DNA도 신원불명이었습니다.",
+    "after_subtitle": "같은 사람이라는 단서는 얻었지만, 그 사람이",
+    "from_shot": "V6_061",
+    "to_shot": "V6_062"
+  },
+  {
+    "cut": 62,
+    "before_frame": 4844,
+    "after_frame": 4845,
+    "before_subtitle": "[자막 없음] 직전: 누구인지는 더 찾아야 했습니다.",
+    "after_subtitle": "경찰은 게임장 종업원과 손님 등, 출입",
+    "from_shot": "V6_062",
+    "to_shot": "V6_063"
+  },
+  {
+    "cut": 63,
+    "before_frame": 5013,
+    "after_frame": 5014,
+    "before_subtitle": "[자막 없음] 직전: 대상으로 놓고 확인했습니다.",
+    "after_subtitle": "[자막 없음] 직전: 대상으로 놓고 확인했습니다.",
+    "from_shot": "V6_063",
+    "to_shot": "V6_064"
+  },
+  {
+    "cut": 64,
+    "before_frame": 5108,
+    "after_frame": 5109,
+    "before_subtitle": "[자막 없음] 직전: 아닙니다.",
+    "after_subtitle": "몽타주와 목격자 인상착의, 차량 절도 수법도",
+    "from_shot": "V6_064",
+    "to_shot": "V6_065"
+  },
+  {
+    "cut": 65,
+    "before_frame": 5215,
+    "after_frame": 5216,
+    "before_subtitle": "[자막 없음] 직전: 함께 대조했습니다.",
+    "after_subtitle": "비교하고 좁히고, 다시 확인합니다.",
+    "from_shot": "V6_065",
+    "to_shot": "V6_066"
+  },
+  {
+    "cut": 66,
+    "before_frame": 5276,
+    "after_frame": 5277,
+    "before_subtitle": "[자막 없음] 직전: 비교하고 좁히고, 다시 확인합니다.",
+    "after_subtitle": "2022년 3월, 드디어 유력 용의자 B를",
+    "from_shot": "V6_066",
+    "to_shot": "V6_067"
+  },
+  {
+    "cut": 67,
+    "before_frame": 5373,
+    "after_frame": 5374,
+    "before_subtitle": "[자막 없음] 직전: 특정합니다.",
+    "after_subtitle": "그런데 공범은 아직입니다.",
+    "from_shot": "V6_067",
+    "to_shot": "V6_068"
+  },
+  {
+    "cut": 68,
+    "before_frame": 5421,
+    "after_frame": 5422,
+    "before_subtitle": "[자막 없음] 직전: 그런데 공범은 아직입니다.",
+    "after_subtitle": "경찰은 과거 행적과 주변인을 더",
+    "from_shot": "V6_068",
+    "to_shot": "V6_069"
+  },
+  {
+    "cut": 69,
+    "before_frame": 5500,
+    "after_frame": 5501,
+    "before_subtitle": "[자막 없음] 직전: 조사했습니다.",
+    "after_subtitle": "2022년 8월 25일 B를 붙잡습니다.",
+    "from_shot": "V6_069",
+    "to_shot": "V6_070"
+  },
+  {
+    "cut": 70,
+    "before_frame": 5580,
+    "after_frame": 5581,
+    "before_subtitle": "[자막 없음] 직전: 2022년 8월 25일 B를 붙잡습니다.",
+    "after_subtitle": "검거 장소는 대전이었습니다.",
+    "from_shot": "V6_070",
+    "to_shot": "V6_071"
+  },
+  {
+    "cut": 71,
+    "before_frame": 5632,
+    "after_frame": 5633,
+    "before_subtitle": "[자막 없음] 직전: 검거 장소는 대전이었습니다.",
+    "after_subtitle": "B는 A와 함께 범행했다고 진술했습니다.",
+    "from_shot": "V6_071",
+    "to_shot": "V6_072"
+  },
+  {
+    "cut": 72,
+    "before_frame": 5709,
+    "after_frame": 5710,
+    "before_subtitle": "[자막 없음] 직전: B는 A와 함께 범행했다고 진술했습니다.",
+    "after_subtitle": "그 진술이 A의 체포로 이어집니다.",
+    "from_shot": "V6_072",
+    "to_shot": "V6_073"
+  },
+  {
+    "cut": 73,
+    "before_frame": 5773,
+    "after_frame": 5774,
+    "before_subtitle": "[자막 없음] 직전: 그 진술이 A의 체포로 이어집니다.",
+    "after_subtitle": "A의 DNA가 똑같이 나온 게 아닙니다.",
+    "from_shot": "V6_073",
+    "to_shot": "V6_074"
+  },
+  {
+    "cut": 74,
+    "before_frame": 5847,
+    "after_frame": 5848,
+    "before_subtitle": "[자막 없음] 직전: A의 DNA가 똑같이 나온 게 아닙니다.",
+    "after_subtitle": "A는 강원도 정선의 찜질방에서 붙잡혔습니다.",
+    "from_shot": "V6_074",
+    "to_shot": "V6_075"
+  },
+  {
+    "cut": 75,
+    "before_frame": 5932,
+    "after_frame": 5933,
+    "before_subtitle": "[자막 없음] 직전: A는 강원도 정선의 찜질방에서 붙잡혔습니다.",
+    "after_subtitle": "두 사람은 고등학교 동창.",
+    "from_shot": "V6_075",
+    "to_shot": "V6_076"
+  },
+  {
+    "cut": 76,
+    "before_frame": 5977,
+    "after_frame": 5978,
+    "before_subtitle": "[자막 없음] 직전: 두 사람은 고등학교 동창.",
+    "after_subtitle": "2022년 8월 27일 구속됐습니다.",
+    "from_shot": "V6_076",
+    "to_shot": "V6_077"
+  },
+  {
+    "cut": 77,
+    "before_frame": 6055,
+    "after_frame": 6056,
+    "before_subtitle": "[자막 없음] 직전: 2022년 8월 27일 구속됐습니다.",
+    "after_subtitle": "검거까지 약 20년 8개월.",
+    "from_shot": "V6_077",
+    "to_shot": "V6_078"
+  },
+  {
+    "cut": 78,
+    "before_frame": 6104,
+    "after_frame": 6105,
+    "before_subtitle": "[자막 없음] 직전: 검거까지 약 20년 8개월.",
+    "after_subtitle": "쌓인 수사기록은 약 15만 쪽이라고",
+    "from_shot": "V6_078",
+    "to_shot": "V6_079"
+  },
+  {
+    "cut": 79,
+    "before_frame": 6191,
+    "after_frame": 6192,
+    "before_subtitle": "[자막 없음] 직전: 보도됐습니다.",
+    "after_subtitle": "종이 두께가 사건 해결 속도는 아니었습니다.",
+    "from_shot": "V6_079",
+    "to_shot": "V6_080"
+  },
+  {
+    "cut": 80,
+    "before_frame": 6267,
+    "after_frame": 6268,
+    "before_subtitle": "[자막 없음] 직전: 종이 두께가 사건 해결 속도는 아니었습니다.",
+    "after_subtitle": "붙잡혔으니 끝일까요?",
+    "from_shot": "V6_080",
+    "to_shot": "V6_081"
+  },
+  {
+    "cut": 81,
+    "before_frame": 6308,
+    "after_frame": 6309,
+    "before_subtitle": "[자막 없음] 직전: 붙잡혔으니 끝일까요?",
+    "after_subtitle": "이제 책임 떠넘기기가 시작됩니다.",
+    "from_shot": "V6_081",
+    "to_shot": "V6_082"
+  },
+  {
+    "cut": 82,
+    "before_frame": 6368,
+    "after_frame": 6369,
+    "before_subtitle": "[자막 없음] 직전: 이제 책임 떠넘기기가 시작됩니다.",
+    "after_subtitle": "두 사람은 서로 상대방이 총을 쐈다고",
+    "from_shot": "V6_082",
+    "to_shot": "V6_083"
+  },
+  {
+    "cut": 83,
+    "before_frame": 6455,
+    "after_frame": 6456,
+    "before_subtitle": "[자막 없음] 직전: 주장했습니다.",
+    "after_subtitle": "A는 처음 부인하다 총격을 시인했다고 경찰이",
+    "from_shot": "V6_083",
+    "to_shot": "V6_084"
+  },
+  {
+    "cut": 84,
+    "before_frame": 6562,
+    "after_frame": 6563,
+    "before_subtitle": "[자막 없음] 직전: 발표했습니다.",
+    "after_subtitle": "하지만 재판에서는 다시 총격을 부인했습니다.",
+    "from_shot": "V6_084",
+    "to_shot": "V6_085"
+  },
+  {
+    "cut": 85,
+    "before_frame": 6641,
+    "after_frame": 6642,
+    "before_subtitle": "[자막 없음] 직전: 하지만 재판에서는 다시 총격을 부인했습니다.",
+    "after_subtitle": "돈을 나눈 얘기마저 달랐습니다.",
+    "from_shot": "V6_085",
+    "to_shot": "V6_086"
+  },
+  {
+    "cut": 86,
+    "before_frame": 6697,
+    "after_frame": 6698,
+    "before_subtitle": "[자막 없음] 직전: 돈을 나눈 얘기마저 달랐습니다.",
+    "after_subtitle": "B는 자신이 9000만 원, A가",
+    "from_shot": "V6_086",
+    "to_shot": "V6_087"
+  },
+  {
+    "cut": 87,
+    "before_frame": 6812,
+    "after_frame": 6813,
+    "before_subtitle": "[자막 없음] 직전: 2억1000만 원을 챙겼다고 진술했습니다.",
+    "after_subtitle": "반면 A는 절반씩 나눴다고 했습니다.",
+    "from_shot": "V6_087",
+    "to_shot": "V6_088"
+  },
+  {
+    "cut": 88,
+    "before_frame": 6880,
+    "after_frame": 6881,
+    "before_subtitle": "[자막 없음] 직전: 반면 A는 절반씩 나눴다고 했습니다.",
+    "after_subtitle": "이 숫자들은 서로 다른 진술입니다.",
+    "from_shot": "V6_088",
+    "to_shot": "V6_089"
+  },
+  {
+    "cut": 89,
+    "before_frame": 6941,
+    "after_frame": 6942,
+    "before_subtitle": "[자막 없음] 직전: 이 숫자들은 서로 다른 진술입니다.",
+    "after_subtitle": "실제 분배액으로 확정하면 안 됩니다.",
+    "from_shot": "V6_089",
+    "to_shot": "V6_090"
+  },
+  {
+    "cut": 90,
+    "before_frame": 7005,
+    "after_frame": 7006,
+    "before_subtitle": "[자막 없음] 직전: 실제 분배액으로 확정하면 안 됩니다.",
+    "after_subtitle": "같이 범행했다는 두 사람의 계산서가 서로",
+    "from_shot": "V6_090",
+    "to_shot": "V6_091"
+  },
+  {
+    "cut": 91,
+    "before_frame": 7093,
+    "after_frame": 7094,
+    "before_subtitle": "[자막 없음] 직전: 다릅니다.",
+    "after_subtitle": "책임도 상대에게 배송 중이네요.",
+    "from_shot": "V6_091",
+    "to_shot": "V6_092"
+  },
+  {
+    "cut": 92,
+    "before_frame": 7150,
+    "after_frame": 7151,
+    "before_subtitle": "[자막 없음] 직전: 책임도 상대에게 배송 중이네요.",
+    "after_subtitle": "총을 쏜 사람이 상대라며 떠넘깁니다.",
+    "from_shot": "V6_092",
+    "to_shot": "V6_093"
+  },
+  {
+    "cut": 93,
+    "before_frame": 7213,
+    "after_frame": 7214,
+    "before_subtitle": "[자막 없음] 직전: 총을 쏜 사람이 상대라며 떠넘깁니다.",
+    "after_subtitle": "2023년 1월 16일, 검찰은 A에게",
+    "from_shot": "V6_093",
+    "to_shot": "V6_094"
+  },
+  {
+    "cut": 94,
+    "before_frame": 7352,
+    "after_frame": 7353,
+    "before_subtitle": "[자막 없음] 직전: 사형, B에게 무기징역을 구형했습니다.",
+    "after_subtitle": "검찰의 요구이지 판결은 아닙니다.",
+    "from_shot": "V6_094",
+    "to_shot": "V6_095"
+  },
+  {
+    "cut": 95,
+    "before_frame": 7411,
+    "after_frame": 7412,
+    "before_subtitle": "[자막 없음] 직전: 검찰의 요구이지 판결은 아닙니다.",
+    "after_subtitle": "사형 구형 뒤 A가 감사하다는 말을 했다는",
+    "from_shot": "V6_095",
+    "to_shot": "V6_096"
+  },
+  {
+    "cut": 96,
+    "before_frame": 7529,
+    "after_frame": 7530,
+    "before_subtitle": "[자막 없음] 직전: 법정 장면도 보도됐습니다.",
+    "after_subtitle": "정확한 표현은 매체마다 달라 합쳐 쓰지",
+    "from_shot": "V6_096",
+    "to_shot": "V6_097"
+  },
+  {
+    "cut": 97,
+    "before_frame": 7613,
+    "after_frame": 7614,
+    "before_subtitle": "[자막 없음] 직전: 않습니다.",
+    "after_subtitle": "말은 오락가락해도 법원은 판단해야 합니다.",
+    "from_shot": "V6_097",
+    "to_shot": "V6_098"
+  },
+  {
+    "cut": 98,
+    "before_frame": 7687,
+    "after_frame": 7688,
+    "before_subtitle": "[자막 없음] 직전: 말은 오락가락해도 법원은 판단해야 합니다.",
+    "after_subtitle": "총을 쏜 사람은 누구라고 인정했을까요?",
+    "from_shot": "V6_098",
+    "to_shot": "V6_099"
+  },
+  {
+    "cut": 99,
+    "before_frame": 7756,
+    "after_frame": 7757,
+    "before_subtitle": "[자막 없음] 직전: 총을 쏜 사람은 누구라고 인정했을까요?",
+    "after_subtitle": "그리고 공범의 형은 어디로 갈까요?",
+    "from_shot": "V6_099",
+    "to_shot": "V6_100"
+  },
+  {
+    "cut": 100,
+    "before_frame": 7817,
+    "after_frame": 7818,
+    "before_subtitle": "[자막 없음] 직전: 그리고 공범의 형은 어디로 갈까요?",
+    "after_subtitle": "2023년 2월 17일, 1심은 A에게",
+    "from_shot": "V6_100",
+    "to_shot": "V6_101"
+  },
+  {
+    "cut": 101,
+    "before_frame": 7968,
+    "after_frame": 7969,
+    "before_subtitle": "[자막 없음] 직전: 선고했습니다.",
+    "after_subtitle": "법원은 A의 총격을 인정했습니다.",
+    "from_shot": "V6_101",
+    "to_shot": "V6_102"
+  },
+  {
+    "cut": 102,
+    "before_frame": 8033,
+    "after_frame": 8034,
+    "before_subtitle": "[자막 없음] 직전: 법원은 A의 총격을 인정했습니다.",
+    "after_subtitle": "총기 경험만 본 게 아닙니다.",
+    "from_shot": "V6_102",
+    "to_shot": "V6_103"
+  },
+  {
+    "cut": 103,
+    "before_frame": 8080,
+    "after_frame": 8081,
+    "before_subtitle": "[자막 없음] 직전: 총기 경험만 본 게 아닙니다.",
+    "after_subtitle": "권총을 쥐고 조준한 정황과 진술의 신빙성도",
+    "from_shot": "V6_103",
+    "to_shot": "V6_104"
+  },
+  {
+    "cut": 104,
+    "before_frame": 8179,
+    "after_frame": 8180,
+    "before_subtitle": "[자막 없음] 직전: 판단했습니다.",
+    "after_subtitle": "B에게는 보조 역할과 자백을 고려했습니다.",
+    "from_shot": "V6_104",
+    "to_shot": "V6_105"
+  },
+  {
+    "cut": 105,
+    "before_frame": 8254,
+    "after_frame": 8255,
+    "before_subtitle": "[자막 없음] 직전: B에게는 보조 역할과 자백을 고려했습니다.",
+    "after_subtitle": "오래 묻힌 사건의 경위를 밝히는 데 도움이",
+    "from_shot": "V6_105",
+    "to_shot": "V6_106"
+  },
+  {
+    "cut": 106,
+    "before_frame": 8352,
+    "after_frame": 8353,
+    "before_subtitle": "[자막 없음] 직전: 됐다는 점입니다.",
+    "after_subtitle": "그런데 항소심에서 20년형에 문제가 있다고",
+    "from_shot": "V6_106",
+    "to_shot": "V6_107"
+  },
+  {
+    "cut": 107,
+    "before_frame": 8444,
+    "after_frame": 8445,
+    "before_subtitle": "[자막 없음] 직전: 합니다.",
+    "after_subtitle": "그러면 형이 줄어드나?",
+    "from_shot": "V6_107",
+    "to_shot": "V6_108"
+  },
+  {
+    "cut": 108,
+    "before_frame": 8485,
+    "after_frame": 8486,
+    "before_subtitle": "[자막 없음] 직전: 그러면 형이 줄어드나?",
+    "after_subtitle": "이 사건은 반대였습니다.",
+    "from_shot": "V6_108",
+    "to_shot": "V6_109"
+  },
+  {
+    "cut": 109,
+    "before_frame": 8530,
+    "after_frame": 8531,
+    "before_subtitle": "[자막 없음] 직전: 이 사건은 반대였습니다.",
+    "after_subtitle": "2023년 8월 18일, 항소심은 둘 다",
+    "from_shot": "V6_109",
+    "to_shot": "V6_110"
+  },
+  {
+    "cut": 110,
+    "before_frame": 8646,
+    "after_frame": 8647,
+    "before_subtitle": "[자막 없음] 직전: 무기징역을 선고했습니다.",
+    "after_subtitle": "B의 20년형이 무기로 올라갔습니다.",
+    "from_shot": "V6_110",
+    "to_shot": "V6_111"
+  },
+  {
+    "cut": 111,
+    "before_frame": 8714,
+    "after_frame": 8715,
+    "before_subtitle": "[자막 없음] 직전: B의 20년형이 무기로 올라갔습니다.",
+    "after_subtitle": "이 사건에 적용된 법의 문제입니다.",
+    "from_shot": "V6_111",
+    "to_shot": "V6_112"
+  },
+  {
+    "cut": 112,
+    "before_frame": 8774,
+    "after_frame": 8775,
+    "before_subtitle": "[자막 없음] 직전: 이 사건에 적용된 법의 문제입니다.",
+    "after_subtitle": "항소심은 강도살인의 법정형이 사형 또는",
+    "from_shot": "V6_112",
+    "to_shot": "V6_113"
+  },
+  {
+    "cut": 113,
+    "before_frame": 8896,
+    "after_frame": 8897,
+    "before_subtitle": "[자막 없음] 직전: 무기징역이라고 설명했습니다.",
+    "after_subtitle": "정상을 참작해 감경하더라도 유기징역의 상한은",
+    "from_shot": "V6_113",
+    "to_shot": "V6_114"
+  },
+  {
+    "cut": 114,
+    "before_frame": 8993,
+    "after_frame": 8994,
+    "before_subtitle": "[자막 없음] 직전: 15년.",
+    "after_subtitle": "그래서 1심의 20년 선고는 잘못이라는",
+    "from_shot": "V6_114",
+    "to_shot": "V6_115"
+  },
+  {
+    "cut": 115,
+    "before_frame": 9085,
+    "after_frame": 9086,
+    "before_subtitle": "[자막 없음] 직전: 판단입니다.",
+    "after_subtitle": "그럼 15년이냐고요?",
+    "from_shot": "V6_115",
+    "to_shot": "V6_116"
+  },
+  {
+    "cut": 116,
+    "before_frame": 9126,
+    "after_frame": 9127,
+    "before_subtitle": "[자막 없음] 직전: 그럼 15년이냐고요?",
+    "after_subtitle": "항소심은 B에게 불리한 사정이 유리한 사정을",
+    "from_shot": "V6_116",
+    "to_shot": "V6_117"
+  },
+  {
+    "cut": 117,
+    "before_frame": 9280,
+    "after_frame": 9281,
+    "before_subtitle": "[자막 없음] 직전: 않았습니다.",
+    "after_subtitle": "20에서 15로 내려간 게 아닙니다.",
+    "from_shot": "V6_117",
+    "to_shot": "V6_118"
+  },
+  {
+    "cut": 118,
+    "before_frame": 9344,
+    "after_frame": 9345,
+    "before_subtitle": "[자막 없음] 직전: 20에서 15로 내려간 게 아닙니다.",
+    "after_subtitle": "감경을 안 해서 무기징역입니다.",
+    "from_shot": "V6_118",
+    "to_shot": "V6_119"
+  },
+  {
+    "cut": 119,
+    "before_frame": 9400,
+    "after_frame": 9401,
+    "before_subtitle": "[자막 없음] 직전: 감경을 안 해서 무기징역입니다.",
+    "after_subtitle": "형량표의 숫자만 보고 결말을 찍으면 틀리는",
+    "from_shot": "V6_119",
+    "to_shot": "V6_120"
+  },
+  {
+    "cut": 120,
+    "before_frame": 9487,
+    "after_frame": 9488,
+    "before_subtitle": "[자막 없음] 직전: 겁니다.",
+    "after_subtitle": "B가 발사자로 바뀌어서 무기가 된 것도",
+    "from_shot": "V6_120",
+    "to_shot": "V6_121"
+  },
+  {
+    "cut": 121,
+    "before_frame": 9571,
+    "after_frame": 9572,
+    "before_subtitle": "[자막 없음] 직전: 아닙니다.",
+    "after_subtitle": "A가 권총을 발사했다는 판단은 항소심에서도",
+    "from_shot": "V6_121",
+    "to_shot": "V6_122"
+  },
+  {
+    "cut": 122,
+    "before_frame": 9678,
+    "after_frame": 9679,
+    "before_subtitle": "[자막 없음] 직전: 유지됐습니다.",
+    "after_subtitle": "두 사람은 형이 무겁다며 상고했습니다.",
+    "from_shot": "V6_122",
+    "to_shot": "V6_123"
+  },
+  {
+    "cut": 123,
+    "before_frame": 9744,
+    "after_frame": 9745,
+    "before_subtitle": "[자막 없음] 직전: 두 사람은 형이 무겁다며 상고했습니다.",
+    "after_subtitle": "마지막 문은 대법원입니다.",
+    "from_shot": "V6_123",
+    "to_shot": "V6_124"
+  },
+  {
+    "cut": 124,
+    "before_frame": 9793,
+    "after_frame": 9794,
+    "before_subtitle": "[자막 없음] 직전: 마지막 문은 대법원입니다.",
+    "after_subtitle": "약 20년 넘게 걸린 사건의 결론이 여기서",
+    "from_shot": "V6_124",
+    "to_shot": "V6_125"
+  },
+  {
+    "cut": 125,
+    "before_frame": 9886,
+    "after_frame": 9887,
+    "before_subtitle": "[자막 없음] 직전: 정해집니다.",
+    "after_subtitle": "2023년 12월 14일, 대법원은 상고를",
+    "from_shot": "V6_125",
+    "to_shot": "V6_126"
+  },
+  {
+    "cut": 126,
+    "before_frame": 9989,
+    "after_frame": 9990,
+    "before_subtitle": "[자막 없음] 직전: 기각했습니다.",
+    "after_subtitle": "두 사람 모두 무기징역이 확정됐습니다.",
+    "from_shot": "V6_126",
+    "to_shot": "V6_127"
+  },
+  {
+    "cut": 127,
+    "before_frame": 10058,
+    "after_frame": 10059,
+    "before_subtitle": "[자막 없음] 직전: 두 사람 모두 무기징역이 확정됐습니다.",
+    "after_subtitle": "대법원은 원심의 형이 부당하다고 볼 수",
+    "from_shot": "V6_127",
+    "to_shot": "V6_128"
+  },
+  {
+    "cut": 128,
+    "before_frame": 10161,
+    "after_frame": 10162,
+    "before_subtitle": "[자막 없음] 직전: 없다고 판단했습니다.",
+    "after_subtitle": "무기징역을 가석방 없는 종신형으로 바꿔 말할",
+    "from_shot": "V6_128",
+    "to_shot": "V6_129"
+  },
+  {
+    "cut": 129,
+    "before_frame": 10265,
+    "after_frame": 10266,
+    "before_subtitle": "[자막 없음] 직전: 수는 없습니다.",
+    "after_subtitle": "숨진 출납과장은 두 자녀를 둔",
+    "from_shot": "V6_129",
+    "to_shot": "V6_130"
+  },
+  {
+    "cut": 130,
+    "before_frame": 10345,
+    "after_frame": 10346,
+    "before_subtitle": "[자막 없음] 직전: 가장이었습니다.",
+    "after_subtitle": "유족이 검거에 감사를 전했다는 보도는 경찰을",
+    "from_shot": "V6_130",
+    "to_shot": "V6_131"
+  },
+  {
+    "cut": 131,
+    "before_frame": 10461,
+    "after_frame": 10462,
+    "before_subtitle": "[자막 없음] 직전: 통한 전언이었습니다.",
+    "after_subtitle": "이 사건의 마지막에 남겨야 할 건 범인의",
+    "from_shot": "V6_131",
+    "to_shot": "V6_132"
+  },
+  {
+    "cut": 132,
+    "before_frame": 10556,
+    "after_frame": 10557,
+    "before_subtitle": "[자막 없음] 직전: 표정이 아닙니다.",
+    "after_subtitle": "일을 하던 한 사람이 돌아오지 못했다는",
+    "from_shot": "V6_132",
+    "to_shot": "V6_133"
+  }
+]

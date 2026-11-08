@@ -1,0 +1,3 @@
+READY v52b_q012.mp4 f917-f921 52.10dB true
+READY v52b_q016.mp4 f841-f844 51.25dB true
+READY v52b_q017.mp4 f623-f626 51.12dB true

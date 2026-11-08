@@ -1,0 +1,141 @@
+{
+  "interval_seconds": 0.5,
+  "start_frame": 552,
+  "frames": [
+    {
+      "frame": 552,
+      "seconds": 18.4,
+      "scene": "quiz"
+    },
+    {
+      "frame": 567,
+      "seconds": 18.9,
+      "scene": "quiz"
+    },
+    {
+      "frame": 582,
+      "seconds": 19.4,
+      "scene": "quiz"
+    },
+    {
+      "frame": 597,
+      "seconds": 19.9,
+      "scene": "weigh"
+    },
+    {
+      "frame": 612,
+      "seconds": 20.4,
+      "scene": "weigh"
+    },
+    {
+      "frame": 627,
+      "seconds": 20.9,
+      "scene": "weigh"
+    },
+    {
+      "frame": 642,
+      "seconds": 21.4,
+      "scene": "weigh"
+    },
+    {
+      "frame": 657,
+      "seconds": 21.9,
+      "scene": "weigh"
+    },
+    {
+      "frame": 672,
+      "seconds": 22.4,
+      "scene": "weigh"
+    },
+    {
+      "frame": 687,
+      "seconds": 22.9,
+      "scene": "weigh"
+    },
+    {
+      "frame": 702,
+      "seconds": 23.4,
+      "scene": "weigh"
+    },
+    {
+      "frame": 717,
+      "seconds": 23.9,
+      "scene": "weigh"
+    },
+    {
+      "frame": 732,
+      "seconds": 24.4,
+      "scene": "weigh"
+    },
+    {
+      "frame": 747,
+      "seconds": 24.9,
+      "scene": "weigh"
+    },
+    {
+      "frame": 762,
+      "seconds": 25.4,
+      "scene": "weigh"
+    },
+    {
+      "frame": 777,
+      "seconds": 25.9,
+      "scene": "reveal"
+    },
+    {
+      "frame": 792,
+      "seconds": 26.4,
+      "scene": "reveal"
+    },
+    {
+      "frame": 807,
+      "seconds": 26.9,
+      "scene": "reveal"
+    },
+    {
+      "frame": 822,
+      "seconds": 27.4,
+      "scene": "reveal"
+    },
+    {
+      "frame": 837,
+      "seconds": 27.9,
+      "scene": "reveal"
+    },
+    {
+      "frame": 852,
+      "seconds": 28.4,
+      "scene": "reveal"
+    },
+    {
+      "frame": 867,
+      "seconds": 28.9,
+      "scene": "reveal"
+    },
+    {
+      "frame": 882,
+      "seconds": 29.4,
+      "scene": "reveal"
+    },
+    {
+      "frame": 897,
+      "seconds": 29.9,
+      "scene": "reveal"
+    },
+    {
+      "frame": 912,
+      "seconds": 30.4,
+      "scene": "reveal"
+    },
+    {
+      "frame": 927,
+      "seconds": 30.9,
+      "scene": "reveal"
+    },
+    {
+      "frame": 942,
+      "seconds": 31.4,
+      "scene": "reveal"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+ "id": "cobblestone_street_night",
+ "name": "Cobblestone Street Night",
+ "type": 0,
+ "authors": {
+  "Greg Zaal": "All",
+  "Jenelle van Heerden": "Backplates"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/cobblestone_street_night",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/cobblestone_street_night_2k.hdr"
+ ]
+}

@@ -1,0 +1,4 @@
+start_s,end_s,shown_summary,spoken_summary,cuts_in_second,cut_times_s,static_headline_present,note
+0,1,흑백 주택 외관과 상단 빨강/흰 두 줄 제목,날짜 제시,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+1,2,같은 주택으로 카메라 접근; 날짜 라벨 표시,같은 날짜 문장 계속,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+2,3,카메라가 담장과 집으로 더 가까워짐,인물과 동네로 진입,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.

@@ -1,0 +1,194 @@
+
+> verdict-compositor@0.1.0 test:end-transition
+> node --experimental-strip-types --test tests/endTransition.test.ts
+
+TAP version 13
+# Subtest: v3 q001: outgoing panel covers CTA pre-roll
+ok 1 - v3 q001: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 1.8545
+  type: 'test'
+  ...
+# Subtest: v3 q002: outgoing panel covers CTA pre-roll
+ok 2 - v3 q002: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.413125
+  type: 'test'
+  ...
+# Subtest: v3 q003: outgoing panel covers CTA pre-roll
+ok 3 - v3 q003: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.556875
+  type: 'test'
+  ...
+# Subtest: v3 q004: outgoing panel covers CTA pre-roll
+ok 4 - v3 q004: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.470125
+  type: 'test'
+  ...
+# Subtest: v3 q005: outgoing panel covers CTA pre-roll
+ok 5 - v3 q005: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.432042
+  type: 'test'
+  ...
+# Subtest: v3 q006: outgoing panel covers CTA pre-roll
+ok 6 - v3 q006: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.404583
+  type: 'test'
+  ...
+# Subtest: v3 q007: outgoing panel covers CTA pre-roll
+ok 7 - v3 q007: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.344542
+  type: 'test'
+  ...
+# Subtest: v3 q008: outgoing panel covers CTA pre-roll
+ok 8 - v3 q008: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.242167
+  type: 'test'
+  ...
+# Subtest: v3 q009: outgoing panel covers CTA pre-roll
+ok 9 - v3 q009: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.683583
+  type: 'test'
+  ...
+# Subtest: v3 q010: outgoing panel covers CTA pre-roll
+ok 10 - v3 q010: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.570916
+  type: 'test'
+  ...
+# Subtest: v3 q011: outgoing panel covers CTA pre-roll
+ok 11 - v3 q011: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.388208
+  type: 'test'
+  ...
+# Subtest: v3 q012: outgoing panel covers CTA pre-roll
+ok 12 - v3 q012: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.296875
+  type: 'test'
+  ...
+# Subtest: v3 q013: outgoing panel covers CTA pre-roll
+ok 13 - v3 q013: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.453541
+  type: 'test'
+  ...
+# Subtest: v3 q014: outgoing panel covers CTA pre-roll
+ok 14 - v3 q014: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.405584
+  type: 'test'
+  ...
+# Subtest: v3 q015: outgoing panel covers CTA pre-roll
+ok 15 - v3 q015: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.241625
+  type: 'test'
+  ...
+# Subtest: v3 q016: outgoing panel covers CTA pre-roll
+ok 16 - v3 q016: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.42
+  type: 'test'
+  ...
+# Subtest: v3 q017: outgoing panel covers CTA pre-roll
+ok 17 - v3 q017: outgoing panel covers CTA pre-roll
+  ---
+  duration_ms: 0.411125
+  type: 'test'
+  ...
+# Subtest: v5 q012: no intermediate legacy outro
+ok 18 - v5 q012: no intermediate legacy outro
+  ---
+  duration_ms: 0.385666
+  type: 'test'
+  ...
+# Subtest: v51 q012: no intermediate legacy outro
+ok 19 - v51 q012: no intermediate legacy outro
+  ---
+  duration_ms: 0.43625
+  type: 'test'
+  ...
+# Subtest: v52 q012: no intermediate legacy outro
+ok 20 - v52 q012: no intermediate legacy outro
+  ---
+  duration_ms: 0.416916
+  type: 'test'
+  ...
+# Subtest: v5 q015: no intermediate legacy outro
+ok 21 - v5 q015: no intermediate legacy outro
+  ---
+  duration_ms: 0.28375
+  type: 'test'
+  ...
+# Subtest: v51 q015: no intermediate legacy outro
+ok 22 - v51 q015: no intermediate legacy outro
+  ---
+  duration_ms: 0.38875
+  type: 'test'
+  ...
+# Subtest: v52 q015: no intermediate legacy outro
+ok 23 - v52 q015: no intermediate legacy outro
+  ---
+  duration_ms: 0.349583
+  type: 'test'
+  ...
+# Subtest: v5 q016: no intermediate legacy outro
+ok 24 - v5 q016: no intermediate legacy outro
+  ---
+  duration_ms: 0.343084
+  type: 'test'
+  ...
+# Subtest: v51 q016: no intermediate legacy outro
+ok 25 - v51 q016: no intermediate legacy outro
+  ---
+  duration_ms: 0.428542
+  type: 'test'
+  ...
+# Subtest: v52 q016: no intermediate legacy outro
+ok 26 - v52 q016: no intermediate legacy outro
+  ---
+  duration_ms: 0.231958
+  type: 'test'
+  ...
+# Subtest: v5 q017: no intermediate legacy outro
+ok 27 - v5 q017: no intermediate legacy outro
+  ---
+  duration_ms: 0.339167
+  type: 'test'
+  ...
+# Subtest: v51 q017: no intermediate legacy outro
+ok 28 - v51 q017: no intermediate legacy outro
+  ---
+  duration_ms: 0.268125
+  type: 'test'
+  ...
+# Subtest: v52 q017: no intermediate legacy outro
+ok 29 - v52 q017: no intermediate legacy outro
+  ---
+  duration_ms: 0.260208
+  type: 'test'
+  ...
+# Subtest: already aligned full-screen transitions retain their display ranges
+ok 30 - already aligned full-screen transitions retain their display ranges
+  ---
+  duration_ms: 0.621875
+  type: 'test'
+  ...
+1..30
+# tests 30
+# suites 0
+# pass 30
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 136.895667

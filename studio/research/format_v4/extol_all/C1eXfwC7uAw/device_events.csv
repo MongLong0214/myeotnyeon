@@ -1,0 +1,174 @@
+category,start_s,end_s,description,span_char_start,span_char_end
+foreshadowing,12.3,23.2,40분 전 충격 장면,,
+foreshadowing,35,42.7,표적과 피해자의 모순,,
+foreshadowing,71.7,74.5,암살 계획,,
+foreshadowing,126.6,129.7,로비 발사 계획,,
+foreshadowing,229.2,232.1,논란은 뒤에서 설명,,
+withholding,12.3,17.5,충격 장면의 내용,,
+withholding,38.8,44.8,질문 뒤 과거로 되감기,,
+withholding,143.6,155.2,접근 뒤 어린이로 지연,,
+withholding,226.4,238.3,총알 경로 논란을 유예,,
+withholding,364.4,370.9,의문을 남기고 다음 장,,
+withholding,415.6,458.6,실험 결과를 순차 계산,,
+quotes,317.8,320.1,대통령의 기록 음성,,
+quotes,389.1,398.1,당시 조사 관련자 주장,,
+quotes,506.6,516.8,사진기자의 발언 소개,,
+irony,100.9,122.2,엄중해야 할 행사와 경호 완화,,
+irony,212.8,223.6,경호 책임자가 총을 떨어뜨림,,
+irony,269.1,297,돕는 사람을 위협으로 오인,,
+irony,311.6,320.1,직전 비극과 연설 재개 대비,,
+questions,38.82,42.72,ASR의 물음표/의문형 어미; 질문 인용이 포함될 수 있음,,
+reversals,12.3,12.3,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,35,35,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,119.3,119.3,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,149.4,149.4,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,173.5,173.5,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,212.8,212.8,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,279.2,279.2,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,311.6,311.6,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,377.1,377.1,상황·해석·기대의 재설정; 수동 의미 코딩,,
+specifics,0.0,3.12,number,1,6
+specifics,0.0,3.12,number,7,9
+specifics,0.0,3.12,number,10,13
+specifics,0.0,3.12,number/time,17,20
+specifics,0.0,3.12,number/time,21,24
+specifics,0.0,3.12,time,14,16
+specifics,3.12,7.38,number,16,17
+specifics,3.12,7.38,place,5,7
+specifics,12.3,17.54,number/time,12,15
+specifics,12.3,17.54,place,18,22
+specifics,38.82,42.72,object,9,11
+specifics,44.78,48.82,number,5,7
+specifics,44.78,48.82,number,11,16
+specifics,44.78,48.82,number,17,19
+specifics,44.78,48.82,number,20,22
+specifics,49.08,52.04,place,7,11
+specifics,49.08,52.04,place,16,18
+specifics,53.56,60.1,object,5,7
+specifics,53.56,60.1,place,26,28
+specifics,60.24,65.18,object,8,10
+specifics,60.24,65.18,place,28,30
+specifics,60.24,65.18,place,31,35
+specifics,65.52,71.4,number,1,5
+specifics,65.52,71.4,number,35,38
+specifics,65.52,71.4,object,24,27
+specifics,65.52,71.4,object,40,43
+specifics,71.66,74.52,place,10,12
+specifics,74.84,78.52,number,12,17
+specifics,74.84,78.52,number,18,20
+specifics,74.84,78.52,number,21,24
+specifics,74.84,78.52,number/time,28,30
+specifics,74.84,78.52,time,25,27
+specifics,78.52,84.22,place,27,29
+specifics,78.52,84.22,place,35,39
+specifics,84.44,87.58,number,6,8
+specifics,91.96,95.84,number/time,4,6
+specifics,91.96,95.84,place,7,11
+specifics,91.96,95.84,time,1,3
+specifics,96.28,100.56,place,10,12
+specifics,96.28,100.56,place,21,23
+specifics,100.86,107.36,number,4,7
+specifics,107.36,119.0,number,8,11
+specifics,107.36,119.0,number,85,87
+specifics,107.36,119.0,object,38,41
+specifics,107.36,119.0,time,85,88
+specifics,129.74,137.34,number/time,4,6
+specifics,129.74,137.34,number/time,7,10
+specifics,129.74,137.34,place,48,52
+specifics,129.74,137.34,time,1,3
+specifics,137.52,141.58,number/time,4,7
+specifics,137.52,141.58,place,24,28
+specifics,137.52,141.58,time,1,3
+specifics,143.62,146.24,number,1,4
+specifics,143.62,146.24,number,21,24
+specifics,143.62,146.24,object,6,9
+specifics,158.22,162.9,number/time,4,7
+specifics,158.22,162.9,number/time,8,11
+specifics,158.22,162.9,time,1,3
+specifics,163.08,168.94,number,43,46
+specifics,169.26,173.32,number/time,4,7
+specifics,169.26,173.32,number/time,8,11
+specifics,169.26,173.32,time,1,3
+specifics,204.68,207.76,object,1,3
+specifics,204.68,207.76,object,14,17
+specifics,212.8,223.56,object,12,15
+specifics,226.44,228.98,object,3,5
+specifics,232.4,238.26,object,7,9
+specifics,242.98,245.98,object,3,5
+specifics,251.84,256.72,object,22,24
+specifics,283.8,287.32,object,5,7
+specifics,287.32,290.96,number,12,13
+specifics,297.24,302.86,object,30,33
+specifics,297.24,302.86,object,35,38
+specifics,303.12,311.08,number,71,74
+specifics,322.52000000000004,323.98,number/time,4,7
+specifics,322.52000000000004,323.98,number/time,8,11
+specifics,322.52000000000004,323.98,time,1,3
+specifics,323.98,326.18,place,1,3
+specifics,326.18,329.44,number/time,8,10
+specifics,326.18,329.44,number/time,12,15
+specifics,336.54,339.52,number,13,15
+specifics,336.54,339.52,object,5,7
+specifics,336.54,339.52,object,21,23
+specifics,339.52,342.22,object,9,11
+specifics,344.1,346.64,number,3,5
+specifics,344.1,346.64,object,12,14
+specifics,346.64,349.26,number/time,8,10
+specifics,346.64,349.26,time,5,7
+specifics,349.42,350.66,number,7,10
+specifics,364.4,368.56,object,23,25
+specifics,377.1,381.06,number,16,18
+specifics,377.1,381.06,number,26,31
+specifics,377.1,381.06,number,32,34
+specifics,384.7,388.94,place,10,12
+specifics,391.04,393.94,object,11,13
+specifics,396.06,398.06,object,9,11
+specifics,398.32,400.84,number,13,15
+specifics,398.32,400.84,number,19,24
+specifics,406.76,408.36,object,5,7
+specifics,419.26,420.68,number,1,5
+specifics,420.98,423.84,number,18,22
+specifics,420.98,423.84,object,6,9
+specifics,426.78,430.0,object,11,14
+specifics,430.4,433.4,number,17,21
+specifics,433.4,436.62,number,22,27
+specifics,436.94,441.56,number,3,7
+specifics,436.94,441.56,number,17,22
+specifics,436.94,441.56,object,13,15
+specifics,441.96,448.38,number,25,28
+specifics,441.96,448.38,number,30,33
+specifics,441.96,448.38,number,52,56
+specifics,441.96,448.38,object,39,41
+specifics,448.6,451.94,number,11,16
+specifics,448.6,451.94,object,5,7
+specifics,452.14,455.38,number,21,26
+specifics,455.6,458.64,number,5,10
+specifics,462.5,470.24,number,14,15
+specifics,462.5,470.24,number,25,29
+specifics,462.5,470.24,number,34,38
+specifics,462.5,470.24,number,42,46
+specifics,470.52,474.5,number,23,24
+specifics,470.52,474.5,object,3,5
+specifics,470.52,474.5,object,12,14
+specifics,474.7,483.32,number,59,60
+specifics,474.7,483.32,number,63,66
+specifics,474.7,483.32,object,16,19
+specifics,474.7,483.32,object,71,73
+specifics,487.0,494.72,number,17,21
+specifics,487.0,494.72,number,24,29
+specifics,487.0,494.72,number,31,36
+specifics,487.0,494.72,number,41,46
+specifics,494.94,502.54,number,21,26
+specifics,494.94,502.54,object,30,32
+specifics,517.0,521.8,object,13,15
+specifics,522.0,525.14,object,21,23
+specifics,525.14,527.38,object,11,13
+specifics,537.14,540.32,number,13,16
+specifics,537.14,540.32,number,17,20
+specifics,540.32,546.44,number,7,11
+specifics,540.32,546.44,number,15,20
+specifics,540.32,546.44,number,21,24
+specifics,540.32,546.44,number,25,28
+specifics,540.32,546.44,number/time,32,34
+specifics,540.32,546.44,number/time,35,38
+specifics,540.32,546.44,time,29,31

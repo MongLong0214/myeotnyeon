@@ -1,0 +1,6 @@
+start_s,end_s,foreshadowing_count,foreshadowing_per_minute,withholding_count,withholding_per_minute,quotes_count,quotes_per_minute,irony_count,irony_per_minute,questions_count,questions_per_minute,direct_address_count,direct_address_per_minute,reversals_count,reversals_per_minute,specifics_count,specifics_per_minute
+0,60,1,1.0,1,1.0,0,0.0,1,1.0,1,1.0,1,1.0,2,2.0,17,17.0
+60,120,2,2.0,1,1.0,0,0.0,0,0.0,0,0.0,0,0.0,2,2.0,21,21.0
+120,180,1,1.0,2,2.0,0,0.0,0,0.0,0,0.0,0,0.0,2,2.0,17,17.0
+180,240,1,1.0,0,0.0,0,0.0,1,1.0,0,0.0,0,0.0,1,1.0,31,31.0
+240,266.3333333333333,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,8,18.227848101265835

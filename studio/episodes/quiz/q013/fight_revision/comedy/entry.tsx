@@ -1,0 +1,17 @@
+import {CoverCandidate} from './CoverCandidate';
+import React from 'react';
+import {registerRoot,AbsoluteFill,Audio,Composition,Still,staticFile,useCurrentFrame} from 'remotion';
+import {Quiz,QuizDoc} from './QuizPanels';
+import {HookV52} from '../../../../../production/compositor/src/v52_candidates/HookRevised';
+import {Cover} from '../../../../../production/compositor/src/Cover';
+import {SafeAudit} from '../../../../../production/compositor/src/SafeAudit';
+import {HookAudit51} from '../../../../../production/compositor/src/HookAudit51';
+import {ZoomAudit} from '../../../../../production/compositor/src/v52/ZoomAudit';
+import data from './render.json';
+const doc=data as unknown as QuizDoc;
+const heroDoc={...doc,ep:{...doc.ep,no:13}};
+const empty={...doc,cues:doc.cues.map(c=>c.scene==='incident'?{...c,p:{...c.p,set:'paper',actors:[],props:[]}}:c)};
+const Video=()=>useCurrentFrame()<=60?<AbsoluteFill><HookV52 doc={heroDoc}/>{doc.audio&&<Audio src={staticFile(doc.audio)}/>}</AbsoluteFill>:<Quiz doc={doc} hookStyle="v51"/>;
+const Empty=()=> <Quiz doc={empty} hookStyle="v51"/>;
+const Audit=()=> <SafeAudit label="q013"><HookAudit51 doc={doc}><ZoomAudit><Video/></ZoomAudit></HookAudit51></SafeAudit>;
+registerRoot(()=> <><Composition id="VIDEO" component={Video} width={1080} height={1920} fps={30} durationInFrames={doc.durationInFrames}/><Composition id="EMPTY" component={Empty} width={1080} height={1920} fps={30} durationInFrames={doc.durationInFrames}/><Composition id="AUDIT" component={Audit} width={1080} height={1920} fps={30} durationInFrames={doc.durationInFrames}/><Still id="COVER" component={CoverCandidate} width={1080} height={1920}/></>);

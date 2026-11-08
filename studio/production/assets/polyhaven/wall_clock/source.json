@@ -1,0 +1,21 @@
+{
+ "id": "wall_clock",
+ "name": "Wall Clock",
+ "type": 2,
+ "authors": {
+  "PierreB3D": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/wall_clock",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/wall_clock/wall_clock_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/wall_clock/wall_clock_diff_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/wall_clock/wall_clock_glass_alpha_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/wall_clock/wall_clock_glass_rough_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/wall_clock/wall_clock_metal_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/wall_clock/wall_clock_nor_gl_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/wall_clock/wall_clock_rough_2k.exr"
+ ]
+}

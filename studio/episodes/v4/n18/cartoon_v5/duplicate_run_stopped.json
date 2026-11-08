@@ -1,0 +1,12 @@
+{
+  "reason": "Older duplicate N18 run was writing the same owned paths and following the superseded imply-only rule. Stopped after isolating its partial files.",
+  "signal": "SIGTERM after reversible SIGSTOP used to prevent output corruption",
+  "pids": [
+    94755,
+    89955,
+    89386,
+    89383,
+    83570
+  ],
+  "preserved_files": "superseded_duplicate/"
+}

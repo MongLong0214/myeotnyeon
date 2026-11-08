@@ -1,0 +1,219 @@
+{
+ "items": [
+  {
+   "id": "C1_1",
+   "cue": "C1",
+   "act": "incident",
+   "start": 0.0,
+   "end": 130.204375,
+   "file": "episodes/quiz/q014/v52/hook_master.wav",
+   "text": "술집 옆자리 손님과 시비가 붙은 20대가 그 손님을 밖으로 불러냈습니다. 몇 년 나왔을까?",
+   "start_sample": 0,
+   "end_sample": 208327
+  },
+  {
+   "id": "C1_2",
+   "cue": "C1",
+   "act": "incident",
+   "start": 130.204375,
+   "end": 169.824375,
+   "file": "episodes/quiz/q014/audio/na/C1_2.wav",
+   "text": "그리고 야차룰을 뜨자고 했죠.",
+   "start_sample": 208327,
+   "end_sample": 271719
+  },
+  {
+   "id": "C2_1",
+   "cue": "C2",
+   "act": "incident",
+   "start": 169.824375,
+   "end": 318.924375,
+   "file": "episodes/quiz/q014/audio/na/C2_1.wav",
+   "text": "검찰은 CCTV가 없는 곳으로 불러내 싸움에 동의한다는 말을 녹음하려 했다고 봤습니다.",
+   "start_sample": 271719,
+   "end_sample": 510279
+  },
+  {
+   "id": "C3_1",
+   "cue": "C3",
+   "act": "incident",
+   "start": 318.924375,
+   "end": 390.221875,
+   "file": "episodes/quiz/q014/audio/na/C3_1.wav",
+   "text": "손님은 폭행을 당해 쓰러졌고 끝내 숨졌습니다.",
+   "start_sample": 510279,
+   "end_sample": 624355
+  },
+  {
+   "id": "C4_1",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 390.221875,
+   "end": 455.215625,
+   "file": "episodes/quiz/q014/audio/na/C4_1.wav",
+   "text": "벌금, 집행유예, 실형 중 무엇이었을까요?",
+   "start_sample": 624355,
+   "end_sample": 728345
+  },
+  {
+   "id": "C4_2",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 455.215625,
+   "end": 521.765,
+   "file": "episodes/quiz/q014/audio/na/C4_2.wav",
+   "text": "판사는 피고인이 남긴 녹음을 들여다봤습니다.",
+   "start_sample": 728345,
+   "end_sample": 834824
+  },
+  {
+   "id": "C4_3",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 521.765,
+   "end": 631.104375,
+   "file": "episodes/quiz/q014/audio/na/C4_3.wav",
+   "text": "녹음에는 더 이상 저항할 수 없는 사람을 계속 때린 정황이 담겼고요.",
+   "start_sample": 834824,
+   "end_sample": 1009767
+  },
+  {
+   "id": "C4_4",
+   "cue": "C4",
+   "act": "weigh",
+   "start": 631.104375,
+   "end": 725.731875,
+   "file": "episodes/quiz/q014/audio/na/C4_4.wav",
+   "text": "폭행 뒤엔 녹음 다 됐으니 신고하려면 하라는 말까지 있었죠.",
+   "start_sample": 1009767,
+   "end_sample": 1161171
+  },
+  {
+   "id": "C5_1",
+   "cue": "C5",
+   "act": "reveal",
+   "start": 725.731875,
+   "end": 844.62375,
+   "file": "episodes/quiz/q014/audio/na/C5_1.wav",
+   "text": "정답은 실형. 1심은 검찰 구형 5년보다 무거운 징역 6년이었습니다.",
+   "start_sample": 1161171,
+   "end_sample": 1351398
+  },
+  {
+   "id": "C5_2",
+   "cue": "C5",
+   "act": "reveal",
+   "start": 844.62375,
+   "end": 883.98,
+   "file": "episodes/quiz/q014/audio/na/C5_2.wav",
+   "text": "2심 판결도 그대로였습니다.",
+   "start_sample": 1351398,
+   "end_sample": 1414368
+  },
+  {
+   "id": "C6_1",
+   "cue": "C6",
+   "act": "outro",
+   "start": 883.98,
+   "end": 916.995,
+   "file": "episodes/quiz/q014/audio/na/C6_1.wav",
+   "text": "다음 사건도 맞혀 보세요.",
+   "start_sample": 1414368,
+   "end_sample": 1467192
+  }
+ ],
+ "knots": [
+  [
+   0,
+   0.0
+  ],
+  [
+   126,
+   130.204375
+  ],
+  [
+   131,
+   130.204375
+  ],
+  [
+   171,
+   169.824375
+  ],
+  [
+   180,
+   169.824375
+  ],
+  [
+   329,
+   318.924375
+  ],
+  [
+   338,
+   318.924375
+  ],
+  [
+   409,
+   390.221875
+  ],
+  [
+   421,
+   390.221875
+  ],
+  [
+   486,
+   455.215625
+  ],
+  [
+   491,
+   455.215625
+  ],
+  [
+   558,
+   521.765
+  ],
+  [
+   563,
+   521.765
+  ],
+  [
+   672,
+   631.104375
+  ],
+  [
+   677,
+   631.104375
+  ],
+  [
+   772,
+   725.731875
+  ],
+  [
+   784,
+   725.731875
+  ],
+  [
+   903,
+   844.62375
+  ],
+  [
+   908,
+   844.62375
+  ],
+  [
+   947,
+   883.98
+  ],
+  [
+   962,
+   883.98
+  ],
+  [
+   995,
+   916.995
+  ],
+  [
+   1010,
+   929
+  ]
+ ]
+}

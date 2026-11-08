@@ -1,0 +1,14 @@
+{
+  "sample_n": 43,
+  "sample_method": "top-level top-ranked comments; <=200; replies excluded; not representative and not retention analytics",
+  "keyword_theme_comment_counts_overlapping": {
+    "제작·몰입 언급": 0,
+    "기관·권력 언급": 12,
+    "형량·사법 언급": 1,
+    "피해·공감 언급": 2,
+    "사실·해석 논쟁 표지": 0,
+    "구독·업로드 기대": 1
+  },
+  "quoted_timestamp_counts_s": {},
+  "interpretation": "상위 댓글에서 성인 인증 제한 자체를 문제 삼음. 경찰 비리와 사건의 미해결성에 대한 해석·추측은 검증된 사실로 재사용하면 안 된다."
+}
