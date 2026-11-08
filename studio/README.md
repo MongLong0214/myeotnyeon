@@ -25,21 +25,34 @@ Python 스크립트의 경로는 `studio/`를 기준으로 한 상대 경로다.
 
 ## 검증
 
+### 단위 테스트 — CI `studio-factory`가 PR마다 실행
+
 ```sh
-cd studio/factory
-python3 -m venv ../.venv && ../.venv/bin/pip install pillow numpy   # 테스트가 ../.venv/bin/python 을 직접 부른다
-../.venv/bin/python -m unittest discover -s tests
+python3 -m venv .venv && .venv/bin/pip install -r factory/requirements-test.txt   # studio/에서. 테스트가 .venv/bin/python 을 직접 부른다
+# textgate.py가 쓰는 im-not-ai 지표(MIT)를 고정 커밋으로 받는다
+git clone https://github.com/epoko77-ai/im-not-ai ~/.claude/jobs/myeotnyeon-cto/tools/im-not-ai && git -C ~/.claude/jobs/myeotnyeon-cto/tools/im-not-ai checkout bad4ef0a2b514318b2278b65cb4545414ad84d82
+swiftc -O factory/ocr_vision.swift -o factory/.ocr_vision   # macOS Vision OCR 테스트용
+cd factory && ../.venv/bin/python -m unittest discover -s tests
 ```
 
-`c925280`의 추적 파일만으로는 47개 중 29개가 통과한다(가져오기 전 원본 추출본과 같은 결과다). 나머지 18개는 이 저장소에 없는 입력 때문에 실패한다.
+macOS와 `ffmpeg`가 필요하다. 검토 게이트가 시스템 한글 글꼴(`AppleSDGothicNeo.ttc`)과 Vision OCR을 쓴다.
+`.ocr_vision`을 빌드하지 않으면 `test_one_frame_korean_date_outside_subtitles_is_caught` 하나가 건너뛰어진다. CI에서는 빌드하므로 실행된다.
+`make.py` 텍스트 단계의 테스트는 `tests/fixtures/archive/`의 합성 헤더 파일(출처 ID·매체·날짜·URL만, 기사 본문 없음)을 원문 보관본 대신 쓴다.
 
-| 실패 테스트 | 없는 입력 |
+### 통합 테스트 — `factory/tests_integration/`, CI에서 실행하지 않음
+
+```sh
+cd factory && ../.venv/bin/python -m unittest discover -s tests_integration
+```
+
+아래 제작 산출물이 있는 제작 머신에서만 통과한다. 이 저장소에는 그 산출물이 없으므로 여기서는 실패하는 것이 정상이다.
+
+| 모듈 | 필요한 제작 산출물 |
 |---|---|
-| `test_number_gate`, `test_review_gates`, `test_signoff_sources`, `test_visual_gates` (import 실패) | `qa` 모듈 — 렌더 출력 폴더 `episodes/quiz/out/v3/`에 있던 파일로, 커밋된 적이 없다 |
-| `test_make.MakeCLI.*` 9개 | `facts` 단계가 요구하는 기사 원문 `research/raw*/<sid>.txt`(예: `N17_1.txt`). 원본에서도 커밋되지 않았고, 공개본에서는 제3자 기사라 어차피 뺀다 |
-| `test_make_long.LongForm.*` 6개 | `build` 단계에서 실패한다. 롱폼 빌드는 git 밖의 `production/lf_toon/`과 미디어를 쓴다 |
-| `test_make_long.LongForm.test_write_through_copy_cannot_reach_original` | `production/lf_toon/` (원본에서도 git 밖에서 관리) |
-| `test_cas_adoption.FrameTests.test_advisory_survives_calibration_and_decode_errors` | 프레임 이미지 입력 |
+| `test_make_production.py` (2) | `episodes/quiz/q017/v52/`의 캐시된 렌더(`render*.json`, `audio.json`), `production/compositor/public/hook_v51/q017.png` |
+| `test_make_long.py` (9) | git 밖의 N18 v4 롱폼 빌드 `production/lf_toon/` (`build_audio.wav` 포함) |
+| `test_review_gates_n18.py` (2) | `production/lf_toon/v2/n18/{fact_trace.md,shots_v2.json}`, `factory/review_runs/n18_v2_1080p_001/frames/*.jpg` |
+| `test_signoff_sources.py` (2) | 납품 패키지 `upload/pkg/q013_n16_v4/`(영상·표지·히어로 이미지)와 그 claim이 가리키는 기사 보관본 |
+| `test_visual_gates.py` (10) | N18 최종 인코딩 프레임 `factory/tests/fixtures/n18_ceo_fix2.json` |
 
-미디어가 있어야 하는 경로(렌더 `production/compositor`·`episodes/*` 빌드, TTS `tts`·`tts_lab`, 레퍼런스 측정 `research/format_v4/*`의 영상 분석, 업로드 `upload/`)는
-영상·음성·모델 가중치·폰트 바이너리가 없어서 이 저장소만으로는 실행되지 않는다. 그 스크립트들은 기록과 재현 근거로 남겨 둔 것이다.
+미디어가 있어야 하는 그 밖의 경로(렌더 `production/compositor`·`episodes/*` 빌드, TTS `tts`·`tts_lab`, 레퍼런스 측정 `research/format_v4/*`의 영상 분석, 업로드 `upload/`)도 이 저장소만으로는 실행되지 않는다.

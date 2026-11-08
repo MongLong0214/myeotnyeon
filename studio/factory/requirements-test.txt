@@ -1,0 +1,6 @@
+# Unit-test dependencies for studio/factory/tests (python -m unittest discover -s tests).
+numpy==2.5.4
+pillow==13.0.0
+scipy==1.18.1
+soundfile==0.14.0
+opencv-python-headless==5.0.0.93
