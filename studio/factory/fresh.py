@@ -5,6 +5,7 @@ import numpy as np
 import soundfile as sf
 from scipy.signal import resample_poly
 from short import W,S,save,load,sha,episode,run
+ARCHIVE='research/raw*/{sid}.txt'  # archived research sources, relative to W
 sys.path.insert(0,str(W/'episodes/quiz'))
 import make
 
@@ -49,7 +50,7 @@ def prepare(p,q):
     shutil.copytree(W/'production/compositor/public/fonts',public/'fonts')
     sources=[]
     for sid in ep['sources']:
-        matches=sorted((W/'research').glob(f'raw*/{sid}.txt'))
+        matches=sorted(W.glob(ARCHIVE.format(sid=sid)))
         if len(matches)!=1:raise RuntimeError(f'Expected one archived research source for {sid}: {matches}')
         sources.append(matches[0])
     save(p/'research.json',dict(sources=[dict(file=str(f.relative_to(W)),sha256=sha(f)) for f in sources],review_state='NEEDS_REVIEW'))
@@ -127,7 +128,7 @@ def metadata(ep):
     title=ep.get('title') or ' '.join(ep['hook']['lines'])
     urls=[]
     for sid in ep['sources']:
-        source=next((W/'research').glob(f'raw*/{sid}.txt'))
+        source=next(W.glob(ARCHIVE.format(sid=sid)))
         match=re.search(r'^URL:\s*(https?://\S+)',source.read_text(),re.M)
         urls.append(f'{sid}: {match[1] if match else str(source.relative_to(W))}')
     description=' '.join(t for c in ep['cues'] if c[1]=='incident' for t in c[2])

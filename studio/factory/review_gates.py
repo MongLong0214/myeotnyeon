@@ -120,7 +120,7 @@ class Review:
             f=self.out/'frames'/f'{n:06}.jpg';f.parent.mkdir(exist_ok=True)
             # Input seeking is frame-accurate when transcoding. Seek a quarter
             # frame before the target to avoid decimal rounding to the next PTS.
-            run(['ffmpeg','-v','error','-ss',f'{max(0,(n-.25)/self.fps):.9f}','-i',self.video,'-vf','scale=640:-2','-frames:v','1','-vsync','0','-y',f])
+            run(['ffmpeg','-v','error','-ss',f'{max(0,(n-.25)/self.fps):.9f}','-i',self.video,'-vf','scale=640:-2','-frames:v','1','-fps_mode','passthrough','-y',f])
             if not f.exists(): raise ValueError(f'Cannot decode frame {n}')
             self.images[n]=f
         return self.images[n]
@@ -180,7 +180,7 @@ def scan_frames(c, exhaustive=True, write_frames=True):
         nonlocal page_no
         if page is not None:
             p=c.out/f'F1_frames_{page_no:04}.jpg';page.save(p,quality=90);pages.append(str(p));page_no+=1
-    proc=subprocess.Popen(['ffmpeg','-v','error','-i',str(c.video),'-vf',f'scale={w}:{h}','-vsync','0','-pix_fmt','rgb24','-f','rawvideo','-'],stdout=subprocess.PIPE,stderr=subprocess.PIPE)
+    proc=subprocess.Popen(['ffmpeg','-v','error','-i',str(c.video),'-vf',f'scale={w}:{h}','-fps_mode','passthrough','-pix_fmt','rgb24','-f','rawvideo','-'],stdout=subprocess.PIPE,stderr=subprocess.PIPE)
     n=0
     try:
         while True:

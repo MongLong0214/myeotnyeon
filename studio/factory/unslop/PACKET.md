@@ -8,7 +8,7 @@ Owner: "그림체는 많이 좋아졌는데 아직 전반적으로 자막, ui등
 - Nutlope/hallmark (anti-AI-slop design skill)
 - the-hooman-loop/anti-slop-kit, Vinayak-Shukla-03/anti-ai-slop
 - unslop-ui (jc-aiwiki), and the Medium "Anti-AI-slop design skill" article
-- Local: ~/.claude/skills/frontend-design, humanize-korean (Korean AI-tell patterns: subtitle and narration copy), web-design-guidelines, uiux
+- Local skills: frontend-design, humanize-korean (Korean AI-tell patterns: subtitle and narration copy), web-design-guidelines, uiux
 - Summarize each skill's core rules in `factory/unslop/SKILLS_DIGEST.md`, with sources.
 
 ## 2. Diagnose our videos

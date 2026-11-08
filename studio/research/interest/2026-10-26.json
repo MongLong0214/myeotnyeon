@@ -12124,7 +12124,7 @@
  ],
  "repl": {
   "stopped_at_kst": "2026-10-26 18:55",
-  "command": "~/.claude/jobs/myeotnyeon-cto/repl/repl_stop.sh",
+  "command": "<local-repl>/repl_stop.sh",
   "verified": "pgrep 'aside repl'·'tail -f …/in' 결과 없음"
  }
 }
