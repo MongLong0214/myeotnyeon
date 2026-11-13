@@ -3,10 +3,16 @@
   "note": "Example registry. Copy to registry.json and fill real values locally; keep no secrets here. Slot times are KST.",
   "experiment_kill_rule": {
     "applies_to": "status=experiment",
-    "window": "first 14 uploads or 21 days after the first upload, whichever comes later",
-    "kill_if": "median views per upload < 300 AND subscribers gained < 30 over the window",
-    "action": "stop scheduling new uploads, keep published videos, report to CEO with the numbers",
-    "source": "example; set the rule your team agreed"
+    "first_uploads": 3,
+    "views_48h_below": 500,
+    "engaged_share_below": 0.3,
+    "stop_if": "every one of the first 3 uploads has views_48h < 500 AND engaged_views/views at 48 h < 30%",
+    "action": "stop scheduling new uploads; delete nothing, published videos stay",
+    "otherwise": "continue, re-judged every 7 days against the baseline channel",
+    "rejudge_every_days": 7,
+    "baseline_channel": "main",
+    "source": "example; set the rule your team agreed",
+    "judge": "factory/ops/queue.py judge --channel KEY"
   },
   "channels": [
     {
