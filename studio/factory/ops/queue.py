@@ -206,8 +206,8 @@ def token_service(channel):
 
 
 def credentials(channel=None):
-    channel = channel or OWN
     """OAuth credentials for one channel, or None when that channel has no token yet."""
+    channel = channel or OWN
     refresh = kc(token_service(channel))
     if not refresh:
         return None
@@ -220,8 +220,8 @@ def credentials(channel=None):
 
 
 def youtube(channel=None):
-    channel = channel or OWN
     """Data API client: the channel's own OAuth token (sees private/scheduled), else the API key (public videos only)."""
+    channel = channel or OWN
     from googleapiclient.discovery import build
     creds = credentials(channel)
     if creds:
