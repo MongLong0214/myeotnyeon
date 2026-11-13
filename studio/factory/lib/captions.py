@@ -63,8 +63,9 @@ UNITS = (
     '초', '대', '쪽', '건', '번', '회', '살', '세', '배', '개', '곳', '장', '권', '층', '호', '위', '등', '점', '표',
     '톤', '주', '평', '%', 'km', 'kg', 'cm', 'mm', 'm',
 )
-CONNECTIVE = ('면서', '지만', '는데', '은데', '니까', '거나', '든지', '려고', '다가', '고', '며', '서', '면', '자')
-CASE_END = ('에서', '에게', '으로', '까지', '부터', '이', '가', '을', '를', '로', '에', '와', '과', '도', '의')
+CONNECTIVE = ('면서', '지만', '는데', '은데', '니까', '거나', '든지', '려고', '려다', '다가', '고', '며', '서', '면')
+CASE_END = ('에서', '에게', '으로', '까지', '부터', '이', '가', '을', '를', '로', '에', '와', '과', '도', '의',
+            '엔', '에선', '으론', '로는', '에는', '에도', '처럼')
 # -은/-는 is a topic marker (법원은) or a modifier ending (검은, 하는): a weaker phrase end.
 TOPIC_END = ('은', '는')
 SENTENCE_END = re.compile(r'[.?!…]+["\'”’)\]]*$')
@@ -147,6 +148,76 @@ def priority(text):
     return 0
 
 
+# ---- Korean bonds: how strongly token a holds on to the next token b (0 free .. 3 never break if avoidable) ----
+# Bound (dependent) nouns and positional nouns that cannot open a line: 시작한 | 건, 배포할 | 수, 20분 | 안에, 면접 | 끝.
+BOUND = ('것', '수', '건', '데', '줄', '때', '뿐', '만', '듯', '채', '바', '적', '지', '안', '위', '밖', '끝', '앞', '뒤',
+         '전', '후', '중', '등', '쯤', '간', '동안')
+BOUND_TAIL = ('', '이', '가', '은', '는', '을', '를', '에', '에서', '에는', '도', '만', '으로', '로', '의', '과', '와',
+              '이다', '입니다', '이에요', '예요', '인', '이었다', '이었습니다', '였어요', '이죠', '죠')
+# Auxiliary verbs after -어/-아/-고: 숨어 | 있었다는, 보여 | 주며.
+AUX_HEAD = ('있', '없', '주', '줬', '줍', '보', '봤', '싶', '버리', '버렸', '놓', '두', '뒀')
+AUX_TAIL = ('어', '아', '여', '해', '고', '져', '워', '와', '봐', '줘', '내')
+# Adnominal (modifier) endings that need their head noun: 시작한 | 건, 대표라는 | 사람이, 올라간 | SNS, 같은 | 방식으로.
+ADNOM_WORDS = ('라는', '다는', '하는', '되는', '있는', '없는', '같은', '쫓는', '꾸는', '드는', '주는', '보는', '오는',
+               '가는', '쓰는', '하던', '되던', '않은', '않는', '숨은', '털린', '훔친', '섞인', '묶인', '보낸', '앞선',
+               '막은', '잡은', '받은', '찾은', '넣은', '남은', '맡은', '얻은', '읽은', '움직인')
+ADNOM_LAST = set('한된할될던간인운온진친른린낸긴즌')
+# Endings that make a word a predicate / clause end rather than a bare noun or adverb.
+VERBAL_LAST = set('다요죠고며면서지데니게나야까든라네군')
+
+
+def core(text):
+    return re.sub(r'[^가-힣A-Za-z0-9]', '', text)
+
+
+def is_bound(b):
+    c = re.sub(r'[^가-힣]', '', b)
+    return any(c == f + tail for f in BOUND for tail in BOUND_TAIL) and not NUMBER_TOKEN.match(b)
+
+
+def is_adnominal(a):
+    c = re.sub(r'[^가-힣]', '', a)
+    if not c or CLAUSE_END.search(a) or SENTENCE_END.search(a) or NUMBER_TOKEN.match(a):
+        return False
+    return c.endswith(ADNOM_WORDS) or (len(c) >= 2 and c[-1] in ADNOM_LAST)
+
+
+def bond(a, b):
+    """0 = a natural break between a and b; 3 = breaking here splits a grammatical unit (avoid if any other option)."""
+    if SENTENCE_END.search(a) or CLAUSE_END.search(a):
+        return 0
+    cb = re.sub(r'[^가-힣]', '', b)
+    ca = re.sub(r'[^가-힣]', '', a)
+    if is_bound(b):
+        return 3
+    if re.fullmatch(r'\d+월', a) and re.match(r'\d+일', b):
+        return 3  # a date stays together: 10월 | 20일
+    if ca.endswith(AUX_TAIL) and cb.startswith(AUX_HEAD) and len(ca) >= 2:
+        return 3
+    if ca.endswith('지') and cb.startswith(('못', '않', '말')) and len(ca) >= 2:
+        return 3  # negation: 잡지 | 못했어요
+    if is_adnominal(a):
+        return 3
+    if a in NUMERAL_DET or re.sub(r'[^가-힣]', '', a) in NUMERAL_DET:
+        return 3
+    if priority(a) == 0 and ca.endswith('히') and len(ca) >= 2:
+        return 2  # -히 adverb before its verb: 영원히 | 처벌할 (avoid, but better than a scrap cue)
+    if priority(a) == 0 and ca and ca[-1] not in VERBAL_LAST and not a.endswith(('은', '는', '을')) \
+            and not NUMBER_TOKEN.match(a):
+        return 3  # bare noun / adverb holds its head: 지갑 | 관리팀의, 회사 내부 | AI 도구를, 왜 | 바로
+    if not ca and core(a) and priority(a) == 0:
+        return 3  # Latin token (AI, SNS) followed by its noun
+    if is_adnominal(b) and ca.endswith(('거나', '이', '가', '을', '를', '에', '에서', '과', '와')):
+        return 3  # an argument stays with its relative clause: 영상이 | 올라간, 대부분이 | 움직인
+    if ca.endswith('의') and len(ca) >= 2:
+        return 2  # genitive holds its noun: 법원의 | 유죄 판단
+    if ca.endswith(('과', '와')) and len(ca) >= 2 and not cb[-1:] in VERBAL_LAST:
+        return 2  # noun coordination (사진과 | 영상이): avoid on a line; never at a cue end (split_long)
+    if a.endswith(('은', '는', '을')) and priority(a) < 1:
+        return 1
+    return 0
+
+
 def paused(tokens, i, silences, gap):
     """Is there a pause >= gap between tokens i and i+1 (word gap or a detected silence between their centres)?"""
     a, b = tokens[i], tokens[i + 1]
@@ -161,7 +232,11 @@ def width(tokens):
 
 
 def fits(tokens, line_max):
-    return all(width(line) <= line_max for line in wrap(tokens, line_max))
+    """Wraps into lines of at most line_max without splitting a grammatical unit (bond 3) between the lines."""
+    lines = wrap(tokens, line_max)
+    if not all(width(line) <= line_max for line in lines):
+        return False
+    return len(lines) < 2 or bond(lines[0][-1]['text'], lines[1][0]['text']) < 3
 
 
 def split_long(tokens, line_max, min_side=8, soft=frozenset()):
@@ -178,16 +253,22 @@ def split_long(tokens, line_max, min_side=8, soft=frozenset()):
         ok = fits(left, line_max) and fits(right, line_max)
         whole = min(width(left), width(right)) >= min_side  # no one-word scrap cue
         rank = max(priority(tokens[j]['text']), 1 if id(tokens[j]) in soft else 0)
-        cands.append((ok, whole, rank, -abs(width(left) - width(right)), j))
+        bd = bond(tokens[j]['text'], tokens[j + 1]['text'])
+        if re.sub(r'[^가-힣]', '', tokens[j]['text']).endswith(('과', '와')) and not CLAUSE_END.search(tokens[j]['text']):
+            bd = 3  # a cue must not end mid-coordination
+        cands.append((bd < 2, bd < 3, ok, -bd, whole, rank, -abs(width(left) - width(right)), j))
     if not cands:
         return [tokens]
     *_, j = max(cands)
     return split_long(tokens[:j + 1], line_max, min_side, soft) + split_long(tokens[j + 1:], line_max, min_side, soft)
 
 
+SOFT_LINE = 18  # a cue up to this width stays on one line; longer cues wrap (each line may reach line_max)
+
+
 def wrap(tokens, line_max):
     """At most two balanced lines; a single-word last line takes one word from above."""
-    if width(tokens) <= line_max or len(tokens) < 2:
+    if width(tokens) <= min(line_max, SOFT_LINE) or len(tokens) < 2:
         return [tokens]
     cands = []
     for j in range(len(tokens) - 1):
@@ -195,14 +276,19 @@ def wrap(tokens, line_max):
             continue
         a, b = tokens[:j + 1], tokens[j + 1:]
         # Balance in 3-char steps so a phrase end can win over a near-equal split.
-        cands.append((max(width(a), width(b)) <= line_max, -(abs(width(a) - width(b)) // 3), priority(tokens[j]['text']), j))
+        pr = priority(tokens[j]['text'])
+        lone = len(b) == 1 and len(a) >= 2  # a last line that is a lone predicate (…/ 있었습니다.)
+        bd = bond(tokens[j]['text'], tokens[j + 1]['text'])
+        cands.append((max(width(a), width(b)) <= line_max, -max(bd - 1, 0), pr >= 3,
+                      -(abs(width(a) - width(b)) // 4), pr, not lone, -bd, j))
     if not cands:
         return [tokens]
     *_, j = max(cands)
     top, bottom = tokens[:j + 1], tokens[j + 1:]
     # Orphan: a one-word last line much shorter than the line above.
     if len(bottom) == 1 and len(top) >= 2 and width(bottom) * 2 < width(top) \
-            and not glued(top[-2]['text'], top[-1]['text']) and width(top[-1:] + bottom) <= line_max:
+            and not glued(top[-2]['text'], top[-1]['text']) and width(top[-1:] + bottom) <= line_max \
+            and bond(top[-2]['text'], top[-1]['text']) == 0:
         top, bottom = top[:-1], top[-1:] + bottom
     return [top, bottom]
 
@@ -218,7 +304,7 @@ def split(tokens, silences=(), line_max=18, gap=0.22, hold_min=HOLD_MIN, hold_ta
             cur = []
         elif not glued(t['text'], tokens[i + 1]['text'], strict=True) and paused(tokens, i, silences, gap):
             # A pause ends a cue only at a phrase end; after a modifier (검은 | 그랜저가) it stays a weak candidate.
-            if priority(t['text']) >= 1:
+            if priority(t['text']) >= 1 and bond(t['text'], tokens[i + 1]['text']) < 2:
                 runs.append(cur)
                 cur = []
             else:
@@ -231,7 +317,16 @@ def split(tokens, silences=(), line_max=18, gap=0.22, hold_min=HOLD_MIN, hold_ta
             prev.extend(run)
         else:
             merged.append(run)
-    groups = [g for run in merged for g in split_long(run, line_max, soft=frozenset(soft))]
+    parts = [g for run in merged for g in split_long(run, line_max, soft=frozenset(soft))]
+    # Rule 5: a short or mid-phrase cue is merged with its neighbour (same sentence) when the two fit in two lines.
+    groups = []
+    for p in parts:
+        prev = groups[-1] if groups else None
+        if prev and not SENTENCE_END.search(prev[-1]['text']) and not prev[-1].get('hard') and fits(prev + p, line_max) \
+                and (min(width(prev), width(p)) < 8 or bond(prev[-1]['text'], p[0]['text']) >= 2):
+            groups[-1] = prev + p
+        else:
+            groups.append(p)
     cues = []
     for g in groups:
         lines = wrap(g, line_max)
@@ -333,10 +428,21 @@ def shorts_from_subtitles(subtitles, words, silences=(), fps=30, line_max=16):
     return to_shorts(split(tokens, silences, line_max=line_max), fps)
 
 
-def lint(cues, line_max=18):
-    """Rule violations in finished cues (used by tests and the code lint gate)."""
+def lint(cues, line_max=18, cps_max=None):
+    """Rule violations in finished cues (used by tests and the code lint gate). With cps_max set, cues carrying
+    start/end (seconds) are also checked for reading speed (non-space chars per second) and minimum hold
+    (0.3 s per word + 0.5 s; manim-skill lint-subtitles idea)."""
     issues = []
     for k, c in enumerate(cues):
+        if cps_max is not None and c.get('start') is not None and c.get('end') is not None:
+            span = float(c['end']) - float(c['start'])
+            chars = len(re.sub(r'\s', '', c['text']))
+            if span <= 0 or chars / span > cps_max:
+                issues.append(dict(cue=k, code='reading_speed', text=c['text'],
+                                   cps=round(chars / span, 1) if span > 0 else None, cps_max=cps_max))
+            need = 0.3 * len(c['text'].split()) + 0.5
+            if span < need:
+                issues.append(dict(cue=k, code='hold_too_short', text=c['text'], hold_s=round(span, 2), need_s=round(need, 2)))
         lines = c.get('lines') or c['text'].split('\n')
         if len(lines) > 2:
             issues.append(dict(cue=k, code='over_two_lines', text=c['text']))

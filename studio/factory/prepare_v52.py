@@ -97,7 +97,15 @@ def main():
   if fullacc<.99:raise RuntimeError(('new master ASR below .99',q,fullacc,ar['text']))
   for sub,row in zip(doc['subtitles'],rows):sub['from_']=row['start'];sub['to']=row['end']
   for a,b in zip(doc['subtitles'],doc['subtitles'][1:]):a['to']=max(a['from_']+1,min(a['to'],b['from_']))
-  save(out/'subtitle_alignment.json',dict(accuracy=fullacc,character_clock_accuracy=clockacc,rows=rows,pass_=fullacc>=.99))
+  # New renders: shared splitter (factory/lib/captions.py), same display words, regrouped on ASR timing and
+  # silencedetect pauses. CAPTION_SPLITTER=legacy keeps the aligned original rows (already-packaged Shorts).
+  method='legacy aligned rows'
+  if os.environ.get('CAPTION_SPLITTER','shared')!='legacy':
+   sys.path.insert(0,str(S/'lib'));import captions as shared_captions
+   legacy=doc['subtitles'];doc['subtitles']=shared_captions.shorts_from_subtitles(legacy,shared_captions.load_words(ar),shared_captions.silences_from_audio(out/'mix_master.wav'),fps=30,line_max=16)
+   assert ' '.join(x['text'] for x in doc['subtitles']).split()==' '.join(x['text'] for x in legacy).split(),'splitter changed subtitle words'
+   method='factory/lib/captions.py shorts_from_subtitles'
+  save(out/'subtitle_alignment.json',dict(accuracy=fullacc,character_clock_accuracy=clockacc,rows=rows,pass_=fullacc>=.99,caption_method=method))
   save(out/'render.json',doc);save(pub/'render.json',doc)
   with (out/'mix_master.wav').open('rb') as a,(pub/'mix_master.wav').open('xb') as b:
    import shutil;shutil.copyfileobj(a,b)
