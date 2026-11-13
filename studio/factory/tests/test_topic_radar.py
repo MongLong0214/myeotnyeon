@@ -26,6 +26,15 @@ class HardFilterTests(unittest.TestCase):
         titles = [tr.norm('지하철에 휘발유 방화…160명 살인미수 혐의, 몇 년?')]
         self.assertEqual(tr.hard_exclude(c, titles), 'already_published_on_own_channel')
 
+    def test_published_case_matches_by_alias_not_title(self):
+        c = dict(keyword="'층간소음 살인' 홍길동, 징역 25년 항소심에 불복", verdict_date='2026-11-03')
+        titles = [tr.norm('층간소음 탓하며 윗집 이웃 살해… 몇 년 나왔을까?')]
+        cases = [[tr.norm('홍길동'), tr.norm('층간소음 살인')]]
+        self.assertIsNone(tr.hard_exclude(dict(c, keyword='홍길동 징역 25년'), titles, []))
+        self.assertEqual(tr.hard_exclude(dict(c, keyword='홍길동 징역 25년'), titles, cases), 'already_published_on_own_channel')
+        self.assertEqual(tr.hard_exclude(c, titles, cases), 'already_published_on_own_channel')
+        self.assertIsNone(tr.hard_exclude(dict(c, keyword='왜 쳐다봐 행인 폭행 징역 1년'), titles, cases))
+
     def test_single_short_token_overlap_does_not_exclude(self):
         c = dict(keyword='살인 사건 전과자 재판', verdict_date='2026-01-01')
         titles = [tr.norm('450원 초코파이가 형사재판…1,050원의 결말은?')]

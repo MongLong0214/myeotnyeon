@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "note": "Example registry. Copy to registry.json and fill real values locally; keep no secrets here. Slot times are KST.",
+  "experiment_kill_rule": {
+    "applies_to": "status=experiment",
+    "window": "first 14 uploads or 21 days after the first upload, whichever comes later",
+    "kill_if": "median views per upload < 300 AND subscribers gained < 30 over the window",
+    "action": "stop scheduling new uploads, keep published videos, report to CEO with the numbers",
+    "source": "example; set the rule your team agreed"
+  },
+  "channels": [
+    {
+      "key": "main",
+      "name": "Example Main",
+      "channel_id": "UCexampleMainChannel000000",
+      "handle": "@example-main",
+      "language": "ko",
+      "format": "court-case sentence quiz Shorts",
+      "publish_slots_kst": [
+        "12:00",
+        "19:00"
+      ],
+      "uploads_per_day": 2,
+      "status": "active",
+      "package_prefix": "q",
+      "package_glob": "q*_B"
+    },
+    {
+      "key": "exp-en",
+      "name": "Example Experiment EN",
+      "channel_id": "UCexampleExperimentEn00000",
+      "handle": "@example-en",
+      "language": "en",
+      "format": "court-case sentence quiz Shorts (en locale)",
+      "publish_slots_kst": [
+        "09:00"
+      ],
+      "slot_note": "09:00 KST = 19:00 US Eastern (EST)",
+      "uploads_per_day": 1,
+      "status": "experiment",
+      "package_prefix": "en",
+      "package_glob": "en*_B"
+    }
+  ]
+}

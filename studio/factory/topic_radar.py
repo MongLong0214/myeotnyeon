@@ -114,7 +114,21 @@ def own_channel_titles():
     return titles
 
 
-def already_published(cand, titles):
+PUBLISHED_CASES = W / 'research/topic_radar/published_cases.json'
+
+
+def published_cases():
+    """Case aliases for every published episode (defendant name, case nickname), so a candidate worded differently
+    from our title (e.g. '홍길동 징역 25년' vs '층간소음 탓하며 윗집 이웃 살해') still matches the case."""
+    rows = read_json(PUBLISHED_CASES) or []
+    return [[norm(a) for a in r.get('aliases', []) if len(norm(a)) >= 3] for r in rows]
+
+
+def already_published(cand, titles, cases=None):
+    text = norm(' '.join(str(cand.get(k, '')) for k in ('keyword', 'case_id', 'note')))
+    for aliases in (published_cases() if cases is None else cases):
+        if any(a in text for a in aliases):
+            return True
     raw_tokens = (cand.get('keyword', '') + ' ' + cand.get('case_id', '')).split()
     tokens = [norm(tok) for tok in raw_tokens]
     tokens = [tok for tok in tokens if len(tok) >= 2]
@@ -131,13 +145,13 @@ def already_published(cand, titles):
     return False
 
 
-def hard_exclude(cand, titles):
+def hard_exclude(cand, titles, cases=None):
     text = ' '.join(str(cand.get(k, '')) for k in ('keyword', 'case_id', 'category', 'note'))
     if SEX_CHILD_BLOCKLIST.search(text):
         return 'sex_crime_or_child_victim_excluded'
     if not cand.get('verdict_date') and not cand.get('trial_stage'):
         return 'no_confirmed_verdict_or_trial_stage'
-    if already_published(cand, titles):
+    if already_published(cand, titles, cases):
         return 'already_published_on_own_channel'
     return None
 
