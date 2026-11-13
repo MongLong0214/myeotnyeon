@@ -6,6 +6,9 @@
 // Studio follows the active identity, not the URL. If the guard reports another channel, switch identity first:
 //   open the avatar menu -> "Switch account" (channel_switcher) -> click the account row whose handle matches
 //   the registry handle, then call up() again. Never bypass the guard.
+// Replacing a scheduled or published video: never delete the old one. Load priv.js and run setPrivate(oldVideoId)
+//   (Studio edit page -> visibility -> Private -> save), then record it:
+//   queue.py mark --video OLD --state replaced --note "replaced by NEW"; queue.py record ... --video NEW
 // Run this file once in the REPL; it defines up(). It uploads nothing by itself.
 // Fill from your registry (channel_id -> exact Studio channel name). Example values only.
 var CHANNELS = {

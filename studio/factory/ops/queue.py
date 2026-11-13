@@ -6,6 +6,11 @@
   queue.py record --pkg P --video ID --publish-at ISO --channel KEY [--state scheduled|published]
   queue.py mark --video ID --state deleted|replaced [--note TEXT]
   queue.py verify [--channel KEY]          read-only YouTube Data API check of privacy, publishAt, channel
+  queue.py judge --channel KEY [--stats F --baseline F]   experiment kill rule (registry experiment_kill_rule)
+
+Readback: each channel uses its own read-only OAuth token (for a brand channel, pick that brand channel at consent)
+when present; otherwise the Data API key, which returns public videos only: scheduled and
+private videos are invisible to it, and it has no Analytics (no 48 h views, no engaged views), so judge needs the token.
 
 States: built (READY.txt, no CTO_PASS) -> approved (CTO_PASS) -> scheduled/published (ledger record).
 The ledger keeps its historical shape (entries[].qid/video_id/state/date) so older readers keep working;
@@ -33,9 +38,9 @@ LEDGER = Path(os.environ.get('FACTORY_LEDGER', ROOT / 'upload/ledger.json'))
 PKG = Path(os.environ.get('FACTORY_PKG', ROOT / 'upload/pkg'))
 KST = dt.timezone(dt.timedelta(hours=9))
 LIVE = ('scheduled', 'published')
-# Keychain service prefix holding the read-only OAuth client JSON and refresh token of the verifiable channel.
+# Keychain service prefix: <prefix>.oauth_client_json, <prefix>.api_key, <prefix>.oauth_refresh_token[.<channel key>].
 KEYCHAIN = os.environ.get('FACTORY_KEYCHAIN_PREFIX', 'studio.youtube')
-# Channel whose OAuth token verify uses; ledger entries without a channel belong to it.
+# The baseline channel; its token has no suffix, and ledger entries without a channel belong to it.
 OWN = os.environ.get('FACTORY_OWN_CHANNEL', 'main')
 
 
@@ -188,17 +193,40 @@ def cmd_mark(a):
     print('marked', a.video, a.state)
 
 
-def youtube():
-    def kc(s):
-        return subprocess.check_output(['security', 'find-generic-password', '-s', s, '-w']).decode().strip()
+def kc(service):
+    """Keychain value or None. Values stay in memory and are never printed."""
+    r = subprocess.run(['security', 'find-generic-password', '-s', service, '-w'], capture_output=True, text=True)
+    return r.stdout.strip() or None if r.returncode == 0 else None
+
+
+def token_service(channel):
+    # The baseline channel's token has no suffix; every other (brand) channel gets its own read-only token, created by
+    # an OAuth consent run in which that brand channel is picked.
+    return KEYCHAIN + '.oauth_refresh_token' + ('' if channel == OWN else '.' + channel)
+
+
+def credentials(channel=None):
+    """OAuth credentials for one channel, or None when that channel has no token yet."""
+    channel = channel or OWN
+    refresh = kc(token_service(channel))
+    if not refresh:
+        return None
     from google.oauth2.credentials import Credentials
-    from googleapiclient.discovery import build
     cfg = json.loads(kc(KEYCHAIN + '.oauth_client_json'))['installed']
-    creds = Credentials(None, refresh_token=kc(KEYCHAIN + '.oauth_refresh_token'), token_uri=cfg['token_uri'],
-                        client_id=cfg['client_id'], client_secret=cfg['client_secret'],
-                        scopes=['https://www.googleapis.com/auth/yt-analytics.readonly',
-                                'https://www.googleapis.com/auth/youtube.readonly'])
-    return build('youtube', 'v3', credentials=creds, cache_discovery=False)
+    return Credentials(None, refresh_token=refresh, token_uri=cfg['token_uri'], client_id=cfg['client_id'],
+                       client_secret=cfg['client_secret'],
+                       scopes=['https://www.googleapis.com/auth/yt-analytics.readonly',
+                               'https://www.googleapis.com/auth/youtube.readonly'])
+
+
+def youtube(channel=None):
+    """Data API client: the channel's own OAuth token (sees private/scheduled), else the API key (public videos only)."""
+    channel = channel or OWN
+    from googleapiclient.discovery import build
+    creds = credentials(channel)
+    if creds:
+        return build('youtube', 'v3', credentials=creds, cache_discovery=False), 'oauth'
+    return build('youtube', 'v3', developerKey=kc(KEYCHAIN + '.api_key'), cache_discovery=False), 'apikey'
 
 
 def verify_rows(entries, items, reg):
@@ -209,8 +237,14 @@ def verify_rows(entries, items, reg):
         vid, key = e.get('video_id'), e.get('channel', OWN)
         i = got.get(vid)
         want_at = e.get('publish_at') or e.get('date')
-        if e.get('state') in ('deleted', 'replaced'):
+        if e.get('state') == 'deleted':
             out.append((e, 'ok-gone' if i is None else 'STILL-EXISTS'))
+            continue
+        if e.get('state') == 'replaced':
+            # Replacements go private and unscheduled; they are never deleted. Older ones may be gone already.
+            st = (i or {}).get('status', {})
+            ok = i is None or (st.get('privacyStatus') == 'private' and not st.get('publishAt'))
+            out.append((e, ('ok-gone' if i is None else 'ok-private') if ok else 'BAD replaced-but-' + str(st.get('privacyStatus'))))
             continue
         if i is None:
             out.append((e, 'MISSING'))
@@ -237,21 +271,100 @@ def verify_rows(entries, items, reg):
 def cmd_verify(a):
     reg, led = registry(), ledger()
     entries = [e for e in led['entries'] if e.get('video_id') and (not a.channel or e.get('channel', OWN) == a.channel)]
-    own = [e for e in entries if e.get('channel', OWN) == OWN]
-    other = [e for e in entries if e not in own]
-    yt = youtube()
-    items = []
-    ids = [e['video_id'] for e in own]
-    for k in range(0, len(ids), 50):
-        items += yt.videos().list(part='status,snippet', id=','.join(ids[k:k + 50])).execute().get('items', [])
     bad = 0
-    for e, v in verify_rows(own, items, reg):
-        bad += not v.startswith('ok')
-        print(f"{e.get('qid', ''):<8} {e['video_id']:<12} {e.get('state', ''):<10} {v}")
-    for e in other:
-        print(f"{e.get('qid', ''):<8} {e['video_id']:<12} {e.get('state', ''):<10} unverified (no OAuth for {e.get('channel')})")
+    for key in sorted({e.get('channel', OWN) for e in entries}):
+        group = [e for e in entries if e.get('channel', OWN) == key]
+        yt, mode = youtube(key)
+        items, ids = [], [e['video_id'] for e in group]
+        for k in range(0, len(ids), 50):
+            items += yt.videos().list(part='status,snippet', id=','.join(ids[k:k + 50])).execute().get('items', [])
+        for e, v in verify_rows(group, items, reg):
+            if mode == 'apikey' and v == 'MISSING' and e.get('state') == 'scheduled':
+                # An API key sees public videos only; a scheduled (private) video is invisible, not missing.
+                v = 'unverified (scheduled; needs this channel\'s OAuth token)'
+            elif mode == 'apikey' and v.startswith('ok-gone'):
+                v = 'unverified (gone or private; needs OAuth)'
+            else:
+                bad += not v.startswith('ok')
+            print(f"{key:<16} {e.get('qid', ''):<8} {e['video_id']:<12} {e.get('state', ''):<10} {v}")
+        if mode == 'apikey':
+            print(f'{key}: API key only (public readback). For scheduled/private: create a read-only OAuth token for {key}')
     print('verify', 'ok' if not bad else f'{bad} problem(s)')
     sys.exit(1 if bad else 0)
+
+
+def judge(rule, stats, baseline=None, now=None):
+    """Experiment kill rule (registry experiment_kill_rule). stats: the channel's uploads in publish order, each
+    {video_id, views_48h, engaged_views_48h}. baseline: the same for the baseline channel's recent uploads.
+    Returns {verdict: pending|stop|continue, ...}. stop never deletes anything."""
+    now = now or dt.datetime.now(KST)
+    n, views_max, share_max = rule['first_uploads'], rule['views_48h_below'], rule['engaged_share_below']
+    if len(stats) < n:
+        return dict(verdict='pending', reason=f'{len(stats)}/{n} uploads have 48 h numbers')
+
+    def share(x):
+        return (x.get('engaged_views_48h') or 0) / x['views_48h'] if x.get('views_48h') else 0.0
+
+    first = stats[:n]
+    if all(x['views_48h'] < views_max and share(x) < share_max for x in first):
+        return dict(verdict='stop', reason=f'all first {n}: views_48h < {views_max} and engaged share < {share_max:.0%}',
+                    action=rule['action'])
+
+    def med(rows):
+        v = sorted(x['views_48h'] for x in rows)
+        return (v[(len(v) - 1) // 2] + v[len(v) // 2]) / 2 if v else None
+
+    window = stats[-7:]
+    out = dict(verdict='continue', next_review=(now + dt.timedelta(days=rule['rejudge_every_days'])).date().isoformat(),
+               median_views_48h=med(window), median_engaged_share=sorted(map(share, window))[len(window) // 2])
+    if baseline:
+        b = med(baseline[-7:])
+        out.update(baseline_median_views_48h=b, ratio_to_baseline=round(out['median_views_48h'] / b, 3) if b else None)
+    return out
+
+
+def views_48h(channel, video_id, published):
+    """Views and engaged views over the publish day and the next day (Analytics is day-granular, so this is the
+    48 h approximation). Needs the channel's own OAuth token; returns None without one."""
+    creds = credentials(channel)
+    if not creds:
+        return None
+    from googleapiclient.discovery import build
+    ya = build('youtubeAnalytics', 'v2', credentials=creds, cache_discovery=False)
+    d0 = parse_at(published).astimezone(dt.timezone(dt.timedelta(hours=-8))).date()  # Analytics days are US Pacific
+    r = ya.reports().query(ids='channel==MINE', startDate=d0.isoformat(), endDate=(d0 + dt.timedelta(days=1)).isoformat(),
+                           metrics='views,engagedViews', filters=f'video=={video_id}').execute()
+    row = (r.get('rows') or [[0, 0]])[0]
+    return dict(video_id=video_id, views_48h=int(row[0]), engaged_views_48h=int(row[1]))
+
+
+def channel_stats(led, channel, now=None):
+    now = now or dt.datetime.now(KST)
+    rows = sorted((e for e in led['entries'] if e.get('channel', OWN) == channel and e.get('state') in LIVE
+                   and e.get('video_id') and (e.get('publish_at') or e.get('date'))),
+                  key=lambda e: parse_at(e.get('publish_at') or e['date']))
+    out = []
+    for e in rows:
+        at = e.get('publish_at') or e['date']
+        if parse_at(at) + dt.timedelta(hours=48) > now:
+            break
+        s = views_48h(channel, e['video_id'], at)
+        if s is None:
+            sys.exit(f'{channel}: no OAuth token; create a read-only OAuth token for {channel} (pick that channel at consent)')
+        out.append(s)
+    return out
+
+
+def cmd_judge(a):
+    reg, led = registry(), ledger()
+    rule = load_json(REGISTRY)['experiment_kill_rule']
+    if reg[a.channel].get('status') != 'experiment':
+        sys.exit(f'{a.channel} is not an experiment channel')
+    if a.stats:
+        stats, base = load_json(a.stats), load_json(a.baseline) if a.baseline else None
+    else:
+        stats, base = channel_stats(led, a.channel), channel_stats(led, rule['baseline_channel'])
+    print(json.dumps(dict(channel=a.channel, **judge(rule, stats, base)), ensure_ascii=False))
 
 
 def main(argv=None):
@@ -265,6 +378,7 @@ def main(argv=None):
     x.add_argument('--state', choices=LIVE, default='scheduled'); x.add_argument('--evidence')
     x = s.add_parser('mark'); x.add_argument('--video', required=True); x.add_argument('--state', choices=('deleted', 'replaced'), required=True); x.add_argument('--note'); x.set_defaults(f=cmd_mark)
     x = s.add_parser('verify'); x.add_argument('--channel'); x.set_defaults(f=cmd_verify)
+    x = s.add_parser('judge'); x.add_argument('--channel', required=True); x.add_argument('--stats'); x.add_argument('--baseline'); x.set_defaults(f=cmd_judge)
     a = p.parse_args(argv)
     a.f(a)
 

@@ -56,11 +56,30 @@ class QueueTests(unittest.TestCase):
         entries = [dict(video_id='s', channel='a', state='scheduled', publish_at='2999-01-01T12:00:00+09:00'),
                    dict(video_id='w', channel='a', state='scheduled', publish_at='2999-01-01T12:00:00+09:00'),
                    dict(video_id='g', channel='a', state='deleted'),
-                   dict(video_id='m', channel='a', state='published')]
+                   dict(video_id='m', channel='a', state='published'),
+                   dict(video_id='r', channel='a', state='replaced'),
+                   dict(video_id='p', channel='a', state='replaced')]
         items = [dict(id='s', status=dict(privacyStatus='private', publishAt='2999-01-01T03:00:00Z'), snippet=dict(channelId='UCaaa')),
-                 dict(id='w', status=dict(privacyStatus='private', publishAt='2999-01-01T03:00:00Z'), snippet=dict(channelId='UCbbb'))]
+                 dict(id='w', status=dict(privacyStatus='private', publishAt='2999-01-01T03:00:00Z'), snippet=dict(channelId='UCbbb')),
+                 dict(id='r', status=dict(privacyStatus='private'), snippet=dict(channelId='UCaaa')),
+                 dict(id='p', status=dict(privacyStatus='public'), snippet=dict(channelId='UCaaa'))]
         got = [v for _, v in self.q.verify_rows(entries, items, reg)]
-        self.assertEqual(got, ['ok', 'BAD channel', 'ok-gone', 'MISSING'])
+        self.assertEqual(got, ['ok', 'BAD channel', 'ok-gone', 'MISSING', 'ok-private', 'BAD replaced-but-public'])
+
+
+    def test_judge_kill_rule(self):
+        rule = dict(first_uploads=3, views_48h_below=500, engaged_share_below=0.30, rejudge_every_days=7, action='stop')
+        now = dt.datetime(2026, 11, 20, tzinfo=self.q.KST)
+        low = lambda v, e: dict(views_48h=v, engaged_views_48h=e)
+        self.assertEqual(self.q.judge(rule, [low(100, 10)] * 2, now=now)['verdict'], 'pending')
+        self.assertEqual(self.q.judge(rule, [low(499, 149)] * 3, now=now)['verdict'], 'stop')
+        # one upload over 500 views keeps the channel alive
+        self.assertEqual(self.q.judge(rule, [low(100, 10), low(500, 10), low(100, 10)], now=now)['verdict'], 'continue')
+        # low views but a strong engaged share (>= 30%) also keeps it alive
+        got = self.q.judge(rule, [low(100, 10), low(100, 30), low(100, 10)], [low(1000, 500)] * 3, now=now)
+        self.assertEqual((got['verdict'], got['next_review'], got['ratio_to_baseline']), ('continue', '2026-11-27', 0.1))
+        # zero views counts as share 0, not a crash
+        self.assertEqual(self.q.judge(rule, [low(0, 0)] * 3, now=now)['verdict'], 'stop')
 
 
 if __name__ == '__main__':
