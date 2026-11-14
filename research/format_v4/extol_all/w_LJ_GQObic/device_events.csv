@@ -1,0 +1,182 @@
+category,start_s,end_s,description,coding,span_char_start,span_char_end
+foreshadowing,14.26,17.94,오랜 준비를 예고; 준비 내용은 뒤에서 회수,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+foreshadowing,88.42,94.42,장기간 도주를 예고,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+foreshadowing,239.3,248.32,과거 실패를 제시해 이번 체포 위험을 예고,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+foreshadowing,401.58,411.52,표정으로 정체 노출을 알아챈다는 설정,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+withholding,23.4,28.6,왜 창살을 쉽게 제거했는지는 뒤로 미룸,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+withholding,28.6,35.16,작은 환풍구를 통과한 준비 과정은 뒤로 미룸,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+withholding,88.42,94.42,장기 도주의 종착점을 미룸,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+withholding,153.68,164.18,두 준비 과제를 먼저 제시하고 해법은 순차 공개,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+withholding,239.3,248.32,재도전 성공 여부를 미룸,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+withholding,395.26,399.24,수리공이 발견한 남자의 후속 행동을 장 카드로 중단,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+withholding,411.9,414.64,무표정의 의미를 신고까지 미룸,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+withholding,476.88,485.7,문 뒤 반응과 체포 결과를 진입까지 미룸,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+quotes,418.3,457.02,신고전화 기록 삽입 한 블록. 실제 발언의 ASR는 불확실; 본문에 재인용하지 않음,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+irony,244.74,248.32,가스총 위력을 과장해 소개한 뒤 실패: 반어적 설정,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+irony,290.28,295.96,위력 설명을 뒤집는 가스총 실패,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+irony,359.84,371.02,도주범이 경찰 인사에 영향을 준다는 역설,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+irony,507.42,521.8,체포 의류 인기와 팬덤의 역설,"manual semantic annotation, timestamp to ASR clause; not independent fact verification",,
+reversals,23.4,23.4,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,35.48,35.48,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,133.78,133.78,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,282.96,282.96,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,295.96,295.96,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,329.74,329.74,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,359.84,359.84,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,411.9,411.9,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,476.88,476.88,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+reversals,507.42,507.42,상황·해석·기대의 재설정; 수동 의미 코딩,,,
+specifics,0.0,2.78,number,,1,6
+specifics,0.0,2.78,number,,7,9
+specifics,0.0,2.78,number,,10,13
+specifics,0.0,2.78,number/time,,17,19
+specifics,0.0,2.78,time,,14,16
+specifics,2.78,5.14,number,,7,8
+specifics,2.78,5.14,number,,10,11
+specifics,2.78,5.14,number,,13,14
+specifics,2.78,5.14,place,,1,6
+specifics,11.92,13.72,number,,7,10
+specifics,14.26,16.36,number,,7,9
+specifics,19.4,23.14,object,,16,19
+specifics,23.4,26.1,object,,1,4
+specifics,23.4,26.1,object,,6,9
+specifics,28.6,33.42,number,,9,13
+specifics,28.6,33.42,number,,18,22
+specifics,28.6,33.42,object,,24,27
+specifics,38.36,42.52,number,,7,10
+specifics,42.88,45.1,number,,12,16
+specifics,46.92,49.76,object,,10,13
+specifics,46.92,49.76,object,,15,18
+specifics,55.44,58.22,object,,20,24
+specifics,58.22,60.56,object,,1,3
+specifics,60.7,62.92,object,,5,9
+specifics,65.74,67.38,object,,5,7
+specifics,69.56,71.4,object,,12,15
+specifics,71.4,73.22,number,,3,6
+specifics,73.58,75.62,number,,9,13
+specifics,73.58,75.62,object,,1,4
+specifics,75.62,77.74,number,,5,9
+specifics,78.02,79.98,object,,11,14
+specifics,81.24,82.98,number/time,,8,10
+specifics,81.24,82.98,number/time,,11,14
+specifics,81.24,82.98,time,,5,7
+specifics,82.98,85.08,object,,5,8
+specifics,82.98,85.08,object,,10,13
+specifics,85.08,88.2,number/time,,3,5
+specifics,89.18,91.96,number,,1,5
+specifics,96.86,99.66,number,,1,6
+specifics,99.66,103.18,number,,1,4
+specifics,99.66,103.18,number,,9,14
+specifics,103.18,105.72,number,,1,6
+specifics,105.72,108.7,number,,4,6
+specifics,105.72,108.7,number,,14,16
+specifics,105.72,108.7,time,,4,7
+specifics,108.7,112.02,number,,5,10
+specifics,108.7,112.02,number,,11,13
+specifics,112.02,113.82,number,,9,11
+specifics,113.82,116.08,place,,1,3
+specifics,116.56,118.22,object,,1,5
+specifics,121.74,124.78,number,,13,15
+specifics,128.46,131.54,place,,9,11
+specifics,128.46,131.54,place,,16,21
+specifics,131.54,133.1,place,,1,6
+specifics,141.22,143.72,number,,16,18
+specifics,149.26,153.38,object,,24,27
+specifics,157.04,160.7,object,,4,7
+specifics,157.04,160.7,object,,15,18
+specifics,164.54,169.22,object,,27,29
+specifics,169.22,172.34,object,,7,10
+specifics,169.22,172.34,object,,11,13
+specifics,172.68,175.46,object,,6,8
+specifics,175.46,180.08,number/time,,4,6
+specifics,175.46,180.08,number/time,,9,11
+specifics,175.46,180.08,time,,1,3
+specifics,182.94,187.76,object,,25,28
+specifics,190.92,194.06,number,,1,5
+specifics,190.92,194.06,object,,13,16
+specifics,194.44,199.3,number,,21,26
+specifics,194.44,199.3,number,,28,32
+specifics,199.68,202.24,object,,5,8
+specifics,199.68,202.24,object,,10,13
+specifics,202.24,205.92,object,,21,22
+specifics,208.94,211.82,number,,5,10
+specifics,208.94,211.82,number,,11,13
+specifics,208.94,211.82,number,,14,17
+specifics,208.94,211.82,number/time,,21,23
+specifics,208.94,211.82,time,,18,20
+specifics,211.82,217.78,object,,34,37
+specifics,211.82,217.78,object,,39,42
+specifics,219.88000000000002,224.36,number/time,,12,15
+specifics,219.88000000000002,224.36,number,,20,25
+specifics,219.88000000000002,224.36,number,,26,29
+specifics,219.88000000000002,224.36,number,,30,33
+specifics,224.36,227.6,place,,1,3
+specifics,228.02,229.68,number,,5,7
+specifics,229.68,232.48,number,,5,8
+specifics,244.74,248.32,number/time,,6,9
+specifics,244.74,248.32,object,,18,21
+specifics,248.78,251.88,number,,5,10
+specifics,248.78,251.88,number,,11,14
+specifics,248.78,251.88,number,,15,18
+specifics,248.78,251.88,number/time,,22,24
+specifics,248.78,251.88,time,,19,21
+specifics,254.84,257.98,number,,19,21
+specifics,258.32,260.76,number,,5,8
+specifics,261.12,263.08,number,,4,6
+specifics,265.18,268.28,number,,14,17
+specifics,265.18,268.28,object,,1,3
+specifics,270.52,272.54,object,,1,3
+specifics,272.7,275.46,number,,10,13
+specifics,272.7,275.46,object,,1,3
+specifics,275.46,277.12,place,,1,3
+specifics,277.56,280.34,number/time,,14,16
+specifics,277.56,280.34,number,,18,19
+specifics,282.96,284.68,object,,9,12
+specifics,290.28,292.32,object,,10,13
+specifics,295.96,299.02,object,,20,23
+specifics,319.36,320.62,object,,1,5
+specifics,336.42,338.72,number,,1,4
+specifics,336.42,338.72,number,,9,13
+specifics,340.56,342.06,number,,1,2
+specifics,343.52,345.76,number,,6,7
+specifics,343.52,345.76,number,,9,10
+specifics,346.06,349.16,number,,14,16
+specifics,349.16,351.8,number,,7,10
+specifics,351.8,354.04,number,,7,8
+specifics,355.3,356.24,object,,1,4
+specifics,356.24,358.06,object,,1,5
+specifics,360.68,363.48,number,,5,8
+specifics,371.38,372.62,number,,4,9
+specifics,375.52,377.08,number,,1,2
+specifics,378.34,379.64,number,,1,7
+specifics,379.64,382.14,number,,8,11
+specifics,379.64,382.14,place,,1,3
+specifics,382.14,383.32,number,,1,2
+specifics,385.4,387.06,number,,7,11
+specifics,387.06,389.52,number,,1,6
+specifics,387.06,389.52,number,,7,9
+specifics,387.06,389.52,number,,10,13
+specifics,387.06,389.52,number/time,,17,19
+specifics,387.06,389.52,time,,14,16
+specifics,393.1,394.94,number,,1,4
+specifics,393.1,394.94,number,,6,9
+specifics,395.9,397.38,object,,1,3
+specifics,415.16,415.98,number/time,,5,8
+specifics,457.02,460.62,number/time,,6,8
+specifics,460.96,464.92,number,,1,4
+specifics,470.5,476.02,number,,1,4
+specifics,470.5,476.02,number,,11,13
+specifics,470.5,476.02,number,,25,28
+specifics,470.5,476.02,number,,37,39
+specifics,479.42,485.7,number/time,,8,10
+specifics,479.42,485.7,number/time,,11,14
+specifics,479.42,485.7,number,,19,21
+specifics,479.42,485.7,time,,5,7
+specifics,489.56,493.52,object,,27,29
+specifics,498.96,503.24,number,,15,19
+specifics,503.56,507.42,number,,19,22
+specifics,503.56,507.42,number,,23,25
+specifics,507.42,512.84,object,,22,24
+specifics,522.28,528.52,number,,9,14
+specifics,522.28,528.52,number,,16,21
+specifics,528.52,531.68,place,,4,9

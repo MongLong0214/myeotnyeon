@@ -1,0 +1,379 @@
+{
+ "qid": "q049",
+ "locale": "ko",
+ "variant": "B3",
+ "b3": true,
+ "look": "full2",
+ "grave": true,
+ "kind": "bar",
+ "number_label": "",
+ "stage": "bar",
+ "cover_text": "양주 원샷 내기로\n숨진 접객원",
+ "defendant": "hoodie",
+ "choices": [
+  "징역 3년",
+  "벌금 700만 원",
+  "금고1년 집유2년"
+ ],
+ "correct": 2,
+ "answer": "금고1년 집유2년",
+ "answer_label": "창원지법",
+ "opinion": "",
+ "format": "result_first",
+ "option_offsets": [
+  0.0,
+  0.33,
+  0.66
+ ],
+ "hook_text": [
+  "과실치사 사건\n사람이 죽었는데",
+  "집행유예?"
+ ],
+ "sfx": [
+  [
+   "bar",
+   0,
+   "thud"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L02",
+   "at": 0.45,
+   "big": "500만 내기",
+   "small": "양주 700ml 원샷",
+   "calc": "amt = F1.bet = 500만; vol = F1.vol = 700",
+   "human": []
+  },
+  {
+   "line": "L03",
+   "at": 0.5,
+   "big": "1분 만에 원샷",
+   "small": "양주 700ml",
+   "calc": "t = F1.span = 1; vol = F1.vol = 700",
+   "human": []
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "bar",
+   "tts": "양주 일 병 반을 원샷하면, 현금 오백만 원.",
+   "shown": "양주 1병 반을 원샷하면, 현금 500만 원.",
+   "chunks": [
+    "양주 1병 반을",
+    "원샷하면,",
+    "현금 500만 원."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "bar"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "업주 둘이 생일파티에서, 접객원에게 건 내기였습니다.",
+   "shown": "업주 둘이 생일파티에서, 접객원에게 건 내기였습니다.",
+   "chunks": [
+    "업주 둘이",
+    "생일파티에서,",
+    "접객원에게",
+    "건 내기였습니다."
+   ],
+   "fact": "F1",
+   "actor": "hoodie",
+   "shots": [
+    {
+     "s": "money",
+     "nolabel": true,
+     "n": 3
+    },
+    {
+     "s": "react",
+     "look": "hoodie",
+     "expr": "smug",
+     "move": "nod",
+     "y": 2090
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "현금 500만 원"
+     ],
+     "stamp": "내기",
+     "size": 94
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "mode": "guess",
+   "tts": "칠백ml를 일 분 만에 마시고, 그대로 쓰러졌습니다.",
+   "shown": "700ml를 1분 만에 마시고, 그대로 쓰러졌습니다.",
+   "chunks": [
+    "700ml를",
+    "1분 만에 마시고,",
+    "그대로 쓰러졌습니다."
+   ],
+   "fact": "F1",
+   "actor": "hoodie",
+   "shots": [
+    {
+     "s": "paper",
+     "lines": [
+      "양주 700ml",
+      "1분 만에"
+     ],
+     "size": 110
+    },
+    {
+     "s": "bubble",
+     "lines": [
+      "1분 만에",
+      "그대로 쓰러짐"
+     ],
+     "size": 150
+    },
+    {
+     "s": "react",
+     "look": "hoodie",
+     "expr": "serious",
+     "move": "nod",
+     "y": 2090
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "결국 영.사백팔십오 퍼센트, 급성알코올중독으로 숨졌습니다.",
+   "shown": "결국 0.485%, 급성알코올중독으로 숨졌습니다.",
+   "chunks": [
+    "결국 0.485%,",
+    "급성알코올중독으로",
+    "숨졌습니다."
+   ],
+   "fact": "F2",
+   "actor": "hoodie",
+   "shots": [
+    {
+     "s": "react",
+     "look": "hoodie",
+     "expr": "serious",
+     "move": "nod",
+     "y": 2090
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "0.485%",
+      "급성알코올중독"
+     ],
+     "size": 84
+    },
+    {
+     "s": "bar"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "mode": "fact1",
+   "tts": "운전면허 취소 기준의, 육 배가 넘는 수치입니다.",
+   "shown": "운전면허 취소 기준의, 6배가 넘는 수치입니다.",
+   "chunks": [
+    "운전면허 취소 기준의,",
+    "6배가",
+    "넘는 수치입니다."
+   ],
+   "fact": "F2",
+   "actor": "hoodie",
+   "shots": [
+    {
+     "s": "paper",
+     "lines": [
+      "면허 취소 기준",
+      "0.08%"
+     ],
+     "size": 90
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "면허 취소 기준"
+     ],
+     "stamp": "6배",
+     "size": 92
+    },
+    {
+     "s": "react",
+     "look": "hoodie",
+     "expr": "serious",
+     "move": "nod",
+     "y": 2090
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "mode": "fact2",
+   "tts": "업주들은 피해자를 홀로 두고, 오전 여섯 시쯤 퇴근했습니다.",
+   "shown": "업주들은 피해자를 홀로 두고, 오전 6시쯤 퇴근했습니다.",
+   "chunks": [
+    "업주들은 피해자를",
+    "홀로 두고,",
+    "오전 6시쯤",
+    "퇴근했습니다."
+   ],
+   "fact": "F2",
+   "actor": "hoodie",
+   "shots": [
+    {
+     "s": "react",
+     "look": "hoodie",
+     "expr": "serious",
+     "move": "shake",
+     "y": 2090
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "쓰러진 피해자"
+     ],
+     "stamp": "방치",
+     "size": 98
+    },
+    {
+     "s": "bubble",
+     "lines": [
+      "오전 6시쯤",
+      "퇴근"
+     ],
+     "size": 140
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "mode": "fact3",
+   "tts": "그런데 법원은, 유족과 일억 삼천만 원에 합의한 점을 참작했습니다.",
+   "shown": "그런데 법원은, 유족과 1억 3,000만 원에 합의한 점을 참작했습니다.",
+   "chunks": [
+    "그런데 법원은,",
+    "유족과 1억",
+    "3,000만 원에",
+    "합의한 점을",
+    "참작했습니다."
+   ],
+   "fact": "F4",
+   "actor": "hoodie",
+   "shots": [
+    {
+     "s": "paper",
+     "lines": [
+      "법원 참작 사유",
+      "유족과 합의"
+     ],
+     "size": 90
+    },
+    {
+     "s": "judge"
+    },
+    {
+     "s": "react",
+     "look": "hoodie",
+     "expr": "serious",
+     "move": "nod",
+     "y": 2090
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "mode": "fact4",
+   "tts": "유족이 처벌을 원하지 않은 점도, 참작됐습니다.",
+   "shown": "유족이 처벌을 원하지 않은 점도, 참작됐습니다.",
+   "chunks": [
+    "유족이 처벌을",
+    "원하지 않은 점도,",
+    "참작됐습니다."
+   ],
+   "fact": "F4",
+   "actor": "hoodie",
+   "shots": [
+    {
+     "s": "stamp",
+     "lines": [
+      "유족 처벌불원"
+     ],
+     "stamp": "참작",
+     "size": 98
+    },
+    {
+     "s": "judge"
+    },
+    {
+     "s": "react",
+     "look": "hoodie",
+     "expr": "serious",
+     "move": "nod",
+     "y": 2090
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "선고는 금고 일 년에 집행유예 이 년, 사회봉사 백이십 시간.",
+   "shown": "선고는 금고 1년에 집행유예 2년, 사회봉사 120시간.",
+   "chunks": [
+    "선고는 금고 1년에",
+    "집행유예 2년,",
+    "사회봉사 120시간."
+   ],
+   "fact": "F3",
+   "shots": [
+    {
+     "s": "paper",
+     "lines": [
+      "금고 1년",
+      "집행유예 2년"
+     ],
+     "size": 100
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "판결"
+     ],
+     "stamp": "확정",
+     "size": 100
+    },
+    {
+     "s": "judge"
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "직원 생일파티에서, 양주 일 병 반을,",
+   "shown": "직원 생일파티에서, 양주 1병 반을,",
+   "chunks": [
+    "직원 생일파티에서,",
+    "양주 1병 반을,"
+   ],
+   "fact": "F1",
+   "shots": []
+  }
+ ],
+ "source_spec": "episodes/specs/q049.json"
+}

@@ -1,0 +1,151 @@
+{
+ "accuracy": 1.0,
+ "character_clock_accuracy": 1.0,
+ "rows": [
+  {
+   "text": "아파트에서 이웃을\n일본도로 살해한",
+   "start": 0,
+   "end": 52,
+   "old_start": 0,
+   "old_end": 51,
+   "start_seconds": 0.0,
+   "end_seconds": 1.72
+  },
+  {
+   "text": "사건입니다.",
+   "start": 52,
+   "end": 67,
+   "old_start": 51,
+   "old_end": 69,
+   "start_seconds": 1.72,
+   "end_seconds": 2.22
+  },
+  {
+   "text": "어떤 형이 나왔을까?",
+   "start": 69,
+   "end": 98,
+   "old_start": 69,
+   "old_end": 102,
+   "start_seconds": 2.3,
+   "end_seconds": 3.26
+  },
+  {
+   "text": "피고인은 심신미약을 이유로",
+   "start": 101,
+   "end": 145,
+   "old_start": 102,
+   "old_end": 139,
+   "start_seconds": 3.38,
+   "end_seconds": 4.82
+  },
+  {
+   "text": "형을 줄여 달라고\n주장했죠.",
+   "start": 145,
+   "end": 181,
+   "old_start": 139,
+   "old_end": 185,
+   "start_seconds": 4.82,
+   "end_seconds": 6.04
+  },
+  {
+   "text": "반대로 검찰은",
+   "start": 185,
+   "end": 208,
+   "old_start": 185,
+   "old_end": 205,
+   "start_seconds": 6.18,
+   "end_seconds": 6.92
+  },
+  {
+   "text": "1심과 2심 모두\n사형을 구형했습니다.",
+   "start": 208,
+   "end": 263,
+   "old_start": 205,
+   "old_end": 272,
+   "start_seconds": 6.92,
+   "end_seconds": 8.76
+  },
+  {
+   "text": "벌금, 집행유예, 실형 중\n무엇이었을까요?",
+   "start": 272,
+   "end": 329,
+   "old_start": 272,
+   "old_end": 332,
+   "start_seconds": 9.06,
+   "end_seconds": 10.96
+  },
+  {
+   "text": "2심은 심신미약을\n인정했죠.",
+   "start": 332,
+   "end": 374,
+   "old_start": 332,
+   "old_end": 376,
+   "start_seconds": 11.08,
+   "end_seconds": 12.46
+  },
+  {
+   "text": "그래도 형을 줄일\n사유는 아니라고 봤죠.",
+   "start": 378,
+   "end": 425,
+   "old_start": 376,
+   "old_end": 428,
+   "start_seconds": 12.6,
+   "end_seconds": 14.18
+  },
+  {
+   "text": "범행이 중대하고",
+   "start": 428,
+   "end": 452,
+   "old_start": 428,
+   "old_end": 450,
+   "start_seconds": 14.28,
+   "end_seconds": 15.06
+  },
+  {
+   "text": "재범 위험도 있다고\n판단했습니다.",
+   "start": 452,
+   "end": 500,
+   "old_start": 450,
+   "old_end": 507,
+   "start_seconds": 15.06,
+   "end_seconds": 16.66
+  },
+  {
+   "text": "정답은 실형.",
+   "start": 507,
+   "end": 529,
+   "old_start": 507,
+   "old_end": 535,
+   "start_seconds": 16.9,
+   "end_seconds": 17.62
+  },
+  {
+   "text": "1심과 2심 모두\n무기징역.",
+   "start": 531,
+   "end": 579,
+   "old_start": 535,
+   "old_end": 580,
+   "start_seconds": 17.7,
+   "end_seconds": 19.3
+  },
+  {
+   "text": "대법원에서\n그대로 확정됐습니다.",
+   "start": 581,
+   "end": 622,
+   "old_start": 580,
+   "old_end": 627,
+   "start_seconds": 19.36,
+   "end_seconds": 20.74
+  },
+  {
+   "text": "다음 사건도\n맞혀 보세요.",
+   "start": 626,
+   "end": 659,
+   "old_start": 627,
+   "old_end": 664,
+   "start_seconds": 20.88,
+   "end_seconds": 21.98
+  }
+ ],
+ "pass_": true
+}

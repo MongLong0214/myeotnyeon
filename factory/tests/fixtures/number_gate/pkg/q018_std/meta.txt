@@ -1,0 +1,2 @@
+(fixture: the declaring line copied from upload/pkg/q018_std/meta.txt)
+번호 미배정. 업로드·예약 없음.

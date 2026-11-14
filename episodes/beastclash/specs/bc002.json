@@ -1,0 +1,172 @@
+{
+ "id": "bc002",
+ "voice": "af_bella",
+ "speed": 1.12,
+ "a": "jaguar",
+ "b": "anaconda",
+ "winner": "a",
+ "bg": "jungle",
+ "title": [
+  "JAGUAR",
+  "ANACONDA"
+ ],
+ "tag": [
+  "250 LB",
+  "550 LB"
+ ],
+ "stats": [
+  {
+   "label": "WEIGHT",
+   "a": {
+    "big": "250 LB",
+    "small": "113 kg"
+   },
+   "b": {
+    "big": "550 LB",
+    "small": "250 kg"
+   },
+   "win": "b"
+  },
+  {
+   "label": "LENGTH",
+   "b": {
+    "big": "30 FT",
+    "small": "up to 9 m"
+   },
+   "win": "b"
+  },
+  {
+   "label": "BITE FOR ITS SIZE",
+   "a": {
+    "big": "1,000 N",
+    "small": "canine bite, estimated"
+   },
+   "win": "a",
+   "note": "BITE-FORCE QUOTIENT 137 vs LION 112 (Wroe 2005)"
+  }
+ ],
+ "verdict": {
+  "head": "HYPOTHETICAL WINNER",
+  "name": "JAGUAR",
+  "note": "HYPOTHETICAL SCENARIO RESULT",
+  "note2": "REVERSE CASE: NOT FOUND IN SOURCES WE CHECKED",
+  "pop1": "ON RECORD: JAGUARS EAT ANACONDAS",
+  "pop2": "REVERSE CASE: NOT FOUND IN SOURCES WE CHECKED"
+ },
+ "lines": [
+  {
+   "mode": "face",
+   "tts": "Jaguar, versus anaconda!",
+   "shown": "Jaguar vs anaconda!",
+   "id": "L01",
+   "speed": 1.3
+  },
+  {
+   "mode": "stat",
+   "k": 0,
+   "tts": "Two hundred fifty pounds, versus five hundred fifty!",
+   "shown": "250 lb vs 550 lb!",
+   "id": "L02",
+   "speed": 1.32
+  },
+  {
+   "mode": "stat",
+   "k": 1,
+   "tts": "The snake can stretch thirty feet!",
+   "shown": "The snake can stretch 30 feet!",
+   "id": "L03",
+   "speed": 1.32
+  },
+  {
+   "mode": "stat",
+   "k": 2,
+   "tts": "Relative to its size, the jaguar's bite beats a lion's. Not in raw force!",
+   "shown": "Relative to its size, the jaguar's bite beats a lion's. Not in raw force!",
+   "id": "L04",
+   "speed": 1.32
+  },
+  {
+   "mode": "prompt",
+   "tts": "Who wins? Comment A, or B!",
+   "shown": "Who wins? Comment A or B!",
+   "id": "L05"
+  },
+  {
+   "mode": "clash",
+   "shots": [
+    {
+     "s": "rear",
+     "who": "b"
+    },
+    {
+     "s": "strike",
+     "who": "b"
+    }
+   ],
+   "tts": "The anaconda strikes from the river!",
+   "shown": "The anaconda strikes from the river!",
+   "hold": 0.3,
+   "id": "L06"
+  },
+  {
+   "mode": "clash",
+   "shots": [
+    {
+     "s": "charge",
+     "who": "a"
+    }
+   ],
+   "tts": "The jaguar dodges, and pounces!",
+   "shown": "The jaguar dodges and pounces!",
+   "hold": 0.3,
+   "id": "L07"
+  },
+  {
+   "mode": "clash",
+   "shots": [
+    {
+     "s": "impact",
+     "who": "a",
+     "pin": true
+    }
+   ],
+   "tts": "Pinned! The snake can't coil in time!",
+   "shown": "Pinned! The snake can't coil in time!",
+   "hold": 0.35,
+   "id": "L08"
+  },
+  {
+   "mode": "clash",
+   "shots": [
+    {
+     "s": "retreat",
+     "who": "b"
+    }
+   ],
+   "tts": "The anaconda slips away!",
+   "shown": "The anaconda slips away!",
+   "hold": 0.5,
+   "id": "L09"
+  },
+  {
+   "mode": "verdict",
+   "k": 0,
+   "tts": "Jaguars are on record eating anacondas.",
+   "shown": "Jaguars are on record eating anacondas.",
+   "id": "L10"
+  },
+  {
+   "mode": "verdict",
+   "k": 1,
+   "tts": "An anaconda eating a jaguar? Not in the sources we checked.",
+   "shown": "An anaconda eating a jaguar? Not in the sources we checked.",
+   "id": "L11"
+  },
+  {
+   "mode": "loop",
+   "tts": "Rematch? Round two!",
+   "shown": "Rematch? Round two!",
+   "id": "L12"
+  }
+ ]
+}

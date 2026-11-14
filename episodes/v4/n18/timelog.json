@@ -1,0 +1,108 @@
+{
+  "timezone": "Asia/Seoul",
+  "started_at": "2026-10-26T19:44:37+09:00",
+  "steps": [
+    {
+      "step": "read_specs_and_B_path",
+      "start": "2026-10-26T19:44:37+09:00",
+      "end": "2026-10-26T19:45:37+09:00",
+      "elapsed_seconds": 60
+    },
+    {
+      "step": "verify_and_archive_facts",
+      "start": "2026-10-26T19:45:37+09:00",
+      "end": "2026-10-26T19:49:55+09:00",
+      "elapsed_seconds": 258
+    },
+    {
+      "step": "draft_script",
+      "start": "2026-10-26T19:49:55+09:00",
+      "end": "2026-10-26T19:52:27+09:00",
+      "elapsed_seconds": 152
+    },
+    {
+      "step": "write_shot_list_and_script_timing",
+      "start": "2026-10-26T19:52:27+09:00",
+      "end": "2026-10-26T19:55:40+09:00",
+      "elapsed_seconds": 193
+    },
+    {
+      "step": "build_representative_compositions",
+      "start": "2026-10-26T19:55:40+09:00",
+      "end": "2026-10-26T19:58:59+09:00",
+      "elapsed_seconds": 199
+    },
+    {
+      "step": "render_and_verify_representatives_and_regression",
+      "start": "2026-10-26T19:58:59+09:00",
+      "end": "2026-10-26T20:09:17+09:00",
+      "elapsed_seconds": 618
+    },
+    {
+      "step": "stage_2a_read_reference_and_constraints",
+      "start": "2026-10-26T20:11:10+09:00",
+      "end": "2026-10-26T20:12:42+09:00",
+      "elapsed_seconds": 92
+    },
+    {
+      "step": "stage_2a_rebuild_svg_art",
+      "start": "2026-10-26T20:12:42+09:00",
+      "end": "2026-10-26T20:17:10+09:00",
+      "elapsed_seconds": 268
+    },
+    {
+      "step": "stage_2a_resolve_local_render_transport",
+      "start": "2026-10-26T20:17:10+09:00",
+      "end": "2026-10-26T20:20:44+09:00",
+      "elapsed_seconds": 214
+    },
+    {
+      "step": "stage_2a_review_stills_and_refine_light",
+      "start": "2026-10-26T20:20:44+09:00",
+      "end": "2026-10-26T20:22:16+09:00",
+      "elapsed_seconds": 92
+    },
+    {
+      "step": "stage_2a_render_compare_and_verify",
+      "start": "2026-10-26T20:22:16+09:00",
+      "end": "2026-10-26T20:25:04+09:00",
+      "elapsed_seconds": 168
+    },
+    {
+      "step": "stage_2b_build_narration_full_composition_and_preflight",
+      "start": "2026-10-26T20:26:33+09:00",
+      "end": "2026-10-26T20:37:49.451000+09:00",
+      "elapsed_seconds": 676
+    },
+    {
+      "step": "stage_2b_render_and_parallel_qa",
+      "start": "2026-10-26T20:37:49.451000+09:00",
+      "end": "2026-10-26T21:24:54.913000+09:00",
+      "elapsed_seconds": 2825,
+      "render_wall_seconds": 1612.15062825
+    },
+    {
+      "step": "stage_2b_assemble_delivered_media_and_final_qa",
+      "start": "2026-10-26T21:24:54.913000+09:00",
+      "end": "2026-10-26T21:33:11.666760+09:00",
+      "elapsed_seconds": 497
+    }
+  ],
+  "boundary_basis": "KST wall clock and file creation/write timestamps; final corrections included in render/verification step. Stage 2a: first recorded KST clock at 20:11:10 through final verification. Elapsed total sums active stage durations and excludes the gap between stages.",
+  "ended_at": "2026-10-26T21:33:11.666760+09:00",
+  "elapsed_seconds": 6313,
+  "status": "stage_2b_delivered_with_textgate_flags",
+  "stage_2_started": true,
+  "stage_1_ended_at": "2026-10-26T20:09:17+09:00",
+  "stage_1_elapsed_seconds": 1480,
+  "stage_2a_started_at": "2026-10-26T20:11:10+09:00",
+  "stage_2a_ended_at": "2026-10-26T20:25:04+09:00",
+  "stage_2a_elapsed_seconds": 834,
+  "stage_2b_started": true,
+  "provider_interruption_seconds": 958,
+  "stage_2b_active_elapsed_seconds": 3041,
+  "stage_2b_started_at": "2026-10-26T20:26:33+09:00",
+  "stage_2b_ended_at": "2026-10-26T21:33:11.666760+09:00",
+  "stage_2b_elapsed_seconds": 3999,
+  "stage_2b_render_seconds": 1612.151
+}

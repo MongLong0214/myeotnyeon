@@ -1,0 +1,20 @@
+{
+ "id": "american_walnut_veneer",
+ "name": "American Walnut Veneer",
+ "type": 1,
+ "authors": {
+  "Jenelle van Heerden": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/american_walnut_veneer",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Textures/blend/2k/american_walnut_veneer/american_walnut_veneer_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/american_walnut_veneer/american_walnut_veneer_ao_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/american_walnut_veneer/american_walnut_veneer_diff_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/american_walnut_veneer/american_walnut_veneer_disp_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/american_walnut_veneer/american_walnut_veneer_nor_gl_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/american_walnut_veneer/american_walnut_veneer_rough_2k.exr"
+ ]
+}

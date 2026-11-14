@@ -1,0 +1,1 @@
+Music and all SFX: original local oscillator/noise synthesis in sound.py. No licensed sample dependency, paid service, network or uploaded material. Voice: local Supertonic 3 M1, same voice as Shorts; model license remains at /Users/isaac/.cache/supertonic3/LICENSE. Local Pretendard font uses its bundled OFL license.

@@ -1,0 +1,137 @@
+{
+ "chatterbox-ml_builtin_neutral_1": {
+  "engine": "chatterbox-ml",
+  "voice": "builtin",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 30.28,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "chatterbox-ml_builtin_neutral_2": {
+  "engine": "chatterbox-ml",
+  "voice": "builtin",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 8.94,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "chatterbox-ml_builtin_neutral_3": {
+  "engine": "chatterbox-ml",
+  "voice": "builtin",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "exaggeration": 0.5,
+   "cfg_weight": 0.5,
+   "temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 7.15,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "chatterbox-ml_builtin_comic_1": {
+  "engine": "chatterbox-ml",
+  "voice": "builtin",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "exaggeration": 1.0,
+   "cfg_weight": 0.3,
+   "temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 10.89,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "chatterbox-ml_builtin_comic_2": {
+  "engine": "chatterbox-ml",
+  "voice": "builtin",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "exaggeration": 1.0,
+   "cfg_weight": 0.3,
+   "temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 7.73,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "chatterbox-ml_builtin_comic_3": {
+  "engine": "chatterbox-ml",
+  "voice": "builtin",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "exaggeration": 1.0,
+   "cfg_weight": 0.3,
+   "temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 7.46,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "chatterbox-ml_builtin_comic2_1": {
+  "engine": "chatterbox-ml",
+  "voice": "builtin",
+  "style": "comic2",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "exaggeration": 1.5,
+   "cfg_weight": 0.3,
+   "temperature": 0.9,
+   "device": "mps"
+  },
+  "gen_seconds": 10.87,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "chatterbox-ml_builtin_comic2_2": {
+  "engine": "chatterbox-ml",
+  "voice": "builtin",
+  "style": "comic2",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "exaggeration": 1.5,
+   "cfg_weight": 0.3,
+   "temperature": 0.9,
+   "device": "mps"
+  },
+  "gen_seconds": 6.29,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "chatterbox-ml_builtin_comic2_3": {
+  "engine": "chatterbox-ml",
+  "voice": "builtin",
+  "style": "comic2",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "exaggeration": 1.5,
+   "cfg_weight": 0.3,
+   "temperature": 0.9,
+   "device": "mps"
+  },
+  "gen_seconds": 8.19,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ }
+}

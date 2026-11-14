@@ -1,0 +1,506 @@
+{
+ "bark_ko0_neutral_1": {
+  "engine": "bark",
+  "voice": "ko0",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_0",
+   "device": "mps"
+  },
+  "gen_seconds": 50.38,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "bark_ko0_neutral_2": {
+  "engine": "bark",
+  "voice": "ko0",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_0",
+   "device": "mps"
+  },
+  "gen_seconds": 25.0,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "bark_ko0_neutral_3": {
+  "engine": "bark",
+  "voice": "ko0",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_0",
+   "device": "mps"
+  },
+  "gen_seconds": 19.26,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "bark_ko0_comic_1": {
+  "engine": "bark",
+  "voice": "ko0",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_0",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 22.2,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "bark_ko0_comic_2": {
+  "engine": "bark",
+  "voice": "ko0",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_0",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 13.54,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "bark_ko0_comic_3": {
+  "engine": "bark",
+  "voice": "ko0",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_0",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 14.66,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "bark_ko1_neutral_1": {
+  "engine": "bark",
+  "voice": "ko1",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_1",
+   "device": "mps"
+  },
+  "gen_seconds": 48.78,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "bark_ko1_neutral_2": {
+  "engine": "bark",
+  "voice": "ko1",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_1",
+   "device": "mps"
+  },
+  "gen_seconds": 19.39,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "bark_ko1_neutral_3": {
+  "engine": "bark",
+  "voice": "ko1",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_1",
+   "device": "mps"
+  },
+  "gen_seconds": 11.68,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "bark_ko1_comic_1": {
+  "engine": "bark",
+  "voice": "ko1",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_1",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 32.24,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "bark_ko1_comic_2": {
+  "engine": "bark",
+  "voice": "ko1",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_1",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 16.91,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "bark_ko1_comic_3": {
+  "engine": "bark",
+  "voice": "ko1",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_1",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 33.22,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "bark_ko2_neutral_1": {
+  "engine": "bark",
+  "voice": "ko2",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_2",
+   "device": "mps"
+  },
+  "gen_seconds": 47.29,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "bark_ko2_neutral_2": {
+  "engine": "bark",
+  "voice": "ko2",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_2",
+   "device": "mps"
+  },
+  "gen_seconds": 14.13,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "bark_ko2_neutral_3": {
+  "engine": "bark",
+  "voice": "ko2",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_2",
+   "device": "mps"
+  },
+  "gen_seconds": 11.76,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "bark_ko2_comic_1": {
+  "engine": "bark",
+  "voice": "ko2",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_2",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 19.11,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "bark_ko2_comic_2": {
+  "engine": "bark",
+  "voice": "ko2",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_2",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 15.84,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "bark_ko2_comic_3": {
+  "engine": "bark",
+  "voice": "ko2",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_2",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 12.03,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "bark_ko3_neutral_1": {
+  "engine": "bark",
+  "voice": "ko3",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_3",
+   "device": "mps"
+  },
+  "gen_seconds": 44.65,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "bark_ko3_neutral_2": {
+  "engine": "bark",
+  "voice": "ko3",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_3",
+   "device": "mps"
+  },
+  "gen_seconds": 14.14,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "bark_ko3_neutral_3": {
+  "engine": "bark",
+  "voice": "ko3",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_3",
+   "device": "mps"
+  },
+  "gen_seconds": 33.65,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "bark_ko3_comic_1": {
+  "engine": "bark",
+  "voice": "ko3",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_3",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 18.39,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "bark_ko3_comic_2": {
+  "engine": "bark",
+  "voice": "ko3",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_3",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 14.66,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "bark_ko3_comic_3": {
+  "engine": "bark",
+  "voice": "ko3",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_3",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 19.16,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "bark_ko4_neutral_1": {
+  "engine": "bark",
+  "voice": "ko4",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_4",
+   "device": "mps"
+  },
+  "gen_seconds": 40.5,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "bark_ko4_neutral_2": {
+  "engine": "bark",
+  "voice": "ko4",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_4",
+   "device": "mps"
+  },
+  "gen_seconds": 17.21,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "bark_ko4_neutral_3": {
+  "engine": "bark",
+  "voice": "ko4",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_4",
+   "device": "mps"
+  },
+  "gen_seconds": 13.51,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "bark_ko4_comic_1": {
+  "engine": "bark",
+  "voice": "ko4",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_4",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 29.07,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "bark_ko4_comic_2": {
+  "engine": "bark",
+  "voice": "ko4",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_4",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 14.51,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "bark_ko4_comic_3": {
+  "engine": "bark",
+  "voice": "ko4",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_4",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 10.53,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "bark_ko5_neutral_1": {
+  "engine": "bark",
+  "voice": "ko5",
+  "style": "neutral",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_5",
+   "device": "mps"
+  },
+  "gen_seconds": 38.18,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "bark_ko5_neutral_2": {
+  "engine": "bark",
+  "voice": "ko5",
+  "style": "neutral",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_5",
+   "device": "mps"
+  },
+  "gen_seconds": 18.81,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "bark_ko5_neutral_3": {
+  "engine": "bark",
+  "voice": "ko5",
+  "style": "neutral",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_5",
+   "device": "mps"
+  },
+  "gen_seconds": 53.46,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ },
+ "bark_ko5_comic_1": {
+  "engine": "bark",
+  "voice": "ko5",
+  "style": "comic",
+  "line": 1,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_5",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 39.15,
+  "input_text": "음주운전 신고하겠다고 막아선 삼십 대 남성을, 이십 대 여성 운전자가 차로 밀어 버렸습니다."
+ },
+ "bark_ko5_comic_2": {
+  "engine": "bark",
+  "voice": "ko5",
+  "style": "comic",
+  "line": 2,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_5",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 21.59,
+  "input_text": "여러분이 판사라면? 실형일까요, 집행유예일까요?"
+ },
+ "bark_ko5_comic_3": {
+  "engine": "bark",
+  "voice": "ko5",
+  "style": "comic",
+  "line": 3,
+  "sr": 24000,
+  "params": {
+   "preset": "v2/ko_speaker_5",
+   "semantic_temperature": 0.95,
+   "coarse_temperature": 0.8,
+   "device": "mps"
+  },
+  "gen_seconds": 33.59,
+  "input_text": "판결은, 징역 팔 개월에 집행유예 이 년!"
+ }
+}

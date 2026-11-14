@@ -1,0 +1,5832 @@
+[
+  {
+    "n": 1,
+    "s": 1,
+    "scene": "cold_open",
+    "set": "parking",
+    "subject": "은행 지하 총격",
+    "shows": "은행 지하 전경; 왼쪽 익명 강도가 권총을 발사. 상처·발사 횟수 표기 없음.",
+    "text": "은행 지하에서 총이 터졌습니다.",
+    "props": [
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 360,
+        "y": 690,
+        "scale": 0.75
+      },
+      {
+        "id": "bag",
+        "kind": "bag",
+        "x": 1120,
+        "y": 770,
+        "scale": 0.64
+      },
+      {
+        "id": "gun",
+        "kind": "gun",
+        "x": 790,
+        "y": 550,
+        "scale": 0.37,
+        "fireAt": "SHOT_WORD"
+      }
+    ],
+    "actors": [
+      {
+        "id": "robberA",
+        "role": "robberA",
+        "x": 590,
+        "y": 805,
+        "scale": 0.76,
+        "still": true,
+        "gesture": "reach"
+      },
+      {
+        "id": "victim",
+        "role": "victim",
+        "x": 1360,
+        "y": 805,
+        "scale": 0.76,
+        "still": true,
+        "view": "back",
+        "anonymous": true
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "은행 지하 · 총격",
+    "note": "",
+    "location": "사실에 따른 재구성 · 인물 비식별",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 1,
+    "s": 2,
+    "scene": "cold_open",
+    "set": "parking",
+    "subject": "쓰러지는 출납과장",
+    "shows": "같은 위치의 익명 출납과장이 뒤로 쓰러짐. 총격의 결과를 직접 재현하며 고어 없음.",
+    "text": "출납과장이 쓰러졌습니다.",
+    "props": [
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 360,
+        "y": 690,
+        "scale": 0.75
+      },
+      {
+        "id": "bag",
+        "kind": "bag",
+        "x": 1120,
+        "y": 770,
+        "scale": 0.64
+      }
+    ],
+    "actors": [
+      {
+        "id": "robberA",
+        "role": "robberA",
+        "x": 590,
+        "y": 805,
+        "scale": 0.76,
+        "still": true,
+        "gesture": "reach"
+      },
+      {
+        "id": "victim",
+        "role": "victim",
+        "x": 1360,
+        "y": 805,
+        "scale": 0.76,
+        "still": true,
+        "view": "back",
+        "anonymous": true,
+        "motion": {
+          "start": "FALL_WORD",
+          "end": "FALL_END",
+          "fallTo": 1
+        }
+      }
+    ],
+    "type": "medium",
+    "focus": {
+      "x": 1250,
+      "y": 620,
+      "zoom": 1.3
+    },
+    "date": "",
+    "heading": "출납과장이 쓰러졌습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 2,
+    "s": 1,
+    "scene": "stolen_money",
+    "set": "investigation",
+    "subject": "빼앗긴 돈",
+    "shows": "빼앗긴 한 돈가방과 실제 피해액 3억 원.",
+    "text": "빼앗긴 돈은 3억 원.",
+    "props": [
+      {
+        "id": "bag",
+        "kind": "bag",
+        "x": 760,
+        "y": 460,
+        "scale": 1.45
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1270,
+        "y": 440,
+        "scale": 0.85,
+        "text": "3억 원",
+        "subtext": "실제 피해액"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "빼앗긴 돈",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 2,
+    "s": 2,
+    "scene": "mask_hook",
+    "set": "lab",
+    "subject": "버린 마스크와 검거의 질문",
+    "shows": "마스크에서 익명 범인의 물음표로 연결되는 수사 개념도.",
+    "text": "버린 마스크가 어떻게 범인들을 붙잡았을까요?",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 590,
+        "y": 450,
+        "scale": 1.1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1370,
+        "y": 450,
+        "scale": 0.9,
+        "text": "범인은?",
+        "subtext": "버린 마스크"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "마스크는 어떻게 범인을 가리켰나?",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          850,
+          450
+        ],
+        "to": [
+          1090,
+          450
+        ],
+        "label": "",
+        "crossed": false
+      }
+    ],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 3,
+    "s": 1,
+    "scene": "mask_hook",
+    "set": "lab",
+    "subject": "천 조각·경과 시간·공범",
+    "shows": "마스크와 손수건, 20년 8개월의 연결선, 공범 B 표식.",
+    "text": "그 천 조각이 약 20년 8개월을 건너 공범을 가리킵니다.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 480,
+        "y": 420,
+        "scale": 0.7
+      },
+      {
+        "id": "cloth",
+        "kind": "cloth",
+        "x": 480,
+        "y": 650,
+        "scale": 0.55
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1320,
+        "y": 450,
+        "scale": 1,
+        "text": "약 20년 8개월",
+        "subtext": "공범 B로 이어진 단서"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "천 조각이 건넌 시간",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          690,
+          480
+        ],
+        "to": [
+          1020,
+          480
+        ],
+        "label": "",
+        "crossed": false
+      }
+    ],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 3,
+    "s": 2,
+    "scene": "sentence_hook",
+    "set": "court",
+    "subject": "20년형에서 무기징역",
+    "shows": "20년과 무기징역을 법정의 두 판으로 대비. 아직 이유는 물음표.",
+    "text": "그리고 20년형은 왜 무기징역으로 뒤집혔을까요?",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 560,
+        "y": 470,
+        "scale": 1,
+        "text": "징역 20년",
+        "subtext": "왜 바뀌었나?"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1380,
+        "y": 470,
+        "scale": 1,
+        "text": "무기징역",
+        "subtext": "?"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "20년형은 왜 뒤집혔나?",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          850,
+          470
+        ],
+        "to": [
+          1080,
+          470
+        ],
+        "label": "",
+        "crossed": false
+      }
+    ],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 4,
+    "s": 1,
+    "scene": "bank_day",
+    "set": "parking",
+    "subject": "사건 날짜와 시각",
+    "shows": "은행 지하주차장의 넓은 공간에 검증된 날짜·시각.",
+    "text": "2001년 12월 21일, 오전 10시쯤.",
+    "props": [],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "2001년 12월 21일 · 10시쯤",
+    "heading": "사건 당일",
+    "note": "",
+    "location": "사실에 따른 재구성",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 4,
+    "s": 2,
+    "scene": "bank_day",
+    "set": "parking",
+    "subject": "대전 둔산동 국민은행 지하",
+    "shows": "지하주차장 기둥·수송차와 국민은행 건물 표지.",
+    "text": "대전 둔산동 국민은행 건물 지하주차장입니다.",
+    "props": [
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 1260,
+        "y": 650,
+        "scale": 0.74,
+        "truck": true
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 710,
+        "y": 430,
+        "scale": 0.85,
+        "text": "국민은행 건물",
+        "subtext": "지하주차장"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "국민은행 건물 지하주차장",
+    "note": "",
+    "location": "대전 · 둔산동",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 5,
+    "s": 1,
+    "scene": "bank_day",
+    "set": "parking",
+    "subject": "세 은행 관계자의 돈 운송",
+    "shows": "은행 관계자 3명이 가방 2개를 옮긴다. 세 명 모두 식별 불가.",
+    "text": "은행 관계자 3명이 돈가방을 옮기던 순간.",
+    "props": [
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 1480,
+        "y": 565,
+        "scale": 0.6,
+        "truck": true
+      }
+    ],
+    "actors": [
+      {
+        "id": "staff1",
+        "role": "employee",
+        "x": 880,
+        "y": 800,
+        "scale": 0.6,
+        "bag": true,
+        "view": "back",
+        "anonymous": true,
+        "motion": {
+          "start": "START",
+          "end": "END",
+          "xTo": 800
+        }
+      },
+      {
+        "id": "staff2",
+        "role": "employee",
+        "x": 1120,
+        "y": 790,
+        "scale": 0.6,
+        "bag": true,
+        "view": "back",
+        "anonymous": true,
+        "motion": {
+          "start": "START",
+          "end": "END",
+          "xTo": 1040
+        }
+      },
+      {
+        "id": "staff3",
+        "role": "employee",
+        "x": 1350,
+        "y": 780,
+        "scale": 0.6,
+        "view": "back",
+        "anonymous": true,
+        "motion": {
+          "start": "START",
+          "end": "END",
+          "xTo": 1270
+        }
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "은행 관계자 3명 · 돈가방 운송",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 5,
+    "s": 2,
+    "scene": "bank_day",
+    "set": "parking",
+    "subject": "길을 막는 검은 승용차",
+    "shows": "검은 차가 왼쪽 방향으로 진입하여 수송차 앞을 막는다.",
+    "text": "검은 승용차가 길을 막습니다.",
+    "props": [
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 1370,
+        "y": 565,
+        "scale": 0.6,
+        "truck": true
+      },
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 1100,
+        "y": 750,
+        "scale": 1.0,
+        "motion": {
+          "start": "START",
+          "end": "END",
+          "xTo": 760
+        }
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "검은 승용차가 길을 막습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 5,
+    "s": 3,
+    "scene": "bank_day",
+    "set": "parking",
+    "subject": "복면 2인조",
+    "shows": "동일 축에서 검은 차 앞의 복면 강도 두 명.",
+    "text": "복면을 쓴 2인조입니다.",
+    "props": [
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 760,
+        "y": 750,
+        "scale": 1.0
+      }
+    ],
+    "actors": [
+      {
+        "id": "robberA",
+        "role": "robberA",
+        "x": 600,
+        "y": 800,
+        "scale": 0.76
+      },
+      {
+        "id": "robberB",
+        "role": "robberB",
+        "x": 1140,
+        "y": 800,
+        "scale": 0.76
+      }
+    ],
+    "type": "close-up",
+    "focus": {
+      "x": 880,
+      "y": 540,
+      "zoom": 1.4
+    },
+    "date": "",
+    "heading": "복면을 쓴 2인조",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 6,
+    "s": 1,
+    "scene": "bank_weapon",
+    "set": "parking",
+    "subject": "현장의 권총",
+    "shows": "주차장을 배경으로 강도의 권총을 보여주는 중경.",
+    "text": "현장에는 권총이 등장했습니다.",
+    "props": [
+      {
+        "id": "gun",
+        "kind": "gun",
+        "x": 960,
+        "y": 480,
+        "scale": 1.25
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "현장에 등장한 권총",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 6,
+    "s": 2,
+    "scene": "bank_weapon",
+    "set": "parking",
+    "subject": "사망한 40대 출납과장",
+    "shows": "익명 성인 피해자가 쓰러져 있고 현금운송 가방이 옆에 놓임.",
+    "text": "총격으로 숨진 사람은 현금 운송을 맡은 40대 출납과장입니다.",
+    "props": [
+      {
+        "id": "bag",
+        "kind": "bag",
+        "x": 790,
+        "y": 680,
+        "scale": 0.65
+      }
+    ],
+    "actors": [
+      {
+        "id": "victim",
+        "role": "victim",
+        "x": 1100,
+        "y": 760,
+        "scale": 0.76,
+        "still": true,
+        "view": "back",
+        "anonymous": true,
+        "fall": 1
+      }
+    ],
+    "type": "medium",
+    "focus": {
+      "x": 1020,
+      "y": 660,
+      "zoom": 1.3
+    },
+    "date": "",
+    "heading": "현금 운송을 맡은 40대 출납과장",
+    "note": "총격으로 사망 · 피해자 비식별",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 7,
+    "s": 1,
+    "scene": "work_loss",
+    "set": "memorial",
+    "subject": "일터에서 잃은 목숨",
+    "shows": "빈 업무 의자와 놓인 서류. 과장 사망을 진지하게 전함.",
+    "text": "일터에 온 사람이 목숨을 잃었습니다.",
+    "props": [
+      {
+        "id": "emptyChair",
+        "kind": "emptyChair",
+        "x": 1000,
+        "y": 550,
+        "scale": 1.2
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "일터에 온 사람이 목숨을 잃었습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 7,
+    "s": 2,
+    "scene": "court_victim",
+    "set": "court",
+    "subject": "법원의 피해자 판단",
+    "shows": "재판부가 피해자의 직무 충실성과 강도 저지 중 사망을 판단한 문서.",
+    "text": "법원은 그가 직무에 충실하며 강도 범행을 막으려다 숨졌다고 짚었습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.3,
+        "text": "직무에 충실",
+        "subtext": "강도 범행을 막으려다 사망"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "법원의 판단",
+    "note": "유족 발언이 아닌 재판부 판단",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 8,
+    "s": 1,
+    "scene": "bank_bags",
+    "set": "parking",
+    "subject": "각 3억 원이 든 가방 두 개",
+    "shows": "같은 가방 2개를 나란히 보이고 각각 3억 원 표시.",
+    "text": "가방은 2개, 각각 3억 원.",
+    "props": [
+      {
+        "id": "bag",
+        "kind": "bag",
+        "x": 580,
+        "y": 470,
+        "scale": 1.4,
+        "label": "3억 원"
+      },
+      {
+        "id": "bag",
+        "kind": "bag",
+        "x": 1340,
+        "y": 470,
+        "scale": 1.4,
+        "label": "3억 원"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "가방 2개 · 각각 3억 원",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 8,
+    "s": 2,
+    "scene": "bank_bags",
+    "set": "parking",
+    "subject": "그중 하나의 강탈",
+    "shows": "두 가방 중 왼쪽 하나만 범인 쪽 왼쪽으로 이동. 다른 하나는 남음.",
+    "text": "범인들은 그중 하나를 가져갔습니다.",
+    "props": [
+      {
+        "id": "bag",
+        "kind": "bag",
+        "x": 580,
+        "y": 470,
+        "scale": 1.4,
+        "label": "빼앗긴 1개",
+        "motion": {
+          "start": "START",
+          "end": "END",
+          "xTo": 400
+        }
+      },
+      {
+        "id": "bag",
+        "kind": "bag",
+        "x": 1340,
+        "y": 470,
+        "scale": 1.4,
+        "label": "남은 1개"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "범인들은 그중 하나를 가져갔습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 8,
+    "s": 3,
+    "scene": "money_comparison",
+    "set": "investigation",
+    "subject": "운송액과 피해액 비교",
+    "shows": "운송액 6억 원과 실제 피해액 3억 원을 서로 다른 항목으로 표시.",
+    "text": "운송액 6억 원과 빼앗긴 3억 원은 다릅니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 560,
+        "y": 470,
+        "scale": 1,
+        "text": "6억 원",
+        "subtext": "전체 운송액"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1370,
+        "y": 470,
+        "scale": 1,
+        "text": "3억 원",
+        "subtext": "실제 피해액"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "운송액과 피해액은 다릅니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 9,
+    "s": 1,
+    "scene": "suwon_car",
+    "set": "parking",
+    "subject": "훔친 그랜저",
+    "shows": "주차된 검은 그랜저의 넓은 측면. 경찰이나 수사관은 끼워 넣지 않음.",
+    "text": "범행 차량은 훔친 그랜저였습니다.",
+    "props": [
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 960,
+        "y": 630,
+        "scale": 1.4
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "범행 차량 · 훔친 그랜저",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 9,
+    "s": 2,
+    "scene": "suwon_car",
+    "set": "parking",
+    "subject": "수원에서 시동 중 차량 절도",
+    "shows": "시동 중인 차에 익명 범인이 다가가고 왼쪽으로 떠나는 절도 재구성.",
+    "text": "2001년 12월 1일 수원에서, 시동이 걸린 채 주차된 차를 훔쳤습니다.",
+    "props": [
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 960,
+        "y": 630,
+        "scale": 1.4,
+        "motion": {
+          "start": "MID",
+          "end": "END",
+          "xTo": 600
+        }
+      }
+    ],
+    "actors": [
+      {
+        "id": "robberA",
+        "role": "robberA",
+        "x": 1460,
+        "y": 800,
+        "scale": 0.7,
+        "motion": {
+          "start": "START",
+          "end": "MID",
+          "xTo": 1160
+        },
+        "walk": true
+      }
+    ],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "2001년 12월 1일",
+    "heading": "시동이 걸린 채 주차된 차를 훔침",
+    "note": "",
+    "location": "수원",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 10,
+    "s": 1,
+    "scene": "car_and_weapon",
+    "set": "investigation",
+    "subject": "차 절도와 권총 강탈",
+    "shows": "훔친 차와 빼앗은 권총을 두 항목으로 명확히 구분.",
+    "text": "차도 훔쳤고, 총도 빼앗았습니다.",
+    "props": [
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 550,
+        "y": 530,
+        "scale": 0.8,
+        "label": "차량 절도"
+      },
+      {
+        "id": "gun",
+        "kind": "gun",
+        "x": 1400,
+        "y": 450,
+        "scale": 0.9,
+        "label": "권총 강탈"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "차도 훔쳤고, 총도 빼앗았습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 10,
+    "s": 2,
+    "scene": "car_and_weapon",
+    "set": "investigation",
+    "subject": "권총의 출처와 앞선 범행",
+    "shows": "권총에서 은행 범행 이전으로 향하는 시간선. 임의 사건 날짜는 없음.",
+    "text": "이 권총의 출처를 따라가면 은행 사건보다 앞선 범행이 나옵니다.",
+    "props": [
+      {
+        "id": "gun",
+        "kind": "gun",
+        "x": 620,
+        "y": 460,
+        "scale": 1.1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1360,
+        "y": 450,
+        "scale": 0.9,
+        "text": "은행 사건 이전",
+        "subtext": "권총의 출처"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "권총의 출처를 따라갑니다",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          860,
+          470
+        ],
+        "to": [
+          1080,
+          470
+        ],
+        "label": "",
+        "crossed": false
+      }
+    ],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 11,
+    "s": 1,
+    "scene": "police_night",
+    "set": "street",
+    "subject": "총기 강탈 당일 자정",
+    "shows": "야간 거리 전경과 순찰 경찰관. 확인된 날짜와 자정 무렵.",
+    "text": "2001년 10월 15일 자정 무렵.",
+    "props": [],
+    "actors": [
+      {
+        "id": "police",
+        "role": "police",
+        "x": 1200,
+        "y": 800,
+        "scale": 0.75,
+        "anonymous": true,
+        "view": "back"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "2001년 10월 15일 · 자정 무렵",
+    "heading": "은행 사건보다 앞선 범행",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 11,
+    "s": 2,
+    "scene": "police_night",
+    "set": "street",
+    "subject": "차량으로 순찰 경찰관 충돌",
+    "shows": "차는 왼쪽으로 진행해 도보 순찰 경찰관과 충돌. 익명 성인이 쓰러지는 비고어 재구성.",
+    "text": "두 사람은 걸어서 순찰하던 경찰관을 차로 들이받고",
+    "props": [
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 1450,
+        "y": 710,
+        "scale": 1.0,
+        "motion": {
+          "start": "START",
+          "end": "END",
+          "xTo": 1000
+        }
+      }
+    ],
+    "actors": [
+      {
+        "id": "police",
+        "role": "police",
+        "x": 1050,
+        "y": 800,
+        "scale": 0.75,
+        "anonymous": true,
+        "view": "back",
+        "still": true,
+        "motion": {
+          "start": "MID",
+          "end": "END",
+          "fallTo": 1
+        }
+      }
+    ],
+    "type": "medium",
+    "focus": {
+      "x": 1140,
+      "y": 580,
+      "zoom": 1.2
+    },
+    "date": "",
+    "heading": "순찰 경찰관을 차로 들이받음",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 11,
+    "s": 2,
+    "scene": "police_night",
+    "set": "street",
+    "subject": "권총 강탈",
+    "shows": "쓰러진 경찰관 곁의 권총이 범인의 손 쪽으로 옮겨짐. 충돌 반복 없음.",
+    "text": "권총을 빼앗았습니다.",
+    "props": [
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 1000,
+        "y": 710,
+        "scale": 1.0
+      },
+      {
+        "id": "gun",
+        "kind": "gun",
+        "x": 930,
+        "y": 700,
+        "scale": 0.5,
+        "motion": {
+          "start": "START",
+          "end": "END",
+          "xTo": 1420,
+          "yTo": 540
+        }
+      }
+    ],
+    "actors": [
+      {
+        "id": "police",
+        "role": "police",
+        "x": 1050,
+        "y": 800,
+        "scale": 0.75,
+        "anonymous": true,
+        "view": "back",
+        "still": true,
+        "fall": 1
+      },
+      {
+        "id": "robberA",
+        "role": "robberA",
+        "x": 1460,
+        "y": 800,
+        "scale": 0.75,
+        "gesture": "reach"
+      }
+    ],
+    "type": "close-up",
+    "focus": {
+      "x": 1300,
+      "y": 620,
+      "zoom": 1.5
+    },
+    "date": "",
+    "heading": "경찰관의 권총을 빼앗음",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 12,
+    "s": 1,
+    "scene": "police_injured",
+    "set": "street",
+    "subject": "크게 다친 경찰관",
+    "shows": "익명 경찰관이 쓰러져 있으나 사망 표시 없음.",
+    "text": "그 경찰관은 크게 다쳤습니다.",
+    "props": [],
+    "actors": [
+      {
+        "id": "police",
+        "role": "police",
+        "x": 1050,
+        "y": 800,
+        "scale": 0.75,
+        "anonymous": true,
+        "view": "back",
+        "still": true,
+        "fall": 1
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "크게 다쳤습니다 · 사망 아님",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 12,
+    "s": 2,
+    "scene": "police_injured",
+    "set": "street",
+    "subject": "살해된 것으로 바꾸면 안 된다는 설명",
+    "shows": "같은 익명 경찰관을 유지하며 부상·사망 아님을 명시.",
+    "text": "여기서 살해된 것으로 바꾸면 안 됩니다.",
+    "props": [],
+    "actors": [
+      {
+        "id": "police",
+        "role": "police",
+        "x": 1050,
+        "y": 800,
+        "scale": 0.75,
+        "anonymous": true,
+        "view": "back",
+        "still": true,
+        "fall": 1
+      }
+    ],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "이 사건에서 살해된 경찰관이 아닙니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 12,
+    "s": 3,
+    "scene": "bank_stolen_gun",
+    "set": "parking",
+    "subject": "은행 범행에 쓰인 38구경 권총",
+    "shows": "은행 지하 배경의 권총에 38구경·강탈한 총이라는 표기.",
+    "text": "은행 범행에는 빼앗은 38구경 권총이 쓰였습니다.",
+    "props": [
+      {
+        "id": "gun",
+        "kind": "gun",
+        "x": 960,
+        "y": 470,
+        "scale": 1.3,
+        "label": "빼앗은 38구경 권총"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "은행 범행에 쓰인 권총",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 13,
+    "s": 1,
+    "scene": "no_cctv",
+    "set": "parking",
+    "subject": "CCTV 없는 은행 주차장",
+    "shows": "주차장의 넓은 공간과 부재를 뜻하는 취소선 CCTV 도해.",
+    "text": "은행 주차장에는 CCTV도 없었습니다.",
+    "props": [
+      {
+        "id": "camera",
+        "kind": "camera",
+        "x": 960,
+        "y": 460,
+        "scale": 1.15
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "은행 주차장 · CCTV 없음",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 13,
+    "s": 2,
+    "scene": "no_cctv",
+    "set": "parking",
+    "subject": "범행 순간의 직접 영상 부재",
+    "shows": "CCTV 부재 도해를 유지하며 영상으로 잡은 사건이 아님을 표시.",
+    "text": "범행 순간의 영상이 남아 범인을 잡은 사건이 아닙니다.",
+    "props": [
+      {
+        "id": "camera",
+        "kind": "camera",
+        "x": 960,
+        "y": 460,
+        "scale": 1.15
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "범행 순간 영상으로 검거한 사건이 아닙니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 14,
+    "s": 1,
+    "scene": "switch_basement",
+    "set": "parking",
+    "subject": "상가 지하에서 차량 교체",
+    "shows": "버려진 검은 차와 갈아탈 차를 넓게 제시. 두 범인이 왼쪽의 다른 차로 이동.",
+    "text": "범인들은 인근 상가 지하에서 차를 버리고 다른 차로 갈아탔습니다.",
+    "props": [
+      {
+        "id": "abandoned",
+        "kind": "car",
+        "x": 1360,
+        "y": 650,
+        "scale": 0.9
+      },
+      {
+        "id": "replacement",
+        "kind": "car",
+        "x": 460,
+        "y": 690,
+        "scale": 0.9
+      }
+    ],
+    "actors": [
+      {
+        "id": "robberA",
+        "role": "robberA",
+        "x": 1160,
+        "y": 825,
+        "scale": 0.65,
+        "motion": {
+          "start": "START",
+          "end": "END",
+          "xTo": 580
+        },
+        "walk": true
+      },
+      {
+        "id": "robberB",
+        "role": "robberB",
+        "x": 1300,
+        "y": 825,
+        "scale": 0.65,
+        "motion": {
+          "start": "START",
+          "end": "END",
+          "xTo": 720
+        },
+        "walk": true
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "차를 버리고 다른 차로 갈아탐",
+    "note": "",
+    "location": "인근 상가 건물 지하",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 14,
+    "s": 2,
+    "scene": "switch_basement",
+    "set": "parking",
+    "subject": "버린 차 외의 증거",
+    "shows": "버려진 차 실내 쪽에 남은 마스크와 손수건을 드러냄.",
+    "text": "버릴 건 차만이 아니었습니다.",
+    "props": [
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 1360,
+        "y": 650,
+        "scale": 0.9
+      },
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 1180,
+        "y": 470,
+        "scale": 0.4
+      },
+      {
+        "id": "cloth",
+        "kind": "cloth",
+        "x": 1480,
+        "y": 480,
+        "scale": 0.35
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 1320,
+      "y": 530,
+      "zoom": 1.3
+    },
+    "date": "",
+    "heading": "버릴 건 차만이 아니었습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 15,
+    "s": 1,
+    "scene": "fire_attempt",
+    "set": "parking",
+    "subject": "차량 방화로 증거인멸 시도",
+    "shows": "버려진 차와 시도를 뜻하는 점선 불꽃 도해. 발화장치·작동 원리·완전 소실을 그리지 않음.",
+    "text": "차량에 불을 내 증거까지 없애려 했습니다.",
+    "props": [
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 960,
+        "y": 650,
+        "scale": 1.25
+      },
+      {
+        "id": "fireAttempt",
+        "kind": "fireAttempt",
+        "x": 960,
+        "y": 400,
+        "scale": 0.8
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "차량 방화로 증거인멸 시도",
+    "note": "방화 시도 · 발화장치 재현 없음",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 15,
+    "s": 2,
+    "scene": "surviving_cloth",
+    "set": "lab",
+    "subject": "남은 마스크와 손수건",
+    "shows": "수거된 마스크와 손수건을 같은 증거 테이블 위에 제시.",
+    "text": "하지만 마스크와 손수건은 남았습니다.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 610,
+        "y": 470,
+        "scale": 1
+      },
+      {
+        "id": "cloth",
+        "kind": "cloth",
+        "x": 1300,
+        "y": 470,
+        "scale": 1
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "마스크와 손수건은 남았습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 15,
+    "s": 3,
+    "scene": "surviving_cloth",
+    "set": "lab",
+    "subject": "살아남은 흔적",
+    "shows": "남은 천 증거물을 더 가까이 보여줌. 총·범인·화자 없음.",
+    "text": "지우려던 흔적이 살아남은 겁니다.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 610,
+        "y": 470,
+        "scale": 1
+      },
+      {
+        "id": "cloth",
+        "kind": "cloth",
+        "x": 1300,
+        "y": 470,
+        "scale": 1
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "지우려던 흔적이 남았습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 16,
+    "s": 1,
+    "scene": "delete_comment",
+    "set": "investigation",
+    "subject": "증거 삭제 실패라는 논평",
+    "shows": "진행자가 남은 마스크를 가리키고 삭제 실패 판을 보여줌. 비유 표기.",
+    "text": "증거 삭제라더니, 천 조각은 삭제가 안 됐네요.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 630,
+        "y": 440,
+        "scale": 1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1300,
+        "y": 470,
+        "scale": 0.85,
+        "text": "삭제 실패",
+        "subtext": "남은 천 조각"
+      }
+    ],
+    "actors": [
+      {
+        "id": "host",
+        "role": "host",
+        "x": 340,
+        "y": 835,
+        "scale": 0.7,
+        "expr": "skeptic",
+        "gesture": "point"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "증거 삭제라더니…",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": true
+  },
+  {
+    "n": 16,
+    "s": 2,
+    "scene": "delete_comment",
+    "set": "investigation",
+    "subject": "증거인멸 계획의 구멍",
+    "shows": "삭제 실패 판을 가까이. 천 조각은 그대로 남아 있음.",
+    "text": "범인들의 증거인멸 계획에 구멍이 남은 겁니다.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 630,
+        "y": 440,
+        "scale": 1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1300,
+        "y": 470,
+        "scale": 0.85,
+        "text": "삭제 실패",
+        "subtext": "남은 천 조각"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "증거인멸 계획에 남은 구멍",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": true
+  },
+  {
+    "n": 17,
+    "s": 1,
+    "scene": "initial_lab",
+    "set": "lab",
+    "subject": "남았어도 바로 풀리지 않은 증거",
+    "shows": "초기 감식실 전경과 남아 있는 마스크·닫힌 결과 문서.",
+    "text": "그런데 물건이 남았다고 바로 풀리진 않았습니다.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 650,
+        "y": 470,
+        "scale": 0.9
+      },
+      {
+        "id": "file",
+        "kind": "file",
+        "x": 1360,
+        "y": 480,
+        "scale": 0.85,
+        "label": "초기 감식"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "물건이 남아도 바로 풀리지는 않았습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 17,
+    "s": 2,
+    "scene": "initial_lab",
+    "set": "lab",
+    "subject": "초기 DNA 검출 실패",
+    "shows": "마스크와 결과 판에 DNA 검출 못 함 표시. 성공 DNA 애니메이션 없음.",
+    "text": "사건 직후 감식에서는 마스크의 DNA를 검출하지 못했습니다.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 650,
+        "y": 470,
+        "scale": 0.9
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1360,
+        "y": 480,
+        "scale": 0.85,
+        "text": "DNA 검출 못 함",
+        "subtext": "사건 직후 감식"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "초기 감식 · DNA 검출 실패",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 18,
+    "s": 1,
+    "scene": "initial_lab",
+    "set": "lab",
+    "subject": "존재했던 증거",
+    "shows": "같은 마스크의 근접화면으로 증거 존재 강조.",
+    "text": "증거가 없었던 게 아닙니다.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 650,
+        "y": 470,
+        "scale": 0.9
+      }
+    ],
+    "actors": [],
+    "type": "close-up",
+    "focus": {
+      "x": 650,
+      "y": 470,
+      "zoom": 1.58
+    },
+    "date": "",
+    "heading": "증거가 없었던 게 아닙니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 18,
+    "s": 2,
+    "scene": "unknown_name",
+    "set": "investigation",
+    "subject": "증거와 이름 사이의 막힌 길",
+    "shows": "마스크와 이름 미상 판 사이에 끊긴 연결선.",
+    "text": "증거에서 이름으로 가는 길이 막혀 있었습니다.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 590,
+        "y": 470,
+        "scale": 1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1390,
+        "y": 470,
+        "scale": 1,
+        "text": "이름 미상",
+        "subtext": "막힌 연결"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "증거에서 이름으로 가는 길",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          840,
+          470
+        ],
+        "to": [
+          1100,
+          470
+        ],
+        "label": "",
+        "crossed": true
+      }
+    ],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 18,
+    "s": 3,
+    "scene": "dunsan_archive",
+    "set": "investigation",
+    "subject": "둔산경찰서에 보관된 수거품",
+    "shows": "둔산경찰서 증거 보관실 전경; 마스크·손수건과 보관 기록.",
+    "text": "수거품은 둔산경찰서에 보관됐습니다.",
+    "props": [
+      {
+        "id": "records",
+        "kind": "records",
+        "x": 1430,
+        "y": 460,
+        "scale": 1
+      },
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 580,
+        "y": 460,
+        "scale": 0.7
+      },
+      {
+        "id": "cloth",
+        "kind": "cloth",
+        "x": 900,
+        "y": 470,
+        "scale": 0.7
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "수거품을 보관했습니다",
+    "note": "",
+    "location": "둔산경찰서 · 보관",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 19,
+    "s": 1,
+    "scene": "initial_search",
+    "set": "investigation",
+    "subject": "초기 인원·차량 조사 수",
+    "shows": "인물군과 차량에 각각 5321명·9276대 표기.",
+    "text": "초기에는 사람 5321명과 차량 9276대를 조사했다고 보도됐습니다.",
+    "props": [
+      {
+        "id": "people",
+        "kind": "people",
+        "x": 500,
+        "y": 440,
+        "scale": 0.6
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 900,
+        "y": 420,
+        "scale": 0.68,
+        "text": "5321명",
+        "subtext": "조사한 사람"
+      },
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 1380,
+        "y": 560,
+        "scale": 0.5
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1420,
+        "y": 300,
+        "scale": 0.65,
+        "text": "9276대",
+        "subtext": "조사한 차량"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "초기 수사 · 보도된 조사 규모",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 19,
+    "s": 2,
+    "scene": "initial_search",
+    "set": "investigation",
+    "subject": "방대한 조사에도 이름 미상",
+    "shows": "이름 미상 빈 명패와 조사 기록. 숫자를 범인 수로 표현하지 않음.",
+    "text": "숫자는 엄청난데, 범인 이름은 여전히 비어 있었습니다.",
+    "props": [
+      {
+        "id": "records",
+        "kind": "records",
+        "x": 540,
+        "y": 480,
+        "scale": 0.8
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1310,
+        "y": 470,
+        "scale": 1,
+        "text": "범인 이름 미상",
+        "subtext": "조사는 계속됐습니다"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "숫자는 컸지만, 이름은 비어 있었습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 20,
+    "s": 1,
+    "scene": "other_suspects",
+    "set": "court",
+    "subject": "2002년의 다른 용의자 3명",
+    "shows": "서로 같은 크기인 신원 미상 3명의 추상 인물. A·B 복면 캐릭터와 다름.",
+    "text": "2002년에 붙잡힌 다른 용의자 3명도 있었습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1,
+        "text": "다른 용의자 3명",
+        "subtext": "2002년"
+      }
+    ],
+    "actors": [
+      {
+        "id": "other1",
+        "role": "clerk",
+        "x": 500,
+        "y": 810,
+        "scale": 0.65,
+        "anonymous": true,
+        "view": "back"
+      },
+      {
+        "id": "other2",
+        "role": "clerk",
+        "x": 1400,
+        "y": 810,
+        "scale": 0.65,
+        "anonymous": true,
+        "view": "back"
+      },
+      {
+        "id": "other3",
+        "role": "clerk",
+        "x": 1670,
+        "y": 810,
+        "scale": 0.65,
+        "anonymous": true,
+        "view": "back"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "2002년",
+    "heading": "다른 용의자 3명",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 20,
+    "s": 2,
+    "scene": "other_suspects",
+    "set": "court",
+    "subject": "구속영장 기각",
+    "shows": "영장 문서와 기각 표지의 중경.",
+    "text": "구속영장은 기각됐습니다.",
+    "props": [
+      {
+        "id": "file",
+        "kind": "file",
+        "x": 610,
+        "y": 450,
+        "scale": 0.85
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1310,
+        "y": 450,
+        "scale": 0.9,
+        "text": "구속영장 기각",
+        "subtext": "증거 소명 부족"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "구속영장은 기각됐습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 20,
+    "s": 3,
+    "scene": "different_people",
+    "set": "investigation",
+    "subject": "다른 용의자와 A·B 구분",
+    "shows": "2002년 3명과 2022년 A·B를 다른 집단으로 표시하고 등호 취소.",
+    "text": "나중에 붙잡힌 A와 B와는 다른 사람들입니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 540,
+        "y": 470,
+        "scale": 1,
+        "text": "2002년 · 3명",
+        "subtext": "다른 용의자"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1390,
+        "y": 470,
+        "scale": 1,
+        "text": "A · B",
+        "subtext": "2022년 검거"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "같은 사람들이 아닙니다",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          840,
+          470
+        ],
+        "to": [
+          1090,
+          470
+        ],
+        "label": "다른 사람들",
+        "crossed": true
+      }
+    ],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 21,
+    "s": 1,
+    "scene": "coldcase_team",
+    "set": "investigation",
+    "subject": "2011년 12월 전담팀 인수",
+    "shows": "전담수사팀의 넓은 업무 공간; 증거와 기록을 넘겨받는 수사관.",
+    "text": "2011년 12월, 중요미제사건 전담수사팀이 증거와 기록을 인수해 수사를 다시 시작했습니다.",
+    "props": [
+      {
+        "id": "records",
+        "kind": "records",
+        "x": 480,
+        "y": 500,
+        "scale": 1
+      },
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 970,
+        "y": 460,
+        "scale": 0.65
+      },
+      {
+        "id": "cloth",
+        "kind": "cloth",
+        "x": 1240,
+        "y": 470,
+        "scale": 0.6
+      }
+    ],
+    "actors": [
+      {
+        "id": "detective",
+        "role": "detective",
+        "x": 1530,
+        "y": 800,
+        "scale": 0.75,
+        "gesture": "read"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "2011년 12월",
+    "heading": "증거·기록 인수 · 수사 재개",
+    "note": "",
+    "location": "중요미제사건 전담수사팀",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 22,
+    "s": 1,
+    "scene": "law_2015",
+    "set": "investigation",
+    "subject": "2015년 태완이법 시행",
+    "shows": "법전과 살인죄 공소시효 폐지 판. 확인되지 않은 월일 없음.",
+    "text": "2015년에는 살인죄 공소시효를 폐지한 태완이법이 시행됐습니다.",
+    "props": [
+      {
+        "id": "law",
+        "kind": "law",
+        "x": 580,
+        "y": 460,
+        "scale": 1.1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1340,
+        "y": 460,
+        "scale": 1,
+        "text": "살인죄 공소시효 폐지",
+        "subtext": "태완이법 시행"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "2015년",
+    "heading": "수사를 계속할 수 있게 된 법",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 22,
+    "s": 2,
+    "scene": "law_2015",
+    "set": "investigation",
+    "subject": "계속할 수 있었던 수사",
+    "shows": "법전과 열린 사건 기록. 계속 수사 가능이라는 연결.",
+    "text": "이 사건도 수사를 계속할 수 있었다고 보도됐습니다.",
+    "props": [
+      {
+        "id": "law",
+        "kind": "law",
+        "x": 580,
+        "y": 460,
+        "scale": 1.1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1340,
+        "y": 460,
+        "scale": 1,
+        "text": "수사 계속",
+        "subtext": "이 사건도 이어졌습니다"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "수사를 계속할 수 있었다는 보도",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 23,
+    "s": 1,
+    "scene": "retest_2017",
+    "set": "lab",
+    "subject": "2017년 재감식",
+    "shows": "재감식실 전경의 마스크와 손수건. 분석기의 추상 판.",
+    "text": "그리고 2017년 재감식.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 520,
+        "y": 470,
+        "scale": 0.8
+      },
+      {
+        "id": "cloth",
+        "kind": "cloth",
+        "x": 920,
+        "y": 470,
+        "scale": 0.8
+      },
+      {
+        "id": "file",
+        "kind": "file",
+        "x": 1440,
+        "y": 470,
+        "scale": 0.8
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "2017년",
+    "heading": "보관 증거 재감식",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 23,
+    "s": 2,
+    "scene": "retest_2017",
+    "set": "lab",
+    "subject": "마스크·손수건 DNA 돌파구",
+    "shows": "두 천 증거물에서 DNA 분석으로 이어지는 도해.",
+    "text": "마스크와 손수건의 DNA가 돌파구가 됩니다.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 520,
+        "y": 420,
+        "scale": 0.65
+      },
+      {
+        "id": "cloth",
+        "kind": "cloth",
+        "x": 520,
+        "y": 640,
+        "scale": 0.55
+      },
+      {
+        "id": "dna",
+        "kind": "dna",
+        "x": 1250,
+        "y": 470,
+        "scale": 1.1
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "마스크와 손수건의 DNA",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          740,
+          470
+        ],
+        "to": [
+          1000,
+          470
+        ],
+        "label": "",
+        "crossed": false
+      }
+    ],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 23,
+    "s": 3,
+    "scene": "retest_2017",
+    "set": "lab",
+    "subject": "뜻밖의 비교 자료",
+    "shows": "DNA와 장소 미상 자료함. 게임장이나 꽁초를 먼저 확정하지 않음.",
+    "text": "그런데 비교 상대가 뜻밖의 장소에 있었습니다.",
+    "props": [
+      {
+        "id": "dna",
+        "kind": "dna",
+        "x": 580,
+        "y": 470,
+        "scale": 1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1330,
+        "y": 470,
+        "scale": 1,
+        "text": "비교 자료는 어디에?",
+        "subtext": "뜻밖의 장소"
+      }
+    ],
+    "actors": [],
+    "type": "close-up",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.58
+    },
+    "date": "",
+    "heading": "비교 상대가 남아 있었습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 24,
+    "s": 1,
+    "scene": "not_bank",
+    "set": "investigation",
+    "subject": "은행도 주차장도 아님",
+    "shows": "은행과 주차장이라는 두 장소 판을 각각 취소.",
+    "text": "은행도, 주차장도 아닙니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 540,
+        "y": 470,
+        "scale": 1,
+        "text": "은행",
+        "subtext": "아님",
+        "crossed": true
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1390,
+        "y": 470,
+        "scale": 1,
+        "text": "주차장",
+        "subtext": "아님",
+        "crossed": true
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "비교 자료가 나온 곳은?",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 24,
+    "s": 2,
+    "scene": "chungbuk_arcade",
+    "set": "arcade",
+    "subject": "2015년 충북 불법게임장의 담배꽁초",
+    "shows": "불법게임장 넓은 공간의 바닥 꽁초. 2015년·충북 표시.",
+    "text": "2015년 충북의 불법게임장에서 수거한 담배꽁초였습니다.",
+    "props": [
+      {
+        "id": "cigarette",
+        "kind": "cigarette",
+        "x": 960,
+        "y": 665,
+        "scale": 1.1
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "2015년",
+    "heading": "수거한 담배꽁초",
+    "note": "",
+    "location": "충북 · 불법게임장",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 25,
+    "s": 1,
+    "scene": "dna_match",
+    "set": "lab",
+    "subject": "꽁초와 은행 사건 DNA 일치",
+    "shows": "꽁초의 DNA와 천 증거물의 DNA를 양쪽에 놓고 일치선으로 연결.",
+    "text": "그 꽁초의 DNA와 은행 사건의 DNA가 일치했습니다.",
+    "props": [
+      {
+        "id": "cigarette",
+        "kind": "cigarette",
+        "x": 410,
+        "y": 450,
+        "scale": 0.7
+      },
+      {
+        "id": "dna",
+        "kind": "dna",
+        "x": 720,
+        "y": 450,
+        "scale": 0.6
+      },
+      {
+        "id": "dna",
+        "kind": "dna",
+        "x": 1220,
+        "y": 450,
+        "scale": 0.6
+      },
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 1550,
+        "y": 450,
+        "scale": 0.65
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "두 DNA가 일치했습니다",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          910,
+          450
+        ],
+        "to": [
+          1050,
+          450
+        ],
+        "label": "일치",
+        "crossed": false
+      }
+    ],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 25,
+    "s": 2,
+    "scene": "dna_match",
+    "set": "lab",
+    "subject": "천 조각과 담배꽁초",
+    "shows": "원래 증거인 천 조각과 꽁초만 가까이 보여줌.",
+    "text": "천 조각과 담배꽁초.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 550,
+        "y": 450,
+        "scale": 0.8
+      },
+      {
+        "id": "cloth",
+        "kind": "cloth",
+        "x": 900,
+        "y": 470,
+        "scale": 0.65
+      },
+      {
+        "id": "cigarette",
+        "kind": "cigarette",
+        "x": 1370,
+        "y": 470,
+        "scale": 0.8
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "천 조각과 담배꽁초",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 25,
+    "s": 3,
+    "scene": "dna_match",
+    "set": "lab",
+    "subject": "버린 물건의 연결",
+    "shows": "남은 세 증거물을 끊기지 않는 수사 연결선으로 묶음.",
+    "text": "버린 물건끼리 연결된 셈입니다.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 550,
+        "y": 450,
+        "scale": 0.8
+      },
+      {
+        "id": "cloth",
+        "kind": "cloth",
+        "x": 900,
+        "y": 470,
+        "scale": 0.65
+      },
+      {
+        "id": "cigarette",
+        "kind": "cigarette",
+        "x": 1370,
+        "y": 470,
+        "scale": 0.8
+      }
+    ],
+    "actors": [],
+    "type": "close-up",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.58
+    },
+    "date": "",
+    "heading": "버린 물건끼리 연결된 셈입니다",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          670,
+          450
+        ],
+        "to": [
+          790,
+          450
+        ],
+        "label": "",
+        "crossed": false
+      },
+      {
+        "from": [
+          1030,
+          470
+        ],
+        "to": [
+          1170,
+          470
+        ],
+        "label": "",
+        "crossed": false
+      }
+    ],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 26,
+    "s": 1,
+    "scene": "trash_comment",
+    "set": "investigation",
+    "subject": "쓰레기와 수사 연결고리라는 논평",
+    "shows": "진행자가 버린 마스크·꽁초 사이의 연결을 가리킴. 피해자 없음.",
+    "text": "범인 입장에선 쓰레기였겠지만, 수사에선 연결고리였습니다.",
+    "props": [
+      {
+        "id": "mask",
+        "kind": "mask",
+        "x": 660,
+        "y": 450,
+        "scale": 0.8
+      },
+      {
+        "id": "cigarette",
+        "kind": "cigarette",
+        "x": 1240,
+        "y": 450,
+        "scale": 0.8
+      }
+    ],
+    "actors": [
+      {
+        "id": "host",
+        "role": "host",
+        "x": 360,
+        "y": 840,
+        "scale": 0.65,
+        "expr": "skeptic",
+        "gesture": "point"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "수사에서는 연결고리",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          850,
+          450
+        ],
+        "to": [
+          1030,
+          450
+        ],
+        "label": "",
+        "crossed": false
+      }
+    ],
+    "angle": 0,
+    "illustrative": true
+  },
+  {
+    "n": 26,
+    "s": 2,
+    "scene": "trash_comment",
+    "set": "investigation",
+    "subject": "일치해도 이름 자동 확인 아님",
+    "shows": "DNA 일치와 이름 미상의 판 사이에 끊긴 연결. 자동 신원 확정 금지.",
+    "text": "다만 일치했다고 이름이 자동으로 뜬 건 아닙니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 580,
+        "y": 470,
+        "scale": 1,
+        "text": "DNA 일치",
+        "subtext": "같은 사람의 단서"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1370,
+        "y": 470,
+        "scale": 1,
+        "text": "이름 미상",
+        "subtext": "자동으로 뜨지 않음"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "일치 = 자동 신원 확인은 아닙니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": true
+  },
+  {
+    "n": 27,
+    "s": 1,
+    "scene": "unidentified_dna",
+    "set": "lab",
+    "subject": "게임장 DNA도 신원 미상",
+    "shows": "DNA 분석물과 신원불명 명패.",
+    "text": "게임장의 DNA도 신원불명이었습니다.",
+    "props": [
+      {
+        "id": "dna",
+        "kind": "dna",
+        "x": 620,
+        "y": 470,
+        "scale": 1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1340,
+        "y": 470,
+        "scale": 1,
+        "text": "신원불명",
+        "subtext": "게임장 DNA"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "게임장 DNA도 신원불명이었습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 27,
+    "s": 2,
+    "scene": "unidentified_dna",
+    "set": "lab",
+    "subject": "같은 사람과 신원 확인의 차이",
+    "shows": "같은 사람이라는 연결은 유지, 누구인지 찾는 물음표는 남음.",
+    "text": "같은 사람이라는 단서는 얻었지만, 그 사람이 누구인지는 더 찾아야 했습니다.",
+    "props": [
+      {
+        "id": "dna",
+        "kind": "dna",
+        "x": 620,
+        "y": 470,
+        "scale": 1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1340,
+        "y": 470,
+        "scale": 1,
+        "text": "같은 사람",
+        "subtext": "누구인지는 더 확인"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "같다는 단서와, 이름 확인은 다릅니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 28,
+    "s": 1,
+    "scene": "arcade_inquiry",
+    "set": "arcade",
+    "subject": "게임장 출입 가능자 약 1만5000명 수사",
+    "shows": "게임장 전경과 종업원·손님을 뜻하는 추상 인물 목록. DNA 전수채취 표현 없음.",
+    "text": "경찰은 게임장 종업원과 손님 등, 출입 가능성이 있는 약 1만5000명을 수사 대상으로 놓고 확인했습니다.",
+    "props": [
+      {
+        "id": "people",
+        "kind": "people",
+        "x": 580,
+        "y": 460,
+        "scale": 0.8
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1330,
+        "y": 470,
+        "scale": 1,
+        "text": "약 1만5000명",
+        "subtext": "출입 가능자 확인"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "종업원·손님 등 출입 가능자 수사",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 29,
+    "s": 1,
+    "scene": "comparison_methods",
+    "set": "investigation",
+    "subject": "전원 DNA 채취가 아니라는 설명",
+    "shows": "1만5000명 전원 DNA 채취라는 판에 취소선.",
+    "text": "1만5000명 전원의 DNA를 뽑았다는 말은 아닙니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.3,
+        "text": "전원 DNA 채취",
+        "subtext": "그런 뜻이 아닙니다",
+        "crossed": true
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "수사 대상과 DNA 채취는 다릅니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 29,
+    "s": 2,
+    "scene": "comparison_methods",
+    "set": "investigation",
+    "subject": "몽타주·인상착의·차량절도 수법 대조",
+    "shows": "인물 특징 문서와 차량 절도 문서를 구체 항목으로 나란히.",
+    "text": "몽타주와 목격자 인상착의, 차량 절도 수법도 함께 대조했습니다.",
+    "props": [
+      {
+        "id": "file",
+        "kind": "file",
+        "x": 520,
+        "y": 440,
+        "scale": 0.65,
+        "label": "몽타주·목격자 인상착의"
+      },
+      {
+        "id": "car",
+        "kind": "car",
+        "x": 1340,
+        "y": 500,
+        "scale": 0.65,
+        "label": "차량 절도 수법"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "여러 단서를 함께 대조했습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 30,
+    "s": 1,
+    "scene": "identify_B",
+    "set": "investigation",
+    "subject": "비교·축소·재확인",
+    "shows": "수사관이 여러 기록을 대조하고 후보 목록을 좁히는 업무 공간.",
+    "text": "비교하고 좁히고, 다시 확인합니다.",
+    "props": [
+      {
+        "id": "records",
+        "kind": "records",
+        "x": 500,
+        "y": 470,
+        "scale": 0.8
+      },
+      {
+        "id": "file",
+        "kind": "file",
+        "x": 1050,
+        "y": 470,
+        "scale": 0.8
+      }
+    ],
+    "actors": [
+      {
+        "id": "detective",
+        "role": "detective",
+        "x": 1510,
+        "y": 800,
+        "scale": 0.7,
+        "gesture": "read"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "비교하고 · 좁히고 · 다시 확인",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 30,
+    "s": 2,
+    "scene": "identify_B",
+    "set": "investigation",
+    "subject": "2022년 3월 B 특정",
+    "shows": "B라는 익명 신원 표식을 비교 기록의 결론으로 제시.",
+    "text": "2022년 3월, 드디어 유력 용의자 B를 특정합니다.",
+    "props": [
+      {
+        "id": "file",
+        "kind": "file",
+        "x": 520,
+        "y": 470,
+        "scale": 0.7
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1260,
+        "y": 470,
+        "scale": 1,
+        "text": "유력 용의자 B",
+        "subtext": "특정"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "2022년 3월",
+    "heading": "유력 용의자 B 특정",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 30,
+    "s": 3,
+    "scene": "identify_B",
+    "set": "investigation",
+    "subject": "아직 밝혀지지 않은 공범",
+    "shows": "B 표식의 반대편에 공범 미상 판. A를 아직 확정하지 않음.",
+    "text": "그런데 공범은 아직입니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1,
+        "text": "공범은 아직",
+        "subtext": "추가 수사 필요"
+      }
+    ],
+    "actors": [],
+    "type": "close-up",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.58
+    },
+    "date": "",
+    "heading": "공범은 아직입니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 31,
+    "s": 1,
+    "scene": "B_followup",
+    "set": "investigation",
+    "subject": "과거 행적과 주변인 수사",
+    "shows": "수사관과 행적·주변인 기록을 넓게 보여줌.",
+    "text": "경찰은 과거 행적과 주변인을 더 조사했습니다.",
+    "props": [
+      {
+        "id": "file",
+        "kind": "file",
+        "x": 540,
+        "y": 470,
+        "scale": 0.9,
+        "label": "과거 행적"
+      },
+      {
+        "id": "people",
+        "kind": "people",
+        "x": 1090,
+        "y": 470,
+        "scale": 0.7,
+        "label": "주변인"
+      }
+    ],
+    "actors": [
+      {
+        "id": "detective",
+        "role": "detective",
+        "x": 1530,
+        "y": 810,
+        "scale": 0.7,
+        "gesture": "read"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "과거 행적과 주변인을 더 조사",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 31,
+    "s": 2,
+    "scene": "B_arrest_daejeon",
+    "set": "street",
+    "subject": "2022년 8월 25일 B 검거",
+    "shows": "대전의 넓은 거리에서 수사관이 익명 B에게 다가감. 임의 구체 주소 없음.",
+    "text": "2022년 8월 25일 B를 붙잡습니다.",
+    "props": [],
+    "actors": [
+      {
+        "id": "detective",
+        "role": "detective",
+        "x": 500,
+        "y": 810,
+        "scale": 0.8,
+        "gesture": "reach",
+        "motion": {
+          "start": "START",
+          "end": "END",
+          "xTo": 780
+        },
+        "walk": true
+      },
+      {
+        "id": "defendantB",
+        "role": "defendantB",
+        "x": 1300,
+        "y": 810,
+        "scale": 0.8,
+        "label": "B",
+        "flip": true
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "2022년 8월 25일",
+    "heading": "B 검거",
+    "note": "",
+    "location": "대전",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 31,
+    "s": 3,
+    "scene": "B_arrest_daejeon",
+    "set": "street",
+    "subject": "B 검거 장소 대전",
+    "shows": "같은 위치의 B와 다가온 수사관. 대전 표지를 더 가까이.",
+    "text": "검거 장소는 대전이었습니다.",
+    "props": [],
+    "actors": [
+      {
+        "id": "detective",
+        "role": "detective",
+        "x": 780,
+        "y": 810,
+        "scale": 0.8,
+        "gesture": "reach"
+      },
+      {
+        "id": "defendantB",
+        "role": "defendantB",
+        "x": 1300,
+        "y": 810,
+        "scale": 0.8,
+        "label": "B",
+        "flip": true
+      }
+    ],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "검거 장소는 대전이었습니다",
+    "note": "",
+    "location": "대전",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 32,
+    "s": 1,
+    "scene": "B_statement",
+    "set": "investigation",
+    "subject": "B의 공범 A 진술",
+    "shows": "B 오른쪽·조사관 왼쪽. 진술 내용은 A와 함께 범행했다는 판으로 표시.",
+    "text": "B는 A와 함께 범행했다고 진술했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 890,
+        "y": 350,
+        "scale": 0.8,
+        "text": "A와 함께 범행",
+        "subtext": "B의 진술"
+      }
+    ],
+    "actors": [
+      {
+        "id": "detective",
+        "role": "detective",
+        "x": 430,
+        "y": 810,
+        "scale": 0.8,
+        "view": "profile"
+      },
+      {
+        "id": "defendantB",
+        "role": "defendantB",
+        "x": 1440,
+        "y": 810,
+        "scale": 0.8,
+        "flip": true,
+        "view": "profile",
+        "label": "B"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "B의 진술",
+    "note": "",
+    "location": "조사 장면 재구성",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 32,
+    "s": 2,
+    "scene": "B_statement",
+    "set": "investigation",
+    "subject": "진술에서 A 체포로 연결",
+    "shows": "같은 조사관 측 시점에서 진술 문서와 A 체포 연결도를 보여줌.",
+    "text": "그 진술이 A의 체포로 이어집니다.",
+    "props": [
+      {
+        "id": "file",
+        "kind": "file",
+        "x": 620,
+        "y": 470,
+        "scale": 0.8,
+        "label": "B 진술"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1350,
+        "y": 470,
+        "scale": 0.9,
+        "text": "A 체포로 연결",
+        "subtext": "진술이 연결고리"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 1100,
+      "y": 480,
+      "zoom": 1.2
+    },
+    "date": "",
+    "heading": "그 진술이 A 체포로 이어집니다",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          850,
+          470
+        ],
+        "to": [
+          1070,
+          470
+        ],
+        "label": "",
+        "crossed": false
+      }
+    ],
+    "angle": 35,
+    "illustrative": false
+  },
+  {
+    "n": 32,
+    "s": 3,
+    "scene": "A_not_DNA",
+    "set": "investigation",
+    "subject": "A의 DNA 직접 일치가 아님",
+    "shows": "A의 DNA 직접 일치라는 주장 판을 취소하고 연결은 B 진술이라고 표기.",
+    "text": "A의 DNA가 똑같이 나온 게 아닙니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.3,
+        "text": "A의 DNA 일치",
+        "subtext": "그런 뜻이 아님",
+        "crossed": true
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "A의 DNA가 똑같이 나온 게 아닙니다",
+    "note": "A 체포의 연결고리 = B의 진술",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 33,
+    "s": 1,
+    "scene": "A_spa",
+    "set": "spa",
+    "subject": "정선 찜질방 A 검거",
+    "shows": "타일 벽·긴 휴게 벤치의 찜질방. A 왼쪽에 수사관 접근.",
+    "text": "A는 강원도 정선의 찜질방에서 붙잡혔습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 240,
+        "scale": 0.55,
+        "text": "찜질방",
+        "subtext": ""
+      }
+    ],
+    "actors": [
+      {
+        "id": "defendantA",
+        "role": "defendantA",
+        "x": 750,
+        "y": 810,
+        "scale": 0.8,
+        "label": "A"
+      },
+      {
+        "id": "detective",
+        "role": "detective",
+        "x": 1510,
+        "y": 810,
+        "scale": 0.8,
+        "flip": true,
+        "gesture": "reach",
+        "motion": {
+          "start": "START",
+          "end": "END",
+          "xTo": 1100
+        },
+        "walk": true
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "찜질방에서 A 검거",
+    "note": "",
+    "location": "강원도 · 정선",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 33,
+    "s": 2,
+    "scene": "schoolmates",
+    "set": "investigation",
+    "subject": "고등학교 동창인 A·B",
+    "shows": "A·B 익명 표식 사이에 고등학교 동창 관계만 표시. 당시 나이·학교 미재현.",
+    "text": "두 사람은 고등학교 동창.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 550,
+        "y": 470,
+        "scale": 1,
+        "text": "A",
+        "subtext": "고등학교 동창"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1370,
+        "y": 470,
+        "scale": 1,
+        "text": "B",
+        "subtext": "고등학교 동창"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "두 사람은 고등학교 동창",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          850,
+          470
+        ],
+        "to": [
+          1070,
+          470
+        ],
+        "label": "",
+        "crossed": false
+      }
+    ],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 33,
+    "s": 3,
+    "scene": "detention",
+    "set": "court",
+    "subject": "2022년 8월 27일 구속",
+    "shows": "두 피의자의 구속 문서와 A·B. 실제 구금실 세부 없음.",
+    "text": "2022년 8월 27일 구속됐습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1,
+        "text": "A · B 구속",
+        "subtext": "두 사람"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "2022년 8월 27일",
+    "heading": "두 사람 구속",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 34,
+    "s": 1,
+    "scene": "records_time",
+    "set": "investigation",
+    "subject": "검거까지 20년 8개월",
+    "shows": "사건과 검거 사이의 시간 기록.",
+    "text": "검거까지 약 20년 8개월.",
+    "props": [
+      {
+        "id": "clock",
+        "kind": "clock",
+        "x": 580,
+        "y": 450,
+        "scale": 1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1330,
+        "y": 470,
+        "scale": 1,
+        "text": "약 20년 8개월",
+        "subtext": "검거까지"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "오랜 미제 기간",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": true
+  },
+  {
+    "n": 34,
+    "s": 2,
+    "scene": "records_time",
+    "set": "investigation",
+    "subject": "약 15만 쪽의 수사기록",
+    "shows": "서류철과 약 15만 쪽이라는 수치. 상자·권수는 고정하지 않음.",
+    "text": "쌓인 수사기록은 약 15만 쪽이라고 보도됐습니다.",
+    "props": [
+      {
+        "id": "records",
+        "kind": "records",
+        "x": 580,
+        "y": 480,
+        "scale": 1.1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1330,
+        "y": 470,
+        "scale": 1,
+        "text": "약 15만 쪽",
+        "subtext": "보도된 수사기록"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "쌓인 수사기록",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": true
+  },
+  {
+    "n": 34,
+    "s": 3,
+    "scene": "records_time",
+    "set": "investigation",
+    "subject": "종이 두께와 해결 속도의 논평",
+    "shows": "진행자가 기록과 시간 판을 가리키며 수사 시간에 대한 논평.",
+    "text": "종이 두께가 사건 해결 속도는 아니었습니다.",
+    "props": [
+      {
+        "id": "records",
+        "kind": "records",
+        "x": 680,
+        "y": 480,
+        "scale": 1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1330,
+        "y": 470,
+        "scale": 1,
+        "text": "두께 ≠ 해결 속도",
+        "subtext": ""
+      }
+    ],
+    "actors": [
+      {
+        "id": "host",
+        "role": "host",
+        "x": 350,
+        "y": 830,
+        "scale": 0.65,
+        "expr": "skeptic",
+        "gesture": "point"
+      }
+    ],
+    "type": "close-up",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.58
+    },
+    "date": "",
+    "heading": "종이 두께가 해결 속도는 아니었습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": true
+  },
+  {
+    "n": 35,
+    "s": 1,
+    "scene": "blame_court",
+    "set": "court",
+    "subject": "검거 뒤 끝인가라는 질문",
+    "shows": "법정 전경과 A·B. 다음 책임 공방으로 넘어가는 질문.",
+    "text": "붙잡혔으니 끝일까요?",
+    "props": [],
+    "actors": [
+      {
+        "id": "defendantA",
+        "role": "defendantA",
+        "x": 480,
+        "y": 805,
+        "scale": 0.72,
+        "label": "A",
+        "flip": false,
+        "view": "profile"
+      },
+      {
+        "id": "defendantB",
+        "role": "defendantB",
+        "x": 1440,
+        "y": 805,
+        "scale": 0.72,
+        "label": "B",
+        "flip": true,
+        "view": "profile"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "붙잡혔으니 끝일까요?",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 35,
+    "s": 2,
+    "scene": "blame_court",
+    "set": "court",
+    "subject": "책임 떠넘기기 시작",
+    "shows": "A 쪽 중경, 상대 B 방향을 가리키는 행위. 주장임을 표시.",
+    "text": "이제 책임 떠넘기기가 시작됩니다.",
+    "props": [],
+    "actors": [
+      {
+        "id": "defendantA",
+        "role": "defendantA",
+        "x": 480,
+        "y": 805,
+        "scale": 0.72,
+        "label": "A",
+        "flip": false,
+        "view": "profile",
+        "gesture": "point"
+      },
+      {
+        "id": "defendantB",
+        "role": "defendantB",
+        "x": 1440,
+        "y": 805,
+        "scale": 0.72,
+        "label": "B",
+        "flip": true,
+        "view": "profile"
+      }
+    ],
+    "type": "medium",
+    "focus": {
+      "x": 600,
+      "y": 530,
+      "zoom": 1.35
+    },
+    "date": "",
+    "heading": "서로에게 책임을 돌리는 주장",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 20,
+    "illustrative": false
+  },
+  {
+    "n": 35,
+    "s": 3,
+    "scene": "blame_court",
+    "set": "court",
+    "subject": "서로 상대가 발사자라는 주장",
+    "shows": "반대 B 시점의 역숏. 양측 발사자 주장을 텍스트로 표시.",
+    "text": "두 사람은 서로 상대방이 총을 쐈다고 주장했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 285,
+        "scale": 0.75,
+        "text": "서로 상대가 발사자",
+        "subtext": "A·B의 주장"
+      }
+    ],
+    "actors": [
+      {
+        "id": "defendantA",
+        "role": "defendantA",
+        "x": 480,
+        "y": 805,
+        "scale": 0.72,
+        "label": "A",
+        "flip": false,
+        "view": "profile",
+        "gesture": "point"
+      },
+      {
+        "id": "defendantB",
+        "role": "defendantB",
+        "x": 1440,
+        "y": 805,
+        "scale": 0.72,
+        "label": "B",
+        "flip": true,
+        "view": "profile",
+        "gesture": "point"
+      }
+    ],
+    "type": "close-up",
+    "focus": {
+      "x": 1310,
+      "y": 530,
+      "zoom": 1.55
+    },
+    "date": "",
+    "heading": "총을 쐈다는 책임 공방",
+    "note": "양측 주장 · 법원 판단과 구분",
+    "location": "",
+    "links": [],
+    "angle": -20,
+    "illustrative": false
+  },
+  {
+    "n": 36,
+    "s": 1,
+    "scene": "police_A_statement",
+    "set": "investigation",
+    "subject": "경찰 발표상 A 부인 뒤 시인",
+    "shows": "경찰 발표 문서와 A의 부인→시인 순서를 보여줌.",
+    "text": "A는 처음 부인하다 총격을 시인했다고 경찰이 발표했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 460,
+        "scale": 1.25,
+        "text": "부인 → 시인",
+        "subtext": "경찰 발표"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "A 진술에 관한 경찰 발표",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 36,
+    "s": 2,
+    "scene": "A_trial_denial",
+    "set": "court",
+    "subject": "법정에서 A 재부인",
+    "shows": "A 왼쪽·재판부 오른쪽 법정 전경. 총격 부인 판.",
+    "text": "하지만 재판에서는 다시 총격을 부인했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1000,
+        "y": 320,
+        "scale": 0.8,
+        "text": "총격 다시 부인",
+        "subtext": "재판에서 A의 주장"
+      }
+    ],
+    "actors": [
+      {
+        "id": "defendantA",
+        "role": "defendantA",
+        "x": 520,
+        "y": 810,
+        "scale": 0.8,
+        "label": "A",
+        "view": "profile"
+      },
+      {
+        "id": "judge",
+        "role": "judge",
+        "x": 1430,
+        "y": 810,
+        "scale": 0.8,
+        "flip": true,
+        "view": "profile",
+        "gesture": "read"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "재판에서 다시 총격을 부인",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 37,
+    "s": 1,
+    "scene": "division_B",
+    "set": "investigation",
+    "subject": "서로 다른 돈 분배 진술",
+    "shows": "B와 돈 분배 진술 문서의 넓은 조사 장면.",
+    "text": "돈을 나눈 얘기마저 달랐습니다.",
+    "props": [
+      {
+        "id": "file",
+        "kind": "file",
+        "x": 650,
+        "y": 470,
+        "scale": 1,
+        "label": "분배에 관한 진술"
+      }
+    ],
+    "actors": [
+      {
+        "id": "defendantB",
+        "role": "defendantB",
+        "x": 1370,
+        "y": 810,
+        "scale": 0.8,
+        "label": "B",
+        "flip": true
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "돈을 나눈 얘기도 달랐습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 37,
+    "s": 2,
+    "scene": "division_B",
+    "set": "investigation",
+    "subject": "B 주장 9000만·2억1000만",
+    "shows": "B 진술임을 명시한 두 금액 판. 확정 분배액처럼 현금을 움직이지 않음.",
+    "text": "B는 자신이 9000만 원, A가 2억1000만 원을 챙겼다고 진술했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 560,
+        "y": 470,
+        "scale": 1,
+        "text": "B · 9000만 원",
+        "subtext": "B의 진술"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1370,
+        "y": 470,
+        "scale": 1,
+        "text": "A · 2억1000만 원",
+        "subtext": "B의 진술"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "B의 분배 진술",
+    "note": "실제 분배액 확정 아님",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 38,
+    "s": 1,
+    "scene": "division_A",
+    "set": "investigation",
+    "subject": "A는 절반씩 분배 주장",
+    "shows": "A와 절반씩 나눴다는 자기 주장 판.",
+    "text": "반면 A는 절반씩 나눴다고 했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1170,
+        "y": 470,
+        "scale": 1,
+        "text": "절반씩 나눴다",
+        "subtext": "A의 진술"
+      }
+    ],
+    "actors": [
+      {
+        "id": "defendantA",
+        "role": "defendantA",
+        "x": 500,
+        "y": 810,
+        "scale": 0.8,
+        "label": "A"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "반면 A의 주장",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 38,
+    "s": 2,
+    "scene": "division_A",
+    "set": "investigation",
+    "subject": "서로 다른 진술",
+    "shows": "A 절반 주장과 B 9000만·2억1000만 주장을 별개의 문서로 대비.",
+    "text": "이 숫자들은 서로 다른 진술입니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 550,
+        "y": 470,
+        "scale": 1,
+        "text": "절반씩",
+        "subtext": "A 주장"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1370,
+        "y": 470,
+        "scale": 1,
+        "text": "9000만 / 2억1000만",
+        "subtext": "B 주장"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "숫자는 서로 다른 진술입니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 38,
+    "s": 3,
+    "scene": "division_A",
+    "set": "investigation",
+    "subject": "분배액 확정 금지",
+    "shows": "분배액 미확정이라는 문서를 더 가까이. 새 금액을 만들지 않음.",
+    "text": "실제 분배액으로 확정하면 안 됩니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.1,
+        "text": "실제 분배액 미확정",
+        "subtext": "서로 다른 주장"
+      }
+    ],
+    "actors": [],
+    "type": "close-up",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.58
+    },
+    "date": "",
+    "heading": "실제 분배액으로 확정할 수 없습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 39,
+    "s": 1,
+    "scene": "blame_comment",
+    "set": "investigation",
+    "subject": "두 계산서가 다르다는 논평",
+    "shows": "A·B 계산서를 두 판으로 비교. 비유 표기.",
+    "text": "같이 범행했다는 두 사람의 계산서가 서로 다릅니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 550,
+        "y": 470,
+        "scale": 1,
+        "text": "A의 계산서",
+        "subtext": "절반씩"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1370,
+        "y": 470,
+        "scale": 1,
+        "text": "B의 계산서",
+        "subtext": "9000만 / 2억1000만"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "같이 범행했다는 두 사람의 다른 계산서",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": true
+  },
+  {
+    "n": 39,
+    "s": 2,
+    "scene": "blame_comment",
+    "set": "investigation",
+    "subject": "책임 배송이라는 논평",
+    "shows": "진행자가 책임이라고 적힌 문서의 양방향 이동을 설명.",
+    "text": "책임도 상대에게 배송 중이네요.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1,
+        "text": "책임",
+        "subtext": "상대에게"
+      }
+    ],
+    "actors": [
+      {
+        "id": "host",
+        "role": "host",
+        "x": 400,
+        "y": 840,
+        "scale": 0.7,
+        "gesture": "shrug",
+        "expr": "skeptic"
+      }
+    ],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "책임도 상대에게 배송 중",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": true
+  },
+  {
+    "n": 39,
+    "s": 3,
+    "scene": "blame_return",
+    "set": "court",
+    "subject": "상대를 발사자로 주장",
+    "shows": "법정 전경에서 서로 반대편을 가리키는 익명 A·B. 주장 표시.",
+    "text": "총을 쏜 사람이 상대라며 떠넘깁니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 300,
+        "scale": 0.8,
+        "text": "상대가 쐈다",
+        "subtext": "서로의 주장"
+      }
+    ],
+    "actors": [
+      {
+        "id": "defendantA",
+        "role": "defendantA",
+        "x": 480,
+        "y": 805,
+        "scale": 0.72,
+        "label": "A",
+        "flip": false,
+        "view": "profile",
+        "gesture": "point"
+      },
+      {
+        "id": "defendantB",
+        "role": "defendantB",
+        "x": 1440,
+        "y": 805,
+        "scale": 0.72,
+        "label": "B",
+        "flip": true,
+        "view": "profile",
+        "gesture": "point"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "총격 책임을 상대에게 떠넘김",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 40,
+    "s": 1,
+    "scene": "prosecution_request",
+    "set": "court",
+    "subject": "2023년 1월 16일 검찰 구형",
+    "shows": "법정 전경, 검찰 측 인물과 A 사형·B 무기 구형판.",
+    "text": "2023년 1월 16일, 검찰은 A에게 사형, B에게 무기징역을 구형했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 760,
+        "y": 430,
+        "scale": 0.8,
+        "text": "A · 사형",
+        "subtext": "검찰 구형"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1400,
+        "y": 430,
+        "scale": 0.8,
+        "text": "B · 무기징역",
+        "subtext": "검찰 구형"
+      }
+    ],
+    "actors": [
+      {
+        "id": "lawyer",
+        "role": "lawyer",
+        "x": 320,
+        "y": 810,
+        "scale": 0.8,
+        "gesture": "read"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "2023년 1월 16일",
+    "heading": "검찰의 구형",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 40,
+    "s": 2,
+    "scene": "prosecution_request",
+    "set": "court",
+    "subject": "요구와 판결 구분",
+    "shows": "검찰 구형 문서와 판결 아님이라는 표지를 가까이.",
+    "text": "검찰의 요구이지 판결은 아닙니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.2,
+        "text": "검찰의 요구",
+        "subtext": "판결 아님"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "구형은 검찰의 요구입니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 41,
+    "s": 1,
+    "scene": "A_thanks",
+    "set": "court",
+    "subject": "구형 뒤 A의 감사 발언 보도",
+    "shows": "A 쪽 법정 전경과 감사 취지 발언 보도판. 가짜 직접인용·표정 없음.",
+    "text": "사형 구형 뒤 A가 감사하다는 말을 했다는 법정 장면도 보도됐습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1180,
+        "y": 420,
+        "scale": 0.9,
+        "text": "감사 취지 발언",
+        "subtext": "법정 보도"
+      }
+    ],
+    "actors": [
+      {
+        "id": "defendantA",
+        "role": "defendantA",
+        "x": 520,
+        "y": 810,
+        "scale": 0.8,
+        "label": "A"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "사형 구형 뒤 A의 발언이 보도됐습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 41,
+    "s": 2,
+    "scene": "A_thanks",
+    "set": "court",
+    "subject": "매체별 표현을 합치지 않음",
+    "shows": "서로 다른 두 보도 문서를 분리해 보여줌. 혼합 직접인용 없음.",
+    "text": "정확한 표현은 매체마다 달라 합쳐 쓰지 않습니다.",
+    "props": [
+      {
+        "id": "file",
+        "kind": "file",
+        "x": 650,
+        "y": 470,
+        "scale": 0.9,
+        "label": "매체별 보도"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1330,
+        "y": 470,
+        "scale": 1,
+        "text": "표현은 서로 다름",
+        "subtext": "합성 인용하지 않음"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "정확한 표현은 매체마다 다릅니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 42,
+    "s": 1,
+    "scene": "court_questions",
+    "set": "court",
+    "subject": "법원의 판단 필요",
+    "shows": "법정 전경의 재판부와 진술 기록.",
+    "text": "말은 오락가락해도 법원은 판단해야 합니다.",
+    "props": [
+      {
+        "id": "file",
+        "kind": "file",
+        "x": 590,
+        "y": 470,
+        "scale": 0.8
+      }
+    ],
+    "actors": [
+      {
+        "id": "judge",
+        "role": "judge",
+        "x": 960,
+        "y": 810,
+        "scale": 0.75,
+        "gesture": "read"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "법원은 판단해야 합니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 42,
+    "s": 2,
+    "scene": "court_questions",
+    "set": "court",
+    "subject": "법원이 인정한 발사자 질문",
+    "shows": "재판부 중경과 발사자 물음표 문서.",
+    "text": "총을 쏜 사람은 누구라고 인정했을까요?",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 400,
+        "scale": 0.9,
+        "text": "법원이 인정한 발사자는?",
+        "subtext": ""
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "총을 쏜 사람은 누구라고 인정했나?",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 42,
+    "s": 3,
+    "scene": "court_questions",
+    "set": "court",
+    "subject": "공범 형량 질문",
+    "shows": "공범의 형이라는 판과 물음표. 결론 선공개 없음.",
+    "text": "그리고 공범의 형은 어디로 갈까요?",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 450,
+        "scale": 1.1,
+        "text": "공범의 형은?",
+        "subtext": ""
+      }
+    ],
+    "actors": [],
+    "type": "close-up",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.58
+    },
+    "date": "",
+    "heading": "공범의 형은 어디로 갈까요?",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 43,
+    "s": 1,
+    "scene": "first_verdict",
+    "set": "court",
+    "subject": "2023년 2월 17일 1심 선고",
+    "shows": "법정 전경에서 A 무기·B 20년을 동시에 명확히 표시.",
+    "text": "2023년 2월 17일, 1심은 A에게 무기징역, B에게 징역 20년을 선고했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 550,
+        "y": 470,
+        "scale": 1,
+        "text": "A · 무기징역",
+        "subtext": "1심"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1370,
+        "y": 470,
+        "scale": 1,
+        "text": "B · 징역 20년",
+        "subtext": "1심"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "2023년 2월 17일",
+    "heading": "1심 선고",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 44,
+    "s": 1,
+    "scene": "first_verdict",
+    "set": "court",
+    "subject": "A 총격 인정",
+    "shows": "A 발사라는 법원 판단 문서. B로 발사자 바꾸지 않음.",
+    "text": "법원은 A의 총격을 인정했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.2,
+        "text": "A의 총격 인정",
+        "subtext": "법원 판단"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "법원은 A의 총격을 인정",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 44,
+    "s": 2,
+    "scene": "first_verdict",
+    "set": "court",
+    "subject": "총기 경험만 보지 않음",
+    "shows": "총기 경험만이라는 단일 근거 판을 취소.",
+    "text": "총기 경험만 본 게 아닙니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.2,
+        "text": "총기 경험만?",
+        "subtext": "그것만 본 것이 아님",
+        "crossed": true
+      }
+    ],
+    "actors": [],
+    "type": "close-up",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.58
+    },
+    "date": "",
+    "heading": "총기 경험만 본 게 아닙니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 44,
+    "s": 3,
+    "scene": "first_verdict",
+    "set": "court",
+    "subject": "조준 정황·진술 신빙성 판단",
+    "shows": "재판 문서의 두 근거: 권총을 쥐고 조준한 정황과 진술 신빙성.",
+    "text": "권총을 쥐고 조준한 정황과 진술의 신빙성도 판단했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 540,
+        "y": 470,
+        "scale": 1,
+        "text": "권총을 쥐고 조준한 정황",
+        "subtext": "법원 판단"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1390,
+        "y": 470,
+        "scale": 1,
+        "text": "진술의 신빙성",
+        "subtext": "법원 판단"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "정황과 진술을 함께 판단",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 35,
+    "illustrative": false
+  },
+  {
+    "n": 45,
+    "s": 1,
+    "scene": "B_mitigation",
+    "set": "court",
+    "subject": "B의 보조역할·자백 고려",
+    "shows": "B 오른쪽과 두 감경 고려 요소를 적은 문서.",
+    "text": "B에게는 보조 역할과 자백을 고려했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 850,
+        "y": 420,
+        "scale": 1,
+        "text": "보조 역할 · 자백",
+        "subtext": "B에 대한 1심 고려"
+      }
+    ],
+    "actors": [
+      {
+        "id": "defendantB",
+        "role": "defendantB",
+        "x": 1500,
+        "y": 810,
+        "scale": 0.75,
+        "label": "B",
+        "flip": true
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "1심이 B에게 고려한 사정",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 45,
+    "s": 2,
+    "scene": "B_mitigation",
+    "set": "court",
+    "subject": "경위 밝히는 데 도움",
+    "shows": "B 자백 문서에 사건 경위 규명에 도움이라는 재판부 판단.",
+    "text": "오래 묻힌 사건의 경위를 밝히는 데 도움이 됐다는 점입니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.2,
+        "text": "사건 경위 규명에 도움",
+        "subtext": "1심의 고려"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "오래 묻힌 사건의 경위를 밝히는 데 도움",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 46,
+    "s": 1,
+    "scene": "appeal_problem",
+    "set": "court",
+    "subject": "항소심이 지적한 20년형 문제",
+    "shows": "항소심 전경과 1심 20년형의 문제라는 판.",
+    "text": "그런데 항소심에서 20년형에 문제가 있다고 합니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.2,
+        "text": "1심 징역 20년",
+        "subtext": "항소심이 문제 지적"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "그런데 항소심에서 문제가 제기됩니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 46,
+    "s": 2,
+    "scene": "appeal_problem",
+    "set": "court",
+    "subject": "형이 줄어드나라는 질문",
+    "shows": "20년형의 다음을 물음표로 남긴 형량 판.",
+    "text": "그러면 형이 줄어드나?",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.2,
+        "text": "그러면 줄어드나?",
+        "subtext": "?"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "그러면 형이 줄어드나?",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 46,
+    "s": 3,
+    "scene": "appeal_problem",
+    "set": "court",
+    "subject": "반대였다는 예고",
+    "shows": "감형 예상과 반대 방향이라는 문서. 무기 결론은 다음 문장에서 표시.",
+    "text": "이 사건은 반대였습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.2,
+        "text": "이 사건은 반대",
+        "subtext": "감형 예상과 다른 결론"
+      }
+    ],
+    "actors": [],
+    "type": "close-up",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.58
+    },
+    "date": "",
+    "heading": "이 사건은 반대였습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 47,
+    "s": 1,
+    "scene": "appeal_verdict",
+    "set": "court",
+    "subject": "2023년 8월 18일 둘 다 무기",
+    "shows": "항소심 전경의 두 형량 판 모두 무기징역.",
+    "text": "2023년 8월 18일, 항소심은 둘 다 무기징역을 선고했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 550,
+        "y": 470,
+        "scale": 1,
+        "text": "A · 무기징역",
+        "subtext": "항소심"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1370,
+        "y": 470,
+        "scale": 1,
+        "text": "B · 무기징역",
+        "subtext": "항소심"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "2023년 8월 18일",
+    "heading": "항소심 선고",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 47,
+    "s": 2,
+    "scene": "appeal_verdict",
+    "set": "court",
+    "subject": "B 20년에서 무기로 상향",
+    "shows": "B의 20년→무기 변화만 중경에서 보여줌.",
+    "text": "B의 20년형이 무기로 올라갔습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.3,
+        "text": "B · 20년 → 무기징역",
+        "subtext": "항소심에서 상향"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "B의 20년형이 무기로 올라갔습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 48,
+    "s": 1,
+    "scene": "applicable_law",
+    "set": "court",
+    "subject": "이 사건에 적용된 법",
+    "shows": "항소심 전경과 법전, 이 사건 적용 법이라는 표지.",
+    "text": "이 사건에 적용된 법의 문제입니다.",
+    "props": [
+      {
+        "id": "law",
+        "kind": "law",
+        "x": 960,
+        "y": 470,
+        "scale": 1.2
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "이 사건에 적용된 법의 문제",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 48,
+    "s": 2,
+    "scene": "applicable_law",
+    "set": "court",
+    "subject": "강도살인 법정형 사형 또는 무기",
+    "shows": "법전과 사형 또는 무기징역이라는 두 선택지만 법정형으로 표시.",
+    "text": "항소심은 강도살인의 법정형이 사형 또는 무기징역이라고 설명했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.3,
+        "text": "사형 또는 무기징역",
+        "subtext": "강도살인의 법정형"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "항소심의 설명 · 법정형",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 49,
+    "s": 1,
+    "scene": "mitigation_limit",
+    "set": "court",
+    "subject": "정상참작 감경 시 상한 15년",
+    "shows": "감경을 전제로 한 유기징역 상한 15년을 조건과 함께 표시.",
+    "text": "정상을 참작해 감경하더라도 유기징역의 상한은 15년.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.3,
+        "text": "감경하더라도 상한 15년",
+        "subtext": "이 사건 적용 법"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "정상참작으로 감경하는 경우",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 49,
+    "s": 2,
+    "scene": "mitigation_limit",
+    "set": "court",
+    "subject": "1심 20년은 잘못이라는 판단",
+    "shows": "15년 상한과 20년 선고를 비교한 판; 20년 쪽 취소.",
+    "text": "그래서 1심의 20년 선고는 잘못이라는 판단입니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 560,
+        "y": 470,
+        "scale": 1,
+        "text": "상한 15년",
+        "subtext": "감경할 경우"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1370,
+        "y": 470,
+        "scale": 1,
+        "text": "1심 20년",
+        "subtext": "잘못이라는 판단",
+        "crossed": true
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "그래서 1심 20년 선고는 잘못",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 50,
+    "s": 1,
+    "scene": "no_mitigation",
+    "set": "court",
+    "subject": "그럼 15년인가라는 질문",
+    "shows": "15년이라는 질문 판. 확정 감형으로 표시하지 않음.",
+    "text": "그럼 15년이냐고요?",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.2,
+        "text": "그럼 15년?",
+        "subtext": "질문"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "그럼 15년이냐고요?",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 50,
+    "s": 2,
+    "scene": "no_mitigation",
+    "set": "court",
+    "subject": "불리한 사정이 압도해 감경 안 함",
+    "shows": "불리한 사정이 유리한 사정 압도한다는 법원 판단과 감경하지 않음.",
+    "text": "항소심은 B에게 불리한 사정이 유리한 사정을 압도한다고 보고, 감경 자체를 하지 않았습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 540,
+        "y": 470,
+        "scale": 1,
+        "text": "불리한 사정이 압도",
+        "subtext": "유리한 사정보다"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1390,
+        "y": 470,
+        "scale": 1,
+        "text": "감경 안 함",
+        "subtext": "항소심의 판단"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "항소심은 감경 자체를 하지 않았습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 51,
+    "s": 1,
+    "scene": "no_mitigation",
+    "set": "court",
+    "subject": "20에서 15로 감형 아님",
+    "shows": "20→15라는 경로에 취소선.",
+    "text": "20에서 15로 내려간 게 아닙니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.2,
+        "text": "20년 → 15년",
+        "subtext": "그런 결론이 아님",
+        "crossed": true
+      }
+    ],
+    "actors": [],
+    "type": "close-up",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.58
+    },
+    "date": "",
+    "heading": "20에서 15로 내려간 게 아닙니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 51,
+    "s": 2,
+    "scene": "no_mitigation",
+    "set": "court",
+    "subject": "감경하지 않아 무기",
+    "shows": "감경 안 함에서 무기징역으로 이어지는 논리.",
+    "text": "감경을 안 해서 무기징역입니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 540,
+        "y": 470,
+        "scale": 1,
+        "text": "감경 안 함",
+        "subtext": ""
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1390,
+        "y": 470,
+        "scale": 1,
+        "text": "무기징역",
+        "subtext": ""
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "감경을 안 해서 무기징역",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          840,
+          470
+        ],
+        "to": [
+          1090,
+          470
+        ],
+        "label": "",
+        "crossed": false
+      }
+    ],
+    "angle": 35,
+    "illustrative": false
+  },
+  {
+    "n": 51,
+    "s": 3,
+    "scene": "no_mitigation",
+    "set": "court",
+    "subject": "숫자만 보고 결론 찍는 논평",
+    "shows": "진행자가 형량표 문서를 가리키며 숫자만으로 결말을 예측할 수 없다는 논평.",
+    "text": "형량표의 숫자만 보고 결말을 찍으면 틀리는 겁니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1120,
+        "y": 470,
+        "scale": 1.1,
+        "text": "형량표의 숫자만으로?",
+        "subtext": "적용 법과 감경 판단이 핵심"
+      }
+    ],
+    "actors": [
+      {
+        "id": "host",
+        "role": "host",
+        "x": 500,
+        "y": 840,
+        "scale": 0.75,
+        "expr": "skeptic",
+        "gesture": "point"
+      }
+    ],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "숫자만 보고 결말을 찍으면 틀립니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 52,
+    "s": 1,
+    "scene": "shooter_unchanged",
+    "set": "court",
+    "subject": "B로 발사자 변경 아님",
+    "shows": "B 발사자 변경이라는 판을 취소.",
+    "text": "B가 발사자로 바뀌어서 무기가 된 것도 아닙니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.2,
+        "text": "B로 발사자 변경?",
+        "subtext": "아닙니다",
+        "crossed": true
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "무기형의 이유를 혼동하면 안 됩니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 52,
+    "s": 2,
+    "scene": "shooter_unchanged",
+    "set": "court",
+    "subject": "항소심도 A 발사 판단 유지",
+    "shows": "1심과 항소심 모두 A 발사 인정이라는 연속 판.",
+    "text": "A가 권총을 발사했다는 판단은 항소심에서도 유지됐습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.3,
+        "text": "A의 권총 발사 인정",
+        "subtext": "항소심에서도 유지"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "A가 발사했다는 판단은 유지",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 53,
+    "s": 1,
+    "scene": "supreme_appeal",
+    "set": "court",
+    "subject": "두 사람의 양형 상고",
+    "shows": "A·B 두 피고인과 형이 무겁다는 상고장.",
+    "text": "두 사람은 형이 무겁다며 상고했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 330,
+        "scale": 0.8,
+        "text": "형이 무겁다",
+        "subtext": "두 피고인의 상고"
+      }
+    ],
+    "actors": [
+      {
+        "id": "defendantA",
+        "role": "defendantA",
+        "x": 480,
+        "y": 805,
+        "scale": 0.72,
+        "label": "A",
+        "flip": false,
+        "view": "profile"
+      },
+      {
+        "id": "defendantB",
+        "role": "defendantB",
+        "x": 1440,
+        "y": 805,
+        "scale": 0.72,
+        "label": "B",
+        "flip": true,
+        "view": "profile"
+      }
+    ],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "두 사람은 상고했습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 53,
+    "s": 2,
+    "scene": "supreme_appeal",
+    "set": "court",
+    "subject": "대법원이 마지막 심급",
+    "shows": "대법원 표지 문서와 마지막 상고심. 실제 건물 사진을 꾸미지 않음.",
+    "text": "마지막 문은 대법원입니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.2,
+        "text": "대법원",
+        "subtext": "상고심"
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "마지막 문은 대법원입니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 53,
+    "s": 3,
+    "scene": "supreme_appeal",
+    "set": "court",
+    "subject": "20년 넘은 사건 결론",
+    "shows": "대법원 사건 기록과 20년 넘게 걸린 사건이라는 시간 표시.",
+    "text": "약 20년 넘게 걸린 사건의 결론이 여기서 정해집니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.2,
+        "text": "약 20년 넘게 걸린 사건",
+        "subtext": "마지막 결론"
+      }
+    ],
+    "actors": [],
+    "type": "close-up",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.58
+    },
+    "date": "",
+    "heading": "사건의 결론이 여기서 정해집니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 54,
+    "s": 1,
+    "scene": "supreme_final",
+    "set": "court",
+    "subject": "2023년 12월 14일 상고기각",
+    "shows": "대법원 최종 판단의 넓은 법정 도해; 상고 기각 문서.",
+    "text": "2023년 12월 14일, 대법원은 상고를 기각했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.3,
+        "text": "상고 기각",
+        "subtext": "대법원"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "2023년 12월 14일",
+    "heading": "대법원 최종 판단",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 54,
+    "s": 2,
+    "scene": "supreme_final",
+    "set": "court",
+    "subject": "둘 다 무기징역 확정",
+    "shows": "A·B 모두 무기징역 확정인 두 판. 출소 불가를 뜻하는 사슬·닫힌 문 없음.",
+    "text": "두 사람 모두 무기징역이 확정됐습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 550,
+        "y": 470,
+        "scale": 1,
+        "text": "A · 무기징역 확정",
+        "subtext": ""
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1370,
+        "y": 470,
+        "scale": 1,
+        "text": "B · 무기징역 확정",
+        "subtext": ""
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "두 사람 모두 무기징역 확정",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 55,
+    "s": 1,
+    "scene": "supreme_final",
+    "set": "court",
+    "subject": "원심 형이 부당하지 않다는 판단",
+    "shows": "대법원 양형 판단 문서를 가까이.",
+    "text": "대법원은 원심의 형이 부당하다고 볼 수 없다고 판단했습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 960,
+        "y": 470,
+        "scale": 1.3,
+        "text": "원심의 형, 부당하다고 볼 수 없음",
+        "subtext": "대법원 판단"
+      }
+    ],
+    "actors": [],
+    "type": "close-up",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.58
+    },
+    "date": "",
+    "heading": "대법원의 양형 판단",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 55,
+    "s": 2,
+    "scene": "sentence_meaning",
+    "set": "investigation",
+    "subject": "무기징역과 가석방 없는 종신형 구분",
+    "shows": "무기징역과 가석방 없는 종신형을 다른 문구로 구분. 등호 취소.",
+    "text": "무기징역을 가석방 없는 종신형으로 바꿔 말할 수는 없습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 540,
+        "y": 470,
+        "scale": 1,
+        "text": "무기징역",
+        "subtext": "확정된 형"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1390,
+        "y": 470,
+        "scale": 1,
+        "text": "가석방 없는 종신형",
+        "subtext": "바꿔 말할 수 없음",
+        "crossed": true
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "확정된 형의 표현을 지킵니다",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          840,
+          470
+        ],
+        "to": [
+          1090,
+          470
+        ],
+        "label": "동일 표현 아님",
+        "crossed": true
+      }
+    ],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 56,
+    "s": 1,
+    "scene": "closing_workplace",
+    "set": "memorial",
+    "subject": "두 자녀를 둔 출납과장",
+    "shows": "빈 성인 업무 의자와 가족 관계를 설명하는 문서. 자녀 외모·나이·유족 얼굴 재현 없음.",
+    "text": "숨진 출납과장은 두 자녀를 둔 가장이었습니다.",
+    "props": [
+      {
+        "id": "emptyChair",
+        "kind": "emptyChair",
+        "x": 650,
+        "y": 520,
+        "scale": 1.1
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1330,
+        "y": 460,
+        "scale": 0.95,
+        "text": "두 자녀를 둔 가장",
+        "subtext": "숨진 출납과장"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "숨진 출납과장은 두 자녀를 둔 가장",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 56,
+    "s": 2,
+    "scene": "closing_report",
+    "set": "investigation",
+    "subject": "경찰을 통한 유족 감사 전언",
+    "shows": "경찰의 전달 문서에서 보도 문서로 이어지는 전언 경로. 유족 대사·인터뷰 재현 없음.",
+    "text": "유족이 검거에 감사를 전했다는 보도는 경찰을 통한 전언이었습니다.",
+    "props": [
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 540,
+        "y": 470,
+        "scale": 1,
+        "text": "유족의 감사 뜻",
+        "subtext": "경찰을 통한 전언"
+      },
+      {
+        "id": "board",
+        "kind": "board",
+        "x": 1390,
+        "y": 470,
+        "scale": 1,
+        "text": "보도",
+        "subtext": "직접 인터뷰 재현 아님"
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "감사를 전했다는 보도 · 경찰을 통한 전언",
+    "note": "",
+    "location": "",
+    "links": [
+      {
+        "from": [
+          840,
+          470
+        ],
+        "to": [
+          1090,
+          470
+        ],
+        "label": "",
+        "crossed": false
+      }
+    ],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 57,
+    "s": 1,
+    "scene": "closing_workplace_return",
+    "set": "memorial",
+    "subject": "마지막에 범인 표정을 남기지 않음",
+    "shows": "빈 업무 공간을 넓게 보여준다. 가해자의 반응숏 없음.",
+    "text": "이 사건의 마지막에 남겨야 할 건 범인의 표정이 아닙니다.",
+    "props": [
+      {
+        "id": "emptyChair",
+        "kind": "emptyChair",
+        "x": 960,
+        "y": 550,
+        "scale": 1.1
+      }
+    ],
+    "actors": [],
+    "type": "wide",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1
+    },
+    "date": "",
+    "heading": "사건 끝에 남겨야 할 것",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  },
+  {
+    "n": 57,
+    "s": 2,
+    "scene": "closing_workplace_return",
+    "set": "memorial",
+    "subject": "돌아오지 못한 일하는 한 사람",
+    "shows": "같은 빈 성인 업무 의자의 중경. 진지한 정적 호흡으로 종료.",
+    "text": "일을 하던 한 사람이 돌아오지 못했다는 사실입니다.",
+    "props": [
+      {
+        "id": "emptyChair",
+        "kind": "emptyChair",
+        "x": 960,
+        "y": 550,
+        "scale": 1.1
+      }
+    ],
+    "actors": [],
+    "type": "medium",
+    "focus": {
+      "x": 960,
+      "y": 480,
+      "zoom": 1.23
+    },
+    "date": "",
+    "heading": "일하던 한 사람이 돌아오지 못했습니다",
+    "note": "",
+    "location": "",
+    "links": [],
+    "angle": 0,
+    "illustrative": false
+  }
+]

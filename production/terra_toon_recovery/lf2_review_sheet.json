@@ -1,0 +1,13 @@
+{
+  "delivery": "lf2_toon_proof_426x240.mp4",
+  "source_audio": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/audio/mix_full.wav",
+  "audio_trim_s": [0.0, 12.0],
+  "resolution": [426, 240],
+  "shots": [
+    {"shot":"S01","proof_range_s":[0.0,2.42],"speech":"검은 승용차가 현금수송차 앞을 막습니다.","extracts":[[0.20,"lf2_extracts/lf2_s01_start.png"],[1.15,"lf2_extracts/lf2_s01_mid.png"],[2.30,"lf2_extracts/lf2_s01_end.png"]]},
+    {"shot":"S02","proof_range_s":[2.42,5.42],"speech":"돈가방을 내리던 순간 복면을 쓴 두 사람이 나타났죠.","extracts":[[2.55,"lf2_extracts/lf2_s02_start.png"],[3.90,"lf2_extracts/lf2_s02_mid.png"],[5.25,"lf2_extracts/lf2_s02_end.png"]]},
+    {"shot":"S03","proof_range_s":[5.42,12.0],"speech":"은행 지하주차장에서 권총이 발사됩니다.","extracts":[[5.55,"lf2_extracts/lf2_s03_start.png"],[7.00,"lf2_extracts/lf2_s03_mid.png"],[11.70,"lf2_extracts/lf2_s03_end.png"]]}
+  ],
+  "render_method":"Blender 5.2 headless, original 3D cel-shaded tableaux; FFmpeg H.264/AAC mux.",
+  "visual_review":"3D room depth is visible. Independent frame review still finds S01 vehicle types/blocking and S03 gun/hand connection insufficiently legible at 426x240; this is submitted for CEO art review, not claimed as an art-quality pass."
+}

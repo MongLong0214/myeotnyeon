@@ -1,0 +1,51 @@
+{
+  "channel_name": "Beast Clash",
+  "handle": "@beastclashtoon",
+  "language": "en",
+  "description": "Two animals. Real stats. One winner.\nWe compare size, speed, bite and armor, you pick who wins, then watch the cartoon clash.\nNew animal showdowns. Subscribe and pick your champion.\nThese matchups are hypothetical, conditional estimates drawn from published stats — they don't guarantee what a real encounter would actually produce.\nOriginal 2D animation based on published animal facts and research; a cartoon matchup, not real footage. No real animals are harmed.",
+  "keywords": [
+    "animal vs animal",
+    "who would win",
+    "animal showdown",
+    "animal facts",
+    "animal battle cartoon",
+    "wildlife",
+    "animal stats",
+    "lion vs",
+    "shark vs",
+    "strongest animal",
+    "animal comparison",
+    "cartoon animals"
+  ],
+  "upload_defaults": {
+    "category": "Entertainment",
+    "category_id": 24,
+    "default_language": "en",
+    "default_audio_language": "en",
+    "made_for_kids": false,
+    "license": "youtube",
+    "tags_template": [
+      "{animal_a} vs {animal_b}",
+      "who would win",
+      "animal vs animal",
+      "{animal_a}",
+      "{animal_b}",
+      "animal facts",
+      "animal showdown",
+      "beast clash"
+    ],
+    "description_template_footer": "Who wins? Vote in the comments before the clash.\nMore showdowns: @beastclashtoon\n\nOriginal 2D animation based on published animal facts and research; a cartoon matchup, not real footage. Hypothetical matchup, not a guarantee of a real encounter.\nFacts: {source_links}\n#shorts #animals #whowouldwin"
+  },
+  "playlists": [
+    "Beast Clash: Animal Showdowns",
+    "Ocean vs. Land Matchups",
+    "Tiny but Deadly: Underdog Clashes"
+  ],
+  "files": {
+    "profile": "profile_800.png",
+    "banner": "banner_2560x1440.png",
+    "watermark": "watermark_150.png",
+    "preview": "preview_board.png"
+  },
+  "fonts": "Noto Sans / Noto Sans JP (SIL OFL 1.1)"
+}

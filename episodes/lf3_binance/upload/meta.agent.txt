@@ -1,0 +1,38 @@
+[제목]
+바이낸스 8조, 20분 만에 털렸다…그 해커들 지금은?
+
+[설명]
+가짜 면접 하나, 엔지니어 노트북 두 대, 그리고 20분.
+바이낸스 출금 지갑에서 약 63억 달러(바이낸스 추정)가 빠져나간 과정을 순서대로 따라갑니다.
+해커들은 지금 잡혔을까요? 끝까지 보고 댓글로 생각을 남겨 주세요.
+
+■ 사실 정리 (2026년 11월 7일 기준 공개 자료)
+· 회사(바이낸스) 설명: 2026년 6월 한 엔지니어가 변조된 설치 파일을 받아 기기가 침해됐고, 9월 다른 엔지니어가 가짜 면접 과제를 설치해 감염됐습니다. 10월 20일 지갑팀 엔지니어 두 명의 시스템이 장악됐고, 10월 29일(UTC, 한국 시각 10월 30일 새벽) 출금 승인 시스템을 거쳐 무단 이체가 일어났다고 밝혔습니다. 동결·차단 자산은 약 28억 5000만 달러, 10월 31일 기준 피해 코인의 98%를 회사 자금으로 메웠다고 밝혔습니다. 이는 도난금 회수가 아닙니다.
+· 블록체인 분석업체 분석: 탈취금 대부분이 약 20분 안에 움직였고, 9월 다른 거래소 탈취 자금과 섞인 흔적이 있다고 분석했습니다.
+· FBI: 10월 31일 북한에 책임이 있다고 발표했습니다. 북한은 11월 2일 성명으로 부인했습니다.
+· 기관의 지목은 법원의 유죄 판단이 아닙니다. 확인한 공개 자료에서 이번 사건의 체포·재판·선고 기록은 찾지 못했습니다(2026년 11월 7일 기준).
+· 원화 금액(약 8조 4000억 원)은 국내 보도 환산, "1초에 70억 원"은 규모 비유입니다.
+
+0:00 콜드 오픈: 20분, 63억 달러
+0:21 6월: 첫 기기 침해 (A)
+0:54 9월: 가짜 면접 (B)
+1:33 10월 20일: 돌아온 표적
+2:06 10월 30일 새벽: 출금
+2:58 왜 바로 안 끝났나
+3:13 추적·동결·보충
+3:53 누구의 짓인가
+4:13 지금 어떻게 됐나
+
+독창 캐릭터의 2D 애니메이션 재구성, 재연 장면 포함, 실제 영상 아님; 내레이션 Qwen3-TTS AI 합성. 등장인물 A·B·C는 설명용 가칭이며 실제 인물의 외모를 재현하지 않습니다. 화면 속 사이트·메신저·회사 이름은 가상의 재구성입니다.
+#몇년나옴 #바이낸스 #해킹
+
+[출처]
+바이낸스 공식 초기 조사 보고서 | https://www.binance.com/en/blog/community/3229153443759566763
+FBI 사이버 경보 | https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack
+TRM Labs | https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history
+Chainalysis | https://www.chainalysis.com/blog/binance-exploit-latest-findings-and-response/
+Elliptic | https://www.elliptic.co/insights/binance-largest-hack-in-history/
+NPR | https://www.npr.org/2026/11/03/nx-s1-6027799/binance-crypto-exchange-cyber-heist
+BBC News 코리아 | https://www.bbc.com/korean/articles/cq369yl0nrzjo
+ZDNet Korea | https://zdnet.co.kr/view/?no=20261104094357
+한국경제 | https://www.hankyung.com/article/2026103068991

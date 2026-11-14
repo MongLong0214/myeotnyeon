@@ -1,0 +1,581 @@
+[
+  {
+    "frame": 73,
+    "from": 50,
+    "to": 114,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "외국인 노동자에게",
+        "characters": 9,
+        "centerX": 539.9921875,
+        "top": 1186.125,
+        "bottom": 1272.125,
+        "width": 513.921875
+      },
+      {
+        "text": "박치기를 22번 했습니다.",
+        "characters": 14,
+        "centerX": 540,
+        "top": 1261,
+        "bottom": 1347,
+        "width": 702.28125
+      }
+    ]
+  },
+  {
+    "frame": 129,
+    "from": 118,
+    "to": 140,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "몇 년 받았을까?",
+        "characters": 9,
+        "centerX": 540,
+        "top": 1223.5625,
+        "bottom": 1309.5625,
+        "width": 445.71875
+      }
+    ]
+  },
+  {
+    "frame": 170,
+    "from": 143,
+    "to": 197,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "노동자는 뇌진탕 등",
+        "characters": 10,
+        "centerX": 539.9921875,
+        "top": 1186.125,
+        "bottom": 1272.125,
+        "width": 530.015625
+      },
+      {
+        "text": "상해를 입었고",
+        "characters": 7,
+        "centerX": 540,
+        "top": 1261,
+        "bottom": 1347,
+        "width": 389.46875
+      }
+    ]
+  },
+  {
+    "frame": 223,
+    "from": 197,
+    "to": 255,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "관리자는 구속된 채",
+        "characters": 10,
+        "centerX": 539.9921875,
+        "top": 1186.125,
+        "bottom": 1272.125,
+        "width": 530.015625
+      },
+      {
+        "text": "재판에 넘겨졌죠.",
+        "characters": 9,
+        "centerX": 540,
+        "top": 1261,
+        "bottom": 1347,
+        "width": 472.71875
+      }
+    ]
+  },
+  {
+    "frame": 272,
+    "from": 258,
+    "to": 286,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "게다가 음주운전으로",
+        "characters": 10,
+        "centerX": 539.9921875,
+        "top": 1223.5625,
+        "bottom": 1309.5625,
+        "width": 576.140625
+      }
+    ]
+  },
+  {
+    "frame": 307,
+    "from": 286,
+    "to": 329,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "집행유예",
+        "characters": 4,
+        "centerX": 540,
+        "top": 1186.125,
+        "bottom": 1272.125,
+        "width": 248.90625
+      },
+      {
+        "text": "기간 중이었어요.",
+        "characters": 9,
+        "centerX": 540,
+        "top": 1261,
+        "bottom": 1347,
+        "width": 472.71875
+      }
+    ]
+  },
+  {
+    "frame": 365,
+    "from": 334,
+    "to": 397,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "벌금, 집행유예, 실형 중",
+        "characters": 14,
+        "centerX": 539.9921875,
+        "top": 1186.125,
+        "bottom": 1272.125,
+        "width": 645.046875
+      },
+      {
+        "text": "무엇이었을까요?",
+        "characters": 8,
+        "centerX": 539.9921875,
+        "top": 1261,
+        "bottom": 1347,
+        "width": 475.734375
+      }
+    ]
+  },
+  {
+    "frame": 418,
+    "from": 401,
+    "to": 436,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "판사는 집행유예 기간에",
+        "characters": 12,
+        "centerX": 540,
+        "top": 1223.5625,
+        "bottom": 1309.5625,
+        "width": 654.46875
+      }
+    ]
+  },
+  {
+    "frame": 457,
+    "from": 436,
+    "to": 479,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "자숙하지 않았다고",
+        "characters": 9,
+        "centerX": 539.9921875,
+        "top": 1186.125,
+        "bottom": 1272.125,
+        "width": 513.921875
+      },
+      {
+        "text": "꼬집었습니다.",
+        "characters": 7,
+        "centerX": 539.9921875,
+        "top": 1261,
+        "bottom": 1347,
+        "width": 394.390625
+      }
+    ]
+  },
+  {
+    "frame": 505,
+    "from": 486,
+    "to": 527,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "다만 범행을",
+        "characters": 6,
+        "centerX": 539.9921875,
+        "top": 1186.125,
+        "bottom": 1272.125,
+        "width": 327.234375
+      },
+      {
+        "text": "모두 인정했고",
+        "characters": 7,
+        "centerX": 540,
+        "top": 1261,
+        "bottom": 1347,
+        "width": 389.46875
+      }
+    ]
+  },
+  {
+    "frame": 555,
+    "from": 527,
+    "to": 585,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "구금 생활로",
+        "characters": 6,
+        "centerX": 539.9921875,
+        "top": 1186.125,
+        "bottom": 1272.125,
+        "width": 327.234375
+      },
+      {
+        "text": "반성했을 거라고 봤어요.",
+        "characters": 13,
+        "centerX": 540,
+        "top": 1261,
+        "bottom": 1347,
+        "width": 675.5
+      }
+    ]
+  },
+  {
+    "frame": 603,
+    "from": 590,
+    "to": 617,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "700만 원에 합의해",
+        "characters": 11,
+        "centerX": 540,
+        "top": 1223.5625,
+        "bottom": 1309.5625,
+        "width": 544.6875
+      }
+    ]
+  },
+  {
+    "frame": 640,
+    "from": 617,
+    "to": 664,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "피해자도 처벌을",
+        "characters": 8,
+        "centerX": 540,
+        "top": 1186.125,
+        "bottom": 1272.125,
+        "width": 451.6875
+      },
+      {
+        "text": "원치 않았죠.",
+        "characters": 7,
+        "centerX": 539.9921875,
+        "top": 1261,
+        "bottom": 1347,
+        "width": 348.265625
+      }
+    ]
+  },
+  {
+    "frame": 676,
+    "from": 668,
+    "to": 707,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "정답은",
+        "characters": 3,
+        "centerX": 540,
+        "top": 1186.125,
+        "bottom": 1272.125,
+        "width": 186.6875
+      },
+      {
+        "text": "벌금 400만 원입니다.",
+        "characters": 13,
+        "centerX": 540,
+        "top": 1261,
+        "bottom": 1347,
+        "width": 635.0625
+      }
+    ]
+  },
+  {
+    "frame": 686,
+    "from": 668,
+    "to": 707,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "정답은",
+        "characters": 3,
+        "centerX": 540,
+        "top": 1186.125,
+        "bottom": 1272.125,
+        "width": 186.6875
+      },
+      {
+        "text": "벌금 400만 원입니다.",
+        "characters": 13,
+        "centerX": 540,
+        "top": 1261,
+        "bottom": 1347,
+        "width": 635.0625
+      }
+    ]
+  },
+  {
+    "frame": 690,
+    "from": 668,
+    "to": 707,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "정답은",
+        "characters": 3,
+        "centerX": 540,
+        "top": 1186.125,
+        "bottom": 1272.125,
+        "width": 186.6875
+      },
+      {
+        "text": "벌금 400만 원입니다.",
+        "characters": 13,
+        "centerX": 540,
+        "top": 1261,
+        "bottom": 1347,
+        "width": 635.0625
+      }
+    ]
+  },
+  {
+    "frame": 731,
+    "from": 710,
+    "to": 753,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "검찰은 징역 1년을",
+        "characters": 10,
+        "centerX": 540,
+        "top": 1186.125,
+        "bottom": 1272.125,
+        "width": 502.25
+      },
+      {
+        "text": "구형했었죠.",
+        "characters": 6,
+        "centerX": 540,
+        "top": 1261,
+        "bottom": 1347,
+        "width": 332.15625
+      }
+    ]
+  },
+  {
+    "frame": 754,
+    "from": 754,
+    "to": 785,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "다음 사건도 맞혀 보세요.",
+        "characters": 14,
+        "centerX": 540,
+        "top": 1223.5625,
+        "bottom": 1309.5625,
+        "width": 691.59375
+      }
+    ]
+  },
+  {
+    "frame": 777,
+    "from": 755,
+    "to": 800,
+    "font": "\"Quiet Sans\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "textAlign": "center",
+    "box": {
+      "centerX": 540,
+      "top": 1192,
+      "bottom": 1342
+    },
+    "lines": [
+      {
+        "text": "다음 사건도 맞혀 보세요.",
+        "characters": 14,
+        "centerX": 540,
+        "top": 1223.5625,
+        "bottom": 1309.5625,
+        "width": 691.59375
+      }
+    ]
+  }
+]

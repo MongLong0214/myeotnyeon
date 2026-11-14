@@ -1,0 +1,464 @@
+{
+ "per_video": {
+  "kind": "youtubeAnalytics#resultTable",
+  "columnHeaders": [
+   {
+    "name": "video",
+    "columnType": "DIMENSION",
+    "dataType": "STRING"
+   },
+   {
+    "name": "views",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   },
+   {
+    "name": "estimatedMinutesWatched",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   },
+   {
+    "name": "averageViewDuration",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   },
+   {
+    "name": "averageViewPercentage",
+    "columnType": "METRIC",
+    "dataType": "FLOAT"
+   },
+   {
+    "name": "subscribersGained",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   },
+   {
+    "name": "subscribersLost",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   },
+   {
+    "name": "likes",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   },
+   {
+    "name": "comments",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   },
+   {
+    "name": "shares",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   }
+  ],
+  "rows": [
+   [
+    "ozKvg2XFA0Y",
+    1677,
+    351,
+    26,
+    89.23,
+    0,
+    0,
+    4,
+    0,
+    0
+   ],
+   [
+    "zwgKEbvbxsU",
+    1287,
+    202,
+    21,
+    92.53,
+    2,
+    0,
+    4,
+    2,
+    0
+   ],
+   [
+    "g6IHdEbtJoE",
+    1273,
+    201,
+    30,
+    92.92,
+    0,
+    0,
+    10,
+    1,
+    0
+   ],
+   [
+    "1niGnkTw6BA",
+    1228,
+    274,
+    34,
+    86.68,
+    0,
+    0,
+    5,
+    0,
+    1
+   ],
+   [
+    "IKjz8gGErMk",
+    1220,
+    187,
+    23,
+    83.07,
+    0,
+    0,
+    3,
+    1,
+    0
+   ],
+   [
+    "E4zk6oCIbjA",
+    1212,
+    221,
+    29,
+    84.25,
+    1,
+    0,
+    3,
+    1,
+    0
+   ],
+   [
+    "Z2bRWBdK7bQ",
+    1208,
+    200,
+    27,
+    70.89,
+    0,
+    0,
+    6,
+    0,
+    0
+   ],
+   [
+    "_AYRzLJaFLo",
+    1153,
+    112,
+    19,
+    58.11999999999999,
+    0,
+    0,
+    2,
+    0,
+    0
+   ],
+   [
+    "0eo5o8u5EMM",
+    1151,
+    206,
+    23,
+    72.54,
+    1,
+    0,
+    8,
+    1,
+    0
+   ],
+   [
+    "P33g73Z2c0g",
+    1108,
+    171,
+    25,
+    64.35,
+    0,
+    0,
+    2,
+    1,
+    0
+   ],
+   [
+    "2Bs_T3OZFlk",
+    1041,
+    115,
+    24,
+    103.25999999999999,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   [
+    "MYjtxd25BhU",
+    24,
+    24,
+    121,
+    379.72,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   [
+    "EomEdxcqfsU",
+    18,
+    25,
+    151,
+    539.57,
+    0,
+    0,
+    0,
+    1,
+    0
+   ]
+  ]
+ },
+ "traffic": {
+  "kind": "youtubeAnalytics#resultTable",
+  "columnHeaders": [
+   {
+    "name": "insightTrafficSourceType",
+    "columnType": "DIMENSION",
+    "dataType": "STRING"
+   },
+   {
+    "name": "views",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   }
+  ],
+  "rows": [
+   [
+    "SHORTS",
+    12997
+   ],
+   [
+    "YT_SEARCH",
+    357
+   ],
+   [
+    "YT_OTHER_PAGE",
+    167
+   ],
+   [
+    "YT_CHANNEL",
+    91
+   ],
+   [
+    "EXT_URL",
+    5
+   ],
+   [
+    "NO_LINK_OTHER",
+    3
+   ],
+   [
+    "SUBSCRIBER",
+    2
+   ]
+  ]
+ },
+ "daily": {
+  "kind": "youtubeAnalytics#resultTable",
+  "columnHeaders": [
+   {
+    "name": "day",
+    "columnType": "DIMENSION",
+    "dataType": "STRING"
+   },
+   {
+    "name": "views",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   },
+   {
+    "name": "subscribersGained",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   },
+   {
+    "name": "subscribersLost",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   }
+  ],
+  "rows": [
+   [
+    "2026-10-20",
+    0,
+    0,
+    0
+   ],
+   [
+    "2026-10-21",
+    0,
+    0,
+    0
+   ],
+   [
+    "2026-10-22",
+    0,
+    0,
+    0
+   ],
+   [
+    "2026-10-23",
+    0,
+    0,
+    0
+   ],
+   [
+    "2026-10-24",
+    0,
+    0,
+    0
+   ],
+   [
+    "2026-10-25",
+    2438,
+    3,
+    0
+   ],
+   [
+    "2026-10-26",
+    146,
+    0,
+    0
+   ],
+   [
+    "2026-10-27",
+    2326,
+    2,
+    0
+   ],
+   [
+    "2026-10-28",
+    1219,
+    2,
+    0
+   ],
+   [
+    "2026-10-29",
+    1149,
+    0,
+    0
+   ],
+   [
+    "2026-10-30",
+    1214,
+    0,
+    0
+   ],
+   [
+    "2026-10-31",
+    1112,
+    0,
+    0
+   ],
+   [
+    "2026-11-01",
+    1054,
+    0,
+    0
+   ],
+   [
+    "2026-11-02",
+    1271,
+    0,
+    0
+   ],
+   [
+    "2026-11-03",
+    1687,
+    0,
+    0
+   ]
+  ]
+ },
+ "shorts_swipe": {
+  "kind": "youtubeAnalytics#resultTable",
+  "columnHeaders": [
+   {
+    "name": "video",
+    "columnType": "DIMENSION",
+    "dataType": "STRING"
+   },
+   {
+    "name": "views",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   },
+   {
+    "name": "engagedViews",
+    "columnType": "METRIC",
+    "dataType": "INTEGER"
+   }
+  ],
+  "rows": [
+   [
+    "ozKvg2XFA0Y",
+    1677,
+    737
+   ],
+   [
+    "zwgKEbvbxsU",
+    1287,
+    525
+   ],
+   [
+    "g6IHdEbtJoE",
+    1273,
+    348
+   ],
+   [
+    "1niGnkTw6BA",
+    1228,
+    451
+   ],
+   [
+    "IKjz8gGErMk",
+    1220,
+    445
+   ],
+   [
+    "E4zk6oCIbjA",
+    1212,
+    420
+   ],
+   [
+    "Z2bRWBdK7bQ",
+    1208,
+    397
+   ],
+   [
+    "_AYRzLJaFLo",
+    1153,
+    280
+   ],
+   [
+    "0eo5o8u5EMM",
+    1151,
+    497
+   ],
+   [
+    "P33g73Z2c0g",
+    1108,
+    366
+   ],
+   [
+    "2Bs_T3OZFlk",
+    1041,
+    230
+   ],
+   [
+    "MYjtxd25BhU",
+    24,
+    12
+   ],
+   [
+    "EomEdxcqfsU",
+    18,
+    10
+   ]
+  ]
+ }
+}

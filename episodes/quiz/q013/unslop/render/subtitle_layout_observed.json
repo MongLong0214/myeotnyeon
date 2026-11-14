@@ -1,0 +1,744 @@
+[
+  {
+    "frame": 61,
+    "from": 50,
+    "to": 114,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "외국인 노동자에게",
+        "characters": 9,
+        "centerX": 540,
+        "top": 1193.125,
+        "bottom": 1265.125,
+        "width": 454.25
+      },
+      {
+        "text": "박치기를 22번 했습니다.",
+        "characters": 14,
+        "centerX": 539.9921875,
+        "top": 1268,
+        "bottom": 1340,
+        "width": 610.140625
+      }
+    ]
+  },
+  {
+    "frame": 139,
+    "from": 118,
+    "to": 140,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "몇 년 받았을까?",
+        "characters": 9,
+        "centerX": 539.9921875,
+        "top": 1230.5625,
+        "bottom": 1302.5625,
+        "width": 398.890625
+      }
+    ]
+  },
+  {
+    "frame": 195,
+    "from": 143,
+    "to": 197,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "노동자는 뇌진탕 등",
+        "characters": 10,
+        "centerX": 540,
+        "top": 1193.125,
+        "bottom": 1265.125,
+        "width": 474.78125
+      },
+      {
+        "text": "상해를 입었고",
+        "characters": 7,
+        "centerX": 539.9921875,
+        "top": 1268,
+        "bottom": 1340,
+        "width": 345.828125
+      }
+    ]
+  },
+  {
+    "frame": 225,
+    "from": 197,
+    "to": 255,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "관리자는 구속된 채",
+        "characters": 10,
+        "centerX": 540,
+        "top": 1193.125,
+        "bottom": 1265.125,
+        "width": 474.78125
+      },
+      {
+        "text": "재판에 넘겨졌죠.",
+        "characters": 9,
+        "centerX": 539.9921875,
+        "top": 1268,
+        "bottom": 1340,
+        "width": 413.359375
+      }
+    ]
+  },
+  {
+    "frame": 285,
+    "from": 258,
+    "to": 286,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "게다가 음주운전으로",
+        "characters": 10,
+        "centerX": 540,
+        "top": 1230.5625,
+        "bottom": 1302.5625,
+        "width": 508.46875
+      }
+    ]
+  },
+  {
+    "frame": 300,
+    "from": 286,
+    "to": 329,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "집행유예",
+        "characters": 4,
+        "centerX": 540,
+        "top": 1193.125,
+        "bottom": 1265.125,
+        "width": 216.875
+      },
+      {
+        "text": "기간 중이었어요.",
+        "characters": 9,
+        "centerX": 539.9921875,
+        "top": 1268,
+        "bottom": 1340,
+        "width": 413.359375
+      }
+    ]
+  },
+  {
+    "frame": 360,
+    "from": 334,
+    "to": 397,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "벌금, 집행유예, 실형 중",
+        "characters": 14,
+        "centerX": 540,
+        "top": 1193.125,
+        "bottom": 1265.125,
+        "width": 574.5625
+      },
+      {
+        "text": "무엇이었을까요?",
+        "characters": 8,
+        "centerX": 540,
+        "top": 1268,
+        "bottom": 1340,
+        "width": 412.0625
+      }
+    ]
+  },
+  {
+    "frame": 420,
+    "from": 401,
+    "to": 436,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "판사는 집행유예 기간에",
+        "characters": 12,
+        "centerX": 539.9921875,
+        "top": 1230.5625,
+        "bottom": 1302.5625,
+        "width": 583.203125
+      }
+    ]
+  },
+  {
+    "frame": 450,
+    "from": 436,
+    "to": 479,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "자숙하지 않았다고",
+        "characters": 9,
+        "centerX": 540,
+        "top": 1193.125,
+        "bottom": 1265.125,
+        "width": 454.25
+      },
+      {
+        "text": "꼬집었습니다.",
+        "characters": 7,
+        "centerX": 540,
+        "top": 1268,
+        "bottom": 1340,
+        "width": 338.625
+      }
+    ]
+  },
+  {
+    "frame": 500,
+    "from": 486,
+    "to": 527,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "다만 범행을",
+        "characters": 6,
+        "centerX": 539.9921875,
+        "top": 1193.125,
+        "bottom": 1265.125,
+        "width": 291.609375
+      },
+      {
+        "text": "모두 인정했고",
+        "characters": 7,
+        "centerX": 539.9921875,
+        "top": 1268,
+        "bottom": 1340,
+        "width": 345.828125
+      }
+    ]
+  },
+  {
+    "frame": 550,
+    "from": 527,
+    "to": 585,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "구금 생활로",
+        "characters": 6,
+        "centerX": 539.9921875,
+        "top": 1193.125,
+        "bottom": 1265.125,
+        "width": 291.609375
+      },
+      {
+        "text": "반성했을 거라고 봤어요.",
+        "characters": 13,
+        "centerX": 540,
+        "top": 1268,
+        "bottom": 1340,
+        "width": 596.53125
+      }
+    ]
+  },
+  {
+    "frame": 600,
+    "from": 590,
+    "to": 617,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "700만 원에 합의해",
+        "characters": 11,
+        "centerX": 540,
+        "top": 1230.5625,
+        "bottom": 1302.5625,
+        "width": 480.25
+      }
+    ]
+  },
+  {
+    "frame": 630,
+    "from": 617,
+    "to": 664,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "피해자도 처벌을",
+        "characters": 8,
+        "centerX": 539.9921875,
+        "top": 1193.125,
+        "bottom": 1265.125,
+        "width": 400.046875
+      },
+      {
+        "text": "원치 않았죠.",
+        "characters": 7,
+        "centerX": 539.9921875,
+        "top": 1268,
+        "bottom": 1340,
+        "width": 304.921875
+      }
+    ]
+  },
+  {
+    "frame": 669,
+    "from": 668,
+    "to": 707,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "정답은",
+        "characters": 3,
+        "centerX": 540,
+        "top": 1193.125,
+        "bottom": 1265.125,
+        "width": 162.65625
+      },
+      {
+        "text": "벌금 400만 원입니다.",
+        "characters": 13,
+        "centerX": 540,
+        "top": 1268,
+        "bottom": 1340,
+        "width": 550.15625
+      }
+    ]
+  },
+  {
+    "frame": 676,
+    "from": 668,
+    "to": 707,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "정답은",
+        "characters": 3,
+        "centerX": 540,
+        "top": 1193.125,
+        "bottom": 1265.125,
+        "width": 162.65625
+      },
+      {
+        "text": "벌금 400만 원입니다.",
+        "characters": 13,
+        "centerX": 540,
+        "top": 1268,
+        "bottom": 1340,
+        "width": 550.15625
+      }
+    ]
+  },
+  {
+    "frame": 710,
+    "from": 710,
+    "to": 753,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "검찰은 징역 1년을",
+        "characters": 10,
+        "centerX": 539.9921875,
+        "top": 1193.125,
+        "bottom": 1265.125,
+        "width": 443.890625
+      },
+      {
+        "text": "구형했었죠.",
+        "characters": 6,
+        "centerX": 540,
+        "top": 1268,
+        "bottom": 1340,
+        "width": 284.40625
+      }
+    ]
+  },
+  {
+    "frame": 754,
+    "from": 754,
+    "to": 785,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "다음 사건도 맞혀 보세요.",
+        "characters": 14,
+        "centerX": 539.9921875,
+        "top": 1230.5625,
+        "bottom": 1302.5625,
+        "width": 617.046875
+      }
+    ]
+  },
+  {
+    "frame": 755,
+    "from": 755,
+    "to": 800,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "다음 사건도 맞혀 보세요.",
+        "characters": 14,
+        "centerX": 539.9921875,
+        "top": 1230.5625,
+        "bottom": 1302.5625,
+        "width": 617.046875
+      }
+    ]
+  },
+  {
+    "frame": 780,
+    "from": 755,
+    "to": 800,
+    "canvas": {
+      "width": 1080,
+      "height": 1920
+    },
+    "box": {
+      "x": 90,
+      "y": 1192,
+      "width": 900,
+      "height": 150,
+      "centerX": 540,
+      "bottom": 1342
+    },
+    "fontFamily": "\"Do Hyeon\"",
+    "fontSize": "72px",
+    "fontWeight": "800",
+    "outline": "10px",
+    "outlineColor": "rgb(0, 0, 0)",
+    "shadow": "rgba(0, 0, 0, 0.65) 0px 3px 4px",
+    "textAlign": "center",
+    "lines": [
+      {
+        "text": "다음 사건도 맞혀 보세요.",
+        "characters": 14,
+        "centerX": 539.9921875,
+        "top": 1230.5625,
+        "bottom": 1302.5625,
+        "width": 617.046875
+      }
+    ]
+  }
+]

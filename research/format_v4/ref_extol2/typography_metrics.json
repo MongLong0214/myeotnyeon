@@ -1,0 +1,39 @@
+{
+  "subtitle_t8": {
+    "roi_xyxy": [
+      320,
+      900,
+      1600,
+      990
+    ],
+    "threshold": "HSV S<25,V>230",
+    "white_ink_bbox_xyxy": [
+      339,
+      910,
+      1582,
+      967
+    ],
+    "white_ink_pixels": 18504,
+    "glyph_height_px": 57,
+    "glyph_width_px": 1243
+  },
+  "chapter_t131_5": {
+    "roi_xyxy": [
+      1100,
+      110,
+      1650,
+      260
+    ],
+    "threshold": "HSV S<25,V>230",
+    "white_ink_bbox_xyxy": [
+      1111,
+      139,
+      1590,
+      230
+    ],
+    "white_ink_pixels": 8687,
+    "glyph_height_px": 91,
+    "glyph_width_px": 479
+  },
+  "font_warning": "Glyph pixel bounds are measured, CSS font sizes/family cannot be recovered. Subtitle white bold sans with heavy black stroke/shadow; chapter handwritten brush/rounded serif hybrid guess."
+}

@@ -1,0 +1,8 @@
+「何年出る 判決クイズ」(JA) · 余命宣告の帰りに2200万円を持ち去り · B3 + look v2 · maker self-check, NOT uploaded
+Content: frame 0 = night street, a man grabs a cash bag (¥), banknotes on the pavement. Twist 5.4 s 「でも、約1800万円を使っていました。」 Choices 罰金30万円 / 拘禁刑6か月・猶予3年 / 拘禁刑6か月の実刑; answer C 「正解はC、実刑判決。」; twist 2 「被告側が控訴し、判決はまだ確定していません。」 Subscribe gag 「登録」.
+Legal wording: 拘禁刑 (offense 2026-03, after 2025-06-01), 仙台地裁, 求刑 拘禁刑1年, 実刑 6月, 控訴中 (not 確定).
+Pops: 約1800万円, 1800万円 ÷ 月3万円 = 600か月 = 50年 (arithmetic on the spent amount; reports say 50年以上), 1年 → 6か月.
+Voice: VOICEVOX 冥鳴ひまり ノーマル (style 14), local engine 0.26.1, credit 「VOICEVOX:冥鳴ひまり」 (terms saved in research/tts_voicevox/policy_8eaad775-*.md). Switched from Kokoro jf_alpha after coordinator approval: Kokoro misread 控訴→拘束 and 拘禁刑 accent.
+Sources: NHK ×2, 河北新報 ×2, 日テレNEWS all 200.
+Self review: full contact sheets of the Kokoro build viewed; final VOICEVOX build checked via first full sheet + frame 0 (man lowered below the caption band so frame 0 shows his face clear of the subtitle). Defendant drawn as an older man in a cap (generic look).
+Known weaknesses: voice naturalness not judged by ear (ASR + accent dictionary only); 控訴中.

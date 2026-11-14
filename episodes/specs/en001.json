@@ -1,0 +1,347 @@
+{
+ "spec_version": 1,
+ "id": "en001",
+ "locale": "en",
+ "variant": "B3",
+ "channel": "guessthesentence",
+ "case": {
+  "category": "fraud",
+  "grave": false,
+  "deaths": 0,
+  "victim_minor": false,
+  "sexual_offence": false,
+  "court": "Superior Court",
+  "instance": "first_instance",
+  "finality": "appeal_unknown",
+  "verdict_date": "2026-10-23",
+  "sentence_fact": "F5"
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "USA Today",
+   "url": "https://www.usatoday.com/story/entertainment/tv-streaming/2026/10/23/laura-owens-clayton-echard-sentencing-pregnancy-fraud-bachelor/92400353007",
+   "published": "2026-10-23"
+  },
+  {
+   "id": "S2",
+   "outlet": "azfamily (CBS 5 Phoenix)",
+   "url": "https://www.azfamily.com/2026/10/24/laura-owens-sentenced-after-fake-pregnancy-case-involving-clayton-echard",
+   "published": "2026-10-24"
+  },
+  {
+   "id": "S3",
+   "outlet": "FOX 10 Phoenix",
+   "url": "https://www.fox10phoenix.com/news/laura-owens-bachelor-fake-pregnancy-sentencing"
+  }
+ ],
+ "facts": [
+  {
+   "id": "F1",
+   "claim": "Laura Owens faked a pregnancy with twins, using a fake ultrasound image and a fake pregnancy video.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "what she said were unborn twins she was carrying"
+    },
+    {
+     "source": "S1",
+     "text": "she faked an ultrasound image, a pregnancy video"
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "claim": "In the scheme against a former reality-TV star she faked an ultrasound and a video and lied under oath in the paternity case she filed.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "she faked an ultrasound image, a pregnancy video and lied under oath during civil paternity proceedings she brought against the reality star"
+    },
+    {
+     "source": "S3",
+     "text": "Owens altered an ultrasound photo, faked a pregnancy video and lied several times under oath"
+    }
+   ]
+  },
+  {
+   "id": "F4",
+   "claim": "She was charged with 14 felonies and pleaded guilty to four.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "Owens was initially charged with 14 felonies"
+    },
+    {
+     "source": "S3",
+     "text": "I pleaded guilty to four felonies"
+    }
+   ],
+   "values": {
+    "charged": {
+     "kind": "count",
+     "text": "14 felonies"
+    },
+    "pleas": {
+     "kind": "count",
+     "text": "four felonies"
+    }
+   }
+  },
+  {
+   "id": "F5",
+   "claim": "On Oct. 23, 2026 the Maricopa County Superior Court sentenced her to 30 days in jail and seven years of probation, with a deferred 12-month jail term on violation.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "An Arizona judge sentenced Laura Owens to 30 days in jail and seven years of probation"
+    },
+    {
+     "source": "S3",
+     "text": "Laura Owens was sentenced to 30 days in jail and seven years of probation"
+    },
+    {
+     "source": "S1",
+     "text": "a deferred 12-month sentence"
+    },
+    {
+     "source": "S2",
+     "text": "Published : Oct. 23, 2026"
+    }
+   ],
+   "values": {
+    "jail": {
+     "kind": "duration",
+     "text": "30 days"
+    },
+    "probation": {
+     "kind": "duration",
+     "text": "seven years of probation"
+    },
+    "deferred": {
+     "kind": "duration",
+     "text": "12-month"
+    },
+    "date": {
+     "kind": "date",
+     "text": "Oct. 23, 2026"
+    }
+   }
+  },
+  {
+   "id": "F7",
+   "claim": "Prosecutors recommended five years and five months in prison.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "prosecutors recommended five years and five months"
+    }
+   ],
+   "values": {
+    "ask": {
+     "kind": "duration",
+     "text": "five years and five months"
+    }
+   }
+  },
+  {
+   "id": "F8",
+   "claim": "The judge said she seemed less a sophisticated con artist than a very sad individual making some poor choices.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "a very sad individual making some poor choices"
+    }
+   ]
+  }
+ ],
+ "title": "Bachelor Fake Pregnancy: What Sentence?",
+ "description": "Laura Owens faked a pregnancy with twins. She used a fake ultrasound image and a fake pregnancy video, and she lied under oath in a paternity case she filed against a former reality-TV star. She was charged with 14 felonies and pleaded guilty to four counts.\nProsecutors recommended five years and five months in prison. On October 23, 2026, the Maricopa County Superior Court in Arizona sentenced her to 30 days in jail and seven years of probation. A deferred 12-month jail term applies if she violates probation. The judge said she seemed less a sophisticated con artist than \"a very sad individual making some poor choices.\"",
+ "hashtags": [
+  "#truecrime",
+  "#court",
+  "#sentencing",
+  "#LauraOwens",
+  "#shorts"
+ ],
+ "cover": "FAKE TWINS\n30 days?",
+ "hook": [
+  "She faked twins",
+  "FAKE ULTRASOUND"
+ ],
+ "stage": "scan",
+ "defendant": "lady",
+ "quiz": {
+  "choices": [
+   "5 yrs 5 mo prison",
+   "Probation only",
+   "30 days in jail"
+  ],
+  "answer": 2
+ },
+ "lines": [
+  {
+   "beat": "open",
+   "text": "Fake twins. Fake ultrasound.",
+   "fact": "F1"
+  },
+  {
+   "beat": "hook",
+   "text": "How many years did she get?",
+   "fact": "F5",
+   "actor": "lady",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "smug",
+     "move": "nod"
+    },
+    {
+     "scene": "calendar",
+     "date": "F5.date"
+    }
+   ]
+  },
+  {
+   "beat": "guess",
+   "text": "Prosecutors wanted over 5 years in prison,",
+   "fact": "F7",
+   "shots": [
+    {
+     "scene": "bubble",
+     "lines": [
+      "5 years?",
+      "for fake twins"
+     ]
+    },
+    {
+     "scene": "paper",
+     "lines": [
+      "PROSECUTORS",
+      "5 yrs 5 mo"
+     ]
+    }
+   ]
+  },
+  {
+   "beat": "twist",
+   "text": "but the judge called her \"a very sad individual.\"",
+   "fact": "F8",
+   "shots": [
+    {
+     "scene": "judge"
+    },
+    {
+     "scene": "stamp",
+     "label": "The judge:",
+     "stamp": "SAD"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "She faked an ultrasound, a video, and lied in court.",
+   "fact": "F2",
+   "actor": "lady",
+   "shots": [
+    {
+     "scene": "react",
+     "look": "passenger",
+     "expr": "shock",
+     "move": "recoil",
+     "other": true
+    },
+    {
+     "scene": "paper",
+     "lines": [
+      "PATERNITY",
+      "perjury"
+     ]
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "14 felony charges. She pleaded guilty to 4.",
+   "fact": "F4",
+   "actor": "lady",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "concern",
+     "move": "shrug"
+    },
+    {
+     "scene": "tally",
+     "count": "F4.pleas",
+     "label": "GUILTY PLEAS"
+    }
+   ]
+  },
+  {
+   "beat": "answer2",
+   "text": "Plus 7 years of probation.",
+   "fact": "F5",
+   "actor": "lady",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "smug",
+     "move": "nod"
+    },
+    {
+     "scene": "stamp",
+     "label": "PROBATION",
+     "stamp": "7 YRS"
+    }
+   ]
+  },
+  {
+   "beat": "loop",
+   "text": "And it all started with",
+   "fact": "F1"
+  }
+ ],
+ "pops": [
+  {
+   "beat": "guess",
+   "at": 0.35,
+   "big": "{m}",
+   "small": "Prosecutors' ask: {a}",
+   "vars": {
+    "m": "months(F7.ask)",
+    "a": "F7.ask"
+   }
+  },
+  {
+   "beat": "fact2",
+   "at": 0.45,
+   "big": "{c} → {p}",
+   "small": "felony charges → guilty pleas",
+   "vars": {
+    "c": "F4.charged",
+    "p": "F4.pleas"
+   }
+  },
+  {
+   "beat": "answer2",
+   "at": 0.05,
+   "big": "{d} = {h}",
+   "small": "jail time",
+   "vars": {
+    "d": "F5.jail",
+    "h": "hours(F5.jail)"
+   }
+  },
+  {
+   "beat": "answer2",
+   "at": 0.55,
+   "big": "{p} probation",
+   "small": "+{d} jail if she violates it",
+   "vars": {
+    "p": "F5.probation",
+    "d": "months(F5.deferred)"
+   }
+  }
+ ]
+}

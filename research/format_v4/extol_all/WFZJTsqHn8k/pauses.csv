@@ -1,0 +1,16 @@
+start_s,end_s,duration_s,method
+13.72,14.26,0.5399999999999991,ASR non-word gap; not acoustic silence proof
+17.94,18.28,0.33999999999999986,ASR non-word gap; not acoustic silence proof
+23.12,23.4,0.2799999999999976,ASR non-word gap; not acoustic silence proof
+30.44,30.96,0.5199999999999996,ASR non-word gap; not acoustic silence proof
+35.16,35.44,0.28000000000000114,ASR non-word gap; not acoustic silence proof
+38.02,38.36,0.3399999999999963,ASR non-word gap; not acoustic silence proof
+42.52,42.86,0.3399999999999963,ASR non-word gap; not acoustic silence proof
+45.1,45.36,0.259999999999998,ASR non-word gap; not acoustic silence proof
+50.98,51.4,0.4200000000000017,ASR non-word gap; not acoustic silence proof
+65.42,65.74,0.3199999999999932,ASR non-word gap; not acoustic silence proof
+68.62,69.54,0.9200000000000017,ASR non-word gap; not acoustic silence proof
+73.24,73.6,0.35999999999999943,ASR non-word gap; not acoustic silence proof
+75.62,76.1,0.47999999999998977,ASR non-word gap; not acoustic silence proof
+77.74,77.98,0.2400000000000091,ASR non-word gap; not acoustic silence proof
+88.2,88.4,0.20000000000000284,ASR non-word gap; not acoustic silence proof

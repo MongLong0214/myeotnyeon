@@ -1,0 +1,13 @@
+== repeated compositions (the same picture again, 6 s or more later; 32 px grey): 14 repeats, 18 s of 432
+     04:05.00-04:06.00 repeats 03:42.00-03:43.00
+     04:26.00-04:27.00 repeats 03:41.00-03:42.00
+     04:28.00-04:29.00 repeats 04:18.00-04:19.00
+     05:10.00-05:11.00 repeats 00:30.00-00:31.00
+     05:12.00-05:13.00 repeats 00:31.00-00:32.00
+     05:25.00-05:26.00 repeats 00:55.00-00:56.00
+     05:35.00-05:37.00 repeats 00:06.00-00:08.00
+     05:43.00-05:44.00 repeats 05:07.00-05:08.00
+     05:48.00-05:49.00 repeats 04:25.00-04:26.00
+     05:52.00-05:55.00 repeats 00:08.00-00:10.00
+  each repeat is a new picture (another angle, scale, place or moment) unless the card names it a callback
+python3 src/scripts/scene_check.py repeats $V  5.31s user 2.48s system 262% cpu 2.975 total

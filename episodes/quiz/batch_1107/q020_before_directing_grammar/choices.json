@@ -1,0 +1,29 @@
+{
+  "options": [
+    {
+      "letter": "A",
+      "label": "징역 8년",
+      "pop_frame": 510,
+      "correct": false
+    },
+    {
+      "letter": "B",
+      "label": "징역 12년",
+      "pop_frame": 517,
+      "correct": true
+    },
+    {
+      "letter": "C",
+      "label": "징역 20년",
+      "pop_frame": 524,
+      "correct": false
+    }
+  ],
+  "all_options_visible_frame": 531,
+  "answer_frame": 656,
+  "end_frame": 731,
+  "all_options_choose_time_s": 4.166666666666667,
+  "meaning": "A/B/C are hypothetical quiz alternatives, not three reported sentences. Only B is the actual appeal sentence. C coincides with the first-instance prosecution demand and remains an incorrect appeal-sentence choice.",
+  "first_all_cards_visible_frame": 524,
+  "fully_open_frame": 531
+}

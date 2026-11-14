@@ -1,0 +1,372 @@
+{
+ "observed_at": "2026-11-13T05:41:48+00:00",
+ "anchor": "음주운전",
+ "weights": {
+  "datalab": 0.3,
+  "yt_demand": 0.25,
+  "recency": 0.2,
+  "news": 0.15,
+  "autocomplete": 0.1
+ },
+ "rows": [
+  {
+   "candidate": {
+    "keyword": "영광 염전 장애인 노동착취 업주 징역 4년6개월",
+    "trend_keyword": "염전 노동착취",
+    "case_id": "yeonggwang_salt",
+    "trial_stage": "1심 징역 4년6개월",
+    "verdict_date": "2026-11-11"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": null,
+    "news_total": 16,
+    "yt_demand": 96.40196078431373,
+    "autocomplete": 0.0,
+    "recency": 0.9888888888888889
+   },
+   "evidence": {
+    "news": {
+     "total": 16,
+     "recent_90d_sample": 16
+    },
+    "youtube_top": [
+     {
+      "id": "LZm2kmW4U3Y",
+      "title": "[광주MBC AI뉴스] 장애인 감금해 노동착취한 염전업주 징역 4년 6개월(뉴스데스크 2026.11.11 광주MBC)",
+      "published_at": "2026-11-11T12:54:29Z",
+      "view_count": 184,
+      "views_per_day": 184.0
+     },
+     {
+      "id": "bh0qW2MpGoY",
+      "title": "\"발톱도 이도 다 빠져 있었다\" 분노..염전노예로 부리고도 줄줄이 '집유' (자막뉴스) / SBS",
+      "published_at": "2026-04-22T10:19:07Z",
+      "view_count": 19666,
+      "views_per_day": 96.40196078431373
+     },
+     {
+      "id": "a82ZyVtTBzg",
+      "title": "손을 빨랫줄로 묶어 대들보에 매달았다…장애가 있는 노동자 3명은 5년 동안 하루 17시간씩 일하고 3억 원을 못 받았다 #Shorts",
+      "published_at": "2026-11-12T11:00:03Z",
+      "view_count": 0,
+      "views_per_day": 0.0
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": null,
+    "yt_demand": 0.7740145101912779,
+    "recency": 0.33333333333333776,
+    "news": 1.0,
+    "autocomplete": 0.5
+   },
+   "score": 65.74
+  },
+  {
+   "candidate": {
+    "keyword": "출소 후 신고자 업장 보복 난동 조폭 징역 1년6개월",
+    "trend_keyword": "보복 난동",
+    "case_id": "revenge_bar",
+    "trial_stage": "1심 징역 1년6개월",
+    "verdict_date": "2026-11-10"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": null,
+    "news_total": 0,
+    "yt_demand": null,
+    "autocomplete": 0.0,
+    "recency": 0.9833333333333333
+   },
+   "evidence": {
+    "news": {
+     "total": 0,
+     "recent_90d_sample": 0
+    },
+    "youtube_top": [],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": null,
+    "yt_demand": null,
+    "recency": 0.0,
+    "news": 0.0,
+    "autocomplete": 0.5
+   },
+   "score": 11.11
+  },
+  {
+   "candidate": {
+    "keyword": "서대문 인쇄소 지인 살해 사채업자 징역 25년",
+    "trend_keyword": "서대문 인쇄소 살인",
+    "case_id": "seodaemun_print",
+    "trial_stage": "1심 징역 25년",
+    "verdict_date": "2026-11-13"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": null,
+    "news_total": 3,
+    "yt_demand": null,
+    "autocomplete": 0.0,
+    "recency": 1.0
+   },
+   "evidence": {
+    "news": {
+     "total": 3,
+     "recent_90d_sample": 3
+    },
+    "youtube_top": [],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": null,
+    "yt_demand": null,
+    "recency": 1.0,
+    "news": 0.489301084236452,
+    "autocomplete": 0.5
+   },
+   "score": 71.87
+  },
+  {
+   "candidate": {
+    "keyword": "동네 후배 흉기 살해 40대 항소심 징역 16년",
+    "trend_keyword": "후배 살해",
+    "case_id": "junior_stab",
+    "trial_stage": "항소심 징역 16년",
+    "verdict_date": "2026-11-11"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": null,
+    "news_total": 5,
+    "yt_demand": 3.5075528700906347,
+    "autocomplete": 0.0,
+    "recency": 0.9888888888888889
+   },
+   "evidence": {
+    "news": {
+     "total": 5,
+     "recent_90d_sample": 4
+    },
+    "youtube_top": [
+     {
+      "id": "pSj7Ovsq_aA",
+      "title": "10년지기 후배 살해한 40대남자…경찰, 채무 관계 조사",
+      "published_at": "2018-05-11T13:22:35Z",
+      "view_count": 208,
+      "views_per_day": 0.06694560669456066
+     },
+     {
+      "id": "QdLivPrYfY0",
+      "title": "딴 남자 통화했다고 여친 흉기로 살해…징역 28년 확정 / 연합뉴스TV (YonhapnewsTV)",
+      "published_at": "2025-12-16T20:21:01Z",
+      "view_count": 1161,
+      "views_per_day": 3.5075528700906347
+     },
+     {
+      "id": "TEjjmlhqefY",
+      "title": "\"징역 30년 선고, 부당하다고 할 수 없다\"…'교제 살인' 의대생, 징역 30년 확정｜지금 이 뉴스",
+      "published_at": "2025-09-11T03:55:01Z",
+      "view_count": 2366,
+      "views_per_day": 5.52803738317757
+     },
+     {
+      "id": "bJsrPCGMVuw",
+      "title": "'조카 물고문 살인' 이모 부부, 징역 30년·12년 / JTBC 정치부회의",
+      "published_at": "2022-01-25T09:38:42Z",
+      "view_count": 10211,
+      "views_per_day": 5.828196347031963
+     },
+     {
+      "id": "fBtYTK_kjUQ",
+      "title": "이웃주민 살해한 60대 남성 징역 15년 확정",
+      "published_at": "2023-04-16T22:56:55Z",
+      "view_count": 199,
+      "views_per_day": 0.15237366003062788
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": null,
+    "yt_demand": 0.022429952857241964,
+    "recency": 0.33333333333333776,
+    "news": 0.6324124771567161,
+    "autocomplete": 0.5
+   },
+   "score": 31.02
+  },
+  {
+   "candidate": {
+    "keyword": "층간소음 오해 윗집 방화 70대 징역 3년",
+    "trend_keyword": "층간소음 방화",
+    "case_id": "noise_arson",
+    "trial_stage": "항소심 징역 3년",
+    "verdict_date": "2026-09-14"
+   },
+   "excluded": "already_published_on_own_channel",
+   "raw": {},
+   "evidence": {},
+   "score": null
+  },
+  {
+   "candidate": {
+    "keyword": "집유 선고날 여자친구 폭행 20대 실형",
+    "trend_keyword": "교제폭력 실형",
+    "case_id": "dating_violence",
+    "trial_stage": "1심 실형",
+    "verdict_date": "2026-11-10"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": null,
+    "news_total": 1,
+    "yt_demand": 0.7352537722908093,
+    "autocomplete": 0.0,
+    "recency": 0.9833333333333333
+   },
+   "evidence": {
+    "news": {
+     "total": 1,
+     "recent_90d_sample": 1
+    },
+    "youtube_top": [
+     {
+      "id": "1Za0-lmh_DM",
+      "title": "여자친구 폭행 숨지게 한 남성, 1심 징역 7년 (2022.01.06/5MBC뉴스)",
+      "published_at": "2022-01-06T08:25:09Z",
+      "view_count": 3769,
+      "views_per_day": 2.1281761716544327
+     },
+     {
+      "id": "_QgG73Ax7vU",
+      "title": "전과 기록이 인생에 미치는 영향 #Shorts",
+      "published_at": "2023-09-28T07:00:12Z",
+      "view_count": 94376,
+      "views_per_day": 82.71340929009641
+     },
+     {
+      "id": "XQg22NV1HK8",
+      "title": "[단독] '때리고 트럭 돌진'...데이트폭력 20대, 징역 2년 선고 / YTN",
+      "published_at": "2017-11-28T10:27:35Z",
+      "view_count": 1525,
+      "views_per_day": 0.46621828187098746
+     },
+     {
+      "id": "k4nZyK25zhw",
+      "title": "[뉴스현장] 5개월 자녀 던지고 폭행…30대 친부 '집행유예' / 연합뉴스TV (YonhapnewsTV)",
+      "published_at": "2022-11-15T06:20:45Z",
+      "view_count": 1072,
+      "views_per_day": 0.7352537722908093
+     },
+     {
+      "id": "cF75iqwbmhU",
+      "title": "[사건큐브] 'KT 채용비리' 이석채 1심서 징역 1년 선고 / 연합뉴스TV (YonhapnewsTV)",
+      "published_at": "2019-10-30T06:20:01Z",
+      "view_count": 304,
+      "views_per_day": 0.11828793774319066
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": null,
+    "yt_demand": 0.0,
+    "recency": 0.0,
+    "news": 0.244650542118226,
+    "autocomplete": 0.5
+   },
+   "score": 12.39
+  },
+  {
+   "candidate": {
+    "keyword": "지인 돈 4억 투자사기 부동산업자 실형",
+    "trend_keyword": "투자사기 4억",
+    "case_id": "realestate_fraud",
+    "trial_stage": "1심 실형",
+    "verdict_date": "2026-11-10"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": null,
+    "news_total": 2,
+    "yt_demand": 124.33333333333333,
+    "autocomplete": 0.0,
+    "recency": 0.9833333333333333
+   },
+   "evidence": {
+    "news": {
+     "total": 2,
+     "recent_90d_sample": 2
+    },
+    "youtube_top": [
+     {
+      "id": "aLixt5giVbo",
+      "title": "민사소송 이기면 뭐하나 돈을 못 받는데, 왜 못 받는지 아세요?",
+      "published_at": "2024-02-25T06:34:43Z",
+      "view_count": 249411,
+      "views_per_day": 251.6760847628658
+     },
+     {
+      "id": "lyox6ZMWM50",
+      "title": "사기 고소장에 ‘이 단어’ 없으면 접수조차 안됩니다. (#형사전문변호사)",
+      "published_at": "2025-06-23T08:30:20Z",
+      "view_count": 63037,
+      "views_per_day": 124.33333333333333
+     },
+     {
+      "id": "jh9T0HNUu24",
+      "title": "사기꾼이 수백억 벌고 감옥 갔다오면 남는 장사 아닌가요? #변호사 #장휘일 #사기꾼 #사기 #holypop",
+      "published_at": "2023-04-25T03:37:23Z",
+      "view_count": 179802,
+      "views_per_day": 138.52234206471493
+     },
+     {
+      "id": "ywNM51AoqRE",
+      "title": "이자만 50% 준다더니… 사기보다 무서운 유사수신행위!!",
+      "published_at": "2025-11-12T03:59:21Z",
+      "view_count": 722,
+      "views_per_day": 1.9726775956284153
+     },
+     {
+      "id": "2lCi6shtBtU",
+      "title": "'20억 투자 사기' 금은방 주인 징역 6년 실형ㅣMBC충북NEWS",
+      "published_at": "2022-10-18T11:53:01Z",
+      "view_count": 1849,
+      "views_per_day": 1.2442799461641991
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": null,
+    "yt_demand": 1.0,
+    "recency": 0.0,
+    "news": 0.3877619350384901,
+    "autocomplete": 0.5
+   },
+   "score": 51.17
+  }
+ ]
+}

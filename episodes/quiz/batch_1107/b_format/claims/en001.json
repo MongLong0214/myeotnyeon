@@ -1,0 +1,82 @@
+{
+ "header": {
+  "court": "Maricopa County Superior Court, Phoenix, Arizona (state court; SF Chronicle names Judge Jeffrey Rueter — not shown on screen)",
+  "date": "sentenced 2026-10-23",
+  "charge": "guilty plea (Aug 2026) to 2 counts fraudulent schemes and artifices, 1 count perjury, 1 count taking the identity of another",
+  "sentence": "30 days in jail + 7 years of probation, with a deferred 12-month jail term if probation is violated",
+  "finality": "Plea deal; no appeal reported in any source (checked 2026-11-13).",
+  "sensitivity": "Pregnancy-fraud case: no sexual content is shown or described; the victim (a former reality-TV lead) is not named or drawn in the video; the title uses the word 'Bachelor'."
+ },
+ "items": [
+  [
+   "L01",
+   "Fake twins. Fake ultrasound.",
+   "faked a twin pregnancy and an ultrasound",
+   "FOX 10 Phoenix https://www.fox10phoenix.com/news/laura-owens-bachelor-fake-pregnancy-sentencing",
+   "when Laura was, you know, faking pregnancy essentially with twins and knowing that she had done that before to at least one other victim\" (Echard quoted) / \"Owens altered an ultrasound photo, faked a pregnancy video and lied several times under oath.\""
+  ],
+  [
+   "L03",
+   "Prosecutors wanted over 5 years in prison,",
+   "prosecution recommendation 5 y 5 m",
+   "USA Today (via extract; direct fetch 402) https://www.usatoday.com/story/entertainment/tv-streaming/2026/10/23/laura-owens-clayton-echard-sentencing-pregnancy-fraud-bachelor/92400353007",
+   "prosecutors recommended five years and five months with a total of 10 years of probation"
+  ],
+  [
+   "L03 pop",
+   "65 months (5 yrs 5 mo)",
+   "arithmetic 5×12+5",
+   "USA Today (via extract; direct fetch 402) https://www.usatoday.com/story/entertainment/tv-streaming/2026/10/23/laura-owens-clayton-echard-sentencing-pregnancy-fraud-bachelor/92400353007",
+   "prosecutors recommended five years and five months"
+  ],
+  [
+   "L04",
+   "but the judge called her \"a very sad individual.\"",
+   "judge's reasoning (quoted fragment)",
+   "azfamily (CBS 5 Phoenix) https://www.azfamily.com/2026/10/24/laura-owens-sentenced-after-fake-pregnancy-case-involving-clayton-echard",
+   "The judge said in deciding the sentence he weighed “whether or not she’s this sophisticated con person or a very sad individual making some poor choices,” adding, “So obviously, I think it’s the latter.”"
+  ],
+  [
+   "L05",
+   "She faked an ultrasound, a video, and lied in court.",
+   "ultrasound, video, perjury",
+   "USA Today (via extract; direct fetch 402) https://www.usatoday.com/story/entertainment/tv-streaming/2026/10/23/laura-owens-clayton-echard-sentencing-pregnancy-fraud-bachelor/92400353007",
+   "she faked an ultrasound image, a pregnancy video and lied under oath during civil paternity proceedings she brought against the reality star"
+  ],
+  [
+   "L06",
+   "14 felony charges. She pleaded guilty to 4.",
+   "14 → 4",
+   "USA Today (via extract; direct fetch 402) https://www.usatoday.com/story/entertainment/tv-streaming/2026/10/23/laura-owens-clayton-echard-sentencing-pregnancy-fraud-bachelor/92400353007",
+   "Owens was initially charged with 14 felonies but reached a deal in August, pleading guilty to two counts of fraudulent schemes and artifices, one count of perjury and one count of taking the identity of another."
+  ],
+  [
+   "L10/L11",
+   "Answer C. 30 days in jail.",
+   "sentence",
+   "FOX 10 Phoenix https://www.fox10phoenix.com/news/laura-owens-bachelor-fake-pregnancy-sentencing",
+   "Laura Owens was sentenced to 30 days in jail and seven years of probation for fabricating medical records and faking pregnancies to target men."
+  ],
+  [
+   "L12",
+   "Plus 7 years of probation.",
+   "probation + deferred jail",
+   "azfamily (CBS 5 Phoenix) https://www.azfamily.com/2026/10/24/laura-owens-sentenced-after-fake-pregnancy-case-involving-clayton-echard",
+   "The judge imposed 30 days of flat time plus 12 months of deferred jail starting Oct. 22, 2027, and warned Owens she faces up to 12.5 years in prison if she violates probation."
+  ],
+  [
+   "answer label",
+   "Superior Court",
+   "court name",
+   "San Francisco Chronicle (search snippet) https://www.sfchronicle.com/crime/article/laura-owens-sentenced-fake-pregnancy-scheme-22492520.php",
+   "Judge Jeffrey Rueter delivered the sentence in the high-profile Arizona case in Maricopa County Superior Court in Phoenix."
+  ],
+  [
+   "meta",
+   "mitigating factors",
+   "judge's reasons",
+   "FOX 10 Phoenix https://www.fox10phoenix.com/news/laura-owens-bachelor-fake-pregnancy-sentencing",
+   "The judge opted against prison time, citing Owens' lack of criminal history, her mental health issues, and her remorse as mitigating factors."
+  ]
+ ]
+}

@@ -1,0 +1,577 @@
+{
+  "shots": [
+    {
+      "id": "T01",
+      "start_s": 0.0,
+      "end_s": 0.9,
+      "subject": "pour",
+      "location": "subway",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "기름통을 기울여 휘발유 붓기",
+      "intended_label": "기름통을 기울여 휘발유 붓기",
+      "facts": [
+        "F1"
+      ],
+      "graphic": "방화, 징역 몇 년?"
+    },
+    {
+      "id": "T02",
+      "start_s": 0.9,
+      "end_s": 1.7333333333333334,
+      "subject": "ignite",
+      "location": "subway",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "바닥에서 불이 붙고 크게 번짐",
+      "intended_label": "바닥에서 불이 붙고 크게 번짐",
+      "facts": [
+        "F1"
+      ],
+      "graphic": "방화, 징역 몇 년?"
+    },
+    {
+      "id": "T03",
+      "start_s": 1.7333333333333334,
+      "end_s": 3.2333333333333334,
+      "subject": "recoil",
+      "location": "subway",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "승객의 상체·손이 뒤로 물러나는 반응",
+      "intended_label": "승객의 상체·손이 뒤로 물러나는 반응",
+      "facts": [
+        "F1",
+        "F2"
+      ],
+      "graphic": "방화, 징역 몇 년?"
+    },
+    {
+      "id": "T04",
+      "start_s": 3.2333333333333334,
+      "end_s": 4.833333333333333,
+      "subject": "wide",
+      "location": "subway",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "불과 승객이 함께 보이는 객차 전경",
+      "intended_label": "불과 승객이 함께 보이는 객차 전경",
+      "facts": [
+        "F2"
+      ],
+      "graphic": "방화, 징역 몇 년?"
+    },
+    {
+      "id": "T05",
+      "start_s": 4.833333333333333,
+      "end_s": 6.433333333333334,
+      "subject": "close",
+      "location": "subway",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "승객의 놀란 표정·손 클로즈업",
+      "intended_label": "승객의 놀란 표정·손 클로즈업",
+      "facts": [
+        "F2"
+      ],
+      "graphic": "방화, 징역 몇 년?"
+    },
+    {
+      "id": "T06",
+      "start_s": 6.433333333333334,
+      "end_s": 8.033333333333333,
+      "subject": "smoke",
+      "location": "subway",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "객차를 채우는 연기",
+      "intended_label": "객차를 채우는 연기",
+      "facts": [
+        "F2",
+        "F3"
+      ],
+      "graphic": "방화, 징역 몇 년?"
+    },
+    {
+      "id": "T07",
+      "start_s": 8.033333333333333,
+      "end_s": 9.633333333333333,
+      "subject": "evacuate",
+      "location": "subway",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "출입문으로 대피하는 승객",
+      "intended_label": "출입문으로 대피하는 승객",
+      "facts": [
+        "F3"
+      ],
+      "graphic": "방화, 징역 몇 년?"
+    },
+    {
+      "id": "T08",
+      "start_s": 9.633333333333333,
+      "end_s": 11.966666666666667,
+      "subject": "figures",
+      "location": "metaphor",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "160명 도형 → 숫자 계수기 (시각적 비유)",
+      "intended_label": "160명 도형 → 숫자 계수기 (시각적 비유)",
+      "facts": [
+        "F3",
+        "F4"
+      ],
+      "graphic": "방화, 징역 몇 년?"
+    },
+    {
+      "id": "T09",
+      "start_s": 11.966666666666667,
+      "end_s": 13.566666666666666,
+      "subject": "judge",
+      "location": "court",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "사건 기록을 보고 표정·손짓이 변하는 판사",
+      "intended_label": "사건 기록을 보고 표정·손짓이 변하는 판사",
+      "facts": [
+        "F4"
+      ],
+      "graphic": "1심 구형 20년"
+    },
+    {
+      "id": "T10",
+      "start_s": 13.566666666666666,
+      "end_s": 15.166666666666666,
+      "subject": "defendant",
+      "location": "court",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "고개와 시선이 내려가는 비식별 피고인",
+      "intended_label": "고개와 시선이 내려가는 비식별 피고인",
+      "facts": [
+        "F4"
+      ],
+      "graphic": "1심 구형 20년"
+    },
+    {
+      "id": "T11",
+      "start_s": 15.166666666666666,
+      "end_s": 16.866666666666667,
+      "subject": "scales",
+      "location": "metaphor",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "160명 혐의와 물음표 저울 (시각적 비유)",
+      "intended_label": "160명 혐의와 물음표 저울 (시각적 비유)",
+      "facts": [
+        "F4"
+      ],
+      "graphic": "1심 구형 20년"
+    },
+    {
+      "id": "T12",
+      "start_s": 16.866666666666667,
+      "end_s": 18.566666666666666,
+      "subject": "judge",
+      "location": "court",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "사건 기록을 보고 표정·손짓이 변하는 판사",
+      "intended_label": "사건 기록을 보고 표정·손짓이 변하는 판사",
+      "facts": [
+        "F4",
+        "F5"
+      ],
+      "graphic": "1심 구형 20년"
+    },
+    {
+      "id": "T13",
+      "start_s": 18.566666666666666,
+      "end_s": 20.166666666666668,
+      "subject": "defendant",
+      "location": "court",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "고개와 시선이 내려가는 비식별 피고인",
+      "intended_label": "고개와 시선이 내려가는 비식별 피고인",
+      "facts": [
+        "F5"
+      ],
+      "graphic": "방화, 징역 몇 년?"
+    },
+    {
+      "id": "T14",
+      "start_s": 20.166666666666668,
+      "end_s": 21.866666666666667,
+      "subject": "scales",
+      "location": "metaphor",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "160명 혐의와 물음표 저울 (시각적 비유)",
+      "intended_label": "160명 혐의와 물음표 저울 (시각적 비유)",
+      "facts": [
+        "F5"
+      ],
+      "graphic": "방화, 징역 몇 년?"
+    },
+    {
+      "id": "T15",
+      "start_s": 21.866666666666667,
+      "end_s": 24.366666666666667,
+      "subject": "verdict",
+      "location": "court",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adult character",
+          "acting": true
+        }
+      ],
+      "action": "최종 선고를 읽는 판사",
+      "intended_label": "최종 선고를 읽는 판사",
+      "facts": [
+        "F6"
+      ],
+      "graphic": "2심 징역 12년"
+    },
+    {
+      "id": "TEASER",
+      "start_s": 24.366666666666667,
+      "end_s": 25.866666666666667,
+      "subject": "다음 사건",
+      "location": "next_case",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "actors": [
+        {
+          "role": "anonymous adults",
+          "acting": true
+        }
+      ],
+      "action": "다음 대리기사 폭행 사건의 정지 예고 그림",
+      "intended_label": "다음 사건 재구성",
+      "facts": []
+    }
+  ],
+  "subtitles": [
+    {
+      "start_s": 0.0,
+      "end_s": 2.3,
+      "text": "달리는 지하철 안에 휘발유를 붓고 불을 질렀습니다.",
+      "reference": "달리는 지하철 안에 휘발유를 붓고 불을 질렀습니다."
+    },
+    {
+      "start_s": 2.38,
+      "end_s": 3.12,
+      "text": "징역 몇 년일까요?",
+      "reference": "징역 몇 년일까요?"
+    },
+    {
+      "start_s": 3.24,
+      "end_s": 4.22,
+      "text": "서울 지하철 5호선.",
+      "reference": "서울 지하철 오호선."
+    },
+    {
+      "start_s": 4.22,
+      "end_s": 6.9,
+      "text": "불길이 번지자 승객들은 대피했고, 연기를 마신 사람도",
+      "reference": "불길이 번지자 승객들은 대피했고, 연기를 마신 사람도"
+    },
+    {
+      "start_s": 6.9,
+      "end_s": 7.36,
+      "text": "나왔습니다.",
+      "reference": "나왔습니다."
+    },
+    {
+      "start_s": 7.466666666666667,
+      "end_s": 10.38,
+      "text": "검찰은 승객 160 명에 대한 살인미수 혐의도 적용했습니다.",
+      "reference": "검찰은 승객 백육십 명에 대한 살인미수 혐의도 적용했습니다."
+    },
+    {
+      "start_s": 10.56,
+      "end_s": 11.9,
+      "text": "실제 사망자 수가 아닙니다.",
+      "reference": "실제 사망자 수가 아닙니다."
+    },
+    {
+      "start_s": 11.98,
+      "end_s": 13.44,
+      "text": "검찰 구형은 징역 20년.",
+      "reference": "검찰 구형은 징역 이십 년."
+    },
+    {
+      "start_s": 13.44,
+      "end_s": 15.02,
+      "text": "그런데 실제 선고는 달랐습니다.",
+      "reference": "그런데 실제 선고는 달랐습니다."
+    },
+    {
+      "start_s": 15.12,
+      "end_s": 16.88,
+      "text": "피해 회복도 대부분 이뤄지지 않았습니다.",
+      "reference": "피해 회복도 대부분 이뤄지지 않았습니다."
+    },
+    {
+      "start_s": 17.02,
+      "end_s": 19.7,
+      "text": "재판부는 대중교통의 안전에 대한 신뢰까지 해쳤다고",
+      "reference": "재판부는 대중교통의 안전에 대한 신뢰까지 해쳤다고"
+    },
+    {
+      "start_s": 19.7,
+      "end_s": 20.34,
+      "text": "지적했습니다.",
+      "reference": "지적했습니다."
+    },
+    {
+      "start_s": 20.48,
+      "end_s": 21.8,
+      "text": "항소심도 유지한 형량은?",
+      "reference": "항소심도 유지한 형량은?"
+    },
+    {
+      "start_s": 21.866666666666667,
+      "end_s": 23.24,
+      "text": "항소심 선고, 징역 12년.",
+      "reference": "항소심 선고, 징역 십이 년."
+    },
+    {
+      "start_s": 23.24,
+      "end_s": 24.22,
+      "text": "보호관찰 3년입니다.",
+      "reference": "보호관찰 삼 년입니다."
+    },
+    {
+      "start_s": 24.366666666666667,
+      "end_s": 25.48,
+      "text": "다음 판결도 맞혀보세요.",
+      "reference": "다음 판결도 맞혀보세요."
+    },
+    {
+      "start_s": 25.6,
+      "end_s": 25.74,
+      "text": "구독.",
+      "reference": "구독."
+    }
+  ],
+  "narration": [
+    {
+      "id": "S1",
+      "mode": "action",
+      "text": "달리는 지하철 안에 휘발유를 붓고 불을 질렀습니다. 징역 몇 년일까요?",
+      "tts_text": "달리는 지하철 안에 휘발유를 붓고 불을 질렀습니다. 징역 몇 년일까요?",
+      "start_s": 0.0,
+      "end_s": 3.3,
+      "from_frame": 0,
+      "dur": 99,
+      "syllables": 28,
+      "sps": 8.484848484848484,
+      "file": "upload/pkg/q020_batch1107/audio/00.wav",
+      "sha256": "fc5c0ea142220525b7646f2b2fa865422040bbe08b35d049fc4f3727c653f37b"
+    },
+    {
+      "id": "S2",
+      "mode": "reaction",
+      "text": "서울 지하철 오호선. 불길이 번지자 승객들은 대피했고, 연기를 마신 사람도 나왔습니다.",
+      "tts_text": "서울 지하철 오호선. 불길이 번지자 승객들은 대피했고, 연기를 마신 사람도 나왔습니다.",
+      "start_s": 3.3,
+      "end_s": 7.533333333333333,
+      "from_frame": 99,
+      "dur": 127,
+      "syllables": 35,
+      "sps": 8.26771653543307,
+      "file": "upload/pkg/q020_batch1107/audio/01.wav",
+      "sha256": "2d1a3110aa51715dd40df9719a4a5ce71152aa32eae8dd6e22154a21c0d712a3"
+    },
+    {
+      "id": "S3",
+      "mode": "result",
+      "text": "검찰은 승객 백육십 명에 대한 살인미수 혐의도 적용했습니다. 실제 사망자 수가 아닙니다.",
+      "tts_text": "검찰은 승객 백육십 명에 대한 살인미수 혐의도 적용했습니다. 실제 사망자 수가 아닙니다.",
+      "start_s": 7.533333333333333,
+      "end_s": 12.233333333333333,
+      "from_frame": 226,
+      "dur": 141,
+      "syllables": 36,
+      "sps": 7.659574468085106,
+      "file": "upload/pkg/q020_batch1107/audio/02.wav",
+      "sha256": "502d3da6faafaf9a74b43275c09e5c3151cb562facb8d08a3098087a6ddcc053"
+    },
+    {
+      "id": "S4",
+      "mode": "court",
+      "text": "검찰 구형은 징역 이십 년. 그런데 실제 선고는 달랐습니다. 피해 회복도 대부분 이뤄지지 않았습니다.",
+      "tts_text": "검찰 구형은 징역 이십 년. 그런데 실제 선고는 달랐습니다. 피해 회복도 대부분 이뤄지지 않았습니다.",
+      "start_s": 12.233333333333333,
+      "end_s": 17.4,
+      "from_frame": 367,
+      "dur": 155,
+      "syllables": 40,
+      "sps": 7.741935483870967,
+      "file": "upload/pkg/q020_batch1107/audio/03.wav",
+      "sha256": "d7f227768b268267d0c1a4af9249066db68729d421481cff4d57fd1d944f608f"
+    },
+    {
+      "id": "S5",
+      "mode": "question",
+      "text": "재판부는 대중교통의 안전에 대한 신뢰까지 해쳤다고 지적했습니다. 항소심도 유지한 형량은?",
+      "tts_text": "재판부는 대중교통의 안전에 대한 신뢰까지 해쳤다고 지적했습니다. 항소심도 유지한 형량은?",
+      "start_s": 17.4,
+      "end_s": 22.366666666666667,
+      "from_frame": 522,
+      "dur": 149,
+      "syllables": 38,
+      "sps": 7.651006711409396,
+      "file": "upload/pkg/q020_batch1107/audio/04.wav",
+      "sha256": "38de8db154ca6e10a683004f0949caa5bdf211ad1b1bbf9e5f308f375592de8c"
+    },
+    {
+      "id": "S6",
+      "mode": "answer",
+      "text": "항소심 선고, 징역 십이 년. 보호관찰 삼 년입니다.",
+      "tts_text": "항소심 선고, 징역 십이 년. 보호관찰 삼 년입니다.",
+      "start_s": 22.366666666666667,
+      "end_s": 24.866666666666667,
+      "from_frame": 671,
+      "dur": 75,
+      "syllables": 19,
+      "sps": 7.808219178082193,
+      "file": "upload/pkg/q020_batch1107/audio/05.wav",
+      "sha256": "8b1917a9702b7c20901882b84e6d9bf321d39d795365896a4714a5f2a290e984"
+    },
+    {
+      "id": "S7",
+      "mode": "next",
+      "text": "다음 판결도 맞혀보세요. 구독.",
+      "tts_text": "다음 판결도 맞혀보세요. 구독.",
+      "start_s": 24.866666666666667,
+      "end_s": 26.366666666666667,
+      "from_frame": 746,
+      "dur": 45,
+      "syllables": 12,
+      "sps": 8.0,
+      "file": "upload/pkg/q020_batch1107/audio/06.wav",
+      "sha256": "b7fb2d4468943e3081e515de1d94c49df60aed89417a809330e285cfe29f88f0"
+    }
+  ]
+}

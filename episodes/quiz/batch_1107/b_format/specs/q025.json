@@ -1,0 +1,149 @@
+{
+ "qid": "q025",
+ "variant": "B1",
+ "kind": "tunnel",
+ "number_label": "",
+ "cover_text": "터널 171km 만취\n징역 몇 년?",
+ "defendant": "woman",
+ "choices": [
+  "징역 1년 6개월",
+  "징역 2년 6개월",
+  "징역 5년"
+ ],
+ "correct": 1,
+ "answer": "징역 2년 6개월",
+ "answer_label": "항소심",
+ "opinion": "이 형량,\n가볍다 / 적당 / 무겁다?",
+ "option_offsets": [
+  0.2,
+  1.38,
+  2.15
+ ],
+ "sfx": [
+  [
+   "speed",
+   0,
+   "whoosh"
+  ],
+  [
+   "hit",
+   0,
+   "thud"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ],
+  [
+   "first",
+   4,
+   "knock"
+  ]
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "speed",
+   "tts": "시속 백칠십일 킬로.",
+   "shown": "시속 171km.",
+   "fact": "F1"
+  },
+  {
+   "id": "L02",
+   "mode": "hit",
+   "tts": "만취 상태로, 앞차를 들이받았습니다.",
+   "shown": "만취 상태로,\n앞차를 들이받았습니다.",
+   "fact": "F1"
+  },
+  {
+   "id": "L03",
+   "mode": "twist",
+   "tts": "그런데 판사가 주목한 건, 유족과의 합의.",
+   "shown": "그런데 판사가 주목한 건,\n유족과의 합의.",
+   "fact": "F5"
+  },
+  {
+   "id": "L04",
+   "mode": "limit",
+   "tts": "제한속도 칠십 킬로, 술은 면허 취소 수준.",
+   "shown": "제한속도 70km,\n술은 면허 취소 수준.",
+   "fact": "F2"
+  },
+  {
+   "id": "L05",
+   "mode": "father",
+   "tts": "숨진 운전자는, 아이 둘을 키우던 가장.",
+   "shown": "숨진 운전자는,\n아이 둘을 키우던 가장.",
+   "fact": "F3"
+  },
+  {
+   "id": "L06",
+   "mode": "money",
+   "tts": "일억 팔천만 원에, 유족과 합의했습니다.",
+   "shown": "1억 8000만 원에,\n유족과 합의했습니다.",
+   "fact": "F4"
+  },
+  {
+   "id": "L07",
+   "mode": "first",
+   "tts": "일심은 징역 삼 년.",
+   "shown": "1심은 징역 3년.",
+   "fact": "F4"
+  },
+  {
+   "id": "L08",
+   "mode": "appeal",
+   "tts": "항소심에선 다친 피해자와도 합의했습니다.",
+   "shown": "항소심에선 다친 피해자와도\n합의했습니다.",
+   "fact": "F5"
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "항소심 형량은?",
+   "shown": "항소심 형량은?",
+   "fact": "Q"
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "징역 일 년 육 개월, 이 년 육 개월, 오 년.",
+   "shown": null,
+   "fact": "Q",
+   "target": 5.6,
+   "hold_after": 1.3
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "정답 비, 징역 이 년 육 개월.",
+   "shown": "정답 B,\n징역 2년 6개월.",
+   "fact": "F5",
+   "emphasis": "징역 2년 6개월"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "오히려 반년이 줄었습니다.",
+   "shown": "오히려\n반년이 줄었습니다.",
+   "fact": "F5"
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "가볍다 적당 무겁다?",
+   "shown": null,
+   "fact": "Q",
+   "hold_after": 0.9
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "네 시간 술을 마시고, 운전대를 잡았습니다.",
+   "shown": "4시간 술을 마시고\n운전대를 잡았습니다.",
+   "fact": "F2"
+  }
+ ],
+ "grave": true
+}

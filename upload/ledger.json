@@ -1,0 +1,829 @@
+{
+ "channel": "multi-channel; entries[].channel keys factory/channels/registry.json",
+ "as_of": "2026-11-13",
+ "policy": "Same-qid reservations and free numbers pass. Published/scheduled numbers require the same known video_id; different or unknown video identity blocks.",
+ "note": "Ledger of record. Live states: scheduled, published. deleted/replaced keep old ids so analytics can still map them. Written by factory/ops/queue.py.",
+ "entries": [
+  {
+   "qid": "q001",
+   "video_id": "IKjz8gGErMk",
+   "evidence": [
+    "upload/del_v3_12.log:1725-1732",
+    "upload/del_private.log:1585"
+   ],
+   "removed_replacement_video_ids": [
+    "hei1-RqYXTY"
+   ],
+   "no": 1,
+   "state": "published",
+   "date": null,
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q002",
+   "video_id": "zwgKEbvbxsU",
+   "evidence": [
+    "upload/del_v3_12.log:1725-1732",
+    "upload/del_private.log:1585"
+   ],
+   "removed_replacement_video_ids": [
+    "CCJ_D39AOCQ"
+   ],
+   "no": 2,
+   "state": "published",
+   "date": null,
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q003",
+   "video_id": "0eo5o8u5EMM",
+   "evidence": [
+    "upload/up_v3_q003.log"
+   ],
+   "no": 3,
+   "state": "published",
+   "date": null,
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q004",
+   "video_id": "EomEdxcqfsU",
+   "evidence": [
+    "upload/up_v4_q004.log"
+   ],
+   "no": 4,
+   "state": "replaced",
+   "date": null,
+   "channel": "myeotnyeon",
+   "note": "absent from the uploads playlist on 2026-11-13; re-uploaded, see the later entry"
+  },
+  {
+   "qid": "q005",
+   "video_id": "MYjtxd25BhU",
+   "evidence": [
+    "upload/up_v4_q005.log"
+   ],
+   "no": 5,
+   "state": "replaced",
+   "date": null,
+   "channel": "myeotnyeon",
+   "note": "absent from the uploads playlist on 2026-11-13; re-uploaded, see the later entry"
+  },
+  {
+   "qid": "q006",
+   "video_id": "1niGnkTw6BA",
+   "evidence": [
+    "upload/resched_q006c.log"
+   ],
+   "no": 6,
+   "state": "published",
+   "date": "2026-10-27T19:00:00+09:00",
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q007",
+   "video_id": "E4zk6oCIbjA",
+   "evidence": [
+    "upload/del_v3_12.log:1725-1732",
+    "upload/del_private.log:1585"
+   ],
+   "no": 7,
+   "state": "published",
+   "date": "2026-10-28T19:00:00+09:00",
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q008",
+   "video_id": "_AYRzLJaFLo",
+   "evidence": [
+    "episodes/quiz/out/업로드_문안.md",
+    "YouTube Data API videos.list 2026-11-13 (status+snippet): only upload published that day"
+   ],
+   "no": 8,
+   "state": "published",
+   "date": "2026-10-29T19:00:00+09:00",
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q009",
+   "video_id": "Z2bRWBdK7bQ",
+   "evidence": [
+    "episodes/quiz/out/업로드_문안.md",
+    "YouTube Data API videos.list 2026-11-13 (status+snippet): only upload published that day"
+   ],
+   "no": 9,
+   "state": "published",
+   "date": "2026-10-30T19:00:00+09:00",
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q010",
+   "video_id": "P33g73Z2c0g",
+   "evidence": [
+    "episodes/quiz/out/업로드_문안.md",
+    "YouTube Data API videos.list 2026-11-13 (status+snippet): only upload published that day"
+   ],
+   "no": 10,
+   "state": "published",
+   "date": "2026-10-31T19:00:00+09:00",
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q015",
+   "video_id": "2Bs_T3OZFlk",
+   "evidence": [
+    "upload/inspect_v52/report.md",
+    "YouTube Data API videos.list 2026-11-13 (status+snippet): only upload published that day"
+   ],
+   "no": 11,
+   "state": "published",
+   "date": "2026-11-01T19:00:00+09:00",
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q012",
+   "video_id": "g6IHdEbtJoE",
+   "evidence": [
+    "upload/inspect_v52/report.md",
+    "YouTube Data API videos.list 2026-11-13 (status+snippet): only upload published that day"
+   ],
+   "no": 12,
+   "state": "published",
+   "date": "2026-11-02T19:00:00+09:00",
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q016",
+   "video_id": "ozKvg2XFA0Y",
+   "evidence": [
+    "upload/inspect_v52/report.md",
+    "YouTube Data API videos.list 2026-11-13 (status+snippet): only upload published that day"
+   ],
+   "no": 13,
+   "state": "published",
+   "date": "2026-11-03T19:00:00+09:00",
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q017",
+   "video_id": "-g-ubPCtVGw",
+   "evidence": [
+    "upload/inspect_v52/report.md",
+    "YouTube Data API videos.list 2026-11-13 (status+snippet): only upload published that day"
+   ],
+   "no": 14,
+   "state": "published",
+   "date": "2026-11-04T19:00:00+09:00",
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q014",
+   "video_id": "oxZUrYF8Chg",
+   "evidence": [
+    "user task: #15 S-eU5rbP9yg (11-05), #16 reserved q013"
+   ],
+   "no": 15,
+   "state": "published",
+   "date": "2026-11-05T19:00:00+09:00",
+   "note": "S-eU5rbP9yg private (kept); oxZUrYF8Chg public 2026-11-05 19:00",
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q013",
+   "video_id": "VBEjj7mPjrI",
+   "evidence": [
+    "upload/v52_q013_n16_v3.mp4 sha256 c6202356…81c95; owner PASS uuid 76b5ebb2 (11-06 07:38Z \"ㅇㅇ좋아 합격\"); alOivtnJM58 deleted"
+   ],
+   "no": 16,
+   "state": "published",
+   "date": "2026-11-06T19:00:00+09:00",
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q020",
+   "video_id": "S_apLF1EfZM",
+   "evidence": [
+    "owner '하루에하나씩올리자' uuid 81d11e62; upload 11-07 10:05 KST sha f97e9331"
+   ],
+   "state": "published",
+   "date": "2026-11-07T19:00:00+09:00",
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q018",
+   "video_id": "DKLnGa1Pfk8",
+   "evidence": [
+    "upload/pkg/q018_std/video_newhands.mp4 sha256 72cc5d17…181c; owner '하루에하나씩올리자' uuid 81d11e62; CEO newhands review"
+   ],
+   "state": "published",
+   "date": "2026-11-08T19:00:00+09:00",
+   "channel": "myeotnyeon"
+  },
+  {
+   "qid": "q014",
+   "channel": "myeotnyeon",
+   "video_id": "S-eU5rbP9yg",
+   "state": "replaced",
+   "date": "2026-11-05T19:00:00+09:00",
+   "evidence": [
+    "user task: #15 S-eU5rbP9yg (11-05), #16 reserved q013"
+   ],
+   "note": "first upload; absent from the uploads playlist on 2026-11-13; oxZUrYF8Chg is the public one"
+  },
+  {
+   "qid": "q005",
+   "pkg": "q005_std",
+   "channel": "myeotnyeon",
+   "video_id": "4RGviiHSUDI",
+   "state": "published",
+   "date": "2026-11-09T19:42:48+09:00",
+   "publish_at": "2026-11-09T19:42:48+09:00",
+   "evidence": [
+    "YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q004",
+   "pkg": "q004_std",
+   "channel": "myeotnyeon",
+   "video_id": "rtetBk8uQWQ",
+   "state": "published",
+   "date": "2026-11-10T19:02:54+09:00",
+   "publish_at": "2026-11-10T19:02:54+09:00",
+   "evidence": [
+    "YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q019",
+   "pkg": "q019_B",
+   "channel": "myeotnyeon",
+   "video_id": "AzxfoCHwkBs",
+   "state": "published",
+   "date": "2026-11-11T19:00:42+09:00",
+   "publish_at": "2026-11-11T19:00:42+09:00",
+   "evidence": [
+    "YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q021",
+   "pkg": "q021_B",
+   "channel": "myeotnyeon",
+   "video_id": "MyOQf5l3dU4",
+   "state": "published",
+   "date": "2026-11-12T20:31:44+09:00",
+   "publish_at": "2026-11-12T20:31:44+09:00",
+   "evidence": [
+    "YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "LF3",
+   "pkg": "lf3_binance",
+   "channel": "myeotnyeon",
+   "video_id": "UsQ4nWhJdt8",
+   "state": "published",
+   "date": "2026-11-09T19:00:00+09:00",
+   "publish_at": "2026-11-09T19:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ],
+   "format": "long-form"
+  },
+  {
+   "qid": "LF3",
+   "pkg": "lf3_binance",
+   "channel": "myeotnyeon",
+   "video_id": "Zg2N74M0L3s",
+   "state": "deleted",
+   "date": "2026-11-09T19:00:00+09:00",
+   "publish_at": "2026-11-09T19:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13: LF3 v1, deleted by the CEO"
+   ],
+   "format": "long-form"
+  },
+  {
+   "qid": "q028",
+   "pkg": "q028_B",
+   "channel": "myeotnyeon",
+   "video_id": "vHdG0GjjYSg",
+   "state": "deleted",
+   "date": null,
+   "publish_at": null,
+   "evidence": [
+    "owner task 2026-11-13: q028 v1, deleted 11-13"
+   ]
+  },
+  {
+   "qid": "q028",
+   "pkg": "q028_B",
+   "channel": "myeotnyeon",
+   "video_id": "wbNxIqgNEUU",
+   "state": "deleted",
+   "date": null,
+   "publish_at": null,
+   "evidence": [
+    "owner task 2026-11-13: q028 v2, deleted 11-13"
+   ]
+  },
+  {
+   "qid": "q026",
+   "pkg": "q026_B",
+   "channel": "myeotnyeon",
+   "video_id": "_d7_9KP5NqI",
+   "state": "published",
+   "date": "2026-11-13T12:00:00+09:00",
+   "publish_at": "2026-11-13T12:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q023",
+   "pkg": "q023_B",
+   "channel": "myeotnyeon",
+   "video_id": "QxVnb6IMqH0",
+   "state": "scheduled",
+   "date": "2026-11-13T19:00:00+09:00",
+   "publish_at": "2026-11-13T19:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q029",
+   "pkg": "q029_B",
+   "channel": "myeotnyeon",
+   "video_id": "8wSEj_supYw",
+   "state": "scheduled",
+   "date": "2026-11-14T12:00:00+09:00",
+   "publish_at": "2026-11-14T12:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q024",
+   "pkg": "q024_B",
+   "channel": "myeotnyeon",
+   "video_id": "2zK8SJ5NJUs",
+   "state": "replaced",
+   "date": "2026-11-24T12:00:00+09:00",
+   "publish_at": "2026-11-24T12:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ],
+   "rescheduled": "2026-11-14 breaking-verdict reorder (CTO)",
+   "note": "excluded 2026-11-14: family violence (CEO 3d725a36); unscheduled, kept private, not deleted, no replacement"
+  },
+  {
+   "qid": "q027",
+   "pkg": "q027_B",
+   "channel": "myeotnyeon",
+   "video_id": "YLddvCr5yZY",
+   "state": "scheduled",
+   "date": "2026-11-21T19:00:00+09:00",
+   "publish_at": "2026-11-21T19:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ],
+   "rescheduled": "2026-11-14 breaking-verdict reorder (CTO)"
+  },
+  {
+   "qid": "q025",
+   "pkg": "q025_B",
+   "channel": "myeotnyeon",
+   "video_id": "jdGgTtp25N0",
+   "state": "scheduled",
+   "date": "2026-11-18T19:00:00+09:00",
+   "publish_at": "2026-11-18T19:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ],
+   "rescheduled": "2026-11-14 breaking-verdict reorder (CTO)"
+  },
+  {
+   "qid": "q028",
+   "pkg": "q028_B",
+   "channel": "myeotnyeon",
+   "video_id": "krEbBlcixfI",
+   "state": "scheduled",
+   "date": "2026-11-16T12:00:00+09:00",
+   "publish_at": "2026-11-16T12:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ],
+   "file": "video_v3.mp4"
+  },
+  {
+   "qid": "q030",
+   "pkg": "q030_B",
+   "channel": "myeotnyeon",
+   "video_id": "FtZqo7uOwgc",
+   "state": "scheduled",
+   "date": "2026-11-16T19:00:00+09:00",
+   "publish_at": "2026-11-16T19:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q031",
+   "pkg": "q031_B",
+   "channel": "myeotnyeon",
+   "video_id": "MamNcZl2w_A",
+   "state": "replaced",
+   "date": "2026-11-17T12:00:00+09:00",
+   "publish_at": "2026-11-17T12:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ],
+   "note": "excluded 2026-11-14: family violence (CEO 3d725a36); unscheduled, kept private, not deleted, no replacement"
+  },
+  {
+   "qid": "q032",
+   "pkg": "q032_B",
+   "channel": "myeotnyeon",
+   "video_id": "x111oApuGjs",
+   "state": "scheduled",
+   "date": "2026-11-17T19:00:00+09:00",
+   "publish_at": "2026-11-17T19:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q033",
+   "pkg": "q033_B",
+   "channel": "myeotnyeon",
+   "video_id": "_Pcm5rBelHQ",
+   "state": "scheduled",
+   "date": "2026-11-18T12:00:00+09:00",
+   "publish_at": "2026-11-18T12:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q034",
+   "pkg": "q034_B",
+   "channel": "myeotnyeon",
+   "video_id": "vJcH92XK22s",
+   "state": "scheduled",
+   "date": "2026-11-15T19:00:00+09:00",
+   "publish_at": "2026-11-15T19:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ],
+   "rescheduled": "2026-11-14 breaking-verdict reorder (CTO)"
+  },
+  {
+   "qid": "q035",
+   "pkg": "q035_B",
+   "channel": "myeotnyeon",
+   "video_id": "qo-CbbyU0C0",
+   "state": "scheduled",
+   "date": "2026-11-19T12:00:00+09:00",
+   "publish_at": "2026-11-19T12:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q036",
+   "pkg": "q036_B",
+   "channel": "myeotnyeon",
+   "video_id": "COJI0Cyel84",
+   "state": "scheduled",
+   "date": "2026-11-19T19:00:00+09:00",
+   "publish_at": "2026-11-19T19:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q037",
+   "pkg": "q037_B",
+   "channel": "myeotnyeon",
+   "video_id": "eYhx8a_iC-0",
+   "state": "scheduled",
+   "date": "2026-11-20T12:00:00+09:00",
+   "publish_at": "2026-11-20T12:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q038",
+   "pkg": "q038_B",
+   "channel": "myeotnyeon",
+   "video_id": "CSXpwuByCSk",
+   "state": "scheduled",
+   "date": "2026-11-20T19:00:00+09:00",
+   "publish_at": "2026-11-20T19:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q039",
+   "pkg": "q039_B",
+   "channel": "myeotnyeon",
+   "video_id": "iV8nL9qqG-g",
+   "state": "scheduled",
+   "date": "2026-11-21T12:00:00+09:00",
+   "publish_at": "2026-11-21T12:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q040",
+   "pkg": "q040_B",
+   "channel": "myeotnyeon",
+   "video_id": "KBpo4aKTu7I",
+   "state": "scheduled",
+   "date": "2026-11-15T12:00:00+09:00",
+   "publish_at": "2026-11-15T12:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ],
+   "rescheduled": "2026-11-14 breaking-verdict reorder (CTO)"
+  },
+  {
+   "qid": "q041",
+   "pkg": "q041_B",
+   "channel": "myeotnyeon",
+   "video_id": "i8Quq6xq2mc",
+   "state": "replaced",
+   "date": "2026-11-22T12:00:00+09:00",
+   "publish_at": "2026-11-22T12:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ],
+   "note": "q041 v1; private and unscheduled 2026-11-13, replaced by 924FQKoMMwY (video_v2), not deleted"
+  },
+  {
+   "qid": "q042",
+   "pkg": "q042_B",
+   "channel": "myeotnyeon",
+   "video_id": "mJKRum5JEUk",
+   "state": "replaced",
+   "date": "2026-11-22T19:00:00+09:00",
+   "publish_at": "2026-11-22T19:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ],
+   "note": "replaced by UCjE-_pJn6A (q042 v2 a1ab7a60, CEO PASS 50efd538)"
+  },
+  {
+   "qid": "q043",
+   "pkg": "q043_B",
+   "channel": "myeotnyeon",
+   "video_id": "ylkOaQYbzEU",
+   "state": "scheduled",
+   "date": "2026-11-23T12:00:00+09:00",
+   "publish_at": "2026-11-23T12:00:00+09:00",
+   "evidence": [
+    "owner task 2026-11-13; YouTube Data API videos.list 2026-11-13 (status+snippet)"
+   ]
+  },
+  {
+   "qid": "q041",
+   "pkg": "q041_B",
+   "channel": "myeotnyeon",
+   "video_id": "924FQKoMMwY",
+   "state": "replaced",
+   "date": "2026-11-22T12:00:00+09:00",
+   "publish_at": "2026-11-22T12:00:00+09:00",
+   "evidence": [
+    "coordinator 2026-11-13: q041 video_v2 replaces i8Quq6xq2mc"
+   ],
+   "recorded_at": "2026-11-13T18:49:13+09:00",
+   "note": "replaced by oQWJKw6MwUg (q041 v3 4268b19d, CEO PASS 50efd538)"
+  },
+  {
+   "qid": "q044",
+   "pkg": "q044_B",
+   "channel": "myeotnyeon",
+   "video_id": "miHCdIHhB80",
+   "state": "scheduled",
+   "date": "2026-11-23T19:00:00+09:00",
+   "publish_at": "2026-11-23T19:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-13T18:57:55+09:00"
+  },
+  {
+   "qid": "en001",
+   "pkg": "en001_B",
+   "channel": "guessthesentence",
+   "video_id": "SPtzHJRqAyk",
+   "state": "replaced",
+   "date": "2026-11-14T09:00:00+09:00",
+   "publish_at": "2026-11-14T09:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-13T19:16:35+09:00",
+   "note": "held private 11-13 by CEO order pending review; not deleted"
+  },
+  {
+   "qid": "q046",
+   "pkg": "q046_B",
+   "channel": "myeotnyeon",
+   "video_id": "qKrUdihjWUk",
+   "state": "scheduled",
+   "date": "2026-11-24T19:00:00+09:00",
+   "publish_at": "2026-11-24T19:00:00+09:00",
+   "evidence": [
+    "CEO PASS buzz 1794578337; sha256 8ad31ccc191a (prefix; full hash in the package); Studio sch 2026. 11. 24. 오후 7:00 GMT+0900"
+   ],
+   "recorded_at": "2026-11-13T23:46:26+09:00"
+  },
+  {
+   "qid": "q045",
+   "pkg": "q045_B",
+   "channel": "myeotnyeon",
+   "video_id": "Mg81LJ8Lkjo",
+   "state": "scheduled",
+   "date": "2026-11-14T19:00:00+09:00",
+   "publish_at": "2026-11-14T19:00:00+09:00",
+   "evidence": [
+    "CEO conditional PASS buzz 1794578321 + CTO verified L12 fix; sha256 61e73de2cb1d (prefix; full hash in the package)"
+   ],
+   "recorded_at": "2026-11-13T23:59:31+09:00",
+   "rescheduled": "2026-11-14 breaking-verdict reorder (CTO)"
+  },
+  {
+   "qid": "upload/pkg/q041",
+   "pkg": "upload/pkg/q041_B",
+   "channel": "myeotnyeon",
+   "video_id": "oQWJKw6MwUg",
+   "state": "scheduled",
+   "date": "2026-11-22T12:00:00+09:00",
+   "publish_at": "2026-11-22T12:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-14T03:40:16+09:00"
+  },
+  {
+   "qid": "upload/pkg/q042",
+   "pkg": "upload/pkg/q042_B",
+   "channel": "myeotnyeon",
+   "video_id": "UCjE-_pJn6A",
+   "state": "scheduled",
+   "date": "2026-11-22T19:00:00+09:00",
+   "publish_at": "2026-11-22T19:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-14T03:40:16+09:00"
+  },
+  {
+   "qid": "upload/pkg/en002",
+   "pkg": "upload/pkg/en002_B",
+   "channel": "guessthesentence",
+   "video_id": "kc1r5cK0UhA",
+   "state": "scheduled",
+   "date": "2026-11-14T09:00:00+09:00",
+   "publish_at": "2026-11-14T09:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-14T03:47:55+09:00"
+  },
+  {
+   "qid": "upload/pkg/q047",
+   "pkg": "upload/pkg/q047_B",
+   "channel": "myeotnyeon",
+   "video_id": "5hh6BcTlXrw",
+   "state": "scheduled",
+   "date": "2026-11-25T12:00:00+09:00",
+   "publish_at": "2026-11-25T12:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-14T07:11:21+09:00"
+  },
+  {
+   "qid": "upload/pkg/bc001",
+   "pkg": "upload/pkg/bc001_B",
+   "channel": "beastclash",
+   "video_id": "3GEeGnyFLFo",
+   "state": "scheduled",
+   "date": "2026-11-14T09:00:00+09:00",
+   "publish_at": "2026-11-14T09:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-14T07:28:09+09:00"
+  },
+  {
+   "qid": "upload/pkg/bc002",
+   "pkg": "upload/pkg/bc002_B",
+   "channel": "beastclash",
+   "video_id": "27u6CEWwNwA",
+   "state": "scheduled",
+   "date": "2026-11-15T09:00:00+09:00",
+   "publish_at": "2026-11-15T09:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-14T07:28:09+09:00"
+  },
+  {
+   "qid": "upload/pkg/bc003",
+   "pkg": "upload/pkg/bc003_B",
+   "channel": "beastclash",
+   "video_id": "IyK0n7mM2Cg",
+   "state": "scheduled",
+   "date": "2026-11-16T09:00:00+09:00",
+   "publish_at": "2026-11-16T09:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-14T07:28:09+09:00"
+  },
+  {
+   "qid": "upload/pkg/ja002",
+   "pkg": "upload/pkg/ja002_B",
+   "channel": "nannenderu",
+   "video_id": "iUWOo3grqdo",
+   "state": "scheduled",
+   "date": "2026-11-14T19:00:00+09:00",
+   "publish_at": "2026-11-14T19:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-14T08:25:05+09:00"
+  },
+  {
+   "qid": "upload/pkg/ja003",
+   "pkg": "upload/pkg/ja003_B",
+   "channel": "nannenderu",
+   "video_id": "LZBd-JECvXY",
+   "state": "scheduled",
+   "date": "2026-11-15T19:00:00+09:00",
+   "publish_at": "2026-11-15T19:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-14T08:25:05+09:00"
+  },
+  {
+   "qid": "upload/pkg/en003",
+   "pkg": "upload/pkg/en003_B",
+   "channel": "guessthesentence",
+   "video_id": "VEXVWQO9Pi4",
+   "state": "scheduled",
+   "date": "2026-11-15T09:00:00+09:00",
+   "publish_at": "2026-11-15T09:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-14T08:33:06+09:00"
+  },
+  {
+   "qid": "upload/pkg/en001",
+   "pkg": "upload/pkg/en001_B",
+   "channel": "guessthesentence",
+   "video_id": "d8A9ioMx_rs",
+   "state": "scheduled",
+   "date": "2026-11-16T09:00:00+09:00",
+   "publish_at": "2026-11-16T09:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-14T08:46:33+09:00"
+  },
+  {
+   "qid": "upload/pkg/ja001",
+   "pkg": "upload/pkg/ja001_B",
+   "channel": "nannenderu",
+   "video_id": "sCT9jy7FxI8",
+   "state": "scheduled",
+   "date": "2026-11-16T19:00:00+09:00",
+   "publish_at": "2026-11-16T19:00:00+09:00",
+   "evidence": [],
+   "recorded_at": "2026-11-14T09:22:46+09:00"
+  },
+  {
+   "qid": "q049",
+   "pkg": "q049_B",
+   "channel": "myeotnyeon",
+   "video_id": "IuXTwnYTo6I",
+   "state": "scheduled",
+   "date": "2026-11-17T12:00:00+09:00",
+   "publish_at": "2026-11-17T12:00:00+09:00",
+   "evidence": [
+    "readback private publishAt 2026-11-17T03:00:00Z processed; sha fb746454; CEO PASS msg_dd99060a"
+   ],
+   "recorded_at": "2026-11-14T16:24:29+09:00"
+  },
+  {
+   "qid": "bc004",
+   "pkg": "bc004_B",
+   "channel": "beastclash",
+   "video_id": "h_63eLF2bPY",
+   "state": "scheduled",
+   "date": "2026-11-17T09:00:00+09:00",
+   "publish_at": "2026-11-17T09:00:00+09:00",
+   "evidence": [
+    "readback private publishAt 2026-11-17T00:00:00Z processed; sha 7e49ff1e; CEO conditional PASS msg_174ae432"
+   ],
+   "recorded_at": "2026-11-14T18:48:22+09:00"
+  },
+  {
+   "qid": "bc005",
+   "pkg": "bc005_B",
+   "channel": "beastclash",
+   "video_id": "WkPu82Hmzz4",
+   "state": "scheduled",
+   "date": "2026-11-18T09:00:00+09:00",
+   "publish_at": "2026-11-18T09:00:00+09:00",
+   "evidence": [
+    "readback private publishAt 2026-11-18T00:00:00Z processed; sha 8761a0c16fa0; CEO conditional PASS msg_7e006f96"
+   ],
+   "recorded_at": "2026-11-14T22:21:07+09:00"
+  }
+ ]
+}

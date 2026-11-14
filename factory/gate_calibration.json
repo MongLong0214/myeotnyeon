@@ -1,0 +1,43 @@
+{
+  "false_fail_counts": {
+    "A1": 0,
+    "A2": 0,
+    "A3": 0,
+    "B1": 0,
+    "B2": 0,
+    "B3": 0,
+    "B4": 0,
+    "B5": 0,
+    "C1": 0,
+    "C2": 1,
+    "C3": 1,
+    "C4": 0,
+    "D1": 0,
+    "D2": 1,
+    "D3": 1,
+    "E1": 0,
+    "E2": 0,
+    "E3": 0,
+    "F1": 0,
+    "F2": 0,
+    "F3": 0,
+    "F4": 0,
+    "G1": 0,
+    "G2": 0
+  },
+  "advisory_gates": [
+    "C2",
+    "C3",
+    "D2",
+    "D3"
+  ],
+  "accepted_short_report": "/Users/isaac/projects/verdict-kr/work/factory/review_runs/gate_calibration_002/accepted_short/qa.json",
+  "ground_truth_report": "/Users/isaac/projects/verdict-kr/work/factory/review_runs/gate_calibration_002/ground_truth.json",
+  "ground_truth_character_errors": 0,
+  "known_bad_report": "/Users/isaac/projects/verdict-kr/work/factory/review_runs/gate_calibration_002/known_bad.json",
+  "known_bad_all_fail": true,
+  "scope": "False-FAIL counts: automatic DECIDED defects on owner-accepted published Shorts plus C3 character-presence ground truth (14 shots). Unlabelled long-form gates are not assumed clean.",
+  "network": false,
+  "uploads": false,
+  "c1_final_recheck": "C1 rerun with final code on hash-bound delivered ASR/audio and script TTS cues; remaining gates retain the complete cached-ASR/OCR/frame rerun."
+}

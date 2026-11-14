@@ -1,0 +1,323 @@
+{
+ "qid": "q038",
+ "variant": "B3",
+ "b3": true,
+ "look": "full2",
+ "grave": false,
+ "kind": "bus",
+ "number_label": "",
+ "stage": "bus",
+ "cover_text": "'앉아 주세요'에\n버스기사 폭행",
+ "defendant": "official",
+ "choices": [
+  "벌금 1,000만 원",
+  "집행유예",
+  "징역 2년 6개월"
+ ],
+ "correct": 2,
+ "answer": "징역 2년 6개월",
+ "answer_label": "항소심 · 원심 유지",
+ "opinion": "이 형량,\n가볍다 / 적당 / 무겁다?",
+ "option_offsets": [
+  0.0,
+  1.0,
+  1.78
+ ],
+ "hook_text": [
+  "'앉아 주세요'에",
+  "버스기사 폭행"
+ ],
+ "sfx": [
+  [
+   "bus",
+   0,
+   "thud"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ],
+  [
+   "kick",
+   6,
+   "thud"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L02",
+   "at": 0.45,
+   "big": "아침 9시 5분",
+   "small": "2026년 3월 1일 · 홍천 시내버스",
+   "calc": "부산일보·서울신문: 3월 1일 오전 9시 5분께 홍천군 영귀미면 시내버스"
+  },
+  {
+   "line": "L05",
+   "at": 0.5,
+   "big": "10분 = 600초",
+   "small": "폭행 시간 · 전치 2주",
+   "calc": "10 × 60 = 600초 (보도: 약 10분 동안 폭행, 전치 2주)"
+  },
+  {
+   "line": "L06",
+   "at": 0.5,
+   "big": "누범 기간 중 범행",
+   "small": "운전자 폭행·공무집행방해 전력",
+   "calc": "부산일보: 운전자 폭행과 공무집행방해죄 등으로 인한 누범 기간"
+  },
+  {
+   "line": "L12",
+   "at": 0.05,
+   "big": "30개월 ≈ 913일",
+   "small": "징역 2년 6개월",
+   "calc": "2×12+6 = 30개월; 30 × 30.44 = 913일"
+  },
+  {
+   "line": "L12",
+   "at": 0.55,
+   "big": "작년 11월엔 경찰관 폭행",
+   "small": "식당 소란 · 함께 기소",
+   "calc": "서울신문: 지난해 11월 식당 소란, 출동 경찰관 폭행(공무집행방해)"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "bus",
+   "tts": "앉아 주세요에, 폭행.",
+   "shown": "앉아 주세요에, 폭행.",
+   "chunks": [
+    "앉아 주세요에,",
+    "폭행."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "bus"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "이 육십 대, 몇 년 나왔을까요?",
+   "shown": "이 60대, 몇 년 나왔을까요?",
+   "chunks": [
+    "이 60대,",
+    "몇 년 나왔을까요?"
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "react",
+     "look": "official",
+     "expr": "angry",
+     "move": "shake",
+     "y": 2090
+    },
+    {
+     "s": "calendar",
+     "year": "2026",
+     "month": 3
+    }
+   ],
+   "actor": "official"
+  },
+  {
+   "id": "L03",
+   "mode": "guess",
+   "tts": "술에 취했었다니, 집행유예 나올 것 같지만,",
+   "shown": "술에 취했었다니, 집행유예 나올 것 같지만,",
+   "chunks": [
+    "술에 취했었다니,",
+    "집행유예 나올 것",
+    "같지만,"
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "bubble",
+     "lines": [
+      "집행유예?",
+      "취했었다는데…"
+     ],
+     "size": 140
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "그런데 실제 판결은, 실형이었습니다.",
+   "shown": "그런데 실제 판결은, 실형이었습니다.",
+   "chunks": [
+    "그런데 실제 판결은,",
+    "실형이었습니다."
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "판결"
+     ],
+     "stamp": "실형"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "mode": "kick",
+   "tts": "달리는 버스에서, 십 분 동안 발길질했고,",
+   "shown": "달리는 버스에서, 10분 동안 발길질했고,",
+   "chunks": [
+    "달리는 버스에서,",
+    "10분 동안 발길질했고,"
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "react",
+     "look": "driver",
+     "expr": "scared",
+     "move": "recoil",
+     "y": 2090,
+     "other": true
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "10분 폭행",
+      "전치 2주"
+     ],
+     "size": 96
+    }
+   ],
+   "actor": "official"
+  },
+  {
+   "id": "L06",
+   "mode": "past",
+   "tts": "폭행 전력도 여러 번, 누범 기간이었습니다.",
+   "shown": "폭행 전력도 여러 번, 누범 기간이었습니다.",
+   "chunks": [
+    "폭행 전력도 여러 번,",
+    "누범 기간이었습니다."
+   ],
+   "fact": "F3",
+   "shots": [
+    {
+     "s": "tally",
+     "n": 5,
+     "label": "폭력 전력"
+    },
+    {
+     "s": "react",
+     "look": "official",
+     "expr": "smug",
+     "move": "nod",
+     "y": 2090
+    }
+   ],
+   "actor": "official"
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "항소심 형량은?",
+   "shown": "항소심 형량은?",
+   "chunks": [
+    "항소심 형량은?"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "벌금 천만 원, 집행유예, 징역 이 년 육 개월.",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "target": 5.6,
+   "hold_after": 0.45
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "정답 씨, 징역 이 년 육 개월.",
+   "shown": "정답 C, 징역 2년 6개월.",
+   "chunks": [
+    "정답 C,",
+    "징역 2년 6개월."
+   ],
+   "fact": "F4",
+   "shots": [],
+   "emphasis": "징역 2년 6개월"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "형이 무겁다며 항소했지만, 원심 그대로.",
+   "shown": "형이 무겁다며 항소했지만, 원심 그대로.",
+   "chunks": [
+    "형이 무겁다며",
+    "항소했지만,",
+    "원심 그대로."
+   ],
+   "fact": "F5",
+   "shots": [
+    {
+     "s": "cell",
+     "look": "official",
+     "expr": "concern"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "항소"
+     ],
+     "stamp": "기각",
+     "size": 100
+    }
+   ],
+   "actor": "official"
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "가볍다 적당 무겁다?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [
+    {
+     "s": "react",
+     "look": "official",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "hold_after": 0.3,
+   "actor": "official"
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "그날 아침 버스에서, 그가 들은 말은,",
+   "shown": "그날 아침 버스에서, 그가 들은 말은,",
+   "chunks": [
+    "그날 아침 버스에서,",
+    "그가 들은 말은,"
+   ],
+   "fact": "F1",
+   "shots": []
+  }
+ ]
+}

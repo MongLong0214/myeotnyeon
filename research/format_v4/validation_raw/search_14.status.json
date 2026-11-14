@@ -1,0 +1,24 @@
+{
+  "started_at_kst": "2026-10-26T19:02:27+09:00",
+  "finished_at_kst": "2026-10-26T19:02:30+09:00",
+  "command": [
+    "/Users/isaac/.local/bin/yt-dlp",
+    "--ignore-config",
+    "--no-cookies",
+    "--no-warnings",
+    "--socket-timeout",
+    "25",
+    "--retries",
+    "1",
+    "--extractor-retries",
+    "1",
+    "--extractor-args",
+    "youtube:lang=ko",
+    "--flat-playlist",
+    "--dump-json",
+    "ytsearch50:실화 애니메이션 범죄"
+  ],
+  "exit_code": 0,
+  "error": "",
+  "rows": 50
+}

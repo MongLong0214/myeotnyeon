@@ -1,0 +1,5 @@
+file: t.mp4
+duration: 6.00s  size: 640x360  fps: 25.00  audio: no
+contact sheet: qa/t-sheet.png (4x3, one cell every 0.50s)
+shot changes (1): 3.04
+average shot length: 3.00s

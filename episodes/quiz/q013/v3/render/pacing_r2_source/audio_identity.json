@@ -1,0 +1,24 @@
+{
+  "base": "/Users/isaac/projects/verdict-kr/work/upload/v52_q013_n16_unslop.mp4",
+  "output": "/Users/isaac/projects/verdict-kr/work/upload/v52_q013_n16_v3.mp4",
+  "method": "ffmpeg video copy + original AAC stream copy; no audio encoding/mix",
+  "aac_adts_sha256": {
+    "base": "44c749cb295ef88e60ea501ae427e74e861c3b564efd052a9c20fd95fdd0b756",
+    "v3": "44c749cb295ef88e60ea501ae427e74e861c3b564efd052a9c20fd95fdd0b756"
+  },
+  "decoded_pcm_s16le_sha256": {
+    "base": "b5e7d760412c38a3588ac191e98eb51c7864662fd5049f70b95c8dadd0562619",
+    "v3": "b5e7d760412c38a3588ac191e98eb51c7864662fd5049f70b95c8dadd0562619"
+  },
+  "audio_packet_count": {
+    "base": 1252,
+    "v3": 1252
+  },
+  "packet_payloads_and_pts_dts_durations_identical": true,
+  "encoded_audio_identical": true,
+  "decoded_audio_identical": true,
+  "output_mp4_sha256": "4df6a17bca5f2e3922266e56af89d0761a6a6dc636cbd9a8e2f506dbb692e971",
+  "base_mp4_sha256": "f06246356a9d1656dffc639cea5093a0770d4f3a95b8fb04f94fe4c661cd1de5",
+  "previous_version": "/Users/isaac/projects/verdict-kr/work/upload/v52_q013_n16_v3_r1.mp4",
+  "previous_mp4_sha256": "6dfab565d262a52d719d3054311ebac54f65309c549bf467d07aa5feb0ee70c0"
+}

@@ -1,0 +1,117 @@
+{
+  "method": "Final MP4 AAC decoded at 8 kHz, matched against final mixed PCM; 2-second windows, ±300 ms search. Chapter labels floor decoded 30fps frame PTS.",
+  "video": "episodes/v4/n18/cartoon_v6/n18_cartoon_v6fix2_1080p.mp4",
+  "audio_reference": "episodes/v4/n18/cartoon_v6/public_v6fix2/mix.wav",
+  "checks": [
+    {
+      "frame": 0,
+      "expected_s": 0.0,
+      "decoded_video_pts_s": 0.0,
+      "measured_audio_s": 0.0,
+      "lag_ms": 0.0,
+      "correlation": 0.999945,
+      "chapter": "00:00",
+      "title": "훈련병의 쓰러짐과 학대치사"
+    },
+    {
+      "frame": 348,
+      "expected_s": 11.6,
+      "decoded_video_pts_s": 11.6,
+      "measured_audio_s": 11.6,
+      "lag_ms": 0.0,
+      "correlation": 0.999978,
+      "chapter": "00:11",
+      "title": "빠진 절차와 책으로 채운 군장"
+    },
+    {
+      "frame": 1264,
+      "expected_s": 42.133333,
+      "decoded_video_pts_s": 42.133333,
+      "measured_audio_s": 42.13325,
+      "lag_ms": -0.083,
+      "correlation": 0.999948,
+      "chapter": "00:42",
+      "title": "군기훈련 시작부터 쓰러질 때까지"
+    },
+    {
+      "frame": 2293,
+      "expected_s": 76.433333,
+      "decoded_video_pts_s": 76.433333,
+      "measured_audio_s": 76.43325,
+      "lag_ms": -0.083,
+      "correlation": 0.999976,
+      "chapter": "01:16",
+      "title": "병원 이송과 이틀 뒤 사망"
+    },
+    {
+      "frame": 3584,
+      "expected_s": 119.466667,
+      "decoded_video_pts_s": 119.466667,
+      "measured_audio_s": 119.466625,
+      "lag_ms": -0.042,
+      "correlation": 0.999946,
+      "chapter": "01:59",
+      "title": "법정에 선 동료들의 증언"
+    },
+    {
+      "frame": 4808,
+      "expected_s": 160.266667,
+      "decoded_video_pts_s": 160.266667,
+      "measured_audio_s": 160.266625,
+      "lag_ms": -0.042,
+      "correlation": 0.999983,
+      "chapter": "02:40",
+      "title": "기소와 검찰 구형"
+    },
+    {
+      "frame": 5361,
+      "expected_s": 178.7,
+      "decoded_video_pts_s": 178.7,
+      "measured_audio_s": 178.7,
+      "lag_ms": 0.0,
+      "correlation": 0.999928,
+      "chapter": "02:58",
+      "title": "1심 유죄와 교육 목적 참작"
+    },
+    {
+      "frame": 6267,
+      "expected_s": 208.9,
+      "decoded_video_pts_s": 208.9,
+      "measured_audio_s": 208.9,
+      "lag_ms": -0.0,
+      "correlation": 0.999955,
+      "chapter": "03:28",
+      "title": "항소심에서 달라진 판단"
+    },
+    {
+      "frame": 7129,
+      "expected_s": 237.633333,
+      "decoded_video_pts_s": 237.633333,
+      "measured_audio_s": 237.63325,
+      "lag_ms": -0.083,
+      "correlation": 0.99996,
+      "chapter": "03:57",
+      "title": "중대장 징역 5년 6개월 확정"
+    },
+    {
+      "frame": 7521,
+      "expected_s": 250.7,
+      "decoded_video_pts_s": 250.7,
+      "measured_audio_s": 250.7,
+      "lag_ms": 0.0,
+      "correlation": 0.999982,
+      "chapter": "04:10",
+      "title": "군이 발표한 재발방지 대책"
+    },
+    {
+      "frame": 8912,
+      "expected_s": 297.066667,
+      "decoded_video_pts_s": 297.066667,
+      "measured_audio_s": 297.066625,
+      "lag_ms": -0.042,
+      "correlation": 0.999965,
+      "chapter": "04:57",
+      "title": "명예수료증과 비어 있는 자리"
+    }
+  ]
+}

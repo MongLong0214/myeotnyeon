@@ -1,0 +1,198 @@
+{
+ "episode_id": "q010",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 대구지법 2026년 1심(국민참여재판)",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "층간소음 때문이라며, 20대 남성이 아파트 엘리베이터에서 윗집 50대 이웃을 살해했습니다."
+   ],
+   "claim_ids": [
+    "V2-08_1",
+    "V2-08_2"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "set": "hallway",
+    "actors": [
+     {
+      "look": "hoodie",
+      "x": 500,
+      "y": 900,
+      "scale": 0.95,
+      "expr": "serious"
+     }
+    ],
+    "tags": [
+     {
+      "text": "20대 아랫집 남성",
+      "x": 500,
+      "y": 40,
+      "color": "#141414"
+     }
+    ]
+   }
+  },
+  {
+   "cue_id": "C2",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "이 남성은 방음부스에 1,270만 원을 들였는데도 소음이 계속됐다고 주장했죠."
+   ],
+   "claim_ids": [
+    "V2-08_2",
+    "V2-08_3"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "bigtext",
+    "big": "1,270만",
+    "bigSub": "방음부스 설치 · 본인 주장",
+    "bigAt": -6,
+    "bigBg": "#2A2D38"
+   }
+  },
+  {
+   "cue_id": "C3",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "하지만 법원은, 그 소음이 모두 윗집에서 났다고 단정하기 어렵다고 봤습니다."
+   ],
+   "claim_ids": [
+    "V2-08_1",
+    "V2-08_3"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "set": "hallway",
+    "tags": [
+     {
+      "text": "엘리베이터에 배관 소음 안내문",
+      "x": 500,
+      "y": 40,
+      "color": "#2D3F73",
+      "at": 30,
+      "size": 36
+     }
+    ],
+    "stamp": {
+     "lines": [
+      "소음 출처",
+      "단정 어려움"
+     ],
+     "x": 500,
+     "y": 420,
+     "at": 40,
+     "size": 104,
+     "maxW": 560,
+     "color": "#141414",
+     "rot": -3
+    }
+   }
+  },
+  {
+   "cue_id": "C4",
+   "act": "quiz",
+   "block_name": "quiz",
+   "narration": [
+    "자, 몇 년 받았을까요?",
+    "15년일까요, 20년일까요, 아니면 25년일까요?"
+   ],
+   "claim_ids": [],
+   "pad_s": 3.2,
+   "note": "",
+   "p": {}
+  },
+  {
+   "cue_id": "C5",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "정답은, 징역 25년. 검찰 구형 20년보다 무거웠습니다."
+   ],
+   "claim_ids": [
+    "V2-08_1"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "lines": [
+     "징역 25년",
+     "구형 20년보다 무거움"
+    ]
+   }
+  },
+  {
+   "cue_id": "C6",
+   "act": "reason",
+   "block_name": "reason",
+   "narration": [
+    "배심원 7명 중 5명은 징역 30년 의견이었고, 반성하지 않는 태도가 가중 사유가 됐어요."
+   ],
+   "claim_ids": [
+    "V2-08_1",
+    "V2-08_2"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "title": "무거운 이유",
+    "chips": [
+     "배심원 5명: 징역 30년 의견",
+     "반성하지 않는 태도"
+    ],
+    "colors": [
+     "#F0433A",
+     "#F0433A"
+    ]
+   }
+  },
+  {
+   "cue_id": "C7",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "피해자의 딸은, 평소 슬리퍼를 신고 소음방지 매트까지 깔았다고 말했습니다."
+   ],
+   "claim_ids": [
+    "V2-08_1",
+    "V2-08_3"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "set": "memorial",
+    "tags": [
+     {
+      "text": "피해자 딸 법정 진술",
+      "x": 500,
+      "y": 40,
+      "color": "#141414",
+      "at": 0,
+      "size": 36
+     }
+    ]
+   }
+  },
+  {
+   "cue_id": "C8",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 1.2,
+   "note": "",
+   "p": {}
+  }
+ ]
+}

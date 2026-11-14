@@ -1,0 +1,20 @@
+Asset: Mesh2Motion human animation GLBs
+Repo   : https://github.com/Mesh2Motion/mesh2motion-app (public, no login), files fetched 2026-10-25 via
+         raw.githubusercontent.com/Mesh2Motion/mesh2motion-app/main/static/animations/
+Source blends: https://github.com/Mesh2Motion/mesh2motion-assets (LICENSE = CC0 1.0 legal code)
+
+LICENSE-CC0.MD in the app repo, verbatim:
+  "All 3d models, blend files, rigs, animations
+
+   CC0 1.0 Universal
+   By marking the work with a CC0 public domain dedication, the creator is giving up their copyright
+   and allowing reusers to distribute, remix, adapt, and build upon the material in any medium or format,
+   even for commercial purposes."
+
+README.md "Licenses", verbatim:
+  "The code and platform are all licensed under the very permissive MIT license. The art assets
+   (3d models, rigs, animations) are all licensed under CC0."
+
+Evidence copies in ./evidence/: LICENSE-CC0.MD, README.md, mocap_README.md, assets_LICENSE (CC0 legal code).
+
+Verdict: ALLOWED (CC0). Quality is game-level - fallback use only.

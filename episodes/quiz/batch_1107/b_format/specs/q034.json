@@ -1,0 +1,323 @@
+{
+ "qid": "q034",
+ "variant": "B3",
+ "b3": true,
+ "look": "full2",
+ "grave": false,
+ "kind": "ai",
+ "number_label": "",
+ "stage": "forge",
+ "cover_text": "AI로 잔고 위조\n판사까지 속이면?",
+ "defendant": "suit",
+ "choices": [
+  "징역 5년",
+  "징역 6년",
+  "징역 7년"
+ ],
+ "correct": 2,
+ "answer": "징역 7년",
+ "answer_label": "1심",
+ "opinion": "이 형량,\n가볍다 / 적당 / 무겁다?",
+ "option_offsets": [
+  0.0,
+  0.66,
+  1.0
+ ],
+ "hook_text": [
+  "잔고 23원을",
+  "9억으로"
+ ],
+ "sfx": [
+  [
+   "forge",
+   0,
+   "thud"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ],
+  [
+   "fooled",
+   6,
+   "knock"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L02",
+   "at": 0.35,
+   "big": "23원 → 9억 원",
+   "small": "AI로 만든 잔액증명서",
+   "calc": "노컷뉴스: 실제 잔액 23원 계좌에 9억 원 상당이 있는 것처럼 조작"
+  },
+  {
+   "line": "L05",
+   "at": 0.55,
+   "big": "치킨 18,850마리",
+   "small": "가로챈 3억 7,700만 원",
+   "calc": "377,000,000 ÷ 20,000 = 18,850 (치킨 한 마리 2만 원 가정)"
+  },
+  {
+   "line": "L05",
+   "at": 0.15,
+   "big": "7개월 · 피해자 2명",
+   "small": "2025년 7월 ~ 2026년 1월",
+   "calc": "2025-07 ~ 2026-01 = 7개월(양 끝 달 포함)"
+  },
+  {
+   "line": "L06",
+   "at": 0.55,
+   "big": "의사 합격증까지 위조",
+   "small": "+ 불기소 이유통지서(공문서)",
+   "calc": "노컷뉴스: 의사 국가시험 합격증·가상화폐 거래내역, 공문서인 불기소 이유통지서까지 위조"
+  },
+  {
+   "line": "L12",
+   "at": 0.05,
+   "big": "구형 +1년",
+   "small": "징역 6년 → 7년",
+   "calc": "7 − 6 = 1년"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "forge",
+   "tts": "이십삼 원을, 구억으로.",
+   "shown": "23원을, 9억으로.",
+   "chunks": [
+    "23원을,",
+    "9억으로."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "forge"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "이 남자, 몇 년 나왔을까요?",
+   "shown": "이 남자, 몇 년 나왔을까요?",
+   "chunks": [
+    "이 남자,",
+    "몇 년 나왔을까요?"
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "react",
+     "look": "suit",
+     "expr": "smug",
+     "move": "nod",
+     "y": 2090
+    },
+    {
+     "s": "calendar",
+     "year": "2026",
+     "month": 11
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "mode": "guess",
+   "tts": "구형은 징역 육 년, 그대로 나올 것 같지만,",
+   "shown": "구형은 징역 6년, 그대로 나올 것 같지만,",
+   "chunks": [
+    "구형은 징역 6년,",
+    "그대로 나올 것",
+    "같지만,"
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "prosecutor"
+    },
+    {
+     "s": "bubble",
+     "lines": [
+      "6년?",
+      "구형대로…"
+     ],
+     "size": 150
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "그런데 실제 판결은, 구형보다 무거운 칠 년.",
+   "shown": "그런데 실제 판결은, 구형보다 무거운 7년.",
+   "chunks": [
+    "그런데 실제 판결은,",
+    "구형보다 무거운 7년."
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "구형 6년"
+     ],
+     "stamp": "+1년",
+     "size": 90
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "mode": "doctor",
+   "tts": "의사 행세로 삼억 칠천칠백만 원을 가로챘고,",
+   "shown": "의사 행세로 3억 7,700만 원을 가로챘고,",
+   "chunks": [
+    "의사 행세로",
+    "3억 7,700만 원을",
+    "가로챘고,"
+   ],
+   "fact": "F2",
+   "shots": [
+    {
+     "s": "money",
+     "n": 3,
+     "nolabel": true
+    },
+    {
+     "s": "react",
+     "look": "passenger",
+     "expr": "shock",
+     "move": "recoil",
+     "y": 2090
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "mode": "fooled",
+   "tts": "구속 심사에선 위조한 잔고로 판사까지 속였습니다.",
+   "shown": "구속 심사에선 위조한 잔고로 판사까지 속였습니다.",
+   "chunks": [
+    "구속 심사에선",
+    "위조한 잔고로",
+    "판사까지 속였습니다."
+   ],
+   "fact": "F3",
+   "shots": [
+    {
+     "s": "paper",
+     "lines": [
+      "잔액증명서",
+      "₩900,000,000"
+     ],
+     "size": 80
+    },
+    {
+     "s": "react",
+     "look": "judge",
+     "expr": "shock",
+     "move": "recoil",
+     "y": 2090
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "일심 형량은?",
+   "shown": "1심 형량은?",
+   "chunks": [
+    "1심 형량은?"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "징역 오 년, 육 년, 칠 년.",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "target": 5.6,
+   "hold_after": 0.45
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "정답 씨, 징역 칠 년.",
+   "shown": "정답 C, 징역 7년.",
+   "chunks": [
+    "정답 C,",
+    "징역 7년."
+   ],
+   "fact": "F4",
+   "shots": [],
+   "emphasis": "징역 7년"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "판사는 범행 수법이 너무 위험하다고 봤습니다.",
+   "shown": "판사는 범행 수법이 너무 위험하다고 봤습니다.",
+   "chunks": [
+    "판사는",
+    "범행 수법이",
+    "너무 위험하다고 봤습니다."
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "cell",
+     "look": "suit",
+     "expr": "shock"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "위조 수법"
+     ],
+     "stamp": "위험",
+     "size": 90
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "가볍다 적당 무겁다?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [
+    {
+     "s": "react",
+     "look": "suit",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "hold_after": 0.3
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "AI로 그가 처음 만든 건,",
+   "shown": "AI로 그가 처음 만든 건,",
+   "chunks": [
+    "AI로 그가",
+    "처음 만든 건,"
+   ],
+   "fact": "F1",
+   "shots": []
+  }
+ ]
+}

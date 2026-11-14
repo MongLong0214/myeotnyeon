@@ -1,0 +1,6 @@
+{
+ "_about": "Deterministic rewrites tried in order when whisper keeps mishearing a line after 3 rounds of takes. [from, to]; meaning must not change. Add pairs only after a real mishearing, with the episode id in git log.",
+ "ko": [["이었습니다", "였습니다"], ["였습니다", "이었습니다"], ["챙겼고", "가져갔고"], ["빼돌린", "가로챈"], ["나왔을까요", "받았을까요"], ["갚았으니", "갚았으니까"], ["위조만", "위조가"], ["그런데", "하지만"], ["실형", "징역형"], ["약 ", ""], ["만 원", "만원"]],
+ "en": [["pleaded guilty to", "admitted"], ["individual", "person"], ["felony charges", "felonies"], ["Prosecutors", "The prosecutors"], ["in jail", "behind bars"], ["probation", "supervised release"]],
+ "ja": [["持ち去りました", "持って行きました"], ["実刑判決", "実刑"], ["使っていました", "使いました"]]
+}

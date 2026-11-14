@@ -1,0 +1,111 @@
+{
+  "template": {
+    "video": "/Users/isaac/projects/verdict-kr/work/upload/v52_q013_n16_v3.mp4",
+    "sha256": "c6202356d56d30a42f21e1cca4aabedbb4dfc539b79826b65621145714c81c95",
+    "source": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/v3/src"
+  },
+  "shots": [
+    {
+      "from_frame": 0,
+      "to_frame": 81,
+      "mode": "snack",
+      "text": "사백오십 원짜리 초코파이가 형사재판까지 갔습니다."
+    },
+    {
+      "from_frame": 81,
+      "to_frame": 158,
+      "mode": "amount",
+      "text": "커스터드 육백 원까지, 합쳐서 천오십 원어치입니다."
+    },
+    {
+      "from_frame": 158,
+      "to_frame": 229,
+      "mode": "first",
+      "text": "일심은 절도죄로 벌금 오만 원을 선고했습니다."
+    },
+    {
+      "from_frame": 229,
+      "to_frame": 301,
+      "mode": "claim",
+      "text": "피고인은 먹어도 된다는 말을 들었다고 했습니다."
+    },
+    {
+      "from_frame": 301,
+      "to_frame": 377,
+      "mode": "evidence",
+      "text": "동료들도 간식을 나눠 먹던 관행을 진술했습니다."
+    },
+    {
+      "from_frame": 377,
+      "to_frame": 442,
+      "mode": "factor",
+      "text": "항소심 쟁점은 훔칠 고의가 있었냐는 겁니다."
+    },
+    {
+      "from_frame": 442,
+      "to_frame": 556,
+      "mode": "choices",
+      "text": "최종 판결은 벌금일까요, 선고유예일까요, 무죄일까요? 댓글로 골라보세요."
+    },
+    {
+      "from_frame": 556,
+      "to_frame": 624,
+      "mode": "answer",
+      "text": "항소심 무죄. 검찰 상고 포기로 확정됐습니다."
+    },
+    {
+      "from_frame": 624,
+      "to_frame": 669,
+      "mode": "next",
+      "text": "다음 판결도 맞혀보세요. 구독."
+    }
+  ],
+  "snap_zooms": [
+    {
+      "at": 0,
+      "frames": 3,
+      "reason": "act"
+    },
+    {
+      "at": 556,
+      "frames": 3,
+      "reason": "answer"
+    }
+  ],
+  "choice": {
+    "first": 442,
+    "all_visible": 450,
+    "answer": 556,
+    "selection_seconds": 3.533333333333333,
+    "correct": "C"
+  },
+  "subtitle": {
+    "font": "Quiet Sans / Pretendard ExtraBold",
+    "px": 72,
+    "weight": 800,
+    "outline_px": 10,
+    "center_x": 540,
+    "max_lines": 2,
+    "max_characters": 14,
+    "box_y": [
+      1192,
+      1342
+    ]
+  },
+  "source_hashes": {
+    "render_source/CourtDynamic.tsx": "a696a73e58ed8ee41807a8889c44a68d311c1cb4b92ef86438fed5b621773806",
+    "render_source/FightRig.tsx": "e956b68743083a18fe5e04a2eb8bb74617a4fae274c38fb60318cb104c50de93",
+    "render_source/FightScene.tsx": "a426fbcfcca856e31f5c0d34d8ffe344c8991fac3a4360a579575db02d857357",
+    "render_source/RemakeScenes.tsx": "179da717af8f2dd6460138ecca87d55e8d7950f6600b4c75d0228183afddd7db",
+    "render_source/Scenes.tsx": "b10ac5a6fe42ec9ae5870712cc6c8ec4643b9987c5c5085bc36927f81256893c",
+    "render_source/Standard.tsx": "d8fc193f7c79b23ef8dc019fea31b8eb12a154bcf28c3437073aa56b35523ad6",
+    "render_source/entry.tsx": "23a00bdadc90c07fab94a19b7bb707c080a80e2bc48c4d6cced088a1f2c3dbbb",
+    "render_source/finish_std.py": "c9a20229ed0ac25c7fdd6fdb524247fbfa5b30139f8b25cf7384a7d3d344f737",
+    "render_source/package_std.py": "46165a303cc71178cf02d4cc3568d8f40a63a42ca3e36ea0d45431128f382783",
+    "render_source/prepare_std.py": "dea20da19308c030fa7a3a22f475d14cd85035be22900b3ddf8d653e31093876",
+    "render_source/render.cjs": "5a15fc3ab3225ef0b97d717e689449df41ad6bc1c875f3d74a3bfa3f4b06fb35",
+    "render_source/sources.json": "5cace76f57d8589f53fe8311d689ab93120381338aa4d1ca92a9fcb0edaadf53"
+  },
+  "producer_verdict": null,
+  "CTO_verdict": null
+}

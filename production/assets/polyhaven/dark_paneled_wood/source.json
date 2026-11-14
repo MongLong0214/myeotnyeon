@@ -1,0 +1,19 @@
+{
+ "id": "dark_paneled_wood",
+ "name": "Dark Paneled Wood",
+ "type": 1,
+ "authors": {
+  "Dimitrios Savva": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/dark_paneled_wood",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Textures/blend/2k/dark_paneled_wood/dark_paneled_wood_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/dark_paneled_wood/dark_paneled_wood_diff_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/dark_paneled_wood/dark_paneled_wood_disp_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/dark_paneled_wood/dark_paneled_wood_nor_gl_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/dark_paneled_wood/dark_paneled_wood_rough_2k.exr"
+ ]
+}

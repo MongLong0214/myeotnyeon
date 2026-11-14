@@ -1,0 +1,4 @@
+hf/
+venvs/
+torch_hub/
+*.log

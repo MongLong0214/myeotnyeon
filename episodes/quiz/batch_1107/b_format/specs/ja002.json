@@ -1,0 +1,317 @@
+{
+ "qid": "ja002",
+ "locale": "ja",
+ "variant": "B3",
+ "b3": true,
+ "look": "full2",
+ "grave": false,
+ "engine": "VOICEVOX 0.26.1 (local engine), VOICEVOX:冥鳴ひまり",
+ "voice": "冥鳴ひまり ノーマル (style 14)",
+ "kokoro_speeds": [
+  1.0,
+  1.1,
+  1.2
+ ],
+ "kind": "speed",
+ "number_label": "",
+ "stage": "speed",
+ "cover_text": "首都高144キロ\n罰金で済む？",
+ "defendant": "suit",
+ "choices": [
+  "罰金刑",
+  "拘禁刑3か月・猶予2年",
+  "拘禁刑3か月の実刑"
+ ],
+ "correct": 1,
+ "answer": "拘禁刑3か月・猶予2年",
+ "answer_label": "東京地裁",
+ "opinion": "この判決、\n軽い / 妥当 / 重い？",
+ "option_offsets": [
+  0.0,
+  0.84,
+  2.12
+ ],
+ "hook_text": [
+  "世界的ピアニスト",
+  "首都高144キロ"
+ ],
+ "sfx": [
+  [
+   "speed",
+   0,
+   "whoosh"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ],
+  [
+   "hit",
+   6,
+   "whoosh"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L05",
+   "at": 0.45,
+   "big": "144 − 60 = 84キロ",
+   "small": "制限速度を超えた分",
+   "calc": "144 − 60 = 84（朝日・共同・日経: 制限速度60キロの首都高を時速144キロ、84キロ超過）"
+  },
+  {
+   "line": "L06",
+   "at": 0.4,
+   "big": "2021年 2位",
+   "small": "ショパン国際ピアノコンクール",
+   "calc": "朝日: 2021年ショパン国際ピアノコンクール2位"
+  },
+  {
+   "line": "L12",
+   "at": 0.05,
+   "big": "猶予2年 = 730日",
+   "small": "求刑どおり拘禁刑3か月",
+   "calc": "2 × 365 = 730日。求刑 拘禁刑3月 / 判決 拘禁刑3月・執行猶予2年"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "speed",
+   "tts": "時速百四十四キロ。",
+   "shown": "時速144キロ。",
+   "chunks": [
+    "時速144キロ。"
+   ],
+   "fact": "F2",
+   "target": 9.5,
+   "shots": [
+    {
+     "s": "speed"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "このピアニスト、何年出た？",
+   "shown": "このピアニスト、何年出た？",
+   "chunks": [
+    "このピアニスト、何年出た？"
+   ],
+   "fact": "F3",
+   "shots": [
+    {
+     "s": "calendar",
+     "year": "2025",
+     "month": 12
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "首都高",
+      "中央環状線"
+     ],
+     "size": 110
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "mode": "guess",
+   "tts": "弁護側は、罰金刑を求めました。",
+   "shown": "弁護側は、罰金刑を求めました。",
+   "chunks": [
+    "弁護側は、",
+    "罰金刑を求めました。"
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "bubble",
+     "lines": [
+      "罰金で",
+      "お願いします"
+     ],
+     "size": 130
+    },
+    {
+     "s": "react",
+     "look": "official",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2090
+    }
+   ],
+   "actor": "official"
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "でも、裁判所は退けました。",
+   "shown": "でも、裁判所は退けました。",
+   "chunks": [
+    "でも、裁判所は退けました。"
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "罰金刑の主張"
+     ],
+     "stamp": "退け",
+     "size": 100
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "mode": "hit",
+   "tts": "制限六十キロの道を、八十四キロ超過。",
+   "shown": "制限60キロの道を、84キロ超過。",
+   "chunks": [
+    "制限60キロの道を、",
+    "84キロ超過。"
+   ],
+   "fact": "F2",
+   "shots": [
+    {
+     "s": "speed"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "時速144キロ"
+     ],
+     "stamp": "84超過",
+     "size": 100
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "mode": "past",
+   "tts": "ショパンコンクールで二位のピアニストです。",
+   "shown": "ショパンコンクールで2位の、ピアニストです。",
+   "chunks": [
+    "ショパンコンクールで2位の、",
+    "ピアニストです。"
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "piano"
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "ショパン国際",
+      "コンクール2位"
+     ],
+     "size": 90
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "判決は？",
+   "shown": "判決は？",
+   "chunks": [
+    "判決は？"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "罰金刑、執行猶予、それとも実刑？",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "hold_after": 0.45
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "正解はビー、拘禁刑三か月、執行猶予二年。",
+   "shown": "正解はB、拘禁刑3か月、執行猶予2年。",
+   "chunks": [
+    "正解はB、",
+    "拘禁刑3か月、",
+    "執行猶予2年。"
+   ],
+   "fact": "F3",
+   "shots": [],
+   "emphasis": "執行猶予2年"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "自分で運転しない対策も、考慮されました。",
+   "shown": "自分で運転しない対策も、考慮されました。",
+   "chunks": [
+    "自分で運転しない対策も、",
+    "考慮されました。"
+   ],
+   "fact": "F6",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "量刑で"
+     ],
+     "stamp": "考慮",
+     "size": 100
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "軽い、妥当、重い？",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [
+    {
+     "s": "react",
+     "look": "prof",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "hold_after": 0.3
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "あの夜、首都高のメーターは、",
+   "shown": "あの夜、首都高のメーターは、",
+   "chunks": [
+    "あの夜、首都高のメーターは、"
+   ],
+   "fact": "F2",
+   "shots": []
+  }
+ ],
+ "vv_style": 14,
+ "vv_speeds": [
+  1.0,
+  1.05,
+  1.15,
+  1.25,
+  1.35
+ ]
+}

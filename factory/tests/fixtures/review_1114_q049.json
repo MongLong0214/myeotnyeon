@@ -1,0 +1,411 @@
+{
+ "spec_version": 1,
+ "id": "q049",
+ "locale": "ko",
+ "variant": "B3",
+ "channel": "myeotnyeon",
+ "case": {
+  "category": "other",
+  "grave": true,
+  "deaths": 1,
+  "victim_minor": false,
+  "sexual_offence": false,
+  "court": "창원지법",
+  "instance": "1심",
+  "finality": "확정",
+  "verdict_date": "unknown",
+  "sentence_fact": "F3"
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "로이슈",
+   "url": "https://www.lawissue.co.kr/view.php?ud=2026102209261496949a8c8bf58f_12",
+   "published": "2026-10-22"
+  },
+  {
+   "id": "S2",
+   "outlet": "인사이트",
+   "url": "https://www.insight.co.kr/news/578499",
+   "published": "2026-10-20"
+  },
+  {
+   "id": "S3",
+   "outlet": "위키트리",
+   "url": "https://www.wikitree.co.kr/articles/1167678",
+   "published": "2026-10-20"
+  },
+  {
+   "id": "S4",
+   "outlet": "뉴시스",
+   "url": "https://n.news.naver.com/mnews/article/003/0014264668?sid=102",
+   "published": "2026-10-20"
+  },
+  {
+   "id": "S5",
+   "outlet": "뉴스1",
+   "url": "https://n.news.naver.com/mnews/article/421/0009240335?sid=102",
+   "published": "2026-10-20"
+  }
+ ],
+ "facts": [
+  {
+   "id": "F1",
+   "claim": "유흥주점 업주 2명이 직원 생일파티 중 20대 여성 접객원에게 양주 1병 반(약 700ml)을 원샷으로 마시면 현금 500만 원을 주겠다는 내기를 제안했고, 접객원은 1분 만에 모두 마시고 쓰러졌다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "\"양주 1병 반을 원샷으로 마시면 현금 500만 원을 주겠다\"는 돈내기를 제안했다."
+    },
+    {
+     "source": "S2",
+     "text": "C 씨는 1분 만에 약 700ml의 양주를 모두 마셨고 곧바로 쓰러졌다."
+    },
+    {
+     "source": "S3",
+     "text": "유흥접객원 C(26)씨는 이 양주를 1분 만에 모두 마셨다."
+    }
+   ],
+   "values": {
+    "bet": {
+     "kind": "amount",
+     "text": "500만 원"
+    },
+    "vol": {
+     "kind": "count",
+     "text": "700ml"
+    },
+    "span": {
+     "kind": "count",
+     "text": "1분"
+    }
+   }
+  },
+  {
+   "id": "F2",
+   "claim": "업주들은 쓰러진 접객원을 제대로 돌보지 않고 방치했고, 접객원은 혈중알코올농도 0.485%의 급성알코올중독으로 숨졌다. 이는 운전면허 취소 기준 0.08%의 6배를 넘는 수치다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "하지만 업주들은 만취 상태로 쓰러진 C 씨를 제대로 돌보지 않았고, C 씨는 결국 혈중알코올농도 0.485%의 급성알코올중독으로 숨졌다."
+    },
+    {
+     "source": "S3",
+     "text": "운전면허 취소 기준인 0.08%의 6배를 넘는 수치다."
+    },
+    {
+     "source": "S1",
+     "text": "그럼에도 불구하고 피고인들은 피해자를 홀로 방치한 후 오전 6시경 퇴근했고"
+    }
+   ]
+  },
+  {
+   "id": "F3",
+   "claim": "창원지법은 과실치사 혐의의 업주 2명에게 각각 금고 1년에 집행유예 2년, 사회봉사 120시간을 선고했다. 뉴시스·뉴스1·위키트리는 두 사람이 항소하지 않아 형이 확정됐다고 보도했다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "각각 금고 1년에 집행유예 2년, 사회봉사 120시간을 선고했다고 20일 밝혔다."
+    },
+    {
+     "source": "S4",
+     "text": "두 피고인은 항소하지 않아 형이 확정됐다."
+    },
+    {
+     "source": "S5",
+     "text": "A 씨와 B 씨 모두 판결에 항소하지 않으면서 형은 그대로 확정됐다."
+    },
+    {
+     "source": "S5",
+     "text": "20대 유흥주점 업주 2명이 집행유예를 선고받았다."
+    }
+   ],
+   "values": {
+    "sentence": {
+     "kind": "duration",
+     "text": "금고 1년"
+    },
+    "susp": {
+     "kind": "duration",
+     "text": "집행유예 2년"
+    },
+    "service": {
+     "kind": "count",
+     "text": "120시간"
+    }
+   }
+  },
+  {
+   "id": "F4",
+   "claim": "재판부는 범행을 인정하고 반성하는 점, 유족에게 1억 3,000만 원을 지급하고 합의해 유족이 처벌을 원하지 않는 점을 유리한 정상으로 참작했다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "유족에게 1억3000만 원을 지급하고 합의해 유족이 처벌 불원 의사를 밝힌 점을 유리한 정상으로 고려했다"
+    },
+    {
+     "source": "S3",
+     "text": "피고인들이 범행을 모두 인정하고 반성하는 태도를 보이는 점과 1억3000만원을 지급하고 유족과 합의해 유족이 처벌을 원하지 않는 점은 유리한 정상으로 참작했다"
+    }
+   ],
+   "values": {
+    "paid": {
+     "kind": "amount",
+     "text": "1억3000만 원"
+    }
+   }
+  }
+ ],
+ "title": "'원샷하면 500만' 부추겨 숨지게 한 업주, 몇 년?",
+ "description": "창원의 한 유흥주점 업주 2명이 직원 생일파티에서 20대 여성 접객원에게 \"양주 1병 반을 원샷으로 마시면 현금 500만 원을 주겠다\"는 내기를 제안했습니다. 접객원은 1분 만에 약 700ml를 마시고 쓰러졌지만 제대로 돌봄을 받지 못했고, 혈중알코올농도 0.485%의 급성알코올중독으로 숨졌습니다.\n창원지법은 과실치사 혐의의 업주 2명에게 각각 금고 1년에 집행유예 2년, 사회봉사 120시간을 선고했습니다. 재판부는 유족에게 1억 3,000만 원을 지급하고 합의해 유족이 처벌을 원하지 않는 점을 유리한 정상으로 참작했습니다.",
+ "hashtags": [
+  "#과실치사",
+  "#집행유예",
+  "#판결",
+  "#몇년나옴",
+  "#shorts"
+ ],
+ "cover": "양주 원샷 내기로\n숨진 접객원",
+ "hook": [
+  "사람이 죽었는데",
+  "집행유예?"
+ ],
+ "stage": "bar",
+ "defendant": "hoodie",
+ "quiz": {
+  "choices": [
+   "징역 3년",
+   "벌금 700만 원",
+   "금고1년 집유2년"
+  ],
+  "answer": 2
+ },
+ "lines": [
+  {
+   "beat": "open",
+   "text": "양주 1병 반을 원샷하면, 현금 500만 원.",
+   "fact": "F1"
+  },
+  {
+   "beat": "hook",
+   "text": "업주 둘이 생일파티에서, 접객원에게 건 내기였습니다.",
+   "fact": "F1",
+   "actor": "hoodie",
+   "shots": [
+    {
+     "scene": "money"
+    },
+    {
+     "scene": "react",
+     "expr": "smug",
+     "move": "nod"
+    },
+    {
+     "scene": "stamp",
+     "label": "현금 500만 원",
+     "stamp": "내기"
+    }
+   ]
+  },
+  {
+   "beat": "guess",
+   "text": "700ml를 1분 만에 마시고, 그대로 쓰러졌습니다.",
+   "fact": "F1",
+   "shots": [
+    {
+     "scene": "paper",
+     "lines": [
+      "양주 700ml",
+      "1분 만에"
+     ]
+    },
+    {
+     "scene": "bubble",
+     "lines": [
+      "1분 만에",
+      "그대로 쓰러짐"
+     ]
+    },
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "nod"
+    }
+   ],
+   "actor": "hoodie"
+  },
+  {
+   "beat": "twist",
+   "text": "결국 0.485%, 급성알코올중독으로 숨졌습니다.",
+   "fact": "F2",
+   "actor": "hoodie",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "concern",
+     "move": "shake"
+    },
+    {
+     "scene": "paper",
+     "lines": [
+      "혈중알코올",
+      "0.485%"
+     ]
+    },
+    {
+     "scene": "bubble",
+     "lines": [
+      "0.485%",
+      "급성알코올중독"
+     ]
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "운전면허 취소 기준의, 6배가 넘는 수치입니다.",
+   "fact": "F2",
+   "actor": "hoodie",
+   "shots": [
+    {
+     "scene": "stamp",
+     "label": "면허 취소 기준",
+     "stamp": "6배"
+    },
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "nod"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "업주들은 그를 홀로 두고, 오전 6시쯤 퇴근했습니다.",
+   "fact": "F2",
+   "actor": "hoodie",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "concern",
+     "move": "shake"
+    },
+    {
+     "scene": "stamp",
+     "label": "홀로 방치",
+     "stamp": "퇴근"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "그런데 법원은, 유족과 1억 3,000만 원에 합의한 점을 참작했습니다.",
+   "fact": "F4",
+   "shots": [
+    {
+     "scene": "paper",
+     "lines": [
+      "유족 합의",
+      "1억 3,000만 원"
+     ]
+    },
+    {
+     "scene": "judge"
+    },
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "nod"
+    }
+   ],
+   "actor": "hoodie"
+  },
+  {
+   "beat": "fact",
+   "text": "유족도, 처벌을 원하지 않았습니다.",
+   "fact": "F4",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "nod"
+    },
+    {
+     "scene": "judge"
+    }
+   ],
+   "actor": "hoodie"
+  },
+  {
+   "beat": "answer2",
+   "text": "선고는 금고 1년에 집행유예 2년, 사회봉사 120시간.",
+   "fact": "F3",
+   "shots": [
+    {
+     "scene": "paper",
+     "lines": [
+      "금고 1년",
+      "집행유예 2년"
+     ]
+    },
+    {
+     "scene": "stamp",
+     "label": "판결",
+     "stamp": "확정"
+    },
+    {
+     "scene": "judge"
+    }
+   ]
+  },
+  {
+   "beat": "loop",
+   "text": "직원 생일파티에서, 양주 1병 반을,",
+   "fact": "F1"
+  }
+ ],
+ "pops": [
+  {
+   "beat": "hook",
+   "at": 0.45,
+   "big": "{amt} 내기",
+   "small": "양주 {vol}ml 원샷",
+   "vars": {
+    "amt": "F1.bet",
+    "vol": "F1.vol"
+   }
+  },
+  {
+   "beat": "guess",
+   "at": 0.5,
+   "big": "{t}분 만에 원샷",
+   "small": "양주 {vol}ml",
+   "vars": {
+    "t": "F1.span",
+    "vol": "F1.vol"
+   }
+  },
+  {
+   "beat": "answer2",
+   "at": 0.05,
+   "big": "{m}",
+   "small": "집행유예 {s}",
+   "vars": {
+    "m": "months(F3.sentence)",
+    "s": "F3.susp"
+   }
+  },
+  {
+   "beat": "answer2",
+   "at": 0.55,
+   "big": "사회봉사 {sv}시간",
+   "small": "유족과 합의 {paid}",
+   "vars": {
+    "sv": "F3.service",
+    "paid": "F4.paid"
+   }
+  }
+ ],
+ "format": "result_first",
+ "pinned": "실제 판결: 금고 1년·집행유예 2년, 사회봉사 120시간. 유족에게 1억 3,000만 원을 지급하고 합의해 유족이 처벌을 원하지 않은 점이 참작됐습니다."
+}

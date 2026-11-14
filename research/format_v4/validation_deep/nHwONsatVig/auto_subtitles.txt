@@ -1,0 +1,18 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=nHwONsatVig
+[youtube] nHwONsatVig: Downloading webpage
+[youtube] nHwONsatVig: Downloading initial data API JSON
+[youtube] nHwONsatVig: Downloading iframe API JS
+[youtube] nHwONsatVig: Downloading player cbcfbf2f-main
+[youtube] nHwONsatVig: Downloading web player API JSON
+[info] nHwONsatVig: Downloading subtitles: ko
+[info] Writing video subtitles to: /Users/isaac/projects/verdict-kr/work/research/format_v4/validation_deep/nHwONsatVig/nHwONsatVig.ko.vtt
+[download] Destination: /Users/isaac/projects/verdict-kr/work/research/format_v4/validation_deep/nHwONsatVig/nHwONsatVig.ko.vtt
+
+[download]    1.00KiB at  Unknown B/s (00:00:00)
+[download]    3.00KiB at  Unknown B/s (00:00:00)
+[download]    7.00KiB at  Unknown B/s (00:00:00)
+[download]   15.00KiB at    2.23MiB/s (00:00:00)
+[download]   31.00KiB at  642.10KiB/s (00:00:00)
+[download]   63.00KiB at  790.59KiB/s (00:00:00)
+[download]   98.23KiB at  904.75KiB/s (00:00:00)
+[download] 100% of   98.23KiB in 00:00:00 at 233.04KiB/s

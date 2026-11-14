@@ -1,0 +1,238 @@
+{
+ "items": [
+  {
+   "id": "C1_1",
+   "cue": "C1",
+   "act": "incident",
+   "start": 0.0,
+   "end": 123.91875,
+   "file": "episodes/quiz/q012/v52/hook_master.wav",
+   "text": "27명이 숨진 지난해 경북 산불은 두 곳에서 시작됐습니다. 몇 년 나왔을까?",
+   "start_sample": 0,
+   "end_sample": 198270
+  },
+  {
+   "id": "C1_2",
+   "cue": "C1",
+   "act": "incident",
+   "start": 123.91875,
+   "end": 186.166875,
+   "file": "episodes/quiz/q012/audio/na/C1_2.wav",
+   "text": "그중 한 곳이 의성군에 있는 과수원이었죠.",
+   "start_sample": 198270,
+   "end_sample": 297867
+  },
+  {
+   "id": "C2_1",
+   "cue": "C2",
+   "act": "incident",
+   "start": 186.166875,
+   "end": 371.546875,
+   "file": "episodes/quiz/q012/audio/na/C2_1.wav",
+   "text": "60대 과수원 임차인이 농사 부산물을 태운 뒤 불씨가 꺼졌는지 확인하지 않고 자리를 떠난 혐의였습니다.",
+   "start_sample": 297867,
+   "end_sample": 594475
+  },
+  {
+   "id": "C3_1",
+   "cue": "C3",
+   "act": "incident",
+   "start": 371.546875,
+   "end": 442.643125,
+   "file": "episodes/quiz/q012/audio/na/C3_1.wav",
+   "text": "불은 강풍을 타고 5개 시·군까지 번졌죠.",
+   "start_sample": 594475,
+   "end_sample": 708229
+  },
+  {
+   "id": "C4_1",
+   "cue": "C4",
+   "act": "incident",
+   "start": 442.643125,
+   "end": 546.038125,
+   "file": "episodes/quiz/q012/audio/na/C4_1.wav",
+   "text": "149시간 동안 27명이 숨지고 40명이 다쳤습니다.",
+   "start_sample": 708229,
+   "end_sample": 873661
+  },
+  {
+   "id": "C5_1",
+   "cue": "C5",
+   "act": "weigh",
+   "start": 546.038125,
+   "end": 613.901875,
+   "file": "episodes/quiz/q012/audio/na/C5_1.wav",
+   "text": "벌금, 집행유예, 실형 중 무엇이었을까요?",
+   "start_sample": 873661,
+   "end_sample": 982243
+  },
+  {
+   "id": "C5_2",
+   "cue": "C5",
+   "act": "weigh",
+   "start": 613.901875,
+   "end": 690.811875,
+   "file": "episodes/quiz/q012/audio/na/C5_2.wav",
+   "text": "2심 재판부는 결과가 상당히 무겁다고 봤습니다.",
+   "start_sample": 982243,
+   "end_sample": 1105299
+  },
+  {
+   "id": "C5_3",
+   "cue": "C5",
+   "act": "weigh",
+   "start": 690.811875,
+   "end": 742.315,
+   "file": "episodes/quiz/q012/audio/na/C5_3.wav",
+   "text": "죄명은 실수로 불을 낸 실화였고요.",
+   "start_sample": 1105299,
+   "end_sample": 1187704
+  },
+  {
+   "id": "C5_4",
+   "cue": "C5",
+   "act": "weigh",
+   "start": 742.315,
+   "end": 815.3725,
+   "file": "episodes/quiz/q012/audio/na/C5_4.wav",
+   "text": "2심에서 검찰 구형은 징역 3년이었습니다.",
+   "start_sample": 1187704,
+   "end_sample": 1304596
+  },
+  {
+   "id": "C6_1",
+   "cue": "C6",
+   "act": "reveal",
+   "start": 815.3725,
+   "end": 881.225,
+   "file": "episodes/quiz/q012/audio/na/C6_1.wav",
+   "text": "1심은 징역 2년 6개월에 집행유예 3년.",
+   "start_sample": 1304596,
+   "end_sample": 1409960
+  },
+  {
+   "id": "C6_2",
+   "cue": "C6",
+   "act": "reveal",
+   "start": 881.225,
+   "end": 921.238125,
+   "file": "episodes/quiz/q012/audio/na/C6_2.wav",
+   "text": "2심 판결도 그대로였습니다.",
+   "start_sample": 1409960,
+   "end_sample": 1473981
+  },
+  {
+   "id": "C7_1",
+   "cue": "C7",
+   "act": "outro",
+   "start": 921.238125,
+   "end": 956.983125,
+   "file": "episodes/quiz/q012/audio/na/C7_1.wav",
+   "text": "다음 사건도 맞혀 보세요.",
+   "start_sample": 1473981,
+   "end_sample": 1531173
+  }
+ ],
+ "knots": [
+  [
+   0,
+   0.0
+  ],
+  [
+   140,
+   123.91875
+  ],
+  [
+   145,
+   123.91875
+  ],
+  [
+   207,
+   186.166875
+  ],
+  [
+   216,
+   186.166875
+  ],
+  [
+   401,
+   371.546875
+  ],
+  [
+   410,
+   371.546875
+  ],
+  [
+   481,
+   442.643125
+  ],
+  [
+   490,
+   442.643125
+  ],
+  [
+   593,
+   546.038125
+  ],
+  [
+   605,
+   546.038125
+  ],
+  [
+   673,
+   613.901875
+  ],
+  [
+   678,
+   613.901875
+  ],
+  [
+   755,
+   690.811875
+  ],
+  [
+   760,
+   690.811875
+  ],
+  [
+   812,
+   742.315
+  ],
+  [
+   817,
+   742.315
+  ],
+  [
+   890,
+   815.3725
+  ],
+  [
+   899,
+   815.3725
+  ],
+  [
+   965,
+   881.225
+  ],
+  [
+   970,
+   881.225
+  ],
+  [
+   1010,
+   921.238125
+  ],
+  [
+   1025,
+   921.238125
+  ],
+  [
+   1061,
+   956.983125
+  ],
+  [
+   1076,
+   967
+  ]
+ ]
+}

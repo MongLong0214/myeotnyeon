@@ -1,0 +1,96 @@
+q022 · q013 v3 표준 · CTO 검수용
+상태: RENDERED / NOT APPROVED. 제작자 PASS/MATCH 없음.
+파일: /Users/isaac/projects/verdict-kr/work/upload/pkg/q022_std/video.mp4
+SHA256: 3bb4f8dea8101559138068ddee8bfe0da2e91772f1fb92f4c951479f7f522e01
+규격: 1080×1920 / H.264·AAC / 30fps / 717프레임 / 23.900초
+표준: /Users/isaac/projects/verdict-kr/work/upload/v52_q013_n16_v3.mp4
+표준 SHA256: c6202356d56d30a42f21e1cca4aabedbb4dfc539b79826b65621145714c81c95
+번호: 미배정. 업로드 없음.
+게시 예정: 2026-11-07 · CTO 검수/업로드 순서/일일 1편 한도 확인 후 확정, 예약 없음
+마감: 2026-11-07 09:00 KST
+
+제작자 자체 점검 (H1–H14, CTO 판정은 전부 대기)
+H1: 제공 기준 구독자 9→1,000, 격차 991. 0초 행위, 질문·댓글 선택, 끝의 선고와 다음 사건 연결을 실제 적용. 이번 산출은 3편이며 미게시 영상의 성장 효과를 확정하지 않음.
+H2: 0초 행위 재현, 음성 시작 0초. 정답 17.033s부터, 다음 사건 CTA 22.400s부터. 이전 1.5–2초 컷 대신 최신 H14의 대사 경계 2–3초 리듬 적용. 11-06 기존 analytics 일일 스냅샷의 engagedViews/views는 별도 누적 비율이며 viewed-vs-swiped와 구분. 신작 성과는 게시 전 미측정.
+H3: RANKED Shorts #6 · N13. topic_evidence.json에 네이버 검색과 YouTube 수요 원본 근거. 공분 점수나 구형 차이로 부당판결을 단정하지 않음.
+H4: 소스는 승인된 q013 v3의 FightRig·CourtDynamic·폰트·팔레트·자막·선택지 문법. 화면 전체 카툰, 중복 헤더·회차 배지·패널·설명 띠·가짜 UI 없음. H10 요청의 선택 카드만 사용. 최종 AI 티 판단은 CTO 대기.
+H5: 브라우저에서 33개 실제 렌더 프레임의 자막 배치를 계측. 72px / 800 / 검정 10px, x540 중앙, 최대 2줄·줄당 14자 이하. 전체 저장 cue 검사와 subtitle_layout_observed.json 참조. 한 어구만 노란색 강조.
+H6: 법정은 판사·피고인 투샷, 대사 한 줄마다 한 샷. 판사 지적→피고인 옷깃·전신 반응을 같은 구도 안에서 연기. 사실에 맞는 도장과 기울어지는 저울. 답 공개 때만 망치와 순간 줌. 판정 CTO 대기.
+H7: 모든 성인 인물은 승인된 독창 Toon rig의 눈·코·입과 표정 사용. 여성 피해자/배우자도 별도 원작 캐릭터. anonymous 얼굴 숨김 미사용. 실존 피해자의 신상·외모 미재현. 시각 판정 CTO 대기.
+H8: 전체 Remotion 2D SVG. Blender/3D/실사 클립 입력 없음. 시작과 다음 사건도 동일 카툰.
+H9: 화면 내 재구성·시간압축·시각비유·시리즈 코너 고지 0. 해당 설명은 meta.txt 설명란에만 수록. 구형/선고와 심급 구분은 사실이므로 유지.
+H10: A/B/C 큰 색 카드가 4프레임 간격으로 등장. 댓글로 골라보세요. 전체 선택지가 나온 뒤 2.733초 선택 가능. 정답 A만 점등, 나머지 흐림. 해당 화면은 최종 시트로 CTO 검수 대기.
+H11: 업로드·교체·예약 없음. 이 작업에서 원격 비공개 잔존본이 생기지 않았음. 기존 로컬 작업은 같은 세션의 보존 지시에 따라 보존. 원격 삭제 대상/ID를 임의로 만들지 않음.
+H12: 기존 로컬 소스·음성 엔진·ASR·팩토리 검수 도구·저장된 네이버/YouTube 수요 근거로 직접 제작. 새 키나 사용자 대행 작업 요청 없음.
+H13: 전체 변경 구간 모든 30fps 프레임을 F1 연속 시트로 보존. 2fps 한 장은 빠른 보기용으로 전수 시트를 대체하지 않음. q020 먼저 완성·FIRST_READY 기록 후 다음 두 편 진행. CTO 전수 시각 판정과 CEO 승인은 대기, 제작자 PASS/MATCH 없음.
+H14: 모든 실제 컷은 개별 합성된 완결 대사 경계. 기본 샷 2–3초, CTA 1.5초. 문장 중간 반응 컷 없음. 순간 줌은 0초 행위와 정답 두 지점(각 3프레임)뿐. 리듬 최종 판단은 CTO 대기.
+
+사실·법적 범위
+# 대리기사에게 사커킥
+
+채택 심급: 서울서부지법 항소심 · 1심 유지, 이후 상고; 2025-04-03.
+
+- F1: 남편이 대리기사의 다리를 걸어 넘어뜨렸습니다. — sources: N13_HANKOOK, N13_FN
+- F2: 아내는 넘어진 기사의 머리를 발로 찼습니다. — sources: N13_HANKOOK, N13_FN
+- F3: 기사는 뇌진탕 등 전치 삼 주의 상해를 입었습니다. — sources: N13_HANKOOK, N13_FN
+- F4: 부부는 기사가 아이를 밀었다고 주장했습니다. — sources: N13_KBS, N13_YTN
+- F5: 영상 확인 결과, 아이가 먼저 기사에게 부딪쳤습니다. — sources: N13_KBS, N13_YTN
+- F6: 법원은 공동 폭행으로 죄질이 좋지 않다고 봤습니다. — sources: N13_KBS, N13_YTN
+- F7: 남편은 누범 기간이었습니다. 댓글로 선고를 골라보세요. — sources: N13_YTN, N13_FN
+- F8: 항소심 선고는 남편 징역 사 개월, 법정 구속입니다. — sources: N13_KBS, N13_YTN
+- F9: 아내는 징역 사 개월에 집행유예 일 년. 이후 상고했습니다. — sources: N13_KBS, N13_YTN, N13_DAILY, N13_SIDAE
+
+구형은 검찰의 요청이고 선고가 아니다. 공탁·합의가 형량을 기계적으로 결정하지 않는다. 횟수·무기·새 피해·실제 법정 대사를 추가하지 않는다.
+2025-04-03 항소심만 묻는다. 이후 상고 보도, 최종 확정 미확인. 아이는 피해자로 묘사하지 않고 아동 인물도 화면에 쓰지 않는다. 행위 순서는 한국일보, 항소심 결과는 KBS·YTN.
+
+출처
+KBS | https://n.news.naver.com/mnews/article/056/0011924681 | snapshot /Users/isaac/projects/verdict-kr/work/episodes/quiz/batch_1107/sources/N13_KBS_body.txt | sha256 b516276efda4ba04cbefe43cee54ecc656f1b5a3e4f9ddc12784266c391e5891
+YTN | https://n.news.naver.com/mnews/article/052/0002175223 | snapshot /Users/isaac/projects/verdict-kr/work/episodes/quiz/batch_1107/sources/N13_YTN_body.txt | sha256 f0534325fc8ce4a5acd4a1154f4ab1abee0e43e06529fe84953eba2487af6bdd
+한국일보 | https://www.hankookilbo.com/news/article/A2024112209130004606 | snapshot /Users/isaac/projects/verdict-kr/work/episodes/quiz/batch_1107/sources/N13_한국일보_body.txt | sha256 401395e9c503a3ba73f95f13f809d00f06c06c3d7875c847c0039c1bcb44cd8d
+파이낸셜뉴스 | https://news.nate.com/view/20250404n02506 | snapshot /Users/isaac/projects/verdict-kr/work/episodes/quiz/batch_1107/std_v3/N13_FN_body.txt | sha256 df82acc900f5bbf2405409b987a69e1db51105bfa5c82c8b266f769623399dff
+데일리한국 | https://daily.hankooki.com/news/articleView.html?idxno=1202920 | snapshot /Users/isaac/projects/verdict-kr/work/episodes/quiz/batch_1107/std_v3/N13_DAILY_body.txt | sha256 69c30c8d22b1a074975493b40f4c4df49bf7f0aadc5e82da2debe8ae6775ffe4
+시대 | https://www.sidae.com/article/2025041114274810557 | snapshot /Users/isaac/projects/verdict-kr/work/episodes/quiz/batch_1107/std_v3/N13_SIDAE_body.txt | sha256 3a457cf4e6ad4ed9b44215d68d5c517941c272bac7b7fed836d08f0e6ff5258f
+
+검수 경로
+2fps 전체: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q022/std_2fps.png
+전체 30fps: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q022/std/F1.md
+핵심 행위 연속: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q022/std_action_consecutive.png
+정답 연속: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q022/std_answer_consecutive.png
+음성 ↔ 화면·컷: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q022/std/D1_D2_cut_sheet.md
+사실 게이트: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q022/std/E3.md
+표준 나란히: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q022/std/B1.md
+실제 자막 계측: /Users/isaac/projects/verdict-kr/work/upload/pkg/q022_std/subtitle_layout_observed.json
+
+A1–G2 원시 결과 (자동 PASS는 CTO 승인 아님)
+FRAME_QA: ADVISORY / 
+A1: NEEDS_REVIEW / NEEDS_REVIEW
+A2: PASS / DECIDED
+A3: NEEDS_REVIEW / NEEDS_REVIEW
+B1: NEEDS_REVIEW / NEEDS_REVIEW
+B2: NEEDS_REVIEW / NEEDS_REVIEW
+B3: PASS / DECIDED
+B4: NEEDS_REVIEW / NEEDS_REVIEW
+B5: NEEDS_REVIEW / NEEDS_REVIEW
+C1: FAIL / DECIDED
+C2: NEEDS_REVIEW / NEEDS_REVIEW
+C3: FAIL / DECIDED
+C4: NEEDS_REVIEW / NEEDS_REVIEW
+D1: NEEDS_REVIEW / NEEDS_REVIEW
+D2: NEEDS_REVIEW / NEEDS_REVIEW
+D3: PASS / DECIDED
+E1: PASS / DECIDED
+E2: NEEDS_REVIEW / NEEDS_REVIEW
+E3: NEEDS_REVIEW / NEEDS_REVIEW
+F1: NEEDS_REVIEW / NEEDS_REVIEW
+F2: PASS / DECIDED
+F3: FAIL / OPERATIONAL
+F4: NEEDS_REVIEW / NEEDS_REVIEW
+G1: FAIL / OPERATIONAL
+G2: FAIL / OPERATIONAL
+factory_facts: FAIL / NEEDS_REVIEW
+
+남은 결함·한계
+C1: 발화 8.242677824267783음절/s, 쉼 진단 [{'after': '찼습니다.', 'at': 4.34, 'seconds': 0.17999999999999972, 'sentence_end': True, 'pass_': False}, {'after': '입었습니다.', 'at': 6.78, 'seconds': 0.13999999999999968, 'sentence_end': True, 'pass_': False}, {'after': '주장했습니다.', 'at': 8.88, 'seconds': 0.21999999999999886, 'sentence_end': True, 'pass_': False}, {'after': '부딪혔습니다.', 'at': 11.44, 'seconds': 0.14000000000000057, 'sentence_end': True, 'pass_': False}, {'after': '봤습니다.', 'at': 13.92, 'seconds': 0.14000000000000057, 'sentence_end': True, 'pass_': False}, {'after': '골라보세요.', 'at': 16.84, 'seconds': 0.17999999999999972, 'sentence_end': True, 'pass_': False}, {'after': '상고했습니다.', 'at': 22.12, 'seconds': 0.2799999999999976, 'sentence_end': True, 'pass_': False}]
+C3: 인물 1.0, 모션 1.0, 자막 밖 OCR 2671건. 질문/양형 도장/기능성 선택지를 포함하는 원시 진단; 자동 결과를 제작자가 면제하지 않음.
+입력 누락: []
+실시간 재생 미검수. 최종 AAC 믹스 ASR·음량·전체 연속 프레임으로 대체. 원문 전체 판결문 미확보 범위는 보도 교차 확인까지만 주장. CTO/CEO 서명·운영 G1/G2는 아직 수행 전.

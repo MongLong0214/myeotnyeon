@@ -1,0 +1,175 @@
+{
+ "qid": "q019",
+ "variant": "B1",
+ "kind": "blanket",
+ "number_label": "판결 #19",
+ "choices": [
+  "징역 8개월",
+  "징역 1년 8개월",
+  "징역 3년"
+ ],
+ "correct": 1,
+ "answer": "징역 1년 8개월",
+ "answer_label": "항소심 · 확정",
+ "opinion": "이 형량,\n가볍다 / 적당 / 무겁다?",
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "stomp",
+   "tts": "이불 씌우고, 밟았습니다.",
+   "shown": "이불 씌우고, 밟았습니다.",
+   "fact": "F1",
+   "target": 6.9
+  },
+  {
+   "id": "L02",
+   "mode": "martial",
+   "tts": "공무원이 붙인 이름, 계엄령 놀이.",
+   "shown": "공무원이 붙인 이름,\n계엄령 놀이.",
+   "fact": "F2"
+  },
+  {
+   "id": "L03",
+   "mode": "hook",
+   "tts": "이 공무원, 몇 년 나왔을까요?",
+   "shown": "이 공무원,\n몇 년 나왔을까요?",
+   "fact": "Q"
+  },
+  {
+   "id": "L04",
+   "mode": "victims",
+   "tts": "환경미화원 세 명에게 수십 차례 폭행과 강요.",
+   "shown": "환경미화원 3명에게\n수십 차례 폭행과 강요.",
+   "fact": "F3"
+  },
+  {
+   "id": "L05",
+   "mode": "cult",
+   "tts": "자신을 교주라고 부르게 했습니다.",
+   "shown": "자신을 교주라고\n부르게 했습니다.",
+   "fact": "F2"
+  },
+  {
+   "id": "L06",
+   "mode": "demand",
+   "tts": "검찰 구형은 징역 오 년.",
+   "shown": "검찰 구형은 징역 5년.",
+   "fact": "F4"
+  },
+  {
+   "id": "L07",
+   "mode": "remorse",
+   "tts": "반성문과 지인들 탄원서까지 냈지만,",
+   "shown": "반성문과\n지인들 탄원서까지 냈지만,",
+   "fact": "F5"
+  },
+  {
+   "id": "L08",
+   "mode": "plea",
+   "tts": "피해자들은 엄벌을 요구했습니다.",
+   "shown": "피해자들은\n엄벌을 요구했습니다.",
+   "fact": "F3"
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "항소심 형량은?",
+   "shown": "항소심 형량은?",
+   "fact": "Q"
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "징역 팔 개월, 일 년 팔 개월, 삼 년.",
+   "shown": null,
+   "fact": "Q",
+   "target": 5.6,
+   "hold_after": 1.3
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "정답 비, 징역 일 년 팔 개월.",
+   "shown": "정답 B,\n징역 1년 8개월.",
+   "fact": "F6",
+   "emphasis": "1년 8개월"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "일심 형량 그대로, 확정됐습니다.",
+   "shown": "1심 형량 그대로,\n확정됐습니다.",
+   "fact": "F6"
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "이 형량, 가볍다, 적당, 무겁다?",
+   "shown": null,
+   "fact": "Q",
+   "hold_after": 0.4,
+   "target": 6.0
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "그는 이걸 놀이라 불렀습니다.",
+   "shown": "그는 이걸\n놀이라 불렀습니다.",
+   "fact": "F2"
+  }
+ ],
+ "option_offsets": [
+  0.0,
+  1.0,
+  1.74
+ ],
+ "cover_text": "계엄령 놀이\n징역 몇 년?",
+ "defendant": "inmate",
+ "sfx": [
+  [
+   "stomp",
+   0,
+   "thud"
+  ],
+  [
+   "stomp",
+   27,
+   "thud"
+  ],
+  [
+   "hook",
+   22,
+   "clank"
+  ],
+  [
+   "victims",
+   37,
+   "whoosh"
+  ],
+  [
+   "cult",
+   3,
+   "whoosh"
+  ],
+  [
+   "remorse",
+   0,
+   "tick"
+  ],
+  [
+   "remorse",
+   6,
+   "tick"
+  ],
+  [
+   "remorse",
+   12,
+   "tick"
+  ],
+  [
+   "remorse",
+   34,
+   "tick"
+  ]
+ ]
+}

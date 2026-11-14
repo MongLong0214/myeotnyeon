@@ -1,0 +1,323 @@
+{
+ "qid": "zzen001",
+ "locale": "en",
+ "variant": "B3",
+ "b3": true,
+ "look": "full2",
+ "grave": false,
+ "kind": "scan",
+ "number_label": "",
+ "stage": "scan",
+ "cover_text": "FAKE TWINS\n30 days?",
+ "defendant": "lady",
+ "choices": [
+  "5 yrs 5 mo prison",
+  "Probation only",
+  "30 days in jail"
+ ],
+ "correct": 2,
+ "answer": "30 days in jail",
+ "answer_label": "Superior Court",
+ "opinion": "This sentence:\nToo light / Fair / Too harsh?",
+ "option_offsets": [
+  0.0,
+  0.33,
+  0.66
+ ],
+ "hook_text": [
+  "She faked twins",
+  "FAKE ULTRASOUND"
+ ],
+ "sfx": [
+  [
+   "scan",
+   0,
+   "thud"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L03",
+   "at": 0.35,
+   "big": "65 months",
+   "small": "Prosecutors' ask: 5 yrs 5 mo",
+   "calc": "m = months(F7.ask) = 65 months; a = F7.ask = 5 yrs 5 mo"
+  },
+  {
+   "line": "L06",
+   "at": 0.45,
+   "big": "14 → 4",
+   "small": "felony charges → guilty pleas",
+   "calc": "c = F4.charged = 14; p = F4.pleas = 4"
+  },
+  {
+   "line": "L12",
+   "at": 0.05,
+   "big": "30 days = 720 hours",
+   "small": "jail time",
+   "calc": "d = F5.jail = 30 days; h = hours(F5.jail) = 720 hours"
+  },
+  {
+   "line": "L12",
+   "at": 0.55,
+   "big": "7 yrs probation",
+   "small": "+12 months jail if she violates it",
+   "calc": "p = F5.probation = 7 yrs; d = months(F5.deferred) = 12 months"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "scan",
+   "tts": "Fake twins. Fake ultrasound.",
+   "shown": "Fake twins. Fake ultrasound.",
+   "chunks": [
+    "Fake twins. Fake ultrasound."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "scan"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "How many years did she get?",
+   "shown": "How many years did she get?",
+   "chunks": [
+    "How many years did she get?"
+   ],
+   "fact": "F5",
+   "actor": "lady",
+   "shots": [
+    {
+     "s": "react",
+     "look": "lady",
+     "expr": "smug",
+     "move": "nod",
+     "y": 2090
+    },
+    {
+     "s": "calendar",
+     "year": "2026",
+     "month": 10
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "mode": "guess",
+   "tts": "Prosecutors wanted over five years in prison,",
+   "shown": "Prosecutors wanted over 5 years in prison,",
+   "chunks": [
+    "Prosecutors wanted",
+    "over 5 years in prison,"
+   ],
+   "fact": "F7",
+   "shots": [
+    {
+     "s": "bubble",
+     "lines": [
+      "5 years?",
+      "for fake twins"
+     ],
+     "size": 150
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "PROSECUTORS",
+      "5 yrs 5 mo"
+     ],
+     "size": 82
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "But the judge called her a very sad individual.",
+   "shown": "but the judge called her \"a very sad individual.\"",
+   "chunks": [
+    "but the judge called",
+    "her \"a very sad individual.\""
+   ],
+   "fact": "F8",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "The judge:"
+     ],
+     "stamp": "SAD",
+     "size": 100
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "mode": "fact1",
+   "tts": "She faked an ultrasound, a video, and lied in court.",
+   "shown": "She faked an ultrasound, a video, and lied in court.",
+   "chunks": [
+    "She faked an ultrasound,",
+    "a video, and lied in court."
+   ],
+   "fact": "F2",
+   "actor": "lady",
+   "shots": [
+    {
+     "s": "react",
+     "look": "passenger",
+     "expr": "shock",
+     "move": "recoil",
+     "y": 2090,
+     "other": true
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "PATERNITY",
+      "perjury"
+     ],
+     "size": 100
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "mode": "fact2",
+   "tts": "Fourteen felony charges. She pleaded guilty to four.",
+   "shown": "14 felony charges. She pleaded guilty to 4.",
+   "chunks": [
+    "14 felony charges.",
+    "She pleaded guilty to 4."
+   ],
+   "fact": "F4",
+   "actor": "lady",
+   "shots": [
+    {
+     "s": "react",
+     "look": "lady",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2090
+    },
+    {
+     "s": "tally",
+     "n": 4,
+     "label": "GUILTY PLEAS"
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "The sentence?",
+   "shown": "The sentence?",
+   "chunks": [
+    "The sentence?"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "Five years five months prison, probation only, or thirty days in jail?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "hold_after": 0.45
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "Answer C. Thirty days in jail.",
+   "shown": "Answer C. 30 days in jail.",
+   "chunks": [
+    "Answer C. 30 days in jail."
+   ],
+   "fact": "Q",
+   "shots": [],
+   "emphasis": "30 days in jail"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "Plus seven years of probation.",
+   "shown": "Plus 7 years of probation.",
+   "chunks": [
+    "Plus 7 years of probation."
+   ],
+   "fact": "F5",
+   "actor": "lady",
+   "shots": [
+    {
+     "s": "react",
+     "look": "lady",
+     "expr": "smug",
+     "move": "nod",
+     "y": 2090
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "PROBATION"
+     ],
+     "stamp": "7 YRS",
+     "size": 100
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "Too light, fair, or too harsh?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [
+    {
+     "s": "react",
+     "look": "lady",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "actor": "lady",
+   "hold_after": 0.3
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "And it all started with",
+   "shown": "And it all started with",
+   "chunks": [
+    "And it all started with"
+   ],
+   "fact": "F1",
+   "shots": []
+  }
+ ],
+ "source_spec": "episodes/specs/zzen001.json",
+ "engine": "Kokoro-82M v1.0 (Apache-2.0, local, offline)",
+ "voice": "af_heart",
+ "kokoro_speeds": [
+  1.0,
+  1.1,
+  1.2
+ ]
+}

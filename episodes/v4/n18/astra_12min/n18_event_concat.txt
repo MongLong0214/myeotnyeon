@@ -1,0 +1,5 @@
+file '/Users/isaac/projects/verdict-kr/work/episodes/v4/n18/astra_12min/NE01_ink.mp4'
+file '/Users/isaac/projects/verdict-kr/work/episodes/v4/n18/astra_12min/NE02_ink.mp4'
+file '/Users/isaac/projects/verdict-kr/work/episodes/v4/n18/astra_12min/NE03_ink.mp4'
+file '/Users/isaac/projects/verdict-kr/work/episodes/v4/n18/astra_12min/NE04_ink.mp4'
+file '/Users/isaac/projects/verdict-kr/work/episodes/v4/n18/astra_12min/NE05_ink.mp4'

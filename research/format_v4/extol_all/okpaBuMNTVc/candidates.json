@@ -1,0 +1,142 @@
+[
+  {
+    "candidate": 1,
+    "frame": 49,
+    "time_s": 1.6333333333333333,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 8.188109567901234,
+    "hist": 0.021019147068277712
+  },
+  {
+    "candidate": 2,
+    "frame": 56,
+    "time_s": 1.8666666666666667,
+    "sources": [
+      "content",
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 16.36948302469136,
+    "hist": 0.19763604799250492
+  },
+  {
+    "candidate": 3,
+    "frame": 114,
+    "time_s": 3.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.414845679012346,
+    "hist": 0.01684850294247903
+  },
+  {
+    "candidate": 4,
+    "frame": 121,
+    "time_s": 4.033333333333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 15.144490740740741,
+    "hist": 0.3565042007461495
+  },
+  {
+    "candidate": 5,
+    "frame": 180,
+    "time_s": 6.0,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.182268518518518,
+    "hist": 0.01453493480243178
+  },
+  {
+    "candidate": 6,
+    "frame": 210,
+    "time_s": 7.0,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 4.613348765432098,
+    "hist": 0.028632979538607325
+  },
+  {
+    "candidate": 7,
+    "frame": 255,
+    "time_s": 8.5,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.400895061728395,
+    "hist": 0.016071006339982128
+  },
+  {
+    "candidate": 8,
+    "frame": 262,
+    "time_s": 8.733333333333333,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 20.94739197530864,
+    "hist": 0.29886836733996464
+  },
+  {
+    "candidate": 9,
+    "frame": 321,
+    "time_s": 10.7,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.875462962962963,
+    "hist": 0.014372672836512427
+  },
+  {
+    "candidate": 10,
+    "frame": 415,
+    "time_s": 13.833333333333334,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 14.05457561728395,
+    "hist": 0.22200071431077809
+  },
+  {
+    "candidate": 11,
+    "frame": 722,
+    "time_s": 24.066666666666666,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 18.543549382716048,
+    "hist": 0.41013170931221987
+  },
+  {
+    "candidate": 12,
+    "frame": 810,
+    "time_s": 27.0,
+    "sources": [
+      "content",
+      "adaptive"
+    ],
+    "diff": 15.580779320987654,
+    "hist": 0.39565494909234533
+  },
+  {
+    "candidate": 13,
+    "frame": 897,
+    "time_s": 29.9,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.039699074074074,
+    "hist": 0.013214124039984725
+  }
+]

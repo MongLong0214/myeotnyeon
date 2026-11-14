@@ -1,0 +1,321 @@
+{
+ "qid": "q045",
+ "variant": "B3",
+ "b3": true,
+ "look": "full2",
+ "grave": false,
+ "kind": "factory",
+ "number_label": "",
+ "stage": "factory",
+ "cover_text": "노동자 670명\n임금 496억 체불",
+ "defendant": "chair",
+ "choices": [
+  "집행유예",
+  "징역 4년 6개월",
+  "징역 4년"
+ ],
+ "correct": 2,
+ "answer": "징역 4년",
+ "answer_label": "2심 · 법정구속",
+ "opinion": "이 형량,\n가볍다 / 적당 / 무겁다?",
+ "option_offsets": [
+  0.0,
+  0.88,
+  1.98
+ ],
+ "hook_text": [
+  "노동자 670명",
+  "임금 496억 체불 혐의"
+ ],
+ "sfx": [
+  [
+   "factory",
+   0,
+   "thud"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L02",
+   "at": 0.45,
+   "big": "약 3년간 체불",
+   "small": "2020년 10월 ~ 2023년 9월",
+   "calc": "노컷뉴스·조선비즈: 2020년 10월부터 2023년 9월까지"
+  },
+  {
+   "line": "L05",
+   "at": 0.5,
+   "big": "검찰 공소사실 기준",
+   "small": "체불액 약 496억 원",
+   "calc": "노컷뉴스·조선비즈: 체불한 혐의로 재판에 넘겨짐(공소사실). 2심 인정액은 보도에 없음"
+  },
+  {
+   "line": "L06",
+   "at": 0.5,
+   "big": "\"지시한 적 없다\"",
+   "small": "재판부: 책임 회피",
+   "calc": "노컷뉴스·조선비즈: 이 법정에 이르기까지 '지시한 적이 없다'며 책임 회피"
+  },
+  {
+   "line": "L12",
+   "at": 0.05,
+   "big": "48개월 ≈ 1,461일",
+   "small": "징역 4년",
+   "calc": "4 × 12 = 48개월; 48 × 30.44 = 1,461일"
+  },
+  {
+   "line": "L12",
+   "at": 0.55,
+   "big": "보석 석방 → 다시 법정구속",
+   "small": "상고 여부 미확인",
+   "calc": "노컷뉴스: 보석으로 석방됐다 2심에서 재수감"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "factory",
+   "tts": "사백구십육억 체불 혐의.",
+   "shown": "496억 체불 혐의.",
+   "chunks": [
+    "496억",
+    "체불 혐의."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "factory"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "이 회장, 몇 년 나왔을까요?",
+   "shown": "이 회장, 몇 년 나왔을까요?",
+   "chunks": [
+    "이 회장,",
+    "몇 년 나왔을까요?"
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "react",
+     "look": "chair",
+     "expr": "smug",
+     "move": "nod",
+     "y": 2090
+    },
+    {
+     "s": "calendar",
+     "year": "2020",
+     "month": 10
+    }
+   ],
+   "actor": "chair"
+  },
+  {
+   "id": "L03",
+   "mode": "guess",
+   "tts": "보석 중이었으니, 집행유예 나올 것 같지만,",
+   "shown": "보석 중이었으니, 집행유예 나올 것 같지만,",
+   "chunks": [
+    "보석 중이었으니,",
+    "집행유예 나올 것",
+    "같지만,"
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "bubble",
+     "lines": [
+      "집행유예?",
+      "보석 중인데…"
+     ],
+     "size": 140
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "그런데 이심 판결은, 다시 법정구속이었습니다.",
+   "shown": "그런데 2심 판결은, 다시 법정구속이었습니다.",
+   "chunks": [
+    "그런데 2심 판결은,",
+    "다시 법정구속이었습니다."
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "2심"
+     ],
+     "stamp": "법정구속"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "mode": "unpaid",
+   "tts": "노동자 육백칠십 명, 임금 체불 혐의였고,",
+   "shown": "노동자 670명, 임금 체불 혐의였고,",
+   "chunks": [
+    "노동자 670명,",
+    "임금 체불 혐의였고,"
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "paper",
+     "lines": [
+      "공소사실",
+      "체불 496억"
+     ],
+     "size": 100
+    },
+    {
+     "s": "react",
+     "look": "chair",
+     "expr": "smug",
+     "move": "shrug",
+     "y": 2090
+    }
+   ],
+   "actor": "chair"
+  },
+  {
+   "id": "L06",
+   "mode": "deny",
+   "tts": "법정에서도, 지시한 적 없다고 했습니다.",
+   "shown": "법정에서도, 지시한 적 없다고 했습니다.",
+   "chunks": [
+    "법정에서도,",
+    "지시한 적 없다고",
+    "했습니다."
+   ],
+   "fact": "F3",
+   "shots": [
+    {
+     "s": "bubble",
+     "lines": [
+      "지시한 적",
+      "없습니다"
+     ],
+     "size": 130
+    },
+    {
+     "s": "react",
+     "look": "chair",
+     "expr": "smug",
+     "move": "shake",
+     "y": 2090
+    }
+   ],
+   "actor": "chair"
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "이심 형량은?",
+   "shown": "2심 형량은?",
+   "chunks": [
+    "2심 형량은?"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "집행유예, 징역 사 년 육 개월, 징역 사 년.",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "target": 5.6,
+   "hold_after": 0.45
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "정답 씨, 징역 사 년.",
+   "shown": "정답 C, 징역 4년.",
+   "chunks": [
+    "정답 C,",
+    "징역 4년."
+   ],
+   "fact": "F4",
+   "shots": [],
+   "emphasis": "징역 4년"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "이심에서 징역 사 년을 선고받고 다시 법정구속됐습니다.",
+   "shown": "2심에서 징역 4년을 선고받고 다시 법정구속됐습니다.",
+   "chunks": [
+    "2심에서 징역 4년을",
+    "선고받고",
+    "다시 법정구속됐습니다."
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "cell",
+     "look": "chair",
+     "expr": "concern"
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "2심 징역 4년",
+      "법정구속"
+     ],
+     "size": 96
+    }
+   ],
+   "actor": "chair"
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "가볍다 적당 무겁다?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [
+    {
+     "s": "react",
+     "look": "chair",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "hold_after": 0.3,
+   "actor": "chair"
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "이천이십 년 시월, 그 공장의 월급날,",
+   "shown": "2020년 10월, 그 공장의 월급날,",
+   "chunks": [
+    "2020년 10월,",
+    "그 공장의 월급날,"
+   ],
+   "fact": "F1",
+   "shots": []
+  }
+ ]
+}

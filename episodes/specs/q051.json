@@ -1,0 +1,327 @@
+{
+ "spec_version": 1,
+ "id": "q051",
+ "locale": "ko",
+ "variant": "B3",
+ "channel": "myeotnyeon",
+ "case": {
+  "category": "homicide",
+  "grave": true,
+  "deaths": 1,
+  "victim_minor": false,
+  "sexual_offence": false,
+  "court": "대전고법",
+  "instance": "2심",
+  "finality": "확정",
+  "verdict_date": "2026-10-13",
+  "sentence_fact": "F4"
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "TJB대전방송",
+   "url": "https://tjmbc.co.kr/NewsArticle/869655",
+   "published": "2026-10-27"
+  },
+  {
+   "id": "S2",
+   "outlet": "뉴스1",
+   "url": "https://n.news.naver.com/mnews/article/421/0009250004?sid=102",
+   "published": "2026-10-26"
+  },
+  {
+   "id": "S3",
+   "outlet": "머니투데이",
+   "url": "https://n.news.naver.com/mnews/article/008/0005431687?sid=102",
+   "published": "2026-10-26"
+  }
+ ],
+ "facts": [
+  {
+   "id": "F1",
+   "claim": "만취한 30대 승객이 60대 대리기사를 운전석에 매단 상태로 운전했고, 대리기사는 안전벨트에 몸이 걸린 채 약 1.5km를 끌려가 숨졌다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "60대 대리기사 B 씨를 운전석에 매단 상태로 운전하고 수차례 사고를 내 살해한 혐의로 재판에 넘겨졌다."
+    },
+    {
+     "source": "S3",
+     "text": "B씨는 안전벨트에 몸이 걸린 채로 약 1.5㎞를 끌려간 것으로 알려졌다."
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "claim": "승객은 방지턱을 넘을 때 불편했다는 이유로 욕설하며 대리기사를 폭행하고 운전석 밖으로 밀쳐 운전대를 빼앗았다. 당시 혈중알코올농도는 0.152%로 면허 취소 수준이었다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "방지턱을 넘을 때 불편했다는 등 이유로 욕설하며 B 씨를 폭행하고 돌연 운전석 밖으로 밀쳐 운전대를 빼앗았다."
+    },
+    {
+     "source": "S3",
+     "text": "당시 A씨의 혈중알코올농도는 0.152%로 면허 취소 수준이었다."
+    }
+   ]
+  },
+  {
+   "id": "F3",
+   "claim": "공소청은 1심과 2심 모두 징역 30년을 구형했고, 2심에서는 형이 너무 가볍다는 이유로 항소했다.",
+   "quotes": [
+    {
+     "source": "S3",
+     "text": "공소청은 재판에 넘겨진 A씨에게 징역 30년을 구형했다."
+    },
+    {
+     "source": "S3",
+     "text": "공소청도 형이 너무 가볍다는 이유로 항소하면서 2심에서도 징역 30년을 구형했다."
+    }
+   ],
+   "values": {
+    "req": {
+     "kind": "duration",
+     "text": "징역 30년"
+    }
+   }
+  },
+  {
+   "id": "F4",
+   "claim": "대전고법은 검찰과 피고인의 항소를 모두 기각해 1심의 징역 13년을 유지했다. 검사와 피고인 모두 상고하지 않아 형이 최종 확정됐다고 TJB대전방송이 보도했다.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "\"살인의 미필적 고의는 인정되지만 초범인 점 등을 참작한 1심 형량이 적절하다\"며 징역 13년을 선고한 원심을 유지했고"
+    },
+    {
+     "source": "S2",
+     "text": "살인 등 혐의로 항소심에서도 징역 13년을 선고받은 A 씨는"
+    },
+    {
+     "source": "S3",
+     "text": "1심에 이어 2심에서도 징역 13년을 선고받은 30대 남성 A씨가 상고 의사를 밝히지 않았다."
+    },
+    {
+     "source": "S1",
+     "text": "검사와 피고인 측 모두 상고하지 않아 형이 최종 확정됐습니다."
+    }
+   ],
+   "values": {
+    "sentence": {
+     "kind": "duration",
+     "text": "징역 13년"
+    }
+   }
+  },
+  {
+   "id": "F5",
+   "claim": "1심은 술에 취해 우발적으로 범행한 것으로 보인다는 점 등을 고려해 징역 13년을 선고했고, 피고인은 기소 뒤 항소심 판결까지 17차례 반성문을 냈다.",
+   "quotes": [
+    {
+     "source": "S3",
+     "text": "다만 술에 취해 우발적으로 범행한 것으로 보인다는 점 등을 고려해 징역 13년을 선고했다."
+    },
+    {
+     "source": "S3",
+     "text": "또 기소된 후 항소심 판결까지 총 17차례에 걸쳐 반성문을 적어내며 선처를 호소했다."
+    }
+   ],
+   "values": {
+    "letters": {
+     "kind": "count",
+     "text": "17차례"
+    }
+   }
+  }
+ ],
+ "title": "만취해 대리기사 매달고 1.5km 질주해 숨지게 한 승객, 몇 년?",
+ "description": "만취한 30대 승객이 대전에서 방지턱을 넘을 때 불편했다는 이유로 60대 대리기사를 폭행하고 운전석 밖으로 밀친 뒤 운전대를 빼앗았습니다. 대리기사는 안전벨트에 몸이 걸린 채 약 1.5km를 끌려가 숨졌고, 당시 승객의 혈중알코올농도는 0.152%였습니다.\n공소청은 징역 30년을 구형했지만, 1심은 우발적 범행이라는 점 등을 고려해 징역 13년을 선고했고 2심 대전고법도 항소를 모두 기각했습니다.",
+ "hashtags": [
+  "#살인",
+  "#대리기사",
+  "#판결",
+  "#몇년나옴",
+  "#shorts"
+ ],
+ "cover": "대리기사 매달고\n1.5km 질주",
+ "hook": [
+  "대리기사를 매단 채",
+  "1.5km"
+ ],
+ "stage": "taxi",
+ "defendant": "D",
+ "quiz": {
+  "choices": [
+   "징역 30년",
+   "징역 7년",
+   "징역 13년"
+  ],
+  "answer": 2
+ },
+ "lines": [
+  {
+   "beat": "open",
+   "text": "만취 승객이, 대리기사를 매단 채 1.5㎞.",
+   "fact": "F1"
+  },
+  {
+   "beat": "hook",
+   "text": "대리기사를 매달고 달린 승객, 몇 년 나왔을까요?",
+   "fact": "F1",
+   "actor": "D",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "nod"
+    },
+    {
+     "scene": "paper",
+     "lines": [
+      "대리기사",
+      "승객"
+     ]
+    }
+   ]
+  },
+  {
+   "beat": "guess",
+   "text": "구형은 징역 30년, 비슷할 것 같지만,",
+   "fact": "F3",
+   "shots": [
+    {
+     "scene": "bubble",
+     "lines": [
+      "징역 30년?",
+      "구형했으니…"
+     ]
+    }
+   ]
+  },
+  {
+   "beat": "twist",
+   "text": "실제 선고는, 그보다 훨씬 낮은 실형이었습니다.",
+   "fact": "F4",
+   "shots": [
+    {
+     "scene": "judge"
+    },
+    {
+     "scene": "stamp",
+     "label": "판결",
+     "stamp": "실형"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "방지턱이 불편하다며 폭행하고, 운전대를 빼앗았고,",
+   "fact": "F2",
+   "actor": "D",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "angry",
+     "move": "shake"
+    },
+    {
+     "scene": "bubble",
+     "lines": [
+      "방지턱",
+      "폭행"
+     ]
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "안전벨트에 걸린 채 1.5㎞를 끌려갔습니다.",
+   "fact": "F1",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "concern",
+     "move": "shake"
+    },
+    {
+     "scene": "paper",
+     "lines": [
+      "안전벨트",
+      "1.5㎞"
+     ]
+    }
+   ],
+   "actor": "D"
+  },
+  {
+   "beat": "fact",
+   "text": "피고인은 반성문만 17차례 냈습니다.",
+   "fact": "F5",
+   "actor": "D",
+   "shots": [
+    {
+     "scene": "paper",
+     "lines": [
+      "반성문",
+      "17차례"
+     ]
+    },
+    {
+     "scene": "react",
+     "expr": "tired",
+     "move": "shrug"
+    }
+   ]
+  },
+  {
+   "beat": "answer2",
+   "text": "선고는 징역 13년, 상고 없이 확정됐습니다.",
+   "fact": "F4",
+   "shots": [
+    {
+     "scene": "judge"
+    },
+    {
+     "scene": "stamp",
+     "label": "선고",
+     "stamp": "13년"
+    }
+   ]
+  },
+  {
+   "beat": "loop",
+   "text": "만취한 승객이, 대리기사를 밀치고,",
+   "fact": "F2"
+  }
+ ],
+ "pops": [
+  {
+   "beat": "hook",
+   "at": 0.45,
+   "big": "구형 {r}",
+   "small": "선고는 어땠을까",
+   "vars": {
+    "r": "F3.req"
+   }
+  },
+  {
+   "beat": "fact3",
+   "at": 0.5,
+   "big": "반성문 {n}",
+   "small": "기소 뒤 항소심 선고까지",
+   "vars": {
+    "n": "F5.letters"
+   }
+  },
+  {
+   "beat": "answer2",
+   "at": 0.05,
+   "big": "징역 {s}",
+   "small": "구형은 {r}",
+   "vars": {
+    "s": "F4.sentence",
+    "r": "F3.req"
+   }
+  }
+ ]
+}

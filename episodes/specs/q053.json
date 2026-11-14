@@ -1,0 +1,330 @@
+{
+ "spec_version": 1,
+ "id": "q053",
+ "locale": "ko",
+ "variant": "B3",
+ "channel": "myeotnyeon",
+ "case": {
+  "category": "assault",
+  "grave": false,
+  "deaths": 0,
+  "victim_minor": false,
+  "sexual_offence": false,
+  "court": "대전지법",
+  "instance": "1심",
+  "finality": "항소 미확인",
+  "verdict_date": "unknown",
+  "sentence_fact": "F4"
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "뉴시스",
+   "url": "https://n.news.naver.com/mnews/article/003/0014321757?sid=102",
+   "published": "2026-11-14"
+  },
+  {
+   "id": "S2",
+   "outlet": "연합뉴스",
+   "url": "https://n.news.naver.com/mnews/article/001/0016441551?sid=102",
+   "published": "2026-11-14"
+  },
+  {
+   "id": "S3",
+   "outlet": "SBS",
+   "url": "https://n.news.naver.com/mnews/article/055/0001402987?sid=102",
+   "published": "2026-11-14"
+  }
+ ],
+ "facts": [
+  {
+   "id": "F1",
+   "claim": "73세 A씨는 3월 29일 밤 대전의 한 종합병원 응급실 앞에서 욕설을 하며 모니터와 산소포화측정기 등을 던지거나 떨어뜨리며 10여분 동안 난동을 부렸다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "3월 29일 오후 10시 45분께 대전 한 종합병원 응급실 앞에서 욕설하고, 컴퓨터 모니터·산소포화측정기 등을 집어 던지거나 바닥에 떨어뜨리며 10여분 동안 난동을 부린 혐의로 재판에 넘겨졌다."
+    },
+    {
+     "source": "S3",
+     "text": "지난 3월 29일 밤 10시 45분쯤 대전의 한 종합병원 응급실 앞에서 욕설하고, 컴퓨터 모니터·산소포화측정기 등을 집어 던지거나 바닥에 떨어뜨리며 10여분 동안 난동을 부린 혐의로 재판에 넘겨졌습니다."
+    }
+   ],
+   "values": {
+    "span": {
+     "kind": "count",
+     "text": "10여분"
+    }
+   }
+  },
+  {
+   "id": "F2",
+   "claim": "A씨는 범행 일주일 전에도 같은 병원에 왔다가 소란을 피워 경찰이 출동한 적이 있었다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "해당 범행 일주일 전에도 이 병원에 왔다가 소란을 피워 병원 관계자들의 신고로 경찰이 출동한 일이 있었다."
+    },
+    {
+     "source": "S3",
+     "text": "해당 범행 일주일 전에도 이 병원에 왔다가 소란을 피워 경찰이 출동한 일이 있었습니다."
+    }
+   ]
+  },
+  {
+   "id": "F3",
+   "claim": "A씨는 출동한 경찰관들에게도 욕설과 발길질을 했고, 떨어뜨린 집기류에 보안요원이 맞기도 했다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "신고받고 출동한 경찰관들에게도 욕설과 발길질을 했고, A씨가 떨어뜨린 집기류에 보안요원이 맞기도 했다."
+    },
+    {
+     "source": "S3",
+     "text": "신고받고 출동한 경찰관들에게도 욕설과 발길질을 했고, A씨가 떨어뜨린 집기류에 보안요원이 맞기도 했습니다."
+    }
+   ]
+  },
+  {
+   "id": "F4",
+   "claim": "대전지법 형사9단독은 업무방해 등 혐의로 기소된 73세 A씨에게 징역 1년을 선고했고, 기사들은 이를 실형이라고 보도했다. 사건은 1심이며 항소 여부는 어느 기사에도 없다.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "대전지법 형사9단독 최유빈 판사는 업무방해, 공무집행방해, 폭행, 모욕 등 혐의로 기소된 A(73)씨에게 징역 1년을 선고했다."
+    },
+    {
+     "source": "S2",
+     "text": "대전지법 형사9단독 최유빈 판사는 업무방해 등 혐의로 기소된 A(73)씨에게 징역 1년을 선고했다고 14일 밝혔다."
+    },
+    {
+     "source": "S2",
+     "text": "일주일 사이에 두 차례나 같은 병원에서 난동을 부린 70대에게 실형이 선고됐다."
+    },
+    {
+     "source": "S3",
+     "text": "일주일 사이에 두 차례나 같은 병원에서 난동을 부린 70대에게 실형이 선고됐습니다."
+    }
+   ],
+   "values": {
+    "sentence": {
+     "kind": "duration",
+     "text": "징역 1년"
+    }
+   }
+  },
+  {
+   "id": "F5",
+   "claim": "재판부는 동종 범죄로 여러 차례 처벌받은 점을 불리한 정상으로, 일부 피해자들과 합의한 점을 유리한 정상으로 참작했다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "동종 범죄로 여러 차례 처벌받은 적이 있는 점을 불리한 정상으로, 일부 피해자들과 합의한 점을 유리한 정상으로 참작했다"
+    },
+    {
+     "source": "S3",
+     "text": "동종 범죄로 여러 차례 처벌받은 적이 있는 점을 불리한 정상으로, 일부 피해자들과 합의한 점을 유리한 정상으로 참작했다"
+    }
+   ]
+  }
+ ],
+ "title": "응급실서 난동 부려 경찰까지 찬 70대, 몇 년?",
+ "description": "73세 A씨는 3월 29일 대전의 한 종합병원 응급실 앞에서 욕설을 하며 컴퓨터 모니터와 산소포화측정기 등을 던지거나 떨어뜨리며 10여분 동안 난동을 부렸습니다. 일주일 전에도 같은 병원에서 소란을 피워 경찰이 출동한 적이 있었습니다.\n대전지법은 업무방해 등 혐의의 A씨에게 징역 1년을 선고했습니다. 재판부는 동종 범죄로 여러 차례 처벌받은 점을 불리한 정상으로, 일부 피해자들과 합의한 점을 유리한 정상으로 참작했습니다.",
+ "hashtags": [
+  "#업무방해",
+  "#응급실",
+  "#판결",
+  "#철컹철컹",
+  "#shorts"
+ ],
+ "cover": "응급실 앞에서\n10여분 난동",
+ "hook": [
+  "응급실서 난동 부린 70대",
+  "징역 1년 실형"
+ ],
+ "stage": "glare",
+ "defendant": "prof",
+ "quiz": {
+  "choices": [
+   "벌금 100만 원",
+   "징역 1년",
+   "징역 5년"
+  ],
+  "answer": 1
+ },
+ "lines": [
+  {
+   "beat": "open",
+   "text": "3월 29일 밤, 응급실 앞에서 발생한 일입니다.",
+   "fact": "F1"
+  },
+  {
+   "beat": "hook",
+   "text": "욕설과 함께, 모니터와 산소포화측정기가 날았습니다.",
+   "fact": "F1",
+   "actor": "prof",
+   "shots": [
+    {
+     "scene": "paper",
+     "lines": [
+      "모니터",
+      "산소포화측정기"
+     ]
+    },
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "shake"
+    }
+   ]
+  },
+  {
+   "beat": "guess",
+   "text": "난동은 10여분 동안, 이어졌습니다.",
+   "fact": "F1",
+   "actor": "prof",
+   "shots": [
+    {
+     "scene": "paper",
+     "lines": [
+      "난동",
+      "10여분"
+     ]
+    },
+    {
+     "scene": "react",
+     "expr": "concern",
+     "move": "shake"
+    }
+   ]
+  },
+  {
+   "beat": "twist",
+   "text": "그런데 일주일 전에도, 같은 병원에서 소란을 피웠습니다.",
+   "fact": "F2",
+   "actor": "prof",
+   "shots": [
+    {
+     "scene": "bubble",
+     "lines": [
+      "일주일 전",
+      "같은 병원"
+     ]
+    },
+    {
+     "scene": "react",
+     "expr": "smug",
+     "move": "nod"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "출동한 경찰관에게도, 욕설과 발길질을 했습니다.",
+   "fact": "F3",
+   "actor": "prof",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "nod"
+    },
+    {
+     "scene": "stamp",
+     "label": "경찰관",
+     "stamp": "욕설"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "보안요원은, 떨어진 집기류에 맞기도 했습니다.",
+   "fact": "F3",
+   "actor": "prof",
+   "shots": [
+    {
+     "scene": "stamp",
+     "label": "보안요원",
+     "stamp": "집기"
+    },
+    {
+     "scene": "react",
+     "expr": "concern",
+     "move": "shake"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "재판부는, 동종 범죄 처벌 전력을 불리하게 봤습니다.",
+   "fact": "F5",
+   "actor": "prof",
+   "shots": [
+    {
+     "scene": "judge"
+    },
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "nod"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "일부 피해자와 합의한 점은, 유리하게 참작했습니다.",
+   "fact": "F5",
+   "actor": "prof",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "nod"
+    },
+    {
+     "scene": "judge"
+    }
+   ]
+  },
+  {
+   "beat": "answer2",
+   "text": "1심 선고는 징역 1년, 실형입니다.",
+   "fact": "F4",
+   "shots": [
+    {
+     "scene": "stamp",
+     "label": "선고",
+     "stamp": "실형"
+    },
+    {
+     "scene": "paper",
+     "lines": [
+      "징역 1년",
+      "실형"
+     ]
+    },
+    {
+     "scene": "judge"
+    }
+   ]
+  },
+  {
+   "beat": "loop",
+   "text": "주점에서 다친 얼굴로, 병원을 찾은 남성이,",
+   "fact": "F1"
+  }
+ ],
+ "pops": [
+  {
+   "beat": "answer2",
+   "at": 0.05,
+   "big": "{s}",
+   "small": "실형",
+   "vars": {
+    "s": "F4.sentence"
+   }
+  }
+ ],
+ "format": "result_first",
+ "pinned": "실제 판결: 대전지법 1심 징역 1년(실형). 항소 여부는 보도에 없어 확인되지 않았습니다."
+}

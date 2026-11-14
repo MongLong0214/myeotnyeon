@@ -1,0 +1,7141 @@
+{
+  "frames_compared": 998,
+  "card_interval_inclusive": [
+    700,
+    763
+  ],
+  "different_frames": [
+    {
+      "frame": 669,
+      "max_error": 11,
+      "mean_absolute_error": 0.3399387538580247,
+      "changed_pixels": 415306,
+      "bbox": [
+        0,
+        803,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 670,
+      "max_error": 11,
+      "mean_absolute_error": 0.3380325681584362,
+      "changed_pixels": 412324,
+      "bbox": [
+        0,
+        803,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 671,
+      "max_error": 12,
+      "mean_absolute_error": 0.3404976851851852,
+      "changed_pixels": 415492,
+      "bbox": [
+        0,
+        803,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 672,
+      "max_error": 50,
+      "mean_absolute_error": 0.20264564043209876,
+      "changed_pixels": 279644,
+      "bbox": [
+        0,
+        813,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 673,
+      "max_error": 25,
+      "mean_absolute_error": 0.20306600437242797,
+      "changed_pixels": 280350,
+      "bbox": [
+        0,
+        813,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 674,
+      "max_error": 11,
+      "mean_absolute_error": 0.2031912294238683,
+      "changed_pixels": 280405,
+      "bbox": [
+        0,
+        813,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 675,
+      "max_error": 22,
+      "mean_absolute_error": 0.45607542438271603,
+      "changed_pixels": 536695,
+      "bbox": [
+        0,
+        797,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 676,
+      "max_error": 49,
+      "mean_absolute_error": 0.4560834619341564,
+      "changed_pixels": 536612,
+      "bbox": [
+        0,
+        797,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 677,
+      "max_error": 13,
+      "mean_absolute_error": 0.45640544624485596,
+      "changed_pixels": 537063,
+      "bbox": [
+        0,
+        797,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 678,
+      "max_error": 22,
+      "mean_absolute_error": 0.589251221707819,
+      "changed_pixels": 633705,
+      "bbox": [
+        0,
+        783,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 679,
+      "max_error": 22,
+      "mean_absolute_error": 0.5893904320987654,
+      "changed_pixels": 633931,
+      "bbox": [
+        0,
+        783,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 680,
+      "max_error": 46,
+      "mean_absolute_error": 0.5903674768518519,
+      "changed_pixels": 632858,
+      "bbox": [
+        0,
+        783,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 681,
+      "max_error": 23,
+      "mean_absolute_error": 0.4425565843621399,
+      "changed_pixels": 515210,
+      "bbox": [
+        0,
+        735,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 682,
+      "max_error": 44,
+      "mean_absolute_error": 0.4408326903292181,
+      "changed_pixels": 514385,
+      "bbox": [
+        0,
+        735,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 683,
+      "max_error": 14,
+      "mean_absolute_error": 0.4422518004115226,
+      "changed_pixels": 514991,
+      "bbox": [
+        0,
+        735,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 684,
+      "max_error": 51,
+      "mean_absolute_error": 0.3986567644032922,
+      "changed_pixels": 484415,
+      "bbox": [
+        0,
+        751,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 685,
+      "max_error": 13,
+      "mean_absolute_error": 0.3989183063271605,
+      "changed_pixels": 484956,
+      "bbox": [
+        0,
+        751,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 686,
+      "max_error": 13,
+      "mean_absolute_error": 0.39907343106995885,
+      "changed_pixels": 485107,
+      "bbox": [
+        0,
+        751,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 687,
+      "max_error": 27,
+      "mean_absolute_error": 0.5065541409465021,
+      "changed_pixels": 574239,
+      "bbox": [
+        0,
+        719,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 688,
+      "max_error": 48,
+      "mean_absolute_error": 0.5064790702160494,
+      "changed_pixels": 574242,
+      "bbox": [
+        0,
+        719,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 689,
+      "max_error": 22,
+      "mean_absolute_error": 0.5070143711419753,
+      "changed_pixels": 574777,
+      "bbox": [
+        0,
+        719,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 690,
+      "max_error": 34,
+      "mean_absolute_error": 0.6423177083333333,
+      "changed_pixels": 682284,
+      "bbox": [
+        0,
+        718,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 691,
+      "max_error": 34,
+      "mean_absolute_error": 0.6422834683641976,
+      "changed_pixels": 682278,
+      "bbox": [
+        0,
+        718,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 692,
+      "max_error": 50,
+      "mean_absolute_error": 0.6428576710390946,
+      "changed_pixels": 680981,
+      "bbox": [
+        0,
+        718,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 693,
+      "max_error": 20,
+      "mean_absolute_error": 0.48780655221193414,
+      "changed_pixels": 562024,
+      "bbox": [
+        0,
+        638,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 694,
+      "max_error": 42,
+      "mean_absolute_error": 0.48587512860082305,
+      "changed_pixels": 560730,
+      "bbox": [
+        0,
+        638,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 695,
+      "max_error": 37,
+      "mean_absolute_error": 0.490625,
+      "changed_pixels": 567899,
+      "bbox": [
+        0,
+        638,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 696,
+      "max_error": 59,
+      "mean_absolute_error": 0.4461230066872428,
+      "changed_pixels": 546900,
+      "bbox": [
+        0,
+        639,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 697,
+      "max_error": 52,
+      "mean_absolute_error": 0.44674414866255147,
+      "changed_pixels": 548679,
+      "bbox": [
+        0,
+        639,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 698,
+      "max_error": 53,
+      "mean_absolute_error": 0.44700279706790125,
+      "changed_pixels": 548674,
+      "bbox": [
+        0,
+        639,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 699,
+      "max_error": 54,
+      "mean_absolute_error": 0.5645995691872427,
+      "changed_pixels": 638158,
+      "bbox": [
+        0,
+        624,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 700,
+      "max_error": 227,
+      "mean_absolute_error": 0.9736530671296296,
+      "changed_pixels": 640535,
+      "bbox": [
+        0,
+        624,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 701,
+      "max_error": 225,
+      "mean_absolute_error": 0.9740345293209877,
+      "changed_pixels": 641326,
+      "bbox": [
+        0,
+        624,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 702,
+      "max_error": 224,
+      "mean_absolute_error": 1.1112475887345679,
+      "changed_pixels": 745440,
+      "bbox": [
+        0,
+        600,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 703,
+      "max_error": 224,
+      "mean_absolute_error": 1.1115057548868312,
+      "changed_pixels": 745838,
+      "bbox": [
+        0,
+        600,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 704,
+      "max_error": 224,
+      "mean_absolute_error": 1.1122320280349793,
+      "changed_pixels": 744337,
+      "bbox": [
+        0,
+        605,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 705,
+      "max_error": 225,
+      "mean_absolute_error": 0.9328980195473251,
+      "changed_pixels": 599599,
+      "bbox": [
+        0,
+        591,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 706,
+      "max_error": 225,
+      "mean_absolute_error": 0.9309129050925926,
+      "changed_pixels": 598722,
+      "bbox": [
+        0,
+        591,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 707,
+      "max_error": 225,
+      "mean_absolute_error": 0.9333823623971194,
+      "changed_pixels": 599844,
+      "bbox": [
+        0,
+        591,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 708,
+      "max_error": 224,
+      "mean_absolute_error": 0.8744122942386832,
+      "changed_pixels": 568479,
+      "bbox": [
+        0,
+        605,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 709,
+      "max_error": 224,
+      "mean_absolute_error": 0.8745841370884774,
+      "changed_pixels": 568847,
+      "bbox": [
+        0,
+        592,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 710,
+      "max_error": 224,
+      "mean_absolute_error": 0.874560345936214,
+      "changed_pixels": 568948,
+      "bbox": [
+        0,
+        592,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 711,
+      "max_error": 224,
+      "mean_absolute_error": 1.0119222608024692,
+      "changed_pixels": 679227,
+      "bbox": [
+        0,
+        575,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 712,
+      "max_error": 224,
+      "mean_absolute_error": 1.0117277520576131,
+      "changed_pixels": 678935,
+      "bbox": [
+        0,
+        575,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 713,
+      "max_error": 224,
+      "mean_absolute_error": 1.0120060120884773,
+      "changed_pixels": 679328,
+      "bbox": [
+        0,
+        575,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 714,
+      "max_error": 228,
+      "mean_absolute_error": 1.1375120563271606,
+      "changed_pixels": 775656,
+      "bbox": [
+        0,
+        561,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 715,
+      "max_error": 228,
+      "mean_absolute_error": 1.1376768261316872,
+      "changed_pixels": 775970,
+      "bbox": [
+        0,
+        561,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 716,
+      "max_error": 228,
+      "mean_absolute_error": 1.137920685442387,
+      "changed_pixels": 773598,
+      "bbox": [
+        0,
+        561,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 717,
+      "max_error": 224,
+      "mean_absolute_error": 0.9624064429012346,
+      "changed_pixels": 632586,
+      "bbox": [
+        0,
+        543,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 718,
+      "max_error": 224,
+      "mean_absolute_error": 0.95955279063786,
+      "changed_pixels": 631525,
+      "bbox": [
+        0,
+        543,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 719,
+      "max_error": 224,
+      "mean_absolute_error": 0.9624213927469136,
+      "changed_pixels": 632860,
+      "bbox": [
+        0,
+        543,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 720,
+      "max_error": 224,
+      "mean_absolute_error": 0.9103689236111111,
+      "changed_pixels": 603497,
+      "bbox": [
+        0,
+        557,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 721,
+      "max_error": 224,
+      "mean_absolute_error": 0.9104428690843621,
+      "changed_pixels": 603666,
+      "bbox": [
+        0,
+        557,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 722,
+      "max_error": 224,
+      "mean_absolute_error": 0.9105222800925926,
+      "changed_pixels": 603797,
+      "bbox": [
+        0,
+        557,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 723,
+      "max_error": 228,
+      "mean_absolute_error": 1.022396797839506,
+      "changed_pixels": 695870,
+      "bbox": [
+        0,
+        526,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 724,
+      "max_error": 228,
+      "mean_absolute_error": 1.0223554848251029,
+      "changed_pixels": 695785,
+      "bbox": [
+        0,
+        526,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 725,
+      "max_error": 228,
+      "mean_absolute_error": 1.0219653420781893,
+      "changed_pixels": 695761,
+      "bbox": [
+        0,
+        526,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 726,
+      "max_error": 228,
+      "mean_absolute_error": 1.1632892875514402,
+      "changed_pixels": 800802,
+      "bbox": [
+        0,
+        512,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 727,
+      "max_error": 228,
+      "mean_absolute_error": 1.1636114326131688,
+      "changed_pixels": 801245,
+      "bbox": [
+        0,
+        512,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 728,
+      "max_error": 228,
+      "mean_absolute_error": 1.1645106738683129,
+      "changed_pixels": 799764,
+      "bbox": [
+        0,
+        512,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 729,
+      "max_error": 229,
+      "mean_absolute_error": 0.9795134066358024,
+      "changed_pixels": 653578,
+      "bbox": [
+        0,
+        493,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 730,
+      "max_error": 226,
+      "mean_absolute_error": 0.9771624228395062,
+      "changed_pixels": 652089,
+      "bbox": [
+        0,
+        493,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 731,
+      "max_error": 226,
+      "mean_absolute_error": 0.9796543852880658,
+      "changed_pixels": 652699,
+      "bbox": [
+        0,
+        493,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 732,
+      "max_error": 226,
+      "mean_absolute_error": 0.9111956661522633,
+      "changed_pixels": 609213,
+      "bbox": [
+        0,
+        509,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 733,
+      "max_error": 226,
+      "mean_absolute_error": 0.911196791409465,
+      "changed_pixels": 609283,
+      "bbox": [
+        0,
+        509,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 734,
+      "max_error": 226,
+      "mean_absolute_error": 0.9112038644547326,
+      "changed_pixels": 609215,
+      "bbox": [
+        0,
+        509,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 735,
+      "max_error": 224,
+      "mean_absolute_error": 1.040018325617284,
+      "changed_pixels": 707635,
+      "bbox": [
+        0,
+        479,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 736,
+      "max_error": 224,
+      "mean_absolute_error": 1.0400921103395062,
+      "changed_pixels": 707692,
+      "bbox": [
+        0,
+        479,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 737,
+      "max_error": 224,
+      "mean_absolute_error": 1.040137924382716,
+      "changed_pixels": 707837,
+      "bbox": [
+        0,
+        479,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 738,
+      "max_error": 224,
+      "mean_absolute_error": 1.2104923804012346,
+      "changed_pixels": 849841,
+      "bbox": [
+        0,
+        477,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 739,
+      "max_error": 224,
+      "mean_absolute_error": 1.210639949845679,
+      "changed_pixels": 850058,
+      "bbox": [
+        0,
+        477,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 740,
+      "max_error": 224,
+      "mean_absolute_error": 1.2123405349794238,
+      "changed_pixels": 848207,
+      "bbox": [
+        0,
+        477,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 741,
+      "max_error": 224,
+      "mean_absolute_error": 0.992154224537037,
+      "changed_pixels": 662272,
+      "bbox": [
+        0,
+        462,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 742,
+      "max_error": 224,
+      "mean_absolute_error": 0.9900835905349794,
+      "changed_pixels": 661479,
+      "bbox": [
+        0,
+        462,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 743,
+      "max_error": 224,
+      "mean_absolute_error": 0.9927681327160494,
+      "changed_pixels": 662282,
+      "bbox": [
+        0,
+        462,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 744,
+      "max_error": 225,
+      "mean_absolute_error": 0.9402819573045268,
+      "changed_pixels": 639845,
+      "bbox": [
+        0,
+        462,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 745,
+      "max_error": 225,
+      "mean_absolute_error": 0.9405367476851851,
+      "changed_pixels": 640748,
+      "bbox": [
+        0,
+        462,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 746,
+      "max_error": 225,
+      "mean_absolute_error": 0.9405471965020576,
+      "changed_pixels": 640748,
+      "bbox": [
+        0,
+        462,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 747,
+      "max_error": 224,
+      "mean_absolute_error": 1.0637337641460904,
+      "changed_pixels": 732802,
+      "bbox": [
+        0,
+        447,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 748,
+      "max_error": 224,
+      "mean_absolute_error": 1.0637511252572016,
+      "changed_pixels": 732736,
+      "bbox": [
+        0,
+        447,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 749,
+      "max_error": 224,
+      "mean_absolute_error": 1.0637257265946503,
+      "changed_pixels": 732739,
+      "bbox": [
+        0,
+        447,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 750,
+      "max_error": 224,
+      "mean_absolute_error": 0.6201564107510288,
+      "changed_pixels": 316469,
+      "bbox": [
+        0,
+        720,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 751,
+      "max_error": 224,
+      "mean_absolute_error": 0.6217031571502057,
+      "changed_pixels": 318422,
+      "bbox": [
+        0,
+        655,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 752,
+      "max_error": 224,
+      "mean_absolute_error": 0.6220082626028807,
+      "changed_pixels": 318891,
+      "bbox": [
+        0,
+        655,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 753,
+      "max_error": 225,
+      "mean_absolute_error": 0.8988376093106996,
+      "changed_pixels": 572698,
+      "bbox": [
+        0,
+        653,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 754,
+      "max_error": 225,
+      "mean_absolute_error": 0.8987491962448559,
+      "changed_pixels": 572177,
+      "bbox": [
+        0,
+        653,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 755,
+      "max_error": 225,
+      "mean_absolute_error": 0.9049345743312757,
+      "changed_pixels": 577345,
+      "bbox": [
+        0,
+        653,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 756,
+      "max_error": 224,
+      "mean_absolute_error": 1.0651904899691358,
+      "changed_pixels": 706278,
+      "bbox": [
+        0,
+        653,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 757,
+      "max_error": 224,
+      "mean_absolute_error": 1.0655033114711934,
+      "changed_pixels": 706658,
+      "bbox": [
+        0,
+        653,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 758,
+      "max_error": 224,
+      "mean_absolute_error": 1.0656819058641975,
+      "changed_pixels": 704188,
+      "bbox": [
+        0,
+        653,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 759,
+      "max_error": 224,
+      "mean_absolute_error": 0.9000734632201646,
+      "changed_pixels": 562937,
+      "bbox": [
+        0,
+        623,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 760,
+      "max_error": 224,
+      "mean_absolute_error": 0.8994748263888889,
+      "changed_pixels": 562380,
+      "bbox": [
+        0,
+        623,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 761,
+      "max_error": 224,
+      "mean_absolute_error": 0.9002425733024692,
+      "changed_pixels": 563087,
+      "bbox": [
+        0,
+        623,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 762,
+      "max_error": 225,
+      "mean_absolute_error": 0.8565761638374486,
+      "changed_pixels": 539195,
+      "bbox": [
+        0,
+        639,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 763,
+      "max_error": 225,
+      "mean_absolute_error": 0.8539043209876543,
+      "changed_pixels": 538725,
+      "bbox": [
+        0,
+        624,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 764,
+      "max_error": 13,
+      "mean_absolute_error": 0.43538435570987655,
+      "changed_pixels": 531734,
+      "bbox": [
+        0,
+        623,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 765,
+      "max_error": 11,
+      "mean_absolute_error": 0.5844565007716049,
+      "changed_pixels": 665782,
+      "bbox": [
+        0,
+        623,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 766,
+      "max_error": 11,
+      "mean_absolute_error": 0.5844627700617284,
+      "changed_pixels": 665784,
+      "bbox": [
+        0,
+        623,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 767,
+      "max_error": 32,
+      "mean_absolute_error": 0.5827806712962963,
+      "changed_pixels": 664769,
+      "bbox": [
+        0,
+        623,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 768,
+      "max_error": 45,
+      "mean_absolute_error": 0.6646595293209877,
+      "changed_pixels": 706480,
+      "bbox": [
+        0,
+        605,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 769,
+      "max_error": 48,
+      "mean_absolute_error": 0.6500372942386832,
+      "changed_pixels": 696808,
+      "bbox": [
+        0,
+        605,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 770,
+      "max_error": 56,
+      "mean_absolute_error": 0.6483487654320987,
+      "changed_pixels": 692110,
+      "bbox": [
+        0,
+        605,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 771,
+      "max_error": 19,
+      "mean_absolute_error": 0.487242316100823,
+      "changed_pixels": 564766,
+      "bbox": [
+        0,
+        591,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 772,
+      "max_error": 23,
+      "mean_absolute_error": 0.4855383551954732,
+      "changed_pixels": 563463,
+      "bbox": [
+        0,
+        591,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 773,
+      "max_error": 19,
+      "mean_absolute_error": 0.4884704539609053,
+      "changed_pixels": 566014,
+      "bbox": [
+        0,
+        591,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 774,
+      "max_error": 45,
+      "mean_absolute_error": 0.4543917181069959,
+      "changed_pixels": 556740,
+      "bbox": [
+        0,
+        604,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 775,
+      "max_error": 30,
+      "mean_absolute_error": 0.45513503086419754,
+      "changed_pixels": 557851,
+      "bbox": [
+        0,
+        604,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 776,
+      "max_error": 30,
+      "mean_absolute_error": 0.45509886188271603,
+      "changed_pixels": 557906,
+      "bbox": [
+        0,
+        604,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 777,
+      "max_error": 35,
+      "mean_absolute_error": 0.563587962962963,
+      "changed_pixels": 640792,
+      "bbox": [
+        0,
+        587,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 778,
+      "max_error": 35,
+      "mean_absolute_error": 0.5635759066358025,
+      "changed_pixels": 640960,
+      "bbox": [
+        0,
+        587,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 779,
+      "max_error": 35,
+      "mean_absolute_error": 0.5636713927469136,
+      "changed_pixels": 641128,
+      "bbox": [
+        0,
+        587,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 780,
+      "max_error": 35,
+      "mean_absolute_error": 0.6816525205761317,
+      "changed_pixels": 721277,
+      "bbox": [
+        0,
+        560,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 781,
+      "max_error": 35,
+      "mean_absolute_error": 0.6817796746399177,
+      "changed_pixels": 721360,
+      "bbox": [
+        0,
+        560,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 782,
+      "max_error": 44,
+      "mean_absolute_error": 0.6822844328703703,
+      "changed_pixels": 720123,
+      "bbox": [
+        0,
+        575,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 783,
+      "max_error": 35,
+      "mean_absolute_error": 0.5277872620884774,
+      "changed_pixels": 610679,
+      "bbox": [
+        0,
+        542,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 784,
+      "max_error": 35,
+      "mean_absolute_error": 0.5261839313271605,
+      "changed_pixels": 609760,
+      "bbox": [
+        0,
+        542,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 785,
+      "max_error": 35,
+      "mean_absolute_error": 0.5271513310185185,
+      "changed_pixels": 609948,
+      "bbox": [
+        0,
+        542,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 786,
+      "max_error": 35,
+      "mean_absolute_error": 0.46369261188271604,
+      "changed_pixels": 574073,
+      "bbox": [
+        0,
+        560,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 787,
+      "max_error": 29,
+      "mean_absolute_error": 0.46387506430041153,
+      "changed_pixels": 574413,
+      "bbox": [
+        0,
+        560,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 788,
+      "max_error": 29,
+      "mean_absolute_error": 0.46403694058641975,
+      "changed_pixels": 574546,
+      "bbox": [
+        0,
+        560,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 789,
+      "max_error": 22,
+      "mean_absolute_error": 0.5890830761316872,
+      "changed_pixels": 668015,
+      "bbox": [
+        0,
+        541,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 790,
+      "max_error": 34,
+      "mean_absolute_error": 0.5891591113683128,
+      "changed_pixels": 667854,
+      "bbox": [
+        0,
+        541,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 791,
+      "max_error": 22,
+      "mean_absolute_error": 0.5892155349794239,
+      "changed_pixels": 668218,
+      "bbox": [
+        0,
+        541,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 792,
+      "max_error": 33,
+      "mean_absolute_error": 0.7341258359053497,
+      "changed_pixels": 786679,
+      "bbox": [
+        0,
+        525,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 793,
+      "max_error": 33,
+      "mean_absolute_error": 0.7342134452160494,
+      "changed_pixels": 786805,
+      "bbox": [
+        0,
+        525,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 794,
+      "max_error": 44,
+      "mean_absolute_error": 0.735361529063786,
+      "changed_pixels": 785458,
+      "bbox": [
+        0,
+        525,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 795,
+      "max_error": 15,
+      "mean_absolute_error": 0.5401289223251029,
+      "changed_pixels": 624739,
+      "bbox": [
+        0,
+        495,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 796,
+      "max_error": 18,
+      "mean_absolute_error": 0.5384637024176955,
+      "changed_pixels": 624106,
+      "bbox": [
+        0,
+        495,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 797,
+      "max_error": 14,
+      "mean_absolute_error": 0.5399840856481481,
+      "changed_pixels": 624703,
+      "bbox": [
+        0,
+        495,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 798,
+      "max_error": 18,
+      "mean_absolute_error": 0.4883897569444444,
+      "changed_pixels": 599817,
+      "bbox": [
+        0,
+        511,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 799,
+      "max_error": 14,
+      "mean_absolute_error": 0.48837995113168725,
+      "changed_pixels": 600018,
+      "bbox": [
+        0,
+        511,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 800,
+      "max_error": 14,
+      "mean_absolute_error": 0.48848299254115224,
+      "changed_pixels": 600094,
+      "bbox": [
+        0,
+        511,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 801,
+      "max_error": 55,
+      "mean_absolute_error": 0.6024275012860082,
+      "changed_pixels": 698646,
+      "bbox": [
+        0,
+        495,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 802,
+      "max_error": 56,
+      "mean_absolute_error": 0.6028240740740741,
+      "changed_pixels": 698522,
+      "bbox": [
+        0,
+        495,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 803,
+      "max_error": 28,
+      "mean_absolute_error": 0.6040944894547325,
+      "changed_pixels": 701682,
+      "bbox": [
+        0,
+        495,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 804,
+      "max_error": 23,
+      "mean_absolute_error": 0.7705547518004116,
+      "changed_pixels": 827973,
+      "bbox": [
+        0,
+        477,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 805,
+      "max_error": 23,
+      "mean_absolute_error": 0.7708269032921811,
+      "changed_pixels": 828488,
+      "bbox": [
+        0,
+        477,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 806,
+      "max_error": 56,
+      "mean_absolute_error": 0.7721039094650206,
+      "changed_pixels": 827453,
+      "bbox": [
+        0,
+        477,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 807,
+      "max_error": 22,
+      "mean_absolute_error": 0.5587514467592593,
+      "changed_pixels": 645180,
+      "bbox": [
+        0,
+        447,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 808,
+      "max_error": 50,
+      "mean_absolute_error": 0.5568438143004115,
+      "changed_pixels": 644576,
+      "bbox": [
+        0,
+        447,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 809,
+      "max_error": 26,
+      "mean_absolute_error": 0.5590687692901235,
+      "changed_pixels": 645437,
+      "bbox": [
+        0,
+        447,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 810,
+      "max_error": 55,
+      "mean_absolute_error": 0.5212956532921811,
+      "changed_pixels": 637767,
+      "bbox": [
+        0,
+        461,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 811,
+      "max_error": 19,
+      "mean_absolute_error": 0.5217804783950617,
+      "changed_pixels": 638339,
+      "bbox": [
+        0,
+        461,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 812,
+      "max_error": 19,
+      "mean_absolute_error": 0.5218555491255144,
+      "changed_pixels": 638383,
+      "bbox": [
+        0,
+        461,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 813,
+      "max_error": 19,
+      "mean_absolute_error": 0.6387144740226337,
+      "changed_pixels": 728367,
+      "bbox": [
+        0,
+        432,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 814,
+      "max_error": 53,
+      "mean_absolute_error": 0.6385776748971194,
+      "changed_pixels": 728332,
+      "bbox": [
+        0,
+        432,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 815,
+      "max_error": 19,
+      "mean_absolute_error": 0.638784079218107,
+      "changed_pixels": 728590,
+      "bbox": [
+        0,
+        432,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 816,
+      "max_error": 38,
+      "mean_absolute_error": 0.7878057484567901,
+      "changed_pixels": 840494,
+      "bbox": [
+        0,
+        416,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 817,
+      "max_error": 38,
+      "mean_absolute_error": 0.7880414094650205,
+      "changed_pixels": 840888,
+      "bbox": [
+        0,
+        416,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 818,
+      "max_error": 53,
+      "mean_absolute_error": 0.7886861818415638,
+      "changed_pixels": 839392,
+      "bbox": [
+        0,
+        416,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 819,
+      "max_error": 33,
+      "mean_absolute_error": 0.5888440393518518,
+      "changed_pixels": 680784,
+      "bbox": [
+        0,
+        399,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 820,
+      "max_error": 54,
+      "mean_absolute_error": 0.5855721129115227,
+      "changed_pixels": 679618,
+      "bbox": [
+        0,
+        399,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 821,
+      "max_error": 33,
+      "mean_absolute_error": 0.5879644097222222,
+      "changed_pixels": 680700,
+      "bbox": [
+        0,
+        399,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 822,
+      "max_error": 53,
+      "mean_absolute_error": 0.5452181391460905,
+      "changed_pixels": 658117,
+      "bbox": [
+        0,
+        413,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 823,
+      "max_error": 19,
+      "mean_absolute_error": 0.5451517489711935,
+      "changed_pixels": 658104,
+      "bbox": [
+        0,
+        413,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 824,
+      "max_error": 19,
+      "mean_absolute_error": 0.5451737718621399,
+      "changed_pixels": 658148,
+      "bbox": [
+        0,
+        413,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 825,
+      "max_error": 19,
+      "mean_absolute_error": 0.6704980066872428,
+      "changed_pixels": 762595,
+      "bbox": [
+        0,
+        384,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 826,
+      "max_error": 44,
+      "mean_absolute_error": 0.670385641718107,
+      "changed_pixels": 762523,
+      "bbox": [
+        0,
+        384,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 827,
+      "max_error": 19,
+      "mean_absolute_error": 0.6703497942386831,
+      "changed_pixels": 762597,
+      "bbox": [
+        0,
+        384,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 828,
+      "max_error": 20,
+      "mean_absolute_error": 0.8265293852880659,
+      "changed_pixels": 884610,
+      "bbox": [
+        0,
+        380,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 829,
+      "max_error": 20,
+      "mean_absolute_error": 0.8269077932098765,
+      "changed_pixels": 885071,
+      "bbox": [
+        0,
+        380,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 830,
+      "max_error": 52,
+      "mean_absolute_error": 0.828890496399177,
+      "changed_pixels": 883691,
+      "bbox": [
+        0,
+        380,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 831,
+      "max_error": 21,
+      "mean_absolute_error": 0.6301281185699589,
+      "changed_pixels": 722794,
+      "bbox": [
+        0,
+        366,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 832,
+      "max_error": 50,
+      "mean_absolute_error": 0.6277780992798354,
+      "changed_pixels": 722115,
+      "bbox": [
+        0,
+        366,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 833,
+      "max_error": 19,
+      "mean_absolute_error": 0.6301925797325103,
+      "changed_pixels": 724050,
+      "bbox": [
+        0,
+        366,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 834,
+      "max_error": 19,
+      "mean_absolute_error": 0.573694380144033,
+      "changed_pixels": 694218,
+      "bbox": [
+        0,
+        368,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 835,
+      "max_error": 34,
+      "mean_absolute_error": 0.5719378536522634,
+      "changed_pixels": 695305,
+      "bbox": [
+        0,
+        368,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 836,
+      "max_error": 47,
+      "mean_absolute_error": 0.5722421553497943,
+      "changed_pixels": 695339,
+      "bbox": [
+        0,
+        368,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 837,
+      "max_error": 34,
+      "mean_absolute_error": 0.7147471386316873,
+      "changed_pixels": 813978,
+      "bbox": [
+        0,
+        356,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 838,
+      "max_error": 58,
+      "mean_absolute_error": 0.714799704218107,
+      "changed_pixels": 813543,
+      "bbox": [
+        0,
+        356,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 839,
+      "max_error": 29,
+      "mean_absolute_error": 0.7154208461934156,
+      "changed_pixels": 814825,
+      "bbox": [
+        0,
+        356,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 840,
+      "max_error": 46,
+      "mean_absolute_error": 0.8370630787037037,
+      "changed_pixels": 895438,
+      "bbox": [
+        0,
+        349,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 841,
+      "max_error": 46,
+      "mean_absolute_error": 0.837382008744856,
+      "changed_pixels": 896018,
+      "bbox": [
+        0,
+        349,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 842,
+      "max_error": 51,
+      "mean_absolute_error": 0.8378604038065843,
+      "changed_pixels": 894211,
+      "bbox": [
+        0,
+        349,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 843,
+      "max_error": 46,
+      "mean_absolute_error": 0.6369037744341564,
+      "changed_pixels": 738867,
+      "bbox": [
+        0,
+        335,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 844,
+      "max_error": 56,
+      "mean_absolute_error": 0.6328186085390947,
+      "changed_pixels": 737156,
+      "bbox": [
+        0,
+        335,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 845,
+      "max_error": 46,
+      "mean_absolute_error": 0.6366991383744856,
+      "changed_pixels": 738844,
+      "bbox": [
+        0,
+        335,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 846,
+      "max_error": 56,
+      "mean_absolute_error": 0.5866544495884773,
+      "changed_pixels": 706296,
+      "bbox": [
+        0,
+        348,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 847,
+      "max_error": 46,
+      "mean_absolute_error": 0.5864332561728395,
+      "changed_pixels": 706371,
+      "bbox": [
+        0,
+        348,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 848,
+      "max_error": 46,
+      "mean_absolute_error": 0.5865710198045267,
+      "changed_pixels": 706579,
+      "bbox": [
+        0,
+        348,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 849,
+      "max_error": 46,
+      "mean_absolute_error": 0.7118741962448559,
+      "changed_pixels": 805753,
+      "bbox": [
+        0,
+        319,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 850,
+      "max_error": 45,
+      "mean_absolute_error": 0.7117857831790123,
+      "changed_pixels": 805704,
+      "bbox": [
+        0,
+        319,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 851,
+      "max_error": 18,
+      "mean_absolute_error": 0.7116745434670781,
+      "changed_pixels": 805880,
+      "bbox": [
+        0,
+        319,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 852,
+      "max_error": 29,
+      "mean_absolute_error": 0.8985720486111111,
+      "changed_pixels": 966954,
+      "bbox": [
+        0,
+        316,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 853,
+      "max_error": 29,
+      "mean_absolute_error": 0.8988994984567901,
+      "changed_pixels": 967473,
+      "bbox": [
+        0,
+        316,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 854,
+      "max_error": 48,
+      "mean_absolute_error": 0.9014422582304527,
+      "changed_pixels": 965742,
+      "bbox": [
+        0,
+        317,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 855,
+      "max_error": 21,
+      "mean_absolute_error": 0.6530934927983539,
+      "changed_pixels": 746464,
+      "bbox": [
+        0,
+        303,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 856,
+      "max_error": 50,
+      "mean_absolute_error": 0.6503070344650206,
+      "changed_pixels": 745763,
+      "bbox": [
+        0,
+        303,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 857,
+      "max_error": 21,
+      "mean_absolute_error": 0.6522923096707819,
+      "changed_pixels": 746529,
+      "bbox": [
+        0,
+        303,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 858,
+      "max_error": 53,
+      "mean_absolute_error": 0.5920138888888888,
+      "changed_pixels": 716363,
+      "bbox": [
+        0,
+        303,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 859,
+      "max_error": 18,
+      "mean_absolute_error": 0.5920825295781893,
+      "changed_pixels": 716489,
+      "bbox": [
+        0,
+        303,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 860,
+      "max_error": 18,
+      "mean_absolute_error": 0.5921574395576131,
+      "changed_pixels": 716520,
+      "bbox": [
+        0,
+        303,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 861,
+      "max_error": 32,
+      "mean_absolute_error": 0.7837969393004115,
+      "changed_pixels": 891617,
+      "bbox": [
+        0,
+        287,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 862,
+      "max_error": 53,
+      "mean_absolute_error": 0.7838377700617284,
+      "changed_pixels": 891518,
+      "bbox": [
+        0,
+        287,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 863,
+      "max_error": 32,
+      "mean_absolute_error": 0.7838757073045267,
+      "changed_pixels": 891578,
+      "bbox": [
+        0,
+        287,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 864,
+      "max_error": 18,
+      "mean_absolute_error": 0.8949755658436214,
+      "changed_pixels": 957494,
+      "bbox": [
+        0,
+        276,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 865,
+      "max_error": 18,
+      "mean_absolute_error": 0.8950993441358025,
+      "changed_pixels": 957753,
+      "bbox": [
+        0,
+        276,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 866,
+      "max_error": 55,
+      "mean_absolute_error": 0.8964940200617284,
+      "changed_pixels": 955686,
+      "bbox": [
+        0,
+        279,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 867,
+      "max_error": 15,
+      "mean_absolute_error": 0.6710844264403292,
+      "changed_pixels": 771837,
+      "bbox": [
+        0,
+        255,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 868,
+      "max_error": 51,
+      "mean_absolute_error": 0.6675782857510288,
+      "changed_pixels": 770927,
+      "bbox": [
+        0,
+        255,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 869,
+      "max_error": 14,
+      "mean_absolute_error": 0.6702737590020577,
+      "changed_pixels": 771874,
+      "bbox": [
+        0,
+        255,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 870,
+      "max_error": 51,
+      "mean_absolute_error": 0.6295526298868312,
+      "changed_pixels": 763066,
+      "bbox": [
+        0,
+        271,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 871,
+      "max_error": 14,
+      "mean_absolute_error": 0.6293894675925926,
+      "changed_pixels": 763084,
+      "bbox": [
+        0,
+        271,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 872,
+      "max_error": 14,
+      "mean_absolute_error": 0.6293868955761317,
+      "changed_pixels": 763083,
+      "bbox": [
+        0,
+        271,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 873,
+      "max_error": 34,
+      "mean_absolute_error": 0.7445074588477366,
+      "changed_pixels": 844578,
+      "bbox": [
+        0,
+        240,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 874,
+      "max_error": 54,
+      "mean_absolute_error": 0.7444407471707819,
+      "changed_pixels": 844510,
+      "bbox": [
+        0,
+        240,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 875,
+      "max_error": 19,
+      "mean_absolute_error": 0.7446336484053498,
+      "changed_pixels": 844757,
+      "bbox": [
+        0,
+        240,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 876,
+      "max_error": 18,
+      "mean_absolute_error": 0.9382699974279836,
+      "changed_pixels": 999999,
+      "bbox": [
+        0,
+        236,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 877,
+      "max_error": 18,
+      "mean_absolute_error": 0.9385627250514403,
+      "changed_pixels": 1000449,
+      "bbox": [
+        0,
+        236,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 878,
+      "max_error": 58,
+      "mean_absolute_error": 0.940437242798354,
+      "changed_pixels": 998327,
+      "bbox": [
+        0,
+        239,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 879,
+      "max_error": 17,
+      "mean_absolute_error": 0.6800499935699589,
+      "changed_pixels": 773789,
+      "bbox": [
+        0,
+        207,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 880,
+      "max_error": 51,
+      "mean_absolute_error": 0.676016428755144,
+      "changed_pixels": 772502,
+      "bbox": [
+        0,
+        207,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 881,
+      "max_error": 16,
+      "mean_absolute_error": 0.679619341563786,
+      "changed_pixels": 773838,
+      "bbox": [
+        0,
+        207,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 882,
+      "max_error": 50,
+      "mean_absolute_error": 0.6559066358024691,
+      "changed_pixels": 794295,
+      "bbox": [
+        0,
+        221,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 883,
+      "max_error": 18,
+      "mean_absolute_error": 0.6557527970679012,
+      "changed_pixels": 794363,
+      "bbox": [
+        0,
+        221,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 884,
+      "max_error": 18,
+      "mean_absolute_error": 0.6557830182613169,
+      "changed_pixels": 794362,
+      "bbox": [
+        0,
+        221,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 885,
+      "max_error": 20,
+      "mean_absolute_error": 0.7926367991255144,
+      "changed_pixels": 895556,
+      "bbox": [
+        0,
+        191,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 886,
+      "max_error": 53,
+      "mean_absolute_error": 0.792524112654321,
+      "changed_pixels": 895451,
+      "bbox": [
+        0,
+        191,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 887,
+      "max_error": 20,
+      "mean_absolute_error": 0.7926319765946502,
+      "changed_pixels": 895537,
+      "bbox": [
+        0,
+        191,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 888,
+      "max_error": 36,
+      "mean_absolute_error": 0.9757384902263374,
+      "changed_pixels": 1046492,
+      "bbox": [
+        0,
+        175,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 889,
+      "max_error": 36,
+      "mean_absolute_error": 0.9758637152777778,
+      "changed_pixels": 1046574,
+      "bbox": [
+        0,
+        175,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 890,
+      "max_error": 51,
+      "mean_absolute_error": 0.9801768261316872,
+      "changed_pixels": 1045018,
+      "bbox": [
+        0,
+        175,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 891,
+      "max_error": 17,
+      "mean_absolute_error": 0.7159878150720165,
+      "changed_pixels": 809486,
+      "bbox": [
+        0,
+        157,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 892,
+      "max_error": 36,
+      "mean_absolute_error": 0.711968878600823,
+      "changed_pixels": 807869,
+      "bbox": [
+        0,
+        157,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 893,
+      "max_error": 17,
+      "mean_absolute_error": 0.7146838027263375,
+      "changed_pixels": 808997,
+      "bbox": [
+        0,
+        157,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 894,
+      "max_error": 53,
+      "mean_absolute_error": 0.6662146347736626,
+      "changed_pixels": 794313,
+      "bbox": [
+        0,
+        175,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 895,
+      "max_error": 21,
+      "mean_absolute_error": 0.6659971386316872,
+      "changed_pixels": 794355,
+      "bbox": [
+        0,
+        175,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 896,
+      "max_error": 21,
+      "mean_absolute_error": 0.665953253600823,
+      "changed_pixels": 794375,
+      "bbox": [
+        0,
+        175,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 897,
+      "max_error": 21,
+      "mean_absolute_error": 0.8094995820473251,
+      "changed_pixels": 915646,
+      "bbox": [
+        0,
+        143,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 898,
+      "max_error": 52,
+      "mean_absolute_error": 0.8093163258744855,
+      "changed_pixels": 915579,
+      "bbox": [
+        0,
+        143,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 899,
+      "max_error": 21,
+      "mean_absolute_error": 0.8092581340020576,
+      "changed_pixels": 915622,
+      "bbox": [
+        0,
+        143,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 900,
+      "max_error": 21,
+      "mean_absolute_error": 0.8089654063786008,
+      "changed_pixels": 907308,
+      "bbox": [
+        0,
+        141,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 901,
+      "max_error": 53,
+      "mean_absolute_error": 0.8090536586934156,
+      "changed_pixels": 907279,
+      "bbox": [
+        0,
+        141,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 902,
+      "max_error": 29,
+      "mean_absolute_error": 0.7911639981995885,
+      "changed_pixels": 893781,
+      "bbox": [
+        0,
+        141,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 903,
+      "max_error": 56,
+      "mean_absolute_error": 0.961273308899177,
+      "changed_pixels": 1033382,
+      "bbox": [
+        0,
+        125,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 904,
+      "max_error": 57,
+      "mean_absolute_error": 0.9618179333847736,
+      "changed_pixels": 1034165,
+      "bbox": [
+        0,
+        125,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 905,
+      "max_error": 59,
+      "mean_absolute_error": 0.9639591370884774,
+      "changed_pixels": 1031022,
+      "bbox": [
+        0,
+        125,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 906,
+      "max_error": 23,
+      "mean_absolute_error": 0.7193852880658437,
+      "changed_pixels": 824400,
+      "bbox": [
+        0,
+        111,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 907,
+      "max_error": 23,
+      "mean_absolute_error": 0.715771283436214,
+      "changed_pixels": 823249,
+      "bbox": [
+        0,
+        111,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 908,
+      "max_error": 23,
+      "mean_absolute_error": 0.7198167438271605,
+      "changed_pixels": 825054,
+      "bbox": [
+        0,
+        111,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 909,
+      "max_error": 57,
+      "mean_absolute_error": 0.6688691165123457,
+      "changed_pixels": 809148,
+      "bbox": [
+        0,
+        112,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 910,
+      "max_error": 23,
+      "mean_absolute_error": 0.668260513117284,
+      "changed_pixels": 809334,
+      "bbox": [
+        0,
+        112,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 911,
+      "max_error": 23,
+      "mean_absolute_error": 0.6683254565329219,
+      "changed_pixels": 809375,
+      "bbox": [
+        0,
+        112,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 912,
+      "max_error": 23,
+      "mean_absolute_error": 0.8402345357510288,
+      "changed_pixels": 954466,
+      "bbox": [
+        0,
+        95,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 913,
+      "max_error": 55,
+      "mean_absolute_error": 0.8401488554526749,
+      "changed_pixels": 954407,
+      "bbox": [
+        0,
+        95,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 914,
+      "max_error": 23,
+      "mean_absolute_error": 0.8403686021090535,
+      "changed_pixels": 954767,
+      "bbox": [
+        0,
+        95,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 915,
+      "max_error": 23,
+      "mean_absolute_error": 1.0074959812242799,
+      "changed_pixels": 1078677,
+      "bbox": [
+        0,
+        93,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 916,
+      "max_error": 23,
+      "mean_absolute_error": 1.007937082047325,
+      "changed_pixels": 1079335,
+      "bbox": [
+        0,
+        93,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 917,
+      "max_error": 56,
+      "mean_absolute_error": 1.009606159979424,
+      "changed_pixels": 1075967,
+      "bbox": [
+        0,
+        93,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 918,
+      "max_error": 23,
+      "mean_absolute_error": 0.7404234182098766,
+      "changed_pixels": 847885,
+      "bbox": [
+        0,
+        63,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 919,
+      "max_error": 23,
+      "mean_absolute_error": 0.7353251993312757,
+      "changed_pixels": 846327,
+      "bbox": [
+        0,
+        63,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 920,
+      "max_error": 23,
+      "mean_absolute_error": 0.7390645897633745,
+      "changed_pixels": 847427,
+      "bbox": [
+        0,
+        63,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 921,
+      "max_error": 53,
+      "mean_absolute_error": 0.722060345936214,
+      "changed_pixels": 869759,
+      "bbox": [
+        0,
+        79,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 922,
+      "max_error": 26,
+      "mean_absolute_error": 0.7219645383230453,
+      "changed_pixels": 869704,
+      "bbox": [
+        0,
+        79,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 923,
+      "max_error": 23,
+      "mean_absolute_error": 0.7219526427469136,
+      "changed_pixels": 869691,
+      "bbox": [
+        0,
+        79,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 924,
+      "max_error": 23,
+      "mean_absolute_error": 0.8858404063786008,
+      "changed_pixels": 1007112,
+      "bbox": [
+        0,
+        47,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 925,
+      "max_error": 42,
+      "mean_absolute_error": 0.8858421746399177,
+      "changed_pixels": 1007078,
+      "bbox": [
+        0,
+        47,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 926,
+      "max_error": 23,
+      "mean_absolute_error": 0.8859211033950617,
+      "changed_pixels": 1007071,
+      "bbox": [
+        0,
+        47,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 927,
+      "max_error": 23,
+      "mean_absolute_error": 1.0071678883744857,
+      "changed_pixels": 1062675,
+      "bbox": [
+        0,
+        29,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 928,
+      "max_error": 23,
+      "mean_absolute_error": 1.0074704218106996,
+      "changed_pixels": 1063223,
+      "bbox": [
+        0,
+        29,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 929,
+      "max_error": 52,
+      "mean_absolute_error": 1.0092373971193416,
+      "changed_pixels": 1062241,
+      "bbox": [
+        0,
+        29,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 930,
+      "max_error": 23,
+      "mean_absolute_error": 0.8115319573045268,
+      "changed_pixels": 936772,
+      "bbox": [
+        0,
+        16,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 931,
+      "max_error": 51,
+      "mean_absolute_error": 0.8097961676954732,
+      "changed_pixels": 936180,
+      "bbox": [
+        0,
+        16,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 932,
+      "max_error": 23,
+      "mean_absolute_error": 0.8124712255658436,
+      "changed_pixels": 936882,
+      "bbox": [
+        0,
+        16,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 933,
+      "max_error": 48,
+      "mean_absolute_error": 0.7109977816358025,
+      "changed_pixels": 850649,
+      "bbox": [
+        0,
+        28,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 934,
+      "max_error": 25,
+      "mean_absolute_error": 0.7108629115226337,
+      "changed_pixels": 850685,
+      "bbox": [
+        0,
+        28,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 935,
+      "max_error": 23,
+      "mean_absolute_error": 0.7108640367798353,
+      "changed_pixels": 850665,
+      "bbox": [
+        0,
+        28,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 936,
+      "max_error": 29,
+      "mean_absolute_error": 0.8629277584876544,
+      "changed_pixels": 975570,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 937,
+      "max_error": 52,
+      "mean_absolute_error": 0.8507063400205761,
+      "changed_pixels": 965325,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 938,
+      "max_error": 27,
+      "mean_absolute_error": 0.8507987718621399,
+      "changed_pixels": 965458,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 939,
+      "max_error": 18,
+      "mean_absolute_error": 1.0341706854423869,
+      "changed_pixels": 1092278,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 940,
+      "max_error": 18,
+      "mean_absolute_error": 1.0346405606995885,
+      "changed_pixels": 1092902,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 941,
+      "max_error": 52,
+      "mean_absolute_error": 1.036246784979424,
+      "changed_pixels": 1091780,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 942,
+      "max_error": 16,
+      "mean_absolute_error": 0.7586345807613168,
+      "changed_pixels": 865247,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 943,
+      "max_error": 20,
+      "mean_absolute_error": 0.7565737525720164,
+      "changed_pixels": 864785,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 944,
+      "max_error": 20,
+      "mean_absolute_error": 0.7586580504115227,
+      "changed_pixels": 866336,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 945,
+      "max_error": 39,
+      "mean_absolute_error": 0.7871416859567901,
+      "changed_pixels": 918321,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 946,
+      "max_error": 25,
+      "mean_absolute_error": 0.7868457433127573,
+      "changed_pixels": 918451,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 947,
+      "max_error": 25,
+      "mean_absolute_error": 0.7870206404320987,
+      "changed_pixels": 918584,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 948,
+      "max_error": 42,
+      "mean_absolute_error": 1.0284818672839506,
+      "changed_pixels": 1060417,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 949,
+      "max_error": 56,
+      "mean_absolute_error": 0.06850790895061729,
+      "changed_pixels": 77916,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 950,
+      "max_error": 12,
+      "mean_absolute_error": 0.06471820344650206,
+      "changed_pixels": 76817,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 951,
+      "max_error": 12,
+      "mean_absolute_error": 0.06465438528806584,
+      "changed_pixels": 76602,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1538
+      ]
+    },
+    {
+      "frame": 952,
+      "max_error": 16,
+      "mean_absolute_error": 0.06462480709876543,
+      "changed_pixels": 76890,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1538
+      ]
+    },
+    {
+      "frame": 953,
+      "max_error": 23,
+      "mean_absolute_error": 0.07584410365226338,
+      "changed_pixels": 90750,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 954,
+      "max_error": 32,
+      "mean_absolute_error": 0.0796997170781893,
+      "changed_pixels": 94291,
+      "bbox": [
+        60,
+        192,
+        1024,
+        1536
+      ]
+    },
+    {
+      "frame": 955,
+      "max_error": 49,
+      "mean_absolute_error": 0.08811648019547325,
+      "changed_pixels": 107393,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 956,
+      "max_error": 54,
+      "mean_absolute_error": 0.08264724794238683,
+      "changed_pixels": 95569,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 957,
+      "max_error": 59,
+      "mean_absolute_error": 0.0834619341563786,
+      "changed_pixels": 103614,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 958,
+      "max_error": 62,
+      "mean_absolute_error": 0.1008082561728395,
+      "changed_pixels": 117620,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 959,
+      "max_error": 56,
+      "mean_absolute_error": 0.09243280606995885,
+      "changed_pixels": 111367,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 960,
+      "max_error": 58,
+      "mean_absolute_error": 0.09917791923868313,
+      "changed_pixels": 115411,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 961,
+      "max_error": 46,
+      "mean_absolute_error": 0.08889371141975308,
+      "changed_pixels": 107047,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 962,
+      "max_error": 47,
+      "mean_absolute_error": 0.11043708204732511,
+      "changed_pixels": 125661,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 963,
+      "max_error": 54,
+      "mean_absolute_error": 0.10294319058641975,
+      "changed_pixels": 123447,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 964,
+      "max_error": 60,
+      "mean_absolute_error": 0.10158789866255144,
+      "changed_pixels": 123901,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 965,
+      "max_error": 49,
+      "mean_absolute_error": 0.09837802211934156,
+      "changed_pixels": 121151,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 966,
+      "max_error": 53,
+      "mean_absolute_error": 0.10475742669753087,
+      "changed_pixels": 125584,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1538
+      ]
+    },
+    {
+      "frame": 967,
+      "max_error": 56,
+      "mean_absolute_error": 0.11402938528806585,
+      "changed_pixels": 132923,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 968,
+      "max_error": 44,
+      "mean_absolute_error": 0.11841901363168725,
+      "changed_pixels": 143875,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 969,
+      "max_error": 59,
+      "mean_absolute_error": 0.10133825231481482,
+      "changed_pixels": 127661,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 970,
+      "max_error": 46,
+      "mean_absolute_error": 0.10941518775720165,
+      "changed_pixels": 140571,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 971,
+      "max_error": 43,
+      "mean_absolute_error": 0.11446711033950617,
+      "changed_pixels": 146176,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 972,
+      "max_error": 33,
+      "mean_absolute_error": 0.12210246270576132,
+      "changed_pixels": 153862,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 973,
+      "max_error": 47,
+      "mean_absolute_error": 0.11412760416666666,
+      "changed_pixels": 147821,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 974,
+      "max_error": 46,
+      "mean_absolute_error": 0.1133203125,
+      "changed_pixels": 147502,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 975,
+      "max_error": 41,
+      "mean_absolute_error": 0.122036233281893,
+      "changed_pixels": 152569,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 976,
+      "max_error": 54,
+      "mean_absolute_error": 0.11886284722222222,
+      "changed_pixels": 152176,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 977,
+      "max_error": 35,
+      "mean_absolute_error": 0.1151025591563786,
+      "changed_pixels": 147692,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 978,
+      "max_error": 47,
+      "mean_absolute_error": 0.11167406121399177,
+      "changed_pixels": 143804,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 979,
+      "max_error": 48,
+      "mean_absolute_error": 0.11610162680041153,
+      "changed_pixels": 147853,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 980,
+      "max_error": 45,
+      "mean_absolute_error": 0.11703993055555556,
+      "changed_pixels": 149498,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 981,
+      "max_error": 54,
+      "mean_absolute_error": 0.1165554269547325,
+      "changed_pixels": 148037,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 982,
+      "max_error": 49,
+      "mean_absolute_error": 0.11159850823045267,
+      "changed_pixels": 141923,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 983,
+      "max_error": 57,
+      "mean_absolute_error": 0.17007908950617284,
+      "changed_pixels": 207676,
+      "bbox": [
+        56,
+        192,
+        1026,
+        1537
+      ]
+    },
+    {
+      "frame": 984,
+      "max_error": 55,
+      "mean_absolute_error": 0.1538745820473251,
+      "changed_pixels": 196130,
+      "bbox": [
+        56,
+        192,
+        1026,
+        1537
+      ]
+    },
+    {
+      "frame": 985,
+      "max_error": 57,
+      "mean_absolute_error": 0.17147810570987654,
+      "changed_pixels": 205569,
+      "bbox": [
+        56,
+        192,
+        1025,
+        1537
+      ]
+    },
+    {
+      "frame": 986,
+      "max_error": 62,
+      "mean_absolute_error": 0.1331687242798354,
+      "changed_pixels": 177845,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 987,
+      "max_error": 62,
+      "mean_absolute_error": 0.14785461676954734,
+      "changed_pixels": 194820,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 988,
+      "max_error": 58,
+      "mean_absolute_error": 0.1462152777777778,
+      "changed_pixels": 193194,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 989,
+      "max_error": 53,
+      "mean_absolute_error": 0.14542164994855966,
+      "changed_pixels": 192142,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 990,
+      "max_error": 57,
+      "mean_absolute_error": 0.14585873199588478,
+      "changed_pixels": 189937,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 991,
+      "max_error": 22,
+      "mean_absolute_error": 0.14393743569958847,
+      "changed_pixels": 190088,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 992,
+      "max_error": 24,
+      "mean_absolute_error": 0.1443624614197531,
+      "changed_pixels": 190296,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 993,
+      "max_error": 22,
+      "mean_absolute_error": 0.14405269418724279,
+      "changed_pixels": 190068,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 994,
+      "max_error": 50,
+      "mean_absolute_error": 0.14474183384773662,
+      "changed_pixels": 189522,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 995,
+      "max_error": 22,
+      "mean_absolute_error": 0.14409979423868313,
+      "changed_pixels": 190240,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 996,
+      "max_error": 22,
+      "mean_absolute_error": 0.144203800154321,
+      "changed_pixels": 190427,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 997,
+      "max_error": 22,
+      "mean_absolute_error": 0.1444629308127572,
+      "changed_pixels": 189769,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    }
+  ],
+  "identical_frames": 669,
+  "outside_card_differences": [
+    {
+      "frame": 669,
+      "max_error": 11,
+      "mean_absolute_error": 0.3399387538580247,
+      "changed_pixels": 415306,
+      "bbox": [
+        0,
+        803,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 670,
+      "max_error": 11,
+      "mean_absolute_error": 0.3380325681584362,
+      "changed_pixels": 412324,
+      "bbox": [
+        0,
+        803,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 671,
+      "max_error": 12,
+      "mean_absolute_error": 0.3404976851851852,
+      "changed_pixels": 415492,
+      "bbox": [
+        0,
+        803,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 672,
+      "max_error": 50,
+      "mean_absolute_error": 0.20264564043209876,
+      "changed_pixels": 279644,
+      "bbox": [
+        0,
+        813,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 673,
+      "max_error": 25,
+      "mean_absolute_error": 0.20306600437242797,
+      "changed_pixels": 280350,
+      "bbox": [
+        0,
+        813,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 674,
+      "max_error": 11,
+      "mean_absolute_error": 0.2031912294238683,
+      "changed_pixels": 280405,
+      "bbox": [
+        0,
+        813,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 675,
+      "max_error": 22,
+      "mean_absolute_error": 0.45607542438271603,
+      "changed_pixels": 536695,
+      "bbox": [
+        0,
+        797,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 676,
+      "max_error": 49,
+      "mean_absolute_error": 0.4560834619341564,
+      "changed_pixels": 536612,
+      "bbox": [
+        0,
+        797,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 677,
+      "max_error": 13,
+      "mean_absolute_error": 0.45640544624485596,
+      "changed_pixels": 537063,
+      "bbox": [
+        0,
+        797,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 678,
+      "max_error": 22,
+      "mean_absolute_error": 0.589251221707819,
+      "changed_pixels": 633705,
+      "bbox": [
+        0,
+        783,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 679,
+      "max_error": 22,
+      "mean_absolute_error": 0.5893904320987654,
+      "changed_pixels": 633931,
+      "bbox": [
+        0,
+        783,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 680,
+      "max_error": 46,
+      "mean_absolute_error": 0.5903674768518519,
+      "changed_pixels": 632858,
+      "bbox": [
+        0,
+        783,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 681,
+      "max_error": 23,
+      "mean_absolute_error": 0.4425565843621399,
+      "changed_pixels": 515210,
+      "bbox": [
+        0,
+        735,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 682,
+      "max_error": 44,
+      "mean_absolute_error": 0.4408326903292181,
+      "changed_pixels": 514385,
+      "bbox": [
+        0,
+        735,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 683,
+      "max_error": 14,
+      "mean_absolute_error": 0.4422518004115226,
+      "changed_pixels": 514991,
+      "bbox": [
+        0,
+        735,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 684,
+      "max_error": 51,
+      "mean_absolute_error": 0.3986567644032922,
+      "changed_pixels": 484415,
+      "bbox": [
+        0,
+        751,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 685,
+      "max_error": 13,
+      "mean_absolute_error": 0.3989183063271605,
+      "changed_pixels": 484956,
+      "bbox": [
+        0,
+        751,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 686,
+      "max_error": 13,
+      "mean_absolute_error": 0.39907343106995885,
+      "changed_pixels": 485107,
+      "bbox": [
+        0,
+        751,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 687,
+      "max_error": 27,
+      "mean_absolute_error": 0.5065541409465021,
+      "changed_pixels": 574239,
+      "bbox": [
+        0,
+        719,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 688,
+      "max_error": 48,
+      "mean_absolute_error": 0.5064790702160494,
+      "changed_pixels": 574242,
+      "bbox": [
+        0,
+        719,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 689,
+      "max_error": 22,
+      "mean_absolute_error": 0.5070143711419753,
+      "changed_pixels": 574777,
+      "bbox": [
+        0,
+        719,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 690,
+      "max_error": 34,
+      "mean_absolute_error": 0.6423177083333333,
+      "changed_pixels": 682284,
+      "bbox": [
+        0,
+        718,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 691,
+      "max_error": 34,
+      "mean_absolute_error": 0.6422834683641976,
+      "changed_pixels": 682278,
+      "bbox": [
+        0,
+        718,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 692,
+      "max_error": 50,
+      "mean_absolute_error": 0.6428576710390946,
+      "changed_pixels": 680981,
+      "bbox": [
+        0,
+        718,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 693,
+      "max_error": 20,
+      "mean_absolute_error": 0.48780655221193414,
+      "changed_pixels": 562024,
+      "bbox": [
+        0,
+        638,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 694,
+      "max_error": 42,
+      "mean_absolute_error": 0.48587512860082305,
+      "changed_pixels": 560730,
+      "bbox": [
+        0,
+        638,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 695,
+      "max_error": 37,
+      "mean_absolute_error": 0.490625,
+      "changed_pixels": 567899,
+      "bbox": [
+        0,
+        638,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 696,
+      "max_error": 59,
+      "mean_absolute_error": 0.4461230066872428,
+      "changed_pixels": 546900,
+      "bbox": [
+        0,
+        639,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 697,
+      "max_error": 52,
+      "mean_absolute_error": 0.44674414866255147,
+      "changed_pixels": 548679,
+      "bbox": [
+        0,
+        639,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 698,
+      "max_error": 53,
+      "mean_absolute_error": 0.44700279706790125,
+      "changed_pixels": 548674,
+      "bbox": [
+        0,
+        639,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 699,
+      "max_error": 54,
+      "mean_absolute_error": 0.5645995691872427,
+      "changed_pixels": 638158,
+      "bbox": [
+        0,
+        624,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 764,
+      "max_error": 13,
+      "mean_absolute_error": 0.43538435570987655,
+      "changed_pixels": 531734,
+      "bbox": [
+        0,
+        623,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 765,
+      "max_error": 11,
+      "mean_absolute_error": 0.5844565007716049,
+      "changed_pixels": 665782,
+      "bbox": [
+        0,
+        623,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 766,
+      "max_error": 11,
+      "mean_absolute_error": 0.5844627700617284,
+      "changed_pixels": 665784,
+      "bbox": [
+        0,
+        623,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 767,
+      "max_error": 32,
+      "mean_absolute_error": 0.5827806712962963,
+      "changed_pixels": 664769,
+      "bbox": [
+        0,
+        623,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 768,
+      "max_error": 45,
+      "mean_absolute_error": 0.6646595293209877,
+      "changed_pixels": 706480,
+      "bbox": [
+        0,
+        605,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 769,
+      "max_error": 48,
+      "mean_absolute_error": 0.6500372942386832,
+      "changed_pixels": 696808,
+      "bbox": [
+        0,
+        605,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 770,
+      "max_error": 56,
+      "mean_absolute_error": 0.6483487654320987,
+      "changed_pixels": 692110,
+      "bbox": [
+        0,
+        605,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 771,
+      "max_error": 19,
+      "mean_absolute_error": 0.487242316100823,
+      "changed_pixels": 564766,
+      "bbox": [
+        0,
+        591,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 772,
+      "max_error": 23,
+      "mean_absolute_error": 0.4855383551954732,
+      "changed_pixels": 563463,
+      "bbox": [
+        0,
+        591,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 773,
+      "max_error": 19,
+      "mean_absolute_error": 0.4884704539609053,
+      "changed_pixels": 566014,
+      "bbox": [
+        0,
+        591,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 774,
+      "max_error": 45,
+      "mean_absolute_error": 0.4543917181069959,
+      "changed_pixels": 556740,
+      "bbox": [
+        0,
+        604,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 775,
+      "max_error": 30,
+      "mean_absolute_error": 0.45513503086419754,
+      "changed_pixels": 557851,
+      "bbox": [
+        0,
+        604,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 776,
+      "max_error": 30,
+      "mean_absolute_error": 0.45509886188271603,
+      "changed_pixels": 557906,
+      "bbox": [
+        0,
+        604,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 777,
+      "max_error": 35,
+      "mean_absolute_error": 0.563587962962963,
+      "changed_pixels": 640792,
+      "bbox": [
+        0,
+        587,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 778,
+      "max_error": 35,
+      "mean_absolute_error": 0.5635759066358025,
+      "changed_pixels": 640960,
+      "bbox": [
+        0,
+        587,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 779,
+      "max_error": 35,
+      "mean_absolute_error": 0.5636713927469136,
+      "changed_pixels": 641128,
+      "bbox": [
+        0,
+        587,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 780,
+      "max_error": 35,
+      "mean_absolute_error": 0.6816525205761317,
+      "changed_pixels": 721277,
+      "bbox": [
+        0,
+        560,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 781,
+      "max_error": 35,
+      "mean_absolute_error": 0.6817796746399177,
+      "changed_pixels": 721360,
+      "bbox": [
+        0,
+        560,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 782,
+      "max_error": 44,
+      "mean_absolute_error": 0.6822844328703703,
+      "changed_pixels": 720123,
+      "bbox": [
+        0,
+        575,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 783,
+      "max_error": 35,
+      "mean_absolute_error": 0.5277872620884774,
+      "changed_pixels": 610679,
+      "bbox": [
+        0,
+        542,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 784,
+      "max_error": 35,
+      "mean_absolute_error": 0.5261839313271605,
+      "changed_pixels": 609760,
+      "bbox": [
+        0,
+        542,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 785,
+      "max_error": 35,
+      "mean_absolute_error": 0.5271513310185185,
+      "changed_pixels": 609948,
+      "bbox": [
+        0,
+        542,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 786,
+      "max_error": 35,
+      "mean_absolute_error": 0.46369261188271604,
+      "changed_pixels": 574073,
+      "bbox": [
+        0,
+        560,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 787,
+      "max_error": 29,
+      "mean_absolute_error": 0.46387506430041153,
+      "changed_pixels": 574413,
+      "bbox": [
+        0,
+        560,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 788,
+      "max_error": 29,
+      "mean_absolute_error": 0.46403694058641975,
+      "changed_pixels": 574546,
+      "bbox": [
+        0,
+        560,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 789,
+      "max_error": 22,
+      "mean_absolute_error": 0.5890830761316872,
+      "changed_pixels": 668015,
+      "bbox": [
+        0,
+        541,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 790,
+      "max_error": 34,
+      "mean_absolute_error": 0.5891591113683128,
+      "changed_pixels": 667854,
+      "bbox": [
+        0,
+        541,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 791,
+      "max_error": 22,
+      "mean_absolute_error": 0.5892155349794239,
+      "changed_pixels": 668218,
+      "bbox": [
+        0,
+        541,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 792,
+      "max_error": 33,
+      "mean_absolute_error": 0.7341258359053497,
+      "changed_pixels": 786679,
+      "bbox": [
+        0,
+        525,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 793,
+      "max_error": 33,
+      "mean_absolute_error": 0.7342134452160494,
+      "changed_pixels": 786805,
+      "bbox": [
+        0,
+        525,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 794,
+      "max_error": 44,
+      "mean_absolute_error": 0.735361529063786,
+      "changed_pixels": 785458,
+      "bbox": [
+        0,
+        525,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 795,
+      "max_error": 15,
+      "mean_absolute_error": 0.5401289223251029,
+      "changed_pixels": 624739,
+      "bbox": [
+        0,
+        495,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 796,
+      "max_error": 18,
+      "mean_absolute_error": 0.5384637024176955,
+      "changed_pixels": 624106,
+      "bbox": [
+        0,
+        495,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 797,
+      "max_error": 14,
+      "mean_absolute_error": 0.5399840856481481,
+      "changed_pixels": 624703,
+      "bbox": [
+        0,
+        495,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 798,
+      "max_error": 18,
+      "mean_absolute_error": 0.4883897569444444,
+      "changed_pixels": 599817,
+      "bbox": [
+        0,
+        511,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 799,
+      "max_error": 14,
+      "mean_absolute_error": 0.48837995113168725,
+      "changed_pixels": 600018,
+      "bbox": [
+        0,
+        511,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 800,
+      "max_error": 14,
+      "mean_absolute_error": 0.48848299254115224,
+      "changed_pixels": 600094,
+      "bbox": [
+        0,
+        511,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 801,
+      "max_error": 55,
+      "mean_absolute_error": 0.6024275012860082,
+      "changed_pixels": 698646,
+      "bbox": [
+        0,
+        495,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 802,
+      "max_error": 56,
+      "mean_absolute_error": 0.6028240740740741,
+      "changed_pixels": 698522,
+      "bbox": [
+        0,
+        495,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 803,
+      "max_error": 28,
+      "mean_absolute_error": 0.6040944894547325,
+      "changed_pixels": 701682,
+      "bbox": [
+        0,
+        495,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 804,
+      "max_error": 23,
+      "mean_absolute_error": 0.7705547518004116,
+      "changed_pixels": 827973,
+      "bbox": [
+        0,
+        477,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 805,
+      "max_error": 23,
+      "mean_absolute_error": 0.7708269032921811,
+      "changed_pixels": 828488,
+      "bbox": [
+        0,
+        477,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 806,
+      "max_error": 56,
+      "mean_absolute_error": 0.7721039094650206,
+      "changed_pixels": 827453,
+      "bbox": [
+        0,
+        477,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 807,
+      "max_error": 22,
+      "mean_absolute_error": 0.5587514467592593,
+      "changed_pixels": 645180,
+      "bbox": [
+        0,
+        447,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 808,
+      "max_error": 50,
+      "mean_absolute_error": 0.5568438143004115,
+      "changed_pixels": 644576,
+      "bbox": [
+        0,
+        447,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 809,
+      "max_error": 26,
+      "mean_absolute_error": 0.5590687692901235,
+      "changed_pixels": 645437,
+      "bbox": [
+        0,
+        447,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 810,
+      "max_error": 55,
+      "mean_absolute_error": 0.5212956532921811,
+      "changed_pixels": 637767,
+      "bbox": [
+        0,
+        461,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 811,
+      "max_error": 19,
+      "mean_absolute_error": 0.5217804783950617,
+      "changed_pixels": 638339,
+      "bbox": [
+        0,
+        461,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 812,
+      "max_error": 19,
+      "mean_absolute_error": 0.5218555491255144,
+      "changed_pixels": 638383,
+      "bbox": [
+        0,
+        461,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 813,
+      "max_error": 19,
+      "mean_absolute_error": 0.6387144740226337,
+      "changed_pixels": 728367,
+      "bbox": [
+        0,
+        432,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 814,
+      "max_error": 53,
+      "mean_absolute_error": 0.6385776748971194,
+      "changed_pixels": 728332,
+      "bbox": [
+        0,
+        432,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 815,
+      "max_error": 19,
+      "mean_absolute_error": 0.638784079218107,
+      "changed_pixels": 728590,
+      "bbox": [
+        0,
+        432,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 816,
+      "max_error": 38,
+      "mean_absolute_error": 0.7878057484567901,
+      "changed_pixels": 840494,
+      "bbox": [
+        0,
+        416,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 817,
+      "max_error": 38,
+      "mean_absolute_error": 0.7880414094650205,
+      "changed_pixels": 840888,
+      "bbox": [
+        0,
+        416,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 818,
+      "max_error": 53,
+      "mean_absolute_error": 0.7886861818415638,
+      "changed_pixels": 839392,
+      "bbox": [
+        0,
+        416,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 819,
+      "max_error": 33,
+      "mean_absolute_error": 0.5888440393518518,
+      "changed_pixels": 680784,
+      "bbox": [
+        0,
+        399,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 820,
+      "max_error": 54,
+      "mean_absolute_error": 0.5855721129115227,
+      "changed_pixels": 679618,
+      "bbox": [
+        0,
+        399,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 821,
+      "max_error": 33,
+      "mean_absolute_error": 0.5879644097222222,
+      "changed_pixels": 680700,
+      "bbox": [
+        0,
+        399,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 822,
+      "max_error": 53,
+      "mean_absolute_error": 0.5452181391460905,
+      "changed_pixels": 658117,
+      "bbox": [
+        0,
+        413,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 823,
+      "max_error": 19,
+      "mean_absolute_error": 0.5451517489711935,
+      "changed_pixels": 658104,
+      "bbox": [
+        0,
+        413,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 824,
+      "max_error": 19,
+      "mean_absolute_error": 0.5451737718621399,
+      "changed_pixels": 658148,
+      "bbox": [
+        0,
+        413,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 825,
+      "max_error": 19,
+      "mean_absolute_error": 0.6704980066872428,
+      "changed_pixels": 762595,
+      "bbox": [
+        0,
+        384,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 826,
+      "max_error": 44,
+      "mean_absolute_error": 0.670385641718107,
+      "changed_pixels": 762523,
+      "bbox": [
+        0,
+        384,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 827,
+      "max_error": 19,
+      "mean_absolute_error": 0.6703497942386831,
+      "changed_pixels": 762597,
+      "bbox": [
+        0,
+        384,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 828,
+      "max_error": 20,
+      "mean_absolute_error": 0.8265293852880659,
+      "changed_pixels": 884610,
+      "bbox": [
+        0,
+        380,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 829,
+      "max_error": 20,
+      "mean_absolute_error": 0.8269077932098765,
+      "changed_pixels": 885071,
+      "bbox": [
+        0,
+        380,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 830,
+      "max_error": 52,
+      "mean_absolute_error": 0.828890496399177,
+      "changed_pixels": 883691,
+      "bbox": [
+        0,
+        380,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 831,
+      "max_error": 21,
+      "mean_absolute_error": 0.6301281185699589,
+      "changed_pixels": 722794,
+      "bbox": [
+        0,
+        366,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 832,
+      "max_error": 50,
+      "mean_absolute_error": 0.6277780992798354,
+      "changed_pixels": 722115,
+      "bbox": [
+        0,
+        366,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 833,
+      "max_error": 19,
+      "mean_absolute_error": 0.6301925797325103,
+      "changed_pixels": 724050,
+      "bbox": [
+        0,
+        366,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 834,
+      "max_error": 19,
+      "mean_absolute_error": 0.573694380144033,
+      "changed_pixels": 694218,
+      "bbox": [
+        0,
+        368,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 835,
+      "max_error": 34,
+      "mean_absolute_error": 0.5719378536522634,
+      "changed_pixels": 695305,
+      "bbox": [
+        0,
+        368,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 836,
+      "max_error": 47,
+      "mean_absolute_error": 0.5722421553497943,
+      "changed_pixels": 695339,
+      "bbox": [
+        0,
+        368,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 837,
+      "max_error": 34,
+      "mean_absolute_error": 0.7147471386316873,
+      "changed_pixels": 813978,
+      "bbox": [
+        0,
+        356,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 838,
+      "max_error": 58,
+      "mean_absolute_error": 0.714799704218107,
+      "changed_pixels": 813543,
+      "bbox": [
+        0,
+        356,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 839,
+      "max_error": 29,
+      "mean_absolute_error": 0.7154208461934156,
+      "changed_pixels": 814825,
+      "bbox": [
+        0,
+        356,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 840,
+      "max_error": 46,
+      "mean_absolute_error": 0.8370630787037037,
+      "changed_pixels": 895438,
+      "bbox": [
+        0,
+        349,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 841,
+      "max_error": 46,
+      "mean_absolute_error": 0.837382008744856,
+      "changed_pixels": 896018,
+      "bbox": [
+        0,
+        349,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 842,
+      "max_error": 51,
+      "mean_absolute_error": 0.8378604038065843,
+      "changed_pixels": 894211,
+      "bbox": [
+        0,
+        349,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 843,
+      "max_error": 46,
+      "mean_absolute_error": 0.6369037744341564,
+      "changed_pixels": 738867,
+      "bbox": [
+        0,
+        335,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 844,
+      "max_error": 56,
+      "mean_absolute_error": 0.6328186085390947,
+      "changed_pixels": 737156,
+      "bbox": [
+        0,
+        335,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 845,
+      "max_error": 46,
+      "mean_absolute_error": 0.6366991383744856,
+      "changed_pixels": 738844,
+      "bbox": [
+        0,
+        335,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 846,
+      "max_error": 56,
+      "mean_absolute_error": 0.5866544495884773,
+      "changed_pixels": 706296,
+      "bbox": [
+        0,
+        348,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 847,
+      "max_error": 46,
+      "mean_absolute_error": 0.5864332561728395,
+      "changed_pixels": 706371,
+      "bbox": [
+        0,
+        348,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 848,
+      "max_error": 46,
+      "mean_absolute_error": 0.5865710198045267,
+      "changed_pixels": 706579,
+      "bbox": [
+        0,
+        348,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 849,
+      "max_error": 46,
+      "mean_absolute_error": 0.7118741962448559,
+      "changed_pixels": 805753,
+      "bbox": [
+        0,
+        319,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 850,
+      "max_error": 45,
+      "mean_absolute_error": 0.7117857831790123,
+      "changed_pixels": 805704,
+      "bbox": [
+        0,
+        319,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 851,
+      "max_error": 18,
+      "mean_absolute_error": 0.7116745434670781,
+      "changed_pixels": 805880,
+      "bbox": [
+        0,
+        319,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 852,
+      "max_error": 29,
+      "mean_absolute_error": 0.8985720486111111,
+      "changed_pixels": 966954,
+      "bbox": [
+        0,
+        316,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 853,
+      "max_error": 29,
+      "mean_absolute_error": 0.8988994984567901,
+      "changed_pixels": 967473,
+      "bbox": [
+        0,
+        316,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 854,
+      "max_error": 48,
+      "mean_absolute_error": 0.9014422582304527,
+      "changed_pixels": 965742,
+      "bbox": [
+        0,
+        317,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 855,
+      "max_error": 21,
+      "mean_absolute_error": 0.6530934927983539,
+      "changed_pixels": 746464,
+      "bbox": [
+        0,
+        303,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 856,
+      "max_error": 50,
+      "mean_absolute_error": 0.6503070344650206,
+      "changed_pixels": 745763,
+      "bbox": [
+        0,
+        303,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 857,
+      "max_error": 21,
+      "mean_absolute_error": 0.6522923096707819,
+      "changed_pixels": 746529,
+      "bbox": [
+        0,
+        303,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 858,
+      "max_error": 53,
+      "mean_absolute_error": 0.5920138888888888,
+      "changed_pixels": 716363,
+      "bbox": [
+        0,
+        303,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 859,
+      "max_error": 18,
+      "mean_absolute_error": 0.5920825295781893,
+      "changed_pixels": 716489,
+      "bbox": [
+        0,
+        303,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 860,
+      "max_error": 18,
+      "mean_absolute_error": 0.5921574395576131,
+      "changed_pixels": 716520,
+      "bbox": [
+        0,
+        303,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 861,
+      "max_error": 32,
+      "mean_absolute_error": 0.7837969393004115,
+      "changed_pixels": 891617,
+      "bbox": [
+        0,
+        287,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 862,
+      "max_error": 53,
+      "mean_absolute_error": 0.7838377700617284,
+      "changed_pixels": 891518,
+      "bbox": [
+        0,
+        287,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 863,
+      "max_error": 32,
+      "mean_absolute_error": 0.7838757073045267,
+      "changed_pixels": 891578,
+      "bbox": [
+        0,
+        287,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 864,
+      "max_error": 18,
+      "mean_absolute_error": 0.8949755658436214,
+      "changed_pixels": 957494,
+      "bbox": [
+        0,
+        276,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 865,
+      "max_error": 18,
+      "mean_absolute_error": 0.8950993441358025,
+      "changed_pixels": 957753,
+      "bbox": [
+        0,
+        276,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 866,
+      "max_error": 55,
+      "mean_absolute_error": 0.8964940200617284,
+      "changed_pixels": 955686,
+      "bbox": [
+        0,
+        279,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 867,
+      "max_error": 15,
+      "mean_absolute_error": 0.6710844264403292,
+      "changed_pixels": 771837,
+      "bbox": [
+        0,
+        255,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 868,
+      "max_error": 51,
+      "mean_absolute_error": 0.6675782857510288,
+      "changed_pixels": 770927,
+      "bbox": [
+        0,
+        255,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 869,
+      "max_error": 14,
+      "mean_absolute_error": 0.6702737590020577,
+      "changed_pixels": 771874,
+      "bbox": [
+        0,
+        255,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 870,
+      "max_error": 51,
+      "mean_absolute_error": 0.6295526298868312,
+      "changed_pixels": 763066,
+      "bbox": [
+        0,
+        271,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 871,
+      "max_error": 14,
+      "mean_absolute_error": 0.6293894675925926,
+      "changed_pixels": 763084,
+      "bbox": [
+        0,
+        271,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 872,
+      "max_error": 14,
+      "mean_absolute_error": 0.6293868955761317,
+      "changed_pixels": 763083,
+      "bbox": [
+        0,
+        271,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 873,
+      "max_error": 34,
+      "mean_absolute_error": 0.7445074588477366,
+      "changed_pixels": 844578,
+      "bbox": [
+        0,
+        240,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 874,
+      "max_error": 54,
+      "mean_absolute_error": 0.7444407471707819,
+      "changed_pixels": 844510,
+      "bbox": [
+        0,
+        240,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 875,
+      "max_error": 19,
+      "mean_absolute_error": 0.7446336484053498,
+      "changed_pixels": 844757,
+      "bbox": [
+        0,
+        240,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 876,
+      "max_error": 18,
+      "mean_absolute_error": 0.9382699974279836,
+      "changed_pixels": 999999,
+      "bbox": [
+        0,
+        236,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 877,
+      "max_error": 18,
+      "mean_absolute_error": 0.9385627250514403,
+      "changed_pixels": 1000449,
+      "bbox": [
+        0,
+        236,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 878,
+      "max_error": 58,
+      "mean_absolute_error": 0.940437242798354,
+      "changed_pixels": 998327,
+      "bbox": [
+        0,
+        239,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 879,
+      "max_error": 17,
+      "mean_absolute_error": 0.6800499935699589,
+      "changed_pixels": 773789,
+      "bbox": [
+        0,
+        207,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 880,
+      "max_error": 51,
+      "mean_absolute_error": 0.676016428755144,
+      "changed_pixels": 772502,
+      "bbox": [
+        0,
+        207,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 881,
+      "max_error": 16,
+      "mean_absolute_error": 0.679619341563786,
+      "changed_pixels": 773838,
+      "bbox": [
+        0,
+        207,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 882,
+      "max_error": 50,
+      "mean_absolute_error": 0.6559066358024691,
+      "changed_pixels": 794295,
+      "bbox": [
+        0,
+        221,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 883,
+      "max_error": 18,
+      "mean_absolute_error": 0.6557527970679012,
+      "changed_pixels": 794363,
+      "bbox": [
+        0,
+        221,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 884,
+      "max_error": 18,
+      "mean_absolute_error": 0.6557830182613169,
+      "changed_pixels": 794362,
+      "bbox": [
+        0,
+        221,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 885,
+      "max_error": 20,
+      "mean_absolute_error": 0.7926367991255144,
+      "changed_pixels": 895556,
+      "bbox": [
+        0,
+        191,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 886,
+      "max_error": 53,
+      "mean_absolute_error": 0.792524112654321,
+      "changed_pixels": 895451,
+      "bbox": [
+        0,
+        191,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 887,
+      "max_error": 20,
+      "mean_absolute_error": 0.7926319765946502,
+      "changed_pixels": 895537,
+      "bbox": [
+        0,
+        191,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 888,
+      "max_error": 36,
+      "mean_absolute_error": 0.9757384902263374,
+      "changed_pixels": 1046492,
+      "bbox": [
+        0,
+        175,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 889,
+      "max_error": 36,
+      "mean_absolute_error": 0.9758637152777778,
+      "changed_pixels": 1046574,
+      "bbox": [
+        0,
+        175,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 890,
+      "max_error": 51,
+      "mean_absolute_error": 0.9801768261316872,
+      "changed_pixels": 1045018,
+      "bbox": [
+        0,
+        175,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 891,
+      "max_error": 17,
+      "mean_absolute_error": 0.7159878150720165,
+      "changed_pixels": 809486,
+      "bbox": [
+        0,
+        157,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 892,
+      "max_error": 36,
+      "mean_absolute_error": 0.711968878600823,
+      "changed_pixels": 807869,
+      "bbox": [
+        0,
+        157,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 893,
+      "max_error": 17,
+      "mean_absolute_error": 0.7146838027263375,
+      "changed_pixels": 808997,
+      "bbox": [
+        0,
+        157,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 894,
+      "max_error": 53,
+      "mean_absolute_error": 0.6662146347736626,
+      "changed_pixels": 794313,
+      "bbox": [
+        0,
+        175,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 895,
+      "max_error": 21,
+      "mean_absolute_error": 0.6659971386316872,
+      "changed_pixels": 794355,
+      "bbox": [
+        0,
+        175,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 896,
+      "max_error": 21,
+      "mean_absolute_error": 0.665953253600823,
+      "changed_pixels": 794375,
+      "bbox": [
+        0,
+        175,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 897,
+      "max_error": 21,
+      "mean_absolute_error": 0.8094995820473251,
+      "changed_pixels": 915646,
+      "bbox": [
+        0,
+        143,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 898,
+      "max_error": 52,
+      "mean_absolute_error": 0.8093163258744855,
+      "changed_pixels": 915579,
+      "bbox": [
+        0,
+        143,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 899,
+      "max_error": 21,
+      "mean_absolute_error": 0.8092581340020576,
+      "changed_pixels": 915622,
+      "bbox": [
+        0,
+        143,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 900,
+      "max_error": 21,
+      "mean_absolute_error": 0.8089654063786008,
+      "changed_pixels": 907308,
+      "bbox": [
+        0,
+        141,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 901,
+      "max_error": 53,
+      "mean_absolute_error": 0.8090536586934156,
+      "changed_pixels": 907279,
+      "bbox": [
+        0,
+        141,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 902,
+      "max_error": 29,
+      "mean_absolute_error": 0.7911639981995885,
+      "changed_pixels": 893781,
+      "bbox": [
+        0,
+        141,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 903,
+      "max_error": 56,
+      "mean_absolute_error": 0.961273308899177,
+      "changed_pixels": 1033382,
+      "bbox": [
+        0,
+        125,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 904,
+      "max_error": 57,
+      "mean_absolute_error": 0.9618179333847736,
+      "changed_pixels": 1034165,
+      "bbox": [
+        0,
+        125,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 905,
+      "max_error": 59,
+      "mean_absolute_error": 0.9639591370884774,
+      "changed_pixels": 1031022,
+      "bbox": [
+        0,
+        125,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 906,
+      "max_error": 23,
+      "mean_absolute_error": 0.7193852880658437,
+      "changed_pixels": 824400,
+      "bbox": [
+        0,
+        111,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 907,
+      "max_error": 23,
+      "mean_absolute_error": 0.715771283436214,
+      "changed_pixels": 823249,
+      "bbox": [
+        0,
+        111,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 908,
+      "max_error": 23,
+      "mean_absolute_error": 0.7198167438271605,
+      "changed_pixels": 825054,
+      "bbox": [
+        0,
+        111,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 909,
+      "max_error": 57,
+      "mean_absolute_error": 0.6688691165123457,
+      "changed_pixels": 809148,
+      "bbox": [
+        0,
+        112,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 910,
+      "max_error": 23,
+      "mean_absolute_error": 0.668260513117284,
+      "changed_pixels": 809334,
+      "bbox": [
+        0,
+        112,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 911,
+      "max_error": 23,
+      "mean_absolute_error": 0.6683254565329219,
+      "changed_pixels": 809375,
+      "bbox": [
+        0,
+        112,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 912,
+      "max_error": 23,
+      "mean_absolute_error": 0.8402345357510288,
+      "changed_pixels": 954466,
+      "bbox": [
+        0,
+        95,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 913,
+      "max_error": 55,
+      "mean_absolute_error": 0.8401488554526749,
+      "changed_pixels": 954407,
+      "bbox": [
+        0,
+        95,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 914,
+      "max_error": 23,
+      "mean_absolute_error": 0.8403686021090535,
+      "changed_pixels": 954767,
+      "bbox": [
+        0,
+        95,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 915,
+      "max_error": 23,
+      "mean_absolute_error": 1.0074959812242799,
+      "changed_pixels": 1078677,
+      "bbox": [
+        0,
+        93,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 916,
+      "max_error": 23,
+      "mean_absolute_error": 1.007937082047325,
+      "changed_pixels": 1079335,
+      "bbox": [
+        0,
+        93,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 917,
+      "max_error": 56,
+      "mean_absolute_error": 1.009606159979424,
+      "changed_pixels": 1075967,
+      "bbox": [
+        0,
+        93,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 918,
+      "max_error": 23,
+      "mean_absolute_error": 0.7404234182098766,
+      "changed_pixels": 847885,
+      "bbox": [
+        0,
+        63,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 919,
+      "max_error": 23,
+      "mean_absolute_error": 0.7353251993312757,
+      "changed_pixels": 846327,
+      "bbox": [
+        0,
+        63,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 920,
+      "max_error": 23,
+      "mean_absolute_error": 0.7390645897633745,
+      "changed_pixels": 847427,
+      "bbox": [
+        0,
+        63,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 921,
+      "max_error": 53,
+      "mean_absolute_error": 0.722060345936214,
+      "changed_pixels": 869759,
+      "bbox": [
+        0,
+        79,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 922,
+      "max_error": 26,
+      "mean_absolute_error": 0.7219645383230453,
+      "changed_pixels": 869704,
+      "bbox": [
+        0,
+        79,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 923,
+      "max_error": 23,
+      "mean_absolute_error": 0.7219526427469136,
+      "changed_pixels": 869691,
+      "bbox": [
+        0,
+        79,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 924,
+      "max_error": 23,
+      "mean_absolute_error": 0.8858404063786008,
+      "changed_pixels": 1007112,
+      "bbox": [
+        0,
+        47,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 925,
+      "max_error": 42,
+      "mean_absolute_error": 0.8858421746399177,
+      "changed_pixels": 1007078,
+      "bbox": [
+        0,
+        47,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 926,
+      "max_error": 23,
+      "mean_absolute_error": 0.8859211033950617,
+      "changed_pixels": 1007071,
+      "bbox": [
+        0,
+        47,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 927,
+      "max_error": 23,
+      "mean_absolute_error": 1.0071678883744857,
+      "changed_pixels": 1062675,
+      "bbox": [
+        0,
+        29,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 928,
+      "max_error": 23,
+      "mean_absolute_error": 1.0074704218106996,
+      "changed_pixels": 1063223,
+      "bbox": [
+        0,
+        29,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 929,
+      "max_error": 52,
+      "mean_absolute_error": 1.0092373971193416,
+      "changed_pixels": 1062241,
+      "bbox": [
+        0,
+        29,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 930,
+      "max_error": 23,
+      "mean_absolute_error": 0.8115319573045268,
+      "changed_pixels": 936772,
+      "bbox": [
+        0,
+        16,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 931,
+      "max_error": 51,
+      "mean_absolute_error": 0.8097961676954732,
+      "changed_pixels": 936180,
+      "bbox": [
+        0,
+        16,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 932,
+      "max_error": 23,
+      "mean_absolute_error": 0.8124712255658436,
+      "changed_pixels": 936882,
+      "bbox": [
+        0,
+        16,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 933,
+      "max_error": 48,
+      "mean_absolute_error": 0.7109977816358025,
+      "changed_pixels": 850649,
+      "bbox": [
+        0,
+        28,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 934,
+      "max_error": 25,
+      "mean_absolute_error": 0.7108629115226337,
+      "changed_pixels": 850685,
+      "bbox": [
+        0,
+        28,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 935,
+      "max_error": 23,
+      "mean_absolute_error": 0.7108640367798353,
+      "changed_pixels": 850665,
+      "bbox": [
+        0,
+        28,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 936,
+      "max_error": 29,
+      "mean_absolute_error": 0.8629277584876544,
+      "changed_pixels": 975570,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 937,
+      "max_error": 52,
+      "mean_absolute_error": 0.8507063400205761,
+      "changed_pixels": 965325,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 938,
+      "max_error": 27,
+      "mean_absolute_error": 0.8507987718621399,
+      "changed_pixels": 965458,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 939,
+      "max_error": 18,
+      "mean_absolute_error": 1.0341706854423869,
+      "changed_pixels": 1092278,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 940,
+      "max_error": 18,
+      "mean_absolute_error": 1.0346405606995885,
+      "changed_pixels": 1092902,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 941,
+      "max_error": 52,
+      "mean_absolute_error": 1.036246784979424,
+      "changed_pixels": 1091780,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 942,
+      "max_error": 16,
+      "mean_absolute_error": 0.7586345807613168,
+      "changed_pixels": 865247,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 943,
+      "max_error": 20,
+      "mean_absolute_error": 0.7565737525720164,
+      "changed_pixels": 864785,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 944,
+      "max_error": 20,
+      "mean_absolute_error": 0.7586580504115227,
+      "changed_pixels": 866336,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 945,
+      "max_error": 39,
+      "mean_absolute_error": 0.7871416859567901,
+      "changed_pixels": 918321,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 946,
+      "max_error": 25,
+      "mean_absolute_error": 0.7868457433127573,
+      "changed_pixels": 918451,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 947,
+      "max_error": 25,
+      "mean_absolute_error": 0.7870206404320987,
+      "changed_pixels": 918584,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 948,
+      "max_error": 42,
+      "mean_absolute_error": 1.0284818672839506,
+      "changed_pixels": 1060417,
+      "bbox": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 949,
+      "max_error": 56,
+      "mean_absolute_error": 0.06850790895061729,
+      "changed_pixels": 77916,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 950,
+      "max_error": 12,
+      "mean_absolute_error": 0.06471820344650206,
+      "changed_pixels": 76817,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 951,
+      "max_error": 12,
+      "mean_absolute_error": 0.06465438528806584,
+      "changed_pixels": 76602,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1538
+      ]
+    },
+    {
+      "frame": 952,
+      "max_error": 16,
+      "mean_absolute_error": 0.06462480709876543,
+      "changed_pixels": 76890,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1538
+      ]
+    },
+    {
+      "frame": 953,
+      "max_error": 23,
+      "mean_absolute_error": 0.07584410365226338,
+      "changed_pixels": 90750,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 954,
+      "max_error": 32,
+      "mean_absolute_error": 0.0796997170781893,
+      "changed_pixels": 94291,
+      "bbox": [
+        60,
+        192,
+        1024,
+        1536
+      ]
+    },
+    {
+      "frame": 955,
+      "max_error": 49,
+      "mean_absolute_error": 0.08811648019547325,
+      "changed_pixels": 107393,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 956,
+      "max_error": 54,
+      "mean_absolute_error": 0.08264724794238683,
+      "changed_pixels": 95569,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 957,
+      "max_error": 59,
+      "mean_absolute_error": 0.0834619341563786,
+      "changed_pixels": 103614,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 958,
+      "max_error": 62,
+      "mean_absolute_error": 0.1008082561728395,
+      "changed_pixels": 117620,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 959,
+      "max_error": 56,
+      "mean_absolute_error": 0.09243280606995885,
+      "changed_pixels": 111367,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 960,
+      "max_error": 58,
+      "mean_absolute_error": 0.09917791923868313,
+      "changed_pixels": 115411,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 961,
+      "max_error": 46,
+      "mean_absolute_error": 0.08889371141975308,
+      "changed_pixels": 107047,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 962,
+      "max_error": 47,
+      "mean_absolute_error": 0.11043708204732511,
+      "changed_pixels": 125661,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 963,
+      "max_error": 54,
+      "mean_absolute_error": 0.10294319058641975,
+      "changed_pixels": 123447,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 964,
+      "max_error": 60,
+      "mean_absolute_error": 0.10158789866255144,
+      "changed_pixels": 123901,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 965,
+      "max_error": 49,
+      "mean_absolute_error": 0.09837802211934156,
+      "changed_pixels": 121151,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 966,
+      "max_error": 53,
+      "mean_absolute_error": 0.10475742669753087,
+      "changed_pixels": 125584,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1538
+      ]
+    },
+    {
+      "frame": 967,
+      "max_error": 56,
+      "mean_absolute_error": 0.11402938528806585,
+      "changed_pixels": 132923,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 968,
+      "max_error": 44,
+      "mean_absolute_error": 0.11841901363168725,
+      "changed_pixels": 143875,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1536
+      ]
+    },
+    {
+      "frame": 969,
+      "max_error": 59,
+      "mean_absolute_error": 0.10133825231481482,
+      "changed_pixels": 127661,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 970,
+      "max_error": 46,
+      "mean_absolute_error": 0.10941518775720165,
+      "changed_pixels": 140571,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 971,
+      "max_error": 43,
+      "mean_absolute_error": 0.11446711033950617,
+      "changed_pixels": 146176,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 972,
+      "max_error": 33,
+      "mean_absolute_error": 0.12210246270576132,
+      "changed_pixels": 153862,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 973,
+      "max_error": 47,
+      "mean_absolute_error": 0.11412760416666666,
+      "changed_pixels": 147821,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 974,
+      "max_error": 46,
+      "mean_absolute_error": 0.1133203125,
+      "changed_pixels": 147502,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 975,
+      "max_error": 41,
+      "mean_absolute_error": 0.122036233281893,
+      "changed_pixels": 152569,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 976,
+      "max_error": 54,
+      "mean_absolute_error": 0.11886284722222222,
+      "changed_pixels": 152176,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 977,
+      "max_error": 35,
+      "mean_absolute_error": 0.1151025591563786,
+      "changed_pixels": 147692,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 978,
+      "max_error": 47,
+      "mean_absolute_error": 0.11167406121399177,
+      "changed_pixels": 143804,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 979,
+      "max_error": 48,
+      "mean_absolute_error": 0.11610162680041153,
+      "changed_pixels": 147853,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 980,
+      "max_error": 45,
+      "mean_absolute_error": 0.11703993055555556,
+      "changed_pixels": 149498,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 981,
+      "max_error": 54,
+      "mean_absolute_error": 0.1165554269547325,
+      "changed_pixels": 148037,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 982,
+      "max_error": 49,
+      "mean_absolute_error": 0.11159850823045267,
+      "changed_pixels": 141923,
+      "bbox": [
+        60,
+        192,
+        1020,
+        1537
+      ]
+    },
+    {
+      "frame": 983,
+      "max_error": 57,
+      "mean_absolute_error": 0.17007908950617284,
+      "changed_pixels": 207676,
+      "bbox": [
+        56,
+        192,
+        1026,
+        1537
+      ]
+    },
+    {
+      "frame": 984,
+      "max_error": 55,
+      "mean_absolute_error": 0.1538745820473251,
+      "changed_pixels": 196130,
+      "bbox": [
+        56,
+        192,
+        1026,
+        1537
+      ]
+    },
+    {
+      "frame": 985,
+      "max_error": 57,
+      "mean_absolute_error": 0.17147810570987654,
+      "changed_pixels": 205569,
+      "bbox": [
+        56,
+        192,
+        1025,
+        1537
+      ]
+    },
+    {
+      "frame": 986,
+      "max_error": 62,
+      "mean_absolute_error": 0.1331687242798354,
+      "changed_pixels": 177845,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 987,
+      "max_error": 62,
+      "mean_absolute_error": 0.14785461676954734,
+      "changed_pixels": 194820,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 988,
+      "max_error": 58,
+      "mean_absolute_error": 0.1462152777777778,
+      "changed_pixels": 193194,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 989,
+      "max_error": 53,
+      "mean_absolute_error": 0.14542164994855966,
+      "changed_pixels": 192142,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 990,
+      "max_error": 57,
+      "mean_absolute_error": 0.14585873199588478,
+      "changed_pixels": 189937,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 991,
+      "max_error": 22,
+      "mean_absolute_error": 0.14393743569958847,
+      "changed_pixels": 190088,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 992,
+      "max_error": 24,
+      "mean_absolute_error": 0.1443624614197531,
+      "changed_pixels": 190296,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 993,
+      "max_error": 22,
+      "mean_absolute_error": 0.14405269418724279,
+      "changed_pixels": 190068,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 994,
+      "max_error": 50,
+      "mean_absolute_error": 0.14474183384773662,
+      "changed_pixels": 189522,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 995,
+      "max_error": 22,
+      "mean_absolute_error": 0.14409979423868313,
+      "changed_pixels": 190240,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 996,
+      "max_error": 22,
+      "mean_absolute_error": 0.144203800154321,
+      "changed_pixels": 190427,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    },
+    {
+      "frame": 997,
+      "max_error": 22,
+      "mean_absolute_error": 0.1444629308127572,
+      "changed_pixels": 189769,
+      "bbox": [
+        56,
+        192,
+        1024,
+        1537
+      ]
+    }
+  ],
+  "only_card_frames_differ": false
+}

@@ -1,0 +1,167 @@
+{
+ "id": "bc003",
+ "voice": "af_bella",
+ "speed": 1.12,
+ "a": "badger",
+ "b": "cobra",
+ "winner": "a",
+ "bg": "scrub",
+ "title": [
+  "HONEY BADGER",
+  "KING COBRA"
+ ],
+ "tag": [
+  "30 LB",
+  "18 FT"
+ ],
+ "stats": [
+  {
+   "label": "WEIGHT",
+   "a": {
+    "big": "30 LB",
+    "small": "14 kg"
+   },
+   "b": {
+    "big": "20 LB",
+    "small": "9 kg"
+   },
+   "win": "a"
+  },
+  {
+   "label": "LENGTH",
+   "b": {
+    "big": "18 FT",
+    "small": "up to 5.4 m"
+   },
+   "win": "b"
+  },
+  {
+   "label": "VENOM PER BITE",
+   "b": {
+    "big": "0.2 OZ",
+    "small": "about 6 mL"
+   },
+   "win": "b"
+  }
+ ],
+ "verdict": {
+  "head": "EDGE",
+  "name": "HONEY BADGER",
+  "note": "HUNTS COBRAS \u00b7 RESISTS SOME VENOM",
+  "note2": "NOT IMMUNE \u00b7 NO RECORDED FIGHT",
+  "pop1": "BADGERS REALLY HUNT COBRAS",
+  "pop2": "NOT IMMUNE \u00b7 NO RECORDED FIGHT"
+ },
+ "lines": [
+  {
+   "mode": "face",
+   "tts": "Honey badger! King cobra!",
+   "shown": "Honey badger! King cobra!",
+   "id": "L01",
+   "speed": 1.25
+  },
+  {
+   "mode": "stat",
+   "k": 0,
+   "tts": "Thirty pounds, versus twenty. The badger's heavier!",
+   "shown": "30 lb vs 20 lb. The badger's heavier!",
+   "id": "L02",
+   "speed": 1.32
+  },
+  {
+   "mode": "stat",
+   "k": 1,
+   "tts": "But the cobra can reach eighteen feet!",
+   "shown": "But the cobra can reach 18 feet!",
+   "id": "L03",
+   "speed": 1.32
+  },
+  {
+   "mode": "stat",
+   "k": 2,
+   "tts": "One bite: up to two-tenths of an ounce of venom!",
+   "shown": "One bite: up to 0.2 oz of venom!",
+   "id": "L04",
+   "speed": 1.32
+  },
+  {
+   "mode": "prompt",
+   "tts": "Who wins? Comment A, or B!",
+   "shown": "Who wins? Comment A or B!",
+   "id": "L05"
+  },
+  {
+   "mode": "clash",
+   "shots": [
+    {
+     "s": "rear",
+     "who": "b"
+    }
+   ],
+   "tts": "The cobra rises, and spreads its hood!",
+   "shown": "The cobra rises and spreads its hood!",
+   "hold": 0.3,
+   "id": "L06"
+  },
+  {
+   "mode": "clash",
+   "shots": [
+    {
+     "s": "strike",
+     "who": "b"
+    }
+   ],
+   "tts": "Strike! The badger ducks!",
+   "shown": "Strike! The badger ducks!",
+   "hold": 0.35,
+   "id": "L07"
+  },
+  {
+   "mode": "clash",
+   "shots": [
+    {
+     "s": "impact",
+     "who": "b",
+     "tank": true
+    }
+   ],
+   "tts": "Its loose, thick skin is hard to grip!",
+   "shown": "Its loose, thick skin is hard to grip!",
+   "hold": 0.35,
+   "id": "L08"
+  },
+  {
+   "mode": "clash",
+   "shots": [
+    {
+     "s": "retreat",
+     "who": "b"
+    }
+   ],
+   "tts": "The king backs down!",
+   "shown": "The king backs down!",
+   "hold": 0.5,
+   "id": "L09"
+  },
+  {
+   "mode": "verdict",
+   "k": 0,
+   "tts": "Honey badgers really do hunt cobras, and resist some venom.",
+   "shown": "Honey badgers really do hunt cobras and resist some venom.",
+   "id": "L10"
+  },
+  {
+   "mode": "verdict",
+   "k": 1,
+   "tts": "But they're not immune, and no real fight with a king cobra is on record.",
+   "shown": "But they're not immune, and no real fight with a king cobra is on record.",
+   "id": "L11"
+  },
+  {
+   "mode": "loop",
+   "tts": "Rematch? Round two!",
+   "shown": "Rematch? Round two!",
+   "id": "L12"
+  }
+ ]
+}

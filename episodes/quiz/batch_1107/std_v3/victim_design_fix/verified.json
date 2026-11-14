@@ -1,0 +1,31 @@
+{
+  "protected_files_unchanged": 2837,
+  "audio_identity": {
+    "q020": {
+      "aac_sha256_before": "f45408d35d51c8f9267df4759d8fd4460bf848a0ef20dd084380125c97e20e1f",
+      "aac_sha256_after": "f45408d35d51c8f9267df4759d8fd4460bf848a0ef20dd084380125c97e20e1f",
+      "packet_payload_and_timestamps_identical": true
+    },
+    "q022": {
+      "aac_sha256_before": "1e4738afcf96a4bf6d97900d9d4d368b9d0e066d0139fb955f6f11e23032e55e",
+      "aac_sha256_after": "1e4738afcf96a4bf6d97900d9d4d368b9d0e066d0139fb955f6f11e23032e55e",
+      "packet_payload_and_timestamps_identical": true
+    }
+  },
+  "packages": {
+    "q020": {
+      "video_sha256": "f97e9331b1e4f83caf925458ed456e36dfe91d1e89b70d309e8e8b10ffaaaa9a",
+      "ready_sha256": "d385a7c069453b6586c5a6d7ca1121383ee14dc837d17707cf6cca1262dab302",
+      "sheet_sha256": "9c76962b88ab89fea3f4f94fc2799f042d5e60db52e3508dcc02652e883d2020",
+      "audio_unchanged": true,
+      "direction_unchanged": true
+    },
+    "q022": {
+      "video_sha256": "cf5797b1b9fb7257f470bc7de80e4ca9e68ab10ae00b3b287002f07b312a71f3",
+      "ready_sha256": "56a43a7ed6bb7637cb7e3007703f91df6dca52dec1a5f9fa58de6e14f77790bf",
+      "sheet_sha256": "f1f1e94dc00cdca9c8fc94de6dd1444bc13ca247a2632bf77bf0589b65686a51",
+      "audio_unchanged": true,
+      "direction_unchanged": true
+    }
+  }
+}

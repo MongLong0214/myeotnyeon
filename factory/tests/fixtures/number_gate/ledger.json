@@ -1,0 +1,45 @@
+{
+ "note": "Copy of upload/ledger.json records q014/q017/q018/q020 as of 2026-11-08, for factory/tests/test_number_gate.py",
+ "entries": [
+  {
+   "qid": "q017",
+   "video_id": null,
+   "evidence": [
+    "upload/inspect_v52/report.md"
+   ],
+   "no": 14,
+   "state": "scheduled",
+   "date": "2026-11-04T19:00:00+09:00"
+  },
+  {
+   "qid": "q014",
+   "video_id": "S-eU5rbP9yg",
+   "evidence": [
+    "user task: #15 S-eU5rbP9yg (11-05), #16 reserved q013"
+   ],
+   "no": 15,
+   "state": "scheduled",
+   "date": "2026-11-05T19:00:00+09:00",
+   "replacement_video_id": "oxZUrYF8Chg",
+   "note": "S-eU5rbP9yg private (kept); oxZUrYF8Chg public 2026-11-05 19:00"
+  },
+  {
+   "qid": "q020",
+   "video_id": "S_apLF1EfZM",
+   "evidence": [
+    "owner '하루에하나씩올리자' uuid 81d11e62; upload 11-07 10:05 KST sha f97e9331"
+   ],
+   "state": "published",
+   "date": "2026-11-07T19:00:00+09:00"
+  },
+  {
+   "qid": "q018",
+   "video_id": "DKLnGa1Pfk8",
+   "evidence": [
+    "upload/pkg/q018_std/video_newhands.mp4 sha256 72cc5d17…181c; owner '하루에하나씩올리자' uuid 81d11e62; CEO newhands review"
+   ],
+   "state": "scheduled",
+   "date": "2026-11-08T19:00:00+09:00"
+  }
+ ]
+}

@@ -1,0 +1,330 @@
+{
+ "qid": "en002",
+ "locale": "en",
+ "variant": "B3",
+ "b3": true,
+ "look": "full2",
+ "grave": true,
+ "engine": "Kokoro-82M v1.0 (Apache-2.0, local, offline)",
+ "voice": "af_heart",
+ "kokoro_speeds": [
+  1.0,
+  1.1,
+  1.2
+ ],
+ "kind": "stream",
+ "number_label": "",
+ "stage": "stream",
+ "cover_text": "PUPPY ABUSE\nlive on Twitch",
+ "defendant": "woman",
+ "choices": [
+  "30 days in jail",
+  "10 days + probation",
+  "Probation only"
+ ],
+ "correct": 1,
+ "answer": "10 days in jail",
+ "answer_label": "DeKalb County, GA",
+ "opinion": "This sentence:\nToo light / Fair / Too harsh?",
+ "option_offsets": [
+  0.0,
+  0.96,
+  2.48
+ ],
+ "hook_text": [
+  "Live on Twitch",
+  "PUPPY ABUSE"
+ ],
+ "sfx": [
+  [
+   "stream",
+   0,
+   "thud"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ],
+  [
+   "hit",
+   6,
+   "whoosh"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L06",
+   "at": 0.45,
+   "big": "$3,048",
+   "small": "for the puppy's care",
+   "calc": "FOX 5: $3,048 to LifeLine Animal Project (Decaturish $3,348; CBS \"$3,300+\")"
+  },
+  {
+   "line": "L12",
+   "at": 0.05,
+   "big": "10 − 2 = 8 days",
+   "small": "left to serve (2 days credit)",
+   "calc": "FOX 5/CBS: 10 days in jail with credit for 2 days served → 8 days"
+  },
+  {
+   "line": "L12",
+   "at": 0.55,
+   "big": "30 to 10 days",
+   "small": "the judge's own plan, cut",
+   "calc": "Decaturish: judge said he was going to sentence 30 days, gave 10"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "stream",
+   "tts": "Puppy abuse, live on Twitch.",
+   "shown": "Puppy abuse, live on Twitch.",
+   "chunks": [
+    "Puppy abuse, live on Twitch."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "stream"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "How much jail time did she get?",
+   "shown": "How much jail time did she get?",
+   "chunks": [
+    "How much jail time",
+    "did she get?"
+   ],
+   "fact": "F4",
+   "actor": "woman",
+   "shots": [
+    {
+     "s": "react",
+     "look": "woman",
+     "expr": "angry",
+     "move": "shake",
+     "y": 2090
+    },
+    {
+     "s": "calendar",
+     "year": "2026",
+     "month": 1
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "mode": "guess",
+   "tts": "Her lawyer said ten minutes don't define her,",
+   "shown": "Her lawyer said 10 minutes don't define her,",
+   "chunks": [
+    "Her lawyer said 10 minutes",
+    "don't define her,"
+   ],
+   "fact": "F8",
+   "shots": [
+    {
+     "s": "bubble",
+     "lines": [
+      "10 minutes",
+      "don't define her"
+     ],
+     "size": 120
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "THE DEFENSE",
+      "\"10 minutes\""
+     ],
+     "size": 76
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "but prosecutors played the stream in court.",
+   "shown": "but prosecutors played the stream in court.",
+   "chunks": [
+    "but prosecutors played",
+    "the stream in court."
+   ],
+   "fact": "F2",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "EVIDENCE"
+     ],
+     "stamp": "PLAYED",
+     "size": 100
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "mode": "hit",
+   "tts": "She struck her three-month-old puppy, again and again.",
+   "shown": "She struck her 3-month-old puppy, again and again.",
+   "chunks": [
+    "She struck her 3-month-old",
+    "puppy, again and again."
+   ],
+   "fact": "F1",
+   "actor": "woman",
+   "shots": [
+    {
+     "s": "react",
+     "look": "passenger",
+     "expr": "shock",
+     "move": "recoil",
+     "y": 2090,
+     "other": true
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "CRUELTY",
+      "TO ANIMALS"
+     ],
+     "size": 96
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "mode": "past",
+   "tts": "The puppy survived, and was rescued.",
+   "shown": "The puppy survived, and was rescued.",
+   "chunks": [
+    "The puppy survived,",
+    "and was rescued."
+   ],
+   "fact": "F3",
+   "shots": [
+    {
+     "s": "paper",
+     "lines": [
+      "RESCUED",
+      "puppy is safe"
+     ],
+     "size": 90
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "NO DOGS"
+     ],
+     "stamp": "BANNED",
+     "size": 100
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "Her sentence?",
+   "shown": "Her sentence?",
+   "chunks": [
+    "Her sentence?"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "Thirty days in jail, ten days plus probation, or probation only?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "hold_after": 0.45
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "Answer B. Ten days in jail.",
+   "shown": "Answer B. 10 days in jail.",
+   "chunks": [
+    "Answer B. 10 days in jail."
+   ],
+   "fact": "F4",
+   "shots": [],
+   "emphasis": "10 days in jail"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "The judge had planned thirty, and called it symbolic.",
+   "shown": "The judge had planned 30, and called it \"symbolic.\"",
+   "chunks": [
+    "The judge had planned 30,",
+    "and called it \"symbolic.\""
+   ],
+   "fact": "F7",
+   "actor": "woman",
+   "shots": [
+    {
+     "s": "paper",
+     "lines": [
+      "JUDGE'S PLAN",
+      "30 days"
+     ],
+     "size": 76
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "+1 YEAR"
+     ],
+     "stamp": "PROBATION",
+     "size": 100
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "Too light, fair, or too harsh?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "actor": "woman",
+   "shots": [
+    {
+     "s": "react",
+     "look": "woman",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "hold_after": 0.3
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "It all started on stream, with",
+   "shown": "It all started on stream, with",
+   "chunks": [
+    "It all started",
+    "on stream, with"
+   ],
+   "fact": "F1",
+   "shots": []
+  }
+ ],
+ "cues_notes": [
+  "Pronouns: the streamer is \"she/her\" in every line and the meta. FOX 5 Atlanta: \"A DeKalb County judge sentenced Easterling to a year of punishment, ordering her to serve 10 days in jail with the rest on probation.\" / \"Easterling was credited for two days she already spent locked up\". The judge is referred to without a pronoun (quoted: \"I was going to sentence you to 30 days in jail\")."
+ ]
+}

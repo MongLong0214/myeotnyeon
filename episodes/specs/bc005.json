@@ -1,0 +1,235 @@
+{
+ "spec_version": 1,
+ "id": "bc005",
+ "locale": "en",
+ "variant": "BC",
+ "channel": "beastclash",
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "National Geographic — Hippopotamus",
+   "url": "https://www.nationalgeographic.com/animals/mammals/facts/hippopotamus"
+  },
+  {
+   "id": "S2",
+   "outlet": "National Geographic — Nile crocodile",
+   "url": "https://www.nationalgeographic.com/animals/reptiles/facts/nile-crocodile"
+  }
+ ],
+ "facts": [
+  {
+   "id": "F1",
+   "claim": "Male hippos reach 16.5 feet and weigh up to 9,920 pounds.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "Males can reach lengths of 10.8 to 16.5 feet, and weigh up to 9,920 pounds"
+    }
+   ],
+   "values": {
+    "weight": {
+     "kind": "measure",
+     "text": "9,920 pounds"
+    },
+    "length": {
+     "kind": "measure",
+     "text": "16.5 feet"
+    }
+   }
+  },
+  {
+   "id": "F2",
+   "claim": "Africa's largest crocodilian reaches about 20 feet and up to 1,650 pounds.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "can reach a maximum size of about 20 feet and can weigh up to 1,650 pounds"
+    }
+   ],
+   "values": {
+    "weight": {
+     "kind": "measure",
+     "text": "1,650 pounds"
+    },
+    "length": {
+     "kind": "measure",
+     "text": "20 feet"
+    }
+   }
+  },
+  {
+   "id": "F4",
+   "claim": "Hippo canines can reach 20 inches.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "long, sharp canines—which can reach 20 inches"
+    }
+   ],
+   "values": {
+    "canine": {
+     "kind": "measure",
+     "text": "20 inches"
+    }
+   }
+  },
+  {
+   "id": "F5",
+   "claim": "The Nile crocodile attacks almost anything, including small hippos.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "will attack almost anything unfortunate enough to cross its path, including zebras, small hippos, porcupines, birds"
+    }
+   ]
+  },
+  {
+   "id": "F6",
+   "claim": "Male hippos reach up to 16.5 feet; Nile crocodiles reach about 20 feet at most.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "Males can reach lengths of 10.8 to 16.5 feet, and weigh up to 9,920 pounds"
+    },
+    {
+     "source": "S2",
+     "text": "can reach a maximum size of about 20 feet and can weigh up to 1,650 pounds"
+    }
+   ],
+   "values": {}
+  }
+ ],
+ "title": "Hippo vs Nile Crocodile — Who Wins?",
+ "description": "A male hippo against a Nile crocodile. Nat Geo says male hippos weigh up to 9,920 pounds and reach 16.5 feet; Africa's largest crocodilian reaches about 20 feet and up to 1,650 pounds. Hippo canines can reach 20 inches. Nat Geo lists small hippos among Nile crocodile prey. These sources list a higher maximum weight for hippos; that is not evidence of who would win a real fight. Hypothetical matchup.",
+ "hashtags": [
+  "#animals",
+  "#versus",
+  "#hippo",
+  "#crocodile",
+  "#shorts"
+ ],
+ "bc": {
+  "a": "hippo",
+  "b": "croc",
+  "winner": "a",
+  "bg": "river",
+  "voice": "af_bella",
+  "stats": [
+   {
+    "label": "MAX WEIGHT",
+    "a": "F1.weight",
+    "b": "F2.weight",
+    "win": "a"
+   },
+   {
+    "label": "MAX LENGTH",
+    "a": "F1.length",
+    "b": "F2.length",
+    "win": "b"
+   },
+   {
+    "label": "MAX CANINES",
+    "a": "F4.canine",
+    "win": "a"
+   }
+  ],
+  "verdict": {
+   "note": "HYPOTHETICAL · SOURCE MAXIMUMS",
+   "note2": "SMALL HIPPOS LISTED AS PREY",
+   "pop1": "HIGHER MAX WEIGHT: HIPPO",
+   "pop2": "SMALL HIPPOS LISTED AS PREY"
+  }
+ },
+ "lines": [
+  {
+   "beat": "face",
+   "text": "Hippo vs Nile crocodile!",
+   "fact": "F5"
+  },
+  {
+   "beat": "stat",
+   "text": "Male hippo: up to 9,920 pounds! Croc: up to 1,650!",
+   "fact": "F1"
+  },
+  {
+   "beat": "stat",
+   "text": "Hippo: up to 16.5 feet! Croc: about 20!",
+   "fact": "F6"
+  },
+  {
+   "beat": "stat",
+   "text": "The hippo's canine teeth: up to 20 inches!",
+   "fact": "F4"
+  },
+  {
+   "beat": "prompt",
+   "text": "Who wins? Take your pick!",
+   "fact": "F5"
+  },
+  {
+   "beat": "clash",
+   "text": "The hippo charges in!",
+   "fact": "F1",
+   "shots": [
+    {
+     "scene": "charge",
+     "who": "a"
+    }
+   ]
+  },
+  {
+   "beat": "clash",
+   "text": "Up rears the croc. Jaws first!",
+   "fact": "F5",
+   "shots": [
+    {
+     "scene": "rear",
+     "who": "b"
+    },
+    {
+     "scene": "strike",
+     "who": "b"
+    }
+   ]
+  },
+  {
+   "beat": "clash",
+   "text": "BAM! The hippo takes the hit!",
+   "fact": "F1",
+   "shots": [
+    {
+     "scene": "impact",
+     "who": "a",
+     "tank": true
+    }
+   ]
+  },
+  {
+   "beat": "clash",
+   "text": "The croc backs away!",
+   "fact": "F2",
+   "shots": [
+    {
+     "scene": "retreat",
+     "who": "b"
+    }
+   ]
+  },
+  {
+   "beat": "verdict",
+   "text": "These sources list a higher maximum weight for hippos.",
+   "fact": "F1"
+  },
+  {
+   "beat": "verdict",
+   "text": "This matchup is hypothetical.",
+   "fact": "F5"
+  },
+  {
+   "beat": "loop",
+   "text": "Rematch? Round 2!",
+   "fact": "F5"
+  }
+ ],
+ "notes": "Hypothetical. Winner rests on S1 vs S2 weight quotes only; no source checked documents an adult hippo vs Nile croc fight. Needs new animals hippo and croc."
+}

@@ -1,0 +1,8 @@
+「何年出る 判決クイズ」(JA) · 禁止命令中に「いいね」14回 · B3 + look v2 · maker self-check, NOT uploaded
+Revised per CEO/coordinator: title 「禁止命令中に「いいね」14回、判決は？」, cover 「禁止命令中に／「いいね」14回」, frame 0 hook 「禁止命令中に／いいね14回」 + first line 「禁止命令中に、いいね。」(1.29 s) — the prohibition order is stated from frame 0, so the hook does not suggest "a like alone is a crime". Twist 4.7 s 「でも裁判所は、ストーカー行為と認めました。」.
+Order type (verified, ceo_packet/claims.md): ストーカー規制法に基づく禁止命令（男性に「つきまとわないよう」, 2026-03-03, 警視庁）; the court found the 14 likes + 1 repost were stalker acts (恋愛感情の充足目的) in violation of that order.
+Sentence shown distinctly: answer card 「拘禁刑6か月・執行猶予3年」, narration 「拘禁刑6か月、執行猶予3年」, then pops 「保護観察付き / 執行猶予3年（1095日）」 and 「今は収監されない / 猶予期間を無事に終えれば刑は効力を失う」 (刑法27条). Finality: 「被告側は、控訴する方針です」 (東京新聞「関係者によると」) — not 確定.
+Voice: VOICEVOX:冥鳴ひまり (style 14), credit in description; full-mix whisper vs script phonetic similarity 1.000.
+Sources: 朝日, 日経(共同), 産経, 東京新聞, NHK all 200 (texts saved in ceo_packet/src).
+Self review: 1 fps sheet of the final render + full every-frame sheets of the previous build (only lines L01/L03/L04/L11/L12 and pops changed since); stills at 0/160/540/640/700 checked for this build.
+Known weaknesses: YouTube demand still low; voice not judged by ear.

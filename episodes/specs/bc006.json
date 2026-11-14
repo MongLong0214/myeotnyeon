@@ -1,0 +1,259 @@
+{
+ "spec_version": 1,
+ "id": "bc006",
+ "locale": "en",
+ "variant": "BC",
+ "channel": "beastclash",
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "San Diego Zoo — Elephant",
+   "url": "https://animals.sandiegozoo.org/animals/elephant"
+  },
+  {
+   "id": "S2",
+   "outlet": "San Diego Zoo — Rhinoceros",
+   "url": "https://animals.sandiegozoo.org/animals/rhinoceros"
+  },
+  {
+   "id": "S3",
+   "outlet": "Slotow et al. 2001, Pachyderm",
+   "url": "https://pachydermjournal.org/index.php/pachyderm/article/view/1058"
+  }
+ ],
+ "facts": [
+  {
+   "id": "F1",
+   "claim": "The largest elephant on record, an adult male savanna elephant, weighed about 24,000 pounds and stood 13 feet at the shoulder.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "He weighed about 24,000 pounds (10,886 kilograms) and was 13 feet (3.96 meters) tall at the shoulder"
+    }
+   ],
+   "values": {
+    "weight": {
+     "kind": "measure",
+     "text": "24,000 pounds"
+    },
+    "height": {
+     "kind": "measure",
+     "text": "13 feet"
+    }
+   }
+  },
+  {
+   "id": "F2",
+   "claim": "The heaviest rhino species, the white rhino, reaches 6,000 pounds; it is also the tallest at up to 6 feet.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "Heaviest - white rhino, 6,000 pounds"
+    },
+    {
+     "source": "S2",
+     "text": "Tallest - white rhino, up to 6 feet"
+    }
+   ],
+   "values": {
+    "weight": {
+     "kind": "measure",
+     "text": "6,000 pounds"
+    },
+    "height": {
+     "kind": "measure",
+     "text": "6 feet"
+    }
+   }
+  },
+  {
+   "id": "F3",
+   "claim": "Between 1991 and 2001 elephants killed 58 white and 5 black rhinos in Hluhluwe-Umfolozi.",
+   "quotes": [
+    {
+     "source": "S3",
+     "text": "Between 1991 and 2001 elephants killed 58 white and 5 black rhinos"
+    }
+   ]
+  },
+  {
+   "id": "F4",
+   "claim": "The culprits were primarily young male elephants entering musth at a younger than normal age.",
+   "quotes": [
+    {
+     "source": "S3",
+     "text": "The culprits were primarily young male elephant entering musth at a younger than normal age"
+    }
+   ]
+  },
+  {
+   "id": "F6",
+   "claim": "White rhino length is 12 to 13 feet.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "Largest - white rhino, 12 to 13 feet"
+    }
+   ],
+   "values": {
+    "length": {
+     "kind": "measure",
+     "text": "13 feet"
+    }
+   }
+  },
+  {
+   "id": "F7",
+   "claim": "A record elephant stood 13 feet at the shoulder; the tallest rhino, the white rhino, stands up to 6 feet.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "He weighed about 24,000 pounds (10,886 kilograms) and was 13 feet (3.96 meters) tall at the shoulder"
+    },
+    {
+     "source": "S2",
+     "text": "Tallest - white rhino, up to 6 feet"
+    }
+   ],
+   "values": {}
+  }
+ ],
+ "title": "Elephant vs Rhino — Who Wins?",
+ "description": "An African elephant against a white rhino. San Diego Zoo reports the largest elephant on record, an adult male savanna elephant, at about 24,000 pounds and 13 feet at the shoulder; the heaviest rhino, the white rhino, at 6,000 pounds. In Hluhluwe-Umfolozi Park, elephants killed 58 white and 5 black rhinos between 1991 and 2001, mostly young males entering musth. The on-screen verdict is based on the listed weights only; it is not evidence of who would win a real fight. Hypothetical matchup.",
+ "hashtags": [
+  "#animals",
+  "#versus",
+  "#elephant",
+  "#rhino",
+  "#shorts"
+ ],
+ "bc": {
+  "a": "elephant",
+  "b": "rhino",
+  "winner": "a",
+  "bg": "savanna",
+  "voice": "af_bella",
+  "stats": [
+   {
+    "label": "WEIGHT",
+    "a": "F1.weight",
+    "b": "F2.weight",
+    "win": "a",
+    "a_cond": "RECORD INDIVIDUAL",
+    "b_cond": "HEAVIEST SPECIES"
+   },
+   {
+    "label": "HEIGHT",
+    "a": "F1.height",
+    "b": "F2.height",
+    "win": "a",
+    "a_cond": "RECORD SHOULDER HEIGHT",
+    "b_cond": "UP TO"
+   },
+   {
+    "label": "LENGTH",
+    "b": "F6.length",
+    "win": "b",
+    "b_cond": "UP TO"
+   }
+  ],
+  "verdict": {
+   "note": "HYPOTHETICAL · RECORD BULL",
+   "note2": "BASED ON WEIGHT ONLY",
+   "pop1": "HEAVIER RECORD: ELEPHANT",
+   "pop2": "BASED ON WEIGHT ONLY"
+  }
+ },
+ "lines": [
+  {
+   "beat": "face",
+   "text": "Elephant vs rhino!",
+   "fact": "F1"
+  },
+  {
+   "beat": "stat",
+   "text": "Record elephant: about 24,000 pounds! Biggest rhino: 6,000!",
+   "fact": "F1"
+  },
+  {
+   "beat": "stat",
+   "text": "13 feet tall vs up to 6 feet!",
+   "fact": "F7"
+  },
+  {
+   "beat": "stat",
+   "text": "Rhino length: up to 13 feet!",
+   "fact": "F6"
+  },
+  {
+   "beat": "prompt",
+   "text": "Who wins? Take your pick!",
+   "fact": "F1"
+  },
+  {
+   "beat": "clash",
+   "text": "The elephant charges!",
+   "fact": "F1",
+   "shots": [
+    {
+     "scene": "charge",
+     "who": "a"
+    }
+   ]
+  },
+  {
+   "beat": "clash",
+   "text": "The rhino lunges. Horn first!",
+   "fact": "F2",
+   "shots": [
+    {
+     "scene": "charge",
+     "who": "b"
+    },
+    {
+     "scene": "strike",
+     "who": "b"
+    }
+   ]
+  },
+  {
+   "beat": "clash",
+   "text": "BAM! The elephant takes the hit!",
+   "fact": "F1",
+   "shots": [
+    {
+     "scene": "impact",
+     "who": "a",
+     "tank": true
+    }
+   ]
+  },
+  {
+   "beat": "clash",
+   "text": "The rhino backs away!",
+   "fact": "F1",
+   "shots": [
+    {
+     "scene": "retreat",
+     "who": "b"
+    }
+   ]
+  },
+  {
+   "beat": "verdict",
+   "text": "On these numbers, the elephant is heavier.",
+   "fact": "F1"
+  },
+  {
+   "beat": "verdict",
+   "text": "This matchup is hypothetical.",
+   "fact": "F1"
+  },
+  {
+   "beat": "loop",
+   "text": "Rematch? Round 2!",
+   "fact": "F1"
+  }
+ ],
+ "notes": "Hypothetical. Winner rests on S3 killing record (mostly young males in musth, one park, 1991-2001). Needs new animals elephant and rhino."
+}

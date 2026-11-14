@@ -1,0 +1,174 @@
+{
+  "qid": "q020",
+  "answerHead": "2심 징역 12년",
+  "cues": [
+    [
+      "S1",
+      "incident",
+      [
+        "달리는 지하철 안에 휘발유를 붓고 불을 질렀습니다. 징역 몇 년일까요?"
+      ],
+      [],
+      0,
+      {
+        "lines": [
+          "달리는 지하철에 불\n징역 몇 년?"
+        ],
+        "actors": [
+          {
+            "role": "anonymous defendant",
+            "acting": true
+          },
+          {
+            "role": "anonymous adult victim",
+            "acting": true
+          }
+        ]
+      }
+    ],
+    [
+      "S2",
+      "incident",
+      [
+        "서울 지하철 오호선. 불길이 번지자 승객들은 대피했고, 연기를 마신 사람도 나왔습니다."
+      ],
+      [],
+      0,
+      {
+        "lines": [
+          "승객들 대피\n연기 흡입 피해"
+        ],
+        "actors": [
+          {
+            "role": "anonymous defendant",
+            "acting": true
+          },
+          {
+            "role": "anonymous adult victim",
+            "acting": true
+          }
+        ]
+      }
+    ],
+    [
+      "S3",
+      "incident",
+      [
+        "검찰은 승객 백육십 명에 대한 살인미수 혐의도 적용했습니다. 실제 사망자 수가 아닙니다."
+      ],
+      [],
+      0,
+      {
+        "lines": [
+          "160명 살인미수 혐의\n사망자 수 아님"
+        ],
+        "actors": [
+          {
+            "role": "anonymous defendant",
+            "acting": true
+          },
+          {
+            "role": "anonymous adult victim",
+            "acting": true
+          }
+        ]
+      }
+    ],
+    [
+      "S4",
+      "incident",
+      [
+        "검찰 구형은 징역 이십 년. 그런데 실제 선고는 달랐습니다. 피해 회복도 대부분 이뤄지지 않았습니다."
+      ],
+      [],
+      0,
+      {
+        "lines": [
+          "1심 구형 20년"
+        ],
+        "actors": [
+          {
+            "role": "anonymous defendant",
+            "acting": true
+          },
+          {
+            "role": "anonymous adult victim",
+            "acting": true
+          }
+        ]
+      }
+    ],
+    [
+      "S5",
+      "incident",
+      [
+        "재판부는 대중교통의 안전에 대한 신뢰까지 해쳤다고 지적했습니다. 항소심도 유지한 형량은?"
+      ],
+      [],
+      0,
+      {
+        "lines": [
+          "댓글로 정답 먼저 →"
+        ],
+        "actors": [
+          {
+            "role": "anonymous defendant",
+            "acting": true
+          },
+          {
+            "role": "anonymous adult victim",
+            "acting": true
+          }
+        ]
+      }
+    ],
+    [
+      "S6",
+      "reveal",
+      [
+        "항소심 선고, 징역 십이 년. 보호관찰 삼 년입니다."
+      ],
+      [],
+      0,
+      {
+        "lines": [
+          "2심 징역 12년\n보호관찰 3년"
+        ],
+        "actors": [
+          {
+            "role": "anonymous defendant",
+            "acting": true
+          },
+          {
+            "role": "anonymous adult victim",
+            "acting": true
+          }
+        ]
+      }
+    ],
+    [
+      "S7",
+      "incident",
+      [
+        "다음 판결도 맞혀보세요. 구독."
+      ],
+      [],
+      0,
+      {
+        "lines": [
+          "다음 판결도 맞혀보세요 → 구독"
+        ],
+        "actors": [
+          {
+            "role": "anonymous defendant",
+            "acting": true
+          },
+          {
+            "role": "anonymous adult victim",
+            "acting": true
+          }
+        ]
+      }
+    ]
+  ]
+}

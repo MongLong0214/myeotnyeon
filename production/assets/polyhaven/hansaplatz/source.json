@@ -1,0 +1,15 @@
+{
+ "id": "hansaplatz",
+ "name": "Hansaplatz",
+ "type": 0,
+ "authors": {
+  "Greg Zaal": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/hansaplatz",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/hansaplatz_2k.hdr"
+ ]
+}

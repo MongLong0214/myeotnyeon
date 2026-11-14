@@ -1,0 +1,5 @@
+boundary_s,cliffhanger_type_manual,lead_or_question,strict_action_interruption,status
+129.467,규모/시간축 전환,첫 피해자와 총 피해 규모 뒤 인물의 과거로 이동,False,manual semantic classification; not retention evidence
+230.733,순환 연결,파리를 다시 호출하고 사건 당일로 복귀,False,manual semantic classification; not retention evidence
+416.1,새 질문,범행 종결 뒤 경찰은 어디 있었는지 질문,False,manual semantic classification; not retention evidence
+472.867,감정 정점 후 원인 전환,경찰 부재의 대비 뒤 동기를 검토,False,manual semantic classification; not retention evidence

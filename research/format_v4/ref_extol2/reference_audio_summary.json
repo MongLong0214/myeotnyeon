@@ -1,0 +1,345 @@
+{
+  "duration_s": 521.813,
+  "mixed_speech_dbfs": -18.553014481351337,
+  "mixed_nonword_dbfs": -19.06781112566095,
+  "side_dbfs": -31.42234184168695,
+  "side_nonword_dbfs": -28.740909030560392,
+  "continuous_side_bed_proxy_intervals": [
+    {
+      "start_s": 0,
+      "end_s": 521.813,
+      "duration_s": 521.813
+    }
+  ],
+  "continuous_side_bed_proxy_share": 1.0,
+  "nonword_windows_ge_120ms": 85,
+  "nonword_windows_with_side_above_minus50": 83,
+  "acoustic_silence_below_minus60_ge_180ms": [],
+  "narration_gaps_ge_350ms": [
+    {
+      "start_s": 9.72,
+      "end_s": 10.1,
+      "duration_s": 0.38
+    },
+    {
+      "start_s": 18.48,
+      "end_s": 18.84,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 36.1,
+      "end_s": 36.5,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 40.04,
+      "end_s": 40.46,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 47.36,
+      "end_s": 47.76,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 63.52,
+      "end_s": 63.88,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 67.42,
+      "end_s": 68.12,
+      "duration_s": 0.7
+    },
+    {
+      "start_s": 71.1,
+      "end_s": 71.66,
+      "duration_s": 0.56
+    },
+    {
+      "start_s": 73.98,
+      "end_s": 74.38,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 75.56,
+      "end_s": 75.92,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 93.22,
+      "end_s": 93.66,
+      "duration_s": 0.44
+    },
+    {
+      "start_s": 115.7,
+      "end_s": 116.1,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 128.78,
+      "end_s": 131.52,
+      "duration_s": 2.74
+    },
+    {
+      "start_s": 148.24,
+      "end_s": 148.64,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 184.94,
+      "end_s": 185.36,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 191.58,
+      "end_s": 191.94,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 205.52,
+      "end_s": 205.96,
+      "duration_s": 0.44
+    },
+    {
+      "start_s": 212.02,
+      "end_s": 212.4,
+      "duration_s": 0.38
+    },
+    {
+      "start_s": 230.1,
+      "end_s": 232.78,
+      "duration_s": 2.68
+    },
+    {
+      "start_s": 238.5,
+      "end_s": 239.1,
+      "duration_s": 0.6
+    },
+    {
+      "start_s": 260.96,
+      "end_s": 261.36,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 263.1,
+      "end_s": 263.52,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 270.84,
+      "end_s": 271.28,
+      "duration_s": 0.44
+    },
+    {
+      "start_s": 285.56,
+      "end_s": 286.0,
+      "duration_s": 0.44
+    },
+    {
+      "start_s": 290.02,
+      "end_s": 290.52,
+      "duration_s": 0.5
+    },
+    {
+      "start_s": 309.88,
+      "end_s": 310.24,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 312.56,
+      "end_s": 312.96,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 316.82,
+      "end_s": 317.3,
+      "duration_s": 0.48
+    },
+    {
+      "start_s": 320.68,
+      "end_s": 321.1,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 334.66,
+      "end_s": 335.08,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 338.2,
+      "end_s": 338.62,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 346.96,
+      "end_s": 347.32,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 353.94,
+      "end_s": 354.4,
+      "duration_s": 0.46
+    },
+    {
+      "start_s": 369.34,
+      "end_s": 369.74,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 372.58,
+      "end_s": 373.1,
+      "duration_s": 0.52
+    },
+    {
+      "start_s": 378.66,
+      "end_s": 379.04,
+      "duration_s": 0.38
+    },
+    {
+      "start_s": 394.58,
+      "end_s": 395.3,
+      "duration_s": 0.72
+    },
+    {
+      "start_s": 397.32,
+      "end_s": 397.72,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 399.98,
+      "end_s": 400.4,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 403.56,
+      "end_s": 403.94,
+      "duration_s": 0.38
+    },
+    {
+      "start_s": 415.32,
+      "end_s": 418.84,
+      "duration_s": 3.52
+    },
+    {
+      "start_s": 459.02,
+      "end_s": 459.52,
+      "duration_s": 0.5
+    },
+    {
+      "start_s": 464.8,
+      "end_s": 465.18,
+      "duration_s": 0.38
+    },
+    {
+      "start_s": 471.92,
+      "end_s": 475.0,
+      "duration_s": 3.08
+    }
+  ],
+  "chapter_cue_candidates": [
+    {
+      "boundary_s": 131.1,
+      "side_before_dbfs": -27.20535240961602,
+      "side_after_dbfs": -27.29449987672035,
+      "side_delta_db": -0.08914746710433263,
+      "spectral_hellinger": 0.3724076554066338,
+      "cue_change_candidate": true,
+      "warning": "Candidate only; cannot establish track identity or editorial intent. Reject both sides below -50 dBFS to avoid numerical noise."
+    },
+    {
+      "boundary_s": 231.9,
+      "side_before_dbfs": -29.17435093083808,
+      "side_after_dbfs": -34.99512189927866,
+      "side_delta_db": -5.820770968440577,
+      "spectral_hellinger": 0.42469040447466716,
+      "cue_change_candidate": true,
+      "warning": "Candidate only; cannot establish track identity or editorial intent. Reject both sides below -50 dBFS to avoid numerical noise."
+    },
+    {
+      "boundary_s": 416.0,
+      "side_before_dbfs": -41.570926896570896,
+      "side_after_dbfs": -24.40568069063985,
+      "side_delta_db": 17.165246205931044,
+      "spectral_hellinger": 0.7411959160479198,
+      "cue_change_candidate": true,
+      "warning": "Candidate only; cannot establish track identity or editorial intent. Reject both sides below -50 dBFS to avoid numerical noise."
+    },
+    {
+      "boundary_s": 473.8,
+      "side_before_dbfs": -29.405661069599176,
+      "side_after_dbfs": -29.723997339099583,
+      "side_delta_db": -0.3183362695004064,
+      "spectral_hellinger": 0.31269671393527876,
+      "cue_change_candidate": false,
+      "warning": "Candidate only; cannot establish track identity or editorial intent. Reject both sides below -50 dBFS to avoid numerical noise."
+    }
+  ],
+  "reveal_hit_candidates": [
+    {
+      "event": "first shot",
+      "time_s": 117,
+      "side_onset_candidates": [
+        {
+          "time_s": 116.88,
+          "robust_flux_score": 23.69
+        }
+      ],
+      "interpretation": "A matching onset is not proof of an intentional reveal hit."
+    },
+    {
+      "event": "post office isolation",
+      "time_s": 263.52,
+      "side_onset_candidates": [
+        {
+          "time_s": 262.86,
+          "robust_flux_score": 18.09
+        },
+        {
+          "time_s": 263.7,
+          "robust_flux_score": 11.6
+        }
+      ],
+      "interpretation": "A matching onset is not proof of an intentional reveal hit."
+    },
+    {
+      "event": "funeral reversal",
+      "time_s": 347.32,
+      "side_onset_candidates": [
+        {
+          "time_s": 347.04,
+          "robust_flux_score": 8.2
+        }
+      ],
+      "interpretation": "A matching onset is not proof of an intentional reveal hit."
+    },
+    {
+      "event": "police hidden",
+      "time_s": 460,
+      "side_onset_candidates": [
+        {
+          "time_s": 460.52,
+          "robust_flux_score": 20.97
+        }
+      ],
+      "interpretation": "A matching onset is not proof of an intentional reveal hit."
+    },
+    {
+      "event": "final massacre",
+      "time_s": 397.72,
+      "side_onset_candidates": [
+        {
+          "time_s": 397.06,
+          "robust_flux_score": 14.26
+        },
+        {
+          "time_s": 397.92,
+          "robust_flux_score": 13.18
+        }
+      ],
+      "interpretation": "A matching onset is not proof of an intentional reveal hit."
+    }
+  ],
+  "side_transient_candidate_count": 461,
+  "limitations": "No stem model downloaded. Side-channel and frequency-band measurements are stereo-bed evidence, not confirmed music coverage, composition identity, auditory emotion, or SFX counts. ASR can miss speech, particularly telephone insert."
+}

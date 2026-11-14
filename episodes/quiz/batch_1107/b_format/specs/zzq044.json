@@ -1,0 +1,325 @@
+{
+ "qid": "zzq044",
+ "locale": "ko",
+ "variant": "B3",
+ "b3": true,
+ "look": "full2",
+ "grave": false,
+ "kind": "bank",
+ "number_label": "",
+ "stage": "bank",
+ "cover_text": "맡긴 통장·도장으로\n14억 횡령",
+ "defendant": "suit",
+ "choices": [
+  "집행유예",
+  "징역 3년",
+  "징역 7년"
+ ],
+ "correct": 1,
+ "answer": "징역 3년",
+ "answer_label": "부산지법",
+ "opinion": "이 형량,\n가볍다 / 적당 / 무겁다?",
+ "option_offsets": [
+  0.0,
+  0.33,
+  0.66
+ ],
+ "hook_text": [
+  "통장·도장 맡겼더니",
+  "14억 횡령"
+ ],
+ "sfx": [
+  [
+   "bank",
+   0,
+   "thud"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L02",
+   "at": 0.45,
+   "big": "3년 4개월",
+   "small": "2020년 12월 ~ 2024년 3월",
+   "calc": "span = span(F1.start, F1.end) = 3년 4개월; a = F1.start = 2020년 12월; b = F1.end = 2024년 3월"
+  },
+  {
+   "line": "L05",
+   "at": 0.5,
+   "big": "3억 대출 → 1억 착복",
+   "small": "2023년 8월 · 고객은 2억 요청",
+   "calc": "loan = F2.loan = 3억; gain = F2.loan - F2.request = 1억; when = F2.when = 2023년 8월; req = F2.request = 2억"
+  },
+  {
+   "line": "L06",
+   "at": 0.5,
+   "big": "12번 위조",
+   "small": "부채증명서 19억 5,000만 → 16억 5,000만",
+   "calc": "real = F3.real = 19억 5,000만; forged = F3.forged = 16억 5,000만; n = F3.count = 12"
+  },
+  {
+   "line": "L12",
+   "at": 0.05,
+   "big": "36개월 ≈ 1,096일",
+   "small": "징역 3년",
+   "calc": "m = months(F4.sentence) = 36개월; d = days(F4.sentence) = 1,096일; s = F4.sentence = 3년"
+  },
+  {
+   "line": "L12",
+   "at": 0.55,
+   "big": "피해자 용서 못 받음",
+   "small": "총 횡령 약 13억 9,000만 원",
+   "calc": "total = F1.total = 13억 9,000만"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "bank",
+   "tts": "고객 도장으로, 십사억.",
+   "shown": "고객 도장으로, 14억.",
+   "chunks": [
+    "고객 도장으로,",
+    "14억."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "bank"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "이 은행원, 몇 년 나왔을까요?",
+   "shown": "이 은행원, 몇 년 나왔을까요?",
+   "chunks": [
+    "이 은행원,",
+    "몇 년 나왔을까요?"
+   ],
+   "fact": "F1",
+   "actor": "suit",
+   "shots": [
+    {
+     "s": "react",
+     "look": "suit",
+     "expr": "smug",
+     "move": "nod",
+     "y": 2090
+    },
+    {
+     "s": "calendar",
+     "year": "2020",
+     "month": 12
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "mode": "guess",
+   "tts": "범행 인정에 일부는 갚았으니, 집행유예 나올 것 같지만,",
+   "shown": "범행 인정에 일부는 갚았으니, 집행유예 나올 것 같지만,",
+   "chunks": [
+    "범행 인정에",
+    "일부는 갚았으니,",
+    "집행유예",
+    "나올 것 같지만,"
+   ],
+   "fact": "F4",
+   "actor": "suit",
+   "shots": [
+    {
+     "s": "bubble",
+     "lines": [
+      "집행유예?",
+      "다 인정했는데…"
+     ],
+     "size": 150
+    },
+    {
+     "s": "react",
+     "look": "suit",
+     "expr": "serious",
+     "move": "nod",
+     "y": 2090
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "그런데 실제 판결은, 실형이었습니다.",
+   "shown": "그런데 실제 판결은, 실형이었습니다.",
+   "chunks": [
+    "그런데 실제 판결은,",
+    "실형이었습니다."
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "판결"
+     ],
+     "stamp": "실형",
+     "size": 100
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "mode": "fact1",
+   "tts": "이억 대출 요청엔, 삼억을 받아 일억 챙겼고,",
+   "shown": "2억 대출 요청엔, 3억을 받아 1억 챙겼고,",
+   "chunks": [
+    "2억 대출 요청엔,",
+    "3억을 받아",
+    "1억 챙겼고,"
+   ],
+   "fact": "F2",
+   "shots": [
+    {
+     "s": "paper",
+     "lines": [
+      "요청 2억",
+      "대출 3억"
+     ],
+     "size": 110
+    },
+    {
+     "s": "money",
+     "nolabel": true,
+     "n": 3
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "mode": "fact2",
+   "tts": "서류 위조만, 열두 번이었습니다.",
+   "shown": "서류 위조만, 12번이었습니다.",
+   "chunks": [
+    "서류 위조만,",
+    "12번이었습니다."
+   ],
+   "fact": "F3",
+   "actor": "suit",
+   "shots": [
+    {
+     "s": "tally",
+     "n": 12,
+     "label": "문서 위조"
+    },
+    {
+     "s": "react",
+     "look": "suit",
+     "expr": "smug",
+     "move": "nod",
+     "y": 2090
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "실제 형량은?",
+   "shown": "실제 형량은?",
+   "chunks": [
+    "실제 형량은?"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "집행유예, 징역 삼 년, 징역 칠 년.",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "hold_after": 0.45,
+   "target": 5.6
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "정답 비, 징역 삼 년.",
+   "shown": "정답 B, 징역 3년.",
+   "chunks": [
+    "정답 B, 징역 3년."
+   ],
+   "fact": "Q",
+   "shots": [],
+   "emphasis": "징역 3년"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "아직 못 갚은 돈만, 사억 팔천만 원.",
+   "shown": "아직 못 갚은 돈만, 4억 8,000만 원.",
+   "chunks": [
+    "아직 못 갚은 돈만,",
+    "4억 8,000만 원."
+   ],
+   "fact": "F4",
+   "actor": "suit",
+   "shots": [
+    {
+     "s": "cell",
+     "look": "suit",
+     "expr": "concern"
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "미변제",
+      "4억 8,000만 원"
+     ],
+     "size": 82
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "가볍다 적당 무겁다?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [
+    {
+     "s": "react",
+     "look": "suit",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "actor": "suit",
+   "hold_after": 0.3
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "이천이십 년 십이 월, 고객이 맡긴 통장과,",
+   "shown": "2020년 12월, 고객이 맡긴 통장과,",
+   "chunks": [
+    "2020년 12월,",
+    "고객이 맡긴 통장과,"
+   ],
+   "fact": "F1",
+   "shots": []
+  }
+ ],
+ "source_spec": "episodes/specs/zzq044.json"
+}

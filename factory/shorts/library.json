@@ -1,0 +1,1061 @@
+{
+ "_about": "Pre-tested B3 visual library. An episode spec may only name what is listed here. Stages and scenes are implemented in episodes/quiz/batch_1107/b_format/B3Kit.tsx; looks/expressions in FightRig.tsx. `make_short.py selftest` fails if this file and the TSX disagree. Adding a stage is library work (TSX + entry here + a test render), never episode work.",
+ "stages": {
+  "deal": {
+   "chars": [
+    "granny",
+    "passenger"
+   ],
+   "tags": [
+    "money",
+    "deal",
+    "elderly"
+   ],
+   "about": "cafe table, an elderly woman pushes a deal at a passenger"
+  },
+  "kick": {
+   "chars": [
+    "clerk",
+    "driver"
+   ],
+   "tags": [
+    "assault",
+    "parking"
+   ],
+   "about": "parking garage, a clerk kicks a fallen driver",
+   "violent": true
+  },
+  "motel": {
+   "chars": [
+    "attacker"
+   ],
+   "tags": [
+    "motel",
+    "night"
+   ],
+   "about": "motel front desk at night, guest never shown"
+  },
+  "taxi": {
+   "chars": [
+    "D"
+   ],
+   "tags": [
+    "car",
+    "crash",
+    "taxi",
+    "drunk"
+   ],
+   "about": "taxi crash at night, nobody hurt on screen"
+  },
+  "fire": {
+   "chars": [
+    "official"
+   ],
+   "tags": [
+    "fire",
+    "factory",
+    "workplace"
+   ],
+   "about": "factory fire exterior, nobody inside shown"
+  },
+  "kettle": {
+   "chars": [
+    "official"
+   ],
+   "tags": [
+    "home",
+    "kitchen",
+    "assault"
+   ],
+   "about": "dim kitchen, a man lifts a steaming kettle",
+   "violent": true
+  },
+  "bb": {
+   "chars": [
+    "driver",
+    "hoodie",
+    "passenger"
+   ],
+   "tags": [
+    "animal",
+    "gun",
+    "assault"
+   ],
+   "about": "restaurant yard, young men fire toy pistols off-screen",
+   "violent": true
+  },
+  "flee": {
+   "chars": [
+    "attacker"
+   ],
+   "tags": [
+    "money",
+    "escape",
+    "night",
+    "theft"
+   ],
+   "about": "night street, a man runs off with a heavy bag"
+  },
+  "forge": {
+   "chars": [
+    "suit"
+   ],
+   "tags": [
+    "money",
+    "computer",
+    "document",
+    "fraud"
+   ],
+   "about": "man at a laptop, a balance flips to a huge number"
+  },
+  "vault": {
+   "chars": [
+    "suit"
+   ],
+   "tags": [
+    "money",
+    "bank",
+    "embezzlement"
+   ],
+   "about": "bank vault, a suit sweeps bundles into a briefcase"
+  },
+  "soju": {
+   "chars": [
+    "hoodie"
+   ],
+   "tags": [
+    "drunk",
+    "police",
+    "car",
+    "night"
+   ],
+   "about": "night roadside, police lights, a man downs soju"
+  },
+  "cab": {
+   "chars": [
+    "D",
+    "driver"
+   ],
+   "tags": [
+    "taxi",
+    "assault",
+    "drunk",
+    "elderly"
+   ],
+   "about": "cab at night, passenger raises a fist at an elderly driver",
+   "violent": true
+  },
+  "bus": {
+   "chars": [
+    "driver",
+    "official"
+   ],
+   "tags": [
+    "bus",
+    "assault",
+    "drunk"
+   ],
+   "about": "bus aisle, a drunk passenger kicks toward the driver",
+   "violent": true
+  },
+  "salt": {
+   "chars": [],
+   "tags": [
+    "work",
+    "labor",
+    "abuse"
+   ],
+   "about": "salt field, distant silhouettes raking, a clock races"
+  },
+  "printshop": {
+   "chars": [
+    "suit"
+   ],
+   "tags": [
+    "money",
+    "debt",
+    "document",
+    "work"
+   ],
+   "about": "print shop, a suit at the door holds an IOU ledger"
+  },
+  "glare": {
+   "chars": [
+    "hoodie",
+    "passenger"
+   ],
+   "tags": [
+    "street",
+    "assault",
+    "night"
+   ],
+   "about": "4 a.m. street, a hoodie squares up at a passer-by",
+   "violent": true
+  },
+  "busargue": {
+   "chars": [
+    "passenger",
+    "prof"
+   ],
+   "tags": [
+    "bus",
+    "argument",
+    "elderly"
+   ],
+   "about": "bus doorway at dusk, old passenger argues with a driver"
+  },
+  "scan": {
+   "chars": [
+    "lady",
+    "passenger"
+   ],
+   "tags": [
+    "pregnancy",
+    "fraud",
+    "document",
+    "home"
+   ],
+   "about": "living room, a woman holds up an ultrasound print"
+  },
+  "stream": {
+   "chars": [
+    "woman"
+   ],
+   "tags": [
+    "stream",
+    "online",
+    "animal",
+    "computer"
+   ],
+   "about": "streamer room, chat floods STOP"
+  },
+  "shots": {
+   "chars": [
+    "rich"
+   ],
+   "tags": [
+    "gun",
+    "night",
+    "street"
+   ],
+   "about": "street outside a fight night, a man fires off-frame",
+   "violent": true
+  },
+  "cash": {
+   "chars": [
+    "driver"
+   ],
+   "tags": [
+    "money",
+    "theft",
+    "night",
+    "street"
+   ],
+   "about": "night street, a man grabs a cash bag from the pavement"
+  },
+  "speed": {
+   "chars": [],
+   "tags": [
+    "car",
+    "speed",
+    "night",
+    "traffic"
+   ],
+   "about": "night expressway, a car streaks past, speedometer pinned"
+  },
+  "like": {
+   "chars": [],
+   "tags": [
+    "phone",
+    "online",
+    "stalking"
+   ],
+   "about": "phone close-up, a thumb taps like on an ex's post"
+  },
+  "voucher": {
+   "chars": [
+    "woman"
+   ],
+   "tags": [
+    "money",
+    "office",
+    "embezzlement",
+    "computer"
+   ],
+   "about": "night office, a worker clicks pay, vouchers stream out"
+  },
+  "bank": {
+   "chars": [
+    "suit"
+   ],
+   "tags": [
+    "money",
+    "bank",
+    "embezzlement",
+    "document"
+   ],
+   "about": "bank counter, a banker pockets cash with a customer's passbook and seal"
+  },
+  "factory": {
+   "chars": [
+    "chair"
+   ],
+   "tags": [
+    "work",
+    "wages",
+    "protest",
+    "factory"
+   ],
+   "about": "closed factory gate, workers' silhouettes behind bars"
+  },
+  "pledge": {
+   "chars": [
+    "official",
+    "passenger"
+   ],
+   "tags": [
+    "office",
+    "work",
+    "document",
+    "abuse"
+   ],
+   "about": "meeting room, a boss pushes a pledge sheet at a junior"
+  },
+  "yard": {
+   "chars": [
+    "driver"
+   ],
+   "tags": [
+    "animal",
+    "night",
+    "home"
+   ],
+   "about": "night backyard: empty wire trap, fish plate, unlit gas torch; no animal or flame shown",
+   "grave_ok": true
+  },
+  "holiday": {
+   "chars": [
+    "attacker",
+    "granny"
+   ],
+   "tags": [
+    "home",
+    "argument",
+    "phone",
+    "elderly",
+    "assault"
+   ],
+   "about": "holiday living room: a son yells into a phone, his elderly mother reaches out; no blow drawn"
+  },
+  "bar": {
+   "chars": [],
+   "tags": [
+    "drink",
+    "bar",
+    "party",
+    "bet",
+    "alcohol",
+    "money"
+   ],
+   "about": "bar table at a staff party, a whisky bottle pours into a glass beside a cash stack; nobody shown"
+  }
+ },
+ "scenes": {
+  "stage": {
+   "tags": [],
+   "about": "the episode's stage (wide action shot)"
+  },
+  "react": {
+   "tags": [],
+   "about": "close reaction of a character; look defaults to the line actor"
+  },
+  "cell": {
+   "tags": [
+    "jail"
+   ],
+   "about": "a character behind bars"
+  },
+  "judge": {
+   "tags": [
+    "verdict"
+   ],
+   "about": "the judge leaning in"
+  },
+  "prosecutor": {
+   "tags": [
+    "prosecution"
+   ],
+   "about": "prosecutor demanding a sentence"
+  },
+  "calendar": {
+   "tags": [
+    "date"
+   ],
+   "about": "a tear-off calendar showing year and month"
+  },
+  "bubble": {
+   "tags": [],
+   "about": "a thought bubble (line 1 big, line 2 red)"
+  },
+  "paper": {
+   "tags": [],
+   "about": "a document on a desk, 1-3 text lines"
+  },
+  "stamp": {
+   "tags": [
+    "verdict"
+   ],
+   "about": "a document stamped with a short red word"
+  },
+  "tally": {
+   "tags": [
+    "count"
+   ],
+   "about": "chalk tally marks counting to n (groups of 5, max 15)"
+  },
+  "money": {
+   "tags": [
+    "money"
+   ],
+   "about": "1-5 bundles of cash slide in"
+  },
+  "phone": {
+   "tags": [
+    "phone"
+   ],
+   "about": "a phone with 1-3 message bubbles"
+  }
+ },
+ "tag_words": {
+  "money": {
+   "ko": [
+    "돈",
+    "원",
+    "억",
+    "현금",
+    "대출",
+    "횡령",
+    "갚",
+    "빚",
+    "변제",
+    "착복",
+    "챙",
+    "벌금",
+    "금액",
+    "만원"
+   ],
+   "en": [
+    "$",
+    "money",
+    "cash",
+    "dollar",
+    "million",
+    "thousand",
+    "loan",
+    "paid",
+    "pay",
+    "fine",
+    "debt",
+    "stole"
+   ],
+   "ja": [
+    "円",
+    "万",
+    "金",
+    "現金",
+    "返済",
+    "借金"
+   ]
+  },
+  "bank": {
+   "ko": [
+    "은행",
+    "통장",
+    "도장",
+    "계좌",
+    "대출",
+    "고객"
+   ],
+   "en": [
+    "bank",
+    "account",
+    "loan"
+   ],
+   "ja": [
+    "銀行",
+    "口座",
+    "融資"
+   ]
+  },
+  "embezzlement": {
+   "ko": [
+    "횡령",
+    "빼돌",
+    "착복",
+    "챙"
+   ],
+   "en": [
+    "embezzl",
+    "stole",
+    "took"
+   ],
+   "ja": [
+    "横領",
+    "着服"
+   ]
+  },
+  "document": {
+   "ko": [
+    "서류",
+    "문서",
+    "위조",
+    "증명서",
+    "계약",
+    "각서",
+    "차용증",
+    "장부",
+    "기록"
+   ],
+   "en": [
+    "document",
+    "paper",
+    "forged",
+    "fake",
+    "record",
+    "perjury",
+    "lied",
+    "case",
+    "ultrasound"
+   ],
+   "ja": [
+    "書類",
+    "文書",
+    "偽造"
+   ]
+  },
+  "fraud": {
+   "ko": [
+    "사기",
+    "속",
+    "가짜",
+    "위조"
+   ],
+   "en": [
+    "fraud",
+    "fake",
+    "faked",
+    "scheme",
+    "lied"
+   ],
+   "ja": [
+    "詐欺",
+    "偽"
+   ]
+  },
+  "pregnancy": {
+   "ko": [
+    "임신",
+    "쌍둥이",
+    "초음파"
+   ],
+   "en": [
+    "pregnan",
+    "twins",
+    "ultrasound",
+    "baby"
+   ],
+   "ja": [
+    "妊娠",
+    "双子"
+   ]
+  },
+  "verdict": {
+   "ko": [
+    "판결",
+    "선고",
+    "실형",
+    "징역",
+    "집행유예",
+    "형량",
+    "판사",
+    "법원",
+    "재판",
+    "무죄",
+    "벌금",
+    "유죄"
+   ],
+   "en": [
+    "judge",
+    "sentence",
+    "court",
+    "prison",
+    "jail",
+    "probation",
+    "guilty",
+    "verdict"
+   ],
+   "ja": [
+    "判決",
+    "裁判",
+    "懲役",
+    "実刑",
+    "執行猶予",
+    "拘禁刑",
+    "裁判官"
+   ]
+  },
+  "prosecution": {
+   "ko": [
+    "검찰",
+    "구형",
+    "검사"
+   ],
+   "en": [
+    "prosecutor"
+   ],
+   "ja": [
+    "検察",
+    "求刑"
+   ]
+  },
+  "jail": {
+   "ko": [
+    "징역",
+    "수감",
+    "교도소",
+    "실형",
+    "구속",
+    "감옥"
+   ],
+   "en": [
+    "prison",
+    "jail"
+   ],
+   "ja": [
+    "刑務所",
+    "実刑",
+    "拘禁刑"
+   ]
+  },
+  "date": {
+   "ko": [
+    "년",
+    "월"
+   ],
+   "en": [
+    "20",
+    "year",
+    "month"
+   ],
+   "ja": [
+    "年",
+    "月"
+   ]
+  },
+  "count": {
+   "ko": [
+    "번",
+    "차례",
+    "회",
+    "건",
+    "명",
+    "개"
+   ],
+   "en": [
+    "times",
+    "count",
+    "charge",
+    "plea",
+    "felon"
+   ],
+   "ja": [
+    "回",
+    "件",
+    "人"
+   ]
+  },
+  "phone": {
+   "ko": [
+    "전화",
+    "문자",
+    "메시지",
+    "카톡",
+    "휴대폰",
+    "폰"
+   ],
+   "en": [
+    "phone",
+    "text",
+    "message",
+    "call"
+   ],
+   "ja": [
+    "電話",
+    "メッセージ",
+    "スマホ"
+   ]
+  },
+  "assault": {
+   "ko": [
+    "폭행",
+    "때",
+    "주먹",
+    "발",
+    "차",
+    "흉기",
+    "다치"
+   ],
+   "en": [
+    "assault",
+    "hit",
+    "punch",
+    "kick",
+    "attack",
+    "beat"
+   ],
+   "ja": [
+    "暴行",
+    "殴",
+    "蹴"
+   ]
+  },
+  "drunk": {
+   "ko": [
+    "술",
+    "음주",
+    "만취",
+    "소주"
+   ],
+   "en": [
+    "drunk",
+    "alcohol",
+    "beer"
+   ],
+   "ja": [
+    "酒",
+    "飲酒",
+    "泥酔"
+   ]
+  },
+  "car": {
+   "ko": [
+    "차",
+    "운전",
+    "도로",
+    "사고"
+   ],
+   "en": [
+    "car",
+    "drove",
+    "driving",
+    "crash",
+    "road"
+   ],
+   "ja": [
+    "車",
+    "運転",
+    "事故"
+   ]
+  },
+  "taxi": {
+   "ko": [
+    "택시",
+    "기사"
+   ],
+   "en": [
+    "taxi",
+    "cab",
+    "driver"
+   ],
+   "ja": [
+    "タクシー",
+    "運転手"
+   ]
+  },
+  "bus": {
+   "ko": [
+    "버스",
+    "기사"
+   ],
+   "en": [
+    "bus",
+    "driver"
+   ],
+   "ja": [
+    "バス",
+    "運転手"
+   ]
+  },
+  "work": {
+   "ko": [
+    "일",
+    "근로",
+    "노동",
+    "직원",
+    "회사",
+    "임금",
+    "월급"
+   ],
+   "en": [
+    "work",
+    "worker",
+    "employee",
+    "wage",
+    "job"
+   ],
+   "ja": [
+    "労働",
+    "社員",
+    "給料"
+   ]
+  },
+  "online": {
+   "ko": [
+    "방송",
+    "인터넷",
+    "온라인",
+    "댓글",
+    "게시"
+   ],
+   "en": [
+    "online",
+    "stream",
+    "post",
+    "live"
+   ],
+   "ja": [
+    "配信",
+    "投稿",
+    "ネット"
+   ]
+  },
+  "drink": {
+   "ko": [
+    "마시",
+    "술",
+    "음주",
+    "원샷",
+    "양주",
+    "소주"
+   ],
+   "en": [
+    "drink",
+    "drank",
+    "shot"
+   ],
+   "ja": [
+    "飲",
+    "酒"
+   ]
+  },
+  "bar": {
+   "ko": [
+    "주점",
+    "술집",
+    "유흥"
+   ],
+   "en": [
+    "bar",
+    "pub",
+    "club"
+   ],
+   "ja": [
+    "バー",
+    "居酒屋",
+    "スナック"
+   ]
+  },
+  "party": {
+   "ko": [
+    "파티",
+    "생일",
+    "회식",
+    "모임"
+   ],
+   "en": [
+    "party",
+    "birthday"
+   ],
+   "ja": [
+    "パーティー",
+    "誕生日",
+    "宴会"
+   ]
+  },
+  "bet": {
+   "ko": [
+    "내기",
+    "도박",
+    "베팅"
+   ],
+   "en": [
+    "bet",
+    "wager",
+    "dare"
+   ],
+   "ja": [
+    "賭け",
+    "賭博"
+   ]
+  },
+  "alcohol": {
+   "ko": [
+    "알코올",
+    "혈중",
+    "만취",
+    "중독"
+   ],
+   "en": [
+    "alcohol",
+    "drunk",
+    "intoxicat"
+   ],
+   "ja": [
+    "アルコール",
+    "泥酔"
+   ]
+  }
+ },
+ "defaults": {
+  "react_framing_y": {
+   "close": 2090,
+   "mid": 2300,
+   "low": 2450
+  },
+  "opinion_shot": {
+   "expr": "concern",
+   "move": "shrug",
+   "framing": "low"
+  },
+  "sfx": {
+   "open": "thud",
+   "twist": "clank"
+  },
+  "fit_box_px": {
+   "bubble": 720,
+   "bubble2": 720,
+   "paper": 600,
+   "stamp_paper": 620,
+   "stamp_word_ko": 340,
+   "tally_label": 820,
+   "hook": 940
+  },
+  "max_size": {
+   "bubble": 150,
+   "paper": 110,
+   "stamp_paper": 100
+  },
+  "min_size": {
+   "bubble": 90,
+   "paper": 70,
+   "stamp_paper": 64,
+   "hook1": 70,
+   "hook2": 120,
+   "hook2_latin": 90
+  },
+  "fixed_size": {
+   "bubble2": 90,
+   "stamp_word": 120,
+   "tally_label": 84,
+   "hook1": 100,
+   "hook2": 190
+  }
+ },
+ "moves": [
+  "nod",
+  "shake",
+  "recoil",
+  "shrug"
+ ],
+ "comic_exprs": [
+  "dizzy"
+ ],
+ "legacy_only_scenes": [
+  "receipt",
+  "saltwork",
+  "chase",
+  "gold",
+  "plane",
+  "dog",
+  "phonecall",
+  "helmets",
+  "clock",
+  "river",
+  "memorial",
+  "tv",
+  "trip",
+  "cctv",
+  "poster",
+  "cake"
+ ],
+ "bc": {
+  "_about": "Beast Clash library: episodes/beastclash/Rig.tsx + Beasts.tsx (kinds) and Film.tsx (backgrounds, clash scenes). A new animal is library work.",
+  "animals": {
+   "polar": "POLAR BEAR",
+   "walrus": "WALRUS",
+   "jaguar": "JAGUAR",
+   "anaconda": "ANACONDA",
+   "badger": "HONEY BADGER",
+   "cobra": "KING COBRA",
+   "orca": "ORCA",
+   "shark": "WHITE SHARK",
+   "elephant": "ELEPHANT",
+   "rhino": "WHITE RHINO",
+   "hippo": "HIPPO",
+   "croc": "NILE CROC"
+  },
+  "bgs": {
+   "ice": "arctic ice",
+   "jungle": "river jungle",
+   "scrub": "dry scrub (default)",
+   "ocean": "open ocean, underwater (swimming animals)",
+   "savanna": "grass savanna",
+   "river": "river bank"
+  },
+  "scenes": {
+   "charge": "who runs at the other",
+   "rear": "who rears up",
+   "strike": "who strikes",
+   "impact": "hit lands on who (tank: absorbs it, pin: pinned)",
+   "retreat": "who backs away"
+  },
+  "beats": "face, stat, stat, stat, prompt, clash (2-5), verdict (1-2), loop",
+  "speeds": {
+   "face": 1.35,
+   "stat": 1.35,
+   "default": 1.32
+  },
+  "holds": {
+   "clash": 0.0,
+   "last_clash": 0.12,
+   "gap": 0.03
+  },
+  "aliases": {
+   "_about": "multi-word names a caption must never split (lower case)",
+   "polar": [
+    "polar bear"
+   ],
+   "shark": [
+    "great white shark",
+    "white shark"
+   ],
+   "badger": [
+    "honey badger"
+   ],
+   "cobra": [
+    "king cobra"
+   ],
+   "rhino": [
+    "white rhino"
+   ],
+   "croc": [
+    "nile crocodile",
+    "nile croc"
+   ],
+   "orca": [
+    "killer whale"
+   ]
+  },
+  "pace": "v2 (2026-11-14 reference study): narration >= 3.4 words/s with no gaps, 1-3 word captions, stats <= 2 s each on action, one verdict line"
+ }
+}

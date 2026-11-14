@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/seeconever/todai.git",
+  "commit": "c9bd1b883bcda247962a4f79cca49fe627e6f3ab",
+  "license": "MIT",
+  "role": "Third-party reference and rendering library. Not our original film.",
+  "observedAt": "2026-11-09",
+  "gitBlobs": {
+    "src/anime.js": "bda1c854e5a0094206d6e6378e17d5a942b6a90e",
+    "src/todai.js": "765f9f5a1e14958aaca2516fffe009238d8d93cb",
+    "LICENSE": "523b0badf7def73ef03c004ce7a750960f3d33c7",
+    "README.md": "dbe5aeaf7a738bed513b5f7358932d1671c56d0a"
+  },
+  "benchmark": {
+    "width": 1920, "height": 1080, "fps": 24,
+    "stillsSeconds": [1.5, 12.2, 43.6, 51.5],
+    "motionStartFrame": 924, "motionFrames": 72,
+    "note": "Native 16:9 source reproduction; do not crop it to 9:16 or present it as a new episode."
+  }
+}

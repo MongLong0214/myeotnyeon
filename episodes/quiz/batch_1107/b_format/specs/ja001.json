@@ -1,0 +1,334 @@
+{
+ "qid": "ja001",
+ "locale": "ja",
+ "variant": "B3",
+ "b3": true,
+ "look": "full2",
+ "grave": false,
+ "engine": "VOICEVOX 0.26.1 (local engine), VOICEVOX:冥鳴ひまり",
+ "voice": "冥鳴ひまり ノーマル (style 14)",
+ "kokoro_speeds": [
+  1.0,
+  1.1,
+  1.2
+ ],
+ "kind": "cash",
+ "number_label": "",
+ "stage": "cash",
+ "cover_text": "余命宣告の帰り道\n2200万円",
+ "defendant": "driver",
+ "choices": [
+  "罰金30万円",
+  "拘禁刑6か月・猶予3年",
+  "拘禁刑6か月の実刑"
+ ],
+ "correct": 2,
+ "answer": "拘禁刑6か月の実刑",
+ "answer_label": "仙台地裁",
+ "opinion": "この判決、\n軽い / 妥当 / 重い？",
+ "option_offsets": [
+  0.0,
+  1.42,
+  3.08
+ ],
+ "hook_text": [
+  "余命宣告の帰り道",
+  "2200万円"
+ ],
+ "sfx": [
+  [
+   "cash",
+   0,
+   "thud"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ],
+  [
+   "hit",
+   6,
+   "whoosh"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L04",
+   "at": 0.45,
+   "big": "約1800万円",
+   "small": "逮捕までの約4か月半で使った",
+   "calc": "河北新報: 逮捕までの約4カ月半で約1800万円を使った"
+  },
+  {
+   "line": "L06",
+   "at": 0.4,
+   "big": "600か月 = 50年",
+   "small": "1800万円 ÷ 月3万円",
+   "calc": "18,000,000 ÷ 30,000 = 600か月、600 ÷ 12 = 50年（使った約1800万円で計算。報道: 月3万円の返済で完済まで50年以上）"
+  },
+  {
+   "line": "L12",
+   "at": 0.05,
+   "big": "1年 → 6か月",
+   "small": "求刑の半分、執行猶予なし",
+   "calc": "求刑 拘禁刑1年 / 判決 拘禁刑6月（12 ÷ 2 = 6か月）"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "cash",
+   "tts": "路上に2200万円。",
+   "shown": "路上に2200万円。",
+   "chunks": [
+    "路上に2200万円。"
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "cash",
+      "day": true
+    }
+   ],
+   "target": 9.5
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "この男、何年出た？",
+   "shown": "この男、何年出た？",
+   "chunks": [
+    "この男、何年出た？"
+   ],
+   "fact": "F4",
+   "actor": "driver",
+   "shots": [
+    {
+     "s": "react",
+     "look": "driver",
+     "expr": "smug",
+     "move": "nod",
+     "y": 2090
+    },
+    {
+     "s": "calendar",
+     "year": "2026",
+     "month": 3
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "mode": "guess",
+   "tts": "神様の贈り物だと思った。",
+   "shown": "「神様の贈り物だと思った」",
+   "chunks": [
+    "「神様の贈り物だと思った」"
+   ],
+   "fact": "F2",
+   "shots": [
+    {
+     "s": "bubble",
+     "lines": [
+      "神様の",
+      "贈り物？"
+     ],
+     "size": 130
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "余命宣告",
+      "の帰り道"
+     ],
+     "size": 110
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "でも、約千八百万円を使っていました。",
+   "shown": "でも、約1800万円を使っていました。",
+   "chunks": [
+    "でも、約1800万円を",
+    "使っていました。"
+   ],
+   "fact": "F3",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "使った額"
+     ],
+     "stamp": "1800万",
+     "size": 110
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "mode": "hit",
+   "tts": "警備会社が落とした現金を、持ち去りました。",
+   "shown": "警備会社が落とした現金を、持ち去りました。",
+   "chunks": [
+    "警備会社が落とした現金を、",
+    "持ち去りました。"
+   ],
+   "fact": "F1",
+   "actor": "driver",
+   "shots": [
+    {
+     "s": "react",
+     "look": "clerk",
+     "expr": "shock",
+     "move": "recoil",
+     "y": 2090,
+     "other": true
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "遺失物",
+      "横領"
+     ],
+     "size": 120
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "mode": "past",
+   "tts": "返済は月3万円、完済まで50年以上。",
+   "shown": "返済は月3万円、完済まで50年以上。",
+   "chunks": [
+    "返済は月3万円、",
+    "完済まで50年以上。"
+   ],
+   "fact": "F3",
+   "actor": "driver",
+   "shots": [
+    {
+     "s": "paper",
+     "lines": [
+      "完済まで",
+      "50年以上"
+     ],
+     "size": 120
+    },
+    {
+     "s": "react",
+     "look": "driver",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2090
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "判決は？",
+   "shown": "判決は？",
+   "chunks": [
+    "判決は？"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "罰金30万円、執行猶予付き、それとも実刑？",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "hold_after": 0.45
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "正解はシー、実刑判決。",
+   "shown": "正解はC、実刑判決。",
+   "chunks": [
+    "正解はC、",
+    "実刑判決。"
+   ],
+   "fact": "F4",
+   "shots": [],
+   "emphasis": "実刑判決"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "被告側が控訴し、判決はまだ確定していません。",
+   "shown": "被告側が控訴し、判決はまだ確定していません。",
+   "chunks": [
+    "被告側が控訴し、",
+    "判決はまだ確定していません。"
+   ],
+   "fact": "F6",
+   "actor": "driver",
+   "shots": [
+    {
+     "s": "react",
+     "look": "driver",
+     "expr": "concern",
+     "move": "nod",
+     "y": 2090
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "仙台高裁へ"
+     ],
+     "stamp": "控訴",
+     "size": 100
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "軽い、妥当、重い？",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "actor": "driver",
+   "shots": [
+    {
+     "s": "react",
+     "look": "driver",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "hold_after": 0.3
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "あの日、男が見つけたのは、",
+   "shown": "あの日、男が見つけたのは、",
+   "chunks": [
+    "あの日、男が見つけたのは、"
+   ],
+   "fact": "F1",
+   "shots": []
+  }
+ ],
+ "vv_style": 14,
+ "vv_speeds": [
+  1.0,
+  1.05,
+  1.15,
+  1.25,
+  1.35
+ ]
+}

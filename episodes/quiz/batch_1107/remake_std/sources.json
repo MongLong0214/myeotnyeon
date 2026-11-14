@@ -1,0 +1,58 @@
+[
+  {
+    "id": "Q004_JOONGANG",
+    "publisher": "중앙일보",
+    "date": "2025-11-27",
+    "url": "https://www.joongang.co.kr/article/25385581",
+    "file": "episodes/quiz/batch_1107/remake_std/sources/Q004_JOONGANG.txt",
+    "sha256": "c07222c541ade543918aca2d1dbe820660571e84a3250194f854712e6dca226e"
+  },
+  {
+    "id": "Q004_KOOKMIN_FINAL",
+    "publisher": "국민일보",
+    "date": "2025-12-02",
+    "url": "https://v.daum.net/v/20251202152849665",
+    "file": "episodes/quiz/batch_1107/remake_std/sources/Q004_KOOKMIN_FINAL.txt",
+    "sha256": "5ece2f55a1e20f6a6bafff04ba3c53791768f924f1d1eadef52b8e321b5aa23b"
+  },
+  {
+    "id": "Q004_KBS_FINAL",
+    "publisher": "KBS",
+    "date": "2025-12-02",
+    "url": "https://v.daum.net/v/V9wnkYlwyo",
+    "file": "episodes/quiz/batch_1107/remake_std/sources/Q004_KBS_FINAL.txt",
+    "sha256": "02f463479ecda11921a34cee97c3933cf42c929c76b5a1532dc5cf9748356c38"
+  },
+  {
+    "id": "Q005_HANKOOK",
+    "publisher": "한국일보",
+    "date": "2026-05-28",
+    "url": "https://www.hankookilbo.com/news/article/A2026052807460001608",
+    "file": "episodes/quiz/batch_1107/remake_std/sources/Q005_HANKOOK.txt",
+    "sha256": "f69735409df3cf47143d8a51302d461e0d7a5be557716dca637debd6a2e49704"
+  },
+  {
+    "id": "Q005_HANI",
+    "publisher": "한겨레",
+    "date": "2026-05-27",
+    "url": "https://n.news.naver.com/mnews/article/028/0002806930",
+    "file": "research/raw2/V2-01_1.txt",
+    "sha256": "3414f3a8fec1eee9c73a9f12b9d3f91a199f9a7e15d92be65414815fd4823faf"
+  },
+  {
+    "id": "Q005_NOCUT",
+    "publisher": "노컷뉴스",
+    "date": "2026-05-27",
+    "url": "https://n.news.naver.com/mnews/article/079/0004151122",
+    "file": "research/raw2/V2-01_2.txt",
+    "sha256": "df7e081b1f84c4c419f08e5b16eb6c50a64c4978499d817d1d17eca65e87902e"
+  },
+  {
+    "id": "Q004_KHAN_FINAL",
+    "publisher": "경향신문",
+    "date": "2025-12-02",
+    "url": "https://www.khan.co.kr/article/202512021535001",
+    "file": "episodes/quiz/batch_1107/remake_std/sources/Q004_KHAN_FINAL.txt",
+    "sha256": "72604799b9f9be04539cf9c1d48e97761e246019a21ab9b612df86a205e1dc22"
+  }
+]

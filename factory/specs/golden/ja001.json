@@ -1,0 +1,317 @@
+{
+ "spec_version": 1,
+ "id": "ja001",
+ "locale": "ja",
+ "variant": "B3",
+ "channel": "nannenderu",
+ "case": {
+  "category": "theft",
+  "grave": false,
+  "deaths": 0,
+  "victim_minor": false,
+  "sexual_offence": false,
+  "court": "仙台地裁",
+  "instance": "first_instance",
+  "finality": "appealed",
+  "verdict_date": "2026-11-06",
+  "sentence_fact": "F4"
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "河北新報",
+   "url": "https://kahoku.news/articles/JY72CYM4GPKHN.html",
+   "published": "2026-11-06"
+  },
+  {
+   "id": "S2",
+   "outlet": "河北新報（控訴）",
+   "url": "https://kahoku.news/articles/JY72HX85YHKHN.html",
+   "published": "2026-11-09"
+  },
+  {
+   "id": "S3",
+   "outlet": "ミヤテレNEWS NNN",
+   "url": "https://news.ntv.co.jp/n/mmt/category/society/mmc9fc26dcccdf437bae7932d5f657e1af",
+   "published": "2026-11-06"
+  },
+  {
+   "id": "S4",
+   "outlet": "日テレNEWS NNN（控訴）",
+   "url": "https://news.ntv.co.jp/category/society/mm2b72c0ef8f21487c9662b15dac6b7b22",
+   "published": "2026-11-09"
+  }
+ ],
+ "facts": [
+  {
+   "id": "F1",
+   "claim": "2026年3月、仙台市青葉区の路上で警備会社の従業員が落とした現金2200万円入りの袋を見つけ、届けずに持ち去った。",
+   "quotes": [
+    {
+     "source": "S4",
+     "text": "この事件は2026年3月、宮城県東松島市の男(43)が、仙台市青葉区の路上で警備会社の従業員が落とした現金2200万円が入った袋を見つけましたが、警察などに届けずに"
+    },
+    {
+     "source": "S1",
+     "text": "警備会社の従業員が輸送中に落とした現金2200万円が入った収納用の袋を発見し、持ち去った。"
+    }
+   ],
+   "values": {
+    "date": {
+     "kind": "date",
+     "text": "2026年3月"
+    },
+    "cash": {
+     "kind": "amount",
+     "text": "2200万円"
+    }
+   }
+  },
+  {
+   "id": "F2",
+   "claim": "公判で、余命宣告を受けた直後に現金を見つけ「神様の贈り物だと思った」と述べた。",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "公判で被告は、仙台市内の病院で余命宣告を受けた直後に現金を見つけ、「神様の贈り物だと思った」などと述べた。"
+    }
+   ]
+  },
+  {
+   "id": "F3",
+   "claim": "逮捕までの約4カ月半で約1800万円を使い、月3万円ずつ50年以上かけて返す示談だった。",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "逮捕までの約4カ月半で使った約1800万円を50年以上かけて返済するとした保険会社との示談内容"
+    },
+    {
+     "source": "S3",
+     "text": "月に3万円ずつ弁償するとしているものの今後50年以上をかけての弁償は現実的に難しい"
+    }
+   ],
+   "values": {
+    "spent": {
+     "kind": "amount",
+     "text": "約1800万円"
+    }
+   }
+  },
+  {
+   "id": "F4",
+   "claim": "仙台地裁は拘禁刑6月（求刑拘禁刑1年）の実刑を言い渡した。",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "拘禁刑6月（求刑拘禁刑1年）を言い渡した。"
+    },
+    {
+     "source": "S3",
+     "text": "仙台地裁は男に拘禁刑6カ月の実刑判決を言い渡しました。"
+    },
+    {
+     "source": "S4",
+     "text": "拘禁刑6か月の実刑判決を言い渡されていました。"
+    },
+    {
+     "source": "S3",
+     "text": "11月6日に仙台地裁で開かれた裁判で"
+    }
+   ],
+   "values": {
+    "sentence": {
+     "kind": "duration",
+     "text": "拘禁刑6か月"
+    },
+    "ask": {
+     "kind": "duration",
+     "text": "求刑拘禁刑1年"
+    }
+   }
+  },
+  {
+   "id": "F5",
+   "claim": "被告側は判決を不服として仙台高裁に控訴した。",
+   "quotes": [
+    {
+     "source": "S4",
+     "text": "判決を不服として弁護人を通じて仙台高等裁判所に控訴したということです。"
+    },
+    {
+     "source": "S2",
+     "text": "被告の男が仙台高裁へ控訴"
+    }
+   ]
+  }
+ ],
+ "title": "余命宣告の帰りに2200万円拾った男、判決は？",
+ "description": "2026年3月、仙台市青葉区の路上で、警備会社の従業員が輸送中に落とした現金2200万円入りの袋を、43歳の男が届け出ずに持ち去りました。男は公判で、余命宣告を受けた直後に見つけ「神様の贈り物だと思った」と述べました。逮捕までに約1800万円を使い、月3万円ずつ50年以上かけて返す示談でした。\n仙台地裁は2026年11月6日、拘禁刑6月（求刑拘禁刑1年）の実刑判決を言い渡しました。",
+ "hashtags": [
+  "#判決",
+  "#裁判",
+  "#2200万円",
+  "#何年出る",
+  "#shorts"
+ ],
+ "cover": "余命宣告の帰り道\n2200万円",
+ "hook": [
+  "余命宣告の帰り道",
+  "2200万円"
+ ],
+ "stage": "cash",
+ "stage_day": true,
+ "defendant": "driver",
+ "quiz": {
+  "choices": [
+   "罰金30万円",
+   "執行猶予付き",
+   "実刑"
+  ],
+  "answer": 2,
+  "answer_text": "実刑判決"
+ },
+ "lines": [
+  {
+   "beat": "open",
+   "text": "路上に2200万円。",
+   "fact": "F1"
+  },
+  {
+   "beat": "hook",
+   "text": "この男、何年出た？",
+   "fact": "F1",
+   "actor": "driver",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "smug",
+     "move": "nod"
+    },
+    {
+     "scene": "calendar",
+     "date": "F1.date"
+    }
+   ]
+  },
+  {
+   "beat": "guess",
+   "text": "「神様の贈り物だと思った」",
+   "fact": "F2",
+   "shots": [
+    {
+     "scene": "bubble",
+     "lines": [
+      "神様の",
+      "贈り物？"
+     ]
+    },
+    {
+     "scene": "paper",
+     "lines": [
+      "余命宣告",
+      "の帰り道"
+     ]
+    }
+   ]
+  },
+  {
+   "beat": "twist",
+   "text": "でも、約1800万円を使っていました。",
+   "fact": "F3",
+   "shots": [
+    {
+     "scene": "money"
+    },
+    {
+     "scene": "stamp",
+     "label": "使った額",
+     "stamp": "1800万"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "警備会社が落とした現金を、持ち去りました。",
+   "fact": "F1",
+   "actor": "driver",
+   "shots": [
+    {
+     "scene": "react",
+     "look": "clerk",
+     "expr": "shock",
+     "move": "recoil",
+     "other": true
+    },
+    {
+     "scene": "paper",
+     "lines": [
+      "落とした",
+      "現金"
+     ]
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "返済は月3万円、完済まで50年以上。",
+   "fact": "F3",
+   "actor": "driver",
+   "shots": [
+    {
+     "scene": "paper",
+     "lines": [
+      "完済まで",
+      "50年以上"
+     ]
+    },
+    {
+     "scene": "money"
+    }
+   ]
+  },
+  {
+   "beat": "answer2",
+   "text": "被告側が控訴し、判決はまだ確定していません。",
+   "fact": "F5",
+   "actor": "driver",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "concern",
+     "move": "nod"
+    },
+    {
+     "scene": "stamp",
+     "label": "仙台高裁へ",
+     "stamp": "控訴"
+    }
+   ]
+  },
+  {
+   "beat": "loop",
+   "text": "あの日、男が見つけたのは、",
+   "fact": "F1"
+  }
+ ],
+ "pops": [
+  {
+   "beat": "twist",
+   "at": 0.45,
+   "big": "約{spent}円",
+   "small": "逮捕までに使った額",
+   "vars": {
+    "spent": "F3.spent"
+   }
+  },
+  {
+   "beat": "answer2",
+   "at": 0.05,
+   "big": "{ask} → {s}",
+   "small": "求刑の半分・執行猶予なし",
+   "vars": {
+    "ask": "F4.ask",
+    "s": "F4.sentence"
+   }
+  }
+ ]
+}

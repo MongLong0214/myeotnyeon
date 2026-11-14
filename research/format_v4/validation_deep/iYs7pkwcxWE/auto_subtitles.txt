@@ -1,0 +1,15 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=iYs7pkwcxWE
+[youtube] iYs7pkwcxWE: Downloading webpage
+[youtube] iYs7pkwcxWE: Downloading initial data API JSON
+[youtube] iYs7pkwcxWE: Downloading iframe API JS
+[youtube] iYs7pkwcxWE: Downloading player cbcfbf2f-main
+[youtube] iYs7pkwcxWE: Downloading web player API JSON
+[info] iYs7pkwcxWE: Downloading subtitles: ko
+[info] Writing video subtitles to: /Users/isaac/projects/verdict-kr/work/research/format_v4/validation_deep/iYs7pkwcxWE/iYs7pkwcxWE.ko.vtt
+[download] Destination: /Users/isaac/projects/verdict-kr/work/research/format_v4/validation_deep/iYs7pkwcxWE/iYs7pkwcxWE.ko.vtt
+
+[download]    1.00KiB at  Unknown B/s (00:00:00)
+[download]    3.00KiB at  Unknown B/s (00:00:00)
+[download]    7.00KiB at  Unknown B/s (00:00:00)
+[download]   10.25KiB at    4.93MiB/s (00:00:00)
+[download] 100% of   10.25KiB in 00:00:00 at 44.32KiB/s

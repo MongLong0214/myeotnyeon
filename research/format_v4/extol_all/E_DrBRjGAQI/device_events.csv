@@ -1,0 +1,147 @@
+category,start_s,end_s,description,span_char_start,span_char_end
+foreshadowing,17.5,29,여러 국가가 기다린 체포,,
+foreshadowing,80.6,96.4,컴퓨터에서 더 큰 사건,,
+foreshadowing,230,243.9,큰 착각과 규모,,
+foreshadowing,285.4,300.8,결정적인 실수,,
+foreshadowing,503.3,507.3,더 큰 절망 예고,,
+withholding,29,42.5,체포 직전에서 다른 사건으로,,
+withholding,96.7,116,익명성 장벽 뒤 도구 장,,
+withholding,285.4,305.6,허점의 정체,,
+withholding,344,364.9,사진 속 손과 신원 불일치,,
+withholding,392.4,422.8,기다림·현관까지 지연,,
+withholding,503.3,513.9,절망의 내용 유예,,
+quotes,256.8,263.5,수사관 회고,,
+quotes,273.3,278.9,사이트 경고문 언급,,
+irony,96.7,198,익명성과 공개 거래 기록의 대비,,
+irony,297.1,319.9,익명을 위한 사이트와 공개 썸네일,,
+irony,432.7,439,주도한 수사팀이 화면으로만 지켜봄,,
+irony,444.5,457.4,평범한 본체와 규모의 대비,,
+irony,503.3,527.8,국제 수사 노력과 복역 기간 대비,,
+reversals,80.6,80.6,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,96.7,96.7,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,230,230,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,292.6,292.6,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,344,344,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,432.7,432.7,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,444.5,444.5,상황·해석·기대의 재설정; 수동 의미 코딩,,
+reversals,503.3,503.3,상황·해석·기대의 재설정; 수동 의미 코딩,,
+specifics,0.0,3.24,number,1,6
+specifics,0.0,3.24,number,7,9
+specifics,3.34,7.18,number/time,17,19
+specifics,13.96,17.24,object,21,26
+specifics,17.52,22.16,place,1,3
+specifics,17.52,22.16,place,5,7
+specifics,25.28,28.98,object,19,21
+specifics,42.52,50.0,number,1,6
+specifics,42.52,50.0,number,7,9
+specifics,42.52,50.0,number,26,29
+specifics,42.52,50.0,place,10,12
+specifics,54.24,60.48,number,7,12
+specifics,73.9,77.52,number,22,25
+specifics,77.52,80.08,number,9,11
+specifics,80.64,83.26,object,12,15
+specifics,91.04,96.4,object,14,18
+specifics,96.68,101.26,object,16,18
+specifics,101.5,104.54,number,17,18
+specifics,101.5,104.54,object,1,3
+specifics,104.54,108.18,number,16,17
+specifics,104.54,108.18,object,20,23
+specifics,115.96,120.74,number,1,6
+specifics,128.18,131.72,object,7,11
+specifics,134.52,136.48,object,8,12
+specifics,134.52,136.48,object,13,15
+specifics,136.48,140.44,object,4,6
+specifics,143.54,146.22,object,18,22
+specifics,146.22,148.8,object,11,13
+specifics,157.82,160.46,object,18,21
+specifics,160.46,163.02,object,11,15
+specifics,160.46,163.02,object,16,18
+specifics,165.0,167.1,object,22,24
+specifics,167.1,170.48,object,11,13
+specifics,167.1,170.48,object,15,19
+specifics,170.8,175.82,object,15,17
+specifics,170.8,175.82,object,22,26
+specifics,176.02,179.94,place,12,14
+specifics,180.28,186.2,place,15,17
+specifics,180.28,186.2,place,46,48
+specifics,191.1,196.12,object,16,20
+specifics,197.98,204.2,place,33,35
+specifics,208.0,213.56,object,30,32
+specifics,208.0,213.56,object,34,36
+specifics,223.86,229.52,number,33,35
+specifics,229.96,233.34,number,5,7
+specifics,233.72,238.14,number,1,3
+specifics,243.86,247.74,number,15,17
+specifics,243.86,247.74,number,21,23
+specifics,248.12,252.76,number,25,30
+specifics,248.12,252.76,number,31,33
+specifics,248.12,252.76,number,34,37
+specifics,252.76,256.56,number,10,12
+specifics,266.78,269.04,object,8,12
+specifics,292.62,296.86,object,6,8
+specifics,297.06,300.78,object,4,6
+specifics,297.06,300.78,object,12,14
+specifics,297.06,300.78,object,27,29
+specifics,300.78,305.64,object,11,14
+specifics,300.78,305.64,object,23,25
+specifics,305.64,310.9,object,8,11
+specifics,305.64,310.9,object,13,15
+specifics,311.06,316.8,object,9,11
+specifics,311.06,316.8,object,24,27
+specifics,311.06,316.8,object,29,31
+specifics,320.24,326.7,number,9,11
+specifics,320.24,326.7,number/time,35,37
+specifics,320.24,326.7,place,25,27
+specifics,329.08,335.44,number,27,29
+specifics,329.08,335.44,object,16,20
+specifics,329.08,335.44,place,37,39
+specifics,335.44,339.64,object,28,30
+specifics,335.44,339.64,place,5,7
+specifics,339.92,343.6,object,1,3
+specifics,339.92,343.6,object,9,11
+specifics,339.92,343.6,object,32,34
+specifics,339.92,343.6,place,26,28
+specifics,346.32,349.58,object,13,15
+specifics,354.44,357.04,place,4,6
+specifics,357.3,361.34,number,8,11
+specifics,357.3,361.34,number,13,16
+specifics,364.88,368.42,place,16,21
+specifics,368.42,371.4,place,1,3
+specifics,376.88,380.0,number,1,6
+specifics,376.88,380.0,number,7,9
+specifics,376.88,380.0,place,16,18
+specifics,376.88,380.0,place,20,22
+specifics,380.0,381.98,object,6,8
+specifics,381.98,384.26,number,6,8
+specifics,397.0,401.38,place,11,13
+specifics,405.92,409.3,object,13,18
+specifics,409.3,414.78,object,28,33
+specifics,409.3,414.78,place,8,10
+specifics,418.76000000000005,421.02,object,1,6
+specifics,422.82,426.84,place,1,3
+specifics,426.84,431.3,place,10,12
+specifics,432.72,435.58,place,18,20
+specifics,440.94,444.5,object,22,25
+specifics,444.5,447.16,object,18,21
+specifics,447.16,451.14,object,15,21
+specifics,453.86,457.36,object,4,10
+specifics,459.82,462.88,object,18,21
+specifics,462.88,465.88,number,6,8
+specifics,469.94,475.2,number,3,5
+specifics,475.38,479.4,object,5,8
+specifics,485.5,487.94,number,8,12
+specifics,488.56,492.2,number,1,4
+specifics,492.64,496.8,number,6,9
+specifics,498.2,503.12,object,5,9
+specifics,503.32,506.9,place,5,7
+specifics,503.32,506.9,place,9,11
+specifics,507.32,513.92,number,1,6
+specifics,507.32,513.92,number,7,9
+specifics,507.32,513.92,number,33,36
+specifics,507.32,513.92,time,33,37
+specifics,514.08,521.02,place,1,3
+specifics,514.08,521.02,place,13,15
+specifics,514.08,521.02,place,22,24
+specifics,514.08,521.02,place,49,51
+specifics,521.3,527.82,place,27,29
+specifics,528.2,534.54,number,35,36

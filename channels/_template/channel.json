@@ -1,0 +1,5 @@
+{
+  "id": "_template",
+  "formats": {"short": {}},
+  "_fill": "New channel: copy channels/myeotnyeon/channel.json to channels/<id>/channel.json, set id=<id> and replace every value; then run one episode with number 99 and dry_number true. This stub only exists so a spec for another channel is refused here."
+}

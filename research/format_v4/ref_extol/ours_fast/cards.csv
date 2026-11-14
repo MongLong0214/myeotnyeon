@@ -1,0 +1,61 @@
+index,start_s,end_s,duration_s,content_type,is_chapter_card,visual_description,card_key
+1,0.0,0.6,0.6,text card,True,01 연병장,verdict||01 연병장
+26,33.4,33.8,0.4,text card,True,02 기소와 구형,verdict||02 기소와 구형
+27,33.8,35.2,1.4,document or record card,False,기록 카드: 학대치사 / 직권남용 가혹행위,dossier|학대치사;직권남용 가혹행위|
+28,35.2,36.4,1.2,document or record card,False,기록 카드: 학대치사 / 직권남용 가혹행위,dossier|학대치사;직권남용 가혹행위|
+29,36.4,37.8,1.4,document or record card,False,기록 카드: 학대치사 / 직권남용 가혹행위,dossier|학대치사;직권남용 가혹행위|
+30,37.8,39.0,1.2,document or record card,False,기록 카드: 학대치사 / 직권남용 가혹행위,dossier|학대치사;직권남용 가혹행위|
+31,39.0,40.4,1.4,document or record card,False,기록 카드: 중대장 · 검찰의 기소 판단,dossier|중대장 · 검찰의 기소 판단|
+32,40.4,41.8,1.4,document or record card,False,기록 카드: 중대장 · 검찰의 기소 판단,dossier|중대장 · 검찰의 기소 판단|
+33,41.8,43.2,1.4,document or record card,False,기록 카드: 중대장 · 검찰의 기소 판단,dossier|중대장 · 검찰의 기소 판단|
+34,43.2,44.6,1.4,document or record card,False,기록 카드: 중대장 · 검찰의 기소 판단,dossier|중대장 · 검찰의 기소 판단|
+35,44.6,46.2,1.6,document or record card,False,기록 카드: 검찰 판단의 근거 · 보도 요지,dossier|검찰 판단의 근거 · 보도 요지|
+36,46.2,47.6,1.4,document or record card,False,기록 카드: 검찰 판단의 근거 · 보도 요지,dossier|검찰 판단의 근거 · 보도 요지|
+37,47.6,49.0,1.4,document or record card,False,기록 카드: 검찰 판단의 근거 · 보도 요지,dossier|검찰 판단의 근거 · 보도 요지|
+38,49.0,50.4,1.4,document or record card,False,기록 카드: 검찰 판단의 근거 · 보도 요지,dossier|검찰 판단의 근거 · 보도 요지|
+39,50.4,51.4,1.0,document or record card,False,기록 카드: 학대치사 / 직권남용 가혹행위,dossier|학대치사;직권남용 가혹행위|
+40,51.4,52.4,1.0,document or record card,False,기록 카드: 학대치사 / 직권남용 가혹행위,dossier|학대치사;직권남용 가혹행위|
+41,52.4,53.6,1.2,document or record card,False,기록 카드: 학대치사 / 직권남용 가혹행위,dossier|학대치사;직권남용 가혹행위|
+42,53.6,54.6,1.0,document or record card,False,기록 카드: 학대치사 / 직권남용 가혹행위,dossier|학대치사;직권남용 가혹행위|
+43,54.6,56.0,1.4,document or record card,False,기록 카드: 부중대장 · 공소사실의 범위,dossier|부중대장 · 공소사실의 범위|
+44,56.0,57.6,1.6,document or record card,False,기록 카드: 부중대장 · 공소사실의 범위,dossier|부중대장 · 공소사실의 범위|
+45,57.6,59.0,1.4,document or record card,False,기록 카드: 부중대장 · 공소사실의 범위,dossier|부중대장 · 공소사실의 범위|
+46,59.0,60.4,1.4,document or record card,False,기록 카드: 부중대장 · 공소사실의 범위,dossier|부중대장 · 공소사실의 범위|
+47,60.4,61.6,1.2,document or record card,False,기록 카드: 중대장 측 주장 · 학대치사 혐의 부인,dossier|중대장 측 주장 · 학대치사 혐의 부인|
+48,61.6,62.8,1.2,document or record card,False,기록 카드: 중대장 측 주장 · 학대치사 혐의 부인,dossier|중대장 측 주장 · 학대치사 혐의 부인|
+49,62.8,63.8,1.0,document or record card,False,기록 카드: 중대장 측 주장 · 학대치사 혐의 부인,dossier|중대장 측 주장 · 학대치사 혐의 부인|
+50,63.8,65.0,1.2,document or record card,False,기록 카드: 중대장 측 주장 · 학대치사 혐의 부인,dossier|중대장 측 주장 · 학대치사 혐의 부인|
+51,65.0,66.2,1.2,document or record card,False,기록 카드: 검찰의 구형 이유 · 국민 신뢰 훼손,dossier|검찰의 구형 이유 · 국민 신뢰 훼손|
+52,66.2,67.6,1.4,document or record card,False,기록 카드: 검찰의 구형 이유 · 국민 신뢰 훼손,dossier|검찰의 구형 이유 · 국민 신뢰 훼손|
+53,67.6,68.8,1.2,document or record card,False,기록 카드: 검찰의 구형 이유 · 국민 신뢰 훼손,dossier|검찰의 구형 이유 · 국민 신뢰 훼손|
+54,68.8,70.2,1.4,document or record card,False,기록 카드: 검찰의 구형 이유 · 국민 신뢰 훼손,dossier|검찰의 구형 이유 · 국민 신뢰 훼손|
+69,88.6,89.0,0.4,text card,True,03 1심의 판단,verdict||03 1심의 판단
+74,93.6,95.0,1.4,document or record card,False,기록 카드: 중대장 · 1심 유죄 판단,dossier|중대장 · 1심 유죄 판단|
+75,95.0,96.2,1.2,document or record card,False,기록 카드: 중대장 · 1심 유죄 판단,dossier|중대장 · 1심 유죄 판단|
+76,96.2,97.4,1.2,document or record card,False,기록 카드: 중대장 · 1심 유죄 판단,dossier|중대장 · 1심 유죄 판단|
+77,97.4,98.6,1.2,document or record card,False,기록 카드: 중대장 · 1심 유죄 판단,dossier|중대장 · 1심 유죄 판단|
+78,98.6,100.2,1.6,document or record card,False,기록 카드: 부중대장 · 1심 유죄 판단,dossier|부중대장 · 1심 유죄 판단|
+79,100.2,101.8,1.6,document or record card,False,기록 카드: 부중대장 · 1심 유죄 판단,dossier|부중대장 · 1심 유죄 판단|
+82,105.4,106.6,1.2,document or record card,False,기록 카드: 1심 재판부 · 보도 요지,dossier|1심 재판부 · 보도 요지|
+83,106.6,108.0,1.4,document or record card,False,기록 카드: 1심 재판부 · 보도 요지,dossier|1심 재판부 · 보도 요지|
+84,108.0,109.0,1.0,document or record card,False,기록 카드: 1심 재판부 · 보도 요지,dossier|1심 재판부 · 보도 요지|
+85,109.0,110.2,1.2,document or record card,False,기록 카드: 1심 재판부 · 보도 요지,dossier|1심 재판부 · 보도 요지|
+86,110.2,111.2,1.0,document or record card,False,기록 카드: 재판부 판단 · 군 사기와 전투력,dossier|재판부 판단 · 군 사기와 전투력|
+87,111.2,112.2,1.0,document or record card,False,기록 카드: 재판부 판단 · 군 사기와 전투력,dossier|재판부 판단 · 군 사기와 전투력|
+88,112.2,114.2,2.0,document or record card,False,기록 카드: 재판부 판단 · 군 사기와 전투력,dossier|재판부 판단 · 군 사기와 전투력|
+89,114.2,115.2,1.0,document or record card,False,기록 카드: 재판부 판단 · 국민 신뢰 훼손,dossier|재판부 판단 · 국민 신뢰 훼손|
+90,115.2,116.4,1.2,document or record card,False,기록 카드: 재판부 판단 · 국민 신뢰 훼손,dossier|재판부 판단 · 국민 신뢰 훼손|
+91,116.4,117.4,1.0,document or record card,False,기록 카드: 재판부 판단 · 국민 신뢰 훼손,dossier|재판부 판단 · 국민 신뢰 훼손|
+92,117.4,118.4,1.0,document or record card,False,기록 카드: 재판부 판단 · 국민 신뢰 훼손,dossier|재판부 판단 · 국민 신뢰 훼손|
+93,118.4,120.4,2.0,document or record card,False,기록 카드: 재판부가 지적한 사정 · 용서받지 못함,dossier|재판부가 지적한 사정 · 용서받지 못함|
+94,120.4,122.2,1.8,document or record card,False,기록 카드: 재판부가 지적한 사정 · 용서받지 못함,dossier|재판부가 지적한 사정 · 용서받지 못함|
+95,122.2,123.6,1.4,document or record card,False,기록 카드: 1심 양형 사정 · 사실관계 인정과 반성 태도,dossier|1심 양형 사정 · 사실관계 인정과 반성 태도|
+96,123.6,125.0,1.4,document or record card,False,기록 카드: 1심 양형 사정 · 사실관계 인정과 반성 태도,dossier|1심 양형 사정 · 사실관계 인정과 반성 태도|
+97,125.0,126.4,1.4,document or record card,False,기록 카드: 1심 양형 사정 · 사실관계 인정과 반성 태도,dossier|1심 양형 사정 · 사실관계 인정과 반성 태도|
+98,126.4,127.8,1.4,document or record card,False,기록 카드: 1심 양형 사정 · 사실관계 인정과 반성 태도,dossier|1심 양형 사정 · 사실관계 인정과 반성 태도|
+99,127.8,129.4,1.6,document or record card,False,기록 카드: 1심 양형 사정 · 교육 목적에서 시작한 점,dossier|1심 양형 사정 · 교육 목적에서 시작한 점|
+100,129.4,131.0,1.6,document or record card,False,기록 카드: 1심 양형 사정 · 교육 목적에서 시작한 점,dossier|1심 양형 사정 · 교육 목적에서 시작한 점|
+101,131.0,132.4,1.4,document or record card,False,기록 카드: 1심 양형 사정 · 교육 목적에서 시작한 점,dossier|1심 양형 사정 · 교육 목적에서 시작한 점|
+102,132.4,134.0,1.6,document or record card,False,기록 카드: 1심 양형 사정 · 교육 목적에서 시작한 점,dossier|1심 양형 사정 · 교육 목적에서 시작한 점|
+120,158.4,158.8,0.4,text card,True,04 항소심의 쟁점,verdict||04 항소심의 쟁점
+170,224.2,224.6,0.4,text card,True,05 선고와 확정,verdict||05 선고와 확정

@@ -1,0 +1,269 @@
+{
+  "topic": "범죄/국제 공조 수사",
+  "title_formula": "다시봐도+충격적+범죄 공간+체포과정",
+  "cold_open_15_summary": "지하주차장에서 잠복 중인 경찰과 도착한 차량을 보여준 뒤 범죄자라는 정체를 부여한다.",
+  "cold_open_60_summary": "체포 직전 장면과 국제 공조의 규모를 먼저 보여주고 주제를 안내한다. 42초 무렵 앞선 다른 피의자 사건으로 되감아 디지털 단서의 출발점을 설명한다.",
+  "beats": [
+    {
+      "start_s": 0,
+      "end_s": 29,
+      "function": "체포 직전 선공개",
+      "summary": "주차장·차량·엘리베이터·국제 수사"
+    },
+    {
+      "start_s": 30.2,
+      "end_s": 42.5,
+      "function": "안내",
+      "summary": "주제와 민감 내용 고지"
+    },
+    {
+      "start_s": 42.5,
+      "end_s": 116,
+      "function": "01 단서",
+      "summary": "영국 피의자 컴퓨터→익명 사이트"
+    },
+    {
+      "start_s": 116,
+      "end_s": 198,
+      "function": "02 추적 도구",
+      "summary": "거래 흔적과 거래소 신원정보"
+    },
+    {
+      "start_s": 198,
+      "end_s": 285.4,
+      "function": "03 사이트",
+      "summary": "수사관 관점의 규모·유통 구조"
+    },
+    {
+      "start_s": 285.4,
+      "end_s": 329.1,
+      "function": "허점 발견",
+      "summary": "썸네일 IP와 거주지"
+    },
+    {
+      "start_s": 329.1,
+      "end_s": 364.9,
+      "function": "신원 반전",
+      "summary": "중년 남자의 손과 실제 운영자"
+    },
+    {
+      "start_s": 364.9,
+      "end_s": 392.4,
+      "function": "04 작전 준비",
+      "summary": "한국 공조·주소지·잠복"
+    },
+    {
+      "start_s": 392.4,
+      "end_s": 439,
+      "function": "체포와 제한",
+      "summary": "경찰은 진입하고 해외 수사관은 영상통화"
+    },
+    {
+      "start_s": 439,
+      "end_s": 459.8,
+      "function": "물증",
+      "summary": "평범한 본체와 추가 하드"
+    },
+    {
+      "start_s": 459.8,
+      "end_s": 503.3,
+      "function": "05 파급",
+      "summary": "포렌식·국제 체포·구출과 수사 한계"
+    },
+    {
+      "start_s": 503.3,
+      "end_s": 528.2,
+      "function": "형량 반전",
+      "summary": "수사팀의 노력과 짧은 복역의 대비"
+    },
+    {
+      "start_s": 528.2,
+      "end_s": 540.4,
+      "function": "출처",
+      "summary": "기반 도서 소개"
+    }
+  ],
+  "open_loops": [
+    {
+      "id": "L1",
+      "raised_s": 3.3,
+      "closed_or_reframed_s": 422.8,
+      "question": "왜 이 남자를 오래 기다리는가",
+      "resolution": "서버 운영자 체포"
+    },
+    {
+      "id": "L2",
+      "raised_s": 96.7,
+      "closed_or_reframed_s": 198,
+      "question": "익명 사이트를 어떻게 추적하는가",
+      "resolution": "거래소 연결"
+    },
+    {
+      "id": "L3",
+      "raised_s": 285.4,
+      "closed_or_reframed_s": 326.7,
+      "question": "사이트의 실수는 무엇인가",
+      "resolution": "노출 IP"
+    },
+    {
+      "id": "L4",
+      "raised_s": 344,
+      "closed_or_reframed_s": 364.9,
+      "question": "신원 사진이 왜 맞지 않는가",
+      "resolution": "가족 명의와 실제 운영자 구분"
+    },
+    {
+      "id": "L5",
+      "raised_s": 376.9,
+      "closed_or_reframed_s": 422.8,
+      "question": "잠복은 성공하는가",
+      "resolution": "현관 앞 체포"
+    },
+    {
+      "id": "L6",
+      "raised_s": 503.3,
+      "closed_or_reframed_s": 527.8,
+      "question": "수사관들을 더 절망시킨 일은 무엇인가",
+      "resolution": "형기·인도 문제의 결말"
+    }
+  ],
+  "manual_devices": {
+    "foreshadowing": [
+      {
+        "start_s": 17.5,
+        "end_s": 29,
+        "description": "여러 국가가 기다린 체포"
+      },
+      {
+        "start_s": 80.6,
+        "end_s": 96.4,
+        "description": "컴퓨터에서 더 큰 사건"
+      },
+      {
+        "start_s": 230,
+        "end_s": 243.9,
+        "description": "큰 착각과 규모"
+      },
+      {
+        "start_s": 285.4,
+        "end_s": 300.8,
+        "description": "결정적인 실수"
+      },
+      {
+        "start_s": 503.3,
+        "end_s": 507.3,
+        "description": "더 큰 절망 예고"
+      }
+    ],
+    "withholding": [
+      {
+        "start_s": 29,
+        "end_s": 42.5,
+        "description": "체포 직전에서 다른 사건으로"
+      },
+      {
+        "start_s": 96.7,
+        "end_s": 116,
+        "description": "익명성 장벽 뒤 도구 장"
+      },
+      {
+        "start_s": 285.4,
+        "end_s": 305.6,
+        "description": "허점의 정체"
+      },
+      {
+        "start_s": 344,
+        "end_s": 364.9,
+        "description": "사진 속 손과 신원 불일치"
+      },
+      {
+        "start_s": 392.4,
+        "end_s": 422.8,
+        "description": "기다림·현관까지 지연"
+      },
+      {
+        "start_s": 503.3,
+        "end_s": 513.9,
+        "description": "절망의 내용 유예"
+      }
+    ],
+    "quotes": [
+      {
+        "start_s": 256.8,
+        "end_s": 263.5,
+        "description": "수사관 회고"
+      },
+      {
+        "start_s": 273.3,
+        "end_s": 278.9,
+        "description": "사이트 경고문 언급"
+      }
+    ],
+    "irony": [
+      {
+        "start_s": 96.7,
+        "end_s": 198,
+        "description": "익명성과 공개 거래 기록의 대비"
+      },
+      {
+        "start_s": 297.1,
+        "end_s": 319.9,
+        "description": "익명을 위한 사이트와 공개 썸네일"
+      },
+      {
+        "start_s": 432.7,
+        "end_s": 439,
+        "description": "주도한 수사팀이 화면으로만 지켜봄"
+      },
+      {
+        "start_s": 444.5,
+        "end_s": 457.4,
+        "description": "평범한 본체와 규모의 대비"
+      },
+      {
+        "start_s": 503.3,
+        "end_s": 527.8,
+        "description": "국제 수사 노력과 복역 기간 대비"
+      }
+    ]
+  },
+  "visual_notes": "공간 재연·컴퓨터·거래망/지도·문헌 카드와 기록 이미지가 섞인다. 피해 영상 자체가 아니라 수사관 시점·숫자·네트워크·하드웨어로 설명하는 장면을 중심으로 기록. 민감 자료 노출 여부는 대표 프레임에서 추가 확인.",
+  "thumbnail_notes": "코르크 수사보드·빨간 실·세 기관 로고·수갑 찬 사진·수배 라벨. 사진 중심 예외로서 시각적 사건 장르를 즉시 전달.",
+  "chapter_cliffhangers": [
+    {
+      "boundary_s": 40.64,
+      "cliffhanger_type_manual": "주제 안내 뒤 회상",
+      "lead_or_question": "민감 내용 안내 뒤 최초 단서 사건으로 이동",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 114.16,
+      "cliffhanger_type_manual": "장벽/해법",
+      "lead_or_question": "익명성 장벽 뒤 거래 경로 설명",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 196.68,
+      "cliffhanger_type_manual": "새 수사 단계",
+      "lead_or_question": "거래소 신원정보 뒤 사이트의 허점을 찾는 단계",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 327.28,
+      "cliffhanger_type_manual": "장소/신원 전환",
+      "lead_or_question": "IP로 주택지역을 특정한 뒤 실제 신원과 체포로 이동",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 457.84,
+      "cliffhanger_type_manual": "규모/결과 전환",
+      "lead_or_question": "추가 하드드라이브 뒤 포렌식 규모와 형량 결과",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    }
+  ]
+}

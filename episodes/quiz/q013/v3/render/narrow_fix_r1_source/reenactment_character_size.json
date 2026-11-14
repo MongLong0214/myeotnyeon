@@ -1,0 +1,491 @@
+{
+  "input_sha256": "6dfab565d262a52d719d3054311ebac54f65309c549bf467d07aa5feb0ee70c0",
+  "method": "Decoded character-color bounding height, excludes headline y<352 and subtitles y1180:1352; not silhouette area. Conservative when characters enter excluded text regions.",
+  "min_height_fraction": 0.6125,
+  "frames": [
+    {
+      "frame": 60,
+      "height_fraction": 0.7458333333333333
+    },
+    {
+      "frame": 61,
+      "height_fraction": 0.63125
+    },
+    {
+      "frame": 62,
+      "height_fraction": 0.63125
+    },
+    {
+      "frame": 63,
+      "height_fraction": 0.6291666666666667
+    },
+    {
+      "frame": 64,
+      "height_fraction": 0.63125
+    },
+    {
+      "frame": 65,
+      "height_fraction": 0.63125
+    },
+    {
+      "frame": 66,
+      "height_fraction": 0.6375
+    },
+    {
+      "frame": 67,
+      "height_fraction": 0.63125
+    },
+    {
+      "frame": 68,
+      "height_fraction": 0.6354166666666666
+    },
+    {
+      "frame": 69,
+      "height_fraction": 0.6354166666666666
+    },
+    {
+      "frame": 70,
+      "height_fraction": 0.63125
+    },
+    {
+      "frame": 71,
+      "height_fraction": 0.6416666666666667
+    },
+    {
+      "frame": 72,
+      "height_fraction": 0.63125
+    },
+    {
+      "frame": 73,
+      "height_fraction": 0.6395833333333333
+    },
+    {
+      "frame": 74,
+      "height_fraction": 0.6458333333333334
+    },
+    {
+      "frame": 75,
+      "height_fraction": 0.6291666666666667
+    },
+    {
+      "frame": 76,
+      "height_fraction": 0.6354166666666666
+    },
+    {
+      "frame": 77,
+      "height_fraction": 0.6395833333333333
+    },
+    {
+      "frame": 78,
+      "height_fraction": 0.6375
+    },
+    {
+      "frame": 79,
+      "height_fraction": 0.6708333333333333
+    },
+    {
+      "frame": 80,
+      "height_fraction": 0.6708333333333333
+    },
+    {
+      "frame": 81,
+      "height_fraction": 0.66875
+    },
+    {
+      "frame": 82,
+      "height_fraction": 0.68125
+    },
+    {
+      "frame": 83,
+      "height_fraction": 0.66875
+    },
+    {
+      "frame": 84,
+      "height_fraction": 0.66875
+    },
+    {
+      "frame": 85,
+      "height_fraction": 0.6729166666666667
+    },
+    {
+      "frame": 86,
+      "height_fraction": 0.6791666666666667
+    },
+    {
+      "frame": 87,
+      "height_fraction": 0.6770833333333334
+    },
+    {
+      "frame": 88,
+      "height_fraction": 0.6770833333333334
+    },
+    {
+      "frame": 89,
+      "height_fraction": 0.6770833333333334
+    },
+    {
+      "frame": 90,
+      "height_fraction": 0.6729166666666667
+    },
+    {
+      "frame": 91,
+      "height_fraction": 0.7041666666666667
+    },
+    {
+      "frame": 92,
+      "height_fraction": 0.6833333333333333
+    },
+    {
+      "frame": 93,
+      "height_fraction": 0.6916666666666667
+    },
+    {
+      "frame": 94,
+      "height_fraction": 0.7104166666666667
+    },
+    {
+      "frame": 95,
+      "height_fraction": 0.7104166666666667
+    },
+    {
+      "frame": 96,
+      "height_fraction": 0.7145833333333333
+    },
+    {
+      "frame": 97,
+      "height_fraction": 0.68125
+    },
+    {
+      "frame": 98,
+      "height_fraction": 0.68125
+    },
+    {
+      "frame": 99,
+      "height_fraction": 0.6958333333333333
+    },
+    {
+      "frame": 100,
+      "height_fraction": 0.69375
+    },
+    {
+      "frame": 101,
+      "height_fraction": 0.7333333333333333
+    },
+    {
+      "frame": 102,
+      "height_fraction": 0.7333333333333333
+    },
+    {
+      "frame": 103,
+      "height_fraction": 0.7333333333333333
+    },
+    {
+      "frame": 104,
+      "height_fraction": 0.7333333333333333
+    },
+    {
+      "frame": 105,
+      "height_fraction": 0.7333333333333333
+    },
+    {
+      "frame": 106,
+      "height_fraction": 0.7333333333333333
+    },
+    {
+      "frame": 107,
+      "height_fraction": 0.7333333333333333
+    },
+    {
+      "frame": 108,
+      "height_fraction": 0.7333333333333333
+    },
+    {
+      "frame": 109,
+      "height_fraction": 0.7333333333333333
+    },
+    {
+      "frame": 110,
+      "height_fraction": 0.7333333333333333
+    },
+    {
+      "frame": 111,
+      "height_fraction": 0.7333333333333333
+    },
+    {
+      "frame": 112,
+      "height_fraction": 0.7333333333333333
+    },
+    {
+      "frame": 113,
+      "height_fraction": 0.6229166666666667
+    },
+    {
+      "frame": 114,
+      "height_fraction": 0.6229166666666667
+    },
+    {
+      "frame": 115,
+      "height_fraction": 0.61875
+    },
+    {
+      "frame": 116,
+      "height_fraction": 0.6125
+    },
+    {
+      "frame": 117,
+      "height_fraction": 0.6125
+    },
+    {
+      "frame": 118,
+      "height_fraction": 0.6354166666666666
+    },
+    {
+      "frame": 119,
+      "height_fraction": 0.6270833333333333
+    },
+    {
+      "frame": 120,
+      "height_fraction": 0.6541666666666667
+    },
+    {
+      "frame": 121,
+      "height_fraction": 0.64375
+    },
+    {
+      "frame": 122,
+      "height_fraction": 0.6166666666666667
+    },
+    {
+      "frame": 123,
+      "height_fraction": 0.6208333333333333
+    },
+    {
+      "frame": 124,
+      "height_fraction": 0.6541666666666667
+    },
+    {
+      "frame": 125,
+      "height_fraction": 0.6375
+    },
+    {
+      "frame": 126,
+      "height_fraction": 0.6291666666666667
+    },
+    {
+      "frame": 127,
+      "height_fraction": 0.6291666666666667
+    },
+    {
+      "frame": 128,
+      "height_fraction": 0.6166666666666667
+    },
+    {
+      "frame": 129,
+      "height_fraction": 0.6541666666666667
+    },
+    {
+      "frame": 130,
+      "height_fraction": 0.6395833333333333
+    },
+    {
+      "frame": 131,
+      "height_fraction": 0.6208333333333333
+    },
+    {
+      "frame": 132,
+      "height_fraction": 0.6354166666666666
+    },
+    {
+      "frame": 133,
+      "height_fraction": 0.61875
+    },
+    {
+      "frame": 134,
+      "height_fraction": 0.625
+    },
+    {
+      "frame": 135,
+      "height_fraction": 0.6416666666666667
+    },
+    {
+      "frame": 136,
+      "height_fraction": 0.6520833333333333
+    },
+    {
+      "frame": 137,
+      "height_fraction": 0.65625
+    },
+    {
+      "frame": 138,
+      "height_fraction": 0.6541666666666667
+    },
+    {
+      "frame": 139,
+      "height_fraction": 0.6458333333333334
+    },
+    {
+      "frame": 140,
+      "height_fraction": 0.6583333333333333
+    },
+    {
+      "frame": 141,
+      "height_fraction": 0.6354166666666666
+    },
+    {
+      "frame": 142,
+      "height_fraction": 0.6604166666666667
+    },
+    {
+      "frame": 143,
+      "height_fraction": 0.6604166666666667
+    },
+    {
+      "frame": 144,
+      "height_fraction": 0.6666666666666666
+    },
+    {
+      "frame": 145,
+      "height_fraction": 0.6375
+    },
+    {
+      "frame": 146,
+      "height_fraction": 0.6916666666666667
+    },
+    {
+      "frame": 147,
+      "height_fraction": 0.69375
+    },
+    {
+      "frame": 148,
+      "height_fraction": 0.6895833333333333
+    },
+    {
+      "frame": 149,
+      "height_fraction": 0.71875
+    },
+    {
+      "frame": 150,
+      "height_fraction": 0.6854166666666667
+    },
+    {
+      "frame": 151,
+      "height_fraction": 0.7
+    },
+    {
+      "frame": 152,
+      "height_fraction": 0.7083333333333334
+    },
+    {
+      "frame": 153,
+      "height_fraction": 0.7208333333333333
+    },
+    {
+      "frame": 154,
+      "height_fraction": 0.6895833333333333
+    },
+    {
+      "frame": 155,
+      "height_fraction": 0.6958333333333333
+    },
+    {
+      "frame": 156,
+      "height_fraction": 0.7083333333333334
+    },
+    {
+      "frame": 157,
+      "height_fraction": 0.6979166666666666
+    },
+    {
+      "frame": 158,
+      "height_fraction": 0.7083333333333334
+    },
+    {
+      "frame": 159,
+      "height_fraction": 0.7
+    },
+    {
+      "frame": 160,
+      "height_fraction": 0.7083333333333334
+    },
+    {
+      "frame": 161,
+      "height_fraction": 0.725
+    },
+    {
+      "frame": 162,
+      "height_fraction": 0.7083333333333334
+    },
+    {
+      "frame": 163,
+      "height_fraction": 0.7270833333333333
+    },
+    {
+      "frame": 164,
+      "height_fraction": 0.7291666666666666
+    },
+    {
+      "frame": 165,
+      "height_fraction": 0.7270833333333333
+    },
+    {
+      "frame": 166,
+      "height_fraction": 0.70625
+    },
+    {
+      "frame": 167,
+      "height_fraction": 0.7145833333333333
+    },
+    {
+      "frame": 168,
+      "height_fraction": 0.70625
+    },
+    {
+      "frame": 169,
+      "height_fraction": 0.7208333333333333
+    },
+    {
+      "frame": 170,
+      "height_fraction": 0.70625
+    },
+    {
+      "frame": 171,
+      "height_fraction": 0.7270833333333333
+    },
+    {
+      "frame": 172,
+      "height_fraction": 0.7166666666666667
+    },
+    {
+      "frame": 173,
+      "height_fraction": 0.7333333333333333
+    },
+    {
+      "frame": 174,
+      "height_fraction": 0.7354166666666667
+    },
+    {
+      "frame": 175,
+      "height_fraction": 0.7104166666666667
+    },
+    {
+      "frame": 176,
+      "height_fraction": 0.7083333333333334
+    },
+    {
+      "frame": 177,
+      "height_fraction": 0.7166666666666667
+    },
+    {
+      "frame": 178,
+      "height_fraction": 0.7125
+    },
+    {
+      "frame": 179,
+      "height_fraction": 0.7
+    },
+    {
+      "frame": 180,
+      "height_fraction": 0.6729166666666667
+    }
+  ]
+}

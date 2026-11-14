@@ -1,0 +1,162 @@
+{
+  "topic": "군사/기술 설명",
+  "title_formula": "북한+전수받은+자폭드론+위력",
+  "cold_open_15_summary": "저가 드론과 고가 전차의 가격 대비로 시작해 무기 발전사의 일반 명제로 넓힌다.",
+  "cold_open_60_summary": "첫 8초에 가격 대비를 제시하지만 그 뒤 26초까지 무기 발전사를 요약한다. 31초 무렵 FPV 정의로 들어가고 47초에 시청자에게 사용법을 묻는다. 제목의 북한은 약 225.5초에 본격 등장한다.",
+  "beats": [
+    {
+      "start_s": 0,
+      "end_s": 28.8,
+      "function": "가격 대비·개론",
+      "summary": "드론 대 전차→무기 발전의 공식 붕괴"
+    },
+    {
+      "start_s": 28.8,
+      "end_s": 70.1,
+      "function": "FPV 정의와 사용",
+      "summary": "취미 기술·조종·질문·자폭 사용"
+    },
+    {
+      "start_s": 70.5,
+      "end_s": 93,
+      "function": "군집",
+      "summary": "다수 공격과 전차의 방향 한계"
+    },
+    {
+      "start_s": 93,
+      "end_s": 145.5,
+      "function": "AI",
+      "summary": "인식·승인·책임 논쟁"
+    },
+    {
+      "start_s": 145.7,
+      "end_s": 175.4,
+      "function": "약점",
+      "summary": "무선 교란으로 통제 상실"
+    },
+    {
+      "start_s": 175.7,
+      "end_s": 223,
+      "function": "해법과 비용",
+      "summary": "광섬유의 작동·거리 제한·풍경"
+    },
+    {
+      "start_s": 223.4,
+      "end_s": 265.6,
+      "function": "한국·북한 연결",
+      "summary": "과거 침범 사례·기술 이전·향후 위험"
+    }
+  ],
+  "open_loops": [
+    {
+      "id": "L1",
+      "raised_s": 26.2,
+      "closed_or_reframed_s": 70.1,
+      "question": "강한 무기가 이긴다는 공식은 어떻게 깨지는가",
+      "resolution": "저가 자폭 운용"
+    },
+    {
+      "id": "L2",
+      "raised_s": 46.8,
+      "closed_or_reframed_s": 66.6,
+      "question": "지휘관이라면 어떻게 쓰는가",
+      "resolution": "자폭 방식 설명"
+    },
+    {
+      "id": "L3",
+      "raised_s": 73.2,
+      "closed_or_reframed_s": 91,
+      "question": "대수가 많아지면 무엇이 달라지는가",
+      "resolution": "동시 방어 한계"
+    },
+    {
+      "id": "L4",
+      "raised_s": 145.7,
+      "closed_or_reframed_s": 175.7,
+      "question": "무선 교란에 어떻게 대응하는가",
+      "resolution": "광섬유 드론 도입"
+    },
+    {
+      "id": "L5",
+      "raised_s": 223.4,
+      "closed_or_reframed_s": 256.2,
+      "question": "한국에 어떤 관련이 있는가",
+      "resolution": "북한 기술 이전의 가정적 위험"
+    }
+  ],
+  "manual_devices": {
+    "foreshadowing": [
+      {
+        "start_s": 26.2,
+        "end_s": 28.8,
+        "description": "기존 공식 붕괴"
+      },
+      {
+        "start_s": 73.2,
+        "end_s": 77.1,
+        "description": "진짜 문제는 군집"
+      },
+      {
+        "start_s": 91.2,
+        "end_s": 96.2,
+        "description": "다음 단계 AI"
+      },
+      {
+        "start_s": 130.4,
+        "end_s": 136.2,
+        "description": "논쟁적 부분 예고"
+      },
+      {
+        "start_s": 223.4,
+        "end_s": 225.1,
+        "description": "국내 연결 예고"
+      }
+    ],
+    "withholding": [
+      {
+        "start_s": 26.2,
+        "end_s": 31.5,
+        "description": "공식 붕괴 뒤 장 전환"
+      },
+      {
+        "start_s": 73.2,
+        "end_s": 81.5,
+        "description": "진짜 문제의 시각화 유예"
+      },
+      {
+        "start_s": 145.7,
+        "end_s": 151,
+        "description": "약점 이름 잠시 유예"
+      },
+      {
+        "start_s": 172.4,
+        "end_s": 177.8,
+        "description": "대안 이름 유예"
+      }
+    ],
+    "quotes": [],
+    "irony": [
+      {
+        "start_s": 3.7,
+        "end_s": 8.4,
+        "description": "낮은 가격과 높은 파괴 가치 대비"
+      },
+      {
+        "start_s": 234.3,
+        "end_s": 247,
+        "description": "낮은 과거 기술과 방어 실패·최신 기술 이전 대비"
+      }
+    ]
+  },
+  "visual_notes": "검정 배경 3D 전차·드론·부품과 파란 스캔/신호·붉은 표적 강조. 실제 전장 영상이 있으면 표본 판정에 따로 기록한다. 전투를 사물 간 상호작용·스캔·폭발로 설명하며 인체 피해를 주요 초점으로 삼지 않는다.",
+  "thumbnail_notes": "중앙 드론을 여러 전차가 원형으로 둘러싼 탑뷰. 문구·얼굴 없음. 검정/올리브 계열이라 작은 화면에서 물체 구분이 상대적으로 약함(시각 판단).",
+  "chapter_cliffhangers": [
+    {
+      "boundary_s": 29.967,
+      "cliffhanger_type_manual": "주제 선언",
+      "lead_or_question": "무기 공식 붕괴라는 명제를 남기고 드론을 설명",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    }
+  ]
+}

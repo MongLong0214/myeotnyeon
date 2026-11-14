@@ -1,0 +1,34 @@
+{
+  "id": "OwQm8ZIZfiQ",
+  "title": "8시간 만에 56명이 사망한 대한민국 최초 총기난사 사건",
+  "description": "우범곤 순경의 총기난사 사건에 대한 이야기입니다.",
+  "upload_date": "20260702",
+  "timestamp": 1782979200,
+  "duration": 522,
+  "view_count": 248214,
+  "like_count": 1597,
+  "comment_count": 268,
+  "chapters": null,
+  "channel": "엑스톨(Extol)",
+  "channel_id": "UCHRG_xhaJj-5TsYnAjhJXVQ",
+  "channel_follower_count": null,
+  "webpage_url": "https://www.youtube.com/watch?v=OwQm8ZIZfiQ",
+  "categories": [
+    "People & Blogs"
+  ],
+  "tags": [
+    "우순경",
+    "우범곤",
+    "나홍진",
+    "총기난사"
+  ],
+  "language": "ko",
+  "availability": "public",
+  "age_limit": 0,
+  "analysis_kind": "long",
+  "collected_local": "2026-10-30T09:08:39+0900",
+  "counts_method": "yt-dlp separate metadata extraction without write-comments; avoids capped extracted count",
+  "extractor_format_description": "401 - 3840x2160 (2160p)+251-2 - audio only (한국어 원본 (default), medium)",
+  "extracted_audio_language": "ko",
+  "format_note_caveat": "For two reused media copies, selected format in fresh metadata is not the copy format; source_media.json ffprobe is authoritative."
+}

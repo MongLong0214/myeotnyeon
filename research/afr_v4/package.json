@@ -1,0 +1,25 @@
+{
+  "name": "animation-factory-reference-first",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "setup": "node tools/bootstrap.mjs",
+    "doctor": "node tools/cli.mjs doctor",
+    "reference": "node tools/cli.mjs reference",
+    "style": "node tools/cli.mjs render --shot S03 --profile review",
+    "review": "node tools/cli.mjs render --profile review",
+    "assemble": "node tools/cli.mjs assemble --profile review",
+    "final": "node tools/cli.mjs render --profile final",
+    "deliver": "node tools/cli.mjs assemble --profile final",
+    "test": "node --test",
+    "boards": "node tools/boards.mjs",
+    "sound": "node tools/sound.mjs"
+  },
+  "dependencies": {
+    "playwright": "1.56.1"
+  }
+}

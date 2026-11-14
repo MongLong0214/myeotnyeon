@@ -1,0 +1,66 @@
+{
+ "id": "JJYbyuhYl80",
+ "observed_at_kst": "2026-10-26T19:09:44+09:00",
+ "metadata_status": {
+  "started_at_kst": "2026-10-26T19:09:36+09:00",
+  "finished_at_kst": "2026-10-26T19:09:39+09:00",
+  "command": [
+   "/Users/isaac/.local/bin/yt-dlp",
+   "--ignore-config",
+   "--no-cookies",
+   "--socket-timeout",
+   "25",
+   "--retries",
+   "1",
+   "--extractor-retries",
+   "1",
+   "--ignore-no-formats-error",
+   "--extractor-args",
+   "youtube:player_client=web",
+   "--skip-download",
+   "--dump-json",
+   "https://www.youtube.com/watch?v=JJYbyuhYl80"
+  ],
+  "exit_code": 0,
+  "error": "WARNING: [youtube] JJYbyuhYl80: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Unable to fetch GVS PO Token for web client: Missing required Visitor Data. You may need to pass Visitor Data with --extractor-args \"youtube:visitor_data=XXX\"\nWARNING: Only images are available for download. use --list-formats to see them\nWARNING: Requested format is not available\n"
+ },
+ "storyboard_format": "sb0",
+ "sprites": [
+  {
+   "path": "validation_deep/JJYbyuhYl80/sb0_0.jpg",
+   "index": 0,
+   "start_s": 0,
+   "duration_s": 44.34545454545455,
+   "rows": 3,
+   "columns": 3,
+   "tile_width": 320,
+   "tile_height": 180
+  },
+  {
+   "path": "validation_deep/JJYbyuhYl80/sb0_6.jpg",
+   "index": 6,
+   "start_s": 266.0727272727273,
+   "duration_s": 44.34545454545455,
+   "rows": 3,
+   "columns": 3,
+   "tile_width": 320,
+   "tile_height": 180
+  },
+  {
+   "path": "validation_deep/JJYbyuhYl80/sb0_12.jpg",
+   "index": 12,
+   "start_s": 532.1454545454548,
+   "duration_s": 9.85454545454536,
+   "rows": 3,
+   "columns": 3,
+   "tile_width": 320,
+   "tile_height": 180
+  }
+ ],
+ "thumbnails": [
+  {
+   "path": "validation_deep/JJYbyuhYl80/thumbnail.jpg",
+   "url": "https://i.ytimg.com/vi/JJYbyuhYl80/maxresdefault.jpg"
+  }
+ ]
+}

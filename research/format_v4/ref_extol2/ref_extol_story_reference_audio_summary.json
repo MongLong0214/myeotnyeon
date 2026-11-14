@@ -1,0 +1,424 @@
+{
+  "duration_s": 534.6133125,
+  "mixed_speech_dbfs": -15.339973793000027,
+  "mixed_nonword_dbfs": -19.073787931048727,
+  "side_dbfs": -29.8113298103492,
+  "side_nonword_dbfs": -26.358206622750203,
+  "continuous_side_bed_proxy_intervals": [
+    {
+      "start_s": 0,
+      "end_s": 534,
+      "duration_s": 534
+    }
+  ],
+  "continuous_side_bed_proxy_share": 0.9988527923161284,
+  "nonword_windows_ge_120ms": 106,
+  "nonword_windows_with_side_above_minus50": 104,
+  "acoustic_silence_below_minus60_ge_180ms": [
+    {
+      "start_s": 220.02,
+      "end_s": 220.26,
+      "duration_s": 0.24
+    },
+    {
+      "start_s": 534.3,
+      "end_s": 534.6,
+      "duration_s": 0.3
+    }
+  ],
+  "narration_gaps_ge_350ms": [
+    {
+      "start_s": 10.24,
+      "end_s": 10.66,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 13.72,
+      "end_s": 14.26,
+      "duration_s": 0.54
+    },
+    {
+      "start_s": 30.46,
+      "end_s": 30.96,
+      "duration_s": 0.5
+    },
+    {
+      "start_s": 42.52,
+      "end_s": 42.88,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 50.98,
+      "end_s": 51.46,
+      "duration_s": 0.48
+    },
+    {
+      "start_s": 68.62,
+      "end_s": 69.56,
+      "duration_s": 0.94
+    },
+    {
+      "start_s": 73.22,
+      "end_s": 73.58,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 94.42,
+      "end_s": 96.86,
+      "duration_s": 2.44
+    },
+    {
+      "start_s": 116.08,
+      "end_s": 116.56,
+      "duration_s": 0.48
+    },
+    {
+      "start_s": 120.74,
+      "end_s": 121.74,
+      "duration_s": 1.0
+    },
+    {
+      "start_s": 128.04,
+      "end_s": 128.46,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 133.1,
+      "end_s": 133.78,
+      "duration_s": 0.68
+    },
+    {
+      "start_s": 147.1,
+      "end_s": 149.26,
+      "duration_s": 2.16
+    },
+    {
+      "start_s": 164.18,
+      "end_s": 164.54,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 180.08,
+      "end_s": 180.52,
+      "duration_s": 0.44
+    },
+    {
+      "start_s": 187.76,
+      "end_s": 188.16,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 194.06,
+      "end_s": 194.44,
+      "duration_s": 0.38
+    },
+    {
+      "start_s": 199.3,
+      "end_s": 199.68,
+      "duration_s": 0.38
+    },
+    {
+      "start_s": 205.92,
+      "end_s": 206.38,
+      "duration_s": 0.46
+    },
+    {
+      "start_s": 217.78,
+      "end_s": 219.88000000000002,
+      "duration_s": 2.1
+    },
+    {
+      "start_s": 227.6,
+      "end_s": 228.02,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 248.32,
+      "end_s": 248.78,
+      "duration_s": 0.46
+    },
+    {
+      "start_s": 260.76,
+      "end_s": 261.12,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 277.12,
+      "end_s": 277.56,
+      "duration_s": 0.44
+    },
+    {
+      "start_s": 303.9,
+      "end_s": 304.36,
+      "duration_s": 0.46
+    },
+    {
+      "start_s": 307.9,
+      "end_s": 308.3,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 316.54,
+      "end_s": 316.94,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 334.6,
+      "end_s": 334.96,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 359.48,
+      "end_s": 359.84,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 371.02,
+      "end_s": 371.38,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 390.5,
+      "end_s": 390.86,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 399.24,
+      "end_s": 401.58000000000004,
+      "duration_s": 2.34
+    },
+    {
+      "start_s": 411.52,
+      "end_s": 411.9,
+      "duration_s": 0.38
+    },
+    {
+      "start_s": 414.64,
+      "end_s": 415.16,
+      "duration_s": 0.52
+    },
+    {
+      "start_s": 418.3,
+      "end_s": 418.66,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 419.02,
+      "end_s": 419.44,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 420.98,
+      "end_s": 421.62,
+      "duration_s": 0.64
+    },
+    {
+      "start_s": 422.8,
+      "end_s": 423.2,
+      "duration_s": 0.4
+    },
+    {
+      "start_s": 426.76,
+      "end_s": 427.32,
+      "duration_s": 0.56
+    },
+    {
+      "start_s": 430.16,
+      "end_s": 430.84,
+      "duration_s": 0.68
+    },
+    {
+      "start_s": 431.34,
+      "end_s": 431.8,
+      "duration_s": 0.46
+    },
+    {
+      "start_s": 432.84,
+      "end_s": 433.32,
+      "duration_s": 0.48
+    },
+    {
+      "start_s": 436.02,
+      "end_s": 436.72,
+      "duration_s": 0.7
+    },
+    {
+      "start_s": 438.1,
+      "end_s": 438.7,
+      "duration_s": 0.6
+    },
+    {
+      "start_s": 441.5,
+      "end_s": 441.92,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 442.2,
+      "end_s": 442.82,
+      "duration_s": 0.62
+    },
+    {
+      "start_s": 444.0,
+      "end_s": 444.36,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 447.84,
+      "end_s": 448.74,
+      "duration_s": 0.9
+    },
+    {
+      "start_s": 451.14,
+      "end_s": 451.58,
+      "duration_s": 0.44
+    },
+    {
+      "start_s": 452.86,
+      "end_s": 453.82,
+      "duration_s": 0.96
+    },
+    {
+      "start_s": 455.76,
+      "end_s": 456.12,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 470.08,
+      "end_s": 470.5,
+      "duration_s": 0.42
+    },
+    {
+      "start_s": 476.35999999999996,
+      "end_s": 476.88,
+      "duration_s": 0.52
+    },
+    {
+      "start_s": 485.7,
+      "end_s": 486.06,
+      "duration_s": 0.36
+    },
+    {
+      "start_s": 489.1,
+      "end_s": 489.56,
+      "duration_s": 0.46
+    },
+    {
+      "start_s": 493.52,
+      "end_s": 494.08,
+      "duration_s": 0.56
+    },
+    {
+      "start_s": 521.8,
+      "end_s": 522.28,
+      "duration_s": 0.48
+    }
+  ],
+  "chapter_cue_candidates": [
+    {
+      "boundary_s": 95.5,
+      "side_before_dbfs": -31.687104217094447,
+      "side_after_dbfs": -34.135033159056654,
+      "side_delta_db": -2.447928941962207,
+      "spectral_hellinger": 0.495356691639725,
+      "cue_change_candidate": true,
+      "warning": "Candidate only; cannot establish track identity or editorial intent. Reject both sides below -50 dBFS to avoid numerical noise."
+    },
+    {
+      "boundary_s": 148,
+      "side_before_dbfs": -38.110908414494396,
+      "side_after_dbfs": -31.64424898380554,
+      "side_delta_db": 6.466659430688857,
+      "spectral_hellinger": 0.5843508591947083,
+      "cue_change_candidate": true,
+      "warning": "Candidate only; cannot establish track identity or editorial intent. Reject both sides below -50 dBFS to avoid numerical noise."
+    },
+    {
+      "boundary_s": 218.5,
+      "side_before_dbfs": -29.44252446716025,
+      "side_after_dbfs": -31.84011073987723,
+      "side_delta_db": -2.3975862727169783,
+      "spectral_hellinger": 0.6830826993910429,
+      "cue_change_candidate": true,
+      "warning": "Candidate only; cannot establish track identity or editorial intent. Reject both sides below -50 dBFS to avoid numerical noise."
+    },
+    {
+      "boundary_s": 400.5,
+      "side_before_dbfs": -26.32485969904249,
+      "side_after_dbfs": -25.830566048342437,
+      "side_delta_db": 0.4942936507000546,
+      "spectral_hellinger": 0.17622207300188125,
+      "cue_change_candidate": false,
+      "warning": "Candidate only; cannot establish track identity or editorial intent. Reject both sides below -50 dBFS to avoid numerical noise."
+    }
+  ],
+  "reveal_hit_candidates": [
+    {
+      "event": "escape result",
+      "time_s": 87.58,
+      "side_onset_candidates": [
+        {
+          "time_s": 87.98,
+          "robust_flux_score": 8.8
+        }
+      ],
+      "mono_onset_candidates": [
+        {
+          "time_s": 86.92,
+          "robust_flux_score": 8.37
+        }
+      ],
+      "interpretation": "A matching onset is not proof of an intentional reveal hit. Mono candidates may simply be consonants."
+    },
+    {
+      "event": "gasgun fails",
+      "time_s": 290.28,
+      "side_onset_candidates": [
+        {
+          "time_s": 289.7,
+          "robust_flux_score": 12.4
+        },
+        {
+          "time_s": 290.28,
+          "robust_flux_score": 10.86
+        }
+      ],
+      "mono_onset_candidates": [],
+      "interpretation": "A matching onset is not proof of an intentional reveal hit. Mono candidates may simply be consonants."
+    },
+    {
+      "event": "repairman reports",
+      "time_s": 416.66,
+      "side_onset_candidates": [
+        {
+          "time_s": 416.48,
+          "robust_flux_score": 12.84
+        },
+        {
+          "time_s": 417.14,
+          "robust_flux_score": 8.79
+        }
+      ],
+      "mono_onset_candidates": [
+        {
+          "time_s": 416.48,
+          "robust_flux_score": 15.15
+        }
+      ],
+      "interpretation": "A matching onset is not proof of an intentional reveal hit. Mono candidates may simply be consonants."
+    },
+    {
+      "event": "capture result",
+      "time_s": 488.08,
+      "side_onset_candidates": [
+        {
+          "time_s": 488.38,
+          "robust_flux_score": 12.15
+        }
+      ],
+      "mono_onset_candidates": [],
+      "interpretation": "A matching onset is not proof of an intentional reveal hit. Mono candidates may simply be consonants."
+    }
+  ],
+  "side_transient_candidate_count": 360,
+  "limitations": "No stem model downloaded. Side-channel and frequency-band measurements are stereo-bed evidence, not confirmed music coverage, composition identity, auditory emotion, or SFX counts. ASR can miss speech, particularly telephone insert."
+}

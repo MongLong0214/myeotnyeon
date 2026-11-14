@@ -1,0 +1,52 @@
+{
+ "channel_name": "何年出る 判決クイズ",
+ "handle": "@nannenderu",
+ "language": "ja",
+ "description": "実際の日本の裁判をもとにした判決クイズ。\n事件の内容を見て、刑期が何年になるかを予想してください。最後にまさかの結末が待っています。\n新作クイズを更新中。チャンネル登録で挑戦！\n公開された裁判記録・報道をもとにしたオリジナル2Dアニメです。実際の映像ではありません。",
+ "keywords": [
+  "判決クイズ",
+  "何年出る",
+  "拘禁刑",
+  "裁判",
+  "刑事裁判",
+  "判決",
+  "量刑",
+  "事件",
+  "法律",
+  "ニュース解説",
+  "裁判所",
+  "アニメ解説",
+  "ショート動画"
+ ],
+ "upload_defaults": {
+  "category": "Education",
+  "category_id": 27,
+  "default_language": "ja",
+  "default_audio_language": "ja",
+  "made_for_kids": false,
+  "license": "youtube",
+  "tags_template": [
+   "判決クイズ",
+   "何年出る",
+   "{事件キーワード}",
+   "{地方裁判所}",
+   "刑期",
+   "量刑",
+   "裁判",
+   "事件"
+  ],
+  "description_template_footer": "判決は何年？ 答えをコメントで予想してください。\n続きは：@nannenderu\n\n公開された裁判記録・報道をもとにしたオリジナル2Dアニメです。実際の映像ではありません。\n出典：{source_links}\n#shorts #判決クイズ #裁判"
+ },
+ "playlists": [
+  "判決クイズ",
+  "まさかの判決：予想外の結末",
+  "何年出る？ 重い判決・軽い判決"
+ ],
+ "files": {
+  "profile": "profile_800.png",
+  "banner": "banner_2560x1440.png",
+  "watermark": "watermark_150.png",
+  "preview": "preview_board.png"
+ },
+ "fonts": "Noto Sans / Noto Sans JP (SIL OFL 1.1)"
+}

@@ -1,0 +1,13 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=K5iGlQI9wFU
+[youtube] K5iGlQI9wFU: Downloading webpage
+[youtube] K5iGlQI9wFU: Downloading initial data API JSON
+[youtube] K5iGlQI9wFU: Downloading iframe API JS
+[youtube] K5iGlQI9wFU: Downloading player cbcfbf2f-main
+[youtube] K5iGlQI9wFU: Downloading web player API JSON
+[info] Available formats for K5iGlQI9wFU:
+ID  EXT   RESOLUTION FPS | PROTO | VCODEC MORE INFO
+----------------------------------------------------
+sb3 mhtml 48x27        0 | mhtml | images storyboard
+sb2 mhtml 80x45        0 | mhtml | images storyboard
+sb1 mhtml 160x90       0 | mhtml | images storyboard
+sb0 mhtml 320x180      0 | mhtml | images storyboard

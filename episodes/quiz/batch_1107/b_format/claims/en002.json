@@ -1,0 +1,103 @@
+{
+ "header": {
+  "court": "DeKalb County, Georgia (Judge Alvin Wong; prosecuted by the DeKalb County Solicitor-General)",
+  "date": "plea and sentence 2026-10-21 (CBS/FOX 5 published 10-22/23)",
+  "charge": "one count of cruelty to animals (misdemeanor); a second count was dropped",
+  "sentence": "10 days in DeKalb County Jail (2 days credit) + 1 year of probation; 24 anger-management classes, 100 hours community service, animal-cruelty program, no dogs during probation, $3,048 to LifeLine (FOX 5; CBS: more than $3,300)",
+  "finality": "Non-negotiated guilty plea; no appeal reported in any source (checked 2026-11-13).",
+  "pronouns": "she/her for the streamer (FOX 5, CBS, Decaturish all use her/she); the judge is never given a pronoun on screen."
+ },
+ "items": [
+  [
+   "L01",
+   "Puppy abuse, live on Twitch.",
+   "struck a puppy during a Twitch livestream",
+   "CBS News Atlanta https://www.cbsnews.com/atlanta/news/aspen-kartier-guilty-plea-animal-cruelty-sentencing-dekalb-county-twitch",
+   "was accused of striking a 3-month-old puppy and lifting the small dog by the skin on its back during a Twitch livestream."
+  ],
+  [
+   "L03",
+   "Her lawyer said 10 minutes don't define her,",
+   "defense quote",
+   "Decaturish https://www.decaturish.com/news/dekalb/rapper-who-abused-puppy-during-live-stream-pleads-guilty/article_ff6e56d3-f4c3-4653-b521-2f7b0b826b68.html",
+   "“These 10 minutes don't define who she is,” Dixon said."
+  ],
+  [
+   "L04",
+   "but prosecutors played the stream in court.",
+   "video played in court",
+   "Decaturish https://www.decaturish.com/news/dekalb/rapper-who-abused-puppy-during-live-stream-pleads-guilty/article_ff6e56d3-f4c3-4653-b521-2f7b0b826b68.html",
+   "The video recording of the incident played on the courtroom projector."
+  ],
+  [
+   "L05",
+   "She struck her 3-month-old puppy, again and again.",
+   "repeated strikes, 3-month-old",
+   "CBS News Atlanta https://www.cbsnews.com/atlanta/news/aspen-kartier-guilty-plea-animal-cruelty-sentencing-dekalb-county-twitch",
+   "was accused of striking a 3-month-old puppy and lifting the small dog by the skin on its back during a Twitch livestream."
+  ],
+  [
+   "L06",
+   "The puppy survived, and was rescued.",
+   "rescued; custody surrendered",
+   "FOX 5 Atlanta https://www.fox5atlanta.com/news/streamer-rapper-aspen-kartier-gets-jail-time-dekalb-puppy-abuse-case",
+   "Easterling gave up all custody rights to the 3-month-old Maltipoo puppy, which police rescued back in January."
+  ],
+  [
+   "L06 stamp",
+   "NO DOGS / BANNED",
+   "no dogs during probation",
+   "Decaturish https://www.decaturish.com/news/dekalb/rapper-who-abused-puppy-during-live-stream-pleads-guilty/article_ff6e56d3-f4c3-4653-b521-2f7b0b826b68.html",
+   "is not allowed to own, possess, or be in the presence of a canine during probation."
+  ],
+  [
+   "L06 pop",
+   "$3,048 for the puppy's care",
+   "restitution amount",
+   "FOX 5 Atlanta https://www.fox5atlanta.com/news/streamer-rapper-aspen-kartier-gets-jail-time-dekalb-puppy-abuse-case",
+   "pay $3,048 to cover the puppy’s veterinary bills and shelter care at LifeLine Animal Project, plus $39 a month in probation fees."
+  ],
+  [
+   "L10/L11",
+   "Answer B. 10 days in jail.",
+   "sentence",
+   "CBS News Atlanta https://www.cbsnews.com/atlanta/news/aspen-kartier-guilty-plea-animal-cruelty-sentencing-dekalb-county-twitch",
+   "A judge ordered her to spend 10 days in the DeKalb County Jail, minus two days that she already served, followed by a year of probation."
+  ],
+  [
+   "L12",
+   "The judge had planned 30, and called it \"symbolic.\"",
+   "judge's words",
+   "Decaturish https://www.decaturish.com/news/dekalb/rapper-who-abused-puppy-during-live-stream-pleads-guilty/article_ff6e56d3-f4c3-4653-b521-2f7b0b826b68.html",
+   "“I was going to sentence you to 30 days in jail. I'm not going to do that, but I am going to sentence you to 10 days and give you credit for the two that you have served.” “This is a very, very symbolic punishment,” Judge Wong added."
+  ],
+  [
+   "L12 pop",
+   "10 − 2 = 8 days",
+   "credit for 2 days",
+   "Decaturish https://www.decaturish.com/news/dekalb/rapper-who-abused-puppy-during-live-stream-pleads-guilty/article_ff6e56d3-f4c3-4653-b521-2f7b0b826b68.html",
+   "sentence you to 10 days and give you credit for the two that you have served."
+  ],
+  [
+   "meta",
+   "prosecutors argued for a stiffer punishment",
+   "prosecution position",
+   "FOX 5 Atlanta https://www.fox5atlanta.com/news/streamer-rapper-aspen-kartier-gets-jail-time-dekalb-puppy-abuse-case",
+   "Prosecutors in the DeKalb County Solicitor-General’s Office argued for a stiffer punishment."
+  ],
+  [
+   "meta",
+   "first-offender treatment refused",
+   "record",
+   "FOX 5 Atlanta https://www.fox5atlanta.com/news/streamer-rapper-aspen-kartier-gets-jail-time-dekalb-puppy-abuse-case",
+   "refused to clear her record as a first-time offender"
+  ],
+  [
+   "correction",
+   "(earlier card 'SHE LOST label deal' removed)",
+   "Decaturish reports she is still signed — card replaced with 'THE DEFENSE / \"10 minutes\"'",
+   "Decaturish https://www.decaturish.com/news/dekalb/rapper-who-abused-puppy-during-live-stream-pleads-guilty/article_ff6e56d3-f4c3-4653-b521-2f7b0b826b68.html",
+   "is still signed with Signal Records."
+  ]
+ ]
+}

@@ -1,0 +1,9 @@
+Engine v4 API stable — 2026-11-01
+Import named exports from production/compositor/src/cartoon/engine_v4/index.ts.
+Pure deterministic React/SVG; parent provides <svg viewBox="0 0 1920 1080">. No assets, audio, network or data side effects.
+Stage({shot:SceneShot,f,speech?:{amplitude,viseme}}): f is absolute 30 fps frame; shot.start/end are exclusive-end frames. SceneShot: id,start,end,set,type,action,mood,index,optional variant,facts,narrationId,purpose. Safe subtitle area y=929..1080.
+Puppet({role,x,y,f,scale?,view?,expr?,gesture?,viseme?,mouth?,walk?,run?,seed?,flip?,bag?,lean?,still?}): x/y are feet, f absolute; mouth 0..1. view front|three-quarter|profile|back; viseme rest|A|E|O|M|F. Robber/defendant roles always faceless. Employee/police/analyst/detective/judge/host have complete generic faces. Narrator should be the only speaking character for report narration.
+Set({name,f,p?,mood?}), Foreground({name,p}), Car, Bag, Bench, Desk, Glyph, EvidenceCard, EvidenceLinks, ToonMap, Timeline; C palette; ease utility; exported TS types. Set names: exterior,parking,parking-reverse,street,getaway,investigation,evidence,lab,court,arcade,spa,memorial.
+Shot types: wide,medium,close-up,over-the-shoulder,low-angle,high-angle,insert. Mood: day,night,tense,courtroom,reflective.
+Stage actions: exterior,block,approach,staff,reaction,bags,depart,empty,switch,police,car,evidence,mask,lab,dna,archive,arcade,cigarette,links,crowd,clues,identity,trace,map,spa,interview,statement,split,court,judge,records,scale,verdict,timeline,memorial. Unknown action uses narrator/question card. Public API remains stable for Task B imports; LF2 composition/data/render script are private to cartoon_v4.
+Tone: original 2D editorial toon; no copied franchise characters, 3D, remote dependencies, gunfire, injuries, real faces or extra on-screen body text.

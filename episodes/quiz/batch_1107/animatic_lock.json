@@ -1,0 +1,668 @@
+{
+  "status": "PRODUCER_TIMING_LOCK_NOT_CTO_APPROVAL",
+  "locked_at": "2026-11-06T04:00:58.294913+00:00",
+  "reference": "/Users/isaac/projects/verdict-kr/work/references/rick_and_morty/RM_DIRECTING_REFERENCE.md",
+  "reference_sha256": "0480596fa332d09e86dd82bb2658f83e721566ee12173a18f2001b18e82834ed",
+  "attribution": "Animatic-first and house-style consistency follow the provided research. Snap, hold and montage frame counts are our chosen timing, not published R&M metrics.",
+  "rough_video": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/batch_1107/animatic_q020.mp4",
+  "rough_video_sha256": "706c331a7942e344f2cfed0aecb38a86ea35f2a8761a9be189c20df85f58d5c1",
+  "staging_review": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/batch_1107/animatic_staging_check.png",
+  "duration_frames": 776,
+  "shots": [
+    {
+      "id": "S1.1",
+      "start_s": 0,
+      "end_s": 0.9,
+      "subject": "휘발유 붓기",
+      "location": "train",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "휘발유 통을 기울임 → 액체 흐름과 바닥 확산",
+      "intended_label": "지하철 방화 · 대표 동작",
+      "facts": [
+        "F1"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "달리는 지하철 안에 휘발유를 붓고"
+    },
+    {
+      "id": "S1.2",
+      "start_s": 0.9,
+      "end_s": 1.7666666666666666,
+      "subject": "발화",
+      "location": "train",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "바닥의 불이 연결된 불길로 커짐; 점화 도구 미등장",
+      "intended_label": "지하철 방화 · 대표 동작",
+      "facts": [
+        "F1"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "달리는 지하철 안에 휘발유를 붓고 / 불을 질렀습니다."
+    },
+    {
+      "id": "S1.3",
+      "start_s": 1.7666666666666666,
+      "end_s": 3.2333333333333334,
+      "subject": "승객 반응",
+      "location": "train",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "승객이 몸을 뒤로 젖히고 손을 듦",
+      "intended_label": "지하철 방화 · 대표 동작",
+      "facts": [
+        "F1"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "불을 질렀습니다. / 징역 몇 년일까요?"
+    },
+    {
+      "id": "S2.4",
+      "start_s": 3.2333333333333334,
+      "end_s": 4.833333333333333,
+      "subject": "객차",
+      "location": "train",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "객차와 불길·승객",
+      "intended_label": "승객 대피 · 보도 기반",
+      "facts": [
+        "F2"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "서울 지하철 5호선. / 불길이 번지자 승객들은 대피했고,"
+    },
+    {
+      "id": "S2.5",
+      "start_s": 4.833333333333333,
+      "end_s": 6.433333333333334,
+      "subject": "승객 표정",
+      "location": "train",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "승객 표정과 움츠림",
+      "intended_label": "승객 대피 · 보도 기반",
+      "facts": [
+        "F2"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "불길이 번지자 승객들은 대피했고, / 연기를 마신 사람도"
+    },
+    {
+      "id": "S2.6",
+      "start_s": 6.433333333333334,
+      "end_s": 8.033333333333333,
+      "subject": "객차의 연기",
+      "location": "train",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "연기가 객차를 채움",
+      "intended_label": "승객 대피 · 보도 기반",
+      "facts": [
+        "F2"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "연기를 마신 사람도 / 나왔습니다. / 검찰은 승객 160 명에 대한"
+    },
+    {
+      "id": "S3.7",
+      "start_s": 8.033333333333333,
+      "end_s": 9.633333333333333,
+      "subject": "객차 대피",
+      "location": "train",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "성인 승객의 객차 대피; 대표 동작으로 인원 불특정",
+      "intended_label": "살인미수 혐의 인원 · 보도 요약",
+      "facts": [
+        "F3"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "검찰은 승객 160 명에 대한 / 살인미수 혐의도 적용했습니다."
+    },
+    {
+      "id": "S3.8",
+      "start_s": 9.633333333333333,
+      "end_s": 10.4,
+      "subject": "살인미수 혐의 수치",
+      "location": "metaphor",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "눈코입·표정이 있는 가상 성인과 160명 살인미수 혐의 계수",
+      "intended_label": "살인미수 혐의 인원 · 보도 요약",
+      "facts": [
+        "F3"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "살인미수 혐의도 적용했습니다."
+    },
+    {
+      "id": "S3.9",
+      "start_s": 10.4,
+      "end_s": 11.2,
+      "subject": "승객 반응과 혐의 수치",
+      "location": "metaphor",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "표정 반응과 160명 혐의 수치의 가까운 구도",
+      "intended_label": "살인미수 혐의 인원 · 보도 요약",
+      "facts": [
+        "F3"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "실제 사망자 수가 아닙니다."
+    },
+    {
+      "id": "S3.10",
+      "start_s": 11.2,
+      "end_s": 11.966666666666667,
+      "subject": "혐의 인원 계수",
+      "location": "metaphor",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "혐의 160명 수치와 사망자 수가 아니라는 구별; 3샷 절차 몽타주",
+      "intended_label": "살인미수 혐의 인원 · 보도 요약",
+      "facts": [
+        "F3"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "실제 사망자 수가 아닙니다."
+    },
+    {
+      "id": "S4.11",
+      "start_s": 11.966666666666667,
+      "end_s": 13.166666666666666,
+      "subject": "재판부",
+      "location": "court",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "재판부 표정·손동작 클로즈업",
+      "intended_label": "구형과 선고 · 시각적 비유",
+      "facts": [
+        "F4"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "검찰 구형은 징역 20년."
+    },
+    {
+      "id": "S4.12",
+      "start_s": 13.166666666666666,
+      "end_s": 14.366666666666667,
+      "subject": "피고인",
+      "location": "court",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "피고인 표정·시선 클로즈업",
+      "intended_label": "구형과 선고 · 시각적 비유",
+      "facts": [
+        "F4"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "검찰 구형은 징역 20년. / 그런데 실제 선고는 달랐습니다."
+    },
+    {
+      "id": "S4.13",
+      "start_s": 14.366666666666667,
+      "end_s": 15.566666666666666,
+      "subject": "양형 판단의 저울",
+      "location": "metaphor",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": false,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "160 혐의 인원과 형량 질문의 저울; 비유",
+      "intended_label": "구형과 선고 · 시각적 비유",
+      "facts": [
+        "F4"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": false
+        }
+      ],
+      "graphic": "그런데 실제 선고는 달랐습니다. / 피해 회복도 대부분 이뤄지지 않았습니다."
+    },
+    {
+      "id": "S4.14",
+      "start_s": 15.566666666666666,
+      "end_s": 15.866666666666667,
+      "subject": "피고인 순간 반응",
+      "location": "court",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "3-frame snap zoom; hard cut, no dissolve",
+      "action": "피고인 가상 반응: 3프레임 얼굴 snap; 실제 태도 주장 아님",
+      "intended_label": "구형과 선고 · 시각적 비유",
+      "facts": [
+        "F4"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "피해 회복도 대부분 이뤄지지 않았습니다."
+    },
+    {
+      "id": "S4.15",
+      "start_s": 15.866666666666667,
+      "end_s": 16.166666666666668,
+      "subject": "심각한 피해자 반응",
+      "location": "train",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "심각한 성인 피해자 반응, 희화화·탄성 변형 없음",
+      "intended_label": "구형과 선고 · 시각적 비유",
+      "facts": [
+        "F4"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "피해 회복도 대부분 이뤄지지 않았습니다."
+    },
+    {
+      "id": "S4.16",
+      "start_s": 16.166666666666668,
+      "end_s": 16.466666666666665,
+      "subject": "판사 단호한 표정",
+      "location": "court",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "3-frame snap zoom; hard cut, no dissolve",
+      "action": "판사의 단호한 표정으로 하드컷",
+      "intended_label": "구형과 선고 · 시각적 비유",
+      "facts": [
+        "F4"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "피해 회복도 대부분 이뤄지지 않았습니다."
+    },
+    {
+      "id": "S4.17",
+      "start_s": 16.466666666666665,
+      "end_s": 16.766666666666666,
+      "subject": "기울어지는 저울",
+      "location": "metaphor",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": false,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "저울 비유로 하드컷; 인물 피해 없음",
+      "intended_label": "구형과 선고 · 시각적 비유",
+      "facts": [
+        "F4"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": false
+        }
+      ],
+      "graphic": "피해 회복도 대부분 이뤄지지 않았습니다."
+    },
+    {
+      "id": "S4.18",
+      "start_s": 16.766666666666666,
+      "end_s": 17,
+      "subject": "판사 준비 동작",
+      "location": "court",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "판사의 시선과 손 준비 동작",
+      "intended_label": "구형과 선고 · 시각적 비유",
+      "facts": [
+        "F4"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "피해 회복도 대부분 이뤄지지 않았습니다."
+    },
+    {
+      "id": "S5.19",
+      "start_s": 17,
+      "end_s": 21.866666666666667,
+      "subject": "선택 클라이맥스의 두 인물",
+      "location": "court",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "longest deliberate fixed framing; 3 option beats then countdown",
+      "action": "17–21.8667초 선택 클라이맥스: 고정 구도, A/B/C 각각 0.4초 강조·다른 포즈, 이후 숙고 시간",
+      "intended_label": "항소심 판단 대기",
+      "facts": [
+        "F5"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "재판부는 대중교통의 안전에 대한 신뢰까지 해쳤다고 / 지적했습니다. / 항소심도 유지한 형량은?"
+    },
+    {
+      "id": "S6.20",
+      "start_s": 21.866666666666667,
+      "end_s": 21.966666666666665,
+      "subject": "선고 순간 판사 얼굴",
+      "location": "court",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "3-frame snap zoom; hard cut, no dissolve",
+      "action": "선고·법봉 충격에 3프레임 판사 얼굴 snap",
+      "intended_label": "법원 선고",
+      "facts": [
+        "F6"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "항소심 선고, 징역 12년."
+    },
+    {
+      "id": "S6.21",
+      "start_s": 21.966666666666665,
+      "end_s": 22.566666666666666,
+      "subject": "선고 후 피고인 정적 반응",
+      "location": "court",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "18-frame intentional frozen expression",
+      "action": "선고 직후 피고인 표정 18프레임 정적 박자; 실제 태도 주장 아님",
+      "intended_label": "법원 선고",
+      "facts": [
+        "F6"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "항소심 선고, 징역 12년."
+    },
+    {
+      "id": "S6.22",
+      "start_s": 22.566666666666666,
+      "end_s": 23.566666666666666,
+      "subject": "피고인 어깨 너머 판사",
+      "location": "court",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "판사 안경 조정 후 판단 제스처",
+      "intended_label": "법원 선고",
+      "facts": [
+        "F6"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "항소심 선고, 징역 12년. / 보호관찰 3년입니다."
+    },
+    {
+      "id": "S6.23",
+      "start_s": 23.566666666666666,
+      "end_s": 24.366666666666667,
+      "subject": "피고인의 마지막 옆눈",
+      "location": "court",
+      "shot_size": "close",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "피고인 가상 옆눈 반응으로 답 구간 마무리",
+      "intended_label": "법원 선고",
+      "facts": [
+        "F6"
+      ],
+      "actors": [
+        {
+          "role": "비식별 독창 성인 toon; 저울 장면은 비인물 소품 비유",
+          "acting": true
+        }
+      ],
+      "graphic": "보호관찰 3년입니다."
+    },
+    {
+      "id": "S7.24",
+      "start_s": 24.366666666666667,
+      "end_s": 25.866666666666667,
+      "subject": "다음 사건",
+      "location": "kick",
+      "shot_size": "wide",
+      "screen_direction": "left_to_right",
+      "axis_side": "A",
+      "character_acting": true,
+      "camera": "motivated camera move; hard cut; actual renderer frame boundaries",
+      "action": "실제 다음 사건의 대표 동작과 질문",
+      "intended_label": "다음 사건 예고",
+      "facts": [
+        "F6"
+      ],
+      "actors": [
+        {
+          "role": "다음 사건 비식별 성인",
+          "acting": true
+        }
+      ],
+      "graphic": "다음 판결도 맞혀보세요. / 구독."
+    }
+  ],
+  "reaction_chain": {
+    "frames": [
+      467,
+      476,
+      485,
+      494
+    ],
+    "duration_s": 0.9,
+    "roles": [
+      "fictional defendant reaction",
+      "serious victim reaction",
+      "judge reaction"
+    ]
+  },
+  "procedure_montage": {
+    "frames": [
+      289,
+      312,
+      336,
+      359
+    ],
+    "shot_seconds": [
+      0.7666666666666667,
+      0.8,
+      0.7666666666666667
+    ],
+    "scope": "reported charge count and no-deaths clarification only; no invented investigation steps"
+  },
+  "choice": {
+    "shot_frames": [
+      510,
+      656
+    ],
+    "beats": [
+      [
+        510,
+        522
+      ],
+      [
+        522,
+        534
+      ],
+      [
+        534,
+        546
+      ]
+    ],
+    "snap_frames_per_option": 3,
+    "stable_full_set_frames": [
+      546,
+      656
+    ],
+    "stable_choose_s": 3.6666666666666665
+  },
+  "reveal": {
+    "snap_frames": [
+      656,
+      659
+    ],
+    "deadpan_frames": [
+      659,
+      677
+    ],
+    "deadpan_s": 0.6
+  },
+  "master_voice_sha256": "338673160d34d9d8faf84647857316b1713f46bde9be82f0e544b9ebeada9c13",
+  "subtitle_sha256": "2b122e2a3865ed6adfba24982d46554f6a654486f4721ebbb666db682b476f7e",
+  "fixes_before_lock": [
+    "Removed cropped bystanders from face closeups",
+    "Kept judge and defendant on the same left-right axis",
+    "Moved victim reaction to a serious, undeformed insert",
+    "Reserved the longest framing for actual viewer choice; no added narration gaps"
+  ],
+  "polish_remaining": [
+    "Distinct short non-gore choice sounds",
+    "Defendant forehead sweat only, no victim gag effects",
+    "Pencils recoil from symbolic gavel and settle",
+    "Clearer foreground shoulder in the over-the-shoulder shot"
+  ]
+}

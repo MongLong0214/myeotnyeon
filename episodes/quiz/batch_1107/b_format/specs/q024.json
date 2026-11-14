@@ -1,0 +1,149 @@
+{
+ "qid": "q024",
+ "variant": "B2",
+ "kind": "son",
+ "number_label": "",
+ "cover_text": "흉기 든 아들을\n죽인 아버지",
+ "defendant": "prof",
+ "choices": [
+  "집행유예",
+  "징역 4년",
+  "징역 12년"
+ ],
+ "correct": 1,
+ "answer": "징역 4년",
+ "answer_label": "대법원 · 확정",
+ "opinion": "이 형량,\n가볍다 / 적당 / 무겁다?",
+ "option_offsets": [
+  0.0,
+  0.84,
+  1.5
+ ],
+ "sfx": [
+  [
+   "open",
+   0,
+   "thud"
+  ],
+  [
+   "fight",
+   0,
+   "whoosh"
+  ],
+  [
+   "hook",
+   0,
+   "clank"
+  ],
+  [
+   "intent",
+   4,
+   "knock"
+  ]
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "open",
+   "tts": "흉기 든 아들, 한 시간.",
+   "shown": "흉기 든 아들,\n한 시간.",
+   "fact": "F1"
+  },
+  {
+   "id": "L02",
+   "mode": "fight",
+   "tts": "몸싸움 끝에, 아버지가 아들을 숨지게 했습니다.",
+   "shown": "몸싸움 끝에, 아버지가\n아들을 숨지게 했습니다.",
+   "fact": "F1"
+  },
+  {
+   "id": "L03",
+   "mode": "hook",
+   "tts": "이 아버지, 몇 년 나왔을까요?",
+   "shown": "이 아버지,\n몇 년 나왔을까요?",
+   "fact": "Q"
+  },
+  {
+   "id": "L04",
+   "mode": "grudge",
+   "tts": "어머니가 숨진 뒤, 아들은 아버지를 탓했습니다.",
+   "shown": "어머니가 숨진 뒤, 아들은\n아버지를 탓했습니다.",
+   "fact": "F2"
+  },
+  {
+   "id": "L05",
+   "mode": "night",
+   "tts": "그날 밤, 흉기를 들고 죽이겠다고 위협했습니다.",
+   "shown": "그날 밤, 흉기를 들고\n죽이겠다고 위협했습니다.",
+   "fact": "F3"
+  },
+  {
+   "id": "L06",
+   "mode": "claim",
+   "tts": "아버지는 살인 고의를 부인했습니다.",
+   "shown": "아버지는 살인 고의를\n부인했습니다.",
+   "fact": "F4"
+  },
+  {
+   "id": "L07",
+   "mode": "intent",
+   "tts": "법원은 살인의 고의를 인정했습니다.",
+   "shown": "법원은 살인의 고의를\n인정했습니다.",
+   "fact": "F4"
+  },
+  {
+   "id": "L08",
+   "mode": "fear",
+   "tts": "다만, 아들의 위협에 공포를 느꼈다고 봤습니다.",
+   "shown": "다만, 아들의 위협에\n공포를 느꼈다고 봤습니다.",
+   "fact": "F5"
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "대법원이 확정한 형량은?",
+   "shown": "대법원이 확정한 형량은?",
+   "fact": "Q"
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "집행유예, 징역 사 년, 십이 년.",
+   "shown": null,
+   "fact": "Q",
+   "target": 5.6,
+   "hold_after": 1.3
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "정답 비, 징역 사 년.",
+   "shown": "정답 B, 징역 4년.",
+   "fact": "F6",
+   "emphasis": "징역 4년"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "유일한 유족인 딸도, 처벌을 원하지 않았습니다.",
+   "shown": "유일한 유족인 딸도,\n처벌을 원하지 않았습니다.",
+   "fact": "F6"
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "가볍다 적당 무겁다?",
+   "shown": null,
+   "fact": "Q",
+   "hold_after": 0.9
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "그날 밤, 예고도 없이 아들이 찾아왔습니다.",
+   "shown": "그날 밤, 예고도 없이\n아들이 찾아왔습니다.",
+   "fact": "F3"
+  }
+ ],
+ "grave": true
+}

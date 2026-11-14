@@ -1,0 +1,19 @@
+{
+ "id": "clean_asphalt",
+ "name": "Clean Asphalt",
+ "type": 1,
+ "authors": {
+  "Dimitrios Savva": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/clean_asphalt",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Textures/blend/2k/clean_asphalt/clean_asphalt_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/clean_asphalt/clean_asphalt_diff_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/clean_asphalt/clean_asphalt_disp_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/clean_asphalt/clean_asphalt_nor_gl_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Textures/exr/2k/clean_asphalt/clean_asphalt_rough_2k.exr"
+ ]
+}

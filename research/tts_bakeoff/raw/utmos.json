@@ -1,0 +1,16 @@
+{
+ "chatterbox-ml_female": 4.118508815765381,
+ "chatterbox-ml_male": 3.536163091659546,
+ "melotts_KR": 3.932124614715576,
+ "moss-nano_female": 1.4150550365447998,
+ "moss-nano_male": 1.2445875406265259,
+ "qwen3tts-cv_ryan": 2.9615485668182373,
+ "qwen3tts-cv_sohee-paced": 2.2966830730438232,
+ "qwen3tts-cv_sohee": 2.4566588401794434,
+ "qwen3tts-design_female": 3.614288330078125,
+ "qwen3tts-design_male-paced": 2.850076675415039,
+ "qwen3tts-design_male": 3.1108827590942383,
+ "supertonic3_M1": 3.8769702911376953,
+ "voxcpm2-design_female": 1.7873371839523315,
+ "voxcpm2-design_male": 2.1630170345306396
+}

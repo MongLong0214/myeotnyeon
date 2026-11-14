@@ -1,0 +1,107 @@
+{
+  "training-ground": {
+    "palette": [
+      "#e0d9b9",
+      "#9aa68a",
+      "#d1b887"
+    ],
+    "representation": "symbolic 2D reconstruction; not the actual layout",
+    "parallax_layers": [
+      "sky-wall",
+      "architecture",
+      "props",
+      "foreground"
+    ],
+    "medical_gore": false
+  },
+  "barracks": {
+    "palette": [
+      "#c7d1bf",
+      "#6f8273",
+      "#bda982"
+    ],
+    "representation": "symbolic 2D reconstruction; not the actual layout",
+    "parallax_layers": [
+      "sky-wall",
+      "architecture",
+      "props",
+      "foreground"
+    ],
+    "medical_gore": false
+  },
+  "hospital-exterior": {
+    "palette": [
+      "#b8d2cc",
+      "#e7e9da",
+      "#4e777c"
+    ],
+    "representation": "symbolic 2D reconstruction; not the actual layout",
+    "parallax_layers": [
+      "sky-wall",
+      "architecture",
+      "props",
+      "foreground"
+    ],
+    "medical_gore": false
+  },
+  "investigation": {
+    "palette": [
+      "#52656b",
+      "#c5c7ae",
+      "#8b7657"
+    ],
+    "representation": "symbolic 2D reconstruction; not the actual layout",
+    "parallax_layers": [
+      "sky-wall",
+      "architecture",
+      "props",
+      "foreground"
+    ],
+    "medical_gore": false
+  },
+  "courtroom": {
+    "palette": [
+      "#768782",
+      "#c5c4aa",
+      "#8b6649"
+    ],
+    "representation": "symbolic 2D reconstruction; not the actual layout",
+    "parallax_layers": [
+      "sky-wall",
+      "architecture",
+      "props",
+      "foreground"
+    ],
+    "medical_gore": false
+  },
+  "memorial": {
+    "palette": [
+      "#c4d1bf",
+      "#e7e3cb",
+      "#788e7b"
+    ],
+    "representation": "symbolic 2D reconstruction; not the actual layout",
+    "parallax_layers": [
+      "sky-wall",
+      "architecture",
+      "props",
+      "foreground"
+    ],
+    "medical_gore": false
+  },
+  "briefing": {
+    "palette": [
+      "#c8d4c3",
+      "#86a798",
+      "#e5debe"
+    ],
+    "representation": "symbolic 2D reconstruction; not the actual layout",
+    "parallax_layers": [
+      "sky-wall",
+      "architecture",
+      "props",
+      "foreground"
+    ],
+    "medical_gore": false
+  }
+}

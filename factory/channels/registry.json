@@ -1,0 +1,86 @@
+{
+ "schema": 1,
+ "note": "Read-only channel data. No secrets. Slot times are KST (Asia/Seoul, UTC+9, no DST). Package dirs live in upload/pkg/<prefix><n>_B.",
+ "experiment_kill_rule": {
+  "applies_to": "status=experiment",
+  "first_uploads": 3,
+  "views_48h_below": 500,
+  "engaged_share_below": 0.3,
+  "stop_if": "every one of the first 3 uploads has views_48h < 500 AND engaged_views/views at 48 h < 30%",
+  "action": "stop scheduling new uploads; delete nothing, published videos stay",
+  "otherwise": "continue, re-judged every 7 days against the baseline channel",
+  "rejudge_every_days": 7,
+  "baseline_channel": "myeotnyeon",
+  "source": "owner-adopted rule, relayed by the coordinator 2026-11-13",
+  "judge": "factory/ops/queue.py judge --channel KEY"
+ },
+ "channels": [
+  {
+   "key": "myeotnyeon",
+   "name": "철컹철컹",
+   "channel_id": "UCw5vw6Yf-tV9klm05p-0O0A",
+   "handle": "@몇년나옴",
+   "language": "ko",
+   "format": "court-case result-first Shorts (B3, no quiz board, no comment prompt; owner 11-14)",
+   "spec_format": "result_first",
+   "publish_slots_kst": [
+    "12:00",
+    "19:00"
+   ],
+   "uploads_per_day": 2,
+   "status": "active",
+   "package_prefix": "q",
+   "package_glob": "q*_B",
+   "former_name": "몇년나옴",
+   "renamed": "2026-11-14"
+  },
+  {
+   "key": "guessthesentence",
+   "name": "Guess The Sentence",
+   "channel_id": "UCSCDifMQsFnajHCOrr5YITg",
+   "handle": "@guessthesentence",
+   "language": "en",
+   "format": "court-case sentence quiz Shorts (B3, en locale)",
+   "publish_slots_kst": [
+    "09:00"
+   ],
+   "slot_note": "09:00 KST = 19:00 US Eastern (EST); 20:00 EDT in summer",
+   "uploads_per_day": 1,
+   "status": "experiment",
+   "package_prefix": "en",
+   "package_glob": "en*_B"
+  },
+  {
+   "key": "nannenderu",
+   "name": "何年出る 判決クイズ",
+   "channel_id": "UC31gC7rrhZbZJgCZHhk7EEA",
+   "handle": "@nannenderu",
+   "language": "ja",
+   "format": "court-case sentence quiz Shorts (B3, ja locale)",
+   "publish_slots_kst": [
+    "19:00"
+   ],
+   "slot_note": "JST = KST",
+   "uploads_per_day": 1,
+   "status": "experiment",
+   "package_prefix": "ja",
+   "package_glob": "ja*_B"
+  },
+  {
+   "key": "beastclash",
+   "name": "Beast Clash",
+   "channel_id": "UC7oNve8s4AOcQokpnvZUjtA",
+   "handle": "@beastclashtoon",
+   "language": "en",
+   "format": "animal versus cartoon Shorts",
+   "publish_slots_kst": [
+    "09:00"
+   ],
+   "slot_note": "09:00 KST = 19:00 US Eastern (EST)",
+   "uploads_per_day": 1,
+   "status": "experiment",
+   "package_prefix": "bc",
+   "package_glob": "bc*_B"
+  }
+ ]
+}

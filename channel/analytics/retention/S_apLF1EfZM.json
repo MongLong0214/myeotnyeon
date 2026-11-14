@@ -1,0 +1,35 @@
+{
+ "video_id": "S_apLF1EfZM",
+ "start_date": "2026-10-01",
+ "end_date": "2026-11-08",
+ "transcript": "upload/pkg/q020_batch1107/asr_master.json",
+ "query": {
+  "dimensions": "elapsedVideoTimeRatio",
+  "metrics": "audienceWatchRatio,relativeRetentionPerformance",
+  "filters": "video==S_apLF1EfZM"
+ },
+ "title": "지하철에 휘발유 방화…160명 살인미수 혐의, 몇 년?",
+ "duration_s": 25,
+ "raw": {
+  "columnHeaders": [
+   {
+    "name": "elapsedVideoTimeRatio",
+    "columnType": "DIMENSION",
+    "dataType": "FLOAT"
+   },
+   {
+    "name": "audienceWatchRatio",
+    "columnType": "METRIC",
+    "dataType": "FLOAT"
+   },
+   {
+    "name": "relativeRetentionPerformance",
+    "columnType": "METRIC",
+    "dataType": "FLOAT"
+   }
+  ],
+  "rows": []
+ },
+ "error": "query succeeded (HTTP 200) but returned 0 curve points for 2026-10-01..2026-11-08",
+ "qid": "q020"
+}

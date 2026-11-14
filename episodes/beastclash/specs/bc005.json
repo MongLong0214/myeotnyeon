@@ -1,0 +1,189 @@
+{
+ "id": "bc005",
+ "voice": "af_bella",
+ "speed": 1.32,
+ "a": "hippo",
+ "b": "croc",
+ "winner": "a",
+ "bg": "river",
+ "title": [
+  "HIPPO",
+  "NILE CROC"
+ ],
+ "tag": [
+  "9,920 LB",
+  "1,650 LB"
+ ],
+ "gap": 0.03,
+ "caps": "words",
+ "keep": [
+  "hippo",
+  "nile croc",
+  "nile crocodile"
+ ],
+ "stats": [
+  {
+   "label": "MAX WEIGHT",
+   "a": {
+    "big": "9,920 LB",
+    "small": "≈4,500 kg"
+   },
+   "b": {
+    "big": "1,650 LB",
+    "small": "≈750 kg"
+   },
+   "win": "a"
+  },
+  {
+   "label": "MAX LENGTH",
+   "a": {
+    "big": "16.5 FT",
+    "small": "≈5 m"
+   },
+   "b": {
+    "big": "20 FT",
+    "small": "≈6.1 m"
+   },
+   "win": "b"
+  },
+  {
+   "label": "MAX CANINES",
+   "a": {
+    "big": "20 IN",
+    "small": "≈51 cm"
+   },
+   "win": "a"
+  }
+ ],
+ "verdict": {
+  "note": "HYPOTHETICAL · SOURCE MAXIMUMS",
+  "note2": "SMALL HIPPOS LISTED AS PREY",
+  "pop1": "HIGHER MAX WEIGHT: HIPPO",
+  "pop2": "SMALL HIPPOS LISTED AS PREY",
+  "head": "HYPOTHETICAL WINNER",
+  "name": "HIPPO"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "face",
+   "tts": "Hippo versus Nile crocodile!",
+   "shown": "Hippo vs Nile crocodile!",
+   "speed": 1.25
+  },
+  {
+   "id": "L02",
+   "mode": "stat",
+   "tts": "Male hippo: up to nine thousand nine hundred twenty pounds! Croc: up to one thousand six hundred fifty!",
+   "shown": "Male hippo: up to 9,920 pounds! Croc: up to 1,650!",
+   "k": 0,
+   "speed": 1.35
+  },
+  {
+   "id": "L03",
+   "mode": "stat",
+   "tts": "Hippo: up to sixteen point five feet! Croc: about twenty!",
+   "shown": "Hippo: up to 16.5 feet! Croc: about 20!",
+   "k": 1,
+   "speed": 1.35
+  },
+  {
+   "id": "L04",
+   "mode": "stat",
+   "tts": "The hippo's canine teeth: up to twenty inches!",
+   "shown": "The hippo's canine teeth: up to 20 inches!",
+   "k": 2,
+   "speed": 1.24
+  },
+  {
+   "id": "L05",
+   "mode": "prompt",
+   "tts": "Who wins? Take your pick!",
+   "shown": "Who wins? Take your pick!",
+   "speed": 1.16
+  },
+  {
+   "id": "L06",
+   "mode": "clash",
+   "tts": "The hippo charges in!",
+   "shown": "The hippo charges in!",
+   "shots": [
+    {
+     "s": "charge",
+     "who": "a"
+    }
+   ],
+   "hold": 0.0,
+   "speed": 1.13
+  },
+  {
+   "id": "L07",
+   "mode": "clash",
+   "tts": "Up rears the croc. Jaws first!",
+   "shown": "Up rears the croc. Jaws first!",
+   "shots": [
+    {
+     "s": "rear",
+     "who": "b"
+    },
+    {
+     "s": "strike",
+     "who": "b"
+    }
+   ],
+   "hold": 0.0,
+   "speed": 1.12
+  },
+  {
+   "id": "L08",
+   "mode": "clash",
+   "tts": "BAM! The hippo takes the hit!",
+   "shown": "BAM! The hippo takes the hit!",
+   "shots": [
+    {
+     "s": "impact",
+     "who": "a",
+     "tank": true
+    }
+   ],
+   "hold": 0.0,
+   "speed": 1.16
+  },
+  {
+   "id": "L09",
+   "mode": "clash",
+   "tts": "The croc backs away!",
+   "shown": "The croc backs away!",
+   "shots": [
+    {
+     "s": "retreat",
+     "who": "b"
+    }
+   ],
+   "hold": 0.12,
+   "speed": 1.11
+  },
+  {
+   "id": "L10",
+   "mode": "verdict",
+   "tts": "These sources list a higher maximum weight for hippos.",
+   "shown": "These sources list a higher maximum weight for hippos.",
+   "k": 0,
+   "speed": 1.26
+  },
+  {
+   "id": "L11",
+   "mode": "verdict",
+   "tts": "This matchup is hypothetical.",
+   "shown": "This matchup is hypothetical.",
+   "k": 1
+  },
+  {
+   "id": "L12",
+   "mode": "loop",
+   "tts": "Rematch? Round two!",
+   "shown": "Rematch? Round 2!"
+  }
+ ],
+ "source_spec": "episodes/specs/bc005.json"
+}

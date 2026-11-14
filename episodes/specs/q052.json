@@ -1,0 +1,359 @@
+{
+ "spec_version": 1,
+ "id": "q052",
+ "locale": "ko",
+ "variant": "B3",
+ "channel": "myeotnyeon",
+ "case": {
+  "category": "other",
+  "grave": false,
+  "deaths": 0,
+  "victim_minor": false,
+  "sexual_offence": false,
+  "court": "대전지법",
+  "instance": "1심",
+  "finality": "항소 미확인",
+  "verdict_date": "unknown",
+  "sentence_fact": "F3"
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "연합뉴스",
+   "url": "https://n.news.naver.com/mnews/article/001/0016441125?sid=102",
+   "published": "2026-11-13"
+  },
+  {
+   "id": "S2",
+   "outlet": "한겨레",
+   "url": "https://n.news.naver.com/mnews/article/028/0002832141?sid=102",
+   "published": "2026-11-13"
+  },
+  {
+   "id": "S3",
+   "outlet": "연합뉴스TV",
+   "url": "https://n.news.naver.com/mnews/article/422/0000925938?sid=102",
+   "published": "2026-11-13"
+  }
+ ],
+ "facts": [
+  {
+   "id": "F1",
+   "claim": "대덕대 전 대외부총장 겸 총장직무대리는 2021~2023년 자녀·조카를 법인 산하 교육기관에 채용해 주겠다고 약속하고 4명에게서 모두 2억 4천만 원을 받은 혐의로 재판에 넘겨졌다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "자녀·친척을 법인 산하 교육기관에서 일하게 해주겠다는 조건으로 4명에게서 2억4천만원을 받은 혐의로 재판에 넘겨졌다."
+    },
+    {
+     "source": "S3",
+     "text": "법인 산하 교육기관에 자녀나 조카를 채용해 주겠다고 약속하고 4명에게 모두 2억 4천만 원을 받은 혐의로 재판에 넘겨졌습니다."
+    }
+   ],
+   "values": {
+    "amt": {
+     "kind": "amount",
+     "text": "2억 4천만 원"
+    },
+    "amt2": {
+     "kind": "amount",
+     "text": "2억"
+    },
+    "ppl": {
+     "kind": "count",
+     "text": "4명"
+    }
+   }
+  },
+  {
+   "id": "F2",
+   "claim": "피고인은 빌려준 돈을 돌려받았을 뿐이라고 주장했지만, 재판부는 일부 돈거래가 토지 매매계약서나 차용증 형식을 빌렸어도 실제로는 채용 보장 대가로 오간 돈이라고 판단했다.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "일부 돈거래는 토지 매매계약서 형식을 빌리거나 차용증을 작성하기는 했으나 실제로는 채용 보장 등 대가성으로 오간 돈임을 알 수 있다"
+    },
+    {
+     "source": "S2",
+     "text": "일부 돈거래는 토지 매매계약서 형식을 빌리거나 차용증을 작성하기는 했으나 실제로는 채용 보장 등 대가성으로 오간 돈임을 알 수 있다"
+    }
+   ]
+  },
+  {
+   "id": "F3",
+   "claim": "대전지법 형사6단독은 구속 기소된 전 대외부총장 겸 총장직무대리에게 징역 4년을 선고하고 2억 4천만 원 추징을 명령했다. 사건은 1심이며, 항소 여부는 어느 기사에도 없다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "징역 4년을 선고하고 2억4천만원 추징을 명령했다."
+    },
+    {
+     "source": "S3",
+     "text": "징역 4년을 선고하고 2억 4천만 원 추징을 명령했습니다."
+    },
+    {
+     "source": "S2",
+     "text": "채용을 대가로 돈을 챙긴 혐의로 대덕대학교 전 부총장이 1심에서 실형을 받았다."
+    }
+   ],
+   "values": {
+    "sentence": {
+     "kind": "duration",
+     "text": "징역 4년"
+    },
+    "fine": {
+     "kind": "amount",
+     "text": "2억 4천만 원"
+    },
+    "fine2": {
+     "kind": "amount",
+     "text": "2억"
+    }
+   }
+  },
+  {
+   "id": "F4",
+   "claim": "재판부는 부정한 청탁을 받고 금품을 수수하거나 먼저 돈을 요구하는 등 법인 운영을 혼탁하게 해 죄질이 매우 좋지 않다고 밝혔다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "법인 운영을 혼탁하게 해 죄질이 매우 좋지 않다"
+    },
+    {
+     "source": "S3",
+     "text": "법인 운영을 혼탁하게 해 죄질이 매우 좋지 않다"
+    }
+   ]
+  },
+  {
+   "id": "F5",
+   "claim": "재판부는 청탁금 상당액을 반환한 점 등을 양형에 참작했다고 설명했다.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "청탁금 상당수를 반환했고, 일부는 미수에 그친 점"
+    },
+    {
+     "source": "S3",
+     "text": "청탁금 상당액을 반환한 점 등을 고려했다고 설명했습니다."
+    }
+   ]
+  },
+  {
+   "id": "F6",
+   "claim": "함께 구속 기소된 법인 관계자 B씨는 징역 2년에 집행유예 3년이 선고됐다.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "B씨에게는 징역 2년에 집행유예 3년을 선고하고"
+    },
+    {
+     "source": "S3",
+     "text": "징역 2년에 집행유예 3년과 사회봉사 200시간이 선고됐습니다."
+    }
+   ],
+   "values": {
+    "co": {
+     "kind": "duration",
+     "text": "징역 2년"
+    },
+    "cosusp": {
+     "kind": "duration",
+     "text": "집행유예 3년"
+    }
+   }
+  }
+ ],
+ "title": "채용 대가 '2억 원대' 챙긴 부총장, 몇 년?",
+ "description": "대덕대학교 전 대외부총장 겸 총장직무대리는 자녀나 조카를 법인 산하 교육기관에 채용해 주겠다고 약속하고 4명에게서 모두 2억 4천만 원을 받은 혐의로 재판에 넘겨졌습니다.\n대전지법은 징역 4년을 선고하고 2억 4천만 원 추징을 명령했습니다. 재판부는 일부 돈거래가 차용증 형식을 빌렸어도 실제로는 채용 보장 대가로 오간 돈이라고 판단했습니다.",
+ "hashtags": [
+  "#채용비리",
+  "#배임수재",
+  "#판결",
+  "#철컹철컹",
+  "#shorts"
+ ],
+ "cover": "채용 약속하고\n2억 원대 수수",
+ "hook": [
+  "채용 대가 2억 원대",
+  "징역 4년 선고"
+ ],
+ "stage": "pledge",
+ "defendant": "official",
+ "quiz": {
+  "choices": [
+   "징역 1년",
+   "징역 4년",
+   "벌금 2억 원"
+  ],
+  "answer": 1
+ },
+ "lines": [
+  {
+   "beat": "open",
+   "text": "자녀를 채용해 준다며, 2억 원대.",
+   "fact": "F1"
+  },
+  {
+   "beat": "hook",
+   "text": "법인 간부가, 4명에게 채용을 약속했습니다.",
+   "fact": "F1",
+   "actor": "official",
+   "shots": [
+    {
+     "scene": "stamp",
+     "label": "채용 약속",
+     "stamp": "4명"
+    },
+    {
+     "scene": "react",
+     "expr": "smug",
+     "move": "nod"
+    }
+   ]
+  },
+  {
+   "beat": "guess",
+   "text": "돈은 차용증과, 토지 매매계약서로 포장했습니다.",
+   "fact": "F2",
+   "actor": "official",
+   "shots": [
+    {
+     "scene": "paper",
+     "lines": [
+      "차용증",
+      "토지 매매계약서"
+     ]
+    },
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "shake"
+    }
+   ]
+  },
+  {
+   "beat": "twist",
+   "text": "하지만 법원은, 채용 보장 대가로 오간 돈이라고 봤습니다.",
+   "fact": "F2",
+   "actor": "official",
+   "shots": [
+    {
+     "scene": "judge"
+    },
+    {
+     "scene": "bubble",
+     "lines": [
+      "채용 보장",
+      "대가로 오간 돈"
+     ]
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "재판부는, 죄질이 매우 좋지 않다고 했습니다.",
+   "fact": "F4",
+   "actor": "official",
+   "shots": [
+    {
+     "scene": "judge"
+    },
+    {
+     "scene": "react",
+     "expr": "concern",
+     "move": "shake"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "다만 청탁금 상당액을 돌려준 점은, 참작했습니다.",
+   "fact": "F5",
+   "actor": "official",
+   "shots": [
+    {
+     "scene": "paper",
+     "lines": [
+      "청탁금",
+      "상당액 반환"
+     ]
+    },
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "nod"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "함께 기소된 관계자는, 징역 2년에 집행유예 3년입니다.",
+   "fact": "F6",
+   "actor": "official",
+   "shots": [
+    {
+     "scene": "paper",
+     "lines": [
+      "징역 2년",
+      "집행유예 3년"
+     ]
+    },
+    {
+     "scene": "judge"
+    }
+   ]
+  },
+  {
+   "beat": "answer2",
+   "text": "1심 선고는 징역 4년, 추징 2억 원대.",
+   "fact": "F3",
+   "shots": [
+    {
+     "scene": "stamp",
+     "label": "선고",
+     "stamp": "1심"
+    },
+    {
+     "scene": "paper",
+     "lines": [
+      "징역 4년",
+      "추징 2억 원대"
+     ]
+    },
+    {
+     "scene": "judge"
+    }
+   ]
+  },
+  {
+   "beat": "loop",
+   "text": "법인 사무국장이, 이렇게 말하며,",
+   "fact": "F1"
+  }
+ ],
+ "pops": [
+  {
+   "beat": "hook",
+   "at": 0.45,
+   "big": "{amt} 원대",
+   "small": "{n}에게 채용 대가",
+   "vars": {
+    "amt": "F1.amt2",
+    "n": "F1.ppl"
+   }
+  },
+  {
+   "beat": "answer2",
+   "at": 0.05,
+   "big": "{s}",
+   "small": "추징 {f} 원대",
+   "vars": {
+    "s": "F3.sentence",
+    "f": "F3.fine2"
+   }
+  }
+ ],
+ "format": "result_first",
+ "pinned": "실제 판결: 대전지법 1심 징역 4년, 추징 2억 4천만 원. 항소 여부는 보도에 없어 확인되지 않았습니다."
+}

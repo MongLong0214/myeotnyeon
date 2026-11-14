@@ -1,0 +1,82 @@
+{
+ "header": {
+  "court": "Miami-Dade Circuit Court, Florida (Judge Marisa Tinkler Mendez)",
+  "date": "plea and sentence 2026-11-06",
+  "charge": "pleaded guilty to aggravated assault with a firearm (reduced from attempted second-degree murder)",
+  "sentence": "3 years of probation; weekly counseling; no firearm possession; no criminal conviction under the plea (adjudication withheld wording per AP: 'would not have any criminal conviction')",
+  "finality": "Negotiated plea; no appeal reported (2026-11-13). Probation may be ended early at about the halfway mark if terms are met.",
+  "public_figure": "Generic original character only — no likeness, jersey number or team logo. Never says 'convicted'."
+ },
+ "items": [
+  [
+   "L01",
+   "Two shots, at fight night.",
+   "fired two shots outside a boxing event",
+   "ESPN https://www.espn.com/nfl/story/_/id/50400733/antonio-brown-pleads-guilty-lesser-charge-shooting-case",
+   "grabbed a handgun from a security staffer at the event and fired two shots at a man he had been in a fistfight with earlier."
+  ],
+  [
+   "L03",
+   "Charged with attempted murder, a 20-year minimum,",
+   "original charge / exposure",
+   "CBS News Miami (AP) https://www.cbsnews.com/miami/news/antonio-brown-plea-deal-2025-miami-shooting-celebrity-boxing-match",
+   "\"My client was facing 30 years in prison with a 20-year minimum mandatory, and he was given an offer he just couldn't refuse,\" he said."
+  ],
+  [
+   "L04",
+   "but the other man stopped cooperating.",
+   "victim would not cooperate",
+   "ESPN https://www.espn.com/nfl/story/_/id/50400733/antonio-brown-pleads-guilty-lesser-charge-shooting-case",
+   "the victim, who was grazed in the neck, was in court for the hearing and has said publicly that he wouldn't cooperate with police"
+  ],
+  [
+   "L05",
+   "He grabbed a guard's gun and fired twice.",
+   "handgun from security staffer",
+   "CBS News Miami (AP) https://www.cbsnews.com/miami/news/antonio-brown-plea-deal-2025-miami-shooting-celebrity-boxing-match",
+   "grabbed a handgun from a security staffer at the event and fired two shots at a man he had been in a fistfight with earlier."
+  ],
+  [
+   "L05 card",
+   "\"grazed my neck\"",
+   "victim grazed",
+   "ESPN https://www.espn.com/nfl/story/_/id/50400733/antonio-brown-pleads-guilty-lesser-charge-shooting-case",
+   "the victim, who was grazed in the neck"
+  ],
+  [
+   "L06",
+   "He claimed self-defense, and was extradited from Dubai.",
+   "self-defense claim; extradition",
+   "CBS News Miami (AP) https://www.cbsnews.com/miami/news/antonio-brown-plea-deal-2025-miami-shooting-celebrity-boxing-match",
+   "Brown, 38, maintained he was defending himself from an attack as others were trying to steal jewelry from him. ... Brown was extradited in November 2025 from Dubai"
+  ],
+  [
+   "L10/L11",
+   "Answer C. 3 years of probation.",
+   "sentence",
+   "ESPN https://www.espn.com/nfl/story/_/id/50400733/antonio-brown-pleads-guilty-lesser-charge-shooting-case",
+   "Judge Marisa Tinkler Mendez sentenced Brown to three years of probation, during which time he will have to attend weekly counseling sessions and not possess a firearm, among other conditions."
+  ],
+  [
+   "L12",
+   "No jail, and no conviction on his record.",
+   "no conviction",
+   "ABC News (AP) https://abcnews.com/US/wireStory/judge-accepts-nfl-star-antonio-browns-guilty-plea-137917266",
+   "He would not have any criminal conviction under the plea and could seek an early termination of probation at about the halfway mark of the sentence so long as all terms are met."
+  ],
+  [
+   "L12 pop",
+   "0 days in jail or prison",
+   "no jail",
+   "NBC News https://www.nbcnews.com/news/us-news/antonio-brown-avoids-jail-pleading-guilty-lesser-change-miami-shooting-rcna607840",
+   "The former NFL wide receiver was sentenced to probation, avoiding up to 30 years in prison"
+  ],
+  [
+   "prosecutor reason (meta)",
+   "reduced charge",
+   "doubt about intent",
+   "ESPN https://www.espn.com/nfl/story/_/id/50400733/antonio-brown-pleads-guilty-lesser-charge-shooting-case",
+   "his office was seeking to reduce the charge against Brown because there was \"a question\" of whether he was actually attempting to shoot the victim, who had been walking away"
+  ]
+ ]
+}

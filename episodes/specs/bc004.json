@@ -1,0 +1,251 @@
+{
+ "spec_version": 1,
+ "id": "bc004",
+ "locale": "en",
+ "variant": "BC",
+ "channel": "beastclash",
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "SeaWorld — Killer whale",
+   "url": "https://seaworld.org/animals/all-about/killer-whale/characteristics/"
+  },
+  {
+   "id": "S2",
+   "outlet": "NOAA Fisheries — White shark",
+   "url": "https://www.fisheries.noaa.gov/species/white-shark"
+  },
+  {
+   "id": "S3",
+   "outlet": "NOAA Fisheries — Killer whale",
+   "url": "https://www.fisheries.noaa.gov/species/killer-whale"
+  },
+  {
+   "id": "S4",
+   "outlet": "Jorgensen 2019, Scientific Reports",
+   "url": "https://www.nature.com/articles/s41598-019-39356-2"
+  }
+ ],
+ "facts": [
+  {
+   "id": "F1",
+   "claim": "The largest recorded male killer whale was 32 ft and 22,000 lbs.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "The largest recorded male killer whale was 9.8 m (32 ft.) in length and weighed 10,000 kg (22,000 lbs.)"
+    }
+   ],
+   "values": {
+    "weight": {
+     "kind": "measure",
+     "text": "22,000 lbs"
+    },
+    "length": {
+     "kind": "measure",
+     "text": "32 ft"
+    }
+   }
+  },
+  {
+   "id": "F2",
+   "claim": "White sharks weigh up to 4,500 pounds and reach up to 21 feet as adults.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "Weight Up to 4,500 pounds Length About 4 feet (at birth) and up to 21 feet (adult)"
+    }
+   ],
+   "values": {
+    "weight": {
+     "kind": "measure",
+     "text": "4,500 pounds"
+    },
+    "length": {
+     "kind": "measure",
+     "text": "21 feet"
+    }
+   }
+  },
+  {
+   "id": "F3",
+   "claim": "Killer whale teeth are about 3 in. long.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "Teeth are about 7.6 cm (3 in.) long"
+    }
+   ],
+   "values": {
+    "teeth": {
+     "kind": "measure",
+     "text": "3 in"
+    }
+   }
+  },
+  {
+   "id": "F4",
+   "claim": "Offshore killer whales eat fish, including sharks.",
+   "quotes": [
+    {
+     "source": "S3",
+     "text": "Offshore killer whales eat fish, including sharks."
+    }
+   ]
+  },
+  {
+   "id": "F5",
+   "claim": "At Southeast Farallon Island, brief killer whale visits displaced white sharks; no direct predation on white sharks was observed, though it could not be ruled out for untagged sharks.",
+   "quotes": [
+    {
+     "source": "S4",
+     "text": "In multiple instances, brief visits from killer whales displaced white sharks from SEFI"
+    },
+    {
+     "source": "S4",
+     "text": "There were no observations of direct predation on white sharks"
+    }
+   ]
+  }
+ ],
+ "title": "Orca vs Great White Shark — Who Wins?",
+ "description": "A killer whale against a great white shark. SeaWorld reports the largest recorded male killer whale at 32 ft and 22,000 lbs; NOAA lists white sharks at up to 4,500 pounds and up to 21 feet (adult). In a tagging study, brief visits from killer whales displaced white sharks from a shared hunting site. Hypothetical matchup.",
+ "hashtags": [
+  "#animals",
+  "#versus",
+  "#orca",
+  "#greatwhiteshark",
+  "#shorts"
+ ],
+ "bc": {
+  "a": "orca",
+  "b": "shark",
+  "winner": "a",
+  "bg": "ocean",
+  "voice": "af_bella",
+  "stats": [
+   {
+    "label": "MAX WEIGHT",
+    "a": "F1.weight",
+    "b": "F2.weight",
+    "win": "a"
+   },
+   {
+    "label": "MAX LENGTH",
+    "a": "F1.length",
+    "b": "F2.length",
+    "win": "a"
+   },
+   {
+    "label": "TEETH",
+    "a": "F3.teeth",
+    "win": "a"
+   }
+  ],
+  "verdict": {
+   "note": "HYPOTHETICAL · LARGEST RECORDED MALE",
+   "note2": "A STUDY AT ONE SHARED SITE",
+   "pop1": "ORCA > WHITE SHARK",
+   "pop2": "SHARKS LEFT WHEN ORCAS CAME"
+  }
+ },
+ "lines": [
+  {
+   "beat": "face",
+   "text": "Orca vs great white shark!",
+   "fact": "F5"
+  },
+  {
+   "beat": "stat",
+   "text": "22,000 lbs vs 4,500 pounds!",
+   "fact": "F1"
+  },
+  {
+   "beat": "stat",
+   "text": "32 ft vs 21 feet!",
+   "fact": "F2"
+  },
+  {
+   "beat": "stat",
+   "text": "Orca teeth: 3 in. long!",
+   "fact": "F3",
+   "say": "Orca teeth: three inches long!"
+  },
+  {
+   "beat": "prompt",
+   "text": "Who wins? Take your pick!",
+   "fact": "F5"
+  },
+  {
+   "beat": "clash",
+   "text": "The shark closes in!",
+   "fact": "F2",
+   "shots": [
+    {
+     "scene": "charge",
+     "who": "b"
+    }
+   ]
+  },
+  {
+   "beat": "clash",
+   "text": "The orca rears up. Jaws first!",
+   "fact": "F4",
+   "shots": [
+    {
+     "scene": "rear",
+     "who": "a"
+    },
+    {
+     "scene": "strike",
+     "who": "a"
+    }
+   ]
+  },
+  {
+   "beat": "clash",
+   "text": "The shark lunges again!",
+   "fact": "F2",
+   "shots": [
+    {
+     "scene": "strike",
+     "who": "b"
+    }
+   ]
+  },
+  {
+   "beat": "clash",
+   "text": "BAM! The shark takes the hit!",
+   "fact": "F1",
+   "shots": [
+    {
+     "scene": "impact",
+     "who": "b",
+     "tank": true
+    }
+   ]
+  },
+  {
+   "beat": "clash",
+   "text": "The shark backs away!",
+   "fact": "F5",
+   "shots": [
+    {
+     "scene": "retreat",
+     "who": "b"
+    }
+   ]
+  },
+  {
+   "beat": "verdict",
+   "text": "In a study, orca visits displaced white sharks.",
+   "fact": "F5"
+  },
+  {
+   "beat": "loop",
+   "text": "Rematch? Round 2!",
+   "fact": "F5"
+  }
+ ],
+ "notes": "Hypothetical verdict. Winner rests on S4 displacement quote plus S1/S2 size quotes; scoped to the one site studied. Needs new animals orca and shark in schema enum and Beasts.tsx; no ocean bg in schema."
+}

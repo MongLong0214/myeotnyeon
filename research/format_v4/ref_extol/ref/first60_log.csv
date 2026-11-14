@@ -1,0 +1,61 @@
+start_s,end_s,shot_indices,shown,said_asr,said_corrected,correction_note,word_timestamp_note,cut_times_s
+0,1,1,교도소 외곽에서 건물로 접근하는 3D 전경; 날짜 타이핑,1997년,1997년,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+1,2,1,교도소 외곽에서 건물로 접근하는 3D 전경; 날짜 타이핑,1997년 1월 20일 새벽,1997년 1월 20일 새벽,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+2,3,1,교도소 외곽에서 건물로 접근하는 3D 전경; 날짜 타이핑,새벽 3시 부산교도소,새벽 3시 부산교도소,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+3,4,1,교도소 외곽에서 건물로 접근하는 3D 전경; 날짜 타이핑,부산교도소 3동,부산교도소 3동,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+4,5,1,교도소 외곽에서 건물로 접근하는 3D 전경; 날짜 타이핑,3동 2층 6호실에서,3동 2층 6호실에서,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+5,6,1;2,교도소 외곽에서 건물로 접근하는 3D 전경; 날짜 타이핑 → 창살 너머 수감실; 잠든 수감자와 일어나는 인물,6호실에서 강도치사로,6호실에서 강도치사로,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,5.533
+6,7,2,창살 너머 수감실; 잠든 수감자와 일어나는 인물,강도치사로 무기징용을 선고받고,강도치사로 무기징역을 선고받고,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+7,8,2,창살 너머 수감실; 잠든 수감자와 일어나는 인물,선고받고 수감중인,선고받고 수감중인,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+8,9,2,창살 너머 수감실; 잠든 수감자와 일어나는 인물,수감중인 한 남자가 조용히,수감중인 한 남자가 조용히,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+9,10,2,창살 너머 수감실; 잠든 수감자와 일어나는 인물,조용히 자리에서 일어납니다.,조용히 자리에서 일어납니다.,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+10,11,2;3,창살 너머 수감실; 잠든 수감자와 일어나는 인물 → 신창원 3D 인물 및 실제 사진·인적사항 합성,일어납니다. 남자의,일어납니다. 남자의,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,10.633
+11,12,3,신창원 3D 인물 및 실제 사진·인적사항 합성,남자의 이름은 신창원 당시,남자의 이름은 신창원 당시,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+12,13,3,신창원 3D 인물 및 실제 사진·인적사항 합성,당시 나이 29세였습니다.,당시 나이 29세였습니다.,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+13,14,3,신창원 3D 인물 및 실제 사진·인적사항 합성,29세였습니다.,29세였습니다.,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+14,15,3,신창원 3D 인물 및 실제 사진·인적사항 합성,그는 지난 5년간,그는 지난 5년간,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+15,16,3,신창원 3D 인물 및 실제 사진·인적사항 합성,5년간 준비했던 탈옥을,5년간 준비했던 탈옥을,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+16,17,3,신창원 3D 인물 및 실제 사진·인적사항 합성,탈옥을 이제부터,탈옥을 이제부터,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+17,18,3,신창원 3D 인물 및 실제 사진·인적사항 합성,실행할 예정입니다.,실행할 예정입니다.,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+18,19,3;4,신창원 3D 인물 및 실제 사진·인적사항 합성 → 화장실 뒤쪽에서 환풍구를 향해 접근,우선 화장실로,우선 화장실로,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,18.200
+19,20,4,화장실 뒤쪽에서 환풍구를 향해 접근,화장실로 들어가 한쪽,화장실로 들어가 한쪽,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+20,21,4,화장실 뒤쪽에서 환풍구를 향해 접근,한쪽 벽 아래에 있는 작은,한쪽 벽 아래에 있는 작은,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+21,22,4,화장실 뒤쪽에서 환풍구를 향해 접근,작은 환풍구로,작은 환풍구로,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+22,23,4,화장실 뒤쪽에서 환풍구를 향해 접근,환풍구로 손을 뻗습니다.,환풍구로 손을 뻗습니다.,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+23,24,4;5,화장실 뒤쪽에서 환풍구를 향해 접근 → 환풍구 쇠창살과 손 클로즈업,뻗습니다. 환풍구엔,뻗습니다. 환풍구엔,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,23.400
+24,25,5,환풍구 쇠창살과 손 클로즈업,환풍구엔 쇠창살 두개가,환풍구엔 쇠창살 두개가,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+25,26,5,환풍구 쇠창살과 손 클로즈업,두개가 가로질러 있었지만,두개가 가로질러 있었지만,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+26,27,5;6,환풍구 쇠창살과 손 클로즈업 → 쇠창살을 든 인물 정면,있었지만 웬일인지 남자는,있었지만 웬일인지 남자는,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,26.300
+27,28,6,쇠창살을 든 인물 정면,남자는 손쉽게,남자는 손쉽게,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+28,29,6;7,쇠창살을 든 인물 정면 → 환풍구 위에서 몸과 32×28cm 치수,손쉽게 떼어냅니다. 그리고는,손쉽게 떼어냅니다. 그리고는,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,28.833
+29,30,7,환풍구 위에서 몸과 32×28cm 치수,"그리고는 가로 32cm,","그리고는 가로 32cm,",obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+30,31,7,환풍구 위에서 몸과 32×28cm 치수,"32cm, 세로","32cm, 세로",obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+31,32,7;8,환풍구 위에서 몸과 32×28cm 치수 → 환풍구로 구부린 몸; 와이어프레임 변형,세로 28cm의,세로 28cm의,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,31.600
+32,33,8,환풍구로 구부린 몸; 와이어프레임 변형,28cm의 환풍구에 몸을 구겨,28cm의 환풍구에 몸을 구겨,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+33,34,8;9,환풍구로 구부린 몸; 와이어프레임 변형 → 낮은 시점의 다리·탈출 동작,구겨 넣어 사동 건물,구겨 넣어 사동 건물,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,33.533
+34,35,9,낮은 시점의 다리·탈출 동작,건물 밖으로 빠져나옵니다.,건물 밖으로 빠져나옵니다.,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+35,36,9;10,낮은 시점의 다리·탈출 동작 → 사동 외벽 옆 인물 와이드,빠져나옵니다. 물론 완전히,빠져나옵니다. 물론 완전히,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,35.633
+36,37,10,사동 외벽 옆 인물 와이드,완전히 타록하려면,완전히 탈옥하려면,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+37,38,10,사동 외벽 옆 인물 와이드,타록하려면 아직 멀었습니다.,탈옥하려면 아직 멀었습니다.,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+38,39,10,사동 외벽 옆 인물 와이드,멀었습니다. 남자는 약,멀었습니다. 남자는 약,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+39,40,10;11,사동 외벽 옆 인물 와이드 → 교도소 평면도와 이동 지점,약 80m 떨어져,약 80m 떨어져,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,39.100
+40,41,11,교도소 평면도와 이동 지점,떨어져 있는 교회,떨어져 있는 교회,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+41,42,11,교도소 평면도와 이동 지점,교회 신축 공사장 앞으로,교회 신축 공사장 앞으로,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+42,43,11;12,교도소 평면도와 이동 지점 → 공사장 벽과 4.5m 치수,앞으로 갑니다. 공사장,앞으로 갑니다. 공사장,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,42.900
+43,44,12,공사장 벽과 4.5m 치수,공사장 벽의 높이는,공사장 벽의 높이는,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+44,45,12,공사장 벽과 4.5m 치수,높이는 4 .5m.,높이는 4 .5m.,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+45,46,12,공사장 벽과 4.5m 치수,.5m. 뛰어넘는,.5m. 뛰어넘는,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+46,47,12,공사장 벽과 4.5m 치수,뛰어넘는 건 불가능하고 손에,뛰어넘는 건 불가능하고 손에,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+47,48,12;13,공사장 벽과 4.5m 치수 → 손에 쥔 쇠창살 클로즈업,손에 쥐고 있던,손에 쥐고 있던,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,47.100
+48,49,13,손에 쥔 쇠창살 클로즈업,있던 환풍구의 쇠창살을,있던 환풍구의 쇠창살을,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+49,50,13;14,손에 쥔 쇠창살 클로즈업 → 땅 파는 인물에서 투명화·통과 동작으로 연속 이동,쇠창살을 활용해 땅을,쇠창살을 활용해 땅을,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,49.933
+50,51,14,땅 파는 인물에서 투명화·통과 동작으로 연속 이동,땅을 파기 시작합니다.,땅을 파기 시작합니다.,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+51,52,14,땅 파는 인물에서 투명화·통과 동작으로 연속 이동,남자는 땅구멍으로,남자는 땅구멍으로,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+52,53,14,땅 파는 인물에서 투명화·통과 동작으로 연속 이동,땅구멍으로 머리를 집어넣고,땅구멍으로 머리를 집어넣고,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+53,54,14,땅 파는 인물에서 투명화·통과 동작으로 연속 이동,집어넣고 공사장,집어넣고 공사장,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+54,55,14,땅 파는 인물에서 투명화·통과 동작으로 연속 이동,공사장 안으로 들어갑니다.,공사장 안으로 들어갑니다.,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+55,56,14,땅 파는 인물에서 투명화·통과 동작으로 연속 이동,들어갑니다. 그리고는 공사장,들어갑니다. 그리고는 공사장,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+56,57,14;15,땅 파는 인물에서 투명화·통과 동작으로 연속 이동 → 공사장 바닥·잔해 와이드,공사장 바닥에 떨어져있는,공사장 바닥에 떨어져있는,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,56.033
+57,58,15,공사장 바닥·잔해 와이드,떨어져있는 쇠파이프와,떨어져있는 쇠파이프와,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,
+58,59,15;16,공사장 바닥·잔해 와이드 → 담벼락 앞 사다리·쇠파이프·밧줄 인물,쇠파이프와 밧줄을 들고,쇠파이프와 밧줄을 들고,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,58.033
+59,60,16,담벼락 앞 사다리·쇠파이프·밧줄 인물,들고 철제 담벼락 앞으로,들고 철제 담벼락 앞으로,obvious ASR lexical errors corrected against existing local captions; raw retained,overlapping words; edge word may repeat between seconds,

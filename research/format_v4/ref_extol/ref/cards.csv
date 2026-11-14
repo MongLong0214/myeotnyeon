@@ -1,0 +1,17 @@
+index,start_s,end_s,duration_s,content_type,is_chapter_card,visual_description,card_key
+36,94.9,96.73333333333333,1.8333333333333333,text card,True,text card,ref-S36
+37,96.73333333333333,109.13333333333334,12.4,document or record card,False,document or record card,ref-S37
+44,128.43333333333334,134.23333333333332,5.8,timeline,False,timeline,ref-S44
+47,147.7,149.46666666666667,1.7666666666666666,text card,True,text card,ref-S47
+58,218.23333333333332,220.23333333333332,2.0,text card,True,text card,ref-S58
+74,237.96666666666667,242.5,4.533333333333333,document or record card,False,document or record card,ref-S74
+95,331.1666666666667,334.93333333333334,3.7666666666666666,document or record card,False,document or record card,ref-S95
+96,334.93333333333334,338.96666666666664,4.033333333333333,document or record card,False,document or record card,ref-S96
+119,365.9,366.1333333333333,0.23333333333333334,document or record card,False,document or record card,ref-S119
+120,366.1333333333333,366.46666666666664,0.3333333333333333,document or record card,False,document or record card,ref-S120
+121,366.46666666666664,366.7,0.23333333333333334,document or record card,False,document or record card,ref-S121
+137,399.9,401.8666666666667,1.9666666666666666,text card,True,text card,ref-S137
+156,503.5,507.7,4.2,document or record card,False,document or record card,ref-S156
+158,513.1333333333333,515.4666666666667,2.3333333333333335,document or record card,False,document or record card,ref-S158
+159,515.4666666666667,516.8333333333334,1.3666666666666667,document or record card,False,document or record card,ref-S159
+160,516.8333333333334,518.1,1.2666666666666666,document or record card,False,document or record card,ref-S160

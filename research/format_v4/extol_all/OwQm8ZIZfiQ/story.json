@@ -1,0 +1,357 @@
+{
+  "topic": "범죄/총기 난사",
+  "title_formula": "시간+사망 규모+국가 최초+사건 유형",
+  "manual_devices": {
+    "foreshadowing": [
+      {
+        "start_s": 10.1,
+        "end_s": 16.8,
+        "description": "8시간/56명 결과 선제시",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 71.66,
+        "end_s": 81.72,
+        "description": "악마·마을 사람 모두를 죽인다는 예고",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 112.16,
+        "end_s": 115.7,
+        "description": "특등사수 설명→발사",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 174.08,
+        "end_s": 180.1,
+        "description": "술만 먹으면 돌변한다는 설정→상갓집에서 회수",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 329.06,
+        "end_s": 334.66,
+        "description": "총·수류탄을 지닌 채 술자리→대량 살상",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      }
+    ],
+    "withholding": [
+      {
+        "start_s": 10.1,
+        "end_s": 16.8,
+        "description": "파리가 어떻게 56명의 죽음으로 연결되는가",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 74.38,
+        "end_s": 81.72,
+        "description": "지금부터 할 행동의 규모를 먼저 예고",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 118.94,
+        "end_s": 128.78,
+        "description": "첫 희생자→전체 전개 유예",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 365.62,
+        "end_s": 369.34,
+        "description": "아기 울음→다음 행동 직전 중단",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 418.84,
+        "end_s": 423.54,
+        "description": "8시간 동안 경찰은 어디 있었는가",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 481.38,
+        "end_s": 487.1,
+        "description": "진짜 이유를 질문",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 509.08,
+        "end_s": 513.18,
+        "description": "한 미치광이의 일인가→사회적 여운",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      }
+    ],
+    "quotes": [
+      {
+        "start_s": 63.88,
+        "end_s": 67.22,
+        "description": "경찰이면 다냐고 간접 인용",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 144.84,
+        "end_s": 157.44,
+        "description": "담임교사 증언 한 블록",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 174.08,
+        "end_s": 180.1,
+        "description": "미친 호랑이라는 별명/주변 증언",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 335.08,
+        "end_s": 338.2,
+        "description": "비상이 걸려 무장했다는 답변",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 342.42,
+        "end_s": 346.96,
+        "description": "경찰이면 경찰이지라는 꾸짖음",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 379.04,
+        "end_s": 386.42,
+        "description": "불을 끄라는 외침 간접 인용",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 487.34,
+        "end_s": 508.8,
+        "description": "당시 기사 직접 인용 한 블록",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      }
+    ],
+    "irony": [
+      {
+        "start_s": 193.84,
+        "end_s": 199.4,
+        "description": "권력에 가장 가까운 곳→가장 먼 곳",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 321.1,
+        "end_s": 329.06,
+        "description": "살상 중 문상·부의금·술자리의 역설; 웃음 유도와 구별",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 354.4,
+        "end_s": 362.6,
+        "description": "슬픔의 장소에 또 불운",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 423.78,
+        "end_s": 427.54,
+        "description": "경찰이 범행 종료 후 나타남",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      },
+      {
+        "start_s": 437.18,
+        "end_s": 471.92,
+        "description": "보호해야 할 경찰이 반대로 도주·은신",
+        "coding": "manual semantic; clause alignment; ±0.5s"
+      }
+    ]
+  },
+  "beats": [
+    {
+      "start_s": 0,
+      "end_s": 17.06,
+      "function": "cold open",
+      "summary": "시간·장소→파리→56명 결과→사소한 원인으로 복귀"
+    },
+    {
+      "start_s": 17.06,
+      "end_s": 58.5,
+      "function": "가정 내 폭력",
+      "summary": "소개·가슴을 침→폭행→호랑이 비유"
+    },
+    {
+      "start_s": 58.5,
+      "end_s": 81.72,
+      "function": "위협 확대",
+      "summary": "술·항의→악마→마을 전체 예고"
+    },
+    {
+      "start_s": 81.72,
+      "end_s": 118.94,
+      "function": "도구와 첫 실행",
+      "summary": "무기 수량→도주한 주변인→조준→첫 발사"
+    },
+    {
+      "start_s": 118.94,
+      "end_s": 130,
+      "function": "첫 보상·규모",
+      "summary": "56명/35명·사건명"
+    },
+    {
+      "start_s": 130,
+      "end_s": 158,
+      "function": "01 인물 회상",
+      "summary": "신문·사진·담임 증언"
+    },
+    {
+      "start_s": 158,
+      "end_s": 199.56,
+      "function": "경력 반전",
+      "summary": "특등사수→청와대→부적격→외진 좌천"
+    },
+    {
+      "start_s": 199.56,
+      "end_s": 230.7,
+      "function": "인과 고리 복귀",
+      "summary": "일·사랑 좌절→파리·폭행 장면 재호출"
+    },
+    {
+      "start_s": 230.7,
+      "end_s": 267.62,
+      "function": "02 사건 당일·고립",
+      "summary": "우체국·전화 교환 구조·3명 사망·통신 단절"
+    },
+    {
+      "start_s": 267.62,
+      "end_s": 317.3,
+      "function": "피해 누적",
+      "summary": "마을 지도↔현장 재연; 집·반상회·총·수류탄"
+    },
+    {
+      "start_s": 317.3,
+      "end_s": 353.94,
+      "function": "상갓집의 거짓 평온",
+      "summary": "부의금·술·무장 질문·꾸짖음→가정법 질문"
+    },
+    {
+      "start_s": 354.4,
+      "end_s": 389.34,
+      "function": "피해 확대",
+      "summary": "상갓집·아기·불 켜진 집; 택시기사 경고"
+    },
+    {
+      "start_s": 389.34,
+      "end_s": 416.6,
+      "function": "범행 종결",
+      "summary": "가족집·수류탄·자폭·탄약 회수"
+    },
+    {
+      "start_s": 416.6,
+      "end_s": 473,
+      "function": "03 경찰 출동",
+      "summary": "늦은 도착·접대·반대 방향 은신·30여명도 다리 밑"
+    },
+    {
+      "start_s": 473,
+      "end_s": 521.8,
+      "function": "04 범행 목적",
+      "summary": "뇌세포 분석·무목적 범행 기사·사회적 폭력 여운"
+    }
+  ],
+  "open_loops": [
+    {
+      "id": "L1",
+      "raised_s": 10.1,
+      "closed_or_reframed_s": 118.94,
+      "question": "파리 한 마리가 어떻게 학살로 이어지는가",
+      "resolution": "초기 살상까지 인과 회수"
+    },
+    {
+      "id": "L2",
+      "raised_s": 10.1,
+      "closed_or_reframed_s": 407.22,
+      "question": "8시간의 범행은 어떻게 끝나는가",
+      "resolution": "자폭·종결"
+    },
+    {
+      "id": "L3",
+      "raised_s": 112.16,
+      "closed_or_reframed_s": 161.02,
+      "question": "특등사수 이력은 어디서 왔는가",
+      "resolution": "회상으로 회수"
+    },
+    {
+      "id": "L4",
+      "raised_s": 131.52,
+      "closed_or_reframed_s": 230.1,
+      "question": "왜 폭력적이 되었는가",
+      "resolution": "서술자의 배경 해석; 확정 원인 아님"
+    },
+    {
+      "id": "L5",
+      "raised_s": 365.62,
+      "closed_or_reframed_s": 372.58,
+      "question": "아기 울음을 듣고 어떻게 하는가",
+      "resolution": "즉시 회수"
+    },
+    {
+      "id": "L6",
+      "raised_s": 418.84,
+      "closed_or_reframed_s": 471.92,
+      "question": "경찰은 어디 있었는가",
+      "resolution": "은신 공개"
+    },
+    {
+      "id": "L7",
+      "raised_s": 481.38,
+      "closed_or_reframed_s": 521.5,
+      "question": "진짜 범행 이유는 무엇인가",
+      "resolution": "기사+사회 분위기 제안; 단일 해답은 열어둠"
+    }
+  ],
+  "prior_cliffhangers": [
+    {
+      "boundary_s": 130,
+      "description": "첫 희생자와 총 피해 규모를 남긴 채 인물 회상",
+      "classification": "시간축 전환/규모 루프 지속"
+    },
+    {
+      "boundary_s": 230.7,
+      "description": "호랑이와 파리를 재호출하고 사건 당일 복귀",
+      "classification": "순환 연결; 새 결과 유예는 약함"
+    },
+    {
+      "boundary_s": 416.6,
+      "description": "탄약 회수로 학살 종결→경찰 부재라는 새 질문",
+      "classification": "주제 전환; 직전 문장 절벽형 아님"
+    },
+    {
+      "boundary_s": 473,
+      "description": "26명 살해 동안 경찰 은신이라는 분노의 정점→원인",
+      "classification": "대비 정점; 다음 행동 중단 아님"
+    }
+  ],
+  "visual_notes": "3D 재연·지도·자료·장 카드의 혼합. 공간의 장애물과 인물 행동을 카메라 이동으로 연결. 원래 작업의 전수 경계 리뷰와 내용 코딩을 재사용.",
+  "thumbnail_notes": "빨간 무장 인물과 파란 흉상의 대조. 하단 한 줄 붓글씨 사건명.",
+  "cold_open_15_summary": "작은 파리와 짧은 시간의 큰 피해 규모를 대비한다.",
+  "cold_open_60_summary": "파리·가정 내 폭력·분노·위협으로 이어지는 행동 연쇄. 이후 무장과 첫 피해자를 향한 루프를 만든다.",
+  "chapter_cliffhangers": [
+    {
+      "boundary_s": 129.467,
+      "cliffhanger_type_manual": "규모/시간축 전환",
+      "lead_or_question": "첫 피해자와 총 피해 규모 뒤 인물의 과거로 이동",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 230.733,
+      "cliffhanger_type_manual": "순환 연결",
+      "lead_or_question": "파리를 다시 호출하고 사건 당일로 복귀",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 416.1,
+      "cliffhanger_type_manual": "새 질문",
+      "lead_or_question": "범행 종결 뒤 경찰은 어디 있었는지 질문",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 472.867,
+      "cliffhanger_type_manual": "감정 정점 후 원인 전환",
+      "lead_or_question": "경찰 부재의 대비 뒤 동기를 검토",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    }
+  ]
+}

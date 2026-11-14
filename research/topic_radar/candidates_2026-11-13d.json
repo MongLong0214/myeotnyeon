@@ -1,0 +1,51 @@
+[
+ {
+  "keyword": "영광 염전 장애인 노동착취 업주 징역 4년6개월",
+  "trend_keyword": "염전 노동착취",
+  "case_id": "yeonggwang_salt",
+  "trial_stage": "1심 징역 4년6개월",
+  "verdict_date": "2026-11-11"
+ },
+ {
+  "keyword": "출소 후 신고자 업장 보복 난동 조폭 징역 1년6개월",
+  "trend_keyword": "보복 난동",
+  "case_id": "revenge_bar",
+  "trial_stage": "1심 징역 1년6개월",
+  "verdict_date": "2026-11-10"
+ },
+ {
+  "keyword": "서대문 인쇄소 지인 살해 사채업자 징역 25년",
+  "trend_keyword": "서대문 인쇄소 살인",
+  "case_id": "seodaemun_print",
+  "trial_stage": "1심 징역 25년",
+  "verdict_date": "2026-11-13"
+ },
+ {
+  "keyword": "동네 후배 흉기 살해 40대 항소심 징역 16년",
+  "trend_keyword": "후배 살해",
+  "case_id": "junior_stab",
+  "trial_stage": "항소심 징역 16년",
+  "verdict_date": "2026-11-11"
+ },
+ {
+  "keyword": "층간소음 오해 윗집 방화 70대 징역 3년",
+  "trend_keyword": "층간소음 방화",
+  "case_id": "noise_arson",
+  "trial_stage": "항소심 징역 3년",
+  "verdict_date": "2026-09-14"
+ },
+ {
+  "keyword": "집유 선고날 여자친구 폭행 20대 실형",
+  "trend_keyword": "교제폭력 실형",
+  "case_id": "dating_violence",
+  "trial_stage": "1심 실형",
+  "verdict_date": "2026-11-10"
+ },
+ {
+  "keyword": "지인 돈 4억 투자사기 부동산업자 실형",
+  "trend_keyword": "투자사기 4억",
+  "case_id": "realestate_fraud",
+  "trial_stage": "1심 실형",
+  "verdict_date": "2026-11-10"
+ }
+]

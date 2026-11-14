@@ -1,0 +1,35 @@
+{
+ "video_id": "VBEjj7mPjrI",
+ "start_date": "2026-10-01",
+ "end_date": "2026-11-08",
+ "transcript": "episodes/quiz/q013/v52/asr_master.json",
+ "query": {
+  "dimensions": "elapsedVideoTimeRatio",
+  "metrics": "audienceWatchRatio,relativeRetentionPerformance",
+  "filters": "video==VBEjj7mPjrI"
+ },
+ "title": "외국인 노동자에 박치기 22번, 공장 관리자의 최후 #형량퀴즈 #몇년나옴",
+ "duration_s": 27,
+ "raw": {
+  "columnHeaders": [
+   {
+    "name": "elapsedVideoTimeRatio",
+    "columnType": "DIMENSION",
+    "dataType": "FLOAT"
+   },
+   {
+    "name": "audienceWatchRatio",
+    "columnType": "METRIC",
+    "dataType": "FLOAT"
+   },
+   {
+    "name": "relativeRetentionPerformance",
+    "columnType": "METRIC",
+    "dataType": "FLOAT"
+   }
+  ],
+  "rows": []
+ },
+ "error": "query succeeded (HTTP 200) but returned 0 curve points for 2026-10-01..2026-11-08",
+ "qid": "q013"
+}

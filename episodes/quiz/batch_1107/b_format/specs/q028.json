@@ -1,0 +1,322 @@
+{
+ "qid": "q028",
+ "variant": "B3",
+ "b3": true,
+ "grave": true,
+ "kind": "motel",
+ "number_label": "",
+ "stage": "motel",
+ "cover_text": "장대호\n'4만 원' 시비 살인",
+ "defendant": "inmate",
+ "choices": [
+  "징역 30년",
+  "무기징역",
+  "사형"
+ ],
+ "correct": 1,
+ "answer": "무기징역",
+ "answer_label": "대법원 · 확정",
+ "opinion": "이 형량,\n가볍다 / 적당 / 무겁다?",
+ "option_offsets": [
+  0.0,
+  0.84,
+  1.5
+ ],
+ "hook_text": [
+  "숙박비",
+  "4만 원"
+ ],
+ "sfx": [
+  [
+   "motel",
+   0,
+   "thud"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ],
+  [
+   "quote",
+   0,
+   "knock"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L02",
+   "at": 0.4,
+   "big": "2019년 8월",
+   "small": "서울의 한 모텔",
+   "calc": "보도된 범행 시기"
+  },
+  {
+   "line": "L08b",
+   "at": 0.4,
+   "big": "1심 · 2심 모두 사형",
+   "small": "검찰 구형",
+   "calc": "연합뉴스: 1, 2심 모두 사형 구형"
+  },
+  {
+   "line": "L12b",
+   "at": 0.55,
+   "big": "가석방 심사 20년 뒤",
+   "small": "무기징역 · 형법 제72조",
+   "calc": "형법 제72조 제1항: 무기형은 20년 경과 후 가석방 가능"
+  },
+  {
+   "line": "L12b",
+   "at": 0.05,
+   "big": "징벌 6차례",
+   "small": "수감 후 교도관 폭행·폭언",
+   "calc": "머니투데이 2026-11-05: 총 6차례 징벌 처분"
+  },
+  {
+   "line": "L04",
+   "at": 0.55,
+   "big": "자수 = 임의감경",
+   "small": "깎아 줄 수도, 안 줄 수도",
+   "calc": "형법 제52조 제1항: 자수는 형을 감경 또는 면제할 수 있음(임의적)"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "motel",
+   "tts": "숙박비 사만 원에, 살인.",
+   "shown": "숙박비 4만 원에, 살인.",
+   "chunks": [
+    "숙박비 4만 원에,",
+    "살인."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "motel"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "장대호, 몇 년 나왔을까요?",
+   "shown": "장대호, 몇 년 나왔을까요?",
+   "chunks": [
+    "장대호,",
+    "몇 년 나왔을까요?"
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "react",
+     "look": "inmate",
+     "expr": "smug",
+     "move": "nod"
+    },
+    {
+     "s": "calendar",
+     "year": "2019",
+     "month": 8
+    }
+   ]
+  },
+  {
+   "id": "L03b",
+   "mode": "guess",
+   "tts": "자수했으니, 감형될 것 같지만,",
+   "shown": "자수했으니, 감형될 것 같지만,",
+   "chunks": [
+    "자수했으니,",
+    "감형될 것",
+    "같지만,"
+   ],
+   "fact": "F5",
+   "shots": [
+    {
+     "s": "bubble",
+     "lines": [
+      "감형?",
+      "자수했는데…"
+     ],
+     "size": 150
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "그런데 법원은, 자수 감경을 하지 않았습니다.",
+   "shown": "그런데 법원은, 자수 감경을 하지 않았습니다.",
+   "chunks": [
+    "그런데 법원은,",
+    "자수 감경을",
+    "하지 않았습니다."
+   ],
+   "fact": "F5",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "자수 감경"
+     ],
+     "stamp": "안 함"
+    }
+   ]
+  },
+  {
+   "id": "L56",
+   "mode": "river",
+   "tts": "반말과 숙박비 시비로, 투숙객을 살해하고 한강에 버렸습니다.",
+   "shown": "반말과 숙박비 시비로, 투숙객을 살해하고 한강에 버렸습니다.",
+   "chunks": [
+    "반말과 숙박비 시비로,",
+    "투숙객을 살해하고",
+    "한강에 버렸습니다."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "river"
+    },
+    {
+     "s": "memorial"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "mode": "quote",
+   "tts": "유족에게 용서를 구하고 싶지 않다.",
+   "shown": "유족에게 용서를 구하고 싶지 않다.",
+   "chunks": [
+    "유족에게 용서를",
+    "구하고 싶지 않다."
+   ],
+   "fact": "F2",
+   "shots": [
+    {
+     "s": "paper",
+     "lines": [
+      "\"용서를 구하고",
+      "싶지 않다\""
+     ],
+     "size": 76
+    },
+    {
+     "s": "react",
+     "look": "suit",
+     "expr": "angry",
+     "move": "shake"
+    }
+   ]
+  },
+  {
+   "id": "L08b",
+   "mode": "demand",
+   "tts": "검찰은 두 번 모두, 사형 구형.",
+   "shown": "검찰은 2번 모두, 사형 구형.",
+   "chunks": [
+    "검찰은 2번 모두,",
+    "사형 구형."
+   ],
+   "fact": "F3",
+   "shots": [
+    {
+     "s": "prosecutor"
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "대법원이 확정한 형량은?",
+   "shown": "대법원이 확정한 형량은?",
+   "chunks": [
+    "대법원이 확정한 형량은?"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "징역 삼십 년, 무기징역, 사형.",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "target": 5.6,
+   "hold_after": 0.45
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "정답 비, 무기징역.",
+   "shown": "정답 B, 무기징역.",
+   "chunks": [
+    "정답 B,",
+    "무기징역."
+   ],
+   "fact": "F4",
+   "shots": [],
+   "emphasis": "무기징역"
+  },
+  {
+   "id": "L12b",
+   "mode": "answer2",
+   "tts": "TV 못 보게 했다고 소송, 패소.",
+   "shown": "TV 못 보게 했다고 소송, 패소.",
+   "chunks": [
+    "TV 못 보게 했다고",
+    "소송, 패소."
+   ],
+   "fact": "F6",
+   "shots": [
+    {
+     "s": "tv"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "TV 제한 소송"
+     ],
+     "stamp": "패소"
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "가볍다 적당 무겁다?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [
+    {
+     "s": "react",
+     "look": "inmate",
+     "expr": "tired",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "hold_after": 0.3
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "그날 밤 모텔 카운터, 그가 문제 삼은 건,",
+   "shown": "그날 밤 모텔 카운터, 그가 문제 삼은 건,",
+   "chunks": [
+    "그날 밤 모텔 카운터,",
+    "그가 문제 삼은 건,"
+   ],
+   "fact": "F1",
+   "shots": []
+  }
+ ]
+}

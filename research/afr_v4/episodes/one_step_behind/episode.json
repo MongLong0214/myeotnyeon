@@ -1,0 +1,214 @@
+{
+  "id": "one_step_behind",
+  "title": "One Step Behind",
+  "contentRole": "original",
+  "fps": 24,
+  "aspect": [
+    9,
+    16
+  ],
+  "seed": 418,
+  "look": "todai-original-shader-kit-c9bd1b8 / sunny-courtyard-v1",
+  "commonDependencies": [
+    "web/index.html",
+    "web/player.mjs",
+    "web/world.mjs",
+    "src/motion.mjs"
+  ],
+  "reviewQuestions": [
+    "Does this actual 3D character/set/lighting meet the intended visual direction?",
+    "Are the eye-led reaction, footsteps and book-shadow reveal readable?",
+    "What one or two changes matter before extending the episode?"
+  ],
+  "audio": {
+    "voice": "af_heart",
+    "lang": "a",
+    "requiredForDelivery": true,
+    "lines": [
+      {
+        "id": "N01",
+        "maxFrames": 114,
+        "text": "Lina was certain someone was following her.",
+        "shot": "S01",
+        "localFrame": 18
+      },
+      {
+        "id": "N02",
+        "maxFrames": 66,
+        "text": "So she moved.",
+        "shot": "S02",
+        "localFrame": 38
+      },
+      {
+        "id": "N03",
+        "maxFrames": 66,
+        "text": "He moved too.",
+        "shot": "S03",
+        "localFrame": 50
+      },
+      {
+        "id": "N04",
+        "maxFrames": 54,
+        "text": "Again.",
+        "shot": "S04",
+        "localFrame": 54
+      },
+      {
+        "id": "N05",
+        "maxFrames": 120,
+        "text": "He wasn't following her. He was following her shade.",
+        "shot": "S05",
+        "localFrame": 14
+      },
+      {
+        "id": "N06",
+        "maxFrames": 66,
+        "text": "Fair enough.",
+        "shot": "S06",
+        "localFrame": 54
+      }
+    ]
+  },
+  "shots": [
+    {
+      "id": "S01",
+      "frames": 144,
+      "module": "episodes/one_step_behind/shots/S01.mjs",
+      "dependencies": [
+        "episodes/one_step_behind/shots/S01.mjs"
+      ],
+      "params": {},
+      "intent": "Establish two people; the reader is in her shade.",
+      "states": {
+        "start": {
+          "heroX": -0.45,
+          "readerX": 0.52,
+          "book": "held"
+        },
+        "end": {
+          "heroX": -0.45,
+          "readerX": 0.52,
+          "book": "held"
+        }
+      }
+    },
+    {
+      "id": "S02",
+      "frames": 144,
+      "module": "episodes/one_step_behind/shots/S02.mjs",
+      "dependencies": [
+        "episodes/one_step_behind/shots/S02.mjs"
+      ],
+      "params": {},
+      "intent": "Eyes lead a suspicious glance; reader keeps reading.",
+      "states": {
+        "start": {
+          "heroX": -0.45,
+          "readerX": 0.52,
+          "book": "held"
+        },
+        "end": {
+          "heroX": -0.45,
+          "readerX": 0.52,
+          "book": "held"
+        }
+      }
+    },
+    {
+      "id": "S03",
+      "frames": 144,
+      "module": "episodes/one_step_behind/shots/S03.mjs",
+      "dependencies": [
+        "episodes/one_step_behind/shots/S03.mjs"
+      ],
+      "params": {
+        "delay": 0.55
+      },
+      "intent": "Hero steps right; reader follows after seeing his page leave the shade.",
+      "states": {
+        "start": {
+          "heroX": -0.45,
+          "readerX": 0.52,
+          "book": "held"
+        },
+        "end": {
+          "heroX": 0.45,
+          "readerX": 1.42,
+          "book": "held"
+        }
+      }
+    },
+    {
+      "id": "S04",
+      "frames": 144,
+      "module": "episodes/one_step_behind/shots/S04.mjs",
+      "dependencies": [
+        "episodes/one_step_behind/shots/S04.mjs"
+      ],
+      "params": {
+        "delay": 0.6
+      },
+      "intent": "The same reaction to a different step increases the misunderstanding.",
+      "states": {
+        "start": {
+          "heroX": 0.45,
+          "readerX": 1.42,
+          "book": "held"
+        },
+        "end": {
+          "heroX": -0.6,
+          "readerX": 0.37,
+          "book": "held"
+        }
+      }
+    },
+    {
+      "id": "S05",
+      "frames": 144,
+      "module": "episodes/one_step_behind/shots/S05.mjs",
+      "dependencies": [
+        "episodes/one_step_behind/shots/S05.mjs"
+      ],
+      "params": {},
+      "intent": "Close on the book; the changing shade explains the reader's choices.",
+      "states": {
+        "start": {
+          "heroX": -0.6,
+          "readerX": 0.37,
+          "book": "held"
+        },
+        "end": {
+          "heroX": -0.6,
+          "readerX": 0.37,
+          "book": "held"
+        }
+      }
+    },
+    {
+      "id": "S06",
+      "frames": 144,
+      "module": "episodes/one_step_behind/shots/S06.mjs",
+      "dependencies": [
+        "episodes/one_step_behind/shots/S06.mjs"
+      ],
+      "params": {},
+      "intent": "She notices the book and relaxes; they settle in the shade.",
+      "states": {
+        "start": {
+          "heroX": -0.6,
+          "readerX": 0.37,
+          "book": "held"
+        },
+        "end": {
+          "heroX": -0.6,
+          "readerX": 0.37,
+          "book": "held"
+        }
+      }
+    }
+  ],
+  "lookSettings": {
+    "exposure": 1.1,
+    "saturation": 1.02
+  }
+}

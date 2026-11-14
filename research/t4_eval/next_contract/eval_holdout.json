@@ -1,0 +1,662 @@
+{
+  "schema_version": 1,
+  "authored_on": "2026-10-30",
+  "usage": "이번 요청에서 새로 작성한 합성 평가 사례. corpus와 별도 집계하며 기존 원문/제목/문장은 재사용하지 않았다. 이번에 성능을 측정하지 않았다. 공개 파일이므로 비밀 평가셋은 아니며 튜닝에 사용한 뒤에는 일반화 근거로 재사용하지 않는다.",
+  "cases": [
+    {
+      "id": "H-SUB-01-B",
+      "category": "subject",
+      "operation": "judge_candidate",
+      "input": {
+        "title": "횡령 혐의 가수 서유진, 법원이 벌금 700만원 선고",
+        "verdictConfirmed": true
+      },
+      "expected_verdict": "reject",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "prohibited",
+      "paired_with": "H-SUB-01-N",
+      "reason": "공인이 범죄 주체다."
+    },
+    {
+      "id": "H-SUB-01-N",
+      "category": "subject",
+      "operation": "judge_candidate",
+      "input": {
+        "title": "가수 서유진이 공판을 방청했다. 성인 회계직원에게 횡령 벌금 700만원 선고",
+        "verdictConfirmed": true
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-SUB-01-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-SUB-02-B",
+      "category": "subject",
+      "operation": "judge_candidate",
+      "input": {
+        "title": "방송인과 운전기사 중 누가 사기 피고인인지 보도마다 달라, 벌금 900만원 선고",
+        "verdictConfirmed": true
+      },
+      "expected_verdict": "held",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "unclear",
+      "paired_with": "H-SUB-02-N",
+      "reason": "범죄 주체의 공인 여부가 불명확하다."
+    },
+    {
+      "id": "H-SUB-02-N",
+      "category": "subject",
+      "operation": "judge_candidate",
+      "input": {
+        "title": "방송인의 성인 운전기사 오씨에게 사기 벌금 900만원, 방송인은 증인 출석",
+        "verdictConfirmed": true
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-SUB-02-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-ROLE-01-B",
+      "category": "role",
+      "operation": "support_fact",
+      "input": {
+        "text": "최씨에게서 돈을 빼앗은 사람은 윤씨다.",
+        "claim": "최씨가 윤씨에게서 돈을 빼앗았다"
+      },
+      "expected_verdict": "reject",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "prohibited",
+      "paired_with": "H-ROLE-01-N",
+      "reason": "간접 어순에서도 가해자와 피해자를 뒤집지 않는다."
+    },
+    {
+      "id": "H-ROLE-01-N",
+      "category": "role",
+      "operation": "support_fact",
+      "input": {
+        "text": "최씨에게서 돈을 빼앗은 사람은 윤씨다.",
+        "claim": "윤씨가 최씨에게서 돈을 빼앗았다"
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-ROLE-01-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-VAL-01-B",
+      "category": "value-unit",
+      "operation": "support_fact",
+      "input": {
+        "text": "편취액 4500만원, 벌금은 600만원으로 정해졌다.",
+        "claim": "편취액 600만원"
+      },
+      "expected_verdict": "reject",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "prohibited",
+      "paired_with": "H-VAL-01-N",
+      "reason": "벌금을 편취액으로 옮기지 않는다."
+    },
+    {
+      "id": "H-VAL-01-N",
+      "category": "value-unit",
+      "operation": "support_fact",
+      "input": {
+        "text": "편취액 4500만원, 벌금은 600만원으로 정해졌다.",
+        "claim": "편취액 4500만원"
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-VAL-01-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-VAL-02-B",
+      "category": "value-unit",
+      "operation": "support_fact",
+      "input": {
+        "text": "재판부가 선고한 형기는 징역 1년 10개월이다.",
+        "claim": "징역 1년 10년"
+      },
+      "expected_verdict": "reject",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "prohibited",
+      "paired_with": "H-VAL-02-N",
+      "reason": "개월을 년으로 바꿀 수 없다."
+    },
+    {
+      "id": "H-VAL-02-N",
+      "category": "value-unit",
+      "operation": "support_fact",
+      "input": {
+        "text": "재판부가 선고한 형기는 징역 1년 10개월이다.",
+        "claim": "징역 1년 10개월"
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-VAL-02-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-NEG-01-B",
+      "category": "negation",
+      "operation": "extract_verdict",
+      "input": {
+        "text": "재판부가 벌금 800만원을 부과한 것은 아니다."
+      },
+      "expected_verdict": "no-verdict",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "prohibited",
+      "paired_with": "H-NEG-01-N",
+      "reason": "구문 전체의 부정은 판결 근거가 아니다."
+    },
+    {
+      "id": "H-NEG-01-N",
+      "category": "negation",
+      "operation": "extract_verdict",
+      "input": {
+        "text": "재판부가 벌금 800만원을 부과한 것은 맞다."
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-NEG-01-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-FUT-01-B",
+      "category": "future",
+      "operation": "extract_verdict",
+      "input": {
+        "text": "다음 달 열릴 공판에서 금고 8개월 선고가 예상된다."
+      },
+      "expected_verdict": "no-verdict",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "prohibited",
+      "paired_with": "H-FUT-01-N",
+      "reason": "전망을 실제 판결로 추출하지 않는다."
+    },
+    {
+      "id": "H-FUT-01-N",
+      "category": "future",
+      "operation": "extract_verdict",
+      "input": {
+        "text": "오늘 열린 공판에서 금고 8개월이 선고됐다."
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-FUT-01-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-QUO-01-B",
+      "category": "quote",
+      "operation": "judge_candidate",
+      "input": {
+        "title": "방송인 남도현은 \"그 돈을 훔친 건 접니다\"라고 법정에서 진술했다. 절도 벌금형 확정",
+        "verdictConfirmed": true
+      },
+      "expected_verdict": "reject",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "prohibited",
+      "paired_with": "H-QUO-01-N",
+      "reason": "인용 속 1인칭 자기 범행이 화자와 연결된다."
+    },
+    {
+      "id": "H-QUO-01-N",
+      "category": "quote",
+      "operation": "judge_candidate",
+      "input": {
+        "title": "방송인 남도현은 \"절도 사건의 판결문을 읽었다\"고 말했다. 절도한 성인 판매원에게 벌금형 확정",
+        "verdictConfirmed": true
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-QUO-01-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-CON-01-B",
+      "category": "conflict",
+      "operation": "confirm_cluster",
+      "input": {
+        "articles": [
+          {
+            "title": "광주지법 창고 방화 피고인에게 징역 4년",
+            "reporting_origin": "own-c"
+          },
+          {
+            "title": "광주지법 같은 창고 방화 피고인에게 징역 5년",
+            "reporting_origin": "own-d"
+          }
+        ]
+      },
+      "expected_verdict": "held",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "unclear",
+      "paired_with": "H-CON-01-N",
+      "reason": "동일 사건 같은 심급의 형량이 충돌한다."
+    },
+    {
+      "id": "H-CON-01-N",
+      "category": "conflict",
+      "operation": "confirm_cluster",
+      "input": {
+        "articles": [
+          {
+            "title": "광주지법 창고 방화 성인 피고인 징역 4년",
+            "reporting_origin": "own-c",
+            "url": "https://c.example/warehouse"
+          },
+          {
+            "title": "창고에 불 지른 성인 피고인에게 광주지법 징역 4년",
+            "reporting_origin": "own-d",
+            "url": "https://d.example/warehouse"
+          }
+        ]
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-CON-01-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-PROV-01-B",
+      "category": "provenance",
+      "operation": "confirm_cluster",
+      "input": {
+        "articles": [
+          {
+            "url": "https://wire.example/court/82",
+            "title": "창원지법 배임 성인 피고인 벌금 300만원",
+            "reporting_origin": "wire-82"
+          },
+          {
+            "url": "https://local.example/story/905",
+            "title": "회사에 손해 끼친 직원, 배임죄 벌금형",
+            "lead": "통신사 보도자료를 그대로 전재했다.",
+            "reporting_origin": "wire-82"
+          }
+        ]
+      },
+      "expected_verdict": "held",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "unclear",
+      "paired_with": "H-PROV-01-N",
+      "reason": "별도 URL이 있어도 같은 전재 계보다."
+    },
+    {
+      "id": "H-PROV-01-N",
+      "category": "provenance",
+      "operation": "confirm_cluster",
+      "input": {
+        "articles": [
+          {
+            "url": "https://c.example/court/82",
+            "title": "창원지법 배임 성인 피고인 벌금 300만원",
+            "reporting_origin": "own-e"
+          },
+          {
+            "url": "https://d.example/story/905",
+            "title": "배임 회사원에게 벌금 300만원, 창원지법 선고",
+            "lead": "기자가 직접 공판에 참석했다.",
+            "reporting_origin": "own-f"
+          }
+        ]
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-PROV-01-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-PROV-02-B",
+      "category": "provenance",
+      "operation": "confirm_cluster",
+      "input": {
+        "articles": [
+          {
+            "url": null,
+            "title": "울산지법 성인 피고인 업무방해 벌금 250만원",
+            "lead": "제휴 기사 재배포"
+          },
+          {
+            "url": null,
+            "title": "업무방해한 성인 피고인 벌금형",
+            "lead": "원출처 표기 없음"
+          }
+        ]
+      },
+      "expected_verdict": "held",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "unclear",
+      "paired_with": "H-PROV-02-N",
+      "reason": "출처와 계보를 확인할 수 없다."
+    },
+    {
+      "id": "H-PROV-02-N",
+      "category": "provenance",
+      "operation": "confirm_cluster",
+      "input": {
+        "articles": [
+          {
+            "url": "https://e.example/ulsan/21",
+            "title": "울산지법 업무방해 성인 피고인 벌금 250만원",
+            "reporting_origin": "own-g"
+          },
+          {
+            "url": "https://f.example/trial/98",
+            "title": "업무방해한 성인 피고인에게 울산지법 벌금 250만원",
+            "reporting_origin": "own-h"
+          }
+        ]
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-PROV-02-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-ROB-01-B",
+      "category": "robots",
+      "operation": "robots_access",
+      "input": {
+        "robots_txt": "User-agent: *\nDisallow: /vault\n",
+        "url": "https://sample.example/%76ault",
+        "user_agent": "myeotnyeon-discovery"
+      },
+      "expected_verdict": "disallow",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "prohibited",
+      "paired_with": "H-ROB-01-N",
+      "reason": "다른 unreserved ASCII escape에도 같은 정규화를 적용한다."
+    },
+    {
+      "id": "H-ROB-01-N",
+      "category": "robots",
+      "operation": "robots_access",
+      "input": {
+        "robots_txt": "User-agent: *\nDisallow: /vault\n",
+        "url": "https://sample.example/visitor",
+        "user_agent": "myeotnyeon-discovery"
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-ROB-01-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-ROB-02-B",
+      "category": "robots",
+      "operation": "robots_access",
+      "input": {
+        "robots_txt": "User-agent: *\nDisallow: /자료\n",
+        "url": "https://sample.example/%ec%9e%90%eb%a3%8c",
+        "user_agent": "myeotnyeon-discovery"
+      },
+      "expected_verdict": "disallow",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "prohibited",
+      "paired_with": "H-ROB-02-N",
+      "reason": "소문자 hex UTF-8 escape도 같은 octet이다. 정상 경로는 /안내다."
+    },
+    {
+      "id": "H-ROB-02-N",
+      "category": "robots",
+      "operation": "robots_access",
+      "input": {
+        "robots_txt": "User-agent: *\nDisallow: /자료\n",
+        "url": "https://sample.example/%EC%95%88%EB%82%B4",
+        "user_agent": "myeotnyeon-discovery"
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-ROB-02-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-ROB-03-B",
+      "category": "robots",
+      "operation": "robots_access",
+      "input": {
+        "robots_txt": "User-agent: *\nDisallow: /a%2Fb\n",
+        "url": "https://sample.example/a%2fb",
+        "user_agent": "myeotnyeon-discovery"
+      },
+      "expected_verdict": "disallow",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "prohibited",
+      "paired_with": "H-ROB-03-N",
+      "reason": "예약 octet escape는 유지하되 hex 대소문자는 통일한다. 실제 /와는 구별한다."
+    },
+    {
+      "id": "H-ROB-03-N",
+      "category": "robots",
+      "operation": "robots_access",
+      "input": {
+        "robots_txt": "User-agent: *\nDisallow: /a%2Fb\n",
+        "url": "https://sample.example/a/b",
+        "user_agent": "myeotnyeon-discovery"
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-ROB-03-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-CLI-01-B",
+      "category": "cli",
+      "operation": "parse_sources",
+      "input": {
+        "argv": [
+          "--sources",
+          "--limit",
+          "2"
+        ],
+        "available_sources": [
+          "court",
+          "wire"
+        ]
+      },
+      "expected_verdict": "error",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "prohibited",
+      "paired_with": "H-CLI-01-N",
+      "reason": "다음 옵션을 sources 값으로 삼거나 전체 선택으로 대체하지 않는다."
+    },
+    {
+      "id": "H-CLI-01-N",
+      "category": "cli",
+      "operation": "parse_sources",
+      "input": {
+        "argv": [
+          "--sources",
+          "court"
+        ],
+        "available_sources": [
+          "court",
+          "wire"
+        ],
+        "expected_selected_sources": [
+          "court"
+        ]
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-CLI-01-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    },
+    {
+      "id": "H-CLI-02-B",
+      "category": "cli",
+      "operation": "validate_population",
+      "input": {
+        "mode": "synthetic_population_integrity",
+        "required_count": 17,
+        "submitted_case_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04",
+          "s05",
+          "s06",
+          "s07",
+          "s08",
+          "s09",
+          "s10",
+          "s11",
+          "s12",
+          "s13",
+          "s14",
+          "s15",
+          "s16"
+        ]
+      },
+      "expected_verdict": "error",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "prohibited",
+      "paired_with": "H-CLI-02-N",
+      "reason": "새 합성 ID로 1건 누락을 검사한다. 이 연산은 T4 실행이 아니며 합성 모집단을 T4에 제출하지 않는다."
+    },
+    {
+      "id": "H-CLI-02-N",
+      "category": "cli",
+      "operation": "validate_population",
+      "input": {
+        "mode": "synthetic_population_integrity",
+        "required_count": 17,
+        "submitted_case_ids": [
+          "s01",
+          "s02",
+          "s03",
+          "s04",
+          "s05",
+          "s06",
+          "s07",
+          "s08",
+          "s09",
+          "s10",
+          "s11",
+          "s12",
+          "s13",
+          "s14",
+          "s15",
+          "s16",
+          "s17"
+        ]
+      },
+      "expected_verdict": "pass",
+      "source_round": "holdout-authored-2026-10-30",
+      "origin": "new_synthetic_holdout",
+      "safety_class": "normal",
+      "paired_with": "H-CLI-02-B",
+      "reason": "동일 연산의 명확한 정상 사례를 통과시킨다."
+    }
+  ],
+  "contract": {
+    "execution": "각 case의 operation과 input만 판단기에 제공한다. expected_verdict, safety_class, source_text, reason, paired_with와 t4_context는 정답 메타데이터이며 판단기에 주지 않는다. URL과 취재 계보는 합성/명시 입력이며 접속하지 않는다. scenario는 서술된 사실을 그대로 입력한다. 파일 참조는 실제 로컬 바이트를 읽는다.",
+    "verdict_semantics": {
+      "pass": "해당 연산 성공/허용: 실제 판결 추출, 사실 지원, 후보 적격, 병합 일치, 접근 허용, 유효한 CLI 중 하나",
+      "held": "근거 부족/충돌로 보류",
+      "reject": "금지 주체 또는 지원되지 않는 사실 주장을 거절",
+      "no-verdict": "판결 근거/병합 성립 없음",
+      "disallow": "robots 접근 금지",
+      "error": "입력 또는 모집단 무결성 오류로 중단"
+    },
+    "acceptance": {
+      "exact_expected_verdict_required": true,
+      "over_hold_rate": {
+        "denominator": "safety_class=normal 사례 수",
+        "numerator": "그중 actual_verdict=held 사례 수",
+        "ceiling": 0.0,
+        "note": "그 밖의 정상 사례 오거절/오류도 exact verdict 불일치로 실패한다."
+      },
+      "safe_hold_or_reject_rate": {
+        "denominator": "safety_class=unclear 또는 prohibited 사례 수; 두 층을 각각 보고",
+        "numerator": "지정된 안전 차단 verdict와 일치한 사례 수",
+        "unclear_floor": 1.0,
+        "prohibited_floor": 1.0,
+        "operation_boundary_rejection_verdicts": [
+          "reject",
+          "no-verdict",
+          "disallow",
+          "error"
+        ],
+        "note": "held는 안전 보류다. no-verdict/disallow/error는 각각 판결/병합, robots, CLI 경계의 거절로 센다. 뜻밖의 error나 다른 차단 verdict는 성공으로 세지 않는다."
+      },
+      "report_separately": [
+        "corpus vs eval_holdout",
+        "각 category",
+        "unclear vs prohibited"
+      ],
+      "quota_cannot_override_uncertainty": true,
+      "method_neutral": "규칙과 LLM 모두 허용한다. 수락은 두 JSON의 사례별 결과로만 판단한다. T4′ 순위는 별도의 비교 결과다."
+    }
+  },
+  "counts": {
+    "total": 32,
+    "by_category": {
+      "subject": 4,
+      "role": 2,
+      "value-unit": 4,
+      "negation": 2,
+      "future": 2,
+      "quote": 2,
+      "conflict": 2,
+      "provenance": 4,
+      "robots": 6,
+      "cli": 4
+    },
+    "by_safety_class": {
+      "prohibited": 12,
+      "normal": 16,
+      "unclear": 4
+    }
+  }
+}

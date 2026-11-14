@@ -1,0 +1,197 @@
+{
+ "id": "bc004",
+ "voice": "af_bella",
+ "speed": 1.32,
+ "a": "orca",
+ "b": "shark",
+ "winner": "a",
+ "bg": "ocean",
+ "title": [
+  "ORCA",
+  "WHITE SHARK"
+ ],
+ "tag": [
+  "UP TO 22,000 LB",
+  "UP TO 4,500 LB"
+ ],
+ "gap": 0.03,
+ "caps": "words",
+ "keep": [
+  "great white shark",
+  "killer whale",
+  "orca",
+  "white shark",
+  "about 3 in"
+ ],
+ "stats": [
+  {
+   "label": "MAX WEIGHT",
+   "a": {
+    "big": "22,000 LB",
+    "small": "RECORD MALE · ≈10,000 kg"
+   },
+   "b": {
+    "big": "4,500 LB",
+    "small": "UPPER LIMIT · ≈2,000 kg"
+   },
+   "win": "a"
+  },
+  {
+   "label": "MAX LENGTH",
+   "a": {
+    "big": "32 FT",
+    "small": "RECORD MALE · ≈9.8 m"
+   },
+   "b": {
+    "big": "21 FT",
+    "small": "UPPER LIMIT · ≈6 m"
+   },
+   "win": "a"
+  },
+  {
+   "label": "TEETH",
+   "a": {
+    "big": "ABOUT 3 IN",
+    "small": "≈7.6 cm"
+   },
+   "win": "a"
+  }
+ ],
+ "verdict": {
+  "note": "HYPOTHETICAL · LARGEST RECORDED MALE",
+  "note2": "A STUDY AT ONE SHARED SITE",
+  "pop1": "ORCA > WHITE SHARK",
+  "pop2": "SHARKS LEFT WHEN ORCAS CAME",
+  "head": "HYPOTHETICAL WINNER",
+  "name": "ORCA"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "face",
+   "tts": "Orca versus great white shark!",
+   "shown": "Orca vs great white shark!",
+   "speed": 1.25
+  },
+  {
+   "id": "L02",
+   "mode": "stat",
+   "tts": "Record male orca: twenty-two thousand pounds, biggest white sharks: forty-five hundred!",
+   "shown": "Record male orca: 22,000 lbs, biggest white sharks: 4,500!",
+   "k": 0,
+   "speed": 1.35
+  },
+  {
+   "id": "L03",
+   "mode": "stat",
+   "tts": "Record lengths: thirty-two feet versus twenty-one!",
+   "shown": "Record lengths: 32 ft vs 21!",
+   "k": 1,
+   "speed": 1.35
+  },
+  {
+   "id": "L04",
+   "mode": "stat",
+   "tts": "Orca... teeth: about three inches long!",
+   "shown": "Orca teeth: about 3 in. long!",
+   "k": 2,
+   "speed": 1.22
+  },
+  {
+   "id": "L05",
+   "mode": "prompt",
+   "tts": "Who wins? Take your pick!",
+   "shown": "Who wins? Take your pick!",
+   "speed": 1.16
+  },
+  {
+   "id": "L06",
+   "mode": "clash",
+   "tts": "The shark closes in!",
+   "shown": "The shark closes in!",
+   "shots": [
+    {
+     "s": "charge",
+     "who": "b"
+    }
+   ],
+   "hold": 0.0,
+   "speed": 1.14
+  },
+  {
+   "id": "L07",
+   "mode": "clash",
+   "tts": "The orca rears up. Jaws first!",
+   "shown": "The orca rears up. Jaws first!",
+   "shots": [
+    {
+     "s": "rear",
+     "who": "a"
+    },
+    {
+     "s": "strike",
+     "who": "a"
+    }
+   ],
+   "hold": 0.0
+  },
+  {
+   "id": "L08",
+   "mode": "clash",
+   "tts": "The shark lunges again!",
+   "shown": "The shark lunges again!",
+   "shots": [
+    {
+     "s": "strike",
+     "who": "b"
+    }
+   ],
+   "hold": 0.0,
+   "speed": 1.08
+  },
+  {
+   "id": "L09",
+   "mode": "clash",
+   "tts": "BAM! The shark takes the hit!",
+   "shown": "BAM! The shark takes the hit!",
+   "shots": [
+    {
+     "s": "impact",
+     "who": "b",
+     "tank": true
+    }
+   ],
+   "hold": 0.0,
+   "speed": 1.12
+  },
+  {
+   "id": "L10",
+   "mode": "clash",
+   "tts": "The shark backs away!",
+   "shown": "The shark backs away!",
+   "shots": [
+    {
+     "s": "retreat",
+     "who": "b"
+    }
+   ],
+   "hold": 0.12,
+   "speed": 1.11
+  },
+  {
+   "id": "L11",
+   "mode": "verdict",
+   "tts": "In a study, orca visits displaced white sharks.",
+   "shown": "In a study, orca visits displaced white sharks.",
+   "k": 0,
+   "speed": 1.22
+  },
+  {
+   "id": "L12",
+   "mode": "loop",
+   "tts": "Rematch? Round two!",
+   "shown": "Rematch? Round 2!"
+  }
+ ],
+ "source_spec": "episodes/specs/bc004.json"
+}

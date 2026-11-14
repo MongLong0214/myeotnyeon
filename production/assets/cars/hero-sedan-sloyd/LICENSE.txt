@@ -1,0 +1,35 @@
+Asset: "A Red Mid-sized Four-door Sedan, 1990s To Early 2000s" (model id 04dtwkw5)
+Source page: https://www.sloyd.ai/free-3d-models/model/a-red-mid-sized-four-door-sedan-1990s-to-early-2000s-04dtwkw5
+Direct file: https://storage.googleapis.com/ai-services-quality/jobs/04dtwkw5.glb
+Creator: TopoSphere (published via the Sloyd AI 3D model generator, sloyd.ai)
+Downloaded: 2026-10-25, no account/login/payment required.
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+Full legal text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Exact wording captured from the asset page (sloyd_page_snapshot.html, saved alongside this
+file in source/):
+
+  "...published by its creator under CC BY 4.0, so it's free to download and free to use
+  commercially. Credit the creator and link the licence, and you're done."
+
+  "...licensed under the Creative Commons Attribution 4.0 International licence. You may
+  use, modify, and redistribute it — including commercially — provided you credit the
+  creator."
+
+Required attribution string (as given verbatim by the source page):
+
+  "A Red Mid-sized Four-door Sedan, 1990s To Early 2000s..." by TopoSphere, generated with
+  Sloyd, licensed under CC BY 4.0.
+  Model page: https://www.sloyd.ai/free-3d-models/model/a-red-mid-sized-four-door-sedan-1990s-to-early-2000s-04dtwkw5
+  License: https://creativecommons.org/licenses/by/4.0/
+
+Commercial use: explicitly permitted ("free to use commercially").
+Account/login/payment required to download: No (confirmed by direct curl download of the
+.glb without any auth header or redirect to a login page).
+
+Notes on logos/trademarks: No manufacturer logos, badges, or legible text were found on the
+model (AI-generated generic/composite design; close-up render of the front bumper/grille
+shows a blank grille and blank license-plate placeholder, no emblem). See
+../../_previews/hero-sedan-sloyd.png and ../../_rejected_previews/_test_sloyd_sedan_closeup.png
+for the verification renders.

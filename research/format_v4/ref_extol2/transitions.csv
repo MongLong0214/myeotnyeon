@@ -1,0 +1,7 @@
+time_s,transition_type,transition_start_frame,transition_end_frame_exclusive,transition_duration_frames,transition_duration_s
+129.46666666666667,glitch,3877,3892,15,0.5
+190.03333333333333,cross-dissolve,5699,5703,4,0.13333333333333333
+230.73333333333332,glitch,6915,6930,15,0.5
+416.1,glitch,12479,12494,15,0.5
+472.8666666666667,glitch,14178,14198,20,0.6666666666666666
+521.5333333333333,terminal-glitch-to-black-not-content-cut,15637,15654,17,0.5666666666666667

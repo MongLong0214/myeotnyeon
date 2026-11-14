@@ -1,0 +1,115 @@
+{
+  "template": {
+    "video": "/Users/isaac/projects/verdict-kr/work/upload/v52_q013_n16_v3.mp4",
+    "sha256": "c6202356d56d30a42f21e1cca4aabedbb4dfc539b79826b65621145714c81c95",
+    "source": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/v3/src"
+  },
+  "shots": [
+    {
+      "from_frame": 0,
+      "to_frame": 74,
+      "mode": "pour",
+      "text": "달리는 지하철에 휘발유를 붓고 불을 질렀습니다."
+    },
+    {
+      "from_frame": 74,
+      "to_frame": 158,
+      "mode": "evacuate",
+      "text": "오호선 승객들이 대피했고, 연기를 마신 사람도 나왔습니다."
+    },
+    {
+      "from_frame": 158,
+      "to_frame": 238,
+      "mode": "charge",
+      "text": "검찰이 적용한 살인미수 혐의는 승객 백육십 명입니다."
+    },
+    {
+      "from_frame": 238,
+      "to_frame": 301,
+      "mode": "passenger",
+      "text": "사망자 수가 아닙니다. 징역 몇 년일까요?"
+    },
+    {
+      "from_frame": 301,
+      "to_frame": 371,
+      "mode": "demand",
+      "text": "일심에서 검찰은 징역 이십 년을 구형했습니다."
+    },
+    {
+      "from_frame": 371,
+      "to_frame": 459,
+      "mode": "recovery",
+      "text": "재판부는 피해 회복도 대부분 이뤄지지 않았다고 봤습니다."
+    },
+    {
+      "from_frame": 459,
+      "to_frame": 539,
+      "mode": "trust",
+      "text": "대중교통의 안전에 대한 신뢰도 해쳤다고 지적했습니다."
+    },
+    {
+      "from_frame": 539,
+      "to_frame": 629,
+      "mode": "choices",
+      "text": "항소심이 유지한 형량은 몇 년일까요? 댓글로 골라보세요."
+    },
+    {
+      "from_frame": 629,
+      "to_frame": 702,
+      "mode": "answer",
+      "text": "항소심 선고, 징역 십이 년. 보호관찰 삼 년입니다."
+    },
+    {
+      "from_frame": 702,
+      "to_frame": 747,
+      "mode": "next",
+      "text": "다음 판결도 맞혀보세요. 구독."
+    }
+  ],
+  "snap_zooms": [
+    {
+      "at": 0,
+      "frames": 3,
+      "reason": "act"
+    },
+    {
+      "at": 629,
+      "frames": 3,
+      "reason": "answer"
+    }
+  ],
+  "choice": {
+    "first": 539,
+    "all_visible": 547,
+    "answer": 629,
+    "selection_seconds": 2.7333333333333334,
+    "correct": "B"
+  },
+  "subtitle": {
+    "font": "Quiet Sans / Pretendard ExtraBold",
+    "px": 72,
+    "weight": 800,
+    "outline_px": 10,
+    "center_x": 540,
+    "max_lines": 2,
+    "max_characters": 14,
+    "box_y": [
+      1192,
+      1342
+    ]
+  },
+  "source_hashes": {
+    "render_source/CourtDynamic.tsx": "a696a73e58ed8ee41807a8889c44a68d311c1cb4b92ef86438fed5b621773806",
+    "render_source/FightRig.tsx": "0bf9fa94fc47b6883fdaf710fcad255c5803aa5c150b70edfd5496fb2f2910fd",
+    "render_source/FightScene.tsx": "a426fbcfcca856e31f5c0d34d8ffe344c8991fac3a4360a579575db02d857357",
+    "render_source/Scenes.tsx": "a20e62e0b0a20cac854d200ca147ba5f99a1a473d62a679908b5bb5b3c633a64",
+    "render_source/Standard.tsx": "f664db242f42b6db4ba923f99bc9b3868209e24b944169183b9cb874fe683463",
+    "render_source/entry.tsx": "23a00bdadc90c07fab94a19b7bb707c080a80e2bc48c4d6cced088a1f2c3dbbb",
+    "render_source/finish_std.py": "70e78129290341f7b388fe3ee345e023a603f5ce9dbb4bd94c7f37a828713a17",
+    "render_source/package_std.py": "f90fa1942af028ea3430e03ca211ce0df0ed42ac6283a1cb4f9e20e605af617c",
+    "render_source/prepare_std.py": "b2160d76a015ac7fc375ba3e4fc27a8b6b6cb33173e669dd1ed6be8bbe32b739",
+    "render_source/render.cjs": "5cd04bc09ff6ecf8c2360e8d8f332c8c5e086b34c77566b34475218614f115ae"
+  },
+  "producer_verdict": null,
+  "CTO_verdict": null
+}

@@ -1,0 +1,370 @@
+{
+ "qid": "q026",
+ "variant": "B3",
+ "b3": true,
+ "grave": false,
+ "kind": "mom",
+ "number_label": "",
+ "cover_text": "장윤정 친모\n'딸 이름' 팔면?",
+ "defendant": "granny",
+ "choices": [
+  "집행유예",
+  "징역 10개월",
+  "징역 1년 6개월"
+ ],
+ "correct": 1,
+ "answer": "징역 10개월",
+ "answer_label": "1심 · 항소 중",
+ "opinion": "이 형량,\n가볍다 / 적당 / 무겁다?",
+ "option_offsets": [
+  0.0,
+  0.88,
+  1.7
+ ],
+ "hook_text": [
+  "딸 이름 팔아",
+  "사기"
+ ],
+ "sfx": [
+  [
+   "deal",
+   0,
+   "whoosh"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ],
+  [
+   "money",
+   0,
+   "tick"
+  ],
+  [
+   "past",
+   0,
+   "knock"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L06",
+   "at": 0.35,
+   "big": "치킨 1,550마리",
+   "small": "3,100만 원 ÷ 2만 원",
+   "calc": "31,000,000 ÷ 20,000 = 1,550 (치킨 한 마리 2만 원 가정)"
+  },
+  {
+   "line": "L06",
+   "at": 0.75,
+   "big": "최저임금 14개월치",
+   "small": "3,100만 원 ÷ 월 215만 원",
+   "calc": "2026년 최저임금 시급 10,320원 × 209시간 = 2,156,880원/월; 31,000,000 ÷ 2,156,880 = 14.37 → 약 14개월치"
+  },
+  {
+   "line": "L05",
+   "at": 0.55,
+   "big": "12개월 동안 3번",
+   "small": "2024년 9월 ~ 2025년 8월",
+   "calc": "2024-09 ~ 2025-08 = 12개월(양 끝 달 포함)"
+  },
+  {
+   "line": "L07",
+   "at": 0.55,
+   "big": "36개월",
+   "small": "2018년 징역 3년",
+   "calc": "3년 × 12 = 36개월"
+  },
+  {
+   "line": "L08",
+   "at": 0.5,
+   "big": "= 육군 복무 18개월",
+   "small": "구형 1년 6개월",
+   "calc": "1년 6개월 = 18개월 = 육군 현역 복무기간 18개월"
+  },
+  {
+   "line": "L12",
+   "at": 0.05,
+   "big": "구형보다 8개월 ↓",
+   "small": "18개월 → 10개월",
+   "calc": "18 − 10 = 8개월"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "deal",
+   "tts": "딸 이름 팔아, 사기.",
+   "shown": "딸 이름 팔아, 사기.",
+   "chunks": [
+    "딸 이름 팔아,",
+    "사기."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "deal"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "장윤정 친모, 몇 년 나왔을까요?",
+   "shown": "장윤정 친모, 몇 년 나왔을까요?",
+   "chunks": [
+    "장윤정 친모,",
+    "몇 년 나왔을까요?"
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "poster"
+    },
+    {
+     "s": "react",
+     "look": "granny",
+     "expr": "smug",
+     "move": "nod"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "mode": "guess",
+   "tts": "일흔 살, 집행유예 나올 것 같지만,",
+   "shown": "일흔 살, 집행유예 나올 것 같지만,",
+   "chunks": [
+    "일흔 살,",
+    "집행유예",
+    "나올 것 같지만,"
+   ],
+   "fact": "F5",
+   "shots": [
+    {
+     "s": "cake"
+    },
+    {
+     "s": "bubble",
+     "lines": [
+      "집행유예?",
+      "일흔 살인데…"
+     ],
+     "size": 130
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "그런데 실제 판결은, 실형이었습니다.",
+   "shown": "그런데 실제 판결은, 실형이었습니다.",
+   "chunks": [
+    "그런데 실제 판결은,",
+    "실형이었습니다."
+   ],
+   "fact": "F5",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "판결"
+     ],
+     "stamp": "실형"
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "mode": "phone",
+   "tts": "딸이 가수라며, 연예인도 투자한다고.",
+   "shown": "딸이 가수라며, 연예인도 투자한다고.",
+   "chunks": [
+    "딸이 가수라며,",
+    "연예인도",
+    "투자한다고."
+   ],
+   "fact": "F2",
+   "shots": [
+    {
+     "s": "phone",
+     "msgs": [
+      "우리 딸 가수잖아",
+      "연예인들도 투자했어"
+     ]
+    },
+    {
+     "s": "react",
+     "look": "passenger",
+     "expr": "smug",
+     "move": "nod"
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "mode": "money",
+   "tts": "지인에게 세 번, 삼천백만 원.",
+   "shown": "지인에게 3번, 3,100만 원.",
+   "chunks": [
+    "지인에게 3번,",
+    "3,100만 원."
+   ],
+   "fact": "F2",
+   "shots": [
+    {
+     "s": "money",
+     "n": 3
+    },
+    {
+     "s": "react",
+     "look": "passenger",
+     "expr": "shock",
+     "move": "recoil"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "mode": "past",
+   "tts": "이천십팔 년에도, 같은 사기로 징역 삼 년.",
+   "shown": "2018년에도, 같은 사기로 징역 3년.",
+   "chunks": [
+    "2018년에도,",
+    "같은 사기로",
+    "징역 3년."
+   ],
+   "fact": "F3",
+   "shots": [
+    {
+     "s": "calendar",
+     "year": "2018"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "사기 · 징역 3년"
+     ],
+     "stamp": "전과",
+     "size": 64
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "mode": "demand",
+   "tts": "검찰 구형은, 징역 일 년 육 개월.",
+   "shown": "검찰 구형은, 징역 1년 6개월.",
+   "chunks": [
+    "검찰 구형은,",
+    "징역 1년 6개월."
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "prosecutor"
+    },
+    {
+     "s": "react",
+     "look": "granny",
+     "expr": "scared",
+     "move": "shake"
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "일심 형량은?",
+   "shown": "1심 형량은?",
+   "chunks": [
+    "1심 형량은?"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "집행유예, 징역 십 개월, 일 년 육 개월.",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "target": 5.6,
+   "hold_after": 0.45
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "정답 비, 징역 십 개월.",
+   "shown": "정답 B, 징역 10개월.",
+   "chunks": [
+    "정답 B,",
+    "징역 10개월."
+   ],
+   "fact": "F5",
+   "shots": [],
+   "emphasis": "징역 10개월"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "불복해 항소했습니다.",
+   "shown": "불복해 항소했습니다.",
+   "chunks": [
+    "불복해",
+    "항소했습니다."
+   ],
+   "fact": "F6",
+   "shots": [
+    {
+     "s": "cell",
+     "look": "granny",
+     "expr": "tired"
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "항소장"
+     ],
+     "size": 96
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "가볍다 적당 무겁다?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [
+    {
+     "s": "react",
+     "look": "granny",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "hold_after": 0.3
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "일흔 살 엄마의 수법은,",
+   "shown": "일흔 살 엄마의 수법은,",
+   "chunks": [
+    "일흔 살 엄마의",
+    "수법은,"
+   ],
+   "fact": "F1",
+   "shots": []
+  }
+ ]
+}

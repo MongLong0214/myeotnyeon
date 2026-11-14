@@ -1,0 +1,342 @@
+{
+ "qid": "q027",
+ "variant": "B3",
+ "b3": true,
+ "grave": false,
+ "kind": "kick",
+ "number_label": "",
+ "stage": "kick",
+ "cover_text": "불광동 '사커킥'\n부부 몇 년?",
+ "defendant": "hoodie",
+ "choices": [
+  "벌금 300만 원",
+  "징역 4개월",
+  "징역 1년"
+ ],
+ "correct": 1,
+ "answer": "징역 4개월",
+ "answer_label": "남편 · 2심 · 상고",
+ "opinion": "이 형량,\n가볍다 / 적당 / 무겁다?",
+ "option_offsets": [
+  0.0,
+  1.0,
+  1.88
+ ],
+ "hook_text": [
+  "우리 애 밀쳤다며",
+  "사커킥"
+ ],
+ "sfx": [
+  [
+   "kick",
+   0,
+   "thud"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ],
+  [
+   "trip",
+   8,
+   "thud"
+  ],
+  [
+   "past",
+   0,
+   "knock"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L02b",
+   "at": 0.45,
+   "big": "밤 10시 40분",
+   "small": "2023년 8월 13일 · 불광동 주차장",
+   "calc": "보도된 사건 시각 그대로"
+  },
+  {
+   "line": "L07",
+   "at": 0.45,
+   "big": "처벌 전력 5번",
+   "small": "남편 · 과거 처벌",
+   "calc": "보도: 남편 과거 5차례 처벌 전력(아내는 폭력 벌금형 2번)"
+  },
+  {
+   "line": "L08",
+   "at": 0.45,
+   "big": "10개월 = 약 304일",
+   "small": "항소심 구형 · 각각",
+   "calc": "10개월 × 30.4일 = 304일(평균 한 달 30.4일)"
+  },
+  {
+   "line": "L12",
+   "at": 0.05,
+   "big": "구형의 40%",
+   "small": "10개월 → 4개월",
+   "calc": "4 ÷ 10 = 0.4"
+  },
+  {
+   "line": "L12",
+   "at": 0.55,
+   "big": "치킨 50마리",
+   "small": "공탁 100만 원(각각)",
+   "calc": "1,000,000 ÷ 20,000 = 50 (치킨 한 마리 2만 원 가정)"
+  },
+  {
+   "line": "L04",
+   "at": 0.6,
+   "big": "사건 → 1심 15개월",
+   "small": "2023년 8월 → 2024년 11월",
+   "calc": "2023-08 → 2024-11 = 15개월"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01b",
+   "mode": "kick",
+   "tts": "애 밀쳤다며, 사커킥.",
+   "shown": "애 밀쳤다며, 사커킥.",
+   "chunks": [
+    "애 밀쳤다며,",
+    "사커킥."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "kick"
+    }
+   ]
+  },
+  {
+   "id": "L02b",
+   "mode": "hook",
+   "tts": "사커킥 부부, 몇 년 나왔을까요?",
+   "shown": "사커킥 부부, 몇 년 나왔을까요?",
+   "chunks": [
+    "사커킥 부부,",
+    "몇 년 나왔을까요?"
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "react",
+     "look": "clerk",
+     "expr": "angry",
+     "move": "shake"
+    },
+    {
+     "s": "react",
+     "look": "hoodie",
+     "expr": "smug",
+     "move": "nod"
+    }
+   ]
+  },
+  {
+   "id": "L03b",
+   "mode": "guess",
+   "tts": "벌금 나올 것 같지만,",
+   "shown": "벌금 나올 것 같지만,",
+   "chunks": [
+    "벌금 나올 것",
+    "같지만,"
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "bubble",
+     "lines": [
+      "벌금?",
+      "아이 때문이라는데…"
+     ],
+     "size": 150
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "그런데 씨씨티비엔, 아이가 먼저 와서 부딪혔습니다.",
+   "shown": "그런데 CCTV엔, 아이가 먼저 와서 부딪혔습니다.",
+   "chunks": [
+    "그런데 CCTV엔,",
+    "아이가 먼저 와서",
+    "부딪혔습니다."
+   ],
+   "fact": "F2",
+   "shots": [
+    {
+     "s": "cctv"
+    },
+    {
+     "s": "react",
+     "look": "driver",
+     "expr": "shock",
+     "move": "recoil"
+    }
+   ]
+  },
+  {
+   "id": "L56",
+   "mode": "trip",
+   "tts": "남편은 다리 걸고, 아내는 얼굴을 걷어찼습니다.",
+   "shown": "남편은 다리 걸고, 아내는 얼굴을 걷어찼습니다.",
+   "chunks": [
+    "남편은 다리 걸고,",
+    "아내는 얼굴을",
+    "걷어찼습니다."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "trip"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "공동상해"
+     ],
+     "stamp": "유죄"
+    },
+    {
+     "s": "react",
+     "look": "driver",
+     "expr": "pain",
+     "move": "shake"
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "mode": "past",
+   "tts": "남편은 처벌 전력만 다섯 번.",
+   "shown": "남편은 처벌 전력만 5번.",
+   "chunks": [
+    "남편은",
+    "처벌 전력만 5번."
+   ],
+   "fact": "F3",
+   "shots": [
+    {
+     "s": "tally",
+     "n": 5,
+     "label": "남편 처벌 전력"
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "mode": "demand",
+   "tts": "항소심 구형은, 각각 징역 십 개월.",
+   "shown": "항소심 구형은, 각각 징역 10개월.",
+   "chunks": [
+    "항소심 구형은,",
+    "각각 징역 10개월."
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "prosecutor"
+    },
+    {
+     "s": "react",
+     "look": "clerk",
+     "expr": "scared",
+     "move": "shake"
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "남편의 이심 형량은?",
+   "shown": "남편의 2심 형량은?",
+   "chunks": [
+    "남편의 2심 형량은?"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "벌금 삼백만 원, 징역 사 개월, 일 년.",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "target": 5.6,
+   "hold_after": 0.45
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "정답 비, 징역 사 개월.",
+   "shown": "정답 B, 징역 4개월.",
+   "chunks": [
+    "정답 B,",
+    "징역 4개월."
+   ],
+   "fact": "F5",
+   "shots": [],
+   "emphasis": "징역 4개월"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "아내는 집행유예, 남편은 법정구속.",
+   "shown": "아내는 집행유예, 남편은 법정구속.",
+   "chunks": [
+    "아내는 집행유예,",
+    "남편은 법정구속."
+   ],
+   "fact": "F5",
+   "shots": [
+    {
+     "s": "cell",
+     "look": "hoodie",
+     "expr": "shock"
+    },
+    {
+     "s": "react",
+     "look": "clerk",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2070
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "가볍다 적당 무겁다?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [
+    {
+     "s": "react",
+     "look": "hoodie",
+     "expr": "tired",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "hold_after": 0.3
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "부부가 대리기사에게 날린 건,",
+   "shown": "부부가 대리기사에게 날린 건,",
+   "chunks": [
+    "부부가 대리기사에게",
+    "날린 건,"
+   ],
+   "fact": "F1",
+   "shots": []
+  }
+ ]
+}

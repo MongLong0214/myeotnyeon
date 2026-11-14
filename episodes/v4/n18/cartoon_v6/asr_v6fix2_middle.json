@@ -1,0 +1,1256 @@
+[
+  {
+    "id": "M001",
+    "text": " 중대장과 부중대장은 학대치사와 직권남용 가혹 행위로 기소됐습니다.",
+    "words": [
+      {
+        "word": " 중대장과",
+        "start": 0.0,
+        "end": 0.52,
+        "probability": 1.0
+      },
+      {
+        "word": " 부중대장은",
+        "start": 0.52,
+        "end": 1.22,
+        "probability": 0.99853515625
+      },
+      {
+        "word": " 학대치사와",
+        "start": 1.22,
+        "end": 1.98,
+        "probability": 0.99755859375
+      },
+      {
+        "word": " 직권남용",
+        "start": 1.98,
+        "end": 2.66,
+        "probability": 0.99609375
+      },
+      {
+        "word": " 가혹",
+        "start": 2.66,
+        "end": 3.0,
+        "probability": 0.9912109375
+      },
+      {
+        "word": " 행위로",
+        "start": 3.0,
+        "end": 3.3,
+        "probability": 0.8544921875
+      },
+      {
+        "word": " 기소됐습니다.",
+        "start": 3.3,
+        "end": 3.9,
+        "probability": 0.99951171875
+      }
+    ]
+  },
+  {
+    "id": "M002",
+    "text": " 중대장 측은 잘못된 행동을 인정하면서도 학대치사 혐의는 부인했습니다.",
+    "words": [
+      {
+        "word": " 중대장",
+        "start": 0.0,
+        "end": 0.36,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 측은",
+        "start": 0.36,
+        "end": 0.72,
+        "probability": 1.0
+      },
+      {
+        "word": " 잘못된",
+        "start": 0.72,
+        "end": 1.24,
+        "probability": 1.0
+      },
+      {
+        "word": " 행동을",
+        "start": 1.24,
+        "end": 1.6,
+        "probability": 1.0
+      },
+      {
+        "word": " 인정하면서도",
+        "start": 1.6,
+        "end": 2.34,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 학대치사",
+        "start": 2.34,
+        "end": 3.06,
+        "probability": 0.99560546875
+      },
+      {
+        "word": " 혐의는",
+        "start": 3.06,
+        "end": 3.38,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 부인했습니다.",
+        "start": 3.38,
+        "end": 3.92,
+        "probability": 0.99951171875
+      }
+    ]
+  },
+  {
+    "id": "M003",
+    "text": " 2024년 11월 12일 검찰은 중대장 징역 10년, 부중대장 징역 7년을 구형했습니다.",
+    "words": [
+      {
+        "word": " 2024년",
+        "start": 0.0,
+        "end": 0.74,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 11월",
+        "start": 0.74,
+        "end": 1.18,
+        "probability": 1.0
+      },
+      {
+        "word": " 12일",
+        "start": 1.18,
+        "end": 1.64,
+        "probability": 1.0
+      },
+      {
+        "word": " 검찰은",
+        "start": 1.64,
+        "end": 2.16,
+        "probability": 0.880859375
+      },
+      {
+        "word": " 중대장",
+        "start": 2.16,
+        "end": 2.64,
+        "probability": 1.0
+      },
+      {
+        "word": " 징역",
+        "start": 2.64,
+        "end": 2.94,
+        "probability": 0.998046875
+      },
+      {
+        "word": " 10년,",
+        "start": 2.94,
+        "end": 3.3,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 부중대장",
+        "start": 3.46,
+        "end": 3.9,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 징역",
+        "start": 3.9,
+        "end": 4.16,
+        "probability": 1.0
+      },
+      {
+        "word": " 7년을",
+        "start": 4.16,
+        "end": 4.56,
+        "probability": 1.0
+      },
+      {
+        "word": " 구형했습니다.",
+        "start": 4.56,
+        "end": 5.0,
+        "probability": 0.98779296875
+      }
+    ]
+  },
+  {
+    "id": "M003a",
+    "text": " 군의 지도력과 관리 체제에 대한 국민 신뢰 훼손도 구형 사유였습니다.",
+    "words": [
+      {
+        "word": " 군의",
+        "start": 0.0,
+        "end": 0.22,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 지도력과",
+        "start": 0.22,
+        "end": 0.76,
+        "probability": 1.0
+      },
+      {
+        "word": " 관리",
+        "start": 0.76,
+        "end": 1.08,
+        "probability": 1.0
+      },
+      {
+        "word": " 체제에",
+        "start": 1.08,
+        "end": 1.46,
+        "probability": 0.90380859375
+      },
+      {
+        "word": " 대한",
+        "start": 1.46,
+        "end": 1.72,
+        "probability": 1.0
+      },
+      {
+        "word": " 국민",
+        "start": 1.72,
+        "end": 2.12,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 신뢰",
+        "start": 2.12,
+        "end": 2.48,
+        "probability": 0.9912109375
+      },
+      {
+        "word": " 훼손도",
+        "start": 2.48,
+        "end": 2.88,
+        "probability": 0.9599609375
+      },
+      {
+        "word": " 구형",
+        "start": 2.88,
+        "end": 3.24,
+        "probability": 0.9931640625
+      },
+      {
+        "word": " 사유였습니다.",
+        "start": 3.24,
+        "end": 3.66,
+        "probability": 0.8525390625
+      }
+    ]
+  },
+  {
+    "id": "M004",
+    "text": " 2025년 1월 7일 춘천지법은 중대장에게 징역 5년, 부중대장에게 징역 3년을 선고했습니다.",
+    "words": [
+      {
+        "word": " 2025년",
+        "start": 0.0,
+        "end": 0.76,
+        "probability": 0.998046875
+      },
+      {
+        "word": " 1월",
+        "start": 0.76,
+        "end": 1.06,
+        "probability": 1.0
+      },
+      {
+        "word": " 7일",
+        "start": 1.06,
+        "end": 1.44,
+        "probability": 1.0
+      },
+      {
+        "word": " 춘천지법은",
+        "start": 1.44,
+        "end": 2.22,
+        "probability": 0.9326171875
+      },
+      {
+        "word": " 중대장에게",
+        "start": 2.22,
+        "end": 2.86,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 징역",
+        "start": 2.86,
+        "end": 3.22,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 5년,",
+        "start": 3.22,
+        "end": 3.56,
+        "probability": 0.99853515625
+      },
+      {
+        "word": " 부중대장에게",
+        "start": 3.7,
+        "end": 4.34,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 징역",
+        "start": 4.34,
+        "end": 4.74,
+        "probability": 1.0
+      },
+      {
+        "word": " 3년을",
+        "start": 4.74,
+        "end": 5.14,
+        "probability": 1.0
+      },
+      {
+        "word": " 선고했습니다.",
+        "start": 5.14,
+        "end": 5.58,
+        "probability": 0.99951171875
+      }
+    ]
+  },
+  {
+    "id": "M005",
+    "text": " 훈련과 사망 사이 인과관계를 인정해 두 사람을 유죄로 받습니다.",
+    "words": [
+      {
+        "word": " 훈련과",
+        "start": 0.0,
+        "end": 0.4,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 사망",
+        "start": 0.4,
+        "end": 0.74,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 사이",
+        "start": 0.74,
+        "end": 1.02,
+        "probability": 0.95068359375
+      },
+      {
+        "word": " 인과관계를",
+        "start": 1.02,
+        "end": 1.72,
+        "probability": 0.99560546875
+      },
+      {
+        "word": " 인정해",
+        "start": 1.72,
+        "end": 2.16,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 두",
+        "start": 2.16,
+        "end": 2.38,
+        "probability": 0.99755859375
+      },
+      {
+        "word": " 사람을",
+        "start": 2.38,
+        "end": 2.76,
+        "probability": 1.0
+      },
+      {
+        "word": " 유죄로",
+        "start": 2.76,
+        "end": 3.08,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 받습니다.",
+        "start": 3.08,
+        "end": 3.44,
+        "probability": 0.96435546875
+      }
+    ]
+  },
+  {
+    "id": "M006",
+    "text": " 신체 조건에 맞지 않는 훈련으로 군 사기와 전투력, 국민 신뢰까지 헤쳐 죄책이 무겁다는 판단.",
+    "words": [
+      {
+        "word": " 신체",
+        "start": 0.0,
+        "end": 0.26,
+        "probability": 0.884765625
+      },
+      {
+        "word": " 조건에",
+        "start": 0.26,
+        "end": 0.58,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 맞지",
+        "start": 0.58,
+        "end": 0.86,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 않는",
+        "start": 0.86,
+        "end": 1.0,
+        "probability": 0.98779296875
+      },
+      {
+        "word": " 훈련으로",
+        "start": 1.0,
+        "end": 1.44,
+        "probability": 0.998046875
+      },
+      {
+        "word": " 군",
+        "start": 1.44,
+        "end": 1.72,
+        "probability": 0.98779296875
+      },
+      {
+        "word": " 사기와",
+        "start": 1.72,
+        "end": 2.12,
+        "probability": 0.98583984375
+      },
+      {
+        "word": " 전투력,",
+        "start": 2.12,
+        "end": 2.56,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 국민",
+        "start": 2.66,
+        "end": 2.9,
+        "probability": 0.9970703125
+      },
+      {
+        "word": " 신뢰까지",
+        "start": 2.9,
+        "end": 3.34,
+        "probability": 0.9853515625
+      },
+      {
+        "word": " 헤쳐",
+        "start": 3.34,
+        "end": 3.7,
+        "probability": 0.9404296875
+      },
+      {
+        "word": " 죄책이",
+        "start": 3.7,
+        "end": 4.24,
+        "probability": 0.994140625
+      },
+      {
+        "word": " 무겁다는",
+        "start": 4.24,
+        "end": 4.68,
+        "probability": 0.99853515625
+      },
+      {
+        "word": " 판단.",
+        "start": 4.68,
+        "end": 5.18,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": "M007",
+    "text": " 피해자 측 용서를 받지 못한 점을 지적하면서도 사실관계 인정과 반성 태도는 참작했습니다.",
+    "words": [
+      {
+        "word": " 피해자",
+        "start": 0.0,
+        "end": 0.3,
+        "probability": 0.99853515625
+      },
+      {
+        "word": " 측",
+        "start": 0.3,
+        "end": 0.44,
+        "probability": 0.98828125
+      },
+      {
+        "word": " 용서를",
+        "start": 0.44,
+        "end": 0.82,
+        "probability": 0.99853515625
+      },
+      {
+        "word": " 받지",
+        "start": 0.82,
+        "end": 1.08,
+        "probability": 1.0
+      },
+      {
+        "word": " 못한",
+        "start": 1.08,
+        "end": 1.38,
+        "probability": 1.0
+      },
+      {
+        "word": " 점을",
+        "start": 1.38,
+        "end": 1.6,
+        "probability": 1.0
+      },
+      {
+        "word": " 지적하면서도",
+        "start": 1.6,
+        "end": 2.32,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 사실관계",
+        "start": 2.32,
+        "end": 3.12,
+        "probability": 0.99267578125
+      },
+      {
+        "word": " 인정과",
+        "start": 3.12,
+        "end": 3.62,
+        "probability": 0.99853515625
+      },
+      {
+        "word": " 반성",
+        "start": 3.62,
+        "end": 4.04,
+        "probability": 1.0
+      },
+      {
+        "word": " 태도는",
+        "start": 4.04,
+        "end": 4.38,
+        "probability": 0.9033203125
+      },
+      {
+        "word": " 참작했습니다.",
+        "start": 4.38,
+        "end": 4.98,
+        "probability": 0.998046875
+      }
+    ]
+  },
+  {
+    "id": "M008",
+    "text": " 군 기강 확립을 위한 교육 목적에서 훈련하다 범행에 이른 점도 유리한 정상으로 봤습니다.",
+    "words": [
+      {
+        "word": " 군",
+        "start": 0.0,
+        "end": 0.14,
+        "probability": 0.99658203125
+      },
+      {
+        "word": " 기강",
+        "start": 0.14,
+        "end": 0.46,
+        "probability": 0.99267578125
+      },
+      {
+        "word": " 확립을",
+        "start": 0.46,
+        "end": 0.86,
+        "probability": 0.99560546875
+      },
+      {
+        "word": " 위한",
+        "start": 0.86,
+        "end": 1.1,
+        "probability": 1.0
+      },
+      {
+        "word": " 교육",
+        "start": 1.1,
+        "end": 1.44,
+        "probability": 1.0
+      },
+      {
+        "word": " 목적에서",
+        "start": 1.44,
+        "end": 1.98,
+        "probability": 0.99853515625
+      },
+      {
+        "word": " 훈련하다",
+        "start": 1.98,
+        "end": 2.54,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 범행에",
+        "start": 2.54,
+        "end": 3.14,
+        "probability": 0.96484375
+      },
+      {
+        "word": " 이른",
+        "start": 3.14,
+        "end": 3.32,
+        "probability": 0.94921875
+      },
+      {
+        "word": " 점도",
+        "start": 3.32,
+        "end": 3.62,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 유리한",
+        "start": 3.62,
+        "end": 4.1,
+        "probability": 1.0
+      },
+      {
+        "word": " 정상으로",
+        "start": 4.1,
+        "end": 4.52,
+        "probability": 1.0
+      },
+      {
+        "word": " 봤습니다.",
+        "start": 4.52,
+        "end": 4.9,
+        "probability": 0.9931640625
+      }
+    ]
+  },
+  {
+    "id": "M009",
+    "text": " 학대치사는 유죄이고 교육 목적은 형을 정할 때 고려한 이유입니다.",
+    "words": [
+      {
+        "word": " 학대치사는",
+        "start": 0.0,
+        "end": 0.58,
+        "probability": 0.9873046875
+      },
+      {
+        "word": " 유죄이고",
+        "start": 0.58,
+        "end": 1.1,
+        "probability": 0.998046875
+      },
+      {
+        "word": " 교육",
+        "start": 1.1,
+        "end": 1.56,
+        "probability": 0.97265625
+      },
+      {
+        "word": " 목적은",
+        "start": 1.56,
+        "end": 2.02,
+        "probability": 0.97412109375
+      },
+      {
+        "word": " 형을",
+        "start": 2.02,
+        "end": 2.34,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 정할",
+        "start": 2.34,
+        "end": 2.6,
+        "probability": 1.0
+      },
+      {
+        "word": " 때",
+        "start": 2.6,
+        "end": 2.76,
+        "probability": 1.0
+      },
+      {
+        "word": " 고려한",
+        "start": 2.76,
+        "end": 3.24,
+        "probability": 1.0
+      },
+      {
+        "word": " 이유입니다.",
+        "start": 3.24,
+        "end": 3.66,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": "M010",
+    "text": " 1심은 여러 죄를 하나의 행위로 받지만 항소심은 같은 장소와 기회만으로 묶을 수 없고 피해자별 가혹 행위와 학대 양상이 달라 여러 행위라고 판단했습니다.",
+    "words": [
+      {
+        "word": " 1심은",
+        "start": 0.0,
+        "end": 0.46,
+        "probability": 0.97900390625
+      },
+      {
+        "word": " 여러",
+        "start": 0.46,
+        "end": 0.72,
+        "probability": 0.99560546875
+      },
+      {
+        "word": " 죄를",
+        "start": 0.72,
+        "end": 1.0,
+        "probability": 0.9921875
+      },
+      {
+        "word": " 하나의",
+        "start": 1.0,
+        "end": 1.42,
+        "probability": 1.0
+      },
+      {
+        "word": " 행위로",
+        "start": 1.42,
+        "end": 1.7,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 받지만",
+        "start": 1.7,
+        "end": 2.04,
+        "probability": 0.7421875
+      },
+      {
+        "word": " 항소심은",
+        "start": 2.04,
+        "end": 2.76,
+        "probability": 0.93212890625
+      },
+      {
+        "word": " 같은",
+        "start": 2.76,
+        "end": 3.08,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 장소와",
+        "start": 3.08,
+        "end": 3.6,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 기회만으로",
+        "start": 3.6,
+        "end": 4.18,
+        "probability": 0.99853515625
+      },
+      {
+        "word": " 묶을",
+        "start": 4.18,
+        "end": 4.52,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 수",
+        "start": 4.52,
+        "end": 4.64,
+        "probability": 1.0
+      },
+      {
+        "word": " 없고",
+        "start": 4.64,
+        "end": 4.9,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 피해자별",
+        "start": 4.9,
+        "end": 5.64,
+        "probability": 0.9814453125
+      },
+      {
+        "word": " 가혹",
+        "start": 5.64,
+        "end": 5.92,
+        "probability": 0.99169921875
+      },
+      {
+        "word": " 행위와",
+        "start": 5.92,
+        "end": 6.34,
+        "probability": 0.89404296875
+      },
+      {
+        "word": " 학대",
+        "start": 6.34,
+        "end": 6.68,
+        "probability": 0.998046875
+      },
+      {
+        "word": " 양상이",
+        "start": 6.68,
+        "end": 7.02,
+        "probability": 0.9912109375
+      },
+      {
+        "word": " 달라",
+        "start": 7.02,
+        "end": 7.26,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 여러",
+        "start": 7.26,
+        "end": 7.68,
+        "probability": 0.99169921875
+      },
+      {
+        "word": " 행위라고",
+        "start": 7.68,
+        "end": 8.14,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 판단했습니다.",
+        "start": 8.14,
+        "end": 8.68,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": "M011",
+    "text": " 2025년 6월 18일 중대장은 1심보다 6개월 늘어난 징역 5년 6개월, 부중대장은 그대로 징역 3년이었습니다.",
+    "words": [
+      {
+        "word": " 2025년",
+        "start": 0.0,
+        "end": 0.72,
+        "probability": 0.99853515625
+      },
+      {
+        "word": " 6월",
+        "start": 0.72,
+        "end": 1.04,
+        "probability": 1.0
+      },
+      {
+        "word": " 18일",
+        "start": 1.04,
+        "end": 1.52,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 중대장은",
+        "start": 1.52,
+        "end": 2.08,
+        "probability": 0.93017578125
+      },
+      {
+        "word": " 1심보다",
+        "start": 2.08,
+        "end": 2.6,
+        "probability": 0.97314453125
+      },
+      {
+        "word": " 6개월",
+        "start": 2.6,
+        "end": 3.12,
+        "probability": 1.0
+      },
+      {
+        "word": " 늘어난",
+        "start": 3.12,
+        "end": 3.46,
+        "probability": 1.0
+      },
+      {
+        "word": " 징역",
+        "start": 3.46,
+        "end": 3.78,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 5년",
+        "start": 3.78,
+        "end": 4.08,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 6개월,",
+        "start": 4.08,
+        "end": 4.62,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 부중대장은",
+        "start": 4.74,
+        "end": 5.34,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 그대로",
+        "start": 5.34,
+        "end": 5.66,
+        "probability": 1.0
+      },
+      {
+        "word": " 징역",
+        "start": 5.66,
+        "end": 6.1,
+        "probability": 1.0
+      },
+      {
+        "word": " 3년이었습니다.",
+        "start": 6.1,
+        "end": 6.8,
+        "probability": 0.99755859375
+      }
+    ]
+  },
+  {
+    "id": "M012",
+    "text": " 항소심은 지휘관들이 후진적 병역 문화를 답습해 충분히 예방할 수 있었던 사망사고를 초래했다고 지적했습니다.",
+    "words": [
+      {
+        "word": " 항소심은",
+        "start": 0.0,
+        "end": 0.56,
+        "probability": 0.99609375
+      },
+      {
+        "word": " 지휘관들이",
+        "start": 0.56,
+        "end": 1.26,
+        "probability": 0.9931640625
+      },
+      {
+        "word": " 후진적",
+        "start": 1.26,
+        "end": 1.82,
+        "probability": 0.98291015625
+      },
+      {
+        "word": " 병역",
+        "start": 1.82,
+        "end": 2.14,
+        "probability": 0.7587890625
+      },
+      {
+        "word": " 문화를",
+        "start": 2.14,
+        "end": 2.44,
+        "probability": 0.81396484375
+      },
+      {
+        "word": " 답습해",
+        "start": 2.44,
+        "end": 2.98,
+        "probability": 0.98291015625
+      },
+      {
+        "word": " 충분히",
+        "start": 2.98,
+        "end": 3.48,
+        "probability": 0.99853515625
+      },
+      {
+        "word": " 예방할",
+        "start": 3.48,
+        "end": 3.9,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 수",
+        "start": 3.9,
+        "end": 3.98,
+        "probability": 1.0
+      },
+      {
+        "word": " 있었던",
+        "start": 3.98,
+        "end": 4.4,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 사망사고를",
+        "start": 4.4,
+        "end": 5.16,
+        "probability": 0.95068359375
+      },
+      {
+        "word": " 초래했다고",
+        "start": 5.16,
+        "end": 5.68,
+        "probability": 0.99755859375
+      },
+      {
+        "word": " 지적했습니다.",
+        "start": 5.68,
+        "end": 6.24,
+        "probability": 0.99951171875
+      }
+    ]
+  },
+  {
+    "id": "M013",
+    "text": " 국가가 병사의 생명과 신체를 보호하리라는 사회의 기본적 기대를 배반한 범행이라고 봤습니다.",
+    "words": [
+      {
+        "word": " 국가가",
+        "start": 0.0,
+        "end": 0.36,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 병사의",
+        "start": 0.36,
+        "end": 0.84,
+        "probability": 1.0
+      },
+      {
+        "word": " 생명과",
+        "start": 0.84,
+        "end": 1.32,
+        "probability": 1.0
+      },
+      {
+        "word": " 신체를",
+        "start": 1.32,
+        "end": 1.78,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 보호하리라는",
+        "start": 1.78,
+        "end": 2.5,
+        "probability": 0.98291015625
+      },
+      {
+        "word": " 사회의",
+        "start": 2.5,
+        "end": 3.04,
+        "probability": 0.96533203125
+      },
+      {
+        "word": " 기본적",
+        "start": 3.04,
+        "end": 3.56,
+        "probability": 1.0
+      },
+      {
+        "word": " 기대를",
+        "start": 3.56,
+        "end": 3.86,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 배반한",
+        "start": 3.86,
+        "end": 4.34,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 범행이라고",
+        "start": 4.34,
+        "end": 4.94,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 봤습니다.",
+        "start": 4.94,
+        "end": 5.34,
+        "probability": 0.9931640625
+      }
+    ]
+  },
+  {
+    "id": "M014",
+    "text": " 2025년 9월 25일 대법원이 원심 판단에 잘못이 없다며 중대장의 상고를 기각해 징역 5년 6개월이 확정됐습니다.",
+    "words": [
+      {
+        "word": " 2025년",
+        "start": 0.0,
+        "end": 0.74,
+        "probability": 0.9970703125
+      },
+      {
+        "word": " 9월",
+        "start": 0.74,
+        "end": 1.08,
+        "probability": 1.0
+      },
+      {
+        "word": " 25일",
+        "start": 1.08,
+        "end": 1.62,
+        "probability": 1.0
+      },
+      {
+        "word": " 대법원이",
+        "start": 1.62,
+        "end": 2.2,
+        "probability": 0.98291015625
+      },
+      {
+        "word": " 원심",
+        "start": 2.2,
+        "end": 2.54,
+        "probability": 0.9921875
+      },
+      {
+        "word": " 판단에",
+        "start": 2.54,
+        "end": 2.92,
+        "probability": 0.89892578125
+      },
+      {
+        "word": " 잘못이",
+        "start": 2.92,
+        "end": 3.38,
+        "probability": 1.0
+      },
+      {
+        "word": " 없다며",
+        "start": 3.38,
+        "end": 3.8,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 중대장의",
+        "start": 3.8,
+        "end": 4.42,
+        "probability": 0.9033203125
+      },
+      {
+        "word": " 상고를",
+        "start": 4.42,
+        "end": 4.8,
+        "probability": 0.998046875
+      },
+      {
+        "word": " 기각해",
+        "start": 4.8,
+        "end": 5.24,
+        "probability": 0.99853515625
+      },
+      {
+        "word": " 징역",
+        "start": 5.24,
+        "end": 5.64,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 5년",
+        "start": 5.64,
+        "end": 5.88,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 6개월이",
+        "start": 5.88,
+        "end": 6.42,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 확정됐습니다.",
+        "start": 6.42,
+        "end": 7.06,
+        "probability": 1.0
+      }
+    ]
+  },
+  {
+    "id": "M015",
+    "text": " 부중대장 징역 3년도 확정 상태지만 같은 날 두 사람의 본안을 함께 판단했다는 뜻은 아닙니다.",
+    "words": [
+      {
+        "word": " 부중대장",
+        "start": 0.0,
+        "end": 0.48,
+        "probability": 0.9892578125
+      },
+      {
+        "word": " 징역",
+        "start": 0.48,
+        "end": 0.82,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 3년도",
+        "start": 0.82,
+        "end": 1.3,
+        "probability": 0.9892578125
+      },
+      {
+        "word": " 확정",
+        "start": 1.3,
+        "end": 1.68,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 상태지만",
+        "start": 1.68,
+        "end": 2.12,
+        "probability": 0.91162109375
+      },
+      {
+        "word": " 같은",
+        "start": 2.12,
+        "end": 2.52,
+        "probability": 0.90966796875
+      },
+      {
+        "word": " 날",
+        "start": 2.52,
+        "end": 2.76,
+        "probability": 0.9990234375
+      },
+      {
+        "word": " 두",
+        "start": 2.76,
+        "end": 2.92,
+        "probability": 0.99951171875
+      },
+      {
+        "word": " 사람의",
+        "start": 2.92,
+        "end": 3.24,
+        "probability": 1.0
+      },
+      {
+        "word": " 본안을",
+        "start": 3.24,
+        "end": 3.58,
+        "probability": 0.9912109375
+      },
+      {
+        "word": " 함께",
+        "start": 3.58,
+        "end": 3.84,
+        "probability": 1.0
+      },
+      {
+        "word": " 판단했다는",
+        "start": 3.84,
+        "end": 4.46,
+        "probability": 0.9970703125
+      },
+      {
+        "word": " 뜻은",
+        "start": 4.46,
+        "end": 4.82,
+        "probability": 1.0
+      },
+      {
+        "word": " 아닙니다.",
+        "start": 4.82,
+        "end": 5.2,
+        "probability": 1.0
+      }
+    ]
+  }
+]

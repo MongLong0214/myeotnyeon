@@ -1,0 +1,1594 @@
+[
+  {
+    "text": "은행 지하에서 총이 터졌습니다.",
+    "startMs": 0.0,
+    "endMs": 1580.0,
+    "timestampMs": 0.0,
+    "confidence": 1.0,
+    "narrationId": "N001"
+  },
+  {
+    "text": "출납과장이 쓰러졌습니다.",
+    "startMs": 1905.0,
+    "endMs": 3145.0,
+    "timestampMs": 1905.0,
+    "confidence": 1.0,
+    "narrationId": "N001"
+  },
+  {
+    "text": "빼앗긴 돈은 3억 원.",
+    "startMs": 3510.0,
+    "endMs": 4550.0,
+    "timestampMs": 3510.0,
+    "confidence": 1.0,
+    "narrationId": "N002"
+  },
+  {
+    "text": "버린 마스크가 어떻게 범인들을 붙잡았을까요?",
+    "startMs": 4770.0,
+    "endMs": 7090.0,
+    "timestampMs": 4770.0,
+    "confidence": 1.0,
+    "narrationId": "N002"
+  },
+  {
+    "text": "그 천 조각이 약 20년 8개월을 건너",
+    "startMs": 7455.0,
+    "endMs": 9375.0,
+    "timestampMs": 7455.0,
+    "confidence": 1.0,
+    "narrationId": "N003"
+  },
+  {
+    "text": "공범을 가리킵니다.",
+    "startMs": 9375.0,
+    "endMs": 10355.0,
+    "timestampMs": 9375.0,
+    "confidence": 1.0,
+    "narrationId": "N003"
+  },
+  {
+    "text": "그리고 20년형은 왜 무기징역으로",
+    "startMs": 10645.0,
+    "endMs": 12505.0,
+    "timestampMs": 10645.0,
+    "confidence": 1.0,
+    "narrationId": "N003"
+  },
+  {
+    "text": "뒤집혔을까요?",
+    "startMs": 12505.0,
+    "endMs": 13245.0,
+    "timestampMs": 12505.0,
+    "confidence": 1.0,
+    "narrationId": "N003"
+  },
+  {
+    "text": "2001-12-21, 오전 10시쯤.",
+    "startMs": 13590.0,
+    "endMs": 15650.0,
+    "timestampMs": 13590.0,
+    "confidence": 1.0,
+    "narrationId": "N004"
+  },
+  {
+    "text": "대전 둔산동 국민은행 건물 지하주차장입니다.",
+    "startMs": 15885.0,
+    "endMs": 18205.0,
+    "timestampMs": 15885.0,
+    "confidence": 1.0,
+    "narrationId": "N004"
+  },
+  {
+    "text": "은행 관계자 3명이 돈가방을 옮기던 순간.",
+    "startMs": 18535.0,
+    "endMs": 20595.0,
+    "timestampMs": 18535.0,
+    "confidence": 1.0,
+    "narrationId": "N005"
+  },
+  {
+    "text": "검은 승용차가 길을 막습니다.",
+    "startMs": 20940.0,
+    "endMs": 22320.0,
+    "timestampMs": 20940.0,
+    "confidence": 1.0,
+    "narrationId": "N005"
+  },
+  {
+    "text": "복면을 쓴 2인조입니다.",
+    "startMs": 22700.0,
+    "endMs": 23880.0,
+    "timestampMs": 22700.0,
+    "confidence": 1.0,
+    "narrationId": "N005"
+  },
+  {
+    "text": "현장에는 권총이 등장했습니다.",
+    "startMs": 24230.0,
+    "endMs": 25690.0,
+    "timestampMs": 24230.0,
+    "confidence": 1.0,
+    "narrationId": "N006"
+  },
+  {
+    "text": "총격으로 숨진 사람은 현금 운송을 맡은",
+    "startMs": 26090.0,
+    "endMs": 28110.0,
+    "timestampMs": 26090.0,
+    "confidence": 1.0,
+    "narrationId": "N006"
+  },
+  {
+    "text": "40대 출납과장입니다.",
+    "startMs": 28110.0,
+    "endMs": 29350.0,
+    "timestampMs": 28110.0,
+    "confidence": 1.0,
+    "narrationId": "N006"
+  },
+  {
+    "text": "일터에 온 사람이 목숨을 잃었습니다.",
+    "startMs": 29655.0,
+    "endMs": 31355.0,
+    "timestampMs": 29655.0,
+    "confidence": 1.0,
+    "narrationId": "N007"
+  },
+  {
+    "text": "법원은 그가 직무에 충실하며 강도 범행을",
+    "startMs": 31770.0,
+    "endMs": 34070.0,
+    "timestampMs": 31770.0,
+    "confidence": 1.0,
+    "narrationId": "N007"
+  },
+  {
+    "text": "막으려다 숨졌다고 짚었습니다.",
+    "startMs": 34070.0,
+    "endMs": 35470.0,
+    "timestampMs": 34070.0,
+    "confidence": 1.0,
+    "narrationId": "N007"
+  },
+  {
+    "text": "가방은 2개, 각각 3억 원.",
+    "startMs": 35845.0,
+    "endMs": 37125.0,
+    "timestampMs": 35845.0,
+    "confidence": 1.0,
+    "narrationId": "N008"
+  },
+  {
+    "text": "범인들은 그중 하나를 가져갔습니다.",
+    "startMs": 37360.0,
+    "endMs": 39160.0,
+    "timestampMs": 37360.0,
+    "confidence": 1.0,
+    "narrationId": "N008"
+  },
+  {
+    "text": "운송액 6억 원과 빼앗긴 3억 원은",
+    "startMs": 39500.0,
+    "endMs": 41400.0,
+    "timestampMs": 39500.0,
+    "confidence": 1.0,
+    "narrationId": "N008"
+  },
+  {
+    "text": "다릅니다.",
+    "startMs": 41400.0,
+    "endMs": 41740.0,
+    "timestampMs": 41400.0,
+    "confidence": 1.0,
+    "narrationId": "N008"
+  },
+  {
+    "text": "범행 차량은 훔친 그랜저였습니다.",
+    "startMs": 42045.0,
+    "endMs": 43625.0,
+    "timestampMs": 42045.0,
+    "confidence": 1.0,
+    "narrationId": "N009"
+  },
+  {
+    "text": "2001-12-01 수원에서, 시동이",
+    "startMs": 44050.0,
+    "endMs": 46150.0,
+    "timestampMs": 44050.0,
+    "confidence": 1.0,
+    "narrationId": "N009"
+  },
+  {
+    "text": "걸린 채 주차된 차를 훔쳤습니다.",
+    "startMs": 46150.0,
+    "endMs": 47730.0,
+    "timestampMs": 46150.0,
+    "confidence": 1.0,
+    "narrationId": "N009"
+  },
+  {
+    "text": "차도 훔쳤고, 총도 빼앗았습니다.",
+    "startMs": 48015.0,
+    "endMs": 49435.0,
+    "timestampMs": 48015.0,
+    "confidence": 1.0,
+    "narrationId": "N010"
+  },
+  {
+    "text": "이 권총의 출처를 따라가면 은행 사건보다",
+    "startMs": 49880.0,
+    "endMs": 52040.0,
+    "timestampMs": 49880.0,
+    "confidence": 1.0,
+    "narrationId": "N010"
+  },
+  {
+    "text": "앞선 범행이 나옵니다.",
+    "startMs": 52040.0,
+    "endMs": 53240.0,
+    "timestampMs": 52040.0,
+    "confidence": 1.0,
+    "narrationId": "N010"
+  },
+  {
+    "text": "2001-10-15 자정 무렵.",
+    "startMs": 53470.0,
+    "endMs": 55150.0,
+    "timestampMs": 53470.0,
+    "confidence": 1.0,
+    "narrationId": "N011"
+  },
+  {
+    "text": "두 사람은 걸어서 순찰하던 경찰관을 차로",
+    "startMs": 55375.0,
+    "endMs": 57615.0,
+    "timestampMs": 55375.0,
+    "confidence": 1.0,
+    "narrationId": "N011"
+  },
+  {
+    "text": "들이받고",
+    "startMs": 57615.0,
+    "endMs": 58055.0,
+    "timestampMs": 57615.0,
+    "confidence": 1.0,
+    "narrationId": "N011"
+  },
+  {
+    "text": "권총을 빼앗았습니다.",
+    "startMs": 58055.0,
+    "endMs": 59035.0,
+    "timestampMs": 58055.0,
+    "confidence": 1.0,
+    "narrationId": "N011"
+  },
+  {
+    "text": "그 경찰관은 크게 다쳤습니다.",
+    "startMs": 59470.0,
+    "endMs": 60910.0,
+    "timestampMs": 59470.0,
+    "confidence": 1.0,
+    "narrationId": "N012"
+  },
+  {
+    "text": "여기서 살해된 것으로 바꾸면 안 됩니다.",
+    "startMs": 61220.0,
+    "endMs": 63060.0,
+    "timestampMs": 61220.0,
+    "confidence": 1.0,
+    "narrationId": "N012"
+  },
+  {
+    "text": "은행 범행에는 빼앗은 38구경 권총이",
+    "startMs": 63460.0,
+    "endMs": 65780.0,
+    "timestampMs": 63460.0,
+    "confidence": 0.8823529411764706,
+    "narrationId": "N012"
+  },
+  {
+    "text": "쓰였습니다.",
+    "startMs": 65780.0,
+    "endMs": 66120.0,
+    "timestampMs": 65780.0,
+    "confidence": 1.0,
+    "narrationId": "N012"
+  },
+  {
+    "text": "은행 주차장에는 CCTV도 없었습니다.",
+    "startMs": 66535.0,
+    "endMs": 68535.0,
+    "timestampMs": 66535.0,
+    "confidence": 1.0,
+    "narrationId": "N013"
+  },
+  {
+    "text": "범행 순간의 영상이 남아 범인을 잡은 사건이",
+    "startMs": 68920.0,
+    "endMs": 71340.0,
+    "timestampMs": 68920.0,
+    "confidence": 0.9444444444444444,
+    "narrationId": "N013"
+  },
+  {
+    "text": "아닙니다.",
+    "startMs": 71340.0,
+    "endMs": 71740.0,
+    "timestampMs": 71340.0,
+    "confidence": 1.0,
+    "narrationId": "N013"
+  },
+  {
+    "text": "범인들은 인근 상가 지하에서 차를 버리고",
+    "startMs": 71985.0,
+    "endMs": 74105.0,
+    "timestampMs": 71985.0,
+    "confidence": 1.0,
+    "narrationId": "N014"
+  },
+  {
+    "text": "다른 차로 갈아탔습니다.",
+    "startMs": 74105.0,
+    "endMs": 75385.0,
+    "timestampMs": 74105.0,
+    "confidence": 1.0,
+    "narrationId": "N014"
+  },
+  {
+    "text": "버릴 건 차만이 아니었습니다.",
+    "startMs": 75685.0,
+    "endMs": 76905.0,
+    "timestampMs": 75685.0,
+    "confidence": 1.0,
+    "narrationId": "N014"
+  },
+  {
+    "text": "차량에 불을 내 증거까지 없애려 했습니다.",
+    "startMs": 77375.0,
+    "endMs": 79355.0,
+    "timestampMs": 77375.0,
+    "confidence": 0.9411764705882353,
+    "narrationId": "N015"
+  },
+  {
+    "text": "하지만 마스크와 손수건은 남았습니다.",
+    "startMs": 79775.0,
+    "endMs": 81575.0,
+    "timestampMs": 79775.0,
+    "confidence": 1.0,
+    "narrationId": "N015"
+  },
+  {
+    "text": "지우려던 흔적이 살아남은 겁니다.",
+    "startMs": 82010.0,
+    "endMs": 83610.0,
+    "timestampMs": 82010.0,
+    "confidence": 1.0,
+    "narrationId": "N015"
+  },
+  {
+    "text": "증거 삭제라더니, 천 조각은 삭제가 안",
+    "startMs": 83995.0,
+    "endMs": 85715.0,
+    "timestampMs": 83995.0,
+    "confidence": 1.0,
+    "narrationId": "N016"
+  },
+  {
+    "text": "됐네요.",
+    "startMs": 85715.0,
+    "endMs": 86255.0,
+    "timestampMs": 85715.0,
+    "confidence": 1.0,
+    "narrationId": "N016"
+  },
+  {
+    "text": "범인들의 증거인멸 계획에 구멍이 남은",
+    "startMs": 86540.0,
+    "endMs": 88600.0,
+    "timestampMs": 86540.0,
+    "confidence": 1.0,
+    "narrationId": "N016"
+  },
+  {
+    "text": "겁니다.",
+    "startMs": 88600.0,
+    "endMs": 88740.0,
+    "timestampMs": 88600.0,
+    "confidence": 1.0,
+    "narrationId": "N016"
+  },
+  {
+    "text": "그런데 물건이 남았다고 바로 풀리진",
+    "startMs": 89150.0,
+    "endMs": 91090.0,
+    "timestampMs": 89150.0,
+    "confidence": 1.0,
+    "narrationId": "N017"
+  },
+  {
+    "text": "않았습니다.",
+    "startMs": 91090.0,
+    "endMs": 91590.0,
+    "timestampMs": 91090.0,
+    "confidence": 1.0,
+    "narrationId": "N017"
+  },
+  {
+    "text": "사건 직후 감식에서는 마스크의 DNA를",
+    "startMs": 91925.0,
+    "endMs": 94285.0,
+    "timestampMs": 91925.0,
+    "confidence": 1.0,
+    "narrationId": "N017"
+  },
+  {
+    "text": "검출하지 못했습니다.",
+    "startMs": 94285.0,
+    "endMs": 95225.0,
+    "timestampMs": 94285.0,
+    "confidence": 1.0,
+    "narrationId": "N017"
+  },
+  {
+    "text": "증거가 없었던 게 아닙니다.",
+    "startMs": 95615.0,
+    "endMs": 96895.0,
+    "timestampMs": 95615.0,
+    "confidence": 1.0,
+    "narrationId": "N018"
+  },
+  {
+    "text": "증거에서 이름으로 가는 길이 막혀",
+    "startMs": 97180.0,
+    "endMs": 98940.0,
+    "timestampMs": 97180.0,
+    "confidence": 1.0,
+    "narrationId": "N018"
+  },
+  {
+    "text": "있었습니다.",
+    "startMs": 98940.0,
+    "endMs": 99480.0,
+    "timestampMs": 98940.0,
+    "confidence": 1.0,
+    "narrationId": "N018"
+  },
+  {
+    "text": "수거품은 둔산경찰서에 보관됐습니다.",
+    "startMs": 99825.0,
+    "endMs": 101805.0,
+    "timestampMs": 99825.0,
+    "confidence": 1.0,
+    "narrationId": "N018"
+  },
+  {
+    "text": "초기에는 사람 5321명과 차량 9276대를",
+    "startMs": 102130.0,
+    "endMs": 105770.0,
+    "timestampMs": 102130.0,
+    "confidence": 0.9230769230769231,
+    "narrationId": "N019"
+  },
+  {
+    "text": "조사했다고 보도됐습니다.",
+    "startMs": 105770.0,
+    "endMs": 106890.0,
+    "timestampMs": 105770.0,
+    "confidence": 1.0,
+    "narrationId": "N019"
+  },
+  {
+    "text": "숫자는 엄청난데, 범인 이름은 여전히 비어",
+    "startMs": 107155.0,
+    "endMs": 109175.0,
+    "timestampMs": 107155.0,
+    "confidence": 1.0,
+    "narrationId": "N019"
+  },
+  {
+    "text": "있었습니다.",
+    "startMs": 109175.0,
+    "endMs": 109775.0,
+    "timestampMs": 109175.0,
+    "confidence": 1.0,
+    "narrationId": "N019"
+  },
+  {
+    "text": "2002에 붙잡힌 다른 용의자 3명도",
+    "startMs": 110185.0,
+    "endMs": 112265.0,
+    "timestampMs": 110185.0,
+    "confidence": 1.0,
+    "narrationId": "N020"
+  },
+  {
+    "text": "있었습니다.",
+    "startMs": 112265.0,
+    "endMs": 112805.0,
+    "timestampMs": 112265.0,
+    "confidence": 1.0,
+    "narrationId": "N020"
+  },
+  {
+    "text": "구속영장은 기각됐습니다.",
+    "startMs": 113120.0,
+    "endMs": 114400.0,
+    "timestampMs": 113120.0,
+    "confidence": 1.0,
+    "narrationId": "N020"
+  },
+  {
+    "text": "나중에 붙잡힌 A와 B와는 다른",
+    "startMs": 114730.0,
+    "endMs": 116590.0,
+    "timestampMs": 114730.0,
+    "confidence": 1.0,
+    "narrationId": "N020"
+  },
+  {
+    "text": "사람들입니다.",
+    "startMs": 116590.0,
+    "endMs": 117210.0,
+    "timestampMs": 116590.0,
+    "confidence": 1.0,
+    "narrationId": "N020"
+  },
+  {
+    "text": "2011-12, 중요미제사건 전담수사팀이",
+    "startMs": 117530.0,
+    "endMs": 120250.0,
+    "timestampMs": 117530.0,
+    "confidence": 0.95,
+    "narrationId": "N021"
+  },
+  {
+    "text": "증거와 기록을 인수해 수사를 다시",
+    "startMs": 120250.0,
+    "endMs": 121970.0,
+    "timestampMs": 120250.0,
+    "confidence": 1.0,
+    "narrationId": "N021"
+  },
+  {
+    "text": "시작했습니다.",
+    "startMs": 121970.0,
+    "endMs": 122570.0,
+    "timestampMs": 121970.0,
+    "confidence": 1.0,
+    "narrationId": "N021"
+  },
+  {
+    "text": "2015에는 살인죄 공소시효를 폐지한",
+    "startMs": 122920.0,
+    "endMs": 125240.0,
+    "timestampMs": 122920.0,
+    "confidence": 1.0,
+    "narrationId": "N022"
+  },
+  {
+    "text": "태완이법이 시행됐습니다.",
+    "startMs": 125240.0,
+    "endMs": 126600.0,
+    "timestampMs": 125240.0,
+    "confidence": 0.9090909090909091,
+    "narrationId": "N022"
+  },
+  {
+    "text": "이 사건도 수사를 계속할 수 있었다고",
+    "startMs": 126905.0,
+    "endMs": 128725.0,
+    "timestampMs": 126905.0,
+    "confidence": 1.0,
+    "narrationId": "N022"
+  },
+  {
+    "text": "보도됐습니다.",
+    "startMs": 128725.0,
+    "endMs": 129465.0,
+    "timestampMs": 128725.0,
+    "confidence": 1.0,
+    "narrationId": "N022"
+  },
+  {
+    "text": "그리고 2017 재감식.",
+    "startMs": 129790.0,
+    "endMs": 131230.0,
+    "timestampMs": 129790.0,
+    "confidence": 1.0,
+    "narrationId": "N023"
+  },
+  {
+    "text": "마스크와 손수건의 DNA가 돌파구가 됩니다.",
+    "startMs": 131455.0,
+    "endMs": 133815.0,
+    "timestampMs": 131455.0,
+    "confidence": 1.0,
+    "narrationId": "N023"
+  },
+  {
+    "text": "그런데 비교 상대가 뜻밖의 장소에",
+    "startMs": 134210.0,
+    "endMs": 136050.0,
+    "timestampMs": 134210.0,
+    "confidence": 1.0,
+    "narrationId": "N023"
+  },
+  {
+    "text": "있었습니다.",
+    "startMs": 136050.0,
+    "endMs": 136530.0,
+    "timestampMs": 136050.0,
+    "confidence": 1.0,
+    "narrationId": "N023"
+  },
+  {
+    "text": "은행도, 주차장도 아닙니다.",
+    "startMs": 136815.0,
+    "endMs": 138135.0,
+    "timestampMs": 136815.0,
+    "confidence": 1.0,
+    "narrationId": "N024"
+  },
+  {
+    "text": "2015 충북의 불법게임장에서 수거한",
+    "startMs": 138435.0,
+    "endMs": 140735.0,
+    "timestampMs": 138435.0,
+    "confidence": 1.0,
+    "narrationId": "N024"
+  },
+  {
+    "text": "담배꽁초였습니다.",
+    "startMs": 140735.0,
+    "endMs": 141595.0,
+    "timestampMs": 140735.0,
+    "confidence": 1.0,
+    "narrationId": "N024"
+  },
+  {
+    "text": "그 꽁초의 DNA와 은행 사건의 DNA가",
+    "startMs": 142010.0,
+    "endMs": 144450.0,
+    "timestampMs": 142010.0,
+    "confidence": 0.8947368421052632,
+    "narrationId": "N025"
+  },
+  {
+    "text": "일치했습니다.",
+    "startMs": 144450.0,
+    "endMs": 145030.0,
+    "timestampMs": 144450.0,
+    "confidence": 1.0,
+    "narrationId": "N025"
+  },
+  {
+    "text": "천 조각과 담배꽁초.",
+    "startMs": 145420.0,
+    "endMs": 146440.0,
+    "timestampMs": 145420.0,
+    "confidence": 1.0,
+    "narrationId": "N025"
+  },
+  {
+    "text": "버린 물건끼리 연결된 셈입니다.",
+    "startMs": 146660.0,
+    "endMs": 148180.0,
+    "timestampMs": 146660.0,
+    "confidence": 1.0,
+    "narrationId": "N025"
+  },
+  {
+    "text": "범인 입장에선 쓰레기였겠지만, 수사에선",
+    "startMs": 148535.0,
+    "endMs": 150735.0,
+    "timestampMs": 148535.0,
+    "confidence": 1.0,
+    "narrationId": "N026"
+  },
+  {
+    "text": "연결고리였습니다.",
+    "startMs": 150735.0,
+    "endMs": 151535.0,
+    "timestampMs": 150735.0,
+    "confidence": 1.0,
+    "narrationId": "N026"
+  },
+  {
+    "text": "다만 일치했다고 이름이 자동으로 뜬 건",
+    "startMs": 151980.0,
+    "endMs": 154000.0,
+    "timestampMs": 151980.0,
+    "confidence": 1.0,
+    "narrationId": "N026"
+  },
+  {
+    "text": "아닙니다.",
+    "startMs": 154000.0,
+    "endMs": 154460.0,
+    "timestampMs": 154000.0,
+    "confidence": 1.0,
+    "narrationId": "N026"
+  },
+  {
+    "text": "게임장의 DNA도 신원불명이었습니다.",
+    "startMs": 154740.0,
+    "endMs": 156900.0,
+    "timestampMs": 154740.0,
+    "confidence": 0.9444444444444444,
+    "narrationId": "N027"
+  },
+  {
+    "text": "같은 사람이라는 단서는 얻었지만, 그 사람이",
+    "startMs": 157250.0,
+    "endMs": 159490.0,
+    "timestampMs": 157250.0,
+    "confidence": 1.0,
+    "narrationId": "N027"
+  },
+  {
+    "text": "누구인지는 더 찾아야 했습니다.",
+    "startMs": 159490.0,
+    "endMs": 161110.0,
+    "timestampMs": 159490.0,
+    "confidence": 1.0,
+    "narrationId": "N027"
+  },
+  {
+    "text": "경찰은 게임장 종업원과 손님 등, 출입",
+    "startMs": 161485.0,
+    "endMs": 163625.0,
+    "timestampMs": 161485.0,
+    "confidence": 1.0,
+    "narrationId": "N028"
+  },
+  {
+    "text": "가능성이 있는 약 1만5000명을 수사",
+    "startMs": 163625.0,
+    "endMs": 165645.0,
+    "timestampMs": 163625.0,
+    "confidence": 1.0,
+    "narrationId": "N028"
+  },
+  {
+    "text": "대상으로 놓고 확인했습니다.",
+    "startMs": 165645.0,
+    "endMs": 166785.0,
+    "timestampMs": 165645.0,
+    "confidence": 1.0,
+    "narrationId": "N028"
+  },
+  {
+    "text": "1만5000명 전원의 DNA를 뽑았다는 말은",
+    "startMs": 167150.0,
+    "endMs": 169650.0,
+    "timestampMs": 167150.0,
+    "confidence": 1.0,
+    "narrationId": "N029"
+  },
+  {
+    "text": "아닙니다.",
+    "startMs": 169650.0,
+    "endMs": 170090.0,
+    "timestampMs": 169650.0,
+    "confidence": 1.0,
+    "narrationId": "N029"
+  },
+  {
+    "text": "몽타주와 목격자 인상착의, 차량 절도 수법도",
+    "startMs": 170310.0,
+    "endMs": 172730.0,
+    "timestampMs": 170310.0,
+    "confidence": 0.8888888888888888,
+    "narrationId": "N029"
+  },
+  {
+    "text": "함께 대조했습니다.",
+    "startMs": 172730.0,
+    "endMs": 173510.0,
+    "timestampMs": 172730.0,
+    "confidence": 1.0,
+    "narrationId": "N029"
+  },
+  {
+    "text": "비교하고 좁히고, 다시 확인합니다.",
+    "startMs": 173875.0,
+    "endMs": 175555.0,
+    "timestampMs": 173875.0,
+    "confidence": 1.0,
+    "narrationId": "N030"
+  },
+  {
+    "text": "2022-03, 드디어 유력 용의자 B를",
+    "startMs": 175900.0,
+    "endMs": 178260.0,
+    "timestampMs": 175900.0,
+    "confidence": 1.0,
+    "narrationId": "N030"
+  },
+  {
+    "text": "특정합니다.",
+    "startMs": 178260.0,
+    "endMs": 178800.0,
+    "timestampMs": 178260.0,
+    "confidence": 1.0,
+    "narrationId": "N030"
+  },
+  {
+    "text": "그런데 공범은 아직입니다.",
+    "startMs": 179140.0,
+    "endMs": 180420.0,
+    "timestampMs": 179140.0,
+    "confidence": 1.0,
+    "narrationId": "N030"
+  },
+  {
+    "text": "경찰은 과거 행적과 주변인을 더",
+    "startMs": 180735.0,
+    "endMs": 182455.0,
+    "timestampMs": 180735.0,
+    "confidence": 1.0,
+    "narrationId": "N031"
+  },
+  {
+    "text": "조사했습니다.",
+    "startMs": 182455.0,
+    "endMs": 183015.0,
+    "timestampMs": 182455.0,
+    "confidence": 1.0,
+    "narrationId": "N031"
+  },
+  {
+    "text": "2022-08-25 B를 붙잡습니다.",
+    "startMs": 183375.0,
+    "endMs": 185695.0,
+    "timestampMs": 183375.0,
+    "confidence": 1.0,
+    "narrationId": "N031"
+  },
+  {
+    "text": "검거 장소는 대전이었습니다.",
+    "startMs": 186035.0,
+    "endMs": 187455.0,
+    "timestampMs": 186035.0,
+    "confidence": 1.0,
+    "narrationId": "N031"
+  },
+  {
+    "text": "B는 A와 함께 범행했다고 진술했습니다.",
+    "startMs": 187780.0,
+    "endMs": 189920.0,
+    "timestampMs": 187780.0,
+    "confidence": 1.0,
+    "narrationId": "N032"
+  },
+  {
+    "text": "그 진술이 A의 체포로 이어집니다.",
+    "startMs": 190345.0,
+    "endMs": 192165.0,
+    "timestampMs": 190345.0,
+    "confidence": 1.0,
+    "narrationId": "N032"
+  },
+  {
+    "text": "A의 DNA가 똑같이 나온 게 아닙니다.",
+    "startMs": 192455.0,
+    "endMs": 194695.0,
+    "timestampMs": 192455.0,
+    "confidence": 1.0,
+    "narrationId": "N032"
+  },
+  {
+    "text": "A는 강원도 정선의 찜질방에서 붙잡혔습니다.",
+    "startMs": 194930.0,
+    "endMs": 197430.0,
+    "timestampMs": 194930.0,
+    "confidence": 1.0,
+    "narrationId": "N033"
+  },
+  {
+    "text": "두 사람은 고등학교 동창.",
+    "startMs": 197755.0,
+    "endMs": 198975.0,
+    "timestampMs": 197755.0,
+    "confidence": 1.0,
+    "narrationId": "N033"
+  },
+  {
+    "text": "2022-08-27 구속됐습니다.",
+    "startMs": 199265.0,
+    "endMs": 201525.0,
+    "timestampMs": 199265.0,
+    "confidence": 1.0,
+    "narrationId": "N033"
+  },
+  {
+    "text": "검거까지 약 20년 8개월.",
+    "startMs": 201850.0,
+    "endMs": 203270.0,
+    "timestampMs": 201850.0,
+    "confidence": 1.0,
+    "narrationId": "N034"
+  },
+  {
+    "text": "쌓인 수사기록은 약 15만 쪽이라고",
+    "startMs": 203495.0,
+    "endMs": 205375.0,
+    "timestampMs": 203495.0,
+    "confidence": 1.0,
+    "narrationId": "N034"
+  },
+  {
+    "text": "보도됐습니다.",
+    "startMs": 205375.0,
+    "endMs": 206075.0,
+    "timestampMs": 205375.0,
+    "confidence": 1.0,
+    "narrationId": "N034"
+  },
+  {
+    "text": "종이 두께가 사건 해결 속도는 아니었습니다.",
+    "startMs": 206395.0,
+    "endMs": 208535.0,
+    "timestampMs": 206395.0,
+    "confidence": 1.0,
+    "narrationId": "N034"
+  },
+  {
+    "text": "붙잡혔으니 끝일까요?",
+    "startMs": 208920.0,
+    "endMs": 209960.0,
+    "timestampMs": 208920.0,
+    "confidence": 1.0,
+    "narrationId": "N035"
+  },
+  {
+    "text": "이제 책임 떠넘기기가 시작됩니다.",
+    "startMs": 210295.0,
+    "endMs": 211975.0,
+    "timestampMs": 210295.0,
+    "confidence": 1.0,
+    "narrationId": "N035"
+  },
+  {
+    "text": "두 사람은 서로 상대방이 총을 쐈다고",
+    "startMs": 212285.0,
+    "endMs": 214165.0,
+    "timestampMs": 212285.0,
+    "confidence": 1.0,
+    "narrationId": "N035"
+  },
+  {
+    "text": "주장했습니다.",
+    "startMs": 214165.0,
+    "endMs": 214785.0,
+    "timestampMs": 214165.0,
+    "confidence": 1.0,
+    "narrationId": "N035"
+  },
+  {
+    "text": "A는 처음 부인하다 총격을 시인했다고 경찰이",
+    "startMs": 215190.0,
+    "endMs": 217810.0,
+    "timestampMs": 215190.0,
+    "confidence": 1.0,
+    "narrationId": "N036"
+  },
+  {
+    "text": "발표했습니다.",
+    "startMs": 217810.0,
+    "endMs": 218370.0,
+    "timestampMs": 217810.0,
+    "confidence": 1.0,
+    "narrationId": "N036"
+  },
+  {
+    "text": "하지만 재판에서는 다시 총격을 부인했습니다.",
+    "startMs": 218770.0,
+    "endMs": 221010.0,
+    "timestampMs": 218770.0,
+    "confidence": 1.0,
+    "narrationId": "N036"
+  },
+  {
+    "text": "돈을 나눈 얘기마저 달랐습니다.",
+    "startMs": 221390.0,
+    "endMs": 222950.0,
+    "timestampMs": 221390.0,
+    "confidence": 1.0,
+    "narrationId": "N037"
+  },
+  {
+    "text": "B는 자신이 9000만 원, A가",
+    "startMs": 223265.0,
+    "endMs": 224845.0,
+    "timestampMs": 223265.0,
+    "confidence": 1.0,
+    "narrationId": "N037"
+  },
+  {
+    "text": "2억1000만 원을 챙겼다고 진술했습니다.",
+    "startMs": 224845.0,
+    "endMs": 226705.0,
+    "timestampMs": 224845.0,
+    "confidence": 1.0,
+    "narrationId": "N037"
+  },
+  {
+    "text": "반면 A는 절반씩 나눴다고 했습니다.",
+    "startMs": 227110.0,
+    "endMs": 228990.0,
+    "timestampMs": 227110.0,
+    "confidence": 1.0,
+    "narrationId": "N038"
+  },
+  {
+    "text": "이 숫자들은 서로 다른 진술입니다.",
+    "startMs": 229375.0,
+    "endMs": 231055.0,
+    "timestampMs": 229375.0,
+    "confidence": 1.0,
+    "narrationId": "N038"
+  },
+  {
+    "text": "실제 분배액으로 확정하면 안 됩니다.",
+    "startMs": 231390.0,
+    "endMs": 233190.0,
+    "timestampMs": 231390.0,
+    "confidence": 1.0,
+    "narrationId": "N038"
+  },
+  {
+    "text": "같이 범행했다는 두 사람의 계산서가 서로",
+    "startMs": 233525.0,
+    "endMs": 235685.0,
+    "timestampMs": 233525.0,
+    "confidence": 1.0,
+    "narrationId": "N039"
+  },
+  {
+    "text": "다릅니다.",
+    "startMs": 235685.0,
+    "endMs": 236125.0,
+    "timestampMs": 235685.0,
+    "confidence": 1.0,
+    "narrationId": "N039"
+  },
+  {
+    "text": "책임도 상대에게 배송 중이네요.",
+    "startMs": 236450.0,
+    "endMs": 238090.0,
+    "timestampMs": 236450.0,
+    "confidence": 1.0,
+    "narrationId": "N039"
+  },
+  {
+    "text": "총을 쏜 사람이 상대라며 떠넘깁니다.",
+    "startMs": 238355.0,
+    "endMs": 240255.0,
+    "timestampMs": 238355.0,
+    "confidence": 1.0,
+    "narrationId": "N039"
+  },
+  {
+    "text": "2023-01-16, 검찰은 A에게",
+    "startMs": 240475.0,
+    "endMs": 242775.0,
+    "timestampMs": 240475.0,
+    "confidence": 1.0,
+    "narrationId": "N040"
+  },
+  {
+    "text": "사형, B에게 무기징역을 구형했습니다.",
+    "startMs": 242775.0,
+    "endMs": 244715.0,
+    "timestampMs": 242775.0,
+    "confidence": 1.0,
+    "narrationId": "N040"
+  },
+  {
+    "text": "검찰의 요구이지 판결은 아닙니다.",
+    "startMs": 245095.0,
+    "endMs": 246795.0,
+    "timestampMs": 245095.0,
+    "confidence": 1.0,
+    "narrationId": "N040"
+  },
+  {
+    "text": "사형 구형 뒤 A가 감사하다는 말을 했다는",
+    "startMs": 247065.0,
+    "endMs": 249185.0,
+    "timestampMs": 247065.0,
+    "confidence": 1.0,
+    "narrationId": "N041"
+  },
+  {
+    "text": "법정 장면도 보도됐습니다.",
+    "startMs": 249185.0,
+    "endMs": 250685.0,
+    "timestampMs": 249185.0,
+    "confidence": 1.0,
+    "narrationId": "N041"
+  },
+  {
+    "text": "정확한 표현은 매체마다 달라 합쳐 쓰지",
+    "startMs": 251010.0,
+    "endMs": 253110.0,
+    "timestampMs": 251010.0,
+    "confidence": 1.0,
+    "narrationId": "N041"
+  },
+  {
+    "text": "않습니다.",
+    "startMs": 253110.0,
+    "endMs": 253490.0,
+    "timestampMs": 253110.0,
+    "confidence": 1.0,
+    "narrationId": "N041"
+  },
+  {
+    "text": "말은 오락가락해도 법원은 판단해야 합니다.",
+    "startMs": 253785.0,
+    "endMs": 255945.0,
+    "timestampMs": 253785.0,
+    "confidence": 1.0,
+    "narrationId": "N042"
+  },
+  {
+    "text": "총을 쏜 사람은 누구라고 인정했을까요?",
+    "startMs": 256270.0,
+    "endMs": 258250.0,
+    "timestampMs": 256270.0,
+    "confidence": 1.0,
+    "narrationId": "N042"
+  },
+  {
+    "text": "그리고 공범의 형은 어디로 갈까요?",
+    "startMs": 258570.0,
+    "endMs": 260250.0,
+    "timestampMs": 258570.0,
+    "confidence": 1.0,
+    "narrationId": "N042"
+  },
+  {
+    "text": "2023-02-17, 1심은 A에게",
+    "startMs": 260600.0,
+    "endMs": 263020.0,
+    "timestampMs": 260600.0,
+    "confidence": 1.0,
+    "narrationId": "N043"
+  },
+  {
+    "text": "무기징역, B에게 징역 20년을",
+    "startMs": 263020.0,
+    "endMs": 264820.0,
+    "timestampMs": 263020.0,
+    "confidence": 1.0,
+    "narrationId": "N043"
+  },
+  {
+    "text": "선고했습니다.",
+    "startMs": 264820.0,
+    "endMs": 265300.0,
+    "timestampMs": 264820.0,
+    "confidence": 1.0,
+    "narrationId": "N043"
+  },
+  {
+    "text": "법원은 A의 총격을 인정했습니다.",
+    "startMs": 265645.0,
+    "endMs": 267305.0,
+    "timestampMs": 265645.0,
+    "confidence": 1.0,
+    "narrationId": "N044"
+  },
+  {
+    "text": "총기 경험만 본 게 아닙니다.",
+    "startMs": 267785.0,
+    "endMs": 269085.0,
+    "timestampMs": 267785.0,
+    "confidence": 1.0,
+    "narrationId": "N044"
+  },
+  {
+    "text": "권총을 쥐고 조준한 정황과 진술의 신빙성도",
+    "startMs": 269355.0,
+    "endMs": 271735.0,
+    "timestampMs": 269355.0,
+    "confidence": 1.0,
+    "narrationId": "N044"
+  },
+  {
+    "text": "판단했습니다.",
+    "startMs": 271735.0,
+    "endMs": 272275.0,
+    "timestampMs": 271735.0,
+    "confidence": 1.0,
+    "narrationId": "N044"
+  },
+  {
+    "text": "B에게는 보조 역할과 자백을 고려했습니다.",
+    "startMs": 272660.0,
+    "endMs": 274820.0,
+    "timestampMs": 272660.0,
+    "confidence": 1.0,
+    "narrationId": "N045"
+  },
+  {
+    "text": "오래 묻힌 사건의 경위를 밝히는 데 도움이",
+    "startMs": 275155.0,
+    "endMs": 277415.0,
+    "timestampMs": 275155.0,
+    "confidence": 1.0,
+    "narrationId": "N045"
+  },
+  {
+    "text": "됐다는 점입니다.",
+    "startMs": 277415.0,
+    "endMs": 278135.0,
+    "timestampMs": 277415.0,
+    "confidence": 1.0,
+    "narrationId": "N045"
+  },
+  {
+    "text": "그런데 항소심에서 20년형에 문제가 있다고",
+    "startMs": 278445.0,
+    "endMs": 280865.0,
+    "timestampMs": 278445.0,
+    "confidence": 0.9473684210526315,
+    "narrationId": "N046"
+  },
+  {
+    "text": "합니다.",
+    "startMs": 280865.0,
+    "endMs": 281125.0,
+    "timestampMs": 280865.0,
+    "confidence": 1.0,
+    "narrationId": "N046"
+  },
+  {
+    "text": "그러면 형이 줄어드나?",
+    "startMs": 281510.0,
+    "endMs": 282630.0,
+    "timestampMs": 281510.0,
+    "confidence": 1.0,
+    "narrationId": "N046"
+  },
+  {
+    "text": "이 사건은 반대였습니다.",
+    "startMs": 282860.0,
+    "endMs": 284020.0,
+    "timestampMs": 282860.0,
+    "confidence": 1.0,
+    "narrationId": "N046"
+  },
+  {
+    "text": "2023-08-18, 항소심은 둘 다",
+    "startMs": 284380.0,
+    "endMs": 286780.0,
+    "timestampMs": 284380.0,
+    "confidence": 1.0,
+    "narrationId": "N047"
+  },
+  {
+    "text": "무기징역을 선고했습니다.",
+    "startMs": 286780.0,
+    "endMs": 287840.0,
+    "timestampMs": 286780.0,
+    "confidence": 1.0,
+    "narrationId": "N047"
+  },
+  {
+    "text": "B의 20년형이 무기로 올라갔습니다.",
+    "startMs": 288225.0,
+    "endMs": 290165.0,
+    "timestampMs": 288225.0,
+    "confidence": 1.0,
+    "narrationId": "N047"
+  },
+  {
+    "text": "이 사건에 적용된 법의 문제입니다.",
+    "startMs": 290500.0,
+    "endMs": 292180.0,
+    "timestampMs": 290500.0,
+    "confidence": 1.0,
+    "narrationId": "N048"
+  },
+  {
+    "text": "항소심은 강도살인의 법정형이 사형 또는",
+    "startMs": 292505.0,
+    "endMs": 294805.0,
+    "timestampMs": 292505.0,
+    "confidence": 1.0,
+    "narrationId": "N048"
+  },
+  {
+    "text": "무기징역이라고 설명했습니다.",
+    "startMs": 294805.0,
+    "endMs": 296185.0,
+    "timestampMs": 294805.0,
+    "confidence": 1.0,
+    "narrationId": "N048"
+  },
+  {
+    "text": "정상을 참작해 감경하더라도 유기징역의 상한은",
+    "startMs": 296560.0,
+    "endMs": 299000.0,
+    "timestampMs": 296560.0,
+    "confidence": 1.0,
+    "narrationId": "N049"
+  },
+  {
+    "text": "15년.",
+    "startMs": 299000.0,
+    "endMs": 299520.0,
+    "timestampMs": 299000.0,
+    "confidence": 1.0,
+    "narrationId": "N049"
+  },
+  {
+    "text": "그래서 1심의 20년 선고는 잘못이라는",
+    "startMs": 299785.0,
+    "endMs": 301845.0,
+    "timestampMs": 299785.0,
+    "confidence": 1.0,
+    "narrationId": "N049"
+  },
+  {
+    "text": "판단입니다.",
+    "startMs": 301845.0,
+    "endMs": 302545.0,
+    "timestampMs": 301845.0,
+    "confidence": 1.0,
+    "narrationId": "N049"
+  },
+  {
+    "text": "그럼 15년이냐고요?",
+    "startMs": 302855.0,
+    "endMs": 303935.0,
+    "timestampMs": 302855.0,
+    "confidence": 0.7777777777777778,
+    "narrationId": "N050"
+  },
+  {
+    "text": "항소심은 B에게 불리한 사정이 유리한 사정을",
+    "startMs": 304240.0,
+    "endMs": 306680.0,
+    "timestampMs": 304240.0,
+    "confidence": 1.0,
+    "narrationId": "N050"
+  },
+  {
+    "text": "압도한다고 보고, 감경 자체를 하지",
+    "startMs": 306680.0,
+    "endMs": 308600.0,
+    "timestampMs": 306680.0,
+    "confidence": 1.0,
+    "narrationId": "N050"
+  },
+  {
+    "text": "않았습니다.",
+    "startMs": 308600.0,
+    "endMs": 309060.0,
+    "timestampMs": 308600.0,
+    "confidence": 1.0,
+    "narrationId": "N050"
+  },
+  {
+    "text": "20에서 15로 내려간 게 아닙니다.",
+    "startMs": 309365.0,
+    "endMs": 311205.0,
+    "timestampMs": 309365.0,
+    "confidence": 1.0,
+    "narrationId": "N051"
+  },
+  {
+    "text": "감경을 안 해서 무기징역입니다.",
+    "startMs": 311485.0,
+    "endMs": 313005.0,
+    "timestampMs": 311485.0,
+    "confidence": 1.0,
+    "narrationId": "N051"
+  },
+  {
+    "text": "형량표의 숫자만 보고 결말을 찍으면 틀리는",
+    "startMs": 313355.0,
+    "endMs": 315695.0,
+    "timestampMs": 313355.0,
+    "confidence": 1.0,
+    "narrationId": "N051"
+  },
+  {
+    "text": "겁니다.",
+    "startMs": 315695.0,
+    "endMs": 315895.0,
+    "timestampMs": 315695.0,
+    "confidence": 1.0,
+    "narrationId": "N051"
+  },
+  {
+    "text": "B가 발사자로 바뀌어서 무기가 된 것도",
+    "startMs": 316265.0,
+    "endMs": 318305.0,
+    "timestampMs": 316265.0,
+    "confidence": 1.0,
+    "narrationId": "N052"
+  },
+  {
+    "text": "아닙니다.",
+    "startMs": 318305.0,
+    "endMs": 318825.0,
+    "timestampMs": 318305.0,
+    "confidence": 1.0,
+    "narrationId": "N052"
+  },
+  {
+    "text": "A가 권총을 발사했다는 판단은 항소심에서도",
+    "startMs": 319055.0,
+    "endMs": 321595.0,
+    "timestampMs": 319055.0,
+    "confidence": 1.0,
+    "narrationId": "N052"
+  },
+  {
+    "text": "유지됐습니다.",
+    "startMs": 321595.0,
+    "endMs": 322315.0,
+    "timestampMs": 321595.0,
+    "confidence": 1.0,
+    "narrationId": "N052"
+  },
+  {
+    "text": "두 사람은 형이 무겁다며 상고했습니다.",
+    "startMs": 322630.0,
+    "endMs": 324410.0,
+    "timestampMs": 322630.0,
+    "confidence": 1.0,
+    "narrationId": "N053"
+  },
+  {
+    "text": "마지막 문은 대법원입니다.",
+    "startMs": 324845.0,
+    "endMs": 326125.0,
+    "timestampMs": 324845.0,
+    "confidence": 1.0,
+    "narrationId": "N053"
+  },
+  {
+    "text": "약 20년 넘게 걸린 사건의 결론이 여기서",
+    "startMs": 326480.0,
+    "endMs": 328700.0,
+    "timestampMs": 326480.0,
+    "confidence": 1.0,
+    "narrationId": "N053"
+  },
+  {
+    "text": "정해집니다.",
+    "startMs": 328700.0,
+    "endMs": 329320.0,
+    "timestampMs": 328700.0,
+    "confidence": 1.0,
+    "narrationId": "N053"
+  },
+  {
+    "text": "2023-12-14, 대법원은 상고를",
+    "startMs": 329560.0,
+    "endMs": 332100.0,
+    "timestampMs": 329560.0,
+    "confidence": 1.0,
+    "narrationId": "N054"
+  },
+  {
+    "text": "기각했습니다.",
+    "startMs": 332100.0,
+    "endMs": 332620.0,
+    "timestampMs": 332100.0,
+    "confidence": 1.0,
+    "narrationId": "N054"
+  },
+  {
+    "text": "두 사람 모두 무기징역이 확정됐습니다.",
+    "startMs": 333015.0,
+    "endMs": 334955.0,
+    "timestampMs": 333015.0,
+    "confidence": 1.0,
+    "narrationId": "N054"
+  },
+  {
+    "text": "대법원은 원심의 형이 부당하다고 볼 수",
+    "startMs": 335300.0,
+    "endMs": 337400.0,
+    "timestampMs": 335300.0,
+    "confidence": 1.0,
+    "narrationId": "N055"
+  },
+  {
+    "text": "없다고 판단했습니다.",
+    "startMs": 337400.0,
+    "endMs": 338320.0,
+    "timestampMs": 337400.0,
+    "confidence": 1.0,
+    "narrationId": "N055"
+  },
+  {
+    "text": "무기징역을 가석방 없는 종신형으로 바꿔 말할",
+    "startMs": 338725.0,
+    "endMs": 341265.0,
+    "timestampMs": 338725.0,
+    "confidence": 1.0,
+    "narrationId": "N055"
+  },
+  {
+    "text": "수는 없습니다.",
+    "startMs": 341265.0,
+    "endMs": 341745.0,
+    "timestampMs": 341265.0,
+    "confidence": 1.0,
+    "narrationId": "N055"
+  },
+  {
+    "text": "숨진 출납과장은 두 자녀를 둔",
+    "startMs": 342195.0,
+    "endMs": 343875.0,
+    "timestampMs": 342195.0,
+    "confidence": 1.0,
+    "narrationId": "N056"
+  },
+  {
+    "text": "가장이었습니다.",
+    "startMs": 343875.0,
+    "endMs": 344555.0,
+    "timestampMs": 343875.0,
+    "confidence": 1.0,
+    "narrationId": "N056"
+  },
+  {
+    "text": "유족이 검거에 감사를 전했다는 보도는 경찰을",
+    "startMs": 344880.0,
+    "endMs": 347440.0,
+    "timestampMs": 344880.0,
+    "confidence": 1.0,
+    "narrationId": "N056"
+  },
+  {
+    "text": "통한 전언이었습니다.",
+    "startMs": 347440.0,
+    "endMs": 348420.0,
+    "timestampMs": 347440.0,
+    "confidence": 0.8888888888888888,
+    "narrationId": "N056"
+  },
+  {
+    "text": "이 사건의 마지막에 남겨야 할 건 범인의",
+    "startMs": 348740.0,
+    "endMs": 350860.0,
+    "timestampMs": 348740.0,
+    "confidence": 1.0,
+    "narrationId": "N057"
+  },
+  {
+    "text": "표정이 아닙니다.",
+    "startMs": 350860.0,
+    "endMs": 351620.0,
+    "timestampMs": 350860.0,
+    "confidence": 1.0,
+    "narrationId": "N057"
+  },
+  {
+    "text": "일을 하던 한 사람이 돌아오지 못했다는",
+    "startMs": 351915.0,
+    "endMs": 353875.0,
+    "timestampMs": 351915.0,
+    "confidence": 1.0,
+    "narrationId": "N057"
+  },
+  {
+    "text": "사실입니다.",
+    "startMs": 353875.0,
+    "endMs": 354455.0,
+    "timestampMs": 353875.0,
+    "confidence": 1.0,
+    "narrationId": "N057"
+  }
+]

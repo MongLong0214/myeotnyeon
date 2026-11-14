@@ -1,0 +1,53 @@
+{
+  "projectId": "myeotnyeon",
+  "kind": "STANDARD_WORK",
+  "repository": {
+    "identity": "github:MongLong0214/myeotnyeon",
+    "baseBranch": "dev",
+    "baseCommit": "647aa171fffa4f6a9cd6c7ae33feb5f7086f71b5"
+  },
+  "goal": "현 몇년나옴 제작이 호출하는 자막 분할 API(chunks/wrap/weight/tc)를 레포에서 독립 import 가능한 모듈과 테스트로 확보한다. 운영 소비자 전환·레포 정본 전환은 범위 밖이다.",
+  "scope": [
+    "운영본 기준: 로컬 git 저장소 verdict-kr/work(원격 없음) commit 914caa087d94c434b26b727b554cc2885c644371, path episodes/S001/layout.py, git blob 7714666faf07029dd3ca666604b7e4443611d9a2. 검증은 그 커밋의 파일을 읽어 sha256을 계산·대조하고 fixture 헤더에 기록한다. f975ad3d의 bytes를 출처로 재사용할 수 있으나 취소된 Run A의 PASS·리뷰는 승계하지 않는다. repo 신규 경로: pipeline/tools/layout.py.",
+    "모듈 import 시 파일 쓰기·운영 경로(HERE 하위 episode 파일)·미디어·비밀 의존이 없도록 한다. main()은 이관 대상 API가 아니다.",
+    "repo test/layout.test.mjs 신규: python3로 모듈을 import해 API 동작·예외를 고정 기대값으로 검증. 기존 npm test에 포함.",
+    "repo test/fixtures/layout_parity.json 신규: 운영본 기준으로 생성한 입력→출력 기대값(S001 전체 cue narration + 반례: 빈 문자열, 한글/영문 혼합, maxline 경계 길이 ±1, 공백 없는 긴 토큰, 구두점·개행·짧은 tail; maxline 8/11/14; tc 0/1/29/30/31/1799/1800/108000). 생성 스크립트와 운영본 git identity(commit·path·blob) 및 그로부터 계산한 sha256을 fixture 헤더에 고정.",
+    "공개 안전성: 변경 파일 전부 regular file(심볼릭 링크 0)이고 절대 로컬 경로·이메일·세션/프로필 ID·기사 원문·미디어 0임을 test/layout.test.mjs 안에서 검사한다. 기존 Run A의 check-public-safe.mjs symlink 결함(review F29/F38)은 base 647aa171에 해당 checker가 없고 이번 변경에 symlink가 없어 이 단위의 공개 안전성에 영향 없음으로 판정한다. checker 이관·수정은 후속 단위 책임."
+  ],
+  "acceptance": [
+    "exact HEAD에서 npm test(network deny) PASS, 기존 smoke 테스트 약화·skip 없음.",
+    "parity: 위 git identity의 운영본 대비 chunks/wrap/weight/tc의 동일 입력→동일 출력·동일 예외를 fixture 전 항목에서 확인. 소스 바이트 동일성은 요구하지 않는다.",
+    "독립 import: 새 프로세스에서 pipeline/tools/layout.py를 import해 API를 호출해도 파일 생성·운영 경로 접근이 없다(테스트로 증명).",
+    "공개 안전성 검사(위 scope 5) PASS. 실패하는 checker 실행만으로 PASS 처리하지 않는다.",
+    "dev 대상 PR 1건, 독립 리뷰, merge readback. rollback은 해당 merge commit revert 1건."
+  ],
+  "nonGoals": [
+    "verdict-kr/work factory/fresh.py 등 운영 소비자 전환",
+    "compositor·toon 엔진·게이트·분석·ledger 이관",
+    "V3–V6(tsc·compositions·still·AUDIT 렌더) 완료 주장",
+    "CI workflow·active manifest 변경, main 직접/force push",
+    "B/C/D task 브랜치 병합"
+  ],
+  "ownedPaths": [
+    "pipeline/tools/layout.py",
+    "pipeline/tools/__init__.py",
+    "test/layout.test.mjs",
+    "test/fixtures/layout_parity.json",
+    "test/fixtures/gen_layout_parity.py"
+  ],
+  "verificationCommands": [
+    {
+      "id": "test",
+      "argv": [
+        "npm",
+        "test"
+      ],
+      "network": "deny"
+    }
+  ],
+  "references": [
+    "cancelled run_b86c2fe61ad8402a963074f5 (evidence preserved)",
+    "verdict-kr/work docs/REPO_MIGRATION_AUDIT.md §4",
+    "docs/REPO_ARCHITECTURE_PLAN.md first-unit draft"
+  ]
+}

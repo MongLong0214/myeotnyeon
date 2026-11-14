@@ -1,0 +1,334 @@
+{
+ "qid": "ja003",
+ "locale": "ja",
+ "variant": "B3",
+ "b3": true,
+ "look": "full2",
+ "grave": false,
+ "engine": "VOICEVOX 0.26.1 (local engine), VOICEVOX:冥鳴ひまり",
+ "voice": "冥鳴ひまり ノーマル (style 14)",
+ "kokoro_speeds": [
+  1.0,
+  1.1,
+  1.2
+ ],
+ "kind": "like",
+ "number_label": "",
+ "stage": "like",
+ "cover_text": "禁止命令中に\n「いいね」14回",
+ "defendant": "woman",
+ "choices": [
+  "無罪",
+  "罰金20万円",
+  "拘禁刑6か月・猶予3年"
+ ],
+ "correct": 2,
+ "answer": "拘禁刑6か月・執行猶予3年",
+ "answer_label": "東京地裁",
+ "opinion": "この判決、\n軽い / 妥当 / 重い？",
+ "option_offsets": [
+  0.0,
+  0.52,
+  2.22
+ ],
+ "hook_text": [
+  "禁止命令中に",
+  "いいね14回"
+ ],
+ "sfx": [
+  [
+   "like",
+   0,
+   "tick"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ],
+  [
+   "hit",
+   6,
+   "thud"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L05",
+   "at": 0.45,
+   "big": "5/27 → 6/3 = 7日",
+   "small": "罰金20万円から再び",
+   "calc": "5月27日 罰金20万円 → 6月3日ごろ いいね。31 − 27 = 4日 + 3日 = 7日（報道: 約1週間後）"
+  },
+  {
+   "line": "L06",
+   "at": 0.4,
+   "big": "いいね14 + リポスト1",
+   "small": "押すと相手に通知が届く",
+   "calc": "朝日・東京新聞・産経: いいね14回、リポスト1回。押すと投稿者に自動で通知"
+  },
+  {
+   "line": "L12",
+   "at": 0.05,
+   "big": "保護観察付き",
+   "small": "執行猶予3年（3×365＝1095日）",
+   "calc": "判決: 拘禁刑6月、保護観察付き執行猶予3年（朝日・産経・日経・東京新聞）。3 × 365 = 1095日"
+  },
+  {
+   "line": "L12",
+   "at": 0.55,
+   "big": "今は収監されない",
+   "small": "猶予期間を無事に終えれば刑は効力を失う",
+   "calc": "執行猶予の一般的効果（刑法25条・27条）。判決は拘禁刑6月の執行を3年間猶予"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "like",
+   "tts": "禁止命令中に、いいね。",
+   "shown": "禁止命令中に、いいね。",
+   "chunks": [
+    "禁止命令中に、いいね。"
+   ],
+   "fact": "F2",
+   "target": 10.0,
+   "shots": [
+    {
+     "s": "like"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "判決は？",
+   "shown": "判決は？",
+   "chunks": [
+    "判決は？"
+   ],
+   "fact": "F4",
+   "actor": "woman",
+   "shots": [
+    {
+     "s": "react",
+     "look": "woman",
+     "expr": "smug",
+     "move": "nod",
+     "y": 1750
+    },
+    {
+     "s": "calendar",
+     "year": "2026",
+     "month": 6
+    }
+   ],
+   "hold_after": 0.25
+  },
+  {
+   "id": "L03",
+   "mode": "guess",
+   "tts": "いいねは、ただのリアクション？",
+   "shown": "いいねは、ただのリアクション？",
+   "chunks": [
+    "いいねは、",
+    "ただのリアクション？"
+   ],
+   "fact": "F6",
+   "shots": [
+    {
+     "s": "bubble",
+     "lines": [
+      "ただの",
+      "リアクション？"
+     ],
+     "size": 120
+    },
+    {
+     "s": "like"
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "でも裁判所は、ストーカー行為と認めました。",
+   "shown": "でも裁判所は、ストーカー行為と認めました。",
+   "chunks": [
+    "でも裁判所は、",
+    "ストーカー行為と認めました。"
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "ストーカー行為"
+     ],
+     "stamp": "認定",
+     "size": 90
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "mode": "hit",
+   "tts": "罰金刑の、わずか一週間後でした。",
+   "shown": "罰金刑の、わずか1週間後でした。",
+   "chunks": [
+    "罰金刑の、",
+    "わずか1週間後でした。"
+   ],
+   "fact": "F2",
+   "actor": "woman",
+   "shots": [
+    {
+     "s": "calendar",
+     "year": "2026",
+     "month": 5
+    },
+    {
+     "s": "react",
+     "look": "woman",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2090
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "mode": "past",
+   "tts": "弁護側は、無罪を主張しました。",
+   "shown": "弁護側は、無罪を主張しました。",
+   "chunks": [
+    "弁護側は、",
+    "無罪を主張しました。"
+   ],
+   "fact": "F3",
+   "shots": [
+    {
+     "s": "paper",
+     "lines": [
+      "弁護側",
+      "無罪を主張"
+     ],
+     "size": 110
+    },
+    {
+     "s": "bubble",
+     "lines": [
+      "恋愛感情は",
+      "なかった"
+     ],
+     "size": 120
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "判決は？",
+   "shown": "判決は？",
+   "chunks": [
+    "判決は？"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "無罪、罰金二十万円、それとも拘禁刑？",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "hold_after": 0.45
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "正解はシー。拘禁刑6か月、執行猶予3年。",
+   "shown": "正解はC。拘禁刑6か月、執行猶予3年。",
+   "chunks": [
+    "正解はC。",
+    "拘禁刑6か月、",
+    "執行猶予3年。"
+   ],
+   "fact": "F4",
+   "shots": [],
+   "emphasis": "執行猶予3年"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "保護観察付き。被告側は、控訴する方針です。",
+   "shown": "保護観察付き。被告側は、控訴する方針です。",
+   "chunks": [
+    "保護観察付き。被告側は、",
+    "控訴する方針です。"
+   ],
+   "fact": "F4",
+   "actor": "woman",
+   "shots": [
+    {
+     "s": "react",
+     "look": "woman",
+     "expr": "concern",
+     "move": "nod",
+     "y": 2090
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "保護観察"
+     ],
+     "stamp": "付き",
+     "size": 100
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "軽い、妥当、重い？",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "actor": "woman",
+   "shots": [
+    {
+     "s": "react",
+     "look": "woman",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "hold_after": 0.3
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "あの日、彼女が押したのは、",
+   "shown": "あの日、彼女が押したのは、",
+   "chunks": [
+    "あの日、彼女が押したのは、"
+   ],
+   "fact": "F2",
+   "shots": []
+  }
+ ],
+ "vv_style": 14,
+ "vv_speeds": [
+  1.0,
+  1.05,
+  1.15,
+  1.25,
+  1.35
+ ]
+}

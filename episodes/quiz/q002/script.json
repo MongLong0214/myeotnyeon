@@ -1,0 +1,135 @@
+{
+ "episode_id": "q002",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 청주지법 2017년 1심",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "cling",
+   "block_name": "cling",
+   "narration": [
+    "음주단속을 피하려고, 경찰관을 차에 매단 채 약 131미터를 달렸습니다."
+   ],
+   "claim_ids": [
+    "A3-014"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "victim": "cop",
+    "dist": 131,
+    "tag": "음주단속 경찰관"
+   },
+   "in_frame": 0,
+   "duration_frames": 150,
+   "out_frame_exclusive": 150,
+   "required_claim_ids": [
+    "A3-014"
+   ]
+  },
+  {
+   "cue_id": "C2",
+   "act": "hurt",
+   "block_name": "hurt",
+   "narration": [
+    "경찰관은 주차된 차에 부딪혀, 8주를 다쳤어요."
+   ],
+   "claim_ids": [
+    "A3-014"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "victim": "cop",
+    "stamp": "8주 상해",
+    "expr": "dizzy"
+   },
+   "in_frame": 150,
+   "duration_frames": 90,
+   "out_frame_exclusive": 240,
+   "required_claim_ids": [
+    "A3-014"
+   ]
+  },
+  {
+   "cue_id": "C3",
+   "act": "quiz",
+   "block_name": "quiz",
+   "narration": [
+    "자, 몇 년 받았을까요?",
+    "벌금일까요, 집행유예일까요, 아니면 실형일까요?"
+   ],
+   "claim_ids": [],
+   "pad_s": 3.2,
+   "note": "",
+   "p": {},
+   "in_frame": 240,
+   "duration_frames": 209,
+   "out_frame_exclusive": 449,
+   "required_claim_ids": []
+  },
+  {
+   "cue_id": "C4",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "정답은, 징역 2년에 집행유예 3년."
+   ],
+   "claim_ids": [
+    "A3-014"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "lines": [
+     "징역 2년",
+     "집행유예 3년"
+    ]
+   },
+   "in_frame": 449,
+   "duration_frames": 76,
+   "out_frame_exclusive": 525,
+   "required_claim_ids": [
+    "A3-014"
+   ]
+  },
+  {
+   "cue_id": "C5",
+   "act": "confiscate",
+   "block_name": "confiscate",
+   "narration": [
+    "대신, 이 사람이 몰던 외제차는 몰수됐습니다."
+   ],
+   "claim_ids": [
+    "A3-014"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {},
+   "in_frame": 525,
+   "duration_frames": 81,
+   "out_frame_exclusive": 606,
+   "required_claim_ids": [
+    "A3-014"
+   ]
+  },
+  {
+   "cue_id": "C6",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 1.2,
+   "note": "",
+   "p": {},
+   "in_frame": 606,
+   "duration_frames": 78,
+   "out_frame_exclusive": 684,
+   "required_claim_ids": []
+  }
+ ],
+ "duration_frames": 684,
+ "fps": 30
+}

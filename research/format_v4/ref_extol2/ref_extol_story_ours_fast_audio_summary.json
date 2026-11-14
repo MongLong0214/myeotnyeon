@@ -1,0 +1,103 @@
+{
+  "duration_s": 271.9146875,
+  "mixed_speech_dbfs": -16.92330507536247,
+  "mixed_nonword_dbfs": -34.60288213515263,
+  "side_dbfs": -72.89889606903488,
+  "side_nonword_dbfs": -200.0,
+  "continuous_side_bed_proxy_intervals": [],
+  "continuous_side_bed_proxy_share": 0.0,
+  "nonword_windows_ge_120ms": 20,
+  "nonword_windows_with_side_above_minus50": 0,
+  "acoustic_silence_below_minus60_ge_180ms": [
+    {
+      "start_s": 267.9,
+      "end_s": 271.9,
+      "duration_s": 4.0
+    }
+  ],
+  "narration_gaps_ge_350ms": [
+    {
+      "start_s": 88.44,
+      "end_s": 88.98,
+      "duration_s": 0.54
+    },
+    {
+      "start_s": 150.88,
+      "end_s": 151.38,
+      "duration_s": 0.5
+    },
+    {
+      "start_s": 224.04,
+      "end_s": 224.52,
+      "duration_s": 0.48
+    },
+    {
+      "start_s": 267.76,
+      "end_s": 269.94,
+      "duration_s": 2.18
+    }
+  ],
+  "chapter_cue_candidates": [
+    {
+      "boundary_s": 33.35,
+      "side_before_dbfs": -86.68264269272946,
+      "side_after_dbfs": -200.0,
+      "side_delta_db": -113.31735730727054,
+      "spectral_hellinger": 1.0,
+      "cue_change_candidate": false,
+      "warning": "Candidate only; cannot establish track identity or editorial intent. Reject both sides below -50 dBFS to avoid numerical noise."
+    },
+    {
+      "boundary_s": 88.7,
+      "side_before_dbfs": -200.0,
+      "side_after_dbfs": -73.05412369034659,
+      "side_delta_db": 126.94587630965341,
+      "spectral_hellinger": 1.0,
+      "cue_change_candidate": false,
+      "warning": "Candidate only; cannot establish track identity or editorial intent. Reject both sides below -50 dBFS to avoid numerical noise."
+    },
+    {
+      "boundary_s": 158.6,
+      "side_before_dbfs": -73.28704343684669,
+      "side_after_dbfs": -92.28184923694796,
+      "side_delta_db": -18.994805800101275,
+      "spectral_hellinger": 0.5758110188128066,
+      "cue_change_candidate": false,
+      "warning": "Candidate only; cannot establish track identity or editorial intent. Reject both sides below -50 dBFS to avoid numerical noise."
+    },
+    {
+      "boundary_s": 224.1,
+      "side_before_dbfs": -75.2030595826009,
+      "side_after_dbfs": -200.0,
+      "side_delta_db": -124.7969404173991,
+      "spectral_hellinger": 1.0,
+      "cue_change_candidate": false,
+      "warning": "Candidate only; cannot establish track identity or editorial intent. Reject both sides below -50 dBFS to avoid numerical noise."
+    }
+  ],
+  "reveal_hit_candidates": [
+    {
+      "event": "death result",
+      "time_s": 23.72,
+      "side_onset_candidates": [],
+      "mono_onset_candidates": [],
+      "interpretation": "A matching onset is not proof of an intentional reveal hit. Mono candidates may simply be consonants."
+    },
+    {
+      "event": "first sentence number",
+      "time_s": 146.38,
+      "side_onset_candidates": [],
+      "mono_onset_candidates": [],
+      "interpretation": "A matching onset is not proof of an intentional reveal hit. Mono candidates may simply be consonants."
+    },
+    {
+      "event": "appeal sentence number",
+      "time_s": 226.98,
+      "side_onset_candidates": [],
+      "mono_onset_candidates": [],
+      "interpretation": "A matching onset is not proof of an intentional reveal hit. Mono candidates may simply be consonants."
+    }
+  ],
+  "side_transient_candidate_count": 0,
+  "limitations": "No stem model downloaded. Side-channel and frequency-band measurements are stereo-bed evidence, not confirmed music coverage, composition identity, auditory emotion, or SFX counts. ASR can miss speech, particularly telephone insert."
+}

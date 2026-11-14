@@ -1,0 +1,33 @@
+{
+  "id": "yYe6svotmck",
+  "title": "강남경찰서 모범형사의 기이한 죽음",
+  "description": "강남경찰서 이용준 형사의 죽음에 관해 파헤친 이야기입니다.\n책 '이용준 형사의 죽음을 묻는다'를 바탕으로 제작되었습니다.\n-\n*SBS 달리 영상 링크\nhttps://youtu.be/Yyz-G4kqyrM?si=uyShPAhpx_mPFOAS",
+  "upload_date": "20260412",
+  "timestamp": 1775988815,
+  "duration": 652,
+  "view_count": 24183,
+  "like_count": 423,
+  "comment_count": 70,
+  "chapters": null,
+  "channel": "엑스톨(Extol)",
+  "channel_id": "UCHRG_xhaJj-5TsYnAjhJXVQ",
+  "channel_follower_count": 31200,
+  "webpage_url": "https://www.youtube.com/watch?v=yYe6svotmck",
+  "categories": [
+    "People & Blogs"
+  ],
+  "tags": [
+    "박왕열",
+    "버닝썬",
+    "그것이알고싶다"
+  ],
+  "language": null,
+  "availability": "needs_auth",
+  "age_limit": 18,
+  "analysis_kind": "long",
+  "collected_local": null,
+  "counts_method": "yt-dlp separate metadata extraction without write-comments; avoids capped extracted count",
+  "extractor_format_description": null,
+  "extracted_audio_language": null,
+  "format_note_caveat": "For two reused media copies, selected format in fresh metadata is not the copy format; source_media.json ffprobe is authoritative."
+}

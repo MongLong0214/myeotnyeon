@@ -1,0 +1,6 @@
+"Guess The Sentence" (EN) · Laura Owens fake-pregnancy fraud · B3 + look v2 · maker self-check · currently held PRIVATE on the channel (re-render for CEO review, NOT re-uploaded)
+Re-render: the "14 → 4" pop headline now reads "14 to 4" (the big-size arrow had rendered as a dash; the small label keeps a real → glyph, which renders correctly in Noto Sans — checked at 13.1 s). Overflowing card text sizes reduced (new render.cjs overflow check); L12 close-up moved above the caption band.
+Content: frame 0 = ultrasound print with FAKE stamp held up by a woman (original 'lady' look), hook "She faked twins / FAKE ULTRASOUND". Twist 5.8 s "but the judge called her 'a very sad individual.'" Answer C 30 days in jail; twist 2 "Plus 7 years of probation".
+Facts: Maricopa County Superior Court, sentenced 2026-10-23; plea to 4 counts (of 14 charged); prosecutors asked 5 y 5 m. Claims with verbatim quotes: ceo_packet/claims.md. Fraud case; no sexual content; the victim is not named or drawn (title keeps "Bachelor", approved).
+Self review: full contact sheets viewed for the first render; this render only changed the pop text and card sizes (checked by stills + 1 fps sheet).
+Known weaknesses: voice not judged by ear; USA Today read via extract (402 to curl).

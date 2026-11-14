@@ -1,0 +1,13 @@
+{
+  "delivery": "n18_toon_proof_426x240.mp4",
+  "source_audio": "/Users/isaac/projects/verdict-kr/work/episodes/v4/n18/audio/mix_master.wav",
+  "audio_trim_s": [11.17, 29.40],
+  "resolution": [426, 240],
+  "shots": [
+    {"shot":"N003","proof_range_s":[0.0,6.4],"speech":"중대장이 지시한 것은 절차와 방법을 위반한 군기훈련, 이른바 얼차려였다.","extracts":[[0.20,"n18_extracts/n18_s01_start.png"],[3.20,"n18_extracts/n18_s01_mid.png"],[6.20,"n18_extracts/n18_s01_end.png"]]},
+    {"shot":"N004","proof_range_s":[6.4,11.56],"speech":"부중대장도 이 군기훈련을 실시한 혐의로 재판에 넘겨진다.","extracts":[[6.55,"n18_extracts/n18_s02_start.png"],[8.80,"n18_extracts/n18_s02_mid.png"],[11.35,"n18_extracts/n18_s02_end.png"]]},
+    {"shot":"N005","proof_range_s":[11.56,18.23],"speech":"훈련 도중 의식을 잃은 훈련병에게 적절한 조치를 하지 않았다는 혐의도 포함된다.","extracts":[[11.70,"n18_extracts/n18_s03_start.png"],[14.60,"n18_extracts/n18_s03_mid.png"],[17.90,"n18_extracts/n18_s03_end.png"]]}
+  ],
+  "render_method":"Blender 5.2 headless, original 3D cel-shaded tableaux; FFmpeg H.264/AAC mux.",
+  "visual_review":"Independent review of actual final N005 extraction: PASS for a non-gory, side-lying grounded figure with readable pack, arms, flexed/extended legs, boots, support shadows and 3D room depth. N003/N004 retain simplified tabletop character geometry and need CEO art review before extending the full episode."
+}

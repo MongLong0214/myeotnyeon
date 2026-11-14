@@ -1,0 +1,15 @@
+{
+ "id": "moonless_golf",
+ "name": "Moonless Golf",
+ "type": 0,
+ "authors": {
+  "Greg Zaal": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/moonless_golf",
+ "resolution": "4k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/4k/moonless_golf_4k.hdr"
+ ]
+}

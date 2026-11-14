@@ -1,0 +1,84 @@
+q013 #16 — 2026-11-06 19:00 KST 예약 Short / UI·자막 수정본
+준비 시각: 2026-11-06T11:46:21.216148+09:00
+마감: 2026-11-06 16:30 KST
+상태: CTO·CEO 검토 대기. 자체 채택 판정 없음. 업로드 작업 없음.
+
+영상: upload/v52_q013_n16_unslop.mp4
+규격: 1080×1920 / 30 fps / 800 frames / 영상 26.666667초, 오디오 26.667초
+커버: upload/cover_v52_q013_n16_unslop.png (텍스트 박스 없음)
+전후 비교: episodes/review_full/unslop/q013/before_after_1fps.png
+0–26초의 정각, 같은 프레임을 좌 원본 / 우 수정본으로 배치. 3장 분할 시트도 포함.
+세부 경계·22회 접촉: episodes/review_full/unslop/q013/boundaries/ 및 boundary_contact_sheet.png
+설명란 교체 안내: episodes/quiz/q013/unslop/description_note.txt
+CEO 추가 지시 증빙: episodes/review_full/unslop/q013/ceo_addendum_1_360p.png
+Owner 자막 수정 증빙: episodes/review_full/unslop/q013/owner_correction_360p.png
+Owner 자막 실측: episodes/review_full/unslop/q013/subtitle_legibility.json 및 subtitle_layout_observed.json
+
+Owner correction 적용:
+- 각 줄의 실제 텍스트 중심과 자막 박스 중심 모두 x540. 좌우 오프셋 없음.
+- 72px / CSS 굵기800 / 흰색 / 검정 외곽선10px / 부드러운 그림자.
+- 최대2줄, 공백·문장부호를 포함해 줄당14자 이하.
+- 고정 자막 박스 y1192–1342, 화면 높이의62.08–69.90%. 얼굴을 가리지 않는 위치.
+- 정답의 벌금 400만 원 한 구절만 #FFD400으로 강조. 박스·띠 없음.
+- 모든 노출 내레이션 cue와 엔딩 UI를 브라우저에서 실측. 문구·타이밍 변경 없음.
+
+CEO Addendum 1 적용 (이전 UI 제거 지시보다 우선):
+- 재구성: 전 구간, 우측 상단 36px 무박스 글자.
+- 시간 압축: 61–203프레임, 재구성 · 시간 압축으로 고지.
+- 시각비유: 204–754프레임, 재구성 · 시각비유로 고지.
+- 박치기 22회: 도입 제목·원래 자막 외에도 61–203프레임에 64px 무박스 글자로 유지.
+- 구형 징역 1년 → 선고 벌금 400만 원: 원래 구형 발화 시작710프레임부터 끝799프레임까지 유지. Owner 가독성 지시로64px·두 줄·가로 중앙 조판.
+- 설명란에도 상세 안내를 유지하되 화면 고지를 대체하지 않음.
+
+검사:
+- AAC payload SHA256 및 PCM float32 48kHz stereo SHA256: 원본과 동일.
+- 오디오 1,252개 패킷의 payload hash·PTS·DTS·duration·size·side data: 동일.
+- 영상 800프레임의 PTS·duration: 동일.
+- render.json의 자막 문구·시작/종료·장면 cue·앵커: 동일. 일부 줄바꿈만 변경.
+- 실제 본문 자막 노출은 원본처럼 [61,755)에서 원래 구간과 교차함. 오프닝 0–60, 엔딩 755–799 UI 경계 유지.
+- 보기 329–662 / 정답 자막 668 / 선고 문서 첫 표시 676 / 구형 자막 710 / 엔딩 755 유지.
+- 원본의 669프레임 정답 헤더는 삭제. 선고·구형은 원래 자막·음성과 추가된 710프레임 비교 문구로 구분.
+- FightRig 파일, 인물 pose 계산, ArticulatedGuy props: 원본과 동일. 화면 크기·배치 변경, 텍스트 UI 제거/수정.
+- 양형 표찰을 없애고 한 구간씩 내레이션 자막으로 전달. 판사·저울의 동작 시계 유지.
+- 원본 소스와 comedy MP4 변경 파일: 0개. src 복사본에서 작업.
+- TypeScript 종료 코드 0. 전체 MP4 디코딩 오류 출력 없음.
+- 최종 MP4의 27개 1fps 시점과 64개 경계·접촉 프레임 시트 확인.
+
+DIAGNOSIS.md와 STYLE_VIDEO.md의 Owner correction을 읽고 적용함. 최신 Owner 자막 지시와 CEO Addendum 1의 필수 화면 고지를 함께 유지. 도현체와 원래 보기 노출 시간 유지.
+연속 청취는 별도 수행하지 않았으며 전체 오디오 payload·PCM·패킷 비교로 동일성을 확인.
+
+원본 MP4 SHA256: 5b6d2a9820610798adc8f361458336e47de95c972e0a2a17fbefc92a93948b01
+전체 산출물 SHA256 (workspace 상대 경로):
+f06246356a9d1656dffc639cea5093a0770d4f3a95b8fb04f94fe4c661cd1de5  upload/v52_q013_n16_unslop.mp4
+10c68f046ecd3318bd74b48f5b604d244a5edb335c3f48da5a22be45575f727c  upload/cover_v52_q013_n16_unslop.png
+64fe916390a43caec0e281c89f151631a9b8febc88e660355bfac20695d04893  episodes/review_full/unslop/q013/before_after_00_08s.png
+81e8c910083ce8837cf30f11c3e5ad0bb04ffff17a0c3de17a5b381521fe0bcc  episodes/review_full/unslop/q013/before_after_09_17s.png
+dc9c2cb436b6d56a69ef68723c0864adfe3453a5559d9f9a064b2514bb045871  episodes/review_full/unslop/q013/before_after_18_26s.png
+b0b504e2c62bbaeb30171bc1c0270890489c0c8995b51548af9c1b2b49ca81ce  episodes/review_full/unslop/q013/before_after_1fps.png
+e079d039f6365e59a19216a89ee3e4a9f33647298cc7d5c54dd8682140143a3b  episodes/review_full/unslop/q013/boundary_contact_sheet.png
+4264e89ce7c5bff5d6b9fd143d74ca17d8196463e3beb80df735f047b07b5deb  episodes/review_full/unslop/q013/ceo_addendum_1_360p.png
+f23796008bade1aa333b5f0917290de64f179c3cb777271d3b6283d43b49fc1f  episodes/review_full/unslop/q013/owner_correction_360p.png
+1e58874ed04ef230960158b746d23a22c7e78ba8742a5eb287bd0dbe55394453  episodes/review_full/unslop/q013/audio_identity.json
+1fcc8f10473c8cd732e81ba8a904aa730f11dc6a490a57a6dfe674d45f8d4cfa  episodes/review_full/unslop/q013/timing_preservation.json
+9735296d894fa4f8ed68776596c28a0dc84c4bdcfbfa3b5d35c77a575c671256  episodes/review_full/unslop/q013/audio_packets.json
+f1a6b15ccdcebf7bdbd101a29f1ba76f98f399e5925d53e1c9dc7782a3a937f5  episodes/review_full/unslop/q013/video_presentation_timestamps.json
+9d2d18dfac8adde4e17f179849a8f12cd52797c8af8da66b8e4e49c63cd66cb7  episodes/review_full/unslop/q013/ffprobe.json
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  episodes/review_full/unslop/q013/full_decode.log
+b0e440ce968496884f3b74efb930c91fe3bdf257effd4ba273c3c0178216cb72  episodes/review_full/unslop/q013/review_notes.json
+63040060fe89499e9c845efbfe5d5d6f35e28ece49e561df28cdb729d84c10ea  episodes/review_full/unslop/q013/required_on_screen_information.json
+33198f8801356ebeeb97321577427596c5da296b8d8569e1c3ea7fa58a0f6525  episodes/review_full/unslop/q013/subtitle_legibility.json
+22aad57163dcbb77065b77930923a174604ec059ec13873c0a174159dbaa0a5b  episodes/review_full/unslop/q013/subtitle_layout_observed.json
+f19731f170db09cd57acc4879998ca4fa57ac4e8c50bdbe962ef56ddd4021071  episodes/quiz/q013/unslop/description_note.txt
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  episodes/quiz/q013/unslop/typecheck.log
+bd08ef69ceb357382e684137d9df91755d14135c499e68f3f0b60826d296c056  episodes/quiz/q013/unslop/original_sha256.json
+2fa09bb5220cf14b63207173a1082b72cf9878d941116282b53988a61958f082  episodes/quiz/q013/unslop/src/render.json
+1272c1b9111d90386fc598d5a15fc16bb79a399d6ec278f048279ec796db0fe4  episodes/quiz/q013/unslop/src/captions.json
+1f8a53aa9885a71a1222d247a065104dda4d2914932d37b6a87c987952afb3d4  episodes/quiz/q013/unslop/src/Unslop.tsx
+0b355eb9b644a3fad428c3ebcde7fb856ba6da7c25d35120429f4f4e7bf466c7  episodes/quiz/q013/unslop/src/ComedyLogic.tsx
+6ec0a035797f24ae1a2b0128b627aa27ec4ff7ced8fb9e1fdc5a5daa10c1ac49  episodes/quiz/q013/unslop/src/FightScene.tsx
+22146596cdb1bb7f438c26274dba82ea8066c5235918f7f07fe53a2e2b83071e  episodes/quiz/q013/unslop/src/FightRig.tsx
+6fa56420a2d110a0d3c9c22ef73e1da958434696160229e36600e25f6fe88352  episodes/quiz/q013/unslop/src/render_unslop.cjs
+9173b2232a39ce145731463fc784304677934131738b7e41f1e25585212e4783  episodes/quiz/q013/unslop/src/assemble_final.py
+de0f90abb69c378a8624b7021a57463c39d685c9df0327c0ae96284f34d86348  episodes/quiz/q013/unslop/src/verify_unslop.py
+d2eacb371f3c46bb888fe2c07a585acd9d59dc86a33942da2bc36febd935202e  episodes/quiz/q013/unslop/src/entry.tsx
+e31acb93eb587c986eb591a60e881dbe2a3a96043f43622e2508ce89fc90c630  episodes/quiz/q013/unslop/src/package_delivery.py

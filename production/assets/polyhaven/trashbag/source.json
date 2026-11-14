@@ -1,0 +1,18 @@
+{
+ "id": "trashbag",
+ "name": "Trashbag",
+ "type": 2,
+ "authors": {
+  "Benny Weimer": "All"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/trashbag",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/trashbag/trashbag_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/trashbag/trashbag_diff_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/trashbag/trashbag_nor_gl_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/trashbag/trashbag_rough_2k.exr"
+ ]
+}

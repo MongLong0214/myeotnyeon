@@ -1,0 +1,31 @@
+{
+  "id": "w_LJ_GQObic",
+  "title": "907일 동안 경찰을 농락한 탈옥수 '신창원' 체포 작전",
+  "description": "무기수 신창원의 탈옥과 체포 과정에 대한 이야기입니다.\n시청해주셔서 감사합니다.\n-\n*이 영상은 AI를 사용하지 않고, 손수 제작했습니다.",
+  "upload_date": "20260826",
+  "timestamp": 1787738421,
+  "duration": 535,
+  "view_count": 1757515,
+  "like_count": 2625,
+  "comment_count": 664,
+  "chapters": null,
+  "channel": "엑스톨(Extol)",
+  "channel_id": "UCHRG_xhaJj-5TsYnAjhJXVQ",
+  "channel_follower_count": null,
+  "webpage_url": "https://www.youtube.com/watch?v=w_LJ_GQObic",
+  "categories": [
+    "People & Blogs"
+  ],
+  "tags": [
+    "신창원"
+  ],
+  "language": "ko",
+  "availability": "public",
+  "age_limit": 0,
+  "analysis_kind": "long",
+  "collected_local": "2026-10-30T09:08:24+0900",
+  "counts_method": "yt-dlp separate metadata extraction without write-comments; avoids capped extracted count",
+  "extractor_format_description": "401 - 3840x2160 (2160p)+251 - audio only (한국어 원본 (default), medium)",
+  "extracted_audio_language": "ko",
+  "format_note_caveat": "For two reused media copies, selected format in fresh metadata is not the copy format; source_media.json ffprobe is authoritative."
+}

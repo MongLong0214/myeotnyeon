@@ -1,0 +1,187 @@
+{
+ "id": "bc006",
+ "voice": "af_bella",
+ "speed": 1.32,
+ "a": "elephant",
+ "b": "rhino",
+ "winner": "a",
+ "bg": "savanna",
+ "title": [
+  "ELEPHANT",
+  "WHITE RHINO"
+ ],
+ "tag": [
+  "24,000 LB",
+  "6,000 LB"
+ ],
+ "gap": 0.03,
+ "caps": "words",
+ "keep": [
+  "elephant",
+  "white rhino"
+ ],
+ "stats": [
+  {
+   "label": "WEIGHT",
+   "a": {
+    "big": "24,000 LB",
+    "small": "RECORD INDIVIDUAL · ≈11,000 kg"
+   },
+   "b": {
+    "big": "6,000 LB",
+    "small": "HEAVIEST SPECIES · ≈2,700 kg"
+   },
+   "win": "a"
+  },
+  {
+   "label": "HEIGHT",
+   "a": {
+    "big": "13 FT",
+    "small": "RECORD SHOULDER HEIGHT · ≈4 m"
+   },
+   "b": {
+    "big": "6 FT",
+    "small": "UP TO · ≈1.8 m"
+   },
+   "win": "a"
+  },
+  {
+   "label": "LENGTH",
+   "b": {
+    "big": "13 FT",
+    "small": "UP TO · ≈4 m"
+   },
+   "win": "b"
+  }
+ ],
+ "verdict": {
+  "note": "HYPOTHETICAL · RECORD BULL",
+  "note2": "BASED ON WEIGHT ONLY",
+  "pop1": "HEAVIER RECORD: ELEPHANT",
+  "pop2": "BASED ON WEIGHT ONLY",
+  "head": "HYPOTHETICAL WINNER",
+  "name": "ELEPHANT"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "face",
+   "tts": "Elephant versus rhino!",
+   "shown": "Elephant vs rhino!",
+   "speed": 1.35
+  },
+  {
+   "id": "L02",
+   "mode": "stat",
+   "tts": "Record elephant: about twenty-four thousand pounds! Biggest rhino: six thousand!",
+   "shown": "Record elephant: about 24,000 pounds! Biggest rhino: 6,000!",
+   "k": 0,
+   "speed": 1.35
+  },
+  {
+   "id": "L03",
+   "mode": "stat",
+   "tts": "Thirteen feet tall versus up to six feet!",
+   "shown": "13 feet tall vs up to 6 feet!",
+   "k": 1,
+   "speed": 1.0
+  },
+  {
+   "id": "L04",
+   "mode": "stat",
+   "tts": "Rhino length: up to thirteen feet!",
+   "shown": "Rhino length: up to 13 feet!",
+   "k": 2,
+   "speed": 1.21
+  },
+  {
+   "id": "L05",
+   "mode": "prompt",
+   "tts": "Who wins? Take your pick!",
+   "shown": "Who wins? Take your pick!",
+   "speed": 1.16
+  },
+  {
+   "id": "L06",
+   "mode": "clash",
+   "tts": "The elephant charges!",
+   "shown": "The elephant charges!",
+   "shots": [
+    {
+     "s": "charge",
+     "who": "a"
+    }
+   ],
+   "hold": 0.0,
+   "speed": 1.28
+  },
+  {
+   "id": "L07",
+   "mode": "clash",
+   "tts": "The rhino lunges. Horn first!",
+   "shown": "The rhino lunges. Horn first!",
+   "shots": [
+    {
+     "s": "charge",
+     "who": "b"
+    },
+    {
+     "s": "strike",
+     "who": "b"
+    }
+   ],
+   "hold": 0.0
+  },
+  {
+   "id": "L08",
+   "mode": "clash",
+   "tts": "BAM! The elephant takes the hit!",
+   "shown": "BAM! The elephant takes the hit!",
+   "shots": [
+    {
+     "s": "impact",
+     "who": "a",
+     "tank": true
+    }
+   ],
+   "hold": 0.0,
+   "speed": 1.18
+  },
+  {
+   "id": "L09",
+   "mode": "clash",
+   "tts": "The rhino backs away!",
+   "shown": "The rhino backs away!",
+   "shots": [
+    {
+     "s": "retreat",
+     "who": "b"
+    }
+   ],
+   "hold": 0.12,
+   "speed": 1.12
+  },
+  {
+   "id": "L10",
+   "mode": "verdict",
+   "tts": "On these numbers, the elephant is heavier.",
+   "shown": "On these numbers, the elephant is heavier.",
+   "k": 0,
+   "speed": 1.28
+  },
+  {
+   "id": "L11",
+   "mode": "verdict",
+   "tts": "This matchup is hypothetical.",
+   "shown": "This matchup is hypothetical.",
+   "k": 1
+  },
+  {
+   "id": "L12",
+   "mode": "loop",
+   "tts": "Rematch? Round two!",
+   "shown": "Rematch? Round 2!"
+  }
+ ],
+ "source_spec": "episodes/specs/bc006.json"
+}

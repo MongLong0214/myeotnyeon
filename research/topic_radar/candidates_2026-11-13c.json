@@ -1,0 +1,72 @@
+[
+ {
+  "keyword": "층간소음 이웃 살해 양민준 징역 25년",
+  "trend_keyword": "양민준",
+  "case_id": "yang_minjun",
+  "trial_stage": "항소심 징역 25년 유지(상고)",
+  "verdict_date": "2026-10-24"
+ },
+ {
+  "keyword": "AI로 잔액 9억 위조해 판사 속인 20대 징역 7년",
+  "trend_keyword": "AI 위조 판사",
+  "case_id": "ai_forgery_judge",
+  "trial_stage": "1심 징역 7년(구형 초과)",
+  "verdict_date": "2026-11-12"
+ },
+ {
+  "keyword": "깡통주택 전세금 17억 갭투자자 징역 4년6월",
+  "trend_keyword": "깡통주택 전세사기",
+  "case_id": "gap_jeonse_17",
+  "trial_stage": "1심 징역 4년6월",
+  "verdict_date": "2026-11-13"
+ },
+ {
+  "keyword": "보이스피싱 피해금 상품권 세탁 30대 징역 2년",
+  "trend_keyword": "보이스피싱 상품권",
+  "case_id": "vp_giftcard",
+  "trial_stage": "1심 징역 2년",
+  "verdict_date": "2026-11-13"
+ },
+ {
+  "keyword": "KT 사옥 폭탄 허위 협박 10대 징역 1년",
+  "trend_keyword": "폭탄 협박",
+  "case_id": "bomb_threat_teen",
+  "trial_stage": "1심 징역 1년",
+  "verdict_date": "2026-11-11"
+ },
+ {
+  "keyword": "병실 70대 밀쳐 숨지게 한 30대 집행유예",
+  "trend_keyword": "병실 폭행",
+  "case_id": "hospital_push",
+  "trial_stage": "항소심 집행유예·보호관찰",
+  "verdict_date": "2026-11-10"
+ },
+ {
+  "keyword": "버스 10대 폭행 소방관 벌금형",
+  "trend_keyword": "소방관 폭행",
+  "case_id": "busan_firefighter",
+  "trial_stage": "1심 벌금 300만원",
+  "verdict_date": "2026-11-13"
+ },
+ {
+  "keyword": "반도체 기술 중국 유출 삼성 전 부장 징역 6년4개월 확정",
+  "trend_keyword": "반도체 유출",
+  "case_id": "samsung_leak2",
+  "trial_stage": "대법원 확정",
+  "verdict_date": "2026-11-12"
+ },
+ {
+  "keyword": "슈가 전동스쿠터 음주운전",
+  "trend_keyword": "슈가 음주",
+  "case_id": "suga_scooter",
+  "trial_stage": "약식명령 벌금 1500만원",
+  "verdict_date": "2024-09-30"
+ },
+ {
+  "keyword": "경남은행 3089억 횡령 징역 35년",
+  "trend_keyword": "경남은행 횡령",
+  "case_id": "gyeongnam_bank2",
+  "trial_stage": "대법원 확정",
+  "verdict_date": "2025-09-01"
+ }
+]

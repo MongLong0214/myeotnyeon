@@ -1,0 +1,309 @@
+{
+ "date": "2026-11-08",
+ "targets": {
+  "hook_question_end_max": 3.5,
+  "expectation_window": [
+   4.0,
+   5.0
+  ],
+  "twist_max": 6.5,
+  "subscribe_window": [
+   7.0,
+   8.0
+  ],
+  "subscribe_max_dur": 1.0,
+  "number_pops": [
+   5,
+   7
+  ],
+  "setting_mean_target": 1.5,
+  "setting_max": 4.5,
+  "setting_threshold": 1.2,
+  "first_word_max": 0.2,
+  "pause_min": 0.5,
+  "pause_max_count": 0,
+  "loop_diff_max": 25.0,
+  "title_len": [
+   20,
+   28
+  ]
+ },
+ "shorts": {
+  "q004_std": {
+   "video": "upload/pkg/q004_std/video_newhands.mp4",
+   "asr": "upload/pkg/q004_std/asr_master.json",
+   "setting": {
+    "mean_len": 3.71,
+    "max_len": 9.5,
+    "per_min": 16.2,
+    "changes": 6,
+    "ok": false
+   },
+   "first_word": {
+    "start_s": 0.0,
+    "asr_first_word_s": 0.0,
+    "ok": true
+   },
+   "pauses": {
+    "count": 0,
+    "ok": true
+   },
+   "loop": {
+    "last": 41.1,
+    "best_last_half_second": 40.8,
+    "ok": false
+   }
+  },
+  "q005_std": {
+   "video": "upload/pkg/q005_std/video_newhands.mp4",
+   "asr": "upload/pkg/q005_std/asr_master.json",
+   "setting": {
+    "mean_len": 3.71,
+    "max_len": 7.25,
+    "per_min": 16.2,
+    "changes": 6,
+    "ok": false
+   },
+   "first_word": {
+    "start_s": 0.0,
+    "asr_first_word_s": 0.0,
+    "ok": true
+   },
+   "pauses": {
+    "count": 0,
+    "ok": true
+   },
+   "loop": {
+    "last": 40.6,
+    "best_last_half_second": 40.3,
+    "ok": false
+   }
+  },
+  "q011_n99_v6": {
+   "video": "upload/pkg/q011_n99_v6/video.mp4",
+   "asr": "upload/pkg/q011_n99_v6/asr.json",
+   "setting": {
+    "mean_len": 13.88,
+    "max_len": 25.75,
+    "per_min": 4.3,
+    "changes": 2,
+    "ok": false
+   },
+   "first_word": {
+    "start_s": 0.0,
+    "asr_first_word_s": 0.0,
+    "ok": true
+   },
+   "pauses": {
+    "count": 0,
+    "ok": true
+   },
+   "loop": {
+    "last": 105.6,
+    "best_last_half_second": 105.6,
+    "ok": false
+   }
+  },
+  "q013_n16_v4": {
+   "video": "upload/pkg/q013_n16_v4/video.mp4",
+   "asr": "upload/pkg/q013_n16_v4/asr.json",
+   "setting": {
+    "mean_len": 8.92,
+    "max_len": 23.25,
+    "per_min": 6.7,
+    "changes": 3,
+    "ok": false
+   },
+   "first_word": {
+    "start_s": 0.0,
+    "asr_first_word_s": 0.0,
+    "ok": true
+   },
+   "pauses": {
+    "count": 0,
+    "ok": true
+   },
+   "loop": {
+    "last": 60.5,
+    "best_last_half_second": 60.4,
+    "ok": false
+   }
+  },
+  "q014_n15_v4": {
+   "video": "upload/pkg/q014_n15_v4/video.mp4",
+   "asr": "upload/pkg/q014_n15_v4/asr.json",
+   "setting": {
+    "mean_len": 10.33,
+    "max_len": 27.5,
+    "per_min": 5.8,
+    "changes": 3,
+    "ok": false
+   },
+   "first_word": {
+    "start_s": 0.0,
+    "asr_first_word_s": 0.0,
+    "ok": true
+   },
+   "pauses": {
+    "count": 0,
+    "ok": true
+   },
+   "loop": {
+    "last": 79.7,
+    "best_last_half_second": 79.6,
+    "ok": false
+   }
+  },
+  "q018_std": {
+   "video": "upload/pkg/q018_std/video_newhands.mp4",
+   "asr": "upload/pkg/q018_std/asr_master.json",
+   "setting": {
+    "mean_len": 3.88,
+    "max_len": 9.25,
+    "per_min": 15.5,
+    "changes": 6,
+    "ok": false
+   },
+   "first_word": {
+    "start_s": 0.0,
+    "asr_first_word_s": 0.0,
+    "ok": true
+   },
+   "pauses": {
+    "count": 0,
+    "ok": true
+   },
+   "loop": {
+    "last": 58.5,
+    "best_last_half_second": 58.4,
+    "ok": false
+   }
+  },
+  "q019_batch1107": {
+   "video": "upload/pkg/q019_batch1107/video.mp4",
+   "asr": "local whisper on video",
+   "setting": {
+    "mean_len": 3.57,
+    "max_len": 8.0,
+    "per_min": 16.8,
+    "changes": 7,
+    "ok": false
+   },
+   "first_word": {
+    "start_s": 0.0,
+    "asr_first_word_s": 0.0,
+    "ok": true
+   },
+   "pauses": {
+    "count": 0,
+    "ok": true
+   },
+   "loop": {
+    "last": 55.2,
+    "best_last_half_second": 54.8,
+    "ok": false
+   }
+  },
+  "q020_std": {
+   "video": "upload/pkg/q020_std/video.mp4",
+   "asr": "upload/pkg/q020_std/asr_master.json",
+   "setting": {
+    "mean_len": 6.25,
+    "max_len": 10.0,
+    "per_min": 9.6,
+    "changes": 4,
+    "ok": false
+   },
+   "first_word": {
+    "start_s": 0.0,
+    "asr_first_word_s": 0.0,
+    "ok": true
+   },
+   "pauses": {
+    "count": 0,
+    "ok": true
+   },
+   "loop": {
+    "last": 41.6,
+    "best_last_half_second": 41.6,
+    "ok": false
+   }
+  },
+  "q021_batch1107": {
+   "video": "upload/pkg/q021_batch1107/video.mp4",
+   "asr": "upload/pkg/q021_batch1107/asr_master.json",
+   "setting": {
+    "mean_len": 2.92,
+    "max_len": 9.0,
+    "per_min": 20.5,
+    "changes": 10,
+    "ok": false
+   },
+   "first_word": {
+    "start_s": 0.0,
+    "asr_first_word_s": 0.0,
+    "ok": true
+   },
+   "pauses": {
+    "count": 0,
+    "ok": true
+   },
+   "loop": {
+    "last": 40.5,
+    "best_last_half_second": 33.3,
+    "ok": false
+   }
+  },
+  "q022_std": {
+   "video": "upload/pkg/q022_std/video_newhands.mp4",
+   "asr": "upload/pkg/q022_std/asr_master.json",
+   "setting": {
+    "mean_len": 4.0,
+    "max_len": 11.5,
+    "per_min": 15.0,
+    "changes": 6,
+    "ok": false
+   },
+   "first_word": {
+    "start_s": 0.0,
+    "asr_first_word_s": 0.0,
+    "ok": true
+   },
+   "pauses": {
+    "count": 0,
+    "ok": true
+   },
+   "loop": {
+    "last": 50.9,
+    "best_last_half_second": 49.9,
+    "ok": false
+   }
+  },
+  "q023_batch1107": {
+   "video": "upload/pkg/q023_batch1107/video.mp4",
+   "asr": "local whisper on video",
+   "setting": {
+    "mean_len": 4.0,
+    "max_len": 9.0,
+    "per_min": 15.0,
+    "changes": 7,
+    "ok": false
+   },
+   "first_word": {
+    "start_s": 0.0,
+    "asr_first_word_s": 0.0,
+    "ok": true
+   },
+   "pauses": {
+    "count": 1,
+    "ok": false
+   },
+   "loop": {
+    "last": 49.0,
+    "best_last_half_second": 47.5,
+    "ok": false
+   }
+  }
+ },
+ "note": "first_word = audio onset; Whisper stamped 0.0 on every Short. Videos: video_newhands.mp4 where present (uploaded cut)."
+}

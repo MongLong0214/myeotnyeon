@@ -1,0 +1,7 @@
+최신 요청: q013 v3 표준 3편 렌더 완료. CTO 미승인, 번호·업로드 없음.
+q020 | /Users/isaac/projects/verdict-kr/work/upload/pkg/q020_std/READY.txt
+q018 | /Users/isaac/projects/verdict-kr/work/upload/pkg/q018_std/READY.txt
+q022 | /Users/isaac/projects/verdict-kr/work/upload/pkg/q022_std/READY.txt
+FIRST_READY | /Users/isaac/projects/verdict-kr/work/episodes/quiz/batch_1107/FIRST_READY.txt
+
+이전 6편 작업은 *_batch1107/에 보존. q019·q021·q023은 새 표준 렌더 범위에 포함하지 않음.

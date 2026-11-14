@@ -1,0 +1,10 @@
+「何年出る 判決クイズ」(JA) · 反田恭平 首都高144キロ · B3 + look v2 · maker self-check, NOT uploaded
+Content: public figure — he is never drawn (no face caricature): frame 0 = speedometer pinned at 144 km/h over a night expressway with a dark car; the rest is cards, judge and calendar. Court-confirmed facts only.
+Twist 5.9 s 「でも、裁判所は退けました。」(弁護側の罰金刑の主張). Choices 罰金刑 / 拘禁刑3か月・猶予2年 / 拘禁刑3か月の実刑; answer B; twist 2: タクシー会社と契約し自分で運転しない対策が量刑で考慮.
+Legal wording: 東京地裁 2026-10-29, 拘禁刑3月・執行猶予2年 (求刑 拘禁刑3月), offense 2025-12-20. 控訴 not reported — not mentioned.
+Pops: 144 − 60 = 84キロ, 2021年 2位, 猶予2年 = 730日.
+Sources: 朝日, 東京新聞(共同), 日経 all 200.
+Known weaknesses: no character acting in this episode (cards + judge carry it); voice not judged by ear.
+Voice: VOICEVOX 冥鳴ひまり (style 14), credit in description. Lines reworded for whisper: 84キロ超過 (was オーバー), ショパンコンクールで2位のピアニストです.
+Revised per coordinator review: opinion beat (L13) now a clean close-up of a generic character, no calendar underneath; 6–15 s now mixes acting: defense lawyer (generic) shrugging on 「海外活動に支障」, speedometer, and a pianist seen only as a back-view silhouette at a grand piano (no face, no likeness). Meta time corrected to 午後8時55分ごろ (日経/共同 「判決によると」).
+Finality: no 控訴 reported; deadline 11-12 passed; 確定 not reported — video and meta make no finality claim.

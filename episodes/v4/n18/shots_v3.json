@@ -1,0 +1,7135 @@
+{
+  "version": "N18 v3 full",
+  "fps": 30,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "duration_frames": 13663,
+  "duration_s": 455.43333333333334,
+  "credits_start_s": 447.43333333333334,
+  "narration": [
+    {
+      "id": "N001",
+      "text": "보급품도 다 받지 못한 훈련병들에게 군장의 빈 곳을 책으로 채우게 했습니다.",
+      "tts_text": "보급품도 다 받지 못한 훈련병들에게 군장의 빈 곳을 책으로 채우게 했습니다.",
+      "syllables": 31,
+      "fact_ids": [
+        "F06"
+      ],
+      "publishers": {
+        "F06": [
+          "A13 연합뉴스",
+          "A14 YTN"
+        ]
+      },
+      "source_context": "경찰 수사결과",
+      "start_frame": 3,
+      "end_voice_frame": 136,
+      "end_frame": 138,
+      "start_s": 0.1,
+      "voice_end_s": 4.533333333333333,
+      "end_s": 4.6,
+      "voice_duration_s": 4.433333333333334,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M0",
+      "tempo": 1.1140930451127817,
+      "native_duration_s": 4.939145833333333,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S001"
+      ]
+    },
+    {
+      "id": "N002",
+      "text": "완전군장을 멘 채 훈련을 받던 한 훈련병은 의식을 잃고 이틀 뒤 숨졌습니다.",
+      "tts_text": "완전군장을 멘 채 훈련을 받던 한 훈련병은 의식을 잃고 이틀 뒤 숨졌습니다.",
+      "syllables": 30,
+      "fact_ids": [
+        "E03",
+        "E05"
+      ],
+      "publishers": {
+        "E03": [
+          "S09 뉴스1",
+          "S11 경향신문"
+        ],
+        "E05": [
+          "S05 KBS",
+          "S13 뉴스핌"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 138,
+      "end_voice_frame": 267,
+      "end_frame": 269,
+      "start_s": 4.6,
+      "voice_end_s": 8.9,
+      "end_s": 8.966666666666667,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M0",
+      "tempo": 1.1915213178294575,
+      "native_duration_s": 5.123541666666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S002"
+      ]
+    },
+    {
+      "id": "N003",
+      "text": "군장을 책으로 채운 이 훈련에 법원은 어떤 이유로 얼마의 형을 내렸습니까?",
+      "tts_text": "군장을 책으로 채운 이 훈련에 법원은 어떤 이유로 얼마의 형을 내렸습니까?",
+      "syllables": 30,
+      "fact_ids": [
+        "J06",
+        "J04"
+      ],
+      "publishers": {
+        "J06": [
+          "S12 YTN",
+          "S09 뉴스1"
+        ],
+        "J04": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 269,
+      "end_voice_frame": 398,
+      "end_frame": 400,
+      "start_s": 8.966666666666667,
+      "voice_end_s": 13.266666666666667,
+      "end_s": 13.333333333333334,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M0",
+      "tempo": 1.0735029069767443,
+      "native_duration_s": 4.6160625,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S003"
+      ]
+    },
+    {
+      "id": "N004",
+      "text": "이천이십사년 오월 이십삼일 인제의 신병교육대에서 벌어진 일이죠.",
+      "tts_text": "이천이십사년 오월 이십삼일 인제의 신병교육대에서 벌어진 일이죠.",
+      "syllables": 28,
+      "fact_ids": [
+        "E01"
+      ],
+      "publishers": {
+        "E01": [
+          "S01 문화일보",
+          "S03 한겨레"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 400,
+      "end_voice_frame": 520,
+      "end_frame": 522,
+      "start_s": 13.333333333333334,
+      "voice_end_s": 17.333333333333332,
+      "end_s": 17.4,
+      "voice_duration_s": 4.0,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.0474739583333332,
+      "native_duration_s": 4.189895833333333,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S004",
+        "S005"
+      ]
+    },
+    {
+      "id": "N005",
+      "text": "시작은 전날 취침점호 뒤 훈련병들이 떠들었다는 이유로 적발된 일이었습니다.",
+      "tts_text": "시작은 전날 취침점호 뒤 훈련병들이 떠들었다는 이유로 적발된 일이었습니다.",
+      "syllables": 32,
+      "fact_ids": [
+        "F02"
+      ],
+      "publishers": {
+        "F02": [
+          "A13 연합뉴스",
+          "A15 경향신문"
+        ]
+      },
+      "source_context": "경찰 수사결과",
+      "start_frame": 522,
+      "end_voice_frame": 660,
+      "end_frame": 662,
+      "start_s": 17.4,
+      "voice_end_s": 22.0,
+      "end_s": 22.066666666666666,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.05825634057971,
+      "native_duration_s": 4.867979166666666,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S005",
+        "S006"
+      ]
+    },
+    {
+      "id": "N006",
+      "text": "부중대장은 다음 날 오전 중대장에게 구두로 보고하고 훈련 승인을 받았습니다.",
+      "tts_text": "부중대장은 다음 날 오전 중대장에게 구두로 보고하고 훈련 승인을 받았습니다.",
+      "syllables": 32,
+      "fact_ids": [
+        "F03"
+      ],
+      "publishers": {
+        "F03": [
+          "A13 연합뉴스",
+          "A16 뉴스핌"
+        ]
+      },
+      "source_context": "경찰 수사결과",
+      "start_frame": 662,
+      "end_voice_frame": 800,
+      "end_frame": 802,
+      "start_s": 22.066666666666666,
+      "voice_end_s": 26.666666666666668,
+      "end_s": 26.733333333333334,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.0782608695652174,
+      "native_duration_s": 4.96,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S006",
+        "S007"
+      ]
+    },
+    {
+      "id": "N007",
+      "text": "그런데 대상자에게 확인서를 받고 소명할 기회를 주는 절차부터 빠졌어요.",
+      "tts_text": "그런데 대상자에게 확인서를 받고 소명할 기회를 주는 절차부터 빠졌어요.",
+      "syllables": 30,
+      "fact_ids": [
+        "F04"
+      ],
+      "publishers": {
+        "F04": [
+          "A13 연합뉴스",
+          "A14 YTN"
+        ]
+      },
+      "source_context": "경찰 수사결과",
+      "start_frame": 802,
+      "end_voice_frame": 931,
+      "end_frame": 933,
+      "start_s": 26.733333333333334,
+      "voice_end_s": 31.033333333333335,
+      "end_s": 31.1,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 0.9893701550387598,
+      "native_duration_s": 4.254291666666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S007",
+        "S008",
+        "S009"
+      ]
+    },
+    {
+      "id": "N008",
+      "text": "훈련병들의 신체 상태와 훈련장 온도지수도 제대로 확인하지 않았습니다.",
+      "tts_text": "훈련병들의 신체 상태와 훈련장 온도지수도 제대로 확인하지 않았습니다.",
+      "syllables": 30,
+      "fact_ids": [
+        "F05"
+      ],
+      "publishers": {
+        "F05": [
+          "A13 연합뉴스",
+          "A16 뉴스핌"
+        ]
+      },
+      "source_context": "경찰 수사결과",
+      "start_frame": 933,
+      "end_voice_frame": 1062,
+      "end_frame": 1064,
+      "start_s": 31.1,
+      "voice_end_s": 35.4,
+      "end_s": 35.46666666666667,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.0550823643410854,
+      "native_duration_s": 4.536854166666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S009",
+        "S010"
+      ]
+    },
+    {
+      "id": "N009",
+      "text": "군기훈련 대상은 여섯 명이었고 보급품의 빈자리를 메운 것은 책이었습니다.",
+      "tts_text": "군기훈련 대상은 여섯 명이었고 보급품의 빈자리를 메운 것은 책이었습니다.",
+      "syllables": 31,
+      "fact_ids": [
+        "E02",
+        "F06"
+      ],
+      "publishers": {
+        "E02": [
+          "S01 문화일보",
+          "S03 한겨레"
+        ],
+        "F06": [
+          "A13 연합뉴스",
+          "A14 YTN"
+        ]
+      },
+      "source_context": "경찰 수사결과",
+      "start_frame": 1064,
+      "end_voice_frame": 1197,
+      "end_frame": 1199,
+      "start_s": 35.46666666666667,
+      "voice_end_s": 39.9,
+      "end_s": 39.96666666666667,
+      "voice_duration_s": 4.433333333333334,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.0018796992481203,
+      "native_duration_s": 4.441666666666666,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S010",
+        "S011"
+      ]
+    },
+    {
+      "id": "N010",
+      "text": "여섯 훈련병은 완전군장 상태로 총기를 휴대한 채 연병장 두 바퀴를 걸었다.",
+      "tts_text": "여섯 훈련병은 완전군장 상태로 총기를 휴대한 채 연병장 두 바퀴를 걸었다.",
+      "syllables": 30,
+      "fact_ids": [
+        "F08"
+      ],
+      "publishers": {
+        "F08": [
+          "A13 연합뉴스",
+          "A15 경향신문"
+        ]
+      },
+      "source_context": "경찰 수사결과",
+      "start_frame": 1199,
+      "end_voice_frame": 1328,
+      "end_frame": 1330,
+      "start_s": 39.96666666666667,
+      "voice_end_s": 44.266666666666666,
+      "end_s": 44.333333333333336,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.1466279069767442,
+      "native_duration_s": 4.9305,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S011",
+        "S012",
+        "S013"
+      ]
+    },
+    {
+      "id": "N011",
+      "text": "뒤이어 중대장은 완전군장을 한 상태에서 선착순 한 바퀴를 지시했습니다.",
+      "tts_text": "뒤이어 중대장은 완전군장을 한 상태에서 선착순 한 바퀴를 지시했습니다.",
+      "syllables": 30,
+      "fact_ids": [
+        "F09"
+      ],
+      "publishers": {
+        "F09": [
+          "A13 연합뉴스",
+          "A14 YTN"
+        ]
+      },
+      "source_context": "경찰 수사결과",
+      "start_frame": 1330,
+      "end_voice_frame": 1459,
+      "end_frame": 1461,
+      "start_s": 44.333333333333336,
+      "voice_end_s": 48.63333333333333,
+      "end_s": 48.7,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.079171511627907,
+      "native_duration_s": 4.6404375,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S013",
+        "S014"
+      ]
+    },
+    {
+      "id": "N012",
+      "text": "팔굽혀펴기에 이어 뜀걸음 세 바퀴가 더해졌고 훈련은 계속 이어졌습니다.",
+      "tts_text": "팔 굽혀 펴기에 이어 뜀 걸음 세 바퀴가 더해졌고 훈련은 계속 이어졌습니다.",
+      "syllables": 30,
+      "fact_ids": [
+        "F09"
+      ],
+      "publishers": {
+        "F09": [
+          "A13 연합뉴스",
+          "A14 YTN"
+        ]
+      },
+      "source_context": "경찰 수사결과",
+      "start_frame": 1461,
+      "end_voice_frame": 1590,
+      "end_frame": 1592,
+      "start_s": 48.7,
+      "voice_end_s": 53.0,
+      "end_s": 53.06666666666667,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.1030668604651164,
+      "native_duration_s": 4.7431875,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S014",
+        "S015"
+      ]
+    },
+    {
+      "id": "N013",
+      "text": "수사에서 특정한 훈련 시작 시각은 그날 오후 네 시 이십육 분쯤이었죠.",
+      "tts_text": "수사에서 특정한 훈련 시작 시각은 그날 오후 네 시 이십육 분쯤이었죠.",
+      "syllables": 28,
+      "fact_ids": [
+        "F10"
+      ],
+      "publishers": {
+        "F10": [
+          "A13 연합뉴스",
+          "A15 경향신문"
+        ]
+      },
+      "source_context": "경찰 수사결과",
+      "start_frame": 1592,
+      "end_voice_frame": 1712,
+      "end_frame": 1714,
+      "start_s": 53.06666666666667,
+      "voice_end_s": 57.06666666666667,
+      "end_s": 57.13333333333333,
+      "voice_duration_s": 4.0,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.0845104166666666,
+      "native_duration_s": 4.338041666666666,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S015"
+      ]
+    },
+    {
+      "id": "N014",
+      "text": "한 훈련병이 의식을 잃은 시각은 다섯 시 십일 분쯤으로 약 사십오 분 뒤였습니다.",
+      "tts_text": "한 훈련병이 의식을 잃은 시각은 다섯 시 십일 분쯤으로 약 사십오 분 뒤였습니다.",
+      "syllables": 32,
+      "fact_ids": [
+        "F11",
+        "F12"
+      ],
+      "publishers": {
+        "F11": [
+          "A15 경향신문",
+          "A16 뉴스핌"
+        ],
+        "F12": [
+          "A14 YTN",
+          "A15 경향신문"
+        ]
+      },
+      "source_context": "경찰 수사결과",
+      "start_frame": 1714,
+      "end_voice_frame": 1852,
+      "end_frame": 1854,
+      "start_s": 57.13333333333333,
+      "voice_end_s": 61.733333333333334,
+      "end_s": 61.8,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.1033333333333333,
+      "native_duration_s": 5.075333333333333,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S015",
+        "S017"
+      ]
+    },
+    {
+      "id": "N015",
+      "text": "경찰은 간부들이 위급 상황을 제대로 인지하지 못해 응급처치도 지체했다고 봤습니다.",
+      "tts_text": "경찰은 간부들이 위급 상황을 제대로 인지하지 못해 응급처치도 지체했다고 봤습니다.",
+      "syllables": 35,
+      "fact_ids": [
+        "F13"
+      ],
+      "publishers": {
+        "F13": [
+          "A15 경향신문",
+          "A13 연합뉴스"
+        ]
+      },
+      "source_context": "경찰 수사결과",
+      "start_frame": 1854,
+      "end_voice_frame": 2004,
+      "end_frame": 2006,
+      "start_s": 61.8,
+      "voice_end_s": 66.8,
+      "end_s": 66.86666666666666,
+      "voice_duration_s": 5.0,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.0019333333333333,
+      "native_duration_s": 5.009666666666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S017",
+        "S018",
+        "S019"
+      ]
+    },
+    {
+      "id": "N016",
+      "text": "검찰은 단순 과실로 보지 않고 학대치사죄를 적용해 두 지휘관을 재판에 넘겼어요.",
+      "tts_text": "검찰은 단순 과실로 보지 않고 학대치사죄를 적용해 두 지휘관을 재판에 넘겼어요.",
+      "syllables": 33,
+      "fact_ids": [
+        "C10",
+        "C01",
+        "D01"
+      ],
+      "publishers": {
+        "C10": [
+          "S04 뉴시스",
+          "S11 경향신문",
+          "S12 YTN"
+        ],
+        "C01": [
+          "S06 YTN",
+          "S08 뉴시스"
+        ],
+        "D01": [
+          "S06 YTN",
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 2006,
+      "end_voice_frame": 2148,
+      "end_frame": 2150,
+      "start_s": 66.86666666666666,
+      "voice_end_s": 71.6,
+      "end_s": 71.66666666666667,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.0949339788732395,
+      "native_duration_s": 5.1826875,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S019",
+        "S020"
+      ]
+    },
+    {
+      "id": "N017",
+      "text": "일심의 첫 답은 유죄였고 군기훈련과 사망 사이의 인과관계를 인정했습니다.",
+      "tts_text": "일심의 첫 답은 유죄였고 군기훈련과 사망 사이의 인과관계를 인정했습니다.",
+      "syllables": 31,
+      "fact_ids": [
+        "C06",
+        "D05",
+        "J06"
+      ],
+      "publishers": {
+        "C06": [
+          "S08 뉴시스",
+          "S09 뉴스1",
+          "S12 YTN"
+        ],
+        "D05": [
+          "S08 뉴시스",
+          "S09 뉴스1",
+          "S12 YTN"
+        ],
+        "J06": [
+          "S12 YTN",
+          "S09 뉴스1"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 2150,
+      "end_voice_frame": 2283,
+      "end_frame": 2285,
+      "start_s": 71.66666666666667,
+      "voice_end_s": 76.1,
+      "end_s": 76.16666666666667,
+      "voice_duration_s": 4.433333333333334,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.0836184210526314,
+      "native_duration_s": 4.8040416666666665,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S020",
+        "S021"
+      ]
+    },
+    {
+      "id": "N018",
+      "text": "중대장과 부중대장 모두 학대치사와 직권남용 가혹행위를 유죄로 판단했습니다.",
+      "tts_text": "중대장과 부중대장 모두 학대치사와 직권남용 가혹행위를 유죄로 판단했습니다.",
+      "syllables": 33,
+      "fact_ids": [
+        "C06",
+        "D05"
+      ],
+      "publishers": {
+        "C06": [
+          "S08 뉴시스",
+          "S09 뉴스1",
+          "S12 YTN"
+        ],
+        "D05": [
+          "S08 뉴시스",
+          "S09 뉴스1",
+          "S12 YTN"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 2285,
+      "end_voice_frame": 2427,
+      "end_frame": 2429,
+      "start_s": 76.16666666666667,
+      "voice_end_s": 80.9,
+      "end_s": 80.96666666666667,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.0844674295774648,
+      "native_duration_s": 5.133145833333334,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S022",
+        "S023"
+      ]
+    },
+    {
+      "id": "N019",
+      "text": "중대장 측은 잘못된 행동을 인정하면서도 학대치사 혐의는 끝까지 부인했죠.",
+      "tts_text": "중대장 측은 잘못된 행동을 인정하면서도 학대치사 혐의는 끝까지 부인했죠.",
+      "syllables": 31,
+      "fact_ids": [
+        "C04"
+      ],
+      "publishers": {
+        "C04": [
+          "S06 YTN",
+          "S07 뉴시스"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 2429,
+      "end_voice_frame": 2562,
+      "end_frame": 2564,
+      "start_s": 80.96666666666667,
+      "voice_end_s": 85.4,
+      "end_s": 85.46666666666667,
+      "voice_duration_s": 4.433333333333334,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.0680122180451128,
+      "native_duration_s": 4.734854166666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S023",
+        "S024"
+      ]
+    },
+    {
+      "id": "N020",
+      "text": "잘못을 인정한 범위와 법원이 유죄로 본 범위가 서로 달랐던 것입니다.",
+      "tts_text": "잘못을 인정한 범위와 법원이 유죄로 본 범위가 서로 달랐던 것입니다.",
+      "syllables": 28,
+      "fact_ids": [
+        "C04",
+        "C06"
+      ],
+      "publishers": {
+        "C04": [
+          "S06 YTN",
+          "S07 뉴시스"
+        ],
+        "C06": [
+          "S08 뉴시스",
+          "S09 뉴스1",
+          "S12 YTN"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 2564,
+      "end_voice_frame": 2684,
+      "end_frame": 2686,
+      "start_s": 85.46666666666667,
+      "voice_end_s": 89.46666666666667,
+      "end_s": 89.53333333333333,
+      "voice_duration_s": 4.0,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.1507135416666667,
+      "native_duration_s": 4.602854166666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S024",
+        "S025"
+      ]
+    },
+    {
+      "id": "N021",
+      "text": "검찰은 훈련 방식과 진행 경과에 피해자의 신체조건까지 종합해 학대로 봤습니다.",
+      "tts_text": "검찰은 훈련 방식과 진행 경과에 피해자의 신체조건까지 종합해 학대로 봤습니다.",
+      "syllables": 33,
+      "fact_ids": [
+        "E06"
+      ],
+      "publishers": {
+        "E06": [
+          "S06 YTN",
+          "S09 뉴스1"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 2686,
+      "end_voice_frame": 2828,
+      "end_frame": 2830,
+      "start_s": 89.53333333333333,
+      "voice_end_s": 94.26666666666667,
+      "end_s": 94.33333333333333,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.1195290492957748,
+      "native_duration_s": 5.299104166666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S025",
+        "S026"
+      ]
+    },
+    {
+      "id": "N022",
+      "text": "재판부도 신체조건에 맞지 않는 군기훈련이었다는 점에서 죄책을 무겁게 봤다.",
+      "tts_text": "재판부도 신체조건에 맞지 않는 군기훈련이었다는 점에서 죄책을 무겁게 봤다.",
+      "syllables": 32,
+      "fact_ids": [
+        "J03"
+      ],
+      "publishers": {
+        "J03": [
+          "S08 뉴시스",
+          "S09 뉴스1",
+          "S11 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 2830,
+      "end_voice_frame": 2968,
+      "end_frame": 2970,
+      "start_s": 94.33333333333333,
+      "voice_end_s": 98.93333333333334,
+      "end_s": 99.0,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.048491847826087,
+      "native_duration_s": 4.8230625,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S026",
+        "S027"
+      ]
+    },
+    {
+      "id": "N023",
+      "text": "그런데 학대치사를 인정한 같은 판결에 교육 목적을 참작했다는 이유가 등장합니다.",
+      "tts_text": "그런데 학대치사를 인정한 같은 판결에 교육 목적을 참작했다는 이유가 등장합니다.",
+      "syllables": 34,
+      "fact_ids": [
+        "J04",
+        "C06"
+      ],
+      "publishers": {
+        "J04": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ],
+        "C06": [
+          "S08 뉴시스",
+          "S09 뉴스1",
+          "S12 YTN"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 2970,
+      "end_voice_frame": 3116,
+      "end_frame": 3118,
+      "start_s": 99.0,
+      "voice_end_s": 103.86666666666666,
+      "end_s": 103.93333333333334,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.0511686643835618,
+      "native_duration_s": 5.1156875,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S027",
+        "S028"
+      ]
+    },
+    {
+      "id": "N024",
+      "text": "그 이유를 보기 전 책으로 채운 군장 뒤에 남겨진 기록부터 살펴봅니다.",
+      "tts_text": "그 이유를 보기 전 책으로 채운 군장 뒤에 남겨진 기록부터 살펴봅니다.",
+      "syllables": 28,
+      "fact_ids": [
+        "J04"
+      ],
+      "publishers": {
+        "J04": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 3118,
+      "end_voice_frame": 3238,
+      "end_frame": 3240,
+      "start_s": 103.93333333333334,
+      "voice_end_s": 107.93333333333334,
+      "end_s": 108.0,
+      "voice_duration_s": 4.0,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M1",
+      "tempo": 1.0779270833333334,
+      "native_duration_s": 4.311708333333334,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S028",
+        "S029"
+      ]
+    },
+    {
+      "id": "N025",
+      "text": "어머니의 공개편지에는 입영 날 먼 길을 돌아갈 부모를 걱정한 아들이 남아 있죠.",
+      "tts_text": "어머니의 공개편지에는 입영 날 먼 길을 돌아갈 부모를 걱정한 아들이 남아 있죠.",
+      "syllables": 32,
+      "fact_ids": [
+        "F25"
+      ],
+      "publishers": {
+        "F25": [
+          "A05 매일경제",
+          "A06 이데일리"
+        ]
+      },
+      "source_context": "어머니 공개편지",
+      "start_frame": 3246,
+      "end_voice_frame": 3384,
+      "end_frame": 3386,
+      "start_s": 108.2,
+      "voice_end_s": 112.8,
+      "end_s": 112.86666666666666,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.1010960144927537,
+      "native_duration_s": 5.065041666666667,
+      "pause_before_s": 0.2,
+      "shot_ids": [
+        "S030",
+        "S031"
+      ]
+    },
+    {
+      "id": "N026",
+      "text": "차로 여섯 시간에서 일곱 시간을 갈 부모의 손을 잡고 등을 다독였다는 기억입니다.",
+      "tts_text": "차로 여섯 시간에서 일곱 시간을 갈 부모의 손을 잡고 등을 다독였다는 기억입니다.",
+      "syllables": 33,
+      "fact_ids": [
+        "F25"
+      ],
+      "publishers": {
+        "F25": [
+          "A05 매일경제",
+          "A06 이데일리"
+        ]
+      },
+      "source_context": "어머니 공개편지",
+      "start_frame": 3386,
+      "end_voice_frame": 3528,
+      "end_frame": 3530,
+      "start_s": 112.86666666666666,
+      "voice_end_s": 117.6,
+      "end_s": 117.66666666666667,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.0786839788732394,
+      "native_duration_s": 5.105770833333334,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S031",
+        "S032"
+      ]
+    },
+    {
+      "id": "N027",
+      "text": "어머니는 아들이 신병으로 아홉 날을 지내며 옆 전우와 친해졌다고 편지에 썼습니다.",
+      "tts_text": "어머니는 아들이 신병으로 아홉 날을 지내며 옆 전우와 친해졌다고 편지에 썼습니다.",
+      "syllables": 34,
+      "fact_ids": [
+        "F01"
+      ],
+      "publishers": {
+        "F01": [
+          "A05 매일경제",
+          "A06 이데일리"
+        ]
+      },
+      "source_context": "어머니 공개편지",
+      "start_frame": 3530,
+      "end_voice_frame": 3676,
+      "end_frame": 3678,
+      "start_s": 117.66666666666667,
+      "voice_end_s": 122.53333333333333,
+      "end_s": 122.6,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.1178895547945207,
+      "native_duration_s": 5.4403958333333335,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S032",
+        "S033"
+      ]
+    },
+    {
+      "id": "N028",
+      "text": "그 편지에는 아들이 쓰러졌다는 첫 전화를 받은 시각도 분 단위로 남았어요.",
+      "tts_text": "그 편지에는 아들이 쓰러졌다는 첫 전화를 받은 시각도 분 단위로 남았어요.",
+      "syllables": 30,
+      "fact_ids": [
+        "F23"
+      ],
+      "publishers": {
+        "F23": [
+          "A05 매일경제",
+          "A06 이데일리"
+        ]
+      },
+      "source_context": "어머니 공개편지",
+      "start_frame": 3678,
+      "end_voice_frame": 3807,
+      "end_frame": 3809,
+      "start_s": 122.6,
+      "voice_end_s": 126.9,
+      "end_s": 126.96666666666667,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.0429651162790698,
+      "native_duration_s": 4.48475,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S033",
+        "S034"
+      ]
+    },
+    {
+      "id": "N029",
+      "text": "오월 이십삼일 오후 다섯 시 오십사 분이 어머니가 적은 첫 전화 시각입니다.",
+      "tts_text": "오월 이십삼일 오후 다섯 시 오십사 분이 어머니가 적은 첫 전화 시각입니다.",
+      "syllables": 30,
+      "fact_ids": [
+        "F23"
+      ],
+      "publishers": {
+        "F23": [
+          "A05 매일경제",
+          "A06 이데일리"
+        ]
+      },
+      "source_context": "어머니 공개편지",
+      "start_frame": 3809,
+      "end_voice_frame": 3938,
+      "end_frame": 3940,
+      "start_s": 126.96666666666667,
+      "voice_end_s": 131.26666666666668,
+      "end_s": 131.33333333333334,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.0820106589147287,
+      "native_duration_s": 4.652645833333334,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S034",
+        "S035"
+      ]
+    },
+    {
+      "id": "N030",
+      "text": "속초의료원에서 상급병원에 도착하기까지는 약 세 시간이 걸렸습니다.",
+      "tts_text": "속초의료원에서 상급병원에 도착하기까지는 약 세 시간이 걸렸습니다.",
+      "syllables": 29,
+      "fact_ids": [
+        "F19"
+      ],
+      "publishers": {
+        "F19": [
+          "A23 연합뉴스",
+          "A24 채널A"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 3940,
+      "end_voice_frame": 4065,
+      "end_frame": 4067,
+      "start_s": 131.33333333333334,
+      "voice_end_s": 135.5,
+      "end_s": 135.56666666666666,
+      "voice_duration_s": 4.166666666666667,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.022595,
+      "native_duration_s": 4.2608125,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S036"
+      ]
+    },
+    {
+      "id": "N031",
+      "text": "훈련병이 강릉아산병원에 도착한 시각은 같은 날 밤 아홉 시 사십 분쯤이었다.",
+      "tts_text": "훈련병이 강릉아산병원에 도착한 시각은 같은 날 밤 아홉 시 사십 분쯤이었다.",
+      "syllables": 31,
+      "fact_ids": [
+        "F18"
+      ],
+      "publishers": {
+        "F18": [
+          "A22 중앙일보",
+          "A23 연합뉴스"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 4067,
+      "end_voice_frame": 4200,
+      "end_frame": 4202,
+      "start_s": 135.56666666666666,
+      "voice_end_s": 140.0,
+      "end_s": 140.06666666666666,
+      "voice_duration_s": 4.433333333333334,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.1275422932330827,
+      "native_duration_s": 4.998770833333333,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S037",
+        "S038"
+      ]
+    },
+    {
+      "id": "N032",
+      "text": "약 세 시간은 두 병원 사이의 전체 경과로 차를 타고 간 시간만을 뜻하지 않습니다.",
+      "tts_text": "약 세 시간은 두 병원 사이의 전체 경과로 차를 타고 간 시간만을 뜻하지 않습니다.",
+      "syllables": 32,
+      "fact_ids": [
+        "F19"
+      ],
+      "publishers": {
+        "F19": [
+          "A23 연합뉴스",
+          "A24 채널A"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 4202,
+      "end_voice_frame": 4340,
+      "end_frame": 4342,
+      "start_s": 140.06666666666666,
+      "voice_end_s": 144.66666666666666,
+      "end_s": 144.73333333333332,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.1242436594202898,
+      "native_duration_s": 5.171520833333333,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S038",
+        "S039"
+      ]
+    },
+    {
+      "id": "N033",
+      "text": "훈련병은 이틀 후 숨졌고 동기들의 수료식장에는 명예수료증이 놓였습니다.",
+      "tts_text": "훈련병은 이틀 후 숨졌고 동기들의 수료식장에는 명예수료증이 놓였습니다.",
+      "syllables": 31,
+      "fact_ids": [
+        "E05",
+        "F30"
+      ],
+      "publishers": {
+        "E05": [
+          "S05 KBS",
+          "S13 뉴스핌"
+        ],
+        "F30": [
+          "A21 연합뉴스",
+          "A26 YTN"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 4342,
+      "end_voice_frame": 4475,
+      "end_frame": 4477,
+      "start_s": 144.73333333333332,
+      "voice_end_s": 149.16666666666666,
+      "end_s": 149.23333333333332,
+      "voice_duration_s": 4.433333333333334,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.0226221804511277,
+      "native_duration_s": 4.533625,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S039",
+        "S040"
+      ]
+    },
+    {
+      "id": "N034",
+      "text": "유월 십구일 인제체육관 수료식장에 마련된 추모 공간의 명예수료증이었죠.",
+      "tts_text": "유월 십구일 인제체육관 수료식장에 마련된 추모 공간의 명예수료증이었죠.",
+      "syllables": 31,
+      "fact_ids": [
+        "F30"
+      ],
+      "publishers": {
+        "F30": [
+          "A21 연합뉴스",
+          "A26 YTN"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 4477,
+      "end_voice_frame": 4610,
+      "end_frame": 4612,
+      "start_s": 149.23333333333332,
+      "voice_end_s": 153.66666666666666,
+      "end_s": 153.73333333333332,
+      "voice_duration_s": 4.433333333333334,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.0457142857142856,
+      "native_duration_s": 4.636,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S040",
+        "S041"
+      ]
+    },
+    {
+      "id": "N035",
+      "text": "그 뒤 법정에 선 동료들은 군장에 책 약 마흔 권을 넣었다는 취지로 증언했습니다.",
+      "tts_text": "그 뒤 법정에 선 동료들은 군장에 책 약 마흔 권을 넣었다는 취지로 증언했습니다.",
+      "syllables": 32,
+      "fact_ids": [
+        "F07"
+      ],
+      "publishers": {
+        "F07": [
+          "A03 뉴스1",
+          "A04 연합뉴스"
+        ]
+      },
+      "source_context": "동료 법정 증언",
+      "start_frame": 4612,
+      "end_voice_frame": 4750,
+      "end_frame": 4752,
+      "start_s": 153.73333333333332,
+      "voice_end_s": 158.33333333333334,
+      "end_s": 158.4,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.075842391304348,
+      "native_duration_s": 4.948875,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S041",
+        "S042"
+      ]
+    },
+    {
+      "id": "N036",
+      "text": "동료 한 명은 외상 후 스트레스 장애 진단을 받았다고 법정에서 밝혔습니다.",
+      "tts_text": "동료 한 명은 외상 후 스트레스 장애 진단을 받았다고 법정에서 밝혔습니다.",
+      "syllables": 30,
+      "fact_ids": [
+        "F35"
+      ],
+      "publishers": {
+        "F35": [
+          "A03 뉴스1",
+          "A04 연합뉴스"
+        ]
+      },
+      "source_context": "동료 법정 증언",
+      "start_frame": 4752,
+      "end_voice_frame": 4881,
+      "end_frame": 4883,
+      "start_s": 158.4,
+      "voice_end_s": 162.7,
+      "end_s": 162.76666666666668,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.0299806201550388,
+      "native_duration_s": 4.428916666666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S042",
+        "S043"
+      ]
+    },
+    {
+      "id": "N037",
+      "text": "이런 피해를 놓고 일심은 피해자 측의 용서도 받지 못했다는 사정을 지적했어요.",
+      "tts_text": "이런 피해를 놓고 일심은 피해자 측의 용서도 받지 못했다는 사정을 지적했어요.",
+      "syllables": 32,
+      "fact_ids": [
+        "J05"
+      ],
+      "publishers": {
+        "J05": [
+          "S09 뉴스1",
+          "S11 경향신문",
+          "S13 뉴스핌"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 4883,
+      "end_voice_frame": 5021,
+      "end_frame": 5023,
+      "start_s": 162.76666666666668,
+      "voice_end_s": 167.36666666666667,
+      "end_s": 167.43333333333334,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.01942481884058,
+      "native_duration_s": 4.689354166666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S043",
+        "S044"
+      ]
+    },
+    {
+      "id": "N038",
+      "text": "군의 사기와 전투력 그리고 국민의 신뢰를 해친 점에서도 죄책을 무겁게 봤습니다.",
+      "tts_text": "군의 사기와 전투력 그리고 국민의 신뢰를 해친 점에서도 죄책을 무겁게 봤습니다.",
+      "syllables": 33,
+      "fact_ids": [
+        "J03"
+      ],
+      "publishers": {
+        "J03": [
+          "S08 뉴시스",
+          "S09 뉴스1",
+          "S11 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 5023,
+      "end_voice_frame": 5165,
+      "end_frame": 5167,
+      "start_s": 167.43333333333334,
+      "voice_end_s": 172.16666666666666,
+      "end_s": 172.23333333333332,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.069432218309859,
+      "native_duration_s": 5.061979166666666,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S045",
+        "S046"
+      ]
+    },
+    {
+      "id": "N039",
+      "text": "하지만 형을 정할 때에는 무겁게 본 사정과 유리하게 본 사정을 함께 놓았습니다.",
+      "tts_text": "하지만 형을 정할 때에는 무겁게 본 사정과 유리하게 본 사정을 함께 놓았습니다.",
+      "syllables": 32,
+      "fact_ids": [
+        "J03",
+        "J04"
+      ],
+      "publishers": {
+        "J03": [
+          "S08 뉴시스",
+          "S09 뉴스1",
+          "S11 경향신문"
+        ],
+        "J04": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 5167,
+      "end_voice_frame": 5305,
+      "end_frame": 5307,
+      "start_s": 172.23333333333332,
+      "voice_end_s": 176.83333333333334,
+      "end_s": 176.9,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.1151494565217392,
+      "native_duration_s": 5.1296875,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S046",
+        "S047"
+      ]
+    },
+    {
+      "id": "N040",
+      "text": "일심은 사실관계를 인정하고 잘못을 반성하는 태도를 유리한 정상으로 참작했다.",
+      "tts_text": "일심은 사실관계를 인정하고 잘못을 반성하는 태도를 유리한 정상으로 참작했다.",
+      "syllables": 33,
+      "fact_ids": [
+        "J04"
+      ],
+      "publishers": {
+        "J04": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 5307,
+      "end_voice_frame": 5449,
+      "end_frame": 5451,
+      "start_s": 176.9,
+      "voice_end_s": 181.63333333333333,
+      "end_s": 181.7,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.0795774647887324,
+      "native_duration_s": 5.11,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S047",
+        "S048"
+      ]
+    },
+    {
+      "id": "N041",
+      "text": "군 기강을 세우려는 교육 목적으로 훈련하다 범행에 이른 점도 함께 참작했습니다.",
+      "tts_text": "군 기강을 세우려는 교육 목적으로 훈련하다 범행에 이른 점도 함께 참작했습니다.",
+      "syllables": 33,
+      "fact_ids": [
+        "J04"
+      ],
+      "publishers": {
+        "J04": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 5451,
+      "end_voice_frame": 5593,
+      "end_frame": 5595,
+      "start_s": 181.7,
+      "voice_end_s": 186.43333333333334,
+      "end_s": 186.5,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.092693661971831,
+      "native_duration_s": 5.172083333333333,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S048",
+        "S049"
+      ]
+    },
+    {
+      "id": "N042",
+      "text": "교육 목적을 참작한 것은 일심의 양형 이유이며 학대치사 유죄 판단도 유지됐습니다.",
+      "tts_text": "교육 목적을 참작한 것은 일심의 양형 이유이며 학대치사 유죄 판단도 유지됐습니다.",
+      "syllables": 34,
+      "fact_ids": [
+        "J04",
+        "C06"
+      ],
+      "publishers": {
+        "J04": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ],
+        "C06": [
+          "S08 뉴시스",
+          "S09 뉴스1",
+          "S12 YTN"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 5595,
+      "end_voice_frame": 5741,
+      "end_frame": 5743,
+      "start_s": 186.5,
+      "voice_end_s": 191.36666666666667,
+      "end_s": 191.43333333333334,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.1006078767123288,
+      "native_duration_s": 5.3562916666666665,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S049",
+        "S050",
+        "S051"
+      ]
+    },
+    {
+      "id": "N043",
+      "text": "그 전에 검찰은 중대장에게 일심에서 징역 십 년을 선고해 달라고 구형했죠.",
+      "tts_text": "그 전에 검찰은 중대장에게 일심에서 징역 십 년을 선고해 달라고 구형했죠.",
+      "syllables": 30,
+      "fact_ids": [
+        "C03"
+      ],
+      "publishers": {
+        "C03": [
+          "S06 YTN",
+          "S07 뉴시스"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 5743,
+      "end_voice_frame": 5872,
+      "end_frame": 5874,
+      "start_s": 191.43333333333334,
+      "voice_end_s": 195.73333333333332,
+      "end_s": 195.8,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.1087209302325582,
+      "native_duration_s": 4.7675,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S051",
+        "S052"
+      ]
+    },
+    {
+      "id": "N044",
+      "text": "부중대장에게는 징역 칠 년을 구형했으며 두 숫자는 검찰이 요청한 형이었습니다.",
+      "tts_text": "부중대장에게는 징역 칠 년을 구형했으며 두 숫자는 검찰이 요청한 형이었습니다.",
+      "syllables": 33,
+      "fact_ids": [
+        "D03"
+      ],
+      "publishers": {
+        "D03": [
+          "S06 YTN",
+          "S07 뉴시스"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 5874,
+      "end_voice_frame": 6016,
+      "end_frame": 6018,
+      "start_s": 195.8,
+      "voice_end_s": 200.53333333333333,
+      "end_s": 200.6,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.0369894366197183,
+      "native_duration_s": 4.908416666666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S052",
+        "S053"
+      ]
+    },
+    {
+      "id": "N045",
+      "text": "군의 지도력과 관리 체제에 대한 국민 신뢰를 훼손했다는 것이 구형 이유였습니다.",
+      "tts_text": "군의 지도력과 관리 체제에 대한 국민 신뢰를 훼손했다는 것이 구형 이유였습니다.",
+      "syllables": 33,
+      "fact_ids": [
+        "E07"
+      ],
+      "publishers": {
+        "E07": [
+          "S06 YTN",
+          "S07 뉴시스"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 6018,
+      "end_voice_frame": 6160,
+      "end_frame": 6162,
+      "start_s": 200.6,
+      "voice_end_s": 205.33333333333334,
+      "end_s": 205.4,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.0405721830985915,
+      "native_duration_s": 4.925375,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S053",
+        "S054"
+      ]
+    },
+    {
+      "id": "N046",
+      "text": "이천이십오년 일월 칠일 춘천지법이 중대장에게 실제로 내린 선고가 나왔어요.",
+      "tts_text": "이천이십오년 일월 칠일 춘천지법이 중대장에게 실제로 내린 선고가 나왔어요.",
+      "syllables": 32,
+      "fact_ids": [
+        "C05"
+      ],
+      "publishers": {
+        "C05": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 6162,
+      "end_voice_frame": 6300,
+      "end_frame": 6302,
+      "start_s": 205.4,
+      "voice_end_s": 210.0,
+      "end_s": 210.06666666666666,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.084501811594203,
+      "native_duration_s": 4.988708333333333,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S055"
+      ]
+    },
+    {
+      "id": "N047",
+      "text": "징역 오 년이 일심의 중대장 선고였고 검찰이 구형한 십 년과는 달랐습니다.",
+      "tts_text": "징역 오 년이 일심의 중대장 선고였고 검찰이 구형한 십 년과는 달랐습니다.",
+      "syllables": 30,
+      "fact_ids": [
+        "C05",
+        "C03"
+      ],
+      "publishers": {
+        "C05": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ],
+        "C03": [
+          "S06 YTN",
+          "S07 뉴시스"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 6320,
+      "end_voice_frame": 6449,
+      "end_frame": 6451,
+      "start_s": 210.66666666666666,
+      "voice_end_s": 214.96666666666667,
+      "end_s": 215.03333333333333,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.086187015503876,
+      "native_duration_s": 4.670604166666666,
+      "pause_before_s": 0.6,
+      "shot_ids": [
+        "S056"
+      ]
+    },
+    {
+      "id": "N048",
+      "text": "부중대장은 징역 칠 년의 일심 구형에 대해 징역 삼 년을 선고받았습니다.",
+      "tts_text": "부중대장은 징역 칠 년의 일심 구형에 대해 징역 삼 년을 선고받았습니다.",
+      "syllables": 29,
+      "fact_ids": [
+        "D04",
+        "D03"
+      ],
+      "publishers": {
+        "D04": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ],
+        "D03": [
+          "S06 YTN",
+          "S07 뉴시스"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 6451,
+      "end_voice_frame": 6576,
+      "end_frame": 6578,
+      "start_s": 215.03333333333333,
+      "voice_end_s": 219.2,
+      "end_s": 219.26666666666668,
+      "voice_duration_s": 4.166666666666667,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.0760349999999999,
+      "native_duration_s": 4.483479166666666,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S057"
+      ]
+    },
+    {
+      "id": "N049",
+      "text": "유죄라는 판단과 함께 반성과 교육 목적을 참작한 일심의 결과가 이 숫자였죠.",
+      "tts_text": "유죄라는 판단과 함께 반성과 교육 목적을 참작한 일심의 결과가 이 숫자였죠.",
+      "syllables": 31,
+      "fact_ids": [
+        "J04",
+        "C05"
+      ],
+      "publishers": {
+        "J04": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ],
+        "C05": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 6578,
+      "end_voice_frame": 6711,
+      "end_frame": 6713,
+      "start_s": 219.26666666666668,
+      "voice_end_s": 223.7,
+      "end_s": 223.76666666666668,
+      "voice_duration_s": 4.433333333333334,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.2439661654135337,
+      "native_duration_s": 5.514916666666666,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S058",
+        "S059"
+      ]
+    },
+    {
+      "id": "N050",
+      "text": "그런데 중대장에게 내려진 징역 오 년은 마지막 숫자가 아니었습니다.",
+      "tts_text": "그런데 중대장에게 내려진 징역 오 년은 마지막 숫자가 아니었습니다.",
+      "syllables": 28,
+      "fact_ids": [
+        "C05",
+        "C07"
+      ],
+      "publishers": {
+        "C05": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ],
+        "C07": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 6713,
+      "end_voice_frame": 6833,
+      "end_frame": 6835,
+      "start_s": 223.76666666666668,
+      "voice_end_s": 227.76666666666668,
+      "end_s": 227.83333333333334,
+      "voice_duration_s": 4.0,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.0501875,
+      "native_duration_s": 4.20075,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S059",
+        "S060"
+      ]
+    },
+    {
+      "id": "N051",
+      "text": "항소심에서는 죄의 수에 관한 판단이 바뀌었고 중대장의 형도 늘어났습니다.",
+      "tts_text": "항소심에서는 죄의 수에 관한 판단이 바뀌었고 중대장의 형도 늘어났습니다.",
+      "syllables": 31,
+      "fact_ids": [
+        "J07",
+        "C07"
+      ],
+      "publishers": {
+        "J07": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ],
+        "C07": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 6835,
+      "end_voice_frame": 6968,
+      "end_frame": 6970,
+      "start_s": 227.83333333333334,
+      "voice_end_s": 232.26666666666668,
+      "end_s": 232.33333333333334,
+      "voice_duration_s": 4.433333333333334,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.0002161654135338,
+      "native_duration_s": 4.434291666666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S060",
+        "S061"
+      ]
+    },
+    {
+      "id": "N052",
+      "text": "같은 훈련장에서 벌어진 일을 어떤 기준으로 나누어 보았는지가 다음 쟁점이다.",
+      "tts_text": "같은 훈련장에서 벌어진 일을 어떤 기준으로 나누어 보았는지가 다음 쟁점이다.",
+      "syllables": 32,
+      "fact_ids": [
+        "J08"
+      ],
+      "publishers": {
+        "J08": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 6970,
+      "end_voice_frame": 7108,
+      "end_frame": 7110,
+      "start_s": 232.33333333333334,
+      "voice_end_s": 236.93333333333334,
+      "end_s": 237.0,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M2",
+      "tempo": 1.056490036231884,
+      "native_duration_s": 4.859854166666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S061",
+        "S062"
+      ]
+    },
+    {
+      "id": "N053",
+      "text": "일심은 하나의 행위가 여러 범죄를 구성하는 관계인 상상적경합으로 봤습니다.",
+      "tts_text": "일심은 하나의 행위가 여러 범죄를 구성하는 관계인 상상적경합으로 봤습니다.",
+      "syllables": 32,
+      "fact_ids": [
+        "J01",
+        "J09"
+      ],
+      "publishers": {
+        "J01": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ],
+        "J09": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 7116,
+      "end_voice_frame": 7254,
+      "end_frame": 7256,
+      "start_s": 237.2,
+      "voice_end_s": 241.8,
+      "end_s": 241.86666666666667,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.024538043478261,
+      "native_duration_s": 4.712875,
+      "pause_before_s": 0.2,
+      "shot_ids": [
+        "S063",
+        "S064"
+      ]
+    },
+    {
+      "id": "N054",
+      "text": "여러 범죄가 성립하더라도 그 출발이 되는 행위는 하나로 묶어 본 것입니다.",
+      "tts_text": "여러 범죄가 성립하더라도 그 출발이 되는 행위는 하나로 묶어 본 것입니다.",
+      "syllables": 30,
+      "fact_ids": [
+        "J01"
+      ],
+      "publishers": {
+        "J01": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 7256,
+      "end_voice_frame": 7385,
+      "end_frame": 7387,
+      "start_s": 241.86666666666667,
+      "voice_end_s": 246.16666666666666,
+      "end_s": 246.23333333333332,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.0455377906976746,
+      "native_duration_s": 4.4958125,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S064",
+        "S065"
+      ]
+    },
+    {
+      "id": "N055",
+      "text": "하지만 항소심은 같은 장소와 같은 기회라는 점보다 피해자별 차이에 주목했죠.",
+      "tts_text": "하지만 항소심은 같은 장소와 같은 기회라는 점보다 피해자별 차이에 주목했죠.",
+      "syllables": 32,
+      "fact_ids": [
+        "J08"
+      ],
+      "publishers": {
+        "J08": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 7387,
+      "end_voice_frame": 7525,
+      "end_frame": 7527,
+      "start_s": 246.23333333333332,
+      "voice_end_s": 250.83333333333334,
+      "end_s": 250.9,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.0222056159420292,
+      "native_duration_s": 4.702145833333334,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S065",
+        "S066"
+      ]
+    },
+    {
+      "id": "N056",
+      "text": "피해자마다 각각의 가혹행위와 학대의 양상이 달랐다는 것이 판단의 이유였습니다.",
+      "tts_text": "피해자마다 각각의 가혹행위와 학대의 양상이 달랐다는 것이 판단의 이유였습니다.",
+      "syllables": 34,
+      "fact_ids": [
+        "J08"
+      ],
+      "publishers": {
+        "J08": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 7527,
+      "end_voice_frame": 7673,
+      "end_frame": 7675,
+      "start_s": 250.9,
+      "voice_end_s": 255.76666666666668,
+      "end_s": 255.83333333333334,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.0606806506849316,
+      "native_duration_s": 5.161979166666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S066",
+        "S067"
+      ]
+    },
+    {
+      "id": "N057",
+      "text": "같은 훈련장에서 이어졌다는 이유만으로 서로 다른 행위를 하나로 묶지 않았습니다.",
+      "tts_text": "같은 훈련장에서 이어졌다는 이유만으로 서로 다른 행위를 하나로 묶지 않았습니다.",
+      "syllables": 34,
+      "fact_ids": [
+        "J08"
+      ],
+      "publishers": {
+        "J08": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 7675,
+      "end_voice_frame": 7821,
+      "end_frame": 7823,
+      "start_s": 255.83333333333334,
+      "voice_end_s": 260.7,
+      "end_s": 260.76666666666665,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 0.9865753424657534,
+      "native_duration_s": 4.801333333333333,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S067",
+        "S068"
+      ]
+    },
+    {
+      "id": "N058",
+      "text": "여러 행위로 여러 죄를 범한 관계인 실체적경합으로 항소심 판단이 바뀌었어요.",
+      "tts_text": "여러 행위로 여러 죄를 범한 관계인 실체적경합으로 항소심 판단이 바뀌었어요.",
+      "syllables": 32,
+      "fact_ids": [
+        "J07",
+        "J09"
+      ],
+      "publishers": {
+        "J07": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ],
+        "J09": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 7823,
+      "end_voice_frame": 7961,
+      "end_frame": 7963,
+      "start_s": 260.76666666666665,
+      "voice_end_s": 265.3666666666667,
+      "end_s": 265.43333333333334,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.0756612318840582,
+      "native_duration_s": 4.948041666666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S068",
+        "S069"
+      ]
+    },
+    {
+      "id": "N059",
+      "text": "여기서 훈련병 여섯 명이라는 숫자를 곧바로 확정된 범죄 여섯 개로 세는 것은 아닙니다.",
+      "tts_text": "여기서 훈련병 여섯 명이라는 숫자를 곧바로 확정된 범죄 여섯 개로 세는 것은 아닙니다.",
+      "syllables": 35,
+      "fact_ids": [
+        "E02",
+        "J08"
+      ],
+      "publishers": {
+        "E02": [
+          "S01 문화일보",
+          "S03 한겨레"
+        ],
+        "J08": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 7963,
+      "end_voice_frame": 8113,
+      "end_frame": 8115,
+      "start_s": 265.43333333333334,
+      "voice_end_s": 270.43333333333334,
+      "end_s": 270.5,
+      "voice_duration_s": 5.0,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.1416916666666668,
+      "native_duration_s": 5.708458333333334,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S070",
+        "S071"
+      ]
+    },
+    {
+      "id": "N060",
+      "text": "쟁점은 사람 수를 그대로 더하는 데 있지 않고 피해자별 행위를 구별하는 데 있었습니다.",
+      "tts_text": "쟁점은 사람 수를 그대로 더하는 데 있지 않고 피해자별 행위를 구별하는 데 있었습니다.",
+      "syllables": 35,
+      "fact_ids": [
+        "J08"
+      ],
+      "publishers": {
+        "J08": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 8115,
+      "end_voice_frame": 8265,
+      "end_frame": 8267,
+      "start_s": 270.5,
+      "voice_end_s": 275.5,
+      "end_s": 275.56666666666666,
+      "voice_duration_s": 5.0,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.0423541666666667,
+      "native_duration_s": 5.2117708333333335,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S071",
+        "S072"
+      ]
+    },
+    {
+      "id": "N061",
+      "text": "일심의 하나의 행위라는 판단과 항소심의 여러 행위라는 판단이 여기서 갈렸다.",
+      "tts_text": "일심의 하나의 행위라는 판단과 항소심의 여러 행위라는 판단이 여기서 갈렸다.",
+      "syllables": 32,
+      "fact_ids": [
+        "J01",
+        "J08"
+      ],
+      "publishers": {
+        "J01": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ],
+        "J08": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 8267,
+      "end_voice_frame": 8405,
+      "end_frame": 8407,
+      "start_s": 275.56666666666666,
+      "voice_end_s": 280.1666666666667,
+      "end_s": 280.23333333333335,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.0885326086956522,
+      "native_duration_s": 5.00725,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S072",
+        "S073"
+      ]
+    },
+    {
+      "id": "N062",
+      "text": "그 차이는 법이 허용하는 처벌 범위와 연결되며 보도도 두 경우를 나누어 설명합니다.",
+      "tts_text": "그 차이는 법이 허용하는 처벌 범위와 연결되며 보도도 두 경우를 나누어 설명합니다.",
+      "syllables": 34,
+      "fact_ids": [
+        "J10"
+      ],
+      "publishers": {
+        "J10": [
+          "S01 문화일보",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 8407,
+      "end_voice_frame": 8553,
+      "end_frame": 8555,
+      "start_s": 280.23333333333335,
+      "voice_end_s": 285.1,
+      "end_s": 285.1666666666667,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.0847174657534249,
+      "native_duration_s": 5.278958333333334,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S074",
+        "S075"
+      ]
+    },
+    {
+      "id": "N063",
+      "text": "상상적경합은 가장 무거운 죄에 정한 형으로 처벌한다는 것이 보도의 설명입니다.",
+      "tts_text": "상상적경합은 가장 무거운 죄에 정한 형으로 처벌한다는 것이 보도의 설명입니다.",
+      "syllables": 33,
+      "fact_ids": [
+        "J10"
+      ],
+      "publishers": {
+        "J10": [
+          "S01 문화일보",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 8555,
+      "end_voice_frame": 8697,
+      "end_frame": 8699,
+      "start_s": 285.1666666666667,
+      "voice_end_s": 289.9,
+      "end_s": 289.96666666666664,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.0669498239436621,
+      "native_duration_s": 5.050229166666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S075",
+        "S076"
+      ]
+    },
+    {
+      "id": "N064",
+      "text": "실체적경합은 가장 무거운 죄의 형을 가중할 수 있다는 것이 보도된 설명이죠.",
+      "tts_text": "실체적경합은 가장 무거운 죄의 형을 가중할 수 있다는 것이 보도된 설명이죠.",
+      "syllables": 31,
+      "fact_ids": [
+        "J10"
+      ],
+      "publishers": {
+        "J10": [
+          "S01 문화일보",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 8699,
+      "end_voice_frame": 8832,
+      "end_frame": 8834,
+      "start_s": 289.96666666666664,
+      "voice_end_s": 294.4,
+      "end_s": 294.46666666666664,
+      "voice_duration_s": 4.433333333333334,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.0318280075187969,
+      "native_duration_s": 4.5744375,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S076",
+        "S077"
+      ]
+    },
+    {
+      "id": "N065",
+      "text": "앞서 선고한 오 년에 어떤 배수를 곱해서 다음 형량을 구하는 계산은 아닙니다.",
+      "tts_text": "앞서 선고한 오 년에 어떤 배수를 곱해서 다음 형량을 구하는 계산은 아닙니다.",
+      "syllables": 31,
+      "fact_ids": [
+        "J10",
+        "C05"
+      ],
+      "publishers": {
+        "J10": [
+          "S01 문화일보",
+          "S10 경향신문"
+        ],
+        "C05": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 8834,
+      "end_voice_frame": 8967,
+      "end_frame": 8969,
+      "start_s": 294.46666666666664,
+      "voice_end_s": 298.9,
+      "end_s": 298.96666666666664,
+      "voice_duration_s": 4.433333333333334,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.0965742481203007,
+      "native_duration_s": 4.861479166666666,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S078"
+      ]
+    },
+    {
+      "id": "N066",
+      "text": "일심이 참고한 학대치사죄의 양형기준도 법정형의 상한과 같은 개념은 아닙니다.",
+      "tts_text": "일심이 참고한 학대치사죄의 양형기준도 법정형의 상한과 같은 개념은 아닙니다.",
+      "syllables": 33,
+      "fact_ids": [
+        "J02"
+      ],
+      "publishers": {
+        "J02": [
+          "S04 뉴시스",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 8969,
+      "end_voice_frame": 9111,
+      "end_frame": 9113,
+      "start_s": 298.96666666666664,
+      "voice_end_s": 303.7,
+      "end_s": 303.76666666666665,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.0814656690140845,
+      "native_duration_s": 5.1189375,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S079",
+        "S080"
+      ]
+    },
+    {
+      "id": "N067",
+      "text": "항소심은 죄의 수에 관한 일심 판단을 바꿨고 중대장에게 더 긴 형을 선고했어요.",
+      "tts_text": "항소심은 죄의 수에 관한 일심 판단을 바꿨고 중대장에게 더 긴 형을 선고했어요.",
+      "syllables": 32,
+      "fact_ids": [
+        "J07",
+        "C07"
+      ],
+      "publishers": {
+        "J07": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ],
+        "C07": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 9113,
+      "end_voice_frame": 9251,
+      "end_frame": 9253,
+      "start_s": 303.76666666666665,
+      "voice_end_s": 308.3666666666667,
+      "end_s": 308.43333333333334,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.114538043478261,
+      "native_duration_s": 5.126875,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S080",
+        "S081"
+      ]
+    },
+    {
+      "id": "N068",
+      "text": "그렇다고 행위를 나누어 봤다는 이유만으로 늘어난 기간을 미리 계산할 수는 없습니다.",
+      "tts_text": "그렇다고 행위를 나누어 봤다는 이유만으로 늘어난 기간을 미리 계산할 수는 없습니다.",
+      "syllables": 35,
+      "fact_ids": [
+        "J08",
+        "C07"
+      ],
+      "publishers": {
+        "J08": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ],
+        "C07": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 9253,
+      "end_voice_frame": 9403,
+      "end_frame": 9405,
+      "start_s": 308.43333333333334,
+      "voice_end_s": 313.43333333333334,
+      "end_s": 313.5,
+      "voice_duration_s": 5.0,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 0.9955583333333333,
+      "native_duration_s": 4.977791666666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S081",
+        "S082"
+      ]
+    },
+    {
+      "id": "N069",
+      "text": "숫자에 앞서 항소심이 이 범행을 어떻게 평가했는지 마지막 판단이 남았습니다.",
+      "tts_text": "숫자에 앞서 항소심이 이 범행을 어떻게 평가했는지 마지막 판단이 남았습니다.",
+      "syllables": 32,
+      "fact_ids": [
+        "J11"
+      ],
+      "publishers": {
+        "J11": [
+          "S03 한겨레",
+          "S13 뉴스핌"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 9405,
+      "end_voice_frame": 9543,
+      "end_frame": 9545,
+      "start_s": 313.5,
+      "voice_end_s": 318.1,
+      "end_s": 318.1666666666667,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M3",
+      "tempo": 1.0873369565217392,
+      "native_duration_s": 5.00175,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S082",
+        "S083"
+      ]
+    },
+    {
+      "id": "N070",
+      "text": "재판부는 지휘관들이 낡은 병영문화를 답습해 사망사고를 초래했다고 봤다.",
+      "tts_text": "재판부는 지휘관들이 낡은 병영문화를 답습해 사망사고를 초래했다고 봤다.",
+      "syllables": 31,
+      "fact_ids": [
+        "J11"
+      ],
+      "publishers": {
+        "J11": [
+          "S03 한겨레",
+          "S13 뉴스핌"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 9551,
+      "end_voice_frame": 9684,
+      "end_frame": 9686,
+      "start_s": 318.3666666666667,
+      "voice_end_s": 322.8,
+      "end_s": 322.8666666666667,
+      "voice_duration_s": 4.433333333333334,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.0201973684210526,
+      "native_duration_s": 4.522875,
+      "pause_before_s": 0.2,
+      "shot_ids": [
+        "S084",
+        "S085"
+      ]
+    },
+    {
+      "id": "N071",
+      "text": "그 사망사고는 충분히 예방할 수 있었던 사고였다는 것이 항소심의 지적이었습니다.",
+      "tts_text": "그 사망사고는 충분히 예방할 수 있었던 사고였다는 것이 항소심의 지적이었습니다.",
+      "syllables": 34,
+      "fact_ids": [
+        "J11"
+      ],
+      "publishers": {
+        "J11": [
+          "S03 한겨레",
+          "S13 뉴스핌"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 9686,
+      "end_voice_frame": 9832,
+      "end_frame": 9834,
+      "start_s": 322.8666666666667,
+      "voice_end_s": 327.73333333333335,
+      "end_s": 327.8,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 0.9954238013698631,
+      "native_duration_s": 4.8443958333333335,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S085",
+        "S086"
+      ]
+    },
+    {
+      "id": "N072",
+      "text": "국가가 병사의 생명과 신체를 보호할 것이라는 사회의 기본 기대도 언급했습니다.",
+      "tts_text": "국가가 병사의 생명과 신체를 보호할 것이라는 사회의 기본 기대도 언급했습니다.",
+      "syllables": 33,
+      "fact_ids": [
+        "J12"
+      ],
+      "publishers": {
+        "J12": [
+          "S04 뉴시스",
+          "S13 뉴스핌"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 9834,
+      "end_voice_frame": 9976,
+      "end_frame": 9978,
+      "start_s": 327.8,
+      "voice_end_s": 332.53333333333336,
+      "end_s": 332.6,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.028481514084507,
+      "native_duration_s": 4.868145833333333,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S086",
+        "S087"
+      ]
+    },
+    {
+      "id": "N073",
+      "text": "그 기대를 배반한 범행이라는 판단이 행위의 구별과 함께 항소심 판결에 남았죠.",
+      "tts_text": "그 기대를 배반한 범행이라는 판단이 행위의 구별과 함께 항소심 판결에 남았죠.",
+      "syllables": 32,
+      "fact_ids": [
+        "J12"
+      ],
+      "publishers": {
+        "J12": [
+          "S04 뉴시스",
+          "S13 뉴스핌"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 9978,
+      "end_voice_frame": 10116,
+      "end_frame": 10118,
+      "start_s": 332.6,
+      "voice_end_s": 337.2,
+      "end_s": 337.26666666666665,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.1413858695652175,
+      "native_duration_s": 5.250375,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S087",
+        "S088"
+      ]
+    },
+    {
+      "id": "N074",
+      "text": "피해자별 행위를 나누고 예방할 수 있었던 사고였다는 점을 짚은 판단이었습니다.",
+      "tts_text": "피해자별 행위를 나누고 예방할 수 있었던 사고였다는 점을 짚은 판단이었습니다.",
+      "syllables": 33,
+      "fact_ids": [
+        "J08",
+        "J11"
+      ],
+      "publishers": {
+        "J08": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ],
+        "J11": [
+          "S03 한겨레",
+          "S13 뉴스핌"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 10118,
+      "end_voice_frame": 10260,
+      "end_frame": 10262,
+      "start_s": 337.26666666666665,
+      "voice_end_s": 342.0,
+      "end_s": 342.06666666666666,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 0.9710783450704226,
+      "native_duration_s": 4.5964375,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S088",
+        "S089"
+      ]
+    },
+    {
+      "id": "N075",
+      "text": "이천이십오년 유월 십팔일 서울고법 춘천재판부가 중대장의 형을 다시 정했습니다.",
+      "tts_text": "이천이십오년 유월 십팔일 서울고법 춘천재판부가 중대장의 형을 다시 정했습니다.",
+      "syllables": 34,
+      "fact_ids": [
+        "C07"
+      ],
+      "publishers": {
+        "C07": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 10262,
+      "end_voice_frame": 10408,
+      "end_frame": 10410,
+      "start_s": 342.06666666666666,
+      "voice_end_s": 346.93333333333334,
+      "end_s": 347.0,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.0872602739726027,
+      "native_duration_s": 5.291333333333333,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S090"
+      ]
+    },
+    {
+      "id": "N076",
+      "text": "징역 오 년 육 개월을 선고한 항소심은 일심보다 육 개월 긴 형을 정했어요.",
+      "tts_text": "징역 오 년 육 개월을 선고한 항소심은 일심보다 육 개월 긴 형을 정했어요.",
+      "syllables": 29,
+      "fact_ids": [
+        "C07"
+      ],
+      "publishers": {
+        "C07": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 10428,
+      "end_voice_frame": 10553,
+      "end_frame": 10555,
+      "start_s": 347.6,
+      "voice_end_s": 351.76666666666665,
+      "end_s": 351.8333333333333,
+      "voice_duration_s": 4.166666666666667,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.0944399999999999,
+      "native_duration_s": 4.5601666666666665,
+      "pause_before_s": 0.6,
+      "shot_ids": [
+        "S091"
+      ]
+    },
+    {
+      "id": "N077",
+      "text": "일심의 징역 오 년에서 항소심의 징역 오 년 육 개월로 선고가 바뀐 것입니다.",
+      "tts_text": "일심의 징역 오 년에서 항소심의 징역 오 년 육 개월로 선고가 바뀐 것입니다.",
+      "syllables": 30,
+      "fact_ids": [
+        "C05",
+        "C07"
+      ],
+      "publishers": {
+        "C05": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ],
+        "C07": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 10555,
+      "end_voice_frame": 10684,
+      "end_frame": 10686,
+      "start_s": 351.8333333333333,
+      "voice_end_s": 356.1333333333333,
+      "end_s": 356.2,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.2035125968992249,
+      "native_duration_s": 5.175104166666666,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S092"
+      ]
+    },
+    {
+      "id": "N078",
+      "text": "부중대장에게는 일심과 같은 징역 삼 년을 선고해 두 사람의 결과가 갈렸습니다.",
+      "tts_text": "부중대장에게는 일심과 같은 징역 삼 년을 선고해 두 사람의 결과가 갈렸습니다.",
+      "syllables": 32,
+      "fact_ids": [
+        "D04",
+        "D06"
+      ],
+      "publishers": {
+        "D04": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ],
+        "D06": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 10686,
+      "end_voice_frame": 10824,
+      "end_frame": 10826,
+      "start_s": 356.2,
+      "voice_end_s": 360.8,
+      "end_s": 360.8666666666667,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.112386775362319,
+      "native_duration_s": 5.116979166666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S093",
+        "S094"
+      ]
+    },
+    {
+      "id": "N079",
+      "text": "중대장에게 형이 늘어난 이유를 부중대장에게 그대로 옮겨 설명할 수는 없다.",
+      "tts_text": "중대장에게 형이 늘어난 이유를 부중대장에게 그대로 옮겨 설명할 수는 없다.",
+      "syllables": 31,
+      "fact_ids": [
+        "C07",
+        "D06",
+        "J08"
+      ],
+      "publishers": {
+        "C07": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ],
+        "D06": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ],
+        "J08": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 10826,
+      "end_voice_frame": 10959,
+      "end_frame": 10961,
+      "start_s": 360.8666666666667,
+      "voice_end_s": 365.3,
+      "end_s": 365.3666666666667,
+      "voice_duration_s": 4.433333333333334,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.091926691729323,
+      "native_duration_s": 4.840875,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S094",
+        "S095"
+      ]
+    },
+    {
+      "id": "N080",
+      "text": "서로 다른 선고 뒤에도 중대장 사건에는 대법원의 마지막 판단이 남아 있었습니다.",
+      "tts_text": "서로 다른 선고 뒤에도 중대장 사건에는 대법원의 마지막 판단이 남아 있었습니다.",
+      "syllables": 33,
+      "fact_ids": [
+        "C07",
+        "D06",
+        "C09"
+      ],
+      "publishers": {
+        "C07": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ],
+        "D06": [
+          "S01 문화일보",
+          "S02 세계일보",
+          "S10 경향신문"
+        ],
+        "C09": [
+          "S03 한겨레",
+          "S04 뉴시스",
+          "S05 KBS"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 10961,
+      "end_voice_frame": 11103,
+      "end_frame": 11105,
+      "start_s": 365.3666666666667,
+      "voice_end_s": 370.1,
+      "end_s": 370.1666666666667,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.0628873239436618,
+      "native_duration_s": 5.031,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S095",
+        "S096"
+      ]
+    },
+    {
+      "id": "N081",
+      "text": "대법원은 중대장에 대한 원심 판단에 잘못이 없다고 보고 상고를 기각했습니다.",
+      "tts_text": "대법원은 중대장에 대한 원심 판단에 잘못이 없다고 보고 상고를 기각했습니다.",
+      "syllables": 32,
+      "fact_ids": [
+        "J13"
+      ],
+      "publishers": {
+        "J13": [
+          "S04 뉴시스",
+          "S05 KBS",
+          "S13 뉴스핌"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 11105,
+      "end_voice_frame": 11243,
+      "end_frame": 11245,
+      "start_s": 370.1666666666667,
+      "voice_end_s": 374.76666666666665,
+      "end_s": 374.8333333333333,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.0518750000000001,
+      "native_duration_s": 4.838625,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S096",
+        "S097"
+      ]
+    },
+    {
+      "id": "N082",
+      "text": "이천이십오년 구월 이십오일 중대장의 징역 오 년 육 개월이 확정됐죠.",
+      "tts_text": "이천이십오년 구월 이십오일 중대장의 징역 오 년 육 개월이 확정됐죠.",
+      "syllables": 28,
+      "fact_ids": [
+        "C09"
+      ],
+      "publishers": {
+        "C09": [
+          "S03 한겨레",
+          "S04 뉴시스",
+          "S05 KBS"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 11245,
+      "end_voice_frame": 11365,
+      "end_frame": 11367,
+      "start_s": 374.8333333333333,
+      "voice_end_s": 378.8333333333333,
+      "end_s": 378.9,
+      "voice_duration_s": 4.0,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.08153125,
+      "native_duration_s": 4.326125,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S098",
+        "S099"
+      ]
+    },
+    {
+      "id": "N083",
+      "text": "부중대장의 징역 삼 년도 확정 상태이며 같은 날 보도에서 확인되는 상태입니다.",
+      "tts_text": "부중대장의 징역 삼 년도 확정 상태이며 같은 날 보도에서 확인되는 상태입니다.",
+      "syllables": 32,
+      "fact_ids": [
+        "D08"
+      ],
+      "publishers": {
+        "D08": [
+          "S03 한겨레",
+          "S04 뉴시스",
+          "S05 KBS"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 11367,
+      "end_voice_frame": 11505,
+      "end_frame": 11507,
+      "start_s": 378.9,
+      "voice_end_s": 383.5,
+      "end_s": 383.56666666666666,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.093913043478261,
+      "native_duration_s": 5.032,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S099",
+        "S100"
+      ]
+    },
+    {
+      "id": "N084",
+      "text": "부중대장 형이 확정된 날짜를 중대장의 대법원 판결 날짜와 같다고 단정하지 않습니다.",
+      "tts_text": "부중대장 형이 확정된 날짜를 중대장의 대법원 판결 날짜와 같다고 단정하지 않습니다.",
+      "syllables": 35,
+      "fact_ids": [
+        "D08"
+      ],
+      "publishers": {
+        "D08": [
+          "S03 한겨레",
+          "S04 뉴시스",
+          "S05 KBS"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 11507,
+      "end_voice_frame": 11657,
+      "end_frame": 11659,
+      "start_s": 383.56666666666666,
+      "voice_end_s": 388.56666666666666,
+      "end_s": 388.6333333333333,
+      "voice_duration_s": 5.0,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.1554625,
+      "native_duration_s": 5.7773125,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S100",
+        "S101"
+      ]
+    },
+    {
+      "id": "N085",
+      "text": "재판과 별개로 국방부는 이천이십사년 유월 훈련병 군기훈련의 대책을 발표했어요.",
+      "tts_text": "재판과 별개로 국방부는 이천이십사년 유월 훈련병 군기훈련의 대책을 발표했어요.",
+      "syllables": 34,
+      "fact_ids": [
+        "F38"
+      ],
+      "publishers": {
+        "F38": [
+          "A07 이데일리",
+          "A08 연합뉴스"
+        ]
+      },
+      "source_context": "당시 재발방지 대책",
+      "start_frame": 11659,
+      "end_voice_frame": 11805,
+      "end_frame": 11807,
+      "start_s": 388.6333333333333,
+      "voice_end_s": 393.5,
+      "end_s": 393.56666666666666,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.1129152397260276,
+      "native_duration_s": 5.4161875,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S101",
+        "S102",
+        "S103"
+      ]
+    },
+    {
+      "id": "N086",
+      "text": "훈련병의 군기훈련에서 구보나 완전군장 걷기 같은 체력단련 종목을 제외했습니다.",
+      "tts_text": "훈련병의 군기훈련에서 구보나 완전군장 걷기 같은 체력단련 종목을 제외했습니다.",
+      "syllables": 34,
+      "fact_ids": [
+        "F38"
+      ],
+      "publishers": {
+        "F38": [
+          "A07 이데일리",
+          "A08 연합뉴스"
+        ]
+      },
+      "source_context": "당시 재발방지 대책",
+      "start_frame": 11807,
+      "end_voice_frame": 11953,
+      "end_frame": 11955,
+      "start_s": 393.56666666666666,
+      "voice_end_s": 398.43333333333334,
+      "end_s": 398.5,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.173527397260274,
+      "native_duration_s": 5.711166666666666,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S103"
+      ]
+    },
+    {
+      "id": "N087",
+      "text": "개인에게 소명할 기회를 주는 단계를 반드시 거치도록 시행 절차도 표준화했습니다.",
+      "tts_text": "개인에게 소명할 기회를 주는 단계를 반드시 거치도록 시행 절차도 표준화했습니다.",
+      "syllables": 34,
+      "fact_ids": [
+        "F39"
+      ],
+      "publishers": {
+        "F39": [
+          "A07 이데일리",
+          "A08 연합뉴스"
+        ]
+      },
+      "source_context": "당시 재발방지 대책",
+      "start_frame": 11955,
+      "end_voice_frame": 12101,
+      "end_frame": 12103,
+      "start_s": 398.5,
+      "voice_end_s": 403.3666666666667,
+      "end_s": 403.43333333333334,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.0238056506849316,
+      "native_duration_s": 4.982520833333333,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S103",
+        "S105"
+      ]
+    },
+    {
+      "id": "N088",
+      "text": "육군 신병교육부대의 군기훈련 승인권자를 영관급 지휘관으로 높이기로 했다.",
+      "tts_text": "육군 신병교육부대의 군기훈련 승인권자를 영관급 지휘관으로 높이기로 했다.",
+      "syllables": 32,
+      "fact_ids": [
+        "F40"
+      ],
+      "publishers": {
+        "F40": [
+          "A07 이데일리",
+          "A29 중앙일보"
+        ]
+      },
+      "source_context": "당시 재발방지 대책",
+      "start_frame": 12103,
+      "end_voice_frame": 12241,
+      "end_frame": 12243,
+      "start_s": 403.43333333333334,
+      "voice_end_s": 408.03333333333336,
+      "end_s": 408.1,
+      "voice_duration_s": 4.6,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.0857518115942029,
+      "native_duration_s": 4.994458333333333,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S106",
+        "S107"
+      ]
+    },
+    {
+      "id": "N089",
+      "text": "건강 상태를 수시로 확인하고 응급상황에 대비한 대책부터 마련하도록 했습니다.",
+      "tts_text": "건강 상태를 수시로 확인하고 응급상황에 대비한 대책부터 마련하도록 했습니다.",
+      "syllables": 33,
+      "fact_ids": [
+        "F41"
+      ],
+      "publishers": {
+        "F41": [
+          "A07 이데일리",
+          "A29 중앙일보"
+        ]
+      },
+      "source_context": "당시 재발방지 대책",
+      "start_frame": 12243,
+      "end_voice_frame": 12385,
+      "end_frame": 12387,
+      "start_s": 408.1,
+      "voice_end_s": 412.8333333333333,
+      "end_s": 412.9,
+      "voice_duration_s": 4.733333333333333,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.0346390845070423,
+      "native_duration_s": 4.897291666666667,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S107",
+        "S108"
+      ]
+    },
+    {
+      "id": "N090",
+      "text": "당시 발표는 훈련병 군기훈련의 대책이며 모든 체력훈련을 없앤다는 뜻은 아닙니다.",
+      "tts_text": "당시 발표는 훈련병 군기훈련의 대책이며 모든 체력훈련을 없앤다는 뜻은 아닙니다.",
+      "syllables": 34,
+      "fact_ids": [
+        "F38"
+      ],
+      "publishers": {
+        "F38": [
+          "A07 이데일리",
+          "A08 연합뉴스"
+        ]
+      },
+      "source_context": "당시 재발방지 대책",
+      "start_frame": 12387,
+      "end_voice_frame": 12533,
+      "end_frame": 12535,
+      "start_s": 412.9,
+      "voice_end_s": 417.76666666666665,
+      "end_s": 417.8333333333333,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.1118279109589042,
+      "native_duration_s": 5.410895833333333,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S108"
+      ]
+    },
+    {
+      "id": "N091",
+      "text": "그날 지키지 않았던 소명 절차는 사건 뒤 재발방지 대책에서 다시 강조됐죠.",
+      "tts_text": "그날 지키지 않았던 소명 절차는 사건 뒤 재발방지 대책에서 다시 강조됐죠.",
+      "syllables": 30,
+      "fact_ids": [
+        "F04",
+        "F39"
+      ],
+      "publishers": {
+        "F04": [
+          "A13 연합뉴스",
+          "A14 YTN"
+        ],
+        "F39": [
+          "A07 이데일리",
+          "A08 연합뉴스"
+        ]
+      },
+      "source_context": "경찰 수사결과",
+      "start_frame": 12535,
+      "end_voice_frame": 12664,
+      "end_frame": 12666,
+      "start_s": 417.8333333333333,
+      "voice_end_s": 422.1333333333333,
+      "end_s": 422.2,
+      "voice_duration_s": 4.3,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.0512015503875969,
+      "native_duration_s": 4.520166666666666,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S108",
+        "S110"
+      ]
+    },
+    {
+      "id": "N092",
+      "text": "법원은 훈련과 사망의 인과관계를 인정했고 일심은 반성과 교육 목적을 참작했습니다.",
+      "tts_text": "법원은 훈련과 사망의 인과관계를 인정했고 일심은 반성과 교육 목적을 참작했습니다.",
+      "syllables": 35,
+      "fact_ids": [
+        "J06",
+        "J04"
+      ],
+      "publishers": {
+        "J06": [
+          "S12 YTN",
+          "S09 뉴스1"
+        ],
+        "J04": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 12666,
+      "end_voice_frame": 12816,
+      "end_frame": 12818,
+      "start_s": 422.2,
+      "voice_end_s": 427.2,
+      "end_s": 427.26666666666665,
+      "voice_duration_s": 5.0,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.1205500000000002,
+      "native_duration_s": 5.60275,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S110",
+        "S111"
+      ]
+    },
+    {
+      "id": "N093",
+      "text": "항소심은 피해자별 행위를 구별했고 예방할 수 있었던 사고였다는 판단을 남겼습니다.",
+      "tts_text": "항소심은 피해자별 행위를 구별했고 예방할 수 있었던 사고였다는 판단을 남겼습니다.",
+      "syllables": 35,
+      "fact_ids": [
+        "J08",
+        "J11"
+      ],
+      "publishers": {
+        "J08": [
+          "S01 문화일보",
+          "S04 뉴시스",
+          "S10 경향신문"
+        ],
+        "J11": [
+          "S03 한겨레",
+          "S13 뉴스핌"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 12818,
+      "end_voice_frame": 12968,
+      "end_frame": 12970,
+      "start_s": 427.26666666666665,
+      "voice_end_s": 432.26666666666665,
+      "end_s": 432.3333333333333,
+      "voice_duration_s": 5.0,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 0.9784333333333333,
+      "native_duration_s": 4.892166666666666,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S111",
+        "S112",
+        "S113"
+      ]
+    },
+    {
+      "id": "N094",
+      "text": "확정된 중대장의 형은 오 년 육 개월이며 국가의 보호 기대를 배반했다는 판단이에요.",
+      "tts_text": "확정된 중대장의 형은 오 년 육 개월이며 국가의 보호 기대를 배반했다는 판단이에요.",
+      "syllables": 34,
+      "fact_ids": [
+        "C09",
+        "J12"
+      ],
+      "publishers": {
+        "C09": [
+          "S03 한겨레",
+          "S04 뉴시스",
+          "S05 KBS"
+        ],
+        "J12": [
+          "S04 뉴시스",
+          "S13 뉴스핌"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 12970,
+      "end_voice_frame": 13116,
+      "end_frame": 13118,
+      "start_s": 432.3333333333333,
+      "voice_end_s": 437.2,
+      "end_s": 437.26666666666665,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.0406720890410959,
+      "native_duration_s": 5.064604166666666,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S113",
+        "S114"
+      ]
+    },
+    {
+      "id": "N095",
+      "text": "여러분은 교육 목적의 참작과 국가의 보호 책임 중 어떤 사정을 더 무겁게 보셨습니까?",
+      "tts_text": "여러분은 교육 목적의 참작과 국가의 보호 책임 중 어떤 사정을 더 무겁게 보셨습니까?",
+      "syllables": 34,
+      "fact_ids": [
+        "J04",
+        "J12"
+      ],
+      "publishers": {
+        "J04": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ],
+        "J12": [
+          "S04 뉴시스",
+          "S13 뉴스핌"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 13118,
+      "end_voice_frame": 13264,
+      "end_frame": 13266,
+      "start_s": 437.26666666666665,
+      "voice_end_s": 442.1333333333333,
+      "end_s": 442.2,
+      "voice_duration_s": 4.866666666666666,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.1582491438356164,
+      "native_duration_s": 5.6368125,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S114",
+        "S115"
+      ]
+    },
+    {
+      "id": "N096",
+      "text": "그렇게 생각한 이유와 판결의 어느 대목을 무겁게 보셨는지 댓글로 함께 이야기해 볼까요?",
+      "tts_text": "그렇게 생각한 이유와 판결의 어느 대목을 무겁게 보셨는지 댓글로 함께 이야기해 볼까요?",
+      "syllables": 36,
+      "fact_ids": [
+        "J04",
+        "J12"
+      ],
+      "publishers": {
+        "J04": [
+          "S08 뉴시스",
+          "S09 뉴스1"
+        ],
+        "J12": [
+          "S04 뉴시스",
+          "S13 뉴스핌"
+        ]
+      },
+      "source_context": "보도 요약",
+      "start_frame": 13266,
+      "end_voice_frame": 13421,
+      "end_frame": 13423,
+      "start_s": 442.2,
+      "voice_end_s": 447.3666666666667,
+      "end_s": 447.43333333333334,
+      "voice_duration_s": 5.166666666666667,
+      "pause_after_s": 0.06666666666666667,
+      "music": "M4",
+      "tempo": 1.0787499999999999,
+      "native_duration_s": 5.573541666666666,
+      "pause_before_s": 0,
+      "shot_ids": [
+        "S115"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "start_s": 13.333333333333334,
+      "cue": "M1",
+      "title": "01. 군장 속 책",
+      "row": "N004"
+    },
+    {
+      "start_s": 108.2,
+      "cue": "M2",
+      "title": "02. 남겨진 기록",
+      "row": "N025"
+    },
+    {
+      "start_s": 237.2,
+      "cue": "M3",
+      "title": "03. 하나인가 여러 개인가",
+      "row": "N053"
+    },
+    {
+      "start_s": 318.3666666666667,
+      "cue": "M4",
+      "title": "04. 그 형량의 이유",
+      "row": "N070"
+    }
+  ],
+  "judgement_silences": [
+    {
+      "id": "N047",
+      "start_s": 210.06666666666666,
+      "end_s": 210.66666666666666,
+      "duration_s": 0.6
+    },
+    {
+      "id": "N076",
+      "start_s": 347.0,
+      "end_s": 347.6,
+      "duration_s": 0.6
+    }
+  ],
+  "voice": {
+    "model": "local Supertonic-3",
+    "style": "M1",
+    "steps": 16,
+    "auto_download": false,
+    "syllables": 3064,
+    "voice_wav_s": 439.1333333333333,
+    "wav_sps": 6.977379687262791
+  },
+  "audio_loudnorm_input": {
+    "input_i": "-17.18",
+    "input_tp": "-0.25",
+    "input_lra": "1.70",
+    "input_thresh": "-27.31",
+    "output_i": "-14.19",
+    "output_tp": "-1.80",
+    "output_lra": "1.70",
+    "output_thresh": "-24.32",
+    "normalization_type": "dynamic",
+    "target_offset": "0.19"
+  },
+  "network": false,
+  "uploads": false,
+  "shots": [
+    {
+      "id": "S001",
+      "start_frame": 0,
+      "end_frame": 138,
+      "start_s": 0.0,
+      "end_s": 4.6,
+      "duration_s": 4.6,
+      "composition_id": "gear_pack_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/gear_hq.blend",
+        "camera": "gear_pack_wide",
+        "image": "assets/gear_pack_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F06"
+      ],
+      "primary_row": "N001",
+      "text": "보급품도 다 받지 못한 훈련병들에게 군장의 빈 곳을 책으로 채우게 했습니다.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "start",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S002",
+      "start_frame": 138,
+      "end_frame": 269,
+      "start_s": 4.6,
+      "end_s": 8.966666666666667,
+      "duration_s": 4.366666666666667,
+      "composition_id": "hospital_entrance_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/hospital_hq.blend",
+        "camera": "hospital_entrance_wide",
+        "image": "assets/hospital_entrance_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "E03",
+        "E05"
+      ],
+      "primary_row": "N002",
+      "text": "완전군장을 멘 채 훈련을 받던 한 훈련병은 의식을 잃고 이틀 뒤 숨졌습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S003",
+      "start_frame": 269,
+      "end_frame": 400,
+      "start_s": 8.966666666666667,
+      "end_s": 13.333333333333334,
+      "duration_s": 4.366666666666667,
+      "composition_id": "court_facade_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_facade_wide",
+        "image": "assets/court_facade_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "J04",
+        "J06"
+      ],
+      "primary_row": "N003",
+      "text": "군장을 책으로 채운 이 훈련에 법원은 어떤 이유로 얼마의 형을 내렸습니까?",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S004",
+      "start_frame": 400,
+      "end_frame": 520,
+      "start_s": 13.333333333333334,
+      "end_s": 17.333333333333332,
+      "duration_s": 3.9999999999999982,
+      "composition_id": "corridor_hall_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/corridor_hq.blend",
+        "camera": "corridor_hall_wide",
+        "image": "assets/corridor_hall_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "E01"
+      ],
+      "primary_row": "N004",
+      "text": "이천이십사년 오월 이십삼일 인제의 신병교육대에서 벌어진 일이죠.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "push_in",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S005",
+      "start_frame": 520,
+      "end_frame": 621,
+      "start_s": 17.333333333333332,
+      "end_s": 20.7,
+      "duration_s": 3.366666666666667,
+      "composition_id": "corridor_hall_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/corridor_hq.blend",
+        "camera": "corridor_hall_detail",
+        "image": "assets/corridor_hall_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "E01",
+        "F02"
+      ],
+      "primary_row": "N005",
+      "text": "시작은 전날 취침점호 뒤 훈련병들이 떠들었다는 이유로 적발된 일이었습니다.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "clause",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S006",
+      "start_frame": 621,
+      "end_frame": 726,
+      "start_s": 20.7,
+      "end_s": 24.2,
+      "duration_s": 3.5,
+      "composition_id": "corridor_hall_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/corridor_hq.blend",
+        "camera": "corridor_hall_consequence",
+        "image": "assets/corridor_hall_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F02",
+        "F03"
+      ],
+      "primary_row": "N006",
+      "text": "부중대장은 다음 날 오전 중대장에게 구두로 보고하고 훈련 승인을 받았습니다.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S007",
+      "start_frame": 726,
+      "end_frame": 827,
+      "start_s": 24.2,
+      "end_s": 27.566666666666666,
+      "duration_s": 3.366666666666667,
+      "composition_id": "cto_gate_entrance_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_gate.blend",
+        "camera": "cto_gate_entrance_wide",
+        "image": "assets/cto_gate_entrance_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "F03",
+        "F04"
+      ],
+      "primary_row": "N006",
+      "text": "부중대장은 다음 날 오전 중대장에게 구두로 보고하고 훈련 승인을 받았습니다.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S008",
+      "start_frame": 827,
+      "end_frame": 929,
+      "start_s": 27.566666666666666,
+      "end_s": 30.966666666666665,
+      "duration_s": 3.3999999999999986,
+      "composition_id": "cto_barracks_bedrow_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_barracks.blend",
+        "camera": "cto_barracks_bedrow_wide",
+        "image": "assets/cto_barracks_bedrow_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "F04"
+      ],
+      "primary_row": "N007",
+      "text": "그런데 대상자에게 확인서를 받고 소명할 기회를 주는 절차부터 빠졌어요.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S009",
+      "start_frame": 929,
+      "end_frame": 1024,
+      "start_s": 30.966666666666665,
+      "end_s": 34.13333333333333,
+      "duration_s": 3.166666666666668,
+      "composition_id": "corridor_threshold_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/corridor_hq.blend",
+        "camera": "corridor_threshold_detail",
+        "image": "assets/corridor_threshold_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F04",
+        "F05"
+      ],
+      "primary_row": "N008",
+      "text": "훈련병들의 신체 상태와 훈련장 온도지수도 제대로 확인하지 않았습니다.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "clause",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S010",
+      "start_frame": 1024,
+      "end_frame": 1118,
+      "start_s": 34.13333333333333,
+      "end_s": 37.266666666666666,
+      "duration_s": 3.133333333333333,
+      "composition_id": "gear_pack_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/gear_hq.blend",
+        "camera": "gear_pack_detail",
+        "image": "assets/gear_pack_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "E02",
+        "F05",
+        "F06"
+      ],
+      "primary_row": "N009",
+      "text": "군기훈련 대상은 여섯 명이었고 보급품의 빈자리를 메운 것은 책이었습니다.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S011",
+      "start_frame": 1118,
+      "end_frame": 1222,
+      "start_s": 37.266666666666666,
+      "end_s": 40.733333333333334,
+      "duration_s": 3.4666666666666686,
+      "composition_id": "gear_pack_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/gear_hq.blend",
+        "camera": "gear_pack_consequence",
+        "image": "assets/gear_pack_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "E02",
+        "F06",
+        "F08"
+      ],
+      "primary_row": "N009",
+      "text": "군기훈련 대상은 여섯 명이었고 보급품의 빈자리를 메운 것은 책이었습니다.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "clause",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S012",
+      "start_frame": 1222,
+      "end_frame": 1328,
+      "start_s": 40.733333333333334,
+      "end_s": 44.266666666666666,
+      "duration_s": 3.5333333333333314,
+      "composition_id": "ground_field_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/ground_hq.blend",
+        "camera": "ground_field_wide",
+        "image": "assets/ground_field_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F08"
+      ],
+      "primary_row": "N010",
+      "text": "여섯 훈련병은 완전군장 상태로 총기를 휴대한 채 연병장 두 바퀴를 걸었다.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "beat",
+      "move": "push_in",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S013",
+      "start_frame": 1328,
+      "end_frame": 1437,
+      "start_s": 44.266666666666666,
+      "end_s": 47.9,
+      "duration_s": 3.633333333333333,
+      "composition_id": "cto_gate_barrier_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_gate.blend",
+        "camera": "cto_gate_barrier_detail",
+        "image": "assets/cto_gate_barrier_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "F08",
+        "F09"
+      ],
+      "primary_row": "N011",
+      "text": "뒤이어 중대장은 완전군장을 한 상태에서 선착순 한 바퀴를 지시했습니다.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "clause",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S014",
+      "start_frame": 1437,
+      "end_frame": 1539,
+      "start_s": 47.9,
+      "end_s": 51.3,
+      "duration_s": 3.3999999999999986,
+      "composition_id": "ground_field_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/ground_hq.blend",
+        "camera": "ground_field_consequence",
+        "image": "assets/ground_field_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F09"
+      ],
+      "primary_row": "N012",
+      "text": "팔굽혀펴기에 이어 뜀걸음 세 바퀴가 더해졌고 훈련은 계속 이어졌습니다.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S015",
+      "start_frame": 1539,
+      "end_frame": 1746,
+      "start_s": 51.3,
+      "end_s": 58.2,
+      "duration_s": 6.900000000000006,
+      "composition_id": "card_015",
+      "source": {
+        "type": "card",
+        "card_id": "card_015",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "F09",
+        "F10",
+        "F11",
+        "F12"
+      ],
+      "primary_row": "N013",
+      "text": "수사에서 특정한 훈련 시작 시각은 그날 오후 네 시 이십육 분쯤이었죠.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "clause",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "edit_note": "Continuous record hold: removed duplicate re-layout cut; source text and narration unchanged."
+    },
+    {
+      "id": "S017",
+      "start_frame": 1746,
+      "end_frame": 1867,
+      "start_s": 58.2,
+      "end_s": 62.233333333333334,
+      "duration_s": 4.033333333333331,
+      "composition_id": "card_017",
+      "source": {
+        "type": "card",
+        "card_id": "card_017",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "F11",
+        "F12",
+        "F13"
+      ],
+      "primary_row": "N014",
+      "text": "한 훈련병이 의식을 잃은 시각은 다섯 시 십일 분쯤으로 약 사십오 분 뒤였습니다.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "beat",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S018",
+      "start_frame": 1867,
+      "end_frame": 1984,
+      "start_s": 62.233333333333334,
+      "end_s": 66.13333333333334,
+      "duration_s": 3.9000000000000057,
+      "composition_id": "corridor_threshold_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/corridor_hq.blend",
+        "camera": "corridor_threshold_consequence",
+        "image": "assets/corridor_threshold_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F13"
+      ],
+      "primary_row": "N015",
+      "text": "경찰은 간부들이 위급 상황을 제대로 인지하지 못해 응급처치도 지체했다고 봤습니다.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S019",
+      "start_frame": 1984,
+      "end_frame": 2085,
+      "start_s": 66.13333333333334,
+      "end_s": 69.5,
+      "duration_s": 3.36666666666666,
+      "composition_id": "corridor_window_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/corridor_hq.blend",
+        "camera": "corridor_window_wide",
+        "image": "assets/corridor_window_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "C01",
+        "C10",
+        "D01",
+        "F13"
+      ],
+      "primary_row": "N016",
+      "text": "검찰은 단순 과실로 보지 않고 학대치사죄를 적용해 두 지휘관을 재판에 넘겼어요.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S020",
+      "start_frame": 2085,
+      "end_frame": 2190,
+      "start_s": 69.5,
+      "end_s": 73.0,
+      "duration_s": 3.5,
+      "composition_id": "cto_courtroom_bench_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_courtroom.blend",
+        "camera": "cto_courtroom_bench_wide",
+        "image": "assets/cto_courtroom_bench_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "C01",
+        "C06",
+        "C10",
+        "D01",
+        "D05",
+        "J06"
+      ],
+      "primary_row": "N016",
+      "text": "검찰은 단순 과실로 보지 않고 학대치사죄를 적용해 두 지휘관을 재판에 넘겼어요.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S021",
+      "start_frame": 2190,
+      "end_frame": 2285,
+      "start_s": 73.0,
+      "end_s": 76.16666666666667,
+      "duration_s": 3.1666666666666714,
+      "composition_id": "court_facade_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_facade_detail",
+        "image": "assets/court_facade_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "C06",
+        "D05",
+        "J06"
+      ],
+      "primary_row": "N017",
+      "text": "일심의 첫 답은 유죄였고 군기훈련과 사망 사이의 인과관계를 인정했습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S022",
+      "start_frame": 2285,
+      "end_frame": 2420,
+      "start_s": 76.16666666666667,
+      "end_s": 80.66666666666667,
+      "duration_s": 4.5,
+      "composition_id": "court_facade_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_facade_consequence",
+        "image": "assets/court_facade_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "C06",
+        "D05"
+      ],
+      "primary_row": "N018",
+      "text": "중대장과 부중대장 모두 학대치사와 직권남용 가혹행위를 유죄로 판단했습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S023",
+      "start_frame": 2420,
+      "end_frame": 2546,
+      "start_s": 80.66666666666667,
+      "end_s": 84.86666666666666,
+      "duration_s": 4.199999999999989,
+      "composition_id": "court_steps_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_steps_wide",
+        "image": "assets/court_steps_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "C04",
+        "C06",
+        "D05"
+      ],
+      "primary_row": "N019",
+      "text": "중대장 측은 잘못된 행동을 인정하면서도 학대치사 혐의는 끝까지 부인했죠.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S024",
+      "start_frame": 2546,
+      "end_frame": 2655,
+      "start_s": 84.86666666666666,
+      "end_s": 88.5,
+      "duration_s": 3.63333333333334,
+      "composition_id": "cto_courtroom_bench_documents",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_courtroom.blend",
+        "camera": "cto_courtroom_bench_documents",
+        "image": "assets/cto_courtroom_bench_documents.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "C04",
+        "C06"
+      ],
+      "primary_row": "N020",
+      "text": "잘못을 인정한 범위와 법원이 유죄로 본 범위가 서로 달랐던 것입니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S025",
+      "start_frame": 2655,
+      "end_frame": 2784,
+      "start_s": 88.5,
+      "end_s": 92.8,
+      "duration_s": 4.299999999999997,
+      "composition_id": "cto_desk_desk_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_desk.blend",
+        "camera": "cto_desk_desk_wide",
+        "image": "assets/cto_desk_desk_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "C04",
+        "C06",
+        "E06"
+      ],
+      "primary_row": "N021",
+      "text": "검찰은 훈련 방식과 진행 경과에 피해자의 신체조건까지 종합해 학대로 봤습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S026",
+      "start_frame": 2784,
+      "end_frame": 2913,
+      "start_s": 92.8,
+      "end_s": 97.1,
+      "duration_s": 4.299999999999997,
+      "composition_id": "court_steps_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_steps_consequence",
+        "image": "assets/court_steps_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "E06",
+        "J03"
+      ],
+      "primary_row": "N022",
+      "text": "재판부도 신체조건에 맞지 않는 군기훈련이었다는 점에서 죄책을 무겁게 봤다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S027",
+      "start_frame": 2913,
+      "end_frame": 3019,
+      "start_s": 97.1,
+      "end_s": 100.63333333333334,
+      "duration_s": 3.5333333333333456,
+      "composition_id": "court_entry_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_entry_wide",
+        "image": "assets/court_entry_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "C06",
+        "J03",
+        "J04"
+      ],
+      "primary_row": "N022",
+      "text": "재판부도 신체조건에 맞지 않는 군기훈련이었다는 점에서 죄책을 무겁게 봤다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S028",
+      "start_frame": 3019,
+      "end_frame": 3132,
+      "start_s": 100.63333333333334,
+      "end_s": 104.4,
+      "duration_s": 3.7666666666666657,
+      "composition_id": "cto_courtroom_empty_witness",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_courtroom.blend",
+        "camera": "cto_courtroom_empty_witness",
+        "image": "assets/cto_courtroom_empty_witness.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "C06",
+        "J04"
+      ],
+      "primary_row": "N023",
+      "text": "그런데 학대치사를 인정한 같은 판결에 교육 목적을 참작했다는 이유가 등장합니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S029",
+      "start_frame": 3132,
+      "end_frame": 3246,
+      "start_s": 104.4,
+      "end_s": 108.2,
+      "duration_s": 3.799999999999997,
+      "composition_id": "cto_desk_file_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_desk.blend",
+        "camera": "cto_desk_file_detail",
+        "image": "assets/cto_desk_file_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J04"
+      ],
+      "primary_row": "N024",
+      "text": "그 이유를 보기 전 책으로 채운 군장 뒤에 남겨진 기록부터 살펴봅니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S030",
+      "start_frame": 3246,
+      "end_frame": 3384,
+      "start_s": 108.2,
+      "end_s": 112.8,
+      "duration_s": 4.599999999999994,
+      "composition_id": "card_030",
+      "source": {
+        "type": "card",
+        "card_id": "card_030",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "F25"
+      ],
+      "primary_row": "N025",
+      "text": "어머니의 공개편지에는 입영 날 먼 길을 돌아갈 부모를 걱정한 아들이 남아 있죠.",
+      "source_context": "어머니 공개편지",
+      "cut_alignment": "sentence",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S031",
+      "start_frame": 3384,
+      "end_frame": 3482,
+      "start_s": 112.8,
+      "end_s": 116.06666666666666,
+      "duration_s": 3.2666666666666657,
+      "composition_id": "phone_letter_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/phone_hq.blend",
+        "camera": "phone_letter_wide",
+        "image": "assets/phone_letter_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F25"
+      ],
+      "primary_row": "N026",
+      "text": "차로 여섯 시간에서 일곱 시간을 갈 부모의 손을 잡고 등을 다독였다는 기억입니다.",
+      "source_context": "어머니 공개편지",
+      "cut_alignment": "clause",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S032",
+      "start_frame": 3482,
+      "end_frame": 3600,
+      "start_s": 116.06666666666666,
+      "end_s": 120.0,
+      "duration_s": 3.933333333333337,
+      "composition_id": "phone_letter_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/phone_hq.blend",
+        "camera": "phone_letter_detail",
+        "image": "assets/phone_letter_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F01",
+        "F25"
+      ],
+      "primary_row": "N027",
+      "text": "어머니는 아들이 신병으로 아홉 날을 지내며 옆 전우와 친해졌다고 편지에 썼습니다.",
+      "source_context": "어머니 공개편지",
+      "cut_alignment": "clause",
+      "move": "push_in",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S033",
+      "start_frame": 3600,
+      "end_frame": 3728,
+      "start_s": 120.0,
+      "end_s": 124.26666666666667,
+      "duration_s": 4.266666666666666,
+      "composition_id": "phone_letter_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/phone_hq.blend",
+        "camera": "phone_letter_consequence",
+        "image": "assets/phone_letter_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F01",
+        "F23"
+      ],
+      "primary_row": "N027",
+      "text": "어머니는 아들이 신병으로 아홉 날을 지내며 옆 전우와 친해졌다고 편지에 썼습니다.",
+      "source_context": "어머니 공개편지",
+      "cut_alignment": "clause",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S034",
+      "start_frame": 3728,
+      "end_frame": 3839,
+      "start_s": 124.26666666666667,
+      "end_s": 127.96666666666667,
+      "duration_s": 3.700000000000003,
+      "composition_id": "phone_memory_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/phone_hq.blend",
+        "camera": "phone_memory_wide",
+        "image": "assets/phone_memory_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F23"
+      ],
+      "primary_row": "N028",
+      "text": "그 편지에는 아들이 쓰러졌다는 첫 전화를 받은 시각도 분 단위로 남았어요.",
+      "source_context": "어머니 공개편지",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S035",
+      "start_frame": 3839,
+      "end_frame": 3940,
+      "start_s": 127.96666666666667,
+      "end_s": 131.33333333333334,
+      "duration_s": 3.3666666666666742,
+      "composition_id": "card_035",
+      "source": {
+        "type": "card",
+        "card_id": "card_035",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "F23"
+      ],
+      "primary_row": "N029",
+      "text": "오월 이십삼일 오후 다섯 시 오십사 분이 어머니가 적은 첫 전화 시각입니다.",
+      "source_context": "어머니 공개편지",
+      "cut_alignment": "clause",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S036",
+      "start_frame": 3940,
+      "end_frame": 4067,
+      "start_s": 131.33333333333334,
+      "end_s": 135.56666666666666,
+      "duration_s": 4.23333333333332,
+      "composition_id": "hospital_entrance_access",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/hospital_hq.blend",
+        "camera": "hospital_entrance_access",
+        "image": "assets/hospital_entrance_access.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F19"
+      ],
+      "primary_row": "N030",
+      "text": "속초의료원에서 상급병원에 도착하기까지는 약 세 시간이 걸렸습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true,
+      "label": "약 3시간 · 두 병원 사이 경과"
+    },
+    {
+      "id": "S037",
+      "start_frame": 4067,
+      "end_frame": 4200,
+      "start_s": 135.56666666666666,
+      "end_s": 140.0,
+      "duration_s": 4.433333333333337,
+      "composition_id": "hospital_entrance_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/hospital_hq.blend",
+        "camera": "hospital_entrance_consequence",
+        "image": "assets/hospital_entrance_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F18"
+      ],
+      "primary_row": "N031",
+      "text": "훈련병이 강릉아산병원에 도착한 시각은 같은 날 밤 아홉 시 사십 분쯤이었다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S038",
+      "start_frame": 4200,
+      "end_frame": 4312,
+      "start_s": 140.0,
+      "end_s": 143.73333333333332,
+      "duration_s": 3.73333333333332,
+      "composition_id": "hospital_canopy_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/hospital_hq.blend",
+        "camera": "hospital_canopy_wide",
+        "image": "assets/hospital_canopy_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F18",
+        "F19"
+      ],
+      "primary_row": "N032",
+      "text": "약 세 시간은 두 병원 사이의 전체 경과로 차를 타고 간 시간만을 뜻하지 않습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S039",
+      "start_frame": 4312,
+      "end_frame": 4430,
+      "start_s": 143.73333333333332,
+      "end_s": 147.66666666666666,
+      "duration_s": 3.933333333333337,
+      "composition_id": "graduation_certificate_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/graduation_hq.blend",
+        "camera": "graduation_certificate_wide",
+        "image": "assets/graduation_certificate_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "E05",
+        "F19",
+        "F30"
+      ],
+      "primary_row": "N033",
+      "text": "훈련병은 이틀 후 숨졌고 동기들의 수료식장에는 명예수료증이 놓였습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S040",
+      "start_frame": 4430,
+      "end_frame": 4542,
+      "start_s": 147.66666666666666,
+      "end_s": 151.4,
+      "duration_s": 3.7333333333333485,
+      "composition_id": "graduation_certificate_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/graduation_hq.blend",
+        "camera": "graduation_certificate_detail",
+        "image": "assets/graduation_certificate_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "E05",
+        "F30"
+      ],
+      "primary_row": "N034",
+      "text": "유월 십구일 인제체육관 수료식장에 마련된 추모 공간의 명예수료증이었죠.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "push_in",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S041",
+      "start_frame": 4542,
+      "end_frame": 4653,
+      "start_s": 151.4,
+      "end_s": 155.1,
+      "duration_s": 3.6999999999999886,
+      "composition_id": "graduation_certificate_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/graduation_hq.blend",
+        "camera": "graduation_certificate_consequence",
+        "image": "assets/graduation_certificate_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F07",
+        "F30"
+      ],
+      "primary_row": "N034",
+      "text": "유월 십구일 인제체육관 수료식장에 마련된 추모 공간의 명예수료증이었죠.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S042",
+      "start_frame": 4653,
+      "end_frame": 4785,
+      "start_s": 155.1,
+      "end_s": 159.5,
+      "duration_s": 4.400000000000006,
+      "composition_id": "gear_books_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/gear_hq.blend",
+        "camera": "gear_books_wide",
+        "image": "assets/gear_books_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "F07",
+        "F35"
+      ],
+      "primary_row": "N035",
+      "text": "그 뒤 법정에 선 동료들은 군장에 책 약 마흔 권을 넣었다는 취지로 증언했습니다.",
+      "source_context": "동료 법정 증언",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S043",
+      "start_frame": 4785,
+      "end_frame": 4910,
+      "start_s": 159.5,
+      "end_s": 163.66666666666666,
+      "duration_s": 4.166666666666657,
+      "composition_id": "card_043",
+      "source": {
+        "type": "card",
+        "card_id": "card_043",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "F35",
+        "J05"
+      ],
+      "primary_row": "N036",
+      "text": "동료 한 명은 외상 후 스트레스 장애 진단을 받았다고 법정에서 밝혔습니다.",
+      "source_context": "동료 법정 증언",
+      "cut_alignment": "clause",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S044",
+      "start_frame": 4910,
+      "end_frame": 5023,
+      "start_s": 163.66666666666666,
+      "end_s": 167.43333333333334,
+      "duration_s": 3.76666666666668,
+      "composition_id": "cto_ceremony_certificate_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_ceremony.blend",
+        "camera": "cto_ceremony_certificate_detail",
+        "image": "assets/cto_ceremony_certificate_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J05"
+      ],
+      "primary_row": "N037",
+      "text": "이런 피해를 놓고 일심은 피해자 측의 용서도 받지 못했다는 사정을 지적했어요.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S045",
+      "start_frame": 5023,
+      "end_frame": 5161,
+      "start_s": 167.43333333333334,
+      "end_s": 172.03333333333333,
+      "duration_s": 4.599999999999994,
+      "composition_id": "cto_courtroom_witness_microphone",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_courtroom.blend",
+        "camera": "cto_courtroom_witness_microphone",
+        "image": "assets/cto_courtroom_witness_microphone.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J03"
+      ],
+      "primary_row": "N038",
+      "text": "군의 사기와 전투력 그리고 국민의 신뢰를 해친 점에서도 죄책을 무겁게 봤습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S046",
+      "start_frame": 5161,
+      "end_frame": 5275,
+      "start_s": 172.03333333333333,
+      "end_s": 175.83333333333334,
+      "duration_s": 3.8000000000000114,
+      "composition_id": "court_column_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_column_wide",
+        "image": "assets/court_column_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "J03",
+        "J04"
+      ],
+      "primary_row": "N039",
+      "text": "하지만 형을 정할 때에는 무겁게 본 사정과 유리하게 본 사정을 함께 놓았습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S047",
+      "start_frame": 5275,
+      "end_frame": 5392,
+      "start_s": 175.83333333333334,
+      "end_s": 179.73333333333332,
+      "duration_s": 3.8999999999999773,
+      "composition_id": "court_column_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_column_detail",
+        "image": "assets/court_column_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "J03",
+        "J04"
+      ],
+      "primary_row": "N040",
+      "text": "일심은 사실관계를 인정하고 잘못을 반성하는 태도를 유리한 정상으로 참작했다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S048",
+      "start_frame": 5392,
+      "end_frame": 5504,
+      "start_s": 179.73333333333332,
+      "end_s": 183.46666666666667,
+      "duration_s": 3.7333333333333485,
+      "composition_id": "cto_courtroom_gallery_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_courtroom.blend",
+        "camera": "cto_courtroom_gallery_wide",
+        "image": "assets/cto_courtroom_gallery_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J04"
+      ],
+      "primary_row": "N040",
+      "text": "일심은 사실관계를 인정하고 잘못을 반성하는 태도를 유리한 정상으로 참작했다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S049",
+      "start_frame": 5504,
+      "end_frame": 5613,
+      "start_s": 183.46666666666667,
+      "end_s": 187.1,
+      "duration_s": 3.6333333333333258,
+      "composition_id": "cto_courtroom_judicial_records",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_courtroom.blend",
+        "camera": "cto_courtroom_judicial_records",
+        "image": "assets/cto_courtroom_judicial_records.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "C06",
+        "J04"
+      ],
+      "primary_row": "N041",
+      "text": "군 기강을 세우려는 교육 목적으로 훈련하다 범행에 이른 점도 함께 참작했습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S050",
+      "start_frame": 5613,
+      "end_frame": 5737,
+      "start_s": 187.1,
+      "end_s": 191.23333333333332,
+      "duration_s": 4.133333333333326,
+      "composition_id": "court_rail_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_rail_wide",
+        "image": "assets/court_rail_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "C06",
+        "J04"
+      ],
+      "primary_row": "N042",
+      "text": "교육 목적을 참작한 것은 일심의 양형 이유이며 학대치사 유죄 판단도 유지됐습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S051",
+      "start_frame": 5737,
+      "end_frame": 5857,
+      "start_s": 191.23333333333332,
+      "end_s": 195.23333333333332,
+      "duration_s": 4.0,
+      "composition_id": "cto_desk_empty_chair",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_desk.blend",
+        "camera": "cto_desk_empty_chair",
+        "image": "assets/cto_desk_empty_chair.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "C03",
+        "C06",
+        "J04"
+      ],
+      "primary_row": "N043",
+      "text": "그 전에 검찰은 중대장에게 일심에서 징역 십 년을 선고해 달라고 구형했죠.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S052",
+      "start_frame": 5857,
+      "end_frame": 5963,
+      "start_s": 195.23333333333332,
+      "end_s": 198.76666666666668,
+      "duration_s": 3.53333333333336,
+      "composition_id": "card_052",
+      "source": {
+        "type": "card",
+        "card_id": "card_052",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "C03",
+        "D03"
+      ],
+      "primary_row": "N044",
+      "text": "부중대장에게는 징역 칠 년을 구형했으며 두 숫자는 검찰이 요청한 형이었습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S053",
+      "start_frame": 5963,
+      "end_frame": 6064,
+      "start_s": 198.76666666666668,
+      "end_s": 202.13333333333333,
+      "duration_s": 3.366666666666646,
+      "composition_id": "court_rail_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_rail_consequence",
+        "image": "assets/court_rail_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "D03",
+        "E07"
+      ],
+      "primary_row": "N044",
+      "text": "부중대장에게는 징역 칠 년을 구형했으며 두 숫자는 검찰이 요청한 형이었습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S054",
+      "start_frame": 6064,
+      "end_frame": 6162,
+      "start_s": 202.13333333333333,
+      "end_s": 205.4,
+      "duration_s": 3.26666666666668,
+      "composition_id": "court_stone_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_stone_wide",
+        "image": "assets/court_stone_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "E07"
+      ],
+      "primary_row": "N045",
+      "text": "군의 지도력과 관리 체제에 대한 국민 신뢰를 훼손했다는 것이 구형 이유였습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S055",
+      "start_frame": 6162,
+      "end_frame": 6302,
+      "start_s": 205.4,
+      "end_s": 210.06666666666666,
+      "duration_s": 4.666666666666657,
+      "composition_id": "cto_desk_archive_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_desk.blend",
+        "camera": "cto_desk_archive_wide",
+        "image": "assets/cto_desk_archive_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "C05"
+      ],
+      "primary_row": "N046",
+      "text": "이천이십오년 일월 칠일 춘천지법이 중대장에게 실제로 내린 선고가 나왔어요.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S056",
+      "start_frame": 6302,
+      "end_frame": 6451,
+      "start_s": 210.06666666666666,
+      "end_s": 215.03333333333333,
+      "duration_s": 4.966666666666669,
+      "composition_id": "card_056",
+      "source": {
+        "type": "card",
+        "card_id": "card_056",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "C03",
+        "C05"
+      ],
+      "primary_row": "N047",
+      "text": "징역 오 년이 일심의 중대장 선고였고 검찰이 구형한 십 년과는 달랐습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "verdict_beat",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S057",
+      "start_frame": 6451,
+      "end_frame": 6578,
+      "start_s": 215.03333333333333,
+      "end_s": 219.26666666666668,
+      "duration_s": 4.2333333333333485,
+      "composition_id": "cto_courtroom_hearing_overview",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_courtroom.blend",
+        "camera": "cto_courtroom_hearing_overview",
+        "image": "assets/cto_courtroom_hearing_overview.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "D03",
+        "D04"
+      ],
+      "primary_row": "N048",
+      "text": "부중대장은 징역 칠 년의 일심 구형에 대해 징역 삼 년을 선고받았습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S058",
+      "start_frame": 6578,
+      "end_frame": 6711,
+      "start_s": 219.26666666666668,
+      "end_s": 223.7,
+      "duration_s": 4.433333333333309,
+      "composition_id": "court_glass_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_glass_wide",
+        "image": "assets/court_glass_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "C05",
+        "J04"
+      ],
+      "primary_row": "N049",
+      "text": "유죄라는 판단과 함께 반성과 교육 목적을 참작한 일심의 결과가 이 숫자였죠.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S059",
+      "start_frame": 6711,
+      "end_frame": 6826,
+      "start_s": 223.7,
+      "end_s": 227.53333333333333,
+      "duration_s": 3.833333333333343,
+      "composition_id": "cto_ceremony_ceremony_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_ceremony.blend",
+        "camera": "cto_ceremony_ceremony_wide",
+        "image": "assets/cto_ceremony_ceremony_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "C05",
+        "C07",
+        "J04"
+      ],
+      "primary_row": "N050",
+      "text": "그런데 중대장에게 내려진 징역 오 년은 마지막 숫자가 아니었습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S060",
+      "start_frame": 6826,
+      "end_frame": 6915,
+      "start_s": 227.53333333333333,
+      "end_s": 230.5,
+      "duration_s": 2.9666666666666686,
+      "composition_id": "card_060",
+      "source": {
+        "type": "card",
+        "card_id": "card_060",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "C05",
+        "C07",
+        "J07"
+      ],
+      "primary_row": "N051",
+      "text": "항소심에서는 죄의 수에 관한 판단이 바뀌었고 중대장의 형도 늘어났습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S061",
+      "start_frame": 6915,
+      "end_frame": 7015,
+      "start_s": 230.5,
+      "end_s": 233.83333333333334,
+      "duration_s": 3.333333333333343,
+      "composition_id": "court_glass_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_glass_consequence",
+        "image": "assets/court_glass_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "C07",
+        "J07",
+        "J08"
+      ],
+      "primary_row": "N051",
+      "text": "항소심에서는 죄의 수에 관한 판단이 바뀌었고 중대장의 형도 늘어났습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S062",
+      "start_frame": 7015,
+      "end_frame": 7116,
+      "start_s": 233.83333333333334,
+      "end_s": 237.2,
+      "duration_s": 3.366666666666646,
+      "composition_id": "court_plaza_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_plaza_wide",
+        "image": "assets/court_plaza_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "J08"
+      ],
+      "primary_row": "N052",
+      "text": "같은 훈련장에서 벌어진 일을 어떤 기준으로 나누어 보았는지가 다음 쟁점이다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S063",
+      "start_frame": 7116,
+      "end_frame": 7250,
+      "start_s": 237.2,
+      "end_s": 241.66666666666666,
+      "duration_s": 4.466666666666669,
+      "composition_id": "card_063",
+      "source": {
+        "type": "card",
+        "card_id": "card_063",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "J01",
+        "J09"
+      ],
+      "primary_row": "N053",
+      "text": "일심은 하나의 행위가 여러 범죄를 구성하는 관계인 상상적경합으로 봤습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "wipeleft",
+        "frames": 9
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S064",
+      "start_frame": 7250,
+      "end_frame": 7381,
+      "start_s": 241.66666666666666,
+      "end_s": 246.03333333333333,
+      "duration_s": 4.366666666666674,
+      "composition_id": "cto_timeline_record_wall_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_timeline.blend",
+        "camera": "cto_timeline_record_wall_wide",
+        "image": "assets/cto_timeline_record_wall_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J01",
+        "J09"
+      ],
+      "primary_row": "N054",
+      "text": "여러 범죄가 성립하더라도 그 출발이 되는 행위는 하나로 묶어 본 것입니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S065",
+      "start_frame": 7381,
+      "end_frame": 7509,
+      "start_s": 246.03333333333333,
+      "end_s": 250.3,
+      "duration_s": 4.26666666666668,
+      "composition_id": "court_plaza_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_plaza_consequence",
+        "image": "assets/court_plaza_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "J01",
+        "J08"
+      ],
+      "primary_row": "N055",
+      "text": "하지만 항소심은 같은 장소와 같은 기회라는 점보다 피해자별 차이에 주목했죠.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S066",
+      "start_frame": 7509,
+      "end_frame": 7625,
+      "start_s": 250.3,
+      "end_s": 254.16666666666666,
+      "duration_s": 3.866666666666646,
+      "composition_id": "card_066",
+      "source": {
+        "type": "card",
+        "card_id": "card_066",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "J08"
+      ],
+      "primary_row": "N056",
+      "text": "피해자마다 각각의 가혹행위와 학대의 양상이 달랐다는 것이 판단의 이유였습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S067",
+      "start_frame": 7625,
+      "end_frame": 7740,
+      "start_s": 254.16666666666666,
+      "end_s": 258.0,
+      "duration_s": 3.833333333333343,
+      "composition_id": "court_gate_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_gate_wide",
+        "image": "assets/court_gate_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "J08"
+      ],
+      "primary_row": "N057",
+      "text": "같은 훈련장에서 이어졌다는 이유만으로 서로 다른 행위를 하나로 묶지 않았습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S068",
+      "start_frame": 7740,
+      "end_frame": 7858,
+      "start_s": 258.0,
+      "end_s": 261.93333333333334,
+      "duration_s": 3.933333333333337,
+      "composition_id": "cto_timeline_timeline_start",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_timeline.blend",
+        "camera": "cto_timeline_timeline_start",
+        "image": "assets/cto_timeline_timeline_start.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J07",
+        "J08",
+        "J09"
+      ],
+      "primary_row": "N057",
+      "text": "같은 훈련장에서 이어졌다는 이유만으로 서로 다른 행위를 하나로 묶지 않았습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S069",
+      "start_frame": 7858,
+      "end_frame": 7963,
+      "start_s": 261.93333333333334,
+      "end_s": 265.43333333333334,
+      "duration_s": 3.5,
+      "composition_id": "card_069",
+      "source": {
+        "type": "card",
+        "card_id": "card_069",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "J07",
+        "J09"
+      ],
+      "primary_row": "N058",
+      "text": "여러 행위로 여러 죄를 범한 관계인 실체적경합으로 항소심 판단이 바뀌었어요.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S070",
+      "start_frame": 7963,
+      "end_frame": 8084,
+      "start_s": 265.43333333333334,
+      "end_s": 269.46666666666664,
+      "duration_s": 4.033333333333303,
+      "composition_id": "court_gate_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_gate_consequence",
+        "image": "assets/court_gate_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "E02",
+        "J08"
+      ],
+      "primary_row": "N059",
+      "text": "여기서 훈련병 여섯 명이라는 숫자를 곧바로 확정된 범죄 여섯 개로 세는 것은 아닙니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S071",
+      "start_frame": 8084,
+      "end_frame": 8189,
+      "start_s": 269.46666666666664,
+      "end_s": 272.96666666666664,
+      "duration_s": 3.5,
+      "composition_id": "court_dawn_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_dawn_wide",
+        "image": "assets/court_dawn_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "E02",
+        "J08"
+      ],
+      "primary_row": "N060",
+      "text": "쟁점은 사람 수를 그대로 더하는 데 있지 않고 피해자별 행위를 구별하는 데 있었습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S072",
+      "start_frame": 8189,
+      "end_frame": 8303,
+      "start_s": 272.96666666666664,
+      "end_s": 276.76666666666665,
+      "duration_s": 3.8000000000000114,
+      "composition_id": "card_072",
+      "source": {
+        "type": "card",
+        "card_id": "card_072",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "J01",
+        "J08"
+      ],
+      "primary_row": "N060",
+      "text": "쟁점은 사람 수를 그대로 더하는 데 있지 않고 피해자별 행위를 구별하는 데 있었습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S073",
+      "start_frame": 8303,
+      "end_frame": 8407,
+      "start_s": 276.76666666666665,
+      "end_s": 280.23333333333335,
+      "duration_s": 3.466666666666697,
+      "composition_id": "cto_desk_paper_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_desk.blend",
+        "camera": "cto_desk_paper_detail",
+        "image": "assets/cto_desk_paper_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J01",
+        "J08"
+      ],
+      "primary_row": "N061",
+      "text": "일심의 하나의 행위라는 판단과 항소심의 여러 행위라는 판단이 여기서 갈렸다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S074",
+      "start_frame": 8407,
+      "end_frame": 8521,
+      "start_s": 280.23333333333335,
+      "end_s": 284.03333333333336,
+      "duration_s": 3.8000000000000114,
+      "composition_id": "court_dawn_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/court_hq.blend",
+        "camera": "court_dawn_consequence",
+        "image": "assets/court_dawn_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "J10"
+      ],
+      "primary_row": "N062",
+      "text": "그 차이는 법이 허용하는 처벌 범위와 연결되며 보도도 두 경우를 나누어 설명합니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S075",
+      "start_frame": 8521,
+      "end_frame": 8632,
+      "start_s": 284.03333333333336,
+      "end_s": 287.73333333333335,
+      "duration_s": 3.6999999999999886,
+      "composition_id": "card_075",
+      "source": {
+        "type": "card",
+        "card_id": "card_075",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "J10"
+      ],
+      "primary_row": "N063",
+      "text": "상상적경합은 가장 무거운 죄에 정한 형으로 처벌한다는 것이 보도의 설명입니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S076",
+      "start_frame": 8632,
+      "end_frame": 8725,
+      "start_s": 287.73333333333335,
+      "end_s": 290.8333333333333,
+      "duration_s": 3.099999999999966,
+      "composition_id": "corridor_window_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/corridor_hq.blend",
+        "camera": "corridor_window_detail",
+        "image": "assets/corridor_window_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "J10"
+      ],
+      "primary_row": "N063",
+      "text": "상상적경합은 가장 무거운 죄에 정한 형으로 처벌한다는 것이 보도의 설명입니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "push_in",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S077",
+      "start_frame": 8725,
+      "end_frame": 8834,
+      "start_s": 290.8333333333333,
+      "end_s": 294.46666666666664,
+      "duration_s": 3.6333333333333258,
+      "composition_id": "corridor_window_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/corridor_hq.blend",
+        "camera": "corridor_window_consequence",
+        "image": "assets/corridor_window_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "J10"
+      ],
+      "primary_row": "N064",
+      "text": "실체적경합은 가장 무거운 죄의 형을 가중할 수 있다는 것이 보도된 설명이죠.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S078",
+      "start_frame": 8834,
+      "end_frame": 8969,
+      "start_s": 294.46666666666664,
+      "end_s": 298.96666666666664,
+      "duration_s": 4.5,
+      "composition_id": "card_078",
+      "source": {
+        "type": "card",
+        "card_id": "card_078",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "C05",
+        "J10"
+      ],
+      "primary_row": "N065",
+      "text": "앞서 선고한 오 년에 어떤 배수를 곱해서 다음 형량을 구하는 계산은 아닙니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S079",
+      "start_frame": 8969,
+      "end_frame": 9086,
+      "start_s": 298.96666666666664,
+      "end_s": 302.8666666666667,
+      "duration_s": 3.900000000000034,
+      "composition_id": "cto_desk_archive_binders",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_desk.blend",
+        "camera": "cto_desk_archive_binders",
+        "image": "assets/cto_desk_archive_binders.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J02"
+      ],
+      "primary_row": "N066",
+      "text": "일심이 참고한 학대치사죄의 양형기준도 법정형의 상한과 같은 개념은 아닙니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S080",
+      "start_frame": 9086,
+      "end_frame": 9187,
+      "start_s": 302.8666666666667,
+      "end_s": 306.23333333333335,
+      "duration_s": 3.3666666666666742,
+      "composition_id": "gear_books_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/gear_hq.blend",
+        "camera": "gear_books_consequence",
+        "image": "assets/gear_books_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "C07",
+        "J02",
+        "J07"
+      ],
+      "primary_row": "N067",
+      "text": "항소심은 죄의 수에 관한 일심 판단을 바꿨고 중대장에게 더 긴 형을 선고했어요.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "push_in",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S081",
+      "start_frame": 9187,
+      "end_frame": 9302,
+      "start_s": 306.23333333333335,
+      "end_s": 310.06666666666666,
+      "duration_s": 3.8333333333333144,
+      "composition_id": "card_081",
+      "source": {
+        "type": "card",
+        "card_id": "card_081",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "C07",
+        "J07",
+        "J08"
+      ],
+      "primary_row": "N067",
+      "text": "항소심은 죄의 수에 관한 일심 판단을 바꿨고 중대장에게 더 긴 형을 선고했어요.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S082",
+      "start_frame": 9302,
+      "end_frame": 9417,
+      "start_s": 310.06666666666666,
+      "end_s": 313.9,
+      "duration_s": 3.8333333333333144,
+      "composition_id": "gear_canvas_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/gear_hq.blend",
+        "camera": "gear_canvas_wide",
+        "image": "assets/gear_canvas_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "C07",
+        "J08",
+        "J11"
+      ],
+      "primary_row": "N068",
+      "text": "그렇다고 행위를 나누어 봤다는 이유만으로 늘어난 기간을 미리 계산할 수는 없습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S083",
+      "start_frame": 9417,
+      "end_frame": 9551,
+      "start_s": 313.9,
+      "end_s": 318.3666666666667,
+      "duration_s": 4.466666666666697,
+      "composition_id": "cto_desk_folder_overview",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_desk.blend",
+        "camera": "cto_desk_folder_overview",
+        "image": "assets/cto_desk_folder_overview.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J11"
+      ],
+      "primary_row": "N069",
+      "text": "숫자에 앞서 항소심이 이 범행을 어떻게 평가했는지 마지막 판단이 남았습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S084",
+      "start_frame": 9551,
+      "end_frame": 9676,
+      "start_s": 318.3666666666667,
+      "end_s": 322.53333333333336,
+      "duration_s": 4.166666666666686,
+      "composition_id": "cto_gate_closed_gate",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_gate.blend",
+        "camera": "cto_gate_closed_gate",
+        "image": "assets/cto_gate_closed_gate.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J11"
+      ],
+      "primary_row": "N070",
+      "text": "재판부는 지휘관들이 낡은 병영문화를 답습해 사망사고를 초래했다고 봤다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_left",
+      "transition": {
+        "type": "wipeleft",
+        "frames": 9
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S085",
+      "start_frame": 9676,
+      "end_frame": 9777,
+      "start_s": 322.53333333333336,
+      "end_s": 325.9,
+      "duration_s": 3.3666666666666174,
+      "composition_id": "cto_desk_reading_workspace",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_desk.blend",
+        "camera": "cto_desk_reading_workspace",
+        "image": "assets/cto_desk_reading_workspace.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J11"
+      ],
+      "primary_row": "N071",
+      "text": "그 사망사고는 충분히 예방할 수 있었던 사고였다는 것이 항소심의 지적이었습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S086",
+      "start_frame": 9777,
+      "end_frame": 9888,
+      "start_s": 325.9,
+      "end_s": 329.6,
+      "duration_s": 3.7000000000000455,
+      "composition_id": "cto_barracks_folded_kit",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_barracks.blend",
+        "camera": "cto_barracks_folded_kit",
+        "image": "assets/cto_barracks_folded_kit.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J11",
+        "J12"
+      ],
+      "primary_row": "N071",
+      "text": "그 사망사고는 충분히 예방할 수 있었던 사고였다는 것이 항소심의 지적이었습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S087",
+      "start_frame": 9888,
+      "end_frame": 10020,
+      "start_s": 329.6,
+      "end_s": 334.0,
+      "duration_s": 4.399999999999977,
+      "composition_id": "hospital_canopy_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/hospital_hq.blend",
+        "camera": "hospital_canopy_consequence",
+        "image": "assets/hospital_canopy_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "J12"
+      ],
+      "primary_row": "N072",
+      "text": "국가가 병사의 생명과 신체를 보호할 것이라는 사회의 기본 기대도 언급했습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S088",
+      "start_frame": 10020,
+      "end_frame": 10145,
+      "start_s": 334.0,
+      "end_s": 338.1666666666667,
+      "duration_s": 4.166666666666686,
+      "composition_id": "cto_courtroom_counsel_records",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_courtroom.blend",
+        "camera": "cto_courtroom_counsel_records",
+        "image": "assets/cto_courtroom_counsel_records.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J08",
+        "J11",
+        "J12"
+      ],
+      "primary_row": "N073",
+      "text": "그 기대를 배반한 범행이라는 판단이 행위의 구별과 함께 항소심 판결에 남았죠.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S089",
+      "start_frame": 10145,
+      "end_frame": 10262,
+      "start_s": 338.1666666666667,
+      "end_s": 342.06666666666666,
+      "duration_s": 3.8999999999999773,
+      "composition_id": "hospital_walkway_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/hospital_hq.blend",
+        "camera": "hospital_walkway_wide",
+        "image": "assets/hospital_walkway_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "J08",
+        "J11"
+      ],
+      "primary_row": "N074",
+      "text": "피해자별 행위를 나누고 예방할 수 있었던 사고였다는 점을 짚은 판단이었습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S090",
+      "start_frame": 10262,
+      "end_frame": 10410,
+      "start_s": 342.06666666666666,
+      "end_s": 347.0,
+      "duration_s": 4.933333333333337,
+      "composition_id": "cto_barracks_empty_bed",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_barracks.blend",
+        "camera": "cto_barracks_empty_bed",
+        "image": "assets/cto_barracks_empty_bed.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "C07"
+      ],
+      "primary_row": "N075",
+      "text": "이천이십오년 유월 십팔일 서울고법 춘천재판부가 중대장의 형을 다시 정했습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S091",
+      "start_frame": 10410,
+      "end_frame": 10555,
+      "start_s": 347.0,
+      "end_s": 351.8333333333333,
+      "duration_s": 4.833333333333314,
+      "composition_id": "card_091",
+      "source": {
+        "type": "card",
+        "card_id": "card_091",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "C07"
+      ],
+      "primary_row": "N076",
+      "text": "징역 오 년 육 개월을 선고한 항소심은 일심보다 육 개월 긴 형을 정했어요.",
+      "source_context": "보도 요약",
+      "cut_alignment": "verdict_beat",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S092",
+      "start_frame": 10555,
+      "end_frame": 10686,
+      "start_s": 351.8333333333333,
+      "end_s": 356.2,
+      "duration_s": 4.366666666666674,
+      "composition_id": "cto_timeline_timeline_end",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_timeline.blend",
+        "camera": "cto_timeline_timeline_end",
+        "image": "assets/cto_timeline_timeline_end.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "C05",
+        "C07"
+      ],
+      "primary_row": "N077",
+      "text": "일심의 징역 오 년에서 항소심의 징역 오 년 육 개월로 선고가 바뀐 것입니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S093",
+      "start_frame": 10686,
+      "end_frame": 10820,
+      "start_s": 356.2,
+      "end_s": 360.6666666666667,
+      "duration_s": 4.466666666666697,
+      "composition_id": "hospital_walkway_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/hospital_hq.blend",
+        "camera": "hospital_walkway_consequence",
+        "image": "assets/hospital_walkway_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "D04",
+        "D06"
+      ],
+      "primary_row": "N078",
+      "text": "부중대장에게는 일심과 같은 징역 삼 년을 선고해 두 사람의 결과가 갈렸습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S094",
+      "start_frame": 10820,
+      "end_frame": 10918,
+      "start_s": 360.6666666666667,
+      "end_s": 363.93333333333334,
+      "duration_s": 3.2666666666666515,
+      "composition_id": "graduation_empty_seat_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/graduation_hq.blend",
+        "camera": "graduation_empty_seat_wide",
+        "image": "assets/graduation_empty_seat_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "C07",
+        "D04",
+        "D06",
+        "J08"
+      ],
+      "primary_row": "N079",
+      "text": "중대장에게 형이 늘어난 이유를 부중대장에게 그대로 옮겨 설명할 수는 없다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S095",
+      "start_frame": 10918,
+      "end_frame": 11031,
+      "start_s": 363.93333333333334,
+      "end_s": 367.7,
+      "duration_s": 3.7666666666666515,
+      "composition_id": "cto_ceremony_empty_chair",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_ceremony.blend",
+        "camera": "cto_ceremony_empty_chair",
+        "image": "assets/cto_ceremony_empty_chair.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "C07",
+        "C09",
+        "D06",
+        "J08"
+      ],
+      "primary_row": "N080",
+      "text": "서로 다른 선고 뒤에도 중대장 사건에는 대법원의 마지막 판단이 남아 있었습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S096",
+      "start_frame": 11031,
+      "end_frame": 11137,
+      "start_s": 367.7,
+      "end_s": 371.23333333333335,
+      "duration_s": 3.53333333333336,
+      "composition_id": "cto_ceremony_seatrows_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_ceremony.blend",
+        "camera": "cto_ceremony_seatrows_wide",
+        "image": "assets/cto_ceremony_seatrows_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "C07",
+        "C09",
+        "D06",
+        "J13"
+      ],
+      "primary_row": "N080",
+      "text": "서로 다른 선고 뒤에도 중대장 사건에는 대법원의 마지막 판단이 남아 있었습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S097",
+      "start_frame": 11137,
+      "end_frame": 11245,
+      "start_s": 371.23333333333335,
+      "end_s": 374.8333333333333,
+      "duration_s": 3.599999999999966,
+      "composition_id": "graduation_empty_seat_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/graduation_hq.blend",
+        "camera": "graduation_empty_seat_consequence",
+        "image": "assets/graduation_empty_seat_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "J13"
+      ],
+      "primary_row": "N081",
+      "text": "대법원은 중대장에 대한 원심 판단에 잘못이 없다고 보고 상고를 기각했습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pull_out",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S098",
+      "start_frame": 11245,
+      "end_frame": 11365,
+      "start_s": 374.8333333333333,
+      "end_s": 378.8333333333333,
+      "duration_s": 4.0,
+      "composition_id": "phone_memory_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/phone_hq.blend",
+        "camera": "phone_memory_detail",
+        "image": "assets/phone_memory_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "C09"
+      ],
+      "primary_row": "N082",
+      "text": "이천이십오년 구월 이십오일 중대장의 징역 오 년 육 개월이 확정됐죠.",
+      "source_context": "보도 요약",
+      "cut_alignment": "sentence",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S099",
+      "start_frame": 11365,
+      "end_frame": 11450,
+      "start_s": 378.8333333333333,
+      "end_s": 381.6666666666667,
+      "duration_s": 2.8333333333333712,
+      "composition_id": "phone_memory_consequence",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/phone_hq.blend",
+        "camera": "phone_memory_consequence",
+        "image": "assets/phone_memory_consequence.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 48,
+        "quality": "720p first, reused HQ tests where present"
+      },
+      "fact_ids": [
+        "C09",
+        "D08"
+      ],
+      "primary_row": "N083",
+      "text": "부중대장의 징역 삼 년도 확정 상태이며 같은 날 보도에서 확인되는 상태입니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S100",
+      "start_frame": 11450,
+      "end_frame": 11556,
+      "start_s": 381.6666666666667,
+      "end_s": 385.2,
+      "duration_s": 3.533333333333303,
+      "composition_id": "cto_timeline_calendar_context",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_timeline.blend",
+        "camera": "cto_timeline_calendar_context",
+        "image": "assets/cto_timeline_calendar_context.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "D08"
+      ],
+      "primary_row": "N083",
+      "text": "부중대장의 징역 삼 년도 확정 상태이며 같은 날 보도에서 확인되는 상태입니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S101",
+      "start_frame": 11556,
+      "end_frame": 11683,
+      "start_s": 385.2,
+      "end_s": 389.43333333333334,
+      "duration_s": 4.2333333333333485,
+      "composition_id": "cto_timeline_calendar_detail",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_timeline.blend",
+        "camera": "cto_timeline_calendar_detail",
+        "image": "assets/cto_timeline_calendar_detail.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "D08",
+        "F38"
+      ],
+      "primary_row": "N084",
+      "text": "부중대장 형이 확정된 날짜를 중대장의 대법원 판결 날짜와 같다고 단정하지 않습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S102",
+      "start_frame": 11683,
+      "end_frame": 11802,
+      "start_s": 389.43333333333334,
+      "end_s": 393.4,
+      "duration_s": 3.96666666666664,
+      "composition_id": "cto_gate_guardhouse_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_gate.blend",
+        "camera": "cto_gate_guardhouse_wide",
+        "image": "assets/cto_gate_guardhouse_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "F38"
+      ],
+      "primary_row": "N085",
+      "text": "재판과 별개로 국방부는 이천이십사년 유월 훈련병 군기훈련의 대책을 발표했어요.",
+      "source_context": "당시 재발방지 대책",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S103",
+      "start_frame": 11802,
+      "end_frame": 11996,
+      "start_s": 393.4,
+      "end_s": 399.8666666666667,
+      "duration_s": 6.466666666666697,
+      "composition_id": "cto_barracks_lockers_wide",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_barracks.blend",
+        "camera": "cto_barracks_lockers_wide",
+        "image": "assets/cto_barracks_lockers_wide.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "F38",
+        "F39"
+      ],
+      "primary_row": "N086",
+      "text": "훈련병의 군기훈련에서 구보나 완전군장 걷기 같은 체력단련 종목을 제외했습니다.",
+      "source_context": "당시 재발방지 대책",
+      "cut_alignment": "clause",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "edit_note": "Continuous record hold: removed duplicate re-layout cut; source text and narration unchanged.",
+      "cto_replacement": true
+    },
+    {
+      "id": "S105",
+      "start_frame": 11996,
+      "end_frame": 12103,
+      "start_s": 399.8666666666667,
+      "end_s": 403.43333333333334,
+      "duration_s": 3.566666666666663,
+      "composition_id": "cto_barracks_closed_locker",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_barracks.blend",
+        "camera": "cto_barracks_closed_locker",
+        "image": "assets/cto_barracks_closed_locker.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "F39"
+      ],
+      "primary_row": "N087",
+      "text": "개인에게 소명할 기회를 주는 단계를 반드시 거치도록 시행 절차도 표준화했습니다.",
+      "source_context": "당시 재발방지 대책",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S106",
+      "start_frame": 12103,
+      "end_frame": 12240,
+      "start_s": 403.43333333333334,
+      "end_s": 408.0,
+      "duration_s": 4.566666666666663,
+      "composition_id": "cto_gate_posted_rules",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_gate.blend",
+        "camera": "cto_gate_posted_rules",
+        "image": "assets/cto_gate_posted_rules.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "F40"
+      ],
+      "primary_row": "N088",
+      "text": "육군 신병교육부대의 군기훈련 승인권자를 영관급 지휘관으로 높이기로 했다.",
+      "source_context": "당시 재발방지 대책",
+      "cut_alignment": "sentence",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S107",
+      "start_frame": 12240,
+      "end_frame": 12349,
+      "start_s": 408.0,
+      "end_s": 411.6333333333333,
+      "duration_s": 3.6333333333333258,
+      "composition_id": "cto_barracks_unoccupied_row",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_barracks.blend",
+        "camera": "cto_barracks_unoccupied_row",
+        "image": "assets/cto_barracks_unoccupied_row.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "F40",
+        "F41"
+      ],
+      "primary_row": "N089",
+      "text": "건강 상태를 수시로 확인하고 응급상황에 대비한 대책부터 마련하도록 했습니다.",
+      "source_context": "당시 재발방지 대책",
+      "cut_alignment": "clause",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S108",
+      "start_frame": 12349,
+      "end_frame": 12601,
+      "start_s": 411.6333333333333,
+      "end_s": 420.03333333333336,
+      "duration_s": 8.400000000000034,
+      "composition_id": "cto_gate_empty_access",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_gate.blend",
+        "camera": "cto_gate_empty_access",
+        "image": "assets/cto_gate_empty_access.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "F04",
+        "F38",
+        "F39",
+        "F41"
+      ],
+      "primary_row": "N090",
+      "text": "당시 발표는 훈련병 군기훈련의 대책이며 모든 체력훈련을 없앤다는 뜻은 아닙니다.",
+      "source_context": "당시 재발방지 대책",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "edit_note": "Continuous record hold: removed duplicate re-layout cut; source text and narration unchanged.",
+      "cto_replacement": true
+    },
+    {
+      "id": "S110",
+      "start_frame": 12601,
+      "end_frame": 12721,
+      "start_s": 420.03333333333336,
+      "end_s": 424.03333333333336,
+      "duration_s": 4.0,
+      "composition_id": "cto_timeline_records_chair",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_timeline.blend",
+        "camera": "cto_timeline_records_chair",
+        "image": "assets/cto_timeline_records_chair.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "F04",
+        "F39",
+        "J04",
+        "J06"
+      ],
+      "primary_row": "N091",
+      "text": "그날 지키지 않았던 소명 절차는 사건 뒤 재발방지 대책에서 다시 강조됐죠.",
+      "source_context": "경찰 수사결과",
+      "cut_alignment": "clause",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S111",
+      "start_frame": 12721,
+      "end_frame": 12834,
+      "start_s": 424.03333333333336,
+      "end_s": 427.8,
+      "duration_s": 3.7666666666666515,
+      "composition_id": "cto_desk_lamp_records",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_desk.blend",
+        "camera": "cto_desk_lamp_records",
+        "image": "assets/cto_desk_lamp_records.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J04",
+        "J06",
+        "J08",
+        "J11"
+      ],
+      "primary_row": "N092",
+      "text": "법원은 훈련과 사망의 인과관계를 인정했고 일심은 반성과 교육 목적을 참작했습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S112",
+      "start_frame": 12834,
+      "end_frame": 12963,
+      "start_s": 427.8,
+      "end_s": 432.1,
+      "duration_s": 4.300000000000011,
+      "composition_id": "cto_courtroom_vacant_gallery",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_courtroom.blend",
+        "camera": "cto_courtroom_vacant_gallery",
+        "image": "assets/cto_courtroom_vacant_gallery.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J08",
+        "J11"
+      ],
+      "primary_row": "N093",
+      "text": "항소심은 피해자별 행위를 구별했고 예방할 수 있었던 사고였다는 판단을 남겼습니다.",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S113",
+      "start_frame": 12963,
+      "end_frame": 13096,
+      "start_s": 432.1,
+      "end_s": 436.53333333333336,
+      "duration_s": 4.433333333333337,
+      "composition_id": "card_113",
+      "source": {
+        "type": "card",
+        "card_id": "card_113",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [
+        "C09",
+        "J08",
+        "J11",
+        "J12"
+      ],
+      "primary_row": "N094",
+      "text": "확정된 중대장의 형은 오 년 육 개월이며 국가의 보호 기대를 배반했다는 판단이에요.",
+      "source_context": "보도 요약",
+      "cut_alignment": "clause",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S114",
+      "start_frame": 13096,
+      "end_frame": 13226,
+      "start_s": 436.53333333333336,
+      "end_s": 440.8666666666667,
+      "duration_s": 4.333333333333314,
+      "composition_id": "cto_ceremony_folded_certificate",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_ceremony.blend",
+        "camera": "cto_ceremony_folded_certificate",
+        "image": "assets/cto_ceremony_folded_certificate.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "C09",
+        "J04",
+        "J12"
+      ],
+      "primary_row": "N095",
+      "text": "여러분은 교육 목적의 참작과 국가의 보호 책임 중 어떤 사정을 더 무겁게 보셨습니까?",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_left",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "cto_replacement": true
+    },
+    {
+      "id": "S115",
+      "start_frame": 13226,
+      "end_frame": 13423,
+      "start_s": 440.8666666666667,
+      "end_s": 447.43333333333334,
+      "duration_s": 6.566666666666663,
+      "composition_id": "cto_ceremony_vacant_ceremony",
+      "source": {
+        "type": "blender",
+        "scene": "scenes/cto_ceremony.blend",
+        "camera": "cto_ceremony_vacant_ceremony",
+        "image": "assets/cto_ceremony_vacant_ceremony.png",
+        "engine": "BLENDER_EEVEE",
+        "samples": 32,
+        "quality": "EEVEE; local PBR materials; symbolic reconstruction"
+      },
+      "fact_ids": [
+        "J04",
+        "J12"
+      ],
+      "primary_row": "N096",
+      "text": "그렇게 생각한 이유와 판결의 어느 대목을 무겁게 보셨는지 댓글로 함께 이야기해 볼까요?",
+      "source_context": "보도 요약",
+      "cut_alignment": "beat",
+      "move": "pan_right",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false,
+      "edit_note": "Continuous record hold: removed duplicate re-layout cut; source text and narration unchanged.",
+      "cto_replacement": true
+    },
+    {
+      "id": "S117",
+      "start_frame": 13423,
+      "end_frame": 13543,
+      "start_s": 447.43333333333334,
+      "end_s": 451.43333333333334,
+      "duration_s": 4.0,
+      "composition_id": "card_117",
+      "source": {
+        "type": "card",
+        "card_id": "card_117",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [],
+      "primary_row": "N096",
+      "text": "출처 · 사건과 수사",
+      "source_context": "출처",
+      "cut_alignment": "sentence",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    },
+    {
+      "id": "S118",
+      "start_frame": 13543,
+      "end_frame": 13663,
+      "start_s": 451.43333333333334,
+      "end_s": 455.43333333333334,
+      "duration_s": 4.0,
+      "composition_id": "card_118",
+      "source": {
+        "type": "card",
+        "card_id": "card_118",
+        "system": "TYPE 02"
+      },
+      "fact_ids": [],
+      "primary_row": "N096",
+      "text": "출처 · 재판과 확정",
+      "source_context": "출처",
+      "cut_alignment": "required_beat",
+      "move": "slow_paper_drift",
+      "transition": {
+        "type": "hard",
+        "frames": 0
+      },
+      "same_composition_reset": false
+    }
+  ],
+  "open_loops": [
+    {
+      "id": "M",
+      "raised_s": 8.966666666666667,
+      "closed_or_reframed_s": 347.6,
+      "question": "왜 학대 책임과 이 형량이 함께 나왔나",
+      "resolution": "인과관계, 양형 사정, 행위 구별과 항소심 선고"
+    },
+    {
+      "id": "S1",
+      "raised_s": 26.733333333333334,
+      "closed_or_reframed_s": 71.66666666666667,
+      "question": "지켜지지 않은 절차가 어떤 책임으로 이어졌나",
+      "resolution": "학대치사 유죄와 인과관계 인정"
+    },
+    {
+      "id": "S2",
+      "raised_s": 99.0,
+      "closed_or_reframed_s": 210.66666666666666,
+      "question": "학대 유죄인데 교육 목적을 어떻게 참작했나",
+      "resolution": "1심 유리한 정상과 선고"
+    },
+    {
+      "id": "S3",
+      "raised_s": 232.33333333333334,
+      "closed_or_reframed_s": 347.6,
+      "question": "같은 훈련을 나눠 본 항소심은 무엇을 바꿨나",
+      "resolution": "피해자별 행위 구별, 실체적경합과 형 증가"
+    }
+  ],
+  "cliffhangers": [
+    {
+      "time_s": 108.2,
+      "type": "이유 설명 유예",
+      "lead": "교육 목적을 참작한 이유를 남겨 두고 피해 기록으로"
+    },
+    {
+      "time_s": 237.2,
+      "type": "판단 기준 유예",
+      "lead": "같은 훈련을 어떻게 나누었나"
+    },
+    {
+      "time_s": 318.3666666666667,
+      "type": "최종 평가 유예",
+      "lead": "숫자에 앞서 남은 항소심 평가"
+    }
+  ],
+  "beats": [
+    {
+      "start_s": 0.1,
+      "row": "N001",
+      "description": "책 군장과 책임의 물음"
+    },
+    {
+      "start_s": 26.733333333333334,
+      "row": "N007",
+      "description": "절차와 건강 확인 미준수"
+    },
+    {
+      "start_s": 57.13333333333333,
+      "row": "N014",
+      "description": "45분의 경과"
+    },
+    {
+      "start_s": 71.66666666666667,
+      "row": "N017",
+      "description": "학대치사 유죄"
+    },
+    {
+      "start_s": 108.2,
+      "row": "N025",
+      "description": "어머니 공개편지"
+    },
+    {
+      "start_s": 144.73333333333332,
+      "row": "N033",
+      "description": "명예수료증"
+    },
+    {
+      "start_s": 172.23333333333332,
+      "row": "N039",
+      "description": "유리한 정상으로 양형 전환"
+    },
+    {
+      "start_s": 210.66666666666666,
+      "row": "N047",
+      "description": "1심 선고"
+    },
+    {
+      "start_s": 237.2,
+      "row": "N053",
+      "description": "항소심 행위 구별"
+    },
+    {
+      "start_s": 275.56666666666666,
+      "row": "N061",
+      "description": "처벌 범위의 차이"
+    },
+    {
+      "start_s": 318.3666666666667,
+      "row": "N070",
+      "description": "예방 가능성과 보호 책임"
+    },
+    {
+      "start_s": 347.6,
+      "row": "N076",
+      "description": "항소심 선고"
+    },
+    {
+      "start_s": 374.8333333333333,
+      "row": "N082",
+      "description": "확정 상태"
+    },
+    {
+      "start_s": 408.1,
+      "row": "N089",
+      "description": "재발방지 절차"
+    },
+    {
+      "start_s": 437.26666666666665,
+      "row": "N095",
+      "description": "댓글 질문"
+    }
+  ],
+  "cto_revision": {
+    "changed_voice_lines": 32,
+    "card_replacements": 23,
+    "abstract_replacements": 20,
+    "new_unique_eevee_stills": 43,
+    "typography_720_body_min_px": 40,
+    "typography_720_heading_min_px": 60,
+    "cheap_freeze_fix": "S036: replace blank hospital door close-up with entrance/access view and visible pan"
+  }
+}

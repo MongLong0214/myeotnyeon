@@ -1,0 +1,97 @@
+q004 · q013 v3 표준 · CTO 검수용
+상태: RENDERED / NOT APPROVED. 제작자 PASS/MATCH 없음.
+파일: /Users/isaac/projects/verdict-kr/work/upload/pkg/q004_std/video.mp4
+SHA256: db142d1cde2cdeebba650d31dd198db01682f7354a8bff3de920e8690c1b9062
+규격: 1080×1920 / H.264·AAC / 30fps / 669프레임 / 22.300초
+표준: /Users/isaac/projects/verdict-kr/work/upload/v52_q013_n16_v3.mp4
+표준 SHA256: c6202356d56d30a42f21e1cca4aabedbb4dfc539b79826b65621145714c81c95
+번호: 미배정. 업로드 없음.
+게시 예정: CTO 검토 후 별도 확정 · 업로드/예약 없음
+재제작 요청: 2026년 11월 7일 · 업로드 전 CTO 검토에서 중단
+
+제작자 자체 점검 (H1–H14, CTO 판정은 전부 대기)
+H1: 이번 범위는 구작 두 편의 승인 표준 재제작. 성장 격차를 새로 추정하는 보고는 하지 않음. 0초 행위·큰 댓글 선택·끝의 답·다음 사건 연결을 실제 적용했고 게시 전 효과 수치는 만들지 않음.
+H2: 0초 행위 재현, 음성 시작 0초. 정답 18.533s부터, 다음 사건 CTA 20.800s부터. 이전 1.5–2초 컷 대신 최신 H14의 대사 경계 2–3초 리듬 적용. 게시하지 않은 신작의 engagedViews/views·이탈률 효과는 아직 측정하지 않음.
+H3: V2-11: owner 2026년 11월 7일 명시 재제작. RANKED는 기존 사용 이력으로 제외하며 이번은 새 소재 선정이 아닌 교체. topic_evidence.json의 YouTube·네이버 실측 수요를 보존. 공분이나 형량으로 부당판결·유착을 단정하지 않음.
+H4: 소스는 승인된 q013 v3의 FightRig·CourtDynamic·폰트·팔레트·자막·선택지 문법. 화면 전체 카툰, 중복 헤더·회차 배지·패널·설명 띠·가짜 UI 없음. H10 요청의 선택 카드만 사용. 2026년 11월 7일 STYLE 추가 절의 decorative glow 금지 반영: 카드 glow 0, 정답은 색·명암·테두리로만 강조. 추가된 MOTION_NUMBERS의 시작값/PROPOSED 측정을 새 자동 합격 기준으로 주장하지 않음. 최종 AI 티 판단은 CTO 대기.
+H5: 브라우저에서 27개 실제 렌더 프레임의 자막 배치를 계측. 72px / 800 / 검정 10px, x540 중앙, 최대 2줄·줄당 14자 이하. 전체 저장 cue 검사와 subtitle_layout_observed.json 참조. 한 어구만 노란색 강조.
+H6: q004는 1심 벌금→허용 주장→동료 관행→고의 쟁점을 법정 투샷·도장·저울로 연결. 무죄는 정답에서만 공개. 완결 대사 한 줄마다 한 샷, 구도 안 반응. 망치·순간 줌은 정답에만 사용. CTO 시각 판정 대기.
+H7: 모든 성인 인물은 승인된 독창 Toon rig의 눈·코·입과 표정 사용. q004 피고인과 q005 피해자는 별도 look snack/migrant, 고유 헤어·옷·머리 윤곽. q013 B 디자인을 쓰지 않음. anonymous 얼굴 숨김 미사용. 실존 피해자의 신상·외모 미재현. 시각 판정 CTO 대기.
+H8: 전체 Remotion 2D SVG. Blender/3D/실사 클립 입력 없음. 시작과 다음 사건도 동일 카툰.
+H9: 화면 내 재구성·시간압축·시각비유·시리즈 코너 고지 0. 해당 설명은 meta.txt 설명란에만 수록. 구형/선고와 심급 구분은 사실이므로 유지.
+H10: A/B/C 큰 색 카드가 4프레임 간격으로 등장. 댓글로 골라보세요. 전체 선택지가 나온 뒤 3.533초 선택 가능. 정답 C만 점등, 나머지 흐림. 해당 화면은 최종 시트로 CTO 검수 대기.
+H11: 업로드·예약·원격 삭제 작업 없음. 기존 EomEdxcqfsU / MYjtxd25BhU는 사용자가 삭제 완료로 전달한 상태이며 재삭제를 시도하지 않음. 이 작업에서 원격 비공개본이 새로 생기지 않았음. CTO 검토 단계에서 중단.
+H12: 기존 로컬 소스·음성 엔진·ASR·팩토리 검수 도구·저장된 네이버/YouTube 수요 근거로 직접 제작. 새 키나 사용자 대행 작업 요청 없음.
+H13: 전체 변경 구간 모든 30fps 프레임을 F1 연속 시트로 보존. 2fps 한 장은 빠른 보기용으로 전수 시트를 대체하지 않음. 승인된 표준 경로를 복제한 전용 remake_std 소스 사용. 애니매틱으로 대사·샷 순서를 먼저 고정하고 최종 렌더. 기존 q018/q020/q022 패키지 불변 확인. CTO 전수 시각 판정과 CEO 승인은 대기, 제작자 PASS/MATCH 없음.
+H14: 모든 실제 컷은 개별 합성한 완결 대사 경계. 기본 샷 약 2.1–2.7초. 의도된 최장 선택 홀드 3.8초, 이후 정답 이해와 1.5초 CTA. 문장 중간 반응 컷 없음. 순간 줌은 0초 행위와 정답 두 지점(각 3프레임)뿐. 발화는 기존 _std의 실제 약 8.1음절/s를 참고; 구식 7.5 하한을 새 합격 기준으로 주장하지 않음. CTO 리듬 판정 대기.
+
+사실·법적 범위
+# q004 사실표
+
+채택 심급: 전주지법 항소심 2025년 11월 27일 · 검찰 상고 포기로 무죄 확정 보도 2025년 12월 2일
+
+- F1: 450원짜리 초코파이가 형사재판까지 갔습니다. — sources: Q004_JOONGANG, Q004_KHAN_FINAL, Q004_KOOKMIN_FINAL
+- F2: 커스터드 600원까지, 합쳐서 1,050원어치입니다. — sources: Q004_JOONGANG, Q004_KHAN_FINAL, Q004_KOOKMIN_FINAL
+- F3: 1심은 절도죄로 벌금 5만 원을 선고했습니다. — sources: Q004_JOONGANG, Q004_KBS_FINAL, Q004_KHAN_FINAL
+- F4: 피고인은 먹어도 된다는 말을 들었다고 했습니다. — sources: Q004_JOONGANG, Q004_KHAN_FINAL
+- F5: 동료들도 간식을 나눠 먹던 관행을 진술했습니다. — sources: Q004_JOONGANG, Q004_KOOKMIN_FINAL
+- F6: 항소심 쟁점은 훔칠 고의가 있었냐는 겁니다. — sources: Q004_JOONGANG, Q004_KHAN_FINAL
+- F7: 최종 판결은 벌금일까요, 선고유예일까요, 무죄일까요? 댓글로 골라보세요. — sources: 시청자 질문 / 일반적인 비기계성 설명; 이 사건의 추가 인정 사실 아님
+- F8: 항소심 무죄. 검찰 상고 포기로 확정됐습니다. — sources: Q004_KHAN_FINAL, Q004_KOOKMIN_FINAL, Q004_KBS_FINAL
+
+## 수치·법적 의미
+450원 초코파이 1개 + 600원 커스터드 1개 = 총 1,050원. 중앙일보 항소심 현장 취재, 경향신문 상고 포기 보도, 국민일보 독자 기사 모두 일치. 400원·650원 보도 변형은 채택하지 않음. 1심 벌금 5만 원은 과거 판결, 검찰의 초기 약식기소 벌금 50만 원과 다르다. 영상에는 약식기소 금액을 쓰지 않는다. 검찰 항소심 선고유예 구형은 요청이며 법원 판결 아님. 최종 질문은 항소심 무죄 및 검찰 상고 포기로 확인된 확정 결과를 답한다. 대법원 무죄 선고라고 표현하지 않는다. 원심 피고인 직종 표현 차이는 쓰지 않는다. 간식이 소액이면 언제나 무죄라는 법칙이 아니라 절도 고의 입증에 관한 사건 판단이다.
+
+원문 판결문 전체 미확보. 서로 다른 언론사 원문 스냅샷 교차 확인까지 수행했고 CTO의 사실 의미·출처 독립성 서명을 기다린다.
+
+출처
+중앙일보 | https://www.joongang.co.kr/article/25385581 | snapshot /Users/isaac/projects/verdict-kr/work/episodes/quiz/batch_1107/remake_std/sources/Q004_JOONGANG.txt | sha256 c07222c541ade543918aca2d1dbe820660571e84a3250194f854712e6dca226e
+국민일보 | https://v.daum.net/v/20251202152849665 | snapshot /Users/isaac/projects/verdict-kr/work/episodes/quiz/batch_1107/remake_std/sources/Q004_KOOKMIN_FINAL.txt | sha256 5ece2f55a1e20f6a6bafff04ba3c53791768f924f1d1eadef52b8e321b5aa23b
+KBS | https://v.daum.net/v/V9wnkYlwyo | snapshot /Users/isaac/projects/verdict-kr/work/episodes/quiz/batch_1107/remake_std/sources/Q004_KBS_FINAL.txt | sha256 02f463479ecda11921a34cee97c3933cf42c929c76b5a1532dc5cf9748356c38
+경향신문 | https://www.khan.co.kr/article/202512021535001 | snapshot /Users/isaac/projects/verdict-kr/work/episodes/quiz/batch_1107/remake_std/sources/Q004_KHAN_FINAL.txt | sha256 72604799b9f9be04539cf9c1d48e97761e246019a21ab9b612df86a205e1dc22
+
+검수 경로
+1초 간격 전체: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q004/std_1fps.png
+0–3초 6fps: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q004/std_0-3s.png
+2fps 전체: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q004/std_2fps.png
+전체 30fps: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q004/std/F1.md
+핵심 행위 연속: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q004/std_action_consecutive.png
+정답 연속: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q004/std_answer_consecutive.png
+음성 ↔ 화면·컷: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q004/std/D1_D2_cut_sheet.md
+사실 게이트: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q004/std/E3.md
+표준 나란히: /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q004/std/B1.md
+실제 자막 계측: /Users/isaac/projects/verdict-kr/work/upload/pkg/q004_std/subtitle_layout_observed.json
+
+A1–G2 원시 결과 (자동 PASS는 CTO 승인 아님)
+FRAME_QA: ADVISORY / 
+A1: NEEDS_REVIEW / NEEDS_REVIEW
+A2: PASS / DECIDED
+A3: NEEDS_REVIEW / NEEDS_REVIEW
+B1: NEEDS_REVIEW / NEEDS_REVIEW
+B2: NEEDS_REVIEW / NEEDS_REVIEW
+B3: PASS / DECIDED
+B4: NEEDS_REVIEW / NEEDS_REVIEW
+B5: NEEDS_REVIEW / NEEDS_REVIEW
+C1: INPUT_MISSING / INPUT_MISSING
+C2: NEEDS_REVIEW / NEEDS_REVIEW
+C3: FAIL / DECIDED
+C4: NEEDS_REVIEW / NEEDS_REVIEW
+D1: NEEDS_REVIEW / NEEDS_REVIEW
+D2: NEEDS_REVIEW / NEEDS_REVIEW
+D3: PASS / DECIDED
+E1: PASS / DECIDED
+E2: NEEDS_REVIEW / NEEDS_REVIEW
+E3: NEEDS_REVIEW / NEEDS_REVIEW
+F1: NEEDS_REVIEW / NEEDS_REVIEW
+F2: PASS / DECIDED
+F3: FAIL / OPERATIONAL
+F4: NEEDS_REVIEW / NEEDS_REVIEW
+G1: FAIL / OPERATIONAL
+G2: FAIL / OPERATIONAL
+factory_facts: FAIL / NEEDS_REVIEW
+
+남은 결함·한계
+C3: 인물 1.0, 모션 1.0, 자막 밖 OCR 2197건. 질문/양형 도장/기능성 선택지를 포함하는 원시 진단; 자동 결과를 제작자가 면제하지 않음.
+C1: INPUT_MISSING / /Users/isaac/projects/verdict-kr/work/factory/unslop/STYLE_VIDEO.md: shorts speech window / pause limits missing or ambiguous; /Users/isaac/projects/verdict-kr/work/factory/unslop/STYLE_VIDEO.md: longform speech window / pause limits missing or ambiguous; /Users/isaac/projects/verdict-kr/work/factory/REVIEW_CHECKLIST.md: shorts speech window / pause limits missing or ambiguous; /Users/isaac/projects/verdict-kr/work/factory/REVIEW_CHECKLIST.md: longform speech window / pause limits missing or ambiguous
+입력 누락: ['C1']
+실시간 재생 미검수. 최종 AAC 믹스 ASR·음량·전체 연속 프레임으로 대체. 원문 전체 판결문 미확보 범위는 보도 교차 확인까지만 주장. CTO/CEO 서명·운영 G1/G2는 아직 수행 전.

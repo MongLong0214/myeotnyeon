@@ -1,0 +1,7 @@
+file '/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/S01_setting.png'
+duration 2.42
+file '/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/S02_bag_take.png'
+duration 3.05
+file '/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/S03_bag_load.png'
+duration 6.58
+file '/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/S03_bag_load.png'

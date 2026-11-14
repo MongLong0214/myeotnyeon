@@ -1,0 +1,35 @@
+{
+  "id": "C1eXfwC7uAw",
+  "title": "22살 청년이 박정희 대통령 영부인을 암살한 방법",
+  "description": "박정희 대통령 영부인 육영수 여사 암살 사건에 대한 내용입니다.\n*채널의 모든 영상은 AI를 사용하지 않고, 직접 만들었습니다.",
+  "upload_date": "20260729",
+  "timestamp": 1785312497,
+  "duration": 574,
+  "view_count": 841703,
+  "like_count": 4339,
+  "comment_count": 1500,
+  "chapters": null,
+  "channel": "엑스톨(Extol)",
+  "channel_id": "UCHRG_xhaJj-5TsYnAjhJXVQ",
+  "channel_follower_count": null,
+  "webpage_url": "https://www.youtube.com/watch?v=C1eXfwC7uAw",
+  "categories": [
+    "People & Blogs"
+  ],
+  "tags": [
+    "박정희",
+    "육영수",
+    "암살",
+    "영부인",
+    "대통령"
+  ],
+  "language": "ko",
+  "availability": "public",
+  "age_limit": 0,
+  "analysis_kind": "long",
+  "collected_local": "2026-10-30T09:08:41+0900",
+  "counts_method": "yt-dlp separate metadata extraction without write-comments; avoids capped extracted count",
+  "extractor_format_description": "137 - 1920x1080 (1080p)+251-2 - audio only (한국어 원본 (default), medium)",
+  "extracted_audio_language": "ko",
+  "format_note_caveat": "For two reused media copies, selected format in fresh metadata is not the copy format; source_media.json ffprobe is authoritative."
+}

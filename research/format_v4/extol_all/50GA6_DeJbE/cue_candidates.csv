@@ -1,0 +1,10 @@
+time_s,spectral_distribution_distance,side_rms_jump_db,status
+6.0,0.8854507156144732,12.597512141666279,cue-change candidate; neither music identity nor musical edit confirmed
+9.0,0.9322002837832408,15.930657600339913,cue-change candidate; neither music identity nor musical edit confirmed
+12.0,1.1692751091113847,13.556141472337771,cue-change candidate; neither music identity nor musical edit confirmed
+15.0,0.7608236062096299,3.44755625121406,cue-change candidate; neither music identity nor musical edit confirmed
+21.0,0.79450560845153,8.77078520117183,cue-change candidate; neither music identity nor musical edit confirmed
+24.0,0.7610071973642457,10.347150848958048,cue-change candidate; neither music identity nor musical edit confirmed
+33.0,0.7617379260824769,14.279184600041834,cue-change candidate; neither music identity nor musical edit confirmed
+42.0,0.2774498090637476,9.776507812855748,cue-change candidate; neither music identity nor musical edit confirmed
+54.0,0.6944647053974623,19.92617545120709,cue-change candidate; neither music identity nor musical edit confirmed

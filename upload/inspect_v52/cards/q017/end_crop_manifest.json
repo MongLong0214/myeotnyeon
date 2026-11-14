@@ -1,0 +1,27 @@
+{
+  "ranges": [
+    [
+      622,
+      629
+    ]
+  ],
+  "frames": [
+    622,
+    623,
+    624,
+    625,
+    626,
+    627,
+    628,
+    629
+  ],
+  "crop": [
+    60,
+    450,
+    1020,
+    1510
+  ],
+  "sheets": [
+    "/Users/isaac/projects/verdict-kr/work/upload/inspect_v52/cards/q017/end_crop_000.png"
+  ]
+}

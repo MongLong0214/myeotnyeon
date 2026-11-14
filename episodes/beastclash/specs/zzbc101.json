@@ -1,0 +1,181 @@
+{
+ "id": "zzbc101",
+ "voice": "af_bella",
+ "speed": 1.32,
+ "a": "polar",
+ "b": "walrus",
+ "winner": "b",
+ "bg": "ice",
+ "title": [
+  "POLAR BEAR",
+  "WALRUS"
+ ],
+ "tag": [
+  "1,000 LB",
+  "3,000 LB"
+ ],
+ "stats": [
+  {
+   "label": "WEIGHT",
+   "a": {
+    "big": "1,000 LB",
+    "small": "454 kg"
+   },
+   "b": {
+    "big": "3,000 LB",
+    "small": "1,360 kg"
+   },
+   "win": "b"
+  },
+  {
+   "label": "TUSKS",
+   "b": {
+    "big": "3 FT",
+    "small": "up to 39 in (1 m)"
+   },
+   "win": "b"
+  },
+  {
+   "label": "TOP SPEED",
+   "a": {
+    "big": "25 MPH",
+    "small": "40 km/h on land"
+   },
+   "b": {
+    "big": "19 MPH",
+    "small": "30 km/h in water"
+   },
+   "win": "a"
+  }
+ ],
+ "verdict": {
+  "head": "HYPOTHETICAL WINNER",
+  "name": "WALRUS",
+  "note": "HYPOTHETICAL · HEALTHY ADULT BULL",
+  "note2": "OBSERVED: BEARS OFTEN DEFER TO ADULT WALRUSES",
+  "pop1": "HEALTHY ADULT BULL > MOST BEARS",
+  "pop2": "OBSERVED: BEARS OFTEN DEFER TO ADULT WALRUSES"
+ },
+ "lines": [
+  {
+   "mode": "face",
+   "tts": "Polar bear, versus walrus!",
+   "shown": "Polar bear vs walrus!",
+   "id": "L01",
+   "speed": 1.35
+  },
+  {
+   "mode": "stat",
+   "k": 0,
+   "tts": "A thousand pounds, versus three thousand!",
+   "shown": "1,000 lb vs 3,000 lb!",
+   "id": "L02",
+   "speed": 1.35
+  },
+  {
+   "mode": "stat",
+   "k": 1,
+   "tts": "Walrus tusks grow up to three feet!",
+   "shown": "Walrus tusks grow up to 3 feet!",
+   "id": "L03",
+   "speed": 1.01
+  },
+  {
+   "mode": "stat",
+   "k": 2,
+   "tts": "But the bear sprints twenty-five miles an hour!",
+   "shown": "But the bear sprints 25 mph!",
+   "id": "L04",
+   "speed": 1.35
+  },
+  {
+   "mode": "prompt",
+   "tts": "Who wins? Take your pick!",
+   "shown": "Who wins? Take your pick!",
+   "id": "L05",
+   "speed": 1.16
+  },
+  {
+   "mode": "clash",
+   "shots": [
+    {
+     "s": "charge",
+     "who": "a"
+    }
+   ],
+   "tts": "The bear charges across the ice!",
+   "shown": "The bear charges across the ice!",
+   "hold": 0,
+   "id": "L06",
+   "speed": 1.0
+  },
+  {
+   "mode": "clash",
+   "shots": [
+    {
+     "s": "rear",
+     "who": "b"
+    },
+    {
+     "s": "strike",
+     "who": "b"
+    }
+   ],
+   "tts": "Up rears the walrus. Tusks first!",
+   "shown": "Up rears the walrus. Tusks first!",
+   "hold": 0,
+   "id": "L07",
+   "speed": 1.32
+  },
+  {
+   "mode": "clash",
+   "shots": [
+    {
+     "s": "impact",
+     "who": "a",
+     "tank": true
+    }
+   ],
+   "tts": "Bam! The walrus doesn't budge!",
+   "shown": "BAM! The walrus doesn't budge!",
+   "hold": 0,
+   "id": "L08",
+   "speed": 1.32
+  },
+  {
+   "mode": "clash",
+   "shots": [
+    {
+     "s": "retreat",
+     "who": "a"
+    }
+   ],
+   "tts": "The polar bear backs away!",
+   "shown": "The polar bear backs away!",
+   "hold": 0.12,
+   "id": "L09",
+   "speed": 1.06
+  },
+  {
+   "mode": "verdict",
+   "k": 0,
+   "tts": "Experts say a healthy adult male walrus can more than match most polar bears.",
+   "shown": "Experts say a healthy adult male walrus can more than match most polar bears.",
+   "id": "L10",
+   "speed": 1.32
+  },
+  {
+   "mode": "loop",
+   "tts": "Rematch? Round two!",
+   "shown": "Rematch? Round two!",
+   "id": "L12",
+   "speed": 1.32
+  }
+ ],
+ "gap": 0.03,
+ "caps": "words",
+ "keep": [
+  "polar bear",
+  "walrus"
+ ]
+}

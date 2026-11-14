@@ -1,0 +1,183 @@
+{
+ "id": "zzbc102",
+ "voice": "af_bella",
+ "speed": 1.32,
+ "a": "polar",
+ "b": "walrus",
+ "winner": "b",
+ "bg": "ice",
+ "title": [
+  "POLAR BEAR",
+  "WALRUS"
+ ],
+ "tag": [
+  "1,700 LB",
+  "3,000 LB"
+ ],
+ "gap": 0.03,
+ "caps": "words",
+ "keep": [
+  "polar bear",
+  "walrus"
+ ],
+ "stats": [
+  {
+   "label": "WEIGHT",
+   "a": {
+    "big": "1,700 LB",
+    "small": "771 kg"
+   },
+   "b": {
+    "big": "3,000 LB",
+    "small": "1,361 kg"
+   },
+   "win": "b"
+  },
+  {
+   "label": "TUSKS",
+   "b": {
+    "big": "39 IN",
+    "small": "99 cm"
+   },
+   "win": "b"
+  },
+  {
+   "label": "TOP SPEED",
+   "a": {
+    "big": "25 MPH",
+    "small": "40 km/h"
+   },
+   "win": "a"
+  }
+ ],
+ "verdict": {
+  "note": "ADULT BULL · MOST REAL ENCOUNTERS",
+  "note2": "BEARS GO AFTER CALVES INSTEAD",
+  "pop1": "BULL WALRUS > MOST BEARS",
+  "pop2": "BEARS LEAVE ADULT BULLS ALONE",
+  "head": "HYPOTHETICAL WINNER",
+  "name": "WALRUS"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "face",
+   "tts": "Polar bear versus walrus!",
+   "shown": "Polar bear vs walrus!",
+   "speed": 1.35
+  },
+  {
+   "id": "L02",
+   "mode": "stat",
+   "tts": "One thousand seven hundred pounds versus three thousand pounds!",
+   "shown": "1,700 lb vs 3,000 lb!",
+   "k": 0,
+   "speed": 1.35
+  },
+  {
+   "id": "L03",
+   "mode": "stat",
+   "tts": "Walrus tusks grow up to thirty-nine inches!",
+   "shown": "Walrus tusks grow up to 39 inches!",
+   "k": 1,
+   "speed": 1.27
+  },
+  {
+   "id": "L04",
+   "mode": "stat",
+   "tts": "But the bear sprints twenty-five miles an hour!",
+   "shown": "But the bear sprints 25 mph!",
+   "k": 2,
+   "speed": 1.35
+  },
+  {
+   "id": "L05",
+   "mode": "prompt",
+   "tts": "Who wins? Take your pick!",
+   "shown": "Who wins? Take your pick!",
+   "speed": 1.16
+  },
+  {
+   "id": "L06",
+   "mode": "clash",
+   "tts": "The bear charges across the ice!",
+   "shown": "The bear charges across the ice!",
+   "shots": [
+    {
+     "s": "charge",
+     "who": "a"
+    }
+   ],
+   "hold": 0.0,
+   "speed": 0.97
+  },
+  {
+   "id": "L07",
+   "mode": "clash",
+   "tts": "Up rears the walrus. Tusks first!",
+   "shown": "Up rears the walrus. Tusks first!",
+   "shots": [
+    {
+     "s": "rear",
+     "who": "b"
+    },
+    {
+     "s": "strike",
+     "who": "b"
+    }
+   ],
+   "hold": 0.0
+  },
+  {
+   "id": "L08",
+   "mode": "clash",
+   "tts": "BAM! Thick blubber soaks it up!",
+   "shown": "BAM! Thick blubber soaks it up!",
+   "shots": [
+    {
+     "s": "impact",
+     "who": "a",
+     "tank": true
+    }
+   ],
+   "hold": 0.0,
+   "speed": 1.2
+  },
+  {
+   "id": "L09",
+   "mode": "clash",
+   "tts": "The polar bear backs away!",
+   "shown": "The polar bear backs away!",
+   "shots": [
+    {
+     "s": "retreat",
+     "who": "a"
+    }
+   ],
+   "hold": 0.12,
+   "speed": 1.06
+  },
+  {
+   "id": "L10",
+   "mode": "verdict",
+   "tts": "Experts say a bull walrus can more than match most polar bears.",
+   "shown": "Experts say a bull walrus can more than match most polar bears.",
+   "k": 0,
+   "speed": 1.17
+  },
+  {
+   "id": "L11",
+   "mode": "verdict",
+   "tts": "In real encounters, bears leave healthy adult walruses alone.",
+   "shown": "In real encounters, bears leave healthy adult walruses alone.",
+   "k": 1
+  },
+  {
+   "id": "L12",
+   "mode": "loop",
+   "tts": "Rematch? Round two!",
+   "shown": "Rematch? Round 2!"
+  }
+ ],
+ "source_spec": "episodes/specs/zzbc102.json"
+}

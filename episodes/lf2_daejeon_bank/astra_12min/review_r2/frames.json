@@ -1,0 +1,74 @@
+[
+  {
+    "cue": "LC01",
+    "time": 0.6133242630385488,
+    "frame": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/astra_12min/review_r2/LC01_0.png",
+    "text": "이천이십삼년 일월 십육일. 검찰은 에이에게 사형, 비에게 무기징역을 구형했습니다."
+  },
+  {
+    "cue": "LC01",
+    "time": 3.066621315192744,
+    "frame": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/astra_12min/review_r2/LC01_1.png",
+    "text": "이천이십삼년 일월 십육일. 검찰은 에이에게 사형, 비에게 무기징역을 구형했습니다."
+  },
+  {
+    "cue": "LC01",
+    "time": 5.519918367346939,
+    "frame": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/astra_12min/review_r2/LC01_2.png",
+    "text": "이천이십삼년 일월 십육일. 검찰은 에이에게 사형, 비에게 무기징역을 구형했습니다."
+  },
+  {
+    "cue": "LC02",
+    "time": 6.797163265306123,
+    "frame": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/astra_12min/review_r2/LC02_0.png",
+    "text": "구형은 검찰이 법원에 요구하는 형입니다. 법원이 선고한 결과가 아닙니다."
+  },
+  {
+    "cue": "LC02",
+    "time": 8.772845804988663,
+    "frame": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/astra_12min/review_r2/LC02_1.png",
+    "text": "구형은 검찰이 법원에 요구하는 형입니다. 법원이 선고한 결과가 아닙니다."
+  },
+  {
+    "cue": "LC02",
+    "time": 10.748528344671202,
+    "frame": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/astra_12min/review_r2/LC02_2.png",
+    "text": "구형은 검찰이 법원에 요구하는 형입니다. 법원이 선고한 결과가 아닙니다."
+  },
+  {
+    "cue": "LC03",
+    "time": 12.253414965986394,
+    "frame": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/astra_12min/review_r2/LC03_0.png",
+    "text": "이천이십삼년 이월 십칠일. 이번에는 재판부입니다. 일심은 에이에게 무기징역, 비에게 징역 이십 년을 선고했습니다."
+  },
+  {
+    "cue": "LC03",
+    "time": 15.617278911564625,
+    "frame": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/astra_12min/review_r2/LC03_1.png",
+    "text": "이천이십삼년 이월 십칠일. 이번에는 재판부입니다. 일심은 에이에게 무기징역, 비에게 징역 이십 년을 선고했습니다."
+  },
+  {
+    "cue": "LC03",
+    "time": 18.981142857142856,
+    "frame": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/astra_12min/review_r2/LC03_2.png",
+    "text": "이천이십삼년 이월 십칠일. 이번에는 재판부입니다. 일심은 에이에게 무기징역, 비에게 징역 이십 년을 선고했습니다."
+  },
+  {
+    "cue": "LC04",
+    "time": 20.843537414965986,
+    "frame": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/astra_12min/review_r2/LC04_0.png",
+    "text": "그 뒤 항소심은 두 사람 모두에게 무기징역을 선고했습니다. 비의 형이 달라졌지만, 에이가 발사자라는 판단은 유지됐습니다."
+  },
+  {
+    "cue": "LC04",
+    "time": 24.249251700680272,
+    "frame": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/astra_12min/review_r2/LC04_1.png",
+    "text": "그 뒤 항소심은 두 사람 모두에게 무기징역을 선고했습니다. 비의 형이 달라졌지만, 에이가 발사자라는 판단은 유지됐습니다."
+  },
+  {
+    "cue": "LC04",
+    "time": 27.654965986394558,
+    "frame": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/astra_12min/review_r2/LC04_2.png",
+    "text": "그 뒤 항소심은 두 사람 모두에게 무기징역을 선고했습니다. 비의 형이 달라졌지만, 에이가 발사자라는 판단은 유지됐습니다."
+  }
+]

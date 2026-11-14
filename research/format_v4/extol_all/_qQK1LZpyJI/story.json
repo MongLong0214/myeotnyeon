@@ -1,0 +1,262 @@
+{
+  "topic": "사회/유흥 공간·욕망 해설",
+  "title_formula": "지명+가장+금기 형용사+곳",
+  "cold_open_15_summary": "금기와 인기를 한 장소에 결합하고 일반인에게까지 퍼진 이유를 질문한다.",
+  "cold_open_60_summary": "12초 안에 질문, 17초까지 공간에서 답을 찾겠다고 약속한다. 장 카드 후 위치·외부 간판 없음·호텔·입구의 선별 기준으로 독자를 내부에 데려간다.",
+  "beats": [
+    {
+      "start_s": 0,
+      "end_s": 20.4,
+      "function": "모순형 질문",
+      "summary": "금기 공간의 인기; 공간에서 찾는 해답"
+    },
+    {
+      "start_s": 20.4,
+      "end_s": 60.3,
+      "function": "01 외부와 입구",
+      "summary": "숨은 위치·호텔·가드"
+    },
+    {
+      "start_s": 60.3,
+      "end_s": 104.5,
+      "function": "선별과 구역",
+      "summary": "입장 기준·지하 두 층의 계층"
+    },
+    {
+      "start_s": 104.5,
+      "end_s": 157.1,
+      "function": "좁은 공간의 설계",
+      "summary": "면적·통로·대기줄·접촉"
+    },
+    {
+      "start_s": 157.1,
+      "end_s": 168.6,
+      "function": "다음 질문",
+      "summary": "다른 중요한 욕망 예고·기록 삽입"
+    },
+    {
+      "start_s": 168.6,
+      "end_s": 230.5,
+      "function": "02 테이블과 계급",
+      "summary": "자리·입찰·선망"
+    },
+    {
+      "start_s": 230.5,
+      "end_s": 274.3,
+      "function": "과시",
+      "summary": "테이블·전광판·보이는 소비"
+    },
+    {
+      "start_s": 274.3,
+      "end_s": 315.1,
+      "function": "03 사람",
+      "summary": "실패한 행사와 스탠딩 게스트의 가치"
+    },
+    {
+      "start_s": 315.1,
+      "end_s": 367.3,
+      "function": "남성의 자기 연출",
+      "summary": "돈·외모·쿨한 태도"
+    },
+    {
+      "start_s": 367.3,
+      "end_s": 390.8,
+      "function": "여성의 욕망",
+      "summary": "관심과 계급의 내러티브"
+    },
+    {
+      "start_s": 390.8,
+      "end_s": 410.4,
+      "function": "사회로 확대",
+      "summary": "장소의 폐업과 일상 욕망의 연결"
+    },
+    {
+      "start_s": 410.4,
+      "end_s": 418.43,
+      "function": "출처",
+      "summary": "기반 도서 소개"
+    }
+  ],
+  "open_loops": [
+    {
+      "id": "L1",
+      "raised_s": 9.7,
+      "closed_or_reframed_s": 151.7,
+      "question": "왜 일반인에게까지 인기였는가",
+      "resolution": "좁음·선별·접촉이라는 공간 논리"
+    },
+    {
+      "id": "L2",
+      "raised_s": 104.5,
+      "closed_or_reframed_s": 151.7,
+      "question": "왜 일부러 좁게 만들었는가",
+      "resolution": "밀도·대기·접촉의 효과"
+    },
+    {
+      "id": "L3",
+      "raised_s": 157.1,
+      "closed_or_reframed_s": 230.3,
+      "question": "성적 만남 외의 욕망은 무엇인가",
+      "resolution": "계급·선망·과시"
+    },
+    {
+      "id": "L4",
+      "raised_s": 187.4,
+      "closed_or_reframed_s": 209,
+      "question": "어떤 테이블이 더 비싼가",
+      "resolution": "자리 계급과 입찰"
+    },
+    {
+      "id": "L5",
+      "raised_s": 279.6,
+      "closed_or_reframed_s": 304.1,
+      "question": "행사가 실패하는 이유는 무엇인가",
+      "resolution": "공간보다 사람이라는 해석"
+    },
+    {
+      "id": "L6",
+      "raised_s": 336.7,
+      "closed_or_reframed_s": 357.5,
+      "question": "돈·외모가 애매하면 무엇을 내세우는가",
+      "resolution": "쿨한 태도"
+    }
+  ],
+  "manual_devices": {
+    "foreshadowing": [
+      {
+        "start_s": 12.5,
+        "end_s": 16.8,
+        "description": "공간에 해답"
+      },
+      {
+        "start_s": 56.1,
+        "end_s": 59.4,
+        "description": "입장 선별 예고"
+      },
+      {
+        "start_s": 126.1,
+        "end_s": 128.4,
+        "description": "의도된 좁음"
+      },
+      {
+        "start_s": 157.1,
+        "end_s": 160.1,
+        "description": "다른 이유 예고"
+      },
+      {
+        "start_s": 187.4,
+        "end_s": 189.6,
+        "description": "테이블 계급 예고"
+      }
+    ],
+    "withholding": [
+      {
+        "start_s": 9.7,
+        "end_s": 20.4,
+        "description": "질문 뒤 장 카드"
+      },
+      {
+        "start_s": 104.5,
+        "end_s": 128.4,
+        "description": "좁음의 이유 유예"
+      },
+      {
+        "start_s": 157.1,
+        "end_s": 168.6,
+        "description": "다른 욕망 뒤 삽입 자료"
+      },
+      {
+        "start_s": 187.4,
+        "end_s": 203.4,
+        "description": "테이블 계급의 구체화"
+      },
+      {
+        "start_s": 336.7,
+        "end_s": 344.7,
+        "description": "애매한 위치의 해법"
+      }
+    ],
+    "quotes": [
+      {
+        "start_s": 35.3,
+        "end_s": 38.4,
+        "description": "공간의 태도를 의인화"
+      },
+      {
+        "start_s": 73.4,
+        "end_s": 77,
+        "description": "가드 발언 예시"
+      },
+      {
+        "start_s": 77.4,
+        "end_s": 82.3,
+        "description": "시청자가 들을 수 있는 발언 예시"
+      },
+      {
+        "start_s": 192,
+        "end_s": 197.8,
+        "description": "테이블 계급 표현"
+      },
+      {
+        "start_s": 230.5,
+        "end_s": 237,
+        "description": "소비자의 멸칭 언급"
+      }
+    ],
+    "irony": [
+      {
+        "start_s": 0,
+        "end_s": 12.2,
+        "description": "퇴폐와 인기가 동시에 존재"
+      },
+      {
+        "start_s": 126.1,
+        "end_s": 149.1,
+        "description": "불편한 좁음이 판매 장치"
+      },
+      {
+        "start_s": 209.3,
+        "end_s": 230.3,
+        "description": "고가 소비가 은밀함 대신 노출을 구매"
+      },
+      {
+        "start_s": 269.3,
+        "end_s": 272.9,
+        "description": "구매를 말하기 위해 구매"
+      },
+      {
+        "start_s": 274.3,
+        "end_s": 304.1,
+        "description": "핫한 장소에서도 행사는 실패"
+      },
+      {
+        "start_s": 344.9,
+        "end_s": 367,
+        "description": "관심 없는 태도로 관심을 기다림"
+      },
+      {
+        "start_s": 376.3,
+        "end_s": 390.6,
+        "description": "대상화와 만족의 모순"
+      }
+    ]
+  },
+  "visual_notes": "흰색/빨강/보라색 3D 인체, 클럽 단면·평면·공간 동선·관계 도식. 그림자 대비가 높고 인체 포즈는 있지만 실제 피부 질감·노골적 성행위는 대표 프레임에서 확인하지 못함. 공간 설명을 욕망의 인과관계와 연결.",
+  "thumbnail_notes": "밝은 흰 클럽에 빨간 인물 한 명과 보라색/흰 인물들을 배치. 문구·실제 얼굴 없이 접촉과 공간 관계를 보여줌.",
+  "chapter_cliffhangers": [
+    {
+      "boundary_s": 160.68,
+      "cliffhanger_type_manual": "다른 욕망의 해답 유예",
+      "lead_or_question": "성적 만남 외의 이유를 예고하고 테이블 계급으로 이동",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    },
+    {
+      "boundary_s": 273.24,
+      "cliffhanger_type_manual": "주제 전환",
+      "lead_or_question": "과시 소비를 회수하고 공간을 채우는 사람의 이야기로 전환",
+      "strict_action_interruption": false,
+      "status": "manual semantic classification; not retention evidence"
+    }
+  ]
+}

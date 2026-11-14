@@ -1,0 +1,21 @@
+{
+ "id": "security_camera_01",
+ "name": "Security Camera 01",
+ "type": 2,
+ "authors": {
+  "Alexander Otterbeck": "Modeling & Texturing",
+  "Yann Kervran": "Rigging"
+ },
+ "license": "CC0 1.0 (Poly Haven)",
+ "license_url": "https://polyhaven.com/license",
+ "page": "https://polyhaven.com/a/security_camera_01",
+ "resolution": "2k",
+ "files": [
+  "https://dl.polyhaven.org/file/ph-assets/Models/blend/2k/security_camera_01/security_camera_01_2k.blend",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/security_camera_01/security_camera_01_metal_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/security_camera_01/security_camera_01_diff_2k.jpg",
+  "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/security_camera_01/security_camera_01_opacity_2k.png",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/security_camera_01/security_camera_01_rough_2k.exr",
+  "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/security_camera_01/security_camera_01_nor_gl_2k.exr"
+ ]
+}

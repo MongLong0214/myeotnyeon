@@ -1,0 +1,58 @@
+[
+ {
+  "keyword": "잠든 아내 얼굴 끓는 물",
+  "trend_keyword": "끓는 물 아내",
+  "case_id": "boiling_water_wife",
+  "trial_stage": "항소심 징역 3년(3년6개월→3년)",
+  "verdict_date": "2026-10-22"
+ },
+ {
+  "keyword": "반려견 비비탄 난사 20대",
+  "trend_keyword": "반려견 비비탄",
+  "case_id": "bb_gun_dogs",
+  "trial_stage": "1심 징역 8개월 실형",
+  "verdict_date": "2026-11-03"
+ },
+ {
+  "keyword": "보복운전 술타기 20대",
+  "trend_keyword": "술타기",
+  "case_id": "revenge_drive_sultagi",
+  "trial_stage": "1심 징역 1년",
+  "verdict_date": "2026-10-31"
+ },
+ {
+  "keyword": "아리셀 대표 징역 4년 확정",
+  "trend_keyword": "아리셀",
+  "case_id": "aricell_ceo",
+  "trial_stage": "대법원 확정 징역 4년(1심 15년)",
+  "verdict_date": "2026-10-20"
+ },
+ {
+  "keyword": "안양 환전소 살인 최세용 필리핀 납치",
+  "trend_keyword": "최세용",
+  "case_id": "choi_seyong",
+  "trial_stage": "무기징역 확정",
+  "verdict_date": "2017-09-01"
+ },
+ {
+  "keyword": "경남은행 횡령 간부 징역 35년",
+  "trend_keyword": "경남은행 횡령",
+  "case_id": "gyeongnam_bank",
+  "trial_stage": "대법원 확정 징역 35년",
+  "verdict_date": "2025-09-01"
+ },
+ {
+  "keyword": "삼성전자 반도체 기술 중국 유출",
+  "trend_keyword": "반도체 기술유출",
+  "case_id": "samsung_chip_leak",
+  "trial_stage": "대법원 확정 징역 6년4개월",
+  "verdict_date": "2026-11-12"
+ },
+ {
+  "keyword": "세브란스 교수 피습 흉기",
+  "trend_keyword": "세브란스 흉기",
+  "case_id": "severance_attack",
+  "trial_stage": "송치(재판 전)",
+  "verdict_date": null
+ }
+]

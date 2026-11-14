@@ -1,0 +1,2729 @@
+[
+  {
+    "candidate": 1,
+    "frame": 20,
+    "time_s": 0.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.058958333333333,
+    "hist": 0.035931885579341384
+  },
+  {
+    "candidate": 2,
+    "frame": 80,
+    "time_s": 3.2,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 10.260864197530864,
+    "hist": 0.03718386301983916
+  },
+  {
+    "candidate": 3,
+    "frame": 107,
+    "time_s": 4.28,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 5.208742283950618,
+    "hist": 0.0568094096569795
+  },
+  {
+    "candidate": 4,
+    "frame": 124,
+    "time_s": 4.96,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.585771604938271,
+    "hist": 0.049805223664352444
+  },
+  {
+    "candidate": 5,
+    "frame": 158,
+    "time_s": 6.32,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.0351234567901235,
+    "hist": 0.03572334575918804
+  },
+  {
+    "candidate": 6,
+    "frame": 185,
+    "time_s": 7.4,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 36.03401234567901,
+    "hist": 0.26961041481317366
+  },
+  {
+    "candidate": 7,
+    "frame": 191,
+    "time_s": 7.64,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.893016975308642,
+    "hist": 0.011771822813903241
+  },
+  {
+    "candidate": 8,
+    "frame": 237,
+    "time_s": 9.48,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.3030015432098767,
+    "hist": 0.012665225711655998
+  },
+  {
+    "candidate": 9,
+    "frame": 242,
+    "time_s": 9.68,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 27.869637345679013,
+    "hist": 0.45231642713614145
+  },
+  {
+    "candidate": 10,
+    "frame": 299,
+    "time_s": 11.96,
+    "sources": [
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 26.970354938271605,
+    "hist": 0.2464746487601731
+  },
+  {
+    "candidate": 11,
+    "frame": 305,
+    "time_s": 12.2,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.1721527777777778,
+    "hist": 0.009246160624562204
+  },
+  {
+    "candidate": 12,
+    "frame": 345,
+    "time_s": 13.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.8333410493827165,
+    "hist": 0.044945197768205485
+  },
+  {
+    "candidate": 13,
+    "frame": 350,
+    "time_s": 14.0,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 50.613256172839506,
+    "hist": 0.2832875625558256
+  },
+  {
+    "candidate": 14,
+    "frame": 438,
+    "time_s": 17.52,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 63.81034722222222,
+    "hist": 0.6373100977847213
+  },
+  {
+    "candidate": 15,
+    "frame": 444,
+    "time_s": 17.76,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.874436728395062,
+    "hist": 0.012586256003352161
+  },
+  {
+    "candidate": 16,
+    "frame": 459,
+    "time_s": 18.36,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 46.24364197530864,
+    "hist": 0.4317227725540392
+  },
+  {
+    "candidate": 17,
+    "frame": 489,
+    "time_s": 19.56,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 55.95715277777778,
+    "hist": 0.9078582170198207
+  },
+  {
+    "candidate": 18,
+    "frame": 495,
+    "time_s": 19.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.6234876543209875,
+    "hist": 0.02659081820151271
+  },
+  {
+    "candidate": 19,
+    "frame": 564,
+    "time_s": 22.56,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 54.138263888888886,
+    "hist": 0.6932549248248729
+  },
+  {
+    "candidate": 20,
+    "frame": 570,
+    "time_s": 22.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.4769212962962963,
+    "hist": 0.03726076107649465
+  },
+  {
+    "candidate": 21,
+    "frame": 598,
+    "time_s": 23.92,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 45.70880401234568,
+    "hist": 0.9343133592048393
+  },
+  {
+    "candidate": 22,
+    "frame": 613,
+    "time_s": 24.52,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 192.74831790123457,
+    "hist": 0.8327159747722074
+  },
+  {
+    "candidate": 23,
+    "frame": 619,
+    "time_s": 24.76,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.013433641975308643,
+    "hist": 0.007158407686217962
+  },
+  {
+    "candidate": 24,
+    "frame": 639,
+    "time_s": 25.56,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 206.90266203703703,
+    "hist": 0.8405498505040252
+  },
+  {
+    "candidate": 25,
+    "frame": 646,
+    "time_s": 25.84,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 64.55415895061728,
+    "hist": 0.2862107161145774
+  },
+  {
+    "candidate": 26,
+    "frame": 653,
+    "time_s": 26.12,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 56.695216049382715,
+    "hist": 0.20891620558260346
+  },
+  {
+    "candidate": 27,
+    "frame": 660,
+    "time_s": 26.4,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 76.9280401234568,
+    "hist": 0.34545687024708477
+  },
+  {
+    "candidate": 28,
+    "frame": 667,
+    "time_s": 26.68,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 80.52854938271605,
+    "hist": 0.3260061194890945
+  },
+  {
+    "candidate": 29,
+    "frame": 674,
+    "time_s": 26.96,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 71.41668981481482,
+    "hist": 0.38971053985334403
+  },
+  {
+    "candidate": 30,
+    "frame": 681,
+    "time_s": 27.24,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 65.89232253086419,
+    "hist": 0.3056921961503765
+  },
+  {
+    "candidate": 31,
+    "frame": 688,
+    "time_s": 27.52,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 79.67310956790124,
+    "hist": 0.7022792858806893
+  },
+  {
+    "candidate": 32,
+    "frame": 732,
+    "time_s": 29.28,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.356905864197531,
+    "hist": 0.009253269379803933
+  },
+  {
+    "candidate": 33,
+    "frame": 737,
+    "time_s": 29.48,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 54.12974537037037,
+    "hist": 0.7283354189937465
+  },
+  {
+    "candidate": 34,
+    "frame": 1016,
+    "time_s": 40.64,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 19.08545524691358,
+    "hist": 0.3618893307941159
+  },
+  {
+    "candidate": 35,
+    "frame": 1020,
+    "time_s": 40.8,
+    "sources": [
+      "adaptive",
+      "diff_0.5s"
+    ],
+    "diff": 0.9183179012345679,
+    "hist": 0.015697276041916963
+  },
+  {
+    "candidate": 36,
+    "frame": 1064,
+    "time_s": 42.56,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 33.42153549382716,
+    "hist": 0.5009996381745262
+  },
+  {
+    "candidate": 37,
+    "frame": 1070,
+    "time_s": 42.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.1892901234567903,
+    "hist": 0.011184539630188763
+  },
+  {
+    "candidate": 38,
+    "frame": 1157,
+    "time_s": 46.28,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 38.30270061728395,
+    "hist": 0.23036523881906926
+  },
+  {
+    "candidate": 39,
+    "frame": 1161,
+    "time_s": 46.44,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.5787962962962965,
+    "hist": 0.01063995151133147
+  },
+  {
+    "candidate": 40,
+    "frame": 1215,
+    "time_s": 48.6,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 3.5055092592592594,
+    "hist": 0.02029303809501298
+  },
+  {
+    "candidate": 41,
+    "frame": 1230,
+    "time_s": 49.2,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 3.0858101851851854,
+    "hist": 0.02451634127129367
+  },
+  {
+    "candidate": 42,
+    "frame": 1245,
+    "time_s": 49.8,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 2.957770061728395,
+    "hist": 0.023402989086093756
+  },
+  {
+    "candidate": 43,
+    "frame": 1254,
+    "time_s": 50.16,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 48.33341820987654,
+    "hist": 0.3432666416250536
+  },
+  {
+    "candidate": 44,
+    "frame": 1260,
+    "time_s": 50.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 10.800131172839507,
+    "hist": 0.023138952925659408
+  },
+  {
+    "candidate": 45,
+    "frame": 1358,
+    "time_s": 54.32,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 27.825084876543208,
+    "hist": 0.27018895360669676
+  },
+  {
+    "candidate": 46,
+    "frame": 1364,
+    "time_s": 54.56,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.3530787037037038,
+    "hist": 0.010151565974248638
+  },
+  {
+    "candidate": 47,
+    "frame": 1451,
+    "time_s": 58.04,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.6408873456790123,
+    "hist": 0.010298587598324605
+  },
+  {
+    "candidate": 48,
+    "frame": 1485,
+    "time_s": 59.4,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 1.093912037037037,
+    "hist": 0.017538701862125975
+  },
+  {
+    "candidate": 49,
+    "frame": 1530,
+    "time_s": 61.2,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 1.3678935185185186,
+    "hist": 0.0400427282408189
+  },
+  {
+    "candidate": 50,
+    "frame": 1897,
+    "time_s": 75.88,
+    "sources": [
+      "content",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 21.469228395061727,
+    "hist": 0.017182488675674998
+  },
+  {
+    "candidate": 51,
+    "frame": 1902,
+    "time_s": 76.08,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 18.618233024691357,
+    "hist": 0.05132465037273795
+  },
+  {
+    "candidate": 52,
+    "frame": 2016,
+    "time_s": 80.64,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 57.15554783950617,
+    "hist": 0.6006379205037753
+  },
+  {
+    "candidate": 53,
+    "frame": 2022,
+    "time_s": 80.88,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.0949305555555555,
+    "hist": 0.017698046231228823
+  },
+  {
+    "candidate": 54,
+    "frame": 2086,
+    "time_s": 83.44,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 69.78570987654321,
+    "hist": 0.4170268304867663
+  },
+  {
+    "candidate": 55,
+    "frame": 2092,
+    "time_s": 83.68,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.757916666666667,
+    "hist": 0.022793225143098176
+  },
+  {
+    "candidate": 56,
+    "frame": 2104,
+    "time_s": 84.16,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.613070987654321,
+    "hist": 0.10952585910088757
+  },
+  {
+    "candidate": 57,
+    "frame": 2133,
+    "time_s": 85.32,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 18.640516975308643,
+    "hist": 0.04248865252540714
+  },
+  {
+    "candidate": 58,
+    "frame": 2204,
+    "time_s": 88.16,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 9.035393518518518,
+    "hist": 0.02100274325331081
+  },
+  {
+    "candidate": 59,
+    "frame": 2517,
+    "time_s": 100.68,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.0075,
+    "hist": 0.047030448500695564
+  },
+  {
+    "candidate": 60,
+    "frame": 2553,
+    "time_s": 102.12,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 220.3298302469136,
+    "hist": 0.9075148569409218
+  },
+  {
+    "candidate": 61,
+    "frame": 2559,
+    "time_s": 102.36,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.476851851851852,
+    "hist": 0.022664875865935012
+  },
+  {
+    "candidate": 62,
+    "frame": 2853,
+    "time_s": 114.12,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 22.625524691358024,
+    "hist": 0.31277952473230597
+  },
+  {
+    "candidate": 63,
+    "frame": 2900,
+    "time_s": 116.0,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 27.961381172839506,
+    "hist": 0.3529853116224441
+  },
+  {
+    "candidate": 64,
+    "frame": 2906,
+    "time_s": 116.24,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.582299382716049,
+    "hist": 0.014123820533707875
+  },
+  {
+    "candidate": 65,
+    "frame": 2954,
+    "time_s": 118.16,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.479598765432098,
+    "hist": 0.05078175045248532
+  },
+  {
+    "candidate": 66,
+    "frame": 2994,
+    "time_s": 119.76,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.2443904320987653,
+    "hist": 0.039343255592895816
+  },
+  {
+    "candidate": 67,
+    "frame": 3026,
+    "time_s": 121.04,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 15.845115740740741,
+    "hist": 0.01242404209825522
+  },
+  {
+    "candidate": 68,
+    "frame": 3276,
+    "time_s": 131.04,
+    "sources": [
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 19.159483024691358,
+    "hist": 0.01456064475653703
+  },
+  {
+    "candidate": 69,
+    "frame": 3282,
+    "time_s": 131.28,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 19.209891975308643,
+    "hist": 0.01392144016013458
+  },
+  {
+    "candidate": 70,
+    "frame": 3372,
+    "time_s": 134.88,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 17.2870524691358,
+    "hist": 0.04076501732457587
+  },
+  {
+    "candidate": 71,
+    "frame": 3395,
+    "time_s": 135.8,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 0.9427546296296296,
+    "hist": 0.008681399150300058
+  },
+  {
+    "candidate": 72,
+    "frame": 3551,
+    "time_s": 142.04,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 11.086466049382716,
+    "hist": 0.14768491531765376
+  },
+  {
+    "candidate": 73,
+    "frame": 3663,
+    "time_s": 146.52,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 5.553317901234568,
+    "hist": 0.033399346915795367
+  },
+  {
+    "candidate": 74,
+    "frame": 3919,
+    "time_s": 156.76,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.45511574074074074,
+    "hist": 0.0086107892382312
+  },
+  {
+    "candidate": 75,
+    "frame": 3924,
+    "time_s": 156.96,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 30.45996913580247,
+    "hist": 0.29012750264183074
+  },
+  {
+    "candidate": 76,
+    "frame": 3945,
+    "time_s": 157.8,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 41.757515432098764,
+    "hist": 0.3497134332702899
+  },
+  {
+    "candidate": 77,
+    "frame": 3951,
+    "time_s": 158.04,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 17.463649691358025,
+    "hist": 0.017596099804665925
+  },
+  {
+    "candidate": 78,
+    "frame": 4041,
+    "time_s": 161.64,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 50.314413580246914,
+    "hist": 0.5927689686104258
+  },
+  {
+    "candidate": 79,
+    "frame": 4047,
+    "time_s": 161.88,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.172083333333333,
+    "hist": 0.011455052695023817
+  },
+  {
+    "candidate": 80,
+    "frame": 4118,
+    "time_s": 164.72,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.5168209876543209,
+    "hist": 0.008244832544205487
+  },
+  {
+    "candidate": 81,
+    "frame": 4123,
+    "time_s": 164.92,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 57.59570216049383,
+    "hist": 0.6511529360888471
+  },
+  {
+    "candidate": 82,
+    "frame": 4295,
+    "time_s": 171.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.376913580246914,
+    "hist": 0.00247101021156126
+  },
+  {
+    "candidate": 83,
+    "frame": 4917,
+    "time_s": 196.68,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 22.898611111111112,
+    "hist": 0.20683562262095
+  },
+  {
+    "candidate": 84,
+    "frame": 4961,
+    "time_s": 198.44,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 36.55319444444444,
+    "hist": 0.6912852286503925
+  },
+  {
+    "candidate": 85,
+    "frame": 4967,
+    "time_s": 198.68,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.20358796296296297,
+    "hist": 0.003818416610807423
+  },
+  {
+    "candidate": 86,
+    "frame": 5046,
+    "time_s": 201.84,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.282492283950617,
+    "hist": 0.043325259442674395
+  },
+  {
+    "candidate": 87,
+    "frame": 5115,
+    "time_s": 204.6,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 39.89603395061729,
+    "hist": 0.721477734482405
+  },
+  {
+    "candidate": 88,
+    "frame": 5121,
+    "time_s": 204.84,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.8516203703703704,
+    "hist": 0.02189058274054762
+  },
+  {
+    "candidate": 89,
+    "frame": 5207,
+    "time_s": 208.28,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 52.04569444444444,
+    "hist": 0.7246000999610825
+  },
+  {
+    "candidate": 90,
+    "frame": 5213,
+    "time_s": 208.52,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.693341049382716,
+    "hist": 0.03573376547641866
+  },
+  {
+    "candidate": 91,
+    "frame": 5229,
+    "time_s": 209.16,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.812175925925926,
+    "hist": 0.017774706735478967
+  },
+  {
+    "candidate": 92,
+    "frame": 5293,
+    "time_s": 211.72,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 42.636489197530864,
+    "hist": 0.9119251512715666
+  },
+  {
+    "candidate": 93,
+    "frame": 5347,
+    "time_s": 213.88,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 192.26443672839505,
+    "hist": 0.8395972428901999
+  },
+  {
+    "candidate": 94,
+    "frame": 5635,
+    "time_s": 225.4,
+    "sources": [
+      "content"
+    ],
+    "diff": 26.028703703703705,
+    "hist": 0.0568340163294088
+  },
+  {
+    "candidate": 95,
+    "frame": 5642,
+    "time_s": 225.68,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 29.05431327160494,
+    "hist": 0.05782150148417444
+  },
+  {
+    "candidate": 96,
+    "frame": 5758,
+    "time_s": 230.32,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 118.94055555555556,
+    "hist": 0.9239992351551485
+  },
+  {
+    "candidate": 97,
+    "frame": 5764,
+    "time_s": 230.56,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.5602314814814815,
+    "hist": 0.006820584840142005
+  },
+  {
+    "candidate": 98,
+    "frame": 5824,
+    "time_s": 232.96,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.931890432098766,
+    "hist": 0.011500961989194423
+  },
+  {
+    "candidate": 99,
+    "frame": 5899,
+    "time_s": 235.96,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.220324074074075,
+    "hist": 0.028870392763297434
+  },
+  {
+    "candidate": 100,
+    "frame": 5964,
+    "time_s": 238.56,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 111.30281635802469,
+    "hist": 0.8835977693032351
+  },
+  {
+    "candidate": 101,
+    "frame": 5973,
+    "time_s": 238.92,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 78.94444444444444,
+    "hist": 0.5708713857414777
+  },
+  {
+    "candidate": 102,
+    "frame": 5978,
+    "time_s": 239.12,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 53.97946759259259,
+    "hist": 0.3639878241079974
+  },
+  {
+    "candidate": 103,
+    "frame": 5985,
+    "time_s": 239.4,
+    "sources": [
+      "content"
+    ],
+    "diff": 22.13804012345679,
+    "hist": 0.03956285778337502
+  },
+  {
+    "candidate": 104,
+    "frame": 6102,
+    "time_s": 244.08,
+    "sources": [
+      "content",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 47.49619598765432,
+    "hist": 0.05604539545193263
+  },
+  {
+    "candidate": 105,
+    "frame": 6107,
+    "time_s": 244.28,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 36.06494598765432,
+    "hist": 0.06971208284644445
+  },
+  {
+    "candidate": 106,
+    "frame": 6201,
+    "time_s": 248.04,
+    "sources": [
+      "content",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 37.6845987654321,
+    "hist": 0.07206313710742884
+  },
+  {
+    "candidate": 107,
+    "frame": 6207,
+    "time_s": 248.28,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 38.58234567901235,
+    "hist": 0.08452788337624147
+  },
+  {
+    "candidate": 108,
+    "frame": 6427,
+    "time_s": 257.08,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 200.04537037037036,
+    "hist": 0.9134079684411757
+  },
+  {
+    "candidate": 109,
+    "frame": 6507,
+    "time_s": 260.28,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 0.6584799382716049,
+    "hist": 0.018812447938301866
+  },
+  {
+    "candidate": 110,
+    "frame": 6593,
+    "time_s": 263.72,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 225.33400462962962,
+    "hist": 0.9409316052237573
+  },
+  {
+    "candidate": 111,
+    "frame": 6861,
+    "time_s": 274.44,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 11.160185185185185,
+    "hist": 0.01597717750513131
+  },
+  {
+    "candidate": 112,
+    "frame": 7140,
+    "time_s": 285.6,
+    "sources": [
+      "adaptive",
+      "content",
+      "ffmpeg"
+    ],
+    "diff": 23.648888888888887,
+    "hist": 0.21510302367394105
+  },
+  {
+    "candidate": 113,
+    "frame": 7148,
+    "time_s": 285.92,
+    "sources": [
+      "content"
+    ],
+    "diff": 26.030663580246912,
+    "hist": 0.055555699791698214
+  },
+  {
+    "candidate": 114,
+    "frame": 7161,
+    "time_s": 286.44,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 28.74266975308642,
+    "hist": 0.041993287187962094
+  },
+  {
+    "candidate": 115,
+    "frame": 7313,
+    "time_s": 292.52,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 47.2437037037037,
+    "hist": 0.3131877494073684
+  },
+  {
+    "candidate": 116,
+    "frame": 7319,
+    "time_s": 292.76,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.37587962962963,
+    "hist": 0.09175332328604979
+  },
+  {
+    "candidate": 117,
+    "frame": 7448,
+    "time_s": 297.92,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 16.243371913580248,
+    "hist": 0.06402218923240456
+  },
+  {
+    "candidate": 118,
+    "frame": 7778,
+    "time_s": 311.12,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 65.37709104938271,
+    "hist": 0.5919477871080809
+  },
+  {
+    "candidate": 119,
+    "frame": 7823,
+    "time_s": 312.92,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 32.61994598765432,
+    "hist": 0.277258571027962
+  },
+  {
+    "candidate": 120,
+    "frame": 7830,
+    "time_s": 313.2,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 29.797291666666666,
+    "hist": 0.09745623714763256
+  },
+  {
+    "candidate": 121,
+    "frame": 7836,
+    "time_s": 313.44,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 29.37537037037037,
+    "hist": 0.05725720571539091
+  },
+  {
+    "candidate": 122,
+    "frame": 7871,
+    "time_s": 314.84,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 0.23030864197530865,
+    "hist": 0.011230791364332202
+  },
+  {
+    "candidate": 123,
+    "frame": 7925,
+    "time_s": 317.0,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 101.0932175925926,
+    "hist": 0.5659430226689443
+  },
+  {
+    "candidate": 124,
+    "frame": 7931,
+    "time_s": 317.24,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.15251543209876542,
+    "hist": 0.004879522139810021
+  },
+  {
+    "candidate": 125,
+    "frame": 8004,
+    "time_s": 320.16,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 71.95496141975309,
+    "hist": 0.5313426236309701
+  },
+  {
+    "candidate": 126,
+    "frame": 8066,
+    "time_s": 322.64,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 157.67806327160494,
+    "hist": 0.7597410137720986
+  },
+  {
+    "candidate": 127,
+    "frame": 8072,
+    "time_s": 322.88,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 31.496944444444445,
+    "hist": 0.04846911442679386
+  },
+  {
+    "candidate": 128,
+    "frame": 8083,
+    "time_s": 323.32,
+    "sources": [
+      "content"
+    ],
+    "diff": 17.126095679012344,
+    "hist": 0.032643388988170666
+  },
+  {
+    "candidate": 129,
+    "frame": 8182,
+    "time_s": 327.28,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 29.28224537037037,
+    "hist": 0.15236559920706877
+  },
+  {
+    "candidate": 130,
+    "frame": 8226,
+    "time_s": 329.04,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 35.26199074074074,
+    "hist": 0.29879103407280816
+  },
+  {
+    "candidate": 131,
+    "frame": 8230,
+    "time_s": 329.2,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.3028395061728395,
+    "hist": 0.014484499410594981
+  },
+  {
+    "candidate": 132,
+    "frame": 8390,
+    "time_s": 335.6,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 19.538966049382715,
+    "hist": 0.2882203910095708
+  },
+  {
+    "candidate": 133,
+    "frame": 8448,
+    "time_s": 337.92,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.499174382716049,
+    "hist": 0.0013715576868719437
+  },
+  {
+    "candidate": 134,
+    "frame": 8596,
+    "time_s": 343.84,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 63.414081790123454,
+    "hist": 0.8516613709762743
+  },
+  {
+    "candidate": 135,
+    "frame": 8601,
+    "time_s": 344.04,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.4575694444444444,
+    "hist": 0.012748061573481927
+  },
+  {
+    "candidate": 136,
+    "frame": 8627,
+    "time_s": 345.08,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.512986111111111,
+    "hist": 0.02475218224940864
+  },
+  {
+    "candidate": 137,
+    "frame": 8657,
+    "time_s": 346.28,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 80.01528549382716,
+    "hist": 0.7925423255176258
+  },
+  {
+    "candidate": 138,
+    "frame": 8661,
+    "time_s": 346.44,
+    "sources": [
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 0.8347608024691358,
+    "hist": 0.018105858136130814
+  },
+  {
+    "candidate": 139,
+    "frame": 8746,
+    "time_s": 349.84,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 9.068279320987655,
+    "hist": 0.018799560236180457
+  },
+  {
+    "candidate": 140,
+    "frame": 8859,
+    "time_s": 354.36,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 70.17586419753087,
+    "hist": 0.9524526304560249
+  },
+  {
+    "candidate": 141,
+    "frame": 8932,
+    "time_s": 357.28,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 21.952608024691358,
+    "hist": 0.2941736412926061
+  },
+  {
+    "candidate": 142,
+    "frame": 8938,
+    "time_s": 357.52,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.5490046296296296,
+    "hist": 0.022618540065663297
+  },
+  {
+    "candidate": 143,
+    "frame": 8960,
+    "time_s": 358.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.506489197530864,
+    "hist": 0.0014125100077089306
+  },
+  {
+    "candidate": 144,
+    "frame": 9068,
+    "time_s": 362.72,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 24.60326388888889,
+    "hist": 0.23853238701714174
+  },
+  {
+    "candidate": 145,
+    "frame": 9074,
+    "time_s": 362.96,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 14.00462962962963,
+    "hist": 0.010595896717276098
+  },
+  {
+    "candidate": 146,
+    "frame": 9128,
+    "time_s": 365.12,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 29.241489197530864,
+    "hist": 0.2180027793429447
+  },
+  {
+    "candidate": 147,
+    "frame": 9142,
+    "time_s": 365.68,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 11.557168209876544,
+    "hist": 0.01711148363910595
+  },
+  {
+    "candidate": 148,
+    "frame": 9182,
+    "time_s": 367.28,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 10.074452160493827,
+    "hist": 0.18785502339694088
+  },
+  {
+    "candidate": 149,
+    "frame": 9215,
+    "time_s": 368.6,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 52.758287037037036,
+    "hist": 0.6871596889578727
+  },
+  {
+    "candidate": 150,
+    "frame": 9221,
+    "time_s": 368.84,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.4453009259259259,
+    "hist": 0.011911372710794742
+  },
+  {
+    "candidate": 151,
+    "frame": 9425,
+    "time_s": 377.0,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 44.190925925925924,
+    "hist": 0.9243890639378114
+  },
+  {
+    "candidate": 152,
+    "frame": 9431,
+    "time_s": 377.24,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 21.07901234567901,
+    "hist": 0.027914653528471074
+  },
+  {
+    "candidate": 153,
+    "frame": 9531,
+    "time_s": 381.24,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 28.481072530864196,
+    "hist": 0.03254486004334932
+  },
+  {
+    "candidate": 154,
+    "frame": 9557,
+    "time_s": 382.28,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 28.246435185185184,
+    "hist": 0.774758049528319
+  },
+  {
+    "candidate": 155,
+    "frame": 9616,
+    "time_s": 384.64,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 29.95136574074074,
+    "hist": 0.8720285114480186
+  },
+  {
+    "candidate": 156,
+    "frame": 9622,
+    "time_s": 384.88,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.4664506172839507,
+    "hist": 0.029853174578390727
+  },
+  {
+    "candidate": 157,
+    "frame": 9648,
+    "time_s": 385.92,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 10.17548611111111,
+    "hist": 0.04092960066459984
+  },
+  {
+    "candidate": 158,
+    "frame": 9675,
+    "time_s": 387.0,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 5.350555555555555,
+    "hist": 0.06945771467608843
+  },
+  {
+    "candidate": 159,
+    "frame": 9691,
+    "time_s": 387.64,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.45420524691358,
+    "hist": 0.04935374699250843
+  },
+  {
+    "candidate": 160,
+    "frame": 9726,
+    "time_s": 389.04,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.299236111111111,
+    "hist": 0.0391921760272352
+  },
+  {
+    "candidate": 161,
+    "frame": 9747,
+    "time_s": 389.88,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg"
+    ],
+    "diff": 29.863510802469136,
+    "hist": 0.2996431716420915
+  },
+  {
+    "candidate": 162,
+    "frame": 9764,
+    "time_s": 390.56,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.250054012345679,
+    "hist": 0.09689222307903579
+  },
+  {
+    "candidate": 163,
+    "frame": 9822,
+    "time_s": 392.88,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 20.883086419753088,
+    "hist": 0.03456722513720826
+  },
+  {
+    "candidate": 164,
+    "frame": 9826,
+    "time_s": 393.04,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 21.680015432098767,
+    "hist": 0.07941584076867363
+  },
+  {
+    "candidate": 165,
+    "frame": 9885,
+    "time_s": 395.4,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 11.371658950617284,
+    "hist": 0.03787741873151485
+  },
+  {
+    "candidate": 166,
+    "frame": 9905,
+    "time_s": 396.2,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 40.605131172839506,
+    "hist": 0.6725163691118443
+  },
+  {
+    "candidate": 167,
+    "frame": 9911,
+    "time_s": 396.44,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 16.69633487654321,
+    "hist": 0.022128564997866043
+  },
+  {
+    "candidate": 168,
+    "frame": 10043,
+    "time_s": 401.72,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 54.01077160493827,
+    "hist": 0.6714774394726452
+  },
+  {
+    "candidate": 169,
+    "frame": 10049,
+    "time_s": 401.96,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.28454475308641974,
+    "hist": 0.010761739410902638
+  },
+  {
+    "candidate": 170,
+    "frame": 10094,
+    "time_s": 403.76,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.4280864197530865,
+    "hist": 0.020193662711617676
+  },
+  {
+    "candidate": 171,
+    "frame": 10151,
+    "time_s": 406.04,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 3.721257716049383,
+    "hist": 0.1837074468146182
+  },
+  {
+    "candidate": 172,
+    "frame": 10173,
+    "time_s": 406.92,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 33.917685185185185,
+    "hist": 0.29394479574864774
+  },
+  {
+    "candidate": 173,
+    "frame": 10179,
+    "time_s": 407.16,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.3503626543209877,
+    "hist": 0.01750485000529551
+  },
+  {
+    "candidate": 174,
+    "frame": 10205,
+    "time_s": 408.2,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 6.562453703703704,
+    "hist": 0.02641811931373142
+  },
+  {
+    "candidate": 175,
+    "frame": 10255,
+    "time_s": 410.2,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.770023148148148,
+    "hist": 0.021728125884148367
+  },
+  {
+    "candidate": 176,
+    "frame": 10260,
+    "time_s": 410.4,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 30.20650462962963,
+    "hist": 0.4611576499485389
+  },
+  {
+    "candidate": 177,
+    "frame": 10334,
+    "time_s": 413.36,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 33.13988425925926,
+    "hist": 0.6031245056779676
+  },
+  {
+    "candidate": 178,
+    "frame": 10340,
+    "time_s": 413.6,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.8413117283950617,
+    "hist": 0.052012173371432276
+  },
+  {
+    "candidate": 179,
+    "frame": 10389,
+    "time_s": 415.56,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 47.335339506172836,
+    "hist": 0.5270070633629907
+  },
+  {
+    "candidate": 180,
+    "frame": 10395,
+    "time_s": 415.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.7075385802469136,
+    "hist": 0.010101483882448765
+  },
+  {
+    "candidate": 181,
+    "frame": 10477,
+    "time_s": 419.08,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 47.992785493827164,
+    "hist": 0.6719103200971546
+  },
+  {
+    "candidate": 182,
+    "frame": 10483,
+    "time_s": 419.32,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 4.605625,
+    "hist": 0.06294130547276597
+  },
+  {
+    "candidate": 183,
+    "frame": 10551,
+    "time_s": 422.04,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 31.177885802469135,
+    "hist": 0.24209651116167025
+  },
+  {
+    "candidate": 184,
+    "frame": 10557,
+    "time_s": 422.28,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.4133179012345679,
+    "hist": 0.012141253013972102
+  },
+  {
+    "candidate": 185,
+    "frame": 10676,
+    "time_s": 427.04,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 42.07854938271605,
+    "hist": 0.6300111193745735
+  },
+  {
+    "candidate": 186,
+    "frame": 10682,
+    "time_s": 427.28,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.0255864197530866,
+    "hist": 0.010363394865076836
+  },
+  {
+    "candidate": 187,
+    "frame": 10721,
+    "time_s": 428.84,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 14.04383487654321,
+    "hist": 0.047324436703290805
+  },
+  {
+    "candidate": 188,
+    "frame": 10827,
+    "time_s": 433.08,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.7618981481481482,
+    "hist": 0.00879456785275938
+  },
+  {
+    "candidate": 189,
+    "frame": 10832,
+    "time_s": 433.28,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 74.46952932098766,
+    "hist": 0.4658538505671521
+  },
+  {
+    "candidate": 190,
+    "frame": 10857,
+    "time_s": 434.28,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 5.759274691358025,
+    "hist": 0.09247178474881018
+  },
+  {
+    "candidate": 191,
+    "frame": 10962,
+    "time_s": 438.48,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 15.267847222222223,
+    "hist": 0.07719768268638154
+  },
+  {
+    "candidate": 192,
+    "frame": 10967,
+    "time_s": 438.68,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 13.272530864197531,
+    "hist": 0.11076944151323188
+  },
+  {
+    "candidate": 193,
+    "frame": 11014,
+    "time_s": 440.56,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 87.52968364197531,
+    "hist": 0.6316329997729928
+  },
+  {
+    "candidate": 194,
+    "frame": 11020,
+    "time_s": 440.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.4870756172839505,
+    "hist": 0.014125006794549798
+  },
+  {
+    "candidate": 195,
+    "frame": 11034,
+    "time_s": 441.36,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 25.05843364197531,
+    "hist": 0.06584299655781767
+  },
+  {
+    "candidate": 196,
+    "frame": 11039,
+    "time_s": 441.56,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 40.53110339506173,
+    "hist": 0.20689883440832277
+  },
+  {
+    "candidate": 197,
+    "frame": 11044,
+    "time_s": 441.76,
+    "sources": [
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 49.70145061728395,
+    "hist": 0.3582230374766915
+  },
+  {
+    "candidate": 198,
+    "frame": 11064,
+    "time_s": 442.56,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 17.12986111111111,
+    "hist": 0.06698081111296322
+  },
+  {
+    "candidate": 199,
+    "frame": 11069,
+    "time_s": 442.76,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 15.398942901234568,
+    "hist": 0.039007397142152
+  },
+  {
+    "candidate": 200,
+    "frame": 11079,
+    "time_s": 443.16,
+    "sources": [
+      "content"
+    ],
+    "diff": 12.76692901234568,
+    "hist": 0.018516432843037722
+  },
+  {
+    "candidate": 201,
+    "frame": 11089,
+    "time_s": 443.56,
+    "sources": [
+      "content"
+    ],
+    "diff": 9.260493827160493,
+    "hist": 0.016115606675463894
+  },
+  {
+    "candidate": 202,
+    "frame": 11100,
+    "time_s": 444.0,
+    "sources": [
+      "adaptive"
+    ],
+    "diff": 0.5675385802469136,
+    "hist": 0.012498338064446005
+  },
+  {
+    "candidate": 203,
+    "frame": 11124,
+    "time_s": 444.96,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.63358024691358,
+    "hist": 0.05522846007348046
+  },
+  {
+    "candidate": 204,
+    "frame": 11229,
+    "time_s": 449.16,
+    "sources": [
+      "content"
+    ],
+    "diff": 15.966466049382715,
+    "hist": 0.03598899300681162
+  },
+  {
+    "candidate": 205,
+    "frame": 11234,
+    "time_s": 449.36,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 23.259189814814814,
+    "hist": 0.04842094186645235
+  },
+  {
+    "candidate": 206,
+    "frame": 11240,
+    "time_s": 449.6,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 19.501782407407408,
+    "hist": 0.0500759815803204
+  },
+  {
+    "candidate": 207,
+    "frame": 11244,
+    "time_s": 449.76,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 24.149398148148148,
+    "hist": 0.06943286311921375
+  },
+  {
+    "candidate": 208,
+    "frame": 11254,
+    "time_s": 450.16,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 33.12780864197531,
+    "hist": 0.12205426093869612
+  },
+  {
+    "candidate": 209,
+    "frame": 11259,
+    "time_s": 450.36,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 30.75386574074074,
+    "hist": 0.09795753146489403
+  },
+  {
+    "candidate": 210,
+    "frame": 11446,
+    "time_s": 457.84,
+    "sources": [
+      "adaptive",
+      "content",
+      "diff_0.5s",
+      "ffmpeg"
+    ],
+    "diff": 39.2106712962963,
+    "hist": 0.39203360509096674
+  },
+  {
+    "candidate": 211,
+    "frame": 11492,
+    "time_s": 459.68,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 31.511373456790125,
+    "hist": 0.3272177811742825
+  },
+  {
+    "candidate": 212,
+    "frame": 11498,
+    "time_s": 459.92,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.2077777777777778,
+    "hist": 0.010325747734717294
+  },
+  {
+    "candidate": 213,
+    "frame": 11887,
+    "time_s": 475.48,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 29.674591049382716,
+    "hist": 0.3857939018075035
+  },
+  {
+    "candidate": 214,
+    "frame": 11893,
+    "time_s": 475.72,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.580972222222222,
+    "hist": 0.05346151136660083
+  },
+  {
+    "candidate": 215,
+    "frame": 11991,
+    "time_s": 479.64,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 61.88936728395062,
+    "hist": 0.6280448907970104
+  },
+  {
+    "candidate": 216,
+    "frame": 11997,
+    "time_s": 479.88,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.4010493827160494,
+    "hist": 0.008304587251973718
+  },
+  {
+    "candidate": 217,
+    "frame": 12072,
+    "time_s": 482.88,
+    "sources": [
+      "content"
+    ],
+    "diff": 18.764012345679014,
+    "hist": 0.08087867537560621
+  },
+  {
+    "candidate": 218,
+    "frame": 12082,
+    "time_s": 483.28,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 26.935864197530865,
+    "hist": 0.06482350145768996
+  },
+  {
+    "candidate": 219,
+    "frame": 12087,
+    "time_s": 483.48,
+    "sources": [
+      "content",
+      "diff_0.5s"
+    ],
+    "diff": 24.336388888888887,
+    "hist": 0.06716246976831833
+  },
+  {
+    "candidate": 220,
+    "frame": 12145,
+    "time_s": 485.8,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.8563194444444444,
+    "hist": 0.009179280218576868
+  },
+  {
+    "candidate": 221,
+    "frame": 12150,
+    "time_s": 486.0,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 84.17760802469135,
+    "hist": 0.7456368488577386
+  },
+  {
+    "candidate": 222,
+    "frame": 12462,
+    "time_s": 498.48,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 232.84059413580246,
+    "hist": 0.894334424788054
+  },
+  {
+    "candidate": 223,
+    "frame": 12468,
+    "time_s": 498.72,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 0.23174382716049383,
+    "hist": 0.010082036727788051
+  },
+  {
+    "candidate": 224,
+    "frame": 12586,
+    "time_s": 503.44,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 203.2204552469136,
+    "hist": 0.9199606171583308
+  },
+  {
+    "candidate": 225,
+    "frame": 12592,
+    "time_s": 503.68,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.9764274691358024,
+    "hist": 0.012987514055925568
+  },
+  {
+    "candidate": 226,
+    "frame": 12617,
+    "time_s": 504.68,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 46.65069444444445,
+    "hist": 0.4191442721621736
+  },
+  {
+    "candidate": 227,
+    "frame": 12623,
+    "time_s": 504.92,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.058317901234568,
+    "hist": 0.012884439541098273
+  },
+  {
+    "candidate": 228,
+    "frame": 12681,
+    "time_s": 507.24,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 66.18243055555556,
+    "hist": 0.847890501742549
+  },
+  {
+    "candidate": 229,
+    "frame": 12687,
+    "time_s": 507.48,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 16.64906635802469,
+    "hist": 0.028193398409692778
+  },
+  {
+    "candidate": 230,
+    "frame": 12774,
+    "time_s": 510.96,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 40.47317901234568,
+    "hist": 0.33156945941188254
+  },
+  {
+    "candidate": 231,
+    "frame": 12780,
+    "time_s": 511.2,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 18.96554012345679,
+    "hist": 0.023323009252014994
+  },
+  {
+    "candidate": 232,
+    "frame": 12881,
+    "time_s": 515.24,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 76.48431327160493,
+    "hist": 0.4230778602960572
+  },
+  {
+    "candidate": 233,
+    "frame": 12887,
+    "time_s": 515.48,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 24.362700617283952,
+    "hist": 0.013612992093724342
+  },
+  {
+    "candidate": 234,
+    "frame": 12909,
+    "time_s": 516.36,
+    "sources": [
+      "content",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 46.8066512345679,
+    "hist": 0.09839577082365653
+  },
+  {
+    "candidate": 235,
+    "frame": 12913,
+    "time_s": 516.52,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 19.12738425925926,
+    "hist": 0.04876258499932504
+  },
+  {
+    "candidate": 236,
+    "frame": 13031,
+    "time_s": 521.24,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 160.2345138888889,
+    "hist": 0.7751804674774629
+  },
+  {
+    "candidate": 237,
+    "frame": 13037,
+    "time_s": 521.48,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 1.0915354938271604,
+    "hist": 0.008506394344769502
+  },
+  {
+    "candidate": 238,
+    "frame": 13101,
+    "time_s": 524.04,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 2.748996913580247,
+    "hist": 0.012276204080359135
+  },
+  {
+    "candidate": 239,
+    "frame": 13106,
+    "time_s": 524.24,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 33.58851851851852,
+    "hist": 0.3639205392137621
+  },
+  {
+    "candidate": 240,
+    "frame": 13186,
+    "time_s": 527.44,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 3.2304475308641973,
+    "hist": 0.032581753650911205
+  },
+  {
+    "candidate": 241,
+    "frame": 13231,
+    "time_s": 529.24,
+    "sources": [
+      "content",
+      "adaptive",
+      "ffmpeg",
+      "diff_0.5s"
+    ],
+    "diff": 41.13331790123457,
+    "hist": 0.6672947541962151
+  },
+  {
+    "candidate": 242,
+    "frame": 13237,
+    "time_s": 529.48,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 10.294814814814815,
+    "hist": 0.014759793178277594
+  },
+  {
+    "candidate": 243,
+    "frame": 13263,
+    "time_s": 530.52,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 7.692554012345679,
+    "hist": 0.012865837871112784
+  },
+  {
+    "candidate": 244,
+    "frame": 13465,
+    "time_s": 538.6,
+    "sources": [
+      "diff_0.5s"
+    ],
+    "diff": 12.977114197530865,
+    "hist": 0.09464515321850137
+  }
+]

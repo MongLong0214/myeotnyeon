@@ -1,0 +1,13 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=hlnBA6J160E
+[youtube] hlnBA6J160E: Downloading webpage
+[youtube] hlnBA6J160E: Downloading initial data API JSON
+[youtube] hlnBA6J160E: Downloading iframe API JS
+[youtube] hlnBA6J160E: Downloading player cbcfbf2f-main
+[youtube] hlnBA6J160E: Downloading web player API JSON
+[info] Available formats for hlnBA6J160E:
+ID  EXT   RESOLUTION FPS | PROTO | VCODEC MORE INFO
+----------------------------------------------------
+sb3 mhtml 48x27        0 | mhtml | images storyboard
+sb2 mhtml 80x45        0 | mhtml | images storyboard
+sb1 mhtml 160x90       0 | mhtml | images storyboard
+sb0 mhtml 320x180      0 | mhtml | images storyboard

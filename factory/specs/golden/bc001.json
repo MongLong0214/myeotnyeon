@@ -1,0 +1,261 @@
+{
+ "spec_version": 1,
+ "id": "bc001",
+ "locale": "en",
+ "variant": "BC",
+ "channel": "beastclash",
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "Alaska Dept. of Fish & Game — Polar bear",
+   "url": "https://www.adfg.alaska.gov/index.cfm?adfg=polarbear.main"
+  },
+  {
+   "id": "S2",
+   "outlet": "NOAA/NMFS Circular 32",
+   "url": "https://spo.nmfs.noaa.gov/sites/default/files/legacy-pdfs/CIRC32.pdf"
+  },
+  {
+   "id": "S3",
+   "outlet": "SeaWorld — Walrus",
+   "url": "https://seaworld.org/animals/all-about/walrus/characteristics/"
+  },
+  {
+   "id": "S4",
+   "outlet": "Brookfield Zoo Chicago — Polar bear",
+   "url": "https://www.brookfieldzoo.org/animals/polar-bear"
+  },
+  {
+   "id": "S5",
+   "outlet": "COSEWIC Atlantic Walrus 2017",
+   "url": "https://wildlife-species.canada.ca/species-risk-registry/virtual_sara/files/cosewic/sr_Atlantic%20Walrus_2017_e.pdf"
+  },
+  {
+   "id": "S6",
+   "outlet": "WWF Arctic, The Circle 2.2017",
+   "url": "https://admin.arcticwwf.org/app/uploads/2022/04/29092902/circle_0217_walrus.pdf"
+  }
+ ],
+ "facts": [
+  {
+   "id": "F1",
+   "claim": "The largest male polar bears weigh over 1,700 lb.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "The largest males can weigh in excess of 1700 lbs"
+    }
+   ],
+   "values": {
+    "weight": {
+     "kind": "measure",
+     "text": "1700 lbs"
+    }
+   }
+  },
+  {
+   "id": "F2",
+   "claim": "Adult male walruses reach about 3,000 lb.",
+   "quotes": [
+    {
+     "source": "S2",
+     "text": "Adult males attain a weight of 3,000 pounds"
+    }
+   ],
+   "values": {
+    "weight": {
+     "kind": "measure",
+     "text": "3,000 pounds"
+    }
+   }
+  },
+  {
+   "id": "F3",
+   "claim": "Male walrus tusks grow to about 39 in (100 cm).",
+   "quotes": [
+    {
+     "source": "S3",
+     "text": "Tusks can grow to a length of 100 cm (39 in.) in males"
+    }
+   ],
+   "values": {
+    "tusk": {
+     "kind": "measure",
+     "text": "39 in"
+    }
+   }
+  },
+  {
+   "id": "F4",
+   "claim": "Polar bears can sprint 25 mph for short distances.",
+   "quotes": [
+    {
+     "source": "S4",
+     "text": "Polar bears can run 25 mph for short distances"
+    }
+   ],
+   "values": {
+    "speed": {
+     "kind": "measure",
+     "text": "25 mph"
+    }
+   }
+  },
+  {
+   "id": "F5",
+   "claim": "Walrus blubber is 1-15 cm thick (up to about 6 in).",
+   "quotes": [
+    {
+     "source": "S5",
+     "text": "Their thick skin (2–4 cm) and blubber (1-15 cm; Fay 1985)"
+    }
+   ]
+  },
+  {
+   "id": "F6",
+   "claim": "An adult male walrus can more than match most polar bears; bears defer to adult walruses.",
+   "quotes": [
+    {
+     "source": "S6",
+     "text": "an adult male walrus can more than match most polar bears with its size, strength, incredibly tough hide, and dangerous tusks"
+    },
+    {
+     "source": "S6",
+     "text": "They can and do mortally injure polar bears so it is common to see bears showing deference to adult walrus."
+    }
+   ]
+  }
+ ],
+ "title": "Polar Bear vs Walrus — Who Wins?",
+ "description": "A polar bear against an adult bull walrus. The largest male polar bears weigh over 1,700 lb; adult male walruses reach about 3,000 lb, with tusks up to 39 inches and blubber up to 15 cm thick. Polar bears sprint 25 mph on land. Experts say an adult male walrus can more than match most polar bears, and bears usually leave healthy adults alone.",
+ "hashtags": [
+  "#animals",
+  "#versus",
+  "#polarbear",
+  "#walrus",
+  "#shorts"
+ ],
+ "bc": {
+  "a": "polar",
+  "b": "walrus",
+  "winner": "b",
+  "bg": "ice",
+  "voice": "af_bella",
+  "stats": [
+   {
+    "label": "WEIGHT",
+    "a": "F1.weight",
+    "b": "F2.weight",
+    "win": "b"
+   },
+   {
+    "label": "TUSKS",
+    "b": "F3.tusk",
+    "win": "b"
+   },
+   {
+    "label": "TOP SPEED",
+    "a": "F4.speed",
+    "win": "a"
+   }
+  ],
+  "verdict": {
+   "note": "ADULT BULL · MOST REAL ENCOUNTERS",
+   "note2": "BEARS GO AFTER CALVES INSTEAD",
+   "pop1": "BULL WALRUS > MOST BEARS",
+   "pop2": "BEARS LEAVE ADULT BULLS ALONE"
+  }
+ },
+ "lines": [
+  {
+   "beat": "face",
+   "text": "Polar bear vs walrus!",
+   "fact": "F6"
+  },
+  {
+   "beat": "stat",
+   "text": "1,700 lb vs 3,000 lb!",
+   "fact": "F2"
+  },
+  {
+   "beat": "stat",
+   "text": "Walrus tusks grow up to 39 inches!",
+   "fact": "F3"
+  },
+  {
+   "beat": "stat",
+   "text": "But the bear sprints 25 mph!",
+   "fact": "F4"
+  },
+  {
+   "beat": "prompt",
+   "text": "Who wins? Take your pick!",
+   "fact": "F6"
+  },
+  {
+   "beat": "clash",
+   "text": "The bear charges across the ice!",
+   "fact": "F4",
+   "shots": [
+    {
+     "scene": "charge",
+     "who": "a"
+    }
+   ]
+  },
+  {
+   "beat": "clash",
+   "text": "Up rears the walrus. Tusks first!",
+   "fact": "F3",
+   "shots": [
+    {
+     "scene": "rear",
+     "who": "b"
+    },
+    {
+     "scene": "strike",
+     "who": "b"
+    }
+   ]
+  },
+  {
+   "beat": "clash",
+   "text": "BAM! Thick blubber soaks it up!",
+   "fact": "F5",
+   "shots": [
+    {
+     "scene": "impact",
+     "who": "a",
+     "tank": true
+    }
+   ]
+  },
+  {
+   "beat": "clash",
+   "text": "The polar bear backs away!",
+   "fact": "F6",
+   "shots": [
+    {
+     "scene": "retreat",
+     "who": "a"
+    }
+   ]
+  },
+  {
+   "beat": "verdict",
+   "text": "Experts say a bull walrus can more than match most polar bears.",
+   "fact": "F6"
+  },
+  {
+   "beat": "verdict",
+   "text": "In real encounters, bears leave healthy adult walruses alone.",
+   "fact": "F6"
+  },
+  {
+   "beat": "loop",
+   "text": "Rematch? Round 2!",
+   "fact": "F6"
+  }
+ ],
+ "notes": "Golden BC spec converted from bc001. Differs from the hand-made film where the hand-made used a number no quote states (1,000 lb, a chosen average): the spec system only allows quoted values, so the bear stat is the quoted 1,700 lb maximum."
+}

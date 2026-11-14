@@ -1,0 +1,15 @@
+{
+ "episode": "q013",
+ "engine": "BLENDER_EEVEE",
+ "samples": 64,
+ "screen_space_raytracing": true,
+ "volumetric_samples": 64,
+ "resolution": [
+  1080,
+  1920
+ ],
+ "render_seconds": 2.219309916952625,
+ "revision": "same bounded procedural sky as final v51 q015",
+ "network": false,
+ "people": false
+}

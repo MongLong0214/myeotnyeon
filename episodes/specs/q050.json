@@ -1,0 +1,338 @@
+{
+ "spec_version": 1,
+ "id": "q050",
+ "locale": "ko",
+ "variant": "B3",
+ "channel": "myeotnyeon",
+ "case": {
+  "category": "theft",
+  "grave": true,
+  "deaths": 0,
+  "victim_minor": false,
+  "sexual_offence": false,
+  "court": "서울고법",
+  "instance": "2심",
+  "finality": "상고 미확인",
+  "verdict_date": "2026-10-22",
+  "sentence_fact": "F4"
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "뉴시스",
+   "url": "https://www.newdaily.co.kr/site/data/html/2026/10/22/2026102200351.html",
+   "published": "2026-10-22"
+  },
+  {
+   "id": "S2",
+   "outlet": "이투데이",
+   "url": "https://www.etoday.co.kr/news/view/2639126",
+   "published": "2026-10-22"
+  },
+  {
+   "id": "S3",
+   "outlet": "위키트리",
+   "url": "https://www.wikitree.co.kr/articles/1168383",
+   "published": "2026-10-22"
+  }
+ ],
+ "facts": [
+  {
+   "id": "F1",
+   "claim": "30대 남성이 사다리로 베란다를 타고 배우 나나의 구리 자택에 침입해 모친의 목을 조르며 금품을 요구했다. 사건은 지난해 11월 15일 오전 5시 38분께 발생했다.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "사건은 지난해 11월 15일 오전 5시 38분께 경기 구리시 아천동에 있는 나나의 자택에서 발생했다."
+    },
+    {
+     "source": "S3",
+     "text": "조사 결과 김 씨는 사다리를 이용해 베란다를 타고 올라간 뒤 집 안으로 침입한 것으로 드러났다."
+    },
+    {
+     "source": "S3",
+     "text": "김 씨는 주거지에 들어선 후 나나의 모친을 발견하고 목을 조르는 등 거칠게 위협하며 금품을 요구했다."
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "claim": "나나와 모친은 피고인을 제압하는 과정에서 각각 전치 33일과 31일의 상해를 입은 것으로 알려졌다.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "두 사람은 김씨를 제압하는 과정에서 각각 전치 33일과 31일의 상해를 입은 것으로 알려졌다."
+    }
+   ],
+   "values": {
+    "nana": {
+     "kind": "duration",
+     "text": "33일"
+    },
+    "mom": {
+     "kind": "duration",
+     "text": "31일"
+    }
+   }
+  },
+  {
+   "id": "F3",
+   "claim": "피고인은 나나에게 제압당하다 다쳤다며 나나를 살인미수 및 특수상해 혐의로 맞고소했지만, 경찰은 정당방위로 판단해 불송치 결정을 내렸다.",
+   "quotes": [
+    {
+     "source": "S3",
+     "text": "자신이 나나에게 제압당하는 과정에서 신체적 상처를 입었다고 주장하며 나나를 살인미수 및 특수상해 혐의로 맞고소하는 행태를 보이기도 했다."
+    },
+    {
+     "source": "S1",
+     "text": "그러나 경찰은 나나의 행위를 정당방위로 판단해 불송치 결정을 내렸다."
+    }
+   ]
+  },
+  {
+   "id": "F4",
+   "claim": "서울고법 형사14-3부는 22일 검찰과 피고인의 항소를 모두 기각하고 1심과 같은 징역 7년을 선고했다. 검찰은 항소심에서 징역 10년을 요청했다.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "서울고등법원 형사14-3부는 22일 강도상해 혐의로 기소된 김모씨의 항소심에서 피고인과 검사의 항소를 모두 기각하고 원심과 같은 징역 7년을 선고했다."
+    },
+    {
+     "source": "S2",
+     "text": "항소심에서 검찰과 피고인 측의 항소를 모두 기각하고 원심과 같은 징역 7년을 유지했다."
+    },
+    {
+     "source": "S3",
+     "text": "징역 7년을 선고한 원심 판결을 그대로 유지했다."
+    },
+    {
+     "source": "S1",
+     "text": "검찰은 앞서 열린 항소심 결심공판에서 김씨에게 징역 10년을 선고해 달라고 요청했지만"
+    }
+   ],
+   "values": {
+    "sentence": {
+     "kind": "duration",
+     "text": "징역 7년"
+    },
+    "req": {
+     "kind": "duration",
+     "text": "징역 10년"
+    }
+   }
+  },
+  {
+   "id": "F5",
+   "claim": "재판부는 강도 범행이 목적을 이루지 못한 채 끝났고 피고인도 제압 과정에서 다친 점 등을 참작했지만 1심 형량을 바꿀 사유는 없다고 봤다.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "다만 강도 범행이 목적을 이루지 못한 채 끝났고, 김씨 역시 제압 과정에서 다친 점 등은 함께 참작됐다."
+    },
+    {
+     "source": "S1",
+     "text": "재판부는 이런 사정을 종합하더라도 1심의 형량을 바꿀 정도의 사유는 없다고 보고 양측의 항소를 받아들이지 않았다."
+    }
+   ]
+  }
+ ],
+ "title": "나나 모녀 집에 흉기 들고 침입한 강도, 몇 년?",
+ "description": "지난해 11월 15일 오전 5시 38분께 30대 남성이 사다리로 베란다를 타고 경기 구리시 배우 나나의 자택에 침입해 모친의 목을 조르며 금품을 요구했습니다. 나나와 모친은 제압 과정에서 각각 전치 33일과 31일의 상해를 입은 것으로 알려졌습니다.\n피고인은 오히려 나나를 살인미수 혐의로 맞고소했지만 경찰은 정당방위로 보고 불송치했습니다. 서울고법은 22일 검찰과 피고인의 항소를 모두 기각하고 원심과 같은 징역 7년을 선고했습니다.",
+ "hashtags": [
+  "#강도상해",
+  "#나나",
+  "#판결",
+  "#몇년나옴",
+  "#shorts"
+ ],
+ "cover": "나나 모녀 집에\n흉기 강도",
+ "hook": [
+  "나나 모녀 집에",
+  "흉기 강도"
+ ],
+ "stage": "flee",
+ "defendant": "attacker",
+ "quiz": {
+  "choices": [
+   "징역 3년",
+   "징역 10년",
+   "징역 7년"
+  ],
+  "answer": 2
+ },
+ "lines": [
+  {
+   "beat": "open",
+   "text": "새벽 5시 38분, 나나 모녀의 집에 침입한 남자.",
+   "fact": "F1"
+  },
+  {
+   "beat": "hook",
+   "text": "나나 모녀를 위협한 이 강도, 몇 년 나왔을까요?",
+   "fact": "F4",
+   "actor": "attacker",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "nod"
+    },
+    {
+     "scene": "paper",
+     "lines": [
+      "나나 모녀",
+      "강도"
+     ]
+    }
+   ]
+  },
+  {
+   "beat": "guess",
+   "text": "검찰이 징역 10년을 요청했으니, 비슷할 것 같지만,",
+   "fact": "F4",
+   "shots": [
+    {
+     "scene": "bubble",
+     "lines": [
+      "징역 10년?",
+      "요청했으니…"
+     ]
+    },
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "nod"
+    }
+   ],
+   "actor": "attacker"
+  },
+  {
+   "beat": "twist",
+   "text": "실제 항소심 판결은, 실형 징역 7년이었습니다.",
+   "fact": "F4",
+   "shots": [
+    {
+     "scene": "judge"
+    },
+    {
+     "scene": "stamp",
+     "label": "판결",
+     "stamp": "실형"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "사다리로 베란다를 타고 침입해, 금품을 요구했고,",
+   "fact": "F1",
+   "shots": [
+    {
+     "scene": "paper",
+     "lines": [
+      "사다리",
+      "베란다"
+     ]
+    },
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "shake"
+    }
+   ],
+   "actor": "attacker"
+  },
+  {
+   "beat": "fact",
+   "text": "나나와 모친은 전치 33일, 31일의 상해를 입었습니다.",
+   "fact": "F2",
+   "shots": [
+    {
+     "scene": "paper",
+     "lines": [
+      "전치 33일",
+      "전치 31일"
+     ]
+    },
+    {
+     "scene": "react",
+     "expr": "concern",
+     "move": "shake"
+    }
+   ],
+   "actor": "attacker"
+  },
+  {
+   "beat": "fact",
+   "text": "그런데 피고인은, 나나를 살인미수로 맞고소했습니다.",
+   "fact": "F3",
+   "shots": [
+    {
+     "scene": "bubble",
+     "lines": [
+      "살인미수?",
+      "맞고소…"
+     ]
+    },
+    {
+     "scene": "react",
+     "expr": "angry",
+     "move": "shake"
+    }
+   ],
+   "actor": "attacker"
+  },
+  {
+   "beat": "answer2",
+   "text": "항소심 선고는 징역 7년, 검찰 요청은 징역 10년이었습니다.",
+   "fact": "F4",
+   "shots": [
+    {
+     "scene": "judge"
+    },
+    {
+     "scene": "paper",
+     "lines": [
+      "징역 7년",
+      "요청 10년"
+     ]
+    }
+   ]
+  },
+  {
+   "beat": "loop",
+   "text": "새벽 5시 38분, 나나의 집에,",
+   "fact": "F1"
+  }
+ ],
+ "pops": [
+  {
+   "beat": "hook",
+   "at": 0.45,
+   "big": "검찰 요청 {r}",
+   "small": "항소심 선고는?",
+   "vars": {
+    "r": "F4.req"
+   }
+  },
+  {
+   "beat": "fact2",
+   "at": 0.5,
+   "big": "전치 {a}",
+   "small": "모친은 {b}",
+   "vars": {
+    "a": "F2.nana",
+    "b": "F2.mom"
+   }
+  },
+  {
+   "beat": "answer2",
+   "at": 0.05,
+   "big": "징역 {s}",
+   "small": "요청은 {r}",
+   "vars": {
+    "s": "F4.sentence",
+    "r": "F4.req"
+   }
+  }
+ ]
+}

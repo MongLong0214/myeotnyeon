@@ -1,0 +1,1445 @@
+{
+  "target": {
+    "episode": "q013",
+    "number": 16,
+    "scheduled_publication_kst": "2026-11-06T19:00:00+09:00"
+  },
+  "delivery_status": "로컬 편집 후보 · 업로드 및 게시 작업 없음 · 최종 채택 미정",
+  "render_complete_kst": "2026-11-06T08:54:23.499598+09:00",
+  "verification_completed_kst": "2026-11-06T08:55:46.038431+09:00",
+  "render_deadline_kst": "2026-11-06T15:00:00+09:00",
+  "completed_before_deadline": true,
+  "outputs": [
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/upload/v52_q013_n16_comedy.mp4",
+      "sha256": "5b6d2a9820610798adc8f361458336e47de95c972e0a2a17fbefc92a93948b01",
+      "bytes": 8541782
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/upload/cover_v52_q013_n16_comedy.jpg",
+      "sha256": "0152353b6f94b9797ac848bc696c7203fb182ef6fa0fe6eae4c38a85eff1612b",
+      "bytes": 197497
+    }
+  ],
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 800,
+    "duration_seconds": "26.667000",
+    "probe": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/ffprobe.json",
+    "full_decode_error_output": ""
+  },
+  "audio_identity": {
+    "method": "원본 MP4의 AAC 스트림을 -c:a copy로 사용. 음성 재생성·효과음 추가 없음.",
+    "encoded_packet_payload_sha256": {
+      "original": "4c13b4d3ca6d93846fc6d421cede273ba9e63df410055a96accc3f6416c7bf1d",
+      "revision": "4c13b4d3ca6d93846fc6d421cede273ba9e63df410055a96accc3f6416c7bf1d"
+    },
+    "encoded_payload_equal": true,
+    "decoded_pcm_format": "pcm_f32le / 48000 Hz / stereo",
+    "decoded_pcm_sha256": {
+      "original": "457704e7b47a544b1d21eb638d73dcda6188eb951efebb1f7670d9765ba9df0e",
+      "revision": "457704e7b47a544b1d21eb638d73dcda6188eb951efebb1f7670d9765ba9df0e"
+    },
+    "decoded_pcm_equal": true
+  },
+  "timing_preservation": {
+    "all_800_video_presentation_timestamps_equal": true,
+    "all_audio_packet_timestamps_durations_sizes_equal": true,
+    "timestamp_evidence": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/presentation_timestamps.json",
+    "render_json_byte_identical": true,
+    "render_json_structurally_identical": true,
+    "subtitles_text_and_ranges": [
+      {
+        "from_": 0,
+        "to": 50,
+        "text": "배달 음식 받는 곳을\n바꿨다는 이유로"
+      },
+      {
+        "from_": 50,
+        "to": 114,
+        "text": "외국인 노동자에게\n박치기를 22번 했습니다."
+      },
+      {
+        "from_": 118,
+        "to": 140,
+        "text": "몇 년 받았을까?"
+      },
+      {
+        "from_": 143,
+        "to": 197,
+        "text": "노동자는 뇌진탕 등\n상해를 입었고"
+      },
+      {
+        "from_": 197,
+        "to": 255,
+        "text": "관리자는 구속된 채\n재판에 넘겨졌죠."
+      },
+      {
+        "from_": 258,
+        "to": 286,
+        "text": "게다가 음주운전으로"
+      },
+      {
+        "from_": 286,
+        "to": 329,
+        "text": "집행유예 기간 중이었어요."
+      },
+      {
+        "from_": 334,
+        "to": 397,
+        "text": "벌금, 집행유예, 실형 중\n무엇이었을까요?"
+      },
+      {
+        "from_": 401,
+        "to": 436,
+        "text": "판사는 집행유예 기간에"
+      },
+      {
+        "from_": 436,
+        "to": 479,
+        "text": "자숙하지 않았다고\n꼬집었습니다."
+      },
+      {
+        "from_": 486,
+        "to": 527,
+        "text": "다만 범행을 모두 인정했고"
+      },
+      {
+        "from_": 527,
+        "to": 585,
+        "text": "구금 생활로\n반성했을 거라고 봤어요."
+      },
+      {
+        "from_": 590,
+        "to": 617,
+        "text": "700만 원에 합의해"
+      },
+      {
+        "from_": 617,
+        "to": 664,
+        "text": "피해자도 처벌을\n원치 않았죠."
+      },
+      {
+        "from_": 668,
+        "to": 707,
+        "text": "정답은\n벌금 400만 원입니다."
+      },
+      {
+        "from_": 710,
+        "to": 753,
+        "text": "검찰은 징역 1년을\n구형했었죠."
+      },
+      {
+        "from_": 754,
+        "to": 785,
+        "text": "다음 사건도\n맞혀 보세요."
+      }
+    ],
+    "cue_ranges_and_anchors": [
+      {
+        "id": "C1",
+        "scene": "incident",
+        "from": 0,
+        "dur": 139,
+        "a": {
+          "s1": 4,
+          "e1": 143
+        }
+      },
+      {
+        "id": "C2",
+        "scene": "incident",
+        "from": 139,
+        "dur": 114,
+        "a": {
+          "s1": 4,
+          "e1": 118
+        }
+      },
+      {
+        "id": "C3",
+        "scene": "incident",
+        "from": 253,
+        "dur": 76,
+        "a": {
+          "s1": 4,
+          "e1": 80
+        }
+      },
+      {
+        "id": "C4",
+        "scene": "weigh",
+        "from": 329,
+        "dur": 334,
+        "a": {
+          "s1": 4,
+          "e1": 72,
+          "s2": 72,
+          "e2": 157,
+          "s3": 157,
+          "e3": 260,
+          "s4": 260,
+          "e4": 338
+        }
+      },
+      {
+        "id": "C5",
+        "scene": "reveal",
+        "from": 663,
+        "dur": 87,
+        "a": {
+          "s1": 4,
+          "e1": 46,
+          "s2": 46,
+          "e2": 91
+        }
+      },
+      {
+        "id": "C6",
+        "scene": "outro",
+        "from": 750,
+        "dur": 50,
+        "a": {
+          "s1": 4,
+          "e1": 38
+        }
+      }
+    ],
+    "choice_scene_frame": 329,
+    "choices_pixels_sourced_from_original_frames": [
+      329,
+      662
+    ],
+    "answer_scene_frame": 663,
+    "header_answer_anchor_frame": 669,
+    "answer_badge_anchor_frame": 669,
+    "answer_badge_first_visible_frame": 670,
+    "amount_stamp_anchor_frame": 675,
+    "amount_stamp_first_visible_frame": 676,
+    "prosecution_line_anchor_frame": 709,
+    "prosecution_line_first_visible_frame": 710,
+    "ending_card_start_frame": 755,
+    "method": "원본 영상을 바탕으로 장면 패널만 교체. 자막·헤더와 선택지 스트립은 원본 영상에서 가져옴. 새 선고 장면은 원본 배지·금액·구형의 표시 시작 프레임을 사용."
+  },
+  "title_and_ending_preservation": {
+    "method": "원본 키프레임 경계 61 / 755에서 분할하여 카드 구간의 비디오 패킷을 재인코딩 없이 연결. 최종 디코딩 yuv420p 프레임 MD5를 원본과 전수 대조.",
+    "title_frames": [
+      0,
+      60
+    ],
+    "ending_frames": [
+      755,
+      799
+    ],
+    "decoded_frame_comparisons": 106,
+    "all_compared_decoded_frames_equal": true,
+    "evidence": [
+      "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/v52_q013_n16_framemd5.txt",
+      "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/v52_q013_n16_comedy_framemd5.txt"
+    ]
+  },
+  "changed_scenes": [
+    {
+      "frames": [
+        61,
+        203
+      ],
+      "description": "기숙사 인물 연기: 준비 → 머리 접촉 → 물러남 → 피해자 반응. 중간 반복은 시간 압축 표시, 최종 뇌진탕 등 상해.",
+      "fact_claims": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "frames": [
+        204,
+        252
+      ],
+      "description": "시각비유 표시: 비식별 관리자와 구속 기소 서류.",
+      "fact_claims": [
+        8
+      ]
+    },
+    {
+      "frames": [
+        253,
+        328
+      ],
+      "description": "시각비유 표시: 판사가 과거 음주운전 집유 기간과 이번 범행 시점을 짚음.",
+      "fact_claims": [
+        9
+      ]
+    },
+    {
+      "frames": [
+        329,
+        662
+      ],
+      "description": "판사가 본 사정: 저울과 서류 비유. 자숙하지 않고 범행 / 범행 인정·구금 중 반성 / 700만 원 합의·처벌불원. 한 항목씩 전환.",
+      "fact_claims": [
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "frames": [
+        663,
+        754
+      ],
+      "description": "판사 캐릭터와 벌금 400만 원 선고 문서. 검찰 구형 징역 1년은 원본 시점에 표시.",
+      "fact_claims": [
+        1,
+        2
+      ]
+    }
+  ],
+  "repetition": {
+    "contact_frames": [
+      73,
+      85,
+      89,
+      93,
+      97,
+      101,
+      105,
+      109,
+      113,
+      117,
+      121,
+      125,
+      129,
+      133,
+      137,
+      141,
+      145,
+      149,
+      153,
+      157,
+      161,
+      174
+    ],
+    "count": 22,
+    "counter_increment_method": "접촉 프레임 배열을 동작·카운터에 함께 사용. 첫 1회와 마지막 1회는 느리게, 중간 20회는 4프레임 주기로 시간 압축.",
+    "not_claimed": "실제 현장의 정확한 속도·동선·자세를 재현했다는 주장 아님."
+  },
+  "facts": {
+    "matrix_path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/v52_q013_q014_support/q013_fact_matrix.json",
+    "matrix_sha256": "b83cea2e0761296840b948b1747d845451d465e2a830479f8645dd044410438d",
+    "facts_file": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/facts.md",
+    "facts_file_sha256": "ca0bf58cc30113ed1c1142c007f3147a0c3de3191d7502249dd80179a8c0578d",
+    "external_research_performed": false
+  },
+  "visual_review": {
+    "method": "실제 최종 MP4에서 추출한 사건 동작·22회 접촉·부상·법정·정답 경계·원본 비교 시트를 육안 확인.",
+    "observations": [
+      "기숙사 첫 동작은 준비(f61–70), 접촉(f73–74), 피해자의 수동적 반응과 물러남(f77–82)으로 확인됨.",
+      "접촉 시트에서 카운터 01부터 22까지 확인. 중간 반복에는 시간 압축 표지가 표시됨.",
+      "피해자는 얼굴 특징이 없는 비식별 인물이며 반격·조롱 표정·혈흔이 없음. 최종 반응에서 이마를 짚는 동작과 뇌진탕 등 상해 문구가 표시됨.",
+      "구속·전력·저울 장면은 시각비유 표지로 사건 재구성과 구분됨. 저울 항목은 내레이션에 맞춰 하나씩 전환됨.",
+      "원본/수정본 시트에서 자막·선택지와 정답 표시 시작 프레임을 대조함. 선고 문서와 구형 문구는 원본 애니메이션 시작 프레임을 사용함.",
+      "시작·종료 카드 비교 시트와 전체 106프레임의 디코딩 MD5 일치를 확인함.",
+      "표지 후보는 1080×1920이며 22회 카운터와 기숙사 인물 구성이 보임."
+    ],
+    "acceptance": "최종 채택 판단 미정",
+    "viewed_frame_sheet_count": 8,
+    "complete_changed_frame_sheet_coverage": 694,
+    "continuous_full_length_playback_performed": false
+  },
+  "frame_sheets": [
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/01_windup_contact_reaction.jpg",
+      "sha256": "f2e1b6f22f2ecfc320051aee779b643c2baa0af90bb5a4db9b576457a54c174b"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/02_all_22_contacts.jpg",
+      "sha256": "ae16f01a181fcba6f80fffe9ae9b178b733b9f83b1ee0fbe89b35c80471018a8"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/03_final_contact_and_injury.jpg",
+      "sha256": "5cca395b8c95a64dbf9ed5e4ce0530928da623010d7e5b224057610e156e3dff"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/04_custody_and_probation.jpg",
+      "sha256": "51e1f2dfd2f39a58eb5a1d4ff22596b02f4f59543c95347639b67ca59d32da34"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/05_judge_and_sentencing.jpg",
+      "sha256": "08acafe47744233bef5d0d68e5ec8e48f96c8eed514434e2ffbae69fdab4b9f9"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/06_original_revision_comparison.jpg",
+      "sha256": "6973bb2b203309d7492cc60721eb1427733c771a80972a5ebf9e7484cfe80ecf"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/07_answer_boundaries.jpg",
+      "sha256": "3f7b3ca7567765b20748214c7fcbb4eee4631be86b82f897419b68e7d2cda438"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/08_title_ending_preservation.jpg",
+      "sha256": "acd6d81a9aedf47e716b633265f6262bf119b7fe170bb814490ea18c32687ab5"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/changed_frames_0061_0124.jpg",
+      "sha256": "00cf03208ee5eded3dec46dcd3dd4741223e5968c24809807b677352e03ed56d"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/changed_frames_0125_0188.jpg",
+      "sha256": "065d7115de6062d464ef553c3669807be005f8296ee81dd993b5a9ce7f6c7040"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/changed_frames_0189_0252.jpg",
+      "sha256": "41c419dd22ccec4112804a66c4e52636d94e837679992838ceb04657811d17f6"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/changed_frames_0253_0316.jpg",
+      "sha256": "a4d78255f69381206451ee56ec5c887d7882207c68bbdfc7f881e9e4d941b3a8"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/changed_frames_0317_0380.jpg",
+      "sha256": "4780f9d6a00e310d0f5d3c3ed04e52f8761218f84c8eb7e5066e4ea82efd63e3"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/changed_frames_0381_0444.jpg",
+      "sha256": "c766bae1c41817f74db442d036681e32f77afa007c79eeffecc3bcd4e363051a"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/changed_frames_0445_0508.jpg",
+      "sha256": "9cd0950518cccc35370a1f068d2ba1b999e51b463c5fc7a9f85c3f3a1ee0fb2a"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/changed_frames_0509_0572.jpg",
+      "sha256": "5bf12aecacef731ed31ac93919944f1dff3b354866d81ef092a3b6e13f3fd81e"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/changed_frames_0573_0636.jpg",
+      "sha256": "2072468418f82ff63a58bb7543e9ec1bdbc68de66110bc8c98562289b90091a0"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/changed_frames_0637_0700.jpg",
+      "sha256": "687aa2eace73c831c33a25cbee5cbccbd1118a3b87426c0bb4873e5d5813881c"
+    },
+    {
+      "path": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/changed_frames_0701_0754.jpg",
+      "sha256": "d4bcc36919f87300af46b1e2cc965d697edea910a2e58f05aff98f030684465f"
+    }
+  ],
+  "native_frame_extracts": [
+    {
+      "frame": 0,
+      "seconds": 0.0,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0000.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0000.png",
+      "revision_sha256": "fa5b37bf1ab2c97bea5dc8bf39f5fff99cece433e7a03764a15a28d50028dd5b"
+    },
+    {
+      "frame": 30,
+      "seconds": 1.0,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0030.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0030.png",
+      "revision_sha256": "3b5819177051209c28d3fda981ed0824d4f00066dcd6e642ac98978e572dbf3c"
+    },
+    {
+      "frame": 60,
+      "seconds": 2.0,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0060.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0060.png",
+      "revision_sha256": "f95384e5dec5b49f264732124e44142cca8bf7d8a22c4b14251c495cb4005ca6"
+    },
+    {
+      "frame": 61,
+      "seconds": 2.033333333333333,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0061.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0061.png",
+      "revision_sha256": "834a0bfd5da2098e9d0f0c917508af11199caf16382829f96b0dabe57257d665"
+    },
+    {
+      "frame": 64,
+      "seconds": 2.1333333333333333,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0064.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0064.png",
+      "revision_sha256": "a47b7ffab2e3e998c0460d8a815e64cdfef12f15cbd3e411c5d29e70de0b3938"
+    },
+    {
+      "frame": 67,
+      "seconds": 2.2333333333333334,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0067.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0067.png",
+      "revision_sha256": "6b86aeb6b2bd7ce9c65a70e127d1e473b9d4994c74986758b7374788023516c6"
+    },
+    {
+      "frame": 70,
+      "seconds": 2.3333333333333335,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0070.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0070.png",
+      "revision_sha256": "b902eb873f2d3dcd679c0cf259d1ce358fa914cb02fd6b4927395e09ffd75c79"
+    },
+    {
+      "frame": 72,
+      "seconds": 2.4,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0072.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0072.png",
+      "revision_sha256": "7d833bcb514fb8e38fb19c1f10ac0f3012f0f04488ef908ab0eb37a604d428fd"
+    },
+    {
+      "frame": 73,
+      "seconds": 2.433333333333333,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0073.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0073.png",
+      "revision_sha256": "0b61fd3b1dc156f09e9c0a47bd3ef383df2b04eeefd20cc4a709456c19b3ac62"
+    },
+    {
+      "frame": 74,
+      "seconds": 2.466666666666667,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0074.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0074.png",
+      "revision_sha256": "70675e99e94fb90684c686a25898b04e36b81e8c58533e2374ffedf9db86e1db"
+    },
+    {
+      "frame": 77,
+      "seconds": 2.566666666666667,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0077.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0077.png",
+      "revision_sha256": "ffa95e7f9d7146631680e54b4e1f96249497dcb860046ca27017bfa1943e8c73"
+    },
+    {
+      "frame": 80,
+      "seconds": 2.6666666666666665,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0080.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0080.png",
+      "revision_sha256": "d02c00eb8936bc95bb88435e8973fb8e357abb6dd31b1b92aed10bdcc36c0507"
+    },
+    {
+      "frame": 82,
+      "seconds": 2.7333333333333334,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0082.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0082.png",
+      "revision_sha256": "51ddf40e3abef3e406cd6951119ba38990d342d71d8cd2a475a8574593fe4ddf"
+    },
+    {
+      "frame": 85,
+      "seconds": 2.8333333333333335,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0085.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0085.png",
+      "revision_sha256": "e5fa5228b362e53c84690df88ec3a4270a1f78090a86466050081ed24a34f933"
+    },
+    {
+      "frame": 89,
+      "seconds": 2.966666666666667,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0089.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0089.png",
+      "revision_sha256": "626201625c91491d76922437edbe0ed53720d6d98fbe4c04dd9ad3260d63bd7a"
+    },
+    {
+      "frame": 93,
+      "seconds": 3.1,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0093.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0093.png",
+      "revision_sha256": "92d7dd976d9d7e7642f4b9e9272a367cd2dc23407bfc5de35b4eb431c85da476"
+    },
+    {
+      "frame": 97,
+      "seconds": 3.2333333333333334,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0097.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0097.png",
+      "revision_sha256": "752fa00d1da6a6c88917f763116450a8dc6d4f5ce154bec69de1340e54071324"
+    },
+    {
+      "frame": 101,
+      "seconds": 3.3666666666666667,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0101.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0101.png",
+      "revision_sha256": "93ca960f77b4f0f1692d65f1b7fb9cfea8161633ff866c7f08bf8be5fc5088ad"
+    },
+    {
+      "frame": 105,
+      "seconds": 3.5,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0105.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0105.png",
+      "revision_sha256": "707727f711a4a6a66edfeaa298e7630ba66d1a1d071d6c170f26f86e63cef4e9"
+    },
+    {
+      "frame": 109,
+      "seconds": 3.6333333333333333,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0109.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0109.png",
+      "revision_sha256": "24a0a86a1d123e3f37810b3fbdf4ade196cac5ddae0a7d4aaeedc9426513c3d7"
+    },
+    {
+      "frame": 113,
+      "seconds": 3.7666666666666666,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0113.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0113.png",
+      "revision_sha256": "7e436f527086d82308b66c62c1a8ba1b5d8593d9b547254ed31592a52416242d"
+    },
+    {
+      "frame": 117,
+      "seconds": 3.9,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0117.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0117.png",
+      "revision_sha256": "2505ba30378acd69ce2e30223ae198909c0498c62ede113c7e78f95c64dc7e16"
+    },
+    {
+      "frame": 121,
+      "seconds": 4.033333333333333,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0121.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0121.png",
+      "revision_sha256": "07ab6031f10b349bc82b7907e674e127efbcab59efa228d57a698888137a3b36"
+    },
+    {
+      "frame": 125,
+      "seconds": 4.166666666666667,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0125.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0125.png",
+      "revision_sha256": "14cddd7a9cc440e0c9802b951fb45dd5bbc28b7ed9905d8287aa78dc7bc08fc7"
+    },
+    {
+      "frame": 129,
+      "seconds": 4.3,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0129.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0129.png",
+      "revision_sha256": "8f37f023a0bb65b0470770053130a235abbe67622470c9cabc2eabdfb2c56e50"
+    },
+    {
+      "frame": 133,
+      "seconds": 4.433333333333334,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0133.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0133.png",
+      "revision_sha256": "7918aee3fb09d3613467918a3425e15007798672abab59143e56050dc9474820"
+    },
+    {
+      "frame": 137,
+      "seconds": 4.566666666666666,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0137.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0137.png",
+      "revision_sha256": "7a0b8fed66bda66c5bb23ec0f1a8da8e4f92e8a0a6511df462c113bc24d039bc"
+    },
+    {
+      "frame": 138,
+      "seconds": 4.6,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0138.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0138.png",
+      "revision_sha256": "d42e871a5610322b80556570a5ae2e66d28d03e03fc20ddd9f3c15c57ad1e626"
+    },
+    {
+      "frame": 139,
+      "seconds": 4.633333333333334,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0139.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0139.png",
+      "revision_sha256": "4e6d7a00af741aec266f8bcd1e742d9518e345df36e3910ee3ba89a9bbf4d2b3"
+    },
+    {
+      "frame": 141,
+      "seconds": 4.7,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0141.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0141.png",
+      "revision_sha256": "c827d64e046de354b8b0f657077bc246adc4d2c44e808c8a2117bceb063c6d5b"
+    },
+    {
+      "frame": 145,
+      "seconds": 4.833333333333333,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0145.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0145.png",
+      "revision_sha256": "3a06d8c5e4cb878449f847daff2e0314ccd31a3a98fc4a3a3a0294c1bf96eac4"
+    },
+    {
+      "frame": 149,
+      "seconds": 4.966666666666667,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0149.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0149.png",
+      "revision_sha256": "43b9f7b92efbc311db982edd0cc550f0e1e83923ac67ff66151aec12dec84521"
+    },
+    {
+      "frame": 153,
+      "seconds": 5.1,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0153.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0153.png",
+      "revision_sha256": "0d42f6cbe16b42435ef86f5469e77ca5c3e4f0246a955896fe2baab54138e513"
+    },
+    {
+      "frame": 157,
+      "seconds": 5.233333333333333,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0157.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0157.png",
+      "revision_sha256": "3fb49ee2469137bc36db48732e7121b2727053657aa92ebc7aee39a2bacc908a"
+    },
+    {
+      "frame": 161,
+      "seconds": 5.366666666666666,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0161.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0161.png",
+      "revision_sha256": "7c59114075a2930506b94f08679e073847a3c7c483455fa1bee876bb28ccfff3"
+    },
+    {
+      "frame": 162,
+      "seconds": 5.4,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0162.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0162.png",
+      "revision_sha256": "434a5ec90a22c1ec62a70e74e8dcda0d66a06f74aa36d1950942176c9825165d"
+    },
+    {
+      "frame": 163,
+      "seconds": 5.433333333333334,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0163.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0163.png",
+      "revision_sha256": "1eb300c634a2b79fb88858d07e9a34829ddea375f40109f2213f98a9ca0e745b"
+    },
+    {
+      "frame": 170,
+      "seconds": 5.666666666666667,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0170.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0170.png",
+      "revision_sha256": "d2db7ec85d156154b4a2c3329172ffbe05cc955de73318c46bbf3e65f9d0e6b6"
+    },
+    {
+      "frame": 173,
+      "seconds": 5.766666666666667,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0173.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0173.png",
+      "revision_sha256": "dc8dc5f48432379db7415640d9def129bcccb71c50ea63521822506d4230ea0f"
+    },
+    {
+      "frame": 174,
+      "seconds": 5.8,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0174.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0174.png",
+      "revision_sha256": "7e83eec47e8dddf32c592a46c7bd687350752e0dc211f55b8a92350d48972336"
+    },
+    {
+      "frame": 175,
+      "seconds": 5.833333333333333,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0175.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0175.png",
+      "revision_sha256": "8d67e8b2234b7b2f78bcbf6bd74e408d76bae0962d038682d6ed80711476fcb6"
+    },
+    {
+      "frame": 180,
+      "seconds": 6.0,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0180.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0180.png",
+      "revision_sha256": "18606bd31d617b015e0ee17df9e0196ab1f18291d8d681cff2eadc19639494e9"
+    },
+    {
+      "frame": 181,
+      "seconds": 6.033333333333333,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0181.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0181.png",
+      "revision_sha256": "341d031eb75b9ee10280eadb817fffd212d7151c65c568d68507aa36fbee6ebc"
+    },
+    {
+      "frame": 195,
+      "seconds": 6.5,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0195.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0195.png",
+      "revision_sha256": "5e9763c559a698445216cf7c55ab7406d96af811102801855ad43c65fcb48d85"
+    },
+    {
+      "frame": 203,
+      "seconds": 6.766666666666667,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0203.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0203.png",
+      "revision_sha256": "aa97a440327c1b3f0740cb944e8dc9c3339898140bf4813ec2a8de5ad8bf6fa3"
+    },
+    {
+      "frame": 204,
+      "seconds": 6.8,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0204.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0204.png",
+      "revision_sha256": "550f396b717822a987dadb59cba12f185d82ec79926d0f5f6c13bd2e6e2233c5"
+    },
+    {
+      "frame": 225,
+      "seconds": 7.5,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0225.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0225.png",
+      "revision_sha256": "54bf251c3f6c9e6810b2a75d26fce6ba614cc56a164e2480e3354d963d87286f"
+    },
+    {
+      "frame": 252,
+      "seconds": 8.4,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0252.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0252.png",
+      "revision_sha256": "e1cba96c7d3a925568437e86c97f4cc5df41e2266116f1ab2132a80c5618b292"
+    },
+    {
+      "frame": 253,
+      "seconds": 8.433333333333334,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0253.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0253.png",
+      "revision_sha256": "b3c80e89794cbfc816102b9bbe455557f3ec790df3ffa7f0beff24b3e986dead"
+    },
+    {
+      "frame": 285,
+      "seconds": 9.5,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0285.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0285.png",
+      "revision_sha256": "e89f2d3e9bd39c2a35a1554148827bde066e84388060eae87f920b7ed6206130"
+    },
+    {
+      "frame": 328,
+      "seconds": 10.933333333333334,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0328.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0328.png",
+      "revision_sha256": "779d93c43e62ece0a910fe1754076d505f6ae055efad4ec011553c51dabdb8a4"
+    },
+    {
+      "frame": 329,
+      "seconds": 10.966666666666667,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0329.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0329.png",
+      "revision_sha256": "5400320fa170ec3eb718ae9c7f41c071f1dbf6608e66e3512624487f9cf238ee"
+    },
+    {
+      "frame": 330,
+      "seconds": 11.0,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0330.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0330.png",
+      "revision_sha256": "139f93c88b95baf09725a43807a5257a78c0351c636e37ff3d6835f9d8ede6c1"
+    },
+    {
+      "frame": 336,
+      "seconds": 11.2,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0336.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0336.png",
+      "revision_sha256": "c77aa27e4abf66877badac83d5984979238a755a73a221d04da27f8c6875668d"
+    },
+    {
+      "frame": 360,
+      "seconds": 12.0,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0360.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0360.png",
+      "revision_sha256": "4476fd1236b79c0a27706db8dd3f675d2f23e1d1db42354d737d8f407b1e4c2e"
+    },
+    {
+      "frame": 400,
+      "seconds": 13.333333333333334,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0400.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0400.png",
+      "revision_sha256": "b1dadde551f5be77bca5524580348906ec4815e5b7ef5547ec47b1ff59f84708"
+    },
+    {
+      "frame": 401,
+      "seconds": 13.366666666666667,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0401.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0401.png",
+      "revision_sha256": "c0eabd2e169a9432ec883b92724b3f6927358714a8bedbb94c8a6c923c0fedee"
+    },
+    {
+      "frame": 402,
+      "seconds": 13.4,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0402.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0402.png",
+      "revision_sha256": "7762ebdc7cee906bb30183d0d4b960f4b17abb50f45e4b21815bb4d88a3e6282"
+    },
+    {
+      "frame": 450,
+      "seconds": 15.0,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0450.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0450.png",
+      "revision_sha256": "54166d0ed966fec7d325e7d22a41268fdb6caeccccbe18eb0a5ff8ad1fb9407c"
+    },
+    {
+      "frame": 485,
+      "seconds": 16.166666666666668,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0485.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0485.png",
+      "revision_sha256": "bfedec7b403c286ab46005189034ba3b6a911e10f3ed8cb2ca51429cafdd33af"
+    },
+    {
+      "frame": 486,
+      "seconds": 16.2,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0486.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0486.png",
+      "revision_sha256": "b9c32ca8d3b3c19b18eb4a3f5bf0d411f09df364ebaca6b213db1b2e8e9e9bcc"
+    },
+    {
+      "frame": 487,
+      "seconds": 16.233333333333334,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0487.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0487.png",
+      "revision_sha256": "eec057f26679d5129ce659e11f254e2b6f76ff8e5df7ce14f0e25256b398a4a1"
+    },
+    {
+      "frame": 550,
+      "seconds": 18.333333333333332,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0550.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0550.png",
+      "revision_sha256": "8d05fa1225a945641d2f43e13ad63b2aa045ac6f1942a24c0d5504bdc9a6e7b5"
+    },
+    {
+      "frame": 588,
+      "seconds": 19.6,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0588.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0588.png",
+      "revision_sha256": "4f2b4dfd0f88b84523a22f97db9e183a61c0c2e68ee5a0a46dae6d2f99fb5bc2"
+    },
+    {
+      "frame": 589,
+      "seconds": 19.633333333333333,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0589.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0589.png",
+      "revision_sha256": "507d91114f8a9833ec74a93d350a02017ed1eb9e518982eeedfd255c616c4969"
+    },
+    {
+      "frame": 590,
+      "seconds": 19.666666666666668,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0590.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0590.png",
+      "revision_sha256": "39e02c95beb94d8ec15ef4cf6d04ac4000a35f0ceffbb70831520d57d27519e9"
+    },
+    {
+      "frame": 630,
+      "seconds": 21.0,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0630.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0630.png",
+      "revision_sha256": "b88ae00d77512e4f78d1d3cf5aa058a2e556a12201587beb04bc766468c2d168"
+    },
+    {
+      "frame": 662,
+      "seconds": 22.066666666666666,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0662.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0662.png",
+      "revision_sha256": "95e6c376f17cbb8b0a99a92647e55adc06618a6e6ba254ed3e0a37bdd8896811"
+    },
+    {
+      "frame": 663,
+      "seconds": 22.1,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0663.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0663.png",
+      "revision_sha256": "0be2716d6788707bdfe5dccf8e5dcf8568b308650be4e23cedb0ce5dacfdeadb"
+    },
+    {
+      "frame": 668,
+      "seconds": 22.266666666666666,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0668.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0668.png",
+      "revision_sha256": "dabfb2248fd2a5f52cc7375817a4ce3bc71ef4c8ce1017c537578abea13cf1a7"
+    },
+    {
+      "frame": 669,
+      "seconds": 22.3,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0669.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0669.png",
+      "revision_sha256": "d4278a1d78fd55ac7264df19c059381aba30ca5993520e4766ea4048eba59c5c"
+    },
+    {
+      "frame": 670,
+      "seconds": 22.333333333333332,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0670.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0670.png",
+      "revision_sha256": "c2fb3d2ae963262a1e70aef9b02c6071ec88490f01e5fc112dd003cddaaf5aac"
+    },
+    {
+      "frame": 674,
+      "seconds": 22.466666666666665,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0674.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0674.png",
+      "revision_sha256": "d6bc7c4bb4cedf3c36aa37a8882419a753ea0307ee5a7ea2a48fd88e5b82cdd8"
+    },
+    {
+      "frame": 675,
+      "seconds": 22.5,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0675.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0675.png",
+      "revision_sha256": "5054530c0c20573800c4ed60cfec24a8a0af6685c3a40bc5b4bae32ae2072fb5"
+    },
+    {
+      "frame": 676,
+      "seconds": 22.533333333333335,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0676.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0676.png",
+      "revision_sha256": "a725722559a1201cdd2ff1308528fbdfce0947d25338efbc2fc78f01b919d375"
+    },
+    {
+      "frame": 708,
+      "seconds": 23.6,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0708.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0708.png",
+      "revision_sha256": "39755a6be443e5ee464dfcb1bf3b4a8e2465d7e5405603c2e70e332b29d2a962"
+    },
+    {
+      "frame": 709,
+      "seconds": 23.633333333333333,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0709.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0709.png",
+      "revision_sha256": "df96ae823c5c2e67e32e58db2dde469c78f6dea16ed937476f6bad94b870ed3b"
+    },
+    {
+      "frame": 710,
+      "seconds": 23.666666666666668,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0710.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0710.png",
+      "revision_sha256": "97b7d41badf4da3981dbd31d81a46d7c600b7744af6f7ec6c39f9d4ad58abdd8"
+    },
+    {
+      "frame": 750,
+      "seconds": 25.0,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0750.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0750.png",
+      "revision_sha256": "8f8c45b461c1bdc3e8602ea69495665f8db1b6e0edefbe8f9cae94bb98b451c7"
+    },
+    {
+      "frame": 754,
+      "seconds": 25.133333333333333,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0754.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0754.png",
+      "revision_sha256": "5e8e3fe19e141d38c16097cc3e44a73b5fba1a413c3e36c571a513711b1bdd52"
+    },
+    {
+      "frame": 755,
+      "seconds": 25.166666666666668,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0755.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0755.png",
+      "revision_sha256": "a2a5ba0a4aa23519b6790c92340ce5e2abf82ecc6220dcaa600c0040c31b2e7b"
+    },
+    {
+      "frame": 770,
+      "seconds": 25.666666666666668,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0770.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0770.png",
+      "revision_sha256": "5baa9743f74d6874a7e78aaa69e6abda0a7452167a0fc51d6b42d3cd9f5d2416"
+    },
+    {
+      "frame": 799,
+      "seconds": 26.633333333333333,
+      "original": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/original/f0799.png",
+      "revision": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/revision/f0799.png",
+      "revision_sha256": "5e8ddd5cf10ac6c0486c2b7d73b41c47c03543297b32c83c814dcd69be73b3bf"
+    }
+  ],
+  "outside_scene_comparison": [
+    {
+      "frame": 61,
+      "outside_scene_mean_absolute_channel_error": 0.12167995541838135,
+      "subtitle_mean_absolute_channel_error": 0.5065502297410193
+    },
+    {
+      "frame": 64,
+      "outside_scene_mean_absolute_channel_error": 0.1135044260116598,
+      "subtitle_mean_absolute_channel_error": 0.44881996658312445
+    },
+    {
+      "frame": 67,
+      "outside_scene_mean_absolute_channel_error": 0.11009891546639232,
+      "subtitle_mean_absolute_channel_error": 0.4403795948203843
+    },
+    {
+      "frame": 70,
+      "outside_scene_mean_absolute_channel_error": 0.11107440629286694,
+      "subtitle_mean_absolute_channel_error": 0.4380795739348371
+    },
+    {
+      "frame": 72,
+      "outside_scene_mean_absolute_channel_error": 0.11342699759945131,
+      "subtitle_mean_absolute_channel_error": 0.4380169172932331
+    },
+    {
+      "frame": 73,
+      "outside_scene_mean_absolute_channel_error": 0.1147917738340192,
+      "subtitle_mean_absolute_channel_error": 0.4381343984962406
+    },
+    {
+      "frame": 74,
+      "outside_scene_mean_absolute_channel_error": 0.11412546081961591,
+      "subtitle_mean_absolute_channel_error": 0.43816572681704263
+    },
+    {
+      "frame": 77,
+      "outside_scene_mean_absolute_channel_error": 0.11197782707475995,
+      "subtitle_mean_absolute_channel_error": 0.4382858187134503
+    },
+    {
+      "frame": 80,
+      "outside_scene_mean_absolute_channel_error": 0.11072691615226338,
+      "subtitle_mean_absolute_channel_error": 0.4375704887218045
+    },
+    {
+      "frame": 82,
+      "outside_scene_mean_absolute_channel_error": 0.10809327846364883,
+      "subtitle_mean_absolute_channel_error": 0.4375391604010025
+    },
+    {
+      "frame": 85,
+      "outside_scene_mean_absolute_channel_error": 0.10755503043552812,
+      "subtitle_mean_absolute_channel_error": 0.4375391604010025
+    },
+    {
+      "frame": 89,
+      "outside_scene_mean_absolute_channel_error": 0.10789073216735254,
+      "subtitle_mean_absolute_channel_error": 0.4375234962406015
+    },
+    {
+      "frame": 93,
+      "outside_scene_mean_absolute_channel_error": 0.10760191615226337,
+      "subtitle_mean_absolute_channel_error": 0.4375496031746032
+    },
+    {
+      "frame": 97,
+      "outside_scene_mean_absolute_channel_error": 0.10837566443758573,
+      "subtitle_mean_absolute_channel_error": 0.43736946532999166
+    },
+    {
+      "frame": 101,
+      "outside_scene_mean_absolute_channel_error": 0.10969328703703704,
+      "subtitle_mean_absolute_channel_error": 0.4371136173767753
+    },
+    {
+      "frame": 105,
+      "outside_scene_mean_absolute_channel_error": 0.1123633616255144,
+      "subtitle_mean_absolute_channel_error": 0.43721804511278195
+    },
+    {
+      "frame": 109,
+      "outside_scene_mean_absolute_channel_error": 0.11225780178326475,
+      "subtitle_mean_absolute_channel_error": 0.43721804511278195
+    },
+    {
+      "frame": 113,
+      "outside_scene_mean_absolute_channel_error": 0.1126929012345679,
+      "subtitle_mean_absolute_channel_error": 0.4430842731829574
+    },
+    {
+      "frame": 117,
+      "outside_scene_mean_absolute_channel_error": 0.06906801911865569,
+      "subtitle_mean_absolute_channel_error": 5.2213868003341685e-05
+    },
+    {
+      "frame": 121,
+      "outside_scene_mean_absolute_channel_error": 0.0884202996399177,
+      "subtitle_mean_absolute_channel_error": 0.18724937343358397
+    },
+    {
+      "frame": 125,
+      "outside_scene_mean_absolute_channel_error": 0.08514258616255144,
+      "subtitle_mean_absolute_channel_error": 0.18791771094402673
+    },
+    {
+      "frame": 129,
+      "outside_scene_mean_absolute_channel_error": 0.08641680598422496,
+      "subtitle_mean_absolute_channel_error": 0.18579782790309107
+    },
+    {
+      "frame": 133,
+      "outside_scene_mean_absolute_channel_error": 0.0871921617798354,
+      "subtitle_mean_absolute_channel_error": 0.18357873851294904
+    },
+    {
+      "frame": 137,
+      "outside_scene_mean_absolute_channel_error": 0.08588498799725651,
+      "subtitle_mean_absolute_channel_error": 0.1824091478696742
+    },
+    {
+      "frame": 138,
+      "outside_scene_mean_absolute_channel_error": 0.08742525077160494,
+      "subtitle_mean_absolute_channel_error": 0.1852704678362573
+    },
+    {
+      "frame": 139,
+      "outside_scene_mean_absolute_channel_error": 0.08863597393689986,
+      "subtitle_mean_absolute_channel_error": 0.18496501670843776
+    },
+    {
+      "frame": 141,
+      "outside_scene_mean_absolute_channel_error": 0.06840679655349795,
+      "subtitle_mean_absolute_channel_error": 0.00022190893901420216
+    },
+    {
+      "frame": 145,
+      "outside_scene_mean_absolute_channel_error": 0.09606026020233197,
+      "subtitle_mean_absolute_channel_error": 0.26477391395154554
+    },
+    {
+      "frame": 149,
+      "outside_scene_mean_absolute_channel_error": 0.09206131044238683,
+      "subtitle_mean_absolute_channel_error": 0.25355054302422725
+    },
+    {
+      "frame": 153,
+      "outside_scene_mean_absolute_channel_error": 0.09309252829218106,
+      "subtitle_mean_absolute_channel_error": 0.2543233082706767
+    },
+    {
+      "frame": 157,
+      "outside_scene_mean_absolute_channel_error": 0.09380545910493827,
+      "subtitle_mean_absolute_channel_error": 0.25828111946533
+    },
+    {
+      "frame": 161,
+      "outside_scene_mean_absolute_channel_error": 0.08820676868998628,
+      "subtitle_mean_absolute_channel_error": 0.25245405179615704
+    },
+    {
+      "frame": 162,
+      "outside_scene_mean_absolute_channel_error": 0.08758814514746227,
+      "subtitle_mean_absolute_channel_error": 0.24986424394319132
+    },
+    {
+      "frame": 163,
+      "outside_scene_mean_absolute_channel_error": 0.08899927126200274,
+      "subtitle_mean_absolute_channel_error": 0.25758667502088556
+    },
+    {
+      "frame": 170,
+      "outside_scene_mean_absolute_channel_error": 0.08949652777777778,
+      "subtitle_mean_absolute_channel_error": 0.25493159983291563
+    },
+    {
+      "frame": 173,
+      "outside_scene_mean_absolute_channel_error": 0.08970443244170095,
+      "subtitle_mean_absolute_channel_error": 0.2548193400167084
+    },
+    {
+      "frame": 174,
+      "outside_scene_mean_absolute_channel_error": 0.0900203082133059,
+      "subtitle_mean_absolute_channel_error": 0.25258197577276525
+    },
+    {
+      "frame": 175,
+      "outside_scene_mean_absolute_channel_error": 0.08988554526748971,
+      "subtitle_mean_absolute_channel_error": 0.25225563909774434
+    },
+    {
+      "frame": 180,
+      "outside_scene_mean_absolute_channel_error": 0.09200745884773663,
+      "subtitle_mean_absolute_channel_error": 0.25093723893066
+    },
+    {
+      "frame": 181,
+      "outside_scene_mean_absolute_channel_error": 0.09326560356652949,
+      "subtitle_mean_absolute_channel_error": 0.25253498329156226
+    },
+    {
+      "frame": 195,
+      "outside_scene_mean_absolute_channel_error": 0.10003322187928669,
+      "subtitle_mean_absolute_channel_error": 0.2449639724310777
+    },
+    {
+      "frame": 203,
+      "outside_scene_mean_absolute_channel_error": 0.10376023448216735,
+      "subtitle_mean_absolute_channel_error": 0.3036053675856307
+    },
+    {
+      "frame": 204,
+      "outside_scene_mean_absolute_channel_error": 0.10584356781550068,
+      "subtitle_mean_absolute_channel_error": 0.3017596073517126
+    },
+    {
+      "frame": 225,
+      "outside_scene_mean_absolute_channel_error": 0.10395072445130316,
+      "subtitle_mean_absolute_channel_error": 0.30164734753550543
+    },
+    {
+      "frame": 252,
+      "outside_scene_mean_absolute_channel_error": 0.10475367584019205,
+      "subtitle_mean_absolute_channel_error": 0.3019501879699248
+    },
+    {
+      "frame": 253,
+      "outside_scene_mean_absolute_channel_error": 0.10287020961934157,
+      "subtitle_mean_absolute_channel_error": 0.3020702798663325
+    },
+    {
+      "frame": 285,
+      "outside_scene_mean_absolute_channel_error": 0.09176579646776406,
+      "subtitle_mean_absolute_channel_error": 0.2114139515455305
+    },
+    {
+      "frame": 328,
+      "outside_scene_mean_absolute_channel_error": 0.03408216520919067,
+      "subtitle_mean_absolute_channel_error": 0.0858813700918964
+    },
+    {
+      "frame": 329,
+      "outside_scene_mean_absolute_channel_error": 0.026408446930727022,
+      "subtitle_mean_absolute_channel_error": 9.137426900584795e-05
+    },
+    {
+      "frame": 330,
+      "outside_scene_mean_absolute_channel_error": 0.026975362225651577,
+      "subtitle_mean_absolute_channel_error": 0.0
+    },
+    {
+      "frame": 336,
+      "outside_scene_mean_absolute_channel_error": 0.05353893389917695,
+      "subtitle_mean_absolute_channel_error": 0.2573021094402673
+    },
+    {
+      "frame": 360,
+      "outside_scene_mean_absolute_channel_error": 0.04397478352194788,
+      "subtitle_mean_absolute_channel_error": 0.24424603174603174
+    },
+    {
+      "frame": 400,
+      "outside_scene_mean_absolute_channel_error": 0.024572402263374486,
+      "subtitle_mean_absolute_channel_error": 0.00022451963241436925
+    },
+    {
+      "frame": 401,
+      "outside_scene_mean_absolute_channel_error": 0.03829062714334705,
+      "subtitle_mean_absolute_channel_error": 0.14385442773600668
+    },
+    {
+      "frame": 402,
+      "outside_scene_mean_absolute_channel_error": 0.03700060013717421,
+      "subtitle_mean_absolute_channel_error": 0.1382283834586466
+    },
+    {
+      "frame": 450,
+      "outside_scene_mean_absolute_channel_error": 0.04710674939986283,
+      "subtitle_mean_absolute_channel_error": 0.2071141395154553
+    },
+    {
+      "frame": 485,
+      "outside_scene_mean_absolute_channel_error": 0.028871152692043895,
+      "subtitle_mean_absolute_channel_error": 0.0003785505430242272
+    },
+    {
+      "frame": 486,
+      "outside_scene_mean_absolute_channel_error": 0.04549254115226337,
+      "subtitle_mean_absolute_channel_error": 0.1455435463659148
+    },
+    {
+      "frame": 487,
+      "outside_scene_mean_absolute_channel_error": 0.043717581875857336,
+      "subtitle_mean_absolute_channel_error": 0.1365967000835422
+    },
+    {
+      "frame": 550,
+      "outside_scene_mean_absolute_channel_error": 0.0520238554526749,
+      "subtitle_mean_absolute_channel_error": 0.25664160401002506
+    },
+    {
+      "frame": 588,
+      "outside_scene_mean_absolute_channel_error": 0.0282120734739369,
+      "subtitle_mean_absolute_channel_error": 3.132832080200501e-05
+    },
+    {
+      "frame": 589,
+      "outside_scene_mean_absolute_channel_error": 0.025898866169410152,
+      "subtitle_mean_absolute_channel_error": 3.132832080200501e-05
+    },
+    {
+      "frame": 590,
+      "outside_scene_mean_absolute_channel_error": 0.041572627314814814,
+      "subtitle_mean_absolute_channel_error": 0.13634085213032582
+    },
+    {
+      "frame": 630,
+      "outside_scene_mean_absolute_channel_error": 0.044442033179012345,
+      "subtitle_mean_absolute_channel_error": 0.19836309523809523
+    },
+    {
+      "frame": 662,
+      "outside_scene_mean_absolute_channel_error": 0.05040857553155007,
+      "subtitle_mean_absolute_channel_error": 0.20028456558061822
+    },
+    {
+      "frame": 663,
+      "outside_scene_mean_absolute_channel_error": 0.051197595164609054,
+      "subtitle_mean_absolute_channel_error": 0.19989296157059314
+    },
+    {
+      "frame": 668,
+      "outside_scene_mean_absolute_channel_error": 0.04974440586419753,
+      "subtitle_mean_absolute_channel_error": 0.21747598162071846
+    },
+    {
+      "frame": 669,
+      "outside_scene_mean_absolute_channel_error": 0.07314814814814814,
+      "subtitle_mean_absolute_channel_error": 0.21585996240601504
+    },
+    {
+      "frame": 670,
+      "outside_scene_mean_absolute_channel_error": 0.06494341563786009,
+      "subtitle_mean_absolute_channel_error": 0.21610797827903092
+    },
+    {
+      "frame": 674,
+      "outside_scene_mean_absolute_channel_error": 0.06195049939986282,
+      "subtitle_mean_absolute_channel_error": 0.20837510442773602
+    },
+    {
+      "frame": 675,
+      "outside_scene_mean_absolute_channel_error": 0.06683438357338821,
+      "subtitle_mean_absolute_channel_error": 0.2098031537176274
+    },
+    {
+      "frame": 676,
+      "outside_scene_mean_absolute_channel_error": 0.05572541580932785,
+      "subtitle_mean_absolute_channel_error": 0.20648235171261486
+    },
+    {
+      "frame": 708,
+      "outside_scene_mean_absolute_channel_error": 0.026520436814128943,
+      "subtitle_mean_absolute_channel_error": 0.0005586883876357561
+    },
+    {
+      "frame": 709,
+      "outside_scene_mean_absolute_channel_error": 0.026387817215363513,
+      "subtitle_mean_absolute_channel_error": 0.0005378028404344194
+    },
+    {
+      "frame": 710,
+      "outside_scene_mean_absolute_channel_error": 0.05719200102880658,
+      "subtitle_mean_absolute_channel_error": 0.29984335839598997
+    },
+    {
+      "frame": 750,
+      "outside_scene_mean_absolute_channel_error": 0.05589822316529493,
+      "subtitle_mean_absolute_channel_error": 0.2890063700918964
+    },
+    {
+      "frame": 754,
+      "outside_scene_mean_absolute_channel_error": 0.07585064086076818,
+      "subtitle_mean_absolute_channel_error": 0.43756787802840436
+    }
+  ],
+  "source_preservation": {
+    "baseline_manifest": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/source_baseline.json",
+    "baseline_manifest_sha256": "1f5f536eea3e0c8ab692d37b9836b2c09e30079da3e112557c590ee1c63d8ad5",
+    "checked_file_count": 392,
+    "changed_baseline_files": [],
+    "q014_and_shared_engine_modified": false
+  },
+  "typecheck": {
+    "command": "node production/compositor/node_modules/typescript/bin/tsc -p episodes/quiz/q013/fight_revision/comedy/tsconfig.json",
+    "log": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/typecheck.log",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exit_code": 0
+  },
+  "source_snapshot": {
+    "directory": "/Users/isaac/projects/verdict-kr/work/episodes/quiz/q013/fight_revision/comedy/render_2026-11-05T23-50-31-871Z/final_review/source_snapshot",
+    "sha256": {
+      "render.json": "2fa09bb5220cf14b63207173a1082b72cf9878d941116282b53988a61958f082",
+      "render_fight.cjs": "147fa6d33614d74018f4e5a469b7717f8107edfa1a811a9cb7e28b5009d04faa",
+      "verify_result.py": "e75ebb5358abf9f8fd004ea10b119b8dfc8b22c82c5e85955ced74ca23a9fd52",
+      "HookV51Seed.tsx": "72e4a3330d7aba9029556d7220133ff5120f75d123e683046c747cd862aa396a",
+      "ComedyLogic.tsx": "91b3c90c846325b140d7b0798035f683d4aa97de23c5924d4d84840b9e1f3f3a",
+      "ObjectSets.tsx": "57cb6a349af04e4be8e02eee9d3af163605c46071c3b8d05a84ee43e03905b83",
+      "FightRig.tsx": "22146596cdb1bb7f438c26274dba82ea8066c5235918f7f07fe53a2e2b83071e",
+      "FightScene.tsx": "983cf7306c90fb59509d3a1e6ead43dd8bbe82d974111fa48f2540b277c90b97",
+      "entry.tsx": "a4ebf5289d2a69633a32fda2c89592c8ab33c013b49c35fd0f322b28d61e5877",
+      "tsconfig.json": "84a9831f94aa8170ff45ccecafcf712f86a80e42c427eb3132a47317c398a20d",
+      "QuizPanels.tsx": "b9d6ba59f5290a89b92c08d391b476c089ca807cbfffbf618692aae7181a1285",
+      "CoverCandidate.tsx": "75607437d468aa5cb73443da240f52c6f70517fe7eb9fe3cf1407a46dc9abaaf",
+      "assemble_final.py": "2290a6de471b470578241a9ed41e77e6de63e3e613ef4c928bc8d98f9c89d8eb"
+    }
+  },
+  "limitations": [
+    "실제 현장의 동작·속도는 확인할 수 없어 비식별 재구성과 시간 압축으로 표시함.",
+    "저울·서류·구속창살은 시각비유이며 실제 법정 소품이나 판사의 행동을 주장하지 않음.",
+    "음원 동일성은 바이트 및 디코딩 PCM으로 확인. 연속 청취 검수는 수행하지 않음."
+  ],
+  "network_access_used": false,
+  "uploaded": false,
+  "characters": {
+    "manager": "q014의 원본 허구 캐릭터와 관절 리그를 q013에 복사하여 사용. 실제 인물의 얼굴을 재현하지 않음.",
+    "worker": "얼굴 특징 없는 비식별 캐릭터. 수동적 반응과 부상 표현만 사용.",
+    "judge": "q014 리그의 허구 판사 캐릭터. 법정 소품과 행동은 표시된 시각비유."
+  }
+}

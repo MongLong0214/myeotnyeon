@@ -1,0 +1,32 @@
+{
+  "id": "5KO00s81QC0",
+  "title": "대통령 영부인 암살사건 #shorts",
+  "description": "박정희 대통령 영부인 암살사건",
+  "upload_date": "20260801",
+  "timestamp": 1785553826,
+  "duration": 60,
+  "view_count": 3870,
+  "like_count": 36,
+  "comment_count": 5,
+  "chapters": null,
+  "channel": "엑스톨(Extol)",
+  "channel_id": "UCHRG_xhaJj-5TsYnAjhJXVQ",
+  "channel_follower_count": null,
+  "webpage_url": "https://www.youtube.com/watch?v=5KO00s81QC0",
+  "categories": [
+    "People & Blogs"
+  ],
+  "tags": [
+    "박정희",
+    "육영수"
+  ],
+  "language": "ko",
+  "availability": "public",
+  "age_limit": 0,
+  "analysis_kind": "short",
+  "collected_local": "2026-10-30T09:09:37+0900",
+  "counts_method": "yt-dlp separate metadata extraction without write-comments; avoids capped extracted count",
+  "extractor_format_description": "135 - 480x854 (480p)+251-2 - audio only (한국어 원본 (default), medium)",
+  "extracted_audio_language": "ko",
+  "format_note_caveat": "For two reused media copies, selected format in fresh metadata is not the copy format; source_media.json ffprobe is authoritative."
+}

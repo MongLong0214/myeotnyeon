@@ -1,0 +1,160 @@
+{
+ "accuracy": 0.990521327014218,
+ "character_clock_accuracy": 0.919431279620853,
+ "rows": [
+  {
+   "text": "배달 음식 받는 곳을\n바꿨다는 이유로",
+   "start": 0,
+   "end": 50,
+   "old_start": 4,
+   "old_end": 59,
+   "start_seconds": 0.0,
+   "end_seconds": 1.68
+  },
+  {
+   "text": "외국인 노동자에게\n박치기를 22번 했습니다.",
+   "start": 50,
+   "end": 114,
+   "old_start": 59,
+   "old_end": 143,
+   "start_seconds": 1.68,
+   "end_seconds": 3.8
+  },
+  {
+   "text": "몇 년 받았을까?",
+   "start": 118,
+   "end": 140,
+   "old_start": 142,
+   "old_end": 143,
+   "start_seconds": 3.92,
+   "end_seconds": 4.68
+  },
+  {
+   "text": "노동자는 뇌진탕 등\n상해를 입었고",
+   "start": 143,
+   "end": 197,
+   "old_start": 143,
+   "old_end": 192,
+   "start_seconds": 4.76,
+   "end_seconds": 6.58
+  },
+  {
+   "text": "관리자는 구속된 채\n재판에 넘겨졌죠.",
+   "start": 197,
+   "end": 255,
+   "old_start": 192,
+   "old_end": 257,
+   "start_seconds": 6.58,
+   "end_seconds": 8.5
+  },
+  {
+   "text": "게다가 음주운전으로",
+   "start": 258,
+   "end": 286,
+   "old_start": 257,
+   "old_end": 285,
+   "start_seconds": 8.6,
+   "end_seconds": 9.54
+  },
+  {
+   "text": "집행유예 기간 중이었어요.",
+   "start": 286,
+   "end": 329,
+   "old_start": 285,
+   "old_end": 333,
+   "start_seconds": 9.54,
+   "end_seconds": 10.98
+  },
+  {
+   "text": "벌금, 집행유예, 실형 중\n무엇이었을까요?",
+   "start": 334,
+   "end": 397,
+   "old_start": 333,
+   "old_end": 401,
+   "start_seconds": 11.12,
+   "end_seconds": 13.22
+  },
+  {
+   "text": "판사는 집행유예 기간에",
+   "start": 401,
+   "end": 436,
+   "old_start": 401,
+   "old_end": 431,
+   "start_seconds": 13.36,
+   "end_seconds": 14.54
+  },
+  {
+   "text": "자숙하지 않았다고\n꼬집었습니다.",
+   "start": 436,
+   "end": 479,
+   "old_start": 431,
+   "old_end": 486,
+   "start_seconds": 14.54,
+   "end_seconds": 15.96
+  },
+  {
+   "text": "다만 범행을 모두 인정했고",
+   "start": 486,
+   "end": 527,
+   "old_start": 486,
+   "old_end": 524,
+   "start_seconds": 16.2,
+   "end_seconds": 17.56
+  },
+  {
+   "text": "구금 생활로\n반성했을 거라고 봤어요.",
+   "start": 527,
+   "end": 585,
+   "old_start": 524,
+   "old_end": 589,
+   "start_seconds": 17.56,
+   "end_seconds": 19.5
+  },
+  {
+   "text": "700만 원에 합의해",
+   "start": 590,
+   "end": 617,
+   "old_start": 589,
+   "old_end": 617,
+   "start_seconds": 19.66,
+   "end_seconds": 20.58
+  },
+  {
+   "text": "피해자도 처벌을\n원치 않았죠.",
+   "start": 617,
+   "end": 664,
+   "old_start": 617,
+   "old_end": 667,
+   "start_seconds": 20.58,
+   "end_seconds": 22.14
+  },
+  {
+   "text": "정답은\n벌금 400만 원입니다.",
+   "start": 668,
+   "end": 707,
+   "old_start": 667,
+   "old_end": 709,
+   "start_seconds": 22.28,
+   "end_seconds": 23.56
+  },
+  {
+   "text": "검찰은 징역 1년을\n구형했었죠.",
+   "start": 710,
+   "end": 753,
+   "old_start": 709,
+   "old_end": 754,
+   "start_seconds": 23.66,
+   "end_seconds": 25.1
+  },
+  {
+   "text": "다음 사건도\n맞혀 보세요.",
+   "start": 754,
+   "end": 785,
+   "old_start": 754,
+   "old_end": 788,
+   "start_seconds": 25.14,
+   "end_seconds": 26.16
+  }
+ ],
+ "pass_": true
+}

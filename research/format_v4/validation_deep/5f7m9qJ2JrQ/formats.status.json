@@ -1,0 +1,22 @@
+{
+ "started_at_kst": "2026-10-26T19:10:09+09:00",
+ "finished_at_kst": "2026-10-26T19:10:12+09:00",
+ "command": [
+  "/Users/isaac/.local/bin/yt-dlp",
+  "--ignore-config",
+  "--no-cookies",
+  "--socket-timeout",
+  "25",
+  "--retries",
+  "1",
+  "--extractor-retries",
+  "1",
+  "--ignore-no-formats-error",
+  "--extractor-args",
+  "youtube:player_client=web",
+  "-F",
+  "https://www.youtube.com/watch?v=5f7m9qJ2JrQ"
+ ],
+ "exit_code": 0,
+ "error": "WARNING: [youtube] 5f7m9qJ2JrQ: Unable to download webpage: HTTP Error 429: Too Many Requests (caused by <HTTPError 429: Too Many Requests>)\nWARNING: [youtube] Sign in to confirm your age. This video may be inappropriate for some users. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies\nWARNING: No video formats found!\n"
+}

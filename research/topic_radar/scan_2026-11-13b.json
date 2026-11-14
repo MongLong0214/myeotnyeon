@@ -1,0 +1,553 @@
+{
+ "observed_at": "2026-11-13T01:25:52+00:00",
+ "anchor": "음주운전",
+ "weights": {
+  "datalab": 0.3,
+  "yt_demand": 0.25,
+  "recency": 0.2,
+  "news": 0.15,
+  "autocomplete": 0.1
+ },
+ "rows": [
+  {
+   "candidate": {
+    "keyword": "잠든 아내 얼굴 끓는 물",
+    "trend_keyword": "끓는 물 아내",
+    "case_id": "boiling_water_wife",
+    "trial_stage": "항소심 징역 3년(3년6개월→3년)",
+    "verdict_date": "2026-10-22"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": null,
+    "news_total": 191,
+    "yt_demand": null,
+    "autocomplete": 0.0,
+    "recency": 0.8777777777777778
+   },
+   "evidence": {
+    "news": {
+     "total": 191,
+     "recent_90d_sample": 31
+    },
+    "youtube_top": [],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": null,
+    "yt_demand": null,
+    "recency": 0.88268156424581,
+    "news": 0.4114101757412923,
+    "autocomplete": 0.0
+   },
+   "score": 52.94
+  },
+  {
+   "candidate": {
+    "keyword": "반려견 비비탄 난사 20대",
+    "trend_keyword": "반려견 비비탄",
+    "case_id": "bb_gun_dogs",
+    "trial_stage": "1심 징역 8개월 실형",
+    "verdict_date": "2026-11-03"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": 0.44314828222726155,
+    "news_total": 342,
+    "yt_demand": 1312.888888888889,
+    "autocomplete": 0.0,
+    "recency": 0.9444444444444444
+   },
+   "evidence": {
+    "news": {
+     "total": 342,
+     "recent_90d_sample": 76
+    },
+    "youtube_top": [
+     {
+      "id": "oCnO0hhSOB0",
+      "title": "\"한 마리는 사망, 나머진 안구적출\"..반려견에 비비탄 난사한 전 해병대원 '실형' (자막뉴스) / SBS",
+      "published_at": "2026-11-03T08:38:03Z",
+      "view_count": 116036,
+      "views_per_day": 12892.888888888889
+     },
+     {
+      "id": "NuKs4gPbvA8",
+      "title": "반려견들에 '비비탄 난사' 20대 3명 징역 8개월…견주 \"제대로 된 사과 없어\"｜지금 이 쇼츠",
+      "published_at": "2026-11-03T22:00:18Z",
+      "view_count": 8117,
+      "views_per_day": 901.8888888888889
+     },
+     {
+      "id": "ETVgLII48IY",
+      "title": "'반려견 비비탄 난사' 20대 검찰 송치…군인 2명 수사 중 / 연합뉴스TV (YonhapnewsTV)",
+      "published_at": "2025-09-27T09:12:19Z",
+      "view_count": 1001,
+      "views_per_day": 2.435523114355231
+     },
+     {
+      "id": "pu6hFXPqDXw",
+      "title": "반려견들에 '비비탄 난사' 20대 3명 징역 8개월…견주 \"제대로 된 사과 없어\" #JTBC #Shorts",
+      "published_at": "2026-11-03T08:11:57Z",
+      "view_count": 48721,
+      "views_per_day": 5413.444444444444
+     },
+     {
+      "id": "rBrg_7KV1-0",
+      "title": "반려견에 비비탄 난사…전 해병대원 징역 8개월 / 채널A / 뉴스A",
+      "published_at": "2026-11-03T11:19:59Z",
+      "view_count": 11816,
+      "views_per_day": 1312.888888888889
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": 0.006140938088939982,
+    "yt_demand": 0.1660196426477185,
+    "recency": 0.9497206703910615,
+    "news": 0.4948884964680887,
+    "autocomplete": 0.0
+   },
+   "score": 30.75
+  },
+  {
+   "candidate": {
+    "keyword": "보복운전 술타기 20대",
+    "trend_keyword": "술타기",
+    "case_id": "revenge_drive_sultagi",
+    "trial_stage": "1심 징역 1년",
+    "verdict_date": "2026-10-31"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": 1.0320701464986481,
+    "news_total": 10,
+    "yt_demand": 0.18084600760456274,
+    "autocomplete": 0.0,
+    "recency": 0.9277777777777778
+   },
+   "evidence": {
+    "news": {
+     "total": 10,
+     "recent_90d_sample": 9
+    },
+    "youtube_top": [
+     {
+      "id": "kqpnSf6sJR0",
+      "title": "[영상] 음주 20대, 방망이 휘두르며 보복 운전 / YTN",
+      "published_at": "2017-04-22T05:52:04Z",
+      "view_count": 283,
+      "views_per_day": 0.08106559725007162
+     },
+     {
+      "id": "YqxgXgMmyRE",
+      "title": "음주·보복·무면허 운전에 뺑소니 위장까지…겁 없는 20대",
+      "published_at": "2018-10-05T12:12:50Z",
+      "view_count": 447,
+      "views_per_day": 0.15101351351351353
+     },
+     {
+      "id": "JzRIIG6j8i0",
+      "title": "[단독] 대낮에 음주운전한 20대들…클럽에서 점심까지 '술판' [MBN 종합뉴스]",
+      "published_at": "2021-02-24T11:15:26Z",
+      "view_count": 1213,
+      "views_per_day": 0.5812170579779588
+     },
+     {
+      "id": "9F-bzlczBCc",
+      "title": "대포차로 무면허·음주 사고 뺑소니...20대 구속 / YTN",
+      "published_at": "2015-05-06T03:42:04Z",
+      "view_count": 761,
+      "views_per_day": 0.18084600760456274
+     },
+     {
+      "id": "tNEJoqXqOug",
+      "title": "경찰 오자 소주 깠다는 술 타기 보복운전자",
+      "published_at": "2026-11-01T13:15:36Z",
+      "view_count": 1082,
+      "views_per_day": 98.36363636363636
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": 0.01553844279444551,
+    "yt_demand": 0.0,
+    "recency": 0.9329608938547487,
+    "news": 0.0,
+    "autocomplete": 0.0
+   },
+   "score": 19.13
+  },
+  {
+   "candidate": {
+    "keyword": "아리셀 대표 징역 4년 확정",
+    "trend_keyword": "아리셀",
+    "case_id": "aricell_ceo",
+    "trial_stage": "대법원 확정 징역 4년(1심 15년)",
+    "verdict_date": "2026-10-20"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": 62.726206381764236,
+    "news_total": 459,
+    "yt_demand": 549.0434782608696,
+    "autocomplete": 1.0,
+    "recency": 0.8666666666666667
+   },
+   "evidence": {
+    "news": {
+     "total": 459,
+     "recent_90d_sample": 100
+    },
+    "youtube_top": [
+     {
+      "id": "dHVfxX67v-A",
+      "title": "'23명 사망' 아리셀 대표, 결국 '징역 4년' 대폭 감형 확정 (2026.10.20/뉴스데스크/MBC)",
+      "published_at": "2026-10-20T13:37:50Z",
+      "view_count": 27062,
+      "views_per_day": 1176.608695652174
+     },
+     {
+      "id": "9mw382Cse2g",
+      "title": "'아리셀 참사' 대표 징역 4년 확정..유족 반발 / SBS 모닝와이드",
+      "published_at": "2026-10-20T21:30:07Z",
+      "view_count": 4947,
+      "views_per_day": 215.08695652173913
+     },
+     {
+      "id": "Z3fK548rOX4",
+      "title": "23명 숨진 '아리셀 참사' 대표, 징역 4년 확정 (2026.10.20/12MBC뉴스)",
+      "published_at": "2026-10-20T03:17:55Z",
+      "view_count": 18435,
+      "views_per_day": 801.5217391304348
+     },
+     {
+      "id": "hRLgeHndkHg",
+      "title": "[속보] 23명 숨진 '아리셀 화재참사', 박순관 대표, 징역 4년 확정/2026년 10월 20일(화)/KBS",
+      "published_at": "2026-10-20T03:37:36Z",
+      "view_count": 12628,
+      "views_per_day": 549.0434782608696
+     },
+     {
+      "id": "sQSmZnZ1QDE",
+      "title": "‘23명 사망’ 아리셀 참사 대표 징역 4년 확정…대법, 경영책임자 기준 첫 제시 / KBS 2026.10.20.",
+      "published_at": "2026-10-20T04:24:12Z",
+      "view_count": 1842,
+      "views_per_day": 80.08695652173913
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": 1.0,
+    "yt_demand": 0.06941526607041126,
+    "recency": 0.8715083798882681,
+    "news": 0.5371137217300517,
+    "autocomplete": 1.0
+   },
+   "score": 67.22
+  },
+  {
+   "candidate": {
+    "keyword": "안양 환전소 살인 최세용 필리핀 납치",
+    "trend_keyword": "최세용",
+    "case_id": "choi_seyong",
+    "trial_stage": "무기징역 확정",
+    "verdict_date": "2017-09-01"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": 0.32944588545827186,
+    "news_total": 446,
+    "yt_demand": 1164.758389261745,
+    "autocomplete": 0.0,
+    "recency": 0.0
+   },
+   "evidence": {
+    "news": {
+     "total": 446,
+     "recent_90d_sample": 1
+    },
+    "youtube_top": [
+     {
+      "id": "sUTcbLFm1ao",
+      "title": "\"우린 악마다\" 필리핀 연쇄 납치 사건, 살인기업 CEO 최세용 (3부) | 괴물의 시간",
+      "published_at": "2025-11-11T08:01:14Z",
+      "view_count": 317346,
+      "views_per_day": 867.0655737704918
+     },
+     {
+      "id": "XSPUCBctPKM",
+      "title": "안양 환전소 살인사건 |  캐비닛",
+      "published_at": "2025-08-22T08:00:43Z",
+      "view_count": 520647,
+      "views_per_day": 1164.758389261745
+     },
+     {
+      "id": "2SXBEcRWXgI",
+      "title": "영화 ‘범죄도시2’ 모티브! 필리핀 연쇄 납치 사건ㅣ그알 캐비닛",
+      "published_at": "2021-07-01T14:30:01Z",
+      "view_count": 2694219,
+      "views_per_day": 1374.601530612245
+     },
+     {
+      "id": "B9IL1rsqzqc",
+      "title": "최세용, 경찰에게 체포 후 살인×실종에 대해 관련 없는 것을 주장",
+      "published_at": "2025-11-08T15:21:31Z",
+      "view_count": 63934,
+      "views_per_day": 173.26287262872629
+     },
+     {
+      "id": "XuL5PUSS9ZE",
+      "title": "필리핀 연쇄 납치 사건, 누군가는 분명히 알고 있다 |  캐비닛",
+      "published_at": "2025-08-29T08:00:44Z",
+      "view_count": 537970,
+      "views_per_day": 1222.659090909091
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": 0.004326573784456556,
+    "yt_demand": 0.1472854140073974,
+    "recency": 0.0,
+    "news": 0.5329892766128475,
+    "autocomplete": 0.0
+   },
+   "score": 11.81
+  },
+  {
+   "candidate": {
+    "keyword": "경남은행 횡령 간부 징역 35년",
+    "trend_keyword": "경남은행 횡령",
+    "case_id": "gyeongnam_bank",
+    "trial_stage": "대법원 확정 징역 35년",
+    "verdict_date": "2025-09-01"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": 0.058308601796460066,
+    "news_total": 178,
+    "yt_demand": 15.355151515151515,
+    "autocomplete": 0.0,
+    "recency": 0.0
+   },
+   "evidence": {
+    "news": {
+     "total": 178,
+     "recent_90d_sample": 0
+    },
+    "youtube_top": [
+     {
+      "id": "AD6xtaC26oQ",
+      "title": "대법, 3천억 횡령 주범 전 경남은행 임원에 '징역 35년' 확정 (자막뉴스) / SBS",
+      "published_at": "2025-07-03T02:04:46Z",
+      "view_count": 186440,
+      "views_per_day": 375.1307847082495
+     },
+     {
+      "id": "zu_wgSvxTGM",
+      "title": "'3천억 횡령' 경남은행 간부 징역 35년",
+      "published_at": "2025-07-03T15:23:37Z",
+      "view_count": 986,
+      "views_per_day": 1.9839034205231387
+     },
+     {
+      "id": "MR79NG2zGrU",
+      "title": "BNK경남은행 3000억 횡령 전 간부, 징역 35년 선고",
+      "published_at": "2024-08-09T11:57:40Z",
+      "view_count": 361,
+      "views_per_day": 0.43757575757575756
+     },
+     {
+      "id": "7fWwCNbOOiQ",
+      "title": "판사도 깜짝 놀란 횡령 금액...경남은행 전 간부 ‘징역 35년’ 선고",
+      "published_at": "2024-08-09T06:54:51Z",
+      "view_count": 12668,
+      "views_per_day": 15.355151515151515
+     },
+     {
+      "id": "bZnpv01pE0o",
+      "title": "'3089억 횡령' 경남은행 전 간부 징역 35년…\"출소 후 이익 박탈\" / JTBC 뉴스룸",
+      "published_at": "2024-08-09T11:15:30Z",
+      "view_count": 259820,
+      "views_per_day": 314.93333333333334
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": 0.0,
+    "yt_demand": 0.001919111253604226,
+    "recency": 0.0,
+    "news": 0.4013235244805363,
+    "autocomplete": 0.0
+   },
+   "score": 6.07
+  },
+  {
+   "candidate": {
+    "keyword": "삼성전자 반도체 기술 중국 유출",
+    "trend_keyword": "반도체 기술유출",
+    "case_id": "samsung_chip_leak",
+    "trial_stage": "대법원 확정 징역 6년4개월",
+    "verdict_date": "2026-11-12"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": 0.17492684416586768,
+    "news_total": 11482,
+    "yt_demand": 114.4320987654321,
+    "autocomplete": 0.0,
+    "recency": 0.9944444444444445
+   },
+   "evidence": {
+    "news": {
+     "total": 11482,
+     "recent_90d_sample": 100
+    },
+    "youtube_top": [
+     {
+      "id": "VCQsXJZr8j4",
+      "title": "한국 반도체 기술 또 유출됐다…중국으로 유출한 전 삼성 직원 구속 / KNN",
+      "published_at": "2025-12-23T09:34:48Z",
+      "view_count": 6890,
+      "views_per_day": 21.265432098765434
+     },
+     {
+      "id": "0vKutAldugs",
+      "title": "[빅토픽] '삼성 최초' 반도체 기술 유출…중국에 빼돌린 '매국노' 기소 / SBS / 뉴스헌터스",
+      "published_at": "2025-12-23T10:37:27Z",
+      "view_count": 37076,
+      "views_per_day": 114.4320987654321
+     },
+     {
+      "id": "S6cOff8eLEE",
+      "title": "\"복제 공장 지으려\"‥삼성전자 '반도체 영업비밀' 빼돌린 전 임원 등 재판행 (2023.06.12/뉴스데스크/MBC)",
+      "published_at": "2023-06-12T11:16:27Z",
+      "view_count": 6632,
+      "views_per_day": 5.309847878302642
+     },
+     {
+      "id": "f9GZbg-a9sk",
+      "title": "연구소조차 없던 중국 회사가 어떻게? \"삼성 정보 빼돌려 시작\" 법정 증언 나왔다 (자막뉴스) / SBS",
+      "published_at": "2026-08-19T06:50:55Z",
+      "view_count": 192349,
+      "views_per_day": 2262.929411764706
+     },
+     {
+      "id": "KQ1cLUCLlVc",
+      "title": "'삼성 최초' 반도체 기술 유출…\"나라 팔아 먹었다\" #shorts",
+      "published_at": "2025-12-23T11:24:52Z",
+      "view_count": 53211,
+      "views_per_day": 164.2314814814815
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": 0.0018608928414810403,
+    "yt_demand": 0.014449482699348457,
+    "recency": 1.0,
+    "news": 1.0,
+    "autocomplete": 0.0
+   },
+   "score": 35.42
+  },
+  {
+   "candidate": {
+    "keyword": "세브란스 교수 피습 흉기",
+    "trend_keyword": "세브란스 흉기",
+    "case_id": "severance_attack",
+    "trial_stage": "송치(재판 전)",
+    "verdict_date": null
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": 2.676386844519052,
+    "news_total": 580,
+    "yt_demand": 7907.125,
+    "autocomplete": 0.0,
+    "recency": null
+   },
+   "evidence": {
+    "news": {
+     "total": 580,
+     "recent_90d_sample": 100
+    },
+    "youtube_top": [
+     {
+      "id": "0id60AKahM0",
+      "title": "신촌 세브란스병원에서 정신과 교수 흉기 피습...50대 체포 / YTN",
+      "published_at": "2026-11-04T11:22:55Z",
+      "view_count": 449174,
+      "views_per_day": 56146.75
+     },
+     {
+      "id": "GC2B10NO9Ew",
+      "title": "신촌 세브란스병원 정신과 교수 흉기 피습…50대 여성 체포 / JTBC 뉴스룸",
+      "published_at": "2026-11-04T11:25:19Z",
+      "view_count": 42465,
+      "views_per_day": 5308.125
+     },
+     {
+      "id": "8cHVUnu9eXQ",
+      "title": "신촌 세브란스병원에서 정신과 교수 흉기 피습...50대 체포 / YTN",
+      "published_at": "2026-11-04T17:55:18Z",
+      "view_count": 22207,
+      "views_per_day": 2775.875
+     },
+     {
+      "id": "xxdvZwADlwk",
+      "title": "[사건추적] 또 정신과 의사 흉기 피습…세브란스 진료실 덮친 50대 여성 [MBN 뉴스7]",
+      "published_at": "2026-11-04T10:50:16Z",
+      "view_count": 63257,
+      "views_per_day": 7907.125
+     },
+     {
+      "id": "rRAlj-qgbUo",
+      "title": "신촌 세브란스 교수, 진료실서 흉기 피습 #JTBC #Shorts",
+      "published_at": "2026-11-04T11:00:29Z",
+      "view_count": 91770,
+      "views_per_day": 11471.25
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": 0.04177702357138073,
+    "yt_demand": 1.0,
+    "recency": null,
+    "news": 0.570710818017722,
+    "autocomplete": 0.0
+   },
+   "score": 43.52
+  }
+ ]
+}

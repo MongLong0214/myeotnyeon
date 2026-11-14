@@ -1,0 +1,4 @@
+start_s,end_s,shown_summary,spoken_summary,cuts_in_second,cut_times_s,static_headline_present,note
+0,1,검정 바탕의 클럽 로고,클럽을 아는지 질문,3,"[0.36666666666666664, 0.6666666666666666, 0.9333333333333333]",True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+1,2,실제 클럽 사진으로 전환,질문 종료 후 남성 유형 소개,3,"[1.2, 1.5, 1.7333333333333334]",True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+2,3,검정 배경 두 익명 남성 실루엣,두 유형이라는 분류,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.

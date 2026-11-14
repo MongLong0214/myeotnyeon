@@ -1,0 +1,82 @@
+[
+  {
+    "shot_id": "S01_setting",
+    "proof_range_s": [
+      0.0,
+      2.42
+    ],
+    "narration_audio_range_s": [
+      0.0,
+      2.23
+    ],
+    "spoken_line": "검은 승용차가 현금수송차 앞을 막습니다.",
+    "visual_facts": [
+      "F01",
+      "F04"
+    ],
+    "cue_source": "_work/full4/subtitles.ass (original N001 cue)",
+    "post_utterance_hold": "S03 holds through 12.00 seconds; no action reset.",
+    "source_svg": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/S01_setting.svg",
+    "proof_png": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/S01_setting.png",
+    "decoded_mp4_frames": [
+      "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/proof_extract_01_S01_setting_start.png",
+      "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/proof_extract_01_S01_setting_mid.png",
+      "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/proof_extract_01_S01_setting_end.png"
+    ],
+    "decoded_end_sample_s": 2.21
+  },
+  {
+    "shot_id": "S02_bag_take",
+    "proof_range_s": [
+      2.42,
+      5.42
+    ],
+    "narration_audio_range_s": [
+      2.42,
+      5.41
+    ],
+    "spoken_line": "돈가방을 내리던 순간 복면을 쓴 두 사람이 나타났죠.",
+    "visual_facts": [
+      "F01",
+      "F02",
+      "F04"
+    ],
+    "cue_source": "_work/full4/subtitles.ass (original N001 cue)",
+    "post_utterance_hold": "S03 holds through 12.00 seconds; no action reset.",
+    "source_svg": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/S02_bag_take.svg",
+    "proof_png": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/S02_bag_take.png",
+    "decoded_mp4_frames": [
+      "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/proof_extract_02_S02_bag_take_start.png",
+      "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/proof_extract_02_S02_bag_take_mid.png",
+      "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/proof_extract_02_S02_bag_take_end.png"
+    ],
+    "decoded_end_sample_s": 5.39
+  },
+  {
+    "shot_id": "S03_bag_load",
+    "proof_range_s": [
+      5.42,
+      12.0
+    ],
+    "narration_audio_range_s": [
+      5.42,
+      7.81
+    ],
+    "spoken_line": "은행 지하주차장에서 권총이 발사됩니다.",
+    "visual_facts": [
+      "F01",
+      "F04",
+      "F06"
+    ],
+    "cue_source": "_work/full4/subtitles.ass (original N001 cue)",
+    "post_utterance_hold": "S03 holds through 12.00 seconds; no action reset.",
+    "source_svg": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/S03_bag_load.svg",
+    "proof_png": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/S03_bag_load.png",
+    "decoded_mp4_frames": [
+      "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/proof_extract_03_S03_bag_load_start.png",
+      "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/proof_extract_03_S03_bag_load_mid.png",
+      "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/terra_final/proof_extract_03_S03_bag_load_end.png"
+    ],
+    "decoded_end_sample_s": 7.79
+  }
+]

@@ -1,0 +1,1 @@
+# Addendum (takes precedence): never touch the whole of production/lf_toon/ (including render_cache, build, node_modules, proof, full) or episodes/review_full/ — the full-film render lanes are running there. Of the deletions you already made, record any that touched this path in the report. Continue.

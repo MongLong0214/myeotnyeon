@@ -1,0 +1,4 @@
+start_s,end_s,shown_summary,spoken_summary,cuts_in_second,cut_times_s,static_headline_present,note
+0,1,A/B 문자와 빨강·파랑 익명 인물,첫 범죄 행위 제시,0,[],False,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+1,2,동일 인물 클로즈업,피해자의 이후 상황으로 전환,0,[],False,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+2,3,파란 인물을 중심으로 접근,피해자의 이후 상황 계속,0,[],False,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.

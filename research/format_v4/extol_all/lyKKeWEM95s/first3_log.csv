@@ -1,0 +1,4 @@
+start_s,end_s,shown_summary,spoken_summary,cuts_in_second,cut_times_s,static_headline_present,note
+0,1,검정 바탕 클럽 로고,클럽을 아는지 질문,3,"[0.3, 0.5666666666666667, 0.8666666666666667]",True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+1,2,클럽 사진과 로고,질문 종료 후 불편한 공간 소개,3,"[1.1333333333333333, 1.4, 1.6333333333333333]",True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+2,3,건물 단면과 대기줄 3D,의도적으로 불편하게 했다는 설명,0,[],True,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.

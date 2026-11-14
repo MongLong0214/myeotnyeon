@@ -1,0 +1,15 @@
+{
+ "original": [
+  56,
+  88,
+  113,
+  147
+ ],
+ "retimed": [
+  73,
+  114,
+  145,
+  179
+ ],
+ "reason": "First-sentence zoom beats scale to new first-line TTS; beats after its old endpoint shift with the unchanged second sentence."
+}

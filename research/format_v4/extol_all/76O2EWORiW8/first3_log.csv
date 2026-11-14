@@ -1,0 +1,4 @@
+start_s,end_s,shown_summary,spoken_summary,cuts_in_second,cut_times_s,static_headline_present,note
+0,1,검정 배경 스포츠카와 붉은 익명 인물; 작은 상단 고지,지금 행동 소개,0,[],False,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+1,2,스포츠카 내부를 보는 인물에 접근,인물이 무엇을 보는지 설명,0,[],False,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.
+2,3,차량과 인물을 더 크게 보여줌,차량 내부 확인을 말함,0,[],False,지정 구간 발화의 축어 전재 대신 의미 요약. 화면 증거는 hook_and_ending.jpg.

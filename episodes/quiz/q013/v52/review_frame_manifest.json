@@ -1,0 +1,131 @@
+{
+ "episode": "q013",
+ "frames": [
+  {
+   "frame": 0,
+   "seconds": 0.0,
+   "label": "HOOK 0s",
+   "file": "episodes/quiz/q013/v52/review_frames/f00000.jpg"
+  },
+  {
+   "frame": 18,
+   "seconds": 0.6,
+   "label": "C1 settled",
+   "file": "episodes/quiz/q013/v52/review_frames/f00018.jpg"
+  },
+  {
+   "frame": 30,
+   "seconds": 1.0,
+   "label": "HOOK 1s",
+   "file": "episodes/quiz/q013/v52/review_frames/f00030.jpg"
+  },
+  {
+   "frame": 60,
+   "seconds": 2.0,
+   "label": "HOOK 2s",
+   "file": "episodes/quiz/q013/v52/review_frames/f00060.jpg"
+  },
+  {
+   "frame": 61,
+   "seconds": 2.033333333333333,
+   "label": "BODY cut",
+   "file": "episodes/quiz/q013/v52/review_frames/f00061.jpg"
+  },
+  {
+   "frame": 139,
+   "seconds": 4.633333333333334,
+   "label": "C2 incident start",
+   "file": "episodes/quiz/q013/v52/review_frames/f00139.jpg"
+  },
+  {
+   "frame": 157,
+   "seconds": 5.233333333333333,
+   "label": "C2 settled",
+   "file": "episodes/quiz/q013/v52/review_frames/f00157.jpg"
+  },
+  {
+   "frame": 253,
+   "seconds": 8.433333333333334,
+   "label": "C3 incident start",
+   "file": "episodes/quiz/q013/v52/review_frames/f00253.jpg"
+  },
+  {
+   "frame": 271,
+   "seconds": 9.033333333333333,
+   "label": "C3 settled",
+   "file": "episodes/quiz/q013/v52/review_frames/f00271.jpg"
+  },
+  {
+   "frame": 329,
+   "seconds": 10.966666666666667,
+   "label": "C4 weigh start",
+   "file": "episodes/quiz/q013/v52/review_frames/f00329.jpg"
+  },
+  {
+   "frame": 347,
+   "seconds": 11.566666666666666,
+   "label": "C4 settled",
+   "file": "episodes/quiz/q013/v52/review_frames/f00347.jpg"
+  },
+  {
+   "frame": 421,
+   "seconds": 14.033333333333333,
+   "label": "evidence 1",
+   "file": "episodes/quiz/q013/v52/review_frames/f00421.jpg"
+  },
+  {
+   "frame": 506,
+   "seconds": 16.866666666666667,
+   "label": "evidence 2",
+   "file": "episodes/quiz/q013/v52/review_frames/f00506.jpg"
+  },
+  {
+   "frame": 609,
+   "seconds": 20.3,
+   "label": "evidence 3",
+   "file": "episodes/quiz/q013/v52/review_frames/f00609.jpg"
+  },
+  {
+   "frame": 663,
+   "seconds": 22.1,
+   "label": "C5 reveal start",
+   "file": "episodes/quiz/q013/v52/review_frames/f00663.jpg"
+  },
+  {
+   "frame": 681,
+   "seconds": 22.7,
+   "label": "C5 settled",
+   "file": "episodes/quiz/q013/v52/review_frames/f00681.jpg"
+  },
+  {
+   "frame": 685,
+   "seconds": 22.833333333333332,
+   "label": "ANSWER",
+   "file": "episodes/quiz/q013/v52/review_frames/f00685.jpg"
+  },
+  {
+   "frame": 727,
+   "seconds": 24.233333333333334,
+   "label": "ANSWER second line",
+   "file": "episodes/quiz/q013/v52/review_frames/f00727.jpg"
+  },
+  {
+   "frame": 750,
+   "seconds": 25.0,
+   "label": "C6 outro start",
+   "file": "episodes/quiz/q013/v52/review_frames/f00750.jpg"
+  },
+  {
+   "frame": 755,
+   "seconds": 25.166666666666668,
+   "label": "END CARD",
+   "file": "episodes/quiz/q013/v52/review_frames/f00755.jpg"
+  },
+  {
+   "frame": 799,
+   "seconds": 26.633333333333333,
+   "label": "END last",
+   "file": "episodes/quiz/q013/v52/review_frames/f00799.jpg"
+  }
+ ]
+}

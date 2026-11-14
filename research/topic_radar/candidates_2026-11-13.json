@@ -1,0 +1,17 @@
+[
+  {"keyword": "이재명 아들 병역면제 허위글 이수정", "trend_keyword": "이수정 허위글", "case_id": "lee_sujeong_defamation", "trial_stage": "2심 벌금 300만원", "verdict_date": "2026-11-12"},
+  {"keyword": "부산 소방관 버스 10대 폭행", "trend_keyword": "소방관 폭행", "case_id": "busan_firefighter_assault", "trial_stage": "1심 벌금 300만원", "verdict_date": "2026-11-13"},
+  {"keyword": "삼성전자 반도체 기술 중국 유출", "trend_keyword": "반도체 기술유출", "case_id": "samsung_semicon_leak", "trial_stage": "대법원 확정 징역 6년4개월", "verdict_date": "2026-11-12"},
+  {"keyword": "성유리 남편 코인 상장 뒷돈", "trend_keyword": "성유리 남편", "case_id": "sungyuri_husband_coin", "trial_stage": "항소심 징역 4년6개월", "verdict_date": "2026-11-13"},
+  {"keyword": "창원 노상 상해 20대 쳐다봄", "trend_keyword": "창원 상해", "case_id": "changwon_stare_assault", "trial_stage": "1심", "verdict_date": "2026-11-12"},
+  {"keyword": "장윤정 친모 사기 실형", "trend_keyword": "장윤정 모친", "case_id": "jangyunjeong_mother_fraud", "trial_stage": "1심 실형", "verdict_date": "2026-11-13"},
+  {"keyword": "슈가 전동스쿠터 음주운전", "trend_keyword": "슈가 음주운전", "case_id": "suga", "trial_stage": "약식명령 벌금 1500만원", "verdict_date": "2024-09-30"},
+  {"keyword": "압구정 롤스로이스 약물운전 사망", "trend_keyword": "롤스로이스 사고", "case_id": "rolls", "trial_stage": "대법원 확정 징역 10년", "verdict_date": null},
+  {"keyword": "장대호 한강 몸통시신", "trend_keyword": "장대호", "case_id": "jang_dae", "trial_stage": "무기징역 확정", "verdict_date": null},
+  {"keyword": "안양 환전소 살인 최세용 필리핀 납치", "trend_keyword": "최세용", "case_id": "anyang_philippines", "trial_stage": "무기징역 확정", "verdict_date": null},
+  {"keyword": "경남은행 횡령 간부 징역 35년", "trend_keyword": "경남은행 횡령", "case_id": "n12_bnk", "trial_stage": "대법원 확정", "verdict_date": null},
+  {"keyword": "불광동 대리기사 사커킥 부부", "trend_keyword": "불광동 사커킥", "case_id": "n13_daeligisa", "trial_stage": "2심 원심 유지 상고", "verdict_date": "2025-04-03"},
+  {"keyword": "아도인터내셔널 투자사기", "trend_keyword": "아도인터내셔널", "case_id": "ado", "trial_stage": "1심 확정 징역 15년", "verdict_date": null},
+  {"keyword": "우리은행 700억 횡령 형제", "trend_keyword": "우리은행 횡령", "case_id": "woori700", "trial_stage": "대법원 확정", "verdict_date": "2024-04-01"},
+  {"keyword": "김호중 음주 뺑소니", "trend_keyword": "김호중 뺑소니", "case_id": "kim_hojoong", "trial_stage": "상고 취하 확정 징역 2년6개월", "verdict_date": null}
+]

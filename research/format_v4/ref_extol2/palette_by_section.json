@@ -1,0 +1,182 @@
+[
+  {
+    "chapter": "cold_open",
+    "samples": 129,
+    "palette": [
+      {
+        "hex": "#1c1c26",
+        "pixel_share": 0.3610077519379845
+      },
+      {
+        "hex": "#424554",
+        "pixel_share": 0.24696059431524547
+      },
+      {
+        "hex": "#f6c89d",
+        "pixel_share": 0.16009043927648578
+      },
+      {
+        "hex": "#858b97",
+        "pixel_share": 0.12168604651162791
+      },
+      {
+        "hex": "#d6182e",
+        "pixel_share": 0.11025516795865634
+      }
+    ],
+    "mean_luma": 87.25822082256676,
+    "dark_luma_below32_share": 0.16751884151593452,
+    "low_sat_share": 0.1951545004306632,
+    "red_share": 0.11981104651162791,
+    "yellow_share": 0.03522340654608097,
+    "blue_share": 2.153316106804479e-06,
+    "laplacian_variance_at160w": 4728.448865492885,
+    "highpass_std_at160w": 15.942416323308093,
+    "corner_minus_center_luma": -38.71903575440962,
+    "top_bottom_veryblack_share": 0.0013162144702842378
+  },
+  {
+    "chapter": "01_우범곤_순경",
+    "samples": 102,
+    "palette": [
+      {
+        "hex": "#2b272b",
+        "pixel_share": 0.4349428104575163
+      },
+      {
+        "hex": "#efece9",
+        "pixel_share": 0.3558088235294118
+      },
+      {
+        "hex": "#86888d",
+        "pixel_share": 0.09955065359477124
+      },
+      {
+        "hex": "#ce1f34",
+        "pixel_share": 0.07176470588235294
+      },
+      {
+        "hex": "#f1a362",
+        "pixel_share": 0.037933006535947715
+      }
+    ],
+    "mean_luma": 128.61716639433553,
+    "dark_luma_below32_share": 0.10680078976034857,
+    "low_sat_share": 0.7070608660130719,
+    "red_share": 0.08542007080610023,
+    "yellow_share": 0.01741285403050109,
+    "blue_share": 0.0,
+    "laplacian_variance_at160w": 12228.441776765285,
+    "highpass_std_at160w": 23.355545917929863,
+    "corner_minus_center_luma": -23.460084541062805,
+    "top_bottom_veryblack_share": 0.0010723039215686275
+  },
+  {
+    "chapter": "02_사건_당일",
+    "samples": 185,
+    "palette": [
+      {
+        "hex": "#2c313e",
+        "pixel_share": 0.5006914414414414
+      },
+      {
+        "hex": "#666b76",
+        "pixel_share": 0.19681756756756758
+      },
+      {
+        "hex": "#0f0b0b",
+        "pixel_share": 0.18696846846846846
+      },
+      {
+        "hex": "#cbb9b5",
+        "pixel_share": 0.07138738738738738
+      },
+      {
+        "hex": "#d61429",
+        "pixel_share": 0.04413513513513514
+      }
+    ],
+    "mean_luma": 64.77858033033033,
+    "dark_luma_below32_share": 0.22334384384384384,
+    "low_sat_share": 0.3443783783783784,
+    "red_share": 0.050016516516516514,
+    "yellow_share": 0.0024144144144144144,
+    "blue_share": 0.0,
+    "laplacian_variance_at160w": 6593.836192416165,
+    "highpass_std_at160w": 17.63972942805415,
+    "corner_minus_center_luma": -25.5277820994908,
+    "top_bottom_veryblack_share": 0.003186936936936937
+  },
+  {
+    "chapter": "03_경찰_출동",
+    "samples": 57,
+    "palette": [
+      {
+        "hex": "#292b35",
+        "pixel_share": 0.4614546783625731
+      },
+      {
+        "hex": "#080907",
+        "pixel_share": 0.17597953216374268
+      },
+      {
+        "hex": "#9aabbf",
+        "pixel_share": 0.12994152046783625
+      },
+      {
+        "hex": "#5e5864",
+        "pixel_share": 0.12932748538011696
+      },
+      {
+        "hex": "#2814c3",
+        "pixel_share": 0.103296783625731
+      }
+    ],
+    "mean_luma": 59.9021600877193,
+    "dark_luma_below32_share": 0.266832358674464,
+    "low_sat_share": 0.38889132553606237,
+    "red_share": 0.013530701754385964,
+    "yellow_share": 0.0026498538011695905,
+    "blue_share": 0.11132553606237817,
+    "laplacian_variance_at160w": 9138.184441989859,
+    "highpass_std_at160w": 20.840012247604104,
+    "corner_minus_center_luma": -28.84265077548945,
+    "top_bottom_veryblack_share": 0.002302631578947369
+  },
+  {
+    "chapter": "04_범행_목적",
+    "samples": 49,
+    "palette": [
+      {
+        "hex": "#251c20",
+        "pixel_share": 0.3818027210884354
+      },
+      {
+        "hex": "#efeded",
+        "pixel_share": 0.34956632653061226
+      },
+      {
+        "hex": "#b0a1a2",
+        "pixel_share": 0.0921343537414966
+      },
+      {
+        "hex": "#c62d3f",
+        "pixel_share": 0.0899234693877551
+      },
+      {
+        "hex": "#60595b",
+        "pixel_share": 0.08657312925170069
+      }
+    ],
+    "mean_luma": 125.51630952380954,
+    "dark_luma_below32_share": 0.17153769841269845,
+    "low_sat_share": 0.6601360544217687,
+    "red_share": 0.10167800453514739,
+    "yellow_share": 0.0,
+    "blue_share": 0.0,
+    "laplacian_variance_at160w": 20995.5668232073,
+    "highpass_std_at160w": 30.165767507269358,
+    "corner_minus_center_luma": -11.118615868086366,
+    "top_bottom_veryblack_share": 0.000467687074829932
+  }
+]

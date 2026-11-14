@@ -1,0 +1,97 @@
+{
+  "method": "Final MP4 AAC decoded at 8 kHz, matched against final aligned narration PCM; 2-second windows, ±300 ms search. Integer chapter times floor the measured cut PTS at 30fps.",
+  "video": "episodes/lf2_daejeon_bank/cartoon_v6/lf2_cartoon_v6fix2_1080p.mp4",
+  "audio_reference": "episodes/lf2_daejeon_bank/cartoon_v6/public/voice_v6fix2.wav",
+  "checks": [
+    {
+      "frame": 0,
+      "expected_s": 0.0,
+      "measured_audio_s": 0.0,
+      "lag_ms": 0.0,
+      "correlation": 0.99998,
+      "chapter": "00:00",
+      "decoded_video_pts_s": 0.0
+    },
+    {
+      "frame": 1440,
+      "expected_s": 48.0,
+      "measured_audio_s": 48.0,
+      "lag_ms": 0.0,
+      "correlation": 0.999966,
+      "chapter": "00:48",
+      "decoded_video_pts_s": 48.0
+    },
+    {
+      "frame": 2321,
+      "expected_s": 77.366667,
+      "measured_audio_s": 77.366625,
+      "lag_ms": -0.042,
+      "correlation": 0.999986,
+      "chapter": "01:17",
+      "decoded_video_pts_s": 77.366667
+    },
+    {
+      "frame": 3857,
+      "expected_s": 128.566667,
+      "measured_audio_s": 128.566625,
+      "lag_ms": -0.042,
+      "correlation": 0.99995,
+      "chapter": "02:08",
+      "decoded_video_pts_s": 128.566667
+    },
+    {
+      "frame": 4454,
+      "expected_s": 148.466667,
+      "measured_audio_s": 148.466625,
+      "lag_ms": -0.042,
+      "correlation": 0.999965,
+      "chapter": "02:28",
+      "decoded_video_pts_s": 148.466667
+    },
+    {
+      "frame": 5185,
+      "expected_s": 172.833333,
+      "measured_audio_s": 172.83325,
+      "lag_ms": -0.083,
+      "correlation": 0.999979,
+      "chapter": "02:52",
+      "decoded_video_pts_s": 172.833333
+    },
+    {
+      "frame": 5891,
+      "expected_s": 196.366667,
+      "measured_audio_s": 196.366625,
+      "lag_ms": -0.042,
+      "correlation": 0.999961,
+      "chapter": "03:16",
+      "decoded_video_pts_s": 196.366667
+    },
+    {
+      "frame": 6307,
+      "expected_s": 210.233333,
+      "measured_audio_s": 210.23325,
+      "lag_ms": -0.083,
+      "correlation": 0.999967,
+      "chapter": "03:30",
+      "decoded_video_pts_s": 210.233333
+    },
+    {
+      "frame": 7000,
+      "expected_s": 233.333333,
+      "measured_audio_s": 233.33325,
+      "lag_ms": -0.083,
+      "correlation": 0.999962,
+      "chapter": "03:53",
+      "decoded_video_pts_s": 233.333333
+    },
+    {
+      "frame": 7396,
+      "expected_s": 246.533333,
+      "measured_audio_s": 246.53325,
+      "lag_ms": -0.083,
+      "correlation": 0.999946,
+      "chapter": "04:06",
+      "decoded_video_pts_s": 246.533333
+    }
+  ]
+}

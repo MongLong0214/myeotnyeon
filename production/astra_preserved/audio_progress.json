@@ -1,0 +1,18 @@
+[
+  {
+    "episode": "lf2_daejeon_bank",
+    "generated_cues": 60,
+    "script_items": 60,
+    "generated_duration_seconds": 935.2067573696145,
+    "master_exists": true,
+    "cue_path": "/Users/isaac/projects/verdict-kr/work/episodes/lf2_daejeon_bank/astra_12min/lf2_full_narration_cues.json"
+  },
+  {
+    "episode": "v4/n18",
+    "generated_cues": 51,
+    "script_items": 80,
+    "generated_duration_seconds": 557.5875056689342,
+    "master_exists": false,
+    "cue_path": "/Users/isaac/projects/verdict-kr/work/episodes/v4/n18/astra_12min/n18_full_narration_cues.json"
+  }
+]

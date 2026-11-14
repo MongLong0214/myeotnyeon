@@ -1,0 +1,328 @@
+{
+ "qid": "en003",
+ "locale": "en",
+ "variant": "B3",
+ "b3": true,
+ "look": "full2",
+ "grave": true,
+ "engine": "Kokoro-82M v1.0 (Apache-2.0, local, offline)",
+ "voice": "af_heart",
+ "kokoro_speeds": [
+  1.0,
+  1.1,
+  1.2
+ ],
+ "kind": "shots",
+ "number_label": "",
+ "stage": "shots",
+ "cover_text": "EX-NFL STAR\nfired 2 shots",
+ "defendant": "rich",
+ "choices": [
+  "20 years prison",
+  "18 months jail",
+  "3 yrs probation"
+ ],
+ "correct": 2,
+ "answer": "3 years probation",
+ "answer_label": "Miami-Dade court",
+ "opinion": "This sentence:\nToo light / Fair / Too harsh?",
+ "option_offsets": [
+  0.0,
+  1.1,
+  2.46
+ ],
+ "hook_text": [
+  "Ex-NFL star",
+  "2 SHOTS FIRED"
+ ],
+ "sfx": [
+  [
+   "shots",
+   0,
+   "thud"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ],
+  [
+   "hit",
+   6,
+   "thud"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L03",
+   "at": 0.4,
+   "big": "up to 30 years",
+   "small": "20-year mandatory minimum",
+   "calc": "NBC/ESPN/AP: attempted second-degree murder carried up to 30 years with a 20-year mandatory minimum"
+  },
+  {
+   "line": "L12",
+   "at": 0.05,
+   "big": "3 yrs = 36 months",
+   "small": "probation, no jail",
+   "calc": "3 × 12 = 36 months; AP: may ask to end it early at about the halfway point (18 months)"
+  },
+  {
+   "line": "L12",
+   "at": 0.55,
+   "big": "0 days",
+   "small": "in jail or prison",
+   "calc": "AP/ESPN/NBC: no jail or prison time"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "shots",
+   "tts": "Two shots, at fight night.",
+   "shown": "Two shots, at fight night.",
+   "chunks": [
+    "Two shots,",
+    "at fight night."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "shots"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "How many years did he get?",
+   "shown": "How many years did he get?",
+   "chunks": [
+    "How many years did he get?"
+   ],
+   "fact": "S",
+   "actor": "rich",
+   "shots": [
+    {
+     "s": "react",
+     "look": "rich",
+     "expr": "angry",
+     "move": "shake",
+     "y": 2090
+    },
+    {
+     "s": "calendar",
+     "year": "2025",
+     "month": 5
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "mode": "guess",
+   "tts": "Charged with attempted murder, a twenty-year minimum,",
+   "shown": "Charged with attempted murder, a 20-year minimum,",
+   "chunks": [
+    "Charged with attempted murder,",
+    "a 20-year minimum,"
+   ],
+   "fact": "F7",
+   "shots": [
+    {
+     "s": "paper",
+     "lines": [
+      "ATTEMPTED",
+      "MURDER"
+     ],
+     "size": 96
+    },
+    {
+     "s": "bubble",
+     "lines": [
+      "20 years?",
+      "minimum"
+     ],
+     "size": 130
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "but the other man stopped cooperating.",
+   "shown": "but the other man stopped cooperating.",
+   "chunks": [
+    "but the other man",
+    "stopped cooperating."
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "KEY WITNESS"
+     ],
+     "stamp": "SILENT",
+     "size": 90
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "mode": "hit",
+   "tts": "He grabbed a guard's gun and fired twice.",
+   "shown": "He grabbed a guard's gun and fired twice.",
+   "chunks": [
+    "He grabbed a guard's gun",
+    "and fired twice."
+   ],
+   "fact": "F1",
+   "actor": "rich",
+   "shots": [
+    {
+     "s": "react",
+     "look": "passenger",
+     "expr": "scared",
+     "move": "recoil",
+     "y": 1820,
+     "other": true
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "2 SHOTS",
+      "\"grazed my neck\""
+     ],
+     "size": 66
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "mode": "past",
+   "tts": "He claimed self-defense, and was extradited from Dubai.",
+   "shown": "He claimed self-defense, and was extradited from Dubai.",
+   "chunks": [
+    "He claimed self-defense,",
+    "and was extradited from Dubai."
+   ],
+   "fact": "F2",
+   "actor": "rich",
+   "shots": [
+    {
+     "s": "react",
+     "look": "rich",
+     "expr": "smug",
+     "move": "shrug",
+     "y": 2090
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "DUBAI to MIAMI"
+     ],
+     "stamp": "EXTRADITED",
+     "size": 62
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "His sentence?",
+   "shown": "His sentence?",
+   "chunks": [
+    "His sentence?"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "Twenty years in prison, eighteen months in jail, or three years of probation?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "hold_after": 0.45
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "Answer C. Three years of probation.",
+   "shown": "Answer C. 3 years of probation.",
+   "chunks": [
+    "Answer C.",
+    "3 years of probation."
+   ],
+   "fact": "S",
+   "shots": [],
+   "emphasis": "3 years of probation"
+  },
+  {
+   "id": "L12",
+   "mode": "answer2",
+   "tts": "He pleaded guilty to a lesser charge.",
+   "shown": "He pleaded guilty to a lesser charge.",
+   "chunks": [
+    "He pleaded guilty",
+    "to a lesser charge."
+   ],
+   "fact": "S",
+   "actor": "rich",
+   "shots": [
+    {
+     "s": "react",
+     "look": "rich",
+     "expr": "smug",
+     "move": "nod",
+     "y": 1642,
+     "sc": 1.6
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "LESSER",
+      "CHARGE"
+     ],
+     "stamp": "GUILTY PLEA",
+     "size": 90
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "Too light, fair, or too harsh?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "actor": "rich",
+   "shots": [
+    {
+     "s": "react",
+     "look": "rich",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "hold_after": 0.3
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "And it all began with",
+   "shown": "And it all began with",
+   "chunks": [
+    "And it all began with"
+   ],
+   "fact": "F1",
+   "shots": []
+  }
+ ]
+}

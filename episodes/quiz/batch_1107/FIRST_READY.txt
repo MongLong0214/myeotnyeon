@@ -1,0 +1,7 @@
+q020_std FIRST RENDER READY — NOT CTO APPROVED
+/Users/isaac/projects/verdict-kr/work/upload/pkg/q020_std/video.mp4
+sha256 f97e9331b1e4f83caf925458ed456e36dfe91d1e89b70d309e8e8b10ffaaaa9a
+READY /Users/isaac/projects/verdict-kr/work/upload/pkg/q020_std/READY.txt
+2fps /Users/isaac/projects/verdict-kr/work/episodes/review_full/shorts/q020/std_2fps.png
+q020를 먼저 렌더·검수자료 패키징 완료. 이 기록 뒤 q018_std·q022_std 계속 제작.
+업로드·번호 배정 없음.

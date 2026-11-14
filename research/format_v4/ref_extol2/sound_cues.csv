@@ -1,0 +1,5 @@
+time_s,chapter,side_before_dbfs,side_after_dbfs,delta_db,spectral_hellinger,cue_change_candidate,interpretation
+129.46666666666667,01_우범곤_순경,-29.583819392724664,-26.750124656303225,2.833694736421439,0.3939229258859929,True,Measured stereo texture/level change; not confirmed music track switch.
+230.73333333333332,02_사건_당일,-36.77682125047775,-29.54009829723981,7.236722953237944,0.32329134143951416,True,Measured stereo texture/level change; not confirmed music track switch.
+416.1,03_경찰_출동,-36.85047771900563,-24.431794757109664,12.418682961895968,0.6519932416953522,True,Measured stereo texture/level change; not confirmed music track switch.
+472.8666666666667,04_범행_목적,-30.79692915493459,-32.93320740349524,-2.13627824856065,0.3250417927044829,False,Measured stereo texture/level change; not confirmed music track switch.

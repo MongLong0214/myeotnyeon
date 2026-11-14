@@ -1,0 +1,52 @@
+{
+ "channel_name": "Guess The Sentence",
+ "handle": "@guessthesentence",
+ "language": "en",
+ "description": "Real US court cases as a quick game show.\nWe tell you what happened. You guess the sentence. Then comes the twist.\nNew verdict quizzes. Subscribe and keep score.\nOriginal 2D animation based on public court records/news; not real footage.",
+ "keywords": [
+  "court case quiz",
+  "guess the sentence",
+  "true crime",
+  "sentencing",
+  "US court cases",
+  "judge verdict",
+  "legal quiz",
+  "courtroom",
+  "criminal justice",
+  "law explained",
+  "verdict reveal",
+  "true crime shorts",
+  "animated court case"
+ ],
+ "upload_defaults": {
+  "category": "Education",
+  "category_id": 27,
+  "default_language": "en",
+  "default_audio_language": "en",
+  "made_for_kids": false,
+  "license": "youtube",
+  "tags_template": [
+   "guess the sentence",
+   "court case",
+   "{case_keyword}",
+   "{state} court",
+   "{crime_type}",
+   "sentencing quiz",
+   "true crime",
+   "verdict"
+  ],
+  "description_template_footer": "Guess the sentence in the comments before the reveal.\nMore verdict quizzes: @guessthesentence\n\nOriginal 2D animation based on public court records/news; not real footage.\nSources: {source_links}\n#shorts #truecrime #courtcase"
+ },
+ "playlists": [
+  "Guess The Sentence: Verdict Quiz",
+  "Twist Endings: Sentences Nobody Expected",
+  "Judge vs. Jury: Biggest Courtroom Surprises"
+ ],
+ "files": {
+  "profile": "profile_800.png",
+  "banner": "banner_2560x1440.png",
+  "watermark": "watermark_150.png",
+  "preview": "preview_board.png"
+ },
+ "fonts": "Noto Sans / Noto Sans JP (SIL OFL 1.1)"
+}

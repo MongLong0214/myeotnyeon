@@ -1,0 +1,29 @@
+{
+  "id": "E_DrBRjGAQI",
+  "title": "다시봐도 충격적인 다크웹의 아동 성범죄자 체포과정",
+  "description": "이 영상은 앤디 그린버그의 논픽션 책 [어둠 속의 추적자들]을 바탕으로 제작되었습니다.\n-\n비주얼적인 표현에서 세부적인 디테일은 상상력을 가미해 제작되었습니다.",
+  "upload_date": "20260315",
+  "timestamp": 1773590989,
+  "duration": 541,
+  "view_count": 154698,
+  "like_count": 1260,
+  "comment_count": 184,
+  "chapters": null,
+  "channel": "엑스톨(Extol)",
+  "channel_id": "UCHRG_xhaJj-5TsYnAjhJXVQ",
+  "channel_follower_count": null,
+  "webpage_url": "https://www.youtube.com/watch?v=E_DrBRjGAQI",
+  "categories": [
+    "People & Blogs"
+  ],
+  "tags": [],
+  "language": "ko",
+  "availability": "public",
+  "age_limit": 0,
+  "analysis_kind": "long",
+  "collected_local": "2026-10-30T09:09:20+0900",
+  "counts_method": "yt-dlp separate metadata extraction without write-comments; avoids capped extracted count",
+  "extractor_format_description": "137 - 1920x1080 (1080p)+251 - audio only (medium)",
+  "extracted_audio_language": "ko",
+  "format_note_caveat": "For two reused media copies, selected format in fresh metadata is not the copy format; source_media.json ffprobe is authoritative."
+}

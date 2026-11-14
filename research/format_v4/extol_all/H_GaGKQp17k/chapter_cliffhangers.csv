@@ -1,0 +1,6 @@
+boundary_s,cliffhanger_type_manual,lead_or_question,strict_action_interruption,status
+41.433,예고 후 되감기,해머 사용 결과를 몽타주로 먼저 남기고 이력으로 이동,False,manual semantic classification; not retention evidence
+92.033,설명 전환,범행 유형을 제시한 뒤 첫 현장을 설명,False,manual semantic classification; not retention evidence
+351.867,해법/전개 유예,경찰이 연결할 때 대상·방식 변경을 예고,False,manual semantic classification; not retention evidence
+433.867,발견 유예,업주가 연결을 발견했다고 말한 뒤 구체적 단서를 보여줌,False,manual semantic classification; not retention evidence
+577.133,행동 결과 중단,체포 뒤 탈주 상태를 남기고 재체포 장으로 이동,True,manual semantic classification; not retention evidence

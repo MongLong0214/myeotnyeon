@@ -1,0 +1,33 @@
+{
+  "ranges": [
+    [
+      838,
+      850
+    ]
+  ],
+  "frames": [
+    838,
+    839,
+    840,
+    841,
+    842,
+    843,
+    844,
+    845,
+    846,
+    847,
+    848,
+    849,
+    850
+  ],
+  "crop": [
+    0,
+    0,
+    1080,
+    1920
+  ],
+  "sheets": [
+    "/Users/isaac/projects/verdict-kr/work/upload/inspect_v52/cards/q016/end_context_000.png",
+    "/Users/isaac/projects/verdict-kr/work/upload/inspect_v52/cards/q016/end_context_001.png"
+  ]
+}

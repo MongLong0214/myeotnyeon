@@ -1,0 +1,317 @@
+{
+ "episode_id": "q014",
+ "version": "quiz-1",
+ "hud_case": "보도 기반 재구성 · 서울남부지법 2026년 1심",
+ "cues": [
+  {
+   "cue_id": "C1",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "해외 피싱 조직의 전화가 국내 010 번호로 뜨게 만든 20대 두 명."
+   ],
+   "claim_ids": [
+    "V3-04_1",
+    "V3-04_2",
+    "V3-04_3"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "motel",
+    "props": [
+     {
+      "kind": "phones",
+      "x": 290,
+      "y": 600,
+      "at": -99
+     }
+    ],
+    "actors": [
+     {
+      "look": "hoodie",
+      "x": 640,
+      "y": 900,
+      "scale": 0.78,
+      "expr": "smug"
+     },
+     {
+      "look": "B",
+      "x": 830,
+      "y": 900,
+      "scale": 0.78,
+      "expr": "normal",
+      "flip": true
+     }
+    ],
+    "tags": [
+     {
+      "text": "해외 전화 → '010' 표시",
+      "x": 300,
+      "y": 330,
+      "color": "#C9503E",
+      "at": 8,
+      "size": 38
+     },
+     {
+      "text": "20대 2명",
+      "x": 730,
+      "y": 40,
+      "color": "#141414",
+      "at": "e1-30",
+      "size": 40
+     }
+    ],
+    "punch": [
+     36,
+     62,
+     "e1-12"
+    ]
+   },
+   "in_frame": 0,
+   "duration_frames": 121,
+   "out_frame_exclusive": 121,
+   "required_claim_ids": [
+    "V3-04_1",
+    "V3-04_2",
+    "V3-04_3"
+   ]
+  },
+  {
+   "cue_id": "C2",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "일주일마다 전국 모텔을 옮겨 다니며 대포폰 136대와 유심칩 395개를 썼습니다."
+   ],
+   "claim_ids": [
+    "V3-04_1",
+    "V3-04_2",
+    "V3-04_3"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "motel",
+    "props": [
+     {
+      "kind": "phones",
+      "x": 290,
+      "y": 600,
+      "at": -99
+     }
+    ],
+    "tags": [
+     {
+      "text": "1주일 간격으로 모텔 이동",
+      "x": 500,
+      "y": 40,
+      "color": "#141414",
+      "at": 4,
+      "size": 40
+     }
+    ],
+    "stamps": [
+     {
+      "lines": [
+       "대포폰 136대"
+      ],
+      "x": 640,
+      "y": 290,
+      "at": "e1-62",
+      "until": "e1-30",
+      "size": 90,
+      "maxW": 560
+     },
+     {
+      "lines": [
+       "대포폰 136대",
+       "유심칩 395개"
+      ],
+      "x": 640,
+      "y": 290,
+      "at": "e1-30",
+      "size": 90,
+      "maxW": 560
+     }
+    ],
+    "punch": [
+     30,
+     60,
+     90,
+     "e1-46",
+     "e1-8"
+    ]
+   },
+   "in_frame": 121,
+   "duration_frames": 173,
+   "out_frame_exclusive": 294,
+   "required_claim_ids": [
+    "V3-04_1",
+    "V3-04_2",
+    "V3-04_3"
+   ]
+  },
+  {
+   "cue_id": "C3",
+   "act": "incident",
+   "block_name": "incident",
+   "narration": [
+    "피해자는 39명이고 피해액은 약 11억 원이었어요."
+   ],
+   "claim_ids": [
+    "V3-04_1",
+    "V3-04_2"
+   ],
+   "pad_s": 0.2,
+   "note": "",
+   "p": {
+    "set": "bigtext",
+    "big": "약 11억",
+    "bigSub": "피해자 39명",
+    "bigAt": -6,
+    "bigBg": "#2A2D38",
+    "punch": [
+     28,
+     54
+    ]
+   },
+   "in_frame": 294,
+   "duration_frames": 100,
+   "out_frame_exclusive": 394,
+   "required_claim_ids": [
+    "V3-04_1",
+    "V3-04_2"
+   ]
+  },
+  {
+   "cue_id": "C4",
+   "act": "weigh",
+   "block_name": "weigh",
+   "narration": [
+    "벌금, 집행유예, 실형 중 무엇이었을까요?",
+    "판사는 단순 현금 수거책보다 가담 정도가 무겁다고 봤습니다.",
+    "피해 회복을 위한 노력도 없었고요.",
+    "다만 범행을 인정했고 벌금형보다 무거운 전과는 없었죠."
+   ],
+   "claim_ids": [
+    "V3-04_1",
+    "V3-04_2",
+    "V3-04_3"
+   ],
+   "pad_s": 0.3,
+   "note": "",
+   "p": {
+    "cards": [
+     {
+      "tag": "불리한 사정",
+      "text": "수거책보다 무거운 가담",
+      "tone": "bad"
+     },
+     {
+      "tag": "불리한 사정",
+      "text": "피해 회복 노력 없음",
+      "tone": "bad"
+     },
+     {
+      "tag": "유리한 사정",
+      "text": "범행 인정 · 무거운 전과 없음",
+      "tone": "good"
+     }
+    ],
+    "punch": [
+     34,
+     "s2+40",
+     "s2+76",
+     "s3+32",
+     "s4+40",
+     "s4+76"
+    ]
+   },
+   "in_frame": 394,
+   "duration_frames": 336,
+   "out_frame_exclusive": 730,
+   "required_claim_ids": [
+    "V3-04_1",
+    "V3-04_2",
+    "V3-04_3"
+   ]
+  },
+  {
+   "cue_id": "C5",
+   "act": "reveal",
+   "block_name": "reveal",
+   "narration": [
+    "정답은 실형, 징역 10년입니다.",
+    "검찰 구형 5년의 두 배였어요."
+   ],
+   "claim_ids": [
+    "V3-04_1",
+    "V3-04_2",
+    "V3-04_3"
+   ],
+   "pad_s": 0.4,
+   "note": "",
+   "p": {
+    "lines": [
+     "징역 10년",
+     "실형"
+    ],
+    "steps": [
+     {
+      "s": 2,
+      "lines": [
+       "징역 10년",
+       "구형 5년의 2배"
+      ]
+     }
+    ],
+    "tags": [
+     {
+      "text": "다른 1명은 징역 9년 6개월",
+      "x": 645,
+      "y": 440,
+      "at": "s2+16",
+      "size": 32
+     }
+    ],
+    "punch": [
+     40,
+     "s2+34"
+    ]
+   },
+   "in_frame": 730,
+   "duration_frames": 107,
+   "out_frame_exclusive": 837,
+   "required_claim_ids": [
+    "V3-04_1",
+    "V3-04_2",
+    "V3-04_3"
+   ]
+  },
+  {
+   "cue_id": "C6",
+   "act": "outro",
+   "block_name": "outro",
+   "narration": [
+    "다음 사건도 맞혀 보세요."
+   ],
+   "claim_ids": [],
+   "pad_s": 0.5,
+   "note": "",
+   "p": {
+    "staged": true,
+    "logoAt": 14,
+    "punch": [
+     30
+    ]
+   },
+   "in_frame": 837,
+   "duration_frames": 49,
+   "out_frame_exclusive": 886,
+   "required_claim_ids": []
+  }
+ ],
+ "duration_frames": 886,
+ "fps": 30
+}

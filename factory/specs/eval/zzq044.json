@@ -1,0 +1,356 @@
+{
+ "spec_version": 1,
+ "id": "zzq044",
+ "locale": "ko",
+ "variant": "B3",
+ "channel": "myeotnyeon",
+ "case": {
+  "category": "embezzlement",
+  "grave": false,
+  "deaths": 0,
+  "victim_minor": false,
+  "sexual_offence": false,
+  "court": "부산지법",
+  "instance": "심급 미표기",
+  "finality": "항소 미확인",
+  "verdict_date": "2026-11-11",
+  "sentence_fact": "F4"
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "outlet": "머니투데이",
+   "url": "https://www.mt.co.kr/society/2026/11/12/2026111206123055885",
+   "published": "2026-11-12"
+  },
+  {
+   "id": "S2",
+   "outlet": "뉴스1",
+   "url": "https://www.news1.kr/local/busan-gyeongnam/6350271",
+   "published": "2026-11-11"
+  },
+  {
+   "id": "S3",
+   "outlet": "국제신문",
+   "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261111.22006003189",
+   "published": "2026-11-11"
+  }
+ ],
+ "facts": [
+  {
+   "id": "F1",
+   "claim": "하나은행 직원 A씨가 2020년 12월부터 2024년 3월까지 고객이 맡긴 통장·도장으로 고객과 은행 돈 약 13억 9,000만 원(약 14억)을 빼돌렸다.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "고객 돈 14억 빼돌린 은행원의 최후"
+    },
+    {
+     "source": "S1",
+     "text": "A씨는 2020년 12월부터 2024년 3월까지 부산지역 하나은행에서 근무하며 고객과 은행 자금 약 13억9000만원을 횡령한 혐의로 재판에 넘겨졌다."
+    },
+    {
+     "source": "S3",
+     "text": "그는 고객 편의를 위해 계좌를 관리하면서 받아 둔 통장과 도장, 비밀번호 등을 범행에 이용했다."
+    }
+   ],
+   "values": {
+    "start": {
+     "kind": "date",
+     "text": "2020년 12월"
+    },
+    "end": {
+     "kind": "date",
+     "text": "2024년 3월"
+    },
+    "total": {
+     "kind": "amount",
+     "text": "13억9000만원"
+    }
+   }
+  },
+  {
+   "id": "F2",
+   "claim": "2023년 8월 기업 고객이 2억 원 대출을 요청하자 서류를 위조해 3억 원을 대출받고 차액 1억 원을 챙겼다.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "2023년 8월에는 한 기업 고객이 2억원의 대출을 요청하자 서류를 위조해 3억원을 대출받은 뒤 차액 1억원을 챙겼다."
+    },
+    {
+     "source": "S3",
+     "text": "2023년 8월에는 한 고객사가 2억 원 대출을 요청하자 서류를 위조해 3억 원을 대출받아 차액 1억 원을 가로챘다."
+    }
+   ],
+   "values": {
+    "when": {
+     "kind": "date",
+     "text": "2023년 8월"
+    },
+    "request": {
+     "kind": "amount",
+     "text": "2억원"
+    },
+    "loan": {
+     "kind": "amount",
+     "text": "3억원"
+    }
+   }
+  },
+  {
+   "id": "F3",
+   "claim": "실제 대출 잔액 19억 5,000만 원인 부채증명서를 16억 5,000만 원으로 고치는 등 12차례 문서를 위조했다.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "A씨는 실제 대출 잔액이 19억5000만원인 부채증명서를 16억5000만원으로 고쳐 고객에게 전달하는 등 12차례에 걸쳐 문서를 위조하고 행사했다."
+    }
+   ],
+   "values": {
+    "real": {
+     "kind": "amount",
+     "text": "19억5000만원"
+    },
+    "forged": {
+     "kind": "amount",
+     "text": "16억5000만원"
+    },
+    "count": {
+     "kind": "count",
+     "text": "12차례"
+    }
+   }
+  },
+  {
+   "id": "F4",
+   "claim": "부산지법 형사5부는 징역 3년을 선고했다. 범행을 인정하고 일부를 갚았지만 미변제액이 약 4억 8,000만 원이고 피해자들에게 용서받지 못했다.",
+   "quotes": [
+    {
+     "source": "S1",
+     "text": "40대 A씨에게 징역 3년을 선고했다."
+    },
+    {
+     "source": "S2",
+     "text": "부산지법 징역 3년 선고…미변제액 약 4억8000만원"
+    },
+    {
+     "source": "S1",
+     "text": "아직 변제하지 못한 금액도 약 4억8000만원에 달하며 피해자들로부터 용서받지 못했다"
+    },
+    {
+     "source": "S1",
+     "text": "범행을 모두 인정하고 일부 피해금을 변제한 점"
+    }
+   ],
+   "values": {
+    "sentence": {
+     "kind": "duration",
+     "text": "징역 3년"
+    },
+    "unpaid": {
+     "kind": "amount",
+     "text": "4억8000만원"
+    }
+   }
+  }
+ ],
+ "title": "고객이 맡긴 통장·도장으로 '14억' 빼돌린 은행원, 몇 년?",
+ "description": "부산의 한 하나은행 기업금융 팀장이 2020년 12월부터 2024년 3월까지, 고객 편의로 맡아 두던 통장과 도장, 계좌 비밀번호를 이용해 고객과 은행 돈 약 13억 9,000만 원을 빼돌렸습니다. 2억 원 대출을 요청한 고객 몰래 3억 원을 대출받아 1억 원을 챙겼고, 부채증명서를 고치는 등 문서 위조만 12번이었습니다.\n부산지법(형사5부)은 범행을 모두 인정하고 일부를 갚은 점을 참작하면서도, 아직 갚지 못한 돈이 약 4억 8,000만 원에 이르고 피해자들에게 용서받지 못했다며 징역 3년을 선고했습니다.",
+ "hashtags": [
+  "#횡령",
+  "#은행원",
+  "#판결",
+  "#몇년나옴",
+  "#shorts"
+ ],
+ "cover": "맡긴 통장·도장으로\n14억 횡령",
+ "hook": [
+  "통장·도장 맡겼더니",
+  "14억 횡령"
+ ],
+ "stage": "bank",
+ "defendant": "suit",
+ "quiz": {
+  "choices": [
+   "집행유예",
+   "징역 3년",
+   "징역 7년"
+  ],
+  "answer": 1
+ },
+ "lines": [
+  {
+   "beat": "open",
+   "text": "고객 도장으로, 14억.",
+   "fact": "F1"
+  },
+  {
+   "beat": "hook",
+   "text": "이 은행원, 몇 년 나왔을까요?",
+   "fact": "F1",
+   "actor": "suit",
+   "shots": [
+    {
+     "scene": "react",
+     "expr": "smug",
+     "move": "nod"
+    },
+    {
+     "scene": "calendar",
+     "date": "F1.start"
+    }
+   ]
+  },
+  {
+   "beat": "guess",
+   "text": "범행 인정에 일부는 갚았으니, 집행유예 나올 것 같지만,",
+   "fact": "F4",
+   "shots": [
+    {
+     "scene": "bubble",
+     "lines": [
+      "집행유예?",
+      "다 인정했는데…"
+     ]
+    },
+    {
+     "scene": "react",
+     "expr": "serious",
+     "move": "nod"
+    }
+   ],
+   "actor": "suit"
+  },
+  {
+   "beat": "twist",
+   "text": "그런데 실제 판결은, 실형이었습니다.",
+   "fact": "F4",
+   "shots": [
+    {
+     "scene": "judge"
+    },
+    {
+     "scene": "stamp",
+     "label": "판결",
+     "stamp": "실형"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "2억 대출 요청엔, 3억을 받아 1억 챙겼고,",
+   "fact": "F2",
+   "shots": [
+    {
+     "scene": "paper",
+     "lines": [
+      "요청 2억",
+      "대출 3억"
+     ]
+    },
+    {
+     "scene": "money"
+    }
+   ]
+  },
+  {
+   "beat": "fact",
+   "text": "서류 위조만, 12번이었습니다.",
+   "fact": "F3",
+   "actor": "suit",
+   "shots": [
+    {
+     "scene": "tally",
+     "count": "F3.count",
+     "label": "문서 위조"
+    },
+    {
+     "scene": "react",
+     "expr": "smug",
+     "move": "nod"
+    }
+   ]
+  },
+  {
+   "beat": "answer2",
+   "text": "아직 못 갚은 돈만, 4억 8,000만 원.",
+   "fact": "F4",
+   "actor": "suit",
+   "shots": [
+    {
+     "scene": "cell",
+     "expr": "concern"
+    },
+    {
+     "scene": "paper",
+     "lines": [
+      "미변제",
+      "4억 8,000만 원"
+     ]
+    }
+   ]
+  },
+  {
+   "beat": "loop",
+   "text": "2020년 12월, 고객이 맡긴 통장과,",
+   "fact": "F1"
+  }
+ ],
+ "pops": [
+  {
+   "beat": "hook",
+   "at": 0.45,
+   "big": "{span}",
+   "small": "{a} ~ {b}",
+   "vars": {
+    "span": "span(F1.start, F1.end)",
+    "a": "F1.start",
+    "b": "F1.end"
+   }
+  },
+  {
+   "beat": "fact1",
+   "at": 0.5,
+   "big": "{loan} 대출 → {gain} 착복",
+   "small": "{when} · 고객은 {req} 요청",
+   "vars": {
+    "loan": "F2.loan",
+    "gain": "F2.loan - F2.request",
+    "when": "F2.when",
+    "req": "F2.request"
+   }
+  },
+  {
+   "beat": "fact2",
+   "at": 0.5,
+   "big": "{n}번 위조",
+   "small": "부채증명서 {real} → {forged}",
+   "vars": {
+    "real": "F3.real",
+    "forged": "F3.forged",
+    "n": "F3.count"
+   }
+  },
+  {
+   "beat": "answer2",
+   "at": 0.05,
+   "big": "{m} ≈ {d}",
+   "small": "징역 {s}",
+   "vars": {
+    "m": "months(F4.sentence)",
+    "d": "days(F4.sentence)",
+    "s": "F4.sentence"
+   }
+  },
+  {
+   "beat": "answer2",
+   "at": 0.55,
+   "big": "피해자 용서 못 받음",
+   "small": "총 횡령 약 {total} 원",
+   "vars": {
+    "total": "F1.total"
+   }
+  }
+ ],
+ "notes": "Evaluation build of the hand-made q044 (parity test). Never upload."
+}

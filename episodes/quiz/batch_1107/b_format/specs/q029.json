@@ -1,0 +1,338 @@
+{
+ "qid": "q029",
+ "variant": "B3",
+ "b3": true,
+ "look": "full",
+ "grave": false,
+ "kind": "taxi",
+ "number_label": "",
+ "stage": "taxi",
+ "cover_text": "김호중\n'음주 뺑소니' 몇 년?",
+ "defendant": "D",
+ "choices": [
+  "집행유예",
+  "징역 2년 6개월",
+  "징역 3년 6개월"
+ ],
+ "correct": 1,
+ "answer": "징역 2년 6개월",
+ "answer_label": "상고 취하 · 확정",
+ "opinion": "이 형량,\n가볍다 / 적당 / 무겁다?",
+ "option_offsets": [
+  0.0,
+  0.98,
+  2.1
+ ],
+ "hook_text": [
+  "택시 들이받고",
+  "도주"
+ ],
+ "sfx": [
+  [
+   "taxi",
+   0,
+   "thud"
+  ],
+  [
+   "twist",
+   0,
+   "clank"
+  ],
+  [
+   "charges",
+   0,
+   "knock"
+  ]
+ ],
+ "pops": [
+  {
+   "line": "L05b",
+   "at": 0.2,
+   "big": "17시간",
+   "small": "사고 → 경찰 출석",
+   "calc": "보도: 사고 17시간 뒤 경찰 출석 → 위드마크 공식으로 혈중알코올농도 산정 불가, 음주운전 혐의 제외"
+  },
+  {
+   "line": "L05b",
+   "at": 0.55,
+   "big": "10일",
+   "small": "음주 부인 → 인정",
+   "calc": "보도: 음주 사실을 부인하다 열흘 만에 인정"
+  },
+  {
+   "line": "L08",
+   "at": 0.45,
+   "big": "42개월",
+   "small": "구형 징역 3년 6개월",
+   "calc": "3 × 12 + 6 = 42"
+  },
+  {
+   "line": "L12b",
+   "at": 0.05,
+   "big": "30개월 ≈ 913일",
+   "small": "징역 2년 6개월",
+   "calc": "2 × 12 + 6 = 30개월; 30 × 30.44일 = 913일"
+  },
+  {
+   "line": "L12b",
+   "at": 0.55,
+   "big": "만기보다 5개월 먼저",
+   "small": "2026년 6월 30일 가석방",
+   "calc": "보도: 11월 만기 예정보다 5개월 먼저 가석방 출소"
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "mode": "taxi",
+   "tts": "택시 들이받고, 도주.",
+   "shown": "택시 들이받고, 도주.",
+   "chunks": [
+    "택시 들이받고,",
+    "도주."
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "taxi"
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "mode": "hook",
+   "tts": "김호중, 몇 년 나왔을까요?",
+   "shown": "김호중, 몇 년 나왔을까요?",
+   "chunks": [
+    "김호중,",
+    "몇 년 나왔을까요?"
+   ],
+   "fact": "F1",
+   "shots": [
+    {
+     "s": "react",
+     "look": "D",
+     "expr": "smug",
+     "move": "nod"
+    },
+    {
+     "s": "react",
+     "look": "driver",
+     "expr": "shock",
+     "move": "recoil"
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "mode": "guess",
+   "tts": "집행유예 나올 것 같지만,",
+   "shown": "집행유예 나올 것 같지만,",
+   "chunks": [
+    "집행유예",
+    "나올 것 같지만,"
+   ],
+   "fact": "F3",
+   "shots": [
+    {
+     "s": "bubble",
+     "lines": [
+      "집행유예?",
+      "음주운전은 빠졌는데…"
+     ],
+     "size": 140
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "mode": "twist",
+   "tts": "그런데 실제 판결은, 실형이었습니다.",
+   "shown": "그런데 실제 판결은, 실형이었습니다.",
+   "chunks": [
+    "그런데 실제 판결은,",
+    "실형이었습니다."
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "judge"
+    },
+    {
+     "s": "stamp",
+     "lines": [
+      "판결"
+     ],
+     "stamp": "실형"
+    }
+   ]
+  },
+  {
+   "id": "L05b",
+   "mode": "late",
+   "tts": "열일곱 시간 뒤 출석해, 음주 수치를 특정 못 했습니다.",
+   "shown": "17시간 뒤 출석해, 음주 수치를 특정 못 했습니다.",
+   "chunks": [
+    "17시간 뒤 출석해,",
+    "음주 수치를",
+    "특정 못 했습니다."
+   ],
+   "fact": "F2",
+   "shots": [
+    {
+     "s": "clock"
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "음주 부인",
+      "→ 10일 뒤 인정"
+     ],
+     "size": 84
+    },
+    {
+     "s": "react",
+     "look": "cop",
+     "expr": "concern",
+     "move": "shake",
+     "y": 2080
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "mode": "charges",
+   "tts": "위험운전치상, 도주치상은 유죄.",
+   "shown": "위험운전치상, 도주치상은 유죄.",
+   "chunks": [
+    "위험운전치상,",
+    "도주치상은 유죄."
+   ],
+   "fact": "F4",
+   "shots": [
+    {
+     "s": "stamp",
+     "lines": [
+      "위험운전치상",
+      "도주치상"
+     ],
+     "stamp": "유죄",
+     "size": 70
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "mode": "demand",
+   "tts": "검찰 구형은, 징역 삼 년 육 개월.",
+   "shown": "검찰 구형은, 징역 3년 6개월.",
+   "chunks": [
+    "검찰 구형은,",
+    "징역 3년 6개월."
+   ],
+   "fact": "F3",
+   "shots": [
+    {
+     "s": "prosecutor"
+    },
+    {
+     "s": "react",
+     "look": "D",
+     "expr": "scared",
+     "move": "shake"
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "mode": "choices",
+   "tts": "확정된 형량은?",
+   "shown": "확정된 형량은?",
+   "chunks": [
+    "확정된 형량은?"
+   ],
+   "fact": "Q",
+   "shots": []
+  },
+  {
+   "id": "L10",
+   "mode": "options",
+   "tts": "집행유예, 징역 이 년 육 개월, 삼 년 육 개월.",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [],
+   "target": 5.6,
+   "hold_after": 0.45
+  },
+  {
+   "id": "L11",
+   "mode": "answer",
+   "tts": "정답 비, 징역 이 년 육 개월.",
+   "shown": "정답 B, 징역 2년 6개월.",
+   "chunks": [
+    "정답 B,",
+    "징역 2년 6개월."
+   ],
+   "fact": "F4",
+   "shots": [],
+   "emphasis": "징역 2년 6개월"
+  },
+  {
+   "id": "L12b",
+   "mode": "answer2",
+   "tts": "상고를 취하해 확정, 가석방으로 나왔습니다.",
+   "shown": "상고를 취하해 확정, 가석방으로 나왔습니다.",
+   "chunks": [
+    "상고를 취하해 확정,",
+    "가석방으로",
+    "나왔습니다."
+   ],
+   "fact": "F5",
+   "shots": [
+    {
+     "s": "cell",
+     "look": "D",
+     "expr": "tired"
+    },
+    {
+     "s": "paper",
+     "lines": [
+      "상고 취하서"
+     ],
+     "size": 96
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "mode": "opinion",
+   "tts": "가볍다 적당 무겁다?",
+   "shown": null,
+   "chunks": null,
+   "fact": "Q",
+   "shots": [
+    {
+     "s": "react",
+     "look": "D",
+     "expr": "concern",
+     "move": "shrug",
+     "y": 2450
+    }
+   ],
+   "hold_after": 0.3
+  },
+  {
+   "id": "L14",
+   "mode": "loop",
+   "tts": "그날 밤 압구정, 그가 한 일은,",
+   "shown": "그날 밤 압구정, 그가 한 일은,",
+   "chunks": [
+    "그날 밤 압구정,",
+    "그가 한 일은,"
+   ],
+   "fact": "F1",
+   "shots": []
+  }
+ ]
+}

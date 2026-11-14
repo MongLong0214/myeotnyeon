@@ -1,0 +1,9 @@
+reveal,time_s,nearest_side_onset_s,onset_minus_reveal_s,nearest_cut_s,cut_minus_reveal_s,event_status
+outcome montage,10.067,10.36,0.29299999999999926,10.066666666666666,-0.0003333333333337407,Semantic timestamp ~0.5s; no SFX identity or intention inferred.
+first victim trigger,118.867,119.16,0.29299999999999216,118.86666666666666,-0.00033333333334439885,Semantic timestamp ~0.5s; no SFX identity or intention inferred.
+telephone isolation,263.52,263.7,0.18000000000000682,260.1,-3.419999999999959,Semantic timestamp ~0.5s; no SFX identity or intention inferred.
+funeral hypothetical,347.32,347.04,-0.2799999999999727,350.06666666666666,2.7466666666666697,Semantic timestamp ~0.5s; no SFX identity or intention inferred.
+infant reveal,369.633,369.62,-0.012999999999976808,369.6333333333333,0.00033333333334439885,Semantic timestamp ~0.5s; no SFX identity or intention inferred.
+grenade self-end,399.4,399.9,0.5,399.4,0.0,Semantic timestamp ~0.5s; no SFX identity or intention inferred.
+police absence reveal,442.08,441.92,-0.15999999999996817,437.3,-4.779999999999973,Semantic timestamp ~0.5s; no SFX identity or intention inferred.
+police hiding accusation,465.133,464.34,-0.7930000000000064,465.1333333333333,0.00033333333334439885,Semantic timestamp ~0.5s; no SFX identity or intention inferred.

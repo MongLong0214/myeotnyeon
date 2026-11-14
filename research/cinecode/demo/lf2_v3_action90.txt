@@ -1,0 +1,33 @@
+== action per scene (camera move removed; flag when the median residual < 1.0 or < 30% of the total; 2 samples/s):
+     #1 00:00.00-00:03.00  residual 10.24  total 12.27  ok
+     #2 00:03.00-00:06.00  residual  7.20  total 14.97  ok
+     #3 00:06.00-00:09.00  residual  2.07  total  2.08  ok
+     #4 00:09.00-00:12.00  residual  2.29  total  2.29  ok
+     #5 00:12.00-00:15.00  residual  7.51  total  7.80  ok
+     #6 00:15.00-00:18.00  residual  4.78  total  6.29  ok
+     #7 00:18.00-00:21.00  residual  1.63  total  1.69  ok
+     #8 00:21.00-00:24.00  residual  2.65  total  2.72  ok
+     #9 00:24.00-00:27.00  residual 14.82  total 19.36  ok
+    #10 00:27.00-00:30.00  residual  9.23  total 15.30  ok
+    #11 00:30.00-00:33.00  residual 11.51  total 12.21  ok
+    #12 00:33.00-00:36.00  residual  1.76  total  1.76  ok
+    #13 00:36.00-00:39.00  residual  3.69  total  4.04  ok
+    #14 00:39.00-00:42.00  residual 12.98  total 16.31  ok
+    #15 00:42.00-00:45.00  residual  3.24  total  4.40  ok
+    #16 00:45.00-00:48.00  residual  5.23  total  5.28  ok
+    #17 00:48.00-00:51.00  residual  4.20  total  4.70  ok
+    #18 00:51.00-00:54.00  residual 16.72  total 17.01  ok
+    #19 00:54.00-00:57.00  residual  7.72  total  8.14  ok
+    #20 00:57.00-01:00.00  residual  3.43  total  3.63  ok
+    #21 01:00.00-01:03.00  residual  4.85  total  5.13  ok
+    #22 01:03.00-01:06.00  residual 12.25  total 15.62  ok
+    #23 01:06.00-01:09.00  residual  3.59  total  4.93  ok
+    #24 01:09.00-01:12.00  residual 18.35  total 21.83  ok
+    #25 01:12.00-01:15.00  residual  8.68  total 17.60  ok
+    #26 01:15.00-01:18.00  residual  0.84  total  1.18  CHECK: camera-led, the subject barely acts
+    #27 01:18.00-01:21.00  residual  2.24  total  2.32  ok
+    #28 01:21.00-01:24.00  residual  2.02  total  2.22  ok
+    #29 01:24.00-01:27.00  residual  4.80  total  9.38  ok
+    #30 01:27.00-01:30.00  residual  3.59  total  3.78  ok
+  1 scene(s) flagged; look at their strips (qc.py strip) and give each an action
+python3 src/scripts/scene_check.py action demo/lf2_v3_first90.mp4 --every 3    4.48s user 0.37s system 120% cpu 4.033 total

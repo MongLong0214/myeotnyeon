@@ -1,0 +1,624 @@
+{
+ "observed_at": "2026-11-13T03:12:35+00:00",
+ "anchor": "음주운전",
+ "weights": {
+  "datalab": 0.3,
+  "yt_demand": 0.25,
+  "recency": 0.2,
+  "news": 0.15,
+  "autocomplete": 0.1
+ },
+ "rows": [
+  {
+   "candidate": {
+    "keyword": "층간소음 이웃 살해 양민준 징역 25년",
+    "trend_keyword": "양민준",
+    "case_id": "yang_minjun",
+    "trial_stage": "항소심 징역 25년 유지(상고)",
+    "verdict_date": "2026-10-24"
+   },
+   "excluded": "already_published_on_own_channel",
+   "raw": {},
+   "evidence": {},
+   "score": null
+  },
+  {
+   "candidate": {
+    "keyword": "AI로 잔액 9억 위조해 판사 속인 20대 징역 7년",
+    "trend_keyword": "AI 위조 판사",
+    "case_id": "ai_forgery_judge",
+    "trial_stage": "1심 징역 7년(구형 초과)",
+    "verdict_date": "2026-11-12"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": null,
+    "news_total": 9,
+    "yt_demand": 12.381386861313867,
+    "autocomplete": 0.0,
+    "recency": 0.9944444444444445
+   },
+   "evidence": {
+    "news": {
+     "total": 9,
+     "recent_90d_sample": 9
+    },
+    "youtube_top": [
+     {
+      "id": "2d2fkhGszZ4",
+      "title": "“잔고 9억 있다더니”…AI 위조 서류로 판사까지 속였다 [9시 뉴스] / KBS  2026.02.11.",
+      "published_at": "2026-02-11T12:36:13Z",
+      "view_count": 10077,
+      "views_per_day": 36.777372262773724
+     },
+     {
+      "id": "FBCWHzs2UF4",
+      "title": "23원 통장 잔고를 9억 원으로…판사도 속인 사기꾼 - 뉴스파이터",
+      "published_at": "2026-02-11T11:40:51Z",
+      "view_count": 3497,
+      "views_per_day": 12.762773722627736
+     },
+     {
+      "id": "R0RguXhSWgs",
+      "title": "통장 23원을 9억으로? AI로 판사까지 속인 20대 사기범의 최후 #Shorts #속보 #이슈",
+      "published_at": "2026-11-12T12:06:35Z",
+      "view_count": 0,
+      "views_per_day": 0.0
+     },
+     {
+      "id": "1xezzW81GY4",
+      "title": "통장 잔액 23원을 9억으로… AI 위조 서류, 어떻게 들통났나 #디지털포렌식 #Shorts",
+      "published_at": "2026-11-12T12:17:32Z",
+      "view_count": 12,
+      "views_per_day": 12.0
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": null,
+    "yt_demand": 0.0016231221552037375,
+    "recency": 0.9944444444444445,
+    "news": 0.21251546560831533,
+    "autocomplete": 0.0
+   },
+   "score": 33.02
+  },
+  {
+   "candidate": {
+    "keyword": "깡통주택 전세금 17억 갭투자자 징역 4년6월",
+    "trend_keyword": "깡통주택 전세사기",
+    "case_id": "gap_jeonse_17",
+    "trial_stage": "1심 징역 4년6월",
+    "verdict_date": "2026-11-13"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": null,
+    "news_total": 1,
+    "yt_demand": 0.39445843828715366,
+    "autocomplete": 0.0,
+    "recency": 1.0
+   },
+   "evidence": {
+    "news": {
+     "total": 1,
+     "recent_90d_sample": 1
+    },
+    "youtube_top": [
+     {
+      "id": "wVsJgEgZqaU",
+      "title": "[뉴스현장] '무자본 갭투자' 전세사기 일당 검거…또 다른 '빌라왕'도 / 연합뉴스TV (YonhapnewsTV)",
+      "published_at": "2023-01-13T06:17:10Z",
+      "view_count": 792,
+      "views_per_day": 0.5661186561829878
+     },
+     {
+      "id": "4Kz3W7pji_g",
+      "title": "“전세 사기는 나쁜 범죄”…180억 징역 15년 선고 / KBS  2024.01.24.",
+      "published_at": "2024-01-24T10:55:25Z",
+      "view_count": 337,
+      "views_per_day": 0.32942326490713586
+     },
+     {
+      "id": "yg0wZI08gag",
+      "title": "치솟는 전셋값, ＂전세 보증금 떼일까＂ 보증보험 가입 거절 사례 증가!  | 행복한 아침 599 회",
+      "published_at": "2021-06-07T01:41:29Z",
+      "view_count": 783,
+      "views_per_day": 0.39445843828715366
+     },
+     {
+      "id": "6LRxoJjzqvc",
+      "title": "2억짜리 집에 2억 3천을 맡겼다, 내 보증금은 어디로 갔나? 2022 전세사기",
+      "published_at": "2026-11-04T09:00:34Z",
+      "view_count": 6,
+      "views_per_day": 0.75
+     },
+     {
+      "id": "eo17bOd5ABM",
+      "title": "[경제뭐니] 떼인 전세 보증금 역대 최다…피해 막으려면? / KBS  2021.12.15.",
+      "published_at": "2021-12-15T11:21:38Z",
+      "view_count": 60,
+      "views_per_day": 0.03346346904629113
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": null,
+    "yt_demand": 0.0,
+    "recency": 1.0,
+    "news": 0.0,
+    "autocomplete": 0.0
+   },
+   "score": 28.57
+  },
+  {
+   "candidate": {
+    "keyword": "보이스피싱 피해금 상품권 세탁 30대 징역 2년",
+    "trend_keyword": "보이스피싱 상품권",
+    "case_id": "vp_giftcard",
+    "trial_stage": "1심 징역 2년",
+    "verdict_date": "2026-11-13"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": 0.01749195727304552,
+    "news_total": 8,
+    "yt_demand": 7.654178674351585,
+    "autocomplete": 0.0,
+    "recency": 1.0
+   },
+   "evidence": {
+    "news": {
+     "total": 8,
+     "recent_90d_sample": 1
+    },
+    "youtube_top": [
+     {
+      "id": "TyZqGQQizMQ",
+      "title": "상품권 세탁! 범죄수익은닉 사건",
+      "published_at": "2025-11-30T14:19:22Z",
+      "view_count": 2656,
+      "views_per_day": 7.654178674351585
+     },
+     {
+      "id": "NmxchMnb8S0",
+      "title": "보이스피싱 피해금으로 환치기…'돈 세탁' 수출업자 검거",
+      "published_at": "2023-04-12T10:30:06Z",
+      "view_count": 555,
+      "views_per_day": 0.42366412213740456
+     },
+     {
+      "id": "jh9T0HNUu24",
+      "title": "사기꾼이 수백억 벌고 감옥 갔다오면 남는 장사 아닌가요? #변호사 #장휘일 #사기꾼 #사기 #holypop",
+      "published_at": "2023-04-25T03:37:23Z",
+      "view_count": 179802,
+      "views_per_day": 138.62914417887433
+     },
+     {
+      "id": "gyOlHYWQIIk",
+      "title": "[자막뉴스] 현금 2천만 원 건네는 순간 '우르르' 피싱 수거책 체포 현장 | 이슈픽",
+      "published_at": "2025-12-12T01:38:19Z",
+      "view_count": 798,
+      "views_per_day": 2.375
+     },
+     {
+      "id": "8Xypl13K9iI",
+      "title": "'상품권 거래인 척' 2,300억 범죄수익 세탁 일당 적발 / YTN",
+      "published_at": "2025-06-13T20:37:57Z",
+      "view_count": 31260,
+      "views_per_day": 60.4642166344294
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": 0.0,
+    "yt_demand": 0.0009830218668112946,
+    "recency": 1.0,
+    "news": 0.19860331723106503,
+    "autocomplete": 0.0
+   },
+   "score": 23.0
+  },
+  {
+   "candidate": {
+    "keyword": "KT 사옥 폭탄 허위 협박 10대 징역 1년",
+    "trend_keyword": "폭탄 협박",
+    "case_id": "bomb_threat_teen",
+    "trial_stage": "1심 징역 1년",
+    "verdict_date": "2026-11-11"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": null,
+    "news_total": 22,
+    "yt_demand": 7385.5,
+    "autocomplete": 0.0,
+    "recency": 0.9888888888888889
+   },
+   "evidence": {
+    "news": {
+     "total": 22,
+     "recent_90d_sample": 12
+    },
+    "youtube_top": [
+     {
+      "id": "qWFcJ52Sb1o",
+      "title": "\"KT 사옥에 폭탄\"…7차례 허위 협박 10대 징역 1년 / 연합뉴스TV (YonhapnewsTV)",
+      "published_at": "2026-11-11T04:53:50Z",
+      "view_count": 786,
+      "views_per_day": 786.0
+     },
+     {
+      "id": "B5Uv_q1LyAs",
+      "title": "KT사옥 등 7차례 폭파 협박‥10대에 징역 1년 (2026.11.11/12MBC뉴스)",
+      "published_at": "2026-11-11T03:35:15Z",
+      "view_count": 14723,
+      "views_per_day": 14723.0
+     },
+     {
+      "id": "C2y4gYxZ0yc",
+      "title": "\"KT·방송사 다 터뜨린다\"..밥 먹듯 협박 10대에 \"징역 1년\" (자막뉴스) / SBS",
+      "published_at": "2026-11-11T07:09:14Z",
+      "view_count": 13985,
+      "views_per_day": 13985.0
+     },
+     {
+      "id": "BgixU7oESLM",
+      "title": "\"폭발물 설치했다\" 17차례 협박..'서울역 발칵' 뒤집은 10대 결국 (자막뉴스) / SBS",
+      "published_at": "2026-06-24T08:40:01Z",
+      "view_count": 3637,
+      "views_per_day": 25.79432624113475
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": null,
+    "yt_demand": 1.0,
+    "recency": 0.9888888888888889,
+    "news": 0.3224955205718924,
+    "autocomplete": 0.0
+   },
+   "score": 70.88
+  },
+  {
+   "candidate": {
+    "keyword": "병실 70대 밀쳐 숨지게 한 30대 집행유예",
+    "trend_keyword": "병실 폭행",
+    "case_id": "hospital_push",
+    "trial_stage": "항소심 집행유예·보호관찰",
+    "verdict_date": "2026-11-10"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": null,
+    "news_total": 1,
+    "yt_demand": null,
+    "autocomplete": 0.0,
+    "recency": 0.9833333333333333
+   },
+   "evidence": {
+    "news": {
+     "total": 1,
+     "recent_90d_sample": 1
+    },
+    "youtube_top": [],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": null,
+    "yt_demand": null,
+    "recency": 0.9833333333333333,
+    "news": 0.0,
+    "autocomplete": 0.0
+   },
+   "score": 43.7
+  },
+  {
+   "candidate": {
+    "keyword": "버스 10대 폭행 소방관 벌금형",
+    "trend_keyword": "소방관 폭행",
+    "case_id": "busan_firefighter",
+    "trial_stage": "1심 벌금 300만원",
+    "verdict_date": "2026-11-13"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": 0.04081560574692704,
+    "news_total": 18,
+    "yt_demand": 82.71340929009641,
+    "autocomplete": 0.0,
+    "recency": 1.0
+   },
+   "evidence": {
+    "news": {
+     "total": 18,
+     "recent_90d_sample": 18
+    },
+    "youtube_top": [
+     {
+      "id": "31P7sRIVc5M",
+      "title": "'기분 나쁘게 쳐다봐서' 버스서 10대 때린 소방관…전치 3주 입히고 벌금 300만 원",
+      "published_at": "2026-11-13T02:33:41Z",
+      "view_count": 357,
+      "views_per_day": 357.0
+     },
+     {
+      "id": "Ja3GPnIQ5cU",
+      "title": "기분 나쁘게 쳐다봤다며 버스에서 고등학생 얼굴 때린 현직 소방관 판결",
+      "published_at": "2026-11-13T01:53:25Z",
+      "view_count": 441,
+      "views_per_day": 441.0
+     },
+     {
+      "id": "_QgG73Ax7vU",
+      "title": "전과 기록이 인생에 미치는 영향 #Shorts",
+      "published_at": "2023-09-28T07:00:12Z",
+      "view_count": 94376,
+      "views_per_day": 82.71340929009641
+     },
+     {
+      "id": "OZscouPZsj0",
+      "title": "술 취해 구급대원 폭행한 40대 구속",
+      "published_at": "2016-01-14T22:16:18Z",
+      "view_count": 143,
+      "views_per_day": 0.03615676359039191
+     },
+     {
+      "id": "GLBySEk2Pns",
+      "title": "\"감사 대신 주먹\"…이틀마다 매맞는 구급대원 / YTN",
+      "published_at": "2016-01-14T04:25:51Z",
+      "view_count": 301,
+      "views_per_day": 0.07610619469026549
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": 0.22222112253684215,
+    "yt_demand": 0.011146618066395492,
+    "recency": 1.0,
+    "news": 0.2972679598913268,
+    "autocomplete": 0.0
+   },
+   "score": 31.4
+  },
+  {
+   "candidate": {
+    "keyword": "반도체 기술 중국 유출 삼성 전 부장 징역 6년4개월 확정",
+    "trend_keyword": "반도체 유출",
+    "case_id": "samsung_leak2",
+    "trial_stage": "대법원 확정",
+    "verdict_date": "2026-11-12"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": 0.07871640466992358,
+    "news_total": 32,
+    "yt_demand": 6.515625,
+    "autocomplete": 0.0,
+    "recency": 0.9944444444444445
+   },
+   "evidence": {
+    "news": {
+     "total": 32,
+     "recent_90d_sample": 12
+    },
+    "youtube_top": [
+     {
+      "id": "QJfpnt2dJB0",
+      "title": "삼성이 '1.6조' 들여 세계 최초로 만든 기술, 중국에 팔아먹은 범인 근황 ㄷㄷㄷ",
+      "published_at": "2026-04-24T07:00:31Z",
+      "view_count": 611772,
+      "views_per_day": 3028.5742574257424
+     },
+     {
+      "id": "jkcHo45szH8",
+      "title": "세계 1위 반도체가, 손글씨 12장에 빠져나갔다",
+      "published_at": "2026-06-26T12:00:02Z",
+      "view_count": 11,
+      "views_per_day": 0.07913669064748201
+     },
+     {
+      "id": "XFSdL73ZPcc",
+      "title": "\"역대 최대로 벌었습니다\" 사상 최대 실적을 낸 그날 삼성전자 주가가 13% 무너진 진짜 이유",
+      "published_at": "2026-08-25T03:00:25Z",
+      "view_count": 29,
+      "views_per_day": 0.3625
+     },
+     {
+      "id": "pHy7GaB0iXk",
+      "title": "애플은 왜 삼성보다 비싼 중국 D램을 굳이 사겠다고 미국 정부까지 찾아갔을까?",
+      "published_at": "2026-09-09T21:00:03Z",
+      "view_count": 417,
+      "views_per_day": 6.515625
+     },
+     {
+      "id": "_iZ-zAgUxeg",
+      "title": "\"연구소도 설비도 없었습니다\" 손으로 베껴간 삼성 설계도 600단계, 10년 뒤 청구서는 우리에게 왔습니다.",
+      "published_at": "2026-08-31T04:56:28Z",
+      "view_count": 1143,
+      "views_per_day": 15.657534246575343
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": 0.5833292095131583,
+    "yt_demand": 0.0008288529564356661,
+    "recency": 0.9944444444444445,
+    "news": 0.37016490789336376,
+    "autocomplete": 0.0
+   },
+   "score": 42.96
+  },
+  {
+   "candidate": {
+    "keyword": "슈가 전동스쿠터 음주운전",
+    "trend_keyword": "슈가 음주",
+    "case_id": "suga_scooter",
+    "trial_stage": "약식명령 벌금 1500만원",
+    "verdict_date": "2024-09-30"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": 0.12244889479375613,
+    "news_total": 3890,
+    "yt_demand": 58.05365853658537,
+    "autocomplete": 0.0,
+    "recency": 0.0
+   },
+   "evidence": {
+    "news": {
+     "total": 3890,
+     "recent_90d_sample": 2
+    },
+    "youtube_top": [
+     {
+      "id": "4NUGgZ_Wwl0",
+      "title": "'전동스쿠터 음주운전' BTS 슈가, 벌금 1천5백만 원 (2024.09.30/12MBC뉴스)",
+      "published_at": "2024-09-30T03:26:36Z",
+      "view_count": 31374,
+      "views_per_day": 40.58732212160414
+     },
+     {
+      "id": "zMMi88k4YhI",
+      "title": "방탄소년단 슈가 '음주운전' CCTV 영상 추가 공개 #shorts",
+      "published_at": "2024-08-14T08:33:47Z",
+      "view_count": 128413,
+      "views_per_day": 156.60121951219512
+     },
+     {
+      "id": "2I_lANAx8Sc",
+      "title": "BTS 슈가 음주운전 장면 입수...좌회전하다 '콰당' / YTN",
+      "published_at": "2024-08-14T09:31:50Z",
+      "view_count": 47604,
+      "views_per_day": 58.05365853658537
+     },
+     {
+      "id": "oUqYfbCCgeY",
+      "title": "전동 킥보드? 스쿠터? CCTV 공개된 BTS 슈가 음주운전 모습",
+      "published_at": "2024-08-08T02:34:50Z",
+      "view_count": 23769,
+      "views_per_day": 28.776029055690074
+     },
+     {
+      "id": "YPzx1x0vD1Q",
+      "title": "사람 지나는 인도 위 '스쿠터 만취 운전' BTS 슈가, 핸들 꺾더니 '철푸덕'...CCTV·동선 추가 공개 '딱 걸린 이유' (현장영상) / SBS",
+      "published_at": "2024-08-14T09:54:49Z",
+      "view_count": 116386,
+      "views_per_day": 141.93414634146342
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": 1.0,
+    "yt_demand": 0.007807498453990292,
+    "recency": 0.0,
+    "news": 1.0,
+    "autocomplete": 0.0
+   },
+   "score": 45.2
+  },
+  {
+   "candidate": {
+    "keyword": "경남은행 3089억 횡령 징역 35년",
+    "trend_keyword": "경남은행 횡령",
+    "case_id": "gyeongnam_bank2",
+    "trial_stage": "대법원 확정",
+    "verdict_date": "2025-09-01"
+   },
+   "excluded": null,
+   "raw": {
+    "datalab": 0.058308601796460066,
+    "news_total": 171,
+    "yt_demand": 4.1478787878787875,
+    "autocomplete": 1.0,
+    "recency": 0.0
+   },
+   "evidence": {
+    "news": {
+     "total": 171,
+     "recent_90d_sample": 1
+    },
+    "youtube_top": [
+     {
+      "id": "bZnpv01pE0o",
+      "title": "'3089억 횡령' 경남은행 전 간부 징역 35년…\"출소 후 이익 박탈\" / JTBC 뉴스룸",
+      "published_at": "2024-08-09T11:15:30Z",
+      "view_count": 259820,
+      "views_per_day": 314.93333333333334
+     },
+     {
+      "id": "AD6xtaC26oQ",
+      "title": "대법, 3천억 횡령 주범 전 경남은행 임원에 '징역 35년' 확정 (자막뉴스) / SBS",
+      "published_at": "2025-07-03T02:04:46Z",
+      "view_count": 186440,
+      "views_per_day": 374.37751004016064
+     },
+     {
+      "id": "XiGksD1wyn8",
+      "title": "'금융권 최대' 3,089억 빼돌린 경남은행 전 간부 '징역 35년' #shorts",
+      "published_at": "2024-08-11T09:49:39Z",
+      "view_count": 1142,
+      "views_per_day": 1.3876063183475091
+     },
+     {
+      "id": "Qjwm0bjkT6M",
+      "title": "‘3,089억 횡령’ 김치통 수표·오피스텔 금괴…전 은행 간부 징역 35년 확정",
+      "published_at": "2025-07-04T03:23:58Z",
+      "view_count": 651,
+      "views_per_day": 1.3125
+     },
+     {
+      "id": "RnV5SjCI_u8",
+      "title": "'3천억 횡령' 경남은행 간부 징역 35년...\"출소 후 이익 박탈\" / YTN",
+      "published_at": "2024-08-09T13:49:26Z",
+      "view_count": 3422,
+      "views_per_day": 4.1478787878787875
+     }
+    ],
+    "google_trends": {
+     "value": null,
+     "note": "pytrends not installed; optional secondary signal skipped"
+    }
+   },
+   "normalized": {
+    "datalab": 0.38888943873157894,
+    "yt_demand": 0.0005082419375685599,
+    "recency": 0.0,
+    "news": 0.5881666402482081,
+    "autocomplete": 1.0
+   },
+   "score": 30.5
+  }
+ ]
+}
