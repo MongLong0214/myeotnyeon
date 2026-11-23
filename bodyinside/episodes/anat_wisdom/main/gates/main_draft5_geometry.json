@@ -1,0 +1,71 @@
+{
+  "contacts": [],
+  "gaps": [
+    {
+      "a": "ThirdMolar",
+      "b": "Nerve2",
+      "frame": 360,
+      "dist_mm": 2.044,
+      "range_mm": [
+        0.4,
+        6.0
+      ],
+      "ok": true
+    },
+    {
+      "a": "ThirdMolar",
+      "b": "Nerve2",
+      "frame": 420,
+      "dist_mm": 2.044,
+      "range_mm": [
+        0.4,
+        6.0
+      ],
+      "ok": true
+    }
+  ],
+  "pass": true,
+  "rotation_delta": [
+    {
+      "obj": "ThirdMolar",
+      "frames": [
+        120,
+        180
+      ],
+      "deg": 48.92,
+      "ok": true
+    },
+    {
+      "obj": "ThirdMolar",
+      "frames": [
+        180,
+        240
+      ],
+      "deg": 84.84,
+      "ok": true
+    },
+    {
+      "obj": "ThirdMolar",
+      "frames": [
+        240,
+        300
+      ],
+      "deg": 34.02,
+      "ok": true
+    }
+  ],
+  "stable": [
+    {
+      "obj": "ThirdMolar",
+      "median_verts": 75060,
+      "bad_frames": [],
+      "ok": true
+    },
+    {
+      "obj": "Lower second molar tooth.l",
+      "median_verts": 810,
+      "bad_frames": [],
+      "ok": true
+    }
+  ]
+}

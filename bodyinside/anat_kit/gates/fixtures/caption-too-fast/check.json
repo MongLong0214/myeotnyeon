@@ -1,0 +1,8 @@
+{
+ "fn": "caption_reading_speed",
+ "args": [
+  "episode.json"
+ ],
+ "kwargs": {},
+ "origin": "anat_wisdom/episode_draft21.json beats (ceo_checks.md section 2 reading time)"
+}

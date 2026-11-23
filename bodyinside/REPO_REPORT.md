@@ -1,0 +1,21 @@
+# Body Inside repository report
+
+- This tree is the publishable part of the local Body Inside consolidation (`bodyinside`, commit `94948ef`). That branch shares no history with `dev` and carries about 140 unpublished commits of other channels' work. Its files were therefore copied into `bodyinside/` as one new commit on `dev`, not pushed with their history.
+- Included: 1,135 files. They cover kit code, gates and thresholds, the operative step library, six episode source trees, the topic queue, the Body Inside uploader and publish script, licence texts, the fetch script and the asset manifest. `.gitattributes` keeps every file byte-exact, because recipes and caches pin files by SHA-256.
+- Withheld: 169 of the consolidation's 1,306 files, plus five moved to the asset mirror (the hash-recorded comparison audit and four DBCLS web-page snapshots under NBDC site terms). The withheld classes are:
+  - internal review reports, CEO checks and the rights dossier (the operative trial evidence, including the two surgery-repair Fable audit JSONs, stays because the factory reads it)
+  - agent briefs and agent session reports
+  - internal production reports and decision notes
+  - analyses of review-reference videos and audio, which stay internal
+  - the findings log with owner feedback
+  - analytics pulls and the publishing ledger (account data)
+  - the real channel registry, replaced by `factory/channels/registry.example.json`
+  - other channels' uploader helpers
+  - copies of third-party Earshot docs and catalogue
+  - site-scraping scripts and traces
+- Paths: 96 files referred to the workstation's absolute paths. They now use paths relative to `bodyinside/`, or `~` for the Hugging Face cache. No file on the operative render, compose or cache-key path changed. The comparison-reference audit `surgery_v3_fable.json` is recorded by hash in the trial evidence, so it stays byte-identical as a local-mirror-only manifest entry and is not edited.
+- The channel map in `upM.js` and the Aside profile now come from local configuration (`registry.json`, `ASIDE_BODYINSIDE_PROFILE`), not from the code.
+- `assets/MANIFEST.json` (version 2) lists 105,451 assets with path, SHA-256, size, licence, group and public source. Local `file://` locators were removed. Only 2,236 entries download publicly. The rest need the owner asset backup through `--mirror`.
+- On the owner workstation, Sonnet and Codex each passed the crown lengthening preflight from restored assets with 22 stills and zero errors. Each produced a 270×480, 30 fps, 457-frame draft and stopped before HQ. The first low-res draft failed the encoded audio seam gate. The archived surgery comparator scored 7.5 with four P0s. Topic #3 certification and the 9.5 production target remain open.
+- From a clean clone without the backup, topic #3 preflight and every later stage are 재현 불가. See the README section on clean-checkout reproducibility.
+- HQ and live Studio publishing still need verification on an approved cut.

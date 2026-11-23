@@ -1,0 +1,10 @@
+{
+ "blend": "episodes/anat_wisdom/wisdom_draft30.blend",
+ "frame": 0,
+ "rims": [],
+ "cut_structures": [],
+ "disc_materials": {},
+ "font_objects_rendered": [
+  "GapLabel"
+ ]
+}

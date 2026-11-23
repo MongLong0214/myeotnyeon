@@ -1,0 +1,254 @@
+[
+  {
+    "sheet": "anat_wisdom_2.jpg",
+    "report": "anat_wisdom/review/fable_review2.md",
+    "sha256": "0b5dd7bd67358000de8a961e85bb2653652c71726a745fc4599c985a0d569a94",
+    "frames": [
+      0,
+      75,
+      122,
+      150,
+      200,
+      270
+    ],
+    "axes": [
+      [
+        "Anatomical accuracy",
+        4.0,
+        "Contact is right; no bone, bur goes through to the nerve, root removal is impossible."
+      ],
+      [
+        "Material design",
+        4.0,
+        "Wisdom tooth is flesh-coloured wax, bone is a grey film, the \"socket\" is a faceted ghost."
+      ],
+      [
+        "Lighting design",
+        4.0,
+        "Flat frontal light, molars clipped to blank white, no rim or depth separation."
+      ],
+      [
+        "Camera and motion",
+        5.0,
+        "Smooth and continuous; one-frame glitch at f122; root piece spins like a wing."
+      ],
+      [
+        "Composition and layout",
+        5.0,
+        "Taller band helps; subject is off-centre and small; bottom 22% of the frame is empty."
+      ],
+      [
+        "Hook",
+        4.0,
+        "A readable still, but nothing happens before f10 and then only a 40 px glow."
+      ]
+    ],
+    "movie": "anat_wisdom/draft10.mp4",
+    "crop_sha256": "ee2251963b3716c02f53b6146ccfe31fe246f8aec54813f47753148a65af9a50"
+  },
+  {
+    "sheet": "anat_wisdom_8.jpg",
+    "report": "anat_wisdom/review/fable_review8.md",
+    "sha256": "16025121bc3dc13a91ae107ba4480b20c4661b94285bd9307eec4641df3eef5c",
+    "frames": [
+      0,
+      75,
+      120,
+      170,
+      205,
+      270
+    ],
+    "axes": [
+      [
+        "Anatomical accuracy",
+        6.0,
+        "Bone, canal and socket are right; the tooth is a bullet with cone roots and a nub."
+      ],
+      [
+        "Material design",
+        7.0,
+        "Cortex, trabeculae, canal lining and socket work. Glass bur does not."
+      ],
+      [
+        "Lighting design",
+        7.0,
+        "Holds."
+      ],
+      [
+        "Camera and motion",
+        6.0,
+        "Hard start at f205; cut line with no tool on it."
+      ],
+      [
+        "Composition and layout",
+        6.0,
+        "Ramus slab blocks the right fifth and the label; grey column in every frame."
+      ],
+      [
+        "Hook",
+        7.0,
+        "Readable event; gap at f0."
+      ]
+    ],
+    "movie": "anat_wisdom/draft18.mp4",
+    "crop_sha256": "3245b1838b1295087e2c6ec7f29411058cb30988f92ecc5aa1a64057469fd880"
+  },
+  {
+    "sheet": "anat_wisdom_12.jpg",
+    "report": "anat_wisdom/review/fable_review12.md",
+    "sha256": "b1355cc3a97dbc32022f24093294a491bd22718de922a6e178cc5af5f8a5ce1f",
+    "frames": [
+      0,
+      75,
+      120,
+      166,
+      220,
+      270
+    ],
+    "axes": [
+      [
+        "Anatomical accuracy",
+        7.5,
+        "Credible molar, correct section level, clean two-piece removal; peg roots and paper gum."
+      ],
+      [
+        "Material design",
+        7.0,
+        "Holds. Gum has no tissue quality."
+      ],
+      [
+        "Lighting design",
+        7.5,
+        "Subject now the brightest object."
+      ],
+      [
+        "Camera and motion",
+        7.5,
+        "No pops; crack and both lifts read. Focus on the wrong tooth at f0."
+      ],
+      [
+        "Composition and layout",
+        7.0,
+        "Pink flag and spike sit above the subject for 9 seconds."
+      ],
+      [
+        "Hook",
+        7.0,
+        "Tilt reads; the subject is soft and half hidden under pale gum."
+      ]
+    ],
+    "movie": "anat_wisdom/draft23.mp4",
+    "crop_sha256": "5c1dc7dcd5ee99941877ce0c77ac116966401eaa82b18c229604d50577352c66"
+  },
+  {
+    "sheet": "anat_neck_14.jpg",
+    "report": "anat_neck/review/fable_review14.md",
+    "sha256": "1d5a2e2782e7f65587ea3ef8e2d6ae0d14561093d6f6d0ef9bbe0c473a32f446",
+    "frames": [
+      3,
+      75,
+      360,
+      840,
+      950,
+      1008
+    ],
+    "axes": [
+      [
+        "Anatomical accuracy",
+        8.5,
+        "Payoff posture is plausible; the \"어깨\" marker sits on the upper back in the rear view."
+      ],
+      [
+        "Material design",
+        8.5,
+        "Person, bone, disc and muscle all hold together; skull pokes through the skin twice."
+      ],
+      [
+        "Lighting design",
+        8.5,
+        "Person and skeleton are lit consistently."
+      ],
+      [
+        "Camera and motion",
+        8.5,
+        "Good dissolves at f69–f84 and f1020–f1032; one broken transition and one hard cut."
+      ],
+      [
+        "Composition and layout",
+        9.0,
+        "Subject fills the band in every beat."
+      ],
+      [
+        "Hook",
+        9.0,
+        "A person on a phone, head tipping forward, then the spine revealed inside 2.8 s."
+      ]
+    ],
+    "movie": "anat_neck/draft21.mp4",
+    "crop_sha256": "0359817fea64bc7d65a4262c7d7fa80693231106f9fb719af00527739822087f"
+  },
+  {
+    "sheet": "anat_neck_19.jpg",
+    "report": "anat_neck/review/fable_review19.md",
+    "sha256": "a482c3b634f075138289c4fa579d6f0d53b32537a64dd2a3b47a67091d6ca7fe",
+    "frames": [
+      0,
+      84,
+      295,
+      750,
+      835,
+      1030
+    ],
+    "axes": [
+      [
+        "Anatomical accuracy",
+        9.5,
+        "Every beat shows its caption, and the ending shows the same person becoming the skeleton."
+      ],
+      [
+        "Material design",
+        9.0,
+        "Muscle back to deep red."
+      ],
+      [
+        "Lighting design",
+        9.0,
+        "Consistent across person and skeleton shots."
+      ],
+      [
+        "Camera and motion",
+        9.5,
+        "No jumps; one fast step in the ending dissolve."
+      ],
+      [
+        "Composition and layout",
+        9.5,
+        "Same."
+      ],
+      [
+        "Hook",
+        9.5,
+        "Same."
+      ]
+    ],
+    "movie": "anat_neck/draft23_0024_fable95.mp4",
+    "crop_sha256": "3bdb950270d6225603ba1264f5c87b7c76169de6a5f9bc783582b22e5d4ef51d"
+  },
+  {
+    "sheet": "anat_neck_v3__draft4b.jpg",
+    "report": "anat_neck_v3/review/fable_review_draft4b.md",
+    "sha256": "b9c8a50cd974dfb4f7c566fd78933adcaca7e75c567ac0c48ec3418c37ebd21f",
+    "frames": [
+      312,
+      400,
+      600,
+      713,
+      875,
+      900
+    ],
+    "axes": [],
+    "scope": "Changed segments only, 8.8. Position dots and comparison read clearly. Dots darken at f706–717 and the small skeleton jumps in scale at f875. Speech restored in this rebuild.",
+    "movie": "anat_neck_v3/draft4.mp4",
+    "crop_sha256": "783a7896fbf0d0881b4381291bf3ef2ad25ef9e35c55d518d66d1152f98b7978"
+  }
+]

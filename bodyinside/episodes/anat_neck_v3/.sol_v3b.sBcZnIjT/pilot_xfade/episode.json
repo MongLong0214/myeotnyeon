@@ -1,0 +1,786 @@
+{
+  "id": "anat_neck",
+  "fps": 30,
+  "duration": 30.8,
+  "lufs": -13.9,
+  "title": [
+    "휴대폰으로 문자 입력할 때,",
+    "목뼈 각도는 어떻게 달라질까?"
+  ],
+  "brand": "Body Inside",
+  "layout": {
+    "band_y": 470,
+    "band_h": 880,
+    "caption_size": 60,
+    "caption_dy": 14,
+    "brand_y": 1450,
+    "tags": false
+  },
+  "build": "build.py",
+  "render": {
+    "spp": 64,
+    "res": [
+      1080,
+      880
+    ]
+  },
+  "highlight": {
+    "structure": "CurveLine",
+    "hue": "amber"
+  },
+  "scene_cuts_declared": [],
+  "beats": [
+    {
+      "t0": 0,
+      "t1": 2.8,
+      "tag": "정상 목뼈",
+      "camera": "push_in",
+      "action": "curve line fades in; 5 kg",
+      "cap": [
+        [
+          "목뼈는 원래 ",
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        [
+          "C자",
+          [
+            255,
+            184,
+            28
+          ]
+        ],
+        [
+          " 곡선",
+          [
+            255,
+            255,
+            255
+          ]
+        ]
+      ],
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "VertebraTint",
+          "f0": 84,
+          "f1": 104,
+          "min": 0.5
+        }
+      ]
+    },
+    {
+      "t0": 2.8,
+      "t1": 10,
+      "tag": "머리 하중",
+      "camera": "pull_back",
+      "action": "flexion 15/30/60 deg with load labels",
+      "cap": [
+        [
+          "고개 숙일수록 ",
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        [
+          "하중 증가",
+          [
+            255,
+            184,
+            28
+          ]
+        ]
+      ],
+      "evidence": [
+        {
+          "type": "pose_delta",
+          "joints": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "f0": 110,
+          "f1": 275,
+          "min_deg": 30
+        }
+      ]
+    },
+    {
+      "t0": 10.0,
+      "t1": 18.2,
+      "tag": "자세 비교",
+      "camera": "hold",
+      "action": "neutral and texting posture side by side; small dots mark the segments where significant angle changes were reported; no arcs, numbers or magnitudes",
+      "cap": [
+        [
+          "문자 입력 중, ",
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        [
+          "일부 목뼈 마디 각도 변화",
+          [
+            255,
+            184,
+            28
+          ]
+        ]
+      ],
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "SideBySide",
+          "f0": 300,
+          "f1": 330,
+          "min": 0.5
+        },
+        {
+          "type": "pose_delta",
+          "joints": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "f0": 380,
+          "f1": 440,
+          "min_deg": 10
+        }
+      ]
+    },
+    {
+      "t0": 18.2,
+      "t1": 23.8,
+      "tag": "자세 비교",
+      "camera": "hold",
+      "action": "same two-posture comparison continues; the study compared postures and did not examine long-term change",
+      "cap": [
+        [
+          "문자 입력 중 비교",
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        [
+          " · ",
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        [
+          "장기 변화는 확인 안 됨",
+          [
+            255,
+            184,
+            28
+          ]
+        ]
+      ],
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "SideBySide",
+          "f0": 600,
+          "f1": 720,
+          "min": 0.5
+        }
+      ]
+    },
+    {
+      "t0": 23.8,
+      "t1": 27.6,
+      "tag": "",
+      "camera": "hold_drift",
+      "action": "one posture only: the head appears forward of the trunk; a single hold, no progression",
+      "cap": [
+        [
+          "이 자세에서는 ",
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        [
+          "머리가 앞으로 나와 보여요",
+          [
+            255,
+            184,
+            28
+          ]
+        ]
+      ],
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "EarShoulderGapCm",
+          "f0": 690,
+          "f1": 740,
+          "min": 10
+        }
+      ]
+    },
+    {
+      "t0": 27.6,
+      "t1": 30.8,
+      "tag": "내 목은?",
+      "camera": "hold",
+      "action": "straighten to neutral; ear over shoulder question",
+      "cap": [
+        [
+          "지금 내 ",
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        [
+          "귀",
+          [
+            255,
+            184,
+            28
+          ]
+        ],
+        [
+          "는 어깨 위에?",
+          [
+            255,
+            255,
+            255
+          ]
+        ]
+      ],
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "EarShoulderGapCm",
+          "f0": 827,
+          "f1": 869,
+          "min": 5
+        },
+        {
+          "type": "anchors_visible",
+          "anchors": [
+            "A_Ear",
+            "A_Acro"
+          ],
+          "frames": [
+            911,
+            921
+          ]
+        },
+        {
+          "type": "anchors_apart",
+          "a": "A_Ear",
+          "b": "A_Acro",
+          "frames": [
+            911,
+            921
+          ],
+          "min_dy": 0.2
+        },
+        {
+          "type": "anchors_aligned",
+          "a": "A_Ear",
+          "b": "A_Acro",
+          "frames": [
+            911,
+            921
+          ],
+          "max_dx": 0.04
+        }
+      ]
+    }
+  ],
+  "sfx": [
+    {
+      "part": "whoosh",
+      "t": 0.2,
+      "gain": 0.6
+    },
+    {
+      "part": "pulse",
+      "t": 0.45,
+      "gain": 0.8
+    },
+    {
+      "part": "tick",
+      "t": 1.0,
+      "gain": 0.6
+    },
+    {
+      "part": "tick",
+      "t": 4.5,
+      "gain": 0.6
+    },
+    {
+      "part": "creak",
+      "t": 4.8,
+      "gain": 1.3
+    },
+    {
+      "part": "tick",
+      "t": 6.7,
+      "gain": 0.6
+    },
+    {
+      "part": "creak",
+      "t": 6.9,
+      "gain": 1.3
+    },
+    {
+      "part": "tick",
+      "t": 8.7,
+      "gain": 0.6
+    },
+    {
+      "part": "creak",
+      "t": 8.9,
+      "gain": 1.3
+    },
+    {
+      "part": "whoosh",
+      "t": 10.0,
+      "gain": 0.6
+    },
+    {
+      "part": "tick",
+      "t": 10.4,
+      "gain": 0.6
+    },
+    {
+      "part": "tick",
+      "t": 18.3,
+      "gain": 0.6
+    },
+    {
+      "part": "whoosh",
+      "t": 23.8,
+      "gain": 0.6
+    },
+    {
+      "part": "whoosh",
+      "t": 27.55,
+      "gain": 0.6
+    },
+    {
+      "part": "tick",
+      "t": 27.7,
+      "gain": 0.6
+    }
+  ],
+  "geometry_gates": {},
+  "labels": [
+    {
+      "id": "kg0",
+      "kind": "load",
+      "anchor": "A_Head",
+      "anchor2": "A_C7",
+      "f0": 84,
+      "f1": 118,
+      "kg": 5,
+      "text": "",
+      "sub": "머리 무게",
+      "size": 58,
+      "claim": "C7"
+    },
+    {
+      "id": "kg15",
+      "kind": "load",
+      "anchor": "A_Head",
+      "anchor2": "A_C7",
+      "f0": 104,
+      "f1": 299,
+      "kg": 12,
+      "text": "",
+      "sub": "고개 15°",
+      "size": 58,
+      "claim": "C1",
+      "ramp_out": 5
+    },
+    {
+      "id": "kg30",
+      "kind": "load",
+      "anchor": "A_Head",
+      "anchor2": "A_C7",
+      "f0": 200,
+      "f1": 299,
+      "kg": 18,
+      "text": "",
+      "sub": "고개 30°",
+      "size": 58,
+      "claim": "C1",
+      "ramp_out": 5
+    },
+    {
+      "id": "kg60",
+      "kind": "load",
+      "anchor": "A_Head",
+      "anchor2": "A_C7",
+      "f0": 260,
+      "f1": 299,
+      "kg": 27,
+      "text": "",
+      "sub": "고개 60°",
+      "size": 58,
+      "claim": "C1",
+      "ramp_out": 5
+    },
+    {
+      "id": "plumb",
+      "kind": "plumb",
+      "anchor": "A_Ear",
+      "anchor2": "A_Acro",
+      "f0": 834,
+      "f1": 923,
+      "size": 66,
+      "text": "",
+      "claim": "C6",
+      "pill_dx": 140,
+      "pill_half_w": 70,
+      "ramp": 1,
+      "hold_end": true
+    },
+    {
+      "id": "gap",
+      "kind": "gap",
+      "anchor": "A_Ear",
+      "anchor2": "A_Acro",
+      "f0": 750,
+      "f1": 835,
+      "size": 66,
+      "text": "",
+      "claim": "C6",
+      "ramp": 14,
+      "hold_end": true
+    },
+    {
+      "id": "lblA",
+      "kind": "note",
+      "f0": 332,
+      "f1": 554,
+      "dx": 130,
+      "dy": 30,
+      "size": 56,
+      "text": "중립 자세",
+      "ramp_out": 16,
+      "ramp": 4
+    },
+    {
+      "id": "lblB",
+      "kind": "note",
+      "f0": 332,
+      "f1": 554,
+      "dx": 620,
+      "dy": 30,
+      "size": 56,
+      "text": "문자 입력 자세",
+      "ramp_out": 16,
+      "ramp": 4
+    },
+    {
+      "id": "lblA2",
+      "kind": "note",
+      "f0": 538,
+      "f1": 722,
+      "dx": 130,
+      "dy": 30,
+      "size": 56,
+      "text": "중립 자세",
+      "ramp_out": 8,
+      "ramp": 16
+    },
+    {
+      "id": "lblB2",
+      "kind": "note",
+      "f0": 538,
+      "f1": 722,
+      "dx": 620,
+      "dy": 30,
+      "size": 56,
+      "text": "문자 입력 자세",
+      "ramp_out": 8,
+      "ramp": 16
+    },
+    {
+      "id": "tagC",
+      "kind": "note",
+      "f0": 332,
+      "f1": 554,
+      "dx": 400,
+      "dy": 770,
+      "size": 44,
+      "text": "비교 그림",
+      "ramp": 4,
+      "ramp_out": 16
+    },
+    {
+      "id": "tagC2",
+      "kind": "note",
+      "f0": 538,
+      "f1": 722,
+      "dx": 400,
+      "dy": 770,
+      "size": 44,
+      "text": "비교 그림",
+      "ramp": 16,
+      "ramp_out": 8
+    }
+  ],
+  "rigid_bend_check": {
+    "chain": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "frames": [
+      275,
+      300,
+      345,
+      410,
+      470,
+      510
+    ]
+  },
+  "no_overlap": [
+    [
+      "Mandible",
+      "Vertebra C3"
+    ],
+    [
+      "Mandible",
+      "Vertebra C4"
+    ],
+    [
+      "Mandible",
+      "Vertebra C5"
+    ],
+    [
+      "TeethLower",
+      "Vertebra C3"
+    ]
+  ],
+  "subject_size_allow": [
+    [
+      0,
+      16
+    ],
+    [
+      84,
+      100
+    ],
+    [
+      300,
+      335
+    ],
+    [
+      705,
+      735
+    ],
+    [
+      859,
+      905
+    ]
+  ],
+  "scene_visibility": {
+    "CurveLine": [
+      [
+        86,
+        146
+      ],
+      [
+        290,
+        718
+      ]
+    ],
+    "Shoulder": [
+      [
+        859,
+        923
+      ]
+    ],
+    "SkinRender": [
+      [
+        0,
+        116
+      ],
+      [
+        712,
+        923
+      ]
+    ],
+    "SideBySide": [
+      [
+        316,
+        718
+      ]
+    ]
+  },
+  "sfx_parts": [
+    {
+      "id": "bed",
+      "want": "low anatomical ambience, soft room tone hum",
+      "listen": "a low ambient drone",
+      "alts": [
+        "a quiet low drone pad",
+        "a soft low hum"
+      ],
+      "dur": 8,
+      "norm": 0.35
+    },
+    {
+      "id": "whoosh",
+      "want": "soft whoosh camera move",
+      "listen": "a swoosh passing by",
+      "alts": [
+        "a fast whoosh",
+        "a deep cinematic whoosh"
+      ],
+      "dur": 0.8
+    },
+    {
+      "id": "tick",
+      "want": "soft ui tick",
+      "listen": "a mouse click",
+      "alts": [
+        "a keyboard key click",
+        "a button click",
+        "a light tap",
+        "a camera shutter click",
+        "a clock tick"
+      ],
+      "dur": 0.2
+    },
+    {
+      "id": "creak",
+      "want": "slow bone creak",
+      "listen": "a creaking sound",
+      "alts": [
+        "a wooden creak",
+        "a door creak"
+      ],
+      "dur": 1.6
+    },
+    {
+      "id": "groan",
+      "want": "low tension groan, muscle strain",
+      "listen": "a low rumble",
+      "alts": [
+        "a deep growl",
+        "a distant rumble",
+        "a low creaking groan",
+        "a rumbling drone"
+      ],
+      "dur": 2.5
+    },
+    {
+      "id": "pulse",
+      "want": "single soft heartbeat thump",
+      "listen": "a heartbeat thump",
+      "alts": [
+        "a heartbeat",
+        "a soft kick drum"
+      ],
+      "dur": 0.4
+    },
+    {
+      "id": "squish",
+      "want": "soft wet squish",
+      "listen": "a liquid splash",
+      "alts": [
+        "a water drop",
+        "a squelch in mud",
+        "a bubbling sound",
+        "a soft pop"
+      ],
+      "dur": 0.6
+    }
+  ],
+  "sfx_bed": {
+    "part": "bed",
+    "gain": 0.4,
+    "curve": [
+      [
+        0,
+        0.4
+      ],
+      [
+        4,
+        0.4
+      ],
+      [
+        5,
+        0.75
+      ],
+      [
+        25,
+        0.75
+      ],
+      [
+        27,
+        0.4
+      ]
+    ]
+  },
+  "narration": [
+    {
+      "beat": 0,
+      "text": "목뼈는 원래 앞으로 살짝 휜 C자예요."
+    },
+    {
+      "beat": 1,
+      "text": "고개를 숙일수록 하중이 커져요. 컴퓨터 모델로는 60도에서 약 27킬로까지 추정돼요."
+    },
+    {
+      "beat": 2,
+      "text": "휴대폰으로 문자를 입력할 때 찍은 엑스레이에서, 일부 목뼈 마디의 각도가 달라졌어요. 화면은 두 자세를 비교한 그림이에요."
+    },
+    {
+      "beat": 3,
+      "text": "이 연구는 문자 입력 중의 자세를 비교했어요. 장기적인 변화는 확인하지 않았어요."
+    },
+    {
+      "beat": 4,
+      "text": "이 자세에서는 머리가 몸통보다 앞으로 나와 보여요."
+    },
+    {
+      "beat": 5,
+      "text": "지금 내 귀는 어깨 위에 있나요?"
+    }
+  ],
+  "kg_variant": "B",
+  "xfades": [
+    {
+      "at": 714,
+      "n": 12,
+      "hold": 713,
+      "ease": "linear"
+    }
+  ],
+  "lexicon_heard": [
+    "씨짜|C짜",
+    "하중"
+  ]
+}

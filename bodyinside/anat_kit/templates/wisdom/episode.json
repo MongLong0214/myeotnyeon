@@ -1,0 +1,423 @@
+{
+  "id": "wisdom_landmarks",
+  "fps": 30,
+  "duration": 32,
+  "lufs": -14,
+  "title": [
+    "사랑니는 어디에서",
+    "나오는 걸까?"
+  ],
+  "brand": "Body Inside",
+  "layout": {
+    "band_y": 540,
+    "band_h": 800,
+    "tags": false
+  },
+  "build": "build.py",
+  "render": {
+    "spp": 64,
+    "res": [
+      1080,
+      800
+    ]
+  },
+  "highlight": {
+    "structure": "Left lower second secondary molar tooth",
+    "hue": "amber"
+  },
+  "scene_cuts_declared": [],
+  "beats": [
+    {
+      "t0": 0,
+      "t1": 3,
+      "tag": "",
+      "camera": "push_in",
+      "action": "show the face then dissolve to the whole dental arch",
+      "cap": [
+        [
+          "턱 안쪽을 들여다볼까요?",
+          [
+            255,
+            255,
+            255
+          ]
+        ]
+      ],
+      "claim": "C1",
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "HumanFade",
+          "f0": 0,
+          "f1": 89,
+          "min": 0.5
+        }
+      ]
+    },
+    {
+      "t0": 3,
+      "t1": 10,
+      "tag": "",
+      "camera": "push_in",
+      "action": "track the first molar as its enamel brightens",
+      "cap": [
+        [
+          "큰어금니가 나란히 있어요",
+          [
+            255,
+            255,
+            255
+          ]
+        ]
+      ],
+      "claim": "C2",
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "FirstGlow",
+          "f0": 90,
+          "f1": 299,
+          "min": 0.3
+        }
+      ]
+    },
+    {
+      "t0": 10,
+      "t1": 17,
+      "tag": "",
+      "camera": "orbit",
+      "action": "cross the occlusal surfaces to the second molar",
+      "cap": [
+        [
+          "두 번째 큰어금니를 찾아요",
+          [
+            255,
+            255,
+            255
+          ]
+        ]
+      ],
+      "claim": "C3",
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "SecondGlow",
+          "f0": 300,
+          "f1": 509,
+          "min": 0.3
+        }
+      ]
+    },
+    {
+      "t0": 17,
+      "t1": 24,
+      "tag": "",
+      "camera": "orbit",
+      "action": "orbit to the gingiva just distal to it",
+      "cap": [
+        [
+          "그 뒤쪽이 사랑니 자리예요",
+          [
+            255,
+            255,
+            255
+          ]
+        ]
+      ],
+      "claim": "C4",
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "CameraDistance",
+          "f0": 510,
+          "f1": 719,
+          "min": 0.005
+        }
+      ]
+    },
+    {
+      "t0": 24,
+      "t1": 32,
+      "tag": "",
+      "camera": "pull_back",
+      "action": "widen to the lower arch, marking the first molar, second molar and the site in sequence",
+      "cap": [
+        [
+          "치열 맨 뒤에서 확인해요",
+          [
+            255,
+            255,
+            255
+          ]
+        ]
+      ],
+      "claim": "C5",
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "CameraDistance",
+          "f0": 720,
+          "f1": 959,
+          "min": 0.005
+        }
+      ]
+    }
+  ],
+  "region": "jaw",
+  "scene": "jaw.blend",
+  "shots": [
+    {
+      "kind": "person",
+      "f0": 0,
+      "f1": 60
+    },
+    {
+      "kind": "dissolve",
+      "f0": 60,
+      "f1": 90
+    },
+    {
+      "kind": "anatomy",
+      "f0": 90,
+      "f1": 300
+    },
+    {
+      "kind": "anatomy",
+      "f0": 300,
+      "f1": 510
+    },
+    {
+      "kind": "anatomy",
+      "f0": 510,
+      "f1": 720
+    },
+    {
+      "kind": "anatomy",
+      "f0": 720,
+      "f1": 960
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "text": "턱 안쪽을 들여다볼까요?",
+      "source": "C1",
+      "condition": "lower dental arch in the registered anatomical model"
+    },
+    {
+      "id": "C2",
+      "text": "큰어금니가 나란히 있어요",
+      "source": "C2",
+      "condition": "lower dental arch in the registered anatomical model"
+    },
+    {
+      "id": "C3",
+      "text": "두 번째 큰어금니를 찾아요",
+      "source": "C3",
+      "condition": "lower dental arch in the registered anatomical model"
+    },
+    {
+      "id": "C4",
+      "text": "그 뒤쪽이 사랑니 자리예요",
+      "source": "C4",
+      "condition": "lower dental arch in the registered anatomical model"
+    },
+    {
+      "id": "C5",
+      "text": "치열 맨 뒤에서 확인해요",
+      "source": "C5",
+      "condition": "lower dental arch in the registered anatomical model"
+    },
+    {
+      "id": "C0",
+      "source": "C0",
+      "text": "Location of the lower jaw on the illustrated head",
+      "condition": "registered jaw and visible cheek of the generic character"
+    }
+  ],
+  "narration": [
+    {
+      "beat": 0,
+      "claim": "C1",
+      "text": "아래 사랑니는 어디에서 날까요?"
+    },
+    {
+      "beat": 1,
+      "claim": "C2",
+      "text": "아래턱을 위에서 보면 안쪽에 큰어금니 두 개가 나란히 놓여 있어요."
+    },
+    {
+      "beat": 2,
+      "claim": "C3",
+      "text": "첫 번째 큰어금니에서 뒤로 한 칸 가면 두 번째 큰어금니가 있어요."
+    },
+    {
+      "beat": 3,
+      "claim": "C4",
+      "text": "두 번째 큰어금니에서 뒤로 가 보세요. 아래 사랑니가 난다면 치열을 따라 이쪽에 자리해요."
+    },
+    {
+      "beat": 4,
+      "claim": "C5",
+      "text": "다시 치열 전체를 보세요. 사랑니는 마지막 큰어금니보다도 뒤에 자리해요."
+    }
+  ],
+  "sfx_parts": [
+    {
+      "id": "tick",
+      "want": "one soft short click",
+      "listen": "soft click",
+      "gain": 0.18
+    },
+    {
+      "id": "room",
+      "want": "quiet dark room tone",
+      "listen": "low ambience",
+      "gain": 0.1
+    }
+  ],
+  "sfx_bed": {
+    "part": "room",
+    "gain": 0.08
+  },
+  "sfx": [
+    {
+      "part": "tick",
+      "t": 0.4,
+      "gain": 0.2
+    },
+    {
+      "part": "tick",
+      "t": 3.4,
+      "gain": 0.2
+    },
+    {
+      "part": "tick",
+      "t": 10.4,
+      "gain": 0.2
+    },
+    {
+      "part": "tick",
+      "t": 17.4,
+      "gain": 0.2
+    },
+    {
+      "part": "tick",
+      "t": 24.4,
+      "gain": 0.2
+    }
+  ],
+  "base_blend": null,
+  "labels": [
+    {
+      "id": "jaw",
+      "kind": "callout",
+      "anchor": "A_Cheek",
+      "surface": "Skin",
+      "claim": "C0",
+      "text": "아래턱",
+      "dx": -130,
+      "dy": 145,
+      "size": 52,
+      "f0": 9,
+      "f1": 58,
+      "ramp": 6
+    },
+    {
+      "id": "first",
+      "kind": "callout",
+      "anchor": "A_First",
+      "text": "첫째 큰어금니",
+      "claim": "C2",
+      "dx": -190,
+      "dy": -140,
+      "size": 50,
+      "f0": 90,
+      "f1": 293,
+      "surface": "Left lower first secondary molar tooth",
+      "ramp": 7
+    },
+    {
+      "id": "second",
+      "kind": "callout",
+      "anchor": "A_Second",
+      "text": "둘째 큰어금니",
+      "claim": "C3",
+      "dx": 185,
+      "dy": -140,
+      "size": 50,
+      "f0": 300,
+      "f1": 504,
+      "surface": "Left lower second secondary molar tooth",
+      "ramp": 7
+    },
+    {
+      "id": "posterior",
+      "kind": "callout",
+      "anchor": "A_Posterior",
+      "text": "둘째 뒤 잇몸",
+      "claim": "C4",
+      "dx": -180,
+      "dy": -140,
+      "size": 50,
+      "f0": 510,
+      "f1": 713,
+      "surface": "Gingiva of lower jaw",
+      "context_surfaces": {
+        "A_Second": "Left lower second secondary molar tooth"
+      },
+      "ramp": 7
+    },
+    {
+      "id": "site",
+      "kind": "callout",
+      "anchor": "A_Posterior",
+      "text": "치열 뒤쪽",
+      "claim": "C5",
+      "dx": -180,
+      "dy": -140,
+      "size": 50,
+      "f0": 844,
+      "f1": 959,
+      "surface": "Gingiva of lower jaw",
+      "context_surfaces": {
+        "A_Second": "Left lower second secondary molar tooth"
+      },
+      "hold_to_end": true,
+      "ramp": 7
+    },
+    {
+      "id": "first_return",
+      "kind": "callout",
+      "anchor": "A_First",
+      "text": "첫째 큰어금니",
+      "claim": "C2",
+      "dx": -190,
+      "dy": -140,
+      "size": 50,
+      "f0": 720,
+      "f1": 781,
+      "surface": "Left lower first secondary molar tooth",
+      "ramp": 7
+    },
+    {
+      "id": "second_return",
+      "kind": "callout",
+      "anchor": "A_Second",
+      "text": "둘째 큰어금니",
+      "claim": "C3",
+      "dx": 185,
+      "dy": -140,
+      "size": 50,
+      "f0": 782,
+      "f1": 843,
+      "surface": "Left lower second secondary molar tooth",
+      "ramp": 7
+    }
+  ],
+  "template": "wisdom",
+  "dental_dissolve": [
+    60,
+    89
+  ]
+}

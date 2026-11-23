@@ -1,0 +1,601 @@
+{
+  "crown_lengthening": {
+    "author": {
+      "steps": [
+        {
+          "step": "inspect_margin",
+          "tool": "macro camera",
+          "target": "facial gingival margin",
+          "pmid": "35083533",
+          "caption": "잇몸이 덮은|앞니",
+          "thumbnail": 48
+        },
+        {
+          "step": "incise",
+          "tool": "No. 15 scalpel",
+          "target": "facial gingival margin",
+          "pmid": "35083533",
+          "caption": "잇몸선을 따라|다듬는다",
+          "thumbnail": 12
+        },
+        {
+          "step": "expose_crown",
+          "tool": "macro camera",
+          "target": "exposed clinical crown",
+          "pmid": "35083533",
+          "caption": "바로 드러난|치아 표면",
+          "thumbnail": 46
+        },
+        {
+          "step": "margin_payoff",
+          "tool": "macro camera",
+          "target": "clinical crown",
+          "pmid": "35083533",
+          "caption": "같은 앞니가|더 드러났다",
+          "thumbnail": 54
+        }
+      ],
+      "submitted": {
+        "steps": [
+          {
+            "step": "inspect_margin",
+            "tool": "macro camera",
+            "target": "facial gingival margin",
+            "pmid": "35083533",
+            "caption": "잇몸이 덮은|앞니",
+            "thumbnail": 48
+          },
+          {
+            "step": "incise",
+            "tool": "No. 15 scalpel",
+            "target": "facial gingival margin",
+            "pmid": "35083533",
+            "caption": "잇몸선을 따라|다듬는다",
+            "thumbnail": 12
+          },
+          {
+            "step": "expose_crown",
+            "tool": "macro camera",
+            "target": "exposed clinical crown",
+            "pmid": "35083533",
+            "caption": "바로 드러난|치아 표면",
+            "thumbnail": 46
+          },
+          {
+            "step": "margin_payoff",
+            "tool": "macro camera",
+            "target": "clinical crown",
+            "pmid": "35083533",
+            "caption": "같은 앞니가|더 드러났다",
+            "thumbnail": 54
+          }
+        ]
+      },
+      "fallback": [],
+      "models": [
+        "claude-sonnet-5-5"
+      ],
+      "cost_usd": 0.051022,
+      "started": 1795402235.949675,
+      "seconds": 10.64
+    },
+    "author_sha256": "a1088b3f7e8992e72f4c0e767e57dc3fb433e2a3a55af1557b27112962dc0df0",
+    "draft1_preflight": {
+      "frames": 457,
+      "errors": [],
+      "maximum_hard_penetration_mm": 0.104063
+    },
+    "trial": {
+      "case": "crown_lengthening",
+      "started": 1795402235.9494212,
+      "drafts": [
+        {
+          "number": 1,
+          "tag": "draft1",
+          "sha256": "1dfea0a2cec1d734f0865b5d39ee132a661eb369a86a9f4b25c2d73f05cbae1e",
+          "reference": "13f66a753f3d2a063874b2531d457f4acdae6540b4a801ecf4b7ad35b72777bd",
+          "reference_certified": false,
+          "pair_pass": false,
+          "axes": {
+            "anatomy": "worse",
+            "materials": "worse",
+            "contact": "worse",
+            "framing": "better",
+            "labels": "equal",
+            "motion": "worse",
+            "hook_loop": "worse",
+            "facts": "equal",
+            "audio": "worse"
+          },
+          "mapped": [
+            "encoded-audio-boundary"
+          ],
+          "tickets": [
+            "excision-without-tissue-removal",
+            "gingiva-stretches-like-rubber",
+            "blade-remote-from-tissue-change",
+            "static-hold",
+            "hook-shows-after-state",
+            "loop-seam-discontinuity"
+          ],
+          "settings": {}
+        },
+        {
+          "number": 2,
+          "tag": "draft2",
+          "sha256": "8774b991b91c69e3c8c8e43a9f9e89bac5d1996ff04817c073d7d4ccd0db5376",
+          "reference": "13f66a753f3d2a063874b2531d457f4acdae6540b4a801ecf4b7ad35b72777bd",
+          "reference_certified": false,
+          "pair_pass": false,
+          "axes": {
+            "anatomy": "worse",
+            "materials": "worse",
+            "contact": "equal",
+            "framing": "better",
+            "labels": "worse",
+            "motion": "worse",
+            "hook_loop": "worse",
+            "facts": "equal",
+            "audio": "worse"
+          },
+          "mapped": [],
+          "tickets": [
+            "gingiva-morphs-without-excision",
+            "gingiva-leather-grain-dry",
+            "label-off-subject-gingival-margin-unlabelled",
+            "static-holds-dominate",
+            "hook-shows-post-op-margin",
+            "foley-sparse-flat-mix"
+          ],
+          "settings": {
+            "_audio": {
+              "phase_lock": true
+            }
+          }
+        }
+      ],
+      "status": "rendering terminal measurement",
+      "elapsed_seconds": 5577.38,
+      "author_sha256": "a1088b3f7e8992e72f4c0e767e57dc3fb433e2a3a55af1557b27112962dc0df0"
+    },
+    "comparators": {
+      "pair_draft1": {
+        "sha256": [
+          "1dfea0a2cec1d734f0865b5d39ee132a661eb369a86a9f4b25c2d73f05cbae1e",
+          "13f66a753f3d2a063874b2531d457f4acdae6540b4a801ecf4b7ad35b72777bd",
+          "9e032ffa1ef4a02e4bd801190580015924fb503eab40fa6ed30428befb04115f"
+        ],
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "cost_usd": 0.7054912,
+        "axes": {
+          "anatomy": {
+            "verdict": "worse",
+            "shot": "incise",
+            "class": "excision-without-tissue-removal",
+            "evidence": "OVERALL (whole viewing, anchored EBS=7): original 5.5, Fable-scale estimate 5.5. FAILS the pass threshold on both scores. Two confirmed P0s block it at either score. The story reads (covered incisor → blade → more crown), but the hook, incise and exposure beats would all need rebuilding. Per-axis picture scores: anatomy 6 (f85: incisors/laterals from BP3D read well; lumpy gingival bulge over central incisor); material 5 (f195 rubber gingival spike; dry, bloodless gum); lighting 6.5 (f300: even, readable studio light but flat, no wet speculars); motion 5 (f36–134 near-still); composition 7 (f389: centred incisor, caption clear of subject); hook 4.5 (f18 shows post-op margin). Mean 5.67, rounded to 5.5. Requested scores: anatomy 6, cutaway/exposure 5, motion 5, labels 7, hook 4.5, factual 6.5, audio 5.5. Strength vs reference: the tooth form and the covered→exposed contrast read more cleanly than EBS's macro blur. RANKED FINDINGS. P0-1 (incise, f195; recurs f433–456 loop tail): the scalpel never makes an incision or removes a collar. Instead the papilla stretches into a pointed rubbery tag hanging over the crown, at box x0.52–0.70, y0.38–0.59 (tail recurrence ≈ x0.45–0.75, y0.40–0.62). The tissue that should be excised simply morphs away, so the sequence is physically wrong. Repair: drive a scalloped boolean cut along the blade-tip path, then lift the excised collar off as a separate mesh and leave a thin bleeding cut edge. Proof frames: f195 and f220 show a cut line under the blade and no hanging tag. P0-2 (crown_hook→inspect_margin, f35→f36): see hook_loop. P1-1 (inspect_margin f85): a bulbous gingival lobe at x0.25–0.65, y0.45–0.62 reads as swelling rather than altered passive eruption. Repair: a smoother, thicker collar following the CEJ scallop. Proof: f85. REGISTRY: person silhouette through dissolve absent; marker through view changes clear (치관 dot stays on the central incisor f18–f389); jawline/forehead/acromion absent; lowest end of cord absent; open socket absent; neighbouring teeth clear; bur absent; canal absent; nerve absent; skin pierced by bone absent; dissolve leaving skeleton/cord absent; label below/behind subject clear; frame pop defects (f35→f36, P0-2); unreadable text clear; severe noise/clipping clear (TP −3.39 dBTP); missing hook clear (a hook exists but is defective, P0-2); false/unsourced claim clear (PMID 35083533 recorded per beat); stray/occluding geometry defects (P0-1); physically wrong anatomy/sequence defects (P0-1, P0-2); clean picture (no credit, disclaimer chip, estimate chip or kg) clear; Z-Anatomy absent (assets.json lists only BP3D FJ OBJs); description.txt attribution unseen (not supplied; read from sources.md/licences.md instead). NOT_CHECKED: description.txt; PMID abstract content; provenance URL for 'Healthy gingiva by Mohamed Hamze' (clinical_attached.png is not itemised in licences.md); Sohee narration, 씨짜, spoken qualifications and the 2-s opening person shot (not applicable to this silent-caption draft packet); historical rights dossier."
+          },
+          "materials": {
+            "verdict": "worse",
+            "shot": "incise",
+            "class": "gingiva-stretches-like-rubber",
+            "evidence": "Candidate f195 (≈6.5 s): the gingiva deforms like a cloth/rubber sheet into a pointed spike (x0.52–0.70, y0.38–0.59), with no cut face, no blood and no wetness. Across f150–254 the gum surface stays dry and uniformly pink. The stipple map is present, so this is not a uniform waxy sheen. The reference (ref f0258, f0480) has wet speculars, blood-lined incision edges and layered tissue. Enamel is credible in both; the candidate's incisors (f85, f389) are clean and well shaded, which is a strength. Repair: give the gum a wet clearcoat/roughness variation, show a red cut margin along the incision, and remove the stretch deformation (see P0-1). Proof frame: f195. P1-2 (expose_crown f300): the 'immediately after' margin is intact, rounded, healed-looking pink tissue with a bulbous lobe at x0.00–0.28, y0.30–0.50. Repair: show a raw scalloped edge with a thin blood line and remove the lobe. Proof frame: f300."
+          },
+          "contact": {
+            "verdict": "worse",
+            "shot": "incise",
+            "class": "blade-remote-from-tissue-change",
+            "evidence": "contact.json: max penetration 0.104 mm (hook) and 0.102 mm (incise), both under the 0.2 mm hard-tissue limit; max scalpel–gingiva gap 0.159–0.16 mm, so numerically the blade is touching. Visually at f195 the blade tip rests on attached gingiva around x0.30–0.40, y0.33–0.38. The margin change (tag and recession) happens at the papilla, x0.52–0.70, away from the tip. Sheet cells t≈4.5–7.0 s show the same separation, so the cut is not caused by visible contact. The reference shows the blade sitting in its incision line with blood following it (ref f0037 and the sheet's row 2). Repair: keyframe the tip along the new margin scallop and reveal the cut exactly where the tip passes. Proof frame: f195 and f230, with the tip on the freshly cut edge."
+          },
+          "framing": {
+            "verdict": "better",
+            "shot": "expose_crown",
+            "class": "scale-change-between-compare-shots",
+            "evidence": "Strength: the candidate keeps the central incisor centred and fully legible in every beat (f85, f195, f389). The caption sits on the gingiva above the subject. The reference's macro shots (ref f0037, f0258) are soft and hard to parse. Defect, P1-3: expose_crown f300 pushes in. The incisor spans about x0.20–0.83 versus about x0.26–0.76 at f85 and f389, so the 'after' frame is not at the same scale as the before and payoff frames. That weakens the margin comparison. Repair: lock the camera for f36–134, f255–344 and f345–432, or match focal length/position. Proof: overlaying f85, f300 and f389 shows the incisal edge at the same y."
+          },
+          "labels": {
+            "verdict": "equal",
+            "shot": "inspect_margin",
+            "class": "clear",
+            "evidence": "Same system as the reference: step chip (01/04 잇몸선 … 04/04 비교, vs EBS 01/07 마취), a two-line caption with a yellow keyword, and a single leader-line label '치관'. The 치관 dot stays on the central incisor crown through every shot change: f18 (0.44,0.66), f85 (0.44,0.67), f195 (0.48,0.69), f300 (0.41,0.70), f389 (0.44,0.66). The label sits beside its subject, not below or behind it. Captions do not occlude the tooth. No P0 or P1. Minor note: the step-chip text is small; it is legible at 1080×1920 but should be checked on a phone."
+          },
+          "motion": {
+            "verdict": "worse",
+            "shot": "inspect_margin",
+            "class": "static-hold",
+            "evidence": "The candidate has three near-still holds: inspect_margin f36–134 (six identical sheet cells, about 3.3 s), expose_crown f255–344 (five cells) and margin_payoff f345–432 (six cells). Together they are about 60% of runtime with no camera or subject motion. The only action is the blade pass in f135–254, and there the tissue morphs instead of being cut. The reference has no near-still runs of 10+ frames (reference_playback.json) and per-second luma deltas of 1.1–16. P1-4. Repair: a slow push-in on inspect; on payoff, animate a dashed outline of the old margin (from f85) rising to the new margin. Proof frames: f100 (camera moved) and f389 (old-margin ghost visible)."
+          },
+          "hook_loop": {
+            "verdict": "worse",
+            "shot": "crown_hook",
+            "class": "hook-shows-after-state",
+            "evidence": "P0-2 (f0–35 and the f35→f36 cut). The hook caption is '잇몸 아래 숨은 앞니', but the hook's gingival margin is the post-op payoff contour: margin at about y0.45–0.50, matching f389. At the cut to inspect_margin (f36), the margin drops to the covered contour (about y0.53–0.59, f85), so the gum visibly regrows about 0.08 of frame height. Box x0.25–0.80, y0.40–0.62. This reverses the state and makes the before/after unclear. The loop tail (f433–456) then puts the blade back on the already-exposed gum, with the stretched tag recurring. Weak opener compared with EBS, which opens on an active instrument in tissue under a bold title. Repair: render the hook from the inspect_margin (pre-op) geometry with the blade approaching the margin, and make the loop tail return to that same pre-op state. Proof: f18 margin matches f85 and f456→f0 shows no margin jump. P1-5 (margin_payoff f389, before-after-unclear): the payoff shows only the after-state, and the only before-view is about 8 s earlier. Repair: the old-margin ghost (see motion), or a split wipe. Proof frame: f389."
+          },
+          "facts": {
+            "verdict": "equal",
+            "shot": "expose_crown",
+            "class": "immediate-postop-shown-healed",
+            "evidence": "All four claim beats map to PMID 35083533 (split-mouth trial in altered passive eruption, conventional vs diode laser, gain in exposed crown). The captions are descriptive and stay within that scope. There is no inevitability claim, no blanket disclaimer sentence and no magnitude or angle graphic. sources.md explicitly avoids claiming bone surgery is unnecessary or that the margin is permanent. The PMID abstract content was not opened (not_checked). P1-6 (graphic support): the expose_crown caption '바로 드러난 치아 표면' / '03 직후' (f255–344) is drawn on a smooth, healed-looking margin with no wound. That misrepresents the immediate post-op state the source covers. Repair: raw cut margin (see materials P1-2). Proof frame: f300. Hook caption mismatch: see P0-2."
+          },
+          "audio": {
+            "verdict": "worse",
+            "shot": "episode",
+            "class": "loop-seam-discontinuity",
+            "evidence": "Both cuts are silent-caption operatives with music and Foley, no narration. Loudness: candidate −14.91 LUFS / TP −3.39 dBTP (peak_ok) vs reference −14.02 / −1.83; both are clean of clipping. Seam: candidate audio_seam 0.0276 against local_delta_p98 0.0060, a step about 4.6× the local sample-to-sample p98, so seam_ok = false. The reference's seam is 0.0399 against a p98 of 0.301, so seam_ok = true. The candidate's waveform is a flat, continuous music bed: min window RMS 0.105, with no visible swells. The reference shows clear dynamic swells around 22–33% and 50% of the timeline. Foley is only two short cues from freesound 593682 ('cutting meat with dull knife'), at f170 (0.44 s) and f219 (0.30 s). There is no cue when the blade first touches (about f135–150) and nothing at the payoff. P1-7. Repair: a 20–50 ms equal-power crossfade across sample 731200→0, plus a soft blade-contact cue near f140 and a subtle payoff accent near f345. Proof: re-measured audio_seam at or below local_delta_p98 and seam_ok true. Listening limits: whether the seam is an audible click, whether the meat-cutting texture reads as a scalpel on gingiva, and how the music feels can't be judged from these measurements."
+          }
+        },
+        "pass_pair": false
+      },
+      "pair_draft2": {
+        "sha256": [
+          "8774b991b91c69e3c8c8e43a9f9e89bac5d1996ff04817c073d7d4ccd0db5376",
+          "13f66a753f3d2a063874b2531d457f4acdae6540b4a801ecf4b7ad35b72777bd",
+          "9e032ffa1ef4a02e4bd801190580015924fb503eab40fa6ed30428befb04115f"
+        ],
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "cost_usd": 0.6332248,
+        "axes": {
+          "anatomy": {
+            "verdict": "worse",
+            "shot": "incise",
+            "class": "gingiva-morphs-without-excision",
+            "evidence": "Candidate 6.5 s (f195, incise_f195). The scalpel passes along the facial gingiva and the margin slides upward like a morph target. No collar of tissue is excised, no wound edge appears, there is no bleeding, and a sharp cloth-like tent forms behind the blade (box x580–740, y740–1120 on 1080×1920). The 2.8 s inspect beat (f85) also shows the pre-op margin as a single asymmetric lobe hanging over the mesial third of the incisor (x300–500, y1000–1160). The lowest point is not at the interdental papilla. In contrast, the reference has a full physical sequence on screen: incision, flap, bone removal, sectioning, root delivery with the 치근 label (f0480) and clot formation (f0701). Rated P0 for physically wrong sequence: the excision is not shown. Repair: animate a separate excised gingival collar that lifts away on the blade, with a bevelled raw edge and a thin bleed line at the new margin. Proof frame: f195 shows the strip detaching and no tent. The story still reads, because the gum goes from covering the tooth to exposing it."
+          },
+          "materials": {
+            "verdict": "worse",
+            "shot": "expose_crown",
+            "class": "gingiva-leather-grain-dry",
+            "evidence": "Candidate 10.0 s (f300). The gingiva fills x0–1080, y240–880 and shows a uniform pebbled leather pore pattern; assets.json lists Leather Red 02 displacement and roughness. It is completely dry, with no moisture speculars, so it reads as upholstery rather than mucosa. The enamel is a flat cream with no incisal translucency or mamelon/perikymata variation. A thin bright rim lines the tooth outlines (left incisor edge x200–240, y900–1700), which reads as a shader outline. The reference has wet mucosa with specular breakup, blood, bone grain and moist enamel (f0258, f0480, f0701). This is a P1 because it is visible at playback. Repair: replace the leather displacement with fine stippled attached gingiva plus a wet clearcoat at roughness ≈0.25, add enamel subsurface and incisal translucency, and remove the rim term. Proof frame: f300 shows wet highlights on the gum and no edge halo."
+          },
+          "contact": {
+            "verdict": "equal",
+            "shot": "incise",
+            "class": "blade-contact-visible-measured",
+            "evidence": "Candidate 6.5 s (f195). The scalpel tip visibly rests on the facial gingiva at about x400–460, y700–740. contact.json measures a maximum hard-tissue penetration of 0.104 mm in crown_hook and 0.102 mm in incise, against a 0.2 mm limit, and a maximum scalpel–gingiva gap of 0.16 mm. No instrument is drawn into enamel. The reference also shows plainly seated instruments: the needle at f0037, the suction tip at f0258 and the elevator on the root at f0480. Contact reads at about the same level in both, so this is not flagged. The tissue response to contact is a separate problem, covered under anatomy and motion. Hook f18 contact (tip at x440, y740) is also sound."
+          },
+          "framing": {
+            "verdict": "better",
+            "shot": "inspect_margin",
+            "class": "framing-stable-subject-centred",
+            "evidence": "Candidate 2.8 s (f85) and 13.0 s (f389) use the same macro framing. The central incisor and its margin sit centred in a sharp frame, so the margin change can be compared across shots. The captions sit on the gum band above the subject. The reference often hides its subject behind defocus or foreground instruments: f0037 is mostly out of focus, and at f0258 a blurred suction tip covers the left 40% of the frame. Comparative strength: the candidate subject is always in focus. Remaining P1 1: the bottom ~18% (y1560–1920) is an empty dark lip band in every shot. Repair: tilt down or crop so the incisal edges sit near y1700. P1 2: at 10.0 s (f300) the expose beat zooms in, breaking the same-camera comparison between inspect and payoff. Repair: hold the f85 camera for expose. Proof frame: f300 matches f85's tooth bounds (x280–820)."
+          },
+          "labels": {
+            "verdict": "worse",
+            "shot": "inspect_margin",
+            "class": "label-off-subject-gingival-margin-unlabelled",
+            "evidence": "Candidate 2.8 s (f85). The only label in the whole clip is 치관, a small box about 40 px tall (x852–968, y1132–1192). It sits on the neighbouring lateral incisor, with a long leader to mid-crown. The leader stays on the central incisor through every camera change (f18, f85, f195, f300, f389), so there is no landmark drift and no P0. However, every beat's chip and caption is about 잇몸선, yet the margin is never marked, and the label never changes. The reference's 치근 label (f0480) is larger, sits next to the root it names, and changes with the step. This is a P1. Repair: add a 잇몸선 label with its dot on the facial margin in inspect and payoff, and enlarge the type to about 56 px. Proof frame: f85 shows the 잇몸선 dot on the margin lobe. The captions themselves are clean and fully legible."
+          },
+          "motion": {
+            "verdict": "worse",
+            "shot": "margin_payoff",
+            "class": "static-holds-dominate",
+            "evidence": "Candidate frames 255–432 (8.5–14.4 s, expose and payoff) are near-identical holds. Cells 4.1–5.5 of the contact sheet barely change, and inspect at frames 36–134 (1.2–4.5 s) is also almost static. About 10.5 s of the 15.2 s clip has no causal motion. The only action is the 4 s incise stroke. At the hook→inspect cut (f35→f36, 1.2 s) the gingival margin jumps about 180 px downward (regrows) with no transition. This frame-pop is a P0 sequence contradiction. reference_playback.json shows no near-still runs ≥10 frames and per-second mean delta of 1.1–16.3 throughout. Repair: (a) open the hook on the pre-op state so f35→f36 is continuous, and (b) give expose and payoff a slow push-in or rack plus a margin wipe or ghost so something moves. Proof frames: f36 matches f35's margin, and the f345–f432 luma delta is above 0.25 per frame."
+          },
+          "hook_loop": {
+            "verdict": "worse",
+            "shot": "crown_hook",
+            "class": "hook-shows-post-op-margin",
+            "evidence": "Candidate 0.6 s (f18). The caption reads 잇몸 아래 숨은 앞니, but the margin is already the trimmed post-op scallop (y820–1000). It matches the payoff at 13.0 s (f389) almost pixel for pixel, including the dark papilla notch at x240–300, y860–980. The opening therefore shows the result while claiming the tooth is hidden. This makes the before/after hard to compare (before-after-unclear) and causes the margin to regrow at f36. The loop tail (frames 433–456) puts the scalpel back on an already-exposed crown, and a tent appears at the right margin (cell 5.6). The reference hook (f0–f60) pairs a delivered tooth with a title, and its payoff and loop return to the same tooth consistently. This is a P0: a physically wrong sequence in the hook. Repair: render the hook from inspect-state geometry, with the blade approaching the covering lobe, and put a ghost line of the old margin in the payoff. Proof frames: f18 shows the lobe at y≈1140, and f389 shows the dashed pre-op line ≈180 px below the new margin."
+          },
+          "facts": {
+            "verdict": "equal",
+            "shot": "crown_hook",
+            "class": "hook-caption-unrecorded",
+            "evidence": "In facts.json, the four beats from inspect to payoff each map to PMID 35083533. That record covers a split-mouth trial of APE soft-tissue sculpting that reported a gain in exposed coronal tooth structure. Its captions stay within that scope: 바로 드러난 fits 'immediate change only' in sources.md. There is no permanence or inevitability claim, no blanket disclaimer, no estimate chip, and no invented magnitude: the payoff draws no mm figure or arc. The hook caption 잇몸 아래 숨은 앞니 (0–1.2 s, f18) has no claim ID. It agrees with the APE premise of the cited trial, so this is a P1 record gap, not a false claim. Repair: add a crown_hook claim entry citing 35083533's APE inclusion condition. Reference captions are procedural (마취, 절개, 흡입, 발치, 혈병) and have no source records in this packet, so its fact base cannot be compared further. Description.txt and a transcript were not supplied; note them as not checked."
+          },
+          "audio": {
+            "verdict": "worse",
+            "shot": "incise",
+            "class": "foley-sparse-flat-mix",
+            "evidence": "Measured. Candidate: −14.01 LUFS, true peak −2.6 dBTP, loop seam 0.00048, min window RMS 0.114, local_delta_p98 0.0047, continuous. Reference: −14.02 LUFS, −1.83 dBTP, seam 0.0399, min RMS 0.073, local_delta_p98 0.301. The candidate is cleaner at the seam and has more peak headroom, which is a comparative strength. But its short-window variation is about 64× lower, and candidate_wave.png is a near-constant band with no visible transient at the two Foley cues. Those cues are recording 593682 at f170 (5.67 s, 0.44 s long) and f219 (7.30 s, 0.30 s long). That is 0.74 s of Foley in 15.2 s, all inside incise. The hook scalpel (0–1.2 s) and the tail scalpel (14.4–15.2 s) have no sound. The reference waveform shows distinct event swells (~9–17 s and ~22 s) above the bed. This is a P1. Repair: duck the music about 6 dB under each cue and add a contact cue at the hook blade touch (f10). Proof: candidate local_delta_p98 above 0.05 and a visible peak at 5.67 s. Limits: whether the cues are audible over the music, how they sound, and the music's character require listening, which this packet does not allow."
+          }
+        },
+        "pass_pair": false
+      }
+    }
+  },
+  "simple_extraction": {
+    "author": {
+      "steps": [
+        {
+          "step": "grasp",
+          "tool": "conventional extraction forceps",
+          "target": "erupted central incisor",
+          "pmid": "26604469",
+          "caption": "앞니를|잡는다",
+          "thumbnail": 64
+        },
+        {
+          "step": "luxate",
+          "tool": "conventional extraction forceps",
+          "target": "erupted central incisor",
+          "pmid": "26604469",
+          "caption": "앞니가|조금씩 흔들린다",
+          "thumbnail": 53
+        },
+        {
+          "step": "deliver_whole",
+          "tool": "conventional extraction forceps",
+          "target": "intact incisor and root",
+          "pmid": "26604469",
+          "caption": "앞니가|통째로 나온다",
+          "thumbnail": 58
+        },
+        {
+          "step": "socket_payoff",
+          "tool": "macro camera",
+          "target": "extraction socket",
+          "pmid": "26604469",
+          "caption": "치아가 빠진|빈자리",
+          "thumbnail": 48
+        }
+      ],
+      "submitted": {
+        "steps": [
+          {
+            "step": "grasp",
+            "tool": "conventional extraction forceps",
+            "target": "erupted central incisor",
+            "pmid": "26604469",
+            "caption": "앞니를|잡는다",
+            "thumbnail": 64
+          },
+          {
+            "step": "luxate",
+            "tool": "conventional extraction forceps",
+            "target": "erupted central incisor",
+            "pmid": "26604469",
+            "caption": "앞니가|조금씩 흔들린다",
+            "thumbnail": 53
+          },
+          {
+            "step": "deliver_whole",
+            "tool": "conventional extraction forceps",
+            "target": "intact incisor and root",
+            "pmid": "26604469",
+            "caption": "앞니가|통째로 나온다",
+            "thumbnail": 58
+          },
+          {
+            "step": "socket_payoff",
+            "tool": "macro camera",
+            "target": "extraction socket",
+            "pmid": "26604469",
+            "caption": "치아가 빠진|빈자리",
+            "thumbnail": 48
+          }
+        ]
+      },
+      "fallback": [],
+      "models": [
+        "claude-sonnet-5-5"
+      ],
+      "cost_usd": 0.0442693,
+      "started": 1795402242.632782,
+      "seconds": 14.52
+    },
+    "author_sha256": "856cfb852c7ff8099fc0b91c103e2d4e0b9e78d1153ad26a22e52945947afa0d",
+    "draft1_preflight": {
+      "frames": 469,
+      "errors": [],
+      "maximum_hard_penetration_mm": 0
+    },
+    "trial": {
+      "case": "simple_extraction",
+      "started": 1795402242.632535,
+      "drafts": [
+        {
+          "number": 1,
+          "tag": "draft1",
+          "sha256": "a129f90e9059e6048c2e767f4f2fa3e1c5a851ef8edb0c9a465bcb8ffe7ed005",
+          "reference": "13f66a753f3d2a063874b2531d457f4acdae6540b4a801ecf4b7ad35b72777bd",
+          "reference_certified": false,
+          "pair_pass": false,
+          "axes": {
+            "anatomy": "equal",
+            "materials": "worse",
+            "contact": "better",
+            "framing": "worse",
+            "labels": "equal",
+            "motion": "worse",
+            "hook_loop": "better",
+            "facts": "worse",
+            "audio": "worse"
+          },
+          "mapped": [
+            "surface-waxy",
+            "socket-obscured",
+            "encoded-audio-boundary"
+          ],
+          "tickets": [
+            "luxation-imperceptible",
+            "unsourced-unqualified-intact-root-hook",
+            "loop-seam-discontinuity"
+          ],
+          "settings": {}
+        },
+        {
+          "number": 2,
+          "tag": "draft2",
+          "sha256": "cc8820642543c527ea1e64484dc21cf81f09d7bcb4d34ac62f1887623799b319",
+          "reference": "13f66a753f3d2a063874b2531d457f4acdae6540b4a801ecf4b7ad35b72777bd",
+          "reference_certified": false,
+          "pair_pass": false,
+          "axes": {
+            "anatomy": "worse",
+            "materials": "worse",
+            "contact": "better",
+            "framing": "better",
+            "labels": "worse",
+            "motion": "worse",
+            "hook_loop": "equal",
+            "facts": "worse",
+            "audio": "worse"
+          },
+          "mapped": [],
+          "tickets": [
+            "socket-without-alveolar-bone-or-clot",
+            "root-porous-texture-no-CEJ",
+            "root-unlabelled-label-on-neighbour",
+            "luxation-not-visible",
+            "intact-removal-stated-as-general",
+            "foley-low-contrast"
+          ],
+          "settings": {
+            "socket_payoff": {
+              "tissue_surface": true,
+              "empty_socket": true
+            },
+            "_audio": {
+              "phase_lock": true
+            }
+          }
+        }
+      ],
+      "status": "rendering terminal measurement",
+      "elapsed_seconds": 5814.39,
+      "author_sha256": "856cfb852c7ff8099fc0b91c103e2d4e0b9e78d1153ad26a22e52945947afa0d"
+    },
+    "comparators": {
+      "pair_draft1": {
+        "sha256": [
+          "a129f90e9059e6048c2e767f4f2fa3e1c5a851ef8edb0c9a465bcb8ffe7ed005",
+          "13f66a753f3d2a063874b2531d457f4acdae6540b4a801ecf4b7ad35b72777bd",
+          "9e032ffa1ef4a02e4bd801190580015924fb503eab40fa6ed30428befb04115f"
+        ],
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "cost_usd": 0.6453916,
+        "axes": {
+          "anatomy": {
+            "verdict": "equal",
+            "shot": "socket_payoff",
+            "class": "payoff-tooth-on-pale-stalk",
+            "evidence": "Strength: the candidate reads more clearly than the reference's sectioned wisdom-tooth field (ref f0480). It shows one upper central incisor with a continuous conical root, and both neighbours stay intact in the grasp, luxate and deliver shots (f86, f188, f299). contact.json reports 0 mm penetration in every shot. P0 (stray or occluding geometry), socket_payoff f401: the camera cuts to an oblique close-up. A glossy delivered crown fills x0.00–0.78 / y0.40–0.81 and rests on an unexplained beige post at x0.28–0.50 / y0.80–1.00. The post does not read as the root, which should point up toward the socket, or as a forceps beak, which is grey metal everywhere else. It looks like the tooth is standing on a stalk. Repair: hold the delivered tooth with its root pointing toward the socket, then move it out of frame or to the frame edge. Proof frame: f401 with no beige post below the crown. P1, deliver_whole f330–345 (contact-sheet row 4, columns 5–6): the apex still touches the gingival margin at the cut, so the root never visibly clears the socket. Repair: add 6–8 frames with the apex free and a visible gap to the gum. Proof frame: f350. P1, extraction_hook f18 x0.40–0.66 / y0.30–0.60: the root surface has a mottled, cancellous-bone speckle and reads as bone rather than cementum. Repair: use a smooth yellow-ivory cementum shader. Proof frame: f18."
+          },
+          "materials": {
+            "verdict": "worse",
+            "shot": "socket_payoff",
+            "class": "surface-waxy",
+            "evidence": "The reference has wet, micro-textured mucosa, specular blood and clot depth (ref f0480, f0701). The candidate's enamel and gingiva use one uniform synthetic sheen. At socket_payoff f401 x0.00–0.78 / y0.40–0.81, the delivered crown is a grey-beige plastic with no incisal translucency or enamel–dentin layering. The socket interior at x0.22–0.78 / y0.29–0.48 is a smooth, dry red pocket with no blood, clot or PDL remnants. The gingiva in grasp f86 and luxate f188 (y0.05–0.42) is a clean, matte, clay-like pink. P1. Repair: add incisal translucency and subsurface scattering to the enamel, put a wet coat and stippling on the attached gingiva, and add a thin blood film with torn PDL strands on the socket wall. Proof frame: f401, where the socket should read wet and the crown should read as enamel."
+          },
+          "contact": {
+            "verdict": "better",
+            "shot": "grasp",
+            "class": "beak-seat-legible",
+            "evidence": "Strength: at grasp f86, the labial beak seats at the cervical third of the crown (x0.37–0.45 / y0.40–0.44), and the palatal beak is visible behind it at x0.50–0.60. The beaks stay locked to the crown through luxate f188 and deliver f299. contact.json reports a maximum forceps–tooth gap of 0.0714 mm and 0 mm penetration in every shot. In the reference, instrument–tissue contact is often hidden by blood and blur (ref f0258, x0.25–0.60 / y0.40–0.55). No P0 or P1."
+          },
+          "framing": {
+            "verdict": "worse",
+            "shot": "socket_payoff",
+            "class": "socket-obscured",
+            "evidence": "P0 (occluding geometry on the payoff beat), socket_payoff f357–444 (still f401): after the cut from the frontal view to an oblique close-up, the delivered tooth and forceps cover the lower-left 45% of the frame (x0.00–0.78 / y0.40–1.00) in all six contact-sheet tiles. Only the upper rim of the socket shows, at x0.22–0.78 / y0.29–0.48. The reference payoff fills the frame with the open socket (ref f0701, x0.05–0.95 / y0.30–0.68). Repair: keep the frontal camera from the grasp, luxate and deliver shots, and move the delivered tooth out of frame before the hold so the empty socket sits between the intact neighbours. Proof frame: f401, with the socket fully unobstructed and both neighbouring incisors in frame. Strength: the grasp, luxate and deliver shots use one stable frontal framing that is more legible than the reference's shallow-focus close-ups."
+          },
+          "labels": {
+            "verdict": "equal",
+            "shot": "extraction_hook",
+            "class": "root-unlabelled-in-root-hook",
+            "evidence": "Captions and the 01–04 step chips are large and readable, matching the reference style. P1, extraction_hook f18: the caption says '뿌리까지' and the root (x0.40–0.66 / y0.30–0.55) is the subject, but the only label is '치관' (tag at x0.80–0.91 / y0.70–0.73). Repair: in the hook and deliver_whole, add a '치근' leader with its dot on the root. Proof frame: f18. P1, grasp f86 and luxate f188: the '치관' tag sits on the adjacent right incisor (x0.80–0.91 / y0.46–0.48), which invites a misreading. Repair: move the tag into the dark background below the arch. Proof frame: f86. The socket_payoff shot has no socket label. Repair: add '빈자리' or '치조와' with its dot on the socket floor. Proof frame: f401."
+          },
+          "motion": {
+            "verdict": "worse",
+            "shot": "luxate",
+            "class": "luxation-imperceptible",
+            "evidence": "P1, luxate f136–240 (still f188): on the 2 fps sheet, the seven luxate tiles (row 2, columns 4–6; row 3, columns 1–4) show the tooth and forceps in nearly identical positions. The caption '조금씩 흔들린다' promises a rocking motion that does not visibly happen. The 100-frame grasp shot (f36–135) is also close to static. The reference keeps causal motion going through every beat, with a per-second mean luma delta of 2–16 (reference_playback.json). Repair: rock the tooth buccolingually by about 3–5° in 2–3 visible cycles, with the crown tipping against the beaks, and shorten the grasp hold to about 1.5 s. Proof frame: compare f170 and f190, which should show opposite tilts. Strength: the deliver_whole draw is smooth and readable (f241–356)."
+          },
+          "hook_loop": {
+            "verdict": "better",
+            "shot": "extraction_hook",
+            "class": "payoff-preview-hook",
+            "evidence": "Strength: at f0–35 (still f18), the incisor is already half delivered with the root exposed under '뿌리까지 한 번에', so the hook lands in the first frame. The reference opens on a dim, blurry surgical field (ref f0001–f0030). The 24-frame hook tail (f445–468) returns to the opening pose, so the picture loops cleanly. Residual P1: the cut from the socket_payoff oblique close-up (f444) to the frontal hook (f445) is a hard angle change. Repair: end the payoff with a short pull-back to the frontal angle. Proof frame: f444. The audio loop seam fails; see the audio field."
+          },
+          "facts": {
+            "verdict": "worse",
+            "shot": "extraction_hook",
+            "class": "unsourced-unqualified-intact-root-hook",
+            "evidence": "P0 (unsourced or unqualified claim), extraction_hook f0–35 and f445–468: the caption '뿌리까지 한 번에' has no claim entry in facts.json. The registry covers only grasp, luxate, deliver_whole and socket_payoff. The nearest source, PMID 26604469 (deliver_whole scope), explicitly says intact removal 'was not universal in the study', and sources.md says there is 'no claim of a universally intact root'. The unqualified hook, together with '앞니가 통째로 나온다' (f241–356), reads as an inevitable outcome. Repair: register a hook claim against PMID 26604469 and qualify it in the verb, for example '뿌리까지 한 번에 빠지기도 해요' and '통째로 나올 수 있어요'. Do not add a disclaimer chip. Proof frame: f18 with the qualified caption. The grasp, luxate and socket captions are sourced and stay within scope. The attribution in sources.md, licences.md and assets.json is consistent: BodyParts3D CC BY 4.0 with changes, CC0 Poly Haven, ambientCG and Freesound cues, OFL fonts, and no Z-Anatomy. Not checked: a historical rights dossier and production gates (Sohee narration, the opening person shot); this is a draft operative pair."
+          },
+          "audio": {
+            "verdict": "worse",
+            "shot": "episode",
+            "class": "loop-seam-discontinuity",
+            "evidence": "P1, loop wrap f468→f0: audio.json reports seam_ok=false. The audio_seam is 0.0110 against a local_delta_p98 of 0.0047, about 2.3× the clip's own sample-to-sample variation, so the music loop is likely to click or step on repeat. The reference passes (seam 0.0399 against p98 0.301, seam_ok=true). Repair: crossfade 20–50 ms at a zero crossing across the wrap, or cut the music on a loop point. Proof: re-measure seam_ok=true at f468→f0. P1, dynamics: candidate_wave.png shows a near-flat envelope. The min-window RMS is 0.103 against 0.073 for the reference, and the true peak is −3.69 dBTP against −1.83. The reference waveform swells around its procedural beats; the candidate's does not. All five Foley cues fall at f122–325 (grasp through deliver), so the hook and the socket payoff (f357–444) have no sound accent. Repair: duck the music 3–4 dB under the cues and add a soft release cue when the apex clears, around f345. Loudness is otherwise sound: −14.94 LUFS against −14.02, music continuous, peak_ok=true. Limits: cue sync, the timbre fit of 'Chicken Meat Slime' for incisor luxation, masking and click audibility need listening and were not assessed. Neither cut has narration (silent-caption by design)."
+          }
+        },
+        "pass_pair": false
+      },
+      "pair_draft2": {
+        "sha256": [
+          "cc8820642543c527ea1e64484dc21cf81f09d7bcb4d34ac62f1887623799b319",
+          "13f66a753f3d2a063874b2531d457f4acdae6540b4a801ecf4b7ad35b72777bd",
+          "9e032ffa1ef4a02e4bd801190580015924fb503eab40fa6ed30428befb04115f"
+        ],
+        "models": [
+          "claude-opus-5-5"
+        ],
+        "cost_usd": 0.750772,
+        "axes": {
+          "anatomy": {
+            "verdict": "worse",
+            "shot": "socket_payoff",
+            "class": "socket-without-alveolar-bone-or-clot",
+            "evidence": "P0 (physically wrong anatomy): socket_payoff f401 (t≈13.4 s), box x0.19–0.80 y0.29–0.63. The extraction site is a round, smooth tunnel lined with gingiva. It has no alveolar crest or lamina dura rim, no torn PDL and no blood, and it stays the same empty tube for all 88 poses (sheet row 6). In reference f0701 the socket fills with clot inside bony margins. Repair: tear the gingival cuff over a visible labial/palatal bone rim and fill the socket with dark clot to just below the crest. Demonstrate at f401. Strengths: the incisor crown form, neighbouring teeth and single conical root all read correctly. The tooth comes out with its root, so no tooth is left behind or floating (f18, f299). Secondary P1: deliver_whole ends with the apex still at the gingival slit (sheet row 4 col 6, ≈f345) before the hard cut, so the whole tooth is never seen free. Hold about 0.5 s on the free apex at ≈f350."
+          },
+          "materials": {
+            "verdict": "worse",
+            "shot": "deliver_whole",
+            "class": "root-porous-texture-no-CEJ",
+            "evidence": "P1: deliver_whole f299 (box x0.22–0.65 y0.30–0.58) and hook f18 (x0.20–0.63 y0.25–0.58). The root reads as mottled, porous, cancellous-bone-like texture instead of smooth cementum. The mottling spreads over the cervical third of the crown, so there is no CEJ line. In socket_payoff f401 the gingiva is evenly smooth with a uniform synthetic sheen and no stippling (surface-waxy). The reference shows wet, stippled mucosa and blood (f0480, f0701). Repair: use a smooth ivory-yellow cementum shader with a sharp enamel cutoff at the CEJ, faint PDL tags, and moist, stippled attached gingiva. Verify at f299 and f401. Strengths: the incisal enamel translucency and brushed-steel forceps (f86) are believable and sharper than the reference's soft foreground instruments (f0258)."
+          },
+          "contact": {
+            "verdict": "better",
+            "shot": "grasp",
+            "class": "forceps-seated-clean",
+            "evidence": "contact.json reports 0 mm penetration in all 469 frames and a forceps–tooth gap of at most 0.0714 mm in every forceps shot. On screen in grasp f86 and luxate f188, the labial beak sits on the cervical crown with its tip tucked at the gingival margin (x0.38–0.50 y0.40–0.47), and it stays seated through delivery (f299). In reference f0258 a defocused foreground instrument partly hides the suction/elevator contact. No contact defect seen. Limits: the lingual beak is hidden behind the crown, which is expected. The beaks sit on the cervical crown instead of being pushed apically onto the root, which is acceptable for a simple-extraction illustration."
+          },
+          "framing": {
+            "verdict": "better",
+            "shot": "grasp",
+            "class": "clean-single-subject",
+            "evidence": "Strength: every beat centres one subject (the crown and forceps, or the socket) with both neighbouring teeth for scale, and no defocused foreground clutter like reference f0258. Minor P1: in grasp f86 and luxate f188 the crown fills only y0.39–0.65, and the bottom ~35% is forceps handle against a dark background. In hook f18 and deliver f299 the root's exit point (y≈0.27–0.33) sits just under the bottom edge of the caption (y≈0.26). Repair: tilt or raise the camera so the gingival margin sits near y0.40 and the crown reaches about y0.75. Verify at f188 and f299."
+          },
+          "labels": {
+            "verdict": "worse",
+            "shot": "deliver_whole",
+            "class": "root-unlabelled-label-on-neighbour",
+            "evidence": "P1: the only anatomical label is '치관' (crown). The hook promises '뿌리까지' and deliver_whole reveals the root, but the root is never labelled. The label also disappears around f325–356 (sheet row 4 cols 5–6), exactly when the most root is showing. In f86, f188 and f299 the '치관' box (x0.80–0.91 y0.45–0.49; y0.57–0.60 in f299) sits on the right neighbour's crown, and its leader crosses the forceps beak, so it can read as labelling the neighbour. socket_payoff has no label. In reference f0480, '치근' has its dot on the root itself and its box over soft tissue. Repair: from about f270, switch to '치근' with the dot on the exposed root and the box on the dark background to the right, held through f356. Demonstrate at f299. Clear: the dot stays on the crown through every camera change (hook→grasp, luxate→deliver), so there is no landmark drift. Captions and step chips are legible."
+          },
+          "motion": {
+            "verdict": "worse",
+            "shot": "luxate",
+            "class": "luxation-not-visible",
+            "evidence": "P1: grasp f86 and luxate f188 are nearly identical, with the crown, forceps and label dot in the same place (crown x0.28–0.70 y0.39–0.65). Across the sheet from t≈1.0 to 7.5 s (about 13 consecutive samples) there is no visible rocking or forceps rotation, even though the caption says '조금씩 흔들린다'. The only causal motion is the withdrawal in delivery (t≈8–11.8 s). The reference keeps a per-second mean luma delta of 2–16 with continuous instrument action across seven steps. Repair: add ±4–6° labio-palatal rocking about the apical third, 2–3 cycles, with visible blanching and sulcus opening at the gingival margin, and shorten grasp to about 60 frames. Demonstrate with three distinct crown angles at f160, f188 and f215. The hook→grasp cut (≈f36) jumps back from mid-delivery to the seated tooth; the caption change carries it and there is no pop."
+          },
+          "hook_loop": {
+            "verdict": "equal",
+            "shot": "extraction_hook",
+            "class": "hook-caption-lacks-topic",
+            "evidence": "Strengths: from f0 the viewer sees forceps withdrawing an incisor with its root exposed, under '뿌리까지 한 번에'. The tail (f445–468) is the segment just before the hook's opening frames in the same shot, so the last-to-first frame join is continuous (audio seam 0.00055 vs 0.0399 in the reference). The reference loops back to its title card through a 70.7 luma step at f871. Weaknesses: the hook lasts only about 1.2 s, the caption has no subject or stakes (no '앞니' or '발치'), and the promised image of the whole tooth out is never paid off in deliver_whole. The reference hook names its topic ('매복 사랑니 수술, 3D로 본 과정'). Repair: caption '앞니 발치, 뿌리까지 한 번에' and end deliver_whole on the free apex. Verify at f18 and ≈f350. Net result: equal."
+          },
+          "facts": {
+            "verdict": "worse",
+            "shot": "deliver_whole",
+            "class": "intact-removal-stated-as-general",
+            "evidence": "P1: the hook '뿌리까지 한 번에' and deliver_whole '앞니가 통째로 나온다' are unqualified present-tense statements that read as what always happens. The scope in facts.json and sources.md (PMID 26604469) says intact removal was not universal, and the brief rules out claiming 'a universally intact root'. Put the qualification in the verb (e.g. '통째로 나올 수도 있어요' or '이 경우엔 통째로 나와요'), not in a disclaimer chip. Graphic support: the empty, bloodless socket at f401 under '치아가 빠진 빈자리' implies the socket stays an empty hole, while reference f0701 correctly shows '피떡(혈병)이 생긴다'. Clear: no disclaimer chip, source credit or kg figure appears in the picture. I did not re-check the PMID's content (external check still open), so there is no sourcing P0."
+          },
+          "audio": {
+            "verdict": "worse",
+            "shot": "episode",
+            "class": "foley-low-contrast",
+            "evidence": "Measured: both cuts are −14.02 LUFS. Candidate vs reference: true peak −2.66 vs −1.83 dBTP; loop seam 0.00055 vs 0.0399; minimum window RMS 0.114 vs 0.073; local_delta_p98 0.0050 vs 0.301, so the candidate's short-term envelope barely moves. The five CC0 cues (f122, 169, 210, 290, 325; 0.18–0.34 s each) show no clear transients on candidate_wave.png (x≈250/346/430/594/666). The reference waveform has clear event swells (x≈210–380, spike at ≈485). This suggests the Foley sits under the music bed. socket_payoff (f357–444) has no cue. Strengths: cleaner seam and more peak headroom. Narration is absent, as specified for silent captions. Limits: whether the cues are audible, whether 'Chicken Meat Slime' suits tissue release, and the music-to-cue balance all need listening. Repair: duck the music 6–8 dB for about 300 ms around each cue or raise the cues, and add a release cue at ≈f340. Verify that the cue at f290 shows as a distinct swell above the music floor."
+          }
+        },
+        "pass_pair": false
+      }
+    }
+  }
+}

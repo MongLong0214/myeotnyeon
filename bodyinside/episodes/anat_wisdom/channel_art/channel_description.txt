@@ -1,0 +1,9 @@
+Body Inside — 3D 의학 애니메이션으로 몸속에서 일어나는 일을 보여주는 채널입니다.
+사랑니 발치, 거북목처럼 일상에서 겪는 치료와 몸의 변화를 해부학 3D 모델로 재현합니다.
+새 영상은 매일 오전 9시에 올라옵니다.
+모든 영상은 의학 일러스트이며, 진단·치료는 반드시 의료진과 상담하세요.
+
+[출처 및 라이선스]
+3D 해부 모델: Z-Anatomy (https://www.z-anatomy.com, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/) · BodyParts3D © The Database Center for Life Science (CC BY-SA 2.1 JP https://creativecommons.org/licenses/by-sa/2.1/jp/).
+원본 모델을 변형(재메시·절단·재질 변경)해 사용했습니다. 원 저작물은 보증 없이 제공됩니다.
+이 채널의 해부 영상은 CC BY-SA 4.0으로 공개합니다 (https://creativecommons.org/licenses/by-sa/4.0/).

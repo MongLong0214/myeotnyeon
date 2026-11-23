@@ -1,0 +1,230 @@
+{
+ "id": "anat_wisdom",
+ "fps": 30,
+ "duration": 10.0,
+ "lufs": -14,
+ "title": [
+  "누운 사랑니를 뽑을 때",
+  "턱 속에서 생기는 일"
+ ],
+ "brand": "몸속 3D 해부도",
+ "layout": {
+  "band_y": 520,
+  "band_h": 800
+ },
+ "build": "build.py",
+ "render": {
+  "spp": 64,
+  "res": [
+   1080,
+   800
+  ]
+ },
+ "highlight": {
+  "structure": "ThirdMolar",
+  "hue": "amber"
+ },
+ "scene_cuts_declared": [],
+ "geometry_gates": {
+  "contacts": [
+   [
+    "ThirdMolar",
+    "Lower second molar tooth.l",
+    0.0004
+   ]
+  ],
+  "gaps": [
+   [
+    "ThirdMolar",
+    "Nerve2",
+    0.001,
+    0.003,
+    0
+   ],
+   [
+    "Lower second molar tooth.l",
+    "Nerve2",
+    0.0005,
+    0.05,
+    0
+   ]
+  ],
+  "stable": [
+   "Crown",
+   "Root",
+   "Filler"
+  ],
+  "clearance": [
+   [
+    "BurHead",
+    "Nerve2",
+    0.001,
+    78,
+    175
+   ]
+  ],
+  "rotation_delta": [
+   [
+    "Lower second molar tooth.l",
+    2,
+    7,
+    1.0
+   ]
+  ]
+ },
+ "beats": [
+  {
+   "t0": 0.0,
+   "t1": 3.0,
+   "tag": "매복 사랑니",
+   "camera": "push_in",
+   "action": "pulse(contact)",
+   "cap": [
+    [
+     "옆으로 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "누워",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     " 앞 어금니를 민다",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ]
+  },
+  {
+   "t0": 3.0,
+   "t1": 5.33,
+   "tag": "치아 분할",
+   "camera": "orbit_up",
+   "action": "section(ThirdMolar, from=occlusal)",
+   "cap": [
+    [
+     "통째로 안 빠지면 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "둘로 자른다",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ]
+  },
+  {
+   "t0": 5.33,
+   "t1": 6.87,
+   "tag": "하치조신경",
+   "camera": "push_in_low",
+   "action": "pulse(Nerve2) x2 + bracket(Root tip, Nerve2) with roots in place",
+   "cap": [
+    [
+     "이 모델: ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "신경",
+     [
+      255,
+      214,
+      64
+     ]
+    ],
+    [
+     "까지 약 2 mm",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ]
+  },
+  {
+   "t0": 6.87,
+   "t1": 10.0,
+   "tag": "머리 → 뿌리",
+   "camera": "follow",
+   "action": "extract(Crown 6.9-8.1 s, Root slides forward then lifts 8.1-9.5 s)",
+   "cap": [
+    [
+     "머리 먼저, ",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     "뿌리는 나중에",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "thump": 0.27
+  },
+  {
+   "drill": [
+    2.75,
+    3.27,
+    5.0,
+    5.25
+   ]
+  },
+  {
+   "crack": 5.38
+  },
+  {
+   "thump": 5.87
+  },
+  {
+   "thump": 6.47
+  },
+  {
+   "clink": [
+    7.6,
+    0.06
+   ]
+  },
+  {
+   "clink": [
+    9.1,
+    0.045
+   ]
+  },
+  {
+   "thump": 9.6
+  }
+ ]
+}

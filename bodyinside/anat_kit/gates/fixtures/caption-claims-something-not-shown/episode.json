@@ -1,0 +1,1 @@
+{"beats": [{"t0": 0, "t1": 1, "cap": [["x", [255, 255, 255]]], "evidence": [{"type": "pose_delta", "joints": [0, 1, 2], "f0": 0, "f1": 10, "min_deg": 15}]}], "labels": []}

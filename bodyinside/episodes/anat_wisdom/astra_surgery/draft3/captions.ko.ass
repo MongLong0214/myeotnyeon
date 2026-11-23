@@ -1,0 +1,30 @@
+[Script Info]
+Title: 사랑니 발치 수술
+ScriptType: v4.00+
+PlayResX: 540
+PlayResY: 960
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Narration,Pretendard,34,&H00FAFAFA,&H001CB8FF,&H000A0A0A,&H780A0A0A,-1,0,0,0,100,100,0,0,1,2.4,1,2,27,27,221,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.03,0:00:02.45,Narration,,0,0,0,,누워 있는 {\c&H1CB8FF&}사랑니{\r},\N이렇게 뽑아요.
+Dialogue: 0,0:00:03.14,0:00:06.11,Narration,,0,0,0,,먼저 턱 뒤쪽에\N{\c&H1CB8FF&}국소 마취제{\r}를 주사해요.
+Dialogue: 0,0:00:07.14,0:00:08.38,Narration,,0,0,0,,잇몸을 {\c&H1CB8FF&}절개{\r}하고,
+Dialogue: 0,0:00:08.38,0:00:10.20,Narration,,0,0,0,,절개한 잇몸을 {\c&H1CB8FF&}들어 올려{\r}
+Dialogue: 0,0:00:10.20,0:00:11.89,Narration,,0,0,0,,그 아래 {\c&H1CB8FF&}뼈{\r}를 드러내요.
+Dialogue: 0,0:00:13.14,0:00:14.70,Narration,,0,0,0,,{\c&H1CB8FF&}식염수{\r}로 식혀 가면서
+Dialogue: 0,0:00:14.70,0:00:17.34,Narration,,0,0,0,,사랑니 머리를 덮은\N{\c&H1CB8FF&}뼈{\r}를 갈아내요.
+Dialogue: 0,0:00:19.14,0:00:20.50,Narration,,0,0,0,,치아에 {\c&H1CB8FF&}홈{\r}을 내고
+Dialogue: 0,0:00:20.50,0:00:23.16,Narration,,0,0,0,,기구를 비틀어\N{\c&H1CB8FF&}머리와 뿌리{\r}를 갈라요.
+Dialogue: 0,0:00:25.14,0:00:26.60,Narration,,0,0,0,,{\c&H1CB8FF&}머리{\r}를 먼저 꺼내요.
+Dialogue: 0,0:00:26.64,0:00:28.64,Narration,,0,0,0,,뿌리를 나눠 {\c&H1CB8FF&}신경관{\r} 위에서
+Dialogue: 0,0:00:28.64,0:00:30.06,Narration,,0,0,0,,{\c&H1CB8FF&}하나씩{\r} 들어 올려요.
+Dialogue: 0,0:00:33.14,0:00:35.93,Narration,,0,0,0,,치아가 빠진 자리를\N{\c&H1CB8FF&}식염수{\r}로 씻어요.
+Dialogue: 0,0:00:37.14,0:00:39.75,Narration,,0,0,0,,잇몸을 제자리로 덮고\N{\c&H1CB8FF&}실{\r}로 묶어요.
+Dialogue: 0,0:00:41.14,0:00:43.86,Narration,,0,0,0,,속에 생긴 {\c&H1CB8FF&}피떡{\r}에서\N치유가 시작돼요.

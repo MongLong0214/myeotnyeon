@@ -1,0 +1,106 @@
+{
+ "bur": {
+  "used": "an electric drill whirring",
+  "z": 5.02,
+  "verdict": "strong",
+  "tried": [
+   {
+    "want": "an electric drill whirring",
+    "z": 5.02,
+    "verdict": "strong"
+   }
+  ],
+  "pass": true
+ },
+ "saline": {
+  "used": "a garden hose spraying onto a path",
+  "z": 3.86,
+  "verdict": "strong",
+  "tried": [
+   {
+    "want": "a garden hose spraying onto a path",
+    "z": 3.86,
+    "verdict": "strong"
+   }
+  ],
+  "pass": true
+ },
+ "aspiration": {
+  "used": "a vacuum cleaner switched on and running",
+  "z": 4.01,
+  "verdict": "strong",
+  "tried": [
+   {
+    "want": "a vacuum cleaner switched on and running",
+    "z": 4.01,
+    "verdict": "strong"
+   }
+  ],
+  "pass": true
+ },
+ "tissue": {
+  "used": "a knife slicing through something",
+  "z": 2.45,
+  "verdict": "weak",
+  "tried": [
+   {
+    "want": "a knife slicing through something",
+    "z": 2.45,
+    "verdict": "weak"
+   }
+  ],
+  "pass": true
+ },
+ "fracture": {
+  "used": "dry twigs snapped by hand",
+  "z": 2.27,
+  "verdict": "weak",
+  "tried": [
+   {
+    "want": "dry twigs snapped by hand",
+    "z": 2.27,
+    "verdict": "weak"
+   }
+  ],
+  "pass": true
+ },
+ "knot": {
+  "used": "a plastic zip tie pulled tight",
+  "z": 3.31,
+  "verdict": "strong",
+  "tried": [
+   {
+    "want": "a plastic zip tie pulled tight",
+    "z": 3.31,
+    "verdict": "strong"
+   }
+  ],
+  "pass": true
+ },
+ "liquid": {
+  "used": "a single drop of water falling into still water, a liquid plink",
+  "z": 4.13,
+  "verdict": "strong",
+  "tried": [
+   {
+    "want": "a single drop of water falling into still water, a liquid plink",
+    "z": 4.13,
+    "verdict": "strong"
+   }
+  ],
+  "pass": true
+ },
+ "root_bur": {
+  "used": "an electric drill whirring",
+  "z": 4.62,
+  "verdict": "strong",
+  "tried": [
+   {
+    "want": "an electric drill whirring",
+    "z": 4.62,
+    "verdict": "strong"
+   }
+  ],
+  "pass": true
+ }
+}

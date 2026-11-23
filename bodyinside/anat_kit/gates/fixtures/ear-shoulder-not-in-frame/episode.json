@@ -1,0 +1,1 @@
+{"beats": [{"t0": 0, "t1": 1, "cap": [["x", [255, 255, 255]]], "evidence": [{"type": "anchors_visible", "anchors": ["A_Ear", "A_Acro"], "frames": [5]}]}], "labels": []}

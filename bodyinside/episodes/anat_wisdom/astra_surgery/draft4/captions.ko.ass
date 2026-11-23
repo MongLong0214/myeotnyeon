@@ -1,0 +1,33 @@
+[Script Info]
+Title: 매복 사랑니 발치
+ScriptType: v4.00+
+PlayResX: 540
+PlayResY: 960
+ScaledBorderAndShadow: yes
+WrapStyle: 2
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Step,Pretendard,54,&H00F8FAFC,&H0069BEFF,&H50100C0E,&H8809060B,-1,0,0,0,100,100,0,0,1,0.8,1,2,17,17,81,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.20,Step,,0,0,0,,사랑니가 {\1c&H69BEFF&}갈라진다{\1c&HF8FAFC&}
+Dialogue: 0,0:00:03.20,0:00:06.15,Step,,0,0,0,,먼저 {\1c&H69BEFF&}국소 마취{\1c&HF8FAFC&}를 한다
+Dialogue: 0,0:00:06.15,0:00:09.85,Step,,0,0,0,,① 잇몸을 {\1c&H69BEFF&}절개{\1c&HF8FAFC&}한다
+Dialogue: 0,0:00:09.85,0:00:12.50,Step,,0,0,0,,잇몸을 {\1c&H69BEFF&}젖힌다{\1c&HF8FAFC&}
+Dialogue: 0,0:00:12.50,0:00:16.45,Step,,0,0,0,,② {\1c&H69BEFF&}뼈{\1c&HF8FAFC&}를 갈아낸다
+Dialogue: 0,0:00:16.45,0:00:18.55,Step,,0,0,0,,고인 피를 {\1c&H69BEFF&}흡입{\1c&HF8FAFC&}한다
+Dialogue: 0,0:00:18.55,0:00:22.30,Step,,0,0,0,,③ 치아에 {\1c&H69BEFF&}홈{\1c&HF8FAFC&}을 낸다
+Dialogue: 0,0:00:22.30,0:00:24.70,Step,,0,0,0,,홈을 따라 {\1c&H69BEFF&}가른다{\1c&HF8FAFC&}
+Dialogue: 0,0:00:24.70,0:00:27.35,Step,,0,0,0,,{\1c&H69BEFF&}치아 머리{\1c&HF8FAFC&}부터 꺼낸다
+Dialogue: 0,0:00:27.35,0:00:28.25,Step,,0,0,0,,남은 {\1c&H69BEFF&}뿌리{\1c&HF8FAFC&}를 나눈다
+Dialogue: 0,0:00:28.25,0:00:34.95,Step,,0,0,0,,④ {\1c&H69BEFF&}뿌리{\1c&HF8FAFC&}를 하나씩 뽑는다
+Dialogue: 0,0:00:34.95,0:00:37.35,Step,,0,0,0,,빈자리에 {\1c&H69BEFF&}피{\1c&HF8FAFC&}가 고인다
+Dialogue: 0,0:00:37.35,0:00:40.40,Step,,0,0,0,,{\1c&H69BEFF&}식염수{\1c&HF8FAFC&}로 씻어낸다
+Dialogue: 0,0:00:40.40,0:00:42.40,Step,,0,0,0,,다시 {\1c&H69BEFF&}피{\1c&HF8FAFC&}가 차오른다
+Dialogue: 0,0:00:42.40,0:00:44.75,Step,,0,0,0,,⑤ 잇몸을 {\1c&H69BEFF&}꿰맨다{\1c&HF8FAFC&}
+Dialogue: 0,0:00:44.75,0:00:46.96,Step,,0,0,0,,{\1c&H69BEFF&}매듭{\1c&HF8FAFC&}을 조인다
+Dialogue: 0,0:00:46.96,0:00:48.65,Step,,0,0,0,,남은 {\1c&H69BEFF&}실 끝{\1c&HF8FAFC&}을 자른다
+Dialogue: 0,0:00:48.65,0:00:52.65,Step,,0,0,0,,{\1c&H69BEFF&}거즈{\1c&HF8FAFC&}에 조각을 놓는다

@@ -1,0 +1,15 @@
+{
+ "fn": "mp4_matches_frames",
+ "args": [
+  "clip.mp4",
+  "frames"
+ ],
+ "kwargs": {
+  "frames": [
+   0,
+   30,
+   60
+  ]
+ },
+ "origin": "neck draft17.mp4 f900-f960 against frames_draft19 f900/f930/f960 (review 13: draft19 file showed draft17 picture)"
+}

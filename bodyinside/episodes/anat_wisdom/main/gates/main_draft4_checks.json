@@ -1,0 +1,88 @@
+{
+  "subject_size": {
+    "ok": true,
+    "violations": [],
+    "n": 0
+  },
+  "dead_time": {
+    "ok": true,
+    "dead_windows_start_frames": [],
+    "n": 0
+  },
+  "frame_cadence": {
+    "ok": true,
+    "bad_windows": [],
+    "n": 0
+  },
+  "opening_event": {
+    "ok": true,
+    "person_bbox_area_at_f12": 0.41,
+    "silhouette_change_f0_f12": 0.03
+  },
+  "establishing_person": {
+    "ok": true,
+    "frames_at_alpha_ge_0.6": 60,
+    "need": 60
+  },
+  "text_size": {
+    "ok": true,
+    "too_small": []
+  },
+  "labels_anchored": {
+    "ok": true,
+    "unanchored": []
+  },
+  "label_beat_alignment": {
+    "ok": true,
+    "spans_caption_change": []
+  },
+  "layout_uses_height": {
+    "ok": true,
+    "band_bottom": 1375,
+    "need": 1340
+  },
+  "audio_beat_balance": {
+    "ok": true,
+    "beat_rms_db": [
+      -21.1,
+      -15.3,
+      -17.2,
+      -17.6,
+      -15.5,
+      -17.0,
+      -17.2,
+      -16.5,
+      -16.8
+    ],
+    "off_median": []
+  },
+  "brief_narration": {
+    "ok": true,
+    "syllables_per_second": [
+      6.57,
+      6.23,
+      6.49,
+      6.23,
+      6.48,
+      6.49,
+      6.23,
+      6.22,
+      6.49
+    ],
+    "interline_gaps_s": [
+      0.07,
+      0.146,
+      0.147,
+      0.146,
+      0.143,
+      0.147,
+      0.148,
+      0.142
+    ]
+  },
+  "two_second_opening": {
+    "ok": true,
+    "frames": 60
+  },
+  "pass": true
+}

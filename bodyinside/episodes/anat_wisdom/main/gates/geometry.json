@@ -1,0 +1,12 @@
+{
+  "gaps": [
+    ["ThirdMolar", "Nerve2", 0.0004, 0.006, 360],
+    ["ThirdMolar", "Nerve2", 0.0004, 0.006, 420]
+  ],
+  "stable": ["ThirdMolar", "Lower second molar tooth.l"],
+  "rotation_delta": [
+    ["ThirdMolar", 120, 180, 20],
+    ["ThirdMolar", 180, 240, 20],
+    ["ThirdMolar", 240, 300, 20]
+  ]
+}

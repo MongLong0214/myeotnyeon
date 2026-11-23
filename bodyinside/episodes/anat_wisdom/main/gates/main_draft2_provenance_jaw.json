@@ -1,0 +1,33 @@
+{
+ "objects": 17,
+ "bp3d_parts": 9,
+ "own": 3,
+ "fail": [
+  {
+   "obj": "GumLayer",
+   "why": "Z-Anatomy trace",
+   "src": "Z-Anatomy: draft34 GumLayer formed from the mandible crest"
+  },
+  {
+   "obj": "M2Septum",
+   "why": "Z-Anatomy trace",
+   "src": "Z-Anatomy: draft34 cut surface detailing"
+  },
+  {
+   "obj": "Mandible",
+   "why": "Z-Anatomy trace",
+   "src": "Z-Anatomy: draft34 Mandible with original cutaway"
+  },
+  {
+   "obj": "RimOut",
+   "why": "Z-Anatomy trace",
+   "src": "Z-Anatomy: draft34 cut surface detailing"
+  },
+  {
+   "obj": "RimRam",
+   "why": "Z-Anatomy trace",
+   "src": "Z-Anatomy: draft34 cut surface detailing"
+  }
+ ],
+ "ok": false
+}

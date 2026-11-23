@@ -1,0 +1,48 @@
+{
+ "fps": {
+  "fps": 30.0,
+  "dup_ratio": 0.0,
+  "ok": true
+ },
+ "freeze": {
+  "events": [],
+  "ok": true
+ },
+ "highlight": {
+  "hue_hist": [
+   1903,
+   232,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   16
+  ],
+  "unexpected_bins": [
+   0,
+   1
+  ],
+  "ok": true
+ },
+ "noise": {
+  "hp_std": 44.66,
+  "fireflies_max": 413,
+  "ok": false,
+  "blocking": false
+ },
+ "hook": {
+  "subject_frac": 0.0691,
+  "contrast": 0.923,
+  "ok": true
+ },
+ "safe_area": {
+  "violations": [],
+  "ok": true
+ },
+ "pass": true
+}

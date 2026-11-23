@@ -1,0 +1,70 @@
+{
+ "review_gate": {
+  "opus": {
+   "pass_final": 6.0,
+   "runs": 2,
+   "confirm_p0": true,
+   "max_usd": 20,
+   "timeout_s": 2400,
+   "note": "calibrated 2026-11-21 (see RUNBOOK 'Review gate calibration'): 9 Opus runs on neck draft15 (Fable 9), draft17 (Fable 8.5), wisdom draft34 (Fable 9) scored 4.0-7.0. Pass = mean of 2 runs >= 7.5 and no confirmed P0. Provisional: no Fable >= 9.5 sample exists; recalibrate at the first Fable audit of a final"
+  },
+  "fable": {
+   "pass_final": 9.5,
+   "confirm_p0": false,
+   "max_usd": 25,
+   "timeout_s": 2400,
+   "note": "audit only (once on the final of a measured episode)"
+  }
+ },
+ "media_checks": {
+  "mp4_matches_frames": {
+   "step": 30,
+   "max_median_diff": 7.5,
+   "note": "own folder <= 6.4, another draft's folder up to 9.8 (neck 14-19)"
+  },
+  "changed_beats_differ": {
+   "min_diff": 1.0,
+   "note": "unchanged payoff draft19 vs 17 = 0.42; real changes 1.6-17.6"
+  },
+  "claimed_fixes_visible": {
+   "min_diff": 1.5,
+   "note": "mouth smudge draft16 vs 15 = 0.58 (reviewer: partial); fixed items 3.6-10.8"
+  },
+  "rim_bevel": {
+   "min_bevel_mm": 0.45,
+   "note": "draft10 0.26 mm (review 7: no rim); draft15/17 0.57-0.66 mm accepted"
+  },
+  "no_speckle": {
+   "min_px": 1000,
+   "max_rel_residual": 0.08,
+   "note": "draft19 fast preset 0.09-0.135; drafts 11-17 0.029-0.063"
+  },
+  "figure_reads_human": {
+   "vis_luma": 30,
+   "min_height": 0.66,
+   "min_luma": 60,
+   "note": "review 12: figure at least two thirds of the band height"
+  },
+  "establishing_shot": {
+   "min_area": 0.05,
+   "min_s": 1.5,
+   "note": "owner: person on screen >= 1.5 s"
+  },
+  "narration_snr": {
+   "win_s": 0.5,
+   "voice_active_rms": 0.01,
+   "min_db": 6.0
+  },
+  "on_screen_wording": {
+   "banned": [
+    "도해",
+    "참고",
+    "출처",
+    "AANS",
+    "OrthoInfo",
+    "과장",
+    "모식도"
+   ]
+  }
+ }
+}

@@ -1,0 +1,11 @@
+[
+  {"stage":"Hook","start":0,"end":3,"sample":1.3,"voice":"누워 있는 사랑니, 이렇게 뽑아요."},
+  {"stage":"Local anaesthesia","start":3,"end":7,"sample":4.65,"voice":"먼저 턱 뒤쪽에 국소 마취제를 주사해요."},
+  {"stage":"Incision and flap","start":7,"end":13,"sample":12.5,"voice":"잇몸을 절개하고, 절개한 잇몸을 들어 올려 그 아래 뼈를 드러내요."},
+  {"stage":"Bone removal","start":13,"end":19,"sample":15.9,"voice":"식염수로 식혀 가면서 사랑니 머리를 덮은 뼈를 갈아내요."},
+  {"stage":"Sectioning","start":19,"end":25,"sample":24.05,"voice":"치아에 홈을 내고 기구를 비틀어 머리와 뿌리를 갈라요."},
+  {"stage":"Crown and roots","start":25,"end":33,"sample":31.15,"voice":"머리를 먼저 꺼내요. 뿌리를 나눠 신경관 위에서 하나씩 들어 올려요."},
+  {"stage":"Socket and irrigation","start":33,"end":37,"sample":35,"voice":"치아가 빠진 자리를 식염수로 씻어요."},
+  {"stage":"Suture","start":37,"end":41,"sample":39.06,"voice":"잇몸을 제자리로 덮고 실로 묶어요."},
+  {"stage":"Clot","start":41,"end":44,"sample":42.5,"voice":"속에 생긴 피떡에서 치유가 시작돼요."}
+]

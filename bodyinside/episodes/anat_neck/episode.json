@@ -1,0 +1,865 @@
+{
+ "id": "anat_neck",
+ "fps": 30,
+ "duration": 36.0,
+ "lufs": -13.9,
+ "title": [
+  "거북목이 계속되면",
+  "목뼈에 생기는 일"
+ ],
+ "brand": "Body Inside",
+ "layout": {
+  "band_y": 470,
+  "band_h": 880,
+  "caption_size": 60,
+  "caption_dy": 14,
+  "brand_y": 1450,
+  "tags": false
+ },
+ "build": "build.py",
+ "render": {
+  "spp": 64,
+  "res": [
+   1080,
+   880
+  ]
+ },
+ "highlight": {
+  "structure": "CurveLine",
+  "hue": "amber"
+ },
+ "scene_cuts_declared": [],
+ "beats": [
+  {
+   "t0": 0,
+   "t1": 2.8,
+   "tag": "정상 목뼈",
+   "camera": "push_in",
+   "action": "curve line fades in; 5 kg",
+   "cap": [
+    [
+     "목뼈는 원래 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "C자",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     " 곡선",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "evidence": [
+    {
+     "type": "dump_change",
+     "key": "VertebraTint",
+     "f0": 84,
+     "f1": 104,
+     "min": 0.5
+    }
+   ]
+  },
+  {
+   "t0": 2.8,
+   "t1": 10,
+   "tag": "머리 하중",
+   "camera": "pull_back",
+   "action": "flexion 15/30/60 deg with load labels",
+   "cap": [
+    [
+     "고개 숙일수록 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "하중 증가",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ],
+   "evidence": [
+    {
+     "type": "pose_delta",
+     "joints": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "f0": 110,
+     "f1": 275,
+     "min_deg": 30
+    }
+   ]
+  },
+  {
+   "t0": 10,
+   "t1": 16.5,
+   "tag": "문자 입력 자세",
+   "camera": "hold",
+   "action": "neutral vs texting posture; angle arcs at three upper cervical levels; the overall curve stays lordotic",
+   "cap": [
+    [
+     "문자 입력 중, ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "일부 목뼈 마디 각도 변화",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ],
+   "evidence": [
+    {
+     "type": "pose_delta",
+     "joints": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "f0": 380,
+     "f1": 440,
+     "min_deg": 10
+    },
+    {
+     "type": "dump_change",
+     "key": "AngleArcs",
+     "f0": 344,
+     "f1": 366,
+     "min": 0.5
+    }
+   ]
+  },
+  {
+   "t0": 16.5,
+   "t1": 23.0,
+   "tag": "디스크",
+   "camera": "orbit_push",
+   "action": "disc compress, bulge toward nerve root",
+   "cap": [
+    [
+     "밀려난 디스크가 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "신경",
+     [
+      255,
+      214,
+      64
+     ]
+    ],
+    [
+     "을 누를 수도",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "evidence": [
+    {
+     "type": "object_scale",
+     "object": "Herniation",
+     "f": 650,
+     "radius_mm": 5.5,
+     "min_mm": 3.0
+    }
+   ]
+  },
+  {
+   "t0": 23.0,
+   "t1": 29.5,
+   "tag": "뒷목 근육",
+   "camera": "pull_back",
+   "action": "posterior muscles strain",
+   "cap": [
+    [
+     "뒷목 근육이 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "계속 버텨야 한다",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ],
+   "evidence": [
+    {
+     "type": "object_scale",
+     "object": "MuscleGlow",
+     "f": 770,
+     "radius_mm": 1.0,
+     "min_mm": 0.5
+    }
+   ]
+  },
+  {
+   "t0": 29.5,
+   "t1": 32.5,
+   "tag": "",
+   "camera": "pull_back_push_in",
+   "action": "caricature: head far forward and down, rounded shoulders, upper-back hump, reversed cervical curve; ear far in front of the shoulder",
+   "cap": [
+    [
+     "이런 자세가 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "굳어지면",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ],
+   "evidence": [
+    {
+     "type": "dump_change",
+     "key": "EarShoulderGapCm",
+     "f0": 800,
+     "f1": 900,
+     "min": 4
+    }
+   ]
+  },
+  {
+   "t0": 32.5,
+   "t1": 36.0,
+   "tag": "내 목은?",
+   "camera": "hold",
+   "action": "back to neutral, 5 kg",
+   "cap": [
+    [
+     "지금 내 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "귀",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     "는 어깨 위에?",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "evidence": [
+    {
+     "type": "anchors_visible",
+     "anchors": [
+      "A_Ear",
+      "A_Acro"
+     ],
+     "frames": [
+      1068,
+      1076
+     ]
+    },
+    {
+     "type": "anchors_apart",
+     "a": "A_Ear",
+     "b": "A_Acro",
+     "frames": [
+      1068,
+      1076
+     ],
+     "min_dy": 0.2
+    },
+    {
+     "type": "anchors_aligned",
+     "a": "A_Ear",
+     "b": "A_Acro",
+     "frames": [
+      1068,
+      1076
+     ],
+     "max_dx": 0.04
+    },
+    {
+     "type": "dump_change",
+     "key": "EarShoulderGapCm",
+     "f0": 968,
+     "f1": 1010,
+     "min": 5
+    }
+   ]
+  }
+ ],
+ "sfx": [
+  {
+   "part": "whoosh",
+   "t": 0.2,
+   "gain": 0.6
+  },
+  {
+   "part": "whoosh",
+   "t": 10.0,
+   "gain": 0.6
+  },
+  {
+   "part": "whoosh",
+   "t": 17.3,
+   "gain": 0.6
+  },
+  {
+   "part": "whoosh",
+   "t": 25.3,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 1.0,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 4.5,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 6.7,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 8.7,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 10.2,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 13.2,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 15.5,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 18.7,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 19.3,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 25.3,
+   "gain": 0.6
+  },
+  {
+   "part": "creak",
+   "t": 4.8,
+   "gain": 1.3
+  },
+  {
+   "part": "creak",
+   "t": 6.9,
+   "gain": 1.3
+  },
+  {
+   "part": "creak",
+   "t": 8.9,
+   "gain": 1.3
+  },
+  {
+   "part": "groan",
+   "t": 27.0,
+   "gain": 0.35
+  },
+  {
+   "part": "squish",
+   "t": 19.4,
+   "gain": 0.7
+  },
+  {
+   "part": "pulse",
+   "t": 20.2,
+   "gain": 0.9
+  },
+  {
+   "part": "pulse",
+   "t": 21.9,
+   "gain": 0.9
+  },
+  {
+   "part": "pulse",
+   "t": 23.6,
+   "gain": 0.9
+  },
+  {
+   "part": "pulse",
+   "t": 0.45,
+   "gain": 0.8
+  },
+  {
+   "part": "whoosh",
+   "t": 29.6,
+   "gain": 0.6
+  },
+  {
+   "part": "groan",
+   "t": 29.9,
+   "gain": 0.5
+  },
+  {
+   "part": "creak",
+   "t": 30.9,
+   "gain": 1.3
+  },
+  {
+   "part": "whoosh",
+   "t": 32.45,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 32.6,
+   "gain": 0.6
+  }
+ ],
+ "geometry_gates": {},
+ "labels": [
+  {
+   "id": "plumb",
+   "kind": "plumb",
+   "anchor": "A_Ear",
+   "anchor2": "A_Acro",
+   "f0": 975,
+   "f1": 1079,
+   "size": 66,
+   "text": "",
+   "claim": "C6",
+   "pill_dx": 140,
+   "pill_half_w": 70,
+   "ramp": 1,
+   "hold_end": true
+  },
+  {
+   "id": "legend",
+   "kind": "legend",
+   "f0": 560,
+   "f1": 686,
+   "dx": 24,
+   "dy": 600,
+   "size": 48,
+   "text": "범례",
+   "claim": "C4",
+   "items": [
+    {
+     "color": [
+      160,
+      168,
+      178
+     ],
+     "text": "디스크"
+    },
+    {
+     "color": [
+      242,
+      158,
+      5
+     ],
+     "text": "신경뿌리"
+    },
+    {
+     "color": [
+      230,
+      46,
+      5
+     ],
+     "text": "밀려난 디스크"
+    }
+   ],
+   "ramp": 34
+  },
+  {
+   "id": "gap",
+   "kind": "gap",
+   "anchor": "A_Ear",
+   "anchor2": "A_Acro",
+   "f0": 930,
+   "f1": 974,
+   "size": 66,
+   "text": "",
+   "claim": "C6",
+   "ramp": 14,
+   "hold_end": true
+  },
+  {
+   "id": "kg0",
+   "kind": "load",
+   "anchor": "A_Head",
+   "anchor2": "A_C7",
+   "f0": 84,
+   "f1": 118,
+   "kg": 5,
+   "text": "",
+   "sub": "머리 무게",
+   "size": 58,
+   "claim": "C7"
+  },
+  {
+   "id": "kg15",
+   "kind": "load",
+   "anchor": "A_Head",
+   "anchor2": "A_C7",
+   "f0": 104,
+   "f1": 299,
+   "kg": 12,
+   "text": "",
+   "sub": "고개 15°",
+   "size": 58,
+   "claim": "C1",
+   "hold_end": true
+  },
+  {
+   "id": "kg30",
+   "kind": "load",
+   "anchor": "A_Head",
+   "anchor2": "A_C7",
+   "f0": 200,
+   "f1": 299,
+   "kg": 18,
+   "text": "",
+   "sub": "고개 30°",
+   "size": 58,
+   "claim": "C1",
+   "hold_end": true
+  },
+  {
+   "id": "kg60",
+   "kind": "load",
+   "anchor": "A_Head",
+   "anchor2": "A_C7",
+   "f0": 260,
+   "f1": 299,
+   "kg": 27,
+   "text": "",
+   "sub": "고개 60°",
+   "size": 58,
+   "claim": "C1",
+   "hold_end": true
+  }
+ ],
+ "rigid_bend_check": {
+  "chain": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "frames": [
+   275,
+   300,
+   345,
+   410,
+   470,
+   510
+  ]
+ },
+ "no_overlap": [
+  [
+   "Mandible",
+   "Vertebra C3"
+  ],
+  [
+   "Mandible",
+   "Vertebra C4"
+  ],
+  [
+   "Mandible",
+   "Vertebra C5"
+  ],
+  [
+   "TeethLower",
+   "Vertebra C3"
+  ]
+ ],
+ "subject_size_allow": [
+  [
+   0,
+   16
+  ],
+  [
+   84,
+   100
+  ],
+  [
+   820,
+   1030
+  ]
+ ],
+ "scene_visibility": {
+  "CurveLine": [
+   [
+    86,
+    146
+   ],
+   [
+    290,
+    540
+   ]
+  ],
+  "Shoulder": [
+   [
+    1000,
+    1080
+   ]
+  ],
+  "Herniation": [
+   [
+    580,
+    720
+   ]
+  ],
+  "SkinRender": [
+   [
+    0,
+    116
+   ],
+   [
+    838,
+    1080
+   ]
+  ],
+  "AngleArcs": [
+   [
+    348,
+    508
+   ]
+  ]
+ },
+ "steady_glow": {
+  "MuscleGlow": [
+   726,
+   812
+  ]
+ },
+ "contact_color_check": {
+  "f0": 610,
+  "f1": 700,
+  "min_px": 150
+ },
+ "sfx_parts": [
+  {
+   "id": "bed",
+   "want": "low anatomical ambience, soft room tone hum",
+   "listen": "a low ambient drone",
+   "alts": [
+    "a quiet low drone pad",
+    "a soft low hum"
+   ],
+   "dur": 8,
+   "norm": 0.35
+  },
+  {
+   "id": "whoosh",
+   "want": "soft whoosh camera move",
+   "listen": "a swoosh passing by",
+   "alts": [
+    "a fast whoosh",
+    "a deep cinematic whoosh"
+   ],
+   "dur": 0.8
+  },
+  {
+   "id": "tick",
+   "want": "soft ui tick",
+   "listen": "a mouse click",
+   "alts": [
+    "a keyboard key click",
+    "a button click",
+    "a light tap",
+    "a camera shutter click",
+    "a clock tick"
+   ],
+   "dur": 0.2
+  },
+  {
+   "id": "creak",
+   "want": "slow bone creak",
+   "listen": "a creaking sound",
+   "alts": [
+    "a wooden creak",
+    "a door creak"
+   ],
+   "dur": 1.6
+  },
+  {
+   "id": "groan",
+   "want": "low tension groan, muscle strain",
+   "listen": "a low rumble",
+   "alts": [
+    "a deep growl",
+    "a distant rumble",
+    "a low creaking groan",
+    "a rumbling drone"
+   ],
+   "dur": 2.5
+  },
+  {
+   "id": "pulse",
+   "want": "single soft heartbeat thump",
+   "listen": "a heartbeat thump",
+   "alts": [
+    "a heartbeat",
+    "a soft kick drum"
+   ],
+   "dur": 0.4
+  },
+  {
+   "id": "squish",
+   "want": "soft wet squish",
+   "listen": "a liquid splash",
+   "alts": [
+    "a water drop",
+    "a squelch in mud",
+    "a bubbling sound",
+    "a soft pop"
+   ],
+   "dur": 0.6
+  }
+ ],
+ "sfx_bed": {
+  "part": "bed",
+  "gain": 0.4,
+  "curve": [
+   [
+    0,
+    0.4
+   ],
+   [
+    4,
+    0.4
+   ],
+   [
+    5,
+    0.75
+   ],
+   [
+    15,
+    0.75
+   ],
+   [
+    16,
+    0.4
+   ]
+  ]
+ },
+ "narration": [
+  {
+   "beat": 0,
+   "text": "목뼈는 원래 앞으로 살짝 휜 C자예요."
+  },
+  {
+   "beat": 1,
+   "text": "고개를 숙일수록 하중이 커져요. 컴퓨터 모델로는 60도에서 약 27킬로까지 추정돼요."
+  },
+  {
+   "beat": 2,
+   "text": "휴대폰으로 문자를 입력할 때 찍은 엑스레이에서, 일부 목뼈 마디의 각도가 달라졌어요."
+  },
+  {
+   "beat": 3,
+   "text": "눌린 디스크가 신경 쪽으로 밀려날 수도 있어요. 그러면 뿌리를 누를 수 있고요."
+  },
+  {
+   "beat": 4,
+   "text": "뒷목 근육은 계속 버텨야 해요. 고개가 앞으로 나가 있는 동안에는요."
+  },
+  {
+   "beat": 5,
+   "text": "이런 자세가 굳어지면, 이렇게 보일 수 있어요."
+  },
+  {
+   "beat": 6,
+   "text": "지금 내 귀는 어깨 위에 있나요?"
+  }
+ ],
+ "kg_variant": "B",
+ "xfades": [
+  {
+   "at": 816,
+   "n": 12,
+   "hold": 815
+  }
+ ],
+ "lexicon_heard": [
+  "씨짜|C짜",
+  "하중",
+  "눌린",
+  "신경쪽으로"
+ ]
+}

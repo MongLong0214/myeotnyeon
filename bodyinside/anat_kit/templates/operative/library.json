@@ -1,0 +1,733 @@
+{
+  "version": 1,
+  "fps": 30,
+  "cases": {
+    "crown_lengthening": {
+      "title": "잇몸 깎아 이 드러내기 (crown lengthening)",
+      "scope": "One illustration of the soft-tissue sculpting phase of esthetic crown lengthening for altered passive eruption, conventional arm; immediate change in visible crown only. No claim that bone surgery is unnecessary or that this margin is permanent.",
+      "hook": "잇몸 아래|숨은 앞니",
+      "hook_shot": "crown_hook",
+      "steps": [
+        "inspect_margin",
+        "incise",
+        "expose_crown",
+        "margin_payoff"
+      ]
+    },
+    "simple_extraction": {
+      "title": "앞니 한 개의 단순 발치",
+      "scope": "An erupted single upper incisor illustrated with conventional forceps in an adult simple extraction; visible movements only. No claim of a universally intact root, complication-free removal or a particular healing outcome.",
+      "hook": "뿌리까지|한 번에",
+      "hook_shot": "extraction_hook",
+      "steps": [
+        "grasp",
+        "luxate",
+        "deliver_whole",
+        "socket_payoff"
+      ]
+    }
+  },
+  "steps": {
+    "inspect_margin": {
+      "tool": "macro camera",
+      "target": "facial gingival margin",
+      "stage": "잇몸선",
+      "pmid": "35083533",
+      "frames": 99,
+      "captions": [
+        "잇몸이 덮은|앞니",
+        "앞니를 덮은|잇몸선"
+      ],
+      "thumbnail": 48,
+      "sfx": []
+    },
+    "incise": {
+      "tool": "No. 15 scalpel",
+      "target": "facial gingival margin",
+      "stage": "잇몸 성형",
+      "pmid": "35083533",
+      "frames": 120,
+      "captions": [
+        "잇몸선을 따라|다듬는다",
+        "잇몸 가장자리를|다듬는다"
+      ],
+      "thumbnail": 12,
+      "sfx": [
+        [
+          593682,
+          0.29,
+          5.58,
+          0.44
+        ],
+        [
+          593682,
+          0.71,
+          7.61,
+          0.3
+        ]
+      ]
+    },
+    "expose_crown": {
+      "tool": "macro camera",
+      "target": "exposed clinical crown",
+      "stage": "직후",
+      "pmid": "35083533",
+      "frames": 90,
+      "captions": [
+        "드러난|치아 표면",
+        "바로 드러난|치아 표면"
+      ],
+      "thumbnail": 46,
+      "sfx": []
+    },
+    "margin_payoff": {
+      "tool": "macro camera",
+      "target": "clinical crown",
+      "stage": "비교",
+      "pmid": "35083533",
+      "frames": 88,
+      "captions": [
+        "같은 앞니가|더 드러났다",
+        "더 많이 보이는|앞니"
+      ],
+      "thumbnail": 54,
+      "sfx": []
+    },
+    "grasp": {
+      "tool": "conventional extraction forceps",
+      "target": "erupted central incisor",
+      "stage": "잡기",
+      "pmid": "26604469",
+      "frames": 100,
+      "captions": [
+        "앞니를|잡는다",
+        "겸자가|이를 잡는다"
+      ],
+      "thumbnail": 64,
+      "sfx": [
+        [
+          155913,
+          0.87,
+          2.1,
+          0.25
+        ]
+      ]
+    },
+    "luxate": {
+      "tool": "conventional extraction forceps",
+      "target": "erupted central incisor",
+      "stage": "움직임",
+      "pmid": "26604469",
+      "frames": 105,
+      "captions": [
+        "치아가|조금씩 움직인다",
+        "앞니가|조금씩 흔들린다"
+      ],
+      "thumbnail": 53,
+      "sfx": [
+        [
+          211605,
+          0.32,
+          3.3,
+          0.22
+        ],
+        [
+          211605,
+          0.71,
+          6.7,
+          0.26
+        ]
+      ]
+    },
+    "deliver_whole": {
+      "tool": "conventional extraction forceps",
+      "target": "intact incisor and root",
+      "stage": "발치",
+      "pmid": "26604469",
+      "frames": 116,
+      "captions": [
+        "뿌리까지|함께 나온다",
+        "앞니가|통째로 나온다"
+      ],
+      "thumbnail": 58,
+      "sfx": [
+        [
+          211605,
+          0.43,
+          2.1,
+          0.34
+        ],
+        [
+          155913,
+          0.73,
+          4.2,
+          0.18
+        ]
+      ]
+    },
+    "socket_payoff": {
+      "tool": "macro camera",
+      "target": "extraction socket",
+      "stage": "발치 직후",
+      "pmid": "26604469",
+      "frames": 88,
+      "captions": [
+        "뿌리가 있던|자리",
+        "치아가 빠진|빈자리"
+      ],
+      "thumbnail": 48,
+      "sfx": []
+    }
+  },
+  "dbcls": {
+    "FJ1280": "5c06c01ee01c337523fc9cf641c31c65856a52c74237d9d86989d93dd6847c0e",
+    "FJ1279": "e8b9c01f57a8a723f9ea0497dfbe2df5f95e23786d0663f196a3608f995d6b22",
+    "FJ1265": "bd094c59fb378809a534467b70b5b24ae0b147bc31f42c004e7ddadf8f0b7328",
+    "FJ1266": "4df1ab640352a074623d02e755e7632de180da9dc957503f887c791a533d5ea5",
+    "FJ1278": "32f4db913923278b7cbfcaf8e64d1073604951dd58493e3310da30bec1ff3829",
+    "FJ1277": "46d0a4b9528553387811d65040836ccfe7dc971fec56254e01c9eabdc16156a0",
+    "FJ1262": "5f45ec1015edb7c7539a3ef7a7577d4a0a723beb4dbfb18e36eca77663431c18",
+    "FJ1264": "e882218931e8f197490f16ba8058a87502edccc5e8e1f2d50fbd715a0386d33b",
+    "FJ1275": "457c1d089e24d7e120abf97c2af844ff609a58c3292446e4b1814137d3691416",
+    "FJ1276": "95ba31eb43e4975d8f36be7595e383baf31b21b68c829a5e6c419a0125682ef6",
+    "FJ1261": "529061a7fdb28af07855e7350f788f93ef6c97e3bfead2e28bb9efe0256b0728",
+    "FJ1263": "5811bdc8cfed255f8aa9e10fa8dd4815b5d0924c2a23f1d7e373c8521be6c65a",
+    "FJ1281": "2d8f105ee772e727e3b4ccbb6370a893a213174c0f90155054dac20bc053512c",
+    "FJ1267": "44f5accf76e8b0a1ac2aefb55d031508fedad0bacda03b598aef71f88ca2462d",
+    "FJ1252": "f183027cd4512a5886d307aeb33737f0f2b20c841eac18583b332cc716c155b9",
+    "FJ3269": "ba97a37d471d6db65bca375a6413fd09e69e102017fb8a104d07255212d1b576",
+    "FJ3375": "99fde288184e5d9ccb08ff5547fc1a693b2ef0d6a12a80e47b711f51bd3f7906"
+  },
+  "archive": {
+    "final_surgery_v3.mp4": "13f66a753f3d2a063874b2531d457f4acdae6540b4a801ecf4b7ad35b72777bd",
+    "astra_surgery/draft5/surgery_draft5.blend": "08cf3cf756812cf5bc5a311dd9eeea4f21c43184909c96e7e81d430854c589b9",
+    "LICENCE_AUDIT.md": "7cb3cc4fa8bde710ef854c647e99145ae3b45665b4361faaa72f4fed298967f3",
+    "sfx_real/SOURCES_AUDIO.md": "e2c9b68f15f8e13d55285c61e0539d74f4d4bc902fcac3dfbe99e9a2144ed6e8",
+    "penetration_report.json": "6fdceee28fbd27963ebb3c4e527f4996ee52e4aecf851cadd1e4ef880105c7a0",
+    "astra_surgery/draft5/captions.json": "f5a38f70ac664071857712dddd1d4f7e7562c8370a7f979e4555a3487a737896",
+    "astra_surgery/draft5/label_tracks.json": "26f02d74df937a7a6e6292dbbba207aadd5c629b352663506295d614f9d592c5",
+    "astra_surgery/draft4/edit.py": "bb4775d5fa8a2306e8a88ed7550618957ecd899c5077bf50f138ffe036faae71",
+    "astra_surgery/draft3/bur.abc": "dac1f94de9cc103de63df21b313a567032c294fcefbc63beceb7ec0e51530032",
+    "astra_surgery/draft3/crown.abc": "24c5ec242b784870206a9b31b9158399aeae470a7acf77a69ae157488b0ac422",
+    "astra_surgery/draft3/margin.abc": "7d004f193e381ff6b6a4da58747ec6c422ff06f7e5a5b9e05653a528a2923dc5",
+    "astra_surgery/draft3/puncture.abc": "2c1c0af2ee6ffe6c2f62b725eb857cef76e6e6d90f8d38bfe0517f4fd74fa76c",
+    "astra_surgery/draft3/root1.abc": "fb5090d7bb09a75e54a903ab09375a1f392fcc1801a05d49f74287d33be746b8",
+    "astra_surgery/draft3/root2.abc": "c2c30623f97e436f5ef6dca096ba094e1dadacdbbe84d455c1de2993453a7d9b",
+    "astra_surgery/draft3/socket.abc": "09ca2147007e01c23e33711673edb0a2bc381fedf5f2f2ce6cdf317dffb534b5",
+    "astra_surgery/draft3/suction.abc": "f6233ad0f5d6b782b1ac79d706900025a0ceb663732a3790c9424844714b9086"
+  },
+  "fonts": {
+    "Pretendard-Bold.otf": "2e91915fab54df71cc9598ebf608b2bdb54c6fe3c066ac61dff0bc44fca71cc7",
+    "BlackHanSans-Regular.ttf": "31960809284026681774a8e52dc19ebcad26cf69b0ad9d560f288296fbb52739"
+  },
+  "audio": {
+    "728347": {
+      "sha256": "6847a3f396ecc5dedd47b28e34460bea9ece847349cae0fa792a77ac3bfcabb2",
+      "source": "https://freesound.org/s/728347/",
+      "licence": "CC0-1.0"
+    },
+    "707344": {
+      "sha256": "0c95b17533f092eca8a950a5fa73317fdf7c53cf21ca6375725e64987d40cb98",
+      "source": "https://freesound.org/s/707344/",
+      "licence": "CC0-1.0"
+    },
+    "707321": {
+      "sha256": "6e45c621af49e7bb5deaf4981d5f452587bd0abbe59331490011cea72fd4f33e",
+      "source": "https://freesound.org/s/707321/",
+      "licence": "CC0-1.0"
+    },
+    "680616": {
+      "sha256": "f5e5cf0037750fe1b2b61a475c0e4f7a509ef3bf5674db5d76baf96641834a84",
+      "source": "https://freesound.org/s/680616/",
+      "licence": "CC0-1.0"
+    },
+    "212178": {
+      "sha256": "338cb47d02951aa78e7dbf08e56704f942233eb8181712c99f647f329a938455",
+      "source": "https://freesound.org/s/212178/",
+      "licence": "CC0-1.0"
+    },
+    "209576": {
+      "sha256": "155ae95c33633a50ba870f38cf33fee4d24d7372f99e12bf3d2cb97636bbe141",
+      "source": "https://freesound.org/s/209576/",
+      "licence": "CC0-1.0"
+    },
+    "593682": {
+      "sha256": "3ed11735a1ea22564ea3e4d7072c88d496e1d56c57c1d942d677e35802ccf4b6",
+      "source": "https://freesound.org/s/593682/",
+      "licence": "CC0-1.0"
+    },
+    "211605": {
+      "sha256": "935723a0737cd1015b6dae04ea6688d60fe656569123c1029897f4b4302ad877",
+      "source": "https://freesound.org/s/211605/",
+      "licence": "CC0-1.0"
+    },
+    "574752": {
+      "sha256": "8c5c652b89f32907e95e1c84176db1c2453efcc8a56ca40f6b0bff74181718c8",
+      "source": "https://freesound.org/s/574752/",
+      "licence": "CC0-1.0"
+    },
+    "816678": {
+      "sha256": "0f0e97ce6f9b1578196c7da67c7c3dac5a12674952e2d3c12765cb23ef90ed03",
+      "source": "https://freesound.org/s/816678/",
+      "licence": "CC0-1.0"
+    },
+    "816680": {
+      "sha256": "9c660b6cfe4c7a81d5f223e139755db2c0e6793842a31dbe04ea2270f0bf93da",
+      "source": "https://freesound.org/s/816680/",
+      "licence": "CC0-1.0"
+    },
+    "155913": {
+      "sha256": "4037d6cac8adf06a87054f35313d422da02d71792a84976b285bfa55c682a4c7",
+      "source": "https://freesound.org/s/155913/",
+      "licence": "CC0-1.0"
+    },
+    "456772": {
+      "sha256": "872a78403a7d138e6220bc90041536b0333908f51cd0c816c8af42ee991e4b83",
+      "source": "https://freesound.org/s/456772/",
+      "licence": "CC0-1.0"
+    },
+    "563779": {
+      "sha256": "4ad3df5ea255f358a79168e7f62d16969963f7ceaadf49c517a334dcf2bca336",
+      "source": "https://freesound.org/s/563779/",
+      "licence": "CC0-1.0"
+    },
+    "481935": {
+      "sha256": "02baa58a8eb3a761248e4bd25b71d636499ffd22bda94622c30779c54ac321f5",
+      "source": "https://freesound.org/s/481935/",
+      "licence": "CC0-1.0"
+    },
+    "406512": {
+      "sha256": "74c6fd63f2c23c8c59b5fb0be387bfb2856ee29aeb60c0d44cce342ad7376a18",
+      "source": "https://freesound.org/s/406512/",
+      "licence": "CC0-1.0"
+    }
+  },
+  "music_sha256": "b9fd4e8feb17eaaa2e4f97ee3482a314f629fbcfc4e3a14e0462e52cdae985a9",
+  "sources": {
+    "35083533": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35083533/",
+      "claim": "Split-mouth trial in patients with altered passive eruption compared conventional soft tissue sculpting with diode laser, and reported gain in exposed coronal tooth structure."
+    },
+    "26604469": {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26604469/",
+      "claim": "200 adult simple-extraction cases, half using conventional forceps. The illustration is of a single intact removal, which was not universal in the study."
+    }
+  },
+  "surgery_ranges": {
+    "fracture": {
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": null,
+      "camera": "fracture",
+      "source_start": 1,
+      "frames": 60,
+      "tool": "straight elevator",
+      "target": "crown at the section",
+      "pmid": "33854724",
+      "caption": "사랑니가|갈라진다",
+      "thumbnail": 30,
+      "sfx": [
+        [
+          574752,
+          0.43,
+          3.84,
+          0.3
+        ]
+      ],
+      "fluid": null
+    },
+    "inject": {
+      "source_seconds": [
+        3.78,
+        6.59
+      ],
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": 1,
+      "camera": "anaesthesia",
+      "source_start": 73,
+      "frames": 45,
+      "tool": "dental syringe",
+      "target": "injection field",
+      "pmid": "36508551",
+      "caption": "먼저|국소 마취",
+      "thumbnail": 22,
+      "sfx": [
+        [
+          456772,
+          0.3,
+          1.39,
+          0.23
+        ]
+      ],
+      "fluid": "puncture"
+    },
+    "incise_wisdom": {
+      "source_seconds": [
+        7.22,
+        9.64
+      ],
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": 2,
+      "camera": "access",
+      "source_start": 129,
+      "frames": 60,
+      "tool": "No. 15 scalpel",
+      "target": "buccal gingival margin",
+      "pmid": "36508551",
+      "caption": "잇몸을|절개한다",
+      "thumbnail": 30,
+      "sfx": [
+        [
+          593682,
+          0.24,
+          5.74,
+          0.37
+        ]
+      ],
+      "fluid": "margin"
+    },
+    "reflect": {
+      "source_seconds": [
+        9.64,
+        12.8
+      ],
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": 2,
+      "camera": "access",
+      "source_start": 200,
+      "frames": 45,
+      "tool": "periosteal elevator",
+      "target": "mucoperiosteal flap",
+      "pmid": "36508551",
+      "caption": "잇몸을|젖힌다",
+      "thumbnail": 22,
+      "sfx": [
+        [
+          211605,
+          0.38,
+          5.25,
+          0.3
+        ]
+      ],
+      "fluid": "margin"
+    },
+    "drill": {
+      "source_seconds": [
+        13.47,
+        16.46
+      ],
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": 3,
+      "camera": "osteotomy",
+      "source_start": 253,
+      "frames": 68,
+      "tool": "round surgical bur",
+      "target": "buccal cortex",
+      "pmid": "36508551",
+      "caption": "치아를 덮은|뼈를 간다",
+      "thumbnail": 34,
+      "sfx": [
+        [
+          728347,
+          0.01,
+          0.34,
+          2.15
+        ],
+        [
+          680616,
+          0.22,
+          4.3,
+          1.45
+        ]
+      ],
+      "fluid": "bur",
+      "window_edit": {
+        "source_start": 251,
+        "frames": 104
+      },
+      "finish_edit": {
+        "frames": 91,
+        "sfx": [[728347, 0.01, 0.34, 3.0], [680616, 0.22, 4.3, 1.45]]
+      }
+    },
+    "suction": {
+      "source_seconds": [
+        16.46,
+        18.06
+      ],
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": 3,
+      "camera": "aspiration",
+      "source_start": 331,
+      "frames": 40,
+      "tool": "Frazier suction tip",
+      "target": "operative field",
+      "pmid": "36508551",
+      "caption": "고인 피를|흡입한다",
+      "thumbnail": 20,
+      "sfx": [
+        [
+          707321,
+          0.02,
+          3.39,
+          1.23
+        ]
+      ],
+      "fluid": "suction",
+      "window_edit": {
+        "source_start": 355,
+        "frames": 17,
+        "caption": "고인 피|흡입"
+      },
+      "finish_edit": {
+        "source_start": 342,
+        "frames": 30,
+        "sfx": [[707321, 0, 3.39, 1.0]]
+      }
+    },
+    "section": {
+      "source_seconds": [
+        19.2,
+        24.89
+      ],
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": 4,
+      "camera": "section",
+      "source_start": 376,
+      "frames": 65,
+      "tool": "rotary bur",
+      "target": "impacted third molar",
+      "pmid": "33854724",
+      "caption": "치아에|홈을 낸다",
+      "thumbnail": 32,
+      "sfx": [
+        [
+          728347,
+          0.015,
+          3.88,
+          2.02
+        ]
+      ],
+      "fluid": "bur"
+    },
+    "separate": {
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": 4,
+      "camera": "section",
+      "source_start": 448,
+      "frames": 44,
+      "tool": "straight elevator",
+      "target": "grooved crown",
+      "pmid": "33854724",
+      "caption": "홈을 따라|가른다",
+      "thumbnail": 22,
+      "sfx": [
+        [
+          574752,
+          0.42,
+          7.66,
+          0.35
+        ]
+      ],
+      "fluid": "crown"
+    },
+    "elevate": {
+      "source_seconds": [
+        24.89,
+        32.84
+      ],
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": 5,
+      "camera": "delivery",
+      "source_start": 498,
+      "frames": 44,
+      "tool": "straight elevator",
+      "target": "sectioned crown",
+      "pmid": "33854724",
+      "caption": "치관부터|꺼낸다",
+      "thumbnail": 22,
+      "sfx": [
+        [
+          211605,
+          0.36,
+          2.2,
+          0.3
+        ]
+      ],
+      "fluid": "crown"
+    },
+    "deliver_root": {
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": 5,
+      "camera": "delivery",
+      "source_start": 640,
+      "frames": 53,
+      "tool": "straight elevator",
+      "target": "sectioned root",
+      "pmid": "33854724",
+      "caption": "나눈 뿌리를|꺼낸다",
+      "thumbnail": 26,
+      "sfx": [
+        [
+          211605,
+          0.43,
+          6.38,
+          0.3
+        ]
+      ],
+      "fluid": "root2",
+      "window_edit": {
+        "source_start": 640,
+        "frames": 53,
+        "caption": "다음 뿌리를|꺼낸다"
+      }
+    },
+    "irrigate": {
+      "source_seconds": [
+        33.91,
+        36.17
+      ],
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": 6,
+      "camera": "socket",
+      "source_start": 749,
+      "frames": 52,
+      "tool": "blunt irrigation cannula",
+      "target": "extraction socket",
+      "pmid": "36508551",
+      "caption": "식염수로|씻는다",
+      "thumbnail": 26,
+      "sfx": [
+        [
+          680616,
+          0.01,
+          108.98,
+          1.6
+        ]
+      ],
+      "fluid": "socket"
+    },
+    "suture": {
+      "source_seconds": [
+        37.59,
+        42.04
+      ],
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": 7,
+      "camera": "closure",
+      "source_start": 854,
+      "frames": 65,
+      "tool": "needle holder and curved needle",
+      "target": "gingival flap",
+      "pmid": "36508551",
+      "caption": "잇몸을|꿰맨다",
+      "thumbnail": 32,
+      "sfx": [
+        [
+          456772,
+          0.32,
+          6,
+          0.23
+        ],
+        [
+          155913,
+          0.73,
+          2.89,
+          0.25
+        ]
+      ],
+      "fluid": null,
+      "finish_edit": {
+        "source_start": 854,
+        "frames": 90,
+        "caption": "절개선을|꿰맨다"
+      }
+    },
+    "specimen": {
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": null,
+      "camera": "specimen",
+      "source_start": 986,
+      "frames": 49,
+      "tool": "specimen forceps",
+      "target": "retrieved tooth pieces",
+      "pmid": "33854724",
+      "caption": "꺼낸 치아|조각들",
+      "thumbnail": 24,
+      "sfx": [
+        [
+          155913,
+          0.34,
+          5.57,
+          0.25
+        ]
+      ],
+      "fluid": null,
+      "finish_edit": {
+        "source_start": 986,
+        "frames": 68,
+        "caption": "꺼낸 치아|세 조각"
+      }
+    }
+  },
+  "source_files": {
+    "episodes/anat_wisdom/astra_surgery/assets/Metal032_1K-JPG_Roughness.jpg": "55d3eee2b69008ad3701b18977495531d0e3515105102e56f40a4d1098d10bce",
+    "episodes/anat_wisdom/astra_surgery/assets/clinical_attached.png": "55c94852bba19a3f43e7ff9edf242037feb2ccc5e9e38831d73ace5be42c3841",
+    "episodes/anat_wisdom/astra_surgery/assets/clinical_lining.png": "df38b07c5ef29de500aa86e663bcea34fcbd7eec4fb4b8c3cf378c70b04279e9",
+    "episodes/anat_wisdom/astra_surgery/assets/leather_red_02_disp_1k.jpg": "523b9c432c152c49565a21d631fabf851a5d79cb170b69162ad0c922429fb2a8",
+    "episodes/anat_wisdom/astra_surgery/assets/leather_red_02_rough_1k.jpg": "dd3b860a9510a44fd857c04e0c8cc63ea1f944c25abe9bdcbf844cc4a22c88d8",
+    "episodes/anat_wisdom/astra_surgery/assets/coral_gravel_disp_1k.jpg": "b5f8692c7192e81690a560d1e7314d2ef6900e6c64762bb93b55a06ac33d127d",
+    "episodes/anat_wisdom/astra_surgery/draft3/mucosal_microstructure.png": "ffa17fff19acdfd352bbe1f9adc3a754114b9571486f9ebf69cd69cf64f38b0f",
+    "research/anatomy3d/bodyparts3d_4.0/isa_element_parts.txt": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf",
+    "research/anatomy3d/bodyparts3d_4.0/lic.html": "3769e8473417021089670c7a98dcfd5668480378215436f7e9aea79c8e4b029d",
+    "branding/_src/public/fonts/OFL_BlackHanSans.txt": "c324192c8b3a988bae45a9a7e4ac1258b684739003bda114e0523423440457c9",
+    "branding/_src/public/fonts/OFL_Pretendard.txt": "b04538c9abec39a3db75108cf0af0fd9c77032fe8aa2cf38345b4d250e98e38e"
+  },
+  "surgery_root_insertions": {
+    "divide_roots": {
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": 5,
+      "camera": "delivery",
+      "source_start": 542,
+      "frames": 26,
+      "tool": "rotary sectioning bur",
+      "target": "remaining root",
+      "pmid": "33854724",
+      "caption": "남은 뿌리를|나눈다",
+      "thumbnail": 13,
+      "sfx": [
+        [
+          728347,
+          0.04,
+          3.88,
+          0.64
+        ]
+      ],
+      "fluid": "bur"
+    },
+    "deliver_first_root": {
+      "scene": "astra_surgery/draft5/surgery_draft5.blend",
+      "stage": 5,
+      "camera": "delivery",
+      "source_start": 568,
+      "frames": 72,
+      "tool": "straight elevator",
+      "target": "superior root segment",
+      "pmid": "33854724",
+      "caption": "첫 뿌리를|꺼낸다",
+      "thumbnail": 43,
+      "sfx": [
+        [
+          211605,
+          0.38,
+          2.2,
+          0.3
+        ]
+      ],
+      "fluid": "root1"
+    }
+  },
+  "archive_instrument_contacts": {
+    "path": "astra_surgery/draft5/contact_checks.json",
+    "sha256": "07ffcab4622593f77133f85c93418e72249ca55ffb77208ae8412ee0011b90ae"
+  }
+}

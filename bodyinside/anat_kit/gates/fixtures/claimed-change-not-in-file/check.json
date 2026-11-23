@@ -1,0 +1,19 @@
+{
+ "fn": "changed_beats_differ",
+ "args": [
+  "new.mp4",
+  "prev.mp4",
+  [
+   [
+    0,
+    90
+   ],
+   [
+    100,
+    190
+   ]
+  ]
+ ],
+ "kwargs": {},
+ "origin": "neck draft19.mp4 vs draft17.mp4, frames f885-f975 (payoff) -> clip 0-90 and f0-f90 (opening hold) -> clip 100-190"
+}

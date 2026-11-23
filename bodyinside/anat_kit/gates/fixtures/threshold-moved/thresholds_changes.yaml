@@ -1,0 +1,29 @@
+- date: '2026-11-21'
+  keys:
+  - review_gate.opus.pass_final
+  - review_gate.fable.pass_final
+  reason: 'initial lock: review_gate pass bar = rubric.md factory bar 9.5 (owner 2026-11-21) for both graders until Opus is calibrated'
+  sha256: e57c8a63171151cfed360bdd958eca4c73fa9396064ff363b872491bcf689359
+- date: '2026-11-21'
+  keys:
+  - review_gate.opus.confirm_p0
+  - media_checks
+  reason: provisional media_checks starting values (before measurement on pass references); Opus P0s re-checked on native crops because round-1 calibration found size/noise misreads on downscaled stills
+  sha256: 648b6b8a76ca36c0bc772f519a4382b945188914f2ed23833109d15b500c7c63
+- date: '2026-11-21'
+  keys:
+  - review_gate.opus.pass_final
+  - review_gate.opus.runs
+  reason: 'Opus calibration (9 runs on 3 drafts Fable scored 8.5-9): Opus never exceeded 7.0 on them, run spread +-0.75, so the Opus bar is the mean of 2 runs >= 7.5 with no confirmed P0; Fable audit stays
+    on finals'
+  sha256: 489fc6008b030233d751ad2483f28f9c50cae380d004f7f64c0b785ee1d8d7d1
+- date: '2026-11-21'
+  keys:
+  - media_checks
+  reason: media_checks thresholds set from measured separation between reviewer-flagged drafts and accepted drafts (values and sources in each note)
+  sha256: 3a1799ed3fe3581a56b390ddc56de34a32b69ebb4adf83ae26231a18eae1c12a
+- date: '2026-11-21'
+  keys:
+  - media_checks.beat_activity
+  reason: 'removed beat_activity: per-frame change could not separate a held pose from motion across render presets (draft15 2.6, draft17 0.9, draft19 2.1 for the same held muscle pose)'
+  sha256: 3c515a2c44da62954f7315b1eef84a7417848d4b826c5bebfdf2e53bde868dad

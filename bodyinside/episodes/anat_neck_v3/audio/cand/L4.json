@@ -1,0 +1,32 @@
+[
+ {
+  "cand": 0,
+  "take": 0,
+  "text": "이 자세에서는 머리가 몸통보다 앞으로 나와 보여요.",
+  "file": "./audio/cand/L4_c0_t0.wav",
+  "syll": 21,
+  "rate": 6.4,
+  "atempo": 1.103,
+  "dur": 3.283
+ },
+ {
+  "cand": 0,
+  "take": 1,
+  "text": "이 자세에서는 머리가 몸통보다 앞으로 나와 보여요.",
+  "file": "./audio/cand/L4_c0_t1.wav",
+  "syll": 21,
+  "rate": 6.66,
+  "atempo": 0.95,
+  "dur": 3.155
+ },
+ {
+  "cand": 0,
+  "take": 2,
+  "text": "이 자세에서는 머리가 몸통보다 앞으로 나와 보여요.",
+  "file": "./audio/cand/L4_c0_t2.wav",
+  "syll": 21,
+  "rate": 6.39,
+  "atempo": 1.026,
+  "dur": 3.289
+ }
+]

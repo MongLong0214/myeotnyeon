@@ -1,0 +1,222 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "anat_kit episode",
+ "type": "object",
+ "required": [
+  "id",
+  "fps",
+  "duration",
+  "title",
+  "layout",
+  "render",
+  "beats",
+  "claims",
+  "shots"
+ ],
+ "properties": {
+  "id": {
+   "type": "string"
+  },
+  "fps": {
+   "const": 30
+  },
+  "duration": {
+   "type": "number",
+   "minimum": 10,
+   "maximum": 60
+  },
+  "title": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   },
+   "minItems": 2,
+   "maxItems": 2
+  },
+  "brand": {
+   "type": "string",
+   "default": "Body Inside"
+  },
+  "region": {
+   "enum": [
+    "neck",
+    "jaw"
+   ]
+  },
+  "beats": {
+   "type": "array",
+   "minItems": 3,
+   "items": {
+    "type": "object",
+    "required": [
+     "t0",
+     "t1",
+     "tag",
+     "camera",
+     "cap"
+    ],
+    "properties": {
+     "t0": {
+      "type": "number"
+     },
+     "t1": {
+      "type": "number"
+     },
+     "tag": {
+      "type": "string"
+     },
+     "camera": {
+      "enum": [
+       "push_in",
+       "pull_back",
+       "orbit",
+       "orbit_push",
+       "hold",
+       "follow",
+       "hold_drift"
+      ]
+     },
+     "posture": {
+      "type": "string",
+      "description": "named posture state reached by the end of the beat"
+     },
+     "actions": {
+      "type": "array",
+      "items": {
+       "enum": [
+        "pulse",
+        "dissolve",
+        "highlight",
+        "section",
+        "extract",
+        "bulge",
+        "muscles",
+        "curve_line"
+       ]
+      }
+     },
+     "cap": {
+      "type": "array",
+      "items": {
+       "type": "array",
+       "minItems": 2,
+       "maxItems": 2
+      }
+     }
+    }
+   }
+  },
+  "labels": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "kind",
+     "text",
+     "f0",
+     "f1"
+    ],
+    "properties": {
+     "kind": {
+      "enum": [
+       "pill",
+       "callout",
+       "angle_arc",
+       "bracket",
+       "gap",
+       "plumb",
+       "legend",
+       "note",
+       "inset",
+       "arrow_load",
+       "load"
+      ]
+     },
+     "anchor": {
+      "type": "string"
+     },
+     "surface": {
+      "type": "string",
+      "minLength": 1
+     },
+     "context_surfaces": {
+      "type": "object",
+      "additionalProperties": {
+       "type": "string",
+       "minLength": 1
+      }
+     }
+    }
+   }
+  },
+  "claims": {
+   "type": "array",
+   "description": "every on-screen fact: id, text, source row id in SOURCES.md",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "text",
+     "source"
+    ]
+   }
+  },
+  "credits": false,
+  "shots": {
+   "type": "array",
+   "minItems": 3,
+   "items": {
+    "type": "object",
+    "required": [
+     "kind",
+     "f0",
+     "f1"
+    ],
+    "properties": {
+     "kind": {
+      "enum": [
+       "person",
+       "dissolve",
+       "anatomy"
+      ]
+     },
+     "f0": {
+      "type": "integer",
+      "minimum": 0
+     },
+     "f1": {
+      "type": "integer",
+      "minimum": 1
+     }
+    }
+   }
+  },
+  "template": {
+   "enum": [
+    "neck_v3",
+    "wisdom"
+   ]
+  },
+  "narration": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "beat",
+     "text"
+    ],
+    "properties": {
+     "beat": {
+      "type": "integer",
+      "minimum": 0
+     },
+     "text": {
+      "type": "string",
+      "minLength": 1
+     }
+    }
+   }
+  }
+ }
+}

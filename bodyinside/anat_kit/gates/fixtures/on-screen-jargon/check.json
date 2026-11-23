@@ -1,0 +1,8 @@
+{
+ "fn": "on_screen_wording",
+ "args": [
+  "episode.json"
+ ],
+ "kwargs": {},
+ "origin": "strings visible in neck frames_draft07 f620: note \"AANS · OrthoInfo 참고 도해\", legend; caption of that beat"
+}

@@ -1,0 +1,19 @@
+거북목이 계속되면 목뼈에 생기는 일
+
+3D 모델 출처 / 3D model credit
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International
+출처 링크 / Source: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/  (Release 4.0, DOI 10.18908/lsdba.nbdc00837-000)
+라이선스 / Licence: CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+변형 내용 / Changes made by us: OBJ 삼각형 용접(0.01 mm), 복셀 리메시와 스무딩, 정중시상 단면 절개(절단면 재질 추가), 두개골 뼈 병합, 자세 변형(목 굽힘 리깅), 근육 재배치, 재질·조명 교체. 추간판(디스크)·척수·신경뿌리·곡선·라벨은 자체 제작.
+Changes: triangles welded (0.01 mm), voxel-remeshed and smoothed, cut at the mid-sagittal plane (cut-face materials added), cranial bones merged, re-posed with a flexion rig, muscles re-skinned, materials/lighting replaced. Discs, spinal cord, nerve roots, curve line and labels are our own.
+배포처 고지 / Notices provided by the distributor: the licence page asks for attribution in the manner above when distributing the database or any adapted material; no other notice is provided (lic.html, last updated 2025/02/27).
+Fonts: Pretendard, Black Han Sans (OFL 1.1). HDRI: Poly Haven "Studio Small 09" (CC0).
+인물 / Character: MakeHuman 자산(MPFB 2, CC0 1.0) 기반 자체 제작 인물, 모션 일부 Adobe Mixamo. 휴대폰·안경 등 소품은 자체 제작.
+이 영상은 3D 일러스트이며 의학적 조언이 아닙니다. 내레이션의 하중 수치는 컴퓨터 모델(Hansraj 2014) 기준 추정치입니다.
+
+내레이션 / Narration: Qwen3-TTS 12Hz-1.7B CustomVoice (speaker Sohee, Apache-2.0), local AI synthesis. SFX: procedural. Image: 3D CG illustration, not medical advice.
+
+참고 / References:
+Hansraj KK. Assessment of stresses in the cervical spine caused by posture and position of the head. Surg Technol Int. 2014;25:277-9.
+Mahmoud NF et al. Curr Rev Musculoskelet Med. 2019;12:562.
+Trior Simonovich et al. J Spine Surg. 2025;11:977. PMID 41509843. (smartphone texting: intervertebral angles changed at some levels, mostly upper cervical; global lordosis did not change significantly)

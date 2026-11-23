@@ -1,0 +1,9 @@
+{
+ "fn": "narration_gaps",
+ "args": [
+  "../narration-masked/audio",
+  "episode.json"
+ ],
+ "kwargs": {},
+ "origin": "neck draft19 stems + episode.json beats (fable_review12/13: 1.4-3.3 s silences)"
+}

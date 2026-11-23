@@ -1,0 +1,69 @@
+{
+ "subject_size": {
+  "ok": true,
+  "violations": [],
+  "n": 0
+ },
+ "dead_time": {
+  "ok": true,
+  "dead_windows_start_frames": [],
+  "n": 0
+ },
+ "text_size": {
+  "ok": true,
+  "too_small": []
+ },
+ "leaders_cross": {
+  "ok": true,
+  "crossing_frames": [],
+  "n": 0
+ },
+ "rigid_bend": {
+  "ok": true,
+  "rigid_frames": []
+ },
+ "visibility_windows": {
+  "ok": true,
+  "visible_outside_window": []
+ },
+ "steady_glow_MuscleGlow": {
+  "ok": true,
+  "turns": 1
+ },
+ "red_contact": {
+  "ok": true,
+  "max_red_px": 873,
+  "need": 150
+ },
+ "opening_event": {
+  "ok": true,
+  "subject_area_at_f12": 0.62,
+  "max_motion_f0_15": 18.5
+ },
+ "labels_clear_of_anchors": {
+  "ok": true,
+  "covers_subject": []
+ },
+ "audio_balance": {
+  "ok": true,
+  "mid_band_share": 0.142,
+  "loudness_range_db": 15.1
+ },
+ "labels_anchored": {
+  "ok": true,
+  "unanchored": []
+ },
+ "label_beat_alignment": {
+  "ok": true,
+  "spans_caption_change": []
+ },
+ "audio_fit": {
+  "ok": true,
+  "poor_fit": []
+ },
+ "caption_truth": {
+  "ok": true,
+  "unproven": []
+ },
+ "pass": true
+}

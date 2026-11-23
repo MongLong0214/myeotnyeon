@@ -1,0 +1,38 @@
+{
+ "bed": {
+  "used": "a soft low hum",
+  "z": 2.03,
+  "verdict": "weak",
+  "tried": [
+   {
+    "want": "low anatomical ambience, soft room tone hum",
+    "z": 0.97,
+    "verdict": "no match"
+   },
+   {
+    "want": "a quiet low drone pad",
+    "z": 1.91,
+    "verdict": "no match"
+   },
+   {
+    "want": "a soft low hum",
+    "z": 2.03,
+    "verdict": "weak"
+   }
+  ],
+  "pass": true
+ },
+ "whoosh": {
+  "used": "soft whoosh camera move",
+  "z": 3.79,
+  "verdict": "strong",
+  "tried": [
+   {
+    "want": "soft whoosh camera move",
+    "z": 3.79,
+    "verdict": "strong"
+   }
+  ],
+  "pass": true
+ }
+}

@@ -1,0 +1,125 @@
+{
+ "review_gate": {
+  "opus": {
+   "pass_final": 9.5,
+   "runs": 2,
+   "confirm_p0": true,
+   "max_usd": 20,
+   "timeout_s": 2400,
+   "note": "Owner factory bar on the EBS=7 overall scale. Report score agreement and P0 recall separately.",
+   "min_area_composite": 7.5,
+   "fable_scale": {
+    "slope": 0.22277235421641478,
+    "intercept": -9.839975037373527,
+    "areas": {
+     "anatomy": 9.044410912230704e-20,
+     "cutaway": 2.4829893623720202e-17,
+     "motion": 1.5608335934553038e-20,
+     "labels": 0.29233647093498666,
+     "hook": 1.5479134200281376e-21,
+     "facts": 1.5436516008487575,
+     "audio": 0.4479460722913775
+    },
+    "raw_support": [
+     4.75,
+     7.75
+    ],
+    "upper_anchor": 9.5,
+    "development_cv_mae": {
+     "0": 1.34375,
+     "16": 1.21875,
+     "4": 1.0625,
+     "1": 0.90625
+    },
+    "ridge_penalty": 1
+   }
+  },
+  "fable": {
+   "pass_final": 9.5,
+   "confirm_p0": false,
+   "max_usd": 25,
+   "timeout_s": 2400,
+   "note": "audit only (once on the final of a measured episode)"
+  }
+ },
+ "media_checks": {
+  "mp4_matches_frames": {
+   "step": 30,
+   "max_median_diff": 7.5,
+   "note": "own folder <= 6.4, another draft's folder up to 9.8 (neck 14-19)"
+  },
+  "changed_beats_differ": {
+   "min_diff": 1.0,
+   "note": "unchanged payoff draft19 vs 17 = 0.42; real changes 1.6-17.6"
+  },
+  "claimed_fixes_visible": {
+   "min_diff": 1.5,
+   "note": "mouth smudge draft16 vs 15 = 0.58 (reviewer: partial); fixed items 3.6-10.8"
+  },
+  "rim_bevel": {
+   "min_bevel_mm": 0.45,
+   "note": "draft10 0.26 mm (review 7: no rim); draft15/17 0.57-0.66 mm accepted"
+  },
+  "no_speckle": {
+   "min_px": 1000,
+   "max_rel_residual": 0.08,
+   "note": "draft19 fast preset 0.09-0.135; drafts 11-17 0.029-0.063"
+  },
+  "figure_reads_human": {
+   "vis_luma": 30,
+   "min_height": 0.66,
+   "min_luma": 60,
+   "note": "review 12: figure at least two thirds of the band height"
+  },
+  "establishing_shot": {
+   "min_area": 0.05,
+   "min_s": 1.5,
+   "note": "owner: person on screen >= 1.5 s"
+  },
+  "narration_snr": {
+   "win_s": 0.5,
+   "voice_active_rms": 0.01,
+   "min_db": 6.0
+  },
+  "on_screen_wording": {
+   "banned": [
+    "도해",
+    "참고",
+    "출처",
+    "AANS",
+    "OrthoInfo",
+    "과장",
+    "모식도",
+    "단순화한 3D 그림"
+   ]
+  },
+  "narration_gaps": {
+   "max_gap_s": 1.5,
+   "note": "review 13 called 1.4 s acceptable-partial and 1.7 / 2.6 s gaps"
+  },
+  "caption_reading_speed": {
+   "max_cps": 7.5,
+   "note": "CEO: 7.8 chars/s tight (wisdom draft21); shipped final 7.1"
+  }
+ },
+ "human": {
+  "opening_s": 2,
+  "payoff_ear_offset_m": [
+   0.12,
+   0.15
+  ]
+ },
+ "shot_checks": {
+  "min_transition_area": 0.065,
+  "landmark_radius_px": 13,
+  "astra_neck_cord_stop_m": 1.4,
+  "bone_landmark_max_skin_alpha": 0.1,
+  "landmark_visibility_depth_m": 0.012
+ },
+ "draft_render_max_s": 300,
+ "visibility_pop": {
+  "pixel_excursion": 10,
+  "min_area_fraction": 0.02,
+  "isolation_ratio": 8
+ }
+}

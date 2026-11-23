@@ -1,0 +1,30 @@
+{
+ "subject_size": {
+  "ok": true,
+  "violations": [],
+  "n": 0
+ },
+ "dead_time": {
+  "ok": true,
+  "dead_windows_start_frames": [],
+  "n": 0
+ },
+ "text_size": {
+  "ok": true,
+  "too_small": []
+ },
+ "leaders_cross": {
+  "ok": true,
+  "crossing_frames": [],
+  "n": 0
+ },
+ "rigid_bend": {
+  "ok": true,
+  "rigid_frames": []
+ },
+ "caption_truth": {
+  "ok": true,
+  "unproven": []
+ },
+ "pass": true
+}

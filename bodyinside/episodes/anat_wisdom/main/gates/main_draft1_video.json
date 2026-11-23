@@ -1,0 +1,508 @@
+{
+ "fps": {
+  "fps": 30.0,
+  "dup_ratio": 0.0,
+  "ok": true
+ },
+ "freeze": {
+  "events": [
+   "1.333333"
+  ],
+  "ok": false
+ },
+ "highlight": {
+  "hue_hist": [
+   210832,
+   168963,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   25
+  ],
+  "unexpected_bins": [],
+  "ok": true
+ },
+ "noise": {
+  "hp_std": 1.67,
+  "fireflies_max": 0,
+  "ok": true,
+  "blocking": false
+ },
+ "hook": {
+  "subject_frac": 0.0221,
+  "contrast": 0.61,
+  "ok": true
+ },
+ "safe_area": {
+  "violations": [],
+  "ok": true
+ },
+ "flash": {
+  "spikes": [
+   {
+    "frame": 60,
+    "delta": 48.52,
+    "local_median": 0.53
+   },
+   {
+    "frame": 121,
+    "delta": 8.9,
+    "local_median": 2.69
+   },
+   {
+    "frame": 122,
+    "delta": 12.64,
+    "local_median": 2.69
+   },
+   {
+    "frame": 123,
+    "delta": 14.6,
+    "local_median": 2.69
+   },
+   {
+    "frame": 124,
+    "delta": 14.53,
+    "local_median": 2.71
+   },
+   {
+    "frame": 125,
+    "delta": 12.85,
+    "local_median": 2.71
+   },
+   {
+    "frame": 126,
+    "delta": 9.35,
+    "local_median": 2.71
+   },
+   {
+    "frame": 181,
+    "delta": 8.68,
+    "local_median": 2.89
+   },
+   {
+    "frame": 182,
+    "delta": 12.29,
+    "local_median": 2.89
+   },
+   {
+    "frame": 183,
+    "delta": 14.03,
+    "local_median": 2.88
+   },
+   {
+    "frame": 184,
+    "delta": 14.12,
+    "local_median": 2.88
+   },
+   {
+    "frame": 185,
+    "delta": 12.52,
+    "local_median": 2.88
+   },
+   {
+    "frame": 186,
+    "delta": 8.84,
+    "local_median": 2.88
+   },
+   {
+    "frame": 241,
+    "delta": 3.3,
+    "local_median": 1.03
+   },
+   {
+    "frame": 242,
+    "delta": 4.68,
+    "local_median": 1.03
+   },
+   {
+    "frame": 243,
+    "delta": 5.38,
+    "local_median": 1.03
+   },
+   {
+    "frame": 244,
+    "delta": 5.31,
+    "local_median": 1.01
+   },
+   {
+    "frame": 245,
+    "delta": 4.68,
+    "local_median": 1.01
+   },
+   {
+    "frame": 246,
+    "delta": 3.49,
+    "local_median": 1.01
+   },
+   {
+    "frame": 301,
+    "delta": 3.28,
+    "local_median": 1.02
+   },
+   {
+    "frame": 302,
+    "delta": 4.67,
+    "local_median": 1.02
+   },
+   {
+    "frame": 303,
+    "delta": 5.42,
+    "local_median": 1.03
+   },
+   {
+    "frame": 304,
+    "delta": 5.44,
+    "local_median": 1.03
+   },
+   {
+    "frame": 305,
+    "delta": 4.87,
+    "local_median": 1.03
+   },
+   {
+    "frame": 306,
+    "delta": 3.61,
+    "local_median": 1.03
+   },
+   {
+    "frame": 362,
+    "delta": 2.84,
+    "local_median": 0.83
+   },
+   {
+    "frame": 363,
+    "delta": 3.32,
+    "local_median": 0.87
+   },
+   {
+    "frame": 364,
+    "delta": 3.33,
+    "local_median": 0.87
+   },
+   {
+    "frame": 365,
+    "delta": 2.91,
+    "local_median": 0.87
+   },
+   {
+    "frame": 421,
+    "delta": 10.04,
+    "local_median": 3.16
+   },
+   {
+    "frame": 422,
+    "delta": 14.28,
+    "local_median": 3.17
+   },
+   {
+    "frame": 423,
+    "delta": 16.51,
+    "local_median": 3.17
+   },
+   {
+    "frame": 424,
+    "delta": 16.36,
+    "local_median": 3.17
+   },
+   {
+    "frame": 425,
+    "delta": 14.45,
+    "local_median": 3.17
+   },
+   {
+    "frame": 426,
+    "delta": 10.4,
+    "local_median": 3.17
+   },
+   {
+    "frame": 542,
+    "delta": 16.46,
+    "local_median": 4.11
+   },
+   {
+    "frame": 543,
+    "delta": 18.69,
+    "local_median": 4.11
+   },
+   {
+    "frame": 544,
+    "delta": 19.01,
+    "local_median": 4.11
+   },
+   {
+    "frame": 545,
+    "delta": 16.44,
+    "local_median": 4.11
+   },
+   {
+    "frame": 601,
+    "delta": 2.98,
+    "local_median": 0.71
+   },
+   {
+    "frame": 602,
+    "delta": 4.16,
+    "local_median": 0.73
+   },
+   {
+    "frame": 603,
+    "delta": 4.83,
+    "local_median": 0.73
+   },
+   {
+    "frame": 604,
+    "delta": 4.67,
+    "local_median": 0.73
+   },
+   {
+    "frame": 605,
+    "delta": 4.16,
+    "local_median": 0.73
+   },
+   {
+    "frame": 606,
+    "delta": 2.99,
+    "local_median": 0.73
+   },
+   {
+    "frame": 662,
+    "delta": 2.36,
+    "local_median": 0.55
+   },
+   {
+    "frame": 663,
+    "delta": 2.82,
+    "local_median": 0.55
+   },
+   {
+    "frame": 664,
+    "delta": 2.81,
+    "local_median": 0.55
+   },
+   {
+    "frame": 665,
+    "delta": 2.52,
+    "local_median": 0.55
+   },
+   {
+    "frame": 666,
+    "delta": 1.85,
+    "local_median": 0.55
+   },
+   {
+    "frame": 721,
+    "delta": 2.38,
+    "local_median": 0.75
+   },
+   {
+    "frame": 722,
+    "delta": 3.42,
+    "local_median": 0.75
+   },
+   {
+    "frame": 723,
+    "delta": 3.95,
+    "local_median": 0.75
+   },
+   {
+    "frame": 724,
+    "delta": 3.89,
+    "local_median": 0.75
+   },
+   {
+    "frame": 725,
+    "delta": 3.41,
+    "local_median": 0.75
+   },
+   {
+    "frame": 726,
+    "delta": 2.45,
+    "local_median": 0.75
+   },
+   {
+    "frame": 782,
+    "delta": 10.58,
+    "local_median": 2.55
+   },
+   {
+    "frame": 783,
+    "delta": 12.26,
+    "local_median": 2.55
+   },
+   {
+    "frame": 784,
+    "delta": 12.28,
+    "local_median": 2.55
+   },
+   {
+    "frame": 785,
+    "delta": 10.95,
+    "local_median": 2.55
+   },
+   {
+    "frame": 786,
+    "delta": 8.07,
+    "local_median": 2.55
+   },
+   {
+    "frame": 903,
+    "delta": 8.8,
+    "local_median": 2.57
+   },
+   {
+    "frame": 904,
+    "delta": 8.93,
+    "local_median": 2.57
+   },
+   {
+    "frame": 905,
+    "delta": 8.12,
+    "local_median": 2.57
+   },
+   {
+    "frame": 963,
+    "delta": 11.67,
+    "local_median": 3.54
+   },
+   {
+    "frame": 964,
+    "delta": 11.91,
+    "local_median": 3.54
+   },
+   {
+    "frame": 965,
+    "delta": 10.81,
+    "local_median": 3.56
+   }
+  ],
+  "max_delta": 48.52,
+  "ok": false
+ },
+ "events": {
+  "checks": [
+   {
+    "name": "picture change at 2s",
+    "value": 59.61,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 4s",
+    "value": 80.79,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 6s",
+    "value": 81.76,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 8s",
+    "value": 37.04,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 10s",
+    "value": 39.24,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 12s",
+    "value": 20.74,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 14s",
+    "value": 94.93,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 16s",
+    "value": 49.53,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 18s",
+    "value": 96.94,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 20s",
+    "value": 30.37,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 22s",
+    "value": 19.2,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 24s",
+    "value": 27.99,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 26s",
+    "value": 76.52,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 28s",
+    "value": 28.58,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 30s",
+    "value": 54.88,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 32s",
+    "value": 59.78,
+    "min": 1.0,
+    "ok": true
+   }
+  ],
+  "ok": true
+ },
+ "clip": {
+  "checks": [],
+  "ok": true
+ },
+ "black": {
+  "checks": [],
+  "ok": true
+ },
+ "credits": {
+  "attribution_assets": [
+   "BodyParts3D Release 4.0",
+   "Z-Anatomy cutaway (owner review pending)"
+  ],
+  "credit_declared": false,
+  "ocr_tokens_found": [
+   "description.txt"
+  ],
+  "ok": true
+ },
+ "pass": false
+}

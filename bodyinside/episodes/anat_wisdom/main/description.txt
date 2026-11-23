@@ -1,0 +1,49 @@
+매복 사랑니 수술
+
+매복 사랑니 발치 과정의 한 예를 3D로 표현했어요
+
+해부 모형과 라이선스
+YouTube 배포에는 표준 YouTube 라이선스가 적용됩니다. CC BY-SA 4.0은 이 영상에서 Z-Anatomy로부터 파생된 3D 해부 시각 요소에만 적용됩니다. 제3자 음향, 글꼴, HDRI에는 각각의 라이선스가 적용됩니다.
+
+Z-Anatomy – The open source atlas of anatomy. CC BY-SA 4.0.
+아래턱과 치아가 있던 공간의 단면을 만들고, 잇몸 가장자리의 형태와 표면 재질을 수정했습니다.
+https://github.com/LluisV/Z-Anatomy
+https://creativecommons.org/licenses/by-sa/4.0/
+Z-Anatomy의 원본 자료 BodyParts3D – The Database Center for Life Science. CC BY-SA 2.1 Japan. https://creativecommons.org/licenses/by-sa/2.1/jp/
+
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International
+BodyParts3D Release 4.0. https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html
+Changes made by us — 인접한 아래 치아 세 개와 잇몸을 수술 부위에 맞춰 배치하고 재질을 바꿨습니다. 잇몸을 잘라 쓰고 둘째 큰어금니의 자세와 뿌리 끝을 조정했습니다.
+https://creativecommons.org/licenses/by/4.0/
+
+수술 기구와 표면
+Gijs Luijten 외, 3D-COSI – 3D Collection of Surgical Instruments, v1.1 (2023). Willinger 골막박리기와 Langenbeck 견인기의 스캔을 단순화하고 크기, 자세, 금속 재질과 움직임을 조정했습니다. CC BY 4.0. https://doi.org/10.5281/zenodo.10091715
+Mohamed Hamze, Healthy gingiva. 퍼블릭 도메인. 잇몸 사진의 일부를 색상과 미세 질감에 사용했습니다. https://commons.wikimedia.org/wiki/File:Healthy_gingiva.jpg
+Rob Tuytel, Leather Red 02 및 Coral Gravel. Sergej Majboroda, Studio Small 09. Poly Haven, CC0. https://polyhaven.com/a/leather_red_02 https://polyhaven.com/a/coral_gravel https://polyhaven.com/a/studio_small_09
+ambientCG, Metal 032. CC0. https://ambientcg.com/view?id=Metal032
+Paco Salas, Fresh Wet Blood Clot. Blendkit Royalty Free. 혈병의 색과 광택을 조정했습니다. https://blendkit.com/asset-gallery-detail/caf201ff-1516-4eb6-82a1-f16933ee2682/
+
+치아와 기구의 형태 참고 자료 (CC BY 4.0)
+Melbourne Dental School, Human molar with large cavity. https://sketchfab.com/3d-models/2b1352afd8984716bf06497058e0846d
+R-LAB, Inside my Tooth. https://sketchfab.com/3d-models/5ebeadf0b40940ca93a4ced5cfe0abb2
+Artec 3D, Plaster cast of teeth. https://www.artec3d.com/3d-models/plaster-cast-teeth
+lsirabella, Basic surgical instruments. https://sketchfab.com/3d-models/fde4da61ef8041688ae6a7a792260d15
+vaulted.dev, VR Surgical Tool Set. https://sketchfab.com/3d-models/c61f5a8aa3c14ec192428de4b1ad9c42
+MythicaI, Toon Dental Tools – 21 Props. https://sketchfab.com/3d-models/fe1d608814974799b49b4815f41cf7b2
+
+자막과 음향
+Black Han Sans, The Black Han Sans Project Authors. Pretendard, Kil Hyung-jin. SIL Open Font License 1.1.
+초기 해설에는 Qwen3-TTS(소희)를 사용했습니다. 이 영상은 한국어 자막과 현장음, 폴리 및 음악으로 구성했습니다.
+실을 자르는 소리와 배경음의 음원은 Earshot으로 제작했습니다. https://github.com/Leonxlnx/earshot#licence
+
+Freesound 녹음 (CC0 1.0)
+치과 핸드피스와 석션 — ricmetal https://freesound.org/s/728347/, mht23SD https://freesound.org/s/707344/ https://freesound.org/s/707321/
+물줄기와 물방울 — unfa https://freesound.org/s/680616/, OwlStorm https://freesound.org/s/212178/, Zott820 https://freesound.org/s/209576/
+절개·조직·파절 폴리 — levypeck https://freesound.org/s/593682/, qubodup https://freesound.org/s/211605/, ericnorcross81 https://freesound.org/s/574752/
+금속 마찰과 핀셋 — Sadiquecat https://freesound.org/s/816678/ https://freesound.org/s/816680/, tiptoe84 https://freesound.org/s/155913/
+봉합·트레이·수술실 음향 — WavJunction.com https://freesound.org/s/456772/, joesgarage https://freesound.org/s/563779/, craigsmith https://freesound.org/s/481935/, kyles https://freesound.org/s/406512/
+https://creativecommons.org/publicdomain/zero/1.0/
+
+의학 자료
+Hanean Muhsin, Melina Brizuela. Oral Surgery, Extraction of Mandibular Third Molars. StatPearls. PMID 36508551. https://pubmed.ncbi.nlm.nih.gov/36508551/
+Junghun F. Choi, David Y. Park, Shakasha L. Scruggs Williams, Paul Chang. Oral Surgery, Extraction of Unerupted Teeth. StatPearls. PMID 37276280. https://pubmed.ncbi.nlm.nih.gov/37276280/

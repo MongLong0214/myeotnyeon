@@ -1,0 +1,214 @@
+{
+  "fps": 30,
+  "safe": [
+    60,
+    180,
+    1020,
+    1500
+  ],
+  "text_boxes_file": "episodes/anat_wisdom/main/comp/text_boxes.json",
+  "assets_manifest": "episodes/anat_wisdom/main/assets.json",
+  "episode_json": "episodes/anat_wisdom/main/episode.json",
+  "allowed_hue_bins": [
+    0,
+    1,
+    11
+  ],
+  "event_checks": [
+    {
+      "name": "picture change at 2s",
+      "a": 45,
+      "b": 74,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 4s",
+      "a": 105,
+      "b": 134,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 6s",
+      "a": 165,
+      "b": 194,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 8s",
+      "a": 225,
+      "b": 254,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 10s",
+      "a": 285,
+      "b": 314,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 12s",
+      "a": 345,
+      "b": 374,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 14s",
+      "a": 405,
+      "b": 434,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 16s",
+      "a": 465,
+      "b": 494,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 18s",
+      "a": 525,
+      "b": 554,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 20s",
+      "a": 585,
+      "b": 614,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 22s",
+      "a": 645,
+      "b": 674,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 24s",
+      "a": 705,
+      "b": 734,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 26s",
+      "a": 765,
+      "b": 794,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 28s",
+      "a": 825,
+      "b": 854,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    },
+    {
+      "name": "picture change at 30s",
+      "a": 885,
+      "b": 914,
+      "roi": [
+        0.06,
+        0.12,
+        0.94,
+        0.9
+      ],
+      "metric": "luma_delta",
+      "min": 1.0
+    }
+  ]
+}

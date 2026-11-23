@@ -1,0 +1,588 @@
+{
+  "runs": [
+    {
+      "scores": {
+        "anatomy": 6.5,
+        "cutaway": 7,
+        "motion": 7.5,
+        "labels": 8,
+        "hook": 8.5,
+        "facts": 8,
+        "audio": 7.5
+      },
+      "final": 7.5,
+      "pass": false,
+      "p0": [
+        {
+          "frame": 489,
+          "what": "Root delivery breaks the tooth's continuity. Through f294-f446 the sectioned tooth is a crown plus a large glossy red-streaked cone root. After the cut at f447 the piece on the elevator is a flat matte tan triangular shard, and the red cone is gone from the socket without being shown leaving. The specimen tray (f617-f665) then shows both pieces. Repair: keep root1/root2 shape and material identical across section, deliver_root and specimen, and show the second root leaving, or show it still seated at f489. Proof frames: f460 and f489 showing the same cone root on the elevator, matching f431 and f640.",
+          "box": [
+            210,
+            555,
+            600,
+            1080
+          ]
+        },
+        {
+          "frame": 489,
+          "what": "Stray geometry on the reflected gum: a translucent glassy block at about (675,1560) and a loose yellow sliver at about (930,1770), neither attached to any structure. Both are also visible in the 16 s contact-sheet cell. Repair: delete or hide the leftover fluid/helper meshes in deliver_root. Proof frame: f489 with clean gum in the lower right.",
+          "box": [
+            570,
+            1485,
+            960,
+            1815
+          ]
+        }
+      ],
+      "p1": [
+        {
+          "frame": 201,
+          "what": "The 'bone covering the tooth' is a rectangular pink-white marbled slab that reads as raw meat or fat: board-like, no cortex, no trabecular edge, no kerf where the bur touches. During the suction shot (about f280-f292) the same slab fades from pink to cream, which reads as a material change, not bone removal. Repair: give the cortical cover a bone shader with a cut rim, grind a visible trough that exposes enamel progressively, and remove the colour fade. Proof frames: f230 with a kerf and enamel showing, f285 with no tint change.",
+          "box": [
+            390,
+            570,
+            1080,
+            1410
+          ]
+        },
+        {
+          "frame": 201,
+          "what": "The bur tip is a pair of thin wire loops, not a bur head, and it hovers at the slab edge with only a few specks of debris. Repair: model a round or fissure bur head, seat it in the trough, add dust/slurry and coolant mist tied to contact. Proof frame: f215 showing bur head in the kerf with debris.",
+          "box": [
+            90,
+            810,
+            420,
+            1020
+          ]
+        },
+        {
+          "frame": 259,
+          "what": "Suction beat: a defocused handpiece fills the left half of the frame, the working tip is soft, and no pooled blood is visible while the caption says '고인 피를 흡입한다' for 40 frames. Repair: put focus on the suction tip, show a blood pool that visibly drains, pull the foreground instrument out of the lens. Proof frames: f259 and f285 with a sharp tip and a falling blood level.",
+          "box": [
+            0,
+            0,
+            690,
+            1200
+          ]
+        },
+        {
+          "frame": 546,
+          "what": "The irrigated socket is a wide pink pond with a brown crusty rim and no jaw, cheek or neighbouring-tooth scale, so it reads as a different, larger cavity than the one the tooth left. It opens (f500-f515) as a full-frame dark red pool. Repair: match the socket outline to the tooth footprint, add bony wall texture, keep the second molar and flap in frame for scale. Proof frame: f546 with socket and second molar both readable.",
+          "box": [
+            0,
+            600,
+            1080,
+            1380
+          ]
+        },
+        {
+          "frame": 604,
+          "what": "Suture payoff is incomplete: one knot at the left end, the wound still gapes as a dark hole on the right, and the thread is a loose scribble with a faint zig-zag ghost line at f555-f575. Repair: draw the edges together as each stitch tightens, end on a closed line with two or three knots, remove the zig-zag guide. Proof frame: f612 showing a closed incision.",
+          "box": [
+            330,
+            660,
+            1080,
+            1020
+          ]
+        },
+        {
+          "frame": 431,
+          "what": "The groove reads as a raised pale thread looped around the root, not a cut, and an ochre disc sits on the tooth at the bur's entry like a button. Repair: cut a real recessed kerf with dark depth and dust, remove the margin loop and replace the disc with a shaded bore. Proof frames: f350 and f431 showing a recessed slot.",
+          "box": [
+            450,
+            690,
+            840,
+            990
+          ]
+        },
+        {
+          "frame": 374,
+          "what": "Root surface is a glossy red-and-white streaked cone, larger than the crown, reading as candy or glazed ceramic, not cementum with blood on it. Repair: matte ivory-yellow cementum, blood as a thin wet layer in recesses, root scaled below crown width. Proof frame: f374.",
+          "box": [
+            480,
+            720,
+            1080,
+            1200
+          ]
+        },
+        {
+          "frame": 144,
+          "what": "The incision edges carry a regular wavy red ribbon pattern (also at f201 top right and f431), which reads as serrated trim, not a cut mucosal edge. Repair: irregular wet edge with thickness and submucosa colour, no periodic displacement. Proof frame: f144.",
+          "box": [
+            300,
+            630,
+            1080,
+            1140
+          ]
+        },
+        {
+          "frame": 661,
+          "what": "Specimen payoff: blurred forceps cross the left third and sit over the tan root piece without gripping anything; the forceps-tooth gap was not measured in geometry_checks. Repair: have the forceps set down the last piece in focus and leave the frame by f640, holding a clean tray for the last second. Proof frame: f655 with all three pieces unobstructed.",
+          "box": [
+            0,
+            0,
+            330,
+            1350
+          ]
+        }
+      ],
+      "not_checked": [
+        "Audio was not auditioned; the audio score rests on audio_checks.json and measurements.json only (-14.6 LUFS, -1.8 dBTP, continuous bed, seam ok).",
+        "measurements.json speech recognition returns '구독과 좋아요는 저에게 아주 큰 힘이 됩니다.' at 0-2 s although narration is false. This is probably a recogniser artefact on music, but it needs a listen to confirm no speech is in the mix.",
+        "Whether SFX match on-screen action by ear. The cue sheet places a water recording (680616) at f201-f244 during bone drilling, where no irrigation spray is visible; drill, suction, snap and suture cues line up with their shots on paper.",
+        "PubMed 36508551 and 33854724 were not opened. sources.md is identical to description.txt and has no per-beat claim IDs, source records or conditions, so the five-decision clinical gate could not be applied per caption.",
+        "Per-mesh provenance: no bp3d_provenance.json or provenance-gate output was supplied, and the proof geometry files in assets.json sit outside the permitted directory.",
+        "Licence records for 3D-COSI v1.1, the Blendkit clot material (Paco Salas, 'Royalty Free'), the Mohamed Hamze gingival texture ('public domain'), Poly Haven and ambientCG items are not in rights.md; only the description's own statement was seen.",
+        "LICENCE_AUDIT.md still says the description applies BY-SA 4.0 to Z-Anatomy-derived 3D visuals, while description.txt and assets.json declare BodyParts3D CC BY 4.0 plus project-authored geometry. I could not confirm from the packet that no Z-Anatomy mesh is in this render.",
+        "The assets.json digest for final_surgery_v3.mp4 (13f66a75…) differs from geometry_checks.json movie_sha256 (f7faaf40…); which file the stills came from was not verified.",
+        "Instrument contact: scalpel-gingiva and forceps-tooth gaps are null in geometry_checks.json; contact was judged from stills only.",
+        "Frames between the 8-per-second motion cells were not seen, so one- or two-frame pops cannot be ruled out.",
+        "character_rights.md and the neck/person items in rights.md were read as context only; no person appears in this episode."
+      ],
+      "picture_axes": {
+        "anatomy": {
+          "score": 6.5,
+          "evidence": "The crown has cusps and fissures and sits against a second molar (f431), but the bone cover is a rectangular slab (f201), the root is a cone larger than the crown (f374) that becomes a flat tan shard (f489), and the socket is a wide pond (f546)."
+        },
+        "materials": {
+          "score": 7.5,
+          "evidence": "Wet mucosa, steel and blood are credible (f86, f144, f431) and well above the EBS reference; the bone slab reads as meat (f201), the root as glazed candy (f374), and incision edges as periodic red ribbon (f144)."
+        },
+        "lighting": {
+          "score": 8,
+          "evidence": "Soft studio key with clean speculars on enamel and steel (f431, f604); no clipping or noise. The suction shot (f259) is muddy under the defocused foreground."
+        },
+        "camera_motion": {
+          "score": 7.5,
+          "evidence": "Motion strips show eased moves inside each shot and no near-still runs; every beat is a hard cut to a new macro angle (luma steps 41-69 at shot starts), and f254-f294 puts focus on the wrong plane."
+        },
+        "composition": {
+          "score": 7,
+          "evidence": "The action sits in the upper-middle with captions clear of it (f431), but the lower 40% is empty blurred gum in most shots (f86, f144, f604), there is no jaw or face context, and foreground instruments block f259 and f661."
+        },
+        "hook": {
+          "score": 8.5,
+          "evidence": "f0-f36 opens directly on the elevator splitting the tooth with blood and a two-word caption (f29), and the loop returns to it at f666; the specimen tray payoff is partly covered by forceps (f661)."
+        }
+      },
+      "inspection": {
+        "clear": [
+          "full-frame-bottom-unchecked",
+          "wording-stronger-than-source",
+          "model-figure-qualifier-late-or-small",
+          "overlay-panel-render-artifact",
+          "label-placed-over-unrelated-structure",
+          "caption-overstates-evidence",
+          "credit-rights-provenance-paperwork",
+          "lower-left-corner-blob",
+          "floating-detached-or-separated-mesh",
+          "tooth-asset-not-real-molar-mesh",
+          "tint-or-colour-cast-on-subject",
+          "clipped-whites-overexposure",
+          "low-contrast-colour-wash",
+          "single-frame-pop-or-flash",
+          "camera-move-snaps-no-ease",
+          "assembly-framerate-judder",
+          "kerf-gap-wrong-size-or-colour",
+          "callout-bracket-misplaced-or-illegible",
+          "leftover-geometry-in-socket-or-after-removal",
+          "faceted-polygon-edges",
+          "incomplete-or-hollow-anatomy-parts",
+          "neighbour-anatomy-pose-or-shape-wrong",
+          "layout-copies-reference-template"
+        ],
+        "absent": [
+          "lobe-reads-as-glossy-bead",
+          "material-reads-wrong-colour",
+          "white-fragments-and-rod-leftovers",
+          "ghost-mesh-panels-halo-neon-jagged",
+          "arc-fade-patch-and-contact-disc",
+          "ghost-mesh-wires-and-fans-materials",
+          "pose-step-at-caption-change",
+          "shoulder-bones-brighter-than-spine",
+          "lobe-pale-touch-soft",
+          "cord-stick-and-muscle-tip-through-fade",
+          "oval-beside-cerebellum-reads-as-ear",
+          "mouth-smear-loops-scratches-kink",
+          "bones-colour-and-disc-annulus",
+          "disc-beat-loops-nucleus-strokes-beads",
+          "hook-starts-small-held-pose",
+          "disc-annulus-and-tendon-ends",
+          "nucleus-protrudes-as-white-bead",
+          "sheet-or-shell-over-muscle",
+          "payoff-pose-implausible-and-pierced",
+          "gap-graphic-without-reference",
+          "transition-whips-through-figure",
+          "subject-not-separated-from-background",
+          "pink-band-on-ramus",
+          "bur-overcuts-into-nerve",
+          "nerve-canal-shape-and-routing-wrong",
+          "ghost-fade-and-composite-seams-nerve-beat",
+          "shorts-ui-safe-zone-brand-block",
+          "skull-through-skin",
+          "degenerate-payoff-transition",
+          "landmark-wrong-after-view-change",
+          "payoff-marker-short-or-missing",
+          "camera-masks-straightening",
+          "load-arrow-no-visible-growth",
+          "muscle-picture-ends-before-narration",
+          "cord-rod-below-last-vertebra"
+        ],
+        "unseen": [
+          "sfx-without-matching-visual-event",
+          "licence-terms-undecided",
+          "asset-licence-or-origin-unverified"
+        ],
+        "defects": [
+          "graphic-lags-caption",
+          "foreground-occluder-ramus-slab",
+          "stray-geometry-specks-bars-lines",
+          "jaw-bone-missing-or-wrong-material",
+          "material-reads-as-clay-wax-plastic-concrete",
+          "focus-and-motion-blur-hides-subject",
+          "cut-trace-bur-chips-spray-unconvincing",
+          "socket-and-sectioned-bone-shape-wrong",
+          "seam-ring-artifacts-on-tooth-and-cut-face",
+          "gum-geometry-wrong",
+          "scene-discontinuity-or-missing-context"
+        ]
+      },
+      "resolved_models": [
+        "claude-fable-5-2"
+      ],
+      "class_failures": {
+        "sfx-without-matching-visual-event": "unseen",
+        "licence-terms-undecided": "unseen",
+        "asset-licence-or-origin-unverified": "unseen",
+        "graphic-lags-caption": "defects",
+        "foreground-occluder-ramus-slab": "defects",
+        "stray-geometry-specks-bars-lines": "defects",
+        "jaw-bone-missing-or-wrong-material": "defects",
+        "material-reads-as-clay-wax-plastic-concrete": "defects",
+        "focus-and-motion-blur-hides-subject": "defects",
+        "cut-trace-bur-chips-spray-unconvincing": "defects",
+        "socket-and-sectioned-bone-shape-wrong": "defects",
+        "seam-ring-artifacts-on-tooth-and-cut-face": "defects",
+        "gum-geometry-wrong": "defects",
+        "scene-discontinuity-or-missing-context": "defects"
+      },
+      "area_floor": 7.0
+    }
+  ],
+  "_model": "fable",
+  "_mp4": ".astra-work/operative/surgery_repair1/surgery.mp4",
+  "_md5": "9365dc32c401fd1b3a55dde71f442e6d",
+  "_seconds": 176,
+  "_cost_usd": 1.773,
+  "scores": {
+    "anatomy": 6.5,
+    "cutaway": 7.0,
+    "motion": 7.5,
+    "labels": 8.0,
+    "hook": 8.5,
+    "facts": 8.0,
+    "audio": 7.5
+  },
+  "picture_axes": {
+    "anatomy": {
+      "score": 6.5,
+      "evidence": "The crown has cusps and fissures and sits against a second molar (f431), but the bone cover is a rectangular slab (f201), the root is a cone larger than the crown (f374) that becomes a flat tan shard (f489), and the socket is a wide pond (f546)."
+    },
+    "materials": {
+      "score": 7.5,
+      "evidence": "Wet mucosa, steel and blood are credible (f86, f144, f431) and well above the EBS reference; the bone slab reads as meat (f201), the root as glazed candy (f374), and incision edges as periodic red ribbon (f144)."
+    },
+    "lighting": {
+      "score": 8,
+      "evidence": "Soft studio key with clean speculars on enamel and steel (f431, f604); no clipping or noise. The suction shot (f259) is muddy under the defocused foreground."
+    },
+    "camera_motion": {
+      "score": 7.5,
+      "evidence": "Motion strips show eased moves inside each shot and no near-still runs; every beat is a hard cut to a new macro angle (luma steps 41-69 at shot starts), and f254-f294 puts focus on the wrong plane."
+    },
+    "composition": {
+      "score": 7,
+      "evidence": "The action sits in the upper-middle with captions clear of it (f431), but the lower 40% is empty blurred gum in most shots (f86, f144, f604), there is no jaw or face context, and foreground instruments block f259 and f661."
+    },
+    "hook": {
+      "score": 8.5,
+      "evidence": "f0-f36 opens directly on the elevator splitting the tooth with blood and a two-word caption (f29), and the loop returns to it at f666; the specimen tray payoff is partly covered by forceps (f661)."
+    }
+  },
+  "run_finals": [
+    7.5
+  ],
+  "raw_overall": 7.5,
+  "final": 7.5,
+  "p0": [
+    {
+      "frame": 489,
+      "what": "Root delivery breaks the tooth's continuity. Through f294-f446 the sectioned tooth is a crown plus a large glossy red-streaked cone root. After the cut at f447 the piece on the elevator is a flat matte tan triangular shard, and the red cone is gone from the socket without being shown leaving. The specimen tray (f617-f665) then shows both pieces. Repair: keep root1/root2 shape and material identical across section, deliver_root and specimen, and show the second root leaving, or show it still seated at f489. Proof frames: f460 and f489 showing the same cone root on the elevator, matching f431 and f640.",
+      "box": [
+        210,
+        555,
+        600,
+        1080
+      ]
+    },
+    {
+      "frame": 489,
+      "what": "Stray geometry on the reflected gum: a translucent glassy block at about (675,1560) and a loose yellow sliver at about (930,1770), neither attached to any structure. Both are also visible in the 16 s contact-sheet cell. Repair: delete or hide the leftover fluid/helper meshes in deliver_root. Proof frame: f489 with clean gum in the lower right.",
+      "box": [
+        570,
+        1485,
+        960,
+        1815
+      ]
+    }
+  ],
+  "p1": [
+    {
+      "frame": 201,
+      "what": "The 'bone covering the tooth' is a rectangular pink-white marbled slab that reads as raw meat or fat: board-like, no cortex, no trabecular edge, no kerf where the bur touches. During the suction shot (about f280-f292) the same slab fades from pink to cream, which reads as a material change, not bone removal. Repair: give the cortical cover a bone shader with a cut rim, grind a visible trough that exposes enamel progressively, and remove the colour fade. Proof frames: f230 with a kerf and enamel showing, f285 with no tint change.",
+      "box": [
+        390,
+        570,
+        1080,
+        1410
+      ]
+    },
+    {
+      "frame": 201,
+      "what": "The bur tip is a pair of thin wire loops, not a bur head, and it hovers at the slab edge with only a few specks of debris. Repair: model a round or fissure bur head, seat it in the trough, add dust/slurry and coolant mist tied to contact. Proof frame: f215 showing bur head in the kerf with debris.",
+      "box": [
+        90,
+        810,
+        420,
+        1020
+      ]
+    },
+    {
+      "frame": 259,
+      "what": "Suction beat: a defocused handpiece fills the left half of the frame, the working tip is soft, and no pooled blood is visible while the caption says '고인 피를 흡입한다' for 40 frames. Repair: put focus on the suction tip, show a blood pool that visibly drains, pull the foreground instrument out of the lens. Proof frames: f259 and f285 with a sharp tip and a falling blood level.",
+      "box": [
+        0,
+        0,
+        690,
+        1200
+      ]
+    },
+    {
+      "frame": 546,
+      "what": "The irrigated socket is a wide pink pond with a brown crusty rim and no jaw, cheek or neighbouring-tooth scale, so it reads as a different, larger cavity than the one the tooth left. It opens (f500-f515) as a full-frame dark red pool. Repair: match the socket outline to the tooth footprint, add bony wall texture, keep the second molar and flap in frame for scale. Proof frame: f546 with socket and second molar both readable.",
+      "box": [
+        0,
+        600,
+        1080,
+        1380
+      ]
+    },
+    {
+      "frame": 604,
+      "what": "Suture payoff is incomplete: one knot at the left end, the wound still gapes as a dark hole on the right, and the thread is a loose scribble with a faint zig-zag ghost line at f555-f575. Repair: draw the edges together as each stitch tightens, end on a closed line with two or three knots, remove the zig-zag guide. Proof frame: f612 showing a closed incision.",
+      "box": [
+        330,
+        660,
+        1080,
+        1020
+      ]
+    },
+    {
+      "frame": 431,
+      "what": "The groove reads as a raised pale thread looped around the root, not a cut, and an ochre disc sits on the tooth at the bur's entry like a button. Repair: cut a real recessed kerf with dark depth and dust, remove the margin loop and replace the disc with a shaded bore. Proof frames: f350 and f431 showing a recessed slot.",
+      "box": [
+        450,
+        690,
+        840,
+        990
+      ]
+    },
+    {
+      "frame": 374,
+      "what": "Root surface is a glossy red-and-white streaked cone, larger than the crown, reading as candy or glazed ceramic, not cementum with blood on it. Repair: matte ivory-yellow cementum, blood as a thin wet layer in recesses, root scaled below crown width. Proof frame: f374.",
+      "box": [
+        480,
+        720,
+        1080,
+        1200
+      ]
+    },
+    {
+      "frame": 144,
+      "what": "The incision edges carry a regular wavy red ribbon pattern (also at f201 top right and f431), which reads as serrated trim, not a cut mucosal edge. Repair: irregular wet edge with thickness and submucosa colour, no periodic displacement. Proof frame: f144.",
+      "box": [
+        300,
+        630,
+        1080,
+        1140
+      ]
+    },
+    {
+      "frame": 661,
+      "what": "Specimen payoff: blurred forceps cross the left third and sit over the tan root piece without gripping anything; the forceps-tooth gap was not measured in geometry_checks. Repair: have the forceps set down the last piece in focus and leave the frame by f640, holding a clean tray for the last second. Proof frame: f655 with all three pieces unobstructed.",
+      "box": [
+        0,
+        0,
+        330,
+        1350
+      ]
+    }
+  ],
+  "p0_rejected": [],
+  "threshold": 9.5,
+  "class_failures": {
+    "sfx-without-matching-visual-event": "unseen",
+    "licence-terms-undecided": "unseen",
+    "asset-licence-or-origin-unverified": "unseen",
+    "graphic-lags-caption": "defects",
+    "foreground-occluder-ramus-slab": "defects",
+    "stray-geometry-specks-bars-lines": "defects",
+    "jaw-bone-missing-or-wrong-material": "defects",
+    "material-reads-as-clay-wax-plastic-concrete": "defects",
+    "focus-and-motion-blur-hides-subject": "defects",
+    "cut-trace-bur-chips-spray-unconvincing": "defects",
+    "socket-and-sectioned-bone-shape-wrong": "defects",
+    "seam-ring-artifacts-on-tooth-and-cut-face": "defects",
+    "gum-geometry-wrong": "defects",
+    "scene-discontinuity-or-missing-context": "defects"
+  },
+  "findings": [
+    {
+      "priority": "p0",
+      "frame": 489,
+      "what": "Root delivery breaks the tooth's continuity. Through f294-f446 the sectioned tooth is a crown plus a large glossy red-streaked cone root. After the cut at f447 the piece on the elevator is a flat matte tan triangular shard, and the red cone is gone from the socket without being shown leaving. The specimen tray (f617-f665) then shows both pieces. Repair: keep root1/root2 shape and material identical across section, deliver_root and specimen, and show the second root leaving, or show it still seated at f489. Proof frames: f460 and f489 showing the same cone root on the elevator, matching f431 and f640.",
+      "box": [
+        210,
+        555,
+        600,
+        1080
+      ]
+    },
+    {
+      "priority": "p0",
+      "frame": 489,
+      "what": "Stray geometry on the reflected gum: a translucent glassy block at about (675,1560) and a loose yellow sliver at about (930,1770), neither attached to any structure. Both are also visible in the 16 s contact-sheet cell. Repair: delete or hide the leftover fluid/helper meshes in deliver_root. Proof frame: f489 with clean gum in the lower right.",
+      "box": [
+        570,
+        1485,
+        960,
+        1815
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 201,
+      "what": "The 'bone covering the tooth' is a rectangular pink-white marbled slab that reads as raw meat or fat: board-like, no cortex, no trabecular edge, no kerf where the bur touches. During the suction shot (about f280-f292) the same slab fades from pink to cream, which reads as a material change, not bone removal. Repair: give the cortical cover a bone shader with a cut rim, grind a visible trough that exposes enamel progressively, and remove the colour fade. Proof frames: f230 with a kerf and enamel showing, f285 with no tint change.",
+      "box": [
+        390,
+        570,
+        1080,
+        1410
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 201,
+      "what": "The bur tip is a pair of thin wire loops, not a bur head, and it hovers at the slab edge with only a few specks of debris. Repair: model a round or fissure bur head, seat it in the trough, add dust/slurry and coolant mist tied to contact. Proof frame: f215 showing bur head in the kerf with debris.",
+      "box": [
+        90,
+        810,
+        420,
+        1020
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 259,
+      "what": "Suction beat: a defocused handpiece fills the left half of the frame, the working tip is soft, and no pooled blood is visible while the caption says '고인 피를 흡입한다' for 40 frames. Repair: put focus on the suction tip, show a blood pool that visibly drains, pull the foreground instrument out of the lens. Proof frames: f259 and f285 with a sharp tip and a falling blood level.",
+      "box": [
+        0,
+        0,
+        690,
+        1200
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 546,
+      "what": "The irrigated socket is a wide pink pond with a brown crusty rim and no jaw, cheek or neighbouring-tooth scale, so it reads as a different, larger cavity than the one the tooth left. It opens (f500-f515) as a full-frame dark red pool. Repair: match the socket outline to the tooth footprint, add bony wall texture, keep the second molar and flap in frame for scale. Proof frame: f546 with socket and second molar both readable.",
+      "box": [
+        0,
+        600,
+        1080,
+        1380
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 604,
+      "what": "Suture payoff is incomplete: one knot at the left end, the wound still gapes as a dark hole on the right, and the thread is a loose scribble with a faint zig-zag ghost line at f555-f575. Repair: draw the edges together as each stitch tightens, end on a closed line with two or three knots, remove the zig-zag guide. Proof frame: f612 showing a closed incision.",
+      "box": [
+        330,
+        660,
+        1080,
+        1020
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 431,
+      "what": "The groove reads as a raised pale thread looped around the root, not a cut, and an ochre disc sits on the tooth at the bur's entry like a button. Repair: cut a real recessed kerf with dark depth and dust, remove the margin loop and replace the disc with a shaded bore. Proof frames: f350 and f431 showing a recessed slot.",
+      "box": [
+        450,
+        690,
+        840,
+        990
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 374,
+      "what": "Root surface is a glossy red-and-white streaked cone, larger than the crown, reading as candy or glazed ceramic, not cementum with blood on it. Repair: matte ivory-yellow cementum, blood as a thin wet layer in recesses, root scaled below crown width. Proof frame: f374.",
+      "box": [
+        480,
+        720,
+        1080,
+        1200
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 144,
+      "what": "The incision edges carry a regular wavy red ribbon pattern (also at f201 top right and f431), which reads as serrated trim, not a cut mucosal edge. Repair: irregular wet edge with thickness and submucosa colour, no periodic displacement. Proof frame: f144.",
+      "box": [
+        300,
+        630,
+        1080,
+        1140
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 661,
+      "what": "Specimen payoff: blurred forceps cross the left third and sit over the tan root piece without gripping anything; the forceps-tooth gap was not measured in geometry_checks. Repair: have the forceps set down the last piece in focus and leave the frame by f640, holding a clean tray for the last second. Proof frame: f655 with all three pieces unobstructed.",
+      "box": [
+        0,
+        0,
+        330,
+        1350
+      ]
+    }
+  ],
+  "not_checked": [
+    "Audio was not auditioned; the audio score rests on audio_checks.json and measurements.json only (-14.6 LUFS, -1.8 dBTP, continuous bed, seam ok).",
+    "Frames between the 8-per-second motion cells were not seen, so one- or two-frame pops cannot be ruled out.",
+    "Instrument contact: scalpel-gingiva and forceps-tooth gaps are null in geometry_checks.json; contact was judged from stills only.",
+    "LICENCE_AUDIT.md still says the description applies BY-SA 4.0 to Z-Anatomy-derived 3D visuals, while description.txt and assets.json declare BodyParts3D CC BY 4.0 plus project-authored geometry. I could not confirm from the packet that no Z-Anatomy mesh is in this render.",
+    "Licence records for 3D-COSI v1.1, the Blendkit clot material (Paco Salas, 'Royalty Free'), the Mohamed Hamze gingival texture ('public domain'), Poly Haven and ambientCG items are not in rights.md; only the description's own statement was seen.",
+    "Per-mesh provenance: no bp3d_provenance.json or provenance-gate output was supplied, and the proof geometry files in assets.json sit outside the permitted directory.",
+    "PubMed 36508551 and 33854724 were not opened. sources.md is identical to description.txt and has no per-beat claim IDs, source records or conditions, so the five-decision clinical gate could not be applied per caption.",
+    "The assets.json digest for final_surgery_v3.mp4 (13f66a75…) differs from geometry_checks.json movie_sha256 (f7faaf40…); which file the stills came from was not verified.",
+    "Whether SFX match on-screen action by ear. The cue sheet places a water recording (680616) at f201-f244 during bone drilling, where no irrigation spray is visible; drill, suction, snap and suture cues line up with their shots on paper.",
+    "character_rights.md and the neck/person items in rights.md were read as context only; no person appears in this episode.",
+    "measurements.json speech recognition returns '구독과 좋아요는 저에게 아주 큰 힘이 됩니다.' at 0-2 s although narration is false. This is probably a recogniser artefact on music, but it needs a listen to confirm no speech is in the mix."
+  ],
+  "area_composite": 7.0,
+  "stage": "movie",
+  "pass": false
+}

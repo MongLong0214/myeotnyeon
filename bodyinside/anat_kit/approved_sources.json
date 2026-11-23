@@ -1,0 +1,502 @@
+[
+ {
+  "id": "nlm-visible-human-project",
+  "name": "NLM Visible Human Project",
+  "url": "https://www.nlm.nih.gov/research/visible/visible_human.html",
+  "verdict": "USE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "nih-3d-cranium-and-facial-bones-and-17-yo-female-normal-hear",
+  "name": "NIH 3D, Cranium and Facial Bones and 17 yo Female, Normal Heart",
+  "url": "https://3d.nih.gov/discover",
+  "verdict": "USE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "nih-3d-upper-mandible-with-teeth-and-human-kidney-model-3d",
+  "name": "NIH 3D Upper mandible with teeth and Human Kidney Model 3D",
+  "url": "https://3d.nih.gov/entries/3DPX-000902",
+  "verdict": "EXCLUDE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "smithsonian-open-access-3d-abraham-lincoln-life-mask-and-geo",
+  "name": "Smithsonian Open Access 3D, Abraham Lincoln life mask and George Washington life mask",
+  "url": "https://3d.si.edu/explore",
+  "verdict": "USE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "human-reference-atlas-hubmap-ccf-3d-reference-object-library",
+  "name": "Human Reference Atlas / HuBMAP CCF 3D Reference Object Library, NIH 3D collection",
+  "url": "https://hubmapconsortium.github.io/ccf/pages/ccf-3d-reference-library.html",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "voxel-man-segmented-internal-organs-of-the-visible-human-mal",
+  "name": "VOXEL-MAN Segmented Internal Organs of the Visible Human Male",
+  "url": "https://www.virtual-body.org/segmented-internal-organs/",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "allen-human-reference-atlas-3d-2020",
+  "name": "Allen Human Reference Atlas – 3D, 2020",
+  "url": "https://download.alleninstitute.org/informatics-archive/allen_human_reference_atlas_3d_2020/version_1/README.pdf",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "brainglobe-atlases",
+  "name": "BrainGlobe atlases",
+  "url": "https://brainglobe.info/documentation/brainglobe-atlasapi/usage/atlas-details.html",
+  "verdict": "EXCLUDE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "open-anatomy-project-spl-abdomen-head-and-neck-knee",
+  "name": "Open Anatomy Project / SPL, abdomen, head and neck, knee",
+  "url": "https://www.openanatomy.org/atlas-pages/",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "anatomytool-trachea-and-bronchi-and-hyoid-bone",
+  "name": "AnatomyTOOL – Trachea and Bronchi and Hyoid Bone",
+  "url": "https://anatomytool.org/content/thunthu-3d-model-trachea-and-bronchi",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "anatomytool-open3dmodel-and-bluelink-anatomy-university-of-m",
+  "name": "AnatomyTOOL Open3DModel and BlueLink Anatomy, University of Michigan",
+  "url": "https://anatomytool.org/open3dmodel",
+  "verdict": "EXCLUDE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "z-anatomy",
+  "name": "Z-Anatomy",
+  "url": "https://github.com/Z-Anatomy/Models-of-human-anatomy",
+  "verdict": "EXCLUDE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "visible-korean",
+  "name": "Visible Korean",
+  "url": "http://www.anatomy.co.kr/",
+  "verdict": "EXCLUDE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "bigbrain",
+  "name": "BigBrain",
+  "url": "https://bigbrainproject.org/maps-and-models.html",
+  "verdict": "EXCLUDE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "zygotebody",
+  "name": "ZygoteBody",
+  "url": "https://www.zygotebody.com/pricing",
+  "verdict": "EXCLUDE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "thingiverse-human-torso-anatomy-model",
+  "name": "Thingiverse – Human Torso Anatomy Model",
+  "url": "https://www.thingiverse.com/thing:4601991/files",
+  "verdict": "EXCLUDE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "innerscene-full-adult-skeleton-standing",
+  "name": "Innerscene – Full adult skeleton, standing",
+  "url": "https://www.innerscene.com/tools/library/3d-parts/full-adult-skeleton-standing-ade55011",
+  "verdict": "USE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "opengameart-human-skull-by-cdmir",
+  "name": "OpenGameArt Human Skull by CDmir",
+  "url": "https://opengameart.org/content/human-skull-0",
+  "verdict": "USE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "bonehub-educational-atlas",
+  "name": "BoneHub Educational Atlas",
+  "url": "https://bonehub.github.io/Educational-Atlas/",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "rcsb-protein-data-bank-wwpdb",
+  "name": "RCSB Protein Data Bank / wwPDB",
+  "url": "https://www.rcsb.org/",
+  "verdict": "USE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "nih-bioart-source",
+  "name": "NIH BioArt Source",
+  "url": "https://bioart.niaid.nih.gov/",
+  "verdict": "USE",
+  "section": "1. Anatomy, pathology, cells and molecular structures"
+ },
+ {
+  "id": "ulcerated-atheromatous-plaque",
+  "name": "Ulcerated Atheromatous Plaque",
+  "url": "https://sketchfab.com/3d-models/ulcerated-atheromatous-plaque-07a81928f67f4aa2ad0d59a057ae374e",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "Verified individual Sketchfab downloads"
+ },
+ {
+  "id": "circumflex-coronary-artery-aneurysm",
+  "name": "Circumflex Coronary Artery Aneurysm",
+  "url": "https://sketchfab.com/3d-models/circumflex-coronary-artery-aneurysm-690211cf062e4887a76036bcea7d8ab6",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "Verified individual Sketchfab downloads"
+ },
+ {
+  "id": "male-inguinal-canal",
+  "name": "Male Inguinal Canal",
+  "url": "https://sketchfab.com/3d-models/male-inguinal-canal-ad453d52d93648d886de5b2730f6dd74",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "Verified individual Sketchfab downloads"
+ },
+ {
+  "id": "hernia-surgery-in-chennai",
+  "name": "Hernia Surgery in Chennai",
+  "url": "https://sketchfab.com/3d-models/hernia-surgery-in-chennai-d597649292f54870857b262c824e79e2",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "Verified individual Sketchfab downloads"
+ },
+ {
+  "id": "fracture-of-the-distal-radius-after-reposition-and-humanx-me",
+  "name": "Fracture of the distal radius after reposition and HumanX Medical Case Study #004",
+  "url": "https://sketchfab.com/3d-models/fracture-of-the-distal-radius-after-reposition-3bab5be9b5ec4cb89eec6ecafa01bf04",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "Verified individual Sketchfab downloads"
+ },
+ {
+  "id": "human-molar-with-large-cavity-and-inside-my-tooth",
+  "name": "Human molar with large cavity and Inside my Tooth",
+  "url": "https://sketchfab.com/3d-models/human-molar-with-large-cavity-2b1352afd8984716bf06497058e0846d",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "Verified individual Sketchfab downloads"
+ },
+ {
+  "id": "skin-cross-section-model",
+  "name": "Skin Cross Section Model",
+  "url": "https://sketchfab.com/3d-models/skin-cross-section-model-2e28bcb97e0148eda7665c45b0131a39",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "Verified individual Sketchfab downloads"
+ },
+ {
+  "id": "human-eye-and-middle-ear-model-for-mbbs-students",
+  "name": "Human Eye and Middle Ear Model for MBBS students",
+  "url": "https://sketchfab.com/3d-models/human-eye-73bc0c38a6ac434cb26bae32610f56a2",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "Verified individual Sketchfab downloads"
+ },
+ {
+  "id": "components-of-blood",
+  "name": "Components of blood",
+  "url": "https://sketchfab.com/3d-models/components-of-blood-3ae309d331a049918b5788718ee58f35",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "Verified individual Sketchfab downloads"
+ },
+ {
+  "id": "human-femur",
+  "name": "Human Femur",
+  "url": "https://sketchfab.com/3d-models/human-femur-a9c1f1a88b104c3fbfe975fa10b31b31",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "Verified individual Sketchfab downloads"
+ },
+ {
+  "id": "university-of-dundee-inner-ear-umcg-eye-cutaway-and-complex-",
+  "name": "University of Dundee Inner Ear, UMCG Eye Cutaway and Complex Femural Fracture By CT Scan",
+  "url": "https://sketchfab.com/3d-models/anatomy-of-the-inner-ear-f80bda64666c4b8aaac8f63b7b82a0a0",
+  "verdict": "EXCLUDE",
+  "section": "Verified individual Sketchfab downloads"
+ },
+ {
+  "id": "blender-studio-human-base-meshes-v1-4-1",
+  "name": "Blender Studio Human Base Meshes v1.4.1",
+  "url": "https://www.blender.org/download/demo-files/#asset-libraries",
+  "verdict": "USE",
+  "section": "2. Human figures, faces, skin and motion"
+ },
+ {
+  "id": "makehuman-mpfb",
+  "name": "MakeHuman / MPFB",
+  "url": "https://extensions.blender.org/add-ons/mpfb/",
+  "verdict": "USE",
+  "section": "2. Human figures, faces, skin and motion"
+ },
+ {
+  "id": "artec-3d-sample-scans-torso-face-and-plaster-cast-of-teeth",
+  "name": "Artec 3D sample scans, Torso, Face and Plaster cast of teeth",
+  "url": "https://www.artec3d.com/3d-models",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "2. Human figures, faces, skin and motion"
+ },
+ {
+  "id": "three-d-scans-by-oliver-laric",
+  "name": "Three D Scans by Oliver Laric",
+  "url": "https://threedscans.com/",
+  "verdict": "EXCLUDE",
+  "section": "2. Human figures, faces, skin and motion"
+ },
+ {
+  "id": "polycam-explore",
+  "name": "Polycam Explore",
+  "url": "https://poly.cam/explore",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "2. Human figures, faces, skin and motion"
+ },
+ {
+  "id": "adobe-mixamo",
+  "name": "Adobe Mixamo",
+  "url": "https://www.mixamo.com/",
+  "verdict": "USE",
+  "section": "2. Human figures, faces, skin and motion"
+ },
+ {
+  "id": "rokoko-motion-library-and-263-free-mocap-assets",
+  "name": "Rokoko Motion Library and 263 free mocap assets",
+  "url": "https://www.rokoko.com/products/motion-library",
+  "verdict": "USE",
+  "section": "2. Human figures, faces, skin and motion"
+ },
+ {
+  "id": "vr-surgical-tool-set-and-basic-surgical-instruments",
+  "name": "VR Surgical Tool Set and Basic surgical instruments",
+  "url": "https://sketchfab.com/3d-models/vr-surgical-tool-set-c61f5a8aa3c14ec192428de4b1ad9c42",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "3. Medical instruments and devices"
+ },
+ {
+  "id": "hospital-asset-iv-drip-and-iv-pole",
+  "name": "Hospital asset: IV drip and IV-pole",
+  "url": "https://sketchfab.com/3d-models/hospital-asset-iv-drip-and-iv-pole-c581e147fad94beb8f333b57c24024e8",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "3. Medical instruments and devices"
+ },
+ {
+  "id": "toon-dental-tools-21-props",
+  "name": "Toon Dental Tools – 21 Props",
+  "url": "https://sketchfab.com/3d-models/toon-dental-tools-21-props-fe1d608814974799b49b4815f41cf7b2",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "3. Medical instruments and devices"
+ },
+ {
+  "id": "cardiovascular-diamond-stent-and-hh0437-rca",
+  "name": "Cardiovascular Diamond Stent and HH0437-RCA",
+  "url": "https://sketchfab.com/3d-models/cardiovascular-diamond-stent-bc38d7b3b84f403697e451c98c28d2e6",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "3. Medical instruments and devices"
+ },
+ {
+  "id": "3d-cosi-v1-1",
+  "name": "3D-COSI v1.1",
+  "url": "https://zenodo.org/records/10091715",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "3. Medical instruments and devices"
+ },
+ {
+  "id": "turbosquid-free-inventory",
+  "name": "TurboSquid free inventory",
+  "url": "https://www.turbosquid.com/Search/3D-Models/free",
+  "verdict": "USE",
+  "section": "3. Medical instruments and devices"
+ },
+ {
+  "id": "sketchfab-cardiovascular-stent-digital-surgery-instruments-g",
+  "name": "Sketchfab – Cardiovascular Stent, Digital Surgery instruments, Guardiano IV infusion set",
+  "url": "https://sketchfab.com/3d-models/cardiovascular-stent-971172f06a604f89b8370adaf92cb36e",
+  "verdict": "EXCLUDE",
+  "section": "3. Medical instruments and devices"
+ },
+ {
+  "id": "poly-haven",
+  "name": "Poly Haven",
+  "url": "https://polyhaven.com/",
+  "verdict": "USE",
+  "section": "4. Materials, HDRIs and textures"
+ },
+ {
+  "id": "ambientcg",
+  "name": "ambientCG",
+  "url": "https://ambientcg.com/",
+  "verdict": "USE",
+  "section": "4. Materials, HDRIs and textures"
+ },
+ {
+  "id": "blender-extensions-asset-libraries-including-charge-cube-dio",
+  "name": "Blender Extensions asset libraries, including Charge, Cube Diorama, Poly Haven Lite and am",
+  "url": "https://extensions.blender.org/asset-libraries/",
+  "verdict": "USE",
+  "section": "4. Materials, HDRIs and textures"
+ },
+ {
+  "id": "blendkit-formerly-blenderkit",
+  "name": "Blendkit, formerly BlenderKit",
+  "url": "https://www.blendkit.com/",
+  "verdict": "USE",
+  "section": "4. Materials, HDRIs and textures"
+ },
+ {
+  "id": "freesound-heartbeat-40bpm-wav-and-795hz-monitor-blip",
+  "name": "Freesound, heartbeat-40bpm.wav and 795hz monitor blip",
+  "url": "https://freesound.org/",
+  "verdict": "USE",
+  "section": "5. Sound effects and music"
+ },
+ {
+  "id": "kenney-interface-sounds",
+  "name": "Kenney Interface Sounds",
+  "url": "https://kenney.nl/assets/interface-sounds",
+  "verdict": "USE",
+  "section": "5. Sound effects and music"
+ },
+ {
+  "id": "youtube-studio-audio-library",
+  "name": "YouTube Studio Audio Library",
+  "url": "https://studio.youtube.com/",
+  "verdict": "USE",
+  "section": "5. Sound effects and music"
+ },
+ {
+  "id": "pixabay-music-and-sound-effects",
+  "name": "Pixabay Music and Sound Effects",
+  "url": "https://pixabay.com/music/",
+  "verdict": "USE",
+  "section": "5. Sound effects and music"
+ },
+ {
+  "id": "sonniss-gameaudiogdc",
+  "name": "Sonniss #GameAudioGDC",
+  "url": "https://sonniss.com/gameaudiogdc",
+  "verdict": "USE",
+  "section": "5. Sound effects and music"
+ },
+ {
+  "id": "mixkit-sound-effects",
+  "name": "Mixkit Sound Effects",
+  "url": "https://mixkit.co/free-sound-effects/",
+  "verdict": "USE",
+  "section": "5. Sound effects and music"
+ },
+ {
+  "id": "molecular-nodes",
+  "name": "Molecular Nodes",
+  "url": "https://github.com/BradyAJohnston/MolecularNodes",
+  "verdict": "USE",
+  "section": "6. Medical data and Blender tools"
+ },
+ {
+  "id": "3d-slicer",
+  "name": "3D Slicer",
+  "url": "https://www.slicer.org/",
+  "verdict": "USE",
+  "section": "6. Medical data and Blender tools"
+ },
+ {
+  "id": "invesalius",
+  "name": "InVesalius",
+  "url": "https://invesalius.github.io/",
+  "verdict": "USE",
+  "section": "6. Medical data and Blender tools"
+ },
+ {
+  "id": "totalsegmentator-software-and-model-tasks",
+  "name": "TotalSegmentator software and model tasks",
+  "url": "https://github.com/wasserth/TotalSegmentator",
+  "verdict": "USE",
+  "section": "6. Medical data and Blender tools"
+ },
+ {
+  "id": "totalsegmentator-public-ct-dataset-v3-0-0",
+  "name": "TotalSegmentator public CT dataset v3.0.0",
+  "url": "https://zenodo.org/records/22688904",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "6. Medical data and Blender tools"
+ },
+ {
+  "id": "tcia-ct-org",
+  "name": "TCIA CT-ORG",
+  "url": "https://www.cancerimagingarchive.net/collection/ct-org/",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "6. Medical data and Blender tools"
+ },
+ {
+  "id": "tcia-c4kc-kits-hcc-tace-seg-vestibular-schwannoma-seg-and-sp",
+  "name": "TCIA C4KC-KiTS, HCC-TACE-Seg, Vestibular-Schwannoma-SEG and Spine-Mets-CT-SEG",
+  "url": "https://www.cancerimagingarchive.net/collection/c4kc-kits/",
+  "verdict": "USE-WITH-CREDIT",
+  "section": "6. Medical data and Blender tools"
+ },
+ {
+  "id": "kits23-and-medical-segmentation-decathlon",
+  "name": "KiTS23 and Medical Segmentation Decathlon",
+  "url": "https://kits-challenge.org/kits23/",
+  "verdict": "EXCLUDE",
+  "section": "6. Medical data and Blender tools"
+ },
+ {
+  "id": "medshapenet-and-medshapenet-2-0",
+  "name": "MedShapeNet and MedShapeNet 2.0",
+  "url": "https://mml.ikim.nrw/ait/projects/medshapenet/",
+  "verdict": "EXCLUDE",
+  "section": "6. Medical data and Blender tools"
+ },
+ {
+  "id": "mixamo-texting-while-standing",
+  "name": "Mixamo: Texting While Standing (FBX, no skin, 30 fps)",
+  "url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+  "verdict": "USE",
+  "section": "7. Motion capture (commercial render use allowed; raw files are not redistributed; see assets/mocap/USAGE.md)",
+  "local_file": "anat_kit/assets/mocap/Texting While Standing.fbx",
+  "sha256": "e26ed165cd1a3f72fe07a09cb4445ff187bc92b71ce5f86d31b9fdb081698a2f"
+ },
+ {
+  "id": "mixamo-looking-down",
+  "name": "Mixamo: Looking Down (FBX, no skin, 30 fps)",
+  "url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+  "verdict": "USE",
+  "section": "7. Motion capture (commercial render use allowed; raw files are not redistributed; see assets/mocap/USAGE.md)",
+  "local_file": "anat_kit/assets/mocap/Looking Down.fbx",
+  "sha256": "d5abdbe1ebea97e2f1e54831ba38f17007c1a1917aa4ebae2326534750b86dab"
+ },
+ {
+  "id": "mixamo-standing-idle",
+  "name": "Mixamo: Standing Idle (FBX, no skin, 30 fps)",
+  "url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+  "verdict": "USE",
+  "section": "7. Motion capture (commercial render use allowed; raw files are not redistributed; see assets/mocap/USAGE.md)",
+  "local_file": "anat_kit/assets/mocap/Standing Idle.fbx",
+  "sha256": "60302557974bb788ecf1d6f67dc0c5106de7c448b51adec56dec79e18bb2f44a"
+ },
+ {
+  "id": "mixamo-neck-stretching",
+  "name": "Mixamo: Neck Stretching (FBX, no skin, 30 fps)",
+  "url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+  "verdict": "USE",
+  "section": "7. Motion capture (commercial render use allowed; raw files are not redistributed; see assets/mocap/USAGE.md)",
+  "local_file": "anat_kit/assets/mocap/Neck Stretching.fbx",
+  "sha256": "07d1c2aab77363e2c50450e1f98b6ec33f6385055359fb2a913589e10b24e707"
+ },
+ {
+  "id": "rokoko-free-mocap-263",
+  "name": "Rokoko Free Mocap pack (ZIP)",
+  "url": "https://www.rokoko.com/resources/download-263-rokoko-motion-capture-assets",
+  "verdict": "USE",
+  "section": "7. Motion capture (commercial render use allowed; raw files are not redistributed; see assets/mocap/USAGE.md)",
+  "local_file": "anat_kit/assets/mocap/Rokoko_Free_Mocap_FBX_263.zip",
+  "sha256": "7120e3da36b0de0e8fc79f0dd24061a4b144029298f644b211bde11515f9c256"
+ }
+]

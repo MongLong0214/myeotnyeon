@@ -1,0 +1,75 @@
+{
+ "fps": {
+  "fps": 30.0,
+  "dup_ratio": 0.0,
+  "ok": true
+ },
+ "freeze": {
+  "events": [],
+  "ok": true
+ },
+ "highlight": {
+  "hue_hist": [
+   12870,
+   29536,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   15
+  ],
+  "unexpected_bins": [
+   0,
+   1
+  ],
+  "ok": true
+ },
+ "noise": {
+  "hp_std": 0.79,
+  "fireflies_max": 1,
+  "ok": true,
+  "blocking": false
+ },
+ "hook": {
+  "subject_frac": 0.0175,
+  "contrast": 0.716,
+  "ok": true
+ },
+ "safe_area": {
+  "violations": [],
+  "ok": true
+ },
+ "flash": {
+  "spikes": [],
+  "max_delta": 26.12,
+  "ok": true
+ },
+ "events": {
+  "checks": [],
+  "ok": true
+ },
+ "clip": {
+  "checks": [],
+  "ok": true
+ },
+ "black": {
+  "checks": [],
+  "ok": true
+ },
+ "credits": {
+  "attribution_assets": [
+   "BodyParts3D Release 4.0 meshes (vertebrae, skull, mandible, neck muscles)"
+  ],
+  "credit_declared": false,
+  "ocr_tokens_found": [
+   "description.txt"
+  ],
+  "ok": true
+ },
+ "pass": true
+}

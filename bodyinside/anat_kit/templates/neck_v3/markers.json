@@ -1,0 +1,17 @@
+{
+  "Temporal.r": {
+    "concept": "FMA52738",
+    "file": "FJ3386",
+    "sha256": "b008c86a55b1e7743a56060b4d9cb8f8abcac71d83810f66fc50847181b7fa75"
+  },
+  "Clavicle.r": {
+    "concept": "FMA13322",
+    "file": "FJ3362",
+    "sha256": "9a111cac8351e79dd1315aea90108fe56f78e4bf0159473e6ad727ba91b60e6d"
+  },
+  "Scapula.r": {
+    "concept": "FMA13395",
+    "file": "FJ3384",
+    "sha256": "1641b04e55f9d75bdd6f1f4f07ea596e5dea0a8cb6b348bff47281b8a0bc6e5d"
+  }
+}

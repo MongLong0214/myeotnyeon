@@ -1,0 +1,12 @@
+[{"id":"P0-1 tooth (crown lifting)","frame":225,"box":[300,0,900,500]},
+ {"id":"P0-2 socket f245","frame":245,"box":[200,250,700,650]},
+ {"id":"P0-2 socket f292","frame":292,"box":[200,150,700,550]},
+ {"id":"P0-3 bracket","frame":185,"box":[150,100,800,600]},
+ {"id":"P0-4 jaw gap","frame":10,"box":[600,300,1000,650]},
+ {"id":"P1-5 seam","frame":80,"box":[450,300,750,550]},
+ {"id":"P1-6 whites","frame":140,"box":[0,100,600,500]},
+ {"id":"P1-7 bur+chips","frame":125,"box":[400,0,1000,500]},
+ {"id":"P1-8 root cut face","frame":240,"box":[400,200,800,600]},
+ {"id":"P1-9 label","frame":185,"box":[100,250,700,550]},
+ {"id":"P1-10 nudge f8","frame":8,"box":[350,300,750,600]},
+ {"id":"P1-12 S-bend","frame":75,"box":[300,500,800,800]}]
