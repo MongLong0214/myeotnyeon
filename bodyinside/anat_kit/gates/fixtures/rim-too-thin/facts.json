@@ -1,0 +1,111 @@
+{
+ "blend": "episodes/anat_neck/neck_draft10.blend",
+ "frame": 630,
+ "rims": [
+  {
+   "name": "Rim_Atlas_(C1)",
+   "bevel_mm": 0.26,
+   "visible": true
+  },
+  {
+   "name": "Rim_Axis_(C2)",
+   "bevel_mm": 0.26,
+   "visible": true
+  },
+  {
+   "name": "Rim_Mandible",
+   "bevel_mm": 0.3,
+   "visible": true
+  },
+  {
+   "name": "Rim_Skull",
+   "bevel_mm": 0.3,
+   "visible": true
+  },
+  {
+   "name": "Rim_Vertebra_C3",
+   "bevel_mm": 0.26,
+   "visible": true
+  },
+  {
+   "name": "Rim_Vertebra_C4",
+   "bevel_mm": 0.26,
+   "visible": true
+  },
+  {
+   "name": "Rim_Vertebra_C5",
+   "bevel_mm": 0.26,
+   "visible": true
+  },
+  {
+   "name": "Rim_Vertebra_C6",
+   "bevel_mm": 0.26,
+   "visible": true
+  },
+  {
+   "name": "Rim_Vertebra_C7",
+   "bevel_mm": 0.26,
+   "visible": true
+  },
+  {
+   "name": "Rim_Vertebra_T1",
+   "bevel_mm": 0.26,
+   "visible": true
+  },
+  {
+   "name": "Rim_Vertebra_T2",
+   "bevel_mm": 0.26,
+   "visible": true
+  },
+  {
+   "name": "Rim_Vertebra_T3",
+   "bevel_mm": 0.26,
+   "visible": true
+  },
+  {
+   "name": "Rim_Vertebra_T4",
+   "bevel_mm": 0.26,
+   "visible": true
+  }
+ ],
+ "cut_structures": [
+  "Atlas (C1)",
+  "Axis (C2)",
+  "Vertebra C3",
+  "Vertebra C4",
+  "Vertebra C5",
+  "Vertebra C6",
+  "Vertebra C7",
+  "Vertebra T1",
+  "Vertebra T2",
+  "Vertebra T3",
+  "Vertebra T4"
+ ],
+ "disc_materials": {
+  "Annulus_C2C3": [
+   "TEX_COORD",
+   "TEX_NOISE"
+  ],
+  "Annulus_C3C4": [
+   "TEX_COORD",
+   "TEX_NOISE"
+  ],
+  "Annulus_C4C5": [
+   "TEX_COORD",
+   "TEX_NOISE"
+  ],
+  "Annulus_C5C6": [
+   "TEX_COORD",
+   "TEX_NOISE"
+  ],
+  "Annulus_C6C7": [
+   "TEX_COORD",
+   "TEX_NOISE"
+  ],
+  "Annulus_C7T1": [
+   "TEX_COORD",
+   "TEX_NOISE"
+  ]
+ },
+ "font_objects_rendered": []
+}

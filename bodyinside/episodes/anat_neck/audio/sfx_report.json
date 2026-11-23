@@ -1,0 +1,118 @@
+{
+ "bed": {
+  "used": "a soft low hum",
+  "z": 2.03,
+  "verdict": "weak",
+  "tried": [
+   {
+    "want": "low anatomical ambience, soft room tone hum",
+    "z": 0.97,
+    "verdict": "no match"
+   },
+   {
+    "want": "a quiet low drone pad",
+    "z": 1.91,
+    "verdict": "no match"
+   },
+   {
+    "want": "a soft low hum",
+    "z": 2.03,
+    "verdict": "weak"
+   }
+  ],
+  "pass": true
+ },
+ "whoosh": {
+  "used": "soft whoosh camera move",
+  "z": 3.79,
+  "verdict": "strong",
+  "tried": [
+   {
+    "want": "soft whoosh camera move",
+    "z": 3.79,
+    "verdict": "strong"
+   }
+  ],
+  "pass": true
+ },
+ "tick": {
+  "used": "a keyboard key click",
+  "z": 2.08,
+  "verdict": "weak",
+  "tried": [
+   {
+    "want": "soft ui tick",
+    "z": 1.72,
+    "verdict": "no match"
+   },
+   {
+    "want": "a keyboard key click",
+    "z": 2.08,
+    "verdict": "weak"
+   }
+  ],
+  "pass": true
+ },
+ "creak": {
+  "used": "slow bone creak",
+  "z": 2.47,
+  "verdict": "weak",
+  "tried": [
+   {
+    "want": "slow bone creak",
+    "z": 2.47,
+    "verdict": "weak"
+   }
+  ],
+  "pass": true
+ },
+ "groan": {
+  "used": "a deep growl",
+  "z": 2.38,
+  "verdict": "weak",
+  "tried": [
+   {
+    "want": "low tension groan, muscle strain",
+    "z": 1.05,
+    "verdict": "no match"
+   },
+   {
+    "want": "a deep growl",
+    "z": 2.38,
+    "verdict": "weak"
+   }
+  ],
+  "pass": true
+ },
+ "pulse": {
+  "used": "single soft heartbeat thump",
+  "z": 4.13,
+  "verdict": "strong",
+  "tried": [
+   {
+    "want": "single soft heartbeat thump",
+    "z": 4.13,
+    "verdict": "strong"
+   }
+  ],
+  "pass": true
+ },
+ "squish": {
+  "used": "a water drop",
+  "z": 2.59,
+  "verdict": "plausible",
+  "tried": [
+   {
+    "want": "soft wet squish",
+    "z": -0.78,
+    "verdict": "no match"
+   },
+   {
+    "want": "a water drop",
+    "z": 2.59,
+    "verdict": "plausible"
+   }
+  ],
+  "pass": true
+ }
+}

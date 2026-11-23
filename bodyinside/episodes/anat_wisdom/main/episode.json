@@ -1,0 +1,503 @@
+{
+  "id": "anat_wisdom_main",
+  "fps": 30,
+  "duration": 32,
+  "lufs": -14,
+  "title": [
+    "사랑니는",
+    "어디에 숨어 있을까?"
+  ],
+  "brand": "Body Inside",
+  "layout": {
+    "band_y": 495,
+    "band_h": 880,
+    "brand_y": 1448,
+    "caption_size": 51,
+    "caption_dy": 17,
+    "tags": false
+  },
+  "beats": [
+    {
+      "t0": 0,
+      "t1": 4,
+      "tag": "",
+      "cap": [
+        [
+          "둘째 큰어금니 뒤, 사랑니",
+          [
+            255,
+            194,
+            77
+          ]
+        ]
+      ],
+      "claim": "C1",
+      "camera": "orbit_push"
+    },
+    {
+      "t0": 4,
+      "t1": 8,
+      "tag": "",
+      "cap": [
+        [
+          "앞쪽으로 기울거나 옆으로 눕거나",
+          [
+            255,
+            194,
+            77
+          ]
+        ]
+      ],
+      "claim": "C2",
+      "camera": "push_in"
+    },
+    {
+      "t0": 8,
+      "t1": 12,
+      "tag": "",
+      "cap": [
+        [
+          "수직으로 서거나 뒤쪽으로 기울거나",
+          [
+            255,
+            194,
+            77
+          ]
+        ]
+      ],
+      "claim": "C2",
+      "camera": "push_in"
+    },
+    {
+      "t0": 12,
+      "t1": 16,
+      "tag": "",
+      "cap": [
+        [
+          "뿌리 가까이 지나는 아래턱 신경관",
+          [
+            255,
+            194,
+            77
+          ]
+        ]
+      ],
+      "claim": "C3",
+      "camera": "orbit_push"
+    },
+    {
+      "t0": 16,
+      "t1": 20,
+      "tag": "",
+      "cap": [
+        [
+          "잇몸 위로 일부만 나온 사랑니",
+          [
+            255,
+            194,
+            77
+          ]
+        ]
+      ],
+      "claim": "C4",
+      "camera": "orbit_push"
+    },
+    {
+      "t0": 20,
+      "t1": 24,
+      "tag": "",
+      "cap": [
+        [
+          "치관주위염 · 사랑니 둘레 잇몸의 염증",
+          [
+            255,
+            194,
+            77
+          ]
+        ]
+      ],
+      "claim": "C4",
+      "camera": "orbit_push"
+    },
+    {
+      "t0": 24,
+      "t1": 28,
+      "tag": "",
+      "cap": [
+        [
+          "바로 앞 어금니의 뒷면 충치",
+          [
+            255,
+            194,
+            77
+          ]
+        ]
+      ],
+      "claim": "C5",
+      "camera": "push_in"
+    },
+    {
+      "t0": 28,
+      "t1": 32,
+      "tag": "",
+      "cap": [
+        [
+          "기울기와 신경관, 어디가 먼저 보이나요?",
+          [
+            248,
+            247,
+            242
+          ]
+        ]
+      ],
+      "camera": "orbit_push"
+    }
+  ],
+  "narration": [
+    {
+      "beat": 0,
+      "text": "아래 사랑니는 둘째 큰어금니 뒤에 있는 셋째 큰어금니예요.",
+      "take": 1
+    },
+    {
+      "beat": 1,
+      "text": "앞 어금니 쪽으로 기울거나 옆으로 완전히 누운 경우도 보여요.",
+      "take": 2
+    },
+    {
+      "beat": 2,
+      "text": "똑바로 선 경우나 뒤쪽으로 기울어진 매복 사랑니도 있어요.",
+      "take": 3
+    },
+    {
+      "beat": 3,
+      "text": "입체 영상에선 신경이 지나는 관이 뿌리 가까이 보이기도 해요.",
+      "take": 4
+    },
+    {
+      "beat": 4,
+      "text": "곧게 선 사랑니가 잇몸 밖으로 일부만 나온 사례를 살펴보면요.",
+      "take": 5
+    },
+    {
+      "beat": 5,
+      "text": "그 사랑니를 둘러싼 잇몸에 염증이 관찰된 사례도 있었어요.",
+      "take": 6
+    },
+    {
+      "beat": 6,
+      "text": "기울거나 누운 사랑니 앞 어금니의 뒷면엔 충치도 보였어요.",
+      "take": 7
+    },
+    {
+      "beat": 7,
+      "text": "사랑니의 기울기와 뿌리 아래 신경관 중 어디가 먼저 보이나요?",
+      "take": 8
+    }
+  ],
+  "sfx_parts": [
+    {
+      "id": "bed",
+      "want": "low anatomical ambience, soft room tone hum",
+      "listen": "a low ambient drone",
+      "alts": [
+        "a quiet low drone pad",
+        "a soft low hum"
+      ],
+      "dur": 8,
+      "norm": 0.35
+    },
+    {
+      "id": "whoosh",
+      "want": "soft whoosh camera move",
+      "listen": "a swoosh passing by",
+      "alts": [
+        "a fast whoosh",
+        "a deep cinematic whoosh"
+      ],
+      "dur": 0.8
+    }
+  ],
+  "sfx_bed": {
+    "part": "bed",
+    "gain": 0.15
+  },
+  "sfx": [
+    {
+      "part": "whoosh",
+      "t": 0.05,
+      "gain": 0.065
+    },
+    {
+      "part": "whoosh",
+      "t": 4.05,
+      "gain": 0.065
+    },
+    {
+      "part": "whoosh",
+      "t": 8.05,
+      "gain": 0.065
+    },
+    {
+      "part": "whoosh",
+      "t": 12.05,
+      "gain": 0.065
+    },
+    {
+      "part": "whoosh",
+      "t": 16.05,
+      "gain": 0.065
+    },
+    {
+      "part": "whoosh",
+      "t": 20.05,
+      "gain": 0.065
+    },
+    {
+      "part": "whoosh",
+      "t": 24.05,
+      "gain": 0.065
+    },
+    {
+      "part": "whoosh",
+      "t": 28.05,
+      "gain": 0.065
+    }
+  ],
+  "lexicon_heard": [
+    "신경관"
+  ],
+  "labels": [
+    {
+      "id": "1_0",
+      "kind": "pill",
+      "text": "사랑니",
+      "anchor": "m3",
+      "claim": "C1",
+      "f0": 0,
+      "f1": 59,
+      "size": 50
+    },
+    {
+      "id": "2_0",
+      "kind": "pill",
+      "text": "둘째 큰어금니",
+      "anchor": "m2",
+      "claim": "C1",
+      "f0": 60,
+      "f1": 119,
+      "size": 50
+    },
+    {
+      "id": "2_1",
+      "kind": "pill",
+      "text": "사랑니",
+      "anchor": "m3",
+      "claim": "C1",
+      "f0": 60,
+      "f1": 119,
+      "size": 50
+    },
+    {
+      "id": "3_0",
+      "kind": "angle_arc",
+      "text": "앞쪽으로 기운 형태",
+      "anchor": "axis_top",
+      "claim": "C2",
+      "f0": 120,
+      "f1": 179,
+      "size": 50
+    },
+    {
+      "id": "4_0",
+      "kind": "angle_arc",
+      "text": "수평으로 누운 형태",
+      "anchor": "axis_top",
+      "claim": "C2",
+      "f0": 180,
+      "f1": 239,
+      "size": 50
+    },
+    {
+      "id": "5_0",
+      "kind": "angle_arc",
+      "text": "수직으로 선 형태",
+      "anchor": "axis_top",
+      "claim": "C2",
+      "f0": 240,
+      "f1": 299,
+      "size": 50
+    },
+    {
+      "id": "6_0",
+      "kind": "angle_arc",
+      "text": "뒤쪽으로 기운 형태",
+      "anchor": "axis_top",
+      "claim": "C2",
+      "f0": 300,
+      "f1": 359,
+      "size": 50
+    },
+    {
+      "id": "7_0",
+      "kind": "pill",
+      "text": "아래턱 신경관",
+      "anchor": "nerve",
+      "claim": "C3",
+      "f0": 360,
+      "f1": 419,
+      "size": 50
+    },
+    {
+      "id": "8_0",
+      "kind": "pill",
+      "text": "사랑니 뿌리",
+      "anchor": "axis_bottom",
+      "claim": "C3",
+      "f0": 420,
+      "f1": 479,
+      "size": 50
+    },
+    {
+      "id": "8_1",
+      "kind": "pill",
+      "text": "신경관",
+      "anchor": "nerve",
+      "claim": "C3",
+      "f0": 420,
+      "f1": 479,
+      "size": 50
+    },
+    {
+      "id": "9_0",
+      "kind": "pill",
+      "text": "잇몸 위로 나온 부분",
+      "anchor": "m3",
+      "claim": "C4",
+      "f0": 480,
+      "f1": 539,
+      "size": 50
+    },
+    {
+      "id": "10_0",
+      "kind": "pill",
+      "text": "잇몸의 경계",
+      "anchor": "gum",
+      "claim": "C4",
+      "f0": 540,
+      "f1": 599,
+      "size": 50
+    },
+    {
+      "id": "11_0",
+      "kind": "pill",
+      "text": "염증이 관찰된 부위",
+      "anchor": "gum",
+      "claim": "C4",
+      "f0": 600,
+      "f1": 659,
+      "size": 50
+    },
+    {
+      "id": "12_0",
+      "kind": "pill",
+      "text": "치관주위염",
+      "anchor": "gum",
+      "claim": "C4",
+      "f0": 660,
+      "f1": 719,
+      "size": 50
+    },
+    {
+      "id": "13_0",
+      "kind": "pill",
+      "text": "둘째 큰어금니",
+      "anchor": "m2",
+      "claim": "C5",
+      "f0": 720,
+      "f1": 779,
+      "size": 50
+    },
+    {
+      "id": "13_1",
+      "kind": "pill",
+      "text": "충치 자리",
+      "anchor": "caries",
+      "claim": "C5",
+      "f0": 720,
+      "f1": 779,
+      "size": 50
+    },
+    {
+      "id": "14_0",
+      "kind": "pill",
+      "text": "앞 어금니의 뒷면",
+      "anchor": "caries",
+      "claim": "C5",
+      "f0": 780,
+      "f1": 839,
+      "size": 50
+    },
+    {
+      "id": "15_0",
+      "kind": "pill",
+      "text": "사랑니",
+      "anchor": "m3",
+      "claim": "C1",
+      "f0": 840,
+      "f1": 899,
+      "size": 50
+    },
+    {
+      "id": "16_0",
+      "kind": "pill",
+      "text": "신경관",
+      "anchor": "nerve",
+      "claim": "C3",
+      "f0": 900,
+      "f1": 959,
+      "size": 50
+    }
+  ],
+  "region": "jaw",
+  "build": "build.py",
+  "render": {
+    "res": [
+      1080,
+      880
+    ],
+    "draft_scale": 33,
+    "spp": 6,
+    "delivery": [
+      540,
+      960
+    ]
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "text": "아래 사랑니는 둘째 큰어금니 뒤에 있는 셋째 큰어금니예요.",
+      "source": "C1"
+    },
+    {
+      "id": "C2",
+      "text": "아래 매복 사랑니의 방향은 앞쪽, 수평, 수직, 뒤쪽으로 나뉠 수 있어요.",
+      "source": "C2"
+    },
+    {
+      "id": "C3",
+      "text": "입체 영상에선 아래턱 신경관이 사랑니 뿌리 가까이 보이기도 해요.",
+      "source": "C3"
+    },
+    {
+      "id": "C4",
+      "text": "곧게 서고 일부만 나온 사랑니 주위 잇몸에서 치관주위염이 관찰된 사례가 있어요.",
+      "source": "C4"
+    },
+    {
+      "id": "C5",
+      "text": "앞으로 기울거나 누운 아래 매복 사랑니 옆의 둘째 큰어금니 뒷면에서 충치가 관찰됐어요.",
+      "source": "C5"
+    }
+  ]
+}

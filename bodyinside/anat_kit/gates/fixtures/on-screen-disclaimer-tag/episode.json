@@ -1,0 +1,16 @@
+{
+  "layout": {"tags": false},
+  "beats": [],
+  "labels": [
+    {
+      "id": "tagC",
+      "kind": "note",
+      "f0": 332,
+      "f1": 554,
+      "dx": 400,
+      "dy": 770,
+      "size": 44,
+      "text": "비교 그림"
+    }
+  ]
+}

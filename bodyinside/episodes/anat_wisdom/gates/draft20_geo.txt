@@ -1,0 +1,1 @@
+GATE_JSON {"contacts": [{"a": "ThirdMolar", "b": "Lower second molar tooth.l", "dist_mm": 0.129, "tol_mm": 0.4, "ok": true}], "gaps": [{"a": "ThirdMolar", "b": "Nerve2", "frame": 0, "dist_mm": 1.262, "range_mm": [1.0, 3.0], "ok": true}, {"a": "Lower second molar tooth.l", "b": "Nerve2", "frame": 0, "dist_mm": 1.283, "range_mm": [0.5, 50.0], "ok": true}], "pass": true}

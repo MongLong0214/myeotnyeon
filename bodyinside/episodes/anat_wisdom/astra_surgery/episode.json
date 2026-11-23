@@ -1,0 +1,316 @@
+{
+  "duration": 44,
+  "sfx_parts": [
+    {
+      "id": "bur",
+      "want": "an electric drill whirring",
+      "listen": "a high pitched electric drill whirring",
+      "dur": 3.0,
+      "mid_boost": 1.3
+    },
+    {
+      "id": "saline",
+      "want": "a garden hose spraying onto a path",
+      "listen": "water spraying in a steady stream",
+      "dur": 2.45,
+      "mid_boost": 1.2
+    },
+    {
+      "id": "aspiration",
+      "want": "a vacuum cleaner switched on and running",
+      "listen": "the steady suction noise of a vacuum cleaner",
+      "dur": 3.75,
+      "mid_boost": 1.15
+    },
+    {
+      "id": "tissue",
+      "want": "a knife slicing through something",
+      "listen": "a short slicing cut with a knife",
+      "dur": 0.31,
+      "mid_boost": 1.25,
+      "alts": [
+        "knife/slice"
+      ]
+    },
+    {
+      "id": "fracture",
+      "want": "dry twigs snapped by hand",
+      "listen": "a dry brittle twig cracking and snapping",
+      "dur": 0.46,
+      "mid_boost": 1.4
+    },
+    {
+      "id": "knot",
+      "want": "a plastic zip tie pulled tight",
+      "listen": "a short zip tie pulled tight",
+      "dur": 0.34,
+      "mid_boost": 1.0
+    },
+    {
+      "id": "liquid",
+      "want": "a single drop of water falling into still water, a liquid plink",
+      "listen": "a drop of water",
+      "dur": 0.35,
+      "mid_boost": 1.0
+    },
+    {
+      "id": "root_bur",
+      "want": "an electric drill whirring",
+      "listen": "a high pitched electric drill whirring",
+      "dur": 0.67,
+      "mid_boost": 1.3
+    }
+  ],
+  "sfx": [
+    {
+      "part": "bur",
+      "t": 0,
+      "dur": 2.95,
+      "gain": 0.085,
+      "speed": 2.25,
+      "pan": 0.1,
+      "loop": true
+    },
+    {
+      "part": "saline",
+      "t": 0.02,
+      "dur": 2.92,
+      "gain": 0.033,
+      "speed": 1.04,
+      "pan": -0.13,
+      "loop": true
+    },
+    {
+      "part": "tissue",
+      "t": 4.28,
+      "gain": 0.022,
+      "dur": 0.26,
+      "speed": 1,
+      "in": 0.01
+    },
+    {
+      "part": "tissue",
+      "t": 6.07,
+      "gain": 0.018,
+      "dur": 0.26,
+      "speed": 1,
+      "in": 0.01
+    },
+    {
+      "part": "liquid",
+      "t": 6.1,
+      "gain": 0.024,
+      "dur": 0.19,
+      "speed": 0.85,
+      "in": 0
+    },
+    {
+      "part": "tissue",
+      "t": 7.48,
+      "gain": 0.054,
+      "dur": 0.26,
+      "speed": 1,
+      "in": 0.01
+    },
+    {
+      "part": "liquid",
+      "t": 7.52,
+      "gain": 0.036,
+      "dur": 0.19,
+      "speed": 0.85,
+      "in": 0
+    },
+    {
+      "part": "tissue",
+      "t": 8.55,
+      "gain": 0.042,
+      "dur": 0.26,
+      "speed": 1,
+      "in": 0.01
+    },
+    {
+      "part": "liquid",
+      "t": 8.57,
+      "gain": 0.028,
+      "dur": 0.19,
+      "speed": 0.85,
+      "in": 0
+    },
+    {
+      "part": "tissue",
+      "t": 10.73,
+      "gain": 0.036,
+      "dur": 0.26,
+      "speed": 1,
+      "in": 0.01
+    },
+    {
+      "part": "liquid",
+      "t": 10.82,
+      "gain": 0.025,
+      "dur": 0.19,
+      "speed": 0.85,
+      "in": 0
+    },
+    {
+      "part": "bur",
+      "t": 13.53,
+      "dur": 4.47,
+      "gain": 0.073,
+      "speed": 2.25,
+      "pan": 0.1,
+      "loop": true
+    },
+    {
+      "part": "saline",
+      "t": 13.63,
+      "dur": 4.45,
+      "gain": 0.042,
+      "speed": 1.04,
+      "pan": -0.13,
+      "loop": true
+    },
+    {
+      "part": "aspiration",
+      "t": 14.13,
+      "dur": 4.04,
+      "gain": 0.072,
+      "speed": 1.26,
+      "pan": -0.23,
+      "loop": true
+    },
+    {
+      "part": "bur",
+      "t": 19.22,
+      "dur": 3.65,
+      "gain": 0.087,
+      "speed": 2.25,
+      "pan": 0.1,
+      "loop": true
+    },
+    {
+      "part": "saline",
+      "t": 19.34,
+      "dur": 3.44,
+      "gain": 0.031,
+      "speed": 1.04,
+      "pan": -0.13,
+      "loop": true
+    },
+    {
+      "part": "fracture",
+      "t": 23.88,
+      "gain": 0.219,
+      "dur": 0.27,
+      "speed": 0.99,
+      "in": 1.055
+    },
+    {
+      "part": "tissue",
+      "t": 25.6,
+      "gain": 0.04,
+      "dur": 0.26,
+      "speed": 1,
+      "in": 0.01
+    },
+    {
+      "part": "liquid",
+      "t": 25.69,
+      "gain": 0.022,
+      "dur": 0.19,
+      "speed": 0.85,
+      "in": 0
+    },
+    {
+      "part": "root_bur",
+      "t": 27.21,
+      "dur": 0.72,
+      "gain": 0.072,
+      "speed": 2.45,
+      "pan": 0.07,
+      "loop": true
+    },
+    {
+      "part": "saline",
+      "t": 27.26,
+      "dur": 0.64,
+      "gain": 0.027,
+      "speed": 1.04,
+      "pan": -0.13,
+      "loop": true
+    },
+    {
+      "part": "tissue",
+      "t": 28.82,
+      "gain": 0.035,
+      "dur": 0.26,
+      "speed": 1,
+      "in": 0.01
+    },
+    {
+      "part": "liquid",
+      "t": 29.02,
+      "gain": 0.02,
+      "dur": 0.19,
+      "speed": 0.85,
+      "in": 0
+    },
+    {
+      "part": "tissue",
+      "t": 31.0,
+      "gain": 0.037,
+      "dur": 0.26,
+      "speed": 1,
+      "in": 0.01
+    },
+    {
+      "part": "liquid",
+      "t": 31.16,
+      "gain": 0.024,
+      "dur": 0.19,
+      "speed": 0.85,
+      "in": 0
+    },
+    {
+      "part": "saline",
+      "t": 33.91,
+      "dur": 2.34,
+      "gain": 0.068,
+      "speed": 1.04,
+      "pan": -0.13,
+      "loop": true
+    },
+    {
+      "part": "liquid",
+      "t": 36.31,
+      "gain": 0.022,
+      "dur": 0.19,
+      "speed": 0.85,
+      "in": 0
+    },
+    {
+      "part": "tissue",
+      "t": 38.25,
+      "gain": 0.023,
+      "dur": 0.26,
+      "speed": 1,
+      "in": 0.01
+    },
+    {
+      "part": "knot",
+      "t": 39.75,
+      "gain": 0.061,
+      "dur": 0.23,
+      "speed": 1.13,
+      "in": 0.03
+    },
+    {
+      "part": "knot",
+      "t": 40.16,
+      "gain": 0.034,
+      "dur": 0.23,
+      "speed": 1.13,
+      "in": 0.03
+    }
+  ]
+}

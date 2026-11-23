@@ -1,0 +1,452 @@
+- id: caption-claims-something-not-shown
+  description: Caption or label states an event/anatomy the picture does not show (or shows the opposite).
+  recurred_in: 10
+  sources:
+  - fable_review.md, P0-1, f30, f60, f89
+  - fable_review3.md, P0-2, f177-f245
+  - fable_review4.md, P1-5, f0-f60
+  - fable_review4.md, P0-3, f166-f205
+  - fable_review5.md, P0-3, f166-f202
+  - fable_review6.md, P0-3, f166-f205
+  - fable_review8.md, P1-8, f0
+  - fable_review9.md, P1-7, f0
+  - fable_review10.md, P1-7, tilt claim
+  - fable_review11.md, P1-8, tilt
+  - anat_neck/review/fable_review1.md, P0-1, f315-f465, f330, f390, f450
+  - anat_neck/review/fable_review1.md, P0-2, f465-f720
+  - anat_neck/review/fable_review1.md, P0-4, f885-f989, f930
+- id: caption-overstates-evidence
+  description: Caption/description states a contested or variable fact as a rule, or claims accuracy the model lacks.
+  recurred_in: 2
+  sources:
+  - ceo_checks.md, section 1 FLAG tag 치아 분할, f90-f159
+  - ceo_checks.md, section 1 FLAG tag 하치조신경, f160-f205
+  - ceo_checks.md, section 1 FLAG description line 3, not on screen
+  - fable_review.md, P2-21, caption line '실제 수술 순서 기반 재구성'
+- id: credit-rights-provenance-paperwork
+  description: SOURCES.md / upload description out of date or missing attribution/disclaimer; no on-screen simplified-illustration note.
+  recurred_in: 1
+  sources:
+  - ceo_checks.md, section 3 third molar FLAG, assets/third_molar_v3b.blend
+  - ceo_checks.md, section 1 FLAG provenance row, SOURCES.md fact-check row
+  - ceo_checks.md, section 1 FLAG (minor) no on-screen illustration line, whole clip
+- id: caption-timing-reading-speed
+  description: Caption overlaps a prior label or is too fast to read.
+  recurred_in: 2
+  sources:
+  - anat_neck/review/fable_review1.md, P2-15, f315-f350
+  - ceo_checks.md, section 2 reading time, f160-f205, 7.8 chars/s
+- id: subject-too-small-or-off-centre
+  description: Subject occupies a small/off-centre part of the band; important part cut off or tiny.
+  recurred_in: 4
+  sources:
+  - fable_review.md, Hook section / P2-20, f0, empty third of screen
+  - fable_review2.md, P2-16, f0 (x 520-780), never centred
+  - fable_review2.md, Scores axis 5, whole clip
+  - fable_review10.md, P1-5, f0-f30, root tip cut at right edge
+  - anat_neck/review/fable_review1.md, P0-5, f90-f520, f880-f989, f330, f450
+- id: unused-frame-space-bottom-of-frame
+  description: Bottom of the full 1080x1920 frame (y 1500-1920) is empty / layout wastes space.
+  recurred_in: 9
+  sources:
+  - fable_review.md, P2-20, y 1700-1920
+  - fable_review2.md, P2-15, y 1500-1920
+  - fable_review3.md, P2-16, y 1500-1920
+  - fable_review4.md, P2-16, y 1500-1920
+  - fable_review5.md, P2-15, bottom of full frame
+  - fable_review6.md, P2-16, bottom of full frame
+  - fable_review11.md, P2-14, bottom of full frame
+  - fable_review17.md, item 8, y 1500-1920
+  - anat_neck/review/fable_review1.md, P2-17, y 1500-1920
+- id: foreground-occluder-ramus-slab
+  description: Blurred ramus/molar slab fills a side of the frame and blocks the subject or label.
+  recurred_in: 8
+  sources:
+  - fable_review4.md, Scores axis 5, f185, left third
+  - fable_review5.md, Scores axis 5, f185, left quarter
+  - fable_review8.md, P0-1, f172-f192; f185 at 860-1080, 0-800
+  - fable_review9.md, P2-12, f170-f210
+  - fable_review11.md, P2-10, f165-f210
+  - fable_review14.md, item 10, f165-f215
+  - fable_review15.md, item 3, f165-f215
+  - fable_review16.md, item 5, f165-f215
+- id: stray-geometry-specks-bars-lines
+  description: Loose specks, beads, bars, translucent sheets, white ticks and blobs not part of any structure.
+  recurred_in: 9
+  sources:
+  - fable_review.md, P1-10, f15 at 690,240; f90-f155
+  - fable_review.md, P1-11, f30 at 740,375; f110; f155
+  - fable_review3.md, P0-5, ovals at 575,625 and 835,470
+  - fable_review7.md, P0-3, f0 at 530-600, 0-170; f270
+  - fable_review7.md, P1-6, f0 at 580,545-590; f185; f270
+  - fable_review8.md, P1-5, f270 at 240-340, 330-520
+  - fable_review11.md, P1-6, f30 at 560,240; f75; f160
+  - fable_review11.md, P1-7, all frames, between roots
+  - fable_review12.md, P1-5, f75 at 400-430, 415-440
+  - fable_review14.md, item 4, f270 at 295-325, 390-470; f0 at 400-440, 650-690
+  - fable_review16.md, new defect 3, f0 at 815-830, 180-250
+  - anat_neck/review/fable_review1.md, P1-8, f30 at 400-480, 600-720; f930
+- id: lower-left-corner-blob
+  description: Brown/pink blob or pale smear at the lower-left corner of the band.
+  recurred_in: 6
+  sources:
+  - fable_review.md, P1-9, f0 at 0-60, 440-660
+  - fable_review9.md, P2-13, f75 at 0-60, 640-800
+  - fable_review11.md, P2-13, brown blob lower-left
+  - fable_review13.md, item 8, f60-f160
+  - fable_review14.md, item 5, f60-f160; f75 at 0-70, 700-770
+  - fable_review17.md, item 7, f60-f100 at 0-60, 600-800
+- id: pink-band-on-ramus
+  description: Translucent pink/yellow band or jagged edge across the ramus sheet.
+  recurred_in: 6
+  sources:
+  - fable_review8.md, P2-12, f75 at 900-1080, 470-500
+  - fable_review9.md, P2-11, pink band and jagged edge
+  - fable_review10.md, P2-11, pink band on ramus
+  - fable_review15.md, item 6, f75 at 930-1080, 420-520
+  - fable_review16.md, item 7, f75 at 930-1080, 470-500
+  - fable_review21.md, item 3, f60-f99, f225-f299; f228 at 990-1080, 520-570
+- id: floating-detached-or-separated-mesh
+  description: 'Parts float apart: tooth hangs in air, jaw in separate pieces, nerve crosses gap in open air, bone ends in sawn-off edge.'
+  recurred_in: 6
+  sources:
+  - fable_review.md, P0-1, f30, f60, f89
+  - fable_review3.md, P0-5, f75 at 640,570
+  - fable_review4.md, P0-4, f0 at 700,600; f75 at 730,370
+  - fable_review6.md, P0-4, f0-f60; f10 at 770-800, 420-560
+  - fable_review17.md, new defect 2, f162-f216; f165 at 680-1080, 390-540
+  - fable_review18.md, new defect 1, f160-f216; f165 at 850-1080, 240-800
+- id: jaw-bone-missing-or-wrong-material
+  description: No bone/thin ghost shell, glass-bubble window, grainy film, board-like block with no cortex.
+  recurred_in: 7
+  sources:
+  - fable_review.md, P0-2, all frames
+  - fable_review2.md, P0-4, all frames
+  - fable_review3.md, P0-4, f75 at 640,330
+  - fable_review3.md, P1-12, all frames
+  - fable_review4.md, P1-12, f160-f299
+  - fable_review5.md, P0-1, f30-f299; f75 at 560-1000, 110-260
+  - fable_review6.md, P0-1, f0-f68
+  - fable_review9.md, P0-1, f0 at 380-460, 530-690
+- id: material-reads-as-clay-wax-plastic-concrete
+  description: 'Surface material misread: orange wax, flesh peach, grey concrete, plaster, rubber band, white plastic enamel, glassy bur.'
+  recurred_in: 8
+  sources:
+  - fable_review.md, P2-22, f0
+  - fable_review.md, Scores axis 2, wisdom tooth orange wax
+  - fable_review2.md, P1-7, f0-f176, skin-peach
+  - fable_review5.md, P0-2/P1-6, bur cream like bone
+  - fable_review7.md, P0-2, f90-f160 glass bur
+  - fable_review13.md, P0-1, all frames, pink rubber band
+  - fable_review14.md, item 9, uniform white plastic enamel
+  - fable_review15.md, new defect 1, f0 at 610-840, 170-290, plaster slab
+  - anat_neck/review/fable_review1.md, P1-9, f600, f690 cut faces grey concrete
+  - anat_neck/review/fable_review1.md, Scores axis 2, discs flat grey slabs
+- id: tooth-asset-not-real-molar-mesh
+  description: Wisdom tooth is a smooth procedural pillow/balls with no cusps, fissures or tapering roots.
+  recurred_in: 16
+  sources:
+  - fable_review.md, P1-12, f90-f155
+  - fable_review2.md, P1-7, f0-f176, f205 at 580,240
+  - fable_review3.md, P1-13, f60-f117
+  - fable_review5.md, P1-8, f75
+  - fable_review6.md, P0-1, f80, f185
+  - fable_review7.md, P0-1, all frames
+  - fable_review8.md, P0-3, all frames
+  - fable_review9.md, P0-3, all frames
+  - fable_review10.md, P0-4, all frames
+  - fable_review11.md, P0-1, all frames
+  - fable_review12.md, P0-2, all frames
+  - fable_review13.md, P1-3, f0, f228-f232
+  - fable_review15.md, item 1, f0 at 530-780, 200-500
+  - fable_review16.md, The v3 crown, f100-f150, f226-f234
+  - fable_review17.md, item 4, f148 at 390-560, 330-560
+  - fable_review21.md, item 5, f100-f150
+- id: tint-or-colour-cast-on-subject
+  description: 'Wrong colour on the subject: two red teeth, pink half-tint, green cast, flesh peach.'
+  recurred_in: 4
+  sources:
+  - fable_review.md, P0-3, f8-f80
+  - fable_review.md, P2-22, f0
+  - fable_review2.md, P1-7, f0-f176
+  - fable_review10.md, P0-1, f0 at 540-800, 330-520
+  - fable_review15.md, new defect 2, f0 at 700-780, 420-500; f75; f100; f150
+- id: clipped-whites-overexposure
+  description: Molar crowns or rims blown to blank white with no surface form.
+  recurred_in: 9
+  sources:
+  - fable_review.md, P0-4, f90-f155, left third
+  - fable_review2.md, P1-11, f90-f299
+  - fable_review3.md, P1-8, f60-f245; f134 at 480,620
+  - fable_review4.md, P1-8/P1-10, f140, f185
+  - fable_review5.md, P2-14, f145
+  - fable_review6.md, P1-6, f140, f185
+  - fable_review7.md, P1-11, f75-f160
+  - fable_review8.md, P2-14, f130
+  - fable_review15.md, item 7, second molar flat bright white
+- id: low-contrast-colour-wash
+  description: 'Frame is a low-contrast wash: orange fog opening, beige on beige, cream end, bloom.'
+  recurred_in: 5
+  sources:
+  - fable_review.md, P1-8, f0-f20
+  - fable_review2.md, P2-18, drab olive-grey jaw
+  - fable_review3.md, P1-9, f255-f299
+  - fable_review5.md, P0-2, f60-f299
+  - anat_neck/review/fable_review1.md, P1-13, f610-f700 warm bloom
+- id: noise-grain-halo-fireflies
+  description: Visible sampling noise, grain, denoise halos or smeared outline.
+  recurred_in: 3
+  sources:
+  - fable_review.md, P1-14, f15-f60, right third
+  - fable_review.md, P1-13, f147 at 740,235
+  - fable_review3.md, P1-12, grainy bone film
+  - fable_review4.md, P2-13, f70-f80 at 640,330 dark noisy ghost
+- id: focus-and-motion-blur-hides-subject
+  description: Focus plane or motion blur on the wrong thing; subject soft at the key moment.
+  recurred_in: 4
+  sources:
+  - fable_review2.md, P2-17, f216 crown leaves band with heavy blur
+  - fable_review12.md, P1-3, f0-f12
+  - fable_review16.md, The v3 crown, f226-f234, f230 at 470-730, 150-430
+  - fable_review17.md, new defect 4, f235-f241
+- id: single-frame-pop-or-flash
+  description: One- to three-frame visibility, material or tint pops that read as flash/strobe.
+  recurred_in: 5
+  sources:
+  - fable_review.md, P0-3, pulse irregular f0, f8-f16, f24, f40-f48, f56, f88
+  - fable_review2.md, P0-3, f122 at 700,430
+  - fable_review2.md, P1-8, f43-f44
+  - fable_review3.md, P0-1, f135, f138, f149 at 630,430
+  - fable_review9.md, P1-6, f96-f97, f154-f155
+  - fable_review17.md, new defect 1, f160-f162, f216-f219
+- id: camera-move-snaps-no-ease
+  description: Camera or label starts/stops without ease; hard cut or judder.
+  recurred_in: 6
+  sources:
+  - fable_review.md, P1-17, f86-f112, cut at f90
+  - fable_review4.md, P1-6, f150-f168, f205-f213; diff 0.13 to 9.29 at f206
+  - fable_review6.md, P1-11, f205-f207
+  - fable_review7.md, P1-10, f205-f207
+  - fable_review8.md, P1-9, f205-f207
+  - fable_review15.md, Next steps item 5, f153-f156 handpiece exit
+- id: assembly-framerate-judder
+  description: Looped stills default to 25 fps so 30 fps render resamples with duplicate frames.
+  recurred_in: 2
+  sources:
+  - fable_review.md, P0-6, every 6th frame duplicate
+  - 'fable_review2.md, Previous P0 status #6, FIXED, -framerate 30'
+- id: dead-time-no-event
+  description: Stretches with only a slow push-in and no event.
+  recurred_in: 4
+  sources:
+  - fable_review.md, P1-17, f86-f112
+  - fable_review3.md, P1-10, f222-f299
+  - fable_review2.md, P1-14, f0-f45
+  - fable_review3.md, Scores axis 4, f222-f299
+  - anat_neck/review/fable_review1.md, P1-11, f117-f150, f470-f520, f700-f726
+- id: hook-no-physical-event-contact-nudge-invisible
+  description: Opening shows no physical event; molar nudge/tilt/glow absent or too small to read.
+  recurred_in: 12
+  sources:
+  - fable_review.md, Hook section, f0-f45
+  - fable_review2.md, P1-14, f3-f12
+  - fable_review3.md, P1-14, f10-f20
+  - fable_review4.md, P1-5, f0-f60
+  - fable_review5.md, P1-10, f4-f24
+  - fable_review6.md, P1-10, f4-f24
+  - fable_review7.md, P1-4, f0-f6
+  - fable_review8.md, P1-8, f0
+  - fable_review9.md, P1-7, f0
+  - fable_review10.md, P1-7, tilt
+  - fable_review11.md, P1-8, tilt
+  - anat_neck/review/fable_review1.md, Scores axis 6 Hook, f0, 5 kg label at f36
+- id: contact-glow-flicker-or-misplaced
+  description: Contact glow flickers, tints the whole window, or is a grey disc instead of a contact-point glow.
+  recurred_in: 4
+  sources:
+  - fable_review.md, P0-3, f8-f80
+  - fable_review2.md, P1-8, f0-f44 at 540,490
+  - fable_review3.md, P1-11, f10-f20
+  - fable_review4.md, P1-11, removed, not fixed
+- id: cut-trace-bur-chips-spray-unconvincing
+  description: Cutting has no kerf/debris/spray; bur is glassy, headless, parked while the cut travels; mist is a hard wedge.
+  recurred_in: 12
+  sources:
+  - fable_review.md, P0-5, f112-f136
+  - fable_review2.md, P1-13, f100-f160, f150 at 590,440
+  - fable_review4.md, P1-12, f100-f158
+  - fable_review5.md, P1-6, f100-f130
+  - fable_review6.md, P1-7, f95-f158
+  - fable_review7.md, P0-2, f90-f160
+  - fable_review8.md, P0-2, f92-f158
+  - fable_review10.md, P1-8, chips
+  - fable_review11.md, P1-5, chips, white veil
+  - fable_review15.md, Builder's fixes mist cone, f97-f156
+  - fable_review16.md, new defect 4, f97-f155
+  - fable_review17.md, Round-16 status mist, f143-f153; f148 at 640-760, 400-510
+- id: kerf-gap-wrong-size-or-colour
+  description: Kerf after the cut is a yellow slab, grey plate, 50-70 px missing block, or wound-like gap.
+  recurred_in: 5
+  sources:
+  - fable_review3.md, P1-7, f117-f148; f134 at 610,420
+  - fable_review4.md, P0-2, f160-f210; f185 at 450-530, 110-370
+  - fable_review5.md, P1-5, f160-f215
+  - fable_review6.md, P1-5, f185
+  - fable_review11.md, P1-4, f166-f215
+- id: bur-overcuts-into-nerve
+  description: Bur or cut line passes through the tooth to the canal, implying injury.
+  recurred_in: 4
+  sources:
+  - fable_review2.md, P0-2, f139-f159; tip at 520,650 on f150
+  - fable_review4.md, P0-1, f120-f158; tip at 600,560 on f140
+  - fable_review9.md, P0-2, f145-f153; f150 at 595,500
+  - fable_review10.md, P0-3, f140-f165
+- id: interpenetration-roots-nerve-jaw
+  description: 'Structures overlap where they must not: molar roots pierce or touch the canal, jaw passes through vertebrae.'
+  recurred_in: 7
+  sources:
+  - fable_review.md, P0-7, f30 at 520,420
+  - fable_review2.md, P1-9, f285 at 430,520
+  - fable_review4.md, P1-9, f185 at 300,600
+  - fable_review7.md, P1-5, f0 at 530,700
+  - fable_review8.md, P1-11, f0, f270
+  - fable_review9.md, P1-10, f270
+  - anat_neck/review/fable_review1.md, P0-3, f300-f340 at 520-620, 380-470
+- id: nerve-canal-shape-and-routing-wrong
+  description: Nerve drawn as ladder/ribbon/dash/pipe, S-bend, kink, blunt cap, stub or second misregistered canal.
+  recurred_in: 8
+  sources:
+  - fable_review.md, P0-7, f0 zoom, f30 at 735,400
+  - fable_review2.md, P1-9, f0 at 890,340; f285
+  - fable_review3.md, P0-5, f75 at 640,570
+  - fable_review3.md, P2-15, f0 at 790,440
+  - fable_review5.md, P1-9, f75 at 400-620, 620-790
+  - fable_review6.md, P1-12, f80 at 330-620, 740-790
+  - fable_review9.md, P1-5, f75 at 280-330, 660-700
+  - fable_review12.md, P1-9, f185 at 480-600, 430-490
+  - anat_neck/review/fable_review1.md, P1-14, f30 at 470-500, 730
+- id: ghost-fade-and-composite-seams-nerve-beat
+  description: Ghosted bone/ramus and composited nerve show cards, scratches, collars, wire outlines or paint-over seams.
+  recurred_in: 4
+  sources:
+  - fable_review18.md, new defect 1, f160-f216; f165 at 850-1080, 240-800
+  - fable_review18.md, new defect 2, f162-f216; f165 at 880-1000, 430-460
+  - fable_review18.md, new defect 3, f214-f221; f218 at 880-1080, 0-800
+  - fable_review19.md, item 1, f160-f220
+  - fable_review20.md, new defect 2, f148-f159, f219-f224; f154 at 890-1080, 520-575
+  - fable_review21.md, item 4, f165-f205
+- id: label-or-callout-occluded-or-cut
+  description: Label, pill or bracket cut off by geometry or drawn under a 3D layer.
+  recurred_in: 5
+  sources:
+  - fable_review5.md, P1-7, f185 at 215-490, 330-420
+  - fable_review7.md, P2-12, f185 at 900-930
+  - fable_review8.md, P0-1, f172-f192; label reads '1~2 mr'
+  - fable_review20.md, new defect 1, f170-f197; f185 at 500-565, 345-400
+  - fable_review6.md, P1-9, f185 glyphs fused
+- id: callout-bracket-misplaced-or-illegible
+  description: 1~2 mm bracket/label too small, low contrast, no number, or measures from the wrong point.
+  recurred_in: 5
+  sources:
+  - fable_review2.md, P0-6, f246-f299 at 570,405
+  - fable_review3.md, P0-6, f248, f290 at 580,420
+  - fable_review4.md, P0-3, f166-f205; f185 at 300-520, 370-430
+  - fable_review5.md, P0-3, f166-f202; 505,405
+  - fable_review6.md, P0-3, f166-f205; 505,395
+- id: leader-lines-crossing-or-misanchored
+  description: Leader/load arrow lines cross or land on the wrong structure.
+  recurred_in: 1
+  sources:
+  - anat_neck/review/fable_review1.md, P0-2, f600 at 430-720, 300-520
+  - anat_neck/review/fable_review1.md, P1-12, f160-f350
+- id: unreadable-small-text
+  description: On-screen text about 22-24 px, grey on black, unreadable on a phone.
+  recurred_in: 3
+  sources:
+  - fable_review.md, P1-18, brand sub-line y 1560-1660, 22 px
+  - fable_review.md, P2-19, band tag 24 px
+  - fable_review2.md, P2-15, brand line 36 px grey at y 1465
+  - anat_neck/review/fable_review1.md, P2-16, source notes 24 px
+- id: shorts-ui-safe-zone-brand-block
+  description: Brand block placed where the Shorts UI is drawn.
+  recurred_in: 2
+  sources:
+  - fable_review.md, P1-18, y 1560-1660
+  - fable_review2.md, P2-15, y 1465
+- id: socket-and-sectioned-bone-shape-wrong
+  description: Socket is a stain, lumpy red mass, oversized crescent, stepped outline, or has a black gap by the second molar.
+  recurred_in: 7
+  sources:
+  - fable_review3.md, P0-3, f150-f299; f290 at 520,250
+  - fable_review5.md, P0-4, f235-f299; f290 at 300-690, 150-490
+  - fable_review7.md, P1-9, f295 at 360-640, 180-440
+  - fable_review16.md, new defect 2, f235-f299; f295 at 330-420, 230-340
+  - fable_review17.md, new defect 3, f0-f215; f0 at 640-1000, 170-330
+  - fable_review17.md, item 5, f265-f299
+  - fable_review20.md, Not gating item 4, f235-f299
+  - fable_review21.md, item 1, f235-f299; f236 at 385-400, 420-520
+- id: leftover-geometry-in-socket-or-after-removal
+  description: Ghost tooth, shell, shards or slivers remain after extraction.
+  recurred_in: 4
+  sources:
+  - fable_review2.md, P0-1, f190-f299; f205 at 500,470; f285 at 580,250
+  - fable_review4.md, P1-7, f250-f299; f270 at 520,340 and 545,440
+  - fable_review6.md, P0-2, f228-f299; f245 at 330-520, 300-540
+  - fable_review14.md, item 1, f265-f299; f270 at 370-410, 320-340
+- id: seam-ring-artifacts-on-tooth-and-cut-face
+  description: Visible crown/root seam before the cut, or washer rings / glassy disc on root cut face.
+  recurred_in: 7
+  sources:
+  - fable_review4.md, P1-8, f231-f262; f240 at 610,330
+  - fable_review5.md, P2-12, f240
+  - fable_review6.md, P1-5/P1-8, f10 at 625,440-480; f232-f250
+  - fable_review7.md, P1-7/P1-8, f228-f248
+  - fable_review8.md, P1-6/P1-10, f0-f95; f230-f250
+  - fable_review9.md, P1-9, f0-f96
+  - fable_review10.md, P1-6, f0-f96
+- id: gum-geometry-wrong
+  description: Gum missing, plank/rubber band/box-lid flap, gaps at necks, stepped end, grey halo or dirty fade.
+  recurred_in: 9
+  sources:
+  - fable_review.md, P1-16, f30 at 430-500, 100-170
+  - fable_review9.md, P1-4, all frames
+  - fable_review10.md, P0-1, f30 at 490-1000, 290-450
+  - fable_review11.md, P0-2, f0-f56
+  - fable_review12.md, P0-1, f0-f299
+  - fable_review13.md, P0-1, all frames
+  - fable_review14.md, Why draft25 loses, f15-f24; f75 at 780-850, 320-370
+  - fable_review15.md, new defect 3, f90-f165
+  - fable_review17.md, item 6, f148 at 440-700, 220-260
+- id: faceted-polygon-edges
+  description: Low-poly facets, polygon edges and stair-stepped outlines.
+  recurred_in: 5
+  sources:
+  - fable_review.md, P0-4, f90 x 980-1080
+  - fable_review.md, P1-12, f110 at 430,290
+  - fable_review2.md, P0-1, f205 at 500,470
+  - fable_review3.md, P0-3, f150-f299
+  - fable_review8.md, P2-13, f75 at 870-900, 290-400
+  - fable_review16.md, new defect 2, f295 at 330-420, 230-340
+- id: scene-discontinuity-or-missing-context
+  description: Hard cut to a cheaper-looking scene or no skull/face context so the jaw does not read.
+  recurred_in: 2
+  sources:
+  - fable_review.md, P0-4, f90-f155
+  - fable_review2.md, P1-12, f0 at 0-450, 0-250
+  - fable_review.md, P1-9, f0-f30 at 0-60, 440-660
+- id: incomplete-or-hollow-anatomy-parts
+  description: 'Expected anatomy absent, hollow or torn: no teeth, hollow skull, no ear/shoulder, torn muscle strips.'
+  recurred_in: 2
+  sources:
+  - anat_neck/review/fable_review1.md, P0-4, f885-f989
+  - anat_neck/review/fable_review1.md, P1-6, f0-f989
+  - anat_neck/review/fable_review1.md, P1-7, f105-f150
+  - anat_neck/review/fable_review1.md, P1-10, f780 at 640-760, 400-700
+  - fable_review9.md, P1-4, all frames, no gum
+- id: rigid-or-implausible-motion
+  description: 'Part moves as a rigid body or physically impossibly: rigid tilt, 90-degree spin, vanishing roots.'
+  recurred_in: 3
+  sources:
+  - anat_neck/review/fable_review1.md, P0-3, f150-f350, f255, f300
+  - fable_review2.md, P0-5, f220-f250; f232 at 560,330
+  - fable_review3.md, P0-2, f150-f299

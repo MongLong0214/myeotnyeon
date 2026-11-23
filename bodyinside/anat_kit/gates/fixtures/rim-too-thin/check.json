@@ -1,0 +1,8 @@
+{
+ "fn": "rim_bevel",
+ "args": [
+  "facts.json"
+ ],
+ "kwargs": {},
+ "origin": "scene_facts.py on episodes/anat_neck/neck_draft10.blend at f630 (fable_review7 round-6 item 5)"
+}

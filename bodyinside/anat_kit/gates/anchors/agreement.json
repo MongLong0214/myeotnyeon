@@ -1,0 +1,114 @@
+[
+  {
+    "episode": "neck",
+    "tag": "draft16",
+    "sha256": "53afee34caa5ed14915495570a31857ef5defa8dccfea08d6617bd125ff67cca",
+    "opus": 7.0,
+    "fable": 9.0,
+    "within_half": false
+  },
+  {
+    "episode": "neck",
+    "tag": "draft14",
+    "sha256": "844f99ab08f06767aa5cb3e5ed4d00283524948bc7b7c8b3804789f838140512",
+    "opus": 7.0,
+    "fable": 8.5,
+    "within_half": false
+  },
+  {
+    "episode": "neck",
+    "tag": "draft11",
+    "sha256": "b11c0f642e65286ed143c6ca3fbfc1f2b04142980b1ea200c83570ba3e906334",
+    "opus": 7.0,
+    "fable": 8.0,
+    "within_half": false
+  },
+  {
+    "episode": "wisdom",
+    "tag": "draft11",
+    "sha256": "fca4745c72b08198bb574ad2301031ce212cdccc711a2039449bc5f2029180e5",
+    "opus": 4.0,
+    "fable": 4.0,
+    "within_half": true
+  },
+  {
+    "episode": "neck",
+    "tag": "draft19",
+    "sha256": "648da7e84c2f797e4c465f8441874076f877d10e14de58dc586f2ab34dacc8c1",
+    "opus": 7.0,
+    "fable": 8.5,
+    "within_half": false
+  },
+  {
+    "episode": "wisdom",
+    "tag": "draft13",
+    "sha256": "a0853a21583234bbd2253f6fe6aa553689018035f43b49a7bebe6f03cfde4605",
+    "opus": 5.5,
+    "fable": 6.0,
+    "within_half": true
+  },
+  {
+    "episode": "wisdom",
+    "tag": "draft16",
+    "sha256": "e20d541889f1afebfbd908210eed20661a0c978cc97eece565d9d44ce5fea527",
+    "opus": 6.0,
+    "fable": 6.0,
+    "within_half": true
+  },
+  {
+    "episode": "wisdom",
+    "tag": "draft20",
+    "sha256": "9566f72f8d7d61e73f087215ad8bda70312c1b0d83f16ca523f12a8f39269fd4",
+    "opus": 7.0,
+    "fable": 7.0,
+    "within_half": true
+  },
+  {
+    "episode": "wisdom",
+    "tag": "draft24",
+    "sha256": "0a19e22ea2b813ae20426b5676feaf087bc66704d46ff03ec19d125cef78d4d9",
+    "opus": 7.5,
+    "fable": 7.5,
+    "within_half": true
+  },
+  {
+    "episode": "wisdom",
+    "tag": "draft22",
+    "sha256": "2b42dd0d8a105f03a71b8c4dbb0833cc30bf8b88dcb16fca9260201d42fae66b",
+    "opus": 7.0,
+    "fable": 7.0,
+    "within_half": true
+  },
+  {
+    "episode": "wisdom",
+    "tag": "draft26",
+    "sha256": "85cb310c74921c941ca55aa78455a745c0c3aa9df733069680d7ce5512d9ced2",
+    "opus": 7.5,
+    "fable": 8.0,
+    "within_half": true
+  },
+  {
+    "episode": "wisdom",
+    "tag": "draft28",
+    "sha256": "36e1f9431e60d95ccdf43293355af49ff904c789045f71a392461be903b71223",
+    "opus": 7.0,
+    "fable": 8.5,
+    "within_half": false
+  },
+  {
+    "episode": "wisdom",
+    "tag": "draft31",
+    "sha256": "373483d3cc4df5841440ae28e110a8d982449ec25a4d2e392e8296b63fc4a979",
+    "opus": 7.5,
+    "fable": 8.5,
+    "within_half": false
+  },
+  {
+    "episode": "wisdom",
+    "tag": "draft34",
+    "sha256": "1802b58bb400e76feb5e5b469822e92b428443b7bf52dabf578927a5c49cf7a0",
+    "opus": 7.5,
+    "fable": 9.0,
+    "within_half": false
+  }
+]

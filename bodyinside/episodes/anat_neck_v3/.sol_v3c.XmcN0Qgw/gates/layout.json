@@ -1,0 +1,17 @@
+{
+ "fps": 30,
+ "allowed_hue_bins": [],
+ "max_highlight_clusters": 2,
+ "noise_max": 6.0,
+ "firefly_max": 40,
+ "hook_subject_min": 0.01,
+ "safe": [
+  16,
+  180,
+  1064,
+  1500
+ ],
+ "text_boxes_file": "comp/text_boxes.json",
+ "assets_manifest": "assets.json",
+ "episode_json": "episode.json"
+}

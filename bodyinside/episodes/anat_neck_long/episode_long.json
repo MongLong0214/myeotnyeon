@@ -1,0 +1,2723 @@
+{
+ "id": "anat_neck_long",
+ "fps": 30,
+ "duration": 177.37,
+ "format": "16:9 long-form",
+ "lufs": -14.0,
+ "title": [
+  "거북목일 때",
+  "목 안에서 생기는 일"
+ ],
+ "brand": "Body Inside",
+ "region": "neck",
+ "voice": {
+  "tts": "Qwen3-TTS 12Hz-1.7B CustomVoice",
+  "speaker": "Sohee",
+  "pace_syll_per_s": [
+   6.2,
+   6.6
+  ],
+  "pace_target": 6.4,
+  "max_pause_s": 0.2,
+  "lexicon": "layout/narration.py LEXICON (씨짜, 하-중, 눌-린, '신경, 쪽으로')"
+ },
+ "layout": {
+  "canvas": [
+   1920,
+   1080
+  ],
+  "band_y": 0,
+  "band_h": 1080,
+  "caption_size": 56,
+  "caption_y": 958,
+  "caption_dy": 12,
+  "safe_margin": [
+   96,
+   54
+  ],
+  "brand_pos": "top-left, 28 px, 60 % white",
+  "tags": false
+ },
+ "build": "build_long.py (per chapter stage C on neck_solids.blend + Astra human; no new BP3D meshes)",
+ "render": {
+  "res": [
+   1920,
+   1080
+  ],
+  "spp": 64,
+  "draft": "rset.py --draft (25 %, 4 spp + OIDN)",
+  "final": "rset.py --final-fast"
+ },
+ "highlight": {
+  "structure": "CurveLine",
+  "hue": "amber"
+ },
+ "kg_variant": "B",
+ "credits": null,
+ "scene_cuts_declared": [
+  877,
+  1749,
+  2613,
+  3555,
+  4396
+ ],
+ "chapters": [
+  {
+   "id": "ch1",
+   "key": "hook",
+   "title": "폰 보는 사람",
+   "t0": 0.0,
+   "t1": 29.233,
+   "dur": 29.23,
+   "beats": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "f0": 0,
+   "f1": 877,
+   "unit": "person -> inside -> mechanism -> consequence",
+   "short": {
+    "title": [
+     "지금 이 자세,",
+     "목 안에서는?"
+    ],
+    "cut": "re-render the same beats with a vertical camera (1080x880 band, neck layout); captions and labels re-laid by labels2d"
+   },
+   "reuse": [
+    "Astra human_final.blend f1-f108 (Texting, Looking Down)",
+    "neck.blend dissolve f66-f84, curve line f86-f146",
+    "neck.blend muscle/disc states for the tease"
+   ],
+   "new_assets": [
+    "16:9 camera paths",
+    "silhouette outline and title card (2D)"
+   ],
+   "render_est": {
+    "frames": 877,
+    "rendered_frame_equiv": 877,
+    "draft_min": [
+     6,
+     9
+    ],
+    "final_fast_min": [
+     52,
+     71
+    ],
+    "short_9x16_final_min": 32
+   }
+  },
+  {
+   "id": "ch2",
+   "key": "load",
+   "title": "머리 무게와 부담",
+   "t0": 29.233,
+   "t1": 58.3,
+   "dur": 29.07,
+   "beats": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "f0": 877,
+   "f1": 1749,
+   "unit": "person -> inside -> mechanism -> consequence",
+   "short": {
+    "title": [
+     "고개 숙일수록",
+     "목에 걸리는 부담"
+    ],
+    "cut": "re-render the same beats with a vertical camera (1080x880 band, neck layout); captions and labels re-laid by labels2d"
+   },
+   "reuse": [
+    "neck.blend load beat f84-f299 (variant B: arrow + glow, no kg)",
+    "FKChain 15/30/60",
+    "Astra Looking Down"
+   ],
+   "new_assets": [
+    "head-size sphere outline and centre-of-mass dot (2D)"
+   ],
+   "render_est": {
+    "frames": 872,
+    "rendered_frame_equiv": 872,
+    "draft_min": [
+     6,
+     9
+    ],
+    "final_fast_min": [
+     52,
+     71
+    ],
+    "short_9x16_final_min": 32
+   }
+  },
+  {
+   "id": "ch3",
+   "key": "muscles",
+   "title": "머리를 붙잡는 근육",
+   "t0": 58.3,
+   "t1": 87.1,
+   "dur": 28.8,
+   "beats": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "f0": 1749,
+   "f1": 2613,
+   "unit": "person -> inside -> mechanism -> consequence",
+   "short": {
+    "title": [
+     "뒷목 근육이",
+     "하루 종일 하는 일"
+    ],
+    "cut": "re-render the same beats with a vertical camera (1080x880 band, neck layout); captions and labels re-laid by labels2d"
+   },
+   "reuse": [
+    "neck_solids BP3D muscles incl. longus colli",
+    "muscle beat f726-f812"
+   ],
+   "new_assets": [
+    "lever bracket (2D)",
+    "per-muscle shortening keys (no new mesh)"
+   ],
+   "render_est": {
+    "frames": 864,
+    "rendered_frame_equiv": 864,
+    "draft_min": [
+     6,
+     9
+    ],
+    "final_fast_min": [
+     51,
+     70
+    ],
+    "short_9x16_final_min": 32
+   }
+  },
+  {
+   "id": "ch4",
+   "key": "segments",
+   "title": "문자 입력 중 달라지는 목뼈 마디 각도",
+   "t0": 87.1,
+   "t1": 118.5,
+   "dur": 31.4,
+   "beats": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "f0": 2613,
+   "f1": 3555,
+   "unit": "person -> inside -> mechanism -> consequence",
+   "short": {
+    "title": [
+     "문자 입력 중",
+     "달라지는 목뼈 마디 각도"
+    ],
+    "cut": "re-render the same beats with a vertical camera (1080x880 band, neck layout); captions and labels re-laid by labels2d"
+   },
+   "reuse": [
+    "FKChain Posture incl. turtle",
+    "curve line"
+   ],
+   "new_assets": [
+    "per-joint angle arcs (2D, no numbers)",
+    "radiograph-look material fade"
+   ],
+   "render_est": {
+    "frames": 942,
+    "rendered_frame_equiv": 942,
+    "draft_min": [
+     7,
+     10
+    ],
+    "final_fast_min": [
+     56,
+     77
+    ],
+    "short_9x16_final_min": 35
+   }
+  },
+  {
+   "id": "ch5",
+   "key": "disc",
+   "title": "디스크와 신경뿌리",
+   "t0": 118.5,
+   "t1": 146.533,
+   "dur": 28.03,
+   "beats": [
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "f0": 3555,
+   "f1": 4396,
+   "unit": "person -> inside -> mechanism -> consequence",
+   "short": {
+    "title": [
+     "눌린 디스크가",
+     "신경을 누르면"
+    ],
+    "cut": "re-render the same beats with a vertical camera (1080x880 band, neck layout); captions and labels re-laid by labels2d"
+   },
+   "reuse": [
+    "Disc/Nuc/Herniation/cord/roots, disc beat f580-f712, legend"
+   ],
+   "new_assets": [
+    "annulus fissure crack (material)",
+    "foramen outline (2D)",
+    "hand-shake keyed on the Astra rig"
+   ],
+   "render_est": {
+    "frames": 841,
+    "rendered_frame_equiv": 841,
+    "draft_min": [
+     6,
+     9
+    ],
+    "final_fast_min": [
+     50,
+     68
+    ],
+    "short_9x16_final_min": 31
+   }
+  },
+  {
+   "id": "ch6",
+   "key": "check_help",
+   "title": "10초 확인과 습관",
+   "t0": 146.533,
+   "t1": 177.367,
+   "dur": 30.83,
+   "beats": [
+    22,
+    23,
+    24,
+    25,
+    26
+   ],
+   "f0": 4396,
+   "f1": 5321,
+   "unit": "person -> inside -> mechanism -> consequence",
+   "short": {
+    "title": [
+     "10초면 아는",
+     "내 거북목"
+    ],
+    "cut": "re-render the same beats with a vertical camera (1080x880 band, neck layout); captions and labels re-laid by labels2d"
+   },
+   "reuse": [
+    "Astra payoff f61-f85, straighten f85-f115",
+    "plumb/gap labels",
+    "Neck Stretching mocap (downloaded)",
+    "neck ending f940-f1079"
+   ],
+   "new_assets": [
+    "chin_tuck posture state on FKChain + matching head key on the person",
+    "phone-at-eye-level arm key",
+    "timer ring and photo card (2D)"
+   ],
+   "render_est": {
+    "frames": 925,
+    "rendered_frame_equiv": 925,
+    "draft_min": [
+     7,
+     9
+    ],
+    "final_fast_min": [
+     55,
+     75
+    ],
+    "short_9x16_final_min": 34
+   }
+  }
+ ],
+ "beats": [
+  {
+   "t0": 0.0,
+   "t1": 5.833,
+   "chapter": "ch1",
+   "tag": "",
+   "shot": "P",
+   "camera": "push_in",
+   "person": true,
+   "action": "f0 person mid-slump over phone, thumb taps (Texting mocap); head drops a few degrees, screen glow on face; camera push reaches neck framing; person blinks, glances up and back down",
+   "events": [
+    {
+     "t": 0.3,
+     "what": "f0 person mid-slump over phone, thumb taps (Texting mocap)"
+    },
+    {
+     "t": 1.68,
+     "what": "head drops a few degrees, screen glow on face"
+    },
+    {
+     "t": 3.07,
+     "what": "camera push reaches neck framing"
+    },
+    {
+     "t": 4.45,
+     "what": "person blinks, glances up and back down"
+    }
+   ],
+   "cap": [
+    [
+     "지금 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "고개",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     " 숙이고 계신가요?",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [],
+   "syllables": 36,
+   "asset": "astra_reuse:f1-f60"
+  },
+  {
+   "t0": 5.833,
+   "t1": 12.9,
+   "chapter": "ch1",
+   "tag": "",
+   "shot": "P",
+   "camera": "slow_orbit",
+   "person": true,
+   "action": "Looking Down blend: head travels forward; chin drops, shoulders round; orbit toward true profile; head-forward silhouette outline traces (2D, 10 f fade); outline fades, thumb scrolls",
+   "events": [
+    {
+     "t": 6.13,
+     "what": "Looking Down blend: head travels forward"
+    },
+    {
+     "t": 7.49,
+     "what": "chin drops, shoulders round"
+    },
+    {
+     "t": 8.84,
+     "what": "orbit toward true profile"
+    },
+    {
+     "t": 10.19,
+     "what": "head-forward silhouette outline traces (2D, 10 f fade)"
+    },
+    {
+     "t": 11.55,
+     "what": "outline fades, thumb scrolls"
+    }
+   ],
+   "cap": [
+    [
+     "머리는 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "앞으로",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     ", 턱은 아래로",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "F0"
+   ],
+   "syllables": 44,
+   "asset": "astra_reuse:f61-f108 tail"
+  },
+  {
+   "t0": 12.9,
+   "t1": 19.967,
+   "chapter": "ch1",
+   "tag": "",
+   "shot": "PX",
+   "camera": "dissolve_same_size",
+   "person": true,
+   "action": "skin dissolves to skeleton at the same size (24 f); C1-C4 light amber top down; C5-C7 light amber; curve line draws along the vertebral bodies; skull rocks with the person's head motion",
+   "events": [
+    {
+     "t": 13.2,
+     "what": "skin dissolves to skeleton at the same size (24 f)"
+    },
+    {
+     "t": 14.55,
+     "what": "C1-C4 light amber top down"
+    },
+    {
+     "t": 15.91,
+     "what": "C5-C7 light amber"
+    },
+    {
+     "t": 17.26,
+     "what": "curve line draws along the vertebral bodies"
+    },
+    {
+     "t": 18.61,
+     "what": "skull rocks with the person's head motion"
+    }
+   ],
+   "cap": [
+    [
+     "안에서는 목뼈 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "7개",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     "가 머리를 받친다",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "L3",
+    "K1"
+   ],
+   "syllables": 44,
+   "asset": "neck_reuse:f66-f146"
+  },
+  {
+   "t0": 19.967,
+   "t1": 29.233,
+   "chapter": "ch1",
+   "tag": "",
+   "shot": "X",
+   "camera": "pull_back",
+   "person": false,
+   "action": "posterior muscles fade in deep red; disc C5-C6 squeezes at the front with a head dip; camera pulls back skull to T2; nerve root glints yellow once; dissolve back to the person; person keeps scrolling; title card slides in and out",
+   "events": [
+    {
+     "t": 20.27,
+     "what": "posterior muscles fade in deep red"
+    },
+    {
+     "t": 21.55,
+     "what": "disc C5-C6 squeezes at the front with a head dip"
+    },
+    {
+     "t": 22.83,
+     "what": "camera pulls back skull to T2"
+    },
+    {
+     "t": 24.11,
+     "what": "nerve root glints yellow once"
+    },
+    {
+     "t": 25.39,
+     "what": "dissolve back to the person"
+    },
+    {
+     "t": 26.67,
+     "what": "person keeps scrolling"
+    },
+    {
+     "t": 27.95,
+     "what": "title card slides in and out"
+    }
+   ],
+   "cap": [
+    [
+     "근육",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     "은 당기고 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "디스크",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     "는 눌린다",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "M1",
+    "D2"
+   ],
+   "syllables": 58,
+   "asset": "neck_reuse:muscle and disc states"
+  },
+  {
+   "t0": 29.233,
+   "t1": 37.7,
+   "chapter": "ch2",
+   "tag": "",
+   "shot": "P",
+   "camera": "push_in",
+   "person": true,
+   "action": "person stands upright, phone at chest height; head-size sphere outline appears, then fades (no number); dissolve to skeleton; white arrow from skull centre straight down onto C7; person-drive breath; ear and shoulder dots on the person side; short plumb joins them",
+   "events": [
+    {
+     "t": 29.53,
+     "what": "person stands upright, phone at chest height"
+    },
+    {
+     "t": 30.7,
+     "what": "head-size sphere outline appears, then fades (no number)"
+    },
+    {
+     "t": 31.87,
+     "what": "dissolve to skeleton"
+    },
+    {
+     "t": 33.03,
+     "what": "white arrow from skull centre straight down onto C7"
+    },
+    {
+     "t": 34.2,
+     "what": "person-drive breath"
+    },
+    {
+     "t": 35.37,
+     "what": "ear and shoulder dots on the person side"
+    },
+    {
+     "t": 36.53,
+     "what": "short plumb joins them"
+    }
+   ],
+   "cap": [
+    [
+     "머리 무게는 약 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "볼링공 하나",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ],
+   "claims": [
+    "L1"
+   ],
+   "syllables": 53,
+   "asset": "neck_reuse:f84-f118"
+  },
+  {
+   "t0": 37.7,
+   "t1": 45.4,
+   "chapter": "ch2",
+   "tag": "",
+   "shot": "X",
+   "camera": "hold_drift",
+   "person": false,
+   "action": "head centre-of-mass dot slides ahead of the neck; flexion to 15 deg, arrow thicker, glow step 1; creak SFX; flexion to 30 deg, arrow thicker, glow step 2; creak SFX; camera drifts 10 deg; glow holds",
+   "events": [
+    {
+     "t": 38.0,
+     "what": "head centre-of-mass dot slides ahead of the neck"
+    },
+    {
+     "t": 39.06,
+     "what": "flexion to 15 deg, arrow thicker, glow step 1"
+    },
+    {
+     "t": 40.11,
+     "what": "creak SFX"
+    },
+    {
+     "t": 41.17,
+     "what": "flexion to 30 deg, arrow thicker, glow step 2"
+    },
+    {
+     "t": 42.23,
+     "what": "creak SFX"
+    },
+    {
+     "t": 43.29,
+     "what": "camera drifts 10 deg"
+    },
+    {
+     "t": 44.34,
+     "what": "glow holds"
+    }
+   ],
+   "cap": [
+    [
+     "고개 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "15도",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     ", ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "30도",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ],
+   "claims": [
+    "L2"
+   ],
+   "syllables": 48,
+   "asset": "neck_reuse:f104-f275 (variant B)"
+  },
+  {
+   "t0": 45.4,
+   "t1": 53.1,
+   "chapter": "ch2",
+   "tag": "",
+   "shot": "X",
+   "camera": "push_in",
+   "person": false,
+   "action": "flexion to 60 deg, arrow at its thickest, lands on C7; glow full; creak SFX, skeleton settles; camera eases in; person side: phone near the lap (PX flash 1 s)",
+   "events": [
+    {
+     "t": 45.7,
+     "what": "flexion to 60 deg, arrow at its thickest, lands on C7"
+    },
+    {
+     "t": 47.18,
+     "what": "glow full"
+    },
+    {
+     "t": 48.66,
+     "what": "creak SFX, skeleton settles"
+    },
+    {
+     "t": 50.14,
+     "what": "camera eases in"
+    },
+    {
+     "t": 51.62,
+     "what": "person side: phone near the lap (PX flash 1 s)"
+    }
+   ],
+   "cap": [
+    [
+     "고개 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "60도",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ],
+   "claims": [
+    "L2"
+   ],
+   "syllables": 48
+  },
+  {
+   "t0": 53.1,
+   "t1": 58.3,
+   "chapter": "ch2",
+   "tag": "",
+   "shot": "PX",
+   "camera": "dissolve_same_size",
+   "person": true,
+   "action": "arrow fades over 12 f; skeleton dissolves to the person bent at 60 deg; person slowly lifts back to 30 deg; person rubs the back of the neck",
+   "events": [
+    {
+     "t": 53.4,
+     "what": "arrow fades over 12 f"
+    },
+    {
+     "t": 54.62,
+     "what": "skeleton dissolves to the person bent at 60 deg"
+    },
+    {
+     "t": 55.85,
+     "what": "person slowly lifts back to 30 deg"
+    },
+    {
+     "t": 57.07,
+     "what": "person rubs the back of the neck"
+    }
+   ],
+   "cap": [
+    [
+     "각도가 클수록 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "부담",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     "도 커진다",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "L2"
+   ],
+   "syllables": 32
+  },
+  {
+   "t0": 58.3,
+   "t1": 65.067,
+   "chapter": "ch3",
+   "tag": "",
+   "shot": "P",
+   "camera": "push_in",
+   "person": true,
+   "action": "person in forward-head pose; head nods forward a few mm and catches itself; camera pushes to the nape; lever bracket from neck to head centre (2D); bracket stretches as the head dips",
+   "events": [
+    {
+     "t": 58.6,
+     "what": "person in forward-head pose"
+    },
+    {
+     "t": 59.89,
+     "what": "head nods forward a few mm and catches itself"
+    },
+    {
+     "t": 61.19,
+     "what": "camera pushes to the nape"
+    },
+    {
+     "t": 62.48,
+     "what": "lever bracket from neck to head centre (2D)"
+    },
+    {
+     "t": 63.77,
+     "what": "bracket stretches as the head dips"
+    }
+   ],
+   "cap": [
+    [
+     "머리는 계속 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "앞으로",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     " 떨어지려 한다",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [],
+   "syllables": 42
+  },
+  {
+   "t0": 65.067,
+   "t1": 69.8,
+   "chapter": "ch3",
+   "tag": "",
+   "shot": "PX",
+   "camera": "dissolve_same_size",
+   "person": true,
+   "action": "skin dissolves to skeleton plus posterior muscles; muscles fade in deep red with fibre texture; label '목 뒤 근육'; camera orbits toward three-quarter back",
+   "events": [
+    {
+     "t": 65.37,
+     "what": "skin dissolves to skeleton plus posterior muscles"
+    },
+    {
+     "t": 66.48,
+     "what": "muscles fade in deep red with fibre texture"
+    },
+    {
+     "t": 67.58,
+     "what": "label '목 뒤 근육'"
+    },
+    {
+     "t": 68.69,
+     "what": "camera orbits toward three-quarter back"
+    }
+   ],
+   "cap": [
+    [
+     "머리를 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "뒤에서",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     " 붙잡는다",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "M1"
+   ],
+   "syllables": 29,
+   "asset": "neck_reuse:f726-f812"
+  },
+  {
+   "t0": 69.8,
+   "t1": 74.533,
+   "chapter": "ch3",
+   "tag": "",
+   "shot": "X",
+   "camera": "hold_drift",
+   "person": false,
+   "action": "semispinalis tightens; splenius tightens; trapezius and levator scapulae tighten (slow 5-10 % shortening); groan SFX under; head bobs with the scroll rhythm",
+   "events": [
+    {
+     "t": 70.1,
+     "what": "semispinalis tightens"
+    },
+    {
+     "t": 70.99,
+     "what": "splenius tightens"
+    },
+    {
+     "t": 71.87,
+     "what": "trapezius and levator scapulae tighten (slow 5-10 % shortening)"
+    },
+    {
+     "t": 72.76,
+     "what": "groan SFX under"
+    },
+    {
+     "t": 73.65,
+     "what": "head bobs with the scroll rhythm"
+    }
+   ],
+   "cap": [
+    [
+     "쉬지 못하고 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "계속 버틴다",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ],
+   "claims": [
+    "M1"
+   ],
+   "syllables": 29
+  },
+  {
+   "t0": 74.533,
+   "t1": 82.067,
+   "chapter": "ch3",
+   "tag": "",
+   "shot": "X",
+   "camera": "orbit_front",
+   "person": false,
+   "action": "camera orbits to the front of the spine; longus colli fades in along the vertebral bodies; label '목 앞 깊은 근육'; deep flexors dim to a paler red; posterior group stays deep red; slow pull back to see front and back together",
+   "events": [
+    {
+     "t": 74.83,
+     "what": "camera orbits to the front of the spine"
+    },
+    {
+     "t": 76.04,
+     "what": "longus colli fades in along the vertebral bodies"
+    },
+    {
+     "t": 77.24,
+     "what": "label '목 앞 깊은 근육'"
+    },
+    {
+     "t": 78.45,
+     "what": "deep flexors dim to a paler red"
+    },
+    {
+     "t": 79.66,
+     "what": "posterior group stays deep red"
+    },
+    {
+     "t": 80.86,
+     "what": "slow pull back to see front and back together"
+    }
+   ],
+   "cap": [
+    [
+     "앞에서 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "받쳐 주는",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     " 쪽은?",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "M4"
+   ],
+   "syllables": 47,
+   "asset": "neck_pack:longus colli"
+  },
+  {
+   "t0": 82.067,
+   "t1": 87.1,
+   "chapter": "ch3",
+   "tag": "",
+   "shot": "PX",
+   "camera": "dissolve_back",
+   "person": true,
+   "action": "skeleton dissolves to the person; person winces, presses two fingers into the nape; camera pulls back to the forward-head silhouette",
+   "events": [
+    {
+     "t": 82.37,
+     "what": "skeleton dissolves to the person"
+    },
+    {
+     "t": 83.94,
+     "what": "person winces, presses two fingers into the nape"
+    },
+    {
+     "t": 85.52,
+     "what": "camera pulls back to the forward-head silhouette"
+    }
+   ],
+   "cap": [
+    [
+     "",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "목 통증",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     "과 함께 나타나는 경우가 많다",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "M5"
+   ],
+   "syllables": 31
+  },
+  {
+   "t0": 87.1,
+   "t1": 95.567,
+   "chapter": "ch4",
+   "tag": "",
+   "shot": "P",
+   "camera": "orbit_to_profile",
+   "person": true,
+   "action": "person upright, camera orbits to profile; person starts texting, looks down; dissolve to skeleton; radiograph-look fade on bones; angle arcs appear at C0-C1 and C1-C2 only; arcs at C2-C3, C3-C4; lower joints stay unmarked",
+   "events": [
+    {
+     "t": 87.4,
+     "what": "person upright, camera orbits to profile"
+    },
+    {
+     "t": 88.76,
+     "what": "person starts texting, looks down"
+    },
+    {
+     "t": 90.12,
+     "what": "dissolve to skeleton"
+    },
+    {
+     "t": 91.48,
+     "what": "radiograph-look fade on bones"
+    },
+    {
+     "t": 92.84,
+     "what": "angle arcs appear at C0-C1 and C1-C2 only"
+    },
+    {
+     "t": 94.21,
+     "what": "arcs at C2-C3, C3-C4; lower joints stay unmarked"
+    }
+   ],
+   "cap": [
+    [
+     "문자 입력 중 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "일부 목뼈 마디",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ],
+   "claims": [
+    "K2"
+   ],
+   "syllables": 53,
+   "asset": "neck_reuse:FKChain Posture"
+  },
+  {
+   "t0": 95.567,
+   "t1": 104.033,
+   "chapter": "ch4",
+   "tag": "",
+   "shot": "X",
+   "camera": "hold_drift",
+   "person": false,
+   "action": "person keeps texting; upper arcs (C0-C1 to C3-C4) widen; lower joints stay unmarked; bones fade to radiograph grey over 10 f; radiograph look fades back; camera drifts",
+   "events": [
+    {
+     "t": 95.87,
+     "what": "person keeps texting"
+    },
+    {
+     "t": 97.5,
+     "what": "upper arcs (C0-C1 to C3-C4) widen; lower joints stay unmarked"
+    },
+    {
+     "t": 99.13,
+     "what": "bones fade to radiograph grey over 10 f"
+    },
+    {
+     "t": 100.77,
+     "what": "radiograph look fades back"
+    },
+    {
+     "t": 102.4,
+     "what": "camera drifts"
+    }
+   ],
+   "cap": [
+    [
+     "문자 입력 중 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "위쪽 일부 마디",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     " 각도 변화",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "K2"
+   ],
+   "syllables": 53
+  },
+  {
+   "t0": 104.033,
+   "t1": 112.2,
+   "chapter": "ch4",
+   "tag": "",
+   "shot": "X",
+   "camera": "push_in",
+   "person": false,
+   "action": "turtle pose [8,10,10,8,4,-4,-14,-22]; lower joints flex (amber arcs); top joints extend (grey arcs); curve line bends into an S; eye-line guide stays level; camera orbits 15 deg",
+   "events": [
+    {
+     "t": 104.33,
+     "what": "turtle pose [8,10,10,8,4,-4,-14,-22]"
+    },
+    {
+     "t": 105.64,
+     "what": "lower joints flex (amber arcs)"
+    },
+    {
+     "t": 106.96,
+     "what": "top joints extend (grey arcs)"
+    },
+    {
+     "t": 108.27,
+     "what": "curve line bends into an S"
+    },
+    {
+     "t": 109.58,
+     "what": "eye-line guide stays level"
+    },
+    {
+     "t": 110.89,
+     "what": "camera orbits 15 deg"
+    }
+   ],
+   "cap": [
+    [
+     "아래는 숙이고 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "위는 젖힌다",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ],
+   "claims": [
+    "K3"
+   ],
+   "syllables": 51,
+   "asset": "neck_reuse:turtle Posture"
+  },
+  {
+   "t0": 112.2,
+   "t1": 118.5,
+   "chapter": "ch4",
+   "tag": "",
+   "shot": "PX",
+   "camera": "dissolve_same_size",
+   "person": true,
+   "action": "dissolve to the person in the same pose; ear-to-shoulder gap marker appears; person tilts further over the phone; camera pushes to the lower neck; disc C5-C6 outline appears as the skin dissolves",
+   "events": [
+    {
+     "t": 112.5,
+     "what": "dissolve to the person in the same pose"
+    },
+    {
+     "t": 113.7,
+     "what": "ear-to-shoulder gap marker appears"
+    },
+    {
+     "t": 114.9,
+     "what": "person tilts further over the phone"
+    },
+    {
+     "t": 116.1,
+     "what": "camera pushes to the lower neck"
+    },
+    {
+     "t": 117.3,
+     "what": "disc C5-C6 outline appears as the skin dissolves"
+    }
+   ],
+   "cap": [
+    [
+     "머리가 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "거북이처럼",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     " 앞으로",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "K3",
+    "D1"
+   ],
+   "syllables": 39
+  },
+  {
+   "t0": 118.5,
+   "t1": 123.867,
+   "chapter": "ch5",
+   "tag": "",
+   "shot": "X",
+   "camera": "orbit_push",
+   "person": false,
+   "action": "oblique push into the sagittal cut of C5-C6; annulus rings shown; label '섬유 고리'; nucleus glows soft white-grey, label '수핵'",
+   "events": [
+    {
+     "t": 118.8,
+     "what": "oblique push into the sagittal cut of C5-C6"
+    },
+    {
+     "t": 120.07,
+     "what": "annulus rings shown"
+    },
+    {
+     "t": 121.33,
+     "what": "label '섬유 고리'"
+    },
+    {
+     "t": 122.6,
+     "what": "nucleus glows soft white-grey, label '수핵'"
+    }
+   ],
+   "cap": [
+    [
+     "디스크 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "속",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     "을 열면",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "D1"
+   ],
+   "syllables": 33,
+   "asset": "neck_reuse:Disc_C5C6/Nuc_C5C6"
+  },
+  {
+   "t0": 123.867,
+   "t1": 127.5,
+   "chapter": "ch5",
+   "tag": "",
+   "shot": "X",
+   "camera": "hold_drift",
+   "person": false,
+   "action": "person-drive head dip: disc front compresses; squish SFX; back of the disc gapes slightly",
+   "events": [
+    {
+     "t": 124.17,
+     "what": "person-drive head dip: disc front compresses"
+    },
+    {
+     "t": 125.28,
+     "what": "squish SFX"
+    },
+    {
+     "t": 126.39,
+     "what": "back of the disc gapes slightly"
+    }
+   ],
+   "cap": [
+    [
+     "숙이면 힘이 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "한쪽으로 쏠린다",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ],
+   "claims": [
+    "D2"
+   ],
+   "syllables": 22,
+   "asset": "neck_reuse:f580-f650"
+  },
+  {
+   "t0": 127.5,
+   "t1": 132.867,
+   "chapter": "ch5",
+   "tag": "",
+   "shot": "X",
+   "camera": "push_in",
+   "person": false,
+   "action": "fissure appears as a darker crack; herniation lobe grows toward the canal (saturated red, crisp edge); legend clear of the lobe; camera eases closer",
+   "events": [
+    {
+     "t": 127.8,
+     "what": "fissure appears as a darker crack"
+    },
+    {
+     "t": 129.07,
+     "what": "herniation lobe grows toward the canal (saturated red, crisp edge)"
+    },
+    {
+     "t": 130.33,
+     "what": "legend clear of the lobe"
+    },
+    {
+     "t": 131.6,
+     "what": "camera eases closer"
+    }
+   ],
+   "cap": [
+    [
+     "약해진 고리가 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "뒤로 불룩",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ],
+   "claims": [
+    "D3"
+   ],
+   "syllables": 33,
+   "asset": "neck_reuse:Herniation"
+  },
+  {
+   "t0": 132.867,
+   "t1": 143.533,
+   "chapter": "ch5",
+   "tag": "",
+   "shot": "X",
+   "camera": "orbit_slow",
+   "person": false,
+   "action": "C6 root brightens yellow, label '신경뿌리'; lobe touches the root, contact ring; pulse travels along the root out of frame; pulse SFX; second pulse; camera follows the root to the foramen; foramen outline drawn",
+   "events": [
+    {
+     "t": 133.17,
+     "what": "C6 root brightens yellow, label '신경뿌리'"
+    },
+    {
+     "t": 134.65,
+     "what": "lobe touches the root, contact ring"
+    },
+    {
+     "t": 136.13,
+     "what": "pulse travels along the root out of frame"
+    },
+    {
+     "t": 137.61,
+     "what": "pulse SFX"
+    },
+    {
+     "t": 139.09,
+     "what": "second pulse"
+    },
+    {
+     "t": 140.57,
+     "what": "camera follows the root to the foramen"
+    },
+    {
+     "t": 142.05,
+     "what": "foramen outline drawn"
+    }
+   ],
+   "cap": [
+    [
+     "밀려난 디스크가 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "신경",
+     [
+      255,
+      214,
+      64
+     ]
+    ],
+    [
+     "을 누를 수도",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "D3",
+    "T1"
+   ],
+   "syllables": 67,
+   "asset": "neck_reuse:f650-f712"
+  },
+  {
+   "t0": 143.533,
+   "t1": 146.533,
+   "chapter": "ch5",
+   "tag": "",
+   "shot": "PX",
+   "camera": "dissolve_back",
+   "person": true,
+   "action": "dissolve to the person; person drops the shoulder and shakes the hand once (hand-keyed on the rig); camera pulls back",
+   "events": [
+    {
+     "t": 143.83,
+     "what": "dissolve to the person"
+    },
+    {
+     "t": 144.73,
+     "what": "person drops the shoulder and shakes the hand once (hand-keyed on the rig)"
+    },
+    {
+     "t": 145.63,
+     "what": "camera pulls back"
+    }
+   ],
+   "cap": [
+    [
+     "",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "어깨와 팔",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     "까지",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "T1"
+   ],
+   "syllables": 18,
+   "asset": "NEW: hand-shake keyed pose"
+  },
+  {
+   "t0": 146.533,
+   "t1": 153.767,
+   "chapter": "ch6",
+   "tag": "",
+   "shot": "P",
+   "camera": "push_in",
+   "person": true,
+   "action": "person pockets the phone, stands side-on; 10-second ring timer starts (2D); plumb line drops; dot on ear lobe; dot on shoulder tip; timer ticks",
+   "events": [
+    {
+     "t": 146.83,
+     "what": "person pockets the phone, stands side-on"
+    },
+    {
+     "t": 147.99,
+     "what": "10-second ring timer starts (2D)"
+    },
+    {
+     "t": 149.14,
+     "what": "plumb line drops"
+    },
+    {
+     "t": 150.3,
+     "what": "dot on ear lobe"
+    },
+    {
+     "t": 151.46,
+     "what": "dot on shoulder tip"
+    },
+    {
+     "t": 152.61,
+     "what": "timer ticks"
+    }
+   ],
+   "cap": [
+    [
+     "",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "귓불",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     "·어깨 끝이 한 줄",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "S1"
+   ],
+   "syllables": 45,
+   "asset": "neck_reuse:plumb kind, A_Ear/A_Acro"
+  },
+  {
+   "t0": 153.767,
+   "t1": 160.367,
+   "chapter": "ch6",
+   "tag": "",
+   "shot": "P",
+   "camera": "hold_drift",
+   "person": true,
+   "action": "soft shutter flash (8 f fade), photo card 0.5 s; person relaxes into the payoff pose (ear 12-15 cm ahead); gap marker between ear and shoulder; timer completes; camera eases in",
+   "events": [
+    {
+     "t": 154.07,
+     "what": "soft shutter flash (8 f fade), photo card 0.5 s"
+    },
+    {
+     "t": 155.33,
+     "what": "person relaxes into the payoff pose (ear 12-15 cm ahead)"
+    },
+    {
+     "t": 156.59,
+     "what": "gap marker between ear and shoulder"
+    },
+    {
+     "t": 157.85,
+     "what": "timer completes"
+    },
+    {
+     "t": 159.11,
+     "what": "camera eases in"
+    }
+   ],
+   "cap": [
+    [
+     "귀가 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "어깨보다 앞",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     "이면",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "S1"
+   ],
+   "syllables": 41,
+   "asset": "astra_reuse:f61-f85 payoff"
+  },
+  {
+   "t0": 160.367,
+   "t1": 166.833,
+   "chapter": "ch6",
+   "tag": "",
+   "shot": "P",
+   "camera": "push_in",
+   "person": true,
+   "action": "person raises the phone to eye level (keyed arm pose); head comes back over the shoulders (astra f85-f115 straighten); chin draws straight back, two fingers on the chin; hold: 3-count ring; ear settles over the shoulder",
+   "events": [
+    {
+     "t": 160.67,
+     "what": "person raises the phone to eye level (keyed arm pose)"
+    },
+    {
+     "t": 161.9,
+     "what": "head comes back over the shoulders (astra f85-f115 straighten)"
+    },
+    {
+     "t": 163.13,
+     "what": "chin draws straight back, two fingers on the chin"
+    },
+    {
+     "t": 164.37,
+     "what": "hold: 3-count ring"
+    },
+    {
+     "t": 165.6,
+     "what": "ear settles over the shoulder"
+    }
+   ],
+   "cap": [
+    [
+     "",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "눈높이",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     "로, ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "턱 당기기",
+     [
+      255,
+      184,
+      28
+     ]
+    ]
+   ],
+   "claims": [
+    "E1",
+    "E2"
+   ],
+   "syllables": 40,
+   "asset": "NEW: chin_tuck posture + phone-up arm key"
+  },
+  {
+   "t0": 166.833,
+   "t1": 175.3,
+   "chapter": "ch6",
+   "tag": "",
+   "shot": "X",
+   "camera": "orbit_slow",
+   "person": false,
+   "action": "dissolve to skeleton: head returns over the spine; curve line regains the C; arrow thins to the neutral one; dissolve to the person rolling the shoulders (Neck Stretching mocap); person looks around, shifts weight",
+   "events": [
+    {
+     "t": 167.13,
+     "what": "dissolve to skeleton: head returns over the spine"
+    },
+    {
+     "t": 168.77,
+     "what": "curve line regains the C"
+    },
+    {
+     "t": 170.4,
+     "what": "arrow thins to the neutral one"
+    },
+    {
+     "t": 172.03,
+     "what": "dissolve to the person rolling the shoulders (Neck Stretching mocap)"
+    },
+    {
+     "t": 173.67,
+     "what": "person looks around, shifts weight"
+    }
+   ],
+   "cap": [
+    [
+     "머리 각도가 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "조금",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     " 줄었다",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "E4"
+   ],
+   "syllables": 53
+  },
+  {
+   "t0": 175.3,
+   "t1": 177.367,
+   "chapter": "ch6",
+   "tag": "",
+   "shot": "PX",
+   "camera": "push_in_dissolve",
+   "person": true,
+   "action": "plumb ear-shoulder on the person; person dissolves into the skeleton at the same size, line vertical; end view in profile, hold to last frame",
+   "events": [
+    {
+     "t": 175.6,
+     "what": "plumb ear-shoulder on the person"
+    },
+    {
+     "t": 176.19,
+     "what": "person dissolves into the skeleton at the same size, line vertical"
+    },
+    {
+     "t": 176.78,
+     "what": "end view in profile, hold to last frame"
+    }
+   ],
+   "cap": [
+    [
+     "지금 내 ",
+     [
+      255,
+      255,
+      255
+     ]
+    ],
+    [
+     "귀",
+     [
+      255,
+      184,
+      28
+     ]
+    ],
+    [
+     "는 어깨 위에?",
+     [
+      255,
+      255,
+      255
+     ]
+    ]
+   ],
+   "claims": [
+    "S1"
+   ],
+   "syllables": 12,
+   "asset": "neck_reuse:f940-f1079 ending"
+  }
+ ],
+ "narration": [
+  {
+   "beat": 0,
+   "text": "지금 이 영상, 혹시 고개를 숙이고 보고 계신가요? 겉으로 보면 그냥 고개를 숙인 것뿐이에요."
+  },
+  {
+   "beat": 1,
+   "text": "휴대폰을 내려다보면 머리는 조금씩 앞으로 나가고, 턱은 아래로 떨어져요. 흔히 거북목이라고 부르는 자세죠."
+  },
+  {
+   "beat": 2,
+   "text": "피부 안쪽을 열어 보면, 목뼈 일곱 개가 이 무거운 머리를 떠받치고 있어요. 원래는 앞으로 살짝 휜 씨짜 곡선이죠."
+  },
+  {
+   "beat": 3,
+   "text": "그 둘레에서 근육은 쉬지 않고 당기고, 뼈 사이 디스크는 눌리게 돼요. 이 자세가 하루 몇 시간씩 이어질 때 목 안에서 생기는 일을, 하나씩 열어 볼게요."
+  },
+  {
+   "beat": 4,
+   "text": "어른 머리 무게는 약 오 킬로, 볼링공 하나쯤이에요. 똑바로 서면 목뼈 바로 위에 얹히죠. 옆에서 보면 귀가 어깨 바로 위에 오는 자세예요."
+  },
+  {
+   "beat": 5,
+   "text": "고개를 숙이면 무게중심이 앞으로 나가요. 한 컴퓨터 모델로는 십오 도에 약 십이 킬로, 삼십 도에 약 십팔 킬로로 추정돼요."
+  },
+  {
+   "beat": 6,
+   "text": "육십 도까지 숙이면 약 이십칠 킬로, 머리 무게의 다섯 배쯤으로 계산됐어요. 무릎 위 휴대폰을 내려다볼 때쯤의 각도예요."
+  },
+  {
+   "beat": 7,
+   "text": "몸에서 잰 값이 아니라 모델 계산이지만, 숙일수록 부담이 커진다는 그림이에요."
+  },
+  {
+   "beat": 8,
+   "text": "고개가 앞으로 쏠리면, 머리는 계속 앞으로 떨어지려고 해요. 지렛대처럼 멀어질수록 붙잡는 힘도 더 들죠."
+  },
+  {
+   "beat": 9,
+   "text": "그걸 뒤에서 붙잡는 게, 두개골 아래에서 등까지 이어진 목 뒤 근육이에요."
+  },
+  {
+   "beat": 10,
+   "text": "고개가 앞으로 나가 있는 동안, 이 근육들은 쉬지 못하고 계속 버텨야 해요."
+  },
+  {
+   "beat": 11,
+   "text": "반대로 목 앞쪽 깊은 근육은, 목이 아픈 사람에게서 덜 쓰인다는 측정 결과가 있어요. 뒤는 당기고, 앞은 덜 받쳐 주는 거죠."
+  },
+  {
+   "beat": 12,
+   "text": "그리고 이런 자세는, 어른의 목 통증과 함께 나타나는 경우가 많다고 보고돼요."
+  },
+  {
+   "beat": 13,
+   "text": "고개를 숙일 때 목은 한 덩어리로만 움직이지 않아요. 문자를 입력하는 동안 어느 마디가 더 움직이는지, 엑스레이로 본 연구가 있어요."
+  },
+  {
+   "beat": 14,
+   "text": "문자를 입력하는 동안 찍은 엑스레이에서는, 일부 목뼈 마디, 주로 위쪽 마디의 각도가 달라졌어요. 자세를 취하는 동안 생긴 변화예요."
+  },
+  {
+   "beat": 15,
+   "text": "고개를 내민 채 앞을 보려면, 목 아래쪽은 숙이고 맨 위쪽은 오히려 뒤로 젖혀요. 목 아래와 꼭대기가 서로 반대로 움직이는 거예요."
+  },
+  {
+   "beat": 16,
+   "text": "그래서 머리가 거북이처럼 앞으로 쭉 나온 모양이 되죠. 이번엔 뼈와 뼈 사이, 디스크를 따로 볼게요."
+  },
+  {
+   "beat": 17,
+   "text": "뼈 사이 디스크는 바깥의 질긴 섬유 고리와, 가운데 젤리 같은 수핵으로 되어 있어요."
+  },
+  {
+   "beat": 18,
+   "text": "고개를 숙이면 디스크에 걸리는 힘이 한쪽으로 쏠려요."
+  },
+  {
+   "beat": 19,
+   "text": "디스크가 오래 쓰이거나 다치면, 고리가 약해져 뒤쪽으로 불룩 튀어나올 수 있어요."
+  },
+  {
+   "beat": 20,
+   "text": "디스크 바로 뒤에는, 척수에서 갈라져 나와 목뼈 옆 구멍으로 빠져나가는 신경뿌리가 지나가요. 여기를 누르면 어깨와 팔로 퍼지는 통증이나, 손끝 저림이 생길 수 있어요."
+  },
+  {
+   "beat": 21,
+   "text": "저린 곳은 손이어도, 시작은 목일 수 있는 거죠."
+  },
+  {
+   "beat": 22,
+   "text": "내 목은 어떨까요? 옆에서 봤을 때 귓불과 어깨 끝이 한 줄로 서는 게, 바른 정렬로 소개돼요. 십 초면 확인할 수 있어요."
+  },
+  {
+   "beat": 23,
+   "text": "누가 옆에서 사진을 찍어 줘도 좋아요. 귀가 어깨보다 한참 앞에 있다면, 머리가 앞으로 나와 있는 거예요."
+  },
+  {
+   "beat": 24,
+   "text": "흔히 권하는 건 화면을 눈높이로 올리고, 시선은 그대로 둔 채 턱을 뒤로 살짝 당겨 몇 초 버티는 거예요."
+  },
+  {
+   "beat": 25,
+   "text": "이런 운동을 모은 분석들에서는, 머리가 앞으로 나온 각도가 조금 줄었어요. 한 자세로 오래 있지 말고 중간중간 바꿔 주라고도 권해요."
+  },
+  {
+   "beat": 26,
+   "text": "지금 내 귀는, 어깨 위에 있나요?"
+  }
+ ],
+ "labels": [
+  {
+   "id": "load",
+   "kind": "load",
+   "text": "",
+   "sub": "",
+   "anchor": "A_Head",
+   "anchor2": "A_C7",
+   "f0": 1101,
+   "f1": 1587,
+   "claim": "L2",
+   "number": false,
+   "size": 58,
+   "note": "variant B: arrow + glow only, no kg, no chip"
+  },
+  {
+   "id": "m_back",
+   "kind": "callout",
+   "text": "목 뒤 근육",
+   "f0": 1958,
+   "f1": 2088,
+   "claim": "M1",
+   "size": 52,
+   "ramp": 12,
+   "anchor": "A_Semispinalis"
+  },
+  {
+   "id": "m_front",
+   "kind": "callout",
+   "text": "목 앞 깊은 근육",
+   "f0": 2242,
+   "f1": 2456,
+   "claim": "M4",
+   "size": 52,
+   "ramp": 12,
+   "anchor": "A_LongusColli"
+  },
+  {
+   "id": "annulus",
+   "kind": "callout",
+   "text": "섬유 고리",
+   "f0": 3561,
+   "f1": 3710,
+   "claim": "D1",
+   "size": 52,
+   "ramp": 12,
+   "anchor": "A_Annulus_C5C6"
+  },
+  {
+   "id": "nucleus",
+   "kind": "callout",
+   "text": "수핵",
+   "f0": 3561,
+   "f1": 3710,
+   "claim": "D1",
+   "size": 52,
+   "ramp": 12,
+   "anchor": "A_Nucleus_C5C6"
+  },
+  {
+   "id": "root",
+   "kind": "callout",
+   "text": "신경뿌리",
+   "f0": 3992,
+   "f1": 4300,
+   "claim": "D3",
+   "size": 52,
+   "ramp": 12,
+   "anchor": "A_Root_C6"
+  },
+  {
+   "id": "legend",
+   "kind": "legend",
+   "text": "범례",
+   "f0": 3992,
+   "f1": 4300,
+   "claim": "D3",
+   "size": 52,
+   "ramp": 12,
+   "dx": 24,
+   "dy": 600,
+   "items": [
+    {
+     "color": [
+      160,
+      168,
+      178
+     ],
+     "text": "디스크"
+    },
+    {
+     "color": [
+      242,
+      158,
+      5
+     ],
+     "text": "신경뿌리"
+    },
+    {
+     "color": [
+      230,
+      46,
+      5
+     ],
+     "text": "밀려난 디스크"
+    }
+   ]
+  },
+  {
+   "id": "plumb6",
+   "kind": "plumb",
+   "text": "",
+   "f0": 4402,
+   "f1": 4607,
+   "claim": "S1",
+   "size": 52,
+   "ramp": 12,
+   "anchor": "A_Ear",
+   "anchor2": "A_Acro",
+   "pill_dx": 140,
+   "pill_half_w": 70,
+   "hold_end": false
+  },
+  {
+   "id": "gap6",
+   "kind": "gap",
+   "text": "",
+   "f0": 4619,
+   "f1": 4805,
+   "claim": "S1",
+   "size": 52,
+   "ramp": 12,
+   "anchor": "A_Ear",
+   "anchor2": "A_Acro"
+  },
+  {
+   "id": "plumb_end",
+   "kind": "plumb",
+   "text": "",
+   "f0": 5265,
+   "f1": 5321,
+   "claim": "S1",
+   "size": 52,
+   "ramp": 12,
+   "anchor": "A_Ear",
+   "anchor2": "A_Acro",
+   "pill_dx": 140,
+   "pill_half_w": 70,
+   "hold_end": true
+  }
+ ],
+ "claims": [
+  {
+   "id": "F0",
+   "text": "Forward head posture = head held anterior to the trunk; common name 거북목",
+   "source": "Mahmoud 2019"
+  },
+  {
+   "id": "L1",
+   "text": "Adult head about 5 kg (10-12 lb)",
+   "source": "Hansraj 2014; Cleveland Clinic tech neck"
+  },
+  {
+   "id": "L2",
+   "text": "Computer-model neck load about 12/18/27 kg at 15/30/60 deg (spoken only)",
+   "source": "Hansraj 2014"
+  },
+  {
+   "id": "L3",
+   "text": "Seven cervical vertebrae C1-C7",
+   "source": "Waxenbaum, StatPearls Cervical Vertebrae"
+  },
+  {
+   "id": "M1",
+   "text": "Posterior neck muscles keep working to hold a forward head (soft claim)",
+   "source": "plausible biomechanics; no number"
+  },
+  {
+   "id": "M4",
+   "text": "Deep cervical flexors less active in people with neck pain",
+   "source": "Falla 2004; McDavid, StatPearls Prevertebral Muscles"
+  },
+  {
+   "id": "M5",
+   "text": "Forward head posture associated with neck pain in adults",
+   "source": "Mahmoud 2019"
+  },
+  {
+   "id": "K1",
+   "text": "Normal cervical spine is lordotic (C-shaped)",
+   "source": "Waxenbaum Cervical Vertebrae; Guo 2018"
+  },
+  {
+   "id": "K2",
+   "text": "Flexion is shared across segments; texting changes upper cervical angles most",
+   "source": "Trior Simonovich 2025"
+  },
+  {
+   "id": "K3",
+   "text": "Forward head posture: lower neck flexed, upper cervical extended",
+   "source": "Rios-Peralta 2026"
+  },
+  {
+   "id": "D1",
+   "text": "Disc = annulus fibrosus around nucleus pulposus; prevents bone-on-bone contact",
+   "source": "Waxenbaum, StatPearls Intervertebral Discs; OrthoInfo"
+  },
+  {
+   "id": "D2",
+   "text": "Flexion loads the disc asymmetrically (model)",
+   "source": "Diao 2018"
+  },
+  {
+   "id": "D3",
+   "text": "Worn/injured disc can bulge toward the canal and press the root: pain into shoulder/arm, weakness",
+   "source": "OrthoInfo cervical radiculopathy"
+  },
+  {
+   "id": "T1",
+   "text": "Compressed cervical root: pins and needles in fingers/hand",
+   "source": "OrthoInfo; Iyer & Kim 2016"
+  },
+  {
+   "id": "S1",
+   "text": "Ear lobe, shoulder tip, side of pelvis (knee, ankle when standing) in one line",
+   "source": "Cleveland Clinic posture exercises"
+  },
+  {
+   "id": "E1",
+   "text": "Raise the screen to eye level; change position, limit sessions",
+   "source": "Cleveland Clinic tech neck"
+  },
+  {
+   "id": "E2",
+   "text": "Chin tuck: pull the chin back without changing eye level, hold a few seconds",
+   "source": "Cleveland Clinic posture exercises"
+  },
+  {
+   "id": "E4",
+   "text": "Exercise programmes improved craniovertebral angle a little; low certainty",
+   "source": "Xing 2026; Carrasco-Uribarren 2026; Sepehri 2024"
+  }
+ ],
+ "sfx": [
+  {
+   "part": "whoosh",
+   "t": 0.1,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 0.1,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 5.93,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 13.0,
+   "gain": 0.5
+  },
+  {
+   "part": "whoosh",
+   "t": 13.2,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 20.07,
+   "gain": 0.5
+  },
+  {
+   "part": "whoosh",
+   "t": 29.33,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 29.33,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 37.8,
+   "gain": 0.5
+  },
+  {
+   "part": "creak",
+   "t": 41.55,
+   "gain": 1.2
+  },
+  {
+   "part": "tick",
+   "t": 45.5,
+   "gain": 0.5
+  },
+  {
+   "part": "creak",
+   "t": 49.25,
+   "gain": 1.2
+  },
+  {
+   "part": "tick",
+   "t": 53.2,
+   "gain": 0.5
+  },
+  {
+   "part": "whoosh",
+   "t": 53.4,
+   "gain": 0.5
+  },
+  {
+   "part": "whoosh",
+   "t": 58.4,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 58.4,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 65.17,
+   "gain": 0.5
+  },
+  {
+   "part": "whoosh",
+   "t": 65.37,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 69.9,
+   "gain": 0.5
+  },
+  {
+   "part": "groan",
+   "t": 70.3,
+   "gain": 0.35
+  },
+  {
+   "part": "tick",
+   "t": 74.63,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 82.17,
+   "gain": 0.5
+  },
+  {
+   "part": "whoosh",
+   "t": 82.37,
+   "gain": 0.5
+  },
+  {
+   "part": "whoosh",
+   "t": 87.2,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 87.2,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 95.67,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 104.13,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 112.3,
+   "gain": 0.5
+  },
+  {
+   "part": "whoosh",
+   "t": 112.5,
+   "gain": 0.5
+  },
+  {
+   "part": "whoosh",
+   "t": 118.6,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 118.6,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 123.97,
+   "gain": 0.5
+  },
+  {
+   "part": "squish",
+   "t": 124.87,
+   "gain": 0.7
+  },
+  {
+   "part": "tick",
+   "t": 127.6,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 132.97,
+   "gain": 0.5
+  },
+  {
+   "part": "pulse",
+   "t": 134.07,
+   "gain": 0.8
+  },
+  {
+   "part": "tick",
+   "t": 143.63,
+   "gain": 0.5
+  },
+  {
+   "part": "whoosh",
+   "t": 143.83,
+   "gain": 0.5
+  },
+  {
+   "part": "whoosh",
+   "t": 146.63,
+   "gain": 0.6
+  },
+  {
+   "part": "tick",
+   "t": 146.63,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 153.87,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 160.47,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 166.93,
+   "gain": 0.5
+  },
+  {
+   "part": "tick",
+   "t": 175.4,
+   "gain": 0.5
+  },
+  {
+   "part": "whoosh",
+   "t": 175.6,
+   "gain": 0.5
+  }
+ ],
+ "sfx_parts": [
+  {
+   "id": "bed",
+   "want": "low anatomical ambience, soft room tone hum",
+   "listen": "a low ambient drone",
+   "alts": [
+    "a quiet low drone pad",
+    "a soft low hum"
+   ],
+   "dur": 8,
+   "norm": 0.35
+  },
+  {
+   "id": "whoosh",
+   "want": "soft whoosh camera move",
+   "listen": "a swoosh passing by",
+   "alts": [
+    "a fast whoosh",
+    "a deep cinematic whoosh"
+   ],
+   "dur": 0.8
+  },
+  {
+   "id": "tick",
+   "want": "soft ui tick",
+   "listen": "a mouse click",
+   "alts": [
+    "a keyboard key click",
+    "a button click",
+    "a light tap",
+    "a camera shutter click",
+    "a clock tick"
+   ],
+   "dur": 0.2
+  },
+  {
+   "id": "creak",
+   "want": "slow bone creak",
+   "listen": "a creaking sound",
+   "alts": [
+    "a wooden creak",
+    "a door creak"
+   ],
+   "dur": 1.6
+  },
+  {
+   "id": "groan",
+   "want": "low tension groan, muscle strain",
+   "listen": "a low rumble",
+   "alts": [
+    "a deep growl",
+    "a distant rumble",
+    "a low creaking groan",
+    "a rumbling drone"
+   ],
+   "dur": 2.5
+  },
+  {
+   "id": "pulse",
+   "want": "single soft heartbeat thump",
+   "listen": "a heartbeat thump",
+   "alts": [
+    "a heartbeat",
+    "a soft kick drum"
+   ],
+   "dur": 0.4
+  },
+  {
+   "id": "squish",
+   "want": "soft wet squish",
+   "listen": "a liquid splash",
+   "alts": [
+    "a water drop",
+    "a squelch in mud",
+    "a bubbling sound",
+    "a soft pop"
+   ],
+   "dur": 0.6
+  }
+ ],
+ "sfx_bed": {
+  "part": "bed",
+  "gain": 0.4,
+  "curve": [
+   [
+    0,
+    0.4
+   ],
+   [
+    177.4,
+    0.4
+   ]
+  ]
+ },
+ "lexicon_heard": [
+  "씨짜|C짜",
+  "신경뿌리",
+  "섬유 고리",
+  "수핵"
+ ],
+ "rigid_bend_check": {
+  "chain": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "frames": [
+   275,
+   300,
+   345,
+   410,
+   470,
+   510
+  ]
+ },
+ "no_overlap": [
+  [
+   "Mandible",
+   "Vertebra C3"
+  ],
+  [
+   "Mandible",
+   "Vertebra C4"
+  ],
+  [
+   "Mandible",
+   "Vertebra C5"
+  ],
+  [
+   "TeethLower",
+   "Vertebra C3"
+  ]
+ ],
+ "notes": [
+  "Per-chapter gates (scene_visibility, steady_glow, contact_color_check, evidence frames) are written per build_chNN from the beat events; copy the neck values for reused beats and re-time them.",
+  "schema/episode.schema.json caps duration at 60 s and has no chapters/shot/events keys: the long-form needs a schema version, not a per-episode exception."
+ ]
+}

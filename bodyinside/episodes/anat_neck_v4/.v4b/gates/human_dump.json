@@ -1,0 +1,113 @@
+{
+ "cord_zfade": true,
+ "payoff": [
+  {
+   "f": 750,
+   "anchor_gap": 0.1174,
+   "band_h": 0.829,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4862,
+   "shoulder_z": 1.4185,
+   "ear_fwd": 0.1108
+  },
+  {
+   "f": 758,
+   "anchor_gap": 0.1174,
+   "band_h": 0.835,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4862,
+   "shoulder_z": 1.4185,
+   "ear_fwd": 0.1108
+  },
+  {
+   "f": 766,
+   "anchor_gap": 0.1174,
+   "band_h": 0.839,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4862,
+   "shoulder_z": 1.4185,
+   "ear_fwd": 0.1108
+  },
+  {
+   "f": 774,
+   "anchor_gap": 0.1174,
+   "band_h": 0.837,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4862,
+   "shoulder_z": 1.4185,
+   "ear_fwd": 0.1108
+  },
+  {
+   "f": 782,
+   "anchor_gap": 0.1174,
+   "band_h": 0.835,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4862,
+   "shoulder_z": 1.4185,
+   "ear_fwd": 0.1108
+  },
+  {
+   "f": 790,
+   "anchor_gap": 0.1174,
+   "band_h": 0.842,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4862,
+   "shoulder_z": 1.4185,
+   "ear_fwd": 0.1108
+  },
+  {
+   "f": 798,
+   "anchor_gap": 0.1174,
+   "band_h": 0.861,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4862,
+   "shoulder_z": 1.4185,
+   "ear_fwd": 0.1108
+  },
+  {
+   "f": 806,
+   "anchor_gap": 0.1174,
+   "band_h": 0.886,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4862,
+   "shoulder_z": 1.4185,
+   "ear_fwd": 0.1108
+  },
+  {
+   "f": 814,
+   "anchor_gap": 0.1174,
+   "band_h": 0.895,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4862,
+   "shoulder_z": 1.4185,
+   "ear_fwd": 0.1108
+  },
+  {
+   "f": 822,
+   "anchor_gap": 0.1174,
+   "band_h": 0.892,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4862,
+   "shoulder_z": 1.4185,
+   "ear_fwd": 0.1108
+  },
+  {
+   "f": 830,
+   "anchor_gap": 0.1179,
+   "band_h": 0.892,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4841,
+   "shoulder_z": 1.4185,
+   "ear_fwd": 0.111
+  }
+ ],
+ "neutral": {
+  "f": 865,
+  "anchor_gap": 0.0403,
+  "band_h": 1.0,
+  "head_above_shoulder": true,
+  "skull_min_z": 1.5673,
+  "shoulder_z": 1.4394,
+  "ear_fwd": 0.014
+ }
+}

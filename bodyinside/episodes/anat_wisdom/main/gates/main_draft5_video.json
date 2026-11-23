@@ -1,0 +1,164 @@
+{
+ "fps": {
+  "fps": 30.0,
+  "dup_ratio": 0.0,
+  "ok": true
+ },
+ "freeze": {
+  "events": [],
+  "ok": true
+ },
+ "highlight": {
+  "hue_hist": [
+   15469,
+   165118,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "unexpected_bins": [],
+  "ok": true
+ },
+ "noise": {
+  "hp_std": 10.93,
+  "fireflies_max": 0,
+  "ok": false,
+  "blocking": false
+ },
+ "hook": {
+  "subject_frac": 0.0673,
+  "contrast": 0.759,
+  "ok": true
+ },
+ "safe_area": {
+  "violations": [],
+  "ok": true
+ },
+ "flash": {
+  "spikes": [],
+  "max_delta": 8.44,
+  "ok": true
+ },
+ "events": {
+  "checks": [
+   {
+    "name": "picture change at 2s",
+    "value": 79.64,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 4s",
+    "value": 80.43,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 6s",
+    "value": 36.67,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 8s",
+    "value": 38.98,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 10s",
+    "value": 20.46,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 12s",
+    "value": 93.55,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 14s",
+    "value": 48.77,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 16s",
+    "value": 73.02,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 18s",
+    "value": 38.9,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 20s",
+    "value": 26.16,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 22s",
+    "value": 25.61,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 24s",
+    "value": 55.65,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 26s",
+    "value": 28.03,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 28s",
+    "value": 54.32,
+    "min": 1.0,
+    "ok": true
+   },
+   {
+    "name": "picture change at 30s",
+    "value": 58.72,
+    "min": 1.0,
+    "ok": true
+   }
+  ],
+  "ok": true
+ },
+ "clip": {
+  "checks": [],
+  "ok": true
+ },
+ "black": {
+  "checks": [],
+  "ok": true
+ },
+ "credits": {
+  "attribution_assets": [
+   "BodyParts3D Release 4.0",
+   "Z-Anatomy cutaway (owner review pending)"
+  ],
+  "credit_declared": false,
+  "ocr_tokens_found": [
+   "description.txt"
+  ],
+  "ok": true
+ },
+ "pass": true
+}

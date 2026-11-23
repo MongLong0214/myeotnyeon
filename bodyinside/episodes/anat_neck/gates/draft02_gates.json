@@ -1,0 +1,80 @@
+{
+ "fps": {
+  "fps": 30.0,
+  "dup_ratio": 0.0,
+  "ok": true
+ },
+ "freeze": {
+  "events": [
+   "8.333333",
+   "10.5",
+   "13.633333"
+  ],
+  "ok": false
+ },
+ "highlight": {
+  "hue_hist": [
+   16669,
+   6232,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "unexpected_bins": [
+   0,
+   1
+  ],
+  "ok": true
+ },
+ "noise": {
+  "hp_std": 0.97,
+  "fireflies_max": 1,
+  "ok": true,
+  "blocking": false
+ },
+ "hook": {
+  "subject_frac": 0.0368,
+  "contrast": 0.762,
+  "ok": true
+ },
+ "safe_area": {
+  "violations": [],
+  "ok": true
+ },
+ "flash": {
+  "spikes": [
+   {
+    "frame": 977,
+    "delta": 1.61,
+    "local_median": 0.49
+   },
+   {
+    "frame": 978,
+    "delta": 1.55,
+    "local_median": 0.49
+   }
+  ],
+  "max_delta": 11.75,
+  "ok": false
+ },
+ "events": {
+  "checks": [],
+  "ok": true
+ },
+ "clip": {
+  "checks": [],
+  "ok": true
+ },
+ "black": {
+  "checks": [],
+  "ok": true
+ },
+ "pass": false
+}

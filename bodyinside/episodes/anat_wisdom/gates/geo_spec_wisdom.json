@@ -1,0 +1,1 @@
+{"contacts": [["ThirdMolar", "Lower second molar tooth.l", 0.0004]], "gaps": [["ThirdMolar", "Nerve2", 0.001, 0.003, 0], ["Lower second molar tooth.l", "Nerve2", 0.0005, 0.05, 0]], "stable": ["Crown", "Root", "Filler"], "clearance": [["BurHead", "Nerve2", 0.001, 78, 175]], "rotation_delta": [["Lower second molar tooth.l", 2, 7, 1.0]]}

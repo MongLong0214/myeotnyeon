@@ -1,0 +1,9 @@
+[{"id":"gum f0 (rest, on the crest)","frame":0,"box":[200,0,1080,560]},
+ {"id":"gum f16 (incision, lift)","frame":16,"box":[200,0,1080,560]},
+ {"id":"gum f20 (curl)","frame":20,"box":[200,0,1080,560]},
+ {"id":"gum f26 (folding)","frame":26,"box":[200,0,1080,560]},
+ {"id":"gum f40 (resting)","frame":40,"box":[200,0,1080,560]},
+ {"id":"gum f100","frame":100,"box":[200,0,1080,560]},
+ {"id":"collar gone f0 (200-540,360-490)","frame":0,"box":[150,300,600,560]},
+ {"id":"contact f4 (nothing crosses)","frame":4,"box":[350,150,750,500]},
+ {"id":"whole f75","frame":75,"box":[0,0,1080,800]}]

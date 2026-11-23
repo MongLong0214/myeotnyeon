@@ -1,0 +1,5 @@
+[{"id":"leader-line-fix f700","frame":700,"box":[100,200,800,700]},
+ {"id":"load-label ramp f304","frame":304,"box":[300,250,800,650]},
+ {"id":"cord-line smooth f20","frame":20,"box":[100,0,700,800]},
+ {"id":"disc-beat framing f650","frame":650,"box":[0,0,1080,800]},
+ {"id":"breathing hold f255","frame":255,"box":[300,100,900,600]}]

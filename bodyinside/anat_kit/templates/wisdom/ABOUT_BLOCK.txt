@@ -1,0 +1,4 @@
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International
+BodyParts3D Release 4.0, DOI 10.18908/lsdba.nbdc00837-000. https://dbarchive.biosciencedbc.jp/en/bodyparts3d/
+CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+Changes made by us include vertex welding, uniform conversion from millimetres to metres, positioning, materials, lighting, animation and two-dimensional annotations. The character uses MakeHuman/MPFB CC0 and Mixamo motion. Lighting uses Poly Haven Studio Small 09 (CC0). Fonts are Pretendard and Black Han Sans (OFL 1.1).

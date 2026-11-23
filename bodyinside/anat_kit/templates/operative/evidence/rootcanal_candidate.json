@@ -1,0 +1,236 @@
+{
+  "episode": "anat_rootcanal",
+  "status": "candidate",
+  "movie": "rootcanal_draft1.mp4",
+  "fps": 30,
+  "frames": 930,
+  "size": [
+    540,
+    960
+  ],
+  "contact": {
+    "frames": 930,
+    "maximum_depth_mm": 0.042385,
+    "limit_mm": 0.2
+  },
+  "inputs": {
+    "rootcanal_draft1.mp4": "182506f0e792cc9726e0339dc18ad2219ef5e6f630adc3e231fabad6821e2e1a",
+    "episode.json": "3026d47f8190d2ccfa73245e56eb12ae721330b394fbdb9473d3f03e84e288a0",
+    "rootcanal.blend": "acab9c25bb782f5a0932feffc705963dbc34a40c72ed7ce8651500b74cb52e09",
+    "penetration_report.json": "f92380bc173bcbfb17d3427c53b68f69a6afc438e55dbf0823b00fba95657aff",
+    "ASSETS.md": "06bf06422064ddd0bcd2e3b41094c663ff744f2fccaeec9b379193bee7df40ef",
+    "SOURCES.md": "2ac574cfdef878121bf28d5ea92a49b39cdf050facd07e5ed914ee09e143ba98",
+    "audio.py": "f053f747b350f5665eb8849390a68642de7e890ab43d3a35e612d06d821fe5bb"
+  },
+  "steps": {
+    "access_canal": {
+      "tool": "rotary bur",
+      "target": "pulp chamber",
+      "source_pmids": [
+        "37772327"
+      ],
+      "caption": "이를 격리하고\n치수로 길을 연다",
+      "claims": [
+        "C3"
+      ],
+      "thumbnail": 202,
+      "range_0based_half_open": [
+        150,
+        255
+      ],
+      "sfx": [
+        {
+          "recording": "155913.mp3",
+          "source_in_s": 2.89,
+          "t": 5.05,
+          "dur": 0.2,
+          "cue": "Small clamp check tick, recorded tweezer-tooth Foley."
+        },
+        {
+          "recording": "728347.mp3",
+          "source_in_s": 0.34,
+          "t": 5.48,
+          "dur": 2.93,
+          "cue": "Dental turbine rises early, dips under load at contact, then winds out on withdrawal."
+        },
+        {
+          "recording": "816678.mp3",
+          "source_in_s": 2.12,
+          "t": 5.6,
+          "dur": 0.5,
+          "cue": "Low-level grit texture under the first loaded bur pass, recorded Foley."
+        }
+      ]
+    },
+    "remove_pulp": {
+      "tool": "endodontic instrument",
+      "target": "pulp chamber",
+      "source_pmids": [
+        "37772327"
+      ],
+      "caption": "감염된 치수를\n제거한다",
+      "claims": [
+        "C4",
+        "C9"
+      ],
+      "thumbnail": 300,
+      "range_0based_half_open": [
+        255,
+        345
+      ],
+      "sfx": [
+        {
+          "recording": "155913.mp3",
+          "source_in_s": 5.57,
+          "t": 8.63,
+          "dur": 0.2,
+          "cue": "Quiet entry contact, recorded tweezer-tooth Foley."
+        },
+        {
+          "recording": "211605.mp3",
+          "source_in_s": 5.25,
+          "t": 10.4,
+          "dur": 0.3,
+          "cue": "Subtle wet Foley under the withdrawing fragment."
+        }
+      ]
+    },
+    "file_canal": {
+      "tool": "endodontic file",
+      "target": "registered canals",
+      "source_pmids": [
+        "37772327"
+      ],
+      "caption": "근관 파일로\n통로를 다듬는다",
+      "claims": [
+        "C5"
+      ],
+      "thumbnail": 427,
+      "range_0based_half_open": [
+        345,
+        510
+      ],
+      "sfx": [
+        {
+          "recording": "816680.mp3",
+          "source_in_s": 0.24,
+          "t": 11.9,
+          "dur": 0.33,
+          "cue": "Fine attenuated contact rasps on the hand file stroke, recorded Foley."
+        },
+        {
+          "recording": "680616.mp3",
+          "source_in_s": 9.32,
+          "t": 13.3,
+          "dur": 0.48,
+          "cue": "Short nozzle-channel wetting accent between file passes."
+        },
+        {
+          "recording": "707344.mp3",
+          "source_in_s": 0.42,
+          "t": 14.16,
+          "dur": 0.87,
+          "cue": "Low dental handpiece pass on the second mesial path."
+        },
+        {
+          "recording": "707344.mp3",
+          "source_in_s": 0.42,
+          "t": 15.65,
+          "dur": 0.87,
+          "cue": "Second low handpiece edit on the distal pass."
+        }
+      ]
+    },
+    "irrigate_canal": {
+      "tool": "side-vented cannula",
+      "target": "prepared canals",
+      "source_pmids": [
+        "35338652",
+        "2257832"
+      ],
+      "caption": "세척액으로\n근관을 씻는다",
+      "claims": [
+        "C6"
+      ],
+      "thumbnail": 547,
+      "range_0based_half_open": [
+        510,
+        585
+      ],
+      "sfx": [
+        {
+          "recording": "680616.mp3",
+          "source_in_s": 108.98,
+          "t": 17.42,
+          "dur": 1.6,
+          "cue": "Real syringe flow from nozzle contact mic channel 0. Follow the film rising to the chamber."
+        },
+        {
+          "recording": "707321.mp3",
+          "source_in_s": 3.39,
+          "t": 18.23,
+          "dur": 0.82,
+          "cue": "Dental aspiration enters once reflux reaches the chamber."
+        }
+      ]
+    },
+    "fill_canal": {
+      "tool": "gutta-percha and sealer",
+      "target": "prepared canals",
+      "source_pmids": [
+        "36508541"
+      ],
+      "caption": "거타퍼차로\n근관을 채운다",
+      "claims": [
+        "C7"
+      ],
+      "thumbnail": 639,
+      "range_0based_half_open": [
+        585,
+        693
+      ],
+      "sfx": [
+        {
+          "recording": "155913.mp3",
+          "source_in_s": 8.03,
+          "t": 20.06,
+          "dur": 0.2,
+          "cue": "Light placement-grip contact at the first point. Let the points seat quietly."
+        },
+        {
+          "recording": "155913.mp3",
+          "source_in_s": 5.72,
+          "t": 21.65,
+          "dur": 0.2,
+          "cue": "Second quiet tweezer contact at the change to the distal point."
+        }
+      ]
+    },
+    "seat_crown": {
+      "tool": "definitive crown",
+      "target": "restored clinical crown",
+      "source_pmids": [
+        "34378217"
+      ],
+      "caption": "크라운을 씌워\n치아를 보호한다",
+      "claims": [
+        "C8",
+        "C9"
+      ],
+      "thumbnail": 778,
+      "range_0based_half_open": [
+        693,
+        864
+      ],
+      "sfx": [
+        {
+          "recording": "155913.mp3",
+          "source_in_s": 6.57,
+          "t": 26.86,
+          "dur": 0.22,
+          "cue": "Soft recorded tooth-contact Foley on crown seating."
+        }
+      ]
+    }
+  }
+}

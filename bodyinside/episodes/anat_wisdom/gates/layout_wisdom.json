@@ -1,0 +1,3 @@
+{"fps": 30, "allowed_hue_bins": [], "max_highlight_clusters": 2, "noise_max": 6.0, "firefly_max": 40, "hook_subject_min": 0.01,
+ "safe": [40, 180, 1040, 1500],
+ "text_boxes": [[150, 250, 930, 345], [180, 360, 900, 455], [18, 538, 260, 592], [100, 1346, 980, 1420], [380, 1440, 700, 1490]]}

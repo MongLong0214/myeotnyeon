@@ -1,0 +1,8 @@
+{
+ "fn": "no_3d_text",
+ "args": [
+  "facts.json"
+ ],
+ "kwargs": {},
+ "origin": "DERIVED: scene_facts of anat_wisdom/wisdom_draft30.blend lists FONT object GapLabel (hidden at save); fixture marks it rendered as in the wisdom 3D-label drafts"
+}

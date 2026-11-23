@@ -1,0 +1,1162 @@
+# anat_kit defect registry. One class per defect type ever flagged by a review. Every class MUST have an enforcement and (gate) a regression fixture that FAILS its check.
+# Maintained by the rule in RUNBOOK.md "Defect registry". Wisdom reviews 1-21 are back-filled from defects_classes_draft.yaml after draft06.
+- id: caption-claims-something-not-shown
+  description: A caption/label states a change the picture does not show (curve change, disc pressing a nerve).
+  sources: ["anat_neck/review/fable_review1.md P0-1, P0-2 (f315-465, f465-720)", "anat_wisdom/review/fable_review.md P0-1 (f30, f60, f89)", "fable_review3.md P0-2", "fable_review4.md P0-3, P1-5", "fable_review5.md P0-3", "fable_review6.md P0-3", "fable_review8.md P1-8", "fable_review9.md P1-7", "fable_review10.md P1-7", "fable_review11.md P1-8"]
+  enforcement: {type: gate, check: caption_truth, fixture: caption-claims-something-not-shown, note: "each beat declares evidence (pose_delta / object_scale / anchors_visible) measured from pose_dump.json, scene_dump.json, label_pos.json"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    preflight: caption_truth
+    template_fix: not due
+- id: ear-shoulder-not-in-frame
+  description: A caption about the ear/shoulder with neither in frame and no guide line.
+  sources: ["anat_neck/review/fable_review1.md P0-4 (f885-989)"]
+  enforcement: {type: gate, check: caption_truth, fixture: ear-shoulder-not-in-frame, note: "evidence type anchors_visible"}
+- id: subject-too-small
+  description: Declared subject covers too little of the band (neck < 150 px wide, black on both sides).
+  sources: ["anat_neck/review/fable_review1.md P0-5 (f90-f520, f880-f989)"]
+  enforcement: {type: gate, check: subject_size, fixture: subject-too-small, note: "alpha bbox area >= 0.40 and height >= 0.62 of the band, sampled every 15 frames"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    preflight: subject_size
+    template_fix: not due
+- id: rigid-bend-where-anatomy-bends-segmentally
+  description: Posture moves as one rigid stick; the declared chain must share the rotation across joints.
+  sources: ["anat_neck/review/fable_review1.md P0-3 (f150-f350)"]
+  enforcement: {type: gate, check: rigid_bend, fixture: rigid-bend, note: "no joint carries > 45 % of the chain rotation on held poses (episode.json rigid_bend_check)"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    - anat_wisdom
+    preflight: rigid_bend
+    template_fix: required
+- id: interpenetration-jaw-through-neck
+  description: One structure passes through another (mandible overlaps vertebrae).
+  sources: ["anat_neck/review/fable_review1.md P0-3 (f300-f340)", "anat_wisdom reviews: roots/nerve/jaw interpenetration"]
+  enforcement: {type: gate, check: penetration_gate, fixture: interpenetration-jaw-neck, note: "BVH overlap between episode.json no_overlap pairs on every 30th frame"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    preflight: penetration_gate
+    template_fix: not due
+- id: leader-lines-crossing
+  description: Two callout leader lines cross so each label seems to point at the other structure.
+  sources: ["anat_neck/review/fable_review1.md P0-2 (f600)"]
+  enforcement: {type: gate, check: leaders_cross, fixture: leader-lines-crossing, note: "labels2d auto-lays callouts (left anchor -> left label, upper -> upper); checks.leaders_cross verifies per frame"}
+- id: unreadable-small-text
+  description: Overlay text too small for a phone.
+  sources: ["anat_neck/review/fable_review1.md P2-16", "wisdom reviews (callout >= 48 px rule)", "anat_wisdom reviews (22-24 px grey text), see defects_classes_draft.yaml unreadable-small-text"]
+  enforcement: {type: gate, check: text_size, fixture: unreadable-small-text, note: "callout/load/plumb >= 48 px, note >= 34 px"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    preflight: text_size
+    template_fix: not due
+- id: dead-time-no-event
+  description: Seconds with no declared event and no large motion.
+  sources: ["anat_neck/review/fable_review1.md P1-11 (f117-f150, f470-f520, f700-f726)", "anat_wisdom reviews (slow push-in with no event), see defects_classes_draft.yaml dead-time-no-event"]
+  enforcement: {type: gate, check: dead_time, fixture: dead-time-no-event, note: "mean motion < 0.9 over 2 s with no label/beat boundary"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    - anat_wisdom
+    preflight: dead_time
+    template_fix: required
+
+# ---- neck review 2 (draft06, score 6)
+- id: herniation-not-visible
+  description: The disc/nerve contact the caption promises is a faint smudge; nothing in frame is red though the legend says so.
+  sources: ["anat_neck/review/fable_review2.md P0-1 (f560-f750, f640 at 630-680, 395-430)"]
+  enforcement: {type: gate, check: red_contact, fixture: herniation-not-visible, note: "episode.json contact_color_check: >= 150 saturated red px in the band during f610-f700"}
+- id: reversed-curve-weaker-than-c
+  description: The reversed curve is a straight incline; it must bow the other way at least as strongly as the C.
+  sources: ["anat_neck/review/fable_review2.md P0-2 (f465-f510)"]
+  enforcement: {type: gate, check: pose_ratio, fixture: reversed-curve-weak, note: "caption_truth evidence pose_ratio: opposite sign, >= 0.9x"}
+- id: plumb-landmarks-too-close-or-misplaced
+  description: Plumb line ends on the spine; ear not drawn, shoulder not under it.
+  sources: ["anat_neck/review/fable_review2.md P0-3 (f885-f975, f940 at 555,495)"]
+  enforcement: {type: gate, check: anchors_apart, fixture: plumb-landmarks-too-close, note: "ear and acromion anchors >= 0.2 of the band apart; ear anchored on the ghost skin's ear; marker on the acromion"}
+- id: object-visible-outside-its-beat
+  description: Arc on screen in every beat (and a lens-pass bar); clavicle sticking out of the neck in every shot.
+  sources: ["anat_neck/review/fable_review2.md P1-4 (f756-f771), P1-6 (f0)"]
+  enforcement: {type: gate, check: visibility_windows, fixture: arc-visible-outside-beats, note: "episode.json scene_visibility windows checked on scene_dump.json"}
+- id: effect-blinks-instead-of-steady
+  description: Muscle glow cycles red/peach three times and reads as flashing.
+  sources: ["anat_neck/review/fable_review2.md P1-5 (f798-f861)"]
+  enforcement: {type: gate, check: steady_glow, fixture: muscle-glow-blinks, note: "episode.json steady_glow window: <= 2 direction changes"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    preflight: steady_glow
+    template_fix: not due
+- id: load-arrow-ends-in-air
+  description: Load arrow does not land on the lower neck at 30 and 60 degrees.
+  sources: ["anat_neck/review/fable_review2.md P1-12 (f225, f300)"]
+  enforcement: {type: gate, check: labels_anchored, fixture: load-arrow-in-air, note: "every load/plumb label has anchor2; labels2d draws the arrow to that landmark"}
+- id: caption-and-label-overlap
+  description: A label from one beat stays visible while the next beat's caption is already shown.
+  sources: ["anat_neck/review/fable_review2.md P2-12 (f300-f336)"]
+  enforcement: {type: gate, check: label_beat_alignment, fixture: label-spans-caption-change, note: "no label active across a beat boundary (8-frame slack)"}
+- id: audio-unreviewed-or-poor-fit
+  description: Audio has never been reviewed; sounds must fit their description and the mix must meet loudness.
+  sources: ["CEO/owner 2026-11-21 (audio never reviewed in any round)"]
+  enforcement: {type: gate, check: audio_fit, fixture: audio-poor-fit, note: "earshot match z >= 2.0 per part (sfx_report.json); audio_gate.py: -14 LUFS +/- 1.5, true peak <= -1 dBTP, bed present, an event in every beat"}
+
+# ---- neck review 3 (draft07, score 6.5)
+- id: opening-subject-speck-no-event
+  description: The first second shows a speck (< 100 px) in a black band; no physical event by 0.5 s.
+  sources: ["anat_neck/review/fable_review3.md P0-1 (f0-f45), hook 5"]
+  enforcement: {type: gate, check: opening_event, fixture: opening-speck, note: "alpha bbox area >= 0.30 at f12 and motion >= 2.5 within f0-f15"}
+- id: graphics-cover-the-subject
+  description: Legend/magnifier sits on the disc and lobe they explain; the magnifier shows blur, not the lobe.
+  sources: ["anat_neck/review/fable_review3.md P0-2 (f585-f717), fable_review2.md P1-7"]
+  enforcement: {type: gate, check: labels_clear_of_anchors, fixture: graphics-cover-subject, note: "legend/inset rectangles must not contain A_Contact / A_C56 / A_Root on any active frame"}
+- id: landmark-not-drawn
+  description: Plumb line between an ear and a shoulder that are not drawn (dots on skull base and vertebra).
+  sources: ["anat_neck/review/fable_review3.md P0-3 (f885-f975)", "fable_review2.md P0-3"]
+  enforcement: {type: gate, check: marker_present, fixture: landmark-marker-missing, note: "evidence object_scale on EarMarker and AcromionMarker at the ending, plus anchors_apart"}
+- id: audio-bass-only-no-gaps
+  description: Pulse train over a zoom; most energy at 55-130 Hz (phones cannot reproduce it); no silence between events.
+  sources: ["anat_neck/review/fable_review3.md Audio"]
+  enforcement: {type: gate, check: audio_balance, fixture: audio-bass-only, note: "500 Hz-3 kHz share >= 12 % and loudness range >= 10 dB (p95-p10); audio_gate adds -14 LUFS / -1.5 dBTP"}
+- id: lobe-reads-as-glossy-bead
+  description: The herniation is a glossy sphere on top of the disc, and stays on screen in later beats.
+  sources: ["anat_neck/review/fable_review3.md P1-5 (f620, f756-f860)"]
+  enforcement: {type: review, check: visual_review}
+- id: material-reads-wrong-colour
+  description: Disc nuclei olive-brown ovals; muscles bleach to peach; ghost panels flat and orange.
+  sources: ["anat_neck/review/fable_review3.md P1-6, P1-7, P1-8 (f620, f795-f807, f40-f60)"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: material-reads-wrong-colour/bad.jpg
+    finding: e035ce529b72ab96c0e3c946
+    sha256: 47e8c29b44b3975142f632ae010edef675479d2f125bc3ed6798a00cc5f57737
+    source_sha256: 823ec2d103e047f96274e28876806c24ffc293fff48d2689ce5ec1f226bff6ca
+    location: f620
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    preflight: visual_review
+    template_fix: not due
+- id: white-fragments-and-rod-leftovers
+  description: White fragments between lower spinous processes; clavicle rod in beats 3, 5, 6; cord skewer during the zoom.
+  sources: ["anat_neck/review/fable_review3.md P1-8, P1-9 (f490, f940, f30-f42)", "fable_review2.md P1-8"]
+  enforcement: {type: review, check: visual_review}
+
+# ---- neck review 4 (draft08, score 7)
+- id: plumb-line-jog-and-wrong-shoulder
+  description: The shoulder dot sits on the spine at C7 and the plumb line needs a sideways jog to reach it; no shoulder tip drawn.
+  sources: ["anat_neck/review/fable_review4.md P0-1 (f891-f975)"]
+  enforcement: {type: gate, check: anchors_aligned, fixture: plumb-line-jog, note: "evidence anchors_aligned: ear and shoulder share a screen x (<= 0.04 band width); shoulder = acromion of the ghost body; head slide aligns the ear over it"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: anchors_aligned
+    template_fix: not due
+- id: hook-event-late
+  description: Nothing lights or pulses before the first label (f36); the hook needs an event by f12.
+  sources: ["anat_neck/review/fable_review4.md P1-3 (hook 6)"]
+  enforcement: {type: gate, check: dump_change, fixture: hook-event-late, note: "scene_dump VertebraTint changes >= 0.5 between f0 and f12"}
+- id: bottom-of-frame-unused
+  description: Empty bottom of the full frame; band too short.
+  sources: ["anat_neck/review/fable_review4.md P2-10", "fable_review3.md P2-14"]
+  enforcement: {type: gate, check: layout_uses_height, fixture: bottom-space-unused, note: "band_y + band_h >= 1340"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    - neighbor
+    preflight: layout_uses_height
+    template_fix: required
+- id: ghost-mesh-panels-halo-neon-jagged
+  description: Flat angular panels on the ghost head; pink halo over the contact; neon muscle without fibre texture; jagged ghost neck edge; clavicle reads as a white knob.
+  sources: ["anat_neck/review/fable_review4.md P1-2, P1-4, P1-5, P1-7, P1-8"]
+  enforcement: {type: review, check: visual_review}
+- id: audio-level-balance
+  description: One part 6 dB above the rest (groan); the load beat 10 dB quieter and lost on a phone.
+  sources: ["anat_neck/review/fable_review4.md Audio", "fable_review5.md Audio (load beat -22 dBFS)"]
+  enforcement: {type: gate, check: audio_beat_balance, fixture: audio-quiet-beat, note: "every beat's RMS within 6 dB of the median beat; integrated -14 +/- 0.5 LUFS (audio_gate)"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    preflight: audio_beat_balance
+    template_fix: not due
+
+# ---- neck review 5 (draft09, score 7.5)
+- id: shoulder-dot-on-spine
+  description: The 어깨 dot is on a cervical vertebra, not on the ghost shoulder; the claim was asserted, not measured.
+  sources: ["anat_neck/review/fable_review5.md P0 (f950 at 605,437)", "fable_review4.md P0-1"]
+  enforcement: {type: gate, check: plumb_projected, fixture: shoulder-dot-on-spine, note: "labelpos.py projects the shoulder anchor: camera ray must hit the ghost skin (inside silhouette) and the dot must be outside the projected bbox of C1-C7, on every frame of the plumb label; shoulder = lateral end of the clavicle"}
+- id: plumb-pill-covers-dot-or-line-short
+  description: The line ends in empty space beside the dot during the ramp; the label covers the dot.
+  sources: ["anat_neck/review/fable_review5.md P0 (f897-f909, f900 at 560-700, 440-480)"]
+  enforcement: {type: gate, check: labels_clear_of_dots, fixture: plumb-pill-covers-dot, note: "pill half width + dot radius < pill_dx; labels2d draws the line at full length at every active frame (alpha ramps, not length)"}
+- id: hidden-object-renders-dark-marks
+  description: A faded-out (alpha 0) object still renders black scratch strokes; thin muscle tendons read as red wires.
+  sources: ["anat_neck/review/fable_review5.md New defects 1-2 (f630, f820)"]
+  enforcement: {type: gate, check: visibility_windows, fixture: hidden-object-renders-dark, note: "objects that fade out are also hide_render keyed (scene_dump SkinRender); thin tendons (semispinalis capitis) removed"}
+- id: arc-fade-patch-and-contact-disc
+  description: Speckled orange patch behind the arrow; pale disc over the touch point; white fragments.
+  sources: ["anat_neck/review/fable_review5.md New defect 3, P1-4, P1-6 (f120, f630, f490)"]
+  enforcement: {type: review, check: visual_review}
+
+# ---- neck review 6 (draft10, score 7.5)
+- id: plumb-dots-off-landmarks
+  description: The ending dots and labels are not on the landmarks they name (shoulder dot floats in front of the neck, "어깨" label on the cervical spine, ring on the sphenoid instead of an ear); open for three rounds because gates measured anchors, not what was drawn.
+  sources: ["anat_neck/review/fable_review6.md P0 (f894-f975, f900 at 707,563; f950 at 605,145)", "fable_review5.md P0", "fable_review4.md P0-1"]
+  enforcement: {type: gate, check: plumb_drawn, fixture: plumb-dots-off-landmarks, note: "plumb_draw.json (labels2d) vs label_pos _plumb (labelpos.py): per frame the ear dot is on the projected ghost-ear landmark and inside the drawn ear outline (hull of the skin's ear vertices), the shoulder dot is on the projected acromion (clavicle tip), inside the ghost silhouette and outside the exact projected bbox of C1-C7 by >= the dot radius, each label <= 40 px from its dot, the line ends are the two dots; composited frames are sampled for line, dot and outline pixels (k >= 0.9)"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: plumb_drawn
+    template_fix: not due
+- id: ghost-mesh-wires-and-fans-materials
+  description: Thin red nuchal strips zig-zag at the skull base (f780-f880); a pale cap disc covers the lobe/root touch point (f630); throat sheet shears into fans while the ghost dissolves (f9-f12); comb streaks on the ghost neck (f900); white facet bits and a speck between the lower spinous processes (f490); grey torso slab behind the cord in the ending; muscle bright orange without fibre or tendon.
+  sources: ["anat_neck/review/fable_review6.md items 2-5, 7 (f820 at 620-750,300-440; f630 at 480-520,360-400; f9-12; f900 at 430-510,290-350; f490 at 440-520,560-760)"]
+  enforcement: {type: review, check: visual_review}
+
+# ---- neck review 7 (draft11, score 8)
+- id: ear-not-over-jaw-joint
+  description: The ear is drawn over the cerebellum 130 px behind the jaw joint, as a yellow half-oval tag; the plumb line then runs down behind the neck.
+  sources: ["anat_neck/review/fable_review7.md Ending (f970 at 335-405,170-310), What remains 1"]
+  enforcement: {type: gate, check: plumb_drawn, fixture: ear-behind-jaw-joint, note: "plumb_draw.json 'tmj' (labelpos A_TMJ = mandibular condyle): the ear dot is 0-90 px behind and 8-100 px above the jaw joint on every frame; the ear shape (helix, antihelix, tragus) is drawn from build.py _ear_shape()"}
+- id: hook-spine-small-no-event
+  description: The spine is small in the frame at f9-f15 and nothing physical happens before the 5 kg label (f36).
+  sources: ["anat_neck/review/fable_review7.md Round-6 item 3, What remains 4"]
+  enforcement: {type: gate, check: opening_event, fixture: opening-speck, note: "subject bbox >= 30 % of the band at f12 and motion >= 2.5 between f0 and f15; the arc finishes drawing at f12 with an emission flash and the pulse sound"}
+- id: pose-step-at-caption-change
+  description: Pose and camera change in one frame at f884 (luma delta 6.25 against 0.54), one frame before the caption change.
+  sources: ["anat_neck/review/fable_review7.md Ending, What remains 2", "anat_neck/review/fable_review14.md P1-6"]
+  enforcement: {type: review, check: visual_review}
+- id: shoulder-bones-brighter-than-spine
+  description: Clavicle and scapula are a brighter white than the vertebrae.
+  sources: ["anat_neck/review/fable_review7.md Ending, What remains 2"]
+  enforcement: {type: review, check: visual_review}
+- id: lobe-pale-touch-soft
+  description: The herniated lobe is a pale orange patch seen through the translucent cord; the touch point has no crisp edge and no ring.
+  sources: ["anat_neck/review/fable_review7.md Round-6 item 2b, What remains 3"]
+  enforcement: {type: review, check: visual_review}
+- id: materials-rim-annulus-tendon-missing
+  description: No cortical rim on cut vertebrae, discs opaque blue-grey, muscle without tendon ends.
+  sources: ["anat_neck/review/fable_review7.md Round-6 item 5, What remains 5"]
+  enforcement: {type: gate, check: media, fixture: rim-too-thin, note: "media_checks.rim_bevel on scene_facts.py: every visible cut vertebra has a Rim_ curve with bevel >= 0.45 mm (draft10 0.26 mm). Disc rings and tendon ends: class disc-annulus-and-tendon-ends (runbook)"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    preflight: media
+    template_fix: not due
+- id: cord-stick-and-muscle-tip-through-fade
+  description: The cord hangs out as a bare stick below the last vertebra at 27 kg (f270-f330); an orange muscle tip pokes through the bottom fade (f820); white fragments and a speck remain between the lower spinous processes (f490).
+  sources: ["anat_neck/review/fable_review7.md Round-6 items 4, 6, New defects 2, What remains 6"]
+  enforcement: {type: review, check: visual_review}
+- id: full-frame-bottom-unchecked
+  description: The bottom of the full frame (y 1500-1920) was never checked or used.
+  sources: ["anat_neck/review/fable_review7.md Round-6 item 7"]
+  enforcement: {type: review, check: visual_review}
+
+
+# ---- neck review 8 (draft13, score 8.5)
+- id: hook-no-physical-motion
+  description: The hook is a held pose after a zoom that stops dead at f13-f14 (luma step 9.9 then 6.1); no physical event inside 0.5 s.
+  sources: ["anat_neck/review/fable_review8.md Hook, New defects 5"]
+  enforcement: {type: gate, check: opening_event, fixture: opening-speck, note: "motion >= 2.5 f0-f15 and subject >= 30 % at f12; build.py: head lifted at f0 settles onto the spine by f7 with the arc flash, zoom eased over f0-f20 (flash gate checks every step)"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    - anat_neck_v3
+    - neighbor
+    preflight: opening_event
+    template_fix: required
+- id: oval-beside-cerebellum-reads-as-ear
+  description: The cut tip of C2's spinous process with its rim loop overlaps the cerebellum at f15-f60, f490, f820 and reads as an ear outline leaking.
+  sources: ["anat_neck/review/fable_review8.md Round-7 item 1b (f30 at 740-810,350-420)"]
+  enforcement: {type: review, check: visual_review}
+- id: mouth-smear-loops-scratches-kink
+  description: Brown smear in front of the ghost's lips (f890-f989), rim loops across C1-C2, brown scratch strokes on cut faces, red sliver at f820 (600,630), 1 px kink in the plumb line.
+  sources: ["anat_neck/review/fable_review8.md New defects 1-4"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: mouth-smear-loops-scratches-kink/bad.jpg
+    finding: 24cfab22abb1e92a16e3e6b8
+    sha256: a6d5f690511fb4f7182d4deeb78850745b23bce4bcfbe992a5b7e57aba027b2c
+    source_sha256: 1ad1c18c752a913dbcbc4f8efeb7ce438e37be6fe16d45ecadfa64608db5d648
+    location: f630, f820
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: visual_review
+    template_fix: not due
+- id: bones-colour-and-disc-annulus
+  description: Clavicle and scapula whiter than the spine; discs flat blue-grey.
+  sources: ["anat_neck/review/fable_review8.md Materials"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: bones-colour-and-disc-annulus/bad.jpg
+    finding: e2ff51eb045f37299b73d594
+    sha256: bb558b4f6c4fd2f75e575926fbf28a53cef72c98fc49182e914b863cb444301f
+    source_sha256: 844f99ab08f06767aa5cb3e5ed4d00283524948bc7b7c8b3804789f838140512
+    location: f630
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: visual_review
+    template_fix: not due
+- id: muscle-beat-held-pose
+  description: The muscle beat (f780-f880) is a held pose with a colour change; nothing shows the muscles holding.
+  sources: ["anat_neck/review/fable_review8.md What remains 4"]
+  enforcement: {type: gate, check: media, fixture: caption-without-change-evidence, note: "media_checks.caption_evidence: every beat declares a CHANGE evidence (pose_delta / pose_ratio / dump_change / anchors_*); object_scale of a glow alone no longer satisfies the muscle line. Key the shortening as a scene_dump value and declare dump_change"}
+
+# ---- neck review 9 (draft14, score 8.5)
+- id: judder-periodic-low-delta-frames
+  description: "From f792 to f876 every third frame barely changes (delta 0.9-1.9 against 4-5), a whole-frame judder from a tremor applied to the joints (camera-relative framing included)."
+  sources: ["anat_neck/review/fable_review9.md Muscle beat, New defects 1"]
+  enforcement: {type: gate, check: frame_cadence, fixture: judder-periodic-deltas, note: "checks.py frame_cadence: in every 48-frame window with median delta >= 1 fewer than 6 % of frames under half the local 7-frame median (draft14 f768-f852: 8-12 %, elsewhere 0); the tremor is muscle-only, 12-frame period, keyed every frame"}
+- id: disc-beat-loops-nucleus-strokes-beads
+  description: Skull rim loops over C1-C2 (f630 at 940-1080,100-200; f30), brown strokes from the nuclei across vertebral cut faces (f630 at 840-910,180-260), amber root/ganglion beads beside the upper neck (f900 at 485,440; f30 at 780,410), residual mouth smear.
+  sources: ["anat_neck/review/fable_review9.md New defects 2, Leftovers, What remains 2, 5"]
+  enforcement: {type: review, check: visual_review}
+- id: hook-starts-small-held-pose
+  description: The figure is about 250 px tall at f0-f5 so the head tip does not read at phone size; f22-f35 is a held pose until the 5 kg label.
+  sources: ["anat_neck/review/fable_review9.md Hook"]
+  enforcement: {type: review, check: visual_review}
+
+# ---- owner changes (draft16 feedback): payoff beat, no jargon text, narration
+- id: payoff-shows-consequence
+  description: The clip ends on a normal neck; the viewer never sees what the posture can lead to.
+  sources: ["owner feedback on draft16 (coordinator message)"]
+  enforcement: {type: gate, check: caption_truth, fixture: caption-claims-something-not-shown, note: "episode.json beat 6 ('이런 자세가 굳어지면') declares evidence pose_delta >= 20 deg between f846 and f930 (head far forward and down, reversed curve), shown with a conditional caption; penetration gate (Mandible/TeethLower vs C3-C5) must pass on every frame of the caricature; the ear-shoulder gap is drawn as a dashed 'gap' label on true projected landmarks"}
+- id: on-screen-jargon-and-duplicate-text
+  description: "Tags and notes such as 도해, 과장된 도해, source qualifiers and labels that repeat the caption were on screen; viewers do not know the word."
+  sources: ["owner feedback (coordinator message)"]
+  enforcement: {type: gate, check: media, fixture: on-screen-jargon, note: "media_checks.on_screen_wording: labels/notes carry no banned word (thresholds.json list: 도해, 참고, 출처, AANS ...) and no label repeats its caption"}
+- id: narration-misheard
+  description: The narration is not intelligible to a listener (whisper transcript differs from the script).
+  sources: ["owner feedback (coordinator message)"]
+  enforcement: {type: gate, check: narration_wer, fixture: narration-garbled, note: "narration_gate.py: local whisper transcript vs script, character error rate <= 8 %"}
+- id: narration-out-of-sync-or-wrong-pace
+  description: Narration starts late, runs past its beat or leaves the 6.2-6.6 syll/s pace (owner rule).
+  sources: ["owner feedback (coordinator message)", "memory pace-faster"]
+  enforcement: {type: gate, check: narration_sync, fixture: narration-out-of-sync, note: "each line starts within 0.6 s of its caption change, ends inside the beat, 5.6-7.2 syll/s; pauses inside a line <= 0.2 s (narration_gate.py)"}
+
+# ---- owner feedback on draft17 (second message)
+- id: human-figure-reads-as-human
+  description: The severe forward-head figure does not read as a person (ghost body at low opacity, torso blob, no arms or hips in silhouette).
+  sources: ["owner feedback on draft17 (coordinator message)"]
+  enforcement: {type: gate, check: human_reads_as_human, fixture: human-figure-reads-as-human, note: "gates/human_gate.py measures the MPFB person at f872-f968 + f1040: projected silhouette >= 50 % of the band height, head top above the shoulder dot, skull not below the shoulder line, ear 12-15 cm in front of the shoulder (owner instruction 기괴한 자세), gap <= 3 cm after the straightening. ENFORCED (owner round 3; rigged MPFB human + Mixamo mocap retarget)"}
+- id: establishing-shot-at-least-1-5-s
+  description: The opening full-body person dissolves within 0.3 s, before the viewer reads it as a person.
+  sources: ["owner feedback on draft17 (coordinator message)"]
+  enforcement: {type: gate, check: establishing_person, fixture: establishing-shot-at-least-1-5-s, note: "scene_dump HumanFade >= 0.6 for >= 60 consecutive frames from f0 (owner round 5: 2 s; opening beat = 60 frames + 24-frame dissolve); opening_event is redefined on the person: silhouette bbox >= 30 % of the band at f12 and the silhouette changed >= 1.5 % by f12 (slump started). ENFORCED (owner round 3)"}
+# ---- owner round 6 (20:0x KST)
+- id: mp4-assembled-from-stale-frames
+  description: "The mp4 under review does not show the frame folder of its own draft (assembled from an older folder or overwritten while being reviewed)."
+  sources: ["anat_neck/review/fable_review13.md verdict and method (file overwritten twice during review)"]
+  enforcement: {type: gate, check: media, fixture: mp4-from-stale-frames, note: "media_checks.mp4_matches_frames: median diff on opaque 3D pixels between the mp4 band and frames_<TAG> on every 30th frame <= 7.5; review_gate voids a review if the mp4 md5 changes during it"}
+- id: claimed-change-not-in-picture
+  description: "A draft is sent with changes that are not in its picture (draft19 showed draft17 payoff and opening)."
+  sources: ["anat_neck/review/fable_review13.md Claimed changes (payoff, opening NOT IN FILE)"]
+  enforcement: {type: gate, check: media, fixture: claimed-change-not-in-file, note: "media_checks.changed_beats_differ: every window listed in changes.json differs from the previous draft mp4 by >= 1.0 (blurred 135 px grey); draft19 vs draft17 = 0.4-0.5"}
+- id: claimed-fix-not-visible
+  description: "The builder reports a reviewer item as fixed but the crop at the reviewer frame and box is unchanged."
+  sources: ["anat_neck/review/fable_review11.md Mouth smudge PARTIAL", "fable_review13.md Muscle shortening NOT", "RUNBOOK 4c (draft13 nudge/spray/pulse invisible)"]
+  enforcement: {type: gate, check: media, fixture: claimed-fix-not-visible, note: "media_checks.claimed_fixes_visible: crops cut from the new and previous mp4 at the reviewer frame/box; an item marked fixed with diff < 1.5 fails; the crops also go to review_gate via items.json for the judgement"}
+- id: fast-draft-preset-speckle
+  description: "The fast draft preset (25 %, 4 spp) turns translucent skin into salt-and-pepper speckle until the figure is unreadable."
+  sources: ["anat_neck frames_draft19_raw f3, f930 (owner fast preset)", "Opus calibration P0 noise on draft17/19 ghost body"]
+  enforcement: {type: gate, check: media, fixture: fast-preset-speckle, note: "media_checks.no_speckle at a 270 px working width: mean |luma - 3x3 median| / local mean on translucent pixels <= 0.08 (draft19 0.09-0.135, drafts 11-17 0.03-0.06)"}
+- id: gate-threshold-moved-to-pass
+  description: "A gate threshold is changed so that a failing draft passes."
+  sources: ["coordinator brief 2026-11-21 (recurring process failure)"]
+  enforcement: {type: gate, check: media, fixture: threshold-moved, note: "thresholds.json is locked by thresholds_changes.yaml (sha256 of the last entry, reason >= 25 chars, keys listed); thresholds.py check, defects_meta and every media check refuse to run on a broken lock"}
+- id: narration-masked-by-sfx
+  description: "Narration is masked by SFX in places (recogniser fails on the mix, not on the voice)."
+  sources: ["anat_neck/review/fable_review13.md Narration against the script (4-5.5 s, 12.5-14 s, 25-27 s)"]
+  enforcement: {type: gate, check: media, fixture: narration-masked, note: "media_checks.narration_snr: per 0.5 s window with active voice, 300 Hz-4 kHz voice/SFX ratio >= 6 dB (ducked SFX stem)"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: media
+    template_fix: not due
+- id: narration-gaps-inside-beats
+  description: "Narrated beats carry long silences (1.4-3.3 s) before or after their line."
+  sources: ["anat_neck/review/fable_review12.md Narration (13.9-17.2 s, 22.0-25.2 s)", "fable_review13.md Narration gaps (1.7 s, 1.4 s, 2.6 s)"]
+  enforcement: {type: gate, check: media, fixture: narration-gaps, note: "media_checks.narration_gaps: speech-measured silence from beat start to first speech and from last speech to beat end <= 1.5 s"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: media
+    template_fix: not due
+- id: payoff-figure-small-or-dim
+  description: "The payoff figure is small and dim in the band (about 250 px of 880), the least legible shot."
+  sources: ["anat_neck/review/fable_review12.md payoff beat \"Not strong\" (f900-f960)"]
+  enforcement: {type: gate, check: media, fixture: figure-small, note: "media_checks.figure_reads_human: visible silhouette height >= 0.66 of the band and mean luma >= 60 on the payoff frames"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: media
+    template_fix: not due
+- id: establishing-shot-not-in-frames
+  description: "The opening person is not on screen for 1.5 s in the rendered frames (claimed in draft19, absent in its frames)."
+  sources: ["anat_neck/review/fable_review13.md Opening NOT IN FILE", "owner feedback on draft17"]
+  enforcement: {type: gate, check: media, fixture: establishing-too-short, note: "media_checks.establishing_shot: translucent-skin area >= 5 % of the band from f0 for >= 1.5 s, measured on frames_<TAG>_raw"}
+- id: caption-too-fast-to-read
+  description: "A caption is on screen too briefly for its length."
+  sources: ["anat_wisdom/review/ceo_checks.md section 2 reading time (7.8 chars/s)", "anat_neck/review/fable_review1.md P2-15"]
+  enforcement: {type: gate, check: media, fixture: caption-too-fast, note: "media_checks.caption_reading_speed: Hangul/letters/digits per caption second <= 7.5"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    preflight: media
+    template_fix: not due
+- id: text-drawn-in-3d-layer
+  description: "A label, pill or bracket is drawn in the 3D scene, so geometry can cut or cover it."
+  sources: ["anat_wisdom reviews: label-or-callout-occluded-or-cut (defects_classes_draft.yaml)"]
+  enforcement: {type: gate, check: media, fixture: text-in-3d-layer, note: "media_checks.no_3d_text on scene_facts.py: no FONT object renders on any frame; labels live in labels2d only. Fixture is DERIVED (wisdom_draft30 GapLabel marked rendered)"}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    - anat_neck_v3
+    preflight: media
+    template_fix: required
+- id: disc-annulus-and-tendon-ends
+  description: "Disc cut faces read as flat or striped tape instead of rings around a nucleus; muscles have no tendon ends."
+  sources: ["anat_neck/review/fable_review7.md Round-6 item 5", "fable_review10.md item 3, New defects 2 (f630 at 750-800, 230-340)", "fable_review11.md disc rings PARTIAL"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: disc-annulus-and-tendon-ends/bad.jpg
+    finding: 6d1a83c3d6aa644985610877
+    sha256: f922b8603c8d31cf35e4a3e7137d4111cf6fb8ff3f51793886eb982a11714fc6
+    source_sha256: af907a2acc3a534a2365913303a469532d15894e05586f29f9d0f97732ee1bcc
+    location: f720–f880, f780
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    - neighbor
+    preflight: visual_review
+    template_fix: required
+- id: nucleus-protrudes-as-white-bead
+  description: "Disc nuclei protrude as bright white beads behind each disc, a row of pearls in wide shots."
+  sources: ["anat_neck/review/fable_review11.md New defects 1 (f800 at 530-570, 540-610; f900)"]
+  enforcement: {type: review, check: visual_review}
+- id: sheet-or-shell-over-muscle
+  description: "A cream sheet lies over the muscle mass; muscle goes pale in the fade."
+  sources: ["anat_neck/review/fable_review10.md New defects 1 (f820 at 390-600, 410-470)", "fable_review11.md cream sheet NOT, New defects 2 (f860-f876)"]
+  enforcement: {type: review, check: visual_review}
+- id: payoff-pose-implausible-and-pierced
+  description: "The payoff pose is a dropped head (skull below the shoulder line, face to the chest); spinous processes pierce the back; a forearm passes through the face."
+  sources: ["anat_neck/review/fable_review12.md payoff \"Not plausible\" (f930-f960)", "fable_review13.md (same picture)", "Opus calibration draft17 P0 (f945 spikes)"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: payoff-pose-implausible-and-pierced/bad.jpg
+    finding: bf1513c56eaf73d6e4240f1f
+    sha256: 3645379063fc83a60c7a2c1aca6dd8bbf12154f474eb38966e0118464d8c5e2b
+    source_sha256: d2714edb7ccbc76d07c038159ae7e07c684c6a508eab4f324aae3458661d4d8f
+    location: f930, f930–f960
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: visual_review
+    template_fix: not due
+- id: gap-graphic-without-reference
+  description: "The ear-shoulder gap graphic has no vertical reference, so the offset does not read."
+  sources: ["anat_neck/review/fable_review12.md \"The gap graphic does not read\" (f960)"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: gap-graphic-without-reference/bad.jpg
+    finding: 6899a562906a565b2ce18095
+    sha256: 16644c2c69795394cfe5975b4d6c98c3302b05c7aaad7048bfe3c851aa3b81d7
+    source_sha256: d2714edb7ccbc76d07c038159ae7e07c684c6a508eab4f324aae3458661d4d8f
+    location: f960
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: visual_review
+    template_fix: not due
+- id: transition-whips-through-figure
+  description: "The camera whips through the figure into the ending (blurred hand and torso for several frames, a 5.7 step)."
+  sources: ["anat_neck/review/fable_review12.md Transition out (f966-f990)"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: transition-whips-through-figure/bad.jpg
+    finding: c9112216389a6122f73d3cb7
+    sha256: 8e595cb4a075970766d465d15e233ccc779933827259bd1fd196ac4cc6179f50
+    source_sha256: d2714edb7ccbc76d07c038159ae7e07c684c6a508eab4f324aae3458661d4d8f
+    location: f966–f990, f972–f984, f975
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    - anat_wisdom
+    - neighbor
+    preflight: visual_review
+    template_fix: required
+- id: wording-stronger-than-source
+  description: "Narration or pose states more than the sources support (\"점점 긴장해요\", a posture the sources do not describe)."
+  sources: ["anat_neck/review/fable_review12.md Claim risk, Narration beat 5", "anat_wisdom/review/ceo_checks.md section 1 FLAGs"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: wording-stronger-than-source/bad.jpg
+    finding: 6a5515161d751d27544968f2
+    sha256: 4905adb5d85521a7831f23d2b5845de154f8646176d3ac31dcb119c3532bf8f9
+    source_sha256: 4905adb5d85521a7831f23d2b5845de154f8646176d3ac31dcb119c3532bf8f9
+    location: f635
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    - anat_wisdom
+    - neighbor
+    preflight: visual_review
+    template_fix: required
+- id: model-figure-qualifier-late-or-small
+  description: "A model kg figure, estimate chip or 추정 qualifier appears on screen. Keep model estimates and their qualifications in narration. The owner selected variant B after the original muted-viewer review."
+  sources: ["anat_neck/review/fable_review13.md Owner/CEO condition (chip at f125 after 12 kg at f117, 32 px)"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: model-figure-qualifier-late-or-small/bad.jpg
+    finding: b0afbc1bba5c0889a896ba53
+    sha256: e7d64f4b348f7ded6788f39654273b29f57e20540303cdefc0e2063fc6791c35
+    source_sha256: 648da7e84c2f797e4c465f8441874076f877d10e14de58dc586f2ab34dacc8c1
+    location: f117, 0.6 s, f125
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    - anat_wisdom
+    preflight: visual_review
+    template_fix: required
+- id: human-listen-and-phone-not-done
+  description: "Human listen, phone playback and bottom-of-frame checks were never done before a high score."
+  sources: ["anat_neck/review/fable_review6.md What remains 7", "fable_review7.md 7", "fable_review8.md 5", "fable_review9.md 6", "fable_review10.md 6", "fable_review11.md 5", "fable_review12.md 5"]
+  enforcement: {type: gate, check: phone_playback, fixture: human-listen-and-phone-not-done}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: phone_playback
+    template_fix: not due
+
+# ---- coverage audit of neck reviews 1-9 (P2 and sub-items not covered before)
+- id: sfx-without-matching-visual-event
+  description: "A sound plays when nothing on screen does what it describes, or runs into the next beat."
+  sources: ["anat_neck/review/fable_review3.md Audio bullet 3 (f0-f45, f750-f775)"]
+  enforcement: {type: review, check: visual_review}
+- id: overlay-panel-render-artifact
+  description: "A 2D panel renders wrongly: a second panel inside it, or text from another label showing through it."
+  sources: ["anat_neck/review/fable_review2.md P1-7 (f640)", "fable_review3.md Round-2 P1-7 (f620 at 700-1050, 350-600)"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: overlay-panel-render-artifact/bad.jpg
+    finding: 31bfa927d2833aa863bf7457
+    sha256: ff220c20637f4f55ebe280044dbb491c948d635636ceb01d68750612714dc909
+    source_sha256: c15df21cc5d5e656ec60d71882709351a1011b9f8e22b2f74aafb3a9a46f8500
+    location: f640
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    - anat_neck_v3
+    preflight: visual_review
+    template_fix: required
+- id: subject-not-separated-from-background
+  description: "No rim light lifts the spine off the black background."
+  sources: ["anat_neck/review/fable_review6.md What remains 5"]
+  enforcement: {type: review, check: visual_review}
+- id: graphic-lags-caption
+  description: "A caption is on screen with no supporting graphic for more than about 0.5 s."
+  sources: ["anat_neck/review/fable_review7.md Ending Timing (f885-f918)"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: graphic-lags-caption/bad.jpg
+    finding: 6c0ae65ccfa0a902740dca72
+    sha256: 321945c3da2a4af4240d2ae6abf95b9fd0c26f3caf8af1179131cc382d52386b
+    source_sha256: b11c0f642e65286ed143c6ca3fbfc1f2b04142980b1ea200c83570ba3e906334
+    location: f750
+  recurrence:
+    episodes:
+    - anat_neck
+    - neighbor
+    preflight: visual_review
+    template_fix: not due
+- id: label-placed-over-unrelated-structure
+  description: "A label sits on a structure it does not name."
+  sources: ["anat_neck/review/fable_review2.md P2-11 (f480-f510)"]
+  enforcement: {type: review, check: visual_review}
+
+# ---- wisdom reviews 1-21, CEO checks and rights files (back-filled from defects_classes_draft.yaml; sources there, citations corrected by the 2026-11-21 audit)
+- id: caption-overstates-evidence
+  description: "Caption/description states a contested or variable fact as a rule, or claims accuracy the model lacks."
+  sources: ["anat_wisdom/review/ceo_checks.md, section 1 FLAG tag 치아 분할, f90-f159", "anat_wisdom/review/ceo_checks.md, section 1 FLAG tag 하치조신경, f160-f205", "anat_wisdom/review/ceo_checks.md, section 1 FLAG description line 3, not on screen", "anat_wisdom/review/fable_review.md, P2-21, caption line '실제 수술 순서 기반 재구성'"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: caption-overstates-evidence/bad.jpg
+    finding: fd234c958ff5eba92a557064
+    sha256: fa01e74de8db9796cef59a322e7d9ca75cc8146fa9793345fe21e95df5652367
+    source_sha256: b163ef7c1b9838ad499f8acfc1e158624c847c400de9ce93ae205d67c9e4acd7
+    location: episode
+  recurrence:
+    episodes:
+    - anat_neck_v3
+    - anat_wisdom
+    preflight: visual_review
+    template_fix: not due
+- id: credit-rights-provenance-paperwork
+  description: "Current episodes: flag incomplete attribution or an inaccurate source in description.txt, or credits and illustration disclaimers drawn on screen. Inspect the description and provenance evidence. The owner requires description-only attribution."
+  sources: ["anat_wisdom/review/ceo_checks.md, section 3 third molar FLAG, assets/third_molar_v3b.blend", "anat_wisdom/review/ceo_checks.md, section 1 FLAG provenance row, SOURCES.md fact-check row", "anat_wisdom/review/ceo_checks.md, section 1 FLAG (minor) no on-screen illustration line, whole clip", "anat_wisdom/review/rights_dossier.md sec 3"]
+  enforcement: {type: review, check: visual_review}
+  recurrence:
+    episodes:
+    - anat_wisdom
+    - anat_wisdom_main
+    preflight: visual_review
+    template_fix: not due
+- id: caption-timing-reading-speed
+  description: "Caption overlaps a prior label or is too fast to read."
+  sources: ["anat_neck/review/fable_review1.md, P2-15, f315-f350", "anat_wisdom/review/ceo_checks.md, section 2 reading time, f160-f205, 7.8 chars/s"]
+  enforcement: {type: alias, of: caption-too-fast-to-read, note: "gated by caption_reading_speed"}
+- id: subject-too-small-or-off-centre
+  description: "Subject occupies a small/off-centre part of the band; important part cut off or tiny."
+  sources: ["anat_wisdom/review/fable_review.md, Hook section / P2-20, f0, empty third of screen", "anat_wisdom/review/fable_review2.md, P2-16, f0 (x 520-780), never centred", "anat_wisdom/review/fable_review2.md, Scores axis 5, whole clip", "anat_wisdom/review/fable_review10.md, P1-5, f0-f30, root tip cut at right edge", "anat_neck/review/fable_review1.md, P0-5, f90-f520, f880-f989, f330, f450"]
+  enforcement: {type: alias, of: subject-too-small, note: "same defect type, gated by subject_size"}
+- id: unused-frame-space-bottom-of-frame
+  description: "Bottom of the full 1080x1920 frame (y 1500-1920) is empty / layout wastes space."
+  sources: ["anat_wisdom/review/fable_review.md, P2-20, y 1700-1920", "anat_wisdom/review/fable_review2.md, P2-15, y 1500-1920", "anat_wisdom/review/fable_review3.md, P2-16, y 1500-1920", "anat_wisdom/review/fable_review4.md, P2-16, y 1500-1920", "anat_wisdom/review/fable_review5.md, P2-15, bottom of full frame", "anat_wisdom/review/fable_review6.md, P2-16, bottom of full frame", "anat_wisdom/review/fable_review11.md, P2-14, bottom of full frame", "anat_wisdom/review/fable_review17.md, item 8, y 1500-1920", "anat_neck/review/fable_review1.md, P2-17, y 1500-1920"]
+  enforcement: {type: alias, of: bottom-of-frame-unused, note: "gated by layout_uses_height"}
+- id: foreground-occluder-ramus-slab
+  description: "Blurred ramus/molar slab fills a side of the frame and blocks the subject or label. Also: any rim line, hood or arch drawn in front of the subject."
+  sources: ["anat_wisdom/review/fable_review4.md, Scores axis 5, f185, left third", "anat_wisdom/review/fable_review5.md, Scores axis 5, f185, left quarter", "anat_wisdom/review/fable_review8.md, P0-1, f172-f192; f185 at 860-1080, 0-800", "anat_wisdom/review/fable_review9.md, P2-12, f170-f210", "anat_wisdom/review/fable_review11.md, P2-10, f165-f210", "anat_wisdom/review/fable_review14.md, item 10, f165-f215", "anat_wisdom/review/fable_review15.md, item 3, f165-f215", "anat_wisdom/review/fable_review16.md, item 5, f165-f215", "anat_wisdom/review/fable_review12.md P1-6", "anat_wisdom/review/fable_review13.md P1-4", "anat_wisdom/review/fable_review14.md item 7"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: foreground-occluder-ramus-slab/bad.jpg
+    finding: 76eaf1e7b3f54634bfa9ad0a
+    sha256: f6ffe105520bdd398359211f9fd191fcc4f73fdb8d4d2c68565e87e3686f9c72
+    source_sha256: 16025121bc3dc13a91ae107ba4480b20c4661b94285bd9307eec4641df3eef5c
+    location: f172–f192, f185
+  recurrence:
+    episodes:
+    - anat_wisdom
+    - anat_neck_v3
+    preflight: visual_review
+    template_fix: not due
+- id: stray-geometry-specks-bars-lines
+  description: "Loose specks, beads, bars, translucent sheets, white ticks and blobs not part of any structure."
+  sources: ["anat_wisdom/review/fable_review.md, P1-10, f15 at 690,240; f90-f155", "anat_wisdom/review/fable_review.md, P1-11, f30 at 740,375; f110; f155", "anat_wisdom/review/fable_review3.md, P0-5, ovals at 575,625 and 835,470", "anat_wisdom/review/fable_review7.md, P0-3, f0 at 530-600, 0-170; f270", "anat_wisdom/review/fable_review7.md, P1-6, f0 at 580,545-590; f185; f270", "anat_wisdom/review/fable_review8.md, P1-5, f270 at 240-340, 330-520", "anat_wisdom/review/fable_review11.md, P1-6, f30 at 560,240; f75; f160", "anat_wisdom/review/fable_review11.md, P1-7, all frames, between roots", "anat_wisdom/review/fable_review12.md, P1-5, f75 at 400-430, 415-440", "anat_wisdom/review/fable_review14.md, item 4, f270 at 295-325, 390-470; f0 at 400-440, 650-690", "anat_wisdom/review/fable_review16.md, new defect 3, f0 at 815-830, 180-250", "anat_neck/review/fable_review1.md, P1-8, f30 at 400-480, 600-720; f930"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: stray-geometry-specks-bars-lines/bad.jpg
+    finding: c4d49bf5662c90eb1d41cca5
+    sha256: 01e4749512d42ce3d06e1f892802366d1cf0e5c5a8eebdf51c38570c33b7034b
+    source_sha256: af907a2acc3a534a2365913303a469532d15894e05586f29f9d0f97732ee1bcc
+    location: f30, f930
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    - anat_neck_v3
+    preflight: visual_review
+    template_fix: required
+- id: lower-left-corner-blob
+  description: "Brown/pink blob or pale smear at the lower-left corner of the band."
+  sources: ["anat_wisdom/review/fable_review.md, P1-9, f0 at 0-60, 440-660", "anat_wisdom/review/fable_review9.md, P2-13, f75 at 0-60, 640-800", "anat_wisdom/review/fable_review11.md, P2-13, brown blob lower-left", "anat_wisdom/review/fable_review13.md, item 8, f60-f160", "anat_wisdom/review/fable_review14.md, item 5, f60-f160; f75 at 0-70, 700-770", "anat_wisdom/review/fable_review17.md, item 7, f60-f100 at 0-60, 600-800"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: lower-left-corner-blob/bad.jpg
+    finding: b1085cd405d69727d191f9b9
+    sha256: fa01e74de8db9796cef59a322e7d9ca75cc8146fa9793345fe21e95df5652367
+    source_sha256: b163ef7c1b9838ad499f8acfc1e158624c847c400de9ce93ae205d67c9e4acd7
+    location: f0–f30, f0
+  recurrence:
+    episodes:
+    - anat_wisdom
+    - neighbor
+    preflight: visual_review
+    template_fix: not due
+- id: pink-band-on-ramus
+  description: "Translucent pink/yellow band or jagged edge across the ramus sheet."
+  sources: ["anat_wisdom/review/fable_review8.md, P2-12, f75 at 900-1080, 470-500", "anat_wisdom/review/fable_review9.md, P2-11, pink band and jagged edge", "anat_wisdom/review/fable_review10.md, P2-11, pink band on ramus", "anat_wisdom/review/fable_review15.md, item 6, f75 at 930-1080, 420-520", "anat_wisdom/review/fable_review16.md, item 7, f75 at 930-1080, 470-500", "anat_wisdom/review/fable_review21.md, item 3, f60-f99, f225-f299; f228 at 990-1080, 520-570"]
+  enforcement: {type: review, check: visual_review}
+- id: floating-detached-or-separated-mesh
+  description: "Parts float apart: tooth hangs in air, jaw in separate pieces, nerve crosses gap in open air, bone ends in sawn-off edge."
+  sources: ["anat_wisdom/review/fable_review.md, P0-1, f30, f60, f89", "anat_wisdom/review/fable_review3.md, P0-5, f75 at 640,570", "anat_wisdom/review/fable_review4.md, P0-4, f0 at 700,600; f75 at 730,370", "anat_wisdom/review/fable_review6.md, P0-4, f0-f60; f10 at 770-800, 420-560", "anat_wisdom/review/fable_review17.md, new defect 2, f162-f216; f165 at 680-1080, 390-540", "anat_wisdom/review/fable_review18.md, new defect 1, f160-f216; f165 at 850-1080, 240-800"]
+  enforcement: {type: review, check: visual_review}
+- id: jaw-bone-missing-or-wrong-material
+  description: "No bone/thin ghost shell, glass-bubble window, grainy film, board-like block with no cortex."
+  sources: ["anat_wisdom/review/fable_review.md, P0-2, all frames", "anat_wisdom/review/fable_review2.md, P0-4, all frames", "anat_wisdom/review/fable_review3.md, P0-4, f75 at 640,330", "anat_wisdom/review/fable_review3.md, P1-12, all frames", "anat_wisdom/review/fable_review4.md, P1-11, f160-f299", "anat_wisdom/review/fable_review5.md, P0-1, f30-f299; f75 at 560-1000, 110-260", "anat_wisdom/review/fable_review6.md, status table row (bone)", "anat_wisdom/review/fable_review9.md, P0-1, f0 at 380-460, 530-690"]
+  enforcement: {type: review, check: visual_review}
+- id: material-reads-as-clay-wax-plastic-concrete
+  description: "Surface material misread: orange wax, flesh peach, grey concrete, plaster, rubber band, white plastic enamel, glassy bur. Also: the wrong material assigned to a part (bone texture on a tooth)."
+  sources: ["anat_wisdom/review/fable_review.md, P2-22, f0", "anat_wisdom/review/fable_review.md, Scores axis 2, wisdom tooth orange wax", "anat_wisdom/review/fable_review2.md, P1-7, f0-f176, skin-peach", "anat_wisdom/review/fable_review5.md, P0-2/P1-6, bur cream like bone", "anat_wisdom/review/fable_review7.md, P0-2, f90-f160 glass bur", "anat_wisdom/review/fable_review13.md, P0-1, all frames, pink rubber band", "anat_wisdom/review/fable_review14.md, item 9, uniform white plastic enamel", "anat_wisdom/review/fable_review15.md, new defect 1, f0 at 610-840, 170-290, plaster slab", "anat_neck/review/fable_review1.md, P1-9, f600, f690 cut faces grey concrete", "anat_neck/review/fable_review1.md, Scores axis 2, discs flat grey slabs", "anat_wisdom/review/fable_review9.md P0-1"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: material-reads-as-clay-wax-plastic-concrete/bad.jpg
+    finding: 5b365ccadd6349ce5a754d60
+    sha256: 5a2d5a59abb7abb422508db624c25c45c694f60cc573802f8b02af751f3e749d
+    source_sha256: af907a2acc3a534a2365913303a469532d15894e05586f29f9d0f97732ee1bcc
+    location: f600, f690
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    - anat_neck_v3
+    - neighbor
+    preflight: visual_review
+    template_fix: required
+- id: tooth-asset-not-real-molar-mesh
+  description: "Wisdom tooth is a smooth procedural pillow/balls with no cusps, fissures or tapering roots."
+  sources: ["anat_wisdom/review/fable_review.md, P1-12, f90-f155", "anat_wisdom/review/fable_review2.md, P1-7, f0-f176, f205 at 580,240", "anat_wisdom/review/fable_review3.md, P1-13, f60-f117", "anat_wisdom/review/fable_review5.md, P1-8, f75", "anat_wisdom/review/fable_review6.md, P0-1, f80, f185", "anat_wisdom/review/fable_review7.md, P0-1, all frames", "anat_wisdom/review/fable_review8.md, P0-3, all frames", "anat_wisdom/review/fable_review9.md, P0-3, all frames", "anat_wisdom/review/fable_review10.md, P0-4, all frames", "anat_wisdom/review/fable_review11.md, P0-1, all frames", "anat_wisdom/review/fable_review12.md, P0-2, all frames", "anat_wisdom/review/fable_review13.md, P1-3, f0, f228-f232", "anat_wisdom/review/fable_review15.md, item 1, f0 at 530-780, 200-500", "anat_wisdom/review/fable_review16.md, The v3 crown, f100-f150, f226-f234", "anat_wisdom/review/fable_review17.md, item 4, f148 at 390-560, 330-560", "anat_wisdom/review/fable_review21.md, item 5, f100-f150"]
+  enforcement: {type: review, check: visual_review}
+- id: tint-or-colour-cast-on-subject
+  description: "Wrong colour on the subject: two red teeth, pink half-tint, green cast, flesh peach. Also: an effect turns the subject pale instead of brighter."
+  sources: ["anat_wisdom/review/fable_review.md, P0-3, f8-f80", "anat_wisdom/review/fable_review.md, P2-22, f0", "anat_wisdom/review/fable_review2.md, P1-7, f0-f176", "anat_wisdom/review/fable_review10.md, P0-1, f0 at 540-800, 330-520", "anat_wisdom/review/fable_review15.md, new defect 2, f0 at 700-780, 420-500; f75; f100; f150", "anat_wisdom/review/fable_review4.md P2-14"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: tint-or-colour-cast-on-subject/bad.jpg
+    finding: 9fe135fed21c249edadc1187
+    sha256: 918a8a6a32da2f9cb5bb1fd3e573ede3ecca03dfb844b7402151ed98acb1b3cf
+    source_sha256: 4aa4c4f360a38de6cb062a3639870e3f071285be43ec70c41fb4636717450ba2
+    location: f884
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    - anat_neck_v3
+    - neighbor
+    preflight: visual_review
+    template_fix: required
+- id: clipped-whites-overexposure
+  description: "Molar crowns or rims blown to blank white with no surface form."
+  sources: ["anat_wisdom/review/fable_review.md, P0-4, f90-f155, left third", "anat_wisdom/review/fable_review2.md, P1-11, f90-f299", "anat_wisdom/review/fable_review3.md, P1-8, f60-f245; f134 at 480,620", "anat_wisdom/review/fable_review4.md, P1-8/P1-10, f140, f185", "anat_wisdom/review/fable_review5.md, P2-14, f145", "anat_wisdom/review/fable_review6.md, P1-6, f140, f185", "anat_wisdom/review/fable_review7.md, P1-11, f75-f160", "anat_wisdom/review/fable_review8.md, P2-14, f130", "anat_wisdom/review/fable_review15.md, item 7, second molar flat bright white"]
+  enforcement: {type: review, check: visual_review}
+- id: low-contrast-colour-wash
+  description: "Frame is a low-contrast wash: orange fog opening, beige on beige, cream end, bloom."
+  sources: ["anat_wisdom/review/fable_review.md, P1-8, f0-f20", "anat_wisdom/review/fable_review2.md, P2-18, drab olive-grey jaw", "anat_wisdom/review/fable_review3.md, P1-9, f255-f299", "anat_wisdom/review/fable_review5.md, P0-2, f60-f299", "anat_neck/review/fable_review1.md, P1-13, f610-f700 warm bloom"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: low-contrast-colour-wash/bad.jpg
+    finding: bc8aa2e9b5dd4bf188daef93
+    sha256: 11c9cffd2fe1392ec02dca1e194aeaad6aae811623f8cadd2920a8aef38206e9
+    source_sha256: af907a2acc3a534a2365913303a469532d15894e05586f29f9d0f97732ee1bcc
+    location: f610–f700
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    preflight: visual_review
+    template_fix: not due
+- id: noise-grain-halo-fireflies
+  description: "Visible sampling noise, grain, denoise halos or smeared outline."
+  sources: ["anat_wisdom/review/fable_review.md, P1-14, f15-f60, right third", "anat_wisdom/review/fable_review.md, P1-13, f147 at 740,235", "anat_wisdom/review/fable_review3.md, P1-12, grainy bone film", "anat_wisdom/review/fable_review4.md, P2-13, f70-f80 at 640,330 dark noisy ghost"]
+  enforcement: {type: alias, of: fast-draft-preset-speckle, note: "video_gates noise (flat areas) + no_speckle (translucent areas)"}
+- id: focus-and-motion-blur-hides-subject
+  description: "Focus plane or motion blur on the wrong thing; subject soft at the key moment."
+  sources: ["anat_wisdom/review/fable_review2.md, P2-17, f216 crown leaves band with heavy blur", "anat_wisdom/review/fable_review12.md, P1-3, f0-f12", "anat_wisdom/review/fable_review16.md, The v3 crown, f226-f234, f230 at 470-730, 150-430", "anat_wisdom/review/fable_review17.md, new defect 4, f235-f241"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: focus-and-motion-blur-hides-subject/bad.jpg
+    finding: 33d87f4dabcbeda2225018cc
+    sha256: 0094a13db88e87e7944b4d6ff57f1ae30f8d2adb91e50d0ecee8b692521c9668
+    source_sha256: 0b5dd7bd67358000de8a961e85bb2653652c71726a745fc4599c985a0d569a94
+    location: f216
+  recurrence:
+    episodes:
+    - anat_wisdom
+    - neighbor
+    preflight: visual_review
+    template_fix: not due
+- id: single-frame-pop-or-flash
+  description: "One- to three-frame visibility, material or tint pops that read as flash/strobe."
+  sources: ["anat_wisdom/review/fable_review.md, P0-3, pulse irregular f0, f8-f16, f24, f40-f48, f56, f88", "anat_wisdom/review/fable_review2.md, P0-3, f122 at 700,430", "anat_wisdom/review/fable_review2.md, P1-8, f43-f44", "anat_wisdom/review/fable_review3.md, P0-1, f135, f138, f149 at 630,430", "anat_wisdom/review/fable_review9.md, P1-6, f96-f97, f154-f155", "anat_wisdom/review/fable_review17.md, new defect 1, f160-f162, f216-f219"]
+  enforcement: {type: gate, check: visibility_pop, fixture: single-frame-pop-or-flash}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    - anat_wisdom
+    preflight: visibility_pop
+    template_fix: required
+- id: camera-move-snaps-no-ease
+  description: "Camera or label starts/stops without ease; hard cut or judder."
+  sources: ["anat_wisdom/review/fable_review.md, P1-17, f86-f112, cut at f90", "anat_wisdom/review/fable_review4.md, P1-6, f150-f168, f205-f213; diff 0.13 to 9.29 at f206", "anat_wisdom/review/fable_review6.md, P1-11, f205-f207", "anat_wisdom/review/fable_review7.md, P1-10, f205-f207", "anat_wisdom/review/fable_review8.md, P1-9, f205-f207", "anat_wisdom/review/fable_review15.md, Next steps item 5, f153-f156 handpiece exit"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: camera-move-snaps-no-ease/bad.jpg
+    finding: f74256d755d1a1cdc289ecc9
+    sha256: 1c4611ad31c20730df32b9d013ceb08846981bdfaa3b4a8b43be191609bb7f21
+    source_sha256: 4aa4c4f360a38de6cb062a3639870e3f071285be43ec70c41fb4636717450ba2
+    location: f13–f14
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    - anat_neck_v3
+    - neighbor
+    preflight: visual_review
+    template_fix: required
+- id: assembly-framerate-judder
+  description: "Looped stills default to 25 fps so 30 fps render resamples with duplicate frames."
+  sources: ["anat_wisdom/review/fable_review.md, P0-6, every 6th frame duplicate", "anat_wisdom/review/fable_review2.md, Previous P0 status #6, FIXED, -framerate 30"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: assembly-framerate-judder/bad.jpg
+    finding: 3df2744f554089ac8a7d9e0e
+    sha256: 51fc3421eb9ec798c2821919489a1999e44a1889d8d6f790ad680e6bdd78ee8b
+    source_sha256: 844f99ab08f06767aa5cb3e5ed4d00283524948bc7b7c8b3804789f838140512
+    location: f790, f840, f792, f876, f800
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    preflight: visual_review
+    template_fix: not due
+- id: hook-no-physical-event-contact-nudge-invisible
+  description: "Opening shows no physical event; molar nudge/tilt/glow absent or too small to read."
+  sources: ["anat_wisdom/review/fable_review.md, Hook section, f0-f45", "anat_wisdom/review/fable_review2.md, P1-14, f3-f12", "anat_wisdom/review/fable_review3.md, P1-14, f10-f20", "anat_wisdom/review/fable_review4.md, P1-5, f0-f60", "anat_wisdom/review/fable_review5.md, P1-10, f4-f24", "anat_wisdom/review/fable_review6.md, P1-10, f4-f24", "anat_wisdom/review/fable_review7.md, P1-4, f0-f6", "anat_wisdom/review/fable_review8.md, P1-8, f0", "anat_wisdom/review/fable_review9.md, P1-7, f0", "anat_wisdom/review/fable_review10.md, P1-7, tilt", "anat_wisdom/review/fable_review11.md, P1-8, tilt", "anat_neck/review/fable_review1.md, Scores axis 6 Hook, f0, 5 kg label at f36"]
+  enforcement: {type: alias, of: hook-no-physical-motion, note: "gated by opening_event"}
+- id: contact-glow-flicker-or-misplaced
+  description: "Contact glow flickers, tints the whole window, or is a grey disc instead of a contact-point glow."
+  sources: ["anat_wisdom/review/fable_review.md, P0-3, f8-f80", "anat_wisdom/review/fable_review2.md, P1-8, f0-f44 at 540,490", "anat_wisdom/review/fable_review3.md, P1-11, f10-f20", "anat_wisdom/review/fable_review4.md, P1-11, removed, not fixed"]
+  enforcement: {type: alias, of: effect-blinks-instead-of-steady, note: "gated by steady_glow"}
+- id: cut-trace-bur-chips-spray-unconvincing
+  description: "Cutting has no kerf/debris/spray; bur is glassy, headless, parked while the cut travels; mist is a hard wedge. Also: the instrument passes through tissue with no incision or response."
+  sources: ["anat_wisdom/review/fable_review.md, P0-5, f112-f136", "anat_wisdom/review/fable_review2.md, P1-13, f100-f160, f150 at 590,440", "anat_wisdom/review/fable_review4.md, P1-12, f100-f158", "anat_wisdom/review/fable_review5.md, P1-6, f100-f130", "anat_wisdom/review/fable_review6.md, P1-7, f95-f158", "anat_wisdom/review/fable_review7.md, P0-2, f90-f160", "anat_wisdom/review/fable_review8.md, P0-2, f92-f158", "anat_wisdom/review/fable_review10.md, P1-8, chips", "anat_wisdom/review/fable_review11.md, P1-5, chips, white veil", "anat_wisdom/review/fable_review15.md, Builder's fixes mist cone, f97-f156", "anat_wisdom/review/fable_review16.md, new defect 4, f97-f155", "anat_wisdom/review/fable_review17.md, Round-16 status mist, f143-f153; f148 at 640-760, 400-510", "anat_wisdom/review/fable_review14.md item 11"]
+  enforcement: {type: review, check: visual_review}
+- id: kerf-gap-wrong-size-or-colour
+  description: "Kerf after the cut is a yellow slab, grey plate, 50-70 px missing block, or wound-like gap."
+  sources: ["anat_wisdom/review/fable_review3.md, P1-7, f117-f148; f134 at 610,420", "anat_wisdom/review/fable_review4.md, P0-2, f160-f210; f185 at 450-530, 110-370", "anat_wisdom/review/fable_review5.md, P1-5, f160-f215", "anat_wisdom/review/fable_review6.md, status table row (kerf)", "anat_wisdom/review/fable_review11.md, P1-4, f166-f215"]
+  enforcement: {type: review, check: visual_review}
+- id: bur-overcuts-into-nerve
+  description: "Bur or cut line passes through the tooth to the canal, implying injury."
+  sources: ["anat_wisdom/review/fable_review2.md, P0-2, f139-f159; tip at 520,650 on f150", "anat_wisdom/review/fable_review4.md, P0-1, f120-f158; tip at 600,560 on f140", "anat_wisdom/review/fable_review9.md, P0-2, f145-f153; f150 at 595,500", "anat_wisdom/review/fable_review10.md, P0-3, f140-f165"]
+  enforcement: {type: gate, check: tool_contact, fixture: bur-overcuts-into-nerve}
+- id: interpenetration-roots-nerve-jaw
+  description: "Structures overlap where they must not: molar roots pierce or touch the canal, jaw passes through vertebrae."
+  sources: ["anat_wisdom/review/fable_review.md, P0-7, f30 at 520,420", "anat_wisdom/review/fable_review2.md, P1-9, f285 at 430,520", "anat_wisdom/review/fable_review4.md, P1-9, f185 at 300,600", "anat_wisdom/review/fable_review7.md, P1-5, f0 at 530,700", "anat_wisdom/review/fable_review8.md, P1-11, f0, f270", "anat_wisdom/review/fable_review9.md, P1-10, f270", "anat_neck/review/fable_review1.md, P0-3, f300-f340 at 520-620, 380-470"]
+  enforcement: {type: alias, of: interpenetration-jaw-through-neck, note: "gated by penetration_gate"}
+- id: nerve-canal-shape-and-routing-wrong
+  description: "Nerve drawn as ladder/ribbon/dash/pipe, S-bend, kink, blunt cap, stub or second misregistered canal. Also: the spinal cord as a grey pipe or stub."
+  sources: ["anat_wisdom/review/fable_review.md, P0-7, f0 zoom, f30 at 735,400", "anat_wisdom/review/fable_review2.md, P1-9, f0 at 890,340; f285", "anat_wisdom/review/fable_review3.md, P0-5, f75 at 640,570", "anat_wisdom/review/fable_review3.md, P2-15, f0 at 790,440", "anat_wisdom/review/fable_review5.md, P1-9, f75 at 400-620, 620-790", "anat_wisdom/review/fable_review6.md, P1-12, f80 at 330-620, 740-790", "anat_wisdom/review/fable_review9.md, P1-5, f75 at 280-330, 660-700", "anat_wisdom/review/fable_review12.md, P1-9, f185 at 480-600, 430-490", "anat_neck/review/fable_review1.md, P1-14, f30 at 470-500, 730", "anat_neck/review/fable_review1.md P1-14", "anat_wisdom/review/fable_review2.md P1-14"]
+  enforcement: {type: review, check: visual_review}
+- id: ghost-fade-and-composite-seams-nerve-beat
+  description: "Ghosted bone/ramus and composited nerve show cards, scratches, collars, wire outlines or paint-over seams."
+  sources: ["anat_wisdom/review/fable_review18.md, new defect 1, f160-f216; f165 at 850-1080, 240-800", "anat_wisdom/review/fable_review18.md, new defect 2, f162-f216; f165 at 880-1000, 430-460", "anat_wisdom/review/fable_review18.md, new defect 3, f214-f221; f218 at 880-1080, 0-800", "anat_wisdom/review/fable_review19.md, item 1, f160-f220", "anat_wisdom/review/fable_review20.md, new defect 2, f148-f159, f219-f224; f154 at 890-1080, 520-575", "anat_wisdom/review/fable_review21.md, item 4, f165-f205"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: ghost-fade-and-composite-seams-nerve-beat/bad.jpg
+    finding: e4d0fdb709ba2defa4d9afde
+    sha256: a03ccaab48bc33cc59904dbb712030dbeb9990dcc557310aada1d3359810a94c
+    source_sha256: 373483d3cc4df5841440ae28e110a8d982449ec25a4d2e392e8296b63fc4a979
+    location: f160–f220
+  recurrence:
+    episodes:
+    - anat_wisdom
+    - anat_neck_v3
+    - neighbor
+    preflight: visual_review
+    template_fix: required
+- id: label-or-callout-occluded-or-cut
+  description: "Label, pill or bracket cut off by geometry or drawn under a 3D layer."
+  sources: ["anat_wisdom/review/fable_review5.md, P1-7, f185 at 215-490, 330-420", "anat_wisdom/review/fable_review7.md, P2-12, f185 at 900-930", "anat_wisdom/review/fable_review8.md, P0-1, f172-f192; label reads '1~2 mr'", "anat_wisdom/review/fable_review20.md, new defect 1, f170-f197; f185 at 500-565, 345-400", "anat_wisdom/review/fable_review6.md, P1-9, f185 glyphs fused"]
+  enforcement: {type: alias, of: text-drawn-in-3d-layer, note: "gated by no_3d_text"}
+- id: callout-bracket-misplaced-or-illegible
+  description: "1~2 mm bracket/label too small, low contrast, no number, or measures from the wrong point."
+  sources: ["anat_wisdom/review/fable_review2.md, P0-6, f246-f299 at 570,405", "anat_wisdom/review/fable_review3.md, P0-6, f248, f290 at 580,420", "anat_wisdom/review/fable_review4.md, P0-3, f166-f205; f185 at 300-520, 370-430", "anat_wisdom/review/fable_review5.md, P0-3, f166-f202; 505,405", "anat_wisdom/review/fable_review6.md, P0-3, f166-f205; 505,395"]
+  enforcement: {type: review, check: visual_review}
+- id: leader-lines-crossing-or-misanchored
+  description: "Leader/load arrow lines cross or land on the wrong structure."
+  sources: ["anat_neck/review/fable_review1.md, P0-2, f600 at 430-720, 300-520", "anat_neck/review/fable_review1.md, P1-12, f160-f350"]
+  enforcement: {type: alias, of: leader-lines-crossing, note: "gated by leaders_cross; landing point by labels_anchored"}
+- id: shorts-ui-safe-zone-brand-block
+  description: "Brand block placed where the Shorts UI is drawn."
+  sources: ["anat_wisdom/review/fable_review.md, P1-18, y 1560-1660", "anat_wisdom/review/fable_review2.md, P2-15, y 1465"]
+  enforcement: {type: review, check: visual_review}
+- id: socket-and-sectioned-bone-shape-wrong
+  description: "Socket is a stain, lumpy red mass, oversized crescent, stepped outline, or has a black gap by the second molar."
+  sources: ["anat_wisdom/review/fable_review3.md, P0-3, f150-f299; f290 at 520,250", "anat_wisdom/review/fable_review5.md, P0-4, f235-f299; f290 at 300-690, 150-490", "anat_wisdom/review/fable_review7.md, P1-9, f295 at 360-640, 180-440", "anat_wisdom/review/fable_review16.md, new defect 2, f235-f299; f295 at 330-420, 230-340", "anat_wisdom/review/fable_review17.md, new defect 3, f0-f215; f0 at 640-1000, 170-330", "anat_wisdom/review/fable_review17.md, item 5, f265-f299", "anat_wisdom/review/fable_review20.md, Not gating item 4, f235-f299", "anat_wisdom/review/fable_review21.md, item 1, f235-f299; f236 at 385-400, 420-520"]
+  enforcement: {type: review, check: visual_review}
+- id: leftover-geometry-in-socket-or-after-removal
+  description: "Ghost tooth, shell, shards or slivers remain after extraction."
+  sources: ["anat_wisdom/review/fable_review2.md, P0-1, f190-f299; f205 at 500,470; f285 at 580,250", "anat_wisdom/review/fable_review4.md, P1-7, f250-f299; f270 at 520,340 and 545,440", "anat_wisdom/review/fable_review6.md, P0-2, f228-f299; f245 at 330-520, 300-540", "anat_wisdom/review/fable_review14.md, item 1, f265-f299; f270 at 370-410, 320-340"]
+  enforcement: {type: review, check: visual_review}
+- id: seam-ring-artifacts-on-tooth-and-cut-face
+  description: "Visible crown/root seam before the cut, or washer rings / glassy disc on root cut face."
+  sources: ["anat_wisdom/review/fable_review4.md, P1-8, f231-f262; f240 at 610,330", "anat_wisdom/review/fable_review5.md, P2-12, f240", "anat_wisdom/review/fable_review6.md, P1-5/P1-8, f10 at 625,440-480; f232-f250", "anat_wisdom/review/fable_review7.md, P1-7/P1-8, f228-f248", "anat_wisdom/review/fable_review8.md, P1-6/P1-10, f0-f95; f230-f250", "anat_wisdom/review/fable_review9.md, P1-9, f0-f96", "anat_wisdom/review/fable_review10.md, P1-6, f0-f96"]
+  enforcement: {type: review, check: visual_review}
+- id: gum-geometry-wrong
+  description: "Gum missing, plank/rubber band/box-lid flap, gaps at necks, stepped end, grey halo or dirty fade."
+  sources: ["anat_wisdom/review/fable_review.md, P1-16, f30 at 430-500, 100-170", "anat_wisdom/review/fable_review9.md, P1-4, all frames", "anat_wisdom/review/fable_review10.md, P0-1, f30 at 490-1000, 290-450", "anat_wisdom/review/fable_review11.md, P0-2, f0-f56", "anat_wisdom/review/fable_review12.md, P0-1, f0-f299", "anat_wisdom/review/fable_review13.md, P0-1, all frames", "anat_wisdom/review/fable_review14.md, Why draft25 loses, f15-f24; f75 at 780-850, 320-370", "anat_wisdom/review/fable_review15.md, new defect 3, f90-f165", "anat_wisdom/review/fable_review17.md, item 6, f148 at 440-700, 220-260"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: gum-geometry-wrong/bad.jpg
+    finding: afbdd6b578333a64d380d428
+    sha256: 76cd208074cdc58b7799dfff7da120cb6b951ccd397a1fbcf2236cb6e81d8e18
+    source_sha256: b163ef7c1b9838ad499f8acfc1e158624c847c400de9ce93ae205d67c9e4acd7
+    location: f30
+  recurrence:
+    episodes:
+    - anat_wisdom
+    - neighbor
+    preflight: visual_review
+    template_fix: not due
+- id: faceted-polygon-edges
+  description: "Low-poly facets, polygon edges and stair-stepped outlines."
+  sources: ["anat_wisdom/review/fable_review.md, P0-4, f90 x 980-1080", "anat_wisdom/review/fable_review.md, P1-12, f110 at 430,290", "anat_wisdom/review/fable_review2.md, P0-1, f205 at 500,470", "anat_wisdom/review/fable_review3.md, P0-3, f150-f299", "anat_wisdom/review/fable_review8.md, P2-13, f75 at 870-900, 290-400", "anat_wisdom/review/fable_review16.md, new defect 2, f295 at 330-420, 230-340"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: faceted-polygon-edges/bad.jpg
+    finding: fadb8a41cabe6044f975c28f
+    sha256: f3b15bc5da2648acda44e6dab6d18f2634880868391ced42df278a159032c088
+    source_sha256: b163ef7c1b9838ad499f8acfc1e158624c847c400de9ce93ae205d67c9e4acd7
+    location: f90–f155, f90
+  recurrence:
+    episodes:
+    - anat_wisdom
+    - anat_neck_v3
+    - neighbor
+    preflight: visual_review
+    template_fix: required
+- id: scene-discontinuity-or-missing-context
+  description: "Hard cut to a cheaper-looking scene or no skull/face context so the jaw does not read."
+  sources: ["anat_wisdom/review/fable_review.md, P0-4, f90-f155", "anat_wisdom/review/fable_review2.md, P1-12, f0 at 0-450, 0-250", "anat_wisdom/review/fable_review.md, P1-9, f0-f30 at 0-60, 440-660"]
+  enforcement: {type: review, check: visual_review}
+- id: incomplete-or-hollow-anatomy-parts
+  description: "Expected anatomy absent, hollow or torn: no teeth, hollow skull, no ear/shoulder, torn muscle strips."
+  sources: ["anat_neck/review/fable_review1.md, P0-4, f885-f989", "anat_neck/review/fable_review1.md, P1-6, f0-f989", "anat_neck/review/fable_review1.md, P1-7, f105-f150", "anat_neck/review/fable_review1.md, P1-10, f780 at 640-760, 400-700", "anat_wisdom/review/fable_review9.md, P1-4, all frames, no gum"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: incomplete-or-hollow-anatomy-parts/bad.jpg
+    finding: 03092e64facfc6f65d3096b5
+    sha256: 57291704935c0dd20e249e14b7d418f602a7636c427a401a5db69f3842e3b9bc
+    source_sha256: af907a2acc3a534a2365913303a469532d15894e05586f29f9d0f97732ee1bcc
+    location: f885–f989, f930
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_wisdom
+    preflight: visual_review
+    template_fix: not due
+- id: rigid-or-implausible-motion
+  description: "Part moves as a rigid body or physically impossibly: rigid tilt, 90-degree spin, vanishing roots."
+  sources: ["anat_neck/review/fable_review1.md, P0-3, f150-f350, f255, f300", "anat_wisdom/review/fable_review2.md, P0-5, f220-f250; f232 at 560,330", "anat_wisdom/review/fable_review3.md, P0-2, f150-f299"]
+  enforcement: {type: alias, of: rigid-bend-where-anatomy-bends-segmentally, note: "gated by rigid_bend"}
+- id: neighbour-anatomy-pose-or-shape-wrong
+  description: "A non-subject structure has the wrong pose, angle or shape (tilted second molar, fused carrot roots)."
+  sources: ["anat_wisdom/review/fable_review.md P1-15", "fable_review2.md P1-10", "fable_review10.md P0-2"]
+  enforcement: {type: review, check: visual_review}
+- id: layout-copies-reference-template
+  description: "The screen layout copies the reference channel template, so it cannot beat it."
+  sources: ["anat_wisdom/review/fable_review.md P2-23", "ceo_checks.md section 3 note"]
+  enforcement: {type: review, check: visual_review}
+- id: licence-terms-undecided
+  description: "A used asset has an unresolved licence or applicable ShareAlike obligation. Check the current episode manifest and source evidence. The legacy Z-Anatomy question applies only to material from that collection. Approved direct DBCLS BodyParts3D 4.0 is CC BY 4.0."
+  sources: ["anat_wisdom/review/rights_dossier.md open 1-2", "ccbysa_scope.md item 3-4"]
+  enforcement: {type: review, check: visual_review}
+- id: asset-licence-or-origin-unverified
+  description: "A shipped asset licence, version or origin is unconfirmed (BodyParts3D 2.1 JP vs 4.0, UW White matter, Z-Anatomy)."
+  sources: ["anat_wisdom/review/rights_dossier.md open 3-5", "ccbysa_scope.md sec 1"]
+  enforcement: {type: review, check: visual_review}
+- id: model-estimate-chip-or-kg-on-screen
+  description: No on-screen model-estimate chip and no on-screen kg numbers (no load labels or arrows); the narration keeps the qualifier so a muted viewer is not told the loads are measured.
+  sources: ["owner instruction via coordinator: 컴퓨터 모델추정 이거빼 (remove the chip); CEO condition: muted, the kg values must not read as measured -> variant B, kg numbers off-screen"]
+  enforcement: {type: gate, check: no_kg_on_screen, fixture: model-estimate-chip-or-kg-on-screen, note: "episode labels: none of kind load, none with text matching N kg or 컴퓨터 모델 (episode_variantB.json)"}
+- id: skull-through-skin
+  description: "Bone shows through or beyond the opaque forehead, nose, chin or jaw before the dissolve or during the payoff."
+  sources: ["anat_neck/review/fable_review14.md P0-1 and P0-3"]
+  enforcement: {type: gate, check: skin_clear, fixture: skull-through-skin}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    - neighbor
+    preflight: skin_clear
+    template_fix: required
+- id: degenerate-payoff-transition
+  description: "Skeleton shrinks away leaving a cord, fragments or isolated rod on black during a transition."
+  sources: ["anat_neck/review/fable_review14.md P0-2"]
+  enforcement: {type: gate, check: transition_ok, fixture: degenerate-payoff-transition}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: transition_ok
+    template_fix: not due
+- id: landmark-wrong-after-view-change
+  description: "In a changed view the label dot lands on the upper back, spine or another surface instead of its named landmark."
+  sources: ["anat_neck/review/fable_review14.md P0-3"]
+  enforcement: {type: gate, check: on_landmark, fixture: landmark-wrong-after-view-change}
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: on_landmark
+    template_fix: not due
+- id: payoff-marker-short-or-missing
+  description: "Gap marker too small or gone before the straighten or end frame; the comparison is unreadable."
+  sources: ["anat_neck/review/fable_review14.md P1-4 and P1-9"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: payoff-marker-short-or-missing/bad.jpg
+    finding: 43b9e54ee923e54295d12f7f
+    sha256: 2efd2f2bb01d72ee95401c5fe68508af59ecea0b94efa04107ca1f453e32a951
+    source_sha256: 1d5a2e2782e7f65587ea3ef8e2d6ae0d14561093d6f6d0ef9bbe0c473a32f446
+    location: 1 s, f936–f962
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: visual_review
+    template_fix: not due
+- id: camera-masks-straightening
+  description: "A simultaneous camera push hides the posture change."
+  sources: ["anat_neck/review/fable_review14.md P1-5"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: camera-masks-straightening/bad.jpg
+    finding: 738dcf3f013d2795a59c3095
+    sha256: 47e38620ad3e017b66bed082f65ed8685255c510771569b1334e0730d15b9bf6
+    source_sha256: 1d5a2e2782e7f65587ea3ef8e2d6ae0d14561093d6f6d0ef9bbe0c473a32f446
+    location: f972–f990
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: visual_review
+    template_fix: not due
+- id: load-arrow-no-visible-growth
+  description: "With only the load arrow visible, its change across poses is unreadable."
+  sources: ["anat_neck/review/fable_review14.md P1-7"]
+  enforcement: {type: review, check: visual_review}
+  evidence:
+    file: load-arrow-no-visible-growth/bad.jpg
+    finding: 3719b2c74a4d6added7c9317
+    sha256: c49f0ccece6030c5e32aa99100f6156139fe1a298d213bcb954a050ad26121f9
+    source_sha256: 1d5a2e2782e7f65587ea3ef8e2d6ae0d14561093d6f6d0ef9bbe0c473a32f446
+    location: f108–f300, f210, f270
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    preflight: visual_review
+    template_fix: not due
+- id: muscle-picture-ends-before-narration
+  description: "Visible muscle beat ends before its corresponding caption or spoken action."
+  sources: ["anat_neck/review/fable_review14.md P1-8"]
+  enforcement: {type: review, check: visual_review}
+- id: cord-rod-below-last-vertebra
+  match: ["cord rod", "cord protrudes", "cord sticks out", "cord sticking out", "bare cord stick"]
+  description: A long white rod (the spinal cord) sticks out below the last vertebra and runs off to the lower left in the muscle beat and the payoff transition (review 14 P0-2, again at 27.7 s of draft23).
+  sources: ["anat_neck/review/fable_review14.md P0-2", "coordinator frame check of draft23, 27.7 s"]
+  enforcement: {type: gate, check: cord_clipped, fixture: cord-rod-below-last-vertebra, note: "Measure the rest-mesh lower limit and trace the height fade to the active material output. An untrimmed cord protrudes when the neck pitches."}
+- id: callout-hidden-by-foreground-geometry
+  description: "A callout points through the foreground bone to an invisible target. Measure the first camera-ray hit on the requested surface and the neighbouring landmark."
+  sources: ["anat_wisdom/review/fable_review12.md P1-6", "DBCLS wisdom worked example f839: the ramus covers the retromolar site and the second molar"]
+  enforcement: {type: gate, check: surface_exposed, fixture: callout-hidden-by-foreground-geometry}
+- id: label-pops-at-handoff
+  description: Labels pop, shrink to unreadable size or double up during the handoff between shots.
+  sources:
+  - anat_neck/review/fable_review16.md#L38
+  - anat_neck_v3/review/fable_review_draft4b.md#L38
+  - anat_wisdom/review/fable_review4.md#L43
+  enforcement:
+    type: gate
+    check: stable_notes
+    fixture: label-pops-at-handoff
+  template_patch:
+    neck_v3:
+      note_transition: fade_at_size
+  match:
+  - labels popping
+  - label pop
+  - labels visibly pop
+  - label vanishes
+  - labels shrink
+  - label handoff
+  evidence:
+    file: label-pops-at-handoff/bad.jpg
+    finding: 13b54c935282bbeffbd3eb4e
+    location: f545
+    sha256: b8d45af5fe9d4b1fffefc08796e30d786bd63b91bd1923a4b0ea535ddc422e61
+    source_sha256: b8d45af5fe9d4b1fffefc08796e30d786bd63b91bd1923a4b0ea535ddc422e61
+  recurrence:
+    episodes:
+    - anat_neck
+    - anat_neck_v3
+    - anat_wisdom
+    preflight: stable_notes
+    template_fix: required
+    last_promotion:
+      status: rejected
+      finding: 79a2b7fc4074144f4d03dcc3
+      template: neck_v3
+- id: comparison-positions-indistinguishable
+  description: The two labelled postures cannot be distinguished at phone size.
+  sources:
+  - anat_neck_v3/review/fable_review_draft3.md#L9
+  enforcement:
+    type: unenforced
+  evidence:
+    file: comparison-positions-indistinguishable/bad.jpg
+    finding: e71f483b7cf4768fd172750f
+    sha256: 3ae3562c7c723122c5b7c5638b8fc6ab888c02d6038aa614d548714bb930fd6e
+    source_sha256: 54bea517b90bee5db2098eadf97423fe9e0c0807daf6f474fc6701d661c3f2f0
+    location: f520
+- id: claim-outside-topic
+  description: The load beat introduces a separate claim from a different study than the title question.
+  sources:
+  - anat_neck_v3/review/fable_review_draft3.md#L34
+  enforcement:
+    type: unenforced
+  evidence:
+    file: claim-outside-topic/bad.mp4
+    finding: 4a667bd2c22031b365098325
+    sha256: eec24433ab240519a9c948b49b2d43f6d12a5b46b312bdce112a23bfa4e74811
+    source_sha256: 54bea517b90bee5db2098eadf97423fe9e0c0807daf6f474fc6701d661c3f2f0
+    location: f84-f299
+- id: comparison-note-styling
+  description: The comparison note looks like an anatomical landmark label.
+  sources:
+  - anat_neck_v3/review/fable_review_draft4b.md#L37
+  enforcement:
+    type: unenforced
+  evidence:
+    file: comparison-note-styling/bad.jpg
+    finding: a6d09c36ab00e2d7a3643f09
+    sha256: 5507828ac6bb1f2aac1914fea9f40e26ac1497220e748264c69caa38b4d77d42
+    source_sha256: b9c8a50cd974dfb4f7c566fd78933adcaca7e75c567ac0c48ec3418c37ebd21f
+    location: f460
+- id: comparison-markers-too-faint
+  description: The three comparison markers fade to black or are too faint to read.
+  sources:
+  - anat_neck_v3/review/fable_review_draft3.md#L32
+  enforcement:
+    type: unenforced
+  evidence:
+    file: comparison-markers-too-faint/bad.jpg
+    finding: 0bcf03550d59e20090afcaf3
+    sha256: 3ae3562c7c723122c5b7c5638b8fc6ab888c02d6038aa614d548714bb930fd6e
+    source_sha256: 54bea517b90bee5db2098eadf97423fe9e0c0807daf6f474fc6701d661c3f2f0
+    location: f520

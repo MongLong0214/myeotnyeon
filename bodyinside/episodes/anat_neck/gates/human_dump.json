@@ -1,0 +1,131 @@
+{
+ "cord_zfade": true,
+ "payoff": [
+  {
+   "f": 872,
+   "anchor_gap": 0.1426,
+   "band_h": 0.805,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4556,
+   "shoulder_z": 1.407,
+   "ear_fwd": 0.142
+  },
+  {
+   "f": 880,
+   "anchor_gap": 0.1427,
+   "band_h": 0.81,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4555,
+   "shoulder_z": 1.4069,
+   "ear_fwd": 0.1421
+  },
+  {
+   "f": 888,
+   "anchor_gap": 0.1427,
+   "band_h": 0.815,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4554,
+   "shoulder_z": 1.4069,
+   "ear_fwd": 0.1421
+  },
+  {
+   "f": 896,
+   "anchor_gap": 0.1427,
+   "band_h": 0.822,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4554,
+   "shoulder_z": 1.4069,
+   "ear_fwd": 0.1421
+  },
+  {
+   "f": 904,
+   "anchor_gap": 0.1428,
+   "band_h": 0.829,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4554,
+   "shoulder_z": 1.4069,
+   "ear_fwd": 0.1422
+  },
+  {
+   "f": 912,
+   "anchor_gap": 0.1429,
+   "band_h": 0.838,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4554,
+   "shoulder_z": 1.4069,
+   "ear_fwd": 0.1423
+  },
+  {
+   "f": 920,
+   "anchor_gap": 0.1429,
+   "band_h": 0.845,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4554,
+   "shoulder_z": 1.4069,
+   "ear_fwd": 0.1423
+  },
+  {
+   "f": 928,
+   "anchor_gap": 0.143,
+   "band_h": 0.849,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4554,
+   "shoulder_z": 1.407,
+   "ear_fwd": 0.1424
+  },
+  {
+   "f": 936,
+   "anchor_gap": 0.143,
+   "band_h": 0.85,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4554,
+   "shoulder_z": 1.407,
+   "ear_fwd": 0.1424
+  },
+  {
+   "f": 944,
+   "anchor_gap": 0.1432,
+   "band_h": 0.85,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4555,
+   "shoulder_z": 1.407,
+   "ear_fwd": 0.1425
+  },
+  {
+   "f": 952,
+   "anchor_gap": 0.1433,
+   "band_h": 0.849,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4555,
+   "shoulder_z": 1.407,
+   "ear_fwd": 0.1427
+  },
+  {
+   "f": 960,
+   "anchor_gap": 0.1433,
+   "band_h": 0.848,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4555,
+   "shoulder_z": 1.407,
+   "ear_fwd": 0.1427
+  },
+  {
+   "f": 968,
+   "anchor_gap": 0.143,
+   "band_h": 0.848,
+   "head_above_shoulder": true,
+   "skull_min_z": 1.4561,
+   "shoulder_z": 1.4071,
+   "ear_fwd": 0.1423
+  }
+ ],
+ "neutral": {
+  "f": 1040,
+  "anchor_gap": -0.004,
+  "band_h": 1.0,
+  "head_above_shoulder": true,
+  "skull_min_z": 1.5052,
+  "shoulder_z": 1.4241,
+  "ear_fwd": 0.0
+ }
+}

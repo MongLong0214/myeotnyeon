@@ -1,0 +1,46 @@
+{
+ "id": "anat_xxx",
+ "fps": 30,
+ "duration": 32.0,
+ "lufs": -14,
+ "title": [
+  "첫째 줄",
+  "둘째 줄"
+ ],
+ "brand": "Body Inside",
+ "region": "neck",
+ "layout": {
+  "band_y": 520,
+  "band_h": 800,
+  "tags": false
+ },
+ "build": "build.py",
+ "render": {
+  "spp": 64,
+  "res": [
+   1080,
+   800
+  ]
+ },
+ "beats": [],
+ "labels": [],
+ "claims": [],
+ "sfx": [],
+ "shots": [
+  {
+   "kind": "person",
+   "f0": 0,
+   "f1": 60
+  },
+  {
+   "kind": "dissolve",
+   "f0": 60,
+   "f1": 84
+  },
+  {
+   "kind": "anatomy",
+   "f0": 84,
+   "f1": 960
+  }
+ ]
+}

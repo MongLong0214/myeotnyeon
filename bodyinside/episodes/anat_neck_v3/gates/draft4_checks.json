@@ -1,0 +1,116 @@
+{
+ "subject_size": {
+  "ok": true,
+  "violations": [],
+  "n": 0
+ },
+ "dead_time": {
+  "ok": true,
+  "dead_windows_start_frames": [],
+  "n": 0
+ },
+ "frame_cadence": {
+  "ok": true,
+  "bad_windows": [],
+  "n": 0
+ },
+ "text_size": {
+  "ok": true,
+  "too_small": []
+ },
+ "leaders_cross": {
+  "ok": true,
+  "crossing_frames": [],
+  "n": 0
+ },
+ "rigid_bend": {
+  "ok": true,
+  "rigid_frames": []
+ },
+ "visibility_windows": {
+  "ok": true,
+  "visible_outside_window": []
+ },
+ "establishing_person": {
+  "ok": true,
+  "frames_at_alpha_ge_0.6": 70,
+  "need": 60
+ },
+ "human_reads_as_human": {
+  "ok": true,
+  "violations": [],
+  "frames": 11
+ },
+ "opening_event": {
+  "ok": true,
+  "person_bbox_area_at_f12": 0.67,
+  "silhouette_change_f0_f12": 0.03
+ },
+ "labels_clear_of_anchors": {
+  "ok": true,
+  "covers_subject": []
+ },
+ "audio_balance": {
+  "ok": true,
+  "mid_band_share": 0.376,
+  "loudness_range_db": 14.3
+ },
+ "layout_uses_height": {
+  "ok": true,
+  "band_bottom": 1350,
+  "need": 1340
+ },
+ "plumb_projected": {
+  "ok": true,
+  "bad_frames": [],
+  "n": 0,
+  "frames_checked": 88
+ },
+ "plumb_drawn": {
+  "ok": true,
+  "bad_frames": [],
+  "n": 0,
+  "frames_checked": 88
+ },
+ "labels_clear_of_dots": {
+  "ok": true,
+  "pill_covers_dot": []
+ },
+ "audio_beat_balance": {
+  "ok": true,
+  "beat_rms_db": [
+   -17.6,
+   -14.8,
+   -14.7,
+   -14.2,
+   -15.9,
+   -20.2
+  ],
+  "off_median": []
+ },
+ "no_kg_on_screen": {
+  "ok": true,
+  "labels": []
+ },
+ "cord_clipped": {
+  "ok": true,
+  "cord_zfade": true
+ },
+ "labels_anchored": {
+  "ok": true,
+  "unanchored": []
+ },
+ "label_beat_alignment": {
+  "ok": true,
+  "spans_caption_change": []
+ },
+ "audio_fit": {
+  "ok": true,
+  "poor_fit": []
+ },
+ "caption_truth": {
+  "ok": true,
+  "unproven": []
+ },
+ "pass": true
+}

@@ -1,0 +1,341 @@
+{
+  "id": "anat_wisdom",
+  "fps": 30,
+  "duration": 32,
+  "lufs": -14,
+  "title": [
+    "누운 사랑니를 뽑을 때",
+    "턱 속에서 생기는 일"
+  ],
+  "brand": "몸속 3D 해부도",
+  "layout": {
+    "band_y": 540,
+    "band_h": 800,
+    "tags": false
+  },
+  "build": "build.py",
+  "render": {
+    "spp": 64,
+    "res": [
+      1080,
+      800
+    ]
+  },
+  "highlight": {
+    "structure": "ThirdMolar",
+    "hue": "amber"
+  },
+  "scene_cuts_declared": [],
+  "beats": [
+    {
+      "tag": "",
+      "action": "person, then dissolve to the jaw",
+      "camera": "hold",
+      "cap": [
+        [
+          "사랑니는 어디에 있을까",
+          [
+            255,
+            255,
+            255
+          ]
+        ]
+      ],
+      "t0": 0,
+      "t1": 3,
+      "claim": "C1",
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "HumanFade",
+          "f0": 0,
+          "f1": 89,
+          "min": 0.2
+        }
+      ]
+    },
+    {
+      "t0": 3,
+      "t1": 10,
+      "tag": "매복 사랑니",
+      "camera": "push_in",
+      "action": "pulse(contact)",
+      "cap": [
+        [
+          "옆으로 누워 ",
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        [
+          "앞 어금니와 닿기도 해요",
+          [
+            255,
+            184,
+            28
+          ]
+        ]
+      ],
+      "claim": "C2",
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "ContactPulse",
+          "f0": 90,
+          "f1": 299,
+          "min": 0.2
+        }
+      ]
+    },
+    {
+      "t0": 10,
+      "t1": 17,
+      "tag": "치아 분할",
+      "camera": "orbit_push",
+      "action": "section(ThirdMolar, from=occlusal)",
+      "cap": [
+        [
+          "통째로 안 빠지면 ",
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        [
+          "둘로 자른다",
+          [
+            255,
+            184,
+            28
+          ]
+        ]
+      ],
+      "claim": "C3",
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "CutDepth",
+          "f0": 300,
+          "f1": 509,
+          "min": 0.2
+        }
+      ]
+    },
+    {
+      "t0": 17,
+      "t1": 24,
+      "tag": "하치조신경",
+      "camera": "push_in",
+      "action": "show the root tip and canal together, then pulse the nerve twice",
+      "cap": [
+        [
+          "뿌리 가까이 ",
+          [
+            255,
+            255,
+            255
+          ]
+        ],
+        [
+          "신경이 지날 수 있어요",
+          [
+            255,
+            184,
+            28
+          ]
+        ]
+      ],
+      "claim": "C4",
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "NervePulse",
+          "f0": 510,
+          "f1": 719,
+          "min": 0.2
+        }
+      ]
+    },
+    {
+      "t0": 24,
+      "t1": 32,
+      "tag": "머리 → 뿌리",
+      "camera": "follow",
+      "action": "follow the separated crown, then the roots; hold on the empty socket",
+      "cap": [
+        [
+          "머리 먼저, ",
+          [
+            255,
+            184,
+            28
+          ]
+        ],
+        [
+          "뿌리는 나중에",
+          [
+            255,
+            255,
+            255
+          ]
+        ]
+      ],
+      "claim": "C5",
+      "evidence": [
+        {
+          "type": "dump_change",
+          "key": "RootLift",
+          "f0": 720,
+          "f1": 959,
+          "min": 0.2
+        }
+      ]
+    }
+  ],
+  "region": "jaw",
+  "scene": "jaw.blend",
+  "shots": [
+    {
+      "kind": "person",
+      "f0": 0,
+      "f1": 60
+    },
+    {
+      "kind": "dissolve",
+      "f0": 60,
+      "f1": 90
+    },
+    {
+      "kind": "anatomy",
+      "f0": 90,
+      "f1": 300
+    },
+    {
+      "kind": "anatomy",
+      "f0": 300,
+      "f1": 510
+    },
+    {
+      "kind": "anatomy",
+      "f0": 510,
+      "f1": 720
+    },
+    {
+      "kind": "anatomy",
+      "f0": 720,
+      "f1": 960
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "text": "사랑니는 어디에 있을까",
+      "source": "C1"
+    },
+    {
+      "id": "C2",
+      "text": "옆으로 누워 앞 어금니와 닿기도 해요",
+      "source": "C2"
+    },
+    {
+      "id": "C3",
+      "text": "통째로 안 빠지면 둘로 자른다",
+      "source": "C3"
+    },
+    {
+      "id": "C4",
+      "text": "뿌리 가까이 신경이 지날 수 있어요",
+      "source": "C4"
+    },
+    {
+      "id": "C5",
+      "text": "머리 먼저, 뿌리는 나중에",
+      "source": "C5"
+    }
+  ],
+  "narration": [
+    {
+      "beat": 0,
+      "text": "사랑니는 어디에 있을까요?"
+    },
+    {
+      "beat": 1,
+      "text": "아래턱 뒤쪽에서 옆으로 누운 사랑니는 앞 어금니와 닿아 있을 수도 있어요."
+    },
+    {
+      "beat": 2,
+      "text": "한 번에 빼기 어려운 경우에는 치아를 나누어 꺼내기도 해요."
+    },
+    {
+      "beat": 3,
+      "text": "뿌리 가까이에는 아래턱을 지나는 신경이 있을 수 있어요. 거리는 사람마다 달라요."
+    },
+    {
+      "beat": 4,
+      "text": "이 그림에서는 치아를 나눈 뒤 머리부터 꺼내고 뿌리는 그다음에 꺼내요."
+    }
+  ],
+  "sfx_parts": [
+    {
+      "id": "tick",
+      "want": "one soft short click",
+      "listen": "soft click",
+      "gain": 0.18
+    },
+    {
+      "id": "room",
+      "want": "quiet dark room tone",
+      "listen": "low ambience",
+      "gain": 0.1
+    }
+  ],
+  "sfx_bed": {
+    "part": "room",
+    "gain": 0.08
+  },
+  "sfx": [
+    {
+      "part": "tick",
+      "t": 0.4,
+      "gain": 0.2
+    },
+    {
+      "part": "tick",
+      "t": 3.4,
+      "gain": 0.2
+    },
+    {
+      "part": "tick",
+      "t": 10.4,
+      "gain": 0.2
+    },
+    {
+      "part": "tick",
+      "t": 17.4,
+      "gain": 0.2
+    },
+    {
+      "part": "tick",
+      "t": 24.4,
+      "gain": 0.2
+    }
+  ],
+  "procedure": "molar_sectioning",
+  "geometry_gates": {
+    "disjoint": [
+      [
+        "BurHead",
+        "InferiorAlveolarNerve",
+        300,
+        509
+      ]
+    ],
+    "stable": [
+      "Crown",
+      "Root"
+    ]
+  }
+}

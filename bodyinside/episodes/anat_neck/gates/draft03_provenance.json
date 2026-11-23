@@ -1,0 +1,12 @@
+{
+ "objects": 50,
+ "bp3d_parts": 56,
+ "own": 15,
+ "fail": [
+  {
+   "obj": "CurveLine",
+   "why": "no src property"
+  }
+ ],
+ "ok": false
+}

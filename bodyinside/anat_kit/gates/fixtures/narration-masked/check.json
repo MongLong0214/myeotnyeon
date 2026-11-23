@@ -1,0 +1,8 @@
+{
+ "fn": "narration_snr",
+ "args": [
+  "audio"
+ ],
+ "kwargs": {},
+ "origin": "neck audio/ stems as regenerated at 18:24 on 2026-11-21 (the narration stage after draft19; draft19 own stems were overwritten), 16 kHz FLAC; still masked at 0.5-7 s"
+}

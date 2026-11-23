@@ -1,0 +1,9 @@
+{
+ "fn": "threshold_lock",
+ "args": [
+  "thresholds.json",
+  "thresholds_changes.yaml"
+ ],
+ "kwargs": {},
+ "origin": "current thresholds.json with the Opus bar moved 7.5 -> 6.0 and no reason entry (the failure the lock exists for)"
+}

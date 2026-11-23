@@ -1,0 +1,85 @@
+{
+  "subject_size": {
+    "ok": true,
+    "violations": [],
+    "n": 0
+  },
+  "dead_time": {
+    "ok": true,
+    "dead_windows_start_frames": [],
+    "n": 0
+  },
+  "frame_cadence": {
+    "ok": true,
+    "bad_windows": [],
+    "n": 0
+  },
+  "text_size": {
+    "ok": true,
+    "too_small": []
+  },
+  "labels_anchored": {
+    "ok": true,
+    "unanchored": []
+  },
+  "label_beat_alignment": {
+    "ok": true,
+    "spans_caption_change": []
+  },
+  "layout_uses_height": {
+    "ok": true,
+    "band_bottom": 1375,
+    "need": 1340
+  },
+  "audio_beat_balance": {
+    "ok": true,
+    "beat_rms_db": [
+      -15.3,
+      -17.2,
+      -17.6,
+      -15.5,
+      -17.0,
+      -17.2,
+      -16.5,
+      -16.8
+    ],
+    "off_median": []
+  },
+  "establishing_person": {
+    "ok": true,
+    "exempt": true,
+    "reason": "2026-11-22 owner directive: 사랑니는 오프닝 인물 빼. The wisdom episode opens directly on the anatomy."
+  },
+  "opening_event": {
+    "ok": true,
+    "exempt": true,
+    "reason": "2026-11-22 owner directive: 사랑니는 오프닝 인물 빼. The wisdom episode opens directly on the anatomy."
+  },
+  "brief_narration": {
+    "ok": true,
+    "syllables_per_second": [
+      6.23,
+      6.49,
+      6.23,
+      6.48,
+      6.49,
+      6.23,
+      6.22,
+      6.49
+    ],
+    "interline_gaps_s": [
+      0.16,
+      0.147,
+      0.146,
+      0.143,
+      0.147,
+      0.148,
+      0.142
+    ],
+    "bookends_s": [
+      0.025,
+      0.106
+    ]
+  },
+  "pass": true
+}

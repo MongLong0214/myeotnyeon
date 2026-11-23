@@ -1,0 +1,158 @@
+{
+  "id": "anat_rootcanal",
+  "brand": "Body Inside",
+  "region": "jaw",
+  "title": ["검게 썩은 어금니", "뿌리 끝에 고름"],
+  "reference": "REF_SHOTLIST.md",
+  "fps": 30,
+  "duration": 31.0,
+  "layout": {"band_y": 0, "band_h": 1920},
+  "render": {"res": [1080, 1920], "spp": 24},
+  "case": "Restorable permanent lower-left first molar. Two roots, three canals (mesiobuccal, mesiolingual, distal), and a periapical abscess at the mesiobuccal root exit. One continuous tooth registration across the explanatory cutaway and the later crown visit.",
+  "caption_style": {
+    "language": "ko-KR",
+    "renderer": "../../anat_kit/layout/operative_captions.py",
+    "display_font": "BlackHanSans-Regular.ttf",
+    "utility_font": "Pretendard-Bold.otf",
+    "design_size": [540, 960],
+    "instruction": "Concatenate cap text runs and split on the newline. Use the amber run as the keyword and the stage tuple as the pill. Keep live anatomy and tool tips below the title field. Follow named callout anchors on the section. Hold shot boundaries on the 30 fps picture clock."
+  },
+  "audio": {
+    "narration": false,
+    "music": true,
+    "recordings_dir": "../anat_wisdom/sfx_real/.sfx-work/recordings",
+    "recording_ledger": "../anat_wisdom/sfx_real/SOURCES_AUDIO.md",
+    "method": "Edit the existing recordings at the listed source offsets. Reuse the surgery real-SFX mix recipes and the Earshot listening workflow.",
+    "score": {"source": "Earshot D2 drone and D4/F4/A4/C5 pizzicato", "continuous": true, "max_duck_db": 3.2},
+    "target_lufs": -14,
+    "true_peak_ceiling_dbtp": -1.5,
+    "bed": {"recording": "406512.mp3", "source_in_s": 75.8, "t": 0, "dur": 31, "edit": "Quiet room tone from the clean section. Build with overlapping excerpts from the existing room-tone recipe and a circular crossfade at the loop seam."}
+  },
+  "loop": {
+    "occlusion_t0": 30.30,
+    "hook_reappears_t": 30.70,
+    "caption_switch_at_full_occlusion_s": 30.50,
+    "caption": "Carry the S09 cue to the foreground wipe. Composite captions below the foreground matte during the wipe. Switch to the fully settled S01 caption and stage pill at full occlusion, and hold them across the playback boundary.",
+    "picture": "Swap restoration and pathology states behind the original foreground section-edge wipe. Continue the same camera, focus and light curve from the last pre-roll frame into the diseased opening, with the cavity and apex both readable at frame 0.",
+    "sound": "Finish the last contact accent before the wipe and carry the crossfaded room tone through the seam."
+  },
+  "beats": [
+    {
+      "id": "S01", "t0": 0.0, "t1": 1.5, "tag": "hook", "camera": "orbit_push",
+      "camera_move": "Start in a three-quarter oblique section with crown and both apices within the first frame. A short diagonal push gives wet highlights parallax as focus opens from the pit edge to the plane shared with the mesial apex.",
+      "action": "Frame zero shows a black cavitated pit and the pale apical collection below it. The first 45 frames keep both legible against ivory enamel and muted bone. The mesial lesion is already present.",
+      "cap": [["검게 썩은 어금니\n뿌리 끝에 ", [255, 249, 237]], ["고름", [255, 202, 107]]],
+      "stage": [1, 7, "치료 전 · 한 사례"], "claims": ["C1", "C2"],
+      "sfx": []
+    },
+    {
+      "id": "S02", "t0": 1.5, "t1": 3.3, "tag": "decay_to_pulp_infection", "camera": "follow",
+      "camera_move": "Follow the defect from occlusal rim through dentin with a short downward travel and a focus rack into the chamber. Preserve the mesial side of the tooth in screen space.",
+      "action": "Reveal the continuous cavity path through enamel and dentin, then the darker necrotic contents inside the pulp chamber. The camera reveals the existing disease in order.",
+      "cap": [["충치가 깊어져\n", [255, 249, 237]], ["치수", [255, 202, 107]], ["가 감염됐다", [255, 249, 237]]],
+      "stage": [1, 7, "치료 전 · 한 사례"], "claims": ["C1"],
+      "sfx": []
+    },
+    {
+      "id": "S03", "t0": 3.3, "t1": 5.0, "tag": "apical_abscess", "camera": "follow",
+      "camera_move": "Continue down the mesial canal to the root end. Ease into the apex plane, then tilt along the same section toward the crown at the procedural handoff.",
+      "action": "The canal and its root exit lead into a small pale collection outside the tooth, surrounded by localized inflamed periapical tissue. Hold long enough to read the location and start moving up before the dam reveal.",
+      "cap": [["감염이 번지자\n뿌리 끝에 ", [255, 249, 237]], ["고름", [255, 202, 107]], ["이 찼다", [255, 249, 237]]],
+      "stage": [1, 7, "치료 전 · 한 사례"], "claims": ["C2", "C9"],
+      "sfx": []
+    },
+    {
+      "id": "S04", "t0": 5.0, "t1": 8.5, "tag": "dam_and_access_opening", "camera": "orbit_push",
+      "camera_move": "Match the crown movement into a shallow occlusal angle, then drop back to the section plane as the chamber opens. Keep the active bur contact below the headline.",
+      "action": "The green dam and clamp are already seated at 5.0. A brief touch checks the clamp. At 5.6 the bur starts removing compromised crown material and opens the chamber roof. Fine damp grit follows contact. The bur withdraws by 8.4 and leaves the chamber and orifices exposed.",
+      "cap": [["이를 ", [255, 249, 237]], ["격리", [255, 202, 107]], ["하고\n치수로 길을 연다", [255, 249, 237]]],
+      "stage": [2, 7, "치수 접근"], "claims": ["C3"],
+      "sfx": [
+        {"recording": "155913.mp3", "source_in_s": 2.89, "t": 5.05, "dur": 0.20, "cue": "Small clamp check tick, recorded tweezer-tooth Foley."},
+        {"recording": "728347.mp3", "source_in_s": 0.34, "t": 5.48, "dur": 2.93, "cue": "Dental turbine rises early, dips under load at contact, then winds out on withdrawal."},
+        {"recording": "816678.mp3", "source_in_s": 2.12, "t": 5.60, "dur": 0.50, "cue": "Low-level grit texture under the first loaded bur pass, recorded Foley."}
+      ]
+    },
+    {
+      "id": "S05", "t0": 8.5, "t1": 11.5, "tag": "pulp_removal", "camera": "follow",
+      "camera_move": "Lower slightly to see into the chamber and rack focus from the entry to the working end. Lift with the withdrawing instrument and settle on the exposed chamber floor.",
+      "action": "Debride the chamber and show a short ragged wet remnant coming out through the access at 10.4. Keep the deeper residual contents subdued for the shaping and rinse. Dam and clamp remain in place.",
+      "cap": [["감염된 치수를\n", [255, 249, 237]], ["제거", [255, 202, 107]], ["한다", [255, 249, 237]]],
+      "stage": [3, 7, "치수 제거"], "claims": ["C4", "C9"],
+      "sfx": [
+        {"recording": "155913.mp3", "source_in_s": 5.57, "t": 8.63, "dur": 0.20, "cue": "Quiet entry contact, recorded tweezer-tooth Foley."},
+        {"recording": "211605.mp3", "source_in_s": 5.25, "t": 10.40, "dur": 0.30, "cue": "Subtle wet Foley under the withdrawing fragment."}
+      ]
+    },
+    {
+      "id": "S06", "t0": 11.5, "t1": 17.0, "tag": "canal_files", "camera": "orbit_push",
+      "camera_move": "Shallow oblique arc around the mesial side to distinguish the two mesial paths, then translate within the same framing toward the distal path. Hold the root-tip landmark during tool motion.",
+      "action": "A slim hand file follows the first measured path, then short match-on-motion passes show a flexible rotary file following the remaining curved canals. Briefly refresh irrigant between passes. Reveal the prepared lumen behind the file and keep every tip inside its endpoint.",
+      "cap": [["근관 파일", [255, 202, 107]], ["로\n통로를 다듬는다", [255, 249, 237]]],
+      "stage": [4, 7, "근관 성형"], "claims": ["C5"],
+      "sfx": [
+        {"recording": "816680.mp3", "source_in_s": 0.24, "t": 11.90, "dur": 0.33, "cue": "Fine attenuated contact rasps on the hand file stroke, recorded Foley."},
+        {"recording": "680616.mp3", "source_in_s": 9.32, "t": 13.30, "dur": 0.48, "cue": "Short nozzle-channel wetting accent between file passes."},
+        {"recording": "707344.mp3", "source_in_s": 0.42, "t": 14.16, "dur": 0.87, "cue": "Low dental handpiece pass on the second mesial path."},
+        {"recording": "707344.mp3", "source_in_s": 0.42, "t": 15.65, "dur": 0.87, "cue": "Second low handpiece edit on the distal pass."}
+      ]
+    },
+    {
+      "id": "S07", "t0": 17.0, "t1": 19.5, "tag": "irrigation_and_drying", "camera": "follow",
+      "camera_move": "Track down the side-vented needle into the near canal, then rack back to the returning meniscus and the chamber suction. End on the paper point withdrawal.",
+      "action": "A loose side-vented tip supplies clear irrigant. A thin film and a few particles reflux upward to the chamber, where suction removes them. The tip stays inside the canal. A brief matching insert at 19.1 compresses absorbent paper drying before filling.",
+      "cap": [["세척액", [255, 202, 107]], ["으로\n근관을 씻는다", [255, 249, 237]]],
+      "stage": [5, 7, "세척·건조 시간 압축"], "claims": ["C6"],
+      "sfx": [
+        {"recording": "680616.mp3", "source_in_s": 108.98, "t": 17.42, "dur": 1.60, "cue": "Real syringe flow from nozzle contact mic channel 0. Follow the film rising to the chamber."},
+        {"recording": "707321.mp3", "source_in_s": 3.39, "t": 18.23, "dur": 0.82, "cue": "Dental aspiration enters once reflux reaches the chamber."}
+      ]
+    },
+    {
+      "id": "S08", "t0": 19.5, "t1": 23.1, "tag": "gutta_percha_filling", "camera": "follow",
+      "camera_move": "Settle in the oblique section so the mesial exits are separable. Follow the two mesial points, then translate a few millimetres toward the distal path for the third insertion.",
+      "action": "Show a thin sealer film and three salmon gutta-percha points seating in succession at 20.1, 20.9 and 21.7. Keep each fitted cone inside its canal and cut on the finished coronal ends. The completed fill reads through the section.",
+      "cap": [["거타퍼차", [255, 202, 107]], ["로\n근관을 채운다", [255, 249, 237]]],
+      "stage": [6, 7, "근관 충전"], "claims": ["C7"],
+      "sfx": [
+        {"recording": "155913.mp3", "source_in_s": 8.03, "t": 20.06, "dur": 0.20, "cue": "Light placement-grip contact at the first point. Let the points seat quietly."},
+        {"recording": "155913.mp3", "source_in_s": 5.72, "t": 21.65, "dur": 0.20, "cue": "Second quiet tweezer contact at the change to the distal point."}
+      ]
+    },
+    {
+      "id": "S09", "t0": 23.1, "t1": 28.8, "tag": "crown_restoration", "camera": "pull_back",
+      "camera_move": "Track from the filled canal entrances to the coronal core. Match the position of the tooth across the later-visit cut, then use a small arc to show the seated margin and upper canal fills together. Keep the later view on the coronal two-thirds of the section.",
+      "action": "Seal the access with the core, then match cut at 25.0 to the prepared stump with the dam removed for the later visit. A small tracked '다음 내원' label appears from 25.3 to 27.0. Seat the ceramic crown by 27.0 and show the sealed access and crown margin before the exterior reveal.",
+      "cap": [["크라운", [255, 202, 107]], ["을 씌워\n치아를 보호한다", [255, 249, 237]]],
+      "stage": [7, 7, "크라운 수복"], "claims": ["C8", "C9"],
+      "caption_cues": [
+        {"t0": 23.1, "lines": ["근관 입구를", "재료로 봉한다"], "keyword": "봉한다", "stage": [7, 7, "입구 밀봉"]},
+        {"t0": 25.0, "lines": ["크라운을 씌워", "치아를 보호한다"], "keyword": "크라운", "stage": [7, 7, "수복 · 내원 간격 압축"]}
+      ],
+      "callout": {"t0": 25.3, "t1": 27.0, "text": "다음 내원", "anchor": "Crown cervical margin", "side": "left"},
+      "sfx": [
+        {"recording": "155913.mp3", "source_in_s": 6.57, "t": 26.86, "dur": 0.22, "cue": "Soft recorded tooth-contact Foley on crown seating."}
+      ]
+    },
+    {
+      "id": "S10", "t0": 28.8, "t1": 31.0, "tag": "exterior_reveal_and_loop", "camera": "orbit_push",
+      "camera_move": "Roll a few degrees around the finished crown and pass behind a dark, shallow-focus section edge. Continue the camera onto the same orbital curve on the hook side of the wipe.",
+      "action": "Restore the intact anatomical exterior for the first second. Cover the registration with the foreground edge from 30.30 to 30.70 and uncover the pre-treatment section. Lead naturally into frame 0 as the crown pit and apical collection return together.",
+      "caption_start_s": 30.70,
+      "cap": [["검게 썩은 어금니\n뿌리 끝에 ", [255, 249, 237]], ["고름", [255, 202, 107]]],
+      "stage": [1, 7, "치료 전 · 한 사례"], "claims": ["C2", "C9"],
+      "sfx": []
+    }
+  ],
+  "claims": [
+    {"id": "C1", "text": "깊은 충치는 치수 감염으로 이어질 수 있다.", "source": "C1"},
+    {"id": "C2", "text": "근관 감염이 뿌리 끝 주변에 고름을 만들 수 있다.", "source": "C2"},
+    {"id": "C3", "text": "치아를 격리한 뒤 치수강을 열어 근관 입구를 찾는다.", "source": "C3"},
+    {"id": "C4", "text": "감염되거나 괴사한 치수 조직을 제거한다.", "source": "C4"},
+    {"id": "C5", "text": "근관 파일로 근관을 성형하고 그 과정에서 세척액을 사용한다.", "source": "C5"},
+    {"id": "C6", "text": "세척액으로 근관을 씻고 충전 전에 건조한다.", "source": "C6"},
+    {"id": "C7", "text": "거타퍼차와 실러로 근관을 충전한다.", "source": "C7"},
+    {"id": "C8", "text": "손상이 큰 이 어금니는 크라운으로 덮어 보호한다.", "source": "C8"},
+    {"id": "C9", "text": "근관 치료와 최종 수복을 압축한 사례다. 뿌리 끝 병변의 치유 시점은 제시하지 않는다.", "source": "C9"}
+  ]
+}

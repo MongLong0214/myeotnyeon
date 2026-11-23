@@ -1,0 +1,22 @@
+{
+ "fn": "claimed_fixes_visible",
+ "args": [
+  "new.mp4",
+  "prev.mp4",
+  [
+   {
+    "id": "mouth-smudge",
+    "frame": 0,
+    "box": [
+     650,
+     320,
+     700,
+     350
+    ],
+    "claim": "fixed"
+   }
+  ]
+ ],
+ "kwargs": {},
+ "origin": "neck draft16.mp4 vs draft15.mp4 frame 900, box 650-700 x 320-350 (fable_review11 Mouth smudge PARTIAL)"
+}

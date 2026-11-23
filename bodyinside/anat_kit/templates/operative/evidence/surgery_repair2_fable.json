@@ -1,0 +1,933 @@
+{
+  "runs": [
+    {
+      "scores": {
+        "anatomy": 6.5,
+        "cutaway": 6.5,
+        "motion": 7.5,
+        "labels": 7.5,
+        "hook": 7.5,
+        "facts": 8,
+        "audio": 7.5
+      },
+      "final": 7,
+      "p0": [
+        {
+          "frame": 567,
+          "what": "Neighbouring second molar hangs into the open socket as a free, tapered white fang with no interdental septum or bone around it (visible f540-f627, both root deliveries). It reads as a canine-like root exposed to its tip, which is physically wrong anatomy for the adjacent tooth. Repair: restore the septum/distal alveolar bone so only the distal crown surface of the second molar shows above the socket wall. Proof: f567 and f600 show a broad molar crown seated in bone, no pointed free end.",
+          "box": [
+            285,
+            360,
+            585,
+            900
+          ]
+        }
+      ],
+      "p1": [
+        {
+          "frame": 720,
+          "what": "Suture payoff does not close the wound: the socket opening is the same size at f690 and f720, and the knot sits beside a gaping dark hole. Repair: animate the throw drawing both flap edges together so the gap narrows to a line by the end of the shot. Proof: f725 shows approximated edges under the knot.",
+          "box": [
+            190,
+            690,
+            1080,
+            1030
+          ]
+        },
+        {
+          "frame": 234,
+          "what": "Bur is parked during bone removal: its tip moves about 10 px over f186-f264 while the cortex disappears in a wider pink film beside it, so the 3.5 s drill beat (longest shot) has no travelling cut. Repair: sweep the bur along the bone edge in step with the removal bands, with dust and coolant at the contact. Proof: f250 against f200 shows the tip displaced with a kerf behind it.",
+          "box": [
+            300,
+            855,
+            510,
+            1005
+          ]
+        },
+        {
+          "frame": 713,
+          "what": "Needle holder vanishes and a finished knot with long tails appears between two consecutive motion-strip cells (about f709 to f713) with no tying action; reads as an in-shot pop. Repair: keep the holder on screen through the knot or cut to a new angle. Proof: f705-f715 run shows continuous holder motion or a clean angle change.",
+          "box": [
+            0,
+            840,
+            720,
+            1080
+          ]
+        },
+        {
+          "frame": 480,
+          "what": "Root-division beat lasts 26 frames and the bur works underneath the root from the lower left with no visible kerf; the next shot simply shows two pieces. Repair: frame the bur crossing the root from above and leave a visible slot, hold at least 40 frames. Proof: f484 shows a slot through the root at the bur.",
+          "box": [
+            23,
+            616,
+            866,
+            1524
+          ]
+        },
+        {
+          "frame": 60,
+          "what": "Hard cut at f36 from the hook to a pink-on-pink mucosa field with a thin soft grey needle and no tooth, cheek or jaw landmark; the viewer cannot tell where in the mouth the injection and incision happen (f36-f140). Repair: open the injection on a slightly wider view that includes the second molar crown, then push in, and darken the background for needle contrast. Proof: f40 shows a molar landmark and a crisp needle.",
+          "box": [
+            496,
+            130,
+            1080,
+            940
+          ]
+        },
+        {
+          "frame": 234,
+          "what": "Bone over the tooth is a beige speckled slab with knife-straight edges and a pointed lower end, like cork or sponge laid on the tooth, not continuous jaw with a cortex (f180-f300). Repair: blend the cover into surrounding alveolar bone with a rounded cortical lip and a denser outer layer. Proof: f210 shows bone continuous with the socket rim.",
+          "box": [
+            285,
+            870,
+            810,
+            1635
+          ]
+        },
+        {
+          "frame": 780,
+          "what": "The groove reads as a flat olive-brown speckled disc or coin on the tooth neck (f372-f395, f777-f800) instead of a cut slot, so 'split along the groove' has no groove to follow. Repair: cut a slot across the neck with pale dentin walls and depth shading. Proof: f780 and f375 show a slot, no disc.",
+          "box": [
+            473,
+            795,
+            580,
+            940
+          ]
+        },
+        {
+          "frame": 768,
+          "what": "Extracted root pieces do not read as roots: one is a flat beige fan with radial ridges like a shell or cracker, the other a red-marbled wedge (also f567-f600 in the socket). Repair: model two tapered root halves with cementum colour and a small canal on the cut face. Proof: f768 shows tapered root halves beside the crown.",
+          "box": [
+            120,
+            915,
+            495,
+            1260
+          ]
+        },
+        {
+          "frame": 501,
+          "what": "Root surface reads as glossy red-and-cream marbled meat or glazed candy, and its broken edge is fringed with torn-paper slivers (f307-f557, f0-f35). Repair: matte yellowish cementum with thin blood film and a clean fractured dentin edge. Proof: f501 and f367.",
+          "box": [
+            120,
+            840,
+            480,
+            1335
+          ]
+        },
+        {
+          "frame": 234,
+          "what": "Thin wire loops and arcs around the bur tip read as bent paper-clip wires attached to the handpiece (f186-f371), with hard-edged pink splat shapes beside them. Repair: remove the loops, show rotation through a blurred bur and fine spray. Proof: f234 and f330 show a bare bur with mist.",
+          "box": [
+            60,
+            870,
+            495,
+            1095
+          ]
+        },
+        {
+          "frame": 434,
+          "what": "Reflected flap rim reads as a glossy red hose with pinched segment joints circling the socket, and the incision margin as a regular red beaded chain (f150-f600). Repair: thin tapered flap edge with a pale underside and irregular wet bleeding. Proof: f434 and f167.",
+          "box": [
+            180,
+            1320,
+            1035,
+            1590
+          ]
+        },
+        {
+          "frame": 434,
+          "what": "Socket bed is an oversized trough with a regular scalloped brown rim like pie crust; the root lies exposed along its full length instead of seated in bone (f372-f485). Repair: tighten the socket around the root and give the rim a smooth cortical edge with cancellous texture inside. Proof: f390 and f434.",
+          "box": [
+            450,
+            1170,
+            1080,
+            1410
+          ]
+        },
+        {
+          "frame": 100,
+          "what": "Scalpel blade reads as thick white marbled plastic, and the blood on its tip (and on the elevator tip at f33) is a hard-edged jagged red cut-out. Repair: brushed steel with a bevel highlight, slimmer blade profile, soft wet blood. Proof: f100.",
+          "box": [
+            0,
+            525,
+            630,
+            915
+          ]
+        },
+        {
+          "frame": 300,
+          "what": "Suction beat is 17 frames (0.57 s), too short to read the caption, and shows a whitish wedge-shaped streak with no pool of blood being removed. Repair: hold at least 30 frames and show a blood pool draining at the tip. Proof: f300 shows the pool level and the tip.",
+          "box": [
+            120,
+            330,
+            450,
+            780
+          ]
+        },
+        {
+          "frame": 540,
+          "what": "First root exits by swinging past the lens as a motion-blurred smear covering the left third of the frame for about f532-f548, so the delivered piece is soft at its key moment. Repair: lift the root up and out while it stays in focus for at least 8 frames. Proof: f540 shows a sharp root clear of the socket.",
+          "box": [
+            0,
+            318,
+            357,
+            1518
+          ]
+        },
+        {
+          "frame": 701,
+          "what": "Suture thread is drawn as a sawtooth zigzag polyline rather than a smooth curve (f690-f709). Repair: smooth spline thread with slack and tension. Proof: f701.",
+          "box": [
+            0,
+            735,
+            525,
+            825
+          ]
+        },
+        {
+          "frame": 367,
+          "what": "Thin pale hoop line circles the root at the crown junction before any cut, and at f0 its lower arc hangs free below the tooth like a wire loop (f0-f35, f307-f415, f777-f800). Repair: remove the curve or turn it into a subtle surface colour change at the neck. Proof: f0 and f367 show no line.",
+          "box": [
+            585,
+            675,
+            870,
+            786
+          ]
+        },
+        {
+          "frame": 768,
+          "what": "Second caption line overlaps the top of the crown specimen on the tray (f728-f776). Repair: lower the specimen framing or raise the caption block. Proof: f768 shows clear space between caption and crown.",
+          "box": [
+            300,
+            390,
+            810,
+            495
+          ]
+        },
+        {
+          "frame": 634,
+          "what": "Socket blood changes from dark red to pale pink in roughly eight frames (about f626-f640), reading as a material swap more than a flush. Repair: spread the dilution over 20+ frames with visible flow from the syringe tip. Proof: f630 shows a mid-dilution swirl.",
+          "box": [
+            0,
+            500,
+            1080,
+            1500
+          ]
+        },
+        {
+          "frame": 307,
+          "what": "From the cue sheet: the suction recording starts at f290 and runs 1.23 s, about 20 frames into the sectioning shot where no suction tip is visible; the drill recording ends near f252 while the bur stays engaged until f289. Repair: trim suction to the cut at f307 and extend the drill bed to f289. Proof: cue sheet shows suction ending by f307 and drill covering f186-f289.",
+          "box": [
+            0,
+            0,
+            1080,
+            1920
+          ]
+        },
+        {
+          "frame": 100,
+          "what": "Step chip text ('02 / 07 | 절개') and the single '치관' tag are small at phone size. Repair: enlarge chip and tag text by about a third. Proof: f100 and f33.",
+          "box": [
+            414,
+            219,
+            666,
+            285
+          ]
+        }
+      ],
+      "not_checked": [
+        "Audio was not auditioned; audio score rests on audio_checks.json cue timing, measured loudness (-13.9 LUFS, -2.2 dBFS peak) and the empty speech transcript",
+        "PubMed records 36508551 and 33854724 were not opened; caption-to-source support is taken from facts_checks.json only",
+        "Licence evidence for 3D-COSI v1.1, Poly Haven and ambientCG items, the Hamze gingival texture, the BlenderKit clot material and the Earshot score is not in the packet beyond the description text",
+        "Movie hash differs between assets.json (final_surgery_v3.mp4 13f66a75...) and the provenance, facts and geometry receipts (81bb1fb1...); which one is the reviewed render cannot be settled from the packet",
+        "LICENCE_AUDIT.md quotes the same SHA-256 that assets.json records for that file; not re-hashed",
+        "Cached per-shot geometry.json proofs listed in assets.json were not opened (outside the permitted file list)",
+        "Frame-exact timing of the suture holder disappearance; only the 8-per-second strip was available",
+        "Duplicate-frame check at 30 fps beyond the near-still measurement",
+        "Fine text and edge detail judged from 360x640 stills and contact sheets",
+        "Historical rights dossier and character rights: the episode uses no person or Z-Anatomy asset per provenance_checks.json; not independently verified"
+      ],
+      "pass": false,
+      "picture_axes": {
+        "anatomy": {
+          "score": 6.5,
+          "evidence": "Crown with cusps and fissures reads well (f434, f768) and the step order is coherent, but the second molar is a free fang with no septum (f567), the root lies in an oversized trough (f367), the bone is a slab (f234) and the root pieces are shards (f768)."
+        },
+        "materials": {
+          "score": 7,
+          "evidence": "Wet textured mucosa and enamel are credible (f100, f167, f300); scalpel reads as white plastic (f100), root as marbled glaze (f501), bone as cork (f234), flap rim as red hose (f434)."
+        },
+        "lighting": {
+          "score": 8,
+          "evidence": "Soft studio light with wet speculars and shallow depth of field holds across shots with no clipping (f300 crown, f634 fluid highlights); palette is uniformly red-pink so the needle shot lacks separation (f60)."
+        },
+        "camera_motion": {
+          "score": 7.5,
+          "evidence": "Incision opening behind the blade (f81-f140), flap lift (f141-f185), crown split (f390-f415) and crown lift (f416-f459) show cause and effect; drill is static with a parked bur (f186-f264), the root exits as a blur (f540) and the suture knot pops in (f713)."
+        },
+        "composition": {
+          "score": 7,
+          "evidence": "Captions are large and clear and the subject sits in the upper-middle band (f33, f367), but the lower 40% is blurred pink in most shots, there is no establishing context (f60), and the caption overlaps the crown on the tray (f768)."
+        },
+        "hook": {
+          "score": 7.5,
+          "evidence": "The tooth cracks with blood inside the first second under a clear caption (f0-f35) and the loop returns to the same shot (f777-f800); the subject is partly ambiguous (olive disc, marbled root) and the cut at f36 lands on the weakest image."
+        }
+      },
+      "inspection": {
+        "clear": [
+          "full-frame-bottom-unchecked",
+          "model-figure-qualifier-late-or-small",
+          "overlay-panel-render-artifact",
+          "graphic-lags-caption",
+          "label-placed-over-unrelated-structure",
+          "caption-overstates-evidence",
+          "credit-rights-provenance-paperwork",
+          "foreground-occluder-ramus-slab",
+          "lower-left-corner-blob",
+          "floating-detached-or-separated-mesh",
+          "tint-or-colour-cast-on-subject",
+          "clipped-whites-overexposure",
+          "camera-move-snaps-no-ease",
+          "bur-overcuts-into-nerve",
+          "leftover-geometry-in-socket-or-after-removal",
+          "incomplete-or-hollow-anatomy-parts",
+          "layout-copies-reference-template",
+          "licence-terms-undecided",
+          "landmark-wrong-after-view-change"
+        ],
+        "absent": [
+          "lobe-reads-as-glossy-bead",
+          "material-reads-wrong-colour",
+          "white-fragments-and-rod-leftovers",
+          "ghost-mesh-panels-halo-neon-jagged",
+          "arc-fade-patch-and-contact-disc",
+          "ghost-mesh-wires-and-fans-materials",
+          "pose-step-at-caption-change",
+          "shoulder-bones-brighter-than-spine",
+          "lobe-pale-touch-soft",
+          "cord-stick-and-muscle-tip-through-fade",
+          "oval-beside-cerebellum-reads-as-ear",
+          "mouth-smear-loops-scratches-kink",
+          "bones-colour-and-disc-annulus",
+          "disc-beat-loops-nucleus-strokes-beads",
+          "hook-starts-small-held-pose",
+          "disc-annulus-and-tendon-ends",
+          "nucleus-protrudes-as-white-bead",
+          "sheet-or-shell-over-muscle",
+          "payoff-pose-implausible-and-pierced",
+          "gap-graphic-without-reference",
+          "transition-whips-through-figure",
+          "wording-stronger-than-source",
+          "subject-not-separated-from-background",
+          "pink-band-on-ramus",
+          "assembly-framerate-judder",
+          "nerve-canal-shape-and-routing-wrong",
+          "ghost-fade-and-composite-seams-nerve-beat",
+          "callout-bracket-misplaced-or-illegible",
+          "shorts-ui-safe-zone-brand-block",
+          "skull-through-skin",
+          "degenerate-payoff-transition",
+          "payoff-marker-short-or-missing",
+          "camera-masks-straightening",
+          "load-arrow-no-visible-growth",
+          "muscle-picture-ends-before-narration",
+          "cord-rod-below-last-vertebra"
+        ],
+        "unseen": [
+          "asset-licence-or-origin-unverified"
+        ],
+        "defects": [
+          "sfx-without-matching-visual-event",
+          "stray-geometry-specks-bars-lines",
+          "jaw-bone-missing-or-wrong-material",
+          "material-reads-as-clay-wax-plastic-concrete",
+          "tooth-asset-not-real-molar-mesh",
+          "low-contrast-colour-wash",
+          "focus-and-motion-blur-hides-subject",
+          "single-frame-pop-or-flash",
+          "cut-trace-bur-chips-spray-unconvincing",
+          "kerf-gap-wrong-size-or-colour",
+          "socket-and-sectioned-bone-shape-wrong",
+          "seam-ring-artifacts-on-tooth-and-cut-face",
+          "gum-geometry-wrong",
+          "faceted-polygon-edges",
+          "scene-discontinuity-or-missing-context",
+          "neighbour-anatomy-pose-or-shape-wrong"
+        ]
+      },
+      "resolved_models": [
+        "claude-fable-5-2"
+      ],
+      "class_failures": {
+        "asset-licence-or-origin-unverified": "unseen",
+        "sfx-without-matching-visual-event": "defects",
+        "stray-geometry-specks-bars-lines": "defects",
+        "jaw-bone-missing-or-wrong-material": "defects",
+        "material-reads-as-clay-wax-plastic-concrete": "defects",
+        "tooth-asset-not-real-molar-mesh": "defects",
+        "low-contrast-colour-wash": "defects",
+        "focus-and-motion-blur-hides-subject": "defects",
+        "single-frame-pop-or-flash": "defects",
+        "cut-trace-bur-chips-spray-unconvincing": "defects",
+        "kerf-gap-wrong-size-or-colour": "defects",
+        "socket-and-sectioned-bone-shape-wrong": "defects",
+        "seam-ring-artifacts-on-tooth-and-cut-face": "defects",
+        "gum-geometry-wrong": "defects",
+        "faceted-polygon-edges": "defects",
+        "scene-discontinuity-or-missing-context": "defects",
+        "neighbour-anatomy-pose-or-shape-wrong": "defects"
+      },
+      "area_floor": 6.5
+    }
+  ],
+  "_model": "fable",
+  "_mp4": ".astra-work/operative/surgery_repair2/surgery.mp4",
+  "_md5": "1afcf74b2e47d2eea0a5396c8ae14188",
+  "_seconds": 443,
+  "_cost_usd": 2.786,
+  "scores": {
+    "anatomy": 6.5,
+    "cutaway": 6.5,
+    "motion": 7.5,
+    "labels": 7.5,
+    "hook": 7.5,
+    "facts": 8.0,
+    "audio": 7.5
+  },
+  "picture_axes": {
+    "anatomy": {
+      "score": 6.5,
+      "evidence": "Crown with cusps and fissures reads well (f434, f768) and the step order is coherent, but the second molar is a free fang with no septum (f567), the root lies in an oversized trough (f367), the bone is a slab (f234) and the root pieces are shards (f768)."
+    },
+    "materials": {
+      "score": 7,
+      "evidence": "Wet textured mucosa and enamel are credible (f100, f167, f300); scalpel reads as white plastic (f100), root as marbled glaze (f501), bone as cork (f234), flap rim as red hose (f434)."
+    },
+    "lighting": {
+      "score": 8,
+      "evidence": "Soft studio light with wet speculars and shallow depth of field holds across shots with no clipping (f300 crown, f634 fluid highlights); palette is uniformly red-pink so the needle shot lacks separation (f60)."
+    },
+    "camera_motion": {
+      "score": 7.5,
+      "evidence": "Incision opening behind the blade (f81-f140), flap lift (f141-f185), crown split (f390-f415) and crown lift (f416-f459) show cause and effect; drill is static with a parked bur (f186-f264), the root exits as a blur (f540) and the suture knot pops in (f713)."
+    },
+    "composition": {
+      "score": 7,
+      "evidence": "Captions are large and clear and the subject sits in the upper-middle band (f33, f367), but the lower 40% is blurred pink in most shots, there is no establishing context (f60), and the caption overlaps the crown on the tray (f768)."
+    },
+    "hook": {
+      "score": 7.5,
+      "evidence": "The tooth cracks with blood inside the first second under a clear caption (f0-f35) and the loop returns to the same shot (f777-f800); the subject is partly ambiguous (olive disc, marbled root) and the cut at f36 lands on the weakest image."
+    }
+  },
+  "run_finals": [
+    7
+  ],
+  "raw_overall": 7.0,
+  "final": 7.0,
+  "p0": [
+    {
+      "frame": 567,
+      "what": "Neighbouring second molar hangs into the open socket as a free, tapered white fang with no interdental septum or bone around it (visible f540-f627, both root deliveries). It reads as a canine-like root exposed to its tip, which is physically wrong anatomy for the adjacent tooth. Repair: restore the septum/distal alveolar bone so only the distal crown surface of the second molar shows above the socket wall. Proof: f567 and f600 show a broad molar crown seated in bone, no pointed free end.",
+      "box": [
+        285,
+        360,
+        585,
+        900
+      ]
+    }
+  ],
+  "p1": [
+    {
+      "frame": 720,
+      "what": "Suture payoff does not close the wound: the socket opening is the same size at f690 and f720, and the knot sits beside a gaping dark hole. Repair: animate the throw drawing both flap edges together so the gap narrows to a line by the end of the shot. Proof: f725 shows approximated edges under the knot.",
+      "box": [
+        190,
+        690,
+        1080,
+        1030
+      ]
+    },
+    {
+      "frame": 234,
+      "what": "Bur is parked during bone removal: its tip moves about 10 px over f186-f264 while the cortex disappears in a wider pink film beside it, so the 3.5 s drill beat (longest shot) has no travelling cut. Repair: sweep the bur along the bone edge in step with the removal bands, with dust and coolant at the contact. Proof: f250 against f200 shows the tip displaced with a kerf behind it.",
+      "box": [
+        300,
+        855,
+        510,
+        1005
+      ]
+    },
+    {
+      "frame": 713,
+      "what": "Needle holder vanishes and a finished knot with long tails appears between two consecutive motion-strip cells (about f709 to f713) with no tying action; reads as an in-shot pop. Repair: keep the holder on screen through the knot or cut to a new angle. Proof: f705-f715 run shows continuous holder motion or a clean angle change.",
+      "box": [
+        0,
+        840,
+        720,
+        1080
+      ]
+    },
+    {
+      "frame": 480,
+      "what": "Root-division beat lasts 26 frames and the bur works underneath the root from the lower left with no visible kerf; the next shot simply shows two pieces. Repair: frame the bur crossing the root from above and leave a visible slot, hold at least 40 frames. Proof: f484 shows a slot through the root at the bur.",
+      "box": [
+        23,
+        616,
+        866,
+        1524
+      ]
+    },
+    {
+      "frame": 60,
+      "what": "Hard cut at f36 from the hook to a pink-on-pink mucosa field with a thin soft grey needle and no tooth, cheek or jaw landmark; the viewer cannot tell where in the mouth the injection and incision happen (f36-f140). Repair: open the injection on a slightly wider view that includes the second molar crown, then push in, and darken the background for needle contrast. Proof: f40 shows a molar landmark and a crisp needle.",
+      "box": [
+        496,
+        130,
+        1080,
+        940
+      ]
+    },
+    {
+      "frame": 234,
+      "what": "Bone over the tooth is a beige speckled slab with knife-straight edges and a pointed lower end, like cork or sponge laid on the tooth, not continuous jaw with a cortex (f180-f300). Repair: blend the cover into surrounding alveolar bone with a rounded cortical lip and a denser outer layer. Proof: f210 shows bone continuous with the socket rim.",
+      "box": [
+        285,
+        870,
+        810,
+        1635
+      ]
+    },
+    {
+      "frame": 780,
+      "what": "The groove reads as a flat olive-brown speckled disc or coin on the tooth neck (f372-f395, f777-f800) instead of a cut slot, so 'split along the groove' has no groove to follow. Repair: cut a slot across the neck with pale dentin walls and depth shading. Proof: f780 and f375 show a slot, no disc.",
+      "box": [
+        473,
+        795,
+        580,
+        940
+      ]
+    },
+    {
+      "frame": 768,
+      "what": "Extracted root pieces do not read as roots: one is a flat beige fan with radial ridges like a shell or cracker, the other a red-marbled wedge (also f567-f600 in the socket). Repair: model two tapered root halves with cementum colour and a small canal on the cut face. Proof: f768 shows tapered root halves beside the crown.",
+      "box": [
+        120,
+        915,
+        495,
+        1260
+      ]
+    },
+    {
+      "frame": 501,
+      "what": "Root surface reads as glossy red-and-cream marbled meat or glazed candy, and its broken edge is fringed with torn-paper slivers (f307-f557, f0-f35). Repair: matte yellowish cementum with thin blood film and a clean fractured dentin edge. Proof: f501 and f367.",
+      "box": [
+        120,
+        840,
+        480,
+        1335
+      ]
+    },
+    {
+      "frame": 234,
+      "what": "Thin wire loops and arcs around the bur tip read as bent paper-clip wires attached to the handpiece (f186-f371), with hard-edged pink splat shapes beside them. Repair: remove the loops, show rotation through a blurred bur and fine spray. Proof: f234 and f330 show a bare bur with mist.",
+      "box": [
+        60,
+        870,
+        495,
+        1095
+      ]
+    },
+    {
+      "frame": 434,
+      "what": "Reflected flap rim reads as a glossy red hose with pinched segment joints circling the socket, and the incision margin as a regular red beaded chain (f150-f600). Repair: thin tapered flap edge with a pale underside and irregular wet bleeding. Proof: f434 and f167.",
+      "box": [
+        180,
+        1320,
+        1035,
+        1590
+      ]
+    },
+    {
+      "frame": 434,
+      "what": "Socket bed is an oversized trough with a regular scalloped brown rim like pie crust; the root lies exposed along its full length instead of seated in bone (f372-f485). Repair: tighten the socket around the root and give the rim a smooth cortical edge with cancellous texture inside. Proof: f390 and f434.",
+      "box": [
+        450,
+        1170,
+        1080,
+        1410
+      ]
+    },
+    {
+      "frame": 100,
+      "what": "Scalpel blade reads as thick white marbled plastic, and the blood on its tip (and on the elevator tip at f33) is a hard-edged jagged red cut-out. Repair: brushed steel with a bevel highlight, slimmer blade profile, soft wet blood. Proof: f100.",
+      "box": [
+        0,
+        525,
+        630,
+        915
+      ]
+    },
+    {
+      "frame": 300,
+      "what": "Suction beat is 17 frames (0.57 s), too short to read the caption, and shows a whitish wedge-shaped streak with no pool of blood being removed. Repair: hold at least 30 frames and show a blood pool draining at the tip. Proof: f300 shows the pool level and the tip.",
+      "box": [
+        120,
+        330,
+        450,
+        780
+      ]
+    },
+    {
+      "frame": 540,
+      "what": "First root exits by swinging past the lens as a motion-blurred smear covering the left third of the frame for about f532-f548, so the delivered piece is soft at its key moment. Repair: lift the root up and out while it stays in focus for at least 8 frames. Proof: f540 shows a sharp root clear of the socket.",
+      "box": [
+        0,
+        318,
+        357,
+        1518
+      ]
+    },
+    {
+      "frame": 701,
+      "what": "Suture thread is drawn as a sawtooth zigzag polyline rather than a smooth curve (f690-f709). Repair: smooth spline thread with slack and tension. Proof: f701.",
+      "box": [
+        0,
+        735,
+        525,
+        825
+      ]
+    },
+    {
+      "frame": 367,
+      "what": "Thin pale hoop line circles the root at the crown junction before any cut, and at f0 its lower arc hangs free below the tooth like a wire loop (f0-f35, f307-f415, f777-f800). Repair: remove the curve or turn it into a subtle surface colour change at the neck. Proof: f0 and f367 show no line.",
+      "box": [
+        585,
+        675,
+        870,
+        786
+      ]
+    },
+    {
+      "frame": 768,
+      "what": "Second caption line overlaps the top of the crown specimen on the tray (f728-f776). Repair: lower the specimen framing or raise the caption block. Proof: f768 shows clear space between caption and crown.",
+      "box": [
+        300,
+        390,
+        810,
+        495
+      ]
+    },
+    {
+      "frame": 634,
+      "what": "Socket blood changes from dark red to pale pink in roughly eight frames (about f626-f640), reading as a material swap more than a flush. Repair: spread the dilution over 20+ frames with visible flow from the syringe tip. Proof: f630 shows a mid-dilution swirl.",
+      "box": [
+        0,
+        500,
+        1080,
+        1500
+      ]
+    },
+    {
+      "frame": 307,
+      "what": "From the cue sheet: the suction recording starts at f290 and runs 1.23 s, about 20 frames into the sectioning shot where no suction tip is visible; the drill recording ends near f252 while the bur stays engaged until f289. Repair: trim suction to the cut at f307 and extend the drill bed to f289. Proof: cue sheet shows suction ending by f307 and drill covering f186-f289.",
+      "box": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "frame": 100,
+      "what": "Step chip text ('02 / 07 | 절개') and the single '치관' tag are small at phone size. Repair: enlarge chip and tag text by about a third. Proof: f100 and f33.",
+      "box": [
+        414,
+        219,
+        666,
+        285
+      ]
+    }
+  ],
+  "p0_rejected": [],
+  "threshold": 9.5,
+  "class_failures": {
+    "asset-licence-or-origin-unverified": "unseen",
+    "sfx-without-matching-visual-event": "defects",
+    "stray-geometry-specks-bars-lines": "defects",
+    "jaw-bone-missing-or-wrong-material": "defects",
+    "material-reads-as-clay-wax-plastic-concrete": "defects",
+    "tooth-asset-not-real-molar-mesh": "defects",
+    "low-contrast-colour-wash": "defects",
+    "focus-and-motion-blur-hides-subject": "defects",
+    "single-frame-pop-or-flash": "defects",
+    "cut-trace-bur-chips-spray-unconvincing": "defects",
+    "kerf-gap-wrong-size-or-colour": "defects",
+    "socket-and-sectioned-bone-shape-wrong": "defects",
+    "seam-ring-artifacts-on-tooth-and-cut-face": "defects",
+    "gum-geometry-wrong": "defects",
+    "faceted-polygon-edges": "defects",
+    "scene-discontinuity-or-missing-context": "defects",
+    "neighbour-anatomy-pose-or-shape-wrong": "defects"
+  },
+  "findings": [
+    {
+      "priority": "p0",
+      "frame": 567,
+      "what": "Neighbouring second molar hangs into the open socket as a free, tapered white fang with no interdental septum or bone around it (visible f540-f627, both root deliveries). It reads as a canine-like root exposed to its tip, which is physically wrong anatomy for the adjacent tooth. Repair: restore the septum/distal alveolar bone so only the distal crown surface of the second molar shows above the socket wall. Proof: f567 and f600 show a broad molar crown seated in bone, no pointed free end.",
+      "box": [
+        285,
+        360,
+        585,
+        900
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 720,
+      "what": "Suture payoff does not close the wound: the socket opening is the same size at f690 and f720, and the knot sits beside a gaping dark hole. Repair: animate the throw drawing both flap edges together so the gap narrows to a line by the end of the shot. Proof: f725 shows approximated edges under the knot.",
+      "box": [
+        190,
+        690,
+        1080,
+        1030
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 234,
+      "what": "Bur is parked during bone removal: its tip moves about 10 px over f186-f264 while the cortex disappears in a wider pink film beside it, so the 3.5 s drill beat (longest shot) has no travelling cut. Repair: sweep the bur along the bone edge in step with the removal bands, with dust and coolant at the contact. Proof: f250 against f200 shows the tip displaced with a kerf behind it.",
+      "box": [
+        300,
+        855,
+        510,
+        1005
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 713,
+      "what": "Needle holder vanishes and a finished knot with long tails appears between two consecutive motion-strip cells (about f709 to f713) with no tying action; reads as an in-shot pop. Repair: keep the holder on screen through the knot or cut to a new angle. Proof: f705-f715 run shows continuous holder motion or a clean angle change.",
+      "box": [
+        0,
+        840,
+        720,
+        1080
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 480,
+      "what": "Root-division beat lasts 26 frames and the bur works underneath the root from the lower left with no visible kerf; the next shot simply shows two pieces. Repair: frame the bur crossing the root from above and leave a visible slot, hold at least 40 frames. Proof: f484 shows a slot through the root at the bur.",
+      "box": [
+        23,
+        616,
+        866,
+        1524
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 60,
+      "what": "Hard cut at f36 from the hook to a pink-on-pink mucosa field with a thin soft grey needle and no tooth, cheek or jaw landmark; the viewer cannot tell where in the mouth the injection and incision happen (f36-f140). Repair: open the injection on a slightly wider view that includes the second molar crown, then push in, and darken the background for needle contrast. Proof: f40 shows a molar landmark and a crisp needle.",
+      "box": [
+        496,
+        130,
+        1080,
+        940
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 234,
+      "what": "Bone over the tooth is a beige speckled slab with knife-straight edges and a pointed lower end, like cork or sponge laid on the tooth, not continuous jaw with a cortex (f180-f300). Repair: blend the cover into surrounding alveolar bone with a rounded cortical lip and a denser outer layer. Proof: f210 shows bone continuous with the socket rim.",
+      "box": [
+        285,
+        870,
+        810,
+        1635
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 780,
+      "what": "The groove reads as a flat olive-brown speckled disc or coin on the tooth neck (f372-f395, f777-f800) instead of a cut slot, so 'split along the groove' has no groove to follow. Repair: cut a slot across the neck with pale dentin walls and depth shading. Proof: f780 and f375 show a slot, no disc.",
+      "box": [
+        473,
+        795,
+        580,
+        940
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 768,
+      "what": "Extracted root pieces do not read as roots: one is a flat beige fan with radial ridges like a shell or cracker, the other a red-marbled wedge (also f567-f600 in the socket). Repair: model two tapered root halves with cementum colour and a small canal on the cut face. Proof: f768 shows tapered root halves beside the crown.",
+      "box": [
+        120,
+        915,
+        495,
+        1260
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 501,
+      "what": "Root surface reads as glossy red-and-cream marbled meat or glazed candy, and its broken edge is fringed with torn-paper slivers (f307-f557, f0-f35). Repair: matte yellowish cementum with thin blood film and a clean fractured dentin edge. Proof: f501 and f367.",
+      "box": [
+        120,
+        840,
+        480,
+        1335
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 234,
+      "what": "Thin wire loops and arcs around the bur tip read as bent paper-clip wires attached to the handpiece (f186-f371), with hard-edged pink splat shapes beside them. Repair: remove the loops, show rotation through a blurred bur and fine spray. Proof: f234 and f330 show a bare bur with mist.",
+      "box": [
+        60,
+        870,
+        495,
+        1095
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 434,
+      "what": "Reflected flap rim reads as a glossy red hose with pinched segment joints circling the socket, and the incision margin as a regular red beaded chain (f150-f600). Repair: thin tapered flap edge with a pale underside and irregular wet bleeding. Proof: f434 and f167.",
+      "box": [
+        180,
+        1320,
+        1035,
+        1590
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 434,
+      "what": "Socket bed is an oversized trough with a regular scalloped brown rim like pie crust; the root lies exposed along its full length instead of seated in bone (f372-f485). Repair: tighten the socket around the root and give the rim a smooth cortical edge with cancellous texture inside. Proof: f390 and f434.",
+      "box": [
+        450,
+        1170,
+        1080,
+        1410
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 100,
+      "what": "Scalpel blade reads as thick white marbled plastic, and the blood on its tip (and on the elevator tip at f33) is a hard-edged jagged red cut-out. Repair: brushed steel with a bevel highlight, slimmer blade profile, soft wet blood. Proof: f100.",
+      "box": [
+        0,
+        525,
+        630,
+        915
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 300,
+      "what": "Suction beat is 17 frames (0.57 s), too short to read the caption, and shows a whitish wedge-shaped streak with no pool of blood being removed. Repair: hold at least 30 frames and show a blood pool draining at the tip. Proof: f300 shows the pool level and the tip.",
+      "box": [
+        120,
+        330,
+        450,
+        780
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 540,
+      "what": "First root exits by swinging past the lens as a motion-blurred smear covering the left third of the frame for about f532-f548, so the delivered piece is soft at its key moment. Repair: lift the root up and out while it stays in focus for at least 8 frames. Proof: f540 shows a sharp root clear of the socket.",
+      "box": [
+        0,
+        318,
+        357,
+        1518
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 701,
+      "what": "Suture thread is drawn as a sawtooth zigzag polyline rather than a smooth curve (f690-f709). Repair: smooth spline thread with slack and tension. Proof: f701.",
+      "box": [
+        0,
+        735,
+        525,
+        825
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 367,
+      "what": "Thin pale hoop line circles the root at the crown junction before any cut, and at f0 its lower arc hangs free below the tooth like a wire loop (f0-f35, f307-f415, f777-f800). Repair: remove the curve or turn it into a subtle surface colour change at the neck. Proof: f0 and f367 show no line.",
+      "box": [
+        585,
+        675,
+        870,
+        786
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 768,
+      "what": "Second caption line overlaps the top of the crown specimen on the tray (f728-f776). Repair: lower the specimen framing or raise the caption block. Proof: f768 shows clear space between caption and crown.",
+      "box": [
+        300,
+        390,
+        810,
+        495
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 634,
+      "what": "Socket blood changes from dark red to pale pink in roughly eight frames (about f626-f640), reading as a material swap more than a flush. Repair: spread the dilution over 20+ frames with visible flow from the syringe tip. Proof: f630 shows a mid-dilution swirl.",
+      "box": [
+        0,
+        500,
+        1080,
+        1500
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 307,
+      "what": "From the cue sheet: the suction recording starts at f290 and runs 1.23 s, about 20 frames into the sectioning shot where no suction tip is visible; the drill recording ends near f252 while the bur stays engaged until f289. Repair: trim suction to the cut at f307 and extend the drill bed to f289. Proof: cue sheet shows suction ending by f307 and drill covering f186-f289.",
+      "box": [
+        0,
+        0,
+        1080,
+        1920
+      ]
+    },
+    {
+      "priority": "p1",
+      "frame": 100,
+      "what": "Step chip text ('02 / 07 | 절개') and the single '치관' tag are small at phone size. Repair: enlarge chip and tag text by about a third. Proof: f100 and f33.",
+      "box": [
+        414,
+        219,
+        666,
+        285
+      ]
+    }
+  ],
+  "not_checked": [
+    "Audio was not auditioned; audio score rests on audio_checks.json cue timing, measured loudness (-13.9 LUFS, -2.2 dBFS peak) and the empty speech transcript",
+    "Cached per-shot geometry.json proofs listed in assets.json were not opened (outside the permitted file list)",
+    "Duplicate-frame check at 30 fps beyond the near-still measurement",
+    "Fine text and edge detail judged from 360x640 stills and contact sheets",
+    "Frame-exact timing of the suture holder disappearance; only the 8-per-second strip was available",
+    "Historical rights dossier and character rights: the episode uses no person or Z-Anatomy asset per provenance_checks.json; not independently verified",
+    "LICENCE_AUDIT.md quotes the same SHA-256 that assets.json records for that file; not re-hashed",
+    "Licence evidence for 3D-COSI v1.1, Poly Haven and ambientCG items, the Hamze gingival texture, the BlenderKit clot material and the Earshot score is not in the packet beyond the description text",
+    "Movie hash differs between assets.json (final_surgery_v3.mp4 13f66a75...) and the provenance, facts and geometry receipts (81bb1fb1...); which one is the reviewed render cannot be settled from the packet",
+    "PubMed records 36508551 and 33854724 were not opened; caption-to-source support is taken from facts_checks.json only"
+  ],
+  "area_composite": 6.5,
+  "stage": "movie",
+  "pass": false
+}

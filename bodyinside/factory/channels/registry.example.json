@@ -1,0 +1,34 @@
+{
+ "schema": 1,
+ "note": "Example registry. Copy to registry.json (ignored by Git) and fill the real channel values locally; keep no secrets here. Slot times are KST (Asia/Seoul, UTC+9, no DST).",
+ "experiment_kill_rule": {
+  "applies_to": "status=experiment",
+  "first_uploads": 3,
+  "views_48h_below": 500,
+  "engaged_share_below": 0.3,
+  "stop_if": "every one of the first 3 uploads has views_48h < 500 AND engaged_views/views at 48 h < 30%",
+  "action": "stop scheduling new uploads; delete nothing, published videos stay",
+  "otherwise": "continue, re-judged every 7 days against the baseline channel",
+  "rejudge_every_days": 7,
+  "baseline_channel": "anatomy",
+  "source": "example; set the rule your team agreed",
+  "judge": "factory/ops/queue.py judge --channel KEY"
+ },
+ "channels": [
+  {
+   "key": "anatomy",
+   "name": "Body Inside",
+   "channel_id": "UCexampleBodyInsideChannel",
+   "handle": "@example-bodyinside",
+   "language": "ko",
+   "format": "3D medical-illustration anatomy Shorts",
+   "publish_slots_kst": [
+    "09:00"
+   ],
+   "uploads_per_day": 1,
+   "status": "experiment",
+   "package_prefix": "anat",
+   "package_glob": "anat*_B"
+  }
+ ]
+}

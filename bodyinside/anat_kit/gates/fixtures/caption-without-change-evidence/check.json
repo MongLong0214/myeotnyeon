@@ -1,0 +1,8 @@
+{
+ "fn": "caption_evidence",
+ "args": [
+  "episode.json"
+ ],
+ "kwargs": {},
+ "origin": "neck episode.json beats as of draft19: beat 4 (뒷목 근육이 계속 버텨야 한다) declares only object_scale MuscleGlow; fable_review10-13: muscles still"
+}

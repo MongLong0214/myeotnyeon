@@ -1,0 +1,56 @@
+{
+  "labels": [
+    {
+      "id": "lblA",
+      "kind": "note",
+      "f0": 332,
+      "f1": 554,
+      "dx": 130,
+      "dy": 30,
+      "size": 56,
+      "text": "중립 자세",
+      "ramp_out": 16,
+      "ramp": 4,
+      "claim": "X"
+    },
+    {
+      "id": "lblB",
+      "kind": "note",
+      "f0": 332,
+      "f1": 554,
+      "dx": 620,
+      "dy": 30,
+      "size": 56,
+      "text": "문자 입력 자세",
+      "ramp_out": 16,
+      "ramp": 4,
+      "claim": "X"
+    },
+    {
+      "id": "lblA2",
+      "kind": "note",
+      "f0": 538,
+      "f1": 722,
+      "dx": 130,
+      "dy": 30,
+      "size": 56,
+      "text": "중립 자세",
+      "ramp_out": 8,
+      "ramp": 16,
+      "claim": "X"
+    },
+    {
+      "id": "lblB2",
+      "kind": "note",
+      "f0": 538,
+      "f1": 722,
+      "dx": 620,
+      "dy": 30,
+      "size": 56,
+      "text": "문자 입력 자세",
+      "ramp_out": 8,
+      "ramp": 16,
+      "claim": "X"
+    }
+  ]
+}
